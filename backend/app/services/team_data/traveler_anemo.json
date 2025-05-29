@@ -1,0 +1,110 @@
+[
+    {
+        "id": "traveler_anemo_national_variant_kazuha_slot",
+        "name": "Viajante (Anemo) - National Kazuha/Venti Slot",
+        "strategy": "Viajante Anemo assume o lugar de Venti/Kazuha em uma das equipes Nacionais mais fortes, buffando Xiangling com C6 Sombra Verde e RES Shred.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_anemo",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer C6)",
+                "build_key": "traveler_anemo_support_vv_triple_em"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo / DPS Secundário (Buffer, VV RES Shred, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field",
+                "build_key": "xiangling_subdps_emblem_thecatch"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "traveler_anemo_xiao_hypercarry_support",
+        "name": "Viajante (Anemo) - Suporte Hypercarry Xiao",
+        "strategy": "Viajante Anemo é um forte suporte para Xiao, fornecendo RES Shred Anemo (única fonte F2P), partículas Anemo e Ressonância Anemo. Zhongli pode parar o tornado e fornecer mais RES Shred.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_anemo",
+                "role_in_team": "Suporte Anemo (Bateria, RES Shred Anemo C6)",
+                "build_key": "traveler_anemo_support_vv_triple_em"
+            },
+            {
+                "character_id": "xiao",
+                "role_in_team": "Main DPS Anemo (On-field Hypercarry)",
+                "build_key": "xiao_anemo_dps_vermillion_gladiator_homa_or_jade_spear"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal, Controle de Tornado)",
+                "build_key": "shielder_max_hp_utility_tenacity_favonius"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "traveler_anemo_freeze_support_ganyu_mona",
+        "name": "Viajante (Anemo) - Suporte Congelamento (Ganyu, Mona)",
+        "strategy": "Time de Congelamento típico. Viajante Anemo fornece principalmente 60% de RES Shred Cryo (4p Sombra Verde + C6). Ganyu como DPS Cryo e Mona como aplicadora Hydro e buffer.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_anemo",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo)",
+                "build_key": "traveler_anemo_support_vv_triple_em"
+            },
+            {
+                "character_id": "ganyu",
+                "role_in_team": "Main DPS Cryo (On-field)",
+                "build_key": "ganyu_dps_blizzard_strayer_amos"
+            },
+            {
+                "character_id": "mona",
+                "role_in_team": "Suporte Hydro (Buffer de Dano Omen, Aplicadora Hydro)",
+                "build_key": "mona_support_noblesse_ttds_er"
+            },
+            {
+                "character_id": "diona",
+                "role_in_team": "Escudeira / Healer / Bateria Cryo",
+                "build_key": "diona_shielder_healer_noblesse_sacrificial_bow"
+            }
+        ]
+    },
+    {
+        "id": "traveler_anemo_taser_beidou_fischl_xingqiu",
+        "name": "Viajante (Anemo) - Taser (Beidou, Fischl, Xingqiu)",
+        "strategy": "Um dos melhores times de Eletricamente Carregado (Taser), relativamente fácil de construir e jogar. Viajante Anemo aplica Sombra Verde para reduzir RES Hydro e Electro.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_anemo",
+                "role_in_team": "Suporte Anemo (VV RES Shred Hydro/Electro)",
+                "build_key": "traveler_anemo_support_vv_triple_em"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field (Dano em Área)",
+                "build_key": "beidou_subdps_emblem_eosf_archaic"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro Off-field / Aplicador Hydro",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            }
+        ]
+    }
+]

@@ -1,0 +1,114 @@
+{
+    "id": "arlecchino",
+    "name": "Arlecchino",
+    "element": "Pyro",
+    "rarity": 5,
+    "weapon": "Polearm",
+    "role": [
+        "On-Field DPS"
+    ],
+    "icon_url": "/assets/images/characters/arlecchino.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "build_options": [
+        {
+            "key": "arlecchino_onfield_dps_fragment_of_harmonic_whimsy",
+            "name": "DPS On-field (Fragmento da Fantasia Harmônica)",
+            "notes_build": "Foco em maximizar o dano pessoal de Arlecchino através de seus Ataques Normais imbuídos em Pyro, gerenciando o Contrato de Vida. 4p Fragmento da Fantasia Harmônica é seu melhor conjunto. ",
+            "artifacts": [
+                {
+                    "set_id": "fragment_of_harmonic_whimsy",
+                    "set_name": "Fragmento da Fantasia Harmônica",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto geral para Arlecchino, concede Bônus de Dano de acordo com o Contrato de Vida.  Ela consegue manter os acúmulos facilmente com seu estilo de jogo normal. ",
+                    "icon_url": "/assets/images/artifact_sets/fragment_of_harmonic_whimsy.png"
+                },
+                {
+                    "set_id": "gladiators_finale",
+                    "set_name": "Último Juramento do Gladiador",
+                    "pieces": 4,
+                    "notes": "Segunda melhor opção após Fragmento, fornecendo um buff incondicional aos Ataques Normais, sua principal fonte de dano.  Facilmente farmável através de Chefes Mundiais e Síntese de Artefatos. ",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
+                },
+                {
+                    "set_id": "unfinished_reverie",
+                    "set_name": "Devaneio Inacabado",
+                    "pieces": 4,
+                    "notes": "Este conjunto é estritamente limitado para uso em times de Queimadura, onde performa similarmente a Fantasia Harmônica.  Pode ser farmado junto com Fantasia Harmônica, o que ajuda na eficiência de Resina. ",
+                    "icon_url": "/assets/images/artifact_sets/unfinished_reverie.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Proficiência Elemental (EM para Vaporizar)",
+                "goblet": "Bônus de Dano Pyro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (EM) (para times de Vaporizar/Fusão)",
+                "Recarga de Energia (ER%) (baixa prioridade, Supremo usado para cura emergencial) "
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "crimson_moons_semblance",
+                    "name": "Semblante da Lua Carmesim (Crimson Moon's Semblance)",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado) (A SER VERIFICADO)",
+                    "notes": "Arma assinatura de Arlecchino; adaptada à sua mecânica de Contrato de Vida e performa notavelmente melhor que suas próximas melhores opções, além de melhorar a qualidade de vida com Contrato de Vida adicional.  Assume uma forma exclusiva de foice quando equipada em Arlecchino. ",
+                    "icon_url": "/assets/images/weapons_detail/crimson_moon's_semblance.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_winged_spear",
+                    "name": "Lança de Jade Primitiva",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Segunda melhor arma geral para Arlecchino, fornecendo stats base similares à sua assinatura e uma passiva útil que ela acumula facilmente. ",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_winged_spear.png"
+                },
+                {
+                    "weapon_id": "staff_of_the_scarlet_sands",
+                    "name": "Báculo das Areias Escarlates",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Competidor próximo à Lança de Jade, particularmente em times de Vaporizar onde Arlecchino usa Areia de EM. ",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_the_scarlet_sands.png"
+                },
+                {
+                    "weapon_id": "staff_of_homa",
+                    "name": "Báculo de Homa",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Outra excelente opção 5 estrelas, performando bem mesmo se Arlecchino estiver acima de 50% de HP. ",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_homa.png"
+                },
+                {
+                    "weapon_id": "deathmatch",
+                    "name": "Lança do Duelo (Deathmatch)",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Passe de Batalha (A SER VERIFICADO)",
+                    "notes": "Boa opção do Passe de Batalha, particularmente em cenários single-target. ",
+                    "icon_url": "/assets/images/weapons_detail/deathmatch.png"
+                },
+                {
+                    "weapon_id": "white_tassel",
+                    "name": "Borla Branca",
+                    "rarity": 3,
+                    "type": "Polearm",
+                    "category": "Baús (Liyue)",
+                    "notes": "Melhor opção gratuita para Arlecchino. Funciona melhor em times com Bennett para compensar seu baixo ATQ Base. ",
+                    "icon_url": "/assets/images/weapons_detail/white_tassel.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Supremo (Burst) (para cura/reset, não prioridade de dano) ",
+                "Habilidade Elemental (Skill) "
+            ]
+        }
+    ]
+}

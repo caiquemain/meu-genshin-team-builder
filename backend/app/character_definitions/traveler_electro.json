@@ -1,0 +1,155 @@
+{
+    "id": "traveler_electro",
+    "name": "Viajante (Electro) / Traveler (Electro)",
+    "element": "Electro",
+    "rarity": 5,
+    "weapon": "Sword",
+    "role": [
+        "Bateria (Gerador de Energia)",
+        "Suporte Off-Field DPS (Overload)"
+    ],
+    "icon_url": "/assets/images/characters/traveler_electro.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "build_options": [
+        {
+            "key": "traveler_electro_battery_favonius_emblem",
+            "name": "Bateria (Favonius - Selo da Insulação)",
+            "notes_build": "Foco principal em maximizar a geração de Energia Flat para a equipe. Requer muita Recarga de Energia para o próprio Viajante. Dano pessoal é baixo. C1 é essencial para aumentar a energia gerada.",
+            "artifacts": [
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto geral. O bônus de 2p fornece RE muito necessária e o bônus de 4p aproveita o total de RE construído e o converte em Dano do Supremo, que é de onde vem a maior parte do dano do Viajante Electro. [cite: 97, 98]",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "the_exile",
+                    "set_name": "O Exilado",
+                    "pieces": 4,
+                    "notes": "Recomendado para jogadores iniciantes (antes do AR 45) para maximizar a RE. [cite: 101, 102, 103]",
+                    "icon_url": "/assets/images/artifact_sets/the_exile.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Aumenta o dano geral da sua equipe e é um bom conjunto de suporte. [cite: 104] Recomendado colocar em outro suporte se possível, pois o Viajante Electro tem alto custo de Supremo. [cite: 105, 106]",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Electro / Proficiência Elemental (EM para Overload)",
+                "circlet": "Taxa CRIT (para Espada de Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~170-300% dependendo da equipe e se pega os Amuletos)",
+                "Taxa CRIT (para Espada de Favonius, ~50% recomendado)",
+                "Dano CRIT",
+                "Proficiência Elemental (EM) (se ativador de Overload)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Melhor arma para o Viajante como bateria. [cite: 69] Fornece RE e Partículas Neutras. [cite: 70] Requer Taxa CRIT para ativar a passiva. [cite: 72, 73]",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "sacrificial_sword",
+                    "name": "Espada do Sacrifício",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Permite usar a Habilidade, pegar os Amuletos, usar o Supremo, e então a Habilidade novamente para outro personagem pegar os novos Amuletos. [cite: 81, 82] R3+ recomendado para o cooldown da passiva. [cite: 83]",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_sword.png"
+                },
+                {
+                    "weapon_id": "amenoma_kageuchi",
+                    "name": "Espada Amenoma Kageuchi",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Arma forjável que fornece ATQ% e Energia Flat para o portador, requer planejamento cuidadoso da rotação. [cite: 76, 77, 78]",
+                    "icon_url": "/assets/images/weapons_detail/amenoma_kageuchi.png"
+                },
+                {
+                    "weapon_id": "festering_desire",
+                    "name": "Espada Pútrida (Festering Desire)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Evento",
+                    "notes": "Arma de evento limitada, não mais obtenível. [cite: 85] Usada principalmente pelo sub-status de RE (45.9%). [cite: 86]",
+                    "icon_url": "/assets/images/weapons_detail/festering_desire.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) (até Nv. 7 para máxima Energia)",
+                "Supremo (Burst) (até Nv. 7 para máxima Energia)",
+                "Ataque Normal (Nível 1)"
+            ]
+        },
+        {
+            "key": "traveler_electro_offfield_dps_overload",
+            "name": "DPS Off-field (Sobrecarga - Full EM)",
+            "notes_build": "Alternativa focada em dano de Sobrecarga com o Supremo. Requer outro personagem Electro para ajudar com RE e um aplicador Pyro consistente. Dano pessoal Electro é baixo.",
+            "artifacts": [
+                {
+                    "set_id": "thundering_fury",
+                    "set_name": "Trovão Furioso",
+                    "pieces": 4,
+                    "notes": "Funciona apenas em times específicos onde o Viajante Electro tem RE suficiente e é quem ativa Sobrecarga. [cite: 107] Requer prática e entendimento de reações. [cite: 108]",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png"
+                },
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Ainda uma opção forte se Trovão Furioso não for viável, focando no dano do Supremo e RE. [cite: 97, 98]",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / Proficiência Elemental (EM)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM) / Taxa CRIT (para Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Proficiência Elemental (EM)",
+                "Taxa CRIT (para Espada de Favonius)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Ainda uma excelente escolha para garantir o Supremo e ajudar a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "iron_sting",
+                    "name": "Espinho de Ferro",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Se RE estiver coberta, fornece EM para dano de Sobrecarga.",
+                    "icon_url": "/assets/images/weapons_detail/iron_sting.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (Nível 1)"
+            ]
+        }
+    ]
+}

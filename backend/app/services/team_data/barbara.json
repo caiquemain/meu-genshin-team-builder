@@ -1,0 +1,110 @@
+[
+    {
+        "id": "barbara_beidou_fischl_rosaria_electro_charged_superconduct",
+        "name": "Barbara - Eletricamente Carregado / Supercondutor (Beidou, Fischl, Rosaria)",
+        "strategy": "Barbara como driver com 4p Concha Tingida Pelo Mar (4OHC). Utiliza Eletricamente Carregado e Supercondutor, que buffa o dano Físico da passiva do 4OHC. Requer pelo menos 1 Electro e 1 Cryo.",
+        "characters_in_team": [
+            {
+                "character_id": "barbara",
+                "role_in_team": "Driver Hydro On-field / Healer (4OHC)",
+                "build_key": "barbara_dps_electro_charged_ocean_hued_clam"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field (Dano em Área)",
+                "build_key": "beidou_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo Off-field / Aplicadora Cryo para Supercondutor",
+                "build_key": "rosaria_cryo_subdps_noblesse_favonius"
+            }
+        ]
+    },
+    {
+        "id": "barbara_bennett_xiangling_kazuha_vaporize",
+        "name": "Barbara - Vaporizar (Bennett, Xiangling, Kazuha)",
+        "strategy": "Barbara como DPS on-field ativando Vaporizar. Requer duas unidades Pyro para garantir aura Pyro suficiente, ou um Anemo que continuamente aplique Swirl Pyro. Bennett e Xiangling fornecem dano e aplicação Pyro, Kazuha agrupa e aplica VV Shred.",
+        "characters_in_team": [
+            {
+                "character_id": "barbara",
+                "role_in_team": "Main DPS Hydro On-field (Vaporize)",
+                "build_key": "barbara_dps_vaporize_wanderers_troupe"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Aplicador Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field / Aplicadora Pyro",
+                "build_key": "xiangling_subdps_emblem_thecatch"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Agrupamento, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "barbara_xingqiu_thoma_dendro_traveler_burgeon_healer",
+        "name": "Barbara - Healer Germinação (Xingqiu, Thoma, Viajante Dendro)",
+        "strategy": "Barbara atua como curandeira pura para compensar parte do auto-dano de Germinação. Outro personagem Hydro (Xingqiu) é necessário para evitar a reação de Queimadura, pois a aplicação Hydro de Barbara não é suficiente sozinha.",
+        "characters_in_team": [
+            {
+                "character_id": "barbara",
+                "role_in_team": "Healer Pura",
+                "build_key": "barbara_pure_healer_ocean_hued_clam"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Ativador de Germinação (Full EM) / Escudeiro",
+                "build_key": "thoma_burgeon_full_em_kitain_or_favonius"
+            },
+            {
+                "character_id": "traveler_dendro",
+                "role_in_team": "Aplicador Dendro Off-field",
+                "build_key": "traveler_dendro_support_deepwood_favonius_er"
+            }
+        ]
+    },
+    {
+        "id": "barbara_xingqiu_nilou_nahida_nilou_bloom_healer",
+        "name": "Barbara - Healer Nilou Bloom (Xingqiu, Nilou, Nahida)",
+        "strategy": "Barbara atua como curandeira em times de Florescimento de Nilou. Pode ser jogada off-field, mas isso pode levar a cura insuficiente. Xingqiu para aplicação Hydro adicional.",
+        "characters_in_team": [
+            {
+                "character_id": "barbara",
+                "role_in_team": "Healer / Aplicadora Hydro On-field",
+                "build_key": "barbara_pure_healer_ocean_hued_clam"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "nilou",
+                "role_in_team": "Ativadora de Florescimento Abundante / Aplicadora Hydro",
+                "build_key": "nilou_bloom_hp_keyofkhajnisut"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Principal / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            }
+        ]
+    }
+]

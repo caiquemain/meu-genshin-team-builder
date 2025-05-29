@@ -1,0 +1,177 @@
+{
+    "id": "chongyun",
+    "name": "Chongyun",
+    "element": "Cryo",
+    "rarity": 4,
+    "weapon": "Claymore",
+    "role": [
+        "Enabler de Reação Cryo (Infusão Cryo)",
+        "Suporte de Supremo (Burst Support)"
+    ],
+    "icon_url": "/assets/images/characters/chongyun.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "build_options": [
+        {
+            "key": "chongyun_burst_support_noblesse",
+            "name": "Suporte de Supremo (Ritual Real)",
+            "notes_build": "Focado em usar o Supremo para causar dano e buffar a equipe com 4p Ritual Real. Útil em times de Fusão Reversa e Congelamento.  Atingir os requisitos de RE é importante, mas geralmente baixos. ",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Chongyun pode usar 4p Ritual Real para fornecer um buff de ATQ% para toda a equipe com seu Supremo. Ele quase sempre usa este conjunto em times de Fusão Progressiva e Congelamento. ",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "blizzard_strayer_noblesse_oblige_2pc_mix",
+                    "set_name": "Herói Invernal (2p) + Antigo Ritual Real (2p)",
+                    "pieces": "2+2",
+                    "notes": "Opções universalmente viáveis, mas sem buff para a equipe. Podem ser usadas como um conjunto de transição enquanto farma 4p Ritual Real. Esta combinação pode ser comparável a 4p Selo da Insulação em termos de dano pessoal de Chongyun. ",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "blizzard_strayer",
+                        "noblesse_oblige"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Cryo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "wolfs_gravestone",
+                    "name": "Túmulo do Lobo",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Arma mais recomendada para Chongyun devido ao seu buff de ATQ% para toda a equipe, apesar de seu uptime inconsistente. ",
+                    "icon_url": "/assets/images/weapons_detail/wolfs_gravestone.png"
+                },
+                {
+                    "weapon_id": "sacrificial_greatsword",
+                    "name": "Espadão do Sacrifício",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Permite que Chongyun ative sua Passiva A4 na primeira rotação e encaixe um segundo uso da Habilidade se necessário, cobrindo seus requisitos de RE e gerando mais Partículas Cryo. ",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_greatsword.png"
+                },
+                {
+                    "weapon_id": "luxurious_sea_lord",
+                    "name": "Lord do Mar Luxuoso",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Evento",
+                    "notes": "R5 concede grandes quantidades de ATQ% e Bônus de Dano do Supremo. Melhor opção F2P se você a tiver. ",
+                    "icon_url": "/assets/images/weapons_detail/luxurious_sea-lord.png"
+                },
+                {
+                    "weapon_id": "favonius_greatsword",
+                    "name": "Espadão de Favonius",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Reduz os requisitos de RE de sua equipe, permitindo que invistam em mais stats ofensivos, o que pode levar a um maior resultado de dano. ",
+                    "icon_url": "/assets/images/weapons_detail/favonius_greatsword.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (não recomendado upar para esta build)"
+            ]
+        },
+        {
+            "key": "chongyun_melt_burst_dps",
+            "name": "DPS de Supremo com Fusão (Melt Burst)",
+            "notes_build": "Focado em maximizar o dano do Supremo de Chongyun através da reação de Fusão. Prioriza Proficiência Elemental após CRIT e RE.  4p Selo da Insulação ou 4p Sonhos Dourados são boas opções.",
+            "artifacts": [
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Um dos melhores conjuntos para o dano pessoal de Chongyun. ",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Viável desde que Chongyun consiga causar Fusão com seu Supremo, devido ao EM e ATQ%. ",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "lavawalker",
+                    "set_name": "Atravessador de Fogo",
+                    "pieces": 4,
+                    "notes": "Forte escolha para times de Fusão Reversa, mas não recomendado farmar a menos que você também precise de Bruxa das Chamas Carmesim para outro personagem. ",
+                    "icon_url": "/assets/images/artifact_sets/lavawalker.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / ATK%",
+                "goblet": "Bônus de Dano Cryo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "wolfs_gravestone",
+                    "name": "Túmulo do Lobo",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Ainda muito forte devido ao buff de ATQ% para a equipe. ",
+                    "icon_url": "/assets/images/weapons_detail/wolfs_gravestone.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Outra escolha forte para dano pessoal. ",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "akuoumaru",
+                    "name": "Akuoumaru",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Pode ser uma boa opção para aumentar o dano do Supremo de Chongyun em times de Fusão. ",
+                    "icon_url": "/assets/images/weapons_detail/akuoumaru.png"
+                },
+                {
+                    "weapon_id": "mailed_flower",
+                    "name": "Flor Empilhada",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Evento",
+                    "notes": "Melhor opção F2P de Chongyun em times de Fusão se você começar a rotação com sua Habilidade e conseguir causar Fusão com seu Supremo. ",
+                    "icon_url": "/assets/images/weapons_detail/mailed_flower.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (não recomendado upar)"
+            ]
+        }
+    ]
+}

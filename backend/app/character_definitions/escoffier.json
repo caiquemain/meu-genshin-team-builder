@@ -1,0 +1,142 @@
+{
+    "id": "escoffier",
+    "name": "Escoffier",
+    "element": "Cryo",
+    "rarity": 5,
+    "weapon": "Polearm",
+    "role": [
+        "Sub-DPS",
+        "Support",
+        "Healer",
+        "Debuffer (RES Shred)"
+    ],
+    "icon_url": "/assets/images/characters/escoffier.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "build_options": [
+        {
+            "key": "off_field_cryo_hydro_support",
+            "name": "Suporte Off-field (Times Cryo/Hydro)",
+            "notes_build": "Foco em dano off-field da Habilidade Elemental, cura do Supremo e redução de RES Cryo/Hydro. ER é importante para o Supremo.",
+            "artifacts": [
+                {
+                    "set_id": "golden_troupe",
+                    "set_name": "Trupe Dourada",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto contra inimigos não congeláveis e segunda melhor opção contra congeláveis. Ótima sinergia com seu dano de Habilidade Elemental off-field.",
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
+                },
+                {
+                    "set_id": "blizzard_strayer",
+                    "set_name": "Herói Invernal",
+                    "pieces": 4,
+                    "notes": "Pode ser ligeiramente melhor que Trupe Dourada contra inimigos congeláveis, mas menos consistente se não for possível congelar.",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png"
+                },
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Opção de suporte para buffar o time, sacrificando dano pessoal. Boa uptime.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                },
+                {
+                    "set_id": "scroll_of_the_hero_of_cinder_city",
+                    "set_name": "Pergaminho do Herói da Cidade das Cinzas",
+                    "pieces": 4,
+                    "notes": "Outra opção de suporte para buffar Dano Elemental do time.",
+                    "icon_url": "/assets/images/artifact_sets/scroll_of_the_hero_of_cinder_city.png"
+                },
+                {
+                    "combo_name_display": "2p Dano Cryo / Dano Skill / ATK% / ER%",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "blizzard_strayer",
+                        "golden_troupe"
+                    ],
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png",
+                    "notes": "Opções de orçamento enquanto farma um conjunto de 4 peças dedicado."
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Cryo / ATK%",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até os requisitos)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "symphonist_of_scents",
+                    "name": "Sinfonista dos Aromas ",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Melhor arma, fornece CRIT e buff de ATK para ela e o personagem ativo quando cura.",
+                    "icon_url": "/assets/images/weapons_detail/symphonist_of_scents.png"
+                },
+                {
+                    "weapon_id": "calamity_queller",
+                    "name": "Pacificadora de Calamidades ",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Ótima opção 5 estrelas.",
+                    "icon_url": "/assets/images/weapons_detail/calamity_queller.png"
+                },
+                {
+                    "weapon_id": "staff_of_homa",
+                    "name": "Báculo de Homa ",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Ótima opção 5 estrelas.",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_homa.png"
+                },
+                {
+                    "weapon_id": "lumidouce_elegy",
+                    "name": "Lumidouce Elegy",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Ótima opção 5 estrelas.",
+                    "icon_url": "/assets/images/weapons_detail/lumidouce_elegy.png"
+                },
+                {
+                    "weapon_id": "engulfing_lightning",
+                    "name": "Luz das Profundezas ",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Desempenho depende dos requisitos de ER; excelente com ER alto.",
+                    "icon_url": "/assets/images/weapons_detail/engulfing_lightning.png"
+                },
+                {
+                    "weapon_id": "deathmatch",
+                    "name": "Lança do Duelo",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Passe de Batalha",
+                    "notes": "Melhor opção 4 estrelas, supera algumas 5 estrelas em single-target com refinamentos altos.",
+                    "icon_url": "/assets/images/weapons_detail/deathmatch.png"
+                },
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Opção de utilidade se o time precisar de energia, ou se os requisitos de ER de Escoffier forem altos.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        }
+    ]
+}

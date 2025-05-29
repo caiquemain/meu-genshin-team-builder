@@ -1,0 +1,110 @@
+[
+    {
+        "id": "collei_fischl_keqing_kazuha_quicken_aggravate",
+        "name": "Collei - Quicken/Aggravate (Fischl, Keqing, Kazuha)",
+        "strategy": "Collei como aplicadora Dendro off-field para habilitar Agravamento para Keqing e Fischl. Kazuha com Sombra Verde para reduzir RES Electro e agrupar. Collei pode usar 4p Tenacidade dos Millelith (C2+) para buffar ATQ ou 4p Memórias da Floresta.",
+        "characters_in_team": [
+            {
+                "character_id": "collei",
+                "role_in_team": "Suporte Dendro / Aplicadora Dendro Off-field (Aura)",
+                "build_key": "collei_support_deepwood_favonius"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria / Ativadora A4 Aggravate",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            },
+            {
+                "character_id": "keqing",
+                "role_in_team": "Main DPS Electro On-field (Aggravate Driver)",
+                "build_key": "keqing_aggravate_dps_thunderingfury"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "collei_thoma_xingqiu_kokomi_burgeon",
+        "name": "Collei - Burgeon (Thoma, Xingqiu, Kokomi)",
+        "strategy": "Collei como aplicadora Dendro (aura) para gerar Sementes Dendro com Kokomi e Xingqiu. Thoma (full EM) ativa Germinação. Kokomi também cura o auto-dano de Germinação.",
+        "characters_in_team": [
+            {
+                "character_id": "collei",
+                "role_in_team": "Aplicadora Dendro Off-field (Aura para Sementes)",
+                "build_key": "collei_support_deepwood_favonius"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Ativador de Germinação (Full EM) / Escudeiro",
+                "build_key": "thoma_burgeon_full_em_kitain_or_dragons_bane"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Aplicadora Hydro On-field/Off-field",
+                "build_key": "kokomi_healer_tenacity_oceanhued_prototype_amber"
+            }
+        ]
+    },
+    {
+        "id": "collei_kokomi_yelan_rosaria_bloom_fridge",
+        "name": "Collei - Bloom/Fridge (Kokomi, Yelan, Rosaria)",
+        "strategy": "Collei (build de EM) como ativadora de Florescimento ou aplicadora Dendro. Kokomi e Yelan para aplicação Hydro massiva. Rosaria para aplicação Cryo, permitindo Congelamento (Fridge) para preservar auras e gerar mais Sementes.",
+        "characters_in_team": [
+            {
+                "character_id": "collei",
+                "role_in_team": "Ativadora de Florescimento (Full EM) / Aplicadora Dendro",
+                "build_key": "collei_bloom_trigger_gilded_dreams_em"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Aplicadora Hydro On-field (Pode ser ativadora de Florescimento)",
+                "build_key": "kokomi_healer_driver_oceanhued_clam_sacrificialfragments_em_if_trigger"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_favonius_or_elegy"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo / Aplicadora Cryo para Fridge",
+                "build_key": "rosaria_cryo_subdps_noblesse_favonius"
+            }
+        ]
+    },
+    {
+        "id": "collei_bennett_xiangling_kazuha_burning",
+        "name": "Collei - Burning (Bennett, Xiangling, Kazuha)",
+        "strategy": "Collei como ativadora ou aplicadora Dendro para a reação de Queimadura. Bennett e Xiangling para aplicação Pyro massiva e buffs. Kazuha para agrupar e espalhar Pyro com Sombra Verde.",
+        "characters_in_team": [
+            {
+                "character_id": "collei",
+                "role_in_team": "Ativadora/Aplicadora Dendro para Queimadura (EM ou CRIT)",
+                "build_key": "collei_bloom_trigger_gilded_dreams_em"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field / Aplicadora Pyro Principal",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Agrupamento, Espalhador de Pyro)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    }
+]

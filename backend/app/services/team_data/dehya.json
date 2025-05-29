@@ -1,0 +1,110 @@
+[
+    {
+        "id": "dehya_bennett_xiangling_kazuha_mono_pyro",
+        "name": "Dehya - Mono Pyro On-field (Bennett, Xiangling, Kazuha)",
+        "strategy": "Time Mono Pyro testado e aprovado onde Dehya pode se encaixar confortavelmente como DPS on-field. Bennett é vital, fornecendo buff de ATQ e partículas Pyro. Kazuha para RES Shred Pyro e buffs. Xiangling para dano off-field.",
+        "characters_in_team": [
+            {
+                "character_id": "dehya",
+                "role_in_team": "Main DPS Pyro On-field (Burst)",
+                "build_key": "dehya_onfield_dps_emblem_beacon"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "dehya_ganyu_bennett_nahida_burnmelt_support",
+        "name": "Dehya - Suporte Melt Ganyu (Burnmelt com Nahida, Bennett)",
+        "strategy": "Times de Ganyu Melt com Dehya focam principalmente na utilidade defensiva off-field de Dehya. Nahida permite 'BurnMelt' com sua aplicação Dendro 1.5U, usando o Pyro de Bennett/Dehya para Queimadura, que serve como aura Pyro para Ganyu causar Fusão.",
+        "characters_in_team": [
+            {
+                "character_id": "dehya",
+                "role_in_team": "Suporte Off-field (Mitigação de Dano, Aplicação Pyro para Queimadura)",
+                "build_key": "dehya_offfield_support_tenacity_favonius"
+            },
+            {
+                "character_id": "ganyu",
+                "role_in_team": "Main DPS Cryo (Melt com Ataque Carregado)",
+                "build_key": "ganyu_melt_dps_wanderers_troupe_shimenawa"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Aplicador Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Suporte Dendro (Aplicadora Dendro para Queimadura, Buffer EM)",
+                "build_key": "nahida_offfield_support_deepwood_em_crit"
+            }
+        ]
+    },
+    {
+        "id": "dehya_xingqiu_nahida_kuki_hyperburgeon",
+        "name": "Dehya - Hyperburgeon (Xingqiu, Nahida, Kuki Shinobu)",
+        "strategy": "Dehya de Germinação usa seus ataques coordenados da Habilidade Elemental para aplicar Pyro nos Núcleos Dendro. Ter um colega Electro para ativar Hiperflorecimento entre os procs da Habilidade de Dehya permite mais reações e, consequentemente, mais dano.",
+        "characters_in_team": [
+            {
+                "character_id": "dehya",
+                "role_in_team": "Ativadora de Germinação (Full EM) / Mitigação de Dano",
+                "build_key": "dehya_burgeon_trigger_flower_paradise_mailed_flower"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Ativadora de Hyperbloom (Full EM)",
+                "build_key": "kuki_shinobu_hyperbloom_full_em_flowerofparadiselost"
+            }
+        ]
+    },
+    {
+        "id": "dehya_hu_tao_yelan_kazuha_offfield_support_vape",
+        "name": "Dehya - Suporte Off-field Vape (Hu Tao, Yelan, Kazuha)",
+        "strategy": "A resistência à interrupção e mitigação de dano de Dehya permite que ela se encaixe em várias equipes como suporte off-field. Seu Supremo geralmente é ignorado. Dehya permite setups de Swirl Duplo fáceis para Hu Tao em times de VV Vape.",
+        "characters_in_team": [
+            {
+                "character_id": "dehya",
+                "role_in_team": "Suporte Off-field (Mitigação de Dano, Enabler de Swirl)",
+                "build_key": "dehya_offfield_support_tenacity_favonius"
+            },
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro On-field (Vaporize)",
+                "build_key": "hutao_dps_crimson_shimenawa_homa"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro/Hydro, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    }
+]

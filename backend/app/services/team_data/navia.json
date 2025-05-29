@@ -1,0 +1,110 @@
+[
+    {
+        "id": "navia_xilonen_furina_bennett_double_geo_hydro_pyro",
+        "name": "Navia - Geo/Hydro/Pyro (Xilonen, Furina, Bennett)",
+        "strategy": "Time com alto potencial de dano. Furina oferece buff de Dano%, Bennett buff de ATQ massivo. Xilonen cura para combater o HP drain de Furina, gera partículas Geo, buffa com 4p Pergaminho e aplica RES Shred para Geo e Hydro. ",
+        "characters_in_team": [
+            {
+                "character_id": "navia",
+                "role_in_team": "Main DPS Geo (On-field)",
+                "build_key": "navia_onfield_dps_nighttime_whispers"
+            },
+            {
+                "character_id": "xilonen",
+                "role_in_team": "Suporte Geo (Healer, Bateria, Buffer com Pergaminho, RES Shred)",
+                "build_key": "xilonen_geo_support_scroll_favonius"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "navia_chiori_fischl_bennett_double_geo_electro_pyro",
+        "name": "Navia - Geo/Electro/Pyro (Chiori, Fischl, Bennett)",
+        "strategy": "Os cooldowns curtos de Fischl permitem que Navia use uma rotação curta de 16.5s. Chiori fornece dano off-field e partículas Geo. Bennett buffa ATQ. ",
+        "characters_in_team": [
+            {
+                "character_id": "navia",
+                "role_in_team": "Main DPS Geo (On-field)",
+                "build_key": "navia_onfield_dps_nighttime_whispers"
+            },
+            {
+                "character_id": "chiori",
+                "role_in_team": "Sub-DPS Geo Off-field / Bateria",
+                "build_key": "chiori_offfield_geo_dps_husk_or_golden_troupe"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Aplicadora Electro",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "navia_xilonen_mavuika_bennett_double_geo_pyro",
+        "name": "Navia - Geo/Pyro (Xilonen, Mavuika, Bennett)",
+        "strategy": "Xilonen e Bennett são excelentes para Navia e Mavuika. Bennett dá buff de ATQ e Ressonância Pyro, Xilonen aplica RES Shred Geo/Pyro e buffa ambos com 4p Pergaminho. Mavuika para dano off-field e aplicação Pyro. ",
+        "characters_in_team": [
+            {
+                "character_id": "navia",
+                "role_in_team": "Main DPS Geo (On-field)",
+                "build_key": "navia_onfield_dps_nighttime_whispers"
+            },
+            {
+                "character_id": "xilonen",
+                "role_in_team": "Suporte Geo (Buffer com Pergaminho, RES Shred Geo/Pyro, Bateria)",
+                "build_key": "xilonen_geo_support_scroll_favonius"
+            },
+            {
+                "character_id": "mavuika",
+                "role_in_team": "Sub-DPS Pyro Off-field / Aplicadora Pyro",
+                "build_key": "mavuika_pyro_subdps_emblem_or_crimson"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "navia_kachina_xiangling_bennett_f2p_friendly_geo_pyro",
+        "name": "Navia - Geo/Pyro Acessível (Kachina, Xiangling, Bennett)",
+        "strategy": "Time acessível com unidades 4 estrelas. Kachina gera partículas Geo e usa 4p Pergaminho para buffar dano Geo e Pyro. Xiangling contribui com dano pessoal, aplicação Pyro e Ressonância Pyro. ",
+        "characters_in_team": [
+            {
+                "character_id": "navia",
+                "role_in_team": "Main DPS Geo (On-field)",
+                "build_key": "navia_onfield_dps_nighttime_whispers"
+            },
+            {
+                "character_id": "kachina",
+                "role_in_team": "Suporte Geo (Bateria, Buffer com Pergaminho)",
+                "build_key": "kachina_geo_support_scroll_favonius"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field / Aplicadora Pyro",
+                "build_key": "xiangling_subdps_emblem_thecatch"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    }
+]

@@ -1,0 +1,94 @@
+{
+    "id": "eula",
+    "name": "Eula",
+    "element": "Cryo",
+    "rarity": 5,
+    "weapon": "Claymore",
+    "role": [
+        "Main DPS (Dano Físico)"
+    ],
+    "icon_url": "/assets/images/characters/eula.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "build_options": [
+        {
+            "key": "eula_physical_dps_pale_flame_songofbrokenpines",
+            "name": "DPS Físico (Chama Pálida - Canção dos Pinhos)",
+            "notes_build": "Foco em maximizar o Dano Físico de Eula, especialmente seu Supremo. Chama Pálida (4p) é seu BiS se conseguir manter os stacks. Canção dos Pinhos Quebrados é sua melhor arma.",
+            "artifacts": [
+                {
+                    "set_id": "pale_flame",
+                    "set_name": "Chama Pálida",
+                    "pieces": 4,
+                    "notes": "Seu Melhor Conjunto (BiS). O efeito de 4 peças é extremamente poderoso, mas requer manutenção das cargas, o que pode ser complicado.",
+                    "icon_url": "/assets/images/artifact_sets/pale_flame.png"
+                },
+                {
+                    "set_id": "pale_flame_bloodstained_chivalry_2pc_mix",
+                    "set_name": "Chama Pálida (2p) + Cavaleiro Manchado de Sangue (2p)",
+                    "pieces": "2+2",
+                    "notes": "Uma opção mais consistente, oferecendo um bônus de Dano Físico de 50% sem condições. Ligeiramente mais fraco que 4p Chama Pálida otimizado.",
+                    "icon_url": "/assets/images/artifact_sets/pale_flame.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "pale_flame",
+                        "bloodstained_chivalry"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Físico",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "Recarga de Energia (ER%) (até o requisito, ~130-160%)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "song_of_broken_pines",
+                    "name": "Canção dos Pinhos Quebrados",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Eula. Oferece ATQ Base alto, Bônus de Dano Físico, e buffs de ATQ% e Velocidade de ATQ para Eula e a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/song_of_broken_pines.png"
+                },
+                {
+                    "weapon_id": "beacon_of_the_reed_sea",
+                    "name": "Sinal dos Mares de Juncos",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Uma arma poderosa com Taxa CRIT e um passivo de ATQ%. Funciona bem mesmo sem escudo.",
+                    "icon_url": "/assets/images/weapons_detail/beacon_of_the_reed_sea.png"
+                },
+                {
+                    "weapon_id": "wolfs_gravestone",
+                    "name": "Túmulo do Lobo",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Grande quantidade de ATQ% e um buff de ATQ para a equipe (condicional).",
+                    "icon_url": "/assets/images/weapons_detail/wolfs_gravestone.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Excelente opção 4 estrelas. Substatus de Taxa CRIT e passiva de Bônus de DANO. Perde cargas ao sofrer dano, então um escudo é recomendado.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)"
+            ]
+        }
+    ]
+}

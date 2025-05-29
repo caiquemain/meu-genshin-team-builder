@@ -1,0 +1,247 @@
+{
+    "id": "ganyu",
+    "name": "Ganyu",
+    "element": "Cryo",
+    "rarity": 5,
+    "weapon": "Bow",
+    "role": [
+        "On-Field DPS (Ataque Carregado - Fusão/Congelamento)",
+        "Off-Field Support/Sub-DPS (Supremo)"
+    ],
+    "icon_url": "/assets/images/characters/ganyu.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "build_options": [
+        {
+            "key": "ganyu_freeze_dps_blizzard_strayer",
+            "name": "DPS Congelamento (Herói Invernal)",
+            "notes_build": "Foco em times de Congelamento, utilizando 4p Herói Invernal para alta Taxa CRIT. Prioriza Dano CRIT e ATQ%. O Supremo é uma parte importante do dano.",
+            "artifacts": [
+                {
+                    "set_id": "blizzard_strayer",
+                    "set_name": "Herói Invernal",
+                    "pieces": 4,
+                    "notes": "O único conjunto que você deve usar para builds de Ganyu de Congelamento. A Taxa CRIT gratuita fornecida pelo efeito de 4p o torna a melhor opção.",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Cryo",
+                "circlet": "Dano CRIT / ATK% (ATK% competitivo com Arcos de Dano CRIT)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ~120-140%)",
+                "Dano CRIT",
+                "ATK%",
+                "Taxa CRIT (meta de 35-45%)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "the_first_great_magic",
+                    "name": "A Primeira Grande Mágica",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma geral de Ganyu. Mesmo sem outros membros Cryo na equipe, é competitiva com todas as outras armas dela.",
+                    "icon_url": "/assets/images/weapons_detail/the_first_great_magic.png"
+                },
+                {
+                    "weapon_id": "polar_star",
+                    "name": "Estrela Invernal",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Uma das melhores armas de Ganyu. BiS em times de Congelamento e Mono Cryo. Alta Taxa CRIT é útil.",
+                    "icon_url": "/assets/images/weapons_detail/polar_star.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Uma das melhores armas de Ganyu, comparável à Estrela Invernal em Congelamento. Requer proximidade para a passiva.",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                },
+                {
+                    "weapon_id": "amos_bow",
+                    "name": "Arco de Amos",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Em times de Congelamento, Amos pode alcançar mais acúmulos, mas o Supremo não se beneficia da passiva. Um Protótipo Crescente R5 pode superá-lo.",
+                    "icon_url": "/assets/images/weapons_detail/amos_Arco.png"
+                },
+                {
+                    "weapon_id": "prototype_crescent",
+                    "name": "Protótipo Crescente",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Forja",
+                    "notes": "Arma 4 estrelas preferida de Ganyu, forjável. O ATQ% imenso é valioso. Requer acerto em ponto fraco.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_crescent.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Ataque Normal (para Tiro Carregado)",
+                "Habilidade Elemental (Skill)"
+            ]
+        },
+        {
+            "key": "ganyu_melt_dps_wanderers_troupe",
+            "name": "DPS Fusão (Trupe Itinerante)",
+            "notes_build": "Estilo de jogo exigente que aproveita a reação de Fusão Reversa para causar dano enorme com Ataques Carregados. 4p Trupe Itinerante é geralmente BiS. Evita usar o Supremo, pois pode roubar Fusões.",
+            "artifacts": [
+                {
+                    "set_id": "wanderers_troupe",
+                    "set_name": "Trupe Itinerante",
+                    "pieces": 4,
+                    "notes": "Geralmente a opção BiS. Farmável passivamente por Chefes e disponível na Síntese. Efeito de 4p incondicional.",
+                    "icon_url": "/assets/images/artifact_sets/wanderers_troupe.png"
+                },
+                {
+                    "set_id": "shimenawas_reminiscence",
+                    "set_name": "Reminiscência Nostálgica",
+                    "pieces": 4,
+                    "notes": "Dano ligeiramente maior que 4p Trupe no papel, mas com desvantagens (restritivo com rotações e armas, requer 5 Tiros Carregados em menos de 10s). Conveniente de farmar.",
+                    "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png"
+                },
+                {
+                    "set_id": "blizzard_em_atk_2pc_mix_melt",
+                    "set_name": "Herói Invernal (2p) + EM (2p) / ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações geralmente piores que os conjuntos de 4p acima, mas podem superar dependendo dos sub-stats. (Ex: Herói Invernal + Trupe Itinerante/Sonhos Dourados).",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "blizzard_strayer",
+                        "wanderers_troupe"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) > ATK% (EM preferível com Bennett)",
+                "goblet": "Bônus de Dano Cryo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Proficiência Elemental (EM) (até 200)",
+                "Taxa CRIT / Dano CRIT (visar 1:2, considerando +20% Taxa CRIT nos Tiros Carregados)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "hunters_path",
+                    "name": "Caminho do Caçador",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Ganyu de Fusão. Fornece Taxa CRIT massiva e buffa o dano do Tiro Carregado com base na EM.",
+                    "icon_url": "/assets/images/weapons_detail/hunters_path.png"
+                },
+                {
+                    "weapon_id": "the_first_great_magic",
+                    "name": "A Primeira Grande Mágica",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Em Fusão, Caminho do Caçador geralmente supera por pouco A Primeira Grande Mágica, mesmo sem outros Cryo.",
+                    "icon_url": "/assets/images/weapons_detail/the_first_great_magic.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Uma das melhores armas, logo atrás de Caminho do Caçador em Fusão.",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                },
+                {
+                    "weapon_id": "hamayumi",
+                    "name": "Hamayumi",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Forja",
+                    "notes": "Melhor opção F2P para Fusão, comparável a algumas 5 estrelas. Passiva requer Energia cheia.",
+                    "icon_url": "/assets/images/weapons_detail/hamayumi.png"
+                },
+                {
+                    "weapon_id": "prototype_crescent",
+                    "name": "Protótipo Crescente",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Forja",
+                    "notes": "Opção 4 estrelas preferida se conseguir acertar pontos fracos. Hamayumi preferível em Fusão se não.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_crescent.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal (para Tiro Carregado)",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst) (pode ser ignorado)"
+            ]
+        },
+        {
+            "key": "ganyu_mono_cryo_dps_blizzard_strayer",
+            "name": "DPS Mono Cryo (Herói Invernal)",
+            "notes_build": "Estilo de jogo flexível, usando Supremos fora do cooldown e Tiros Carregados. Similar a Congelamento, mas com mais Taxa CRIT na build, pois não há Congelamento. Ótimo contra inimigos não congeláveis.",
+            "artifacts": [
+                {
+                    "set_id": "blizzard_strayer",
+                    "set_name": "Herói Invernal",
+                    "pieces": 4,
+                    "notes": "Conjunto ideal para Ganyu em Mono Cryo. Buff de Taxa CRIT menor que em times de Congelamento, mas ainda o BiS.",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Cryo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Dano CRIT",
+                "Taxa CRIT (visar 50-65%)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "the_first_great_magic",
+                    "name": "A Primeira Grande Mágica",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Em Mono Cryo, onde pode obter todos os acúmulos, aproxima-se ainda mais da Estrela Invernal.",
+                    "icon_url": "/assets/images/weapons_detail/the_first_great_magic.png"
+                },
+                {
+                    "weapon_id": "polar_star",
+                    "name": "Estrela Invernal",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "BiS em times Mono Cryo. Taxa CRIT alta é útil.",
+                    "icon_url": "/assets/images/weapons_detail/polar_star.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Aqua Simulacra fica para trás em Mono Cryo devido à sua falta de ATQ.",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Ataque Normal (para Tiro Carregado)",
+                "Habilidade Elemental (Skill)"
+            ]
+        }
+    ]
+}

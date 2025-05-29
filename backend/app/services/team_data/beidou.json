@@ -1,0 +1,137 @@
+[
+    {
+        "id": "beidou_nahida_clorinde_furina_quicken_quickbloom",
+        "name": "Beidou - Quicken/Quickbloom (Nahida, Clorinde, Furina)",
+        "strategy": "Os ataques rápidos e de longo alcance de Clorinde são ótimos para ativar o Supremo de Beidou. Nahida e Furina fornecem dano off-field, aplicação Dendro/Hydro e buffs. ",
+        "characters_in_team": [
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field",
+                "build_key": "beidou_offfield_dps_emblem"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Suporte Dendro / Aplicadora Dendro Off-field",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "clorinde",
+                "role_in_team": "Main DPS Electro On-field (Driver)",
+                "build_key": "clorinde_electro_dps_thundering_fury_or_gladiator"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            }
+        ]
+    },
+    {
+        "id": "beidou_alhaitham_fischl_kokomi_quicken_quickbloom",
+        "name": "Beidou - Quicken/Quickbloom (Alhaitham, Fischl, Kokomi)",
+        "strategy": "Alhaitham é um bom driver para o Supremo de Beidou devido ao uso frequente de Ataques Normais. A aplicação Hydro lenta de Kokomi resulta em algum uptime de Quicken e potencialmente Hiperflorecimentos. ",
+        "characters_in_team": [
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field",
+                "build_key": "beidou_offfield_dps_emblem"
+            },
+            {
+                "character_id": "alhaitham",
+                "role_in_team": "Main DPS Dendro On-field (Driver)",
+                "build_key": "alhaitham_spread_dps_gilded_dreams"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Aplicadora Hydro On-field/Off-field",
+                "build_key": "kokomi_healer_tenacity_oceanhued_ttds"
+            }
+        ]
+    },
+    {
+        "id": "beidou_nahida_xingqiu_kuki_shinobu_hyperbloom",
+        "name": "Beidou - Hyperbloom (Nahida, Xingqiu, Kuki Shinobu)",
+        "strategy": "Os Ataques Normais de Nahida on-field ativam o Supremo de Beidou e fornecem aplicação Dendro suplementar. A combinação de Beidou, Xingqiu e Shinobu oferece ampla sobrevivência. ",
+        "characters_in_team": [
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field",
+                "build_key": "beidou_offfield_dps_emblem"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Driver Dendro On-field / Aplicadora Dendro Principal",
+                "build_key": "nahida_onfield_driver_bloom_reactions"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field / Redução de Dano",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Ativadora de Hyperbloom (Full EM)",
+                "build_key": "kuki_shinobu_hyperbloom_full_em_flowerofparadiselost"
+            }
+        ]
+    },
+    {
+        "id": "beidou_xingqiu_fischl_sucrose_taser_electro_charged",
+        "name": "Beidou - Taser (Xingqiu, Fischl, Sucrose)",
+        "strategy": "Xingqiu e Fischl fornecem bom dano single-target, enquanto Beidou e os Redemoinhos de Sucrose fornecem bom dano multi-target. Fischl ajuda a diminuir os requisitos de RE de Beidou. ",
+        "characters_in_team": [
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field (Dano em Área)",
+                "build_key": "beidou_offfield_dps_emblem"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Driver Anemo On-field (VV RES Shred, Agrupamento, Buffer EM)",
+                "build_key": "sucrose_anemo_driver_vv_ttds_em"
+            }
+        ]
+    },
+    {
+        "id": "beidou_yanfei_fischl_chevreuse_overload",
+        "name": "Beidou - Sobrecarga Chevreuse (Yanfei, Fischl, Chevreuse)",
+        "strategy": "A aplicação Elemental consistente de Fischl e Yanfei e os gatilhos de Sobrecarga mantêm o uptime dos buffs de Chevreuse. O alcance de Yanfei ajuda a mitigar o stagger da Sobrecarga. ",
+        "characters_in_team": [
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field / Suporte Defensivo",
+                "build_key": "beidou_offfield_dps_emblem"
+            },
+            {
+                "character_id": "yanfei",
+                "role_in_team": "Main DPS Pyro On-field (Driver)",
+                "build_key": "yanfei_pyro_dps_wanderers_troupe_or_crimson_witch"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "chevreuse",
+                "role_in_team": "Suporte (Buffer de Sobrecarga, RES Shred Pyro/Electro, Healer)",
+                "build_key": "chevreuse_overload_buffer_songofdays_noblesse"
+            }
+        ]
+    }
+]

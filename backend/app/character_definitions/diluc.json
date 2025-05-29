@@ -1,0 +1,249 @@
+{
+    "id": "diluc",
+    "name": "Diluc",
+    "element": "Pyro",
+    "rarity": 5,
+    "weapon": "Claymore",
+    "role": [
+        "On-Field DPS (Vaporizar/Fusão)",
+        "On-Field DPS (Mono Pyro)",
+        "Ativador de Germinação (Burgeon)"
+    ],
+    "icon_url": "/assets/images/characters/diluc.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "build_options": [
+        {
+            "key": "diluc_vaporize_melt_dps_crimson_witch",
+            "name": "DPS Vaporizar/Fusão (Bruxa das Chamas Carmesim)",
+            "notes_build": "Estilo de jogo clássico de Diluc, focado em maximizar o dano de Reações Amplificadoras (Vaporizar/Fusão) com seus Ataques Normais infundidos em Pyro, Habilidade Elemental e Supremo. 4p Bruxa das Chamas Carmesim é ideal.",
+            "artifacts": [
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "set_name": "Bruxa das Chamas Carmesim",
+                    "pieces": 4,
+                    "notes": "Praticamente feito sob medida para Diluc, e é ideal para times de Vaporizar ou Fusão, pois aumenta as reações relacionadas a Pyro.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Menos eficaz que Bruxa das Chamas, mas pode ser utilizável com bons sub-stats e pode ser farmado em um domínio mais eficiente em termos de Resina.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "crimson_witch_em_atk_2pc_mix",
+                    "set_name": "Bruxa das Chamas (2p) + EM (2p) / ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de conjuntos requerem bons sub-stats para competir com 4p Bruxa das Chamas, mas podem ser mais fáceis de obter e usadas enquanto se farma por 4p Bruxa. 2p ATQ% perde valor com Bennett.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "crimson_witch_of_flames",
+                        "gilded_dreams"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) (com Bennett) / ATK% (sem Bennett)",
+                "goblet": "Bônus de Dano Pyro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM)",
+                "ATK%",
+                "Recarga de Energia (ER%) (requisito baixo, ~100-130%)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "beacon_of_the_reed_sea",
+                    "name": "Sinal dos Mares de Juncos",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Serve como um 'stat stick' de CRIT. Mesmo que Diluc não utilize completamente suas passivas, ainda ajuda o suficiente para torná-la uma de suas melhores opções.",
+                    "icon_url": "/assets/images/weapons_detail/beacon_of_the_reed_sea.png"
+                },
+                {
+                    "weapon_id": "redhorn_stonethresher",
+                    "name": "Chifres Vermelhos Destruidores de Pedras",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Similar ao Sinal dos Mares, um 'stat stick' de CRIT Dano.",
+                    "icon_url": "/assets/images/weapons_detail/redhorn_stonethresher.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Se conseguir manter os acúmulos da passiva, é a melhor opção 4 estrelas para Diluc. Em refinos altos e com acúmulos máximos, pode superar A Sem Forja e Túmulo do Lobo.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "rainslasher",
+                    "name": "Segadeira da Chuva",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Espadão de EM com passiva útil para Diluc Vaporizar.",
+                    "icon_url": "/assets/images/weapons_detail/rainslasher.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst) (aumento de dano mínimo, pode ser investido após suportes)"
+            ]
+        },
+        {
+            "key": "diluc_mono_pyro_dps_lavawalker",
+            "name": "DPS Mono Pyro (Atravessador de Fogo)",
+            "notes_build": "Diluc como DPS on-field em um time Mono Pyro com outros personagens Pyro e Anemo. Dano consistente e fácil de jogar, embora com teto de dano menor. Não precisa de EM.",
+            "artifacts": [
+                {
+                    "set_id": "lavawalker",
+                    "set_name": "Atravessador de Fogo",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Diluc Mono Pyro, pois seu efeito de 4p estará quase sempre ativo.",
+                    "icon_url": "/assets/images/artifact_sets/lavawalker.png"
+                },
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "set_name": "Bruxa das Chamas Carmesim",
+                    "pieces": 4,
+                    "notes": "Ainda um conjunto forte com seu buff cumulativo de Bônus de Dano Pyro.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                },
+                {
+                    "set_id": "gladiators_finale",
+                    "set_name": "Último Juramento do Gladiador",
+                    "pieces": 4,
+                    "notes": "Conjunto mais forte com Diluc Mono Pyro do que em outros estilos de jogo, tornando-o uma opção segura e passivamente farmável.",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Pyro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Recarga de Energia (ER%) (requisito baixo, ~100-115%)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "beacon_of_the_reed_sea",
+                    "name": "Sinal dos Mares de Juncos",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor opção de 'stat stick' de CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/beacon_of_the_reed_sea.png"
+                },
+                {
+                    "weapon_id": "wolfs_gravestone",
+                    "name": "Túmulo do Lobo",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Fornece uma abundância de ATQ%. O valor do ATQ% pode ser um pouco diluído com Bennett.",
+                    "icon_url": "/assets/images/weapons_detail/wolfs_gravestone.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Melhor opção 4 estrelas se conseguir manter os acúmulos.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        },
+        {
+            "key": "diluc_burgeon_trigger_crimson_witch_em",
+            "name": "Ativador de Germinação (Bruxa Carmesim - EM)",
+            "notes_build": "Estilo de jogo alternativo 'Retriburgeon' onde Diluc usa colegas de equipe Hydro e Dendro para ativar Germinação e Vaporizar. Prioriza Proficiência Elemental.",
+            "artifacts": [
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "set_name": "Bruxa das Chamas Carmesim",
+                    "pieces": 4,
+                    "notes": "Aumenta todas as reações relacionadas a Pyro, incluindo Germinação.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                },
+                {
+                    "set_id": "flower_of_paradise_lost",
+                    "set_name": "Flor do Paraíso Perdido",
+                    "pieces": 4,
+                    "notes": "Pode superar Bruxa das Chamas em cenários multi-target onde Diluc ativa muitas Germinações, mas a diferença é pequena.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Concede um grande buff de 150 EM se Diluc for o único Pyro, como frequentemente acontece em times de Germinação.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / ATK%",
+                "goblet": "Proficiência Elemental (EM) / Bônus de Dano Pyro",
+                "circlet": "Proficiência Elemental (EM) / Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Proficiência Elemental (EM)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Recarga de Energia (ER%)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "wolfs_gravestone",
+                    "name": "Túmulo do Lobo",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "O ATQ% ainda é valioso, especialmente se houver colegas que se beneficiem do buff para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/wolfs_gravestone.png"
+                },
+                {
+                    "weapon_id": "mailed_flower",
+                    "name": "Flor Empilhada",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Evento",
+                    "notes": "Espadão de EM com passiva útil para estilos de jogo Vaporizar/Germinação.",
+                    "icon_url": "/assets/images/weapons_detail/mailed_flower.png"
+                },
+                {
+                    "weapon_id": "rainslasher",
+                    "name": "Segadeira da Chuva",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Outra opção de EM.",
+                    "icon_url": "/assets/images/weapons_detail/rainslasher.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        }
+    ]
+}

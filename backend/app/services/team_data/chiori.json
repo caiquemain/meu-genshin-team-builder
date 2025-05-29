@@ -1,0 +1,137 @@
+[
+    {
+        "id": "chiori_itto_gorou_zhongli_mono_geo",
+        "name": "Chiori - Mono Geo (Itto, Gorou, Zhongli)",
+        "strategy": "Itto é um dos melhores DPS on-field para um time Mono Geo com Chiori. Ushi conta como Construção Geo. A geração consistente de Partículas Geo de Chiori ajuda a reduzir significativamente os requisitos de RE de Itto e Gorou. Zhongli oferece escudo e RES Shred Geo.",
+        "characters_in_team": [
+            {
+                "character_id": "chiori",
+                "role_in_team": "Sub-DPS Geo Off-field / Bateria",
+                "build_key": "chiori_offfield_dps_golden_troupe_uraku_misugiri"
+            },
+            {
+                "character_id": "itto",
+                "role_in_team": "Main DPS Geo On-field",
+                "build_key": "itto_main_dps_husk_redhorn"
+            },
+            {
+                "character_id": "gorou",
+                "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
+                "build_key": "gorou_geo_buffer_exile_favonius"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal e Geo)",
+                "build_key": "shielder_max_hp_utility_tenacity"
+            }
+        ]
+    },
+    {
+        "id": "chiori_ningguang_fischl_bennett_ningguang_dps",
+        "name": "Chiori - DPS Ningguang (Ningguang, Fischl, Bennett)",
+        "strategy": "Time forte para Ningguang, especialmente se Fischl for C6. Os buffs de Bennett beneficiam toda a equipe. Chiori fornece dano off-field e ressonância Geo. A Habilidade de Chiori não dá snapshot, então ela pode se beneficiar do buff de 4p Ritual Real de Bennett mesmo se ele entrar em campo depois dela.",
+        "characters_in_team": [
+            {
+                "character_id": "chiori",
+                "role_in_team": "Sub-DPS Geo Off-field",
+                "build_key": "chiori_offfield_dps_golden_troupe_uraku_misugiri"
+            },
+            {
+                "character_id": "ningguang",
+                "role_in_team": "Main DPS Geo On-field (Quickswap)",
+                "build_key": "ningguang_geo_dps_archaic_petra_atk_geo_crit"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "chiori_navia_fischl_bennett_navia_dps",
+        "name": "Chiori - DPS Navia (Navia, Fischl, Bennett)",
+        "strategy": "Time muito forte para Navia, comparável à versão com Zhongli em vez de Chiori. Chiori fornece aplicação Geo consistente e geração de partículas para Navia. Fischl e Bennett para dano off-field, buffs e reações de Cristalização.",
+        "characters_in_team": [
+            {
+                "character_id": "chiori",
+                "role_in_team": "Sub-DPS Geo Off-field / Bateria",
+                "build_key": "chiori_offfield_dps_golden_troupe_uraku_misugiri"
+            },
+            {
+                "character_id": "navia",
+                "role_in_team": "Main DPS Geo On-field (Foco na Skill)",
+                "build_key": "navia_geo_dps_nighttime_whispers_verdict"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Aplicadora Electro para Cristalização",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "chiori_zhongli_lyney_bennett_double_geo_core",
+        "name": "Chiori - Núcleo Geo Duplo (Zhongli, Lyney, Bennett)",
+        "strategy": "Chiori e Zhongli formam um excelente núcleo off-field. Zhongli fornece RES Shred, escudo forte e Construção Geo duradoura. Lyney como DPS Pyro on-field e Bennett para buffs e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "chiori",
+                "role_in_team": "Sub-DPS Geo Off-field",
+                "build_key": "chiori_offfield_dps_golden_troupe_uraku_misugiri"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal, Geo Construct)",
+                "build_key": "shielder_max_hp_utility_tenacity"
+            },
+            {
+                "character_id": "lyney",
+                "role_in_team": "Main DPS Pyro On-field (Charged Shot)",
+                "build_key": "lyney_pyro_dps_marechaussee_or_lavawalker"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "chiori_albedo_kokomi_furina_double_geo_hydro_core",
+        "name": "Chiori - Núcleo Geo/Hydro (Albedo, Kokomi, Furina)",
+        "strategy": "Time simples e potente com Kokomi como driver on-field e curandeira para combater o dreno de HP de Furina. Chiori e Albedo fornecem dano Geo off-field e Construções Geo.",
+        "characters_in_team": [
+            {
+                "character_id": "chiori",
+                "role_in_team": "Sub-DPS Geo Off-field",
+                "build_key": "chiori_offfield_dps_golden_troupe_uraku_misugiri"
+            },
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo Off-field (Geo Construct)",
+                "build_key": "albedo_offfield_geo_dps_husk_cinnabar"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Driver Hydro On-field / Healer",
+                "build_key": "kokomi_healer_driver_oceanhued_clam_prototype_amber"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            }
+        ]
+    }
+]

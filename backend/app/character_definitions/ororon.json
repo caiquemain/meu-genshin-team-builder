@@ -1,0 +1,89 @@
+{
+    "id": "ororon",
+    "name": "Ororon",
+    "element": "Electro",
+    "rarity": 4,
+    "weapon": "Bow",
+    "role": [
+        "Off-Field DPS"
+    ],
+    "icon_url": "/assets/images/characters/ororon.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "build_options": [
+        {
+            "key": "ororon_offfield_dps_scroll_of_cinder_city",
+            "name": "DPS Off-field (Pergaminho do Herói da Cidade das Cinzas)",
+            "notes_build": "Focado no dano off-field e utilidade. Como personagem de Natlan, 4p Pergaminho é uma ótima opção natural, oferecendo Bônus de Dano Elemental.  Priorize subir o nível do personagem, pois a maior parte do seu dano vem da sua Passiva de Ascensão 1. ",
+            "artifacts": [
+                {
+                    "set_id": "scroll_of_the_hero_of_cinder_city",
+                    "set_name": "Pergaminho do Herói da Cidade das Cinzas",
+                    "pieces": 4,
+                    "notes": "Ótima opção natural para Ororon, oferecendo 40% de Bônus de Dano para os elementos com os quais ele reage.  Pode ativar e atualizar o efeito completo do conjunto off-field. ",
+                    "icon_url": "/assets/images/artifact_sets/scroll_of_the_hero_of_cinder_city.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Opção alternativa se outro personagem já estiver usando 4p Pergaminho. ",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (se necessário)",
+                "goblet": "Bônus de Dano Electro / ATK%",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (EM) (útil se tiver boa posse de Eletricamente Carregado/Sobrecarga)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Geralmente a melhor opção para dano geral da equipe e pode ser a melhor para dano pessoal de Ororon se o sub-status de RE ajudar a atingir os requisitos. ",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Boa opção generalista que aumenta todo o dano de Ororon. ",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                },
+                {
+                    "weapon_id": "chain_breaker",
+                    "name": "Quebrador de Correntes (Chain Breaker)",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Forja (Natlan) (A SER VERIFICADO)",
+                    "notes": "Arco forjável de Natlan, ótima opção. A Proficiência Elemental é útil para dano de Eletricamente Carregado/Sobrecarga. ",
+                    "icon_url": "/assets/images/weapons_detail/chain_breaker.png"
+                },
+                {
+                    "weapon_id": "favonius_warbow",
+                    "name": "Arco de Guerra de Favonius",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Reduz os requisitos de RE de Ororon e da equipe. Pode ser ótimo para o dano geral da equipe se Ororon não for uma grande parcela do dano da equipe. ",
+                    "icon_url": "/assets/images/weapons_detail/favonius_warbow.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (não precisa upar)"
+            ]
+        }
+    ]
+}

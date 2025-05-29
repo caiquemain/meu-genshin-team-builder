@@ -1,0 +1,247 @@
+/* frontend/src/pages/TeamBuilderPage.css */
+.team-builder-container {
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.character-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* Ou left, se preferir */
+    gap: 10px;
+    /* Espaçamento entre cards, se não usar margin no card */
+}
+
+.loading-message,
+.error-message {
+    text-align: center;
+    font-size: 1.2em;
+    /* Potencial causa de ícones de fonte grandes */
+    margin-top: 20px;
+}
+
+.error-message {
+    color: red;
+}
+
+.actions-container {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    border-top: 1px solid #eee;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    /* Padding pode fazer SVGs sem dimensões se expandirem */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.actions-container p {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* ... (CSS anterior de TeamBuilderPage.css) ... */
+
+.suggestion-error-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.suggested-teams-container {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.suggested-teams-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* --- SUGESTÕES DE AJUSTES PARA TAMANHO DE ÍCONES --- */
+
+/*
+   Regra geral para ícones.
+   Adapte os seletores (ex: i, .meu-icone-classe, svg[data-icon])
+   conforme a sua implementação de ícones.
+*/
+.icon,
+i[class*="icon"],
+/* Para ícones de fonte comuns */
+svg.icon
+
+/* Para SVGs usados como ícones com uma classe específica */
+    {
+    font-size: 1rem;
+    /* Define um tamanho base para ícones de fonte (ex: 16px se o root font-size for 16px) */
+    width: 1.2em;
+    /* Para SVGs ou elementos que precisam de largura explícita. '1.2em' fará o SVG ter 1.2x o font-size atual. */
+    height: 1.2em;
+    /* Para SVGs ou elementos que precisam de altura explícita. */
+    line-height: 1;
+    /* Ajuda a evitar que o line-height do container afete o espaço vertical do ícone. */
+    display: inline-block;
+    /* Garante que width/height sejam aplicados e ajuda no alinhamento. */
+    vertical-align: middle;
+    /* Alinha o ícone verticalmente com o texto ao redor, se houver. */
+}
+
+/*
+   Ajuste específico para ícones dentro de mensagens,
+   caso o 'font-size: 1.2em' dos pais os torne muito grandes.
+*/
+.loading-message .icon,
+.loading-message i[class*="icon"],
+.loading-message svg.icon,
+.error-message .icon,
+.error-message i[class*="icon"],
+.error-message svg.icon {
+    font-size: 1em;
+    /* Redefine o font-size do ícone para 100% do font-size do elemento pai do .loading-message/.error-message,
+                       em vez de 1.2x. Se preferir um tamanho fixo, use px, ex: 18px. */
+    /* A largura/altura (width/height) definida em '1.2em' na regra geral acima
+       será relativa a este 'font-size: 1em' específico. */
+}
+
+/*
+   Ajuste específico para ícones dentro de botões, se necessário.
+   O .submit-button já tem font-size: 16px.
+*/
+.submit-button .icon,
+.submit-button i[class*="icon"],
+.submit-button svg.icon {
+    /* Se o ícone de fonte (16px) ainda parecer grande ou pequeno, ajuste aqui: */
+    /* font-size: 0.875em; */
+    /* Exemplo: tornaria o ícone 14px (16px * 0.875) */
+
+    /* Para SVGs, o width/height de '1.2em' da regra geral será relativo ao font-size do botão (16px).
+       Isso resultaria em um SVG de aproximadamente 19.2px x 19.2px.
+       Se precisar de um tamanho diferente, pode sobrescrever aqui: */
+    /* width: 16px; */
+    /* height: 16px; */
+    margin-right: 5px;
+    /* Opcional: Adiciona um espaço se o ícone estiver antes do texto no botão */
+}
+
+.name-search-container {
+    margin: 15px 0;
+    /* Espaçamento acima e abaixo do campo de busca */
+    display: flex;
+    justify-content: center;
+    /* Centraliza o campo de busca */
+}
+
+.name-search-input {
+    padding: 10px 15px;
+    width: 100%;
+    /* Ocupa a largura do container pai, se o container for limitado */
+    max-width: 400px;
+    /* Largura máxima para o campo */
+    border: 1px solid var(--border-color-light, #ccc);
+    /* Usa variável CSS se definida, senão fallback */
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: var(--input-background-color, #fff);
+    /* Usa variável CSS */
+    color: var(--text-color, #333);
+    /* Usa variável CSS */
+}
+
+.name-search-input:focus {
+    outline: none;
+    border-color: var(--primary-color, #007bff);
+    /* Usa variável CSS */
+    box-shadow: 0 0 0 2px var(--primary-color-light, rgba(0, 123, 255, 0.25));
+    /* Usa variável CSS */
+}
+
+.tooltip-wrapper {
+    position: relative;
+    /* Essencial para o posicionamento do tooltip */
+    display: inline-block;
+    /* Ou block, dependendo do layout dos seus itens */
+}
+
+/* As classes raiz dos seus componentes de tooltip */
+.tooltip-wrapper .artifact-tooltip-content,
+.tooltip-wrapper .weapon-tooltip-content {
+    display: none;
+    /* ESCONDIDO POR PADRÃO */
+    position: absolute;
+    bottom: calc(100% + 5px);
+    /* Acima do item, com um pequeno espaço */
+    left: 50%;
+    transform: translateX(-50%);
+
+    /* Reutilize os estilos de aparência que você já tem em ArtifactTooltip.css e WeaponTooltip.css aqui,
+       ou garanta que eles não definam 'display' de forma a sobrescrever isto.
+       Exemplo de estilos de aparência: */
+    background-color: var(--tooltip-background, #2a2a3e);
+    color: var(--tooltip-text, #ddd);
+    border: 1px solid var(--tooltip-border-color, #505068);
+    border-radius: 6px;
+    padding: 10px 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    width: max-content;
+    min-width: 250px;
+    max-width: 350px;
+    font-size: 0.9em;
+    white-space: pre-wrap;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s ease-out, visibility 0.15s ease-out;
+    /* Transição mais rápida */
+}
+
+.tooltip-wrapper:hover .artifact-tooltip-content,
+.tooltip-wrapper:hover .weapon-tooltip-content {
+    display: block;
+    /* MOSTRAR NO HOVER */
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Seta opcional (se quiser) */
+.tooltip-wrapper .artifact-tooltip-content::after,
+.tooltip-wrapper .weapon-tooltip-content::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--tooltip-background, #2a2a3e) transparent transparent transparent;
+}
+
+/* Se você tiver ícones como imagens <img> e eles estiverem muito grandes,
+   você precisará estilizá-los diretamente ou suas classes:
+ex:
+.character-card img.icon-image {
+    width: 50px;  // Tamanho desejado
+    height: 50px; // Tamanho desejado
+    object-fit: contain; // Para manter a proporção da imagem
+}
+*/
+
+/* --- FIM DAS SUGESTÕES DE AJUSTES --- */

@@ -1,0 +1,110 @@
+[
+    {
+        "id": "gorou_itto_albedo_zhongli",
+        "name": "Gorou - Hypercarry Geo com Itto (Clássico)",
+        "strategy": "Time Mono Geo focado em maximizar o dano de Itto. Gorou fornece buffs massivos de DEF e Dano Geo. Albedo contribui com dano off-field e partículas. Zhongli oferece escudo, RES Shred e mais dano Geo.",
+        "characters_in_team": [
+            {
+                "character_id": "gorou",
+                "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
+                "build_key": "geo_def_buffer_favonius"
+            },
+            {
+                "character_id": "itto",
+                "role_in_team": "Main DPS Geo On-field",
+                "build_key": "itto_main_dps_husk"
+            },
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo Off-field / Bateria",
+                "build_key": "off_field_geo_dps_main"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Shielder / Redutor de RES Universal",
+                "build_key": "shielder_max_hp_utility"
+            }
+        ]
+    },
+    {
+        "id": "gorou_noelle_albedo_zhongli",
+        "name": "Gorou - Noelle Geo Carry (Resistente)",
+        "strategy": "Noelle como Main DPS Geo que também cura e escuda. Gorou buffa sua DEF e Dano Geo. Albedo para dano off-field e Zhongli para escudo e RES Shred.",
+        "characters_in_team": [
+            {
+                "character_id": "gorou",
+                "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
+                "build_key": "geo_def_buffer_favonius"
+            },
+            {
+                "character_id": "noelle",
+                "role_in_team": "Main DPS Geo On-field / Healer / Shielder",
+                "build_key": "noelle_main_dps_husk_gladiator"
+            },
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo Off-field",
+                "build_key": "off_field_geo_dps_main"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Shielder / Redutor de RES Universal",
+                "build_key": "shielder_max_hp_utility"
+            }
+        ]
+    },
+    {
+        "id": "gorou_c6_ningguang_albedo_bennett",
+        "name": "Gorou (C6) - Ningguang Geo DPS",
+        "strategy": "Com Gorou C6, Ningguang recebe um buff significativo de Dano CRIT Geo. Albedo como Sub-DPS e Bennett para buff de ATK e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "gorou",
+                "role_in_team": "Suporte Geo (Buffer DEF, Dano Geo, Dano CRIT Geo C6)",
+                "build_key": "geo_def_buffer_favonius"
+            },
+            {
+                "character_id": "ningguang",
+                "role_in_team": "Main DPS Geo On-field (Burst DPS)",
+                "build_key": "ningguang_burst_dps_archaic_noblesse"
+            },
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo Off-field",
+                "build_key": "off_field_geo_dps_main"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer & Healer)",
+                "build_key": "bennett_support_noblesse_er"
+            }
+        ]
+    },
+    {
+        "id": "gorou_itto_albedo_fischl",
+        "name": "Gorou - Itto Geo com Fischl (Flex)",
+        "strategy": "Variação do time de Itto com Fischl como flex para dano Electro off-field e reações de Cristalização, mantendo o núcleo Itto-Gorou-Albedo.",
+        "characters_in_team": [
+            {
+                "character_id": "gorou",
+                "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
+                "build_key": "geo_def_buffer_favonius"
+            },
+            {
+                "character_id": "itto",
+                "role_in_team": "Main DPS Geo On-field",
+                "build_key": "itto_main_dps_husk"
+            },
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo Off-field",
+                "build_key": "off_field_geo_dps_main"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_thundering"
+            }
+        ]
+    }
+]

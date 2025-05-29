@@ -1,0 +1,38 @@
+/* frontend/src/components/ThemeToggleButton.css */
+.theme-toggle-button {
+    background-color: var(--button-background-color, #f0f0f0);
+    /* Cor de fundo do botão */
+    color: var(--button-text-color, #333);
+    /* Cor do texto/ícone do botão */
+    border: 1px solid var(--border-color-light, #ccc);
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    /* Tamanho do ícone/emoji */
+    border-radius: 50%;
+    /* Para um botão redondo se só tiver ícone */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    position: fixed;
+    /* Exemplo: fixo no canto */
+    bottom: 20px;
+    right: 20px;
+    z-index: 1100;
+    /* Para ficar sobre outros elementos */
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.theme-toggle-button:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos específicos podem ser adicionados para .light ou .dark se necessário */
+.theme-toggle-button.dark {
+    background-color: var(--button-background-color-dark, #555);
+    color: var(--button-text-color-dark, #f0f0f0);
+    border-color: var(--border-color-dark, #777);
+}

@@ -1,0 +1,155 @@
+{
+    "id": "traveler_anemo",
+    "name": "Viajante (Anemo) / Traveler (Anemo)",
+    "element": "Anemo",
+    "rarity": 5,
+    "weapon": "Sword",
+    "role": [
+        "Quickswap DPS",
+        "Support"
+    ],
+    "icon_url": "/assets/images/characters/traveler_anemo.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "build_options": [
+        {
+            "key": "traveler_anemo_support_vv_triple_em",
+            "name": "Suporte VV (Triple EM - Foco em Redemoinho)",
+            "notes_build": "Focado em maximizar o dano de Redemoinho e utilidade de suporte com 4p Sombra Verde. Proficiência Elemental é a prioridade. Nível 90 é recomendado para dano de Redemoinho. C6 é importante para redução de RES adicional.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Viajante Anemo, aumenta Dano Anemo, Dano de Redemoinho e diminui a RES Elemental do inimigo ao elemento infundido.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / Recarga de Energia (ER%)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ~160-180%)",
+                "Proficiência Elemental (EM)",
+                "ATK%",
+                "Taxa CRIT / Dano CRIT"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "freedom_sworn",
+                    "name": "Juramento pela Liberdade",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma geral. Alto potencial de dano para Viajante Anemo e buffa toda a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/freedom_sworn.png"
+                },
+                {
+                    "weapon_id": "iron_sting",
+                    "name": "Espinho de Ferro (Iron Sting)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Alternativa F2P para Juramento pela Liberdade, pois é forjável. Usada principalmente pelo sub-status de EM.",
+                    "icon_url": "/assets/images/weapons_detail/iron_sting.png"
+                },
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Gera Partículas Neutras, reduzindo a necessidade de RE do Viajante e da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "sacrificial_sword",
+                    "name": "Espada do Sacrifício (Sacrificial Sword)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha (A SER VERIFICADO)",
+                    "notes": "Permite usar Habilidade > Supremo > Habilidade, economizando tempo. Dano comparável a Lâmina da Ponta da Cúpula se a passiva ativar.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_sword.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        },
+        {
+            "key": "traveler_anemo_quickswap_dps_crit",
+            "name": "DPS de Troca Rápida (CRIT - Single Target)",
+            "notes_build": "Alternativa com maior investimento focada no dano pessoal Anemo em single-target, usando ATQ%/Anemo/CRIT. Ainda utiliza 4p Sombra Verde pela utilidade.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Ainda recomendado para maximizar o dano da equipe e o dano de Redemoinho do Viajante.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "viridescent_atk_2pc_mix",
+                    "set_name": "Sombra Verde (2p) + ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Alternativa se não tiver bons sub-stats em 4p Sombra Verde, mas 4p Sombra Verde deve ser o objetivo.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "viridescent_venerer",
+                        "gladiators_finale"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Anemo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ~160-180%)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (EM)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Fornece muita Taxa CRIT e ATQ Flat. Bom \"stat stick\".",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Performance similar ao Cortador de Jade, mas fornece Dano CRIT e ATQ Base maior. Passiva com Bônus de Dano Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "festering_desire",
+                    "name": "Espada Pútrida (Festering Desire)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Evento ",
+                    "notes": "Arma de evento limitada. Sub-status de RE útil. Aumenta Dano e Taxa CRIT da Habilidade Elemental. Ótima opção 4 estrelas.",
+                    "icon_url": "/assets/images/weapons_detail/festering_desire.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        }
+    ]
+}

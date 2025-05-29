@@ -1,0 +1,83 @@
+[
+    {
+        "id": "aloy_bennett_kazuha_xiangling_reverse_melt",
+        "name": "Aloy - Reverse Melt (Bennett, Kazuha, Xiangling)",
+        "strategy": "Times de Fusão Reversa geralmente consistem em Aloy, Bennett, um Anemo para agrupar as Bomblets de Aloy e um slot flexível (Pyro off-field como Xiangling ou outro Cryo DPS).",
+        "characters_in_team": [
+            {
+                "character_id": "aloy",
+                "role_in_team": "Main DPS Cryo (Reverse Melt)",
+                "build_key": "aloy_reverse_melt_dps"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Aplicador Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Agrupamento, Aplicador Pyro com Supremo)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field",
+                "build_key": "xiangling_subdps_emblem_thecatch"
+            }
+        ]
+    },
+    {
+        "id": "aloy_ayaka_kokomi_kazuha_freeze",
+        "name": "Aloy - Freeze (Ayaka, Kokomi, Kazuha)",
+        "strategy": "Aloy atua como segunda Cryo, fornecendo buffs e Energia para a DPS Cryo principal (Ayaka). Kokomi aplica Hydro para Congelamento e cura. Kazuha agrupa e aplica VV Shred.",
+        "characters_in_team": [
+            {
+                "character_id": "aloy",
+                "role_in_team": "Suporte Cryo / Bateria",
+                "build_key": "aloy_support_noblesse_favonius"
+            },
+            {
+                "character_id": "ayaka",
+                "role_in_team": "Main DPS Cryo (On-field)",
+                "build_key": "ayaka_dps_blizzard_strayer_mistsplitter"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Aplicadora Hydro Off-field (Hydro Enabler)",
+                "build_key": "kokomi_healer_tenacity_oceanhued_ttds"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "aloy_ganyu_shenhe_kazuha_mono_cryo",
+        "name": "Aloy - Mono Cryo (Ganyu, Shenhe, Kazuha)",
+        "strategy": "Focado em dano Cryo bruto contra inimigos imunes a Congelamento. Aloy suporta a DPS Cryo principal (Ganyu) com Shenhe buffando o dano Cryo e Kazuha com VV Shred e buffs.",
+        "characters_in_team": [
+            {
+                "character_id": "aloy",
+                "role_in_team": "Suporte Cryo / Bateria",
+                "build_key": "aloy_support_noblesse_favonius"
+            },
+            {
+                "character_id": "ganyu",
+                "role_in_team": "Main DPS Cryo (On-field)",
+                "build_key": "ganyu_dps_blizzard_strayer_amos"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer de Dano Cryo)",
+                "build_key": "shenhe_cryo_buffer_noblesse_calamityqueller"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    }
+]

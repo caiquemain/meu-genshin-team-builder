@@ -1,0 +1,110 @@
+[
+    {
+        "id": "clorinde_nahida_furina_fischl_quickbloom_tf",
+        "name": "Clorinde - Quickbloom (Nahida, Furina, Fischl - Trovão Furioso)",
+        "strategy": "Time Quickbloom forte. Clorinde recebe buffs de Furina e Nahida, ativa consistentemente Agravamento e Hiperflorecimento, e impulsiona a passiva A4 e C6 de Fischl. Clorinde idealmente usa 4p Trovão Furioso para 2 Habilidades em uma rotação de 25s, sincronizando com Fischl, Furina e Nahida. ",
+        "characters_in_team": [
+            {
+                "character_id": "clorinde",
+                "role_in_team": "Main DPS Electro On-field (Driver)",
+                "build_key": "clorinde_onfield_dps_thundering_fury_quickbloom"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Suporte Dendro / Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood_or_prototype_amber"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field) / Aplicadora Hydro Lenta",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria / Ativadora A4",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            }
+        ]
+    },
+    {
+        "id": "clorinde_nahida_fischl_kazuha_aggravate",
+        "name": "Clorinde - Aggravate (Nahida, Fischl, Kazuha)",
+        "strategy": "Time potente de Agravamento. A maior parte do dano da equipe é Electro, então Nahida pode usar 4p Tenacidade dos Millelith para buffar Clorinde e Fischl. Kazuha para buffs e VV. ",
+        "characters_in_team": [
+            {
+                "character_id": "clorinde",
+                "role_in_team": "Main DPS Electro On-field",
+                "build_key": "clorinde_onfield_dps_fragment_whimsy_absolution"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Suporte Dendro / Aplicadora Dendro Off-field / Buffer EM (Tenacity Holder)",
+                "build_key": "nahida_support_tenacity_hakushin_or_wandering_evenstar"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "clorinde_chevreuse_bennett_fischl_overload",
+        "name": "Clorinde - Sobrecarga Chevreuse (Chevreuse, Bennett, Fischl)",
+        "strategy": "Chevreuse, Bennett e Fischl formam um núcleo forte para times de Sobrecarga. A RES Shred Electro de Chevreuse beneficia a maior parte do dano de Clorinde. Time pode ter dificuldades com múltiplas ondas devido à falta de aplicação Pyro off-field para manter o buff A1 de Chevreuse em novos inimigos. ",
+        "characters_in_team": [
+            {
+                "character_id": "clorinde",
+                "role_in_team": "Main DPS Electro On-field",
+                "build_key": "clorinde_onfield_dps_fragment_whimsy_absolution"
+            },
+            {
+                "character_id": "chevreuse",
+                "role_in_team": "Suporte (Buffer de Sobrecarga, RES Shred Pyro/Electro, Healer)",
+                "build_key": "chevreuse_overload_support_noblesse_hp_er"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            }
+        ]
+    },
+    {
+        "id": "clorinde_furina_beidou_yelan_taser_like",
+        "name": "Clorinde - Taser-like (Furina, Beidou, Yelan)",
+        "strategy": "Clorinde como DPS Electro em outros arquétipos. Seu dano não é tão bom sem reações Dendro ou buffs de Chevreuse, mas ela ainda é uma DPS e driver viável para colegas de equipe como Yelan ou Beidou. ",
+        "characters_in_team": [
+            {
+                "character_id": "clorinde",
+                "role_in_team": "Main DPS Electro On-field (Driver)",
+                "build_key": "clorinde_onfield_dps_fragment_whimsy_absolution"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field (Dano em Área, Redução de Dano)",
+                "build_key": "beidou_offfield_dps_emblem"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            }
+        ]
+    }
+]

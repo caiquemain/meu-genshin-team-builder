@@ -1,0 +1,110 @@
+[
+    {
+        "id": "alhaitham_yae_miko_nahida_zhongli_quicken",
+        "name": "Alhaitham - Quicken (Yae Miko, Nahida, Zhongli)",
+        "strategy": "Time de Espalhar/Agravamento com rotação dividida para permitir uptime quase total das torres de Yae Miko. Zhongli e Nahida atualizam suas habilidades no meio da rotação.",
+        "characters_in_team": [
+            {
+                "character_id": "alhaitham",
+                "role_in_team": "Main DPS Dendro (On-field Spread)",
+                "build_key": "alhaitham_spread_dps_gilded_dreams"
+            },
+            {
+                "character_id": "yae_miko",
+                "role_in_team": "Sub-DPS Electro Off-field",
+                "build_key": "yae_miko_offfield_dps_golden_troupe_aggravate"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Suporte Dendro / Buffer EM / Aplicadora Dendro Off-field",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity"
+            }
+        ]
+    },
+    {
+        "id": "alhaitham_kuki_shinobu_furina_nahida_quickbloom",
+        "name": "Alhaitham - Quickbloom (Kuki Shinobu, Furina, Nahida)",
+        "strategy": "Excelente time de Quickbloom. Kuki Shinobu, mesmo com build full EM, consegue sustentar o time e até curar Alhaitham em excesso para ativar a passiva A1 de Furina. Rotação de 30s com tempo de campo dividido.",
+        "characters_in_team": [
+            {
+                "character_id": "alhaitham",
+                "role_in_team": "Main DPS Dendro (On-field Spread/Driver)",
+                "build_key": "alhaitham_quickbloom_marechaussee_furina"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Ativadora de Hyperbloom (Full EM)",
+                "build_key": "kuki_shinobu_hyperbloom_full_em_flowerofparadiselost"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Suporte Dendro / Buffer EM / Aplicadora Dendro Off-field",
+                "build_key": "nahida_offfield_support_deepwood_or_prototype_amber"
+            }
+        ]
+    },
+    {
+        "id": "alhaitham_thoma_xingqiu_baizhu_burgeon",
+        "name": "Alhaitham - Burgeon (Thoma, Xingqiu, Baizhu)",
+        "strategy": "Time de Germinação onde Alhaitham é o aplicador Dendro on-field. Baizhu fornece utilidade defensiva suficiente para Thoma focar em EM. Requer boa aplicação Hydro para mitigar Queimadura.",
+        "characters_in_team": [
+            {
+                "character_id": "alhaitham",
+                "role_in_team": "Enabler Dendro On-field",
+                "build_key": "alhaitham_enabler_deepwood_memories"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Ativador de Germinação (Full EM) / Escudeiro",
+                "build_key": "thoma_burgeon_full_em_kitain_or_favonius"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Healer / Escudeiro / Aplicador Dendro",
+                "build_key": "baizhu_healer_deepwood_prototype_amber_hp"
+            }
+        ]
+    },
+    {
+        "id": "alhaitham_nilou_xingqiu_baizhu_nilou_bloom",
+        "name": "Alhaitham - Nilou Bloom (Nilou, Xingqiu, Baizhu)",
+        "strategy": "Time de Florescimento de Nilou com Alhaitham como aplicador Dendro on-field. Baizhu fornece sustentação suficiente. A rotação de campo dividido de Alhaitham permite que Baizhu use 2 Skills por rotação.",
+        "characters_in_team": [
+            {
+                "character_id": "alhaitham",
+                "role_in_team": "Enabler Dendro On-field",
+                "build_key": "alhaitham_enabler_deepwood_memories"
+            },
+            {
+                "character_id": "nilou",
+                "role_in_team": "Ativadora de Florescimento Abundante / Aplicadora Hydro",
+                "build_key": "nilou_bloom_hp_keyofkhajnisut"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Healer / Escudeiro / Aplicador Dendro",
+                "build_key": "baizhu_healer_deepwood_prototype_amber_hp"
+            }
+        ]
+    }
+]

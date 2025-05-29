@@ -1,0 +1,110 @@
+[
+    {
+        "id": "chongyun_kaeya_xingqiu_jean_freeze",
+        "name": "Chongyun - Congelamento (Kaeya, Xingqiu, Jean)",
+        "strategy": "Chongyun como aplicador Cryo e suporte de Supremo. Sua infusão Cryo permite que Kaeya seja um DPS Cryo on-field. Xingqiu aplica Hydro para Congelamento e Jean com Sombra Verde reduz RES Cryo e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "chongyun",
+                "role_in_team": "Suporte Cryo (Infusão Cryo, Burst DPS)",
+                "build_key": "chongyun_burst_support_noblesse"
+            },
+            {
+                "character_id": "kaeya",
+                "role_in_team": "Main DPS Cryo On-field (com Infusão)",
+                "build_key": "kaeya_cryo_dps_blizzard_strayer"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "jean",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Healer)",
+                "build_key": "jean_anemo_support_vv_favonius_er"
+            }
+        ]
+    },
+    {
+        "id": "chongyun_shenhe_kaeya_kazuha_mono_cryo",
+        "name": "Chongyun - Mono Cryo (Shenhe, Kaeya, Kazuha)",
+        "strategy": "Time Mono Cryo focado em dano Cryo bruto. Chongyun fornece infusão e dano de Supremo. Shenhe buffa massivamente o dano Cryo. Kaeya como DPS on-field com infusão Cryo. Kazuha para agrupar e reduzir RES Cryo.",
+        "characters_in_team": [
+            {
+                "character_id": "chongyun",
+                "role_in_team": "Suporte Cryo (Infusão Cryo, Burst DPS)",
+                "build_key": "chongyun_burst_support_noblesse"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer de Dano Cryo)",
+                "build_key": "shenhe_cryo_buffer_noblesse_calamityqueller_or_favonius"
+            },
+            {
+                "character_id": "kaeya",
+                "role_in_team": "Main DPS Cryo On-field (com Infusão)",
+                "build_key": "kaeya_cryo_dps_blizzard_strayer"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "chongyun_rosaria_xiangling_bennett_reverse_melt",
+        "name": "Chongyun - Fusão Reversa (Rosaria, Xiangling, Bennett)",
+        "strategy": "Time de Fusão Reversa com Chongyun e Rosaria como DPS Cryo de troca rápida, ativando Fusão na aura Pyro aplicada por Xiangling (buffada por Bennett). ",
+        "characters_in_team": [
+            {
+                "character_id": "chongyun",
+                "role_in_team": "DPS Cryo de Troca Rápida (Melt Burst)",
+                "build_key": "chongyun_melt_burst_dps"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "DPS Cryo de Troca Rápida (Melt Burst/Skill)",
+                "build_key": "rosaria_cryo_melt_dps_lavawalker_or_emblem"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Aplicadora Pyro Off-field / Sub-DPS",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "chongyun_bennett_rosaria_sucrose_forward_melt_bennett",
+        "name": "Chongyun - Fusão Progressiva (Bennett DPS On-field, Rosaria, Sucrose)",
+        "strategy": "Time de Fusão Progressiva onde Bennett (não C6) é o DPS on-field, usando Ataques Normais com infusão Cryo de Chongyun para ativar Fusão entre seus Golpes de Habilidade. Rosaria para dano Cryo adicional e aplicação, Sucrose para EM share e VV Shred. ",
+        "characters_in_team": [
+            {
+                "character_id": "chongyun",
+                "role_in_team": "Enabler Cryo (Infusão Cryo para Bennett)",
+                "build_key": "chongyun_cryo_enabler_sacrificial"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Main DPS Pyro On-field (Forward Melt com Infusão Cryo)",
+                "build_key": "bennett_onfield_dps_crimson_witch_reaction"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo / Aplicadora Cryo Off-field",
+                "build_key": "rosaria_cryo_subdps_noblesse_favonius"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro/Cryo, Buffer EM, Agrupamento)",
+                "build_key": "sucrose_anemo_support_vv_sacrificialfragments_em"
+            }
+        ]
+    }
+]

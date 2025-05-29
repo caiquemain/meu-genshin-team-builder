@@ -1,0 +1,52 @@
+# Ambientes Virtuais
+venv/
+*/venv/
+.venv/
+*/.venv/
+env/
+*/env/
+.env/
+*/.env/
+
+# Node modules
+node_modules/
+*/node_modules/
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de build/distribuição
+dist/
+build/
+*.egg-info/
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Arquivos de configuração local (crie um .env.example com as variáveis)
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Outros
+*.DS_Store
+Thumbs.db

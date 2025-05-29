@@ -1,0 +1,188 @@
+{
+    "id": "bennett",
+    "name": "Bennett",
+    "element": "Pyro",
+    "rarity": 4,
+    "weapon": "Sword",
+    "role": [
+        "Suporte (Healer, ATK Buffer, Bateria Pyro)",
+        "DPS On-field (Melt, Sobrecarga 4TF, Germinação)"
+    ],
+    "icon_url": "/assets/images/characters/bennett.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "build_options": [
+        {
+            "key": "bennett_support_healer_noblesse_er",
+            "name": "Suporte Curandeiro (Ritual Real - Foco em RE/HP)",
+            "notes_build": "Build principal de Bennett como suporte, focando em maximizar seu buff de ATQ (que escala com ATQ Base da arma + ATQ Base do Bennett) e cura (que escala com HP). 4p Ritual Real é geralmente o melhor conjunto para buffar a equipe. Atingir os requisitos de RE é crucial para ter o Supremo disponível toda rotação.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Excelente adição às capacidades de buff de Bennett, fornecendo um buff de ATQ% para toda a equipe. Normalmente o melhor conjunto para Bennett, a menos que a equipe não se beneficie do buff de ATQ%.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "instructor",
+                    "set_name": "Instrutor",
+                    "pieces": 4,
+                    "notes": "Pode ser ótimo em times onde Proficiência Elemental é importante para DPS baseados em reação. Se outro personagem na equipe puder usar 4p Ritual Real, esta opção é melhor para o DPS geral da equipe.",
+                    "icon_url": "/assets/images/artifact_sets/instructor.png"
+                },
+                {
+                    "set_id": "the_exile",
+                    "set_name": "O Exilado",
+                    "pieces": 4,
+                    "notes": "Opção de suporte útil para jogadores mais novos, ajudando com a recarga de energia da equipe. Ritual Real e Instrutor são preferíveis para maximizar o DPS da equipe.",
+                    "icon_url": "/assets/images/artifact_sets/the_exile.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / HP%",
+                "goblet": "HP%",
+                "circlet": "HP% / Bônus de Cura%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "HP%",
+                "HP Flat",
+                "ATK% (para dano pessoal, baixa prioridade)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Compartilha o maior ATQ Base entre as Espadas, maximizando o buff de ATQ de Bennett. Sub-status de Dano CRIT e passiva de Bônus de Dano Elemental a tornam a melhor opção para qualquer build se os requisitos de RE forem atendidos pelos artefatos.",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "aquila_favonia",
+                    "name": "Falcão",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Compartilha o ATQ Base com Cortadora da Neblina, mas sua passiva e sub-status de Dano Físico% a tornam a opção menos preferida entre as duas.",
+                    "icon_url": "/assets/images/weapons_detail/aquila_favonia.png"
+                },
+                {
+                    "weapon_id": "sapwood_blade",
+                    "name": "Lâmina de Madeira (Sapwood Blade)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja (Sumeru) (A SER VERIFICADO)",
+                    "notes": "Melhor opção gratuita para Bennett. Com o segundo maior ATQ Base entre as 4 estrelas e um sub-status vital de RE%, é ideal para as capacidades de buff de ATQ de Bennett enquanto ajuda a atender seu requisito de RE.",
+                    "icon_url": "/assets/images/weapons_detail/sapwood_blade.png"
+                },
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Pode ser a melhor opção quando a equipe tem requisitos de RE incrivelmente altos. A capacidade de bateria pode compensar seu ATQ Base mais baixo.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "the_alley_flash",
+                    "name": "O Clarão do Beco (The Alley Flash)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado) (A SER VERIFICADO)",
+                    "notes": "Espada 4 estrelas com o maior ATQ Base no jogo. Seu sub-status de EM também ajuda um Bennett DPS on-field que ativa Reações Elementais.",
+                    "icon_url": "/assets/images/weapons_detail/the_alley_flash.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        },
+        {
+            "key": "bennett_onfield_dps_crimson_witch_reaction",
+            "name": "DPS On-field (Bruxa Carmesim - Reação)",
+            "notes_build": "Bennett como DPS on-field em times de Vaporizar ou Fusão. 4p Bruxa das Chamas Carmesim é um ótimo conjunto. Areia de EM é geralmente a melhor opção se ele estiver ativando reações.",
+            "artifacts": [
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "set_name": "Bruxa das Chamas Carmesim",
+                    "pieces": 4,
+                    "notes": "Ótimo conjunto para uma build de DPS on-field em times de Vaporizar e Fusão. Com seu baixo cooldown de Habilidade, Bennett pode manter consistentemente os 3 acúmulos do efeito de 4p.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                },
+                {
+                    "set_id": "thundering_fury",
+                    "set_name": "Trovão Furioso",
+                    "pieces": 4,
+                    "notes": "Usado no estilo de jogo DPS on-field de Bennett se ele estiver com unidades Electro off-field como Fischl ou Lisa (para Sobrecarga).",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Usar apenas em times de Germinação onde Bennett é o ativador on-field. O dano de Germinação de Bennett será maior devido ao bônus de 2p EM e efeito do conjunto de 4p.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Pyro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor opção para dano pessoal, além de maximizar o buff do Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "haran_geppaku_futsu",
+                    "name": "Haran Geppaku Futsu",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Fornece um impulso substancial ao dano pessoal de Bennett em uma build de suporte ou DPS investida, graças ao seu alto ATQ Base, sub-status de Taxa CRIT e passiva decente.",
+                    "icon_url": "/assets/images/weapons_detail/haran_geppaku_futsu.png"
+                },
+                {
+                    "weapon_id": "the_alley_flash",
+                    "name": "O Clarão do Beco (The Alley Flash)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado) (A SER VERIFICADO)",
+                    "notes": "Alto ATQ Base para 4 estrelas e sub-status de EM que ajuda Bennett DPS on-field que ativa reações.",
+                    "icon_url": "/assets/images/weapons_detail/the_alley_flash.png"
+                },
+                {
+                    "weapon_id": "iron_sting",
+                    "name": "Espinho de Ferro",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Sub-status de EM é apreciado em times onde Bennett é o ativador de reação on-field.",
+                    "icon_url": "/assets/images/weapons_detail/iron_sting.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (se DPS on-field)"
+            ]
+        }
+    ]
+}

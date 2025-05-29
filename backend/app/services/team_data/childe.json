@@ -1,0 +1,83 @@
+[
+    {
+        "id": "tartaglia_xiangling_bennett_kazuha_international",
+        "name": "Tartaglia - Internacional (Xiangling, Bennett, Kazuha)",
+        "strategy": "Um dos times mais fortes e populares de Childe, focado em Vaporizar o Supremo de Xiangling. Childe permite a Xiangling causar Vaporizar consistentemente com sua rápida aplicação Hydro. Bennett fornece buff de ATQ massivo e cura. Kazuha agrupa inimigos, buffa Dano Elemental e aplica Sombra Verde. ",
+        "characters_in_team": [
+            {
+                "character_id": "tartaglia",
+                "role_in_team": "Main DPS Hydro On-field / Enabler",
+                "build_key": "tartaglia_onfield_dps_nymphs_dream_polar_star"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field (Vaporize)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Hydro/Pyro, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "tartaglia_beidou_fischl_bennett_taser_vape",
+        "name": "Tartaglia - Taser/Vape (Beidou, Fischl, Bennett)",
+        "strategy": "Time forte que combina dano Eletricamente Carregado com Vaporizar (do Supremo de Childe e ocasionais acertos de Bennett/Childe). Childe como driver on-field, Beidou para dano AoE, Fischl para dano single-target e bateria Electro, Bennett para buff e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "tartaglia",
+                "role_in_team": "Main DPS Hydro On-field / Driver",
+                "build_key": "tartaglia_onfield_dps_nymphs_dream_polar_star"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field (Dano em Área)",
+                "build_key": "beidou_offfield_dps_emblem"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "tartaglia_hyperbloom_nahida_kuki_fischl",
+        "name": "Tartaglia - Hyperbloom (Nahida, Kuki Shinobu, Fischl)",
+        "strategy": "Childe atua como aplicador Hydro on-field para gerar Sementes Dendro com Nahida. Kuki Shinobu ativa Hiperflorecimento com build de Proficiência Elemental. Fischl para dano Electro adicional e bateria.",
+        "characters_in_team": [
+            {
+                "character_id": "tartaglia",
+                "role_in_team": "Aplicador Hydro On-field / Driver",
+                "build_key": "tartaglia_onfield_dps_2pc_hydro_2pc_atk_viridescent_hunt"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Ativadora de Hyperbloom (Full EM)",
+                "build_key": "kuki_shinobu_hyperbloom_full_em_flowerofparadiselost"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            }
+        ]
+    }
+]

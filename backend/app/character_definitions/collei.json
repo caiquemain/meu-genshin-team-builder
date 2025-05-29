@@ -1,0 +1,174 @@
+{
+    "id": "collei",
+    "name": "Collei",
+    "element": "Dendro",
+    "rarity": 4,
+    "weapon": "Bow",
+    "role": [
+        "Aplicadora Dendro Off-field",
+        "Suporte de Dano Off-field",
+        "Ativadora de Reações Dendro (Quicken, Bloom, Burning)"
+    ],
+    "icon_url": "/assets/images/characters/collei.png",
+    "element_icon_url": "/assets/images/elements/element_dendro.png",
+    "build_options": [
+        {
+            "key": "collei_support_deepwood_favonius",
+            "name": "Suporte Dendro (Memórias da Floresta - Favonius)",
+            "notes_build": "Foco em fornecer aplicação Dendro e reduzir a RES Dendro dos inimigos para o time. Arco de Guerra de Favonius ajuda com a alta necessidade de Recarga de Energia dela e da equipe. Nível 90 é bom para dano de reação se ela ativar alguma.",
+            "artifacts": [
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Se não houver outro portador de 4p Memórias da Floresta na equipe, Collei deve usar este conjunto. A Redução de RES é excelente para o dano pessoal dela e para suportar outros Dendro ou personagens que ativam Florescimento, Hiperflorecimento ou Germinação. ",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Conjunto de suporte geral que buffa o ATQ da equipe. Útil se outro personagem já estiver com Memórias da Floresta ou se o dano Dendro não for o foco principal. ",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Com C2, Collei pode manter o buff de ATQ% de 20% para a equipe com alta frequência devido aos Brotos de sua Habilidade contarem como dano de Habilidade. Ótimo em times de Agravamento. ",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / Proficiência Elemental (EM) / ATK%",
+                "goblet": "Bônus de Dano Dendro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~170-200%)",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM) / ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_warbow",
+                    "name": "Arco de Guerra de Favonius",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Excelente F2P. Reduz as necessidades de Energia de toda a equipe. Requer ~30% de Taxa CRIT. ",
+                    "icon_url": "/assets/images/weapons_detail/favonius_warbow.png"
+                },
+                {
+                    "weapon_id": "sacrificial_bow",
+                    "name": "Arco do Sacrifício",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "R4/R5 necessário para rotações de 20s. Oferece muita RE, uma Habilidade extra para mais partículas e aplicação Dendro. ",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_bow.png"
+                },
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor em Slot em quase todos os casos. Fornece EM, RE e buff de ATQ% para toda a equipe. ",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        },
+        {
+            "key": "collei_bloom_trigger_gilded_dreams_em",
+            "name": "Ativadora de Florescimento/Queimadura (Sonhos Dourados - Full EM)",
+            "notes_build": "Foco em maximizar Proficiência Elemental para o dano de Florescimento ou Queimadura quando Collei é a ativadora. Requer compromisso total com EM após atender aos requisitos de RE.",
+            "artifacts": [
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Melhor para dano bruto em Florescimento (assume Collei como única Dendro). Sem utilidade de suporte. ",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Não brilha tanto em build full EM quanto em builds CRIT, mas continua sendo o mais flexível. ",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                },
+                {
+                    "set_id": "flower_of_paradise_lost_gilded_dreams_2pc_em_mix",
+                    "set_name": "Flor do Paraíso (2p) + Sonhos Dourados (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de 2p de EM são o mínimo para um estilo de jogo de Florescimento, se não tiver um bom conjunto de 4p.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "flower_of_paradise_lost",
+                        "gilded_dreams"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / Proficiência Elemental (EM)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Proficiência Elemental (EM)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Ainda a melhor opção devido aos buffs para a equipe e stats úteis para Collei. ",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                },
+                {
+                    "weapon_id": "the_stringless",
+                    "name": "O Último Acorde",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "R5 é fácil de adquirir e funciona para Collei independentemente da build, desde que se importe com dano. A EM é muito apreciada. ",
+                    "icon_url": "/assets/images/weapons_detail/the_stringless.png"
+                },
+                {
+                    "weapon_id": "windblume_ode",
+                    "name": "Ode à Brisa Florescente (Windblume Ode)",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Evento (A SER VERIFICADO)",
+                    "notes": "Arma de evento, oferece boa EM. Bom substituto para O Último Acorde. ",
+                    "icon_url": "/assets/images/weapons_detail/windblume_ode.png"
+                },
+                {
+                    "weapon_id": "raven_bow",
+                    "name": "Arco de Corvo",
+                    "rarity": 3,
+                    "type": "Bow",
+                    "category": "Baús / Gacha",
+                    "notes": "O mínimo absoluto. R5 compete com alguns arcos 5 estrelas com uptime passivo de 100%. ",
+                    "icon_url": "/assets/images/weapons_detail/raven_bow.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        }
+    ]
+}

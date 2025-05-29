@@ -1,0 +1,297 @@
+{
+    "id": "amber",
+    "name": "Amber",
+    "element": "Pyro",
+    "rarity": 4,
+    "weapon": "Bow",
+    "role": [
+        "Melt Charged Shot DPS",
+        "Bunny Bomber (Melt C4+)",
+        "Burgeon DPS",
+        "Burst Support"
+    ],
+    "icon_url": "/assets/images/characters/amber.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "build_options": [
+        {
+            "key": "amber_melt_cs_charged_shot",
+            "name": "DPS Melt (Tiro Carregado)",
+            "notes_build": "Estilo de jogo DPS padrão de Amber, focado em Tiros Carregados para ativar Fusão. Requer alto investimento. Build sem Taxa CRIT é viável para jogadores habilidosos contra inimigos com pontos fracos.",
+            "artifacts": [
+                {
+                    "set_id": "wanderers_troupe",
+                    "set_name": "Trupe Itinerante",
+                    "pieces": 4,
+                    "notes": "Melhor para estilos de jogo de Tiro Carregado, junto com Reminiscência Nostálgica.",
+                    "icon_url": "/assets/images/artifact_sets/wanderers_troupe.png"
+                },
+                {
+                    "set_id": "shimenawas_reminiscence",
+                    "set_name": "Reminiscência Nostálgica",
+                    "pieces": 4,
+                    "notes": "Buff poderoso para Tiros Carregados, mas o consumo de Energia aumenta as necessidades de RE de Amber.",
+                    "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png"
+                },
+                {
+                    "set_id": "desert_pavilion_chronicle",
+                    "set_name": "Crônicas do Pavilhão do Deserto",
+                    "pieces": 4,
+                    "notes": "Performace igual a 4p Bruxa das Chamas para um estilo de jogo de Tiro Carregado com Fusão, apesar do efeito de 2p não utilizado.",
+                    "icon_url": "/assets/images/artifact_sets/desert_pavilion_chronicle.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) > ATK%",
+                "goblet": "Bônus de Dano Pyro",
+                "circlet": "Dano CRIT (para build sem Taxa CRIT) / Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (se usar Supremo, até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "astral_vultures_crimson_plumage",
+                    "name": "Plumagem Carmesim do Abutre Astral (Astral Vulture's Crimson Plumage)",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (A SER VERIFICADO)",
+                    "notes": "Nova melhor arma para o estilo de jogo de Tiro Carregado com Fusão, fornecendo Dano CRIT e um forte buff de Dano de Tiro Carregado %.",
+                    "icon_url": "/assets/images/weapons_detail/astral_vultures_crimson_plumage.png"
+                },
+                {
+                    "weapon_id": "the_first_great_magic",
+                    "name": "A Primeira Grande Mágica",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Passiva muito sinérgica e sub-status de Dano CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/the_first_great_magic.png"
+                },
+                {
+                    "weapon_id": "sharpshooters_oath",
+                    "name": "Juramento de Sagitário (Sharpshooter's Oath)",
+                    "rarity": 3,
+                    "type": "Bow",
+                    "category": "Baús/Gacha (A SER VERIFICADO)",
+                    "notes": "Oferece um bônus de DANO potente em acertos em pontos fracos; opção F2P muito acessível.",
+                    "icon_url": "/assets/images/weapons_detail/sharpshooters_oath.png"
+                },
+                {
+                    "weapon_id": "hamayumi",
+                    "name": "Hamayumi",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Forja (A SER VERIFICADO)",
+                    "notes": "Opção de forja. Decente para estilo de Tiro Carregado, mas perde valor se Amber precisar usar o Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/hamayumi.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Supremo (Burst) (baixa prioridade)",
+                "Habilidade Elemental (Skill) (baixa prioridade)"
+            ]
+        },
+        {
+            "key": "amber_bunny_bomber_c4_melt",
+            "name": "Bunny Bomber C4+ (Melt - Bruxa Carmesim)",
+            "notes_build": "Estilo de jogo que utiliza C2+ para dano explosivo da Habilidade Elemental (Barão Coelho) e C4+ para uso confortável. 4p Bruxa das Chamas Carmesim é o melhor conjunto.",
+            "artifacts": [
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "set_name": "Bruxa das Chamas Carmesim",
+                    "pieces": 4,
+                    "notes": "Buffa todos os ataques Pyro e reações de Amber. Melhor conjunto para Bunny Bomber.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Fornece buffs mais fortes que combinações de 2p para Bunny Bomber. Domínio eficiente em Resina.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / ATK%",
+                "goblet": "Bônus de Dano Pyro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (100-120%)",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "polar_star",
+                    "name": "Estrela Invernal",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Performance similar a Primeira Grande Mágica, ligeiramente melhor se usar Supremo e N1C antes da Skill.",
+                    "icon_url": "/assets/images/weapons_detail/polar_star.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Boa opção geral, requer proximidade.",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal",
+                "Supremo (Burst)"
+            ]
+        },
+        {
+            "key": "amber_burgeon_dps_full_em",
+            "name": "DPS Germinação (Full EM - Flor do Paraíso Perdido)",
+            "notes_build": "Oferece alto dano AoE sustentado. Amber é uma DPS de Germinação capaz, pois quase todos os ataques em seu kit podem ativar Germinação. Priorize Nível 90. Talentos podem ser deixados no Nível 1. Tiros Carregados são recomendados para aplicação Pyro controlada.",
+            "artifacts": [
+                {
+                    "set_id": "flower_of_paradise_lost",
+                    "set_name": "Flor do Paraíso Perdido",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto com alta Proficiência Elemental.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Conjunto forte que fornece muita Proficiência Elemental.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "em_2pc_mix_paradise_gilded",
+                    "set_name": "Proficiência Elemental (2p) + Proficiência Elemental (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de conjuntos de +80 EM são usáveis.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "flower_of_paradise_lost",
+                        "gilded_dreams"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Proficiência Elemental (EM)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "cloudforged",
+                    "name": "Forjado nas Nuvens (Cloudforged)",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Evento (A SER VERIFICADO)",
+                    "notes": "Arma de evento gratuita; oferece a mesma EM base que O Último Acorde, potencialmente mais em times onde Amber pode usar o Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/cloudforged.png"
+                },
+                {
+                    "weapon_id": "the_stringless",
+                    "name": "O Último Acorde (The Stringless)",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha (A SER VERIFICADO)",
+                    "notes": "Opção de gacha; passiva de Dano de Habilidade e Supremo desperdiçada.",
+                    "icon_url": "/assets/images/weapons_detail/the_stringless.png"
+                },
+                {
+                    "weapon_id": "raven_bow",
+                    "name": "Arco de Corvo (Raven Bow)",
+                    "rarity": 3,
+                    "type": "Bow",
+                    "category": "Baús/Gacha (A SER VERIFICADO)",
+                    "notes": "Opção F2P muito acessível; menos EM que as opções acima.",
+                    "icon_url": "/assets/images/weapons_detail/raven_bow.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem para 90",
+                "Ataque Normal (Nível 1)",
+                "Habilidade Elemental (Skill) (Nível 1)",
+                "Supremo (Burst) (Nível 1)"
+            ]
+        },
+        {
+            "key": "amber_burst_support",
+            "name": "Suporte de Supremo (Buff/Bateria)",
+            "notes_build": "Amber usa seu Supremo para permitir VV Shred Pyro e fornecer buffs para colegas de equipe (ex: 4p Ritual Real/Instrutor, Elegia, Arco de Favonius). C4+ pode ser bateria para Xiangling.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Conjunto de suporte para causadores de dano que escalam com ATQ.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "instructor",
+                    "set_name": "Instrutor",
+                    "pieces": 4,
+                    "notes": "Use apenas se o time permitir que Amber ative reações com seu Supremo. Fornece buff de EM valioso para times focados em reações.",
+                    "icon_url": "/assets/images/artifact_sets/instructor.png"
+                },
+                {
+                    "set_id": "scroll_of_the_hero_of_cinder_city",
+                    "set_name": "Pergaminho do Herói da Cidade das Cinzas",
+                    "pieces": 4,
+                    "notes": "Use apenas se o time permitir que Amber ative reações com seu Supremo. Ajuda a aliviar suas necessidades de RE se houver um personagem de Natlan na equipe.",
+                    "icon_url": "/assets/images/artifact_sets/scroll_of_the_hero_of_cinder_city.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / ATK% (com Arco de Favonius)",
+                "goblet": "Bônus de Dano Pyro",
+                "circlet": "Taxa CRIT (para Arco de Favonius) / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT (se usando Arco de Favonius)",
+                "Dano CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Possui um sub-status útil e fornece um valioso buff para toda a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                },
+                {
+                    "weapon_id": "favonius_warbow",
+                    "name": "Arco de Guerra de Favonius",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Garante que Amber cumpra seu requisito de RE e reduz as necessidades de RE dos colegas de equipe. Necessário Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_warbow.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill) (menor prioridade)",
+                "Ataque Normal (menor prioridade)"
+            ]
+        }
+    ]
+}

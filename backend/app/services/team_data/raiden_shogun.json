@@ -1,0 +1,54 @@
+[
+    {
+        "name": "Raiden National",
+        "core_characters": [
+            "raiden_shogun",
+            "xiangling",
+            "bennett",
+            "xingqiu"
+        ],
+        "flex_options": [],
+        "min_owned_core": 4,
+        "strategy": "Um dos times mais fortes e populares. Dano massivo de Vaporize e Overload com as Ultimates de Xiangling e Raiden, buffadas por Bennett e possibilitadas pela aplicação Hydro de Xingqiu. Raiden também ajuda a recarregar a energia de todos."
+    },
+    {
+        "name": "Raiden Hypercarry",
+        "core_characters": [
+            "raiden_shogun"
+        ],
+        "flex_options": [
+            {
+                "description": "Buffer de ATK/Dano",
+                "character_id_options": [
+                    "bennett"
+                ],
+                "role_hint": [
+                    "Support",
+                    "Healer"
+                ]
+            },
+            {
+                "description": "Buffer Anemo/VV",
+                "element": "Anemo",
+                "character_id_options": [
+                    "kaedehara_kazuha",
+                    "sucrose"
+                ],
+                "role_hint": [
+                    "Support"
+                ]
+            },
+            {
+                "description": "Buffer Electro/Suporte",
+                "character_id_options": [
+                    "kujou_sara"
+                ],
+                "role_hint": [
+                    "Support"
+                ]
+            }
+        ],
+        "min_owned_core": 1,
+        "strategy": "Maximiza o dano pessoal da Raiden Shogun com buffers dedicados como Bennett, Kazuha e Kujou Sara (idealmente C6)."
+    }
+]

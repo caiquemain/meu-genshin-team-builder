@@ -1,0 +1,724 @@
+[
+    {
+        "id": "archaic_petra",
+        "name": "Pedra Arcaica",
+        "name_en": "Archaic Petra",
+        "icon_url": "/assets/images/artifact_sets/archaic_petra.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Ganha um Bônus de Dano Geo de 15%.",
+        "bonus_4pc": "Ao obter um Fragmento Elemental criado através de uma Reação de Cristalização, todos os membros da equipe ganham um Bônus de Dano de 35% para esse elemento particular por 10s. Apenas uma forma de Bônus de Dano Elemental pode ser ganha desta maneira a qualquer momento.",
+        "domain_source": null
+    },
+    {
+        "id": "blizzard_strayer",
+        "name": "Herói Invernal",
+        "name_en": "Blizzard Strayer",
+        "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Bônus de Dano Cryo +15%",
+        "bonus_4pc": "Quando um personagem ataca um inimigo afetado por Cryo, sua Taxa CRIT é aumentada em 20%. Se o inimigo estiver Congelado, a Taxa CRIT é aumentada em adicionais 20%.",
+        "domain_source": null
+    },
+    {
+        "id": "bloodstained_chivalry",
+        "name": "Cavaleiro Manchado de Sangue",
+        "name_en": "Bloodstained Chivalry",
+        "icon_url": "/assets/images/artifact_sets/bloodstained_chivalry.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Dano Físico +25%",
+        "bonus_4pc": "Após derrotar um oponente, aumenta o Dano do Ataque Carregado em 50% e reduz seu custo de Stamina para 0 por 10s.",
+        "domain_source": null
+    },
+    {
+        "id": "crimson_witch_of_flames",
+        "name": "Bruxa das Chamas Carmesim",
+        "name_en": "Crimson Witch of Flames",
+        "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Bônus de Dano Pyro +15%.",
+        "bonus_4pc": "Aumenta o Dano de Sobrecarga, Queimadura e Germinação em 40%. Aumenta o Dano de Vaporização e Fusão em 15%. Usar uma Habilidade Elemental aumenta os efeitos do Conjunto de 2 Peças em 50% por 10s. Máx 3 acúmulos.",
+        "domain_source": null
+    },
+    {
+        "id": "deepwood_memories",
+        "name": "Memórias da Floresta",
+        "name_en": "Deepwood Memories",
+        "icon_url": "/assets/images/artifact_sets/deepwood_memories.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Bônus de Dano Dendro +15%",
+        "bonus_4pc": "Após Habilidades Elementais ou Supremos atingirem oponentes, a RES Dendro dos alvos será diminuída em 30% por 8s. Este efeito pode ser ativado mesmo se o personagem equipando não estiver em campo.",
+        "domain_source": null
+    },
+    {
+        "id": "desert_pavilion_chronicle",
+        "name": "Crônicas do Pavilhão do Deserto",
+        "name_en": "Desert Pavilion Chronicle",
+        "icon_url": "/assets/images/artifact_sets/desert_pavilion_chronicle.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Bônus de Dano Anemo +15%",
+        "bonus_4pc": "Quando Ataques Carregados atingem oponentes, a velocidade do Ataque Normal do personagem equipando aumentará em 10% enquanto o Dano de Ataque Normal, Carregado e Imersivo aumentará em 40% por 15s.",
+        "domain_source": null
+    },
+    {
+        "id": "echoes_of_an_offering",
+        "name": "Eco de uma Oferenda",
+        "name_en": "Echoes of an Offering",
+        "icon_url": "/assets/images/artifact_sets/echoes_of_an_offering.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "ATK +18%.",
+        "bonus_4pc": "Quando Ataques Normais atingem oponentes, há uma chance de 36% de ativar o Rito do Vale, que aumentará o Dano do Ataque Normal em 70% do ATK. Este efeito será dissipado 0.05s após um Ataque Normal causar DANO. Se um Ataque Normal falhar em ativar o Rito do Vale, as chances de ativá-lo na próxima vez aumentarão em 20%. Esta ativação pode ocorrer uma vez a cada 0.2s.",
+        "domain_source": null
+    },
+    {
+        "id": "emblem_of_severed_fate",
+        "name": "Selo da Insulação",
+        "name_en": "Emblem of Severed Fate",
+        "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Recarga de Energia +20%.",
+        "bonus_4pc": "Aumenta o Dano do Supremo Elemental em 25% da Recarga de Energia. Um máximo de 75% de bônus de DANO pode ser obtido desta forma.",
+        "domain_source": null
+    },
+    {
+        "id": "finale_of_the_deep_galleries",
+        "name": "Finale das Galerias Profundas",
+        "name_en": "Finale of the Deep Galleries",
+        "icon_url": "/assets/images/artifact_sets/finale_of_the_deep_galleries.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Bônus de Dano Cryo +15%",
+        "bonus_4pc": "Quando o personagem equipando tem 0 de Energia Elemental, o Dano do Ataque Normal é aumentado em 60% e o Dano do Supremo Elemental é aumentado em 60%. Após o personagem equipando causar Dano de Ataque Normal, o efeito do Supremo Elemental mencionado anteriormente para de ser aplicado por 6s. Após o personagem equipando causar Dano de Supremo Elemental, o efeito de Ataque Normal mencionado anteriormente para de ser aplicado por 6s. Este efeito pode ser ativado mesmo se o personagem equipando estiver fora de campo.",
+        "domain_source": null
+    },
+    {
+        "id": "flower_of_paradise_lost",
+        "name": "Flor do Paraíso Perdido",
+        "name_en": "Flower of Paradise Lost",
+        "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Proficiência Elemental +80",
+        "bonus_4pc": "O Dano das reações de Florescimento, Superflorescimento e Germinação do personagem equipando é aumentado em 40%. Adicionalmente, após o personagem equipando ativar Florescimento, Superflorescimento ou Germinação, ele ganhará outro bônus de 25% ao efeito mencionado anteriormente. Cada acúmulo disto dura 10s. Máx 4 acúmulos simultaneamente. Este efeito só pode ser ativado uma vez por segundo. O personagem que equipa isto ainda pode ativar seus efeitos quando não estiver em campo.",
+        "domain_source": null
+    },
+    {
+        "id": "fragment_of_harmonic_whimsy",
+        "name": "Fragmento da Fantasia Harmônica",
+        "name_en": "Fragment of Harmonic Whimsy",
+        "icon_url": "/assets/images/artifact_sets/fragment_of_harmonic_whimsy.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "ATK +18%",
+        "bonus_4pc": "Quando o valor de um Contrato de Vida aumenta ou diminui, este personagem causa 18% de DANO aumentado por 6s. Máx 3 acúmulos.",
+        "domain_source": null
+    },
+    {
+        "id": "gilded_dreams",
+        "name": "Sonhos Dourados",
+        "name_en": "Gilded Dreams",
+        "icon_url": "/assets/images/artifact_sets/gilded_dreams.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Proficiência Elemental +80",
+        "bonus_4pc": "Dentro de 8s após ativar uma Reação Elemental, o personagem equipando obterá buffs baseados no Tipo Elemental dos outros membros da equipe. O ATK é aumentado em 14% para cada membro cujo Tipo Elemental é o mesmo do personagem equipando, e a Proficiência Elemental é aumentada em 50 para cada membro com um Tipo Elemental diferente. Cada um dos buffs contará até 3 personagens. Este efeito pode ser ativado uma vez a cada 8s e mesmo quando não estiver em campo.",
+        "domain_source": null
+    },
+    {
+        "id": "gladiators_finale",
+        "name": "Último Juramento do Gladiador",
+        "name_en": "Gladiator's Finale",
+        "icon_url": "/assets/images/artifact_sets/gladiators_finale.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "ATK +18%.",
+        "bonus_4pc": "Se o portador deste conjunto de artefatos usa uma Espada, Espadão ou Lança, aumenta o Dano de seu Ataque Normal em 35%.",
+        "domain_source": null
+    },
+    {
+        "id": "golden_troupe",
+        "name": "Trupe Dourada",
+        "name_en": "Golden Troupe",
+        "icon_url": "/assets/images/artifact_sets/golden_troupe.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Dano da Habilidade Elemental +20%",
+        "bonus_4pc": "Aumenta o Dano da Habilidade Elemental em 25%. Adicionalmente, quando não estiver em campo, o Dano da Habilidade Elemental será aumentado em mais 25%. Este efeito será limpo 2s após entrar em campo.",
+        "domain_source": null
+    },
+    {
+        "id": "heart_of_depth",
+        "name": "Profundezas do Coração",
+        "name_en": "Heart of Depth",
+        "icon_url": "/assets/images/artifact_sets/heart_of_depth.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Bônus de Dano Hydro +15%",
+        "bonus_4pc": "Após usar a Habilidade Elemental, aumenta o Dano do Ataque Normal e do Ataque Carregado em 30% por 15s.",
+        "domain_source": null
+    },
+    {
+        "id": "husk_of_opulent_dreams",
+        "name": "Casca de Sonhos Opulentos",
+        "name_en": "Husk of Opulent Dreams",
+        "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "DEF +30%",
+        "bonus_4pc": "Um personagem equipado com este conjunto de Artefatos obterá o efeito Curiosidade nas seguintes condições: Quando em campo, o personagem ganha 1 acúmulo após atingir um oponente com um ataque Geo, ativando no máximo uma vez a cada 0.3s. Quando fora de campo, o personagem ganha 1 acúmulo a cada 3s. Curiosidade pode acumular até 4 vezes, cada uma fornecendo 6% DEF e 6% de Bônus de Dano Geo. Quando 6 segundos passam sem ganhar um acúmulo de Curiosidade, 1 acúmulo é perdido.",
+        "domain_source": null
+    },
+    {
+        "id": "lavawalker",
+        "name": "Atravessador de Fogo",
+        "name_en": "Lavawalker",
+        "icon_url": "/assets/images/artifact_sets/lavawalker.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "RES Pyro aumentada em 40%.",
+        "bonus_4pc": "Aumenta o DANO contra inimigos afetados por Pyro em 35%.",
+        "domain_source": null
+    },
+    {
+        "id": "long_nights_oath",
+        "name": "Juramento da Longa Noite",
+        "name_en": "Long Night's Oath",
+        "icon_url": "/assets/images/artifact_sets/long_nights_oath.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Dano do Ataque Imersivo aumentado em 25%.",
+        "bonus_4pc": "Após o Ataque Imersivo/Ataque Carregado/Habilidade Elemental do personagem equipando atingir um oponente, ele ganhará 1/2/2 acúmulo(s) de \"Radiância Eterna\". Ataques Imersivos, Ataques Carregados ou Habilidades Elementais podem cada um ativar este efeito uma vez a cada 1s. Radiância Eterna: Ataques Imersivos causam 15% de DANO aumentado por 6s. Máx 5 acúmulos. A duração de cada acúmulo é contada independentemente.",
+        "domain_source": null
+    },
+    {
+        "id": "maiden_beloved",
+        "name": "Donzela Amada",
+        "name_en": "Maiden Beloved",
+        "icon_url": "/assets/images/artifact_sets/maiden_beloved.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Efetividade da Cura do Personagem +15%.",
+        "bonus_4pc": "Usar uma Habilidade Elemental ou Supremo aumenta a cura recebida por todos os membros da equipe em 20% por 10s.",
+        "domain_source": null
+    },
+    {
+        "id": "marechaussee_hunter",
+        "name": "Caçador das Sombras",
+        "name_en": "Marechaussee Hunter",
+        "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Dano do Ataque Normal e Carregado +15%",
+        "bonus_4pc": "Quando o HP atual aumenta ou diminui, a Taxa CRIT será aumentada em 12% por 5s. Máx 3 acúmulos.",
+        "domain_source": null
+    },
+    {
+        "id": "nighttime_whispers_in_the_echoing_woods",
+        "name": "Sussurros Noturnos na Floresta Ecoante",
+        "name_en": "Nighttime Whispers in the Echoing Woods",
+        "icon_url": "/assets/images/artifact_sets/nighttime_whispers_in_the_echoing_woods.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "ATK +18%",
+        "bonus_4pc": "Após usar uma Habilidade Elemental, ganhe um Bônus de Dano Geo de 20% por 10s. Enquanto sob um escudo concedido pela reação de Cristalização, o efeito acima será aumentado em 150%, e este aumento adicional desaparece 1s após o escudo ser perdido.",
+        "domain_source": null
+    },
+    {
+        "id": "noblesse_oblige",
+        "name": "Antigo Ritual Real",
+        "name_en": "Noblesse Oblige",
+        "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Dano do Supremo Elemental +20%.",
+        "bonus_4pc": "Usar um Supremo Elemental aumenta o ATK de todos os membros da equipe em 20% por 12s. Este efeito não pode acumular.",
+        "domain_source": null
+    },
+    {
+        "id": "nymphs_dream",
+        "name": "Sonho da Ninfa",
+        "name_en": "Nymph's Dream",
+        "icon_url": "/assets/images/artifact_sets/nymphs_dream.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Bônus de Dano Hydro +15%",
+        "bonus_4pc": "Após Ataques Normais, Carregados e Imersivos, Habilidades Elementais e Supremos Elementais atingirem oponentes, 1 acúmulo de Ninfa Espelhada será ativado, durando 8s. Quando sob o efeito de 1, 2 ou 3 ou mais Acúmulos de Ninfa Espelhada, o ATK será aumentado em 7%/16%/25%, e o bônus de Dano Hydro será aumentado em 4%/9%/15%. Acúmulos de Ninfa Espelhada criados por Ataques Normais, Carregados e Imersivos, Habilidades Elementais e Supremos Elementais existem independentemente.",
+        "domain_source": null
+    },
+    {
+        "id": "obsidian_codex",
+        "name": "Códice de Obsidiana",
+        "name_en": "Obsidian Codex",
+        "icon_url": "/assets/images/artifact_sets/obsidian_codex.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Enquanto o personagem equipando estiver na Bênção da Alma da Noite (Nightsoul's Blessing) e em campo, seu DANO causado é aumentado em 15%.",
+        "bonus_4pc": "Após o personagem equipando consumir 1 ponto de Alma da Noite (Nightsoul point) enquanto em campo, a Taxa CRIT aumenta em 40% por 6s. Este efeito pode ser ativado uma vez por segundo.",
+        "domain_source": null
+    },
+    {
+        "id": "ocean_hued_clam",
+        "name": "Concha Tingida Pelo Mar",
+        "name_en": "Ocean-Hued Clam",
+        "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Bônus de Cura +15%",
+        "bonus_4pc": "Quando o personagem com este conjunto de artefatos cura um membro da equipe, 1 Espuma aparecerá. Ela acumula HP curado por 3 segundos, então explode e causa 90% do HP curado como DANO a inimigos próximos. Máx de cura acumulada é 30.000 HP, incluindo cura excessiva. Só pode haver 1 Espuma ativa, mas ela permanece mesmo se você trocar de personagem. O Tempo de Recarga da Espuma é 3.5s.",
+        "domain_source": null
+    },
+    {
+        "id": "pale_flame",
+        "name": "Chama Pálida",
+        "name_en": "Pale Flame",
+        "icon_url": "/assets/images/artifact_sets/pale_flame.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Dano Físico +25%",
+        "bonus_4pc": "Quando uma Habilidade Elemental atinge um oponente, o ATK é aumentado em 9% por 7s. Este efeito acumula até 2 vezes e pode ser ativado uma vez a cada 0.3s. Uma vez que 2 acúmulos são alcançados, o efeito do conjunto de 2 peças é dobrado.",
+        "domain_source": null
+    },
+    {
+        "id": "retracing_bolide",
+        "name": "Meteoro Invertido",
+        "name_en": "Retracing Bolide",
+        "icon_url": "/assets/images/artifact_sets/retracing_bolide.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Aumenta a Força do Escudo em 35%",
+        "bonus_4pc": "Enquanto protegido por um escudo, ganhe um Dano de Ataque Normal e Carregado adicional de 40%.",
+        "domain_source": null
+    },
+    {
+        "id": "scroll_of_the_hero_of_cinder_city",
+        "name": "Pergaminho do Herói da Cidade das Cinzas",
+        "name_en": "Scroll of the Hero of Cinder City",
+        "icon_url": "/assets/images/artifact_sets/scroll_of_the_hero_of_cinder_city.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Quando um membro da equipe próximo ativa um Supremo da Alma da Noite (Nightsoul Burst), o personagem equipando regenera 6 de Energia Elemental.",
+        "bonus_4pc": "Após o personagem equipando ativar uma reação, todos os membros da equipe próximos ganham um Bônus de Dano Elemental de 12% para os Tipos Elementais envolvidos por 15s. Se o personagem equipando estiver no estado Bênção da Alma da Noite (Nightsoul's Blessing) ao ativar este efeito, todos os membros da equipe ganham um bônus adicional de 28% de Dano Elemental para os Tipos Elementais envolvidos na reação por 20s.",
+        "domain_source": null
+    },
+    {
+        "id": "shimenawas_reminiscence",
+        "name": "Reminiscência Nostálgica",
+        "name_en": "Shimenawa's Reminiscence",
+        "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "ATK +18%.",
+        "bonus_4pc": "Ao lançar uma Habilidade Elemental, se o personagem tiver 15 ou mais de Energia, ele perde 15 de Energia e o Dano de Ataque Normal/Carregado/Imersivo é aumentado em 50% por 10s. Este efeito não será ativado novamente durante essa duração.",
+        "domain_source": null
+    },
+    {
+        "id": "song_of_days_past",
+        "name": "Canção dos Dias Passados",
+        "name_en": "Song of Days Past",
+        "icon_url": "/assets/images/artifact_sets/song_of_days_past.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Bônus de Cura +15%",
+        "bonus_4pc": "Quando o personagem equipando cura um membro da equipe, o efeito Anseio será criado por 6s, que registra a quantidade total de cura fornecida (incluindo cura excessiva). Quando a duração expirar, o efeito Anseio será transformado no efeito Ondas dos Dias Passados: Quando seu membro ativo da equipe atinge um oponente com um Ataque Normal, Ataque Carregado, Ataque Imersivo, Habilidade Elemental ou Supremo Elemental, o DANO causado será aumentado em 8% da quantidade total de cura registrada pelo efeito Anseio. O efeito Ondas dos Dias Passados é removido após ter efeito 5 vezes ou após 10s. Uma única instância do efeito Anseio pode registrar até 15.000 de cura, e apenas uma única instância pode existir de uma vez, mas pode registrar a cura de múltiplos personagens equipando. Personagens equipando em espera ainda podem ativar este efeito.",
+        "domain_source": null
+    },
+    {
+        "id": "tenacity_of_the_millelith",
+        "name": "Tenacidade dos Millelith",
+        "name_en": "Tenacity of the Millelith",
+        "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "HP +20%",
+        "bonus_4pc": "Quando uma Habilidade Elemental atinge um oponente, o ATK de todos os membros da equipe próximos é aumentado em 20% e a Força do Escudo deles é aumentada em 30% por 3s. Este efeito pode ser ativado uma vez a cada 0.5s. Este efeito ainda pode ser ativado mesmo quando o personagem que está usando este conjunto de artefatos não está em campo.",
+        "domain_source": null
+    },
+    {
+        "id": "thundering_fury",
+        "name": "Trovão Furioso",
+        "name_en": "Thundering Fury",
+        "icon_url": "/assets/images/artifact_sets/thundering_fury.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Bônus de Dano Electro +15%",
+        "bonus_4pc": "Aumenta o dano causado por Sobrecarga, Eletricamente Carregado, Supercondutor e Superflorescimento em 40%, e o Bônus de DANO conferido por Intensificar é aumentado em 20%. Quando Aceleração ou as Reações Elementais mencionadas anteriormente são ativadas, o Tempo de Recarga da Habilidade Elemental é diminuído em 1s. Só pode ocorrer uma vez a cada 0.8s.",
+        "domain_source": null
+    },
+    {
+        "id": "thundersoother",
+        "name": "Lançador de Trovões",
+        "name_en": "Thundersoother",
+        "icon_url": "/assets/images/artifact_sets/thundersoother.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "RES Electro aumentada em 40%.",
+        "bonus_4pc": "Aumenta o DANO contra inimigos afetados por Electro em 35%.",
+        "domain_source": null
+    },
+    {
+        "id": "unfinished_reverie",
+        "name": "Devaneio Inacabado",
+        "name_en": "Unfinished Reverie",
+        "icon_url": "/assets/images/artifact_sets/unfinished_reverie.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "ATK+18%",
+        "bonus_4pc": "Após sair de combate por 3s, o DANO causado aumenta em 50%. Em combate, se não houver oponentes Queimando por perto por mais de 6s, este Bônus de DANO diminuirá em 10% por segundo até atingir 0%. Quando um oponente Queimando existe, ele aumentará em 10% em vez disso até atingir 50%. Este efeito ainda é ativado se o personagem equipando estiver fora de campo.",
+        "domain_source": null
+    },
+    {
+        "id": "vermillion_hereafter",
+        "name": "Além-vida Vermillion",
+        "name_en": "Vermillion Hereafter",
+        "icon_url": "/assets/images/artifact_sets/vermillion_hereafter.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "ATK +18%.",
+        "bonus_4pc": "Após usar um Supremo Elemental, este personagem ganhará o efeito Luz Nascente, aumentando seu ATK em 8% por 16s. Quando o HP do personagem diminui, seu ATK aumentará ainda mais em 10%. Este aumento adicional pode ocorrer desta forma um máximo de 4 vezes. Este efeito pode ser ativado uma vez a cada 0.8s. Luz Nascente será dissipada quando o personagem sair de campo. Se um Supremo Elemental for usado novamente durante a duração da Luz Nascente, a Luz Nascente original será dissipada.",
+        "domain_source": null
+    },
+    {
+        "id": "viridescent_venerer",
+        "name": "Sombra Verde Esmeralda",
+        "name_en": "Viridescent Venerer",
+        "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Bônus de Dano Anemo +15%",
+        "bonus_4pc": "Aumenta o Dano de Redemoinho em 60%. Diminui a RES Elemental do oponente ao elemento infundido no Redemoinho em 40% por 10s.",
+        "domain_source": null
+    },
+    {
+        "id": "vourukashas_glow",
+        "name": "Brilho de Vourukasha",
+        "name_en": "Vourukasha's Glow",
+        "icon_url": "/assets/images/artifact_sets/vourukashas_glow.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "HP +20%",
+        "bonus_4pc": "Dano da Habilidade Elemental e Supremo Elemental será aumentado em 10%. Após o personagem equipando sofrer DANO, o Bônus de DANO mencionado anteriormente é aumentado em 80% por 5s. Este aumento de efeito pode ter 5 acúmulos. A duração de cada acúmulo é contada independentemente. Estes efeitos podem ser ativados mesmo quando o personagem equipando não está em campo.",
+        "domain_source": null
+    },
+    {
+        "id": "wanderers_troupe",
+        "name": "Trupe Itinerante",
+        "name_en": "Wanderer's Troupe",
+        "icon_url": "/assets/images/artifact_sets/wanderers_troupe.png",
+        "rarities_available": [
+            4,
+            5
+        ],
+        "bonus_2pc": "Aumenta a Proficiência Elemental em 80.",
+        "bonus_4pc": "Aumenta o Dano do Ataque Carregado em 35% se o personagem usa um Catalisador ou um Arco.",
+        "domain_source": null
+    },
+    {
+        "id": "berserker",
+        "name": "Berserker",
+        "name_en": "Berserker",
+        "icon_url": "/assets/images/artifact_sets/berserker.png",
+        "rarities_available": [
+            3,
+            4
+        ],
+        "bonus_2pc": "Taxa CRIT +12%",
+        "bonus_4pc": "Quando o HP está abaixo de 70%, a Taxa CRIT aumenta em adicionais 24%.",
+        "domain_source": null
+    },
+    {
+        "id": "brave_heart",
+        "name": "Coração Valente",
+        "name_en": "Brave Heart",
+        "icon_url": "/assets/images/artifact_sets/brave_heart.png",
+        "rarities_available": [
+            3,
+            4
+        ],
+        "bonus_2pc": "ATK +18%.",
+        "bonus_4pc": "Aumenta o DANO em 30% contra inimigos com mais de 50% de HP.",
+        "domain_source": null
+    },
+    {
+        "id": "defenders_will",
+        "name": "Vontade do Defensor",
+        "name_en": "Defender's Will",
+        "icon_url": "/assets/images/artifact_sets/defender's_will.png",
+        "rarities_available": [
+            3,
+            4
+        ],
+        "bonus_2pc": "DEF +30%",
+        "bonus_4pc": "Aumenta a RES Elemental em 30% para cada elemento presente entre seus personagens na equipe.",
+        "domain_source": null
+    },
+    {
+        "id": "gambler",
+        "name": "Jogador",
+        "name_en": "Gambler",
+        "icon_url": "/assets/images/artifact_sets/gambler.png",
+        "rarities_available": [
+            3,
+            4
+        ],
+        "bonus_2pc": "Aumenta o Dano da Habilidade Elemental em 20%.",
+        "bonus_4pc": "Derrotar um inimigo tem 100% de chance de remover o Tempo de Recarga da Habilidade Elemental. Só pode ocorrer uma vez a cada 15s.",
+        "domain_source": null
+    },
+    {
+        "id": "instructor",
+        "name": "Instrutor",
+        "name_en": "Instructor",
+        "icon_url": "/assets/images/artifact_sets/instructor.png",
+        "rarities_available": [
+            3,
+            4
+        ],
+        "bonus_2pc": "Aumenta a Proficiência Elemental em 80.",
+        "bonus_4pc": "Ao ativar uma Reação Elemental, aumenta a Proficiência Elemental de todos os membros da equipe em 120 por 8s.",
+        "domain_source": null
+    },
+    {
+        "id": "martial_artist",
+        "name": "Artista Marcial",
+        "name_en": "Martial Artist",
+        "icon_url": "/assets/images/artifact_sets/martial_artist.png",
+        "rarities_available": [
+            3,
+            4
+        ],
+        "bonus_2pc": "Aumenta o Dano do Ataque Normal e Carregado em 15%.",
+        "bonus_4pc": "Após usar a Habilidade Elemental, aumenta o Dano do Ataque Normal e Carregado em 25% por 8s.",
+        "domain_source": null
+    },
+    {
+        "id": "prayers_for_destiny",
+        "name": "Orações para o Destino",
+        "name_en": "Prayers for Destiny",
+        "icon_url": "/assets/images/artifact_sets/prayers_for_destiny.png",
+        "rarities_available": [
+            3,
+            4
+        ],
+        "bonus_1pc": "Afetado por Hydro por 40% menos tempo.",
+        "bonus_2pc": null,
+        "bonus_4pc": null,
+        "domain_source": null
+    },
+    {
+        "id": "prayers_for_illumination",
+        "name": "Orações para a Iluminação",
+        "name_en": "Prayers for Illumination",
+        "icon_url": "/assets/images/artifact_sets/prayers_for_illumination.png",
+        "rarities_available": [
+            3,
+            4
+        ],
+        "bonus_1pc": "Afetado por Pyro por 40% menos tempo.",
+        "bonus_2pc": null,
+        "bonus_4pc": null,
+        "domain_source": null
+    },
+    {
+        "id": "prayers_for_wisdom",
+        "name": "Orações para a Sabedoria",
+        "name_en": "Prayers for Wisdom",
+        "icon_url": "/assets/images/artifact_sets/prayers_for_wisdom.png",
+        "rarities_available": [
+            3,
+            4
+        ],
+        "bonus_1pc": "Afetado por Electro por 40% menos tempo.",
+        "bonus_2pc": null,
+        "bonus_4pc": null,
+        "domain_source": null
+    },
+    {
+        "id": "prayers_to_springtime",
+        "name": "Orações para a Primavera",
+        "name_en": "Prayers to Springtime",
+        "icon_url": "/assets/images/artifact_sets/prayers_to_springtime.png",
+        "rarities_available": [
+            3,
+            4
+        ],
+        "bonus_1pc": "Afetado por Cryo por 40% menos tempo.",
+        "bonus_2pc": null,
+        "bonus_4pc": null,
+        "domain_source": null
+    },
+    {
+        "id": "resolution_of_sojourner",
+        "name": "Resolução de Sojourner",
+        "name_en": "Resolution of Sojourner",
+        "icon_url": "/assets/images/artifact_sets/resolution_of_sojourner.png",
+        "rarities_available": [
+            3,
+            4
+        ],
+        "bonus_2pc": "ATK +18%.",
+        "bonus_4pc": "Aumenta a Taxa CRIT do Ataque Carregado em 30%.",
+        "domain_source": null
+    },
+    {
+        "id": "scholar",
+        "name": "Erudito",
+        "name_en": "Scholar",
+        "icon_url": "/assets/images/artifact_sets/scholar.png",
+        "rarities_available": [
+            3,
+            4
+        ],
+        "bonus_2pc": "Recarga de Energia +20%",
+        "bonus_4pc": "Ganhar Energia concede 3 de Energia a todos os membros da equipe que têm um arco ou um catalisador equipado. Só pode ocorrer uma vez a cada 3s.",
+        "domain_source": null
+    },
+    {
+        "id": "the_exile",
+        "name": "O Exilado",
+        "name_en": "The Exile",
+        "icon_url": "/assets/images/artifact_sets/the_exile.png",
+        "rarities_available": [
+            3,
+            4
+        ],
+        "bonus_2pc": "Recarga de Energia +20%",
+        "bonus_4pc": "Usar um Supremo Elemental regenera 2 de Energia para todos os membros da equipe (excluindo o portador) a cada 2s por 6s. Este efeito não pode acumular.",
+        "domain_source": null
+    },
+    {
+        "id": "tiny_miracle",
+        "name": "Pequeno Milagre",
+        "name_en": "Tiny Miracle",
+        "icon_url": "/assets/images/artifact_sets/tiny_miracle.png",
+        "rarities_available": [
+            3,
+            4
+        ],
+        "bonus_2pc": "RES Elemental aumentada em 20%.",
+        "bonus_4pc": "Receber DANO elemental aumenta a RES Elemental correspondente em 30% por 10s. Só pode ocorrer uma vez a cada 10s.",
+        "domain_source": null
+    },
+    {
+        "id": "adventurer",
+        "name": "Aventureiro",
+        "name_en": "Adventurer",
+        "icon_url": "/assets/images/artifact_sets/adventurer.png",
+        "rarities_available": [
+            1,
+            2,
+            3
+        ],
+        "bonus_2pc": "HP Máx aumenta em 1000.",
+        "bonus_4pc": "Abrir um baú regenera 30% do HP Máx ao longo de 5s.",
+        "domain_source": null
+    },
+    {
+        "id": "lucky_dog",
+        "name": "Cachorro Sortudo",
+        "name_en": "Lucky Dog",
+        "icon_url": "/assets/images/artifact_sets/lucky_dog.png",
+        "rarities_available": [
+            1,
+            2,
+            3
+        ],
+        "bonus_2pc": "DEF aumentada em 100.",
+        "bonus_4pc": "Coletar Mora restaura 300 HP.",
+        "domain_source": null
+    },
+    {
+        "id": "traveling_doctor",
+        "name": "Médico Viajante",
+        "name_en": "Traveling Doctor",
+        "icon_url": "/assets/images/artifact_sets/traveling_doctor.png",
+        "rarities_available": [
+            1,
+            2,
+            3
+        ],
+        "bonus_2pc": "Aumenta a cura recebida em 20%.",
+        "bonus_4pc": "Usar o Supremo Elemental restaura 20% do HP.",
+        "domain_source": null
+    }
+]

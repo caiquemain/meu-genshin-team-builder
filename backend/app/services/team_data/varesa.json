@@ -1,0 +1,1374 @@
+[
+    {
+        "id": "varesa_overload_1_ss_tier",
+        "name": "Varesa Overload #1 (SS Tier)",
+        "strategy": "Varesa como Main DPS Electro focada em ataques imersivos, combinada com Mavuika para dano Pyro Sub-DPS, Chevreuse para buffs de Overload e cura, e Iansan para buff de ATK.",
+        "characters_in_team": [
+            {
+                "character_id": "varesa",
+                "role_in_team": "Main DPS (Plunge Attack Electro)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Juramento da Longa Noite (Long Night’s Oath)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "Electro DMG Bonus",
+                        "circlet": "Taxa CRIT / Dano CRIT"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT / Dano CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Noções Vívidas (Vivid Notions)",
+                            "rarity": 5,
+                            "type": "Catalyst",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Sinfonia dos Indolentes (The Widsith)",
+                            "rarity": 4,
+                            "type": "Catalyst",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "talent_priority": [
+                        "Ataque Normal (Imersão)",
+                        "Supremo",
+                        "Habilidade Elemental"
+                    ],
+                    "notes_character": "Ativa Apex Drive com Ataque Imersivo durante Fiery Passion para usar Supremo especial."
+                }
+            },
+            {
+                "character_id": "mavuika",
+                "role_in_team": "Sub-DPS Pyro",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Códice de Obsidiana (Obsidian Codex)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "Proficiência Elemental (EM)",
+                        "goblet": "Pyro DMG Bonus",
+                        "circlet": "Taxa CRIT / Dano CRIT"
+                    },
+                    "sub_stats_priority": [
+                        "Dano CRIT",
+                        "Taxa CRIT",
+                        "ATK%",
+                        "Proficiência Elemental (EM)"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Mil Sóis Flamejantes (A Thousand Blazing Suns)",
+                            "rarity": 5,
+                            "type": "Claymore",
+                            "notes": "Melhor 5 estrelas (Tipo de arma inferido como Claymore devido à Espinha Dorsal)"
+                        },
+                        {
+                            "name": "Espinha Dorsal da Serpente (Serpent Spine)",
+                            "rarity": 4,
+                            "type": "Claymore",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Supremo carregado por Nightsoul points ou ataques normais dos colegas, aumentando suas habilidades e resistência à interrupção."
+                }
+            },
+            {
+                "character_id": "chevreuse",
+                "role_in_team": "Healer/Suporte (Overload Buffer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Canção dos Dias Passados (Song of Days Past)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "HP%",
+                        "goblet": "HP%",
+                        "circlet": "HP%"
+                    },
+                    "sub_stats_priority": [
+                        "HP%",
+                        "Taxa CRIT",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Lança de Favonius (Favonius Lance)",
+                            "rarity": 4,
+                            "type": "Polearm",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Reduz RES Pyro/Electro inimiga no Overload. Buffa ATK Pyro/Electro baseado no HP Máx. Cura com habilidade. C6 aumenta Dano Pyro/Electro."
+                }
+            },
+            {
+                "character_id": "iansan",
+                "role_in_team": "Suporte (ATK Buffer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Pergaminho do Herói da Cidade das Cinzas (Scroll of the Hero of Cinder City)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "ATK%",
+                        "circlet": "ATK%"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Lança de Favonius (Favonius Lance)",
+                            "rarity": 4,
+                            "type": "Polearm",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Supremo aumenta ATK dos colegas baseado no seu ATK quando Nightsoul Point está alto. Buff móvel."
+                }
+            }
+        ]
+    },
+    {
+        "id": "varesa_overload_2_ss_tier",
+        "name": "Varesa Overload #2 (SS Tier)",
+        "strategy": "Varesa como Main DPS, com Bennett para cura e buff massivo de ATK, Chevreuse para buffs de Overload e Iansan para buff adicional de ATK.",
+        "characters_in_team": [
+            {
+                "character_id": "varesa",
+                "role_in_team": "Main DPS (Plunge Attack Electro)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Juramento da Longa Noite (Long Night’s Oath)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "Electro DMG Bonus",
+                        "circlet": "Taxa CRIT / Dano CRIT"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT / Dano CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Noções Vívidas (Vivid Notions)",
+                            "rarity": 5,
+                            "type": "Catalyst",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Sinfonia dos Indolentes (The Widsith)",
+                            "rarity": 4,
+                            "type": "Catalyst",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "talent_priority": [
+                        "Ataque Normal (Imersão)",
+                        "Supremo",
+                        "Habilidade Elemental"
+                    ],
+                    "notes_character": "Ativa Apex Drive com Ataque Imersivo durante Fiery Passion para usar Supremo especial."
+                }
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Healer/Suporte (ATK Buffer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Antigo Ritual Real (Noblesse Oblige)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "HP%",
+                        "goblet": "HP%",
+                        "circlet": "Bônus de Cura"
+                    },
+                    "sub_stats_priority": [
+                        "Recarga de Energia",
+                        "HP%"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Cortadora da Neblina Reforjada (Mistsplitter Reforged)",
+                            "rarity": 5,
+                            "type": "Sword",
+                            "notes": "Melhor 5 estrelas (alto ATK base)"
+                        },
+                        {
+                            "name": "Lâmina do Penhasco Obscuro (The Alley Flash)",
+                            "rarity": 4,
+                            "type": "Sword",
+                            "notes": "Melhor 4 estrelas (alto ATK base)"
+                        }
+                    ],
+                    "notes_character": "Supremo fornece grande buff de ATK e cura."
+                }
+            },
+            {
+                "character_id": "chevreuse",
+                "role_in_team": "Healer/Suporte (Overload Buffer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Canção dos Dias Passados (Song of Days Past)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "HP%",
+                        "goblet": "HP%",
+                        "circlet": "HP%"
+                    },
+                    "sub_stats_priority": [
+                        "HP%",
+                        "Taxa CRIT",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Lança de Favonius (Favonius Lance)",
+                            "rarity": 4,
+                            "type": "Polearm",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Reduz RES Pyro/Electro inimiga no Overload. Buffa ATK Pyro/Electro baseado no HP Máx. Cura com habilidade. C6 aumenta Dano Pyro/Electro."
+                }
+            },
+            {
+                "character_id": "iansan",
+                "role_in_team": "Suporte (ATK Buffer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Pergaminho do Herói da Cidade das Cinzas (Scroll of the Hero of Cinder City)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "ATK%",
+                        "circlet": "ATK%"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Lança de Favonius (Favonius Lance)",
+                            "rarity": 4,
+                            "type": "Polearm",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Supremo aumenta ATK dos colegas baseado no seu ATK quando Nightsoul Point está alto. Buff móvel."
+                }
+            }
+        ]
+    },
+    {
+        "id": "varesa_overload_3_splus_tier",
+        "name": "Varesa Overload #3 (S+ Tier)",
+        "strategy": "Varesa DPS, Mavuika Sub-DPS Pyro, Chevreuse para buffs de Overload, e Kujou Sara C6 para buff de ATK e Dano CRIT Electro.",
+        "characters_in_team": [
+            {
+                "character_id": "varesa",
+                "role_in_team": "Main DPS (Plunge Attack Electro)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Juramento da Longa Noite (Long Night’s Oath)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "Electro DMG Bonus",
+                        "circlet": "Taxa CRIT / Dano CRIT"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT / Dano CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Noções Vívidas (Vivid Notions)",
+                            "rarity": 5,
+                            "type": "Catalyst",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Sinfonia dos Indolentes (The Widsith)",
+                            "rarity": 4,
+                            "type": "Catalyst",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "talent_priority": [
+                        "Ataque Normal (Imersão)",
+                        "Supremo",
+                        "Habilidade Elemental"
+                    ],
+                    "notes_character": "Ativa Apex Drive com Ataque Imersivo durante Fiery Passion para usar Supremo especial."
+                }
+            },
+            {
+                "character_id": "mavuika",
+                "role_in_team": "Sub-DPS Pyro",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Códice de Obsidiana (Obsidian Codex)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "Proficiência Elemental (EM)",
+                        "goblet": "Pyro DMG Bonus",
+                        "circlet": "Taxa CRIT / Dano CRIT"
+                    },
+                    "sub_stats_priority": [
+                        "Dano CRIT",
+                        "Taxa CRIT",
+                        "ATK%",
+                        "Proficiência Elemental (EM)"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Mil Sóis Flamejantes (A Thousand Blazing Suns)",
+                            "rarity": 5,
+                            "type": "Claymore",
+                            "notes": "Melhor 5 estrelas (Tipo de arma inferido como Claymore devido à Espinha Dorsal)"
+                        },
+                        {
+                            "name": "Espinha Dorsal da Serpente (Serpent Spine)",
+                            "rarity": 4,
+                            "type": "Claymore",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Supremo carregado por Nightsoul points ou ataques normais dos colegas, aumentando suas habilidades e resistência à interrupção."
+                }
+            },
+            {
+                "character_id": "chevreuse",
+                "role_in_team": "Healer/Suporte (Overload Buffer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Canção dos Dias Passados (Song of Days Past)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "HP%",
+                        "goblet": "HP%",
+                        "circlet": "HP%"
+                    },
+                    "sub_stats_priority": [
+                        "HP%",
+                        "Taxa CRIT",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Lança de Favonius (Favonius Lance)",
+                            "rarity": 4,
+                            "type": "Polearm",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Reduz RES Pyro/Electro inimiga no Overload. Buffa ATK Pyro/Electro baseado no HP Máx. Cura com habilidade. C6 aumenta Dano Pyro/Electro."
+                }
+            },
+            {
+                "character_id": "kujou_sara",
+                "role_in_team": "Suporte (ATK & CRIT DMG Buffer - Requer C6)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Antigo Ritual Real (Noblesse Oblige)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "Recarga de Energia (ER%)",
+                        "goblet": "Electro DMG Bonus",
+                        "circlet": "Taxa CRIT / Dano CRIT"
+                    },
+                    "sub_stats_priority": [
+                        "Dano CRIT",
+                        "Taxa CRIT",
+                        "Recarga de Energia",
+                        "ATK%"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Harpa Celestial (Skyward Harp)",
+                            "rarity": 5,
+                            "type": "Bow",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Lua de Mouun (Mouun’s Moon)",
+                            "rarity": 4,
+                            "type": "Bow",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Fornece Bônus de ATK. C6 Kujou Sara buffa Dano CRIT de Dano Electro dos colegas com seu Supremo."
+                }
+            }
+        ]
+    },
+    {
+        "id": "varesa_electro_1_s_tier",
+        "name": "Varesa Electro Team #1 (S Tier) - Hypercarry Plunge",
+        "strategy": "Varesa como hypercarry de imersão, com Furina para buff de dano, Xianyun para habilitar/buffar imersão e curar, e Iansan para buff de ATK.",
+        "characters_in_team": [
+            {
+                "character_id": "varesa",
+                "role_in_team": "Main DPS (Plunge Attack Electro)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Juramento da Longa Noite (Long Night’s Oath)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "Electro DMG Bonus",
+                        "circlet": "Taxa CRIT / Dano CRIT"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT / Dano CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Noções Vívidas (Vivid Notions)",
+                            "rarity": 5,
+                            "type": "Catalyst",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Sinfonia dos Indolentes (The Widsith)",
+                            "rarity": 4,
+                            "type": "Catalyst",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "talent_priority": [
+                        "Ataque Normal (Imersão)",
+                        "Supremo",
+                        "Habilidade Elemental"
+                    ]
+                }
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Trupe Dourada (Golden Troupe)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "HP%",
+                        "goblet": "HP%",
+                        "circlet": "Taxa CRIT / Dano CRIT"
+                    },
+                    "sub_stats_priority": [
+                        "Dano CRIT",
+                        "Taxa CRIT",
+                        "HP%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Espada de Favonius (Favonius Sword)",
+                            "rarity": 4,
+                            "type": "Sword",
+                            "notes": "Melhor 4 estrelas mencionada aqui (Fulgor é 5*)"
+                        }
+                    ],
+                    "notes_character": "Habilidade Elemental fornece aplicação Hydro contínua. Supremo aumenta Dano baseado na variação de HP dos aliados."
+                }
+            },
+            {
+                "character_id": "xianyun",
+                "role_in_team": "Suporte/Healer (Plunge Enabler & Buffer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Sombra Verde Esmeralda (Viridescent Venerer)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "Recarga de Energia (ER%)",
+                        "goblet": "ATK%",
+                        "circlet": "ATK%"
+                    },
+                    "sub_stats_priority": [
+                        "ATK%",
+                        "Recarga de Energia",
+                        "Taxa CRIT"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Chamado da Garça Ecoante (Crane's Echoing Call)",
+                            "rarity": 5,
+                            "type": "Catalyst",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Códice de Favonius (Favonius Codex)",
+                            "rarity": 4,
+                            "type": "Catalyst",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Aumenta Taxa CRIT e Dano de Ataque Imersivo dos colegas. Cura."
+                }
+            },
+            {
+                "character_id": "iansan",
+                "role_in_team": "Suporte (ATK Buffer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Pergaminho do Herói da Cidade das Cinzas (Scroll of the Hero of Cinder City)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "ATK%",
+                        "circlet": "ATK%"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Lança de Favonius (Favonius Lance)",
+                            "rarity": 4,
+                            "type": "Polearm",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Supremo aumenta ATK dos colegas baseado no seu ATK. Buff móvel."
+                }
+            }
+        ]
+    },
+    {
+        "id": "varesa_electro_2_splus_tier",
+        "name": "Varesa Electro-Geo Plunge (S+ Tier) (Anteriormente 'Freezing')",
+        "strategy": "Varesa como DPS de imersão, com Xilonen para redução de RES e cura, Xianyun para buffs de imersão, e Iansan para buff de ATK. Foco em dano bruto e suporte Geo/Anemo.",
+        "characters_in_team": [
+            {
+                "character_id": "varesa",
+                "role_in_team": "Main DPS (Plunge Attack Electro)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Juramento da Longa Noite (Long Night’s Oath)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "Electro DMG Bonus",
+                        "circlet": "Taxa CRIT / Dano CRIT"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT / Dano CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Noções Vívidas (Vivid Notions)",
+                            "rarity": 5,
+                            "type": "Catalyst",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Sinfonia dos Indolentes (The Widsith)",
+                            "rarity": 4,
+                            "type": "Catalyst",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "talent_priority": [
+                        "Ataque Normal (Imersão)",
+                        "Supremo",
+                        "Habilidade Elemental"
+                    ]
+                }
+            },
+            {
+                "character_id": "xilonen",
+                "role_in_team": "Suporte Geo (RES Shred & Healer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Pergaminho do Herói da Cidade das Cinzas (Scroll of the Hero of Cinder City)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "Recarga de Energia (ER%)",
+                        "goblet": "DEF%",
+                        "circlet": "DEF%"
+                    },
+                    "sub_stats_priority": [
+                        "Dano CRIT",
+                        "Taxa CRIT",
+                        "DEF%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Canção do Patrulheiro do Pico (Peak Patrol Song)",
+                            "rarity": 5,
+                            "type": "Sword",
+                            "notes": "Melhor 5 estrelas (Tipo de arma inferido como Espada devido à Favonius)"
+                        },
+                        {
+                            "name": "Espada de Favonius (Favonius Sword)",
+                            "rarity": 4,
+                            "type": "Sword",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Samplers reduzem RES elemental inimiga. Provê cura."
+                }
+            },
+            {
+                "character_id": "xianyun",
+                "role_in_team": "Suporte/Healer (Plunge Enabler & Buffer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Sombra Verde Esmeralda (Viridescent Venerer)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "Recarga de Energia (ER%)",
+                        "goblet": "ATK%",
+                        "circlet": "ATK%"
+                    },
+                    "sub_stats_priority": [
+                        "ATK%",
+                        "Recarga de Energia",
+                        "Taxa CRIT"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Chamado da Garça Ecoante (Crane's Echoing Call)",
+                            "rarity": 5,
+                            "type": "Catalyst",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Códice de Favonius (Favonius Codex)",
+                            "rarity": 4,
+                            "type": "Catalyst",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Aumenta Taxa CRIT e Dano de Ataque Imersivo dos colegas. Cura."
+                }
+            },
+            {
+                "character_id": "iansan",
+                "role_in_team": "Suporte (ATK Buffer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Antigo Ritual Real (Noblesse Oblige)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "ATK%",
+                        "circlet": "ATK%"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Lança de Favonius (Favonius Lance)",
+                            "rarity": 4,
+                            "type": "Polearm",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Supremo aumenta ATK dos colegas baseado no seu ATK. Buff móvel."
+                }
+            }
+        ]
+    },
+    {
+        "id": "varesa_electro_3_splus_tier",
+        "name": "Varesa Electro Team #3 (S+ Tier) - Geo Resonance",
+        "strategy": "Varesa como DPS principal, Xilonen para suporte Geo e RES shred, Chiori C1 como Sub-DPS Geo, e Iansan para buff de ATK. Aproveita a ressonância Geo.",
+        "characters_in_team": [
+            {
+                "character_id": "varesa",
+                "role_in_team": "Main DPS (Plunge Attack Electro)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Juramento da Longa Noite (Long Night’s Oath)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "Electro DMG Bonus",
+                        "circlet": "Taxa CRIT / Dano CRIT"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT / Dano CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Noções Vívidas (Vivid Notions)",
+                            "rarity": 5,
+                            "type": "Catalyst",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Sinfonia dos Indolentes (The Widsith)",
+                            "rarity": 4,
+                            "type": "Catalyst",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "talent_priority": [
+                        "Ataque Normal (Imersão)",
+                        "Supremo",
+                        "Habilidade Elemental"
+                    ]
+                }
+            },
+            {
+                "character_id": "xilonen",
+                "role_in_team": "Suporte Geo (RES Shred & Healer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Pergaminho do Herói da Cidade das Cinzas (Scroll of the Hero of Cinder City)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "Recarga de Energia (ER%)",
+                        "goblet": "DEF%",
+                        "circlet": "DEF%"
+                    },
+                    "sub_stats_priority": [
+                        "Dano CRIT",
+                        "Taxa CRIT",
+                        "DEF%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Canção do Patrulheiro do Pico (Peak Patrol Song)",
+                            "rarity": 5,
+                            "type": "Sword",
+                            "notes": "Melhor 5 estrelas (Tipo de arma inferido como Espada devido à Favonius)"
+                        },
+                        {
+                            "name": "Espada de Favonius (Favonius Sword)",
+                            "rarity": 4,
+                            "type": "Sword",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Samplers reduzem RES elemental inimiga. Provê cura."
+                }
+            },
+            {
+                "character_id": "chiori",
+                "role_in_team": "Sub-DPS Geo (Requer C1 para melhor performance aqui)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Trupe Dourada (Golden Troupe)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "DEF%",
+                        "goblet": "Geo DMG Bonus",
+                        "circlet": "Taxa CRIT / Dano CRIT"
+                    },
+                    "sub_stats_priority": [
+                        "Dano CRIT",
+                        "Taxa CRIT",
+                        "DEF%",
+                        "ATK%"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Uraku Misugiri",
+                            "rarity": 5,
+                            "type": "Sword",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Dente de Lobo (Wolf-Fang)",
+                            "rarity": 4,
+                            "type": "Sword",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "DPS em campo (aqui mais como Sub-DPS). DMG da Habilidade e Supremo maximizados com buffs de ATK e construtos Geo."
+                }
+            },
+            {
+                "character_id": "iansan",
+                "role_in_team": "Suporte (ATK Buffer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Antigo Ritual Real (Noblesse Oblige)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "ATK%",
+                        "circlet": "ATK%"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Lança de Favonius (Favonius Lance)",
+                            "rarity": 4,
+                            "type": "Polearm",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Supremo aumenta ATK dos colegas baseado no seu ATK. Buff móvel."
+                }
+            }
+        ]
+    },
+    {
+        "id": "varesa_electro_4_s_tier",
+        "name": "Varesa Electro Team #4 (S Tier) - Kazuha Plunge",
+        "strategy": "Varesa como DPS de imersão, Kazuha para agrupar, buffar e reduzir RES, Xianyun para buffs de imersão, e Iansan para buff de ATK.",
+        "characters_in_team": [
+            {
+                "character_id": "varesa",
+                "role_in_team": "Main DPS (Plunge Attack Electro)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Juramento da Longa Noite (Long Night’s Oath)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "Electro DMG Bonus",
+                        "circlet": "Taxa CRIT / Dano CRIT"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT / Dano CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Noções Vívidas (Vivid Notions)",
+                            "rarity": 5,
+                            "type": "Catalyst",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Sinfonia dos Indolentes (The Widsith)",
+                            "rarity": 4,
+                            "type": "Catalyst",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "talent_priority": [
+                        "Ataque Normal (Imersão)",
+                        "Supremo",
+                        "Habilidade Elemental"
+                    ]
+                }
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (Grouping, Buffer, VV)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Sombra Verde Esmeralda (Viridescent Venerer)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "Proficiência Elemental (EM)",
+                        "goblet": "Proficiência Elemental (EM)",
+                        "circlet": "Proficiência Elemental (EM)"
+                    },
+                    "sub_stats_priority": [
+                        "Proficiência Elemental (EM)",
+                        "Recarga de Energia",
+                        "Taxa CRIT",
+                        "Dano CRIT"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Juramento pela Liberdade (Freedom-Sworn)",
+                            "rarity": 5,
+                            "type": "Sword",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Luz Lunar de Xiphos (Xiphos’ Moonlight)",
+                            "rarity": 4,
+                            "type": "Sword",
+                            "notes": "Melhor 4 estrelas (ER e EM)"
+                        }
+                    ],
+                    "notes_character": "Agrupa inimigos, buffa dano elemental e reduz RES elemental."
+                }
+            },
+            {
+                "character_id": "xianyun",
+                "role_in_team": "Suporte/Healer (Plunge Enabler & Buffer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Último Juramento do Gladiador (Gladiator’s Finale)",
+                            "pieces": 2
+                        },
+                        {
+                            "set_name": "Reminiscência Nostálgica (Shimenawa’s Reminiscence)",
+                            "pieces": 2
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "Recarga de Energia (ER%)",
+                        "goblet": "ATK%",
+                        "circlet": "ATK%"
+                    },
+                    "sub_stats_priority": [
+                        "ATK%",
+                        "Recarga de Energia",
+                        "Taxa CRIT"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Chamado da Garça Ecoante (Crane's Echoing Call)",
+                            "rarity": 5,
+                            "type": "Catalyst",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Códice de Favonius (Favonius Codex)",
+                            "rarity": 4,
+                            "type": "Catalyst",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Aumenta Taxa CRIT e Dano de Ataque Imersivo dos colegas. Cura. (Sombra Verde seria melhor se Kazuha não estivesse no time ou para outra função)."
+                }
+            },
+            {
+                "character_id": "iansan",
+                "role_in_team": "Suporte (ATK Buffer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Antigo Ritual Real (Noblesse Oblige)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "ATK%",
+                        "circlet": "ATK%"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Lança de Favonius (Favonius Lance)",
+                            "rarity": 4,
+                            "type": "Polearm",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Supremo aumenta ATK dos colegas baseado no seu ATK. Buff móvel."
+                }
+            }
+        ]
+    },
+    {
+        "id": "varesa_electro_5_s_tier",
+        "name": "Varesa Electro Team #5 (S Tier) - Furina Electro-Charged",
+        "strategy": "Varesa como DPS, Xilonen para suporte Geo, Furina para dano Hydro off-field e buff, e Iansan para buff de ATK. Pode gerar Electro-Charged.",
+        "characters_in_team": [
+            {
+                "character_id": "varesa",
+                "role_in_team": "Main DPS (Plunge Attack Electro)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Juramento da Longa Noite (Long Night’s Oath)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "Electro DMG Bonus",
+                        "circlet": "Taxa CRIT / Dano CRIT"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT / Dano CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Noções Vívidas (Vivid Notions)",
+                            "rarity": 5,
+                            "type": "Catalyst",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Sinfonia dos Indolentes (The Widsith)",
+                            "rarity": 4,
+                            "type": "Catalyst",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "talent_priority": [
+                        "Ataque Normal (Imersão)",
+                        "Supremo",
+                        "Habilidade Elemental"
+                    ]
+                }
+            },
+            {
+                "character_id": "xilonen",
+                "role_in_team": "Suporte Geo (RES Shred & Healer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Pergaminho do Herói da Cidade das Cinzas (Scroll of the Hero of Cinder City)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "Recarga de Energia (ER%)",
+                        "goblet": "DEF%",
+                        "circlet": "DEF%"
+                    },
+                    "sub_stats_priority": [
+                        "Dano CRIT",
+                        "Taxa CRIT",
+                        "DEF%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Canção do Patrulheiro do Pico (Peak Patrol Song)",
+                            "rarity": 5,
+                            "type": "Sword",
+                            "notes": "Melhor 5 estrelas (Tipo de arma inferido como Espada devido à Favonius)"
+                        },
+                        {
+                            "name": "Espada de Favonius (Favonius Sword)",
+                            "rarity": 4,
+                            "type": "Sword",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Samplers reduzem RES elemental inimiga. Provê cura."
+                }
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Trupe Dourada (Golden Troupe)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "HP%",
+                        "goblet": "HP%",
+                        "circlet": "Taxa CRIT / Dano CRIT"
+                    },
+                    "sub_stats_priority": [
+                        "Dano CRIT",
+                        "Taxa CRIT",
+                        "HP%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Espada sacrificial (Sacrificial Sword)",
+                            "rarity": 4,
+                            "type": "Sword",
+                            "notes": "Melhor 4 estrelas mencionada aqui"
+                        }
+                    ],
+                    "notes_character": "Habilidade Elemental fornece aplicação Hydro contínua. Supremo aumenta Dano baseado na variação de HP dos aliados."
+                }
+            },
+            {
+                "character_id": "iansan",
+                "role_in_team": "Suporte (ATK Buffer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Antigo Ritual Real (Noblesse Oblige)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "ATK%",
+                        "circlet": "ATK%"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Lança de Favonius (Favonius Lance)",
+                            "rarity": 4,
+                            "type": "Polearm",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Supremo aumenta ATK dos colegas baseado no seu ATK. Buff móvel."
+                }
+            }
+        ]
+    },
+    {
+        "id": "varesa_aggravate_s_tier",
+        "name": "Varesa Aggravate Team (S Tier)",
+        "strategy": "Varesa como DPS principal, Xilonen para suporte e RES shred, Nahida para aplicação Dendro e buff, e Iansan para buff de ATK. Foco na reação Aggravate.",
+        "characters_in_team": [
+            {
+                "character_id": "varesa",
+                "role_in_team": "Main DPS (Plunge Attack Electro)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Juramento da Longa Noite (Long Night’s Oath)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "Electro DMG Bonus",
+                        "circlet": "Taxa CRIT / Dano CRIT"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT / Dano CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Noções Vívidas (Vivid Notions)",
+                            "rarity": 5,
+                            "type": "Catalyst",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Sinfonia dos Indolentes (The Widsith)",
+                            "rarity": 4,
+                            "type": "Catalyst",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "talent_priority": [
+                        "Ataque Normal (Imersão)",
+                        "Supremo",
+                        "Habilidade Elemental"
+                    ]
+                }
+            },
+            {
+                "character_id": "xilonen",
+                "role_in_team": "Suporte Geo (RES Shred & Healer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Pergaminho do Herói da Cidade das Cinzas (Scroll of the Hero of Cinder City)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "Recarga de Energia (ER%)",
+                        "goblet": "DEF%",
+                        "circlet": "DEF%"
+                    },
+                    "sub_stats_priority": [
+                        "Dano CRIT",
+                        "Taxa CRIT",
+                        "DEF%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Canção do Patrulheiro do Pico (Peak Patrol Song)",
+                            "rarity": 5,
+                            "type": "Sword",
+                            "notes": "Melhor 5 estrelas (Tipo de arma inferido como Espada devido à Favonius)"
+                        },
+                        {
+                            "name": "Espada de Favonius (Favonius Sword)",
+                            "rarity": 4,
+                            "type": "Sword",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Samplers reduzem RES elemental inimiga. Provê cura."
+                }
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Sub-DPS Dendro / Buffer",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Tenacidade dos Millelith (Tenacity of the Millelith)",
+                            "pieces": 4,
+                            "notes": "Interessante escolha para buffar ATK do time, mas Memórias da Floresta é mais comum para dano Dendro e debuff."
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "Proficiência Elemental (EM)",
+                        "goblet": "Proficiência Elemental (EM)",
+                        "circlet": "Proficiência Elemental (EM)"
+                    },
+                    "sub_stats_priority": [
+                        "Proficiência Elemental (EM)",
+                        "Dano CRIT",
+                        "Taxa CRIT",
+                        "ATK%"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Mil Sonhos Flutuantes (A Thousand Floating Dreams)",
+                            "rarity": 5,
+                            "type": "Catalyst",
+                            "notes": "Melhor 5 estrelas"
+                        },
+                        {
+                            "name": "Estrela Errante (Wandering Evenstar)",
+                            "rarity": 4,
+                            "type": "Catalyst",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Principalmente dano da Habilidade Elemental, conectando inimigos e causando Dano Dendro. Supremo buffa Habilidade Elemental."
+                }
+            },
+            {
+                "character_id": "iansan",
+                "role_in_team": "Suporte (ATK Buffer)",
+                "build_details": {
+                    "artifacts": [
+                        {
+                            "set_name": "Antigo Ritual Real (Noblesse Oblige)",
+                            "pieces": 4
+                        }
+                    ],
+                    "main_stats": {
+                        "sands": "ATK%",
+                        "goblet": "ATK%",
+                        "circlet": "ATK%"
+                    },
+                    "sub_stats_priority": [
+                        "Taxa CRIT",
+                        "ATK%",
+                        "Recarga de Energia"
+                    ],
+                    "weapons": [
+                        {
+                            "name": "Lança de Favonius (Favonius Lance)",
+                            "rarity": 4,
+                            "type": "Polearm",
+                            "notes": "Melhor 4 estrelas"
+                        }
+                    ],
+                    "notes_character": "Supremo aumenta ATK dos colegas baseado no seu ATK. Buff móvel."
+                }
+            }
+        ]
+    }
+]

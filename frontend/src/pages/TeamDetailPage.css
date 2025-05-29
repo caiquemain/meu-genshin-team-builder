@@ -1,0 +1,308 @@
+/* frontend/src/pages/TeamDetailPage.css */
+
+.team-detail-container {
+    padding: 20px 30px;
+    /* Aumentei um pouco o padding lateral */
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: var(--background-color-dark, #1e1e2e);
+    color: var(--text-color, #e0e0e0);
+    border-radius: 8px;
+}
+
+/* ... (outros estilos como .back-link, .team-name-detail, .team-strategy-detail, etc., como antes) ... */
+.team-detail-container .back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: var(--primary-color, #bb86fc);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.team-detail-container .back-link:hover {
+    text-decoration: underline;
+}
+
+.team-detail-container .team-name-detail {
+    text-align: center;
+    font-size: 2.2em;
+    color: var(--header-text-color, #ffffff);
+    margin-bottom: 10px;
+}
+
+.team-detail-container .team-strategy-detail {
+    text-align: center;
+    font-size: 1em;
+    color: var(--text-color-secondary, #b0b0c0);
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 3px solid var(--primary-color, #bb86fc);
+    border-radius: 4px;
+}
+
+/* ... */
+
+.characters-builds-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    /* AJUSTADO para tentar 4 colunas */
+    gap: 20px;
+}
+
+/* ... (estilos para .character-build-card e seus filhos como antes) ... */
+.character-build-card {
+    background-color: var(--card-background-light, rgba(255, 255, 255, 0.07));
+    border: 1px solid var(--border-color-dark, #3a3a5a);
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.character-build-card .character-header-detail {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color-dark, #444);
+}
+
+.character-build-card .character-icon-link .character-build-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color-light, #7e7efa);
+    object-fit: cover;
+}
+
+.character-build-card .character-info-detail h3 {
+    margin: 0 0 5px 0;
+}
+
+.character-build-card .character-info-detail .character-name-link {
+    color: var(--header-text-color, #f0f0f0);
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.character-build-card .character-info-detail .character-name-link:hover {
+    color: var(--primary-color, #bb86fc);
+}
+
+.character-build-card .character-role {
+    font-size: 0.9em;
+    color: var(--text-color-secondary, #a0a0b0);
+    margin: 0;
+}
+
+.character-build-card .build-section-detail h4 {
+    font-size: 1.1em;
+    color: var(--primary-color-light, #9fa6fc);
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.character-build-card .build-section-detail .build-name-note {
+    font-size: 0.9em;
+    font-style: italic;
+    color: var(--text-color-secondary, #a0a0b0);
+}
+
+.character-build-card .build-overall-notes {
+    font-size: 0.85em;
+    font-style: italic;
+    color: var(--text-color-hint, #888);
+    margin-bottom: 15px;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.build-subsection {
+    margin-bottom: 15px;
+}
+
+.build-subsection strong {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--text-color-emphasis, #c0c5d1);
+    font-weight: 600;
+}
+
+.build-subsection ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.build-subsection li {
+    margin-bottom: 8px;
+    /* display: flex; /* Removido para que .item-display-content controle o flex */
+    /* align-items: center; */
+}
+
+.item-icon-inline {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+.artifact-name-text,
+.weapon-name-text {
+    color: var(--text-color, #e0e0e0);
+}
+
+.rarity-indicator,
+.weapon-category-inline {
+    font-size: 0.85em;
+    color: var(--text-color-secondary, #a0a0b0);
+    margin-left: 5px;
+}
+
+.build-notes-inline {
+    font-size: 0.8em;
+    color: var(--text-color-hint, #888);
+    margin-left: 5px;
+    font-style: italic;
+}
+
+.build-subsection p {
+    margin: 0 0 5px 0;
+    font-size: 0.95em;
+}
+
+.build-subsection p span {
+    font-weight: 500;
+    color: var(--text-color-secondary, #b0b0c0);
+    margin-right: 5px;
+}
+
+.loading-message,
+.error-page,
+.info-message {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.error-page p,
+.info-message {
+    font-size: 1rem;
+    color: var(--text-color-secondary, #a0a0b0);
+}
+
+.small-error-message {
+    font-size: 0.9em;
+    color: var(--warning-color, #ffcc00);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+/* === CSS PARA TOOLTIPS === */
+.tooltip-wrapper {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.item-display-content {
+    /* O elemento visível que aciona o tooltip */
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    /* Espaço entre ícone e texto, se aplicável */
+    cursor: default;
+    /* Ou 'help' se preferir */
+}
+
+.tooltip-wrapper .artifact-tooltip-content,
+.tooltip-wrapper .weapon-tooltip-content {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-8px);
+
+    background-color: var(--tooltip-background, #212333);
+    color: var(--tooltip-text, #d0d8e8);
+    border: 1px solid var(--tooltip-border-color, #40455f);
+    border-radius: 6px;
+    padding: 10px 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+
+    width: auto;
+    min-width: 280px;
+    max-width: 380px;
+
+    font-size: 0.875em;
+    line-height: 1.5;
+    white-space: pre-wrap;
+
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.tooltip-wrapper:hover .artifact-tooltip-content,
+.tooltip-wrapper:hover .weapon-tooltip-content {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Ajuste para o primeiro card da linha no grid, para o tooltip não cortar tanto */
+/* Esta regra é um pouco genérica e pode precisar de ajustes com media queries se o número de colunas mudar muito */
+.characters-builds-grid>.character-build-card:nth-child(4n+1) .tooltip-wrapper .artifact-tooltip-content,
+.characters-builds-grid>.character-build-card:nth-child(4n+1) .tooltip-wrapper .weapon-tooltip-content {
+    left: 0;
+    /* Alinha à esquerda do wrapper */
+    transform: translateX(0) translateY(-8px);
+    /* Remove a translação horizontal */
+}
+
+/* Ajuste para o último card da linha no grid, para o tooltip não cortar tanto à direita */
+.characters-builds-grid>.character-build-card:nth-child(4n+4) .tooltip-wrapper .artifact-tooltip-content,
+.characters-builds-grid>.character-build-card:nth-child(4n+4) .tooltip-wrapper .weapon-tooltip-content {
+    left: auto;
+    /* Deixa o CSS calcular */
+    right: 0;
+    /* Alinha à direita do wrapper */
+    transform: translateX(0) translateY(-8px);
+    /* Remove a translação horizontal */
+}
+
+
+/* Seta opcional para o tooltip */
+.tooltip-wrapper .artifact-tooltip-content::after,
+.tooltip-wrapper .weapon-tooltip-content::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: var(--tooltip-background, #212333) transparent transparent transparent;
+}
+
+/* Se a seta estiver desalinhada para o primeiro/último item por causa do ajuste acima, você pode precisar de: */
+.characters-builds-grid>.character-build-card:nth-child(4n+1) .tooltip-wrapper .artifact-tooltip-content::after,
+.characters-builds-grid>.character-build-card:nth-child(4n+1) .tooltip-wrapper .weapon-tooltip-content::after {
+    left: 25px;
+    /* Exemplo: ajuste para alinhar com o ícone/texto */
+}
+
+.characters-builds-grid>.character-build-card:nth-child(4n+4) .tooltip-wrapper .artifact-tooltip-content::after,
+.characters-builds-grid>.character-build-card:nth-child(4n+4) .tooltip-wrapper .weapon-tooltip-content::after {
+    left: auto;
+    right: 15px;
+    /* Exemplo: ajuste para alinhar com o ícone/texto */
+}

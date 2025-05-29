@@ -1,0 +1,110 @@
+[
+    {
+        "id": "candace_c6_arlecchino_bennett_xilonen_vaporize",
+        "name": "Candace C6 - Vaporizar (Arlecchino, Bennett, Xilonen)",
+        "strategy": "Arlecchino utiliza a aplicação Hydro AoE de Candace C6 para Vaporizar seus acertos em cenários multi-target. Candace também oferece Bônus de Dano de Ataque Normal. Xilonen reduz RE de Candace com 2p Pergaminho. Bennett para buffs.",
+        "characters_in_team": [
+            {
+                "character_id": "candace",
+                "role_in_team": "Suporte Hydro Off-field (Aplicadora Hydro C6, Buffer de Ataque Normal)",
+                "build_key": "candace_support_hydro_infusion_favonius"
+            },
+            {
+                "character_id": "arlecchino",
+                "role_in_team": "Main DPS Pyro (On-field)",
+                "build_key": "arlecchino_onfield_dps_fragment_whimsy"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "xilonen",
+                "role_in_team": "Suporte Geo (Buffer com Pergaminho, RES Shred Geo/Pyro, Bateria)",
+                "build_key": "xilonen_geo_support_scroll_favonius"
+            }
+        ]
+    },
+    {
+        "id": "candace_nilou_yaoyao_nahida_bloom",
+        "name": "Candace - Florescimento (Nilou, Yaoyao, Nahida)",
+        "strategy": "A Infusão Hydro de Candace permite que personagens corpo a corpo como Yaoyao ou Viajante Dendro ativem Florescimento e se beneficiem de sua própria EM. Candace também contribui com Florescimento com sua aplicação Hydro em trocas e C6.",
+        "characters_in_team": [
+            {
+                "character_id": "candace",
+                "role_in_team": "Aplicadora Hydro / Driver para Infusão",
+                "build_key": "candace_bloom_dps_flower_of_paradise_lost_em"
+            },
+            {
+                "character_id": "nilou",
+                "role_in_team": "Ativadora de Florescimento Abundante / Aplicadora Hydro",
+                "build_key": "nilou_bloom_hp_keyofkhajnisut"
+            },
+            {
+                "character_id": "yaoyao",
+                "role_in_team": "Healer / Aplicadora Dendro On-field (com Infusão Hydro)",
+                "build_key": "yaoyao_dendro_healer_deepwood_favonius_or_em"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Principal / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            }
+        ]
+    },
+    {
+        "id": "candace_c6_hu_tao_yelan_zhongli_vaporize_support",
+        "name": "Candace C6 - Suporte Vaporizar (Hu Tao, Yelan, Zhongli)",
+        "strategy": "Candace C6 suplementa a aplicação Hydro de Yelan para Hu Tao, tornando as Vaporizações mais consistentes. Ela também fornece partículas Hydro para Yelan e Bônus de Dano de Ataque Normal para Hu Tao. Ressonância Hydro beneficia toda a equipe.",
+        "characters_in_team": [
+            {
+                "character_id": "candace",
+                "role_in_team": "Suporte Hydro Off-field (Aplicadora Hydro C6, Buffer de Ataque Normal)",
+                "build_key": "candace_support_hydro_infusion_favonius"
+            },
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro (On-field Vaporize)",
+                "build_key": "hutao_dps_crimson_shimenawa_homa"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity"
+            }
+        ]
+    },
+    {
+        "id": "candace_kuki_shinobu_nahida_fischl_hyperbloom_driver",
+        "name": "Candace - Driver Hyperbloom (Kuki Shinobu, Nahida, Fischl)",
+        "strategy": "Usando a Infusão Hydro de Candace, Kuki pode ficar em campo e se beneficiar do buff de EM de Nahida. Candace também pode ser trocada e usada como driver para o Supremo de Beidou (se Beidou substituir Fischl). Recomenda-se 4p Instrutor em Candace.",
+        "characters_in_team": [
+            {
+                "character_id": "candace",
+                "role_in_team": "Driver Hydro On-field (Infusão Hydro) / Suporte (Buffer EM com Instrutor)",
+                "build_key": "candace_support_hydro_infusion_favonius"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Ativadora de Hyperbloom On-field (com Infusão Hydro)",
+                "build_key": "kuki_shinobu_hyperbloom_full_em_flowerofparadiselost_or_gilded_onfield_driver"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Principal / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            }
+        ]
+    }
+]

@@ -1,0 +1,137 @@
+[
+    {
+        "id": "arlecchino_yelan_bennett_kazuha_vv_vape",
+        "name": "Arlecchino - VV Vape (Yelan, Bennett, Kazuha)",
+        "strategy": "Times de VV Vape aumentam muito o dano pessoal de Arlecchino, mas requerem execução cuidadosa dos setups de Swirl. Este time é totalmente focado em dano, sem utilidade defensiva. ",
+        "characters_in_team": [
+            {
+                "character_id": "arlecchino",
+                "role_in_team": "Main DPS Pyro (On-field)",
+                "build_key": "arlecchino_onfield_dps_fragment_of_harmonic_whimsy"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field / Buffer de Dano",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer (não para Arlecchino))",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "arlecchino_yelan_layla_bennett_vapemelt",
+        "name": "Arlecchino - Vapemelt (Yelan, Layla, Bennett)",
+        "strategy": "Time de Vapemelt onde Arlecchino se beneficia de vários buffs e ocasionalmente ativa Fusão, enquanto ainda tem boa proteção devido ao escudo de Layla.  Contra inimigos não congeláveis, pule o Supremo de Layla para evitar remover a aura Hydro.  Layla pode ser substituída por Zhongli para um escudo mais forte. ",
+        "characters_in_team": [
+            {
+                "character_id": "arlecchino",
+                "role_in_team": "Main DPS Pyro (On-field)",
+                "build_key": "arlecchino_onfield_dps_fragment_of_harmonic_whimsy"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "layla",
+                "role_in_team": "Escudeira / Aplicadora Cryo Off-field",
+                "build_key": "layla_shielder_tenacity_hp"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer (não para Arlecchino))",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "arlecchino_xingqiu_fischl_bennett_overvape",
+        "name": "Arlecchino - Overvape (Xingqiu, Fischl, Bennett)",
+        "strategy": "Composto por três unidades 4 estrelas acessíveis, forma um time de Overvape soberbo. A redução de dano e resistência à interrupção de Xingqiu oferecem alguma sobrevivência adicional. ",
+        "characters_in_team": [
+            {
+                "character_id": "arlecchino",
+                "role_in_team": "Main DPS Pyro (On-field)",
+                "build_key": "arlecchino_onfield_dps_fragment_of_harmonic_whimsy"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field / Redução de Dano",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Aplicadora Electro",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer (não para Arlecchino))",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "arlecchino_bennett_kazuha_zhongli_mono_pyro",
+        "name": "Arlecchino - Mono Pyro (Bennett, Kazuha, Zhongli)",
+        "strategy": "Time Mono Pyro padrão. Bennett fornece buffs enquanto Zhongli oferece um escudo forte, RES Shred Pyro e Bônus de Dano Pyro via 4p Pedra Arcaica. Kazuha amplifica ainda mais o dano de Arlecchino com 4p Sombra Verde e sua passiva A4, além de agrupar. ",
+        "characters_in_team": [
+            {
+                "character_id": "arlecchino",
+                "role_in_team": "Main DPS Pyro (On-field)",
+                "build_key": "arlecchino_onfield_dps_fragment_of_harmonic_whimsy"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer (não para Arlecchino))",
+                "build_key": "bennett_support_noblesse_archaicpetra_er_highbaseatk"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal, Petra Holder)",
+                "build_key": "shielder_archaic_petra_hp_favonius"
+            }
+        ]
+    },
+    {
+        "id": "arlecchino_chevreuse_fischl_bennett_chevreuse_overload",
+        "name": "Arlecchino - Sobrecarga Chevreuse (Chevreuse, Fischl, Bennett)",
+        "strategy": "Time com imenso poder ofensivo devido a Bennett e Chevreuse buffando significativamente Arlecchino e Fischl. No entanto, este time não possui utilidade defensiva para Arlecchino. ",
+        "characters_in_team": [
+            {
+                "character_id": "arlecchino",
+                "role_in_team": "Main DPS Pyro (On-field)",
+                "build_key": "arlecchino_onfield_dps_fragment_of_harmonic_whimsy"
+            },
+            {
+                "character_id": "chevreuse",
+                "role_in_team": "Suporte (Buffer de Sobrecarga, RES Shred Pyro/Electro)",
+                "build_key": "chevreuse_overload_buffer_songofdays_noblesse"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Aplicadora Electro",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer (não para Arlecchino))",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    }
+]

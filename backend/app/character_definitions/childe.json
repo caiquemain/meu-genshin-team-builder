@@ -1,0 +1,167 @@
+{
+    "id": "tartaglia",
+    "name": "Tartaglia (Childe)",
+    "element": "Hydro",
+    "rarity": 5,
+    "weapon": "Bow",
+    "role": [
+        "On-field Enabler e DPS"
+    ],
+    "icon_url": "/assets/images/characters/childe.png",
+    "element_icon_url": "/assets/images/elements/element_hydro.png",
+    "build_options": [
+        {
+            "key": "tartaglia_onfield_dps_nymphs_dream",
+            "name": "DPS On-field (Sonho da Ninfa)",
+            "notes_build": "Foco em maximizar o dano Hydro de Childe em sua Postura Corpo a Corpo e Supremo. 4p Sonho da Ninfa é seu melhor conjunto se pré-acumulado. Gerenciamento de Cooldown da Habilidade Elemental é crucial.",
+            "artifacts": [
+                {
+                    "set_id": "nymphs_dream",
+                    "set_name": "Sonho da Ninfa",
+                    "pieces": 4,
+                    "notes": "Praticamente feito para Childe, com buffs que operam de forma muito similar à Estrela Invernal. Se pré-acumulado, é indiscutivelmente o melhor conjunto de bônus para Childe.",
+                    "icon_url": "/assets/images/artifact_sets/nymphs_dream.png"
+                },
+                {
+                    "set_id": "heart_of_depth_atk_2pc_mix",
+                    "set_name": "Profundezas do Coração (2p) + ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "2p Bônus de Dano Hydro buffa todo o dano de Childe e é ligeiramente mais forte que 2p ATQ%. Geralmente uma opção muito boa. (Ex: Profundezas + Gladiador/Reminiscência).",
+                    "icon_url": "/assets/images/artifact_sets/heart_of_depth.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "heart_of_depth",
+                        "gladiators_finale"
+                    ]
+                },
+                {
+                    "set_id": "heart_of_depth",
+                    "set_name": "Profundezas do Coração",
+                    "pieces": 4,
+                    "notes": "Seu efeito de 4p buffa apenas os Ataques Normais e Carregados de Childe, que constituem apenas cerca de metade de seu kit quando ele Vaporiza seu Supremo Elemental. Geralmente comparável em dano a combinações 2p de Bônus de Dano Hydro ou ATQ%.",
+                    "icon_url": "/assets/images/artifact_sets/heart_of_depth.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Hydro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ~125-145% para Supremo à Distância sem Tiros Carregados)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (EM) (especialmente para Vaporizar Supremo)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "polar_star",
+                    "name": "Estrela Invernal",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arco para Childe quando sua passiva é pré-acumulada, o que geralmente é o caso.",
+                    "icon_url": "/assets/images/weapons_detail/polar_star.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Sub-status de Dano CRIT o torna uma opção forte para todas as builds. Baixo ATQ Base faz com que performe pior sem buffs de ATQ.",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                },
+                {
+                    "weapon_id": "thundering_pulse",
+                    "name": "Agitação Trovejante",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Boa opção que performa no mesmo nível de outros arcos 5 estrelas de CRIT. Buff de ATQ% valioso.",
+                    "icon_url": "/assets/images/weapons_detail/thundering_pulse.png"
+                },
+                {
+                    "weapon_id": "the_viridescent_hunt",
+                    "name": "Caça do Beco (The Viridescent Hunt)",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Passe de Batalha (A SER VERIFICADO)",
+                    "notes": "Uma das opções 4 estrelas mais fortes para Childe, obtida no Passe de Batalha. Consideravelmente mais forte que Arco de Amos se conseguir causar dano de queda. Refinamentos não são uma melhoria relevante.",
+                    "icon_url": "/assets/images/weapons_detail/the_viridescent_hunt.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (menor prioridade, mas aumenta dano de Tiro Carregado e Riptide)"
+            ]
+        },
+        {
+            "key": "tartaglia_onfield_dps_f2p_craftable",
+            "name": "DPS On-field F2P (Arma Forjável)",
+            "notes_build": "Build acessível para Childe on-field, utilizando armas forjáveis como Protótipo Crescente (se puder ativar a passiva) ou Hamayumi. Conjuntos de artefatos como 2p Hydro + 2p ATQ% são boas opções.",
+            "artifacts": [
+                {
+                    "set_id": "heart_of_depth_atk_2pc_mix",
+                    "set_name": "Profundezas do Coração (2p) + ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinação forte e consistente. Priorize sub-stats. (Ex: Profundezas + Gladiador/Reminiscência).",
+                    "icon_url": "/assets/images/artifact_sets/heart_of_depth.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "heart_of_depth",
+                        "gladiators_finale"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Hydro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (EM)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "prototype_crescent",
+                    "name": "Protótipo Crescente (Prototype Crescent)",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Forja",
+                    "notes": "Arco forjável mais forte quando sua passiva pode ser ativada (Tiro Carregado em ponto fraco).",
+                    "icon_url": "/assets/images/weapons_detail/prototype_crescent.png"
+                },
+                {
+                    "weapon_id": "hamayumi",
+                    "name": "Hamayumi",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Forja",
+                    "notes": "Childe não pode ativar a passiva completa de Hamayumi, pois quase sempre usa seu Supremo. Melhor que Protótipo Crescente se não puder ativar a passiva do Crescente.",
+                    "icon_url": "/assets/images/weapons_detail/hamayumi.png"
+                },
+                {
+                    "weapon_id": "kings_squire",
+                    "name": "Escudeiro do Rei (King's Squire)",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Forja (Sumeru) (A SER VERIFICADO)",
+                    "notes": "Arma forjável mais forte para Childe se você puder Vaporizar seu Supremo e não puder ativar a passiva do Protótipo Crescente.",
+                    "icon_url": "/assets/images/weapons_detail/king's_squire.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal"
+            ]
+        }
+    ]
+}

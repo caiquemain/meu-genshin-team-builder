@@ -1,0 +1,110 @@
+[
+    {
+        "id": "ifa_taser_ororon_fischl_furina",
+        "name": "Ifa - Taser (Ororon, Fischl, Furina)",
+        "strategy": "Ifa como driver Anemo on-field, maximizando Swirls e reações Electro-Charged. Ororon e Fischl fornecem dano Electro off-field e aplicação. Furina buffa o dano do time e contribui com dano Hydro. Requer healer (ex: Ifa com Protótipo Âmbar ou outro healer no time) devido à Furina.",
+        "characters_in_team": [
+            {
+                "character_id": "ifa",
+                "role_in_team": "Driver Anemo On-field / Healer (com Protótipo Âmbar) / DPS Swirl",
+                "build_key": "swirl_dps_healer_em"
+            },
+            {
+                "character_id": "ororon",
+                "role_in_team": "Sub-DPS Electro Off-field / Buffer (com Pergaminho)",
+                "build_key": "ororon_electro_subdps_support_scroll"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_thundering"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano Global",
+                "build_key": "off_field_hydro_support_dps"
+            }
+        ]
+    },
+    {
+        "id": "ifa_taser_beidou_fischl_xingqiu",
+        "name": "Ifa - Taser Clássico (Beidou, Fischl, Xingqiu)",
+        "strategy": "Ifa como driver para os Supremos de Beidou e Xingqiu, e a Skill de Fischl. Foco em dano Electro-Charged em área e single-target.",
+        "characters_in_team": [
+            {
+                "character_id": "ifa",
+                "role_in_team": "Driver Anemo On-field / DPS Swirl / Healer",
+                "build_key": "swirl_dps_healer_em"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field (Dano em Área)",
+                "build_key": "beidou_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_thundering"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro Off-field / Aplicador Hydro",
+                "build_key": "xingqiu_subdps_emblem_noblesse"
+            }
+        ]
+    },
+    {
+        "id": "ifa_hyperbloom_xingqiu_fischl_traveler_dendro",
+        "name": "Ifa - Hyperbloom (Xingqiu, Fischl, Viajante Dendro)",
+        "strategy": "Ifa como driver Anemo, aplicando Swirl Electro nas sementes Dendro para ativar Hyperbloom. Xingqiu para Hydro, Fischl para Electro, Viajante Dendro para Dendro.",
+        "characters_in_team": [
+            {
+                "character_id": "ifa",
+                "role_in_team": "Driver Anemo On-field / Ativador Swirl / Healer",
+                "build_key": "swirl_dps_healer_em"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_noblesse"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Aplicador Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_thundering"
+            },
+            {
+                "character_id": "traveler_dendro",
+                "role_in_team": "Aplicador Dendro Off-field",
+                "build_key": "traveler_dendro_support_deepwood_favonius"
+            }
+        ]
+    },
+    {
+        "id": "ifa_anemo_dps_faruzan_bennett_furina",
+        "name": "Ifa - DPS Anemo Hypercarry (Faruzan, Bennett, Furina)",
+        "strategy": "Maximiza o dano pessoal de Talento de Ifa com Faruzan (buffer Anemo essencial), Bennett (buff de ATK e cura) e Furina (buff de Dano% e dano off-field).",
+        "characters_in_team": [
+            {
+                "character_id": "ifa",
+                "role_in_team": "Main DPS Anemo On-field",
+                "build_key": "anemo_dps_talent_damage"
+            },
+            {
+                "character_id": "faruzan",
+                "role_in_team": "Suporte Anemo (Buffer Anemo & RES Shred Anemo)",
+                "build_key": "faruzan_anemo_buffer_noblesse_er"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer & Healer)",
+                "build_key": "bennett_support_noblesse_er"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano Global",
+                "build_key": "off_field_hydro_support_dps"
+            }
+        ]
+    }
+]

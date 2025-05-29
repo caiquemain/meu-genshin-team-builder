@@ -1,0 +1,222 @@
+{
+    "id": "yae_miko",
+    "name": "Yae Miko",
+    "element": "Electro",
+    "rarity": 5,
+    "weapon": "Catalyst",
+    "role": [
+        "Off-field DPS",
+        "On-field DPS / Driver"
+    ],
+    "icon_url": "/assets/images/characters/yae_miko.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "build_options": [
+        {
+            "key": "yae_miko_offfield_dps_golden_troupe_aggravate",
+            "name": "DPS Off-field (Trupe Dourada - Agravamento)",
+            "notes_build": "Foco no dano da Habilidade Elemental (Sesshou Sakura), especialmente em times de Agravamento. 4p Trupe Dourada é sua melhor opção em times de Agravamento e a partir de C1. Priorize subir Yae Miko para o Nível 90 em times de Agravamento para aumentar significativamente o dano da reação.",
+            "artifacts": [
+                {
+                    "set_id": "golden_troupe",
+                    "set_name": "Trupe Dourada",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para dano da Habilidade Elemental, especialmente em times de Agravamento ou a partir de C1.",
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Opção forte para Agravamento, fornecendo muito PE e ATK%. Pode superar Trupe Dourada se o dano do Supremo for muito valorizado em cenários específicos.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "thundering_fury_golden_troupe_2pc_mix",
+                    "set_name": "Fúria Trovejante (2p) + Trupe Dourada (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinação 2p + 2p consistente, sendo Trovão Furioso (Dano Electro) e Trupe Dourada (Dano da Skill) geralmente as melhores opções.",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "thundering_fury",
+                        "golden_troupe"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Proficiência Elemental (EM para Agravamento)",
+                "goblet": "Bônus de Dano Electro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até atingir os requisitos)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (EM) (para times de Agravamento, mirar em 100-300)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "kaguras_verity",
+                    "name": "Prova de Kagura",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Melhor arma para Yae Miko, buffa consistentemente sua Habilidade Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/kaguras_verity.png"
+                },
+                {
+                    "weapon_id": "a_thousand_floating_dreams",
+                    "name": "Mil Sonhos Flutuantes",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Excelente em times de Agravamento devido à alta Proficiência Elemental e buff para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/a_thousand_floating_dreams.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Buffs valiosos em times Quicken/Agravamento, mas o tempo de atividade baixo da passiva é uma desvantagem.",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                },
+                {
+                    "weapon_id": "hakushin_ring",
+                    "name": "Anel de Hakushin (Hakushin Ring)",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja (A SER VERIFICADO)",
+                    "notes": "Melhor opção F2P para times de Agravamento (Skill + Supremo), buffa a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/hakushin_ring.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (baixa prioridade, a menos que seja Driver On-field)"
+            ]
+        },
+        {
+            "key": "yae_miko_offfield_dps_emblem_burst",
+            "name": "DPS Off-field (Selo da Insulação - Foco no Supremo)",
+            "notes_build": "Melhor opção para Yae Miko C0 em times não focados em Agravamento onde ela usa o Supremo consistentemente. Ajuda a compensar os altos custos de Recarga de Energia.",
+            "artifacts": [
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Converte Recarga de Energia em Dano do Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (se necessário)",
+                "goblet": "Bônus de Dano Electro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até atingir os requisitos)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (baixa prioridade fora de Agravamento)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "kaguras_verity",
+                    "name": "Verdade de Kagura",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Continua sendo sua melhor arma.",
+                    "icon_url": "/assets/images/weapons_detail/kaguras_verity.png"
+                },
+                {
+                    "weapon_id": "oathsworn_eye",
+                    "name": "Olho do Juramento (Oathsworn Eye)",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Evento (A SER VERIFICADO)",
+                    "notes": "Fornece alta Recarga de Energia pela passiva e ATK%, permitindo focar em outros status ou usar conjuntos como Trupe Dourada mesmo sem C1.",
+                    "icon_url": "/assets/images/weapons_detail/oathsworn_eye.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Ainda uma boa opção pelos buffs, embora inconsistente.",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        },
+        {
+            "key": "yae_miko_onfield_driver_furina_marechaussee",
+            "name": "DPS On-field/Driver com Furina (Caçador das Sombras)",
+            "notes_build": "Build de nicho para Yae Miko on-field em times com Furina, aproveitando a mecânica de flutuação de Vida para ativar o conjunto Caçador das Sombras.",
+            "artifacts": [
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Yae on-field com Furina, beneficiando todo o seu dano.",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Proficiência Elemental (EM se Agravamento com Furina)",
+                "goblet": "Bônus de Dano Electro",
+                "circlet": "Dano CRIT (devido à alta Taxa CRIT do conjunto) / Taxa CRIT (se necessário)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até atingir os requisitos)",
+                "Dano CRIT",
+                "Taxa CRIT (até um certo ponto)",
+                "ATK%",
+                "Proficiência Elemental (se relevante)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "kaguras_verity",
+                    "name": "Verdade de Kagura",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Melhor opção.",
+                    "icon_url": "/assets/images/weapons_detail/kaguras_verity.png"
+                },
+                {
+                    "weapon_id": "cashflow_supervision",
+                    "name": "Supervisão de Caixa",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Boa opção devido ao ATK Base alto e Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/cashflow_supervision.png"
+                },
+                {
+                    "weapon_id": "tome_of_the_eternal_flow",
+                    "name": "Tomo do Fluxo Eterno",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Bom pelos status, mas passiva menos útil para Yae.",
+                    "icon_url": "/assets/images/weapons_detail/tome_of_the_eternal_flow.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal",
+                "Supremo (Burst)"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "id": "chasca",
+    "name": "Chasca",
+    "element": "Anemo",
+    "rarity": 5,
+    "weapon": "Bow",
+    "role": [
+        "On-Field DPS"
+    ],
+    "icon_url": "/assets/images/characters/chasca.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "build_options": [
+        {
+            "key": "chasca_onfield_dps_obsidian_codex",
+            "name": "DPS On-field (Códice de Obsidiana)",
+            "notes_build": "Foco em maximizar o dano dos Ataques Carregados melhorados pela Habilidade Elemental. 4p Códice de Obsidiana é seu melhor conjunto. Priorize Nível 90 para dano de Reações Transformativas, se aplicável.",
+            "artifacts": [
+                {
+                    "set_id": "obsidian_codex",
+                    "set_name": "Códice de Obsidiana",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Chasca, fornecendo 15% de Bônus de Dano Universal e 40% de Taxa CRIT durante sua Habilidade Elemental. ",
+                    "icon_url": "/assets/images/artifact_sets/obsidian_codex.png"
+                },
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras",
+                    "pieces": 4,
+                    "notes": "Ligeiramente inferior ao Códice de Obsidiana em times com Furina. ",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                },
+                {
+                    "set_id": "shimenawas_reminiscence",
+                    "set_name": "Reminiscência Nostálgica",
+                    "pieces": 4,
+                    "notes": "Renuncia ao uso do Supremo de Chasca por um buff de 50% de Bônus de Dano após usar sua Habilidade Elemental. Uma opção, mas bem atrás do Códice de Obsidiana. ",
+                    "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% > Proficiência Elemental (EM)",
+                "goblet": "ATK% > Bônus de DANO Elemental Específico",
+                "circlet": "Dano CRIT / Taxa CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (EM)",
+                "Recarga de Energia (ER%) (baixa prioridade, Supremo usado quando disponível) "
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "astral_vultures_crimson_plumage",
+                    "name": "Plumagem Carmesim do Abutre Astral",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Arma assinatura e melhor opção para Chasca. Ela maximiza facilmente a passiva em seus times. ",
+                    "icon_url": "/assets/images/weapons_detail/astral_vultures_crimson_plumage.png"
+                },
+                {
+                    "weapon_id": "the_first_great_magic",
+                    "name": "A Primeira Grande Mágica",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Armas 5 estrelas de CRIT são opções fortes, sendo A Primeira Grande Mágica e Aqua Simulacra notáveis. ",
+                    "icon_url": "/assets/images/weapons_detail/the_first_great_magic.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Opção forte de CRIT. Armas de Taxa CRIT performam pior devido ao fácil overcap com 4p Códice de Obsidiana e sua Ascensão. ",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                },
+                {
+                    "weapon_id": "flower_wreathed_feathers",
+                    "name": "Penas Entrelaçadas em Flores ",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha (Banner de Arma Limitado) ",
+                    "notes": "Melhor arma 4 estrelas para Chasca, exclusiva de banner de arma, buffa Ataques Carregados, mas difícil de adquirir refinos. ",
+                    "icon_url": "/assets/images/weapons_detail/flower-wreathed_feathers.png"
+                },
+                {
+                    "weapon_id": "chain_breaker",
+                    "name": "Quebrador de Correntes",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Forja (Natlan)",
+                    "notes": "Arcos forjáveis como Quebrador de Correntes e Canção da Patrulha do Pico são opções fortes quando suas passivas são cumpridas, sendo os preferidos devido a passivas menos condicionais. ",
+                    "icon_url": "/assets/images/weapons_detail/chain_breaker.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Nível do Personagem para 90",
+                "Supremo (Burst)",
+                "Ataque Normal (não precisa upar) "
+            ]
+        }
+    ]
+}

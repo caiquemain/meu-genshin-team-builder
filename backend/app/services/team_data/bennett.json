@@ -1,0 +1,137 @@
+[
+    {
+        "id": "bennett_lyney_kazuha_zhongli_mono_pyro",
+        "name": "Bennett - Mono Pyro (Lyney, Kazuha, Zhongli)",
+        "strategy": "Bennett é essencial para o arquétipo de time Mono Pyro. Lyney, como DPS de Tiro Carregado, requer resistência à interrupção de um escudeiro como Zhongli. Kazuha para buffs e VV. Bennett fornece cura e buff de ATQ massivo.",
+        "characters_in_team": [
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_healer_noblesse_er"
+            },
+            {
+                "character_id": "lyney",
+                "role_in_team": "Main DPS Pyro (On-field Charged Shot)",
+                "build_key": "lyney_pyro_dps_marechaussee_or_lavawalker"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity"
+            }
+        ]
+    },
+    {
+        "id": "bennett_childe_kazuha_xiangling_international",
+        "name": "Bennett - International (Childe, Kazuha, Xiangling)",
+        "strategy": "Time clássico 'International', ótimo em cenários single-target e multi-target. Bennett é o suporte principal para Xiangling (Vaporizar Reverso) e Childe. Kazuha para Double Swirl e buffs.",
+        "characters_in_team": [
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_healer_noblesse_er"
+            },
+            {
+                "character_id": "childe",
+                "role_in_team": "Main DPS Hydro On-field (Enabler)",
+                "build_key": "childe_hydro_dps_heartofdepth_nymphsdream"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Hydro/Pyro, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field (Vaporize)",
+                "build_key": "xiangling_subdps_emblem_thecatch"
+            }
+        ]
+    },
+    {
+        "id": "bennett_xiangling_rosaria_chongyun_reverse_melt",
+        "name": "Bennett - Reverse Melt (Xiangling, Rosaria, Chongyun)",
+        "strategy": "Time de Fusão Reversa composto inteiramente por personagens 4 estrelas, uma opção acessível de alto dano. Bennett buffa e cura, Xiangling aplica Pyro off-field, Rosaria e Chongyun causam dano Cryo com Fusão.",
+        "characters_in_team": [
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Aplicador Pyro)",
+                "build_key": "bennett_support_healer_noblesse_er"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Aplicadora Pyro Off-field / Sub-DPS",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo (Quickswap Melt)",
+                "build_key": "rosaria_cryo_melt_dps_lavawalker_or_blizzard_noblesse"
+            },
+            {
+                "character_id": "chongyun",
+                "role_in_team": "Sub-DPS Cryo / Enabler Cryo (Quickswap Melt Burst)",
+                "build_key": "chongyun_cryo_melt_burst_dps_blizzard_noblesse"
+            }
+        ]
+    },
+    {
+        "id": "bennett_onfield_nahida_xingqiu_fischl_burgeon_hypervape",
+        "name": "Bennett On-field - Burgeon/Hypervape (Nahida, Xingqiu, Fischl)",
+        "strategy": "Bennett como driver on-field em um time de Germinação/Supervaporização com alto dano single-target. Nahida para Dendro, Xingqiu para Hydro e Fischl para Electro e reações adicionais.",
+        "characters_in_team": [
+            {
+                "character_id": "bennett",
+                "role_in_team": "DPS On-field (Ativador de Reações)",
+                "build_key": "bennett_onfield_dps_crimson_witch_reaction"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Suporte Dendro / Aplicadora Dendro Off-field",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            }
+        ]
+    },
+    {
+        "id": "bennett_raiden_sara_kazuha_raiden_hypercarry",
+        "name": "Bennett - Suporte Raiden Hypercarry (Raiden, Sara C6, Kazuha)",
+        "strategy": "Time clássico de Hypercarry Raiden. Bennett fornece um buff de ATQ massivo para Raiden e Sara. Kazuha e Sara C6 também buffam Raiden significativamente.",
+        "characters_in_team": [
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_healer_noblesse_er"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Main DPS Electro (On-field Hypercarry Burst)",
+                "build_key": "raiden_hypercarry_dps_emblem_engulfing"
+            },
+            {
+                "character_id": "sara",
+                "role_in_team": "Suporte Electro (ATK Buffer, CRIT DMG Buffer C6)",
+                "build_key": "sara_electro_buffer_noblesse_or_emblem_high_base_atk_bow"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    }
+]

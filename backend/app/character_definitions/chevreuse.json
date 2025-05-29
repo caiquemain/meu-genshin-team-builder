@@ -1,0 +1,185 @@
+{
+    "id": "chevreuse",
+    "name": "Chevreuse",
+    "element": "Pyro",
+    "rarity": 4,
+    "weapon": "Polearm",
+    "role": [
+        "Suporte para Times de Sobrecarga Pura",
+        "Suporte Geral Pyro e Electro (C6)"
+    ],
+    "icon_url": "/assets/images/characters/chevreuse.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "build_options": [
+        {
+            "key": "chevreuse_overload_support_noblesse_hp_er",
+            "name": "Suporte Sobrecarga Pura (Ritual Real - HP/RE)",
+            "notes_build": "Focada em buffar times com apenas personagens Pyro e Electro. Fornece ATQ% (Passiva A4, até 40k HP) e Redução de RES Pyro/Electro. Cura o personagem ativo. 4p Ritual Real é ótimo se ninguém mais estiver usando. Nível 90 recomendado para maximizar o buff de HP.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Permite que Chevreuse aumente ainda mais o dano de seus colegas de equipe com um buff de 20% de ATQ para toda a equipe após usar seu Supremo. Equipe este conjunto se ninguém mais o estiver usando.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "song_of_days_past",
+                    "set_name": "Canção dos Dias Passados",
+                    "pieces": 4,
+                    "notes": "Pode ser um conjunto viável para C6 Chevreuse em times que já rodam outros conjuntos de suporte, pois ela pode maximizar seu efeito com C6. O dano limitado é rapidamente consumido em combate AoE.",
+                    "icon_url": "/assets/images/artifact_sets/song_of_days_past.png"
+                },
+                {
+                    "set_id": "hp_er_2pc_mix_support",
+                    "set_name": "HP% (2p) + Recarga de Energia (2p)",
+                    "pieces": "2+2",
+                    "notes": "Conjuntos mistos de 2p (HP%, Bônus de Cura, RE%) não têm utilidade para a equipe, mas são mais baratos de construir e ajudam a atingir o limite de 40.000 de HP Máx e os requisitos de RE.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "tenacity_of_the_millelith",
+                        "emblem_of_severed_fate"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "HP% / Recarga de Energia (ER%)",
+                "goblet": "HP%",
+                "circlet": "HP% / Bônus de Cura%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, se usar Supremo)",
+                "HP% (até 40.000 de HP Máx)",
+                "HP Flat (até 40.000 de HP Máx)",
+                "Taxa CRIT (para Lança de Favonius)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Opção principal em times com colegas de equipe famintos por Energia. Reduz os requisitos de RE para toda a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                },
+                {
+                    "weapon_id": "black_tassel",
+                    "name": "Borla Preta",
+                    "rarity": 3,
+                    "type": "Polearm",
+                    "category": "Baús / Gacha",
+                    "notes": "Fornece muito HP% para aumentar a cura de Chevreuse e ajudar a atingir 40.000 de HP Máx. Acessível e barata de upar.",
+                    "icon_url": "/assets/images/weapons_detail/black_tassel.png"
+                },
+                {
+                    "weapon_id": "rightful_reward",
+                    "name": "Recompensa Justa",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Forja (Fontaine)",
+                    "notes": "Arma forjável de Fontaine com sub-status de HP%. Sua passiva regenera Energia para o portador se ele for curado.",
+                    "icon_url": "/assets/images/weapons_detail/rightful_reward.png"
+                },
+                {
+                    "weapon_id": "dialogues_of_the_desert_sages",
+                    "name": "Diálogos dos Sábios do Deserto (Dialogues of the Desert Sages)",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Evento (A SER VERIFICADO)",
+                    "notes": "Arma exclusiva de evento que fornece Energia e mais HP% que Recompensa Justa. Um único proc da passiva reduz bastante os requisitos de RE.",
+                    "icon_url": "/assets/images/weapons_detail/dialogues_of_the_desert_sages.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) (para cura)",
+                "Supremo (Burst) (se build de dano/Ritual Real)",
+                "Nível do Personagem para 90 (para HP Máx e buff A4)"
+            ]
+        },
+        {
+            "key": "chevreuse_quickswap_dps_emblem",
+            "name": "DPS de Troca Rápida (Selo da Insulação)",
+            "notes_build": "Focada no dano pessoal de Chevreuse, especialmente em times onde ela se beneficia de buffs como o de Bennett. 4p Selo da Insulação é a melhor opção para dano pessoal com altos requisitos de RE.",
+            "artifacts": [
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "A melhor opção para o dano pessoal de Chevreuse, especialmente em times com altos requisitos de RE.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "golden_troupe_c4plus",
+                    "set_name": "Trupe Dourada (C4+)",
+                    "pieces": 4,
+                    "notes": "Opção para C4+ Chevreuse em times onde ela usa todas as 3 cargas da Habilidade. Fornece muito Bônus de Dano para sua Habilidade.",
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
+                },
+                {
+                    "set_id": "crimson_witch_of_flames_c4plus",
+                    "set_name": "Bruxa das Chamas Carmesim (C4+)",
+                    "pieces": 4,
+                    "notes": "Outra alternativa para C4+ Chevreuse, oferecendo Bônus de Dano Pyro incondicional após usar sua Habilidade.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Pyro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "HP%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "symphonist_of_scents",
+                    "name": "Sinfonista dos Aromas (Symphonist of Scents)",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (A SER VERIFICADO)",
+                    "notes": "Fornece Dano CRIT e ATQ% para Chevreuse, além de oferecer um buff de ATQ% para colegas de equipe curados por ela.",
+                    "icon_url": "/assets/images/weapons_detail/symphonist_of_scents.png"
+                },
+                {
+                    "weapon_id": "staff_of_homa",
+                    "name": "Báculo de Homa",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Forte 'stat stick' de CRIT que aumenta o dano pessoal de Chevreuse. Também fornece um pequeno buff de HP%.",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_homa.png"
+                },
+                {
+                    "weapon_id": "the_catch",
+                    "name": "A Fisgada",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "F2P (Pesca)",
+                    "notes": "Ajuda Chevreuse a atingir seus requisitos de RE enquanto buffa a maior parte de seu dano (Supremo).",
+                    "icon_url": "/assets/images/weapons_detail/the_catch.png"
+                },
+                {
+                    "weapon_id": "deathmatch",
+                    "name": "Lança do Duelo",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Passe de Batalha",
+                    "notes": "Forte 'stat stick' de Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/deathmatch.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Nível do Personagem para 90"
+            ]
+        }
+    ]
+}

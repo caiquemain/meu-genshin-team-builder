@@ -1,0 +1,137 @@
+[
+    {
+        "id": "yoimiya_vape_yelan_yunjin_zhongli",
+        "name": "Yoimiya - Vape (Yelan, Yun Jin, Zhongli)",
+        "strategy": "Time focado em maximizar o dano de Ataque Normal da Yoimiya através de Vaporizar com Yelan, buff de Ataque Normal da Yun Jin e escudo/RES Shred do Zhongli. Gameplay confortável e forte em single-target. [cite: 357, 418, 434, 445]",
+        "characters_in_team": [
+            {
+                "character_id": "yoimiya",
+                "role_in_team": "Main DPS Pyro (On-field)",
+                "build_key": "yoimiya_dps_shimenawas_reminiscence"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro / Buffer",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "yun_jin",
+                "role_in_team": "Suporte Buffer (Dano de Ataque Normal)",
+                "build_key": "yunjin_buffer_husk_favonius"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility"
+            }
+        ]
+    },
+    {
+        "id": "yoimiya_vv_vape_yelan_kazuha_bennett",
+        "name": "Yoimiya - VV Vape (Yelan, Kazuha, Bennett)",
+        "strategy": "Time de alto potencial de dano, utilizando Yelan para Vaporizar, Kazuha para agrupar, buffar Dano Elemental e aplicar RES Shred (VV), e Bennett para buff de ATK e cura. Requer boa execução das rotações para Swirl duplo. [cite: 465, 466, 467, 474, 483, 488, 496]",
+        "characters_in_team": [
+            {
+                "character_id": "yoimiya",
+                "role_in_team": "Main DPS Pyro (On-field)",
+                "build_key": "yoimiya_vape_crimson_witch"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro / Buffer",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_favonius"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Pyro Enabler para Swirl)",
+                "build_key": "bennett_support_noblesse_er"
+            }
+        ]
+    },
+    {
+        "id": "yoimiya_overload_fischl_chevreuse_bennett",
+        "name": "Yoimiya - Sobrecarga (Fischl, Chevreuse, Bennett)",
+        "strategy": "Time focado na reação de Sobrecarga, com Chevreuse buffando Dano Pyro/Electro e aplicando RES Shred. Fischl C6 é altamente recomendada para aplicação Electro consistente. Bennett fornece buff de ATK e cura. [cite: 195, 196, 198, 535, 549, 551, 558]",
+        "characters_in_team": [
+            {
+                "character_id": "yoimiya",
+                "role_in_team": "Main DPS Pyro (On-field, Driver de Sobrecarga)",
+                "build_key": "yoimiya_dps_shimenawas_reminiscence"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro / Aplicadora Electro Off-field (Especialmente C6)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "chevreuse",
+                "role_in_team": "Suporte (Buffer de Sobrecarga, RES Shred Pyro/Electro, Healer)",
+                "build_key": "chevreuse_buffer_noblesse_songofdays_hp_er"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er"
+            }
+        ]
+    },
+    {
+        "id": "yoimiya_mono_pyro_xiangling_kazuha_bennett",
+        "name": "Yoimiya - Mono Pyro (Xiangling, Kazuha, Bennett)",
+        "strategy": "Maximiza o dano Pyro bruto com buffs de Bennett e Kazuha (VV), e dano adicional AoE da Xiangling. Mais simples de jogar pois não depende de reações precisas para o dano da Yoimiya. [cite: 581, 582, 596, 598, 600, 623]",
+        "characters_in_team": [
+            {
+                "character_id": "yoimiya",
+                "role_in_team": "Main DPS Pyro (On-field)",
+                "build_key": "yoimiya_dps_shimenawas_reminiscence"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field (Dano em Área)",
+                "build_key": "xiangling_subdps_emblem_thecatch"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer Dano Pyro, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_favonius"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er"
+            }
+        ]
+    },
+    {
+        "id": "yoimiya_vape_furina_yelan_bennett",
+        "name": "Yoimiya - Double Hydro Vape (Furina, Yelan, Bennett)",
+        "strategy": "Alto dano com duas fontes de dano Hydro (Furina e Yelan) e os buffs da Furina e Bennett. Yoimiya aciona Vaporizar consistentemente. Requer cura de Bennett para maximizar os acúmulos de Fanfarra da Furina. [cite: 246, 248, 250, 449]",
+        "characters_in_team": [
+            {
+                "character_id": "yoimiya",
+                "role_in_team": "Main DPS Pyro (On-field)",
+                "build_key": "yoimiya_furina_marechaussee_hunter"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_goldentroupe_favonius"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro / Buffer (Off-field)",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer para Fanfarra)",
+                "build_key": "bennett_support_noblesse_er_healingbonus_sodp_furina"
+            }
+        ]
+    }
+]

@@ -1,0 +1,253 @@
+{
+    "id": "ifa",
+    "name": "Ifa",
+    "element": "Anemo",
+    "rarity": 4,
+    "weapon": "Catalyst",
+    "role": [
+        "DPS (On-Field)",
+        "Healer",
+        "Support (Swirl/Electro-Charged Buffer)"
+    ],
+    "icon_url": "/assets/images/characters/ifa.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "build_options": [
+        {
+            "key": "swirl_dps_healer_em",
+            "name": "DPS Swirl On-field / Healer (Foco em Proficiência Elemental)",
+            "notes_build": "Ifa fica em campo para ativar Swirls, curar o time e aplicar o debuff do Sombra Verde. Prioriza Proficiência Elemental para dano de Swirl e cura. Nível 90 é alta prioridade.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda (Viridescent Venerer)",
+                    "pieces": 4,
+                    "notes": "Opção principal para DPS Swirl, fornece RES Shred para aumentar o dano de Swirl e dos companheiros.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "scroll_of_the_hero_of_cinder_city",
+                    "set_name": "Pergaminho do Herói da Cidade das Cinzas",
+                    "pieces": 4,
+                    "notes": "Se já houver outro usuário de Sombra Verde, este conjunto pode buffar ainda mais os companheiros com Bônus de Dano Elemental.",
+                    "icon_url": "/assets/images/artifact_sets/scroll_of_the_hero_of_cinder_city.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados (Gilded Dreams)",
+                    "pieces": 4,
+                    "notes": "Com outro usuário de Sombra Verde, Sonhos Dourados aumenta a cura e o dano de Swirl de Ifa com o buff de EM.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / Recarga de Energia (ER%)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM) / Bônus de Cura"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até os requisitos)",
+                "Proficiência Elemental (EM)",
+                "Taxa CRIT (para Favonius Codex)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "sunny_morning_sleep_in",
+                    "name": "Sono da Manhã Ensolarada (Sunny Morning Sleep-In)",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha ",
+                    "notes": "Melhor arma para dano de Swirl, fornecendo grande quantidade de EM.",
+                    "icon_url": "/assets/images/weapons_detail/sunny_morning_sleep-in.png"
+                },
+                {
+                    "weapon_id": "starcallers_watch",
+                    "name": "Observatório do Chamador de Estrelas (Starcaller's Watch)",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Apenas um 'stat stick' de EM.",
+                    "icon_url": "/assets/images/weapons_detail/starcaller's_watch.png"
+                },
+                {
+                    "weapon_id": "a_thousand_floating_dreams",
+                    "name": "Mil Sonhos Flutuantes (A Thousand Floating Dreams)",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Oferece menos EM para Ifa em troca de um pequeno buff de EM para o time.",
+                    "icon_url": "/assets/images/weapons_detail/a_thousand_floating_dreams.png"
+                },
+                {
+                    "weapon_id": "wandering_evenstar",
+                    "name": "Estrela Errante (Wandering Evenstar)",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Boa opção 4 estrelas que concede buff de ATK flat para o time baseado na EM de Ifa.",
+                    "icon_url": "/assets/images/weapons_detail/wandering_evenstar.png"
+                },
+                {
+                    "weapon_id": "sacrificial_fragments",
+                    "name": "Fragmentos do Sacrifício (Sacrificial Fragments)",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Maior EM entre as opções 4 estrelas, mas a passiva é inútil para Ifa.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_fragments.png"
+                },
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar (Prototype Amber)",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Craftable F2P",
+                    "notes": "Aumenta sua cura para o time, crucial em times com Furina, e ajuda com ER.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                },
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius (Favonius Codex)",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Mitiga a necessidade de buildar ER e ajuda com a energia do time. Requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                },
+                {
+                    "weapon_id": "magic_guide",
+                    "name": "Guia de Magia (Magic Guide)",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "F2P (Baús/Orações)",
+                    "notes": "Arma acessível com bom stat de EM. Passiva tem impacto menor.",
+                    "icon_url": "/assets/images/weapons_detail/magic_guide.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem (para dano de Swirl)",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (Não priorizar)"
+            ]
+        },
+        {
+            "key": "anemo_dps_talent_damage",
+            "name": "DPS Anemo (Foco em Dano de Talento)",
+            "notes_build": "Build focada no dano dos talentos de Ifa (ATK%/Dano Anemo%/CRIT), geralmente para single-target ou com bons buffers como Faruzan.",
+            "artifacts": [
+                {
+                    "set_id": "obsidian_codex",
+                    "set_name": "Códice de Obsidiana (Obsidian Codex)",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto indiscutível para Ifa DPS Anemo on-field. Use o Supremo no final da rotação para aproveitar o buff de Taxa CRIT.",
+                    "icon_url": "/assets/images/artifact_sets/obsidian_codex.png"
+                },
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras (Marechaussee Hunter)",
+                    "pieces": 4,
+                    "notes": "Alternativa viável em times com Furina, mas Códice de Obsidiana geralmente é superior.",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                },
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda (Viridescent Venerer)",
+                    "pieces": 4,
+                    "notes": "Ótima opção em times com fortes Sub-DPS off-field. Sacrifica dano pessoal por RES Shred.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Anemo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, <150% para Supremo a cada rotação)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "cashflow_supervision",
+                    "name": "Supervisão de Caixa (Cashflow Supervision)",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Melhor opção em times com Furina (mudanças de HP). Bom stat stick mesmo sem Furina.",
+                    "icon_url": "/assets/images/weapons_detail/cashflow_supervision.png"
+                },
+                {
+                    "weapon_id": "tulaytullahs_remembrance",
+                    "name": "Reminiscências de Tulaytullah (Tulaytullah's Remembrance)",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Stats similares à Supervisão de Caixa, mas sem o requisito de mudança de HP. Levemente inferior a Supervisão com passiva ativa.",
+                    "icon_url": "/assets/images/weapons_detail/tulaytullahs_remembrance.png"
+                },
+                {
+                    "weapon_id": "surfs_up",
+                    "name": "Surf's Up",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Comparável a Supervisão de Caixa sem passiva ativa.",
+                    "icon_url": "/assets/images/weapons_detail/surfs_up.png"
+                },
+                {
+                    "weapon_id": "tome_of_the_eternal_flow",
+                    "name": "Tomo do Fluxo Eterno (Tome of the Eternal Flow)",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Comparável a Supervisão de Caixa sem passiva ativa.",
+                    "icon_url": "/assets/images/weapons_detail/tome_of_the_eternal_flow.png"
+                },
+                {
+                    "weapon_id": "vivid_notions",
+                    "name": "Noções Vívidas (Vivid Notions)",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Comparável a Supervisão de Caixa sem passiva ativa.",
+                    "icon_url": "/assets/images/weapons_detail/vivid_notions.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes (The Widsith)",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Melhor catalisador 4 estrelas com buffs médios, pode superar opções 5 estrelas de tier inferior em R5. Buff de EM é menos útil.",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                },
+                {
+                    "weapon_id": "flowing_purity",
+                    "name": "Pureza Rutilante (Flowing Purity)",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Craftable F2P",
+                    "notes": "Melhor arma F2P. Requer um bom healer para limpar o Contrato de Vida e ativar o buff de Dano%.",
+                    "icon_url": "/assets/images/weapons_detail/flowing_purity.png"
+                },
+                {
+                    "weapon_id": "ballad_of_the_boundless_blue",
+                    "name": "Balada do Azul Infinito (Ballad of the Boundless Blue)",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Evento F2P",
+                    "notes": "Boa opção se não puder forjar Pureza Rutilante ou não tiver healer para sua passiva.",
+                    "icon_url": "/assets/images/weapons_detail/ballad_of_the_boundless_blue.png",
+                    "source_category_obtainable": false
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (Não priorizar)"
+            ]
+        }
+    ]
+}

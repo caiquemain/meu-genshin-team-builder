@@ -1,0 +1,127 @@
+{
+    "id": "itto",
+    "name": "Arataki Itto",
+    "element": "Geo",
+    "rarity": 5,
+    "weapon": "Claymore",
+    "role": [
+        "DPS",
+        "On-Field DPS"
+    ],
+    "icon_url": "/assets/images/characters/itto.png",
+    "element_icon_url": "/assets/images/elements/element_geo.png",
+    "build_options": [
+        {
+            "key": "on_field_geo_dps_husk",
+            "name": "DPS Geo On-field (Casca de Sonhos Opulentos)",
+            "notes_build": "Maximiza o dano de Itto durante seu Supremo através de seus Ataques Normais e Ataques Carregados especiais (Arataki Kesagiri Slashes). Priorize Recarga de Energia até atingir os requisitos da equipe (geralmente 130-145%). ",
+            "artifacts": [
+                {
+                    "set_id": "husk_of_opulent_dreams",
+                    "set_name": "Casca de Sonhos Opulentos",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto de artefatos para Itto. ",
+                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png"
+                },
+                {
+                    "set_id": "husk_archaic_petra_2pc_mix",
+                    "set_name": "2p Casca de Sonhos Opulentos + 2p Pedra Arcaica",
+                    "pieces": "2+2",
+                    "notes": "Alternativa viável se não tiver 4p Casca bons.",
+                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "husk_of_opulent_dreams",
+                        "archaic_petra"
+                    ]
+                },
+                {
+                    "set_id": "husk_marechaussee_2pc_mix",
+                    "set_name": "2p Casca de Sonhos Opulentos + 2p Caçador das Sombras ",
+                    "pieces": "2+2",
+                    "notes": "Comparável a 2p Casca + 2p Pedra Arcaica. ",
+                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "husk_of_opulent_dreams",
+                        "marechaussee_hunter"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "DEF%",
+                "goblet": "Bônus de Dano Geo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até requisitos)",
+                "Taxa CRIT / Dano CRIT",
+                "DEF%",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "redhorn_stonethresher",
+                    "name": "Chifres Vermelhos Destruidores de Pedras",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Melhor arma para Itto. ",
+                    "icon_url": "/assets/images/weapons_detail/redhorn_stonethresher.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente R5",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Próxima da Chifres Vermelhos R1. Requer um escudo. ",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "beacon_of_the_reed_sea",
+                    "name": "Sinal dos Mares de Juncos",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Bom 'stat stick', mas superado por Chifres e Espinha Dorsal. ",
+                    "icon_url": "/assets/images/weapons_detail/beacon_of_the_reed_sea.png"
+                },
+                {
+                    "weapon_id": "skyward_pride",
+                    "name": "Orgulho Celestial ",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Opção sólida, ER% ajuda com os requisitos. ",
+                    "icon_url": "/assets/images/weapons_detail/skyward_pride.png"
+                },
+                {
+                    "weapon_id": "whiteblind",
+                    "name": "Sombra Branca",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Craftable F2P",
+                    "notes": "Opção F2P recomendada. ",
+                    "icon_url": "/assets/images/weapons_detail/whiteblind.png"
+                },
+                {
+                    "weapon_id": "blackcliff_slasher",
+                    "name": "Foice do Penhasco Obscuro",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Loja (Brilho Estelar)",
+                    "notes": "Bom 'stat stick', comparável à Millelith Branco. ",
+                    "icon_url": "/assets/images/weapons_detail/blackcliff_slasher.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)"
+            ]
+        }
+    ]
+}

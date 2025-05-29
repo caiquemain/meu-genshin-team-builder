@@ -1,0 +1,137 @@
+[
+    {
+        "id": "emilie_kinich_bennett_mavuika_burning",
+        "name": "Emilie - Queimadura (Kinich, Bennett, Mavuika)",
+        "strategy": "Time focado em Queimadura para aumentar o dano de Emilie. Kinich como DPS on-field que também se beneficia de Queimadura. Bennett para buff de ATQ e cura. Mavuika para dano e aplicação Pyro off-field.",
+        "characters_in_team": [
+            {
+                "character_id": "emilie",
+                "role_in_team": "Sub-DPS Dendro Off-field",
+                "build_key": "emilie_offfield_dps_unfinished_reverie_lumidouce_elegy"
+            },
+            {
+                "character_id": "kinich",
+                "role_in_team": "Main DPS On-field (Natlan)",
+                "build_key": "kinich_onfield_dps_burning_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "mavuika",
+                "role_in_team": "Sub-DPS Pyro Off-field / Aplicadora Pyro",
+                "build_key": "mavuika_pyro_subdps_scroll_of_cinder_city"
+            }
+        ]
+    },
+    {
+        "id": "emilie_lyney_bennett_zhongli_burning_mono_pyro_like",
+        "name": "Emilie - Suporte Lyney (Bennett, Zhongli)",
+        "strategy": "Time que se destaca em single-target. Emilie fornece dano Dendro off-field e habilita Queimadura. O escudo de Zhongli protege Lyney e reduz RES Dendro/Pyro. Bennett para buffs.",
+        "characters_in_team": [
+            {
+                "character_id": "emilie",
+                "role_in_team": "Sub-DPS Dendro Off-field",
+                "build_key": "emilie_offfield_dps_unfinished_reverie_lumidouce_elegy"
+            },
+            {
+                "character_id": "lyney",
+                "role_in_team": "Main DPS Pyro On-field (Charged Shot)",
+                "build_key": "lyney_pyro_dps_marechaussee_or_lavawalker"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity_archaic_petra"
+            }
+        ]
+    },
+    {
+        "id": "emilie_furina_klee_bennett_burnvape",
+        "name": "Emilie - Burnvape (Furina, Klee, Bennett)",
+        "strategy": "Klee, Furina e Emilie contribuem para o dano da equipe. O Supremo de Furina buffa toda a equipe. A aplicação Pyro rápida de Klee mantém facilmente a aura de Queimadura, permitindo que Furina Vaporize alguns de seus acertos de Habilidade.",
+        "characters_in_team": [
+            {
+                "character_id": "emilie",
+                "role_in_team": "Sub-DPS Dendro Off-field",
+                "build_key": "emilie_offfield_dps_unfinished_reverie_lumidouce_elegy"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            },
+            {
+                "character_id": "klee",
+                "role_in_team": "Main DPS Pyro On-field / Aplicadora Pyro",
+                "build_key": "klee_pyro_dps_lavawalker_crimson_witch"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "emilie_wriothesley_thoma_bennett_burnmelt",
+        "name": "Emilie - Burnmelt (Wriothesley, Thoma, Bennett)",
+        "strategy": "Emilie, junto com Thoma (ou Xiangling/Mavuika), fornece aplicação Pyro off-field para Wriothesley causar Fusão. Thoma oferece utilidade defensiva adicional. Bennett para buffs.",
+        "characters_in_team": [
+            {
+                "character_id": "emilie",
+                "role_in_team": "Sub-DPS Dendro Off-field (Enabler de Queimadura)",
+                "build_key": "emilie_offfield_dps_unfinished_reverie_lumidouce_elegy"
+            },
+            {
+                "character_id": "wriothesley",
+                "role_in_team": "Main DPS Cryo On-field (Melt)",
+                "build_key": "wriothesley_cryo_dps_marechaussee_hunter_melt"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Aplicador Pyro Off-field / Escudeiro",
+                "build_key": "thoma_pyro_support_noblesse_favonius_er_hp"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "emilie_cyno_thoma_nahida_quickburn",
+        "name": "Emilie - Quickburn (Cyno, Thoma, Nahida)",
+        "strategy": "A longa duração da Habilidade de Emilie permite que ela aplique Dendro em novas ondas de inimigos durante o tempo de campo de Cyno, mitigando uma das principais desvantagens de Nahida em times com Cyno. Cyno com 4p Trovão Furioso. Thoma para aplicação Pyro e escudo.",
+        "characters_in_team": [
+            {
+                "character_id": "emilie",
+                "role_in_team": "Sub-DPS Dendro Off-field (Aplicadora Dendro Secundária)",
+                "build_key": "emilie_offfield_dps_deepwood_memories_deathmatch"
+            },
+            {
+                "character_id": "cyno",
+                "role_in_team": "Main DPS Electro On-field (Aggravate/Quickburn)",
+                "build_key": "cyno_aggravate_dps_thundering_fury_scarlet_sands"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Aplicador Pyro Off-field / Escudeiro",
+                "build_key": "thoma_pyro_support_noblesse_favonius_er_hp"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Principal / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            }
+        ]
+    }
+]

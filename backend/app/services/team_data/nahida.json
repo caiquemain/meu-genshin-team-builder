@@ -1,0 +1,137 @@
+[
+    {
+        "id": "nahida_keqing_fischl_kazuha_aggravate",
+        "name": "Nahida - Aggravate (Keqing, Fischl, Kazuha)",
+        "strategy": "Time de Agravamento onde Nahida fornece aplicação Dendro consistente para Keqing (on-field) e Fischl (off-field) ativarem a reação. Kazuha agrupa os inimigos e reduz a RES Electro com Sombra Verde. ",
+        "characters_in_team": [
+            {
+                "character_id": "nahida",
+                "role_in_team": "Suporte Dendro / Aplicadora Dendro Off-field",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "keqing",
+                "role_in_team": "Main DPS Electro (On-field Aggravate Driver)",
+                "build_key": "keqing_aggravate_dps_thunderingfury"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro / Bateria / Ativadora de Agravamento Off-field",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn_or_favonius"
+            }
+        ]
+    },
+    {
+        "id": "nahida_yelan_kuki_xingqiu_hyperbloom",
+        "name": "Nahida - Hyperbloom (Yelan, Kuki Shinobu, Xingqiu)",
+        "strategy": "Time extremamente forte e flexível, focado em gerar Sementes Dendro com Nahida e o núcleo Hydro de Yelan e Xingqiu, para que Kuki Shinobu (build de Proficiência Elemental) ative Superflorecimento. ",
+        "characters_in_team": [
+            {
+                "character_id": "nahida",
+                "role_in_team": "Driver Dendro On-field / Aplicadora Dendro Off-field",
+                "build_key": "nahida_onfield_driver_bloom_reactions"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_favonius_or_elegy"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Ativadora de Superflorecimento (Full EM)",
+                "build_key": "kuki_shinobu_hyperbloom_full_em_flowerofparadiselost_or_gilded"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field / Redução de Dano",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            }
+        ]
+    },
+    {
+        "id": "nahida_nilou_kokomi_collei_nilou_bloom",
+        "name": "Nahida - Nilou Bloom (Nilou, Kokomi, Collei)",
+        "strategy": "Time focado no Florescimento abundante de Nilou, causando dano massivo em área. Nahida e Collei fornecem aplicação Dendro, enquanto Nilou e Kokomi aplicam Hydro e curam. ",
+        "characters_in_team": [
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro On-field/Off-field",
+                "build_key": "nahida_nilou_bloom_full_em"
+            },
+            {
+                "character_id": "nilou",
+                "role_in_team": "Ativadora de Florescimento Abundante / Aplicadora Hydro",
+                "build_key": "nilou_bloom_hp_keyofkhajnisut"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Aplicadora Hydro On-field",
+                "build_key": "kokomi_healer_tenacity_oceanhued_prototype_amber"
+            },
+            {
+                "character_id": "collei",
+                "role_in_team": "Suporte Dendro / Aplicadora Dendro Off-field",
+                "build_key": "collei_support_deepwood_favonius_er"
+            }
+        ]
+    },
+    {
+        "id": "nahida_ayato_thoma_baizhu_burgeon",
+        "name": "Nahida - Burgeon (Ayato, Thoma, Baizhu)",
+        "strategy": "Time de Germinação com dano em área. Nahida e Ayato criam Sementes Dendro, Thoma (build de Proficiência Elemental) as explode causando Germinação. Baizhu oferece cura e aplicação Dendro adicional. ",
+        "characters_in_team": [
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "ayato",
+                "role_in_team": "Main DPS Hydro On-field / Aplicador Hydro em Área",
+                "build_key": "ayato_hydro_dps_heartofdepth_echoes"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Ativador de Germinação (Full EM) / Escudeiro",
+                "build_key": "thoma_burgeon_full_em_kitain_or_favonius"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Healer / Escudeiro / Aplicador Dendro",
+                "build_key": "baizhu_healer_deepwood_prototype_amber_hp"
+            }
+        ]
+    },
+    {
+        "id": "nahida_ganyu_bennett_dehya_burnmelt",
+        "name": "Nahida - Burnmelt (Ganyu, Bennett, Dehya)",
+        "strategy": "Nahida e Dehya mantêm uma aura de Queimadura nos inimigos, permitindo que Ganyu cause Fusão com seus Ataques Carregados. Bennett fornece buff de ATQ e cura. ",
+        "characters_in_team": [
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro (Manutenção de Queimadura)",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "ganyu",
+                "role_in_team": "Main DPS Cryo (Melt com Ataque Carregado)",
+                "build_key": "ganyu_melt_dps_wanderers_troupe_shimenawa"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Aplicador Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "dehya",
+                "role_in_team": "Suporte Pyro (Aplicação Pyro Off-field para Queimadura, Mitigação de Dano)",
+                "build_key": "dehya_support_tenacity_favonius_hp"
+            }
+        ]
+    }
+]

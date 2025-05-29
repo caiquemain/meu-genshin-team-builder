@@ -1,0 +1,67 @@
+/* frontend/src/components/ArtifactTooltip.css */
+.artifact-tooltip-content {
+    background-color: var(--tooltip-background);
+    /* Usa variável CSS, fallback para #333 */
+    color: var(--tooltip-text);
+    /* Usa variável CSS, fallback para #fff */
+    border: 1px solid var(--border-color-dark);
+    /* Usa variável CSS */
+    border-radius: 6px;
+    padding: 10px 15px;
+    width: auto;
+    /* Ajusta-se ao conteúdo, limitado pelo max-width no wrapper */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    /* Controlado pelo wrapper, mas pode ser definido aqui também */
+    font-size: 0.9em;
+}
+
+.artifact-tooltip-content .tooltip-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border-color-dark, #555);
+    /* Usa variável CSS */
+}
+
+.artifact-tooltip-content .tooltip-artifact-icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.artifact-tooltip-content .tooltip-header strong {
+    font-size: 1.1em;
+    color: var(--tooltip-header-text-color);
+    /* Título branco ou conforme variável */
+}
+
+.artifact-tooltip-content .tooltip-body p {
+    margin: 5px 0;
+    line-height: 1.4;
+    color: var(--tooltip-text);
+}
+
+.artifact-tooltip-content .tooltip-body p strong {
+    color: var(--tooltip-link-color);
+    /* Cor de destaque para "2 Peças:", "4 Peças:" */
+}
+
+/* Estilos específicos para quando há múltiplos bônus de 2p (combos) */
+.artifact-tooltip-content .combo-set-bonus {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed var(--tooltip-border-color);
+    /* Usa variável CSS */
+}
+
+.artifact-tooltip-content .combo-set-bonus:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+/* O nome do conjunto dentro de um combo-set-bonus já é tratado pelo .tooltip-header strong */

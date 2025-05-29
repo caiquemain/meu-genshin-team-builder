@@ -1,0 +1,254 @@
+{
+    "id": "dori",
+    "name": "Dori",
+    "element": "Electro",
+    "rarity": 4,
+    "weapon": "Claymore",
+    "role": [
+        "Healer",
+        "Bateria (Geradora de Energia)",
+        "Aplicadora Electro",
+        "Driver de Reação (C6)"
+    ],
+    "icon_url": "/assets/images/characters/dori.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "build_options": [
+        {
+            "key": "dori_hyperbloom_driver_gilded_dreams",
+            "name": "Driver Hyperbloom (Sonhos Dourados - EM)",
+            "notes_build": "Foco em maximizar o dano de Hiperflorecimento quando Dori é a ativadora. Proficiência Elemental (EM) é a prioridade após atender aos requisitos de Recarga de Energia. Nível 90 é altamente recomendado para dano de Hiperflorecimento.",
+            "artifacts": [
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Conjunto estável para builds baseadas em reação de Dori; ela consegue ativar o efeito de 4p consistentemente independentemente de seu tempo em campo. ",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "flower_of_paradise_lost",
+                    "set_name": "Flor do Paraíso Perdido",
+                    "pieces": 4,
+                    "notes": "Este conjunto aumenta apenas o dano de Hiperflorecimento. Hiperflorecimento é apenas parte do dano de Dori, já que ela às vezes ativará Agravamento e/ou Eletricamente Carregado. ",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png"
+                },
+                {
+                    "set_id": "em_er_2pc_mix_hyperbloom",
+                    "set_name": "Proficiência Elemental (2p) + Recarga de Energia (2p)",
+                    "pieces": "2+2",
+                    "notes": "Estes conjuntos mistos de 2p fornecem a Dori stats incondicionais e são extremamente valiosos quando ela não tem um conjunto completo ou os stats de sua build não estão balanceados. (Ex: Sonhos Dourados + Selo da Insulação). ",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "gilded_dreams",
+                        "emblem_of_severed_fate"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / Recarga de Energia (ER%)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Proficiência Elemental (EM)",
+                "Taxa CRIT (para Espadão de Favonius)",
+                "HP%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_greatsword",
+                    "name": "Espadão de Favonius",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Uma das opções mais competitivas de Dori para todos os seus estilos de jogo devido às suas capacidades de bateria.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_greatsword.png"
+                },
+                {
+                    "weapon_id": "makhaira_aquamarine",
+                    "name": "Makhaira Aquamarine",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "O buff de ATQ para a equipe desta arma escala diretamente com a EM de Dori, tornando-a uma fantástica opção de suporte para Hiperflorecimento.",
+                    "icon_url": "/assets/images/weapons_detail/makhaira_aquamarine.png"
+                },
+                {
+                    "weapon_id": "rainslasher",
+                    "name": "Segadeira da Chuva",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Com RE suficiente dos artefatos, pode ser um avanço em relação às armas de RE em termos de dano pessoal em times de Hiperflorecimento ou Agravamento.",
+                    "icon_url": "/assets/images/weapons_detail/rainslasher.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem para 90",
+                "Supremo (Burst) (para cura e aplicação Electro)",
+                "Habilidade Elemental (Skill) (para cura e aplicação Electro)",
+                "Ataque Normal (apenas se C6 Driver)"
+            ]
+        },
+        {
+            "key": "dori_c6_aggravate_driver_thundering_fury",
+            "name": "C6 Driver Agravamento (Trovão Furioso)",
+            "notes_build": "Com C6, Dori pode infundir seus Ataques Normais com Electro, tornando-se uma driver de Agravamento. 4p Trovão Furioso é competitivo para este estilo de jogo com tempo de campo estendido. Nível 90 é altamente recomendado.",
+            "artifacts": [
+                {
+                    "set_id": "thundering_fury",
+                    "set_name": "Trovão Furioso",
+                    "pieces": 4,
+                    "notes": "Um dos conjuntos mais competitivos de Dori para um estilo de jogo de Agravamento com tempo de campo estendido. Ela é capaz de usar todas as facetas do 4TF — Bônus de Dano Electro%, Dano de Reação Electro% e a redução de cooldown da Habilidade. ",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Conjunto estável para builds baseadas em reação de Dori.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "thundersoother",
+                    "set_name": "Lançador de Trovões",
+                    "pieces": 4,
+                    "notes": "Embora o efeito incondicional beneficie Dori, seu desempenho real fica aquém de outras opções. Compartilhar o mesmo Domínio que 4TF o torna uma opção de backup.",
+                    "icon_url": "/assets/images/artifact_sets/thundersoother.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Electro / Proficiência Elemental (EM)",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM)",
+                "ATK% / HP%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Caso os requisitos de RE sejam atendidos, Espinha Dorsal da Serpente é uma arma poderosa para Agravamento devido ao seu sub-status de Taxa CRIT e passiva de DANO%.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "talking_stick",
+                    "name": "Bastão da Conversa (Talking Stick)",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha (A SER VERIFICADO)",
+                    "notes": "O Supremo de Dori é uma das maneiras mais consistentes de tirar vantagem da passiva de DANO% única do Bastão da Conversa. Para Dori C6 Agravamento, no entanto, Espinha Dorsal da Serpente é geralmente recomendada sobre Bastão da Conversa. ",
+                    "icon_url": "/assets/images/weapons_detail/talking_stick.png"
+                },
+                {
+                    "weapon_id": "favonius_greatsword",
+                    "name": "Espadão de Favonius",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Ainda uma opção competitiva para utilidade da equipe, mesmo em builds de dano.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_greatsword.png"
+                },
+                {
+                    "weapon_id": "katsuragikiri_nagamasa",
+                    "name": "Grande Espada de Katsuragi",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja (Inazuma)",
+                    "notes": "Similar ao Espadão do Sacrifício em seus benefícios para uma Dori com baixa RE, fornecendo geração de Energia Flat e DANO de Habilidade%, brilhando mais em seus times de Agravamento.",
+                    "icon_url": "/assets/images/weapons_detail/katsuragikiri_nagamasa.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem para 90",
+                "Supremo (Burst)",
+                "Ataque Normal (apenas para C6 Driver)",
+                "Habilidade Elemental (Skill)"
+            ]
+        },
+        {
+            "key": "dori_support_healer_battery",
+            "name": "Suporte (Healer/Bateria - Flexível)",
+            "notes_build": "Dori como suporte Electro off-field, focada em seu Supremo para geração de Energia Flat e cura. Build de curandeira pura quase nunca é recomendada, pois sua cura é suficiente quando buildada ofensivamente, mas pode ser usada para máximo conforto.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Se nenhum outro colega de equipe já estiver usando 4p Ritual Real, o buff de ATQ% para toda a equipe deste conjunto provavelmente será apreciado pela equipe de Dori.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Conjunto essencial para times de Espalhar ou Florescimento (e suas variantes). Dori e a longa duração de seu Supremo permitem que ela alcance 100% de uptime na Redução de RES Dendro.",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                },
+                {
+                    "set_id": "the_exile",
+                    "set_name": "O Exilado",
+                    "pieces": 4,
+                    "notes": "Estende as capacidades de bateria de Dori com seu efeito de geração de Energia Flat para toda a equipe. Recomenda-se usar uma Areia de RE 5 estrelas com este conjunto 4 estrelas.",
+                    "icon_url": "/assets/images/artifact_sets/the_exile.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / HP%",
+                "goblet": "HP%",
+                "circlet": "Bônus de Cura% / HP%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "HP%",
+                "Taxa CRIT (para Espadão de Favonius)",
+                "HP Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_greatsword",
+                    "name": "Espadão de Favonius",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Opção competitiva para utilidade da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_greatsword.png"
+                },
+                {
+                    "weapon_id": "sacrificial_greatsword",
+                    "name": "Espadão do Sacrifício",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Geralmente tem mais valor para uma Dori buildada mais ofensivamente com limiares de RE mais baixos. A Habilidade extra gera mais partículas e aplicação Electro.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_greatsword.png"
+                },
+                {
+                    "weapon_id": "forest_regalia",
+                    "name": "Regalia da Floresta (Forest Regalia)",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja (Sumeru) (A SER VERIFICADO)",
+                    "notes": "Capaz de dar a Dori ou um de seus colegas de equipe um buff decente de EM, além de um sub-status de RE que ela aprecia. A passiva só funciona para times que usam reações Dendro.",
+                    "icon_url": "/assets/images/weapons_detail/forest_regalia.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Nível do Personagem para 90",
+                "Ataque Normal (não precisa upar)"
+            ]
+        }
+    ]
+}

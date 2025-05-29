@@ -1,0 +1,178 @@
+{
+    "id": "traveler_dendro",
+    "name": "Viajante (Dendro) / Traveler (Dendro)",
+    "element": "Dendro",
+    "rarity": 5,
+    "weapon": "Sword",
+    "role": [
+        "Enabler Off-Field (Aplicador Dendro, Buffer)"
+    ],
+    "icon_url": "/assets/images/characters/traveler_dendro.png",
+    "element_icon_url": "/assets/images/elements/element_dendro.png",
+    "build_options": [
+        {
+            "key": "traveler_dendro_offfield_support_deepwood_favonius",
+            "name": "Suporte Off-field (Memórias da Floresta - Favonius)",
+            "notes_build": "Principal forma de jogar com o Viajante Dendro, focando em habilitar reações Dendro e fornecer buffs. 4p Memórias da Floresta é geralmente o melhor conjunto. Requer alta Recarga de Energia. Usar a Habilidade duas vezes por rotação é recomendado.",
+            "artifacts": [
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Conjunto principal a ser visado, pois é geralmente o Melhor em Slot para times que causam uma quantidade decente de Dano Dendro (como com um DPS Dendro on-field) ou usam a reação de Florescimento. Ideal para o dano pessoal do Viajante em qualquer time. ",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Principalmente usado em times de Agravamento, pois pode fornecer um buff útil para colegas de equipe que escalam com ATQ. O efeito de 4p também se aplica ao Supremo do próprio Viajante. ",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "instructor",
+                    "set_name": "Instrutor",
+                    "pieces": 4,
+                    "notes": "Conjunto de suporte viável que pode ser útil em times onde o EM adicional é bem-vindo. Sendo um conjunto 4 estrelas, reduz significativamente o dano pessoal do Viajante e torna mais difícil atingir RE suficiente. ",
+                    "icon_url": "/assets/images/artifact_sets/instructor.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%)",
+                "goblet": "Proficiência Elemental (EM) / Bônus de Dano Dendro (para Quicken/Hyperbloom)",
+                "circlet": "Taxa CRIT (para Espada de Favonius) / Proficiência Elemental (EM para Florescimento Puro)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ex: 200-250% Solo Dendro com 2 Skills)",
+                "Proficiência Elemental (EM) (especialmente para Florescimento Puro)",
+                "Taxa CRIT (para Espada de Favonius e dano)",
+                "Dano CRIT / ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Geralmente a Melhor em Slot para a maioria das situações devido aos enormes requisitos de Recarga de Energia do Viajante. Também gera mais partículas para o resto da equipe. ",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "sacrificial_sword",
+                    "name": "Espada do Sacrifício",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Permite usar a Habilidade mais uma vez, gerando mais partículas Dendro, causando dano extra e aplicando mais Dendro, além de reduzir os requisitos de RE. R4+ para confiabilidade em rotações de 20s. ",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_sword.png"
+                },
+                {
+                    "weapon_id": "fleuve_cendre_ferryman",
+                    "name": "Cruzamento de Fleuve Cendre",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "F2P (Pesca)",
+                    "notes": "Opção F2P base que fornece uma grande quantidade de RE, ideal para o Viajante Dendro. ",
+                    "icon_url": "/assets/images/weapons_detail/fleuve_cendre_ferryman.png"
+                },
+                {
+                    "weapon_id": "sapwood_blade",
+                    "name": "Lâmina de Madeira (Sapwood Blade)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja (Sumeru)",
+                    "notes": "Arma gratuita que pode aliviar os requisitos de RE do Viajante e também pode ser usada para dar suporte a outra unidade. ",
+                    "icon_url": "/assets/images/weapons_detail/sapwood_blade.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (não recomendado upar)"
+            ]
+        },
+        {
+            "key": "traveler_dendro_quicken_dps_freedom_sworn",
+            "name": "DPS Quicken (Juramento pela Liberdade - Dano Pessoal)",
+            "notes_build": "Foco no dano pessoal do Viajante em times Quicken (Aceleração/Espalhar), se os requisitos de RE forem atendidos por outras fontes. Juramento pela Liberdade é uma opção de dano e suporte.",
+            "artifacts": [
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Ainda ideal para o dano pessoal do Viajante em qualquer time, além de buffar outros Dendro ou reações. ",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                },
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Boa alternativa para dano pessoal em times Quicken, especialmente se outro personagem já estiver usando 4p Memórias da Floresta. ",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Outra boa alternativa para dano pessoal em times Quicken. ",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) ≥ ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Dendro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "freedom_sworn",
+                    "name": "Juramento pela Liberdade",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Potencial Melhor em Slot, bom 'stat stick' que também fornece buffs decentes para times que podem usá-los bem. O Supremo do Viajante não dá snapshot no buff de ATQ. ",
+                    "icon_url": "/assets/images/weapons_detail/freedom_sworn.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Em termos de dano pessoal, potencial Melhor em Slot em times Quicken, assumindo que os requisitos de RE sejam atendidos. ",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Similar ao Cortador de Jade Primordial para dano pessoal em times Quicken com RE suficiente. ",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "wolf_fang",
+                    "name": "Presa do Lobo (Wolf-Fang)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Passe de Batalha",
+                    "notes": "Boa alternativa para dano pessoal em times Quicken. Escala bem com refinos altos e performa melhor se o Viajante estiver em campo. ",
+                    "icon_url": "/assets/images/weapons_detail/wolf_fang.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (não recomendado upar)"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,253 @@
+{
+    "id": "dehya",
+    "name": "Dehya",
+    "element": "Pyro",
+    "rarity": 5,
+    "weapon": "Claymore",
+    "role": [
+        "On-Field DPS",
+        "Off-Field Support (Mitigação de Dano, Aplicação Pyro)",
+        "Ativadora de Germinação (Burgeon)"
+    ],
+    "icon_url": "/assets/images/characters/dehya.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "build_options": [
+        {
+            "key": "dehya_onfield_dps_emblem_beacon",
+            "name": "DPS On-field (Selo da Insulação - Sinal dos Mares)",
+            "notes_build": "Foco em maximizar o dano do Supremo de Dehya. 4p Selo da Insulação é seu melhor conjunto. Requer alta Recarga de Energia. Nível 90 é recomendado, pois sua utilidade defensiva escala com HP Máx. C1 é um bom ponto de parada para DPS on-field.",
+            "artifacts": [
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto de artefatos para Dehya, já que a maior parte de seu dano vem de seu Supremo. O efeito de 2p também ajuda a cumprir seus requisitos de RE.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "vourukashas_glow",
+                    "set_name": "Brilho de Vourukasha",
+                    "pieces": 4,
+                    "notes": "Em C4+, performa similarmente a 4p Selo da Insulação, e em C6 é ~10% melhor que Selo em times onde seus requisitos de RE são menores. Não recomendado farmar especificamente para ela antes de C4.",
+                    "icon_url": "/assets/images/artifact_sets/vourukashas_glow.png"
+                },
+                {
+                    "set_id": "lavawalker",
+                    "set_name": "Atravessador de Fogo",
+                    "pieces": 4,
+                    "notes": "Alternativa decente para 4p Selo da Insulação em times Mono Pyro. Não recomendado farmar exclusivamente para Dehya.",
+                    "icon_url": "/assets/images/artifact_sets/lavawalker.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%) / HP% (C1+)",
+                "goblet": "Bônus de Dano Pyro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ex: ~230% com Bennett)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "HP% (mais valioso a partir de C1)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "beacon_of_the_reed_sea",
+                    "name": "Sinal dos Mares de Juncos",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para uso geral on-field de Dehya. Sua passiva encoraja a não usar um escudeiro para buffar Dehya com ATQ% e HP%.",
+                    "icon_url": "/assets/images/weapons_detail/beacon_of_the_reed_sea.png"
+                },
+                {
+                    "weapon_id": "redhorn_stonethresher",
+                    "name": "Chifres Vermelhos Destruidores de Pedras",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Principalmente um 'stat stick' de Dano CRIT. Refinamentos são inúteis. Opção muito competitiva se insistir em usá-la como carry on-field.",
+                    "icon_url": "/assets/images/weapons_detail/redhorn_stonethresher.png"
+                },
+                {
+                    "weapon_id": "akuoumaru",
+                    "name": "Akuoumaru",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "R5 é uma forte opção 4 estrelas se Dehya conseguir atingir seus requisitos de RE. Não recomendado puxar esta arma especificamente para Dehya.",
+                    "icon_url": "/assets/images/weapons_detail/akuoumaru.png"
+                },
+                {
+                    "weapon_id": "luxurious_sea_lord",
+                    "name": "Lord do Mar Luxuoso",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Evento",
+                    "notes": "R5 é a melhor opção F2P se você a tiver. Fornece ATQ% e Bônus de Dano do Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/luxurious_sea-lord.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Nível do Personagem para 90"
+            ]
+        },
+        {
+            "key": "dehya_burgeon_trigger_flower_paradise_mailed_flower",
+            "name": "Ativadora de Germinação (Flor do Paraíso - Flor Empilhada)",
+            "notes_build": "Focada em ativar a reação de Germinação, maximizando Proficiência Elemental. O Supremo não é usado nesta build. Nível 90 é crucial para dano de Germinação.",
+            "artifacts": [
+                {
+                    "set_id": "flower_of_paradise_lost",
+                    "set_name": "Flor do Paraíso Perdido",
+                    "pieces": 4,
+                    "notes": "Conjunto feito sob medida para Florescimento, melhor para Dehya se ela ativar mais Germinações do que outras reações.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Fornece buff de ATQ% para a Habilidade de Dehya e EM para Germinação. Alternativa se não tiver 4p Flor do Paraíso Perdido.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "em_2pc_mix_burgeon",
+                    "set_name": "Proficiência Elemental (2p) + Proficiência Elemental (2p)",
+                    "pieces": "2+2",
+                    "notes": "O mínimo para um estilo de jogo de Germinação. (Ex: Sonhos Dourados + Trupe Itinerante).",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "gilded_dreams",
+                        "wanderers_troupe"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / HP% (para mais utilidade defensiva)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Proficiência Elemental (EM)",
+                "Taxa CRIT (para Espadão de Favonius, se usado)",
+                "HP%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "mailed_flower",
+                    "name": "Flor Empilhada",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Evento",
+                    "notes": "R5 é a melhor para Dehya de Germinação; dá um total de 206 EM com bom uptime.",
+                    "icon_url": "/assets/images/weapons_detail/mailed_flower.png"
+                },
+                {
+                    "weapon_id": "makhaira_aquamarine",
+                    "name": "Makhaira Aquamarine",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado) (A SER VERIFICADO)",
+                    "notes": "R5 esta arma dá ATQ Flat para outros personagens baseado na EM do portador, o que pode ser melhor que Flor Empilhada se o time tiver bons personagens que escalam com ATQ.",
+                    "icon_url": "/assets/images/weapons_detail/makhaira_aquamarine.png"
+                },
+                {
+                    "weapon_id": "rainslasher",
+                    "name": "Segadeira da Chuva",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "R5 é uma opção 4 estrelas que dá menos EM que Flor Empilhada e Espadão Sangrento, mas tem uma passiva melhor se houver uma aura Hydro consistente nos inimigos.",
+                    "icon_url": "/assets/images/weapons_detail/rainslasher.png"
+                },
+                {
+                    "weapon_id": "bloodtainted_greatsword",
+                    "name": "Espadão Sangrento",
+                    "rarity": 3,
+                    "type": "Claymore",
+                    "category": "Baús / Gacha",
+                    "notes": "Arma 3 estrelas de EM decente e amplamente acessível, disponível em qualquer banner.",
+                    "icon_url": "/assets/images/weapons_detail/bloodtainted_greatsword.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem para 90",
+                "Habilidade Elemental (Skill) (para mitigação de dano)",
+                "Supremo (Burst) (não usado)",
+                "Ataque Normal (não usado)"
+            ]
+        },
+        {
+            "key": "dehya_offfield_support_tenacity_favonius",
+            "name": "Suporte Off-field (Tenacidade dos Millelith - Favonius)",
+            "notes_build": "Focada na resistência à interrupção e mitigação de dano para a equipe. O Supremo geralmente é ignorado. Maximizar HP para aumentar a capacidade de absorção de dano.",
+            "artifacts": [
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "A Habilidade Elemental de Dehya envia um ataque coordenado a cada 2.5s, permitindo que o conjunto mantenha uptime relativamente alto. O bônus de 20% de HP também ajuda na sua capacidade de tanque.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                },
+                {
+                    "set_id": "instructor",
+                    "set_name": "Instrutor",
+                    "pieces": 4,
+                    "notes": "Desde que Dehya ative reações com o lançamento de sua Habilidade, este conjunto buffa qualquer time baseado em reações. Stats 4 estrelas afetam sua utilidade defensiva.",
+                    "icon_url": "/assets/images/artifact_sets/instructor.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "HP%",
+                "goblet": "HP%",
+                "circlet": "HP% / Bônus de Cura%"
+            },
+            "sub_stats_priority": [
+                "HP%",
+                "HP Flat",
+                "Recarga de Energia (ER%) (baixa prioridade)",
+                "Taxa CRIT (para Espadão de Favonius)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_greatsword",
+                    "name": "Espadão de Favonius",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Dehya pode ativar a passiva de Favonius e canalizar as partículas para outro personagem, diminuindo os requisitos de RE desse personagem.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_greatsword.png"
+                },
+                {
+                    "weapon_id": "makhaira_aquamarine",
+                    "name": "Makhaira Aquamarine",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado) (A SER VERIFICADO)",
+                    "notes": "Esta arma dá ATQ Flat para outros personagens baseado na EM do portador enquanto também dá EM para Dehya para dano de reação.",
+                    "icon_url": "/assets/images/weapons_detail/makhaira_aquamarine.png"
+                },
+                {
+                    "weapon_id": "the_bell",
+                    "name": "O Sino (The Bell)",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha (A SER VERIFICADO)",
+                    "notes": "'Stat stick' de HP% para robustez adicional. Nada mais.",
+                    "icon_url": "/assets/images/weapons_detail/the_bell.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) (para mitigação de dano e duração do campo)",
+                "Nível do Personagem para 90",
+                "Supremo (Burst) (não usado)",
+                "Ataque Normal (não usado)"
+            ]
+        }
+    ]
+}

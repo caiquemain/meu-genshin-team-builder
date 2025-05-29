@@ -1,0 +1,173 @@
+{
+    "id": "traveler_geo",
+    "name": "Viajante (Geo) / Traveler (Geo)",
+    "element": "Geo",
+    "rarity": 5,
+    "weapon": "Sword",
+    "role": [
+        "Quickswap DPS",
+        "Suporte (Bateria Geo, Buffer de Taxa CRIT)"
+    ],
+    "icon_url": "/assets/images/characters/traveler_geo.png",
+    "element_icon_url": "/assets/images/elements/element_geo.png",
+    "build_options": [
+        {
+            "key": "traveler_geo_quickswap_dps_2petra_2atk",
+            "name": "DPS de Troca Rápida (2p Petra Arcaica + 2p ATQ%)",
+            "notes_build": "Foco em maximizar o dano pessoal do Viajante Geo através de sua Habilidade Elemental e Supremo em rotações de troca rápida. Requisitos de RE são geralmente baixos (~130%). Constelações são importantes.",
+            "artifacts": [
+                {
+                    "set_id": "archaic_petra_atk_2pc_mix",
+                    "set_name": "Pedra Arcaica (2p) + ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Opção generalista mais forte. Qualquer conjunto de 2p ATQ% (Gladiador, Reminiscência, etc.) funciona. Priorize sub-stats.",
+                    "icon_url": "/assets/images/artifact_sets/archaic_petra.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "archaic_petra",
+                        "gladiators_finale"
+                    ]
+                },
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Uma das melhores opções gerais se precisar de mais Recarga de Energia ou se já tiver um bom conjunto.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "noblesse_oblige_archaic_petra_2pc_mix",
+                    "set_name": "Antigo Ritual Real (2p) + Pedra Arcaica (2p)",
+                    "pieces": "2+2",
+                    "notes": "Ótima opção quando buffs de ATQ estão presentes, pois o Dano do Supremo (2p Ritual) escala melhor.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "noblesse_oblige",
+                        "archaic_petra"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Geo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Recarga de Energia (ER%) (até o requisito)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Melhor opção geral devido à alta Taxa CRIT e ATQ incondicional. Facilita o balanceamento dos artefatos.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "haran_geppaku_futsu",
+                    "name": "Haran Geppaku Futsu",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Ótima arma devido ao Bônus de Dano Geo, Taxa CRIT e alto ATQ Base.",
+                    "icon_url": "/assets/images/weapons_detail/haran_geppaku_futsu.png"
+                },
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Embora a passiva não seja totalmente utilizada, ainda é uma arma muito boa. Consegue 1 stack consistente com o Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "amenoma_kageuchi",
+                    "name": "Espada Amenoma Kageuchi",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Melhor opção F2P. A passiva restaura Energia Flat, permitindo focar em stats ofensivos.",
+                    "icon_url": "/assets/images/weapons_detail/amenoma_kageuchi.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (geralmente não upado)"
+            ]
+        },
+        {
+            "key": "traveler_geo_support_battery_noblesse_favonius",
+            "name": "Suporte Bateria (Ritual Real - Favonius)",
+            "notes_build": "Focado em fornecer Taxa CRIT (C1), Partículas Elementais e buff de ATQ (4p Ritual Real) para a equipe. Requer alta Recarga de Energia se estiver passando partículas para outro personagem. Espada de Favonius é ideal.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Se nenhum outro personagem na equipe estiver usando, o Viajante Geo pode usar para buffar o ATQ da equipe. Requer mais RE nos sub-stats.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "the_exile",
+                    "set_name": "O Exilado",
+                    "pieces": 4,
+                    "notes": "Opção para jogadores mais novos. Ajuda com a recarga de energia da equipe. Use uma Areia de RE 5 estrelas de outro conjunto, se possível.",
+                    "icon_url": "/assets/images/artifact_sets/the_exile.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%)",
+                "goblet": "Qualquer peça com mais RE% / Dano Geo",
+                "circlet": "Taxa CRIT (para Espada de Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~200% se bateria)",
+                "Taxa CRIT (para Espada de Favonius)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Melhor opção para o Viajante Geo como bateria, pois gera Partículas Neutras para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "sacrificial_sword",
+                    "name": "Espada do Sacrifício",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "R4+ permite um uso adicional da Habilidade Elemental, gerando mais partículas Geo.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_sword.png"
+                },
+                {
+                    "weapon_id": "festering_desire",
+                    "name": "Espada Pútrida",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Evento",
+                    "notes": "Arma de evento limitada. Sub-status de RE útil.",
+                    "icon_url": "/assets/images/weapons_detail/festering_desire.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (não recomendado upar)"
+            ]
+        }
+    ]
+}

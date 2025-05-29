@@ -1,0 +1,110 @@
+[
+    {
+        "id": "charlotte_furina_neuvillette_kazuha_furina_team",
+        "name": "Charlotte - Time Furina (Furina, Neuvillette, Kazuha)",
+        "strategy": "Furina causa dano off-field, aplica Hydro e fornece buffs para toda a equipe que escalam com a flutuação de HP da equipe. A cura em área de Charlotte é essencial para manter os buffs de Furina e a sobrevivência da equipe. ",
+        "characters_in_team": [
+            {
+                "character_id": "charlotte",
+                "role_in_team": "Suporte de Cura (Healer para Fanfarra)",
+                "build_key": "charlotte_healing_support_prototype_amber_mixed_sets"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            },
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro (On-field)",
+                "build_key": "neuvillette_hydro_dps_marechaussee_tome_of_eternal_flow"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "charlotte_ayaka_venti_furina_freeze",
+        "name": "Charlotte - Congelamento (Ayaka, Venti, Furina)",
+        "strategy": "Charlotte como curandeira Cryo em times de Congelamento, especialmente com Furina. Sua cura em área sustenta a equipe e ajuda a acumular Fanfarra. Venti agrupa e Ayaka é a DPS principal. ",
+        "characters_in_team": [
+            {
+                "character_id": "charlotte",
+                "role_in_team": "Suporte de Cura / Aplicadora Cryo",
+                "build_key": "charlotte_healing_support_noblesse_er_atk"
+            },
+            {
+                "character_id": "ayaka",
+                "role_in_team": "Main DPS Cryo (On-field)",
+                "build_key": "ayaka_dps_blizzard_strayer_mistsplitter"
+            },
+            {
+                "character_id": "venti",
+                "role_in_team": "Suporte Anemo (Agrupamento, Bateria, VV RES Shred Cryo)",
+                "build_key": "venti_anemo_support_vv_stringless_elegy"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field) / Aplicadora Hydro",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            }
+        ]
+    },
+    {
+        "id": "charlotte_eula_raiden_shenhe_physical",
+        "name": "Charlotte - Time Físico (Eula, Raiden, Shenhe)",
+        "strategy": "Charlotte como curandeira em times focados em um causador de dano Físico como Eula. Equipes físicas geralmente trazem uma unidade Electro para Supercondutor e uma bateria Cryo. A geração de partículas de Charlotte é baixa, tornando-a menos eficaz como bateria. ",
+        "characters_in_team": [
+            {
+                "character_id": "charlotte",
+                "role_in_team": "Suporte de Cura",
+                "build_key": "charlotte_healing_support_noblesse_er_atk"
+            },
+            {
+                "character_id": "eula",
+                "role_in_team": "Main DPS Físico (On-field)",
+                "build_key": "eula_physical_dps_pale_flame_songofbrokenpines"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Sub-DPS Electro / Bateria / Ativadora de Supercondutor",
+                "build_key": "raiden_subdps_emblem_thecatch"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer de Dano Cryo/Físico com passiva)",
+                "build_key": "shenhe_cryo_buffer_noblesse_calamityqueller"
+            }
+        ]
+    },
+    {
+        "id": "charlotte_nahida_xingqiu_raiden_hyperbloom_driver",
+        "name": "Charlotte On-field - Hyperbloom/Burgeon Driver (Nahida, Xingqiu, Raiden/Thoma)",
+        "strategy": "Opção fácil para jogadores que querem usar Charlotte on-field. Ela pode ser driver em times de Hiperflorecimento ou Germinação sem interferir nas reações, e a força dessas reações garante dano competitivo. Sua cura a torna uma escolha defensiva. ",
+        "characters_in_team": [
+            {
+                "character_id": "charlotte",
+                "role_in_team": "Driver Cryo On-field / Healer",
+                "build_key": "charlotte_healing_support_favonius_support_blizzard_strayer"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Ativadora de Hyperbloom (Full EM Off-field)",
+                "build_key": "raiden_hyperbloom_trigger_full_em_dragons_bane"
+            }
+        ]
+    }
+]

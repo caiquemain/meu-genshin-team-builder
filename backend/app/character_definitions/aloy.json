@@ -1,0 +1,169 @@
+{
+    "id": "aloy",
+    "name": "Aloy",
+    "element": "Cryo",
+    "rarity": 5,
+    "weapon": "Bow",
+    "role": [
+        "Reverse Melt DPS",
+        "Freeze and Mono Cryo Support"
+    ],
+    "icon_url": "/assets/images/characters/aloy.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "build_options": [
+        {
+            "key": "aloy_reverse_melt_dps",
+            "name": "DPS Reverse Melt",
+            "notes_build": "Utiliza colegas de equipe Pyro e Anemo para permitir que a Habilidade e o Supremo de Aloy causem dano de Fusão Reversa. Grande parte do DPS da equipe também vem dos colegas. Priorize ER até o requisito, depois CRIT e EM.",
+            "artifacts": [
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Cerca de metade do dano de Aloy vem de seu Supremo, tornando 4p Selo uma escolha sólida com requisitos de RE mais altos.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Boa opção devido à grande quantidade de Proficiência Elemental que fornece.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "lavawalker",
+                    "set_name": "Atravessador de Fogo",
+                    "pieces": 4,
+                    "notes": "Opção principal em times de Fusão Reversa onde o efeito de 4p está quase sempre ativo. Pode ser ineficiente de farmar.",
+                    "icon_url": "/assets/images/artifact_sets/lavawalker.png"
+                },
+                {
+                    "set_id": "blizzard_em_2pc_mix",
+                    "set_name": "Herói Invernal (2p) + Proficiência Elemental (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de 2p são úteis e podem superar opções de 4p com melhores sub-stats.",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "blizzard_strayer",
+                        "gilded_dreams"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / Recarga de Energia (ER%) / ATK%",
+                "goblet": "Bônus de Dano Cryo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "polar_star",
+                    "name": "Estrela Invernal",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Aloy. Incorpore Ataques Normais e Mirados para se beneficiar dos buffs de ATQ.",
+                    "icon_url": "/assets/images/weapons_detail/polar_star.png"
+                },
+                {
+                    "weapon_id": "sacrificial_bow",
+                    "name": "Arco do Sacrifício",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Em refinamentos altos (R4+), permite uma segunda Habilidade Elemental, mais dano Cryo e consistência para obter Infusão Cryo. Cuida das necessidades de RE.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_bow.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Forte opção 5 estrelas de CRIT com passivas marginalmente úteis para Aloy.",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                },
+                {
+                    "weapon_id": "the_stringless",
+                    "name": "O Último Acorde (The Stringless)",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha (A SER VERIFICADO)",
+                    "notes": "Sub-status de EM e passiva que concede Bônus de Dano para Habilidade e Supremo. Escala bem com refinamentos.",
+                    "icon_url": "/assets/images/weapons_detail/the_stringless.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        },
+        {
+            "key": "aloy_support_noblesse_favonius",
+            "name": "Suporte (Ritual Real - Congelamento/Mono Cryo)",
+            "notes_build": "Funciona como bateria Cryo, buffer e DPS de troca rápida em times de Congelamento e Mono Cryo. 4p Ritual Real é o conjunto ideal para suporte.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Conjunto ideal para Aloy suporte. Fornece buff de ATQ de 20% para toda a equipe quando Aloy usa o Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Cryo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Dano CRIT",
+                "Taxa CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_warbow",
+                    "name": "Arco de Guerra de Favonius",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Reduz severamente o dano pessoal de Aloy, mas permite que ela gere Partículas Neutras para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_warbow.png"
+                },
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "A passiva geralmente ativa a cada duas rotações. Fornece buff de EM e ATQ para toda a equipe. O sub-status de RE ajuda Aloy.",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                },
+                {
+                    "weapon_id": "sacrificial_bow",
+                    "name": "Arco do Sacrifício",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Em R4+, permite segunda Habilidade, dobrando sua eficácia como bateria Cryo.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_bow.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        }
+    ]
+}

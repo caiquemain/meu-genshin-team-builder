@@ -1,0 +1,239 @@
+{
+    "id": "freminet",
+    "name": "Freminet",
+    "element": "Cryo",
+    "rarity": 4,
+    "weapon": "Claymore",
+    "role": [
+        "Physical DPS",
+        "Cryo DPS",
+        "Hyperbloom Driver"
+    ],
+    "icon_url": "/assets/images/characters/freminet.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "build_options": [
+        {
+            "key": "freminet_physical_dps_pale_flame",
+            "name": "DPS Físico (Chama Pálida)",
+            "notes_build": "Build padrão de Freminet, priorizando alcançar o Nível 4 da Pressão Destruidora tecendo Ataques Normais entre usos da Habilidade. 4p Chama Pálida é seu melhor conjunto. Requer Recarga de Energia, especialmente solo Cryo.",
+            "artifacts": [
+                {
+                    "set_id": "pale_flame",
+                    "set_name": "Chama Pálida",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto de artefatos para Freminet DPS Físico. Ele mantém facilmente o uptime total do efeito do conjunto.",
+                    "icon_url": "/assets/images/artifact_sets/pale_flame.png"
+                },
+                {
+                    "set_id": "physical_atk_2pc_mix",
+                    "set_name": "Dano Físico (2p) + ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Qualquer combinação de 2p de Dano Físico, Selo da Insulação (para RE), ATQ% ou EM performa 5-10% pior que 4p Chama Pálida, mas pode ser mais eficiente de farmar. Use como conjuntos de transição. (Ex: Chama Pálida + Cavaleiro Manchado de Sangue / Gladiador).",
+                    "icon_url": "/assets/images/artifact_sets/pale_flame.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "pale_flame",
+                        "gladiators_finale"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Físico",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ex: ~150-170% Solo Cryo com Fischl)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "skyward_pride",
+                    "name": "Orgulho Celestial",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Melhor opção para Freminet antes de C2 (já que ele não precisa de tanta RE). Seu ATQ Base, sub-status de RE, buff de DANO% e lâminas de vácuo a tornam superior.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_pride.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Em R5, é a melhor opção 4 estrelas de Freminet. Em R1, é ligeiramente melhor que suas opções F2P.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "song_of_broken_pines",
+                    "name": "Canção dos Pinhos Quebrados",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Ótima opção para Freminet se você a tiver. O buff de Velocidade de ATQ não muda seus combos dentro do estado do Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/song_of_broken_pines.png"
+                },
+                {
+                    "weapon_id": "prototype_archaic",
+                    "name": "Protótipo Arcaico",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja",
+                    "notes": "Opção F2P preferida para Freminet em ambas as builds. Refinamentos completos resultam em um pequeno aumento de dano pessoal.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_archaic.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal",
+                "Supremo (Burst) (menor prioridade)"
+            ]
+        },
+        {
+            "key": "freminet_cryo_dps_blizzard_strayer",
+            "name": "DPS Cryo (Herói Invernal)",
+            "notes_build": "Estilo de jogo que gira em torno de spammar sua Habilidade para desferir o máximo possível de instâncias de Pressão Destruidora Nível 0 dentro da duração de seu Supremo. 4p Herói Invernal é BiS. Cuidado com o overcap de Taxa CRIT.",
+            "artifacts": [
+                {
+                    "set_id": "blizzard_strayer",
+                    "set_name": "Herói Invernal",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Freminet DPS Cryo. Devido à mecânica de Estilhaçar, Freminet infelizmente não consegue ganhar os 20% de Taxa CRIT adicionais contra inimigos Congelados. Limite efetivo de Taxa CRIT em 65% (com Ressonância Cryo).",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png"
+                },
+                {
+                    "set_id": "golden_troupe",
+                    "set_name": "Trupe Dourada",
+                    "pieces": 4,
+                    "notes": "Não farme este conjunto especificamente para Freminet. Performa aproximadamente no mesmo nível que uma combinação 2p ATQ% + 2p ATQ%. Freminet não tem potencial de dano off-field.",
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
+                },
+                {
+                    "set_id": "blizzard_strayer_atk_2pc_mix",
+                    "set_name": "Herói Invernal (2p) + ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações com 2p Herói Invernal performam cerca de 7-10% pior que o conjunto de 4p. Use como transição. (Ex: Herói Invernal + Gladiador).",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "blizzard_strayer",
+                        "gladiators_finale"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Cryo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ex: ~160-175% Double Cryo)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Melhor opção para Freminet DPS Cryo em R5. Em R1, performa tão bem quanto suas opções 5 estrelas. Assumindo Areia de RE% em C0.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "skyward_pride",
+                    "name": "Orgulho Celestial",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Performa ligeiramente pior que Espinha Dorsal R5 e Túmulo do Lobo sem passiva. Permite usar Areia de ATQ% em C0.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_pride.png"
+                },
+                {
+                    "weapon_id": "wolfs_gravestone",
+                    "name": "Túmulo do Lobo",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Performa no mesmo nível que Orgulho Celestial e é uma opção melhor em C2+. Efeito passivo inconsistente.",
+                    "icon_url": "/assets/images/weapons_detail/wolfs_gravestone.png"
+                },
+                {
+                    "weapon_id": "prototype_archaic",
+                    "name": "Protótipo Arcaico",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja",
+                    "notes": "Opção F2P preferida de Freminet para ambas as builds. Refinamentos completos fornecem um aumento de dano pessoal muito pequeno.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_archaic.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal",
+                "Supremo (Burst) (menor prioridade)"
+            ]
+        },
+        {
+            "key": "freminet_hyperbloom_driver",
+            "name": "Driver de Hyperbloom",
+            "notes_build": "Freminet é um driver de Hiperflorecimento viável. Ele se beneficia da aplicação Electro do ativador de Hiperflorecimento (para Supercondutor) e pode ativar Estilhaçar graças ao personagem Hydro.",
+            "artifacts": [
+                {
+                    "set_id": "pale_flame",
+                    "set_name": "Chama Pálida",
+                    "pieces": 4,
+                    "notes": "Ainda uma boa opção para maximizar seu dano Físico pessoal enquanto ativa Hiperflorecimento.",
+                    "icon_url": "/assets/images/artifact_sets/pale_flame.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Se Freminet ativar algumas reações de Hiperflorecimento, este conjunto pode ser usado para aumentar seu dano. Requer stats de EM.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Proficiência Elemental (EM)",
+                "goblet": "Bônus de Dano Físico / Proficiência Elemental (EM)",
+                "circlet": "Taxa CRIT / Dano CRIT / Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT / Proficiência Elemental (EM)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_greatsword",
+                    "name": "Espadão de Favonius",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Não é uma boa opção para o dano pessoal de Freminet, mas sua geração de partículas ajuda a diminuir os requisitos de RE para todos na equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_greatsword.png"
+                },
+                {
+                    "weapon_id": "mailed_flower",
+                    "name": "Flor Empilhada",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Evento",
+                    "notes": "Se Freminet ativar Hiperflorecimento, este espadão de EM de evento é uma boa opção.",
+                    "icon_url": "/assets/images/weapons_detail/mailed_flower.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal",
+                "Supremo (Burst)"
+            ]
+        }
+    ]
+}

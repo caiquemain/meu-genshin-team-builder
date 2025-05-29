@@ -1,0 +1,110 @@
+[
+    {
+        "id": "traveler_geo_zhongli_xiangling_bennett_microwave",
+        "name": "Viajante (Geo) - Microwave (Zhongli, Xiangling, Bennett)",
+        "strategy": "Time de troca rápida focado na ressonância das construções Geo do Viajante e Zhongli. Bennett buffa ATQ e Xiangling adiciona dano Pyro off-field. O Viajante Geo pode usar Lançador de Trovões/Atravessador de Fogo se o Pyro for a única aura.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_geo",
+                "role_in_team": "Sub-DPS Geo (Quickswap, Construtos)",
+                "build_key": "traveler_geo_quickswap_dps_2petra_2atk_pjc"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo, RES Shred, Ressonância de Pilar)",
+                "build_key": "shielder_max_hp_utility_tenacity_favonius_or_damage"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "traveler_geo_noelle_gorou_fischl_noelle_hypercarry",
+        "name": "Viajante (Geo) - Suporte Noelle Hypercarry (Noelle, Gorou, Fischl)",
+        "strategy": "Viajante Geo atua como bateria e buffer para Noelle, que depende muito do Supremo. Gorou buffa DEF e Dano Geo. Fischl para dano Electro off-field e Cristalização.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_geo",
+                "role_in_team": "Suporte Geo (Bateria, Buffer de Taxa CRIT)",
+                "build_key": "traveler_geo_support_battery_noblesse_favonius"
+            },
+            {
+                "character_id": "noelle",
+                "role_in_team": "Main DPS Geo On-field (Supremo)",
+                "build_key": "noelle_geo_dps_husk_serpent_spine_or_whiteblind"
+            },
+            {
+                "character_id": "gorou",
+                "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
+                "build_key": "gorou_geo_buffer_exile_favonius"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Aplicadora Electro para Cristalização",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            }
+        ]
+    },
+    {
+        "id": "traveler_geo_xiao_sucrose_zhongli_xiao_support",
+        "name": "Viajante (Geo) - Suporte Xiao (Xiao, Sucrose, Zhongli)",
+        "strategy": "Excelente colega para Xiao devido à sinergia com Zhongli e sua capacidade de conter oponentes com as paredes do Supremo. Fornece Ressonância Geo, Taxa CRIT e pulsos adicionais do Pilar de Zhongli.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_geo",
+                "role_in_team": "Suporte Geo (Buffer de Taxa CRIT, Controle de Grupo Leve)",
+                "build_key": "traveler_geo_support_battery_noblesse_favonius"
+            },
+            {
+                "character_id": "xiao",
+                "role_in_team": "Main DPS Anemo (On-field Hypercarry)",
+                "build_key": "xiao_anemo_dps_vermillion_gladiator_homa_or_jade_spear"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (Bateria Anemo, TTDS Holder)",
+                "build_key": "sucrose_anemo_battery_ttds_vv_er"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity_favonius"
+            }
+        ]
+    },
+    {
+        "id": "traveler_geo_hu_tao_xingqiu_zhongli_geo_resonance_enabler",
+        "name": "Viajante (Geo) - Enabler de Ressonância Geo (Hu Tao, Xingqiu, Zhongli)",
+        "strategy": "Hu Tao se beneficia de Zhongli e só depende de Xingqiu, então o Viajante Geo pode ser adicionado para Ressonância Geo, expandindo a área dos pulsos do Pilar de Zhongli e aumentando o DPS geral da equipe.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_geo",
+                "role_in_team": "Suporte Geo (Ressonância Geo, Dano Adicional)",
+                "build_key": "traveler_geo_quickswap_dps_2petra_2atk_pjc"
+            },
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro On-field (Vaporize)",
+                "build_key": "hutao_vape_dps_crimson_shimenawa_homa"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity"
+            }
+        ]
+    }
+]

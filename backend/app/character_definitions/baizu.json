@@ -1,0 +1,181 @@
+{
+    "id": "baizhu",
+    "name": "Baizhu",
+    "element": "Dendro",
+    "rarity": 5,
+    "weapon": "Catalyst",
+    "role": [
+        "Off-Field Support (Healer, Buffer, Aplicador Dendro)",
+        "On-Field Driver"
+    ],
+    "icon_url": "/assets/images/characters/baizhu.png",
+    "element_icon_url": "/assets/images/elements/element_dendro.png",
+    "build_options": [
+        {
+            "key": "baizhu_support_healer_deepwood",
+            "name": "Suporte Healer (Memórias da Floresta)",
+            "notes_build": "Focado em cura, buff para reações Dendro e aplicação Dendro. 4p Memórias da Floresta é sua melhor opção em times de Espalhar, Florescimento, Hiperflorecimento e Germinação se nenhum outro colega de equipe puder usá-lo. Priorize alcançar os requisitos de RE e depois HP% até 50.000.",
+            "artifacts": [
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Melhor opção em times de reação Dendro se não houver outro portador. Fornece RES Shred Dendro valioso. Pode ter dificuldade em manter o efeito em área contra múltiplos inimigos.",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / HP%",
+                "goblet": "HP%",
+                "circlet": "HP% / Bônus de Cura / Taxa CRIT (para Códice de Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "HP% (até 50.000 de HP Máx para maximizar o buff A4)",
+                "HP Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "R5 é uma das melhores opções 4 estrelas, essencialmente uma versão gratuita do Esplendor de Jadefall. Sub-status de HP% e regeneração de Energia são muito apreciados.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                },
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Ajuda a reduzir os requisitos de RE de Baizhu e de sua equipe. Requer investimento em Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                },
+                {
+                    "weapon_id": "jadefalls_splendor",
+                    "name": "Esplendor de Jadefall",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Boa opção para Baizhu devido ao sub-status de HP% e regeneração de Energia. Buff de Dano% não é tão impactante. Não é uma melhoria muito significativa sobre R5 Protótipo Âmbar.",
+                    "icon_url": "/assets/images/weapons_detail/jadefalls_splendor.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Nível do Personagem para 90 (para HP Máx)",
+                "Ataque Normal (não precisa upar)"
+            ]
+        },
+        {
+            "key": "baizhu_support_healer_ocean_hued_clam",
+            "name": "Suporte Healer (Concha Tingida Pelo Mar)",
+            "notes_build": "Build generalista se outro personagem já estiver usando 4p Memórias da Floresta ou se este não for necessário. Concha Tingida Pelo Mar permite que Baizhu contribua com dano adicional através da cura.",
+            "artifacts": [
+                {
+                    "set_id": "ocean_hued_clam",
+                    "set_name": "Concha Tingida Pelo Mar",
+                    "pieces": 4,
+                    "notes": "Conjunto generalista para Baizhu, pois ele pode consistentemente causar o dano máximo da bolha com a cura de sua Habilidade e Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / HP%",
+                "goblet": "HP%",
+                "circlet": "HP% / Bônus de Cura"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "HP% (até 50.000 de HP Máx)",
+                "HP Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Excelente opção F2P que complementa bem este conjunto.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                },
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Para utilidade de energia da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Nível do Personagem para 90",
+                "Ataque Normal (não precisa upar)"
+            ]
+        },
+        {
+            "key": "baizhu_support_furina_enabler",
+            "name": "Suporte para Furina (Max HP/ER)",
+            "notes_build": "Focado em maximizar a cura para toda a equipe para acumular Fanfarra de Furina rapidamente. Protótipo Âmbar é altamente recomendado. 4p Canção dos Dias Passados pode ser uma opção para buffar o DPS principal em single-target.",
+            "artifacts": [
+                {
+                    "set_id": "song_of_days_past",
+                    "set_name": "Canção dos Dias Passados",
+                    "pieces": 4,
+                    "notes": "Conjunto de nicho que performa melhor em cenários single-target. Seu buff dura apenas 5 instâncias de dano.",
+                    "icon_url": "/assets/images/artifact_sets/song_of_days_past.png"
+                },
+                {
+                    "set_id": "ocean_hued_clam",
+                    "set_name": "Concha Tingida Pelo Mar",
+                    "pieces": 4,
+                    "notes": "Ainda uma boa opção para dano adicional e maximizar a cura.",
+                    "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / HP%",
+                "goblet": "HP%",
+                "circlet": "HP% / Bônus de Cura"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "HP% (até 50.000 de HP Máx)",
+                "HP Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "R5 é ideal para regeneração de energia e cura em área.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                },
+                {
+                    "weapon_id": "jadefalls_splendor",
+                    "name": "Esplendor de Jadefall",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Fornece muito HP e alguma regeneração de energia.",
+                    "icon_url": "/assets/images/weapons_detail/jadefalls_splendor.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Nível do Personagem para 90",
+                "Ataque Normal (não precisa upar)"
+            ]
+        }
+    ]
+}

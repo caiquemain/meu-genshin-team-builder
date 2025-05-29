@@ -1,0 +1,206 @@
+{
+    "id": "heizou",
+    "name": "Shikanoin Heizou",
+    "element": "Anemo",
+    "rarity": 4,
+    "weapon": "Catalyst",
+    "role": [
+        "Suporte de Troca Rápida (VV Holder, Buffer)",
+        "Driver On-Field (Swirl DPS - EM Build)",
+        "DPS Anemo (ADC Build com Faruzan)"
+    ],
+    "icon_url": "/assets/images/characters/heizou.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "build_options": [
+        {
+            "key": "heizou_vv_support_ttds_hakushin",
+            "name": "Suporte de Troca Rápida (Sombra Verde - TTDS/Hakushin)",
+            "notes_build": "Foco em buffar a equipe com 4p Sombra Verde e armas de suporte como Histórias Extraordinárias de Caçadores de Dragões (TTDS) ou Anel de Hakushin. Usa uma sequência rápida de ataques para ativar Redemoinhos e acumular stacks para a Habilidade.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "De longe o conjunto mais recomendado para Heizou, pois aumenta o dano de seus colegas de equipe.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / ATK% / Recarga de Energia (ER%)",
+                "goblet": "Proficiência Elemental (EM) / Bônus de Dano Anemo",
+                "circlet": "Proficiência Elemental (EM) / Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Proficiência Elemental (EM) (se driver)",
+                "Taxa CRIT / Dano CRIT (se ADC)",
+                "ATK% (se ADC)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "thrilling_tales_of_dragon_slayers",
+                    "name": "Histórias Extraordinárias de Caçadores de Dragões",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha / Baús",
+                    "notes": "Ótima opção para buffar DPS que escalam com ATQ em times com rotações fixas.",
+                    "icon_url": "/assets/images/weapons_detail/thrilling_tales_of_dragon_slayers.png"
+                },
+                {
+                    "weapon_id": "hakushin_ring",
+                    "name": "Anel de Hakushin",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja (Inazuma)",
+                    "notes": "Arma forjável fantástica para times Eletricamente Carregados, pois buffa membros da equipe Electro e Hydro.",
+                    "icon_url": "/assets/images/weapons_detail/hakushin_ring.png"
+                },
+                {
+                    "weapon_id": "sacrificial_fragments",
+                    "name": "Fragmentos do Sacrifício",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Melhor opção para build de EM (Driver). Em R3+, sua passiva permite que Heizou use sua Habilidade uma vez adicional por rotação.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_fragments.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal"
+            ]
+        },
+        {
+            "key": "heizou_onfield_driver_vv_full_em",
+            "name": "Driver On-Field (Sombra Verde - Full EM)",
+            "notes_build": "Utiliza a rápida aplicação Anemo on-field de Heizou para ativar Redemoinhos Hydro e Electro, causando dano significativo de Eletricamente Carregado. Também pode ser driver em times de Vaporizar, Agravamento ou Hiperflorecimento. Requer build full EM para dano máximo de Redemoinho. Nível 90 recomendado.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Ainda o mais recomendado para buffar o dano da equipe.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Proficiência Elemental (EM)",
+                "ATK%",
+                "Taxa CRIT / Dano CRIT"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "sacrificial_fragments",
+                    "name": "Fragmentos do Sacrifício",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Melhor opção para build de EM. Em R3+, sua passiva permite que Heizou use sua Habilidade uma vez adicional por rotação.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_fragments.png"
+                },
+                {
+                    "weapon_id": "magic_guide",
+                    "name": "Guia de Magia",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha / Baús",
+                    "notes": "Opção F2P decente em times Eletricamente Carregados devido ao seu stat de EM e efeito passivo.",
+                    "icon_url": "/assets/images/weapons_detail/magic_guide.png"
+                },
+                {
+                    "weapon_id": "mappa_mare",
+                    "name": "Mappa Mare",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Fornece menos EM que Guia de Magia, mas seu desempenho sólido em uma build ADC pode torná-lo uma arma eficiente se você quiser jogar Heizou em ambas as builds ADC e EM.",
+                    "icon_url": "/assets/images/weapons_detail/mappa_mare.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal",
+                "Supremo (Burst)"
+            ]
+        },
+        {
+            "key": "heizou_anemo_dps_adc_faruzan",
+            "name": "DPS Anemo (ADC com Faruzan - Sombra Verde)",
+            "notes_build": "Heizou como DPS Anemo de troca rápida ou on-field, geralmente com Faruzan para buffar Dano Anemo. Build ADC (ATQ%/Dano Anemo/CRIT).",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Ainda altamente recomendado pela utilidade de equipe. Segundo melhor conjunto para dano pessoal.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "anemo_atk_2pc_mix_adc",
+                    "set_name": "Dano Anemo (2p) + ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Use apenas se a equipe tiver outro portador de 4p Sombra Verde ou se Heizou for o DPS Anemo principal com Faruzan. Aumento mínimo de dano em relação a 4p Sombra Verde, mas sem utilidade de buff. (Ex: Sombra Verde + Gladiador).",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "viridescent_venerer",
+                        "gladiators_finale"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Anemo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (EM)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "skyward_atlas",
+                    "name": "Atlas Celestial",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Melhor arma para Heizou em uma build ADC.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_atlas.png"
+                },
+                {
+                    "weapon_id": "kaguras_verity",
+                    "name": "Verdade de Kagura",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Boa opção, mas obter 3 acúmulos na passiva requer no mínimo 30s de tempo de combate.",
+                    "icon_url": "/assets/images/weapons_detail/kaguras_verity.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Melhor arma 4 estrelas para Heizou. Sua passiva aleatória com baixo uptime pode resultar em bastante variação, mas em média performa muito bem.",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal",
+                "Supremo (Burst)"
+            ]
+        }
+    ]
+}

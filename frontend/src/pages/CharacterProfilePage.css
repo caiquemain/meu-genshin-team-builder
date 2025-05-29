@@ -1,0 +1,652 @@
+/* frontend/src/pages/CharacterProfilePage.css */
+
+/* Variáveis de fallback (se não definidas globalmente) */
+:root {
+    --tooltip-background: #2a2a3e;
+    --tooltip-text: #ddd;
+    --tooltip-border-color: #505068;
+    --header-text-color: #ffffff;
+    --header-text-color-secondary: #e0e0e0;
+    --text-color: #e0e0e0;
+    --text-color-secondary: #b0b0c0;
+    --text-color-hint: #888;
+    --border-color-dark: #444;
+    --border-color-medium: #555;
+    --border-color-light: #777;
+    --background-color-dark: #1e1e2e;
+    /* Fundo principal da página */
+    --card-background-light: rgba(40, 42, 54, 0.7);
+    /* Fundo para cards e seções */
+    --primary-color: #bb86fc;
+    /* Roxo como exemplo, será sobreposto por --character-accent-color */
+    --primary-color-light: #9fa6fc;
+    --warning-color: #ffcc00;
+}
+
+.character-profile-page {
+    padding: 20px 30px;
+    max-width: 1100px;
+    margin: 20px auto;
+    color: var(--text-color, #e0e0e0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background-color-dark);
+    /* Define o fundo da página inteira */
+}
+
+/* Cabeçalho Principal */
+.character-main-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--border-color-medium, #555);
+}
+
+.character-title-section {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    text-align: left;
+}
+
+.character-profile-icon-large {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid var(--character-accent-color);
+    /* Cor dinâmica */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.character-name-details h1 {
+    margin: 0 0 5px 0;
+    color: var(--header-text-color, #ffffff);
+    font-size: 2.8em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.character-title-subheader {
+    font-size: 1.2em;
+    color: var(--text-color-secondary, #b0b0c0);
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-style: italic;
+}
+
+.character-meta-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.rarity-stars-display {
+    height: 24px;
+}
+
+.character-type-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.element-icon-profile,
+.weapon-type-icon-profile {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    padding: 3px;
+}
+
+/* Menu de Acesso Rápido */
+.profile-quick-nav {
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 35px;
+    border-radius: 8px;
+    padding: 8px 0;
+    /* Padding vertical para o nav */
+    background-color: var(--card-background-light, rgba(40, 42, 54, 0.85));
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+
+.profile-quick-nav.initial-center-style {
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    /* Largura máxima para o menu centralizado */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-quick-nav.initial-center-style ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profile-quick-nav.initial-center-style li {
+    margin: 3px 5px;
+    /* Pequena margem entre os itens */
+}
+
+.profile-quick-nav.initial-center-style a {
+    padding: 8px 15px;
+    text-decoration: none;
+    color: var(--text-color-secondary, #b0b0c0);
+    font-weight: 500;
+    border-radius: 4px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    display: block;
+    white-space: nowrap;
+    /* Evita quebra de linha nos botões */
+}
+
+.profile-quick-nav.initial-center-style a:hover {
+    background-color: var(--character-accent-color);
+    color: var(--header-text-color, #ffffff);
+}
+
+.profile-quick-nav.fixed-right-style {
+    position: fixed;
+    top: 70px;
+    /* Ajuste conforme seu header fixo global, se houver */
+    right: 20px;
+    width: auto;
+    min-width: 180px;
+    /* Largura mínima para o menu lateral */
+    max-width: 220px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.profile-quick-nav.fixed-right-style ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.profile-quick-nav.fixed-right-style li {
+    width: 100%;
+    margin: 2px 0;
+}
+
+.profile-quick-nav.fixed-right-style a {
+    padding: 10px 15px;
+    /* Padding um pouco maior para toque */
+    text-decoration: none;
+    color: var(--text-color-secondary, #b0b0c0);
+    font-weight: 500;
+    border-radius: 4px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.profile-quick-nav.fixed-right-style a:hover {
+    background-color: var(--character-accent-color);
+    color: var(--header-text-color, #ffffff);
+}
+
+
+/* Estilo Geral das Seções */
+.profile-section {
+    margin-bottom: 45px;
+    padding-top: 10px;
+    /* Para que o scroll com #id não cole no topo da seção */
+}
+
+.profile-section h2.section-title-accent {
+    color: var(--header-text-color, #f0f0f0);
+    border-bottom: 2px solid var(--character-accent-color);
+    padding-bottom: 12px;
+    margin-bottom: 25px;
+    font-size: 1.9em;
+    font-weight: 600;
+}
+
+/* Informações Gerais */
+#general-info-section .character-bio {
+    margin-bottom: 25px;
+    line-height: 1.7;
+    font-size: 1.05em;
+    color: var(--text-color-secondary, #c0c5d1);
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.general-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+}
+
+.general-info-grid p {
+    margin: 0;
+    background-color: var(--card-background-light, rgba(255, 255, 255, 0.04));
+    padding: 12px 15px;
+    border-radius: 4px;
+    font-size: 0.95em;
+}
+
+.general-info-grid p strong {
+    color: var(--character-accent-color);
+    margin-right: 8px;
+}
+
+.item-icon-inline.small-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-left: 8px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+/* Talentos e Constelações (Estilos Compartilhados) */
+.talent-block,
+.constellation-item {
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    background-color: var(--card-background-light, rgba(255, 255, 255, 0.04));
+    border-radius: 6px;
+}
+
+.talent-block.accent-border-left,
+.constellation-item.accent-border-left-light {
+    /* Usando a mesma classe para consistência */
+    border-left: 4px solid var(--character-accent-color);
+}
+
+.talent-block.passive-talent.accent-border-left-light {
+    border-left: 3px solid var(--character-accent-color);
+    opacity: 0.9;
+    /* Passivas um pouco mais sutis */
+}
+
+.talent-header,
+.constellation-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.talent-icon,
+.constellation-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 3px;
+    border: 1px solid var(--character-accent-color);
+    object-fit: contain;
+}
+
+.talent-icon.small-icon {
+    /* Para ícones de passivas */
+    width: 44px;
+    height: 44px;
+}
+
+.constellation-icon {
+    border-radius: 50%;
+    /* Constelações geralmente são redondas */
+}
+
+.talent-block h3 {
+    /* Nome do Talento Ativo */
+    margin: 0;
+    color: var(--header-text-color-secondary, #e0e0e0);
+    font-size: 1.4em;
+}
+
+.passive-talent h5,
+.constellation-item strong {
+    /* Nome da Passiva, Nome da Constelação */
+    margin: 0;
+    font-size: 1.2em;
+    color: var(--header-text-color-secondary, #e0e0e0);
+}
+
+.constellation-item strong {
+    color: var(--primary-color-light);
+    /* Destaque para nome da constelação */
+}
+
+.passive-type {
+    font-size: 0.85em;
+    font-style: italic;
+    color: var(--text-color-hint, #a0a0a0);
+    margin-left: 5px;
+}
+
+.talent-description,
+.constellation-description {
+    font-size: 0.95em;
+    line-height: 1.65;
+    color: var(--text-color-secondary, #c0c5d1);
+    white-space: pre-wrap;
+}
+
+.passives-block {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px dashed var(--border-color-dark, #555);
+}
+
+.passives-block h4.column-title-accent,
+/* Título "Talentos Passivos" */
+.build-column h4.column-title-accent,
+/* Títulos "Artefatos", "Armas", etc. */
+.substats-priority h4.column-title-accent,
+.talent-priority h4.column-title-accent {
+    font-size: 1.25em;
+    color: var(--character-accent-color);
+    /* Cor de destaque para subtítulos */
+    border-left: 3px solid var(--character-accent-color);
+    padding-left: 10px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    /* Resetar margem do topo para H4 */
+}
+
+.constellations-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Uma coluna para constelações, ou mude para repeat(auto-fit, minmax(300px, 1fr)) */
+    gap: 15px;
+}
+
+
+/* Seção de Builds (Estilos já definidos anteriormente, revisados para consistência) */
+.build-option-container {
+    background-color: var(--card-background-light, rgba(255, 255, 255, 0.05));
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border: 1px solid var(--border-color-dark, #444);
+}
+
+.build-option-container h3.build-title-accent {
+    color: var(--character-accent-color);
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed var(--character-accent-color);
+}
+
+.build-notes-full.accent-border-left {
+    font-style: italic;
+    color: #b0b0b0;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-left: 3px solid var(--character-accent-color);
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 0 4px 4px 0;
+}
+
+.build-columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.build-column {
+    flex: 1;
+    min-width: 280px;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.artifact-set-item,
+.weapon-option-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+    position: relative;
+    /* Para tooltip-wrapper, se ele for este elemento */
+}
+
+.item-icon-medium {
+    width: 52px;
+    height: 52px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.05);
+    object-fit: contain;
+    border: 1px solid var(--border-color-dark);
+}
+
+.artifact-set-item strong,
+.weapon-option-item strong {
+    color: var(--header-text-color-secondary, #e8e8e8);
+    font-size: 1.05em;
+    display: block;
+    /* Para notas e categoria ficarem abaixo */
+    margin-bottom: 3px;
+}
+
+.item-notes,
+.item-category {
+    font-size: 0.85em;
+    color: var(--text-color-hint, #a0a0a0);
+    margin-top: 3px;
+}
+
+.main-stats-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.main-stats-list li,
+.substats-priority ol li,
+.talent-priority ol li {
+    margin-bottom: 8px;
+    font-size: 0.95em;
+    color: var(--text-color-secondary);
+}
+
+.main-stats-list li strong {
+    color: var(--text-color-emphasis, #c8c8d1);
+}
+
+.substats-talents-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.substats-priority,
+.talent-priority {
+    flex: 1;
+    min-width: 250px;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+
+.substats-priority ol,
+.talent-priority ol {
+    padding-left: 20px;
+    /* Para indentar os números da lista */
+}
+
+/* Times Sugeridos (Estilos da resposta anterior) */
+.suggested-teams-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.suggested-team-profile-card {
+    background-color: var(--card-background-light, rgba(255, 255, 255, 0.07));
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color-dark, #444);
+    display: flex;
+    flex-direction: column;
+}
+
+.suggested-team-profile-card.accent-border-left {
+    border-left: 4px solid var(--character-accent-color);
+}
+
+.suggested-team-profile-card h4 {
+    margin-top: 0;
+    color: var(--header-text-color-secondary, #e0e0e0);
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.suggested-team-profile-card .team-notes {
+    font-size: 0.9em;
+    color: var(--text-color-secondary, #aaa);
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+
+.team-characters-profile {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.team-member-profile {
+    text-align: center;
+}
+
+.team-member-icon-small {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid var(--border-color-dark, #555);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.view-team-detail-link.button-accent {
+    display: block;
+    margin-top: auto;
+    padding: 8px 12px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.9em;
+    /* Estilos de .button-accent já devem ser aplicados */
+}
+
+
+/* Tooltips - Lógica de Hover */
+.tooltip-container-hover {
+    position: relative;
+    display: inline-flex;
+    /* Ajustado para se adequar ao conteúdo que dispara o tooltip */
+    vertical-align: middle;
+    /* Alinha melhor com texto adjacente se for o caso */
+}
+
+.tooltip-container-hover .artifact-tooltip-content,
+.tooltip-container-hover .weapon-tooltip-content {
+    display: none;
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    /* Centraliza o tooltip */
+    background-color: var(--tooltip-background, #212333);
+    color: var(--tooltip-text, #d0d8e8);
+    border: 1px solid var(--tooltip-border-color, #40455f);
+    border-radius: 6px;
+    padding: 10px 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    z-index: 10000;
+    /* Z-index alto para garantir que fique sobreposto */
+    width: auto;
+    min-width: 280px;
+    max-width: 380px;
+    font-size: 0.875em;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+}
+
+.tooltip-container-hover:hover .artifact-tooltip-content,
+.tooltip-container-hover:hover .weapon-tooltip-content {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.tooltip-container-hover .artifact-tooltip-content::after,
+.tooltip-container-hover .weapon-tooltip-content::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: var(--tooltip-background, #212333) transparent transparent transparent;
+}
+
+/* Mensagens e Links Genéricos */
+.loading-message,
+.error-message-container,
+.info-message {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+.error-message {
+    color: #ff6b6b;
+}
+
+.small-error-message {
+    font-size: 0.9em;
+    color: var(--warning-color, #ffcc00);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.button-accent {
+    background-color: var(--character-accent-color);
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: filter 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.button-accent:hover {
+    filter: brightness(0.9);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-link-profile.button-accent {
+    margin-top: 30px;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}

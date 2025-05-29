@@ -1,0 +1,141 @@
+{
+    "id": "navia",
+    "name": "Navia",
+    "element": "Geo",
+    "rarity": 5,
+    "weapon": "Claymore",
+    "role": [
+        "On-Field DPS",
+        "Quickswap DPS"
+    ],
+    "icon_url": "/assets/images/characters/navia.png",
+    "element_icon_url": "/assets/images/elements/element_geo.png",
+    "build_options": [
+        {
+            "key": "navia_onfield_dps_nighttime_whispers",
+            "name": "DPS On-field (Sussurros Noturnos na Floresta Ecoante)",
+            "notes_build": "Principal estilo de jogo da Navia, focada no dano explosivo de sua Habilidade Elemental fortalecida por Fragmentos de Estilhaços de Cristal.  4p Sussurros Noturnos é seu melhor conjunto.  ATQ% e Dano Geo são prioridade. ",
+            "artifacts": [
+                {
+                    "set_id": "nighttime_whispers_in_the_echoing_woods",
+                    "set_name": "Sussurros Noturnos na Floresta Ecoante",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto de artefatos para Navia, fornecendo ATQ% e Bônus de Dano Geo.  O efeito pode ser perdido se o escudo de Cristalização quebrar, mas ainda é o melhor. ",
+                    "icon_url": "/assets/images/artifact_sets/nighttime_whispers_in_the_echoing_woods.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (se necessário)",
+                "goblet": "Bônus de Dano Geo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "verdict",
+                    "name": "Veredito (Verdict)",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Arma assinatura da Navia, fornece ATQ% e Dano da Habilidade Elemental. ",
+                    "icon_url": "/assets/images/weapons_detail/verdict.png"
+                },
+                {
+                    "weapon_id": "a_thousand_blazing_suns",
+                    "name": "Mil Sóis Flamejantes",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (A SER VERIFICADO)",
+                    "notes": "Opção muito forte que performa similar à assinatura se a passiva tiver bom uptime. ",
+                    "icon_url": "/assets/images/weapons_detail/a_thousand_blazing_suns.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Excelente escolha, fornece muito Bônus de Dano. Compete com opções 5 estrelas em refinamentos baixos e pode superar Veredito em R5. ",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "beacon_of_the_reed_sea",
+                    "name": "Sinal dos Mares de Juncos",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Excelente opção devido ao seu sub-status de Taxa CRIT e passiva de ATQ%, mesmo que parte da passiva seja inútil para Navia. ",
+                    "icon_url": "/assets/images/weapons_detail/beacon_of_the_reed_sea.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal",
+                "Supremo (Burst)"
+            ]
+        },
+        {
+            "key": "navia_onfield_dps_marechaussee_furina",
+            "name": "DPS On-field com Furina (Caçador das Sombras)",
+            "notes_build": "Opção forte se Navia puder aproveitar o efeito de 4p Caçador das Sombras, o que atualmente só é possível com Furina.  Navia geralmente tem 0-1 acúmulos na primeira Habilidade Elemental. ",
+            "artifacts": [
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras",
+                    "pieces": 4,
+                    "notes": "Forte opção se Navia puder ativar confiavelmente o efeito de 4 peças (com Furina). ",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia",
+                "goblet": "Bônus de Dano Geo",
+                "circlet": "Dano CRIT (devido à alta Taxa CRIT do conjunto) / Taxa CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até o requisito)",
+                "Dano CRIT",
+                "Taxa CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "verdict",
+                    "name": "Veredito (Verdict)",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Arma assinatura. ",
+                    "icon_url": "/assets/images/weapons_detail/verdict.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Excelente escolha. ",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "tidal_shadow",
+                    "name": "Sombra da Maré (Tidal Shadow)",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja (A SER VERIFICADO)",
+                    "notes": "Melhor opção de forja se conseguir ativar a passiva consistentemente (times com Furina). ",
+                    "icon_url": "/assets/images/weapons_detail/tidal_shadow.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal",
+                "Supremo (Burst)"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+[
+    {
+        "id": "ayaka_shenhe_kokomi_kazuha_premium_freeze",
+        "name": "Ayaka - Congelamento Premium (Shenhe, Kokomi, Kazuha - 神鹤万心)",
+        "strategy": "Time de Congelamento de alto investimento e um dos mais fortes para Ayaka. Shenhe buffa massivamente o dano Cryo, Kokomi aplica Hydro e cura (podendo usar TTDS e Tenacidade), Kazuha agrupa e buffa com VV. ",
+        "characters_in_team": [
+            {
+                "character_id": "ayaka",
+                "role_in_team": "Main DPS Cryo (On-field)",
+                "build_key": "ayaka_freeze_dps_blizzard_mistsplitter"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer de Dano Cryo)",
+                "build_key": "shenhe_cryo_buffer_noblesse_calamityqueller_or_favonius"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Aplicadora Hydro Off-field (Hydro Enabler, TTDS/Tenacity Holder)",
+                "build_key": "kokomi_healer_tenacity_ttds_prototype_amber"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "ayaka_rosaria_kokomi_kazuha_freeze_variant",
+        "name": "Ayaka - Congelamento (Rosaria, Kokomi, Kazuha - 神罗万心)",
+        "strategy": "Variante forte de Congelamento, usando Rosaria como bateria Cryo, buffer de Taxa CRIT e sub-DPS no lugar de Shenhe. Kokomi e Kazuha mantêm seus papéis de aplicadora Hydro/cura e buffer Anemo/agrupamento.",
+        "characters_in_team": [
+            {
+                "character_id": "ayaka",
+                "role_in_team": "Main DPS Cryo (On-field)",
+                "build_key": "ayaka_freeze_dps_blizzard_mistsplitter"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo / Bateria / Buffer de Taxa CRIT",
+                "build_key": "rosaria_cryo_subdps_noblesse_favonius"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Aplicadora Hydro Off-field",
+                "build_key": "kokomi_healer_tenacity_ttds_prototype_amber"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "ayaka_diona_mona_venti_classic_freeze",
+        "name": "Ayaka - Congelamento Clássico (Diona, Mona, Venti - 莫神娜温)",
+        "strategy": "Time de Congelamento mais antigo e acessível. Diona fornece escudo, cura e partículas Cryo. Mona aplica Hydro e buffa com seu Supremo (Omen). Venti agrupa inimigos para o Supremo de Ayaka.",
+        "characters_in_team": [
+            {
+                "character_id": "ayaka",
+                "role_in_team": "Main DPS Cryo (On-field)",
+                "build_key": "ayaka_freeze_dps_blizzard_f2p_weapon"
+            },
+            {
+                "character_id": "diona",
+                "role_in_team": "Escudeira / Healer / Bateria Cryo",
+                "build_key": "diona_shielder_healer_noblesse_sacrificial_bow"
+            },
+            {
+                "character_id": "mona",
+                "role_in_team": "Suporte Hydro (Buffer de Dano Omen, Aplicadora Hydro, TTDS Holder)",
+                "build_key": "mona_support_noblesse_ttds_er"
+            },
+            {
+                "character_id": "venti",
+                "role_in_team": "Suporte Anemo (Agrupamento, Bateria, VV RES Shred Cryo)",
+                "build_key": "venti_anemo_support_vv_stringless_elegy"
+            }
+        ]
+    },
+    {
+        "id": "ayaka_shenhe_diona_kazuha_mono_cryo",
+        "name": "Ayaka - Mono Cryo (Shenhe, Diona, Kazuha)",
+        "strategy": "Time Mono Cryo focado em dano Cryo bruto, ideal contra inimigos não congeláveis. Shenhe buffa dano Cryo, Diona fornece escudo/cura/partículas, e Kazuha agrupa e buffa/aplica VV Shred.",
+        "characters_in_team": [
+            {
+                "character_id": "ayaka",
+                "role_in_team": "Main DPS Cryo (On-field)",
+                "build_key": "ayaka_mono_cryo_dps_blizzard_strayer"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer de Dano Cryo)",
+                "build_key": "shenhe_cryo_buffer_noblesse_calamityqueller_or_favonius"
+            },
+            {
+                "character_id": "diona",
+                "role_in_team": "Escudeira / Healer / Bateria Cryo",
+                "build_key": "diona_shielder_healer_noblesse_sacrificial_bow"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "ayaka_shenhe_bennett_kazuha_mono_cryo_variant",
+        "name": "Ayaka - Mono Cryo com Bennett (Shenhe, Bennett, Kazuha)",
+        "strategy": "Variante de Mono Cryo que utiliza Bennett para um buff de ATQ massivo, focando em maximizar o dano pessoal de Ayaka. Kazuha e Shenhe complementam com buffs e RES Shred.",
+        "characters_in_team": [
+            {
+                "character_id": "ayaka",
+                "role_in_team": "Main DPS Cryo (On-field)",
+                "build_key": "ayaka_mono_cryo_dps_blizzard_strayer"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer de Dano Cryo)",
+                "build_key": "shenhe_cryo_buffer_noblesse_calamityqueller_or_favonius"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    }
+]

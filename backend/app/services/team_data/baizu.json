@@ -1,0 +1,137 @@
+[
+    {
+        "id": "baizhu_raiden_yae_miko_kazuha_aggravate",
+        "name": "Baizhu - Aggravate (Raiden, Yae Miko, Kazuha)",
+        "strategy": "Raiden e Yae Miko formam um núcleo de Agravamento potente. Kazuha fornece buffs de Dano Electro e RES Shred. Baizhu oferece resistência à interrupção, cura e buffs de Agravamento com sua passiva A4.",
+        "characters_in_team": [
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Suporte Dendro (Healer, Buffer de Agravamento, Aplicador Dendro)",
+                "build_key": "baizhu_support_healer_deepwood"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Main DPS Electro (Burst On-field) / Bateria",
+                "build_key": "raiden_main_dps_emblem_engulfing_or_thecatch"
+            },
+            {
+                "character_id": "yae_miko",
+                "role_in_team": "Sub-DPS Electro Off-field",
+                "build_key": "yae_miko_offfield_dps_golden_troupe_aggravate"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "baizhu_raiden_yelan_nahida_hyperbloom",
+        "name": "Baizhu - Hyperbloom (Raiden, Yelan, Nahida)",
+        "strategy": "Time de Hiperflorecimento com Raiden como ativadora off-field ou on-field. Baizhu e Nahida fornecem aplicação Dendro, cura e buffs. Yelan para dano Hydro e aplicação.",
+        "characters_in_team": [
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Suporte Dendro (Healer, Aplicador Dendro Secundário)",
+                "build_key": "baizhu_support_healer_deepwood"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Ativadora de Hyperbloom (Full EM Off-field) / DPS On-field",
+                "build_key": "raiden_hyperbloom_trigger_full_em_dragons_bane_or_moonpiercer"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_favonius_or_elegy"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Principal / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood_or_gilded_dreams"
+            }
+        ]
+    },
+    {
+        "id": "baizhu_thoma_yelan_furina_burgeon_driver",
+        "name": "Baizhu - Burgeon Driver (Thoma, Yelan, Furina)",
+        "strategy": "Time de Germinação de alto desempenho com Baizhu como driver on-field. Yelan e Furina fornecem aplicação Hydro. Thoma (full EM) ativa Germinação. Cura de Baizhu é essencial para Furina.",
+        "characters_in_team": [
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Driver Dendro On-field / Healer",
+                "build_key": "baizhu_onfield_driver_favonius_codex"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Ativador de Germinação (Full EM) / Escudeiro",
+                "build_key": "thoma_burgeon_full_em_kitain_or_dragons_bane"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_favonius_or_elegy"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            }
+        ]
+    },
+    {
+        "id": "baizhu_nilou_nahida_neuvillette_nilou_bloom",
+        "name": "Baizhu - Nilou Bloom (Nilou, Nahida, Neuvillette)",
+        "strategy": "Time de Florescimento Abundante com Neuvillette, onde Baizhu fornece sustentação e buffs. Nahida para aplicação Dendro e EM. Nilou para Florescimento Abundante.",
+        "characters_in_team": [
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Healer / Aplicador Dendro / Buffer de Reação",
+                "build_key": "baizhu_support_healer_deepwood"
+            },
+            {
+                "character_id": "nilou",
+                "role_in_team": "Ativadora de Florescimento Abundante / Aplicadora Hydro",
+                "build_key": "nilou_bloom_hp_keyofkhajnisut"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Principal / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood_or_gilded_dreams"
+            },
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro On-field / Ativador de Bloom",
+                "build_key": "neuvillette_hydro_dps_marechaussee_prototype_amber_for_healing"
+            }
+        ]
+    },
+    {
+        "id": "baizhu_furina_kazuha_neuvillette_flex_healer",
+        "name": "Baizhu - Flex Healer (Furina, Kazuha, Neuvillette)",
+        "strategy": "Time hypercarry Neuvillette onde Baizhu atua como healer principal para maximizar os buffs de Furina e fornecer resistência à interrupção para Neuvillette C0. Kazuha buffa Dano Hydro.",
+        "characters_in_team": [
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Healer de Equipe / Suporte Dendro (para stacks de Neuvillette)",
+                "build_key": "baizhu_support_furina_enabler_prototype_amber"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Hydro, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro (On-field Hypercarry)",
+                "build_key": "neuvillette_hydro_dps_marechaussee_tome_of_eternal_flow"
+            }
+        ]
+    }
+]

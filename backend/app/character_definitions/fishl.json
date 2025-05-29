@@ -1,0 +1,153 @@
+{
+    "id": "fischl",
+    "name": "Fischl",
+    "element": "Electro",
+    "rarity": 4,
+    "weapon": "Bow",
+    "role": [
+        "Off-Field DPS",
+        "Bateria Electro",
+        "Aplicadora Electro",
+        "On-Field DPS (Menos comum)"
+    ],
+    "icon_url": "/assets/images/characters/fischl.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "build_options": [
+        {
+            "key": "fischl_offfield_dps_golden_troupe",
+            "name": "DPS Off-field (Trupe Dourada)",
+            "notes_build": "Foco em maximizar o dano de Oz enquanto Fischl está fora de campo. 4p Trupe Dourada é seu melhor conjunto na maioria dos times. Requisitos de RE são geralmente baixos, especialmente em times com outro Electro. Nível 90 é um aumento significativo em times de Agravamento.",
+            "artifacts": [
+                {
+                    "set_id": "golden_troupe",
+                    "set_name": "Trupe Dourada",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Fischl na maioria dos times, fornecendo 70% de Bônus de DANO de Habilidade quando fora de campo (aplica-se a Oz, sua Passiva A4 e C6). [cite: 7950]",
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
+                },
+                {
+                    "set_id": "thundering_fury_atk_2pc_mix",
+                    "set_name": "Trovão Furioso (2p) + ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de 2p que aumentam o dano de Fischl são bem-vindas e frequentemente ótimas para jogadores sem artefatos Trupe Dourada utilizáveis. (Ex: Trovão Furioso + Gladiador/Reminiscência). [cite: 7953]",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "thundering_fury",
+                        "gladiators_finale"
+                    ]
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Opção forte para Fischl em times Dendro (Agravamento). Buff requer ativar uma reação. Agravamento é calculado dinamicamente, então Fischl sempre se beneficia do bônus de EM. [cite: 7962]",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Proficiência Elemental (EM em times de Agravamento)",
+                "goblet": "Bônus de Dano Electro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, geralmente baixo ~100-140%)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK% / Proficiência Elemental (EM em times de Agravamento)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "polar_star",
+                    "name": "Estrela Invernal",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Fischl off-field, fornece Taxa CRIT e bônus incondicionais de DANO de Habilidade e Supremo. É melhor dar um Ataque Normal antes de invocar Oz para acumular um stack extra do buff de ATQ. [cite: 7974, 7975]",
+                    "icon_url": "/assets/images/weapons_detail/polar_star.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Fornece um grande sub-status de Dano CRIT e uma ótima passiva de DANO% que pode ser mantida ficando perto dos inimigos. [cite: 7981]",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                },
+                {
+                    "weapon_id": "the_stringless",
+                    "name": "O Último Acorde",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Arco 4 estrelas mais forte para Fischl de Agravamento devido aos seus bons stats e excelente passiva, que aumenta o DANO de Habilidade e Supremo. [cite: 8002]",
+                    "icon_url": "/assets/images/weapons_detail/the_stringless.png"
+                },
+                {
+                    "weapon_id": "alley_hunter",
+                    "name": "Caçador do Beco (Alley Hunter)",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado) (A SER VERIFICADO)",
+                    "notes": "Opção 4 estrelas forte com uma passiva que oferece uma grande quantidade de DANO%. A passiva é acumulada estando fora de campo, o que sinergiza bem com o estilo de jogo off-field de Fischl. [cite: 8000, 8001]",
+                    "icon_url": "/assets/images/weapons_detail/alley_hunter.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (baixa prioridade para off-field)"
+            ]
+        },
+        {
+            "key": "fischl_support_tenacity_favonius",
+            "name": "Suporte (Tenacidade dos Millelith - Favonius)",
+            "notes_build": "Fischl como suporte, fornecendo buff de ATQ para a equipe com 4p Tenacidade dos Millelith (Oz mantém o buff ativo) e gerando partículas com Arco de Guerra de Favonius.",
+            "artifacts": [
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Embora o efeito de 2p seja inútil para Fischl, ela é boa em ativar o efeito de 4p, que fornece um buff decente de ATQ% para toda a equipe. Fischl pode manter praticamente 100% de uptime graças a Oz. [cite: 7964, 8045]",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Electro",
+                "circlet": "Taxa CRIT (para Favonius) / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT (para Arco de Favonius)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_warbow",
+                    "name": "Arco de Guerra de Favonius",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha / Missão",
+                    "notes": "Embora não forneça nada para o dano pessoal de Fischl, sua geração de partículas de Energia reduz as necessidades de RE de seus colegas de equipe. [cite: 8019]",
+                    "icon_url": "/assets/images/weapons_detail/favonius_warbow.png"
+                },
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Permite que Fischl buffe sua equipe com 20% de ATQ e 100 de EM substanciais, mas isso vem ao custo de diminuir seu significativo dano pessoal. [cite: 7989]",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        }
+    ]
+}

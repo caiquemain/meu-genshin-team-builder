@@ -1,0 +1,359 @@
+{
+    "id": "hu_tao",
+    "name": "Hu Tao",
+    "title": "Fragrance in Thaw",
+    "element": "Pyro",
+    "rarity": 5,
+    "weapon": "Polearm",
+    "model_type": "Medium Female",
+    "role": [
+        "On-Field DPS"
+    ],
+    "description_bio": "Hu Tao é a 77ª Diretora da Funerária Wangsheng. Apesar de suas excentricidades e travessuras, ela trata as operações da funerária com a máxima importância e realiza cerimônias fúnebres com a mais alta dignidade e solenidade. [cite: 387, 388]",
+    "birthday": "15 de Julho",
+    "constellation_name_official": "Papilio Charontis",
+    "region": "Liyue",
+    "affiliation": [
+        "Funerária Wangsheng"
+    ],
+    "special_dish": {
+        "name": "Marcha Fantasmagórica",
+        "icon_url": "/assets/images/dishes/hutao_ghostly_march.png"
+    },
+    "namecard_url": "/assets/images/namecards/hutao_spirit_soother.png",
+    "icon_url": "/assets/images/characters/hu_tao.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "build_options": [
+        {
+            "key": "vaporize_charged_attack_dps",
+            "name": "DPS Vaporizar (Ataque Carregado)",
+            "notes_build": "Estilo de jogo principal de Hu Tao, focado em Vaporizar seus Ataques Carregados durante o estado Paramita Papilio de sua Habilidade Elemental[cite: 2]. C1 melhora significativamente o conforto e o potencial de dano[cite: 20, 28].",
+            "artifacts": [
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "set_name": "Bruxa das Chamas Carmesim",
+                    "pieces": 4,
+                    "notes": "Muito forte para Hu Tao, mesmo que ela não consiga mais de um acúmulo do efeito de 4p[cite: 149]. Beneficia todos os seus efeitos e escala bem com buffs de EM[cite: 150].",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                },
+                {
+                    "set_id": "shimenawas_reminiscence",
+                    "set_name": "Reminiscência Nostálgica",
+                    "pieces": 4,
+                    "notes": "Fornece maior dano nos Ataques Normais e Carregados que 4p Bruxa, mas reduz significativamente a frequência com que ela pode usar o Supremo devido ao dreno de Energia[cite: 151, 152].",
+                    "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Geralmente performa um pouco pior que 4p Bruxa; no entanto, é próximo o suficiente para que sub-stats sejam o fator decisivo, especialmente se as condições do efeito de 4p forem atendidas para maximizar o buff de EM[cite: 155, 156, 157].",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) ou HP%",
+                "goblet": "Bônus de Dano Pyro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Proficiência Elemental (EM) até ~100-150 (considerando buffs) [cite: 136, 137]",
+                "Taxa CRIT / Dano CRIT (visar 1:2)",
+                "Proficiência Elemental (EM) até 200-300 [cite: 136]",
+                "HP%",
+                "ATK% (baixa prioridade)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "staff_of_homa",
+                    "name": "Báculo de Homa",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma incontestável para Hu Tao. Maximiza o valor que ela obtém de sua passiva de HP% e HP baixo[cite: 167, 168].",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_homa.png"
+                },
+                {
+                    "weapon_id": "staff_of_the_scarlet_sands",
+                    "name": "Báculo das Areias Escarlates",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Conversão de EM para ATQ e alta Taxa CRIT a tornam potente, particularmente em builds com alta EM[cite: 169].",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_the_scarlet_sands.png"
+                },
+                {
+                    "weapon_id": "ballad_of_the_fjords",
+                    "name": "Balada dos Fiordes",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Passe de Batalha",
+                    "notes": "Muito competitiva em R1, e entre as melhores armas de Hu Tao em R5 com passiva ativa (3 elementos diferentes na equipe)[cite: 171, 172].",
+                    "icon_url": "/assets/images/weapons_detail/ballad_of_the_fjords.png"
+                },
+                {
+                    "weapon_id": "dragons_bane",
+                    "name": "Perdição do Dragão",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Passiva forte e EM substancial a tornam uma opção muito forte. Escala bem com refinos, R5 é altamente competitiva[cite: 173, 174].",
+                    "icon_url": "/assets/images/weapons_detail/dragons_bane.png"
+                },
+                {
+                    "weapon_id": "white_tassel",
+                    "name": "Borla Branca",
+                    "rarity": 3,
+                    "type": "Polearm",
+                    "category": "Baús (Liyue)",
+                    "notes": "R5 é a melhor opção F2P se você não tiver Lança do Vento Trocante. Performa melhor com combos N2C[cite: 185, 186].",
+                    "icon_url": "/assets/images/weapons_detail/white_tassel.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal (para Ataques Carregados) [cite: 54]",
+                "Habilidade Elemental (Skill) [cite: 54]",
+                "Supremo (Burst) [cite: 54]"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 1211,
+            "base_atk": 8,
+            "base_def": 68,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4179,
+            "base_atk": 29,
+            "base_def": 235,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 6990,
+            "base_atk": 48,
+            "base_def": 394,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "9.6%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 9026,
+            "base_atk": 62,
+            "base_def": 508,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "19.2%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 10826,
+            "base_atk": 74,
+            "base_def": 610,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "19.2%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 12637,
+            "base_atk": 86,
+            "base_def": 712,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "28.8%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 15552,
+            "base_atk": 106,
+            "base_def": 876,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "38.4%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Jade Juvenil",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/juvenile_jade.webp"
+        },
+        {
+            "name": "Lasca de Ágata Agnidus",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/agnidus_agate_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_chunk.webp"
+        },
+        {
+            "name": "Gema de Ágata Agnidus",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/agnidus_agate_gemstone.webp"
+        },
+        {
+            "name": "Flor de Seda",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/silk_flower.webp"
+        },
+        {
+            "name": "Néctar de Megaflora",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/whopperflower_nectar.webp"
+        },
+        {
+            "name": "Néctar Brilhante",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/shimmering_nectar.webp"
+        },
+        {
+            "name": "Néctar de Energia",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/energy_nectar.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Lança Secreta de Wangsheng",
+            "icon_url": "/assets/images/talents/hutao/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 6 golpes rápidos de lança.\nAtaque Carregado: Consome uma certa quantidade de Stamina para avançar, causando dano aos inimigos no caminho.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando inimigos ao longo do caminho e causando Dano em AdE no impacto. [cite: 390, 391, 392]"
+        },
+        "elemental_skill": {
+            "name": "Guia para o Além",
+            "icon_url": "/assets/images/talents/hutao/talent_elemental_skill.webp",
+            "description": "Hu Tao consome uma porção de seu HP para repelir inimigos próximos e entrar no estado Paramita Papilio.\nParamita Papilio: Aumenta o ATQ de Hu Tao com base em seu HP Máx no momento de entrar neste estado. O Bônus de ATQ ganho desta forma não pode exceder 400% do ATQ Base de Hu Tao. Converte o DANO de ataque em Dano Pyro, que não pode ser substituído por nenhuma outra infusão elemental. Ataques Carregados aplicam o efeito Flor de Ameixa Sangrenta nos inimigos atingidos. Aumenta a resistência à interrupção de Hu Tao.\nFlor de Ameixa Sangrenta: Inimigos afetados por Flor de Ameixa Sangrenta sofrem Dano Pyro a cada 4s. Este DANO é considerado Dano de Habilidade Elemental. Cada inimigo pode ser afetado por apenas um efeito Flor de Ameixa Sangrenta por vez, e sua duração só pode ser atualizada pela própria Hu Tao.\nParamita Papilio termina quando sua duração acaba, ou Hu Tao deixa o campo de batalha ou cai. [cite: 394, 395, 396, 397, 398, 399, 400, 401]"
+        },
+        "elemental_burst": {
+            "name": "Pacificadora de Espíritos",
+            "icon_url": "/assets/images/talents/hutao/talent_elemental_burst.webp",
+            "description": "Comanda um espírito flamejante para atacar, causando Dano Pyro em uma grande AdE.\nAo atingir o inimigo, regenera uma porcentagem do HP Máx de Hu Tao. Este efeito pode ser ativado até 5 vezes, com base no número de inimigos atingidos.\nSe o HP de Hu Tao for igual ou inferior a 50% quando o inimigo é atingido, tanto o DANO quanto a Regeneração de HP são aumentados. [cite: 402, 403, 404, 405]"
+        },
+        "passives": [
+            {
+                "name": "Borboleta Agitadora",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/hutao/talent_passive_a1.webp",
+                "description": "Quando um estado Paramita Papilio ativado por Guia para o Além termina, todos os aliados na equipe (excluindo a própria Hu Tao) terão sua Taxa CRIT aumentada em 12% por 8s. [cite: 406]"
+            },
+            {
+                "name": "Sangue Fervente",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/hutao/talent_passive_a4.webp",
+                "description": "Quando o HP de Hu Tao é igual ou inferior a 50%, seu Bônus de Dano Pyro é aumentado em 33%. [cite: 407]"
+            },
+            {
+                "name": "Quanto Mais, Melhor",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/hutao/talent_passive_utility.webp",
+                "description": "Quando Hu Tao cozinha um prato perfeitamente, ela tem 18% de chance de receber um prato \"Suspeito\" adicional do mesmo tipo. [cite: 408]"
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Néctar de Megaflora",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/whopperflower_nectar.webp"
+        },
+        {
+            "name": "Néctar Brilhante",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/shimmering_nectar.webp"
+        },
+        {
+            "name": "Néctar de Energia",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/energy_nectar.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Diligência\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_diligence.webp"
+        },
+        {
+            "name": "Guia da \"Diligência\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_diligence.webp"
+        },
+        {
+            "name": "Filosofia da \"Diligência\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_diligence.webp"
+        },
+        {
+            "name": "Fragmento de um Legado Sujo",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/shard_of_a_foul_legacy.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Buquê Carmesim",
+            "icon_url": "/assets/images/constellations/hutao/constellation_1.webp",
+            "description": "Enquanto estiver em um estado Paramita Papilio ativado por Guia para o Além, os Ataques Carregados de Hu Tao não consomem Stamina. [cite: 126]"
+        },
+        {
+            "level": 2,
+            "name": "Chuva Agourenta",
+            "icon_url": "/assets/images/constellations/hutao/constellation_2.webp",
+            "description": "Aumenta o DANO da Flor de Ameixa Sangrenta em uma quantidade igual a 10% do HP Máx de Hu Tao no momento em que o efeito é aplicado.\nAdicionalmente, Pacificadora de Espíritos também aplicará o efeito Flor de Ameixa Sangrenta. [cite: 411, 412]"
+        },
+        {
+            "level": 3,
+            "name": "Carmim Persistente",
+            "icon_url": "/assets/images/constellations/hutao/constellation_3.webp",
+            "description": "Aumenta o Nível de Guia para o Além em 3.\nO nível máximo de elevação é 15. [cite: 413]"
+        },
+        {
+            "level": 4,
+            "name": "Jardim do Descanso Eterno",
+            "icon_url": "/assets/images/constellations/hutao/constellation_4.webp",
+            "description": "Ao derrotar um inimigo afetado por uma Flor de Ameixa Sangrenta que a própria Hu Tao aplicou, todos os aliados próximos na equipe (excluindo a própria Hu Tao) terão sua Taxa CRIT aumentada em 12% por 15s. [cite: 413]"
+        },
+        {
+            "level": 5,
+            "name": "Incenso Floral",
+            "icon_url": "/assets/images/constellations/hutao/constellation_5.webp",
+            "description": "Aumenta o Nível de Pacificadora de Espíritos em 3.\nO nível máximo de elevação é 15. [cite: 414]"
+        },
+        {
+            "level": 6,
+            "name": "Abraço da Borboleta",
+            "icon_url": "/assets/images/constellations/hutao/constellation_6.webp",
+            "description": "Ativa quando o HP de Hu Tao cai abaixo de 25%, ou quando ela sofre um golpe letal:\nHu Tao não cairá como resultado do DANO sofrido.\nAdicionalmente, pelos próximos 10s, toda a sua RES Elemental e Física é aumentada em 200%, sua Taxa CRIT é aumentada em 100%, e sua resistência à interrupção é grandemente aumentada.\nEste efeito ativa automaticamente quando Hu Tao tem 1 HP restante.\nPode ocorrer apenas uma vez a cada 60s. [cite: 414, 415, 416]"
+        }
+    ]
+}

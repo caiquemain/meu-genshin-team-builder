@@ -1,0 +1,110 @@
+[
+    {
+        "id": "traveler_dendro_raiden_xingqiu_baizhu_hyperbloom",
+        "name": "Viajante (Dendro) - Hyperbloom (Raiden, Xingqiu, Baizhu)",
+        "strategy": "Times de Hiperflorecimento são simples de construir e muito eficazes. A aplicação Dendro do Viajante é suficiente para times de Hiperflorecimento. Raiden (full EM) ativa as sementes, Xingqiu aplica Hydro e Baizhu cura e aplica mais Dendro.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_dendro",
+                "role_in_team": "Aplicador Dendro Off-field / Suporte",
+                "build_key": "traveler_dendro_offfield_support_deepwood_favonius"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Ativadora de Hyperbloom (Full EM Off-field) / On-field DPS (opcional)",
+                "build_key": "raiden_hyperbloom_trigger_full_em_dragons_bane"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Healer / Aplicador Dendro Secundário / Escudeiro Leve",
+                "build_key": "baizhu_healer_deepwood_prototype_amber_hp"
+            }
+        ]
+    },
+    {
+        "id": "traveler_dendro_keqing_fischl_sayu_quicken",
+        "name": "Viajante (Dendro) - Quicken/Aggravate (Keqing, Fischl, Sayu)",
+        "strategy": "Times Quicken são diretos, usando a reação para aumentar o dano Electro. A aplicação Dendro do Viajante mantém o Quicken ativo. Keqing e Fischl causam dano Electro. Sayu com Sombra Verde reduz RES e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_dendro",
+                "role_in_team": "Aplicador Dendro Off-field / Suporte",
+                "build_key": "traveler_dendro_offfield_support_deepwood_favonius"
+            },
+            {
+                "character_id": "keqing",
+                "role_in_team": "Main DPS Electro On-field (Aggravate Driver)",
+                "build_key": "keqing_aggravate_dps_thunderingfury"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            },
+            {
+                "character_id": "sayu",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Healer)",
+                "build_key": "sayu_anemo_healer_vv_favonius_er_atk"
+            }
+        ]
+    },
+    {
+        "id": "traveler_dendro_thoma_kokomi_fischl_burgeon",
+        "name": "Viajante (Dendro) - Burgeon (Thoma, Kokomi, Fischl)",
+        "strategy": "Times de Germinação são mais complexos devido à interação com Queimadura. O Viajante Dendro deve vir após ou antes de uma unidade Hydro para garantir que sua Lâmpada seja transfigurada com Hydro. Thoma (full EM) ativa Germinação. Kokomi para cura e aplicação Hydro. Fischl ajuda a mitigar Queimadura.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_dendro",
+                "role_in_team": "Aplicador Dendro Off-field",
+                "build_key": "traveler_dendro_offfield_support_deepwood_favonius"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Ativador de Germinação (Full EM) / Escudeiro",
+                "build_key": "thoma_burgeon_full_em_kitain_or_dragons_bane"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Aplicadora Hydro On-field (Driver)",
+                "build_key": "kokomi_healer_driver_oceanhued_clam_prototype_amber"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field (Mitigação de Queimadura)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            }
+        ]
+    },
+    {
+        "id": "traveler_dendro_nilou_barbara_collei_pure_bloom",
+        "name": "Viajante (Dendro) - Florescimento Puro (Nilou, Barbara, Collei)",
+        "strategy": "Time de Florescimento Puro com Nilou para Sementes Abundantes. Viajante Dendro e Collei para aplicação Dendro. Barbara para cura e aplicação Hydro adicional. Requer cura devido ao auto-dano das Sementes Abundantes.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_dendro",
+                "role_in_team": "Aplicador Dendro Off-field / Suporte",
+                "build_key": "traveler_dendro_bloom_trigger_flower_paradise_em_weapon"
+            },
+            {
+                "character_id": "nilou",
+                "role_in_team": "Ativadora de Florescimento Abundante / Aplicadora Hydro",
+                "build_key": "nilou_bloom_hp_keyofkhajnisut"
+            },
+            {
+                "character_id": "barbara",
+                "role_in_team": "Healer / Aplicadora Hydro On-field",
+                "build_key": "barbara_pure_healer_ocean_hued_clam"
+            },
+            {
+                "character_id": "collei",
+                "role_in_team": "Aplicadora Dendro Off-field / Suporte Secundário",
+                "build_key": "collei_support_deepwood_favonius"
+            }
+        ]
+    }
+]

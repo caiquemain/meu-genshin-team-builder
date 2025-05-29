@@ -1,0 +1,110 @@
+[
+    {
+        "id": "chevreuse_raiden_xiangling_bennett_pure_overload",
+        "name": "Chevreuse - Sobrecarga Pura (Raiden, Xiangling, Bennett)",
+        "strategy": "Time de Sobrecarga onde Chevreuse buffa toda a equipe. Raiden como DPS on-field, Xiangling para dano Pyro off-field e Bennett para buff de ATQ e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "chevreuse",
+                "role_in_team": "Suporte (Buffer de Sobrecarga, RES Shred Pyro/Electro, Healer)",
+                "build_key": "chevreuse_overload_support_noblesse_hp_er"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Main DPS Electro On-field (Burst)",
+                "build_key": "raiden_hypercarry_dps_emblem_engulfing"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field",
+                "build_key": "xiangling_subdps_emblem_thecatch"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "chevreuse_varesa_mavuika_iansan_natlan_overload",
+        "name": "Chevreuse - Sobrecarga Natlan (Varesa, Mavuika, Iansan)",
+        "strategy": "Time de Sobrecarga com personagens de Natlan. Varesa como DPS on-field, Mavuika para dano e aplicação Pyro, Iansan para buffs. Chevreuse habilita a mecânica de Sobrecarga e buffa.",
+        "characters_in_team": [
+            {
+                "character_id": "chevreuse",
+                "role_in_team": "Suporte (Buffer de Sobrecarga, RES Shred Pyro/Electro, Healer)",
+                "build_key": "chevreuse_overload_support_noblesse_hp_er"
+            },
+            {
+                "character_id": "varesa",
+                "role_in_team": "Main DPS Electro On-field (Plunging/Burst)",
+                "build_key": "varesa_electro_plunge_dps_nightsoul_focus"
+            },
+            {
+                "character_id": "mavuika",
+                "role_in_team": "Sub-DPS Pyro Off-field / On-field (Burst/Charged)",
+                "build_key": "mavuika_pyro_dps_subdps_nightsoul_enabler"
+            },
+            {
+                "character_id": "iansan",
+                "role_in_team": "Suporte Pyro (Buffer ATK Flat, 4p Pergaminho Holder)",
+                "build_key": "iansan_pyro_support_scroll_of_cinder_city"
+            }
+        ]
+    },
+    {
+        "id": "chevreuse_c6_arlecchino_yelan_fischl_overvape",
+        "name": "Chevreuse C6 - Overvape (Arlecchino, Yelan, Fischl)",
+        "strategy": "Time Overvape simples onde Chevreuse C6 fornece buff de ATQ% e DANO% para Arlecchino e Fischl. Yelan para aplicação Hydro.",
+        "characters_in_team": [
+            {
+                "character_id": "chevreuse",
+                "role_in_team": "Suporte (Buffer ATQ%/DANO% C6, Healer)",
+                "build_key": "chevreuse_general_support_c6_song_of_days_past"
+            },
+            {
+                "character_id": "arlecchino",
+                "role_in_team": "Main DPS Pyro (On-field)",
+                "build_key": "arlecchino_onfield_dps_fragment_whimsy"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Aplicadora Electro",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            }
+        ]
+    },
+    {
+        "id": "chevreuse_c6_gaming_furina_xianyun_vape_plunge",
+        "name": "Chevreuse C6 - Vape Plunge (Gaming, Furina, Xianyun)",
+        "strategy": "A Habilidade (C2) e Supremo de Chevreuse fornecem aplicação Pyro para Xianyun fazer Swirl. Gaming se beneficia dos buffs de Chevreuse. Furina para dano e Xianyun habilita ataques imersivos e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "chevreuse",
+                "role_in_team": "Suporte (Buffer DANO% C6, Aplicadora Pyro para Swirl, Healer)",
+                "build_key": "chevreuse_general_support_c6_song_of_days_past"
+            },
+            {
+                "character_id": "gaming",
+                "role_in_team": "Main DPS Pyro (On-field Plunging Attack)",
+                "build_key": "gaming_pyro_plunge_dps_marechaussee_or_crimson_witch"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            },
+            {
+                "character_id": "xianyun",
+                "role_in_team": "Suporte Anemo (Healer de Equipe, Habilitadora de Ataque Imersivo, VV Holder)",
+                "build_key": "xianyun_anemo_healer_plunge_enabler_vv_atk_er"
+            }
+        ]
+    }
+]

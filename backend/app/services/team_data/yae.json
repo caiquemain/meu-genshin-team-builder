@@ -1,0 +1,110 @@
+[
+    {
+        "id": "yae_miko_raiden_kazuha_bennett_raikou",
+        "name": "Yae Miko - Raikou (Raiden, Kazuha, Bennett)",
+        "strategy": "Time clássico e confiável, focado no alto dano dos Supremos de Yae e Raiden, amplificados pelos buffs massivos de Kazuha e Bennett. [cite: 128, 129] Rotação simples e potente para nuke. [cite: 130]",
+        "characters_in_team": [
+            {
+                "character_id": "yae_miko",
+                "role_in_team": "Off-field DPS / Burst DPS",
+                "build_key": "yae_miko_offfield_dps_emblem_burst"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Main DPS (Burst) / Bateria / Coordenadora Electro",
+                "build_key": "raiden_main_dps_emblem_thecatch"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn_or_favonius"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "yae_miko_fischl_kirara_kazuha_aggravate",
+        "name": "Yae Miko - Aggravate (Fischl, Kirara, Kazuha)",
+        "strategy": "Time de Agravamento com bom desempenho, utilizando o escudo de Kirara para conforto. [cite: 185] Kazuha agrupa e buffa, enquanto Yae e Fischl causam dano Electro e ativam Agravamento. [cite: 144, 186]",
+        "characters_in_team": [
+            {
+                "character_id": "yae_miko",
+                "role_in_team": "Off-field DPS / Driver de Agravamento",
+                "build_key": "yae_miko_offfield_dps_golden_troupe_aggravate"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro / Bateria / Ativadora de Agravamento",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            },
+            {
+                "character_id": "kirara",
+                "role_in_team": "Escudeira / Aplicadora Dendro",
+                "build_key": "kirara_shielder_tenacity_favonius_or_hp"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_favonius"
+            }
+        ]
+    },
+    {
+        "id": "yae_miko_alhaitham_nahida_zhongli_quicken",
+        "name": "Yae Miko - Quicken (Alhaitham, Nahida, Zhongli)",
+        "strategy": "Yae Miko fornece aplicação Electro off-field consistente para Alhaitham ativar Quicken/Spread, causando dano considerável. [cite: 207] Nahida buffa e aplica Dendro, Zhongli oferece escudo e RES Shred.",
+        "characters_in_team": [
+            {
+                "character_id": "yae_miko",
+                "role_in_team": "Off-field DPS Electro (Solo Electro)",
+                "build_key": "yae_miko_offfield_dps_golden_troupe_aggravate"
+            },
+            {
+                "character_id": "alhaitham",
+                "role_in_team": "Main DPS Dendro (On-field Spread)",
+                "build_key": "alhaitham_main_dps_deepwood_gilded_spread"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Suporte Dendro (Aplicadora Dendro, Buffer EM, Deepwood Holder)",
+                "build_key": "nahida_support_deepwood_em_crit"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity"
+            }
+        ]
+    },
+    {
+        "id": "yae_miko_neuvillette_furina_kazuha_electrocharged",
+        "name": "Yae Miko - Taser (Neuvillette, Furina, Kazuha)",
+        "strategy": "Time padrão de Neuvillette com Furina, onde Yae Miko contribui com dano Electro off-field consistente e ajuda a ativar uma das stacks do talento A1 de Neuvillette. [cite: 214]",
+        "characters_in_team": [
+            {
+                "character_id": "yae_miko",
+                "role_in_team": "Off-field DPS Electro",
+                "build_key": "yae_miko_offfield_dps_golden_troupe_aggravate"
+            },
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro (On-field)",
+                "build_key": "neuvillette_hydro_dps_marechaussee"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_goldentroupe_favonius"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_favonius"
+            }
+        ]
+    }
+]

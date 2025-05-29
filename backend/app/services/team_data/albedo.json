@@ -1,0 +1,218 @@
+[
+    {
+        "id": "albedo_itto_gorou_zhongli",
+        "name": "Albedo - Hypercarry Geo (Itto, Gorou, Zhongli)",
+        "strategy": "Albedo fornece Dano Geo off-field e partículas para Itto, o Main DPS. Gorou buffa DEF e Dano Geo, e Zhongli oferece escudo, redução de RES e mais Dano Geo. ",
+        "characters_in_team": [
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo Off-field / Bateria",
+                "build_key": "off_field_geo_dps_main"
+            },
+            {
+                "character_id": "itto",
+                "role_in_team": "Main DPS Geo On-field",
+                "build_key": "itto_main_dps_husk"
+            },
+            {
+                "character_id": "gorou",
+                "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
+                "build_key": "gorou_geo_buffer_exile_favonius"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Shielder / Redutor de RES Universal",
+                "build_key": "zhongli_shielder_tenacity"
+            }
+        ]
+    },
+    {
+        "id": "albedo_noelle_gorou_fischl",
+        "name": "Albedo - Hypercarry Geo (Noelle, Gorou, Fischl)",
+        "strategy": "Albedo fornece Dano Geo off-field e partículas para Noelle (Main DPS e Healer). Gorou buffa DEF e Dano Geo. Fischl adiciona Dano Electro off-field e ajuda com Cristalização. ",
+        "characters_in_team": [
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo Off-field / Bateria",
+                "build_key": "off_field_geo_dps_main"
+            },
+            {
+                "character_id": "noelle",
+                "role_in_team": "Main DPS Geo On-field / Shielder / Healer",
+                "build_key": "noelle_main_dps_husk_gladiator"
+            },
+            {
+                "character_id": "gorou",
+                "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
+                "build_key": "gorou_geo_buffer_exile_favonius"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field",
+                "build_key": "fischl_subdps_golden_troupe"
+            }
+        ]
+    },
+    {
+        "id": "albedo_zhongli_hutao_xingqiu",
+        "name": "Albedo & Zhongli Core com Hu Tao (Double Geo Vape)",
+        "strategy": "Núcleo Geo flexível com Albedo (Dano Off-field, Ressonância Geo, buff de EM do Supremo) e Zhongli (Escudo, Redução de RES). Hu Tao como Main DPS Vaporize com Xingqiu. ",
+        "characters_in_team": [
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo Off-field / Suporte EM",
+                "build_key": "off_field_geo_dps_main"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Shielder / Redutor de RES Universal",
+                "build_key": "zhongli_shielder_tenacity"
+            },
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro (Vaporize)",
+                "build_key": "hutao_vape_dps_crimson_shimenawa"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro Off-field / Aplicador Hydro",
+                "build_key": "xingqiu_subdps_emblem_noblesse"
+            }
+        ]
+    },
+    {
+        "id": "albedo_zhongli_xiao_faruzan",
+        "name": "Albedo & Zhongli Core com Xiao (Double Geo Anemo)",
+        "strategy": "Núcleo Geo com Albedo e Zhongli para proteção e dano off-field. Xiao como Main DPS Anemo, buffado por Faruzan. Zhongli é especialmente bom para a resistência à interrupção de Xiao. ",
+        "characters_in_team": [
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo Off-field",
+                "build_key": "off_field_geo_dps_main"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Shielder / Redutor de RES Universal",
+                "build_key": "zhongli_shielder_tenacity"
+            },
+            {
+                "character_id": "xiao",
+                "role_in_team": "Main DPS Anemo (Plunge Attack)",
+                "build_key": "xiao_anemo_dps_vermillion_gladiator"
+            },
+            {
+                "character_id": "faruzan",
+                "role_in_team": "Suporte Anemo (Buffer de Dano Anemo e Redução de RES Anemo)",
+                "build_key": "faruzan_anemo_buffer_noblesse_emblem"
+            }
+        ]
+    },
+    {
+        "id": "albedo_geo_quickswap_ningguang_zhongli_bennett",
+        "name": "Albedo - Geo Quickswap (Ningguang, Zhongli, Bennett)",
+        "strategy": "Time Geo de troca rápida com Ningguang como Burst DPS. Albedo e Zhongli fornecem dano Geo e utilidade (microondas). Bennett para buff de ATK massivo e cura. ",
+        "characters_in_team": [
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo Off-field / Quickswap",
+                "build_key": "off_field_geo_dps_main"
+            },
+            {
+                "character_id": "ningguang",
+                "role_in_team": "Burst DPS Geo / Quickswap",
+                "build_key": "ningguang_burst_dps_archaic_noblesse"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Shielder / Burst DPS Geo",
+                "build_key": "zhongli_shielder_burst_tenacity_noblesse"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer & Healer)",
+                "build_key": "bennett_support_noblesse_er"
+            }
+        ]
+    },
+    {
+        "id": "albedo_solo_geo_burgeon_kokomi_nahida_thoma",
+        "name": "Albedo - Solo Geo em Burgeon (Kokomi, Nahida, Thoma)",
+        "strategy": "Albedo como um slot flex Geo que raramente interfere. Ajuda a limpar excesso de Pyro/Burning em times Burgeon, permitindo mais reações de Bloom. ",
+        "characters_in_team": [
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Driver Hydro On-field / Healer / Aplicador Hydro",
+                "build_key": "kokomi_healer_applicator_clam_tenacity"
+            },
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo Off-field / Estabilizador de Aura",
+                "build_key": "off_field_geo_dps_main"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Driver Dendro Off-field / Buffer EM",
+                "build_key": "nahida_dendro_support_deepwood_gilded"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Ativador Burgeon / Shielder Pyro",
+                "build_key": "thoma_burgeon_flower_paradise_em"
+            }
+        ]
+    },
+    {
+        "id": "albedo_solo_geo_taser_sucrose_fischl_xingqiu",
+        "name": "Albedo - Solo Geo em Taser (Sucrose, Fischl, Xingqiu)",
+        "strategy": "Albedo ajuda a limpar o excesso de aura Electro, permitindo que Sucrose (Anemo) acione Swirl em Hydro e Electro para maximizar o debuff do Sombra Verde e o buff de Kazuha (se usado no lugar de Sucrose). ",
+        "characters_in_team": [
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Driver Anemo On-field / Buffer EM / Agrupamento",
+                "build_key": "sucrose_anemo_driver_vv_em"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field",
+                "build_key": "fischl_subdps_golden_troupe_thundering"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro Off-field / Aplicador Hydro",
+                "build_key": "xingqiu_subdps_emblem_noblesse"
+            },
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo Off-field / Estabilizador de Aura",
+                "build_key": "off_field_geo_dps_main"
+            }
+        ]
+    },
+    {
+        "id": "albedo_flex_tartaglia_reverse_vape",
+        "name": "Albedo - Flex com Tartaglia Reverse Vape (Nacional)",
+        "strategy": "Albedo como um slot flex de Dano Off-field em uma variação do time Nacional com Tartaglia. O Supremo de Albedo pode buffar a Proficiência Elemental para as reações de Vaporize. ",
+        "characters_in_team": [
+            {
+                "character_id": "tartaglia",
+                "role_in_team": "Main DPS Hydro / Enabler",
+                "build_key": "tartaglia_dps_nymphs_dream_hod"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field",
+                "build_key": "xiangling_pyro_subdps_emblem"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer & Healer)",
+                "build_key": "bennett_support_noblesse_er"
+            },
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo Off-field / Suporte EM",
+                "build_key": "off_field_geo_dps_main"
+            }
+        ]
+    }
+]

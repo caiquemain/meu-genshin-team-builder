@@ -1,0 +1,111 @@
+{
+    "id": "emilie",
+    "name": "Emilie",
+    "element": "Dendro",
+    "rarity": 5,
+    "weapon": "Polearm",
+    "role": [
+        "Off-Field DPS (Principalmente em times de Queimadura)",
+        "On-Field DPS (Situacional, para buffs de Bennett)"
+    ],
+    "icon_url": "/assets/images/characters/emilie.png",
+    "element_icon_url": "/assets/images/elements/element_dendro.png",
+    "build_options": [
+        {
+            "key": "emilie_offfield_dps_unfinished_reverie_lumidouce_elegy",
+            "name": "DPS Off-field (Devaneio Inacabado - Elegia Lumidouce)",
+            "notes_build": "Foco em maximizar o dano off-field de Emilie, especialmente em times com Queimadura constante para ativar o bônus de 4p Devaneio Inacabado. Elegia Lumidouce é sua melhor arma, ajudando com a Recarga de Energia.",
+            "artifacts": [
+                {
+                    "set_id": "unfinished_reverie",
+                    "set_name": "Devaneio Inacabado",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Emilie. Concede um Bônus de DANO permanente em seus times preferidos (com Queimadura) e pode superar 4p Memórias da Floresta mesmo que isso signifique perder a Redução de RES do último.",
+                    "icon_url": "/assets/images/artifact_sets/unfinished_reverie.png"
+                },
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Alternativa decente se não houver um conjunto Devaneio Inacabado disponível. Idealmente, um dos colegas de equipe de Emilie usa este conjunto para reduzir a RES Dendro dos inimigos.",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                },
+                {
+                    "set_id": "dendro_atk_skill_2pc_mix",
+                    "set_name": "Dendro (2p) + ATQ% (2p) / Dano da Habilidade (2p)",
+                    "pieces": "2+2",
+                    "notes": "Uma mistura de conjuntos de 2 peças pode ser útil ao construir para um conjunto completo de 4 peças, ou se os sub-stats dos artefatos forem excepcionais. (Ex: Memórias da Floresta + Gladiador/Trupe Dourada).",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "deepwood_memories",
+                        "gladiators_finale"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Dendro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Recarga de Energia (ER%) (para usar Supremo a cada duas rotações, ~100-120% Solo Dendro)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "lumidouce_elegy",
+                    "name": "Elegia Lumidouce (Lumidouce Elegy)",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (A SER VERIFICADO)",
+                    "notes": "Melhor arma para Emilie por uma margem notável. Sua restauração de Energia permite Supremos consistentes com investimento mínimo em RE.",
+                    "icon_url": "/assets/images/weapons_detail/lumidouce_elegy.png"
+                },
+                {
+                    "weapon_id": "calamity_queller",
+                    "name": "Pacificadora de Calamidades",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Opção forte devido à grande quantidade de ATQ que fornece. Use a Habilidade de Emilie após o Supremo para utilizar a passiva.",
+                    "icon_url": "/assets/images/weapons_detail/calamity_queller.png"
+                },
+                {
+                    "weapon_id": "staff_of_the_scarlet_sands",
+                    "name": "Báculo das Areias Escarlates",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Ótimas opções 5 estrelas devido aos seus altos stats base e passivas ligeiramente úteis.",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_the_scarlet_sands.png"
+                },
+                {
+                    "weapon_id": "deathmatch",
+                    "name": "Lança do Duelo",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Passe de Batalha",
+                    "notes": "Melhor opção 4 estrelas para Emilie. Em refinos mais altos, é capaz de superar outras Lanças 5 estrelas.",
+                    "icon_url": "/assets/images/weapons_detail/deathmatch.png"
+                },
+                {
+                    "weapon_id": "missive_windspear",
+                    "name": "Lança do Vento Trocante",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Evento",
+                    "notes": "Melhor arma gratuita para Emilie, mas só esteve disponível no Evento da Versão 3.1.",
+                    "icon_url": "/assets/images/weapons_detail/missive_windspear.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (baixa prioridade antes de C6)"
+            ]
+        }
+    ]
+}

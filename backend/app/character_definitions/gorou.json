@@ -1,0 +1,97 @@
+{
+    "id": "gorou",
+    "name": "Gorou",
+    "element": "Geo",
+    "rarity": 4,
+    "weapon": "Bow",
+    "role": [
+        "Support",
+        "Buffer (DEF)",
+        "Battery (Geo)"
+    ],
+    "icon_url": "/assets/images/characters/gorou.png",
+    "element_icon_url": "/assets/images/elements/element_geo.png",
+    "build_options": [
+        {
+            "key": "geo_def_buffer_favonius",
+            "name": "Suporte Geo Buffer de DEF (com Favonius)",
+            "notes_build": "Foco em maximizar o buff de DEF para times Geo e gerar energia para o time. Priorize Recarga de Energia e Taxa CRIT para ativar o Arco de Favonius. O dano pessoal de Gorou é baixo.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real ",
+                    "pieces": 4,
+                    "notes": "Melhor opção se não houver outro usuário no time.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "the_exile",
+                    "set_name": "O Exilado",
+                    "pieces": 4,
+                    "notes": "Ótima opção F2P, fornece Energia para o time. Use Areia de ER ou Tiara de Taxa CRIT 5 estrelas de outro conjunto.",
+                    "icon_url": "/assets/images/artifact_sets/the_exile.png"
+                },
+                {
+                    "set_id": "husk_of_opulent_dreams",
+                    "set_name": "Casca de Sonhos Opulentos",
+                    "pieces": 4,
+                    "notes": "Para aumentar um pouco o dano pessoal e a cura do C4, mas geralmente inferior.",
+                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%)",
+                "goblet": "DEF% (para cura do C4 ou dano mínimo) / Bônus de Dano Geo (dano mínimo)",
+                "circlet": "Taxa CRIT (para Arco de Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até ~220-250%)",
+                "Taxa CRIT (para Arco de Favonius)",
+                "DEF%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_warbow",
+                    "name": "Arco de Guerra de Favonius",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha / Recompensa de Missão",
+                    "notes": "Melhor arma. Fornece ER e partículas de energia.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_warbow.png"
+                },
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final ",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "ER alto e buff para o time, mas inconsistente para ativar.",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                },
+                {
+                    "weapon_id": "sacrificial_bow",
+                    "name": "Arco do Sacrifício",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Reset da Habilidade pode ser útil, mas requer refinamentos.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_bow.png"
+                },
+                {
+                    "weapon_id": "end_of_the_line",
+                    "name": "Águas Secas",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "F2P (Pesca)",
+                    "notes": "Opção com ER se Favonius não estiver disponível.",
+                    "icon_url": "/assets/images/weapons_detail/end_of_the_line.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst) (Baixa prioridade)",
+                "Ataque Normal (Não precisa upar)"
+            ]
+        }
+    ]
+}

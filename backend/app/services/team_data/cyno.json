@@ -1,0 +1,110 @@
+[
+    {
+        "id": "cyno_nahida_yelan_kuki_shinobu_quickbloom",
+        "name": "Cyno - Quickbloom (Nahida, Yelan, Kuki Shinobu)",
+        "strategy": "Time de alto dano para Cyno com conforto adicional de Kuki Shinobu. Yelan para dano e aplicação Hydro, Nahida para Dendro e buff de EM. Shinobu cura e pode ativar Hiperflorecimentos.",
+        "characters_in_team": [
+            {
+                "character_id": "cyno",
+                "role_in_team": "Main DPS Electro On-field (Driver de Quickbloom)",
+                "build_key": "cyno_quickbloom_dps_thundering_fury_scarlet_sands"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Suporte Dendro / Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_favonius_or_elegy"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Ativadora de Hyperbloom Secundária / Bateria Electro",
+                "build_key": "kuki_shinobu_hyperbloom_full_em_flowerofparadiselost"
+            }
+        ]
+    },
+    {
+        "id": "cyno_baizhu_nahida_fischl_aggravate_quickbloom",
+        "name": "Cyno - Aggravate/Quickbloom (Baizhu, Nahida, Fischl)",
+        "strategy": "Poderoso time Duplo Dendro + Duplo Electro com menores requisitos de RE para todos. Baizhu oferece cura, aplicação Dendro e buff de Agravamento. Nahida para mais Dendro e EM. Fischl para dano e partículas.",
+        "characters_in_team": [
+            {
+                "character_id": "cyno",
+                "role_in_team": "Main DPS Electro On-field",
+                "build_key": "cyno_aggravate_dps_thundering_fury_scarlet_sands"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Suporte Dendro (Healer, Buffer de Agravamento, Aplicador Dendro)",
+                "build_key": "baizhu_support_healer_deepwood_ttds_if_er_ok"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Suporte Dendro / Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            }
+        ]
+    },
+    {
+        "id": "cyno_nahida_thoma_yelan_quickburn_chaos",
+        "name": "Cyno - Quickburn Chaos (Nahida, Thoma, Yelan)",
+        "strategy": "Time que utiliza uma aura simultânea de Quicken e Burning para permitir que Cyno ative Agravate e Sobrecarga. Yelan adiciona Vaporizar e Hiperflorecimento (Caos). Thoma para aplicação Pyro e escudo.",
+        "characters_in_team": [
+            {
+                "character_id": "cyno",
+                "role_in_team": "Main DPS Electro On-field (Multi-Reação)",
+                "build_key": "cyno_quickbloom_dps_thundering_fury_scarlet_sands"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Suporte Dendro / Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Aplicador Pyro Off-field / Escudeiro / Ativador de Germinação/Queimadura",
+                "build_key": "thoma_burgeon_support_em_hp_er_kitain"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_favonius_or_elegy"
+            }
+        ]
+    },
+    {
+        "id": "cyno_yaoyao_fischl_kazuha_aggravate",
+        "name": "Cyno - Aggravate (Yaoyao, Fischl, Kazuha)",
+        "strategy": "Time de Agravamento onde Kazuha precisa aplicar Swirl Electro para que Fischl e Cyno se beneficiem de seu buff de Dano Electro A4. Yaoyao fornece cura e aplicação Dendro.",
+        "characters_in_team": [
+            {
+                "character_id": "cyno",
+                "role_in_team": "Main DPS Electro On-field",
+                "build_key": "cyno_aggravate_dps_thundering_fury_scarlet_sands"
+            },
+            {
+                "character_id": "yaoyao",
+                "role_in_team": "Healer / Aplicadora Dendro Off-field",
+                "build_key": "yaoyao_dendro_healer_deepwood_favonius"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    }
+]

@@ -1,0 +1,168 @@
+{
+    "id": "layla",
+    "name": "Layla",
+    "element": "Cryo",
+    "rarity": 4,
+    "weapon": "Sword",
+    "role": [
+        "Shielder",
+        "Off-Field DPS"
+    ],
+    "icon_url": "/assets/images/characters/layla.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "build_options": [
+        {
+            "key": "layla_shielder_tenacity_hp",
+            "name": "Escudeira (Tenacidade dos Millelith - Foco em HP)",
+            "notes_build": "Maximiza a absorção do escudo de Layla com HP%. 4p Tenacidade dos Millelith é o melhor conjunto geral, oferecendo o escudo mais forte e um buff de ATQ para a equipe.  Priorize subir o nível do personagem para aumentar o HP Máx. ",
+            "artifacts": [
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto geral para Layla, fornecendo o escudo mais forte e um buff de ATQ para a equipe com bom uptime. ",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Alternativa se não houver um bom conjunto Tenacidade, mas com uptime menor no buff de ATQ e escudo mais fraco. ",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "HP% / Recarga de Energia (se necessário)",
+                "goblet": "HP%",
+                "circlet": "HP%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até o requisito)",
+                "HP%",
+                "HP Flat",
+                "Taxa CRIT (para Espada de Favonius)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "key_of_khaj_nisut",
+                    "name": "Chave de Khaj-Nisut",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Melhor arma para a absorção do escudo de Layla devido ao seu sub-status massivo de HP%. ",
+                    "icon_url": "/assets/images/weapons_detail/key_of_khaj_nisut.png"
+                },
+                {
+                    "weapon_id": "the_dockhands_assistant",
+                    "name": "A Doca",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Próxima melhor opção para o escudo de Layla devido ao sub-status de HP%. ",
+                    "icon_url": "/assets/images/weapons_detail/the_dockhands_assistant.png"
+                },
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Forte opção de suporte, fornece Energia valiosa para a equipe e ajuda a cumprir os requisitos de RE de Layla. ",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst) (menor prioridade para build de escudo puro)",
+                "Ataque Normal (não precisa upar)"
+            ]
+        },
+        {
+            "key": "layla_offfield_dps_blizzard_crit",
+            "name": "DPS Off-field (Herói Invernal - Foco em Dano)",
+            "notes_build": "Focada no dano off-field de Layla, mantendo um escudo decente. Mais eficaz com alto investimento (idealmente C6) e em times focados em dano Cryo (Congelamento, Mono Cryo).  Stats de Dano CRIT, Bônus de Dano Cryo e HP% são importantes. ",
+            "artifacts": [
+                {
+                    "set_id": "blizzard_strayer",
+                    "set_name": "Herói Invernal",
+                    "pieces": 4,
+                    "notes": "Opção mais forte para dano pessoal em times de Congelamento e Mono Cryo, permitindo focar em HP% e Dano CRIT. ",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png"
+                },
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Oferece um bônus substancial de Dano do Supremo enquanto acomoda os requisitos de RE de Layla. ",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "tenacity_hp_blizzard_cryo_2pc_mix",
+                    "set_name": "Tenacidade (2p HP%) + Herói Invernal (2p Cryo%)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de 2 peças podem ser usadas enquanto farma conjuntos completos, mas perdem os bônus potentes de 4 peças. ",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "tenacity_of_the_millelith",
+                        "blizzard_strayer"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "HP% / Recarga de Energia",
+                "goblet": "Bônus de Dano Cryo / HP%",
+                "circlet": "Taxa CRIT / Dano CRIT / HP%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "HP%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Melhor em geral para dano, com o benefício adicional de um buff de HP% da passiva. ",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "uraku_misugiri",
+                    "name": "Urakugo Rensai (Uraku Misugiri)",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Segunda melhor opção de dano, mesmo sem sua passiva completa. ",
+                    "icon_url": "/assets/images/weapons_detail/uraku_misugiri.png"
+                },
+                {
+                    "weapon_id": "harbinger_of_dawn",
+                    "name": "Prenúncio do Alvorecer",
+                    "rarity": 3,
+                    "type": "Sword",
+                    "category": "Gacha / Baús",
+                    "notes": "Arma 3 estrelas facilmente obtenível que supera a maioria das opções 5 estrelas se sua passiva for mantida. ",
+                    "icon_url": "/assets/images/weapons_detail/harbinger_of_dawn.png"
+                },
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Arma de CRIT com desempenho similar ou ligeiramente pior que Prenúncio do Alvorecer, mas mantém eficácia se Layla sofrer dano. ",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (não precisa upar)"
+            ]
+        }
+    ]
+}

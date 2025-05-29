@@ -1,0 +1,103 @@
+{
+    "id": "beidou",
+    "name": "Beidou",
+    "element": "Electro",
+    "rarity": 4,
+    "weapon": "Claymore",
+    "role": [
+        "Off-Field DPS",
+        "On-Field DPS (menos comum)"
+    ],
+    "icon_url": "/assets/images/characters/beidou.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "build_options": [
+        {
+            "key": "beidou_offfield_dps_emblem",
+            "name": "DPS Off-field (Selo da Insulação)",
+            "notes_build": "Foco principal no dano do Supremo (Stormbreaker). 4p Selo da Insulação é geralmente seu melhor conjunto devido aos altos requisitos de Recarga de Energia. Atingir os requisitos de RE é crucial.",
+            "artifacts": [
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Como Beidou tem requisitos de RE relativamente altos e causa a maior parte de seu dano através do Supremo, 4p Selo da Insulação é seu melhor conjunto geral.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "thundering_fury_noblesse_2pc_mix",
+                    "set_name": "Fúria Trovejante (2p) + Antigo Ritual Real (2p)",
+                    "pieces": "2+2",
+                    "notes": "Qualquer combinação de 2p que aumente o dano de Beidou é apreciada (ATQ%, RE%, EM em Agravamento, Ritual Real, Trovão Furioso).",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "thundering_fury",
+                        "noblesse_oblige"
+                    ]
+                },
+                {
+                    "set_id": "thundersoother",
+                    "set_name": "Lançador de Trovões",
+                    "pieces": 4,
+                    "notes": "Forte opção, mas situacional devido ao seu efeito condicional de 4p. Utilizável em times de Eletricamente Carregado ou Agravamento (com baixa aplicação Dendro).",
+                    "icon_url": "/assets/images/artifact_sets/thundersoother.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Electro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (EM) (para times de Agravamento, ATK% geralmente ainda é melhor)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Geralmente a melhor arma de Beidou, especialmente com refinos altos, com Bennett, ou em times de Agravamento.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "beacon_of_the_reed_sea",
+                    "name": "Sinal dos Mares de Juncos",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Opção sólida devido ao CRIT e ATQ Base que fornece. Preferível sobre outras 5* de CRIT pois Beidou pode ganhar ATQ% da passiva.",
+                    "icon_url": "/assets/images/weapons_detail/beacon_of_the_reed_sea.png"
+                },
+                {
+                    "weapon_id": "akuoumaru",
+                    "name": "Akuoumaru",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado) (A SER VERIFICADO)",
+                    "notes": "O Bônus de Dano do Supremo que esta arma fornece a torna uma escolha sólida. Pode superar a maioria das outras armas em refinos altos.",
+                    "icon_url": "/assets/images/weapons_detail/akuoumaru.png"
+                },
+                {
+                    "weapon_id": "skyward_pride",
+                    "name": "Orgulho Celestial",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Opção com alto ATQ Base e sub-status de RE%, útil para cobrir seus requisitos de RE. Fornece um pequeno bônus de Dano%.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_pride.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (não recomendado upar)"
+            ]
+        }
+    ]
+}

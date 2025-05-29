@@ -1,0 +1,110 @@
+[
+    {
+        "id": "amber_melt_cs_citlali_xilonen_bennett",
+        "name": "Amber - Melt Tiro Carregado (Citlali, Xilonen, Bennett)",
+        "strategy": "Amber como DPS principal de Tiro Carregado visando Fusão. Citlali é a melhor colega Cryo, fornecendo escudo forte e RES Pyro, permitindo que todos os Tiros Carregados e acertos do Barão Coelho de Amber causem Fusão. Xilonen e Bennett para buffs adicionais e RES Shred/Pyro DMG%.",
+        "characters_in_team": [
+            {
+                "character_id": "amber",
+                "role_in_team": "Main DPS Pyro (Melt Charged Shot)",
+                "build_key": "amber_melt_cs_charged_shot_wanderer_shimenawa"
+            },
+            {
+                "character_id": "citlali",
+                "role_in_team": "Suporte Cryo (Escudeira, Aplicadora Cryo, RES Pyro Shred)",
+                "build_key": "citlali_cryo_support_shield_noblesse"
+            },
+            {
+                "character_id": "xilonen",
+                "role_in_team": "Suporte Geo (Buffer com Pergaminho/Petra, RES Pyro Shred)",
+                "build_key": "xilonen_geo_support_scroll_petra_favonius"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "amber_bunny_bomber_c4_citlali_sucrose_bennett",
+        "name": "Amber - Bunny Bomber C4+ (Citlali, Sucrose, Bennett)",
+        "strategy": "Utiliza o C2 e C4 de Amber para dano explosivo com o Barão Coelho. Citlali aplica Cryo, Sucrose agrupa e buffa (EM/TTDS), Bennett fornece ATQ e Ressonância Pyro.",
+        "characters_in_team": [
+            {
+                "character_id": "amber",
+                "role_in_team": "DPS Pyro (Bunny Bomber Melt C4+)",
+                "build_key": "amber_bunny_bomber_c4_melt_crimson_witch"
+            },
+            {
+                "character_id": "citlali",
+                "role_in_team": "Suporte Cryo (Aplicadora Cryo, Escudeira)",
+                "build_key": "citlali_cryo_support_shield_noblesse"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (Agrupamento, Buffer EM, TTDS Holder, VV Shred)",
+                "build_key": "sucrose_anemo_support_vv_ttds_em"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "amber_burgeon_collei_kokomi_rosaria",
+        "name": "Amber - Burgeon (Collei, Kokomi, Rosaria)",
+        "strategy": "Amber como ativadora de Germinação com Tiros Carregados em Sementes Dendro. Collei e Kokomi geram as sementes. Rosaria para aplicação Cryo adicional, ajudando na geração de sementes via Congelamento e controle de grupo.",
+        "characters_in_team": [
+            {
+                "character_id": "amber",
+                "role_in_team": "DPS Pyro (Burgeon Trigger Full EM)",
+                "build_key": "amber_burgeon_dps_paradise_lost_full_em"
+            },
+            {
+                "character_id": "collei",
+                "role_in_team": "Aplicadora Dendro Off-field",
+                "build_key": "collei_support_deepwood_favonius_er"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Aplicadora Hydro On-field/Off-field",
+                "build_key": "kokomi_healer_tenacity_oceanhued_sacrificialfragments"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo / Aplicadora Cryo Off-field",
+                "build_key": "rosaria_cryo_subdps_noblesse_favonius"
+            }
+        ]
+    },
+    {
+        "id": "amber_support_hu_tao_yelan_sucrose_vv_vape",
+        "name": "Amber - Suporte de Supremo (Hu Tao VV Vape)",
+        "strategy": "Amber usa seu Supremo para aplicar Pyro rapidamente, permitindo que Sucrose (com Sombra Verde) reduza a RES Pyro dos inimigos, maximizando o dano de Vaporizar de Hu Tao com Yelan.",
+        "characters_in_team": [
+            {
+                "character_id": "amber",
+                "role_in_team": "Suporte de Supremo (Aplicadora Pyro para VV, Buffer)",
+                "build_key": "amber_burst_support_noblesse_instructor_elegy"
+            },
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro (On-field Vaporize)",
+                "build_key": "hutao_dps_crimson_shimenawa_homa"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer EM, TTDS Holder)",
+                "build_key": "sucrose_anemo_support_vv_ttds_em"
+            }
+        ]
+    }
+]

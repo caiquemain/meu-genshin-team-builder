@@ -1,0 +1,168 @@
+{
+    "id": "charlotte",
+    "name": "Charlotte",
+    "element": "Cryo",
+    "rarity": 4,
+    "weapon": "Catalyst",
+    "role": [
+        "Suporte de Cura",
+        "DPS Off-field (Secundário)"
+    ],
+    "icon_url": "/assets/images/characters/charlotte.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "build_options": [
+        {
+            "key": "charlotte_healing_support_noblesse_er_atk",
+            "name": "Suporte de Cura (Ritual Real - RE/ATQ)",
+            "notes_build": "Focada em cura massiva para toda a equipe através do Supremo e aplicação Cryo off-field com a Habilidade. 4p Ritual Real é ótimo para buffar o ATQ da equipe. Atingir os altos requisitos de RE é crucial. ",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Concede um buff de ATQ% para toda a equipe por 12s e um aumento marginal no dano pessoal de Charlotte. Incentiva muito o uso do Supremo toda rotação. ",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "ocean_hued_clam",
+                    "set_name": "Concha Tingida Pelo Mar",
+                    "pieces": 4,
+                    "notes": "Fornece um bônus decente à cura de Charlotte, enquanto a converte em dano adicional através das detonações da Bolha. O Supremo de Charlotte facilmente maximiza uma Bolha. ",
+                    "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png"
+                },
+                {
+                    "set_id": "er_atk_healing_2pc_mix",
+                    "set_name": "Recarga de Energia (2p) + ATQ% (2p) / Bônus de Cura (2p)",
+                    "pieces": "2+2",
+                    "notes": "Conjuntos mistos podem ser usados para melhorar a cura de Charlotte enquanto também atendem aos seus requisitos frequentemente muito altos de RE. Recomendado se a equipe não se beneficiar dos buffs de ATQ% de outros conjuntos de 4p.  (Ex: Selo da Insulação + Gladiador/Reminiscência ou Donzela/Concha)",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "emblem_of_severed_fate",
+                        "gladiators_finale"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / ATK%",
+                "goblet": "ATK%",
+                "circlet": "Bônus de Cura% / Taxa CRIT (para Códice de Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "ATK%",
+                "Taxa CRIT (se usando Códice de Favonius)",
+                "Dano CRIT"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Melhor arma para cura de Charlotte por uma grande margem. Embora Charlotte não escale com HP, o reembolso de Energia desta arma alivia muito seus massivos requisitos de RE. ",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                },
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Alternativa recomendada ao Protótipo Âmbar. A passiva da arma reduz os requisitos de RE de Charlotte e de sua equipe. ",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                },
+                {
+                    "weapon_id": "thrilling_tales_of_dragon_slayers",
+                    "name": "Histórias Extraordinárias de Caçadores de Dragões",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha / Baús",
+                    "notes": "Utilizável apenas em cenários com requisitos de RE muito baixos. Buffa muito o ATQ de outro membro da equipe, mas não oferece benefícios para Charlotte. ",
+                    "icon_url": "/assets/images/weapons_detail/thrilling_tales_of_dragon_slayers.png"
+                },
+                {
+                    "weapon_id": "oathsworn_eye",
+                    "name": "Olho do Juramento (Oathsworn Eye)",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Evento (A SER VERIFICADO)",
+                    "notes": "Possui stats úteis como alto ATQ Base e sub-status de ATQ% ou RE%, mas ainda fica bem atrás do Protótipo Âmbar em termos de cura e redução de requisitos de RE. ",
+                    "icon_url": "/assets/images/weapons_detail/oathsworn_eye.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill) (menor prioridade, pode ser pulada para economizar materiais)",
+                "Ataque Normal (insignificante, pode permanecer não upado)"
+            ]
+        },
+        {
+            "key": "charlotte_offfield_dps_golden_troupe",
+            "name": "DPS Off-field (Trupe Dourada - Dano Pessoal)",
+            "notes_build": "Focada em aumentar o dano pessoal de Charlotte, principalmente de sua Habilidade Elemental (Segurar), enquanto ainda fornece boa cura. Funciona especialmente bem se ela for buffada pela Pena Glacial de Shenhe. ",
+            "artifacts": [
+                {
+                    "set_id": "golden_troupe",
+                    "set_name": "Trupe Dourada",
+                    "pieces": 4,
+                    "notes": "Bom para o dano pessoal de Charlotte, já que sua Habilidade Elemental (Segurar) é seu Talento com maior dano. ",
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
+                },
+                {
+                    "set_id": "blizzard_strayer",
+                    "set_name": "Herói Invernal",
+                    "pieces": 4,
+                    "notes": "Em times que conseguem manter aura Cryo ou Congelamento, este conjunto permite que Charlotte invista em mais stats ofensivos e ative a passiva do Códice de Favonius de forma muito confiável sem um Cálice de Taxa CRIT. ",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Cryo / ATK%",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "ATK%",
+                "Taxa CRIT / Dano CRIT"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "kaguras_verity",
+                    "name": "Verdade de Kagura",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para buffar a Habilidade Elemental de Charlotte, já que ela usa bem sua passiva, assumindo que os requisitos de RE já foram atendidos. ",
+                    "icon_url": "/assets/images/weapons_detail/kaguras_verity.png"
+                },
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Ainda uma ótima opção para utilidade da equipe, mesmo em builds focadas em dano.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Diversas armas ofensivas podem ser usadas para aumentar o dano pessoal de Charlotte, mas são viáveis apenas com requisitos de RE muito baixos. ",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        }
+    ]
+}

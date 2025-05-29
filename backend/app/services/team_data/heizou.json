@@ -1,0 +1,110 @@
+[
+    {
+        "id": "heizou_xingqiu_fischl_beidou_taser_driver",
+        "name": "Heizou - Taser Driver (Xingqiu, Fischl, Beidou)",
+        "strategy": "Heizou como driver on-field em times Eletricamente Carregados (Taser), utilizando unidades fortes de dano Hydro e Electro off-field. Heizou contribui com Sombra Verde e dano de Redemoinho.",
+        "characters_in_team": [
+            {
+                "character_id": "heizou",
+                "role_in_team": "Driver Anemo On-field (EM Build)",
+                "build_key": "heizou_onfield_driver_vv_full_em_sacrificial_fragments"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field (Dano em Área)",
+                "build_key": "beidou_offfield_dps_emblem"
+            }
+        ]
+    },
+    {
+        "id": "heizou_xiangling_bennett_xingqiu_reverse_vape",
+        "name": "Heizou - Reverse Vape (Xiangling, Bennett, Xingqiu)",
+        "strategy": "Heizou pode suportar efetivamente um DPS Pyro on-field em times de Vaporizar Reverso devido ao seu buff de EM e capacidade de usar 4p Sombra Verde e Histórias Extraordinárias. Com um DPS Pyro off-field como Xiangling, Heizou pode atuar como driver on-field.",
+        "characters_in_team": [
+            {
+                "character_id": "heizou",
+                "role_in_team": "Driver Anemo On-field / Suporte (VV, TTDS)",
+                "build_key": "heizou_vv_support_ttds_hakushin"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field (Vaporize)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            }
+        ]
+    },
+    {
+        "id": "heizou_rosaria_kaeya_xingqiu_freeze_support",
+        "name": "Heizou - Suporte Congelamento (Rosaria, Kaeya, Xingqiu)",
+        "strategy": "Heizou é um suporte viável em times de Congelamento se faltarem opções como Kazuha ou Venti. Seu dano pessoal, Redução de RES de Sombra Verde e capacidade de usar Histórias Extraordinárias o tornam uma opção eficaz.",
+        "characters_in_team": [
+            {
+                "character_id": "heizou",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer TTDS)",
+                "build_key": "heizou_vv_support_ttds_hakushin"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo Off-field / Buffer de Taxa CRIT",
+                "build_key": "rosaria_cryo_subdps_noblesse_favonius"
+            },
+            {
+                "character_id": "kaeya",
+                "role_in_team": "Sub-DPS Cryo Off-field / Aplicador Cryo",
+                "build_key": "kaeya_cryo_subdps_blizzard_strayer_favonius"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            }
+        ]
+    },
+    {
+        "id": "heizou_faruzan_xiangling_bennett_anemo_dps_quickswap",
+        "name": "Heizou - DPS Anemo Quickswap (Faruzan, Xiangling, Bennett)",
+        "strategy": "Com a introdução de Faruzan, o potencial de dano de unidades Anemo DPS aumenta, tornando o estilo de jogo de DPS de troca rápida de Heizou mais viável. Unidades de dano off-field como Xiangling e Bennett complementam.",
+        "characters_in_team": [
+            {
+                "character_id": "heizou",
+                "role_in_team": "DPS Anemo Quickswap/On-field (ADC Build)",
+                "build_key": "heizou_anemo_dps_vv_adc_skyward_atlas"
+            },
+            {
+                "character_id": "faruzan",
+                "role_in_team": "Suporte Anemo (Buffer de Dano Anemo & RES Shred Anemo)",
+                "build_key": "faruzan_anemo_buffer_noblesse_favonius_er"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    }
+]

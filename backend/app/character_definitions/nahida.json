@@ -1,0 +1,224 @@
+{
+    "id": "nahida",
+    "name": "Nahida",
+    "element": "Dendro",
+    "rarity": 5,
+    "weapon": "Catalyst",
+    "role": [
+        "Off-Field Focus (Suporte/Sub-DPS)",
+        "On-Field Focus (Driver/DPS Principal)"
+    ],
+    "icon_url": "/assets/images/characters/nahida.png",
+    "element_icon_url": "/assets/images/elements/element_dendro.png",
+    "build_options": [
+        {
+            "key": "nahida_offfield_support_deepwood",
+            "name": "Suporte Off-field (Memórias da Floresta)",
+            "notes_build": "Foco em aplicar Dendro e reduzir a RES Dendro dos inimigos com 4p Memórias da Floresta, beneficiando todo o time em reações Dendro.  EM é uma prioridade para maximizar o dano da sua Habilidade e o buff do seu Talento de Ascensão 1.  Nível 90 é recomendado para maximizar o dano de reação. ",
+            "artifacts": [
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Conjunto generalista útil, aumenta o dano pessoal de Nahida e reduz a RES Dendro dos inimigos, aumentando o dano de Espalhar, Florescimento, Superflorecimento e Germinação do time. ",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental",
+                "goblet": "Proficiência Elemental / Bônus de Dano Dendro",
+                "circlet": "Proficiência Elemental / Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até o requisito)",
+                "Proficiência Elemental (objetivo de 900-1000 para maximizar A1 se o DPS on-field se beneficiar) ",
+                "Taxa CRIT / Dano CRIT",
+                "Bônus de Dano Dendro"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "a_thousand_floating_dreams",
+                    "name": "Mil Sonhos Flutuantes",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Arma assinatura e geralmente a melhor para dano pessoal. ",
+                    "icon_url": "/assets/images/weapons_detail/a_thousand_floating_dreams.png"
+                },
+                {
+                    "weapon_id": "wandering_evenstar",
+                    "name": "Estrela Errante",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Opção competitiva que pode ter desempenho similar a Mil Sonhos Flutuantes em termos de dano de equipe, se houver aliados que se beneficiem do buff de ATQ. ",
+                    "icon_url": "/assets/images/weapons_detail/wandering_evenstar.png"
+                },
+                {
+                    "weapon_id": "magic_guide",
+                    "name": "Guia de Magia",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha / Baús",
+                    "notes": "Opção F2P base, surpreendentemente boa se a aura Hydro ou Electro puder ser mantida de forma confiável. ",
+                    "icon_url": "/assets/images/weapons_detail/magic_guide.png"
+                },
+                {
+                    "weapon_id": "sacrificial_fragments",
+                    "name": "Fragmentos do Sacrifício",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Bom pelas sub-stats de Proficiência Elemental, embora o uso extra da Habilidade Elemental não seja tão impactante, já que Nahida não gera partículas na conjuração. ",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_fragments.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) ",
+                "Supremo (Burst) ",
+                "Ataque Normal "
+            ]
+        },
+        {
+            "key": "nahida_offfield_dps_golden_troupe",
+            "name": "DPS Off-field (Trupe Dourada - Dano Pessoal)",
+            "notes_build": "Foco em maximizar o dano pessoal de Nahida, especialmente se outro personagem já estiver usando 4p Memórias da Floresta ou se ela for a única causadora de dano Dendro.  Nível 90 é recomendado. ",
+            "artifacts": [
+                {
+                    "set_id": "golden_troupe",
+                    "set_name": "Trupe Dourada",
+                    "pieces": 4,
+                    "notes": "Geralmente o melhor conjunto para o dano pessoal de Nahida, mesmo em times sem um portador de Memórias da Floresta. ",
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Alternativa à Trupe Dourada para maximizar o dano pessoal de Nahida. ",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental",
+                "goblet": "Proficiência Elemental / Bônus de Dano Dendro",
+                "circlet": "Taxa CRIT / Dano CRIT / Proficiência Elemental"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental",
+                "Bônus de Dano Dendro"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "a_thousand_floating_dreams",
+                    "name": "Mil Sonhos Flutuantes",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Melhor opção para dano pessoal. ",
+                    "icon_url": "/assets/images/weapons_detail/a_thousand_floating_dreams.png"
+                },
+                {
+                    "weapon_id": "kaguras_verity",
+                    "name": "Verdade de Kagura",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Competitiva com Mil Sonhos Flutuantes, especialmente para Nahida on-field. ",
+                    "icon_url": "/assets/images/weapons_detail/kaguras_verity.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha (A SER VERIFICADO)",
+                    "notes": "Vários buffs de CRIT. O desempenho depende do buff ativo. ",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) ",
+                "Supremo (Burst) ",
+                "Ataque Normal "
+            ]
+        },
+        {
+            "key": "nahida_onfield_driver_bloom_reactions",
+            "name": "Driver On-field (Reações de Florescimento)",
+            "notes_build": "Utiliza os Ataques Normais e Carregados de Nahida para aplicação Dendro de alta frequência, ideal para gerar muitas Sementes Dendro em times de Florescimento, Hiperflorescimento ou Germinação.  Proficiência Elemental é valiosa, mas Bônus de Dano Dendro e CRIT ganham valor. ",
+            "artifacts": [
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Ainda muito valioso para reduzir a RES Dendro dos inimigos, beneficiando as reações. ",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Boa opção se outro personagem já estiver usando Memórias da Floresta, fornecendo Proficiência Elemental. ",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental",
+                "goblet": "Bônus de Dano Dendro / Proficiência Elemental",
+                "circlet": "Taxa CRIT / Dano CRIT / Proficiência Elemental"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até o requisito)",
+                "Bônus de Dano Dendro",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "a_thousand_floating_dreams",
+                    "name": "Mil Sonhos Flutuantes",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Excelente devido à alta Proficiência Elemental e buffs. ",
+                    "icon_url": "/assets/images/weapons_detail/a_thousand_floating_dreams.png"
+                },
+                {
+                    "weapon_id": "kaguras_verity",
+                    "name": "Verdade de Kagura",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Competitiva, especialmente para Nahida on-field. ",
+                    "icon_url": "/assets/images/weapons_detail/kaguras_verity.png"
+                },
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Nahida on-field pode ativar a passiva múltiplas vezes, reduzindo significativamente os requisitos de RE da equipe. ",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                },
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Opção de suporte que oferece cura para a equipe, especialmente útil em times com Furina. ",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) ",
+                "Supremo (Burst) ",
+                "Ataque Normal (maior prioridade se on-field) "
+            ]
+        }
+    ]
+}

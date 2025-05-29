@@ -1,0 +1,61 @@
+/* frontend/src/components/CharacterCard.css */
+.character-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    background-color: #f9f9f9;
+    position: relative;
+    /* Para o ícone do elemento */
+}
+
+.character-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.character-card.selected {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    background-color: #e7f3ff;
+}
+
+.character-icon {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    /* Ou 'contain' dependendo das suas imagens */
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+/* Adicione estilos para raridade se quiser bordas coloridas etc. */
+.rarity-5 {
+    /* border: 2px solid gold; */
+}
+
+.rarity-4 {
+    /* border: 2px solid purple; */
+}
+
+.character-name {
+    font-size: 1em;
+    margin: 0;
+    color: #333;
+}
+
+.character-element-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 25px;
+    /* Ajuste o tamanho conforme necessário */
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    padding: 2px;
+}

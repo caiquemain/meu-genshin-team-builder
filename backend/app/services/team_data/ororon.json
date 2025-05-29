@@ -1,0 +1,83 @@
+[
+    {
+        "id": "ororon_neuvillette_furina_kazuha_electro_charged",
+        "name": "Ororon - Eletricamente Carregado (Neuvillette, Furina, Kazuha)",
+        "strategy": "A habilidade de Ororon de ativar uma Carga Dracônica para Neuvillette e fornecer Bônus de Dano Hydro com 4p Pergaminho o torna um colega de equipe valioso. Ororon também se beneficia do buff de Dano% e RES Shred de Kazuha. ",
+        "characters_in_team": [
+            {
+                "character_id": "ororon",
+                "role_in_team": "Sub-DPS Electro Off-field / Suporte (Buffer com Pergaminho)",
+                "build_key": "ororon_offfield_dps_scroll_of_cinder_city"
+            },
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro (On-field)",
+                "build_key": "neuvillette_dps_marechaussee_hunter"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_favonius"
+            }
+        ]
+    },
+    {
+        "id": "ororon_yelan_arlecchino_bennett_overvape",
+        "name": "Ororon - Overvape (Yelan, Arlecchino, Bennett)",
+        "strategy": "Ororon aumenta o valor de status de Proficiência Elemental em Arlecchino, pois beneficia tanto seu dano de Vaporizar quanto de Sobrecarga. ",
+        "characters_in_team": [
+            {
+                "character_id": "ororon",
+                "role_in_team": "Sub-DPS Electro Off-field / Facilitador de Overvape",
+                "build_key": "ororon_offfield_dps_scroll_of_cinder_city"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "arlecchino",
+                "role_in_team": "Main DPS Pyro (On-field)",
+                "build_key": "arlecchino_pyro_dps_fragment_whimsy"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "ororon_chevreuse_mavuika_cyno_chevreuse_overload",
+        "name": "Ororon - Sobrecarga Chevreuse (Chevreuse, Mavuika, Cyno)",
+        "strategy": "Ororon e Mavuika formam uma boa dupla que se encaixa em muitos times de Sobrecarga. Cyno recebe buffs de Chevreuse, Ororon e Mavuika, permitindo-lhe causar dano notável. ",
+        "characters_in_team": [
+            {
+                "character_id": "ororon",
+                "role_in_team": "Sub-DPS Electro Off-field / Suporte",
+                "build_key": "ororon_offfield_dps_scroll_of_cinder_city"
+            },
+            {
+                "character_id": "chevreuse",
+                "role_in_team": "Suporte (Buffer de Sobrecarga, RES Shred Pyro/Electro, Healer)",
+                "build_key": "chevreuse_overload_buffer_songofdays_noblesse"
+            },
+            {
+                "character_id": "mavuika",
+                "role_in_team": "Sub-DPS Pyro Off-field / On-field / Facilitadora de Nightsoul",
+                "build_key": "mavuika_pyro_dps_subdps_nightsoul_enabler"
+            },
+            {
+                "character_id": "cyno",
+                "role_in_team": "Main DPS Electro (On-field Aggravate/Overload)",
+                "build_key": "cyno_electro_dps_gladiators_thunderingfury_staffofscarletsands"
+            }
+        ]
+    }
+]

@@ -1,0 +1,221 @@
+{
+    "id": "alhaitham",
+    "name": "Alhaitham",
+    "element": "Dendro",
+    "rarity": 5,
+    "weapon": "Sword",
+    "role": [
+        "On-Field DPS e Enabler"
+    ],
+    "icon_url": "/assets/images/characters/alhaitham.png",
+    "element_icon_url": "/assets/images/elements/element_dendro.png",
+    "build_options": [
+        {
+            "key": "alhaitham_spread_dps_gilded_dreams",
+            "name": "DPS Espalhar (Sonhos Dourados)",
+            "notes_build": "Foco em maximizar o dano de Espalhar como DPS on-field. 4p Sonhos Dourados é geralmente o melhor conjunto se outro personagem na equipe estiver usando 4p Memórias da Floresta. Priorize Nível 90 para Alhaitham, pois aumenta significativamente o dano de suas reações.",
+            "artifacts": [
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto geral para Alhaitham, desde que um colega de equipe possa usar 4p Memórias da Floresta.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "deepwood_gilded_2pc_em_mix",
+                    "set_name": "Memórias da Floresta (2p EM) + Sonhos Dourados (2p EM)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de 2p EM são apenas ligeiramente mais fracas que 4p Sonhos Dourados e podem superar com melhores sub-stats.",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "deepwood_memories",
+                        "gilded_dreams"
+                    ]
+                },
+                {
+                    "set_id": "golden_troupe",
+                    "set_name": "Trupe Dourada",
+                    "pieces": 4,
+                    "notes": "Opção competitiva que performa similar a combinações 2p+2p. Pode ter melhor uptime em rotações divididas ou trocando durante a animação do Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) > ATK%",
+                "goblet": "Bônus de Dano Dendro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até o requisito)",
+                "Proficiência Elemental (200-300 incluindo buffs)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "light_of_foliar_incision",
+                    "name": "Luz das Folhas Cortadas",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Alhaitham em cenários single-target.",
+                    "icon_url": "/assets/images/weapons_detail/light_of_foliar_incision.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Segunda melhor opção em single-target e melhor em multi-target.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "wolf_fang",
+                    "name": "Presa do Lobo (Wolf-Fang)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Passe de Batalha",
+                    "notes": "Melhor opção 4 estrelas para Alhaitham, performando similar a Mistsplitter e Haran em R5. A passiva é perfeita para ele.",
+                    "icon_url": "/assets/images/weapons_detail/wolf_fang.png"
+                },
+                {
+                    "weapon_id": "iron_sting",
+                    "name": "Espinho de Ferro (Iron Sting)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Geralmente a melhor opção F2P devido ao sub-status de EM e passiva.",
+                    "icon_url": "/assets/images/weapons_detail/iron_sting.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal",
+                "Supremo (Burst) (prioridade igual ao Ataque Normal se usar Supremo toda rotação)"
+            ]
+        },
+        {
+            "key": "alhaitham_quickbloom_marechaussee_furina",
+            "name": "Quickbloom com Furina (Caçador das Sombras)",
+            "notes_build": "Utiliza Furina para buff de Dano e para ativar 4p Caçador das Sombras, que se torna a melhor opção para dano pessoal de Alhaitham. Cuidado para não exceder a Taxa CRIT.",
+            "artifacts": [
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras",
+                    "pieces": 4,
+                    "notes": "Praticamente a melhor opção para dano pessoal em times com Furina.",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / ATK%",
+                "goblet": "Bônus de Dano Dendro",
+                "circlet": "Dano CRIT (devido à alta Taxa CRIT do conjunto) / Taxa CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até o requisito)",
+                "Dano CRIT",
+                "Taxa CRIT (até o limite)",
+                "Proficiência Elemental (EM)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "light_of_foliar_incision",
+                    "name": "Luz das Folhas Cortadas",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Excelente opção.",
+                    "icon_url": "/assets/images/weapons_detail/light_of_foliar_incision.png"
+                },
+                {
+                    "weapon_id": "splendor_of_tranquil_waters",
+                    "name": "Esplendor das Águas Silenciosas (Splendor of Tranquil Waters)",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado) (A SER VERIFICADO)",
+                    "notes": "Ótima opção em times com flutuações de HP garantidas, como com Furina.",
+                    "icon_url": "/assets/images/weapons_detail/splendor_of_tranquil_waters.png"
+                },
+                {
+                    "weapon_id": "wolf_fang",
+                    "name": "Presa do Lobo (Wolf-Fang)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Passe de Batalha",
+                    "notes": "Continua sendo a melhor 4 estrelas.",
+                    "icon_url": "/assets/images/weapons_detail/wolf_fang.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal",
+                "Supremo (Burst)"
+            ]
+        },
+        {
+            "key": "alhaitham_enabler_deepwood_memories",
+            "name": "Enabler Dendro (Memórias da Floresta)",
+            "notes_build": "Focado em ser o único Dendro ou o principal aplicador/suporte Dendro, usando 4p Memórias da Floresta para reduzir a RES Dendro dos inimigos para o time. Tente usar o Supremo toda rotação para maximizar a aplicação Dendro.",
+            "artifacts": [
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Alhaitham em times sem outro portador viável deste conjunto, especialmente como único Dendro.",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / Recarga de Energia",
+                "goblet": "Bônus de Dano Dendro",
+                "circlet": "Taxa CRIT / Dano CRIT / Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (alta prioridade, >175% para Solo Dendro)",
+                "Proficiência Elemental (EM)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Forte opção para um estilo de jogo Enabler Solo Dendro onde ele usa o Supremo toda rotação, ajudando a reduzir os requisitos de RE da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "xiphos_moonlight",
+                    "name": "Luz Lunar de Xiphos (Xiphos' Moonlight)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado) (A SER VERIFICADO)",
+                    "notes": "Fornece EM e ajuda a cumprir os requisitos de RE de Alhaitham e dos colegas de equipe.",
+                    "icon_url": "/assets/images/weapons_detail/xiphos_moonlight.png"
+                },
+                {
+                    "weapon_id": "fleuve_cendre_ferryman",
+                    "name": "Cruzamento de Fleuve Cendre",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "F2P (Pesca)",
+                    "notes": "Opção F2P sólida em times Solo Dendro como Enabler, ou geralmente se Alhaitham tiver altos requisitos de RE (>145%).",
+                    "icon_url": "/assets/images/weapons_detail/fleuve_cendre_ferryman.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal"
+            ]
+        }
+    ]
+}

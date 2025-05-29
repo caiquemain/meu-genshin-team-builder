@@ -1,0 +1,221 @@
+{
+    "id": "barbara",
+    "name": "Barbara",
+    "element": "Hydro",
+    "rarity": 4,
+    "weapon": "Catalyst",
+    "role": [
+        "Healer Pura",
+        "DPS (Vaporizar / Concha Tingida Pelo Mar)"
+    ],
+    "icon_url": "/assets/images/characters/barbara.png",
+    "element_icon_url": "/assets/images/elements/element_hydro.png",
+    "build_options": [
+        {
+            "key": "barbara_pure_healer_ocean_hued_clam",
+            "name": "Healer Pura (Concha Tingida Pelo Mar)",
+            "notes_build": "Foco em maximizar a cura sustentada e de emergência. 4p Concha Tingida Pelo Mar é recomendado por contribuir com dano para a equipe enquanto oferece cura confortável. Nível 90 é recomendado para maximizar HP e cura.",
+            "artifacts": [
+                {
+                    "set_id": "ocean_hued_clam",
+                    "set_name": "Concha Tingida Pelo Mar",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para farmar, pois contribui com dano para a equipe enquanto fornece cura confortável.",
+                    "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png"
+                },
+                {
+                    "set_id": "maiden_beloved",
+                    "set_name": "Donzela Amada",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para cura pura, mas não é recomendado farmar intencionalmente. Use apenas se já tiver peças boas.",
+                    "icon_url": "/assets/images/artifact_sets/maiden_beloved.png"
+                },
+                {
+                    "set_id": "healing_2pc_mix_maiden_ocean",
+                    "set_name": "Donzela Amada (2p) + Concha Tingida (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinação de 2p de Bônus de Cura. Use as peças com melhores sub-status.",
+                    "icon_url": "/assets/images/artifact_sets/maiden_beloved.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "maiden_beloved",
+                        "ocean_hued_clam"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "HP%",
+                "goblet": "HP%",
+                "circlet": "Bônus de Cura%"
+            },
+            "sub_stats_priority": [
+                "HP%",
+                "HP Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "thrilling_tales_of_dragon_slayers",
+                    "name": "Histórias Extraordinárias de Caçadores de Dragões",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha / Baús",
+                    "notes": "Melhor arma para dano da equipe, devido ao buff de ATQ para o próximo personagem.",
+                    "icon_url": "/assets/images/weapons_detail/thrilling_tales_of_dragon_slayers.png"
+                },
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Arma F2P que espelha o Brilho Eterno da Lua. Performa ligeiramente pior, mas tem uma passiva útil que escala bem com refinamentos (cura para a equipe e regeneração de energia para Barbara).",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                },
+                {
+                    "weapon_id": "everlasting_moonglow",
+                    "name": "Brilho Eterno da Lua",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Apenas um 'stat stick' com passiva inutilizável para esta build.",
+                    "icon_url": "/assets/images/weapons_detail/everlasting_moonglow.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (não precisa upar)"
+            ]
+        },
+        {
+            "key": "barbara_dps_vaporize_wanderers_troupe",
+            "name": "DPS Vaporizar (Trupe Itinerante)",
+            "notes_build": "Estilo de jogo de nicho e complexo que foca em maximizar o tempo de campo de Barbara usando cancelamentos de animação rápidos e a reação de Vaporizar. Requer investimento em Proficiência Elemental e CRIT.",
+            "artifacts": [
+                {
+                    "set_id": "wanderers_troupe",
+                    "set_name": "Trupe Itinerante",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Barbara Vaporizar. Fornece Proficiência Elemental e buffa fortemente sua principal fonte de dano (Ataques Carregados).",
+                    "icon_url": "/assets/images/artifact_sets/wanderers_troupe.png"
+                },
+                {
+                    "set_id": "heart_of_depth_atk_2pc_mix",
+                    "set_name": "Profundezas do Coração (2p) + ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Conjunto para Vaporizar. Escolha entre 2p Reminiscência ou 2p Gladiador dependendo da qualidade dos sub-status.",
+                    "icon_url": "/assets/images/artifact_sets/heart_of_depth.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "heart_of_depth",
+                        "gladiators_finale"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / ATK%",
+                "goblet": "Bônus de Dano Hydro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM)",
+                "ATK%",
+                "HP%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "skyward_atlas",
+                    "name": "Atlas Celestial",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Melhor para dano pessoal. 'Stat stick' muito forte.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_atlas.png"
+                },
+                {
+                    "weapon_id": "lost_prayer_to_the_sacred_winds",
+                    "name": "Oração Perdida aos Ventos Sagrados",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "'Stat stick' de Taxa CRIT. Pode superar Atlas Celestial após Barbara ficar em campo por um período estendido.",
+                    "icon_url": "/assets/images/weapons_detail/lost_prayer_to_the_sacred_winds.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "'Stat stick' de Dano CRIT. Barbara é uma das poucas personagens Catalisadoras que pode se beneficiar dos 3 buffs da Sinfonia.",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                },
+                {
+                    "weapon_id": "mappa_mare",
+                    "name": "Mappa Mare",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja (A SER VERIFICADO)",
+                    "notes": "Melhor opção F2P. Barbara Vaporizar pode ter um bom uptime na passiva.",
+                    "icon_url": "/assets/images/weapons_detail/mappa_mare.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        },
+        {
+            "key": "barbara_dps_electro_charged_ocean_hued_clam",
+            "name": "DPS Eletricamente Carregado (Concha Tingida - Driver)",
+            "notes_build": "Barbara como driver em times de Eletricamente Carregado, utilizando 4p Concha Tingida Pelo Mar para dano adicional. Requer pelo menos 1 unidade Electro e 1 Cryo para Supercondutor (que buffa o dano Físico da Concha).",
+            "artifacts": [
+                {
+                    "set_id": "ocean_hued_clam",
+                    "set_name": "Concha Tingida Pelo Mar",
+                    "pieces": 4,
+                    "notes": "Usado em times de Eletricamente Carregado com Barbara como driver.",
+                    "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "HP%",
+                "goblet": "HP%",
+                "circlet": "Bônus de Cura%"
+            },
+            "sub_stats_priority": [
+                "HP%",
+                "HP Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "everlasting_moonglow",
+                    "name": "Brilho Eterno da Lua",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor opção para dano pessoal de Barbara. Ela pode utilizar a passiva aqui.",
+                    "icon_url": "/assets/images/weapons_detail/everlasting_moonglow.png"
+                },
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Arma F2P que espelha o Brilho Eterno da Lua. Performa ligeiramente pior, mas tem passiva útil.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (para ativar reações e cura)"
+            ]
+        }
+    ]
+}

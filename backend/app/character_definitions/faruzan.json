@@ -1,0 +1,175 @@
+{
+    "id": "faruzan",
+    "name": "Faruzan",
+    "element": "Anemo",
+    "rarity": 4,
+    "weapon": "Bow",
+    "role": [
+        "Suporte Anemo (Buffer de Dano Anemo, Redução de RES Anemo)",
+        "DPS Anemo On-field (Com C6, menos comum)"
+    ],
+    "icon_url": "/assets/images/characters/faruzan.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "build_options": [
+        {
+            "key": "faruzan_anemo_support_favonius_er",
+            "name": "Suporte Anemo (Favonius - Foco em RE)",
+            "notes_build": "Foco em maximizar o buff para DPS Anemo e garantir o uptime do Supremo. Pré-C6, Faruzan tem requisitos de RE extremamente altos. C6 reduz significativamente a RE e melhora seus buffs.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Concede à equipe inteira um buff de 20% de ATQ por 12s após usar o Supremo de Faruzan. Não recomendado em times de hypercarry Anemo se o Supremo dela for usado no início da rotação, a menos que seja C2+ para melhor uptime do buff.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Uma escolha padrão para um personagem Anemo. Ao reduzir a RES Pyro, Hydro, Electro e/ou Cryo, este conjunto pode buffar o dano da equipe se houver colegas desses Elementos contribuindo com DPS significativo. [cite: 88]",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "the_exile",
+                    "set_name": "O Exilado",
+                    "pieces": 4,
+                    "notes": "Este conjunto pode ajudar a aliviar os problemas de Energia dos colegas de equipe de Faruzan. Como é um conjunto de 4 estrelas, recomenda-se maximizar a Recarga de Energia usando uma Areia de RE 5 estrelas de outro conjunto. [cite: 93]",
+                    "icon_url": "/assets/images/artifact_sets/the_exile.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%)",
+                "goblet": "Qualquer peça com mais RE% / Anemo DMG% (C6)",
+                "circlet": "Taxa CRIT (para Arco de Favonius) / Qualquer peça com mais RE%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~220-300% pré-C6, ~160-200% C6)",
+                "Taxa CRIT (para Arco de Favonius, ~50%+)",
+                "Dano CRIT (C6)",
+                "ATK% (C6)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_warbow",
+                    "name": "Arco de Guerra de Favonius",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha / Missão",
+                    "notes": "Indiscutivelmente a Melhor em Slot para Faruzan em quase todos os cenários. Reduz os requisitos de RE de toda a equipe. R5 é ideal para o cooldown da passiva.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_warbow.png"
+                },
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Forte opção 5 estrelas para Faruzan que fornece RE substancial de seu sub-status enquanto buffa sua equipe.",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                },
+                {
+                    "weapon_id": "sacrificial_bow",
+                    "name": "Arco do Sacrifício",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Outra opção de RE. Permite um segundo uso da Habilidade para mais partículas, mas pode estender a rotação.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_bow.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst) (para buff de Dano Anemo%)",
+                "Habilidade Elemental (Skill) (para dano e geração de partículas C6)",
+                "Ataque Normal (menor prioridade, usado para Tiro Carregado especial)"
+            ]
+        },
+        {
+            "key": "faruzan_c6_anemo_dps_support_totm",
+            "name": "C6 Suporte/DPS Anemo (Tenacidade dos Millelith)",
+            "notes_build": "Com C6, os requisitos de RE de Faruzan diminuem significativamente, permitindo buildar para dano pessoal enquanto ainda buffa massivamente. 4p Tenacidade dos Millelith se torna uma ótima opção devido aos vórtices de Colapso Pressurizado constantes.",
+            "artifacts": [
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Fornece um buff de 20% de ATQ e 30% de Força do Escudo para colegas de equipe próximos quando uma Habilidade Elemental atinge um oponente. Como C6 Faruzan ativará consistentemente vórtices de Colapso Pressurizado, ela pode fornecer bom uptime nos buffs de 4p Tenacidade.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                },
+                {
+                    "set_id": "golden_troupe",
+                    "set_name": "Trupe Dourada",
+                    "pieces": 4,
+                    "notes": "Os vórtices de Colapso Pressurizado ativados pelo C6 de Faruzan são considerados Dano de Habilidade Elemental, o que torna 4p Trupe Dourada a Melhor em Slot para o DPS pessoal de Faruzan.",
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
+                },
+                {
+                    "set_id": "anemo_atk_er_2pc_mix_c6",
+                    "set_name": "Anemo (2p) + ATQ% (2p) / RE% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Em C6, o dano pessoal de Faruzan representa uma porção considerável do DPS total da equipe. Usar um conjunto mais ofensivo contribui modestamente para o dano da equipe. (Ex: Sombra Verde + Gladiador/Selo da Insulação).",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "viridescent_venerer",
+                        "gladiators_finale"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / ATK%",
+                "goblet": "Bônus de Dano Anemo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ~160-185% em times Triplo Anemo C6)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_warbow",
+                    "name": "Arco de Guerra de Favonius",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha / Missão",
+                    "notes": "Ainda uma excelente escolha em C6 para utilidade da equipe e para atingir requisitos de RE mais baixos.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_warbow.png"
+                },
+                {
+                    "weapon_id": "polar_star",
+                    "name": "Estrela Invernal",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor em Slot para dano pessoal em C6, embora Harpa Celestial não fique muito atrás.",
+                    "icon_url": "/assets/images/weapons_detail/polar_star.png"
+                },
+                {
+                    "weapon_id": "skyward_harp",
+                    "name": "Harpa Celestial",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Disponibilidade no banner padrão a torna mais acessível que armas limitadas. Ainda uma opção forte de arco.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_harp.png"
+                },
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor para dano da equipe, embora Favonius não fique muito atrás em termos de utilidade de energia.",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+[
+    {
+        "id": "escoffier_freeze_ayaka_furina_shenhe",
+        "name": "Escoffier - Freeze com Ayaka e Furina (Shenhe)",
+        "strategy": "Time Freeze onde Escoffier substitui o suporte Anemo, fornecendo RES Shred Cryo/Hydro, dano off-field e cura para ativar a Fanfarra de Furina e a passiva da arma de Ayaka.",
+        "characters_in_team": [
+            {
+                "character_id": "escoffier",
+                "role_in_team": "Sub-DPS Cryo / Healer / Debuffer",
+                "build_key": "off_field_cryo_hydro_support"
+            },
+            {
+                "character_id": "ayaka",
+                "role_in_team": "Main DPS Cryo",
+                "build_key": "ayaka_dps_blizzard_mistsplitter"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano",
+                "build_key": "furina_hydro_subdps_golden_troupe"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer)",
+                "build_key": "shenhe_cryo_buffer_noblesse_calamity"
+            }
+        ]
+    },
+    {
+        "id": "escoffier_freeze_wriothesley_furina_yelan",
+        "name": "Escoffier - Freeze com Wriothesley e Furina (Yelan)",
+        "strategy": "Escoffier fornece RES Shred e cura para Wriothesley, que aprecia o uptime alto dos buffs. Yelan para dano Hydro off-field adicional.",
+        "characters_in_team": [
+            {
+                "character_id": "escoffier",
+                "role_in_team": "Sub-DPS Cryo / Healer / Debuffer",
+                "build_key": "off_field_cryo_hydro_support"
+            },
+            {
+                "character_id": "wriothesley",
+                "role_in_team": "Main DPS Cryo",
+                "build_key": "wriothesley_dps_marechaussee_cashflow"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano",
+                "build_key": "furina_hydro_subdps_golden_troupe"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            }
+        ]
+    },
+    {
+        "id": "escoffier_freeze_neuvillette_furina_citlali",
+        "name": "Escoffier - Freeze com Neuvillette e Furina (Citlali)",
+        "strategy": "Embora Neuvillette tradicionalmente prefira times com mais elementos, Escoffier compensa com RES Shred e dano pessoal. Citlali (Catalisador Cryo) pode usar Pergaminho do Herói e fornecer escudo.",
+        "characters_in_team": [
+            {
+                "character_id": "escoffier",
+                "role_in_team": "Sub-DPS Cryo / Healer / Debuffer",
+                "build_key": "off_field_cryo_hydro_support"
+            },
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro",
+                "build_key": "neuvillette_hydro_dps_marechaussee"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano",
+                "build_key": "furina_hydro_subdps_golden_troupe"
+            },
+            {
+                "character_id": "citlali",
+                "role_in_team": "Suporte Cryo (Buff com Pergaminho do Herói, Escudo)",
+                "build_key": "citlali_cryo_support_scroll_favonius"
+            }
+        ]
+    },
+    {
+        "id": "escoffier_melt_mavuika_citlali_bennett",
+        "name": "Escoffier - Melt com Mavuika (Citlali, Bennett)",
+        "strategy": "Time Double Cryo Melt. Escoffier e Citlali fornecem aplicação Cryo e Ressonância Cryo. Mavuika como Main DPS Pyro Melt. Bennett para buff de ATK e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "escoffier",
+                "role_in_team": "Sub-DPS Cryo / Aplicador Cryo",
+                "build_key": "off_field_cryo_hydro_support"
+            },
+            {
+                "character_id": "mavuika",
+                "role_in_team": "Main DPS Pyro (Melt)",
+                "build_key": "mavuika_pyro_dps_melt_obsidian"
+            },
+            {
+                "character_id": "citlali",
+                "role_in_team": "Suporte Cryo (Buff com Pergaminho do Herói, RES Shred Pyro)",
+                "build_key": "citlali_cryo_support_scroll_favonius"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer & Healer)",
+                "build_key": "bennett_support_noblesse_er"
+            }
+        ]
+    }
+]

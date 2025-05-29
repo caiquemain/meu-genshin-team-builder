@@ -1,0 +1,200 @@
+{
+    "id": "yoimiya",
+    "name": "Yoimiya",
+    "element": "Pyro",
+    "rarity": 5,
+    "weapon": "Bow",
+    "role": [
+        "On-Field DPS"
+    ],
+    "icon_url": "/assets/images/characters/yoimiya.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "build_options": [
+        {
+            "key": "yoimiya_dps_shimenawas_reminiscence",
+            "name": "DPS Principal (Reminiscência Nostálgica)",
+            "notes_build": "Opção mais consistente e recomendação base para quase todos os times da Yoimiya. Requer 15+ de Energia ao usar a Habilidade Elemental para ativar o efeito do conjunto. O Supremo geralmente não é usado ou usado com pouca frequência com este conjunto. ",
+            "artifacts": [
+                {
+                    "set_id": "shimenawas_reminiscence",
+                    "set_name": "Reminiscência Nostálgica",
+                    "pieces": 4,
+                    "notes": "Fornece um grande bônus de Dano de Ataque Normal, mas consome Energia. ",
+                    "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / EM (EM para times de Reação) ",
+                "goblet": "Bônus de Dano Pyro ]",
+                "circlet": "Taxa CRIT / Dano CRIT "
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT ",
+                "ATK% ",
+                "Proficiência Elemental (EM) (especialmente para times de Vaporizar/Sobrecarga) ",
+                "Recarga de Energia (baixa prioridade) "
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "thundering_pulse",
+                    "name": "Agitação Trovejante",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Melhor opção para Yoimiya, fácil de manter os acúmulos. ",
+                    "icon_url": "/assets/images/weapons_detail/thundering_pulse.png"
+                },
+                {
+                    "weapon_id": "rust",
+                    "name": "Arco Enferrujado (Rust)",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha (A SER VERIFICADO)",
+                    "notes": "Melhor arma 4 estrelas com Refinamento 5, superando muitas 5 estrelas. ",
+                    "icon_url": "/assets/images/weapons_detail/rust.png"
+                },
+                {
+                    "weapon_id": "slingshot",
+                    "name": "Estilingue (Slingshot)",
+                    "rarity": 3,
+                    "type": "Bow",
+                    "category": "Gacha (Baús) (A SER VERIFICADO)",
+                    "notes": "Excelente opção 3 estrelas (R5), especialmente com Bennett e/ou Yun Jin. ",
+                    "icon_url": "/assets/images/weapons_detail/slingshot.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Segunda melhor opção 5 estrelas, requer proximidade do inimigo. ",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal ",
+                "Habilidade Elemental (Skill) ",
+                "Supremo (Burst) (baixa prioridade, especialmente com 4p Shimenawa) "
+            ]
+        },
+        {
+            "key": "yoimiya_vape_crimson_witch",
+            "name": "DPS Vaporizar (Bruxa das Chamas Carmesim)",
+            "notes_build": "Alternativa para times focados em Vaporizar, permitindo o uso mais frequente do Supremo em comparação com Reminiscência Nostálgica. ",
+            "artifacts": [
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "set_name": "Bruxa das Chamas Carmesim",
+                    "pieces": 4,
+                    "notes": "Aumenta o dano de Vaporizar e Sobrecarga. Yoimiya geralmente ganha 1 acúmulo do efeito de 4 peças. ",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / ATK% ",
+                "goblet": "Bônus de Dano Pyro ",
+                "circlet": "Taxa CRIT / Dano CRIT "
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT ",
+                "Proficiência Elemental (EM) ",
+                "ATK% ",
+                "Recarga de Energia (se usando Supremo regularmente) "
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "thundering_pulse",
+                    "name": "Agitação Trovejante",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Continua sendo uma excelente opção. ",
+                    "icon_url": "/assets/images/weapons_detail/thundering_pulse.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Ótima opção, especialmente se Yelan/Fischl não a estiverem usando. ",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                },
+                {
+                    "weapon_id": "rust",
+                    "name": "Arco Enferrujado (Rust)",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha (A SER VERIFICADO)",
+                    "notes": "R5 ainda é muito forte. ",
+                    "icon_url": "/assets/images/weapons_detail/rust.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal ",
+                "Habilidade Elemental (Skill) ",
+                "Supremo (Burst) "
+            ]
+        },
+        {
+            "key": "yoimiya_furina_marechaussee_hunter",
+            "name": "DPS com Furina (Caçador das Sombras)",
+            "notes_build": "Melhor opção de artefatos quando em time com Furina, devido à mecânica de perda/ganho de Vida da Furina ativando o efeito do conjunto. ",
+            "artifacts": [
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras",
+                    "pieces": 4,
+                    "notes": "Fornece uma quantidade massiva de Taxa CRIT quando a Vida flutua. ",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / EM ",
+                "goblet": "Bônus de Dano Pyro / ATK% / EM (dependendo dos buffs e substats) ",
+                "circlet": "Dano CRIT (devido à alta Taxa CRIT do conjunto) / Taxa CRIT (se necessário) "
+            },
+            "sub_stats_priority": [
+                "Dano CRIT ",
+                "Taxa CRIT (até um certo ponto, depois Dano CRIT) ",
+                "ATK% ",
+                "Proficiência Elemental (EM) "
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "thundering_pulse",
+                    "name": "Agitação Trovejante",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Excelente escolha. ",
+                    "icon_url": "/assets/images/weapons_detail/thundering_pulse.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Muito forte nesta composição. ",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                },
+                {
+                    "weapon_id": "the_first_great_magic",
+                    "name": "A Primeira Grande Mágica",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Opção viável com bom Dano CRIT e ATK%. ",
+                    "icon_url": "/assets/images/weapons_detail/the_first_great_magic.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal ",
+                "Habilidade Elemental (Skill) ",
+                "Supremo (Burst) "
+            ]
+        }
+    ]
+}

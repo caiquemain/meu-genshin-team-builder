@@ -1,0 +1,192 @@
+{
+    "id": "ayaka",
+    "name": "Kamisato Ayaka",
+    "element": "Cryo",
+    "rarity": 5,
+    "weapon": "Sword",
+    "role": [
+        "Burst DPS",
+        "On-Field DPS"
+    ],
+    "icon_url": "/assets/images/characters/ayaka.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "build_options": [
+        {
+            "key": "ayaka_freeze_dps_blizzard_mistsplitter",
+            "name": "DPS Congelamento (Herói Invernal - Cortadora da Neblina)",
+            "notes_build": "Build premium para times de Congelamento, focada em maximizar o dano do Supremo de Ayaka. 4p Herói Invernal é essencial. Mistsplitter Reforged é sua melhor arma. Requer gerenciamento de energia para uso consistente do Supremo.",
+            "artifacts": [
+                {
+                    "set_id": "blizzard_strayer",
+                    "set_name": "Herói Invernal",
+                    "pieces": 4,
+                    "notes": "Opção mais comum e recomendada para Ayaka. Seu conjunto mais otimizado na maioria das situações devido à alta contagem de aplicação de aura Cryo.",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Cryo",
+                "circlet": "Dano CRIT (preferencial com 4p Herói Invernal) / ATK%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~140% para flexibilidade, ou 100-110% com R5 Amenoma)",
+                "Dano CRIT",
+                "ATK%",
+                "Taxa CRIT (menor prioridade com 4p Herói Invernal e Ressonância Cryo)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma e assinatura de Ayaka. Ela consegue utilizar completamente suas passivas.",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "haran_geppaku_futsu",
+                    "name": "Haran Geppaku Futsu",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Ótima opção, escala bem com Ayaka em times de Congelamento.",
+                    "icon_url": "/assets/images/weapons_detail/haran_geppaku_futsu.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Pode ser complicado de buildar devido à alta Taxa CRIT, que pode exceder o limite com 4p Herói Invernal e Ressonância Cryo. Ainda uma opção fantástica.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)"
+            ]
+        },
+        {
+            "key": "ayaka_freeze_dps_blizzard_f2p_weapon",
+            "name": "DPS Congelamento (Herói Invernal - Arma F2P)",
+            "notes_build": "Opção F2P para times de Congelamento, utilizando armas forjáveis como Amenoma Kageuchi ou Finale of the Deep. 4p Herói Invernal continua sendo o conjunto de artefatos ideal.",
+            "artifacts": [
+                {
+                    "set_id": "blizzard_strayer",
+                    "set_name": "Herói Invernal",
+                    "pieces": 4,
+                    "notes": "Essencial para maximizar o dano em times de Congelamento.",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Cryo",
+                "circlet": "Dano CRIT / ATK%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (100-110% com R5 Amenoma, um pouco mais com Finale of the Deep)",
+                "Dano CRIT",
+                "ATK%",
+                "Taxa CRIT"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "finale_of_the_deep",
+                    "name": "Canção Profunda (Finale of the Deep)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja (Fontaine) (A SER VERIFICADO)",
+                    "notes": "Nova arma forjável recomendada e melhor opção 4 estrelas para Ayaka se o Contrato de Vida for limpo por um curandeiro forte.",
+                    "icon_url": "/assets/images/weapons_detail/finale_of_the_deep.png"
+                },
+                {
+                    "weapon_id": "amenoma_kageuchi",
+                    "name": "Espada Amenoma Kageuchi (Amenoma Kageuchi)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja (A SER VERIFICADO)",
+                    "notes": "Ajuda muito com a Recarga de Energia de Ayaka, reduzindo a necessidade de RE em ~40% com R5. Mais fácil de buildar e encaixar em times sem curandeiros fortes.",
+                    "icon_url": "/assets/images/weapons_detail/amenoma_kageuchi.png"
+                },
+                {
+                    "weapon_id": "kagotsurube_isshin",
+                    "name": "Lâmina Kageotsurube Isshin (Kagotsurube Isshin)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Missão (A SER VERIFICADO)",
+                    "notes": "Dada gratuitamente durante a história. Viável se quiser economizar materiais de forja.",
+                    "icon_url": "/assets/images/weapons_detail/kagotsurube_isshin.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)"
+            ]
+        },
+        {
+            "key": "ayaka_mono_cryo_dps_blizzard_strayer",
+            "name": "DPS Mono Cryo (Herói Invernal)",
+            "notes_build": "Cobre cenários onde Congelamento não é eficaz (ex: Chefes). Ainda se beneficia de 4p Herói Invernal (20% Taxa CRIT). Foco em dano Cryo bruto. Shenhe é uma grande adição, mas não obrigatória.",
+            "artifacts": [
+                {
+                    "set_id": "blizzard_strayer",
+                    "set_name": "Herói Invernal",
+                    "pieces": 4,
+                    "notes": "Apesar de perder parte do bônus de Taxa CRIT (20% vs 40% do Congelamento), ainda é frequentemente o melhor conjunto devido aos 20% de Taxa CRIT e Bônus de Dano Cryo.",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Cryo",
+                "circlet": "Dano CRIT / ATK%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%)",
+                "Dano CRIT",
+                "ATK%",
+                "Taxa CRIT"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Continua sendo a melhor opção para maximizar o dano pessoal.",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "summit_shaper",
+                    "name": "Cortador de Picos (Summit Shaper)",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado) (A SER VERIFICADO)",
+                    "notes": "Sólida devido ao alto ATQ Base e ATQ%, especialmente com escudo (Diona).",
+                    "icon_url": "/assets/images/weapons_detail/summit_shaper.png"
+                },
+                {
+                    "weapon_id": "finale_of_the_deep",
+                    "name": "Canção Profunda (Finale of the Deep)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja (Fontaine) (A SER VERIFICADO)",
+                    "notes": "Melhor opção 4 estrelas se puder limpar o Contrato de Vida com um curandeiro.",
+                    "icon_url": "/assets/images/weapons_detail/finale_of_the_deep.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)"
+            ]
+        }
+    ]
+}

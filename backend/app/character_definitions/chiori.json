@@ -1,0 +1,113 @@
+{
+    "id": "chiori",
+    "name": "Chiori",
+    "element": "Geo",
+    "rarity": 5,
+    "weapon": "Sword",
+    "role": [
+        "Off-Field Geo DPS",
+        "On-Field Geo DPS (C6 Only)"
+    ],
+    "icon_url": "/assets/images/characters/chiori.png",
+    "element_icon_url": "/assets/images/elements/element_geo.png",
+    "build_options": [
+        {
+            "key": "chiori_offfield_dps_golden_troupe_uraku_misugiri",
+            "name": "DPS Geo Off-field (Trupe Dourada - Uraku Misugiri)",
+            "notes_build": "Foco principal no dano off-field de sua Habilidade Elemental (bonecas Tamoto). 4p Trupe Dourada é seu melhor conjunto. Uraku Misugiri é sua melhor arma. Priorize Nível 90 para DEF Base, pois ela escala com DEF e ATQ.",
+            "artifacts": [
+                {
+                    "set_id": "golden_troupe",
+                    "set_name": "Trupe Dourada",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto de artefatos para Chiori devido ao seu alto buff de Dano da Habilidade Elemental. ",
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
+                },
+                {
+                    "set_id": "husk_of_opulent_dreams",
+                    "set_name": "Casca de Sonhos Opulentos",
+                    "pieces": 4,
+                    "notes": "Segundo melhor conjunto de artefatos para Chiori, sendo ligeiramente pior que 4p Trupe Dourada.  Mantém facilmente 4 acúmulos a partir da segunda rotação. ",
+                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png"
+                },
+                {
+                    "set_id": "golden_troupe_husk_2pc_mix",
+                    "set_name": "Trupe Dourada (2p) + Casca de Sonhos Opulentos (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de 2 peças são boas peças de transição e podem superar 4p Casca se tiverem sub-stats melhores.  2p Trupe Dourada + 2p Casca é a melhor combinação (assumindo valor de sub-stat igual). ",
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "golden_troupe",
+                        "husk_of_opulent_dreams"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "DEF%",
+                "goblet": "Bônus de Dano Geo ≥ DEF%",
+                "circlet": "Taxa CRIT / Dano CRIT > DEF%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "DEF%",
+                "ATK%",
+                "Recarga de Energia (ER%) (baixa prioridade, Supremo usado quando disponível)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "uraku_misugiri",
+                    "name": "Urakugo Rensai (Uraku Misugiri)",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor espada para Chiori de longe. Sua passiva é feita sob medida para ela. ",
+                    "icon_url": "/assets/images/weapons_detail/uraku_misugiri.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Segunda melhor arma geral de Chiori. ",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "harbinger_of_dawn",
+                    "name": "Prenúncio do Alvorecer",
+                    "rarity": 3,
+                    "type": "Sword",
+                    "category": "Gacha / Baús",
+                    "notes": "Opção F2P acessível base se você perdeu Haste de Cinábrio.  Fácil manter a passiva já que Chiori fica off-field.  Em times com Furina, requer curandeiro forte para manter a passiva. ",
+                    "icon_url": "/assets/images/weapons_detail/harbinger_of_dawn.png"
+                },
+                {
+                    "weapon_id": "cinnabar_spindle",
+                    "name": "Haste de Cinábrio",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Evento",
+                    "notes": "Performa no mesmo nível que Prenúncio do Alvorecer. Arma exclusiva de evento. ",
+                    "icon_url": "/assets/images/weapons_detail/cinnabar_spindle.png"
+                },
+                {
+                    "weapon_id": "wolf_fang",
+                    "name": "Presa do Lobo (Wolf-Fang)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Passe de Batalha",
+                    "notes": "R5 pode performar 2-5% melhor que Prenúncio do Alvorecer dependendo do time.  Uma das poucas opções acessíveis se Prenúncio não puder ser usado (ex: time com Furina sem escudo/cura forte). ",
+                    "icon_url": "/assets/images/weapons_detail/wolf_fang.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Nível do Personagem para 90",
+                "Supremo (Burst) (menor prioridade)",
+                "Ataque Normal (raramente usado antes de C6)"
+            ]
+        }
+    ]
+}

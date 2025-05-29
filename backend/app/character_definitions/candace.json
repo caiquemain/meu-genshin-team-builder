@@ -1,0 +1,178 @@
+{
+    "id": "candace",
+    "name": "Candace",
+    "element": "Hydro",
+    "rarity": 4,
+    "weapon": "Polearm",
+    "role": [
+        "Suporte Off-Field (Infusão Hydro, Bônus de Dano de Ataque Normal)",
+        "DPS On-Field / Driver (Builds de nicho)"
+    ],
+    "icon_url": "/assets/images/characters/candace.png",
+    "element_icon_url": "/assets/images/elements/element_hydro.png",
+    "build_options": [
+        {
+            "key": "candace_support_hydro_infusion_favonius",
+            "name": "Suporte (Infusão Hydro - Lança de Favonius)",
+            "notes_build": "Focada em fornecer Infusão Hydro e Bônus de Dano de Ataque Normal para o personagem em campo. Requer alta Recarga de Energia, especialmente como única Hydro. Lança de Favonius é excelente para ajudar com a RE dela e da equipe. Priorize Nível do Personagem para maximizar o buff A4 (escalado com HP Máx).",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Alternativa ao Pergaminho, com performance similar ou melhor em times que escalam com ATQ.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "scroll_of_the_hero_of_cinder_city",
+                    "set_name": "Pergaminho do Herói da Cidade das Cinzas",
+                    "pieces": 4,
+                    "notes": "Conjunto forte, especialmente para personagens que não escalam com ATQ. O efeito de 2 peças ajuda muito com os requisitos de RE de Candace em times com um personagem de Natlan.",
+                    "icon_url": "/assets/images/artifact_sets/scroll_of_the_hero_of_cinder_city.png"
+                },
+                {
+                    "set_id": "instructor",
+                    "set_name": "Instrutor",
+                    "pieces": 4,
+                    "notes": "Fornece um bom buff de Proficiência Elemental, valioso em times baseados em reação. Candace precisa ativar uma reação em campo. Stats de 4 estrelas dificultam atingir RE e Taxa CRIT para Favonius.",
+                    "icon_url": "/assets/images/artifact_sets/instructor.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / HP%",
+                "goblet": "HP%",
+                "circlet": "HP% / Taxa CRIT (para Lança de Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT (para Lança de Favonius)",
+                "HP%",
+                "Dano CRIT"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Opção principal para Candace, pois reduz os requisitos de RE para toda a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                },
+                {
+                    "weapon_id": "rightful_reward",
+                    "name": "Recompensa Justa (Rightful Reward)",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Forja (Fontaine) (A SER VERIFICADO)",
+                    "notes": "Arma forjável com passiva que restaura Energia para Candace quando ela recebe cura. Sub-status de HP% também é apreciado.",
+                    "icon_url": "/assets/images/weapons_detail/rightful_reward.png"
+                },
+                {
+                    "weapon_id": "black_tassel",
+                    "name": "Borla Preta",
+                    "rarity": 3,
+                    "type": "Polearm",
+                    "category": "Baús / Gacha",
+                    "notes": "Opção barata que melhora seu buff de Dano de Ataque Normal (A4). Não ajuda com RE.",
+                    "icon_url": "/assets/images/weapons_detail/black_tassel.png"
+                },
+                {
+                    "weapon_id": "the_catch",
+                    "name": "A Fisgada",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "F2P (Pesca)",
+                    "notes": "Ajuda Candace a atingir seus requisitos de RE enquanto buffa a maior parte de seu dano (Supremo).",
+                    "icon_url": "/assets/images/weapons_detail/the_catch.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem para 90",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (baixa prioridade para suporte)"
+            ]
+        },
+        {
+            "key": "candace_bloom_dps_flower_of_paradise_lost_em",
+            "name": "DPS Florescimento (Flor do Paraíso Perdido - Full EM)",
+            "notes_build": "Build para Candace causar dano de Florescimento através de sua aplicação Hydro off-field ou com sua Infusão Hydro on-field. Esta build não deve ser usada em times de Hiperflorecimento ou Germinação.",
+            "artifacts": [
+                {
+                    "set_id": "flower_of_paradise_lost",
+                    "set_name": "Flor do Paraíso Perdido",
+                    "pieces": 4,
+                    "notes": "Conjunto feito sob medida para reações de Florescimento e o melhor para Candace em times de Nilou Bloom.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Performa pior que Flor do Paraíso Perdido, mas pode ser farmado de forma mais eficiente junto com Memórias da Floresta.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "em_2pc_mix_paradise_gilded_bloom",
+                    "set_name": "Proficiência Elemental (2p) + Proficiência Elemental (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de 2p de EM (ex: Flor do Paraíso + Sonhos Dourados/Trupe Itinerante) são o mínimo para um estilo de jogo de Florescimento.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "flower_of_paradise_lost",
+                        "gilded_dreams"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / Recarga de Energia (ER%)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Proficiência Elemental (EM)",
+                "Taxa CRIT (para Lança de Favonius)",
+                "HP%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "dragons_bane",
+                    "name": "Perdição do Dragão (Dragon's Bane)",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha (A SER VERIFICADO)",
+                    "notes": "Arma principal de Candace em times onde ela causa dano através de Florescimento. Um bom 'stat stick' de EM.",
+                    "icon_url": "/assets/images/weapons_detail/dragons_bane.png"
+                },
+                {
+                    "weapon_id": "kitain_cross_spear",
+                    "name": "Lança Cruzada de Kitain (Kitain Cross Spear)",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Forja (Inazuma) (A SER VERIFICADO)",
+                    "notes": "Boa opção forjável que ajuda Candace a atingir seus requisitos de RE enquanto ainda fornece uma quantidade decente de EM.",
+                    "icon_url": "/assets/images/weapons_detail/kitain_cross_spear.png"
+                },
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Pode ser usada para atender aos requisitos de RE de Candace e da equipe. Geralmente performa pior quando ela causa uma boa porção do dano da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem para 90",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (se on-field driver para infusão)"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "id": "gaming",
+    "name": "Gaming",
+    "element": "Pyro",
+    "rarity": 4,
+    "weapon": "Claymore",
+    "role": [
+        "On-Field Plunging Attack DPS"
+    ],
+    "icon_url": "/assets/images/characters/gaming.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "build_options": [
+        {
+            "key": "gaming_plunge_dps_marechaussee_serpent_spine",
+            "name": "DPS Ataque Imersivo (Caçador das Sombras - Espinha Dorsal)",
+            "notes_build": "Foco em maximizar o dano dos Ataques Imersivos melhorados pela Habilidade Elemental. 4p Caçador das Sombras é altamente recomendado, especialmente com Furina. Espinha Dorsal da Serpente é sua melhor arma geral. Um curandeiro é recomendado para manter HP >50%.",
+            "artifacts": [
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras",
+                    "pieces": 4,
+                    "notes": "Conjunto mais recomendado para Gaming. Embora ele não se beneficie do bônus de 2p, ele consistentemente ganha todos os 3 acúmulos do bônus de 4p rapidamente. Cuidado para não exceder o limite de Taxa CRIT (64% efetivo).",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                },
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "set_name": "Bruxa das Chamas Carmesim",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Gaming em times de Fusão e Vaporizar. Ele pode facilmente alcançar o máximo de acúmulos do efeito de 4p.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                },
+                {
+                    "set_id": "long_nights_oath",
+                    "set_name": "Juramento da Longa Noite",
+                    "pieces": 4,
+                    "notes": "Alternativa aceitável a 4p Bruxa das Chamas. Gaming não realiza Ataques Carregados e sua Habilidade não causa Dano de Habilidade Elemental, então este conjunto só acumula quando Gaming causa Dano de Ataque Imersivo.",
+                    "icon_url": "/assets/images/artifact_sets/long_nights_oath.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM para Fusão/Vaporizar) / Recarga de Energia (ER%) / ATK%",
+                "goblet": "Bônus de Dano Pyro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ex: 150-160% com Bennett C0-C3)",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM) (para Fusão/Vaporizar)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Melhor arma geral para Gaming, mesmo em R1. Um buffer de ATQ (como Bennett) e um escudeiro são recomendados com esta arma.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "fruitful_hook",
+                    "name": "Gancho Frutífero (Fruitful Hook)",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha (A SER VERIFICADO)",
+                    "notes": "Opção extremamente poderosa para Gaming. Escala bem com refinos e está no mesmo nível que uma Espinha Dorsal da Serpente igualmente refinada.",
+                    "icon_url": "/assets/images/weapons_detail/fruitful_hook.png"
+                },
+                {
+                    "weapon_id": "a_thousand_blazing_suns",
+                    "name": "Mil Sóis Flamejantes",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (A SER VERIFICADO)",
+                    "notes": "Fornece um sub-status de Taxa CRIT e ATQ Base excepcionalmente alto. A passiva incentiva tecer Ataques Normais infundidos em seu combo (cuidado em times de Fusão com C6 Bennett).",
+                    "icon_url": "/assets/images/weapons_detail/a_thousand_blazing_suns.png"
+                },
+                {
+                    "weapon_id": "tidal_shadow",
+                    "name": "Sombra da Maré",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja",
+                    "notes": "R5 Sombra da Maré é a melhor opção gratuita e permanente para Gaming. Ele pode garantir 100% de uptime em sua passiva com sua auto-cura.",
+                    "icon_url": "/assets/images/weapons_detail/tidal_shadow.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (priorizar sobre Supremo com Xianyun e C6 Bennett)"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "id": "citlali",
+    "name": "Citlali",
+    "element": "Cryo",
+    "rarity": 5,
+    "weapon": "Catalyst",
+    "role": [
+        "Suporte de Escudo",
+        "Buffer (DMG% e RES Shred)"
+    ],
+    "icon_url": "/assets/images/characters/citlali.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "build_options": [
+        {
+            "key": "citlali_shield_support_scroll_em_er",
+            "name": "Suporte de Escudo (Pergaminho - Foco em EM/RE)",
+            "notes_build": "Focada em fornecer escudo, buffs (4p Pergaminho, armas de suporte) e Redução de RES Hydro/Pyro. Aplicação Cryo off-field habilita Congelamento ou Fusão. Proficiência Elemental (EM) é priorizada após RE para maximizar o buff da C1 e o dano de Fusão do Supremo, se aplicável.",
+            "artifacts": [
+                {
+                    "set_id": "scroll_of_the_hero_of_cinder_city",
+                    "set_name": "Pergaminho do Herói da Cidade das Cinzas",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Citlali, fornecendo um buff de 40% de Bônus de DANO quando ela ativa uma reação. Requer algum planejamento para garantir que ela ative a reação correta. 2p também ajuda com RE.",
+                    "icon_url": "/assets/images/artifact_sets/scroll_of_the_hero_of_cinder_city.png"
+                },
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Citlali ativa facilmente a passiva com o estado 'Opal Fire' de Itzpapa. Buff de ATQ% mais fraco e menos universal que o Bônus de DANO% do Pergaminho, mas usável se outro personagem já usar Pergaminho.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Fornece o mesmo buff de ATQ% que Tenacidade, mas com menos HP para o escudo. Usável se outro personagem estiver com Pergaminho e Tenacidade não for ideal.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "instructor",
+                    "set_name": "Instrutor",
+                    "pieces": 4,
+                    "notes": "Opção viável em times com Xilonen (que já usa Pergaminho) para buffar EM da equipe. Stats 4 estrelas dificultam atingir RE e escudo forte.",
+                    "icon_url": "/assets/images/artifact_sets/instructor.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / Recarga de Energia (ER%)",
+                "goblet": "Proficiência Elemental (EM) / Bônus de Dano Cryo",
+                "circlet": "Proficiência Elemental (EM) / Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até os requisitos)",
+                "Proficiência Elemental (EM)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "starcallers_watch",
+                    "name": "Observatório do Chamador de Estrelas44b (Starcaller's Watch)",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Desejo (Assinatura)",
+                    "notes": "Melhor arma para Citlali, fornecendo alta EM para ela e um buff de Bônus de DANO fácil de ativar para o personagem em campo. Requer proximidade dos inimigos.",
+                    "icon_url": "/assets/images/weapons_detail/starcaller's_watch.png"
+                },
+                {
+                    "weapon_id": "thrilling_tales_of_dragon_slayers",
+                    "name": "Histórias Extraordinárias de Caçadores de Dragões",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha / Baús",
+                    "notes": "Sua melhor arma após Starcaller's Watch em geral. Fornece um forte buff de ATQ% para seu DPS que escala com ATQ.",
+                    "icon_url": "/assets/images/weapons_detail/thrilling_tales_of_dragon_slayers.png"
+                },
+                {
+                    "weapon_id": "wandering_evenstar",
+                    "name": "Estrela Errante",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "A passiva desta arma sinergiza com o stat de EM de Citlali, fornecendo um buff de ATQ Flat para toda a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/wandering_evenstar.png"
+                },
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Fornece Energia para toda a equipe, mas não é recomendado a menos que não haja personagens que escalem com ATQ na equipe e você não possua Starcaller’s Watch.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (desnecessário upar)"
+            ]
+        }
+    ]
+}

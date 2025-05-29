@@ -1,0 +1,53 @@
+/* frontend/src/components/WeaponTooltip.css */
+.weapon-tooltip-content {
+    background-color: var(--tooltip-background);
+    color: var(--tooltip-text);
+    border: 1px solid var(--tooltip-border-color);
+    border-radius: 6px;
+    padding: 10px 15px;
+    width: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    font-size: 0.9em;
+}
+
+.weapon-tooltip-content .tooltip-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--tooltip-border-color);
+}
+
+.weapon-tooltip-content .tooltip-weapon-icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+    object-fit: contain;
+    border-radius: 4px;
+    /* background-color: rgba(70,70,70,0.5); */
+    /* Pode ser var(--card-background-color) ou transparente */
+}
+
+.weapon-tooltip-content .tooltip-header strong {
+    font-size: 1.1em;
+    color: var(--tooltip-header-text-color);
+    /* Usa a variável para cor do título */
+}
+
+.weapon-tooltip-content .tooltip-body p {
+    margin: 5px 0;
+    line-height: 1.4;
+    color: var(--tooltip-text);
+    /* Cor de texto geral do corpo do tooltip */
+}
+
+.weapon-tooltip-content .tooltip-body p strong {
+    /* Para "Tipo:", "ATK Base:", etc. */
+    color: var(--tooltip-link-color);
+    /* Usando a cor de link para destaque */
+}
+
+.weapon-tooltip-content .tooltip-body small {
+    color: var(--text-color-secondary);
+    /* Reutilizando uma variável global para notas pequenas */
+}

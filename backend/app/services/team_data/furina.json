@@ -1,0 +1,191 @@
+[
+    {
+        "id": "furina_neuvillette_kazuha_healer",
+        "name": "Furina - Neuvillette Hyper (Kazuha, Healer)",
+        "strategy": "Neuvillette como Main DPS. Furina fornece buff de Dano massivo e dano off-field. Kazuha agrupa e buffa Dano Hydro/Swirl. Um healer de todo o time (ex: Baizhu, Xilonen, Jean, Charlotte) é crucial para maximizar a Fanfarra de Furina.",
+        "characters_in_team": [
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano Global",
+                "build_key": "off_field_hydro_support_dps"
+            },
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro On-field",
+                "build_key": "neuvillette_hydro_dps_marechaussee"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (Agrupamento, Buffer, VV)",
+                "build_key": "kazuha_anemo_support_vv_em"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Healer de Time / Aplicador Dendro (Opcional)",
+                "build_key": "baizhu_healer_deepwood_prototype_amber"
+            }
+        ]
+    },
+    {
+        "id": "furina_mono_hydro_kokomi_yelan_kazuha",
+        "name": "Furina - Mono Hydro (Kokomi, Yelan, Kazuha)",
+        "strategy": "Kokomi como driver on-field e healer. Furina e Yelan como Sub-DPS Hydro off-field. Kazuha para agrupar e buffar. Requisitos de ER muito baixos para as unidades Hydro.",
+        "characters_in_team": [
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano Global",
+                "build_key": "off_field_hydro_support_dps"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Main DPS Hydro On-field / Healer",
+                "build_key": "kokomi_driver_healer_clam_tenacity"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (Agrupamento, Buffer, VV)",
+                "build_key": "kazuha_anemo_support_vv_em"
+            }
+        ]
+    },
+    {
+        "id": "furina_raiden_yelan_jean",
+        "name": "Furina - Raiden Taser/Hyper (Yelan, Jean)",
+        "strategy": "Raiden como driver e bateria, reduzindo drasticamente os requisitos de ER. Furina e Yelan como núcleo Hydro. Jean para cura massiva de time e VV.",
+        "characters_in_team": [
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano Global",
+                "build_key": "off_field_hydro_support_dps"
+            },
+            {
+                "character_id": "raiden_shogun",
+                "role_in_team": "Main DPS Electro On-field / Bateria",
+                "build_key": "raiden_dps_support_emblem"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "jean",
+                "role_in_team": "Healer Anemo / Suporte VV",
+                "build_key": "jean_healer_vv_favonius"
+            }
+        ]
+    },
+    {
+        "id": "furina_hutao_yelan_healer",
+        "name": "Furina - Hu Tao Vape (Yelan, Healer)",
+        "strategy": "Furina buffa o dano de Hu Tao, mesmo acima de 50% HP. Yelan (ou Xingqiu) para aplicação Hydro consistente. Um healer de time (Bennett, Xianyun, Jean, Xilonen) é necessário.",
+        "characters_in_team": [
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano Global",
+                "build_key": "off_field_hydro_support_dps"
+            },
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro (Vaporize)",
+                "build_key": "hutao_vape_dps_crimson_shimenawa"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Healer / ATK Buffer",
+                "build_key": "bennett_support_noblesse_er_instructor"
+            }
+        ]
+    },
+    {
+        "id": "furina_forward_vape_klee_bennett_kazuha",
+        "name": "Furina - Forward Vape Klee (Bennett, Kazuha)",
+        "strategy": "Klee aplica Pyro rapidamente, permitindo que Furina cause Vaporize em seu dano. Klee também se beneficia dos buffs de Furina, Bennett e Kazuha.",
+        "characters_in_team": [
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro (Forward Vape) / Buffer",
+                "build_key": "off_field_hydro_support_dps"
+            },
+            {
+                "character_id": "klee",
+                "role_in_team": "Main DPS Pyro On-field / Aplicador Pyro",
+                "build_key": "klee_pyro_dps_crimson_lavawalker"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer & Healer)",
+                "build_key": "bennett_support_noblesse_er"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (Agrupamento, Buffer, VV)",
+                "build_key": "kazuha_anemo_support_vv_em"
+            }
+        ]
+    },
+    {
+        "id": "furina_alhaitham_quickbloom_kuki_nahida",
+        "name": "Furina - Alhaitham Quickbloom (Nahida, Kuki)",
+        "strategy": "A aplicação Hydro mais lenta de Furina beneficia times Quickbloom de Alhaitham, permitindo mais Spreads. Sua longa duração de Skill é ideal para as rotações longas de Alhaitham. Kuki para Hyperbloom e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "furina",
+                "role_in_team": "Aplicador Hydro / Buffer de Dano Global",
+                "build_key": "off_field_hydro_support_dps"
+            },
+            {
+                "character_id": "alhaitham",
+                "role_in_team": "Main DPS Dendro On-field (Spread/Quickbloom)",
+                "build_key": "alhaitham_dps_deepwood_gilded"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Sub-DPS Dendro Off-field / Buffer EM",
+                "build_key": "nahida_dendro_support_deepwood_gilded"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer Electro / Ativador Hyperbloom",
+                "build_key": "kuki_healer_hyperbloom_flower_paradise_gilded"
+            }
+        ]
+    },
+    {
+        "id": "furina_freeze_ayaka_charlotte_kazuha",
+        "name": "Furina - Freeze Ayaka (Charlotte, Kazuha)",
+        "strategy": "Time Freeze tradicional com Ayaka, onde Furina entra como unidade Hydro. Charlotte fornece cura e partículas Cryo. Kazuha para buffs e agrupamento.",
+        "characters_in_team": [
+            {
+                "character_id": "furina",
+                "role_in_team": "Aplicador Hydro / Buffer de Dano Global",
+                "build_key": "off_field_hydro_support_dps"
+            },
+            {
+                "character_id": "ayaka",
+                "role_in_team": "Main DPS Cryo",
+                "build_key": "ayaka_dps_blizzard_mistsplitter"
+            },
+            {
+                "character_id": "charlotte",
+                "role_in_team": "Healer Cryo / Suporte (TTDS, Tenacity)",
+                "build_key": "charlotte_healer_support_noblesse_tenacity"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (Agrupamento, Buffer, VV)",
+                "build_key": "kazuha_anemo_support_vv_em"
+            }
+        ]
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "id": "eula_raiden_rosaria_zhongli_hypercarry",
+        "name": "Eula - Hypercarry Físico (Raiden, Rosaria, Zhongli)",
+        "strategy": "Time focado em maximizar o dano pessoal de Eula. Raiden Shogun para Supercondutor, dano Electro off-field e bateria. Rosaria para ressonância Cryo, Taxa CRIT e partículas Cryo. Zhongli para escudo robusto e redução de RES universal.",
+        "characters_in_team": [
+            {
+                "character_id": "eula",
+                "role_in_team": "Main DPS Físico (On-field)",
+                "build_key": "eula_physical_dps_pale_flame_songofbrokenpines"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria / Aplicadora Electro",
+                "build_key": "raiden_subdps_support_emblem_engulfing"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo / Bateria / Buffer de Taxa CRIT",
+                "build_key": "rosaria_cryo_subdps_noblesse_favonius"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity"
+            }
+        ]
+    },
+    {
+        "id": "eula_fischl_mika_diona_f2p_friendly_physical",
+        "name": "Eula - Físico Acessível (Fischl, Mika, Diona)",
+        "strategy": "Time mais acessível para Eula. Fischl para Supercondutor e dano off-field. Mika para buffs de Dano Físico e Velocidade de ATQ, além de cura. Diona para escudo, cura e ressonância Cryo.",
+        "characters_in_team": [
+            {
+                "character_id": "eula",
+                "role_in_team": "Main DPS Físico (On-field)",
+                "build_key": "eula_physical_dps_f2p_snow_tombed_starsilver"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field (Ativadora de Supercondutor)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "mika",
+                "role_in_team": "Suporte (Buffer de Dano Físico, Buffer de Velocidade de ATQ, Healer)",
+                "build_key": "mika_physical_support_noblesse_favonius"
+            },
+            {
+                "character_id": "diona",
+                "role_in_team": "Suporte Cryo (Escudeira, Healer, Bateria)",
+                "build_key": "diona_support_shielder_healer_noblesse"
+            }
+        ]
+    },
+    {
+        "id": "eula_raiden_bennett_shenhe_premium_physical",
+        "name": "Eula - Hypercarry Físico Premium (Raiden, Bennett, Shenhe)",
+        "strategy": "Uma variação de alto investimento para maximizar o dano de Eula. Raiden para Supercondutor e bateria. Bennett para cura e buff massivo de ATQ. Shenhe para buff de Dano Cryo (que também afeta o hit inicial do Supremo de Eula e sua Habilidade) e redução de RES Física/Cryo.",
+        "characters_in_team": [
+            {
+                "character_id": "eula",
+                "role_in_team": "Main DPS Físico (On-field)",
+                "build_key": "eula_physical_dps_pale_flame_songofbrokenpines"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "raiden_subdps_support_emblem_engulfing"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer de Dano Cryo/Físico, RES Shred)",
+                "build_key": "shenhe_cryo_buffer_noblesse_calamityqueller_or_favonius"
+            }
+        ]
+    }
+]

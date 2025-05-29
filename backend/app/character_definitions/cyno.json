@@ -1,0 +1,181 @@
+{
+    "id": "cyno",
+    "name": "Cyno",
+    "element": "Electro",
+    "rarity": 5,
+    "weapon": "Polearm",
+    "role": [
+        "On-Field DPS",
+        "Driver de Reações Electro"
+    ],
+    "icon_url": "/assets/images/characters/cyno.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "build_options": [
+        {
+            "key": "cyno_quickbloom_dps_thundering_fury_scarlet_sands",
+            "name": "DPS Quickbloom (Trovão Furioso - Báculo das Areias Escarlates)",
+            "notes_build": "Build principal de Cyno, focada em maximizar seu dano em times Quickbloom (Aggravate + Hyperbloom). 4p Trovão Furioso é seu melhor conjunto. Báculo das Areias Escarlates é sua melhor arma. Nível 90 é crucial para dano de Agravamento e Hiperflorecimento.",
+            "artifacts": [
+                {
+                    "set_id": "thundering_fury",
+                    "set_name": "Trovão Furioso",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto de artefatos para Cyno. Aumenta seu dano e reduz significativamente seus requisitos de RE através de usos adicionais da Habilidade.",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Alternativa ao Trovão Furioso; no entanto, você ainda deve visar um conjunto 4p Trovão Furioso.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "flower_of_paradise_lost",
+                    "set_name": "Flor do Paraíso Perdido",
+                    "pieces": 4,
+                    "notes": "Competitivo com Sonhos Dourados apenas em times Quickbloom com Xingqiu e 2 personagens Dendro. Em outros casos, não vale a pena usar.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) > ATK% > Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Electro ≥ Proficiência Elemental (EM)",
+                "circlet": "Taxa CRIT / Dano CRIT ≥ Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "staff_of_the_scarlet_sands",
+                    "name": "Báculo das Areias Escarlates",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Cyno em times Quickbloom. Fornece uma quantidade significativa de Taxa CRIT e ATQ.",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_the_scarlet_sands.png"
+                },
+                {
+                    "weapon_id": "ballad_of_the_fjords",
+                    "name": "Balada dos Fiordes (Ballad of the Fjords)",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Passe de Batalha (A SER VERIFICADO)",
+                    "notes": "Segunda melhor opção para Cyno em times Quickbloom, mesmo em R1. Em R5, performa ligeiramente pior que Báculo das Areias Escarlates.",
+                    "icon_url": "/assets/images/weapons_detail/ballad_of_the_fjords.png"
+                },
+                {
+                    "weapon_id": "kitain_cross_spear",
+                    "name": "Lança Cruzada de Kitain",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Forja (Inazuma)",
+                    "notes": "R5 é extremamente valiosa em times Quickbloom onde Cyno é o único Electro, pois ele tem altos requisitos de RE (mesmo com 4p Trovão Furioso).",
+                    "icon_url": "/assets/images/weapons_detail/kitain_cross_spear.png"
+                },
+                {
+                    "weapon_id": "white_tassel",
+                    "name": "Borla Branca",
+                    "rarity": 3,
+                    "type": "Polearm",
+                    "category": "Baús (Liyue)",
+                    "notes": "R5 é uma opção forte com Cyno. Performa no mesmo nível que Lança do Duelo. Obtida gratuitamente em baús de Liyue.",
+                    "icon_url": "/assets/images/weapons_detail/white_tassel.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem para 90",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (não precisa upar)"
+            ]
+        },
+        {
+            "key": "cyno_aggravate_dps_thundering_fury_scarlet_sands",
+            "name": "DPS Agravamento (Trovão Furioso - Báculo das Areias Escarlates)",
+            "notes_build": "Foco em dano de Agravamento. 4p Trovão Furioso continua sendo a melhor opção. Báculo das Areias Escarlates é BiS. Nível 90 é crucial.",
+            "artifacts": [
+                {
+                    "set_id": "thundering_fury",
+                    "set_name": "Trovão Furioso",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto de artefatos para Cyno.",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png"
+                },
+                {
+                    "set_id": "gladiators_finale",
+                    "set_name": "Último Juramento do Gladiador",
+                    "pieces": 4,
+                    "notes": "Alternativa ao Trovão Furioso em times de Agravamento; no entanto, não é bom em times Quickbloom.",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Alternativa ao Trovão Furioso; no entanto, você ainda deve visar um conjunto 4p TF.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) > ATK%",
+                "goblet": "Bônus de Dano Electro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "staff_of_the_scarlet_sands",
+                    "name": "Báculo das Areias Escarlates",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Cyno em times de Agravamento.",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_the_scarlet_sands.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_winged_spear",
+                    "name": "Lança de Jade Primitiva",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Segunda melhor arma de Cyno em Agravamento. Seu longo tempo em campo permite utilizar completamente a passiva.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_winged_spear.png"
+                },
+                {
+                    "weapon_id": "ballad_of_the_fjords",
+                    "name": "Balada dos Fiordes (Ballad of the Fjords)",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Passe de Batalha (A SER VERIFICADO)",
+                    "notes": "Melhor opção 4 estrelas de Cyno em Agravamento, performando ligeiramente melhor que Lança do Duelo.",
+                    "icon_url": "/assets/images/weapons_detail/ballad_of_the_fjords.png"
+                },
+                {
+                    "weapon_id": "white_tassel",
+                    "name": "Borla Branca",
+                    "rarity": 3,
+                    "type": "Polearm",
+                    "category": "Baús (Liyue)",
+                    "notes": "R5 é uma opção forte com Cyno. Performa melhor que R1 Balada dos Fiordes e Lança do Duelo.",
+                    "icon_url": "/assets/images/weapons_detail/white_tassel.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem para 90",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (não precisa upar)"
+            ]
+        }
+    ]
+}

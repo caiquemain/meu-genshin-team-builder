@@ -1,0 +1,137 @@
+[
+    {
+        "id": "fischl_kirara_keqing_kazuha_quicken_aggravate",
+        "name": "Fischl - Quicken/Aggravate (Kirara, Keqing, Kazuha)",
+        "strategy": "Fischl é um membro central de muitos times Quicken devido à alta sinergia de sua Passiva A4 com Quicken. Suas procs A4 sem TdI permitem que Fischl ative Agravamento cada vez que o personagem em campo ativa uma reação relacionada a Electro. [cite: 8075, 8076]",
+        "characters_in_team": [
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria / Ativadora A4 Aggravate",
+                "build_key": "fischl_offfield_dps_golden_troupe"
+            },
+            {
+                "character_id": "kirara",
+                "role_in_team": "Escudeira / Aplicadora Dendro",
+                "build_key": "kirara_shielder_tenacity_favonius_or_hp"
+            },
+            {
+                "character_id": "keqing",
+                "role_in_team": "Main DPS Electro On-field (Aggravate Driver)",
+                "build_key": "keqing_aggravate_dps_thunderingfury"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "fischl_shinobu_nahida_xingqiu_hyperbloom",
+        "name": "Fischl - Hyperbloom (Kuki Shinobu, Nahida, Xingqiu)",
+        "strategy": "Fischl fornece ótimo dano suplementar em times de Hiperflorecimento, já que Oz inconsistentemente atinge os Núcleos Dendro. Isso permite que outro personagem Electro (Kuki Shinobu) assuma a posse do Hiperflorecimento. [cite: 8084]",
+        "characters_in_team": [
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field (Dano Adicional)",
+                "build_key": "fischl_offfield_dps_golden_troupe"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Ativadora de Hyperbloom Principal (Full EM)",
+                "build_key": "kuki_shinobu_hyperbloom_full_em_flowerofparadiselost"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            }
+        ]
+    },
+    {
+        "id": "fischl_xingqiu_sucrose_beidou_taser_electro_charged",
+        "name": "Fischl - Taser (Xingqiu, Sucrose, Beidou)",
+        "strategy": "Times Eletricamente Carregados (Taser) tipicamente incluem Fischl, uma unidade Hydro e uma Anemo. Drivers Anemo são mais benéficos em cenários AoE onde seus Redemoinhos causam mais dano e eles têm maior posse de Eletricamente Carregado. [cite: 8089, 8090]",
+        "characters_in_team": [
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_offfield_dps_golden_troupe"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Driver Anemo On-field (VV RES Shred, Agrupamento, Buffer EM)",
+                "build_key": "sucrose_anemo_driver_vv_ttds_em"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field (Dano em Área)",
+                "build_key": "beidou_offfield_dps_emblem"
+            }
+        ]
+    },
+    {
+        "id": "fischl_chevreuse_yae_miko_bennett_overload",
+        "name": "Fischl - Sobrecarga (Chevreuse, Yae Miko, Bennett)",
+        "strategy": "Fischl pode se juntar a uma unidade Pyro (tipicamente Bennett) para formar um núcleo de Sobrecarga. Estes times focam mais em dano Electro e Pyro bruto e tratam reações de Sobrecarga como um bom dano adicional. [cite: 8097, 8098]",
+        "characters_in_team": [
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field",
+                "build_key": "fischl_offfield_dps_golden_troupe"
+            },
+            {
+                "character_id": "chevreuse",
+                "role_in_team": "Suporte (Buffer de Sobrecarga, RES Shred Pyro/Electro, Healer)",
+                "build_key": "chevreuse_overload_buffer_songofdays_noblesse"
+            },
+            {
+                "character_id": "yae_miko",
+                "role_in_team": "Sub-DPS Electro Off-field (Dano Adicional)",
+                "build_key": "yae_miko_offfield_dps_golden_troupe_aggravate"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Aplicador Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "fischl_ayato_bennett_kazuha_anemo_overvape_soup",
+        "name": "Fischl - Anemo Overvape 'Soup' (Ayato, Bennett, Kazuha)",
+        "strategy": "Uma subclasse de times Overvape, Anemo Overvape mistura Electro, Hydro, Pyro e Anemo para ativar muitas reações. Fischl é a melhor ativadora para as reações Electro. [cite: 8111, 8112]",
+        "characters_in_team": [
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Enabler de Reação",
+                "build_key": "fischl_offfield_dps_golden_troupe"
+            },
+            {
+                "character_id": "ayato",
+                "role_in_team": "Main DPS Hydro On-field / Driver",
+                "build_key": "ayato_onfield_dps_heart_of_depth_haran"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Aplicador Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    }
+]

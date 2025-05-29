@@ -1,0 +1,317 @@
+{
+    "id": "ayato",
+    "name": "Kamisato Ayato",
+    "element": "Hydro",
+    "rarity": 5,
+    "weapon": "Sword",
+    "role": [
+        "On-Field DPS",
+        "Burst-Oriented DPS"
+    ],
+    "icon_url": "/assets/images/characters/ayato.png",
+    "element_icon_url": "/assets/images/elements/element_hydro.png",
+    "build_options": [
+        {
+            "key": "ayato_onfield_dps_heart_of_depth_haran",
+            "name": "DPS On-field (Profundezas do Coração - Haran)",
+            "notes_build": "Build principal de Ayato como DPS on-field, maximizando o dano de seus Ataques Normais Hydro (Shunsuiken). 4p Profundezas do Coração é uma de suas melhores opções. Haran Geppaku Futsu é sua melhor arma. Requer Recarga de Energia para uso consistente do Supremo.",
+            "artifacts": [
+                {
+                    "set_id": "heart_of_depth",
+                    "set_name": "Profundezas do Coração",
+                    "pieces": 4,
+                    "notes": "Um dos melhores conjuntos para Ayato. Performace geralmente melhor sem buffs adicionais de Dano% de colegas de equipe ou da arma de Ayato, mas a diferença é pequena.",
+                    "icon_url": "/assets/images/artifact_sets/heart_of_depth.png"
+                },
+                {
+                    "set_id": "gladiators_finale",
+                    "set_name": "Último Juramento do Gladiador",
+                    "pieces": 4,
+                    "notes": "Performa de forma muito similar a 4p Profundezas do Coração. Ligeiramente melhor com armas que fornecem menos ATQ mas mais status de Dano%.",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
+                },
+                {
+                    "set_id": "nymphs_dream",
+                    "set_name": "Sonho da Ninfa",
+                    "pieces": 4,
+                    "notes": "Boa opção, performando no mesmo nível ou ligeiramente melhor que Gladiador e Profundezas do Coração. Ayato pode alcançar 3 acúmulos se o clone de água de sua Habilidade atingir um inimigo.",
+                    "icon_url": "/assets/images/artifact_sets/nymphs_dream.png"
+                },
+                {
+                    "set_id": "echoes_of_an_offering",
+                    "set_name": "Eco de uma Oferenda",
+                    "pieces": 4,
+                    "notes": "Funciona bem mesmo com ping alto (5+ procs por Habilidade). Com ping baixo (<100ms), Ayato deve ativar o efeito em 7/15 Ataques Normais.",
+                    "icon_url": "/assets/images/artifact_sets/echoes_of_an_offering.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Hydro",
+                "circlet": "Dano CRIT / Taxa CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ~135-140%)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "HP%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "haran_geppaku_futsu",
+                    "name": "Haran Geppaku Futsu",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Ayato. Fornece uma miríade de status benéficos.",
+                    "icon_url": "/assets/images/weapons_detail/haran_geppaku_futsu.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Segunda arma mais forte de Ayato. Fornece alta Taxa CRIT e um efeito passivo incondicional.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Terceira melhor opção de Ayato. Pode ter dificuldade em manter acúmulos máximos em rotações típicas.",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "the_black_sword",
+                    "name": "A Espada Negra (The Black Sword)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Passe de Batalha (A SER VERIFICADO)",
+                    "notes": "Uma das opções de armas 4 estrelas mais fortes de Ayato. Fornece Taxa CRIT e Bônus de Dano de Ataque Normal.",
+                    "icon_url": "/assets/images/weapons_detail/the_black_sword.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst) (Nível 90 do personagem é prioridade similar ao Supremo)",
+                "Ataque Normal (não escala Shunsuiken)"
+            ]
+        },
+        {
+            "key": "ayato_onfield_dps_f2p_kagotsurube",
+            "name": "DPS On-field F2P (Lâmina Kageotsurube Isshin)",
+            "notes_build": "Build acessível para Ayato on-field, utilizando a Lâmina Kageotsurube Isshin, obtida gratuitamente. Conjuntos de artefatos como Profundezas do Coração ou Gladiador ainda são recomendados.",
+            "artifacts": [
+                {
+                    "set_id": "gladiators_finale",
+                    "set_name": "Último Juramento do Gladiador",
+                    "pieces": 4,
+                    "notes": "Performa de forma muito similar a 4p Profundezas do Coração e pode ser mais fácil de obter com bons sub-status.",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
+                },
+                {
+                    "set_id": "heart_of_depth",
+                    "set_name": "Profundezas do Coração",
+                    "pieces": 4,
+                    "notes": "Uma das melhores e mais acessíveis opções de conjunto para Ayato.",
+                    "icon_url": "/assets/images/artifact_sets/heart_of_depth.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Hydro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "HP%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "kagotsurube_isshin",
+                    "name": "Lâmina Kageotsurube Isshin (Kagotsurube Isshin)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Missão (A SER VERIFICADO)",
+                    "notes": "Melhor opção gratuita de Ayato, disponível na Segunda Missão de História de Kazuha. Fornece ATQ% e pouco mais.",
+                    "icon_url": "/assets/images/weapons_detail/kagotsurube_isshin.png"
+                },
+                {
+                    "weapon_id": "finale_of_the_deep",
+                    "name": "Canção Profunda (Finale of the Deep)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja (Fontaine) (A SER VERIFICADO)",
+                    "notes": "Performace similar a Kageotsurube Isshin em R1 se puder limpar consistentemente o Contrato de Vida com um curandeiro.",
+                    "icon_url": "/assets/images/weapons_detail/finale_of_the_deep.png"
+                },
+                {
+                    "weapon_id": "harbinger_of_dawn",
+                    "name": "Prenúncio do Alvorecer",
+                    "rarity": 3,
+                    "type": "Sword",
+                    "category": "Gacha / Baús",
+                    "notes": "Forte opção em R5 apenas se conseguir manter Ayato acima de 90% de HP Máx. Incomum para Ayato manter a passiva devido à sua presença em campo e seleção típica de colegas de equipe.",
+                    "icon_url": "/assets/images/weapons_detail/harbinger_of_dawn.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (não escala Shunsuiken)"
+            ]
+        },
+        {
+            "key": "ayato_hyperbloom_driver_thundering_fury",
+            "name": "Driver Hyperbloom (Trovão Furioso)",
+            "notes_build": "Build de nicho onde Ayato utiliza 4p Trovão Furioso em times de Eletricamente Carregado/Hiperflorecimento com Fischl para reduzir o cooldown de sua Habilidade Elemental, permitindo uso consecutivo. Isso aumenta o tempo de aplicação Hydro on-field.",
+            "artifacts": [
+                {
+                    "set_id": "thundering_fury",
+                    "set_name": "Trovão Furioso",
+                    "pieces": 4,
+                    "notes": "Opção em certos times de Eletricamente Carregado e Hiperflorecimento com 2 personagens Electro (pelo menos uma sendo Fischl). Reduz o cooldown da Habilidade de Ayato.",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Hydro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (EM) (útil para reações que ele possa ativar)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "haran_geppaku_futsu",
+                    "name": "Haran Geppaku Futsu",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Ainda sua melhor arma para dano pessoal.",
+                    "icon_url": "/assets/images/weapons_detail/haran_geppaku_futsu.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Excelente opção de status.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "lion_s_roar",
+                    "name": "Rugido do Leão (Lion's Roar)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha (A SER VERIFICADO)",
+                    "notes": "Apenas em times de Eletricamente Carregado, R5 Rugido do Leão é uma forte opção 4 estrelas. Requer alta uptime da passiva.",
+                    "icon_url": "/assets/images/weapons_detail/lion's_roar.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (não escala Shunsuiken)"
+            ]
+        },
+        {
+            "key": "ayato_nilou_bloom_em_paradise_lost",
+            "name": "DPS Nilou Bloom (EM - Flor do Paraíso Perdido)",
+            "notes_build": "Build otimizada para Ayato como ativador primário de Florescimento em times de Nilou, focando em Proficiência Elemental. Build padrão ADC também funciona, mas EM é otimizado para cerca de 10-15% a mais de dano de Florescimento.",
+            "artifacts": [
+                {
+                    "set_id": "flower_of_paradise_lost",
+                    "set_name": "Flor do Paraíso Perdido",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Ayato em times de Nilou Bloom. Bônus de 2p dá 80 EM, e 4p dá forte impulso ao dano de Florescimento Abundante.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Boa opção em times de Nilou Bloom. No entanto, seu efeito de 4p fornece apenas 100 EM em times Ayato-Nilou, o que é apenas 20 EM a mais que outro conjunto de 2p EM.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "em_2pc_mix_paradise_gilded_nilou",
+                    "set_name": "Proficiência Elemental (2p) + Proficiência Elemental (2p)",
+                    "pieces": "2+2",
+                    "notes": "Conjuntos de 2p de EM (Sonhos Dourados, Flor do Paraíso Perdido, Trupe Itinerante) podem ser uma ótima opção se tiverem melhores sub-status.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "flower_of_paradise_lost",
+                        "gilded_dreams"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / Recarga de Energia (ER%)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ~145-170%)",
+                "Proficiência Elemental (EM)",
+                "Taxa CRIT / Dano CRIT (menor prioridade)",
+                "ATK% (menor prioridade)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "xiphos_moonlight",
+                    "name": "Luz Lunar de Xiphos (Xiphos' Moonlight)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado) (A SER VERIFICADO)",
+                    "notes": "Uma das melhores escolhas para Ayato em Nilou Bloom, pois fornece EM e reduz os requisitos de RE da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/xiphos_moonlight.png"
+                },
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Uma das melhores opções de Ayato em times Nilou Bloom. Seu sub-status de RE geralmente atende aos seus requisitos, permitindo investimento total em EM.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "fleuve_cendre_ferryman",
+                    "name": "Cruzamento de Fleuve Cendre",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "F2P (Pesca)",
+                    "notes": "Substituição F2P para Espada de Favonius. Geralmente atende aos requisitos de RE de Ayato, permitindo investimento total em EM.",
+                    "icon_url": "/assets/images/weapons_detail/fleuve_cendre_ferryman.png"
+                },
+                {
+                    "weapon_id": "iron_sting",
+                    "name": "Espinho de Ferro (Iron Sting)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Opção F2P com sub-status de EM.",
+                    "icon_url": "/assets/images/weapons_detail/iron_sting.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Nível 90 do personagem"
+            ]
+        }
+    ]
+}

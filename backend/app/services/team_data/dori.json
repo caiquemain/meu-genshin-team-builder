@@ -1,0 +1,83 @@
+[
+    {
+        "id": "dori_jean_yelan_nahida_hyperbloom",
+        "name": "Dori - Hyperbloom com Jean (Jean, Yelan, Nahida)",
+        "strategy": "A auto-aplicação Electro de Dori junto com a auto-aplicação Anemo de Jean permite uma interação única, causando Redemoinhos Electro constantes centrados no personagem. Isso permite que Jean e Dori atuem como um ativador consistente de Hiperflorecimento quando seus Supremos estão ativos.",
+        "characters_in_team": [
+            {
+                "character_id": "dori",
+                "role_in_team": "Healer / Bateria / Co-Ativadora de Hyperbloom (com Jean)",
+                "build_key": "dori_hyperbloom_driver_gilded_dreams"
+            },
+            {
+                "character_id": "jean",
+                "role_in_team": "Healer / Suporte Anemo (VV RES Shred, Co-Ativadora de Hyperbloom com Dori)",
+                "build_key": "jean_anemo_support_vv_favonius_full_em_if_hyperbloom_trigger"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_favonius_or_elegy"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Principal / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            }
+        ]
+    },
+    {
+        "id": "dori_c6_fischl_dendro_traveler_kazuha_aggravate",
+        "name": "Dori C6 - Aggravate Quickswap (Fischl, Viajante Dendro, Kazuha)",
+        "strategy": "A Infusão Electro concedida a Dori por sua C6 pode ser usada em times de Agravamento de troca rápida, onde ela contribui para o DPS da equipe enquanto consolida cura e geração de Energia. Geralmente inclui outro DPS Electro off-field e um personagem Dendro.",
+        "characters_in_team": [
+            {
+                "character_id": "dori",
+                "role_in_team": "Driver Electro On-field (C6 Aggravate) / Healer / Bateria",
+                "build_key": "dori_c6_aggravate_driver_thundering_fury"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            },
+            {
+                "character_id": "traveler_dendro",
+                "role_in_team": "Aplicador Dendro Off-field / Suporte (Deepwood Holder)",
+                "build_key": "traveler_dendro_offfield_support_deepwood_favonius"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "dori_eula_shenhe_rosaria_support_flex",
+        "name": "Dori - Suporte Flex (Eula, Shenhe, Rosaria)",
+        "strategy": "Dori como curandeira de slot flex para um time que precisa de sobrevivência e Energia. Neste exemplo, um time de Eula onde Dori ajuda na cura e como bateria Electro para Supercondutor.",
+        "characters_in_team": [
+            {
+                "character_id": "dori",
+                "role_in_team": "Suporte (Healer, Bateria Electro)",
+                "build_key": "dori_support_healer_battery"
+            },
+            {
+                "character_id": "eula",
+                "role_in_team": "Main DPS Físico (On-field)",
+                "build_key": "eula_physical_dps_pale_flame_songofbrokenpines"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer de Dano Cryo/Físico)",
+                "build_key": "shenhe_cryo_buffer_noblesse_calamityqueller_or_favonius"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo / Bateria / Buffer de Taxa CRIT",
+                "build_key": "rosaria_cryo_subdps_noblesse_favonius"
+            }
+        ]
+    }
+]

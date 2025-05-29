@@ -1,0 +1,137 @@
+[
+    {
+        "id": "layla_neuvillette_furina_kazuha_shield_flex",
+        "name": "Layla - Flex Escudeira (Neuvillette, Furina, Kazuha)",
+        "strategy": "Neuvillette C0 é vulnerável a interrupções; Layla fornece o escudo necessário. As rotações longas da equipe permitem que Layla relance seu escudo para melhor uptime.  Kazuha para buffs e VV. ",
+        "characters_in_team": [
+            {
+                "character_id": "layla",
+                "role_in_team": "Escudeira / Aplicadora Cryo Off-field",
+                "build_key": "layla_shielder_tenacity_hp"
+            },
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro (On-field)",
+                "build_key": "neuvillette_dps_marechaussee_hunter"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_favonius"
+            }
+        ]
+    },
+    {
+        "id": "layla_hu_tao_yelan_xingqiu_vapemelt",
+        "name": "Layla - Vapemelt (Hu Tao, Yelan, Xingqiu)",
+        "strategy": "O escudo de Layla protege Hu Tao. A aplicação Cryo de Layla permite que Hu Tao ocasionalmente ative Fusão em inimigos Congelados, além de Vaporizar com Yelan e Xingqiu. ",
+        "characters_in_team": [
+            {
+                "character_id": "layla",
+                "role_in_team": "Escudeira / Aplicadora Cryo para Vapemelt",
+                "build_key": "layla_shielder_tenacity_hp"
+            },
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro (On-field Vaporize/Melt)",
+                "build_key": "hutao_dps_crimson_shimenawa_homa"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field / Redução de Dano",
+                "build_key": "xingqiu_subdps_emblem_sacrificial"
+            }
+        ]
+    },
+    {
+        "id": "layla_ganyu_shenhe_kazuha_mono_cryo",
+        "name": "Layla - Mono Cryo (Ganyu, Shenhe, Kazuha)",
+        "strategy": "Foco em dano Cryo bruto. Layla fornece escudo, ressonância Cryo e algum dano off-field. Ganyu é a DPS principal, Shenhe buffa o dano Cryo e Kazuha agrupa e aplica VV Shred. ",
+        "characters_in_team": [
+            {
+                "character_id": "layla",
+                "role_in_team": "Escudeira / Suporte Cryo Off-field",
+                "build_key": "layla_offfield_dps_blizzard_crit"
+            },
+            {
+                "character_id": "ganyu",
+                "role_in_team": "Main DPS Cryo (On-field)",
+                "build_key": "ganyu_dps_blizzard_strayer_amos"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer de Dano Cryo)",
+                "build_key": "shenhe_cryo_buffer_noblesse_favonius"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "layla_raiden_eula_shenhe_physical",
+        "name": "Layla - Físico (Raiden, Eula, Shenhe)",
+        "strategy": "Layla ativa Supercondutor com Raiden para Eula (DPS Física), fornece escudo e partículas Cryo. Raiden também ajuda com a recarga de energia de Eula. Shenhe pode buffar o dano Cryo de Eula e Layla. ",
+        "characters_in_team": [
+            {
+                "character_id": "layla",
+                "role_in_team": "Escudeira / Suporte Cryo para Supercondutor",
+                "build_key": "layla_shielder_tenacity_hp"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Sub-DPS Electro / Bateria / Ativadora de Supercondutor",
+                "build_key": "raiden_subdps_emblem_thecatch"
+            },
+            {
+                "character_id": "eula",
+                "role_in_team": "Main DPS Físico (On-field)",
+                "build_key": "eula_physical_dps_pale_flame_songofbrokenpines"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer de Dano Cryo/Físico com passiva)",
+                "build_key": "shenhe_cryo_buffer_noblesse_calamityqueller"
+            }
+        ]
+    },
+    {
+        "id": "layla_ayaka_mona_kazuha_freeze",
+        "name": "Layla - Congelamento (Ayaka, Mona, Kazuha)",
+        "strategy": "Layla oferece sobrevivência e ressonância Cryo para Ayaka. Mona aplica Hydro para Congelamento e buffa o dano. Kazuha agrupa e aplica VV Shred. ",
+        "characters_in_team": [
+            {
+                "character_id": "layla",
+                "role_in_team": "Escudeira / Suporte Cryo",
+                "build_key": "layla_shielder_tenacity_hp"
+            },
+            {
+                "character_id": "ayaka",
+                "role_in_team": "Main DPS Cryo (On-field)",
+                "build_key": "ayaka_dps_blizzard_strayer_mistsplitter"
+            },
+            {
+                "character_id": "mona",
+                "role_in_team": "Suporte Hydro (Buffer de Dano Omen, Aplicadora Hydro)",
+                "build_key": "mona_support_noblesse_ thrilling_tales_er"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    }
+]

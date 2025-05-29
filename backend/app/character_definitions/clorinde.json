@@ -1,0 +1,157 @@
+{
+    "id": "clorinde",
+    "name": "Clorinde",
+    "element": "Electro",
+    "rarity": 5,
+    "weapon": "Sword",
+    "role": [
+        "On-Field DPS"
+    ],
+    "icon_url": "/assets/images/characters/clorinde.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "build_options": [
+        {
+            "key": "clorinde_onfield_dps_fragment_whimsy_absolution",
+            "name": "DPS On-field (Fragmento da Fantasia Harmônica - Absolvição)",
+            "notes_build": "Build principal de Clorinde, focada em seu dano on-field com Ataques Normais convertidos pela Habilidade Elemental. 4p Fragmento da Fantasia Harmônica é seu melhor conjunto geral. Absolvição é sua melhor arma. Nível 90 é recomendado para maximizar dano de Agravamento/Hiperflorecimento. ",
+            "artifacts": [
+                {
+                    "set_id": "fragment_of_harmonic_whimsy",
+                    "set_name": "Fragmento da Fantasia Harmônica",
+                    "pieces": 4,
+                    "notes": "Fornece buffs fortes para todo o kit de Clorinde ao ganhar e perder Contrato de Vida — uma condição que ela cumpre facilmente —, tornando-o uma ótima opção generalista para todos os arquétipos de time. ",
+                    "icon_url": "/assets/images/artifact_sets/fragment_of_harmonic_whimsy.png"
+                },
+                {
+                    "set_id": "gladiators_finale",
+                    "set_name": "Último Juramento do Gladiador",
+                    "pieces": 4,
+                    "notes": "Uma alternativa mais fraca ao 4p Fantasia Harmônica devido ao seu menor buff de DANO% que afeta apenas os Ataques Normais de Clorinde. No entanto, é relativamente fácil de farmar. ",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
+                },
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras",
+                    "pieces": 4,
+                    "notes": "Este conjunto requer Furina para ser usado efetivamente. Concede um Bônus de DANO de Ataque Normal e muita Taxa CRIT, embora possa fazer você exceder o limite neste último stat. ",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% (ou Proficiência Elemental em times Quickbloom)",
+                "goblet": "Bônus de Dano Electro",
+                "circlet": "Dano CRIT / Taxa CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (EM)",
+                "Recarga de Energia (ER%) (baixa prioridade)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "absolution",
+                    "name": "Absolvição",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Arma assinatura de Clorinde e sua Melhor em Slot. Esta arma performa excelentemente sem ressalvas. ",
+                    "icon_url": "/assets/images/weapons_detail/absolution.png"
+                },
+                {
+                    "weapon_id": "haran_geppaku_futsu",
+                    "name": "Haran Geppaku Futsu",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Haran fornece stats apenas ligeiramente inferiores em comparação com Absolvição, tornando-a uma ótima segunda opção. ",
+                    "icon_url": "/assets/images/weapons_detail/haran_geppaku_futsu.png"
+                },
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Em vez de Absolvição ou Haran, Clorinde pode usar outras Espadas 5 estrelas de CRIT com bom efeito. Mistsplitter é mais eficaz se ela usar seu Supremo. ",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "the_black_sword",
+                    "name": "A Espada Negra",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Passe de Batalha",
+                    "notes": "Uma boa opção do Passe de Batalha, especialmente em R5. Seu baixo sub-status de Taxa CRIT ajuda a evitar o excesso. ",
+                    "icon_url": "/assets/images/weapons_detail/the_black_sword.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem para 90",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (não precisa upar)"
+            ]
+        },
+        {
+            "key": "clorinde_onfield_dps_thundering_fury_quickbloom",
+            "name": "DPS On-field (Trovão Furioso - Quickbloom de 2 Skills)",
+            "notes_build": "4p Trovão Furioso tem menor potencial de dano que 4p Fantasia Harmônica, mas reduz unicamente o cooldown da Habilidade de Clorinde em times Quicken e Quickbloom. Isso pode permitir que sua Habilidade sincronize melhor com cooldowns mais longos de colegas de equipe ou lidar melhor com conteúdo de múltiplas ondas. ",
+            "artifacts": [
+                {
+                    "set_id": "thundering_fury",
+                    "set_name": "Trovão Furioso",
+                    "pieces": 4,
+                    "notes": "Permite rotações com 2 Habilidades Elementais em times Quicken/Quickbloom, melhorando a sinergia com alguns personagens e flexibilidade contra múltiplas ondas.",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / ATK%",
+                "goblet": "Bônus de Dano Electro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM)",
+                "ATK%",
+                "Recarga de Energia (ER%) (reduzida com 2 Skills por Rotação)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "absolution",
+                    "name": "Absolvição",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Ainda a melhor opção para dano pessoal.",
+                    "icon_url": "/assets/images/weapons_detail/absolution.png"
+                },
+                {
+                    "weapon_id": "light_of_foliar_incision",
+                    "name": "Luz das Folhas Cortadas",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Excelente devido ao Dano CRIT e passiva que escala com EM, útil em times Quicken/Quickbloom.",
+                    "icon_url": "/assets/images/weapons_detail/light_of_foliar_incision.png"
+                },
+                {
+                    "weapon_id": "freedom_sworn",
+                    "name": "Juramento pela Liberdade",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Opção forte, particularmente em times Quickbloom, devido ao seu alto stat de EM e Bônus de DANO de Ataque Normal. Buff de ATQ para a equipe também é útil.",
+                    "icon_url": "/assets/images/weapons_detail/freedom_sworn.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem para 90",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (não precisa upar)"
+            ]
+        }
+    ]
+}

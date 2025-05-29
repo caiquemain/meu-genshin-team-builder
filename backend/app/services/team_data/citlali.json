@@ -1,0 +1,110 @@
+[
+    {
+        "id": "citlali_mavuika_bennett_sucrose_melt",
+        "name": "Citlali - Melt (Mavuika, Bennett, Sucrose)",
+        "strategy": "Citlali permite que Mavuika cause Fusão com sua aplicação Cryo e também buffa seu dano. Bennett fornece buff de ATQ e cura. Sucrose agrupa e pode compartilhar EM ou usar Sombra Verde.",
+        "characters_in_team": [
+            {
+                "character_id": "citlali",
+                "role_in_team": "Suporte de Escudo / Buffer / Aplicadora Cryo Off-field",
+                "build_key": "citlali_shield_support_scroll_em_er"
+            },
+            {
+                "character_id": "mavuika",
+                "role_in_team": "Main DPS Pyro On-field (Melt)",
+                "build_key": "mavuika_pyro_dps_melt_crimson_witch"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (Agrupamento, Buffer EM, VV Shred)",
+                "build_key": "sucrose_anemo_support_vv_sacrificialfragments_em"
+            }
+        ]
+    },
+    {
+        "id": "citlali_arlecchino_bennett_kazuha_melt",
+        "name": "Citlali - Melt (Arlecchino, Bennett, Kazuha)",
+        "strategy": "Citlali melhora o time de Fusão de Arlecchino, oferecendo escudo e buffs ofensivos. Arlecchino precisa de combos cuidadosos para garantir que Pyro não sobrescreva a aura Cryo. Kazuha para buffs e VV.",
+        "characters_in_team": [
+            {
+                "character_id": "citlali",
+                "role_in_team": "Suporte de Escudo / Buffer / Aplicadora Cryo Off-field",
+                "build_key": "citlali_shield_support_scroll_em_er"
+            },
+            {
+                "character_id": "arlecchino",
+                "role_in_team": "Main DPS Pyro On-field (Melt)",
+                "build_key": "arlecchino_onfield_dps_fragment_whimsy"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (Agrupamento, Buffer Dano Elemental, VV Shred)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "citlali_neuvillette_kazuha_furina_freeze_flex_shielder",
+        "name": "Citlali - Congelamento/Escudeira Flex (Neuvillette, Kazuha, Furina)",
+        "strategy": "Citlali com seu escudo, 4p Pergaminho e Redução de RES Hydro funciona bem como colega de equipe de Neuvillette. Kazuha para buffs e VV, Furina para dano e buffs.",
+        "characters_in_team": [
+            {
+                "character_id": "citlali",
+                "role_in_team": "Suporte de Escudo / Buffer (Hydro RES Shred)",
+                "build_key": "citlali_shield_support_scroll_em_er"
+            },
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro On-field",
+                "build_key": "neuvillette_hydro_dps_marechaussee_tome_of_eternal_flow"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (Agrupamento, Buffer Dano Elemental, VV Shred)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            }
+        ]
+    },
+    {
+        "id": "citlali_ayato_xingqiu_yelan_freeze_flex_shielder",
+        "name": "Citlali - Congelamento/Escudeira Flex (Ayato, Xingqiu, Yelan)",
+        "strategy": "Time simples, mas eficaz, onde todas as três unidades Hydro contribuem para o dano da equipe, enquanto Citlali as apoia com seus buffs e escudo.",
+        "characters_in_team": [
+            {
+                "character_id": "citlali",
+                "role_in_team": "Suporte de Escudo / Buffer (Hydro RES Shred)",
+                "build_key": "citlali_shield_support_scroll_em_er"
+            },
+            {
+                "character_id": "ayato",
+                "role_in_team": "Main DPS Hydro On-field / Driver",
+                "build_key": "ayato_onfield_dps_heart_of_depth_haran"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            }
+        ]
+    }
+]

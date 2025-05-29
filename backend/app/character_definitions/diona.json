@@ -1,0 +1,102 @@
+{
+    "id": "diona",
+    "name": "Diona",
+    "element": "Cryo",
+    "rarity": 4,
+    "weapon": "Bow",
+    "role": [
+        "Suporte (Escudeira, Curandeira, Bateria Cryo)"
+    ],
+    "icon_url": "/assets/images/characters/diona.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "build_options": [
+        {
+            "key": "diona_support_shielder_healer_noblesse",
+            "name": "Suporte Escudeira/Curandeira (Ritual Real)",
+            "notes_build": "Foco em maximizar a eficácia do escudo e da cura, enquanto buffa o ATQ da equipe com 4p Ritual Real. Requer Recarga de Energia suficiente para usar o Supremo consistentemente se estiver usando Ritual Real. Nível do personagem é apreciado para escalar HP.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Fornece um valioso buff de ATQ% para os colegas de equipe. Diona desejará usar o Supremo toda rotação com este conjunto.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "hp_er_healing_2pc_mix",
+                    "set_name": "HP% (2p) + RE% (2p) / Bônus de Cura (2p)",
+                    "pieces": "2+2",
+                    "notes": "A opção mais universal para o kit de Diona, embora não forneça nenhum tipo de buff para a equipe. (Ex: Tenacidade + Selo da Insulação / Donzela Amada).",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "tenacity_of_the_millelith",
+                        "emblem_of_severed_fate"
+                    ]
+                },
+                {
+                    "set_id": "maiden_beloved",
+                    "set_name": "Donzela Amada",
+                    "pieces": 4,
+                    "notes": "Para capitalizar na cura de Diona. Concha Tingida Pelo Mar também é uma opção, mas Diona não aproveita bem o dano da Concha.",
+                    "icon_url": "/assets/images/artifact_sets/maiden_beloved.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "HP% / Recarga de Energia (ER%)",
+                "goblet": "HP%",
+                "circlet": "HP% / Bônus de Cura% / Taxa CRIT (para Arco de Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "HP%",
+                "Taxa CRIT (se usando Arco de Favonius)",
+                "HP Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_warbow",
+                    "name": "Arco de Guerra de Favonius",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha / Missão",
+                    "notes": "Fornecido gratuitamente. Provê RE para Diona e partículas neutras universais para a equipe. Requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_warbow.png"
+                },
+                {
+                    "weapon_id": "sacrificial_bow",
+                    "name": "Arco do Sacrifício",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Melhora as capacidades de bateria Cryo de Diona enquanto permite alto uptime do escudo. Também fornece alguma RE.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_bow.png"
+                },
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Arma 5 estrelas que fornece muitos buffs fortes para a equipe. Pode ser difícil manter o uptime da passiva.",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                },
+                {
+                    "weapon_id": "recurve_bow",
+                    "name": "Arco Recurvado (Recurve Bow)",
+                    "rarity": 3,
+                    "type": "Bow",
+                    "category": "Baús (A SER VERIFICADO)",
+                    "notes": "Arco 3 estrelas e o único com sub-status de HP%. Fornece escudos e curas mais fortes, nada mais.",
+                    "icon_url": "/assets/images/weapons_detail/recurve_bow.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) (para escudo)",
+                "Supremo (Burst) (para cura e buffs)",
+                "Ataque Normal (não precisa upar)"
+            ]
+        }
+    ]
+}

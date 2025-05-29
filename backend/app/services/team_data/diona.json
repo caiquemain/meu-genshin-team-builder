@@ -1,0 +1,110 @@
+[
+    {
+        "id": "diona_ayaka_xingqiu_kazuha_freeze",
+        "name": "Diona - Congelamento (Ayaka, Xingqiu, Kazuha)",
+        "strategy": "A utilidade defensiva de Diona é apreciada para conforto extra em times de Congelamento. Ela também é uma ótima bateria para a DPS Cryo (Ayaka). Kazuha agrupa e aplica Sombra Verde, Xingqiu aplica Hydro.",
+        "characters_in_team": [
+            {
+                "character_id": "diona",
+                "role_in_team": "Suporte Cryo (Escudeira, Healer, Bateria)",
+                "build_key": "diona_support_shielder_healer_noblesse"
+            },
+            {
+                "character_id": "ayaka",
+                "role_in_team": "Main DPS Cryo (On-field)",
+                "build_key": "ayaka_dps_blizzard_strayer_mistsplitter"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "diona_shenhe_ayaka_kazuha_mono_cryo",
+        "name": "Diona - Mono Cryo (Shenhe, Ayaka, Kazuha)",
+        "strategy": "Times Mono Cryo brilham contra inimigos que não podem ser Congelados. Shenhe é praticamente necessária. Diona oferece escudo, cura e partículas. Kazuha com Sombra Verde para reduzir RES Cryo.",
+        "characters_in_team": [
+            {
+                "character_id": "diona",
+                "role_in_team": "Suporte Cryo (Escudeira, Healer, Bateria)",
+                "build_key": "diona_support_shielder_healer_noblesse"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer de Dano Cryo)",
+                "build_key": "shenhe_cryo_buffer_noblesse_calamityqueller_or_favonius"
+            },
+            {
+                "character_id": "ayaka",
+                "role_in_team": "Main DPS Cryo (On-field)",
+                "build_key": "ayaka_dps_blizzard_strayer_mistsplitter"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "diona_eula_fischl_rosaria_eula_physical",
+        "name": "Diona - Time Eula Físico (Eula, Fischl, Rosaria)",
+        "strategy": "Eula frequentemente sofre com problemas de Energia e aprecia muito as capacidades de bateria de Diona. A utilidade defensiva de Diona também é valiosa para uma hypercarry como Eula. Fischl para Supercondutor e Rosaria para ressonância Cryo, Taxa CRIT e dano.",
+        "characters_in_team": [
+            {
+                "character_id": "diona",
+                "role_in_team": "Suporte Cryo (Escudeira, Healer, Bateria para Eula)",
+                "build_key": "diona_support_favonius_battery_mixed_sets"
+            },
+            {
+                "character_id": "eula",
+                "role_in_team": "Main DPS Físico (On-field)",
+                "build_key": "eula_physical_dps_pale_flame_songofbrokenpines"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field (Ativadora de Supercondutor)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo / Bateria / Buffer de Taxa CRIT",
+                "build_key": "rosaria_cryo_subdps_noblesse_favonius"
+            }
+        ]
+    },
+    {
+        "id": "diona_nahida_xingqiu_raiden_fridge_hyperbloom",
+        "name": "Diona - Fridge/Hyperbloom (Nahida, Xingqiu, Raiden)",
+        "strategy": "Fridge é um tipo de time de Florescimento que tira vantagem de \"preservar\" a aura Hydro com Cryo. Diona se encaixa melhor quando há um núcleo de três unidades de Hiperflorecimento ou Germinação que desejam uma unidade defensiva. C6 Diona é valiosa pelo buff de EM.",
+        "characters_in_team": [
+            {
+                "character_id": "diona",
+                "role_in_team": "Suporte Cryo (Escudeira, Healer, Buffer EM C6)",
+                "build_key": "diona_support_shielder_healer_noblesse"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Ativadora de Hyperbloom (Full EM Off-field)",
+                "build_key": "raiden_hyperbloom_trigger_full_em_dragons_bane"
+            }
+        ]
+    }
+]

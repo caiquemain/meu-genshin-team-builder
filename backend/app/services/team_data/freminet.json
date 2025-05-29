@@ -1,0 +1,83 @@
+[
+    {
+        "id": "freminet_xingqiu_fischl_layla_physical_dps",
+        "name": "Freminet - DPS Físico (Xingqiu, Fischl, Layla)",
+        "strategy": "Time padrão de Freminet Físico. Xingqiu aplica Hydro para Congelamento e Estilhaçar. Fischl aplica Electro para Supercondutor. Layla fornece escudo, ressonância Cryo e partículas.",
+        "characters_in_team": [
+            {
+                "character_id": "freminet",
+                "role_in_team": "Main DPS Físico On-field",
+                "build_key": "freminet_physical_dps_pale_flame_skyward_pride"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field (Ativadora de Supercondutor)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "layla",
+                "role_in_team": "Suporte Cryo (Escudeira, Bateria)",
+                "build_key": "layla_shielder_tenacity_hp_favonius"
+            }
+        ]
+    },
+    {
+        "id": "freminet_rosaria_kokomi_kazuha_cryo_dps",
+        "name": "Freminet - DPS Cryo (Rosaria, Kokomi, Kazuha)",
+        "strategy": "Freminet DPS Cryo maximiza o dano de sua Pressão Destruidora Nível 0. Rosaria como bateria Cryo e buffer de Taxa CRIT. Kokomi para aplicação Hydro e cura. Kazuha com Sombra Verde para reduzir RES Cryo e agrupar.",
+        "characters_in_team": [
+            {
+                "character_id": "freminet",
+                "role_in_team": "Main DPS Cryo On-field",
+                "build_key": "freminet_cryo_dps_blizzard_strayer_serpent_spine"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo / Bateria / Buffer de Taxa CRIT",
+                "build_key": "rosaria_cryo_subdps_noblesse_favonius"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Aplicadora Hydro Off-field",
+                "build_key": "kokomi_healer_tenacity_ttds_prototype_amber"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_favonius"
+            }
+        ]
+    },
+    {
+        "id": "freminet_nahida_xingqiu_kuki_shinobu_hyperbloom_driver",
+        "name": "Freminet - Driver de Hyperbloom (Nahida, Xingqiu, Kuki Shinobu)",
+        "strategy": "Freminet como driver on-field para times de Hiperflorecimento. Ele pode ativar Estilhaçar e se beneficiar de Supercondutor. Nahida para aplicação Dendro, Xingqiu para Hydro e Kuki Shinobu para cura e ativação de Hiperflorecimento.",
+        "characters_in_team": [
+            {
+                "character_id": "freminet",
+                "role_in_team": "Driver On-field (Cryo/Físico)",
+                "build_key": "freminet_hyperbloom_driver"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Ativadora de Hyperbloom (Full EM)",
+                "build_key": "kuki_shinobu_hyperbloom_full_em_flowerofparadiselost"
+            }
+        ]
+    }
+]

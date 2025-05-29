@@ -1,0 +1,110 @@
+[
+    {
+        "id": "diluc_xingqiu_sucrose_bennett_vaporize",
+        "name": "Diluc - Vaporizar Clássico (Xingqiu, Sucrose, Bennett)",
+        "strategy": "Time clássico de Diluc focado em Vaporizar. Xingqiu aplica Hydro off-field, Sucrose com Sombra Verde reduz RES e buffa EM (ou Kazuha para Bônus de Dano Elemental), Bennett para cura e buff de ATQ massivo. [cite: 12, 63, 69, 71, 80]",
+        "characters_in_team": [
+            {
+                "character_id": "diluc",
+                "role_in_team": "Main DPS Pyro On-field (Vaporize)",
+                "build_key": "diluc_vaporize_melt_dps_crimson_witch"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer EM, Agrupamento)",
+                "build_key": "sucrose_anemo_support_vv_sacrificialfragments_em_ttds"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "diluc_kaeya_kazuha_bennett_melt",
+        "name": "Diluc - Fusão (Kaeya, Kazuha, Bennett)",
+        "strategy": "Diluc ativa Fusão com a aplicação Cryo de Kaeya (e Kazuha com Supremo infundido em Cryo). Bennett para ATQ e Kazuha para buffs e RES Shred. [cite: 12, 66, 69, 71, 80]",
+        "characters_in_team": [
+            {
+                "character_id": "diluc",
+                "role_in_team": "Main DPS Pyro On-field (Melt)",
+                "build_key": "diluc_vaporize_melt_dps_crimson_witch"
+            },
+            {
+                "character_id": "kaeya",
+                "role_in_team": "Sub-DPS Cryo / Aplicador Cryo Off-field",
+                "build_key": "kaeya_cryo_subdps_blizzard_noblesse_favonius"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer Dano Elemental, Infusão Cryo no Supremo)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "diluc_kazuha_xiangling_bennett_mono_pyro",
+        "name": "Diluc - Mono Pyro (Kazuha, Xiangling, Bennett)",
+        "strategy": "Time focado em dano Pyro bruto, sem reações amplificadoras. Diluc como DPS on-field, Kazuha para buffs e RES Shred Pyro, Xiangling para dano off-field e Bennett para buff de ATQ massivo e ressonância. [cite: 13, 101, 104, 106, 113]",
+        "characters_in_team": [
+            {
+                "character_id": "diluc",
+                "role_in_team": "Main DPS Pyro On-field",
+                "build_key": "diluc_mono_pyro_dps_lavawalker"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer Dano Pyro, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "diluc_yaoyao_xingqiu_bennett_retriburgeon",
+        "name": "Diluc - Retriburgeon (Yaoyao, Xingqiu, Bennett)",
+        "strategy": "Diluc ativa Germinação nas Sementes Dendro criadas por Yaoyao (ou outro Dendro) e Xingqiu (ou outro Hydro). Bennett para buff de ATQ e cura (Germinação causa auto-dano). [cite: 15, 134, 136, 142]",
+        "characters_in_team": [
+            {
+                "character_id": "diluc",
+                "role_in_team": "On-Field DPS / Ativador de Germinação",
+                "build_key": "diluc_burgeon_trigger_gilded_dreams_em"
+            },
+            {
+                "character_id": "yaoyao",
+                "role_in_team": "Aplicadora Dendro Off-field / Healer",
+                "build_key": "yaoyao_dendro_healer_deepwood_favonius"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    }
+]
