@@ -1,0 +1,110 @@
+[
+    {
+        "id": "hutao_double_hydro_zhongli_vape",
+        "name": "Hu Tao - Double Hydro com Zhongli (Vaporizar)",
+        "strategy": "Arquétipo mais confiável de Hu Tao. Xingqiu e Yelan complementam-se fortemente, fornecendo aplicação Hydro abundante, Ressonância Hydro e buffs de DANO. Zhongli oferece escudo e Redução de RES.",
+        "characters_in_team": [
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro (On-field Vaporize)",
+                "build_key": "vaporize_charged_attack_dps"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field / Redução de Dano",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field / Buffer de Dano",
+                "build_key": "yelan_subdps_emblem_favonius_or_elegy"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity_or_instructor"
+            }
+        ]
+    },
+    {
+        "id": "hutao_vv_vape_sucrose_thoma_xingqiu",
+        "name": "Hu Tao - VV Vape (Sucrose, Thoma, Xingqiu)",
+        "strategy": "Times VV Vape transferem mais buffs para Hu Tao incluindo uma unidade Anemo para aplicar Swirl Pyro (Sucrose). Requer um personagem Pyro adicional (Thoma) para fornecer aura Pyro para o Swirl. Xingqiu para Vaporizar.",
+        "characters_in_team": [
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro (On-field Vaporize)",
+                "build_key": "vaporize_charged_attack_dps"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer EM)",
+                "build_key": "sucrose_anemo_support_vv_ttds_em"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Escudeiro / Aplicador Pyro para Swirl",
+                "build_key": "thoma_shielder_support_noblesse_favonius_er"
+            }
+        ]
+    },
+    {
+        "id": "hutao_mono_pyro_xiangling_kazuha_bennett",
+        "name": "Hu Tao - Mono Pyro (Xiangling, Kazuha, Bennett)",
+        "strategy": "Times Mono Pyro são diretos de jogar e consistentes, focando em empilhar buffs em Hu Tao e seus colegas Pyro. Bennett é altamente recomendado.",
+        "characters_in_team": [
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro On-field",
+                "build_key": "vaporize_charged_attack_dps"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer Dano Pyro)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "hutao_vapemelt_layla_xingqiu_bennett",
+        "name": "Hu Tao - Vapemelt (Layla, Xingqiu, Bennett)",
+        "strategy": "Layla aplica Cryo off-field, permitindo que Hu Tao ative Fusão ocasionalmente em inimigos Congelados, além de Vaporizar com Xingqiu. Bennett para buffs e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro (On-field Vapemelt)",
+                "build_key": "vaporize_charged_attack_dps"
+            },
+            {
+                "character_id": "layla",
+                "role_in_team": "Escudeira / Aplicadora Cryo Off-field",
+                "build_key": "layla_shielder_tenacity_hp_favonius"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    }
+]
