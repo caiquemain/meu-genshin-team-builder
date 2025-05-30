@@ -99,6 +99,89 @@
             ]
         },
         {
+            "key": "tartaglia_dps_nymphs_dream_hod",
+            "name": "DPS (Sonho da Ninfa 2p + Profundezas do Coração 2p)",
+            "notes_build": "Esta build foca em um bônus de Dano Hydro consistente e incondicional de +30% combinando os efeitos de 2 peças de Sonho da Ninfa e Profundezas do Coração. É uma alternativa forte e muitas vezes mais fácil de obter com bons sub-stats do que um conjunto completo de 4 peças de Sonho da Ninfa.",
+            "artifacts": [
+                {
+                    "set_id": "nymphs_dream_heart_of_depth_2pc_mix",
+                    "set_name": "Sonho da Ninfa (2p) + Profundezas do Coração (2p)",
+                    "pieces": "2+2",
+                    "notes": "Fornece +30% de Bônus de Dano Hydro. Uma opção muito sólida e consistente para todas as fontes de dano de Childe.",
+                    "icon_url": "/assets/images/artifact_sets/nymphs_dream.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "nymphs_dream",
+                        "heart_of_depth"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Hydro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ~125-145%)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (EM) (para Vaporizar Supremo)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "polar_star",
+                    "name": "Estrela Invernal",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Ainda uma de suas melhores opções, fornecendo Taxa CRIT e buffs de DANO de Habilidade/Supremo e ATQ%.",
+                    "icon_url": "/assets/images/weapons_detail/polar_star.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Excelente 'stat stick' de Dano CRIT. Requer proximidade para maximizar a passiva de DANO%.",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                },
+                {
+                    "weapon_id": "thundering_pulse",
+                    "name": "Agitação Trovejante",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Outra opção forte 5 estrelas com Dano CRIT e buff de ATQ%.",
+                    "icon_url": "/assets/images/weapons_detail/thundering_pulse.png"
+                },
+                {
+                    "weapon_id": "the_viridescent_hunt",
+                    "name": "Caça do Beco (The Viridescent Hunt)",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Passe de Batalha",
+                    "notes": "Opção sólida do Passe de Batalha, fornecendo Taxa CRIT e um pequeno efeito de agrupamento útil.",
+                    "icon_url": "/assets/images/weapons_detail/the_viridescent_hunt.png"
+                },
+                {
+                    "weapon_id": "prototype_crescent",
+                    "name": "Protótipo Crescente",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Forja",
+                    "notes": "Boa opção F2P se conseguir ativar a passiva consistentemente acertando pontos fracos.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_crescent.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal"
+            ]
+        },
+        {
             "key": "tartaglia_onfield_dps_f2p_craftable",
             "name": "DPS On-field F2P (Arma Forjável)",
             "notes_build": "Build acessível para Childe on-field, utilizando armas forjáveis como Protótipo Crescente (se puder ativar a passiva) ou Hamayumi. Conjuntos de artefatos como 2p Hydro + 2p ATQ% são boas opções.",

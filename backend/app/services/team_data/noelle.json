@@ -1,0 +1,83 @@
+[
+    {
+        "id": "noelle_triple_geo_gorou_albedo_fischl",
+        "name": "Noelle - Triple Geo (Gorou, Albedo, Fischl)",
+        "strategy": "Noelle como DPS principal on-field, buffada por Gorou. Albedo para dano Geo off-field e partículas. Fischl para dano Electro off-field e Cristalização ou Supercondutor (menos relevante para dano Geo).",
+        "characters_in_team": [
+            {
+                "character_id": "noelle",
+                "role_in_team": "Main DPS Geo On-field / Healer / Shielder",
+                "build_key": "noelle_onfield_geo_dps_husk"
+            },
+            {
+                "character_id": "gorou",
+                "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
+                "build_key": "gorou_geo_buffer_exile_favonius_er"
+            },
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo Off-field / Bateria",
+                "build_key": "albedo_off_field_geo_dps_main"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Aplicadora Electro para Cristalização",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            }
+        ]
+    },
+    {
+        "id": "noelle_double_geo_furina_yelan",
+        "name": "Noelle - Double Geo com Furina (Furina, Yelan, Gorou)",
+        "strategy": "Time focado em Noelle com Furina. A cura de Noelle para toda a equipe ajuda a acumular Fanfarra de Furina rapidamente. Yelan para dano Hydro off-field e buff de DANO%. Gorou para buffs Geo.",
+        "characters_in_team": [
+            {
+                "character_id": "noelle",
+                "role_in_team": "Main DPS Geo On-field / Healer de Equipe",
+                "build_key": "noelle_onfield_geo_dps_husk"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "gorou",
+                "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
+                "build_key": "gorou_geo_buffer_exile_favonius_er"
+            }
+        ]
+    },
+    {
+        "id": "noelle_navia_chiori_xianyun_plunge_geo",
+        "name": "Noelle - Geo Plunge (Navia, Chiori, Xianyun)",
+        "strategy": "Xianyun permite que Noelle (e Navia/Chiori em trocas rápidas) use Ataques Imersivos com infusão Geo. Navia e Chiori para dano Geo de troca rápida e geração de partículas.",
+        "characters_in_team": [
+            {
+                "character_id": "noelle",
+                "role_in_team": "DPS Geo On-field (Plunging Attack)",
+                "build_key": "noelle_onfield_geo_dps_husk"
+            },
+            {
+                "character_id": "navia",
+                "role_in_team": "Sub-DPS Geo (Quickswap Skill DPS)",
+                "build_key": "navia_geo_dps_nighttime_whispers_verdict"
+            },
+            {
+                "character_id": "chiori",
+                "role_in_team": "Sub-DPS Geo Off-field / Bateria",
+                "build_key": "chiori_offfield_dps_golden_troupe_uraku_misugiri"
+            },
+            {
+                "character_id": "xianyun",
+                "role_in_team": "Suporte Anemo (Healer de Equipe, Habilitadora de Ataque Imersivo)",
+                "build_key": "xianyun_anemo_healer_plunge_enabler_vv_atk_er"
+            }
+        ]
+    }
+]

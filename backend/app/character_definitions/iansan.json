@@ -1,0 +1,366 @@
+{
+    "id": "iansan",
+    "name": "Iansan",
+    "title": "Temperada em Pedra Fundida",
+    "element": "Electro",
+    "rarity": 4,
+    "weapon": "Polearm",
+    "model_type": "Short Female",
+    "role": [
+        "Off-Field Support (Buffer de ATQ, Buffer de DANO%)",
+        "Healer (Leve)"
+    ],
+    "description_bio": "Iansan é uma instrutora de fitness e Mentora Campeã da Peregrinação do Retorno da Chama Sagrada do Coletivo da Abundância. Ela carrega o Nome Antigo UWZ ('UWZ,' Uwezo).",
+    "birthday": "8 de Agosto",
+    "constellation_name_official": "Carnotaurus",
+    "region": "Natlan",
+    "affiliation": [
+        "Teteocan"
+    ],
+    "special_dish": {
+        "name": "Refeição Saudável Padrão Ouro",
+        "icon_url": "/assets/images/dishes/iansan_gold_standard_healthy_meal.webp"
+    },
+    "namecard_url": "/assets/images/namecards/iansan_unyielding.png",
+    "icon_url": "/assets/images/characters/iansan.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "external_links": {
+        "kqm_guide": "keqingmains.com/q/iansan-quickguide/",
+        "wiki_page": "genshin-impact.fandom.com/wiki/Iansan"
+    },
+    "build_options": [
+        {
+            "key": "iansan_support_scroll_favonius",
+            "name": "Suporte (Pergaminho - Lança de Favonius)",
+            "notes_build": "Foco em buffar a equipe com 4p Pergaminho do Herói da Cidade das Cinzas e o buff de ATQ do Supremo que escala com movimento. Lança de Favonius ajuda com a alta necessidade de RE dela e da equipe. Nível do Supremo é prioridade para o teto do buff de ATQ.",
+            "artifacts": [
+                {
+                    "set_id": "scroll_of_the_hero_of_cinder_city",
+                    "set_name": "Pergaminho do Herói da Cidade das Cinzas",
+                    "pieces": 4,
+                    "notes": "Como personagem de Natlan Electro, Iansan pode ativar o efeito completo de 4p Pergaminho para um massivo Bônus de DANO Elemental de 40% para Electro e qualquer Elemento com o qual ela reaja. Opção recomendada para a maioria de seus times.",
+                    "icon_url": "/assets/images/artifact_sets/scroll_of_the_hero_of_cinder_city.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Alternativa viável ao Pergaminho. Fornece um buff de ATQ% de 20% para toda a equipe após usar o Supremo de Iansan. O buff também se aplica a ela, ajudando a atingir o teto de seu buff de ATQ.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "atk_er_scroll_2pc_mix",
+                    "set_name": "ATQ% (2p) + RE% (2p) / Pergaminho (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de 2p que aumentam o buff de ATQ de Iansan ou ajudam a atingir seus requisitos de RE. Principalmente opções de placeholder. (Ex: Gladiador + Selo da Insulação).",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "gladiators_finale",
+                        "emblem_of_severed_fate"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "ATK%",
+                "circlet": "ATK% / Taxa CRIT (para Lança de Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ex: ~135-155% C0 Solo Electro com Favonius, rotação >24s)",
+                "ATK%",
+                "Taxa CRIT (para Lança de Favonius)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "calamity_queller",
+                    "name": "Pacificadora de Calamidades",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alto ATQ Base e grandes quantidades de ATQ% de sua passiva a tornam a Melhor em Slot para Iansan quando seus Requisitos de RE são baixos.",
+                    "icon_url": "/assets/images/weapons_detail/calamity_queller.png"
+                },
+                {
+                    "weapon_id": "engulfing_lightning",
+                    "name": "Luz das Profundezas",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alto ATQ Base, RE do sub-status e passiva, e um pequeno buff de ATQ% a tornam uma excelente arma geral para Iansan quando seus Requisitos de RE são altos.",
+                    "icon_url": "/assets/images/weapons_detail/engulfing_lightning.png"
+                },
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Melhor opção 4 estrelas para Iansan, combina um alto ATQ Base com um sub-status de RE. As partículas de sua passiva permitem que Iansan seja bateria para si mesma e para seus colegas de equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                },
+                {
+                    "weapon_id": "vortex_vanquisher",
+                    "name": "Perfuradora de Vórtices",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alto ATQ Base e sub-status de ATQ% a tornam uma ótima opção quando os Requisitos de RE de Iansan são baixos.",
+                    "icon_url": "/assets/images/weapons_detail/vortex_vanquisher.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst) (para teto do buff de ATQ)",
+                "Nível do Personagem para 90 (para ATQ Base)",
+                "Habilidade Elemental (Skill) (dano insignificante)",
+                "Ataque Normal (dano insignificante)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 894,
+            "base_atk": 22,
+            "base_def": 54,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 2963,
+            "base_atk": 71,
+            "base_def": 177,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 4913,
+            "base_atk": 118,
+            "base_def": 294,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6283,
+            "base_atk": 152,
+            "base_def": 376,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7495,
+            "base_atk": 181,
+            "base_def": 449,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8707,
+            "base_atk": 210,
+            "base_def": 521,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10657,
+            "base_atk": 257,
+            "base_def": 638,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Olhar Aprisionador (Ensnaring Gaze)",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/ensnaring_gaze.webp"
+        },
+        {
+            "name": "Lasca de Ametista Vajrada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_chunk.webp"
+        },
+        {
+            "name": "Gema de Ametista Vajrada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_gemstone.webp"
+        },
+        {
+            "name": "Dracolito (Dracolite)",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/dracolite.webp"
+        },
+        {
+            "name": "Apito de Madeira de Sentinela (Sentry's Wooden Whistle)",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/sentrys_wooden_whistle.webp"
+        },
+        {
+            "name": "Apito de Metal de Guerreiro (Warrior's Metal Whistle)",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/warriors_metal_whistle.webp"
+        },
+        {
+            "name": "Apito Dourado de Guerreiro Sauriano Coroado (Saurian-Crowned Warrior's Golden Whistle)",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/saurian_crowned_warriors_golden_whistle.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Espigão Ponderado",
+            "icon_url": "/assets/images/talents/iansan/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 3 golpes consecutivos de lança.\nAtaque Carregado: Consome uma certa quantidade de Stamina para avançar, causando dano aos oponentes no caminho.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando oponentes ao longo do caminho e causando Dano em AdE no impacto.\nEstado Bênção da Alma da Noite: Voo Tempestuoso Ágil: Enquanto no estado Bênção da Alma da Noite: O Ataque Carregado de Iansan será transformado no formidável Voo Tempestuoso Ágil, consumindo uma certa quantidade de Stamina para pisar ferozmente, causando Dano Electro em AdE alinhado à Alma da Noite."
+        },
+        "elemental_skill": {
+            "name": "Investida Trovão",
+            "icon_url": "/assets/images/talents/iansan/talent_elemental_skill.webp",
+            "description": "Iansan avança uma certa distância, causando Dano Electro alinhado à Alma da Noite a todos os oponentes em seu caminho.\nApós esta Habilidade ser usada, Iansan recuperará 54 pontos de Alma da Noite e entrará no estado Bênção da Alma da Noite.\nDentro de 5s após isso ser feito, usar um Ataque Normal ativará 1 pisada rápida de Voo Tempestuoso Ágil de Iansan que não consumirá Stamina.\nBênção da Alma da Noite: Iansan: Consome continuamente pontos de Alma da Noite. Se ela ficar sem, ou usar esta Habilidade novamente, seu estado Bênção da Alma da Noite terminará.\nPossui as seguintes propriedades:\n- Aumenta a Vel. de Movimento de Iansan.\n- Segurar corrida mudará Iansan para o modo Trovão Impetuoso, aumentando grandemente sua Vel. de Movimento temporariamente.\n- Neste modo, Iansan pode dar saltos voadores usando terreno, ou consumir pontos de Alma da Noite adicionais para se mover sobre água ou Phlogiston líquido enquanto é imune a DANO deste último."
+        },
+        "elemental_burst": {
+            "name": "Os Três Princípios do Poder",
+            "icon_url": "/assets/images/talents/iansan/talent_elemental_burst.webp",
+            "description": "O pé de Iansan estilhaça a própria terra com \"Poder\", causando Dano Electro em AdE alinhado à Alma da Noite.\nEla então saca sua \"Escala de Energia Cinética de Edição Limitada (Para Treinos)\".\nQuando esta Habilidade é usada, Iansan ganhará 15 pontos de Alma da Noite e entrará no estado Bênção da Alma da Noite.\nQuando a Escala de Energia Cinética deixa o campo, o estado Bênção da Alma da Noite de Iansan terminará.\nEscala de Energia Cinética: A Escala de Energia Cinética seguirá o personagem, aumentando o ATQ do seu membro ativo atual da equipe de diferentes maneiras com base nos pontos de Alma da Noite de Iansan.\n- Se Iansan tiver menos de 42 pontos de Alma da Noite, o bônus de ATQ será baseado em seus pontos de Alma da Noite e ATQ.\n- Se Iansan tiver pelo menos 42 pontos de Alma da Noite, a Escala de Energia Cinética mudará para o estado \"Apoio Ardente!\", no qual o bônus de ATQ será mais forte e baseado apenas em seu ATQ.\nAdicionalmente, a Escala registrará a distância que seu personagem ativo atual (excluindo Iansan) se moveu enquanto estiver ativa, restaurando pontos de Alma da Noite para Iansan a cada segundo com base na distância movida no segundo anterior.\nA Escala desaparecerá assim que seu estado Bênção da Alma da Noite terminar. Também desaparecerá após 1 segundo quando você não estiver em estado de combate.\nEnquanto estiver ativa, o estado Bênção da Alma da Noite de Iansan não terminará mesmo se ela não estiver em campo."
+        },
+        "passives": [
+            {
+                "name": "Treinamento de Resistência Aprimorado",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/iansan/talent_passive_a1.webp",
+                "description": "Após Voo Tempestuoso Ágil atingir oponentes, Iansan ganhará o efeito Movimento Preciso por 15s.\nDurante este tempo, seu ATQ é aumentado em 20%, e sempre que ela recuperar pontos de Alma da Noite através da Escala de Energia Cinética em seu Supremo Elemental, Os Três Princípios do Poder, ela ganhará 1 ponto de Alma da Noite extra.\nAdicionalmente, quando seu membro ativo atual da equipe consumir ou restaurar pontos de Alma da Noite, os pontos de Alma da Noite extras que Iansan ganhar na próxima vez que ela restaurar pontos de Alma da Noite via a Escala serão aumentados para 4. Este efeito pode ocorrer uma vez a cada 2.8s.\n\"Movimento Preciso\" expirará quando o estado Bênção da Alma da Noite de Iansan terminar."
+            },
+            {
+                "name": "Teste de Gradiente de Energia Cinética",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/iansan/talent_passive_a4.webp",
+                "description": "Quando um membro da equipe próximo ativar um Supremo da Alma da Noite, Iansan obterá o efeito Aquecimento por 10s.\nDurante este tempo, quando Iansan restaurar pelo menos 1 ponto de Alma da Noite, ela curará seu personagem ativo atual em 60% de seu ATQ.\nEste efeito pode ser ativado uma vez a cada 2.8s."
+            },
+            {
+                "name": "Dádiva do Reino da Noite",
+                "type": "Passiva do Domínio da Noite (Night Realm's Gift)",
+                "icon_url": "/assets/images/talents/iansan/talent_passive_night_realm.webp",
+                "description": "Após os pontos de Alma da Noite serem totalmente esgotados e Iansan estiver em campo, ela mudará para usar Phlogiston para manter sua Bênção da Alma da Noite.\nEnquanto em uma área com Mecânicas de Phlogiston dentro de Natlan, Transmissão da Alma da Noite: Iansan pode ser usada.\nQuando o personagem ativo atual está correndo ou em modos de movimento causados por certos Talentos, ou a uma certa altura no ar, trocar para Iansan ativará o seguinte: Iansan entra no estado Bênção da Alma da Noite e obtém 25 pontos de Alma da Noite.\nA Transmissão da Alma da Noite pode ser ativada uma vez a cada 10s pela sua própria equipe.\nEnquanto em uma área com Mecânicas de Phlogiston dentro de Natlan, Iansan não sofrerá DANO de queda ao usar diferenças de terreno para dar saltos."
+            },
+            {
+                "name": "Plano de Equilíbrio Calórico",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/iansan/talent_passive_utility.webp",
+                "description": "Enquanto em uma área com Mecânicas de Phlogiston dentro de Natlan, recupera 10 de Phlogiston quando os níveis de Phlogiston caem abaixo de 50%.\nIsso pode ocorrer uma vez a cada 10s."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Apito de Madeira de Sentinela",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/sentrys_wooden_whistle.webp"
+        },
+        {
+            "name": "Apito de Metal de Guerreiro",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/warriors_metal_whistle.webp"
+        },
+        {
+            "name": "Apito Dourado de Guerreiro Sauriano Coroado",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/saurian_crowned_warriors_golden_whistle.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Contenda\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_contention.webp"
+        },
+        {
+            "name": "Guia da \"Contenda\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_contention.webp"
+        },
+        {
+            "name": "Filosofia da \"Contenda\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_contention.webp"
+        },
+        {
+            "name": "Negação e Julgamento (Denial and Judgment)",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/denial_and_judgment.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Começar Nunca é Fácil",
+            "icon_url": "/assets/images/constellations/iansan/constellation_1.webp",
+            "description": "Quando Iansan está em combate e no estado Bênção da Alma da Noite, ela restaurará 15 de Energia Elemental para cada 6 pontos de Alma da Noite que consumir.\nEste efeito pode ser ativado uma vez a cada 18s."
+        },
+        {
+            "level": 2,
+            "name": "Preguiça é o Inimigo!",
+            "icon_url": "/assets/images/constellations/iansan/constellation_2.webp",
+            "description": "Ao usar o Supremo Elemental Os Três Princípios do Poder, Iansan também ganhará o efeito Movimento Preciso de seu Talento Passivo \"Treinamento de Resistência Aprimorado\" por 15s.\nAdicionalmente, se Iansan estiver fora de campo enquanto Movimento Preciso estiver ativo, ela também aumentará o ATQ do seu personagem ativo atual em 30%.\nVocê deve primeiro desbloquear o Talento Passivo \"Treinamento de Resistência Aprimorado\" para acessar o efeito acima."
+        },
+        {
+            "level": 3,
+            "name": "Planejamento Científico da Dieta",
+            "icon_url": "/assets/images/constellations/iansan/constellation_3.webp",
+            "description": "Aumenta o Nível de Investida Trovão em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Devagar e Sempre Vence a Corrida",
+            "icon_url": "/assets/images/constellations/iansan/constellation_4.webp",
+            "description": "Quando a Escala de Energia Cinética está presente, Iansan ganhará 2 acúmulos de Força Crescente após seu personagem ativo atual (excluindo ela mesma) usar seu Supremo Elemental.\nOs acúmulos duram até a Escala deixar o campo, e Força Crescente pode ser ganha uma vez por invocação da Escala.\nSempre que Iansan restaurar pontos de Alma da Noite via a Escala, ela consumirá 1 acúmulo de Força Crescente e restaurará 4 pontos de Alma da Noite adicionais.\nAdicionalmente, se sua restauração de Alma da Noite pela Escala transbordar, Iansan ganhará 50% do transbordamento na próxima vez que ela restaurar pontos de Alma da Noite via a Escala."
+        },
+        {
+            "level": 5,
+            "name": "Nós Podemos Ir Mais Longe!",
+            "icon_url": "/assets/images/constellations/iansan/constellation_5.webp",
+            "description": "Aumenta o Nível de Os Três Princípios do Poder em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Ensinamentos do Coletivo da Abundância",
+            "icon_url": "/assets/images/constellations/iansan/constellation_6.webp",
+            "description": "A duração da Escala de Energia Cinética é aumentada em 3s.\nAdicionalmente, quando Iansan ativa a restauração de pontos de Alma da Noite, se houver algum transbordamento, ela ganhará o efeito Força Extrema, que aumenta o DANO causado pelo seu personagem ativo atual em 25% por 3s."
+        }
+    ]
+}

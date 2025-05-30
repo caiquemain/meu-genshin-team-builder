@@ -131,6 +131,68 @@
                 "Habilidade Elemental (Skill)",
                 "Ataque Normal (Ignorar)"
             ]
+        },
+        {
+            "key": "zhongli_shielder_tenacity",
+            "name": "Escudeiro (HP Máximo com Utilidade de Time)",
+            "notes_build": "Foco em maximizar a força e uptime do escudo de Zhongli, provendo imensa sobrevivência e redução de RES universal. ER é desnecessário. Taxa CRIT apenas para Lança de Favonius.",
+            "artifacts": [
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Buff de ATQ para o time e força do escudo, bom uptime.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                },
+                {
+                    "set_id": "tenacity_vourukasha_2pc_mix",
+                    "set_name": "Tenacidade dos Millelith (2p) + Brilho de Vourukasha (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinação que fornece o maior HP% para o escudo mais forte.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "tenacity_of_the_millelith",
+                        "vourukashas_glow"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "HP%",
+                "goblet": "HP%",
+                "circlet": "HP% / Taxa CRIT (para Favonius)"
+            },
+            "sub_stats_priority": [
+                "HP%",
+                "HP Flat",
+                "Recarga de Energia (ER%) (muito baixa prioridade)",
+                "Taxa CRIT (para Favonius)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "black_tassel",
+                    "name": "Borla Preta (Black Tassel)",
+                    "rarity": 3,
+                    "type": "Polearm",
+                    "category": "Baús/Gacha",
+                    "notes": "Melhor opção para maximizar HP e força do escudo.",
+                    "icon_url": "/assets/images/weapons_detail/black_tassel.png"
+                },
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius (Favonius Lance)",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Para utilidade de time, ajuda com a recarga de energia da equipe. Requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst) (opcional, baixo impacto para esta build)"
+            ]
         }
     ]
 }

@@ -1,52 +1,66 @@
 {
     "id": "itto",
     "name": "Arataki Itto",
+    "title": "Heroísmo de Hanamizaka",
     "element": "Geo",
     "rarity": 5,
     "weapon": "Claymore",
+    "model_type": "Tall Male",
     "role": [
-        "DPS",
-        "On-Field DPS"
+        "On-Field Geo DPS"
     ],
+    "description_bio": "Descendente dos oni carmesins, de sangue orgulhoso e ardente, Arataki Itto também é o primeiro e maior líder da Gangue Arataki. Embora não seja um vilão, sua reputação como delinquente na Cidade de Inazuma deixa a desejar.",
+    "birthday": "1 de Junho",
+    "constellation_name_official": "Taurus Iracundus",
+    "region": "Inazuma",
+    "affiliation": [
+        "Gangue Arataki"
+    ],
+    "special_dish": {
+        "name": "Caminho do Forte",
+        "icon_url": "/assets/images/dishes/itto_way_of_the_strong.webp"
+    },
+    "namecard_url": "/assets/images/namecards/itto_oni_face.png",
     "icon_url": "/assets/images/characters/itto.png",
     "element_icon_url": "/assets/images/elements/element_geo.png",
+    "external_links": [
+        {
+            "type": "KQM Guide (Quick)",
+            "url": "keqingmains.com/q/itto-quickguide/"
+        },
+        {
+            "type": "KQM Guide (Full)",
+            "url": "keqingmains.com/itto/"
+        },
+        {
+            "type": "Wiki Page (Fandom)",
+            "url": "genshin-impact.fandom.com/wiki/Arataki_Itto"
+        }
+    ],
     "build_options": [
         {
             "key": "on_field_geo_dps_husk",
             "name": "DPS Geo On-field (Casca de Sonhos Opulentos)",
-            "notes_build": "Maximiza o dano de Itto durante seu Supremo através de seus Ataques Normais e Ataques Carregados especiais (Arataki Kesagiri Slashes). Priorize Recarga de Energia até atingir os requisitos da equipe (geralmente 130-145%). ",
+            "notes_build": "Maximiza o dano de Itto durante seu Supremo através de seus Ataques Normais e Ataques Carregados especiais (Arataki Kesagiri Slashes). Priorize Recarga de Energia até atingir os requisitos da equipe (geralmente 130-145% em times Mono Geo com Gorou e outra unidade Geo).",
             "artifacts": [
                 {
                     "set_id": "husk_of_opulent_dreams",
                     "set_name": "Casca de Sonhos Opulentos",
                     "pieces": 4,
-                    "notes": "Melhor conjunto de artefatos para Itto. ",
+                    "notes": "Melhor conjunto de artefatos para Itto, fornecendo DEF% e Bônus de Dano Geo.",
                     "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png"
                 },
                 {
-                    "set_id": "husk_archaic_petra_2pc_mix",
-                    "set_name": "2p Casca de Sonhos Opulentos + 2p Pedra Arcaica",
+                    "set_id": "archaic_petra_husk_of_opulent_dreams_2pc_mix",
+                    "set_name": "Pedra Arcaica (2p) + Casca de Sonhos Opulentos (2p)",
                     "pieces": "2+2",
-                    "notes": "Alternativa viável se não tiver 4p Casca bons.",
-                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png",
+                    "notes": "Alternativa viável se não tiver 4p Casca bons, mas geralmente inferior.",
+                    "icon_url": "/assets/images/artifact_sets/archaic_petra.png",
                     "pieces_display": "2+2",
                     "is_combo": true,
                     "combo_set_ids": [
-                        "husk_of_opulent_dreams",
-                        "archaic_petra"
-                    ]
-                },
-                {
-                    "set_id": "husk_marechaussee_2pc_mix",
-                    "set_name": "2p Casca de Sonhos Opulentos + 2p Caçador das Sombras ",
-                    "pieces": "2+2",
-                    "notes": "Comparável a 2p Casca + 2p Pedra Arcaica. ",
-                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png",
-                    "pieces_display": "2+2",
-                    "is_combo": true,
-                    "combo_set_ids": [
-                        "husk_of_opulent_dreams",
-                        "marechaussee_hunter"
+                        "archaic_petra",
+                        "husk_of_opulent_dreams"
                     ]
                 }
             ],
@@ -59,7 +73,7 @@
                 "Recarga de Energia (ER%) (até requisitos)",
                 "Taxa CRIT / Dano CRIT",
                 "DEF%",
-                "ATK%"
+                "ATK% (menor prioridade)"
             ],
             "weapons": [
                 {
@@ -68,53 +82,35 @@
                     "rarity": 5,
                     "type": "Claymore",
                     "category": "Gacha (Assinatura)",
-                    "notes": "Melhor arma para Itto. ",
+                    "notes": "Melhor arma para Itto, feita sob medida para seu kit.",
                     "icon_url": "/assets/images/weapons_detail/redhorn_stonethresher.png"
                 },
                 {
                     "weapon_id": "serpent_spine",
-                    "name": "Espinha Dorsal da Serpente R5",
+                    "name": "Espinha Dorsal da Serpente",
                     "rarity": 4,
                     "type": "Claymore",
                     "category": "Passe de Batalha",
-                    "notes": "Próxima da Chifres Vermelhos R1. Requer um escudo. ",
+                    "notes": "Em R5, é sua segunda melhor opção, superando outras 5 estrelas. Requer um escudo para manter os acúmulos.",
                     "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
-                },
-                {
-                    "weapon_id": "beacon_of_the_reed_sea",
-                    "name": "Sinal dos Mares de Juncos",
-                    "rarity": 5,
-                    "type": "Claymore",
-                    "category": "Gacha",
-                    "notes": "Bom 'stat stick', mas superado por Chifres e Espinha Dorsal. ",
-                    "icon_url": "/assets/images/weapons_detail/beacon_of_the_reed_sea.png"
-                },
-                {
-                    "weapon_id": "skyward_pride",
-                    "name": "Orgulho Celestial ",
-                    "rarity": 5,
-                    "type": "Claymore",
-                    "category": "Gacha",
-                    "notes": "Opção sólida, ER% ajuda com os requisitos. ",
-                    "icon_url": "/assets/images/weapons_detail/skyward_pride.png"
                 },
                 {
                     "weapon_id": "whiteblind",
                     "name": "Sombra Branca",
                     "rarity": 4,
                     "type": "Claymore",
-                    "category": "Craftable F2P",
-                    "notes": "Opção F2P recomendada. ",
+                    "category": "Forja F2P",
+                    "notes": "Melhor opção F2P, forjável. Acumule sua passiva antes de usar o Supremo.",
                     "icon_url": "/assets/images/weapons_detail/whiteblind.png"
                 },
                 {
-                    "weapon_id": "blackcliff_slasher",
-                    "name": "Foice do Penhasco Obscuro",
-                    "rarity": 4,
+                    "weapon_id": "beacon_of_the_reed_sea",
+                    "name": "Sinal dos Mares de Juncos",
+                    "rarity": 5,
                     "type": "Claymore",
-                    "category": "Loja (Brilho Estelar)",
-                    "notes": "Bom 'stat stick', comparável à Millelith Branco. ",
-                    "icon_url": "/assets/images/weapons_detail/blackcliff_slasher.png"
+                    "category": "Gacha (Limitado)",
+                    "notes": "Sub-status de Taxa CRIT alto, mas a passiva é menos útil para Itto, pois ele geralmente está com escudo.",
+                    "icon_url": "/assets/images/weapons_detail/beacon_of_the_reed_sea.png"
                 }
             ],
             "talent_priority": [
@@ -122,6 +118,326 @@
                 "Supremo (Burst)",
                 "Habilidade Elemental (Skill)"
             ]
+        },
+        {
+            "key": "itto_main_dps_husk",
+            "name": "DPS Geo On-field (Casca de Sonhos Opulentos)",
+            "notes_build": "Maximiza o dano de Itto durante seu Supremo através de seus Ataques Normais e Ataques Carregados especiais (Arataki Kesagiri Slashes). Priorize Recarga de Energia até atingir os requisitos da equipe (geralmente 130-145% em times Mono Geo com Gorou e outra unidade Geo).",
+            "artifacts": [
+                {
+                    "set_id": "husk_of_opulent_dreams",
+                    "set_name": "Casca de Sonhos Opulentos",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto de artefatos para Itto, fornecendo DEF% e Bônus de Dano Geo.",
+                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png"
+                },
+                {
+                    "set_id": "archaic_petra_husk_of_opulent_dreams_2pc_mix",
+                    "set_name": "Pedra Arcaica (2p) + Casca de Sonhos Opulentos (2p)",
+                    "pieces": "2+2",
+                    "notes": "Alternativa viável se não tiver 4p Casca bons, mas geralmente inferior.",
+                    "icon_url": "/assets/images/artifact_sets/archaic_petra.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "archaic_petra",
+                        "husk_of_opulent_dreams"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "DEF%",
+                "goblet": "Bônus de Dano Geo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até requisitos)",
+                "Taxa CRIT / Dano CRIT",
+                "DEF%",
+                "ATK% (menor prioridade)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "redhorn_stonethresher",
+                    "name": "Chifres Vermelhos Destruidores de Pedras",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Melhor arma para Itto, feita sob medida para seu kit.",
+                    "icon_url": "/assets/images/weapons_detail/redhorn_stonethresher.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Em R5, é sua segunda melhor opção, superando outras 5 estrelas. Requer um escudo para manter os acúmulos.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "whiteblind",
+                    "name": "Sombra Branca",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja F2P",
+                    "notes": "Melhor opção F2P, forjável. Acumule sua passiva antes de usar o Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/whiteblind.png"
+                },
+                {
+                    "weapon_id": "beacon_of_the_reed_sea",
+                    "name": "Sinal dos Mares de Juncos",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Sub-status de Taxa CRIT alto, mas a passiva é menos útil para Itto, pois ele geralmente está com escudo.",
+                    "icon_url": "/assets/images/weapons_detail/beacon_of_the_reed_sea.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 1001,
+            "base_atk": 18,
+            "base_def": 75,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3455,
+            "base_atk": 61,
+            "base_def": 258,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5779,
+            "base_atk": 102,
+            "base_def": 431,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "4.8%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 7462,
+            "base_atk": 132,
+            "base_def": 557,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "9.6%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8951,
+            "base_atk": 158,
+            "base_def": 668,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "9.6%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 10448,
+            "base_atk": 185,
+            "base_def": 779,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 12858,
+            "base_atk": 227,
+            "base_def": 959,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "19.2%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Insígnia de Corvo Dourada (Riftborn Regalia)",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/riftborn_regalia.webp"
+        },
+        {
+            "name": "Lasca de Topázio Prithiva",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/prithiva_topaz_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Topázio Prithiva",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/prithiva_topaz_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Topázio Prithiva",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/prithiva_topaz_chunk.webp"
+        },
+        {
+            "name": "Gema de Topázio Prithiva",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/prithiva_topaz_gemstone.webp"
+        },
+        {
+            "name": "Onikabuto",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/onikabuto.webp"
+        },
+        {
+            "name": "Condensado de Slime",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/slime_condensate.webp"
+        },
+        {
+            "name": "Secreção de Slime",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/slime_secretions.webp"
+        },
+        {
+            "name": "Concentrado de Slime",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/slime_concentrate.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Lenda do Clube da Luta",
+            "icon_url": "/assets/images/talents/itto/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 golpes consecutivos. Quando o 2º e 4º golpes atingem oponentes, Itto ganhará 1 e 2 acúmulos de Superforça Superlativa, respectivamente. Máx 5 acúmulos. Ativar este efeito atualizará a duração atual de quaisquer acúmulos existentes. Adicionalmente, o combo de Ataque Normal de Itto não é reiniciado imediatamente após correr ou usar sua Habilidade Elemental, \"Masatsu Zetsugi: Explosão Akaushi!\".\nAtaque Carregado: Ao segurar para realizar um Ataque Carregado, Itto desfere uma série de golpes Arataki Kesagiri sem consumir Stamina. Em vez disso, cada golpe Arataki Kesagiri consome 1 acúmulo de Superforça Superlativa. Quando o último acúmulo é consumido, Itto desfere um golpe final poderoso. Se não houver acúmulos de Superforça Superlativa disponíveis, Itto realizará um único Golpe Saichimonji.\nAtaque Imersivo: Mergulha do ar para atingir o chão, danificando oponentes ao longo do caminho e causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Masatsu Zetsugi: Explosão Akaushi!",
+            "icon_url": "/assets/images/talents/itto/talent_elemental_skill.webp",
+            "description": "Arremessa Ushi, o jovem touro akaushi e membro auxiliar da Gangue Arataki, causando Dano Geo aos oponentes no impacto. Quando Ushi atinge oponentes, Arataki Itto ganha 1 acúmulo de Superforça Superlativa. Ushi permanecerá no campo e fornecerá suporte das seguintes maneiras:\n- Provoca oponentes ao redor e atrai seus ataques.\n- Herda HP com base em uma porcentagem do HP Máx de Arataki Itto.\n- Quando Ushi sofre DANO, Arataki Itto ganha 1 acúmulo de Superforça Superlativa. Apenas 1 acúmulo pode ser ganho desta forma a cada 2s.\n- Ushi fugirá quando seu HP chegar a 0 ou sua duração terminar. Ele concederá a Arataki Itto 1 acúmulo de Superforça Superlativa quando sair.\nManter Pressionado: Ajusta o ângulo de arremesso.\nUshi é considerado uma construção Geo. Arataki Itto só pode implantar 1 Ushi no campo por vez."
+        },
+        "elemental_burst": {
+            "name": "Descendência Real: Contemplem, Itto o Maligno!",
+            "icon_url": "/assets/images/talents/itto/talent_elemental_burst.webp",
+            "description": "Hora de mostrar a eles o poder da Gangue Arataki! Por um tempo, Itto libera seu Rei Oni Furioso interior, empunhando seu Kanabou do Rei Oni em batalha. Este estado tem as seguintes propriedades especiais:\n- Converte os Ataques Normais, Carregados e Imersivos de Itto para Dano Geo. Isso não pode ser substituído.\n- Aumenta a Vel. de ATQ Normal de Itto. Também aumenta seu ATQ com base em sua DEF.\n- Ao acertar, o 1º e 3º golpes de seu combo de ataque concederão cada um a Arataki Itto 1 acúmulo de Superforça Superlativa.\n- Diminui a RES Elemental e Física de Itto em 20%.\nO estado Rei Oni Furioso será limpo quando Itto sair do campo."
+        },
+        "passives": [
+            {
+                "name": "Arataki Ichiban",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/itto/talent_passive_a1.webp",
+                "description": "Quando Arataki Itto usa Arataki Kesagiri consecutivos, ele obtém os seguintes efeitos:\n- Cada golpe aumenta a Vel. de ATQ do próximo golpe em 10%. O aumento máximo de Vel. de ATQ é 30%.\n- Aumenta sua resistência à interrupção.\nEstes efeitos serão limpos assim que ele parar de realizar golpes consecutivos."
+            },
+            {
+                "name": "Linhagem do Oni Carmesim",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/itto/talent_passive_a4.webp",
+                "description": "DANO de Arataki Kesagiri aumentado em 35% da DEF de Arataki Itto."
+            },
+            {
+                "name": "Madeireiro de Mão Cheia",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/itto/talent_passive_utility.webp",
+                "description": "Quando um membro da equipe usa ataques para obter madeira de uma árvore, ele tem 25% de chance de obter um tronco de madeira adicional."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Condensado de Slime",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/slime_condensate.webp"
+        },
+        {
+            "name": "Secreção de Slime",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/slime_secretions.webp"
+        },
+        {
+            "name": "Concentrado de Slime",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/slime_concentrate.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Elegância\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_elegance.webp"
+        },
+        {
+            "name": "Guia da \"Elegância\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_elegance.webp"
+        },
+        {
+            "name": "Filosofia da \"Elegância\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_elegance.webp"
+        },
+        {
+            "name": "Coração de Cinzas",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/ashen_heart.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Fiquem um Pouco e Escutem",
+            "icon_url": "/assets/images/constellations/itto/constellation_1.webp",
+            "description": "Após usar Descendência Real: Contemplem, Itto o Maligno!, Arataki Itto ganha 2 acúmulos de Superforça Superlativa. Após 1s, Itto ganhará 1 acúmulo de Superforça Superlativa a cada 0.5s por 1.5s."
+        },
+        {
+            "level": 2,
+            "name": "Reúnam-se, É uma Briga!",
+            "icon_url": "/assets/images/constellations/itto/constellation_2.webp",
+            "description": "Após usar Descendência Real: Contemplem, Itto o Maligno!, cada membro da equipe cujo Elemento é Geo diminuirá o TdR dessa habilidade em 1.5s e restaurará 6 de Energia para Arataki Itto. O TdR pode ser diminuído em até 4.5s desta maneira. Máx 18 de Energia pode ser restaurada desta maneira."
+        },
+        {
+            "level": 3,
+            "name": "Chifres Abaixados, Passando!",
+            "icon_url": "/assets/images/constellations/itto/constellation_3.webp",
+            "description": "Aumenta o Nível de Masatsu Zetsugi: Explosão Akaushi! em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Pão com Manteiga da Prisão",
+            "icon_url": "/assets/images/constellations/itto/constellation_4.webp",
+            "description": "Quando o estado Rei Oni Furioso causado por Descendência Real: Contemplem, Itto o Maligno! termina, todos os membros da equipe próximos ganham 20% de DEF e 20% de ATQ por 10s."
+        },
+        {
+            "level": 5,
+            "name": "10 Anos de Fama em Hanamizaka",
+            "icon_url": "/assets/images/constellations/itto/constellation_5.webp",
+            "description": "Aumenta o Nível de Descendência Real: Contemplem, Itto o Maligno! em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Arataki Itto, Presente!",
+            "icon_url": "/assets/images/constellations/itto/constellation_6.webp",
+            "description": "Os Ataques Carregados de Arataki Itto causam +70% de Dano CRIT. Adicionalmente, quando ele usa Arataki Kesagiri, ele tem 50% de chance de não consumir acúmulos de Superforça Superlativa."
         }
     ]
 }

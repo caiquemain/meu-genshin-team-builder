@@ -1,0 +1,110 @@
+[
+    {
+        "id": "iansan_varesa_furina_xianyun_plunge_support",
+        "name": "Iansan - Suporte Varesa Plunge (Varesa, Furina, Xianyun)",
+        "strategy": "Com o buff de ATQ de Iansan, o buff de DANO% de Furina e o buff de Ataque Imersivo de Xianyun, este time permite que Varesa cause dano impressionante. O estilo de jogo dinâmico de Varesa mantém facilmente os pontos de Alma da Noite de Iansan altos.",
+        "characters_in_team": [
+            {
+                "character_id": "iansan",
+                "role_in_team": "Suporte Electro (Buffer de ATQ Flat, 4p Pergaminho Holder)",
+                "build_key": "iansan_support_scroll_favonius"
+            },
+            {
+                "character_id": "varesa",
+                "role_in_team": "Main DPS Electro On-field (Plunging Attack)",
+                "build_key": "varesa_electro_plunge_dps_nightsoul_focus"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            },
+            {
+                "character_id": "xianyun",
+                "role_in_team": "Suporte Anemo (Healer de Equipe, Habilitadora de Ataque Imersivo, VV Holder)",
+                "build_key": "xianyun_anemo_healer_plunge_enabler_vv_atk_er"
+            }
+        ]
+    },
+    {
+        "id": "iansan_mavuika_citlali_bennett_melt_support",
+        "name": "Iansan - Suporte Mavuika Melt (Mavuika, Citlali, Bennett)",
+        "strategy": "Iansan pode substituir Bennett ou Xilonen no time Melt usual de Mavuika, gerando mais Espírito de Luta para Mavuika além de seu buff de ATQ Flat. Citlali com 4p Pergaminho ou 4p Instrutor.",
+        "characters_in_team": [
+            {
+                "character_id": "iansan",
+                "role_in_team": "Suporte Electro (Buffer de ATQ Flat)",
+                "build_key": "iansan_support_scroll_favonius"
+            },
+            {
+                "character_id": "mavuika",
+                "role_in_team": "Main DPS Pyro On-field (Melt)",
+                "build_key": "mavuika_pyro_dps_melt_crimson_witch"
+            },
+            {
+                "character_id": "citlali",
+                "role_in_team": "Suporte Cryo (Escudeira, Aplicadora Cryo, Buffer)",
+                "build_key": "citlali_shield_support_scroll_or_instructor_em_er"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "iansan_kinich_mavuika_bennett_burning_support",
+        "name": "Iansan - Suporte Kinich Queimadura (Kinich, Mavuika, Bennett)",
+        "strategy": "Iansan combina bem com Kinich, fornecendo seu buff de ATQ Flat e o buff completo de 40% de DANO% do 4p Pergaminho sem interromper o uptime de Queimadura de Kinich. Mavuika para aplicação Pyro off-field.",
+        "characters_in_team": [
+            {
+                "character_id": "iansan",
+                "role_in_team": "Suporte Electro (Buffer de ATQ Flat, 4p Pergaminho Holder)",
+                "build_key": "iansan_support_scroll_favonius"
+            },
+            {
+                "character_id": "kinich",
+                "role_in_team": "Main DPS On-field (Natlan - Foco em Queimadura)",
+                "build_key": "kinich_onfield_dps_burning_focus"
+            },
+            {
+                "character_id": "mavuika",
+                "role_in_team": "Sub-DPS Pyro Off-field / Aplicadora Pyro",
+                "build_key": "mavuika_pyro_subdps_deepwood_or_instructor"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "iansan_gaming_bennett_citlali_melt_plunge_support",
+        "name": "Iansan - Suporte Gaming Melt (Gaming, Bennett, Citlali)",
+        "strategy": "Como Gaming se move constantemente, tanto horizontalmente quanto verticalmente, ele mantém facilmente os pontos de Alma da Noite de Iansan acima de 42 para o buff de ATQ Flat maior. Citlali para aplicação Cryo e buffs.",
+        "characters_in_team": [
+            {
+                "character_id": "iansan",
+                "role_in_team": "Suporte Electro (Buffer de ATQ Flat, Pode usar 4p Ritual Real se Citlali estiver com Pergaminho)",
+                "build_key": "iansan_support_noblesse_calamity_queller"
+            },
+            {
+                "character_id": "gaming",
+                "role_in_team": "Main DPS Pyro On-field (Plunging Attack Melt)",
+                "build_key": "gaming_melt_vape_dps_crimson_witch_fruitful_hook"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "citlali",
+                "role_in_team": "Suporte Cryo (Escudeira, Aplicadora Cryo, 4p Pergaminho Holder)",
+                "build_key": "citlali_shield_support_scroll_em_er"
+            }
+        ]
+    }
+]

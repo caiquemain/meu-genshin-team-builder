@@ -76,7 +76,7 @@ const FilterSection = ({ title, items, filterType, activeFilterValue, onFilterCh
     </div>
 );
 
-const FilterBar = ({ activeFilters, onFilterChange }) => {
+const FilterBar = ({ activeFilters, onFilterChange, currentNameQuery, onNameQueryChange }) => {
     return (
         <div className="filter-bar-container">
             <h3>Filtrar Personagens por:</h3>
@@ -101,6 +101,18 @@ const FilterBar = ({ activeFilters, onFilterChange }) => {
                 activeFilterValue={activeFilters.rarity}
                 onFilterChange={onFilterChange}
             />
+
+            {/* Envolvendo o input em uma filter-section para consistência de layout e espaçamento */}
+            <div className="filter-section">
+                <h4>Buscar por Nome</h4> {/* Título opcional para a seção de busca */}
+                <input
+                    type="text"
+                    placeholder="Digite o nome..."
+                    className="name-search-input-bar" // A classe principal para o estilo do input
+                    value={currentNameQuery}
+                    onChange={(e) => onNameQueryChange(e.target.value)}
+                />
+            </div>
         </div>
     );
 };

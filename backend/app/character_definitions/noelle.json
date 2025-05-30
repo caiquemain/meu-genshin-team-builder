@@ -1,0 +1,426 @@
+{
+    "id": "noelle",
+    "name": "Noelle",
+    "title": "Flor da Cavalaria",
+    "element": "Geo",
+    "rarity": 4,
+    "weapon": "Claymore",
+    "model_type": "Medium Female",
+    "role": [
+        "On-Field DPS",
+        "Healer",
+        "Shielder"
+    ],
+    "description_bio": "Uma aspirante a cavaleira dos Cavaleiros de Favonius que sonha em um dia se juntar às suas fileiras. Conhecida por sua incrível força e desejo de ajudar, Noelle é uma empregada dedicada que diligentemente cumpre seus deveres.",
+    "birthday": "21 de Março",
+    "constellation_name_official": "Parma Cordis",
+    "region": "Mondstadt",
+    "affiliation": [
+        "Cavaleiros de Favonius"
+    ],
+    "special_dish": {
+        "name": "Panqueca Leve Como o Ar",
+        "icon_url": "/assets/images/dishes/noelle_lighter_than_air_pancake.webp"
+    },
+    "namecard_url": "/assets/images/namecards/noelle_protector.png",
+    "icon_url": "/assets/images/characters/noelle.png",
+    "element_icon_url": "/assets/images/elements/element_geo.png",
+    "external_links": [
+        {
+            "type": "KQM Guide (Full)",
+            "url": "keqingmains.com/noelle/"
+        },
+        {
+            "type": "Wiki Page (Fandom)",
+            "url": "genshin-impact.fandom.com/wiki/Noelle"
+        }
+    ],
+    "build_options": [
+        {
+            "key": "noelle_main_dps_husk_gladiator",
+            "name": "DPS Principal (Casca 2p + Gladiador 2p)",
+            "notes_build": "Build alternativa para Noelle DPS, combinando 2p Casca de Sonhos Opulentos para DEF (+30%) e 2p Último Juramento do Gladiador para ATQ (+18%). Pode ser uma boa opção se tiver peças com sub-stats excepcionais ou como um conjunto de transição. Geralmente, 4p Casca de Sonhos Opulentos é superior para o dano máximo de Noelle.",
+            "artifacts": [
+                {
+                    "set_id": "husk_of_opulent_dreams_gladiators_finale_2pc_mix",
+                    "set_name": "Casca de Sonhos Opulentos (2p) + Último Juramento do Gladiador (2p)",
+                    "pieces": "2+2",
+                    "notes": "Fornece +30% DEF e +18% ATQ. Uma opção sólida se as peças individuais tiverem sub-stats muito bons, ou como um conjunto temporário.",
+                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "husk_of_opulent_dreams",
+                        "gladiators_finale"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "DEF%",
+                "goblet": "Bônus de Dano Geo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até requisitos, ~130-150% com baterias)",
+                "Taxa CRIT / Dano CRIT",
+                "DEF%",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "redhorn_stonethresher",
+                    "name": "Chifres Vermelhos Destruidores de Pedras",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Ainda a melhor arma devido ao alto Dano CRIT e passiva que escala com DEF.",
+                    "icon_url": "/assets/images/weapons_detail/redhorn_stonethresher.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Excelente opção, especialmente com refinos. Requer um escudo para manter os acúmulos da passiva.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "whiteblind",
+                    "name": "Sombra Branca",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja F2P",
+                    "notes": "Ótima opção F2P, fornecendo DEF% e uma passiva que aumenta ATQ e DEF.",
+                    "icon_url": "/assets/images/weapons_detail/whiteblind.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)"
+            ]
+        },
+        {
+            "key": "noelle_onfield_geo_dps_husk",
+            "name": "DPS Geo On-field (Casca de Sonhos Opulentos)",
+            "notes_build": "Foco em maximizar o dano de Noelle durante seu Supremo, onde sua DEF é convertida em ATQ. C6 é crucial para este estilo de jogo. Requer Recarga de Energia significativa, especialmente como única Geo.",
+            "artifacts": [
+                {
+                    "set_id": "husk_of_opulent_dreams",
+                    "set_name": "Casca de Sonhos Opulentos",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Noelle DPS, fornecendo DEF% e Bônus de Dano Geo. Fácil de manter os acúmulos.",
+                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png"
+                },
+                {
+                    "set_id": "gladiators_finale",
+                    "set_name": "Último Juramento do Gladiador",
+                    "pieces": 4,
+                    "notes": "Opção viável se tiver bons sub-stats, mas geralmente inferior a Casca de Sonhos Opulentos, pois buffa apenas Ataques Normais.",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
+                },
+                {
+                    "set_id": "retracing_bolide",
+                    "set_name": "Meteoro Invertido",
+                    "pieces": 4,
+                    "notes": "Aumenta a Força do Escudo e o Dano do Ataque Normal/Carregado enquanto estiver com escudo. Sinergiza bem com Noelle, mas requer bom uptime do escudo.",
+                    "icon_url": "/assets/images/artifact_sets/retracing_bolide.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "DEF% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Geo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até requisitos, ~130-150% com baterias)",
+                "Taxa CRIT / Dano CRIT",
+                "DEF%",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "redhorn_stonethresher",
+                    "name": "Chifres Vermelhos Destruidores de Pedras",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Noelle DPS, devido ao alto Dano CRIT e passiva que escala com DEF.",
+                    "icon_url": "/assets/images/weapons_detail/redhorn_stonethresher.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Excelente opção 4 estrelas, especialmente com refinos altos. Aumenta todo o Dano e fornece Taxa CRIT. Perde acúmulos ao sofrer dano.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "whiteblind",
+                    "name": "Sombra Branca",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja F2P",
+                    "notes": "Melhor opção F2P, forjável. Fornece DEF% e sua passiva aumenta ATQ e DEF.",
+                    "icon_url": "/assets/images/weapons_detail/whiteblind.png"
+                },
+                {
+                    "weapon_id": "skyward_pride",
+                    "name": "Orgulho Celestial",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Alto ATQ Base e sub-status de RE. A passiva de Lâminas de Vácuo causa Dano Físico, que não é o foco de Noelle, mas ainda uma boa arma.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_pride.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill) (para dano e cura, se desejado)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 999,
+            "base_atk": 16,
+            "base_def": 67,
+            "bonus_stat_label": "DEF",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3289,
+            "base_atk": 52,
+            "base_def": 219,
+            "bonus_stat_label": "DEF",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5456,
+            "base_atk": 86,
+            "base_def": 363,
+            "bonus_stat_label": "DEF",
+            "bonus_stat_value": "7.5%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 7001,
+            "base_atk": 110,
+            "base_def": 466,
+            "bonus_stat_label": "DEF",
+            "bonus_stat_value": "15.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8337,
+            "base_atk": 131,
+            "base_def": 555,
+            "bonus_stat_label": "DEF",
+            "bonus_stat_value": "15.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9681,
+            "base_atk": 153,
+            "base_def": 644,
+            "bonus_stat_label": "DEF",
+            "bonus_stat_value": "22.5%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 12071,
+            "base_atk": 191,
+            "base_def": 799,
+            "bonus_stat_label": "DEF",
+            "bonus_stat_value": "30.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Presa Glacial (Hoarfrost Core)",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/hoarfrost_core.webp"
+        },
+        {
+            "name": "Lasca de Topázio Prithiva",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/prithiva_topaz_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Topázio Prithiva",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/prithiva_topaz_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Topázio Prithiva",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/prithiva_topaz_chunk.webp"
+        },
+        {
+            "name": "Gema de Topázio Prithiva",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/prithiva_topaz_gemstone.webp"
+        },
+        {
+            "name": "Valberry",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/valberry.webp"
+        },
+        {
+            "name": "Máscara Danificada",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/damaged_mask.webp"
+        },
+        {
+            "name": "Máscara Suja",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/stained_mask.webp"
+        },
+        {
+            "name": "Máscara Ominosa",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/ominous_mask.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Lâmina Favonius - Empregada",
+            "icon_url": "/assets/images/talents/noelle/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 golpes consecutivos.\nAtaque Carregado: Drena Stamina continuamente para realizar giros contínuos contra todos os oponentes próximos. No final da sequência, realiza um golpe poderoso.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando oponentes ao longo do caminho e causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Guardiã do Coração",
+            "icon_url": "/assets/images/talents/noelle/talent_elemental_skill.webp",
+            "description": "Invoca uma armadura protetora de pedra, causando Dano Geo aos oponentes próximos e criando um escudo. A absorção de DANO do escudo escala com a DEF de Noelle.\nO escudo possui as seguintes propriedades:\n- Quando os Ataques Normais e Carregados de Noelle atingem, eles têm uma chance de regenerar HP para todos os personagens.\n- Possui 150% de eficácia de absorção contra Dano Geo."
+        },
+        "elemental_burst": {
+            "name": "Grande Limpeza",
+            "icon_url": "/assets/images/talents/noelle/talent_elemental_burst.webp",
+            "description": "Reunindo a força da pedra ao redor de sua arma, Noelle ataca os oponentes ao redor em uma grande AdE, causando Dano Geo.\nDepois, Noelle ganha os seguintes efeitos:\n- Maior AdE de Ataque.\n- Converte o DANO de Ataque para Dano Geo que não pode ser substituído por outra infusão elemental.\n- ATQ aumentado com base em sua DEF."
+        },
+        "passives": [
+            {
+                "name": "Devoção",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/noelle/talent_passive_a1.webp",
+                "description": "Quando o HP de Noelle estiver abaixo de 30%, ela criará automaticamente um escudo para o seu personagem ativo. Este escudo dura 20s e pode absorver DANO igual a 400% da DEF de Noelle. Este escudo possui 150% de eficácia de absorção contra Dano Geo. Este efeito pode ser ativado uma vez a cada 60s."
+            },
+            {
+                "name": "Limpo e Arrumado",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/noelle/talent_passive_a4.webp",
+                "description": "Cada 4 Ataques Normais ou Carregados que Noelle acertar diminuirá o TdR de Guardiã do Coração em 1s. Acertar múltiplos oponentes com um único ataque conta como um único acerto."
+            },
+            {
+                "name": "A Empregada dos Cavaleiros",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/noelle/talent_passive_utility.webp",
+                "description": "Quando um Prato Perfeito é cozinhado, há 12% de chance de obter o dobro do produto."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Máscara Danificada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/damaged_mask.webp"
+        },
+        {
+            "name": "Máscara Suja",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/stained_mask.webp"
+        },
+        {
+            "name": "Máscara Ominosa",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/ominous_mask.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Resistência\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_resistance.webp"
+        },
+        {
+            "name": "Guia da \"Resistência\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_resistance.webp"
+        },
+        {
+            "name": "Filosofia da \"Resistência\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_resistance.webp"
+        },
+        {
+            "name": "Garra de Stormterror",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/dvalins_claw.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Eu Vou Ajudar!",
+            "icon_url": "/assets/images/constellations/noelle/constellation_1.webp",
+            "description": "Enquanto tanto Guardiã do Coração quanto Grande Limpeza estiverem ativos, o efeito de cura de Guardiã do Coração tem 100% de chance de ser ativado."
+        },
+        {
+            "level": 2,
+            "name": "Empregada da Ventania",
+            "icon_url": "/assets/images/constellations/noelle/constellation_2.webp",
+            "description": "Diminui o Consumo de Stamina do Ataque Carregado de Noelle em 20% e aumenta o DANO do Ataque Carregado em 15%."
+        },
+        {
+            "level": 3,
+            "name": "A Empregada Nunca Será Ferida",
+            "icon_url": "/assets/images/constellations/noelle/constellation_3.webp",
+            "description": "Aumenta o Nível de Guardiã do Coração em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Preciso Limpar",
+            "icon_url": "/assets/images/constellations/noelle/constellation_4.webp",
+            "description": "Guardiã do Coração causará DANO Geo igual a 400% do ATQ aos oponentes ao redor quando terminar ou for destruído."
+        },
+        {
+            "level": 5,
+            "name": "Mestra da Vassoura dos Cavaleiros",
+            "icon_url": "/assets/images/constellations/noelle/constellation_5.webp",
+            "description": "Aumenta o Nível de Grande Limpeza em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Deve Ser Impecável",
+            "icon_url": "/assets/images/constellations/noelle/constellation_6.webp",
+            "description": "Grande Limpeza aumenta o ATQ de Noelle em um adicional de 50% de sua DEF. Adicionalmente, cada oponente derrotado durante a duração da habilidade adiciona 1s à sua duração, até 10s."
+        }
+    ]
+}

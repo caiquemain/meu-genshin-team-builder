@@ -122,6 +122,103 @@
                 "Supremo (Burst)",
                 "Ataque Normal (geralmente não upado)"
             ]
+        },
+        {
+            "key": "albedo_off_field_geo_dps_main",
+            "name": "Sub-DPS Geo Off-field (Foco em DEF e Dano da Skill)",
+            "notes_build": "Esta build maximiza o dano da Habilidade Elemental de Albedo, que é sua principal fonte de dano. ER pode ser ignorado se o Supremo não for usado regularmente, conforme guia KQM.",
+            "artifacts": [
+                {
+                    "set_id": "husk_of_opulent_dreams",
+                    "set_name": "Casca de Sonhos Opulentos",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para dano pessoal, snapshotando o efeito de 4 peças.",
+                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png"
+                },
+                {
+                    "set_id": "golden_troupe",
+                    "set_name": "Trupe Dourada",
+                    "pieces": 4,
+                    "notes": "Comparável ao Casca de Sonhos com Haste de Cinábrio, excelente para o dano da Skill.",
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
+                },
+                {
+                    "set_id": "husk_archaic_petra_2pc_mix",
+                    "set_name": "2p Casca de Sonhos Opulentos + 2p Pedra Arcaica",
+                    "pieces": "2+2",
+                    "notes": "Alternativa viável se não tiver 4p Casca bons.",
+                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "husk_of_opulent_dreams",
+                        "archaic_petra"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "DEF%",
+                "goblet": "Bônus de Dano Geo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "DEF%",
+                "Recarga de Energia (se for usar o Supremo com frequência)",
+                "ATK% (beneficia o Supremo)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "cinnabar_spindle",
+                    "name": "Haste de Cinábrio R5",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Evento F2P (Não mais obtenível)",
+                    "notes": "Sua melhor arma, se disponível do evento.",
+                    "icon_url": "/assets/images/weapons_detail/cinnabar_spindle.png"
+                },
+                {
+                    "weapon_id": "harbinger_of_dawn",
+                    "name": "Prenúncio do Alvorecer R5",
+                    "rarity": 3,
+                    "type": "Sword",
+                    "category": "F2P (Obtido em Orações)",
+                    "notes": "Melhor opção F2P se não tiver Haste de Cinábrio, requer >90% HP.",
+                    "icon_url": "/assets/images/weapons_detail/harbinger_of_dawn.png"
+                },
+                {
+                    "weapon_id": "wolf_fang",
+                    "name": "Presa do Lobo R5",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Passe de Batalha",
+                    "notes": "Levemente superior ao Prenúncio do Alvorecer R5, mas com custo.",
+                    "icon_url": "/assets/images/weapons_detail/wolf_fang.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial R1",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Melhor opção 5 estrelas se usar o Supremo, ótimo stat stick de Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius ",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Transforma Albedo mais em uma bateria para o time, sacrificando dano pessoal.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (geralmente não upado)"
+            ]
         }
     ],
     "ascension_stats_summary": [

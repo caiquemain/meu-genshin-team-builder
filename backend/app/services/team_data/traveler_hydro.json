@@ -1,0 +1,110 @@
+[
+    {
+        "id": "traveler_hydro_furina_xiangling_bennett_vape_enabler",
+        "name": "Viajante (Hydro) - Enabler Vaporizar (Furina, Xiangling, Bennett)",
+        "strategy": "O Viajante Hydro e Furina trabalham juntos para permitir que Xiangling Vaporize seu Pyronado. A manipulação de HP do Viajante acelera a geração de Fanfarra de Furina. Bennett para buffs e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_hydro",
+                "role_in_team": "Aplicador Hydro / Suporte",
+                "build_key": "hydro_traveler_support_instructor_favonius"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field (Vaporize)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "traveler_hydro_nilou_nahida_baizhu_bloom",
+        "name": "Viajante (Hydro) - Nilou Bloom (Nilou, Nahida, Baizhu)",
+        "strategy": "O papel do Viajante Hydro é usar sua Habilidade Elemental (Segurar) para disparar Gotas de Orvalho e ativar reações de Florescimento. A cura de Baizhu ajuda a mitigar o auto-dano das Sementes Abundantes.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_hydro",
+                "role_in_team": "Driver Hydro On-field / Ativador de Bloom (EM Build)",
+                "build_key": "hydro_traveler_dps_hold_skill"
+            },
+            {
+                "character_id": "nilou",
+                "role_in_team": "Ativadora de Florescimento Abundante / Aplicadora Hydro",
+                "build_key": "nilou_bloom_hp_keyofkhajnisut"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Healer / Escudeiro Leve / Aplicador Dendro Secundário",
+                "build_key": "baizhu_healer_deepwood_prototype_amber_hp"
+            }
+        ]
+    },
+    {
+        "id": "traveler_hydro_raiden_nahida_kokomi_hyperbloom",
+        "name": "Viajante (Hydro) - Hyperbloom (Raiden, Nahida, Kokomi)",
+        "strategy": "Time focado em Hiperflorecimento. Sem Espada do Sacrifício, o Viajante Hydro tem tempo de inatividade em sua Habilidade e aplicação Hydro. Neste caso, Kokomi pode ficar em campo para aplicar Hydro.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_hydro",
+                "role_in_team": "Aplicador Hydro (Habilidade Hold)",
+                "build_key": "hydro_traveler_dps_hold_skill"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Ativadora de Hyperbloom (Full EM Off-field)",
+                "build_key": "raiden_hyperbloom_trigger_full_em_dragons_bane"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Aplicadora Hydro On-field (Driver)",
+                "build_key": "kokomi_healer_driver_oceanhued_clam_ttds"
+            }
+        ]
+    },
+    {
+        "id": "traveler_hydro_ganyu_shenhe_venti_freeze_support",
+        "name": "Viajante (Hydro) - Suporte Congelamento (Ganyu, Shenhe, Venti)",
+        "strategy": "Time para mobs e mundo aberto. Dependendo se o Supremo de Venti absorve Cryo ou Hydro, o time pode atuar como Congelamento ou Mono Cryo. Múltiplas formas de sobrevivência através do controle de Venti, Congelamento e pequena cura C6 do Viajante.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_hydro",
+                "role_in_team": "Aplicador Hydro / Suporte",
+                "build_key": "hydro_traveler_support_instructor_favonius"
+            },
+            {
+                "character_id": "ganyu",
+                "role_in_team": "Main DPS Cryo (On-field/Off-field Burst)",
+                "build_key": "ganyu_freeze_dps_blizzard_strayer_amos"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer de Dano Cryo)",
+                "build_key": "shenhe_cryo_buffer_noblesse_calamityqueller_or_favonius"
+            },
+            {
+                "character_id": "venti",
+                "role_in_team": "Suporte Anemo (Agrupamento, Bateria, VV RES Shred)",
+                "build_key": "venti_anemo_support_vv_stringless_elegy"
+            }
+        ]
+    }
+]

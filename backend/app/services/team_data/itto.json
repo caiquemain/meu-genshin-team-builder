@@ -1,8 +1,8 @@
 [
     {
-        "id": "itto_mono_geo_albedo_zhongli_gorou",
-        "name": "Itto - Mono Geo (Albedo, Zhongli, Gorou)",
-        "strategy": "Time mais recomendado para Itto. Zhongli fornece escudo e RES Shred, Albedo dano off-field e Gorou buffs de DEF e Dano Geo. Alta sinergia e fácil de atingir requisitos de ER.",
+        "id": "itto_gorou_albedo_zhongli_mono_geo_hypercarry",
+        "name": "Itto - Mono Geo Hypercarry (Gorou, Albedo, Zhongli)",
+        "strategy": "Time Geo clássico focado em maximizar o dano de Itto. Gorou fornece buffs de DEF e Dano Geo. Albedo para dano Geo off-field e partículas. Zhongli oferece escudo robusto para Ressonância Geo e Redução de RES universal.",
         "characters_in_team": [
             {
                 "character_id": "itto",
@@ -12,24 +12,24 @@
             {
                 "character_id": "gorou",
                 "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
-                "build_key": "geo_def_buffer_favonius"
+                "build_key": "gorou_geo_buffer_exile_favonius_er"
             },
             {
                 "character_id": "albedo",
                 "role_in_team": "Sub-DPS Geo Off-field / Bateria",
-                "build_key": "off_field_geo_dps_main"
+                "build_key": "albedo_off_field_geo_dps_main"
             },
             {
                 "character_id": "zhongli",
-                "role_in_team": "Suporte Shielder / Redutor de RES Universal",
-                "build_key": "shielder_max_hp_utility"
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity_favonius"
             }
         ]
     },
     {
-        "id": "itto_triple_geo_albedo_layla_gorou",
-        "name": "Itto - Triple Geo (Albedo, Layla, Gorou)",
-        "strategy": "Opção com Layla como escudeira acessível, fornecendo escudo forte e permitindo Cristalização. Albedo e Gorou mantêm seus papéis de dano e buff.",
+        "id": "itto_gorou_zhongli_bennett_mono_geo_bennett",
+        "name": "Itto - Mono Geo com Bennett (Gorou, Zhongli, Bennett)",
+        "strategy": "Variante Mono Geo que troca Albedo por Bennett para um buff de ATQ massivo e cura. A rotação pode precisar ser ajustada para maximizar o buff de Bennett em Itto e Gorou. Zhongli para escudo e RES Shred.",
         "characters_in_team": [
             {
                 "character_id": "itto",
@@ -39,78 +39,24 @@
             {
                 "character_id": "gorou",
                 "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
-                "build_key": "geo_def_buffer_favonius"
-            },
-            {
-                "character_id": "albedo",
-                "role_in_team": "Sub-DPS Geo Off-field / Bateria",
-                "build_key": "off_field_geo_dps_main"
-            },
-            {
-                "character_id": "layla",
-                "role_in_team": "Escudeira Cryo / Aplicadora Cryo",
-                "build_key": "layla_shielder_tenacity_favonius"
-            }
-        ]
-    },
-    {
-        "id": "itto_triple_geo_albedo_kuki_gorou",
-        "name": "Itto - Triple Geo (Albedo, Kuki Shinobu, Gorou)",
-        "strategy": "Kuki Shinobu oferece cura e pode ativar Cristalização, mantendo o buff da Ressonância Geo. Time do 'Arataki Gang'.",
-        "characters_in_team": [
-            {
-                "character_id": "itto",
-                "role_in_team": "Main DPS Geo On-field",
-                "build_key": "on_field_geo_dps_husk"
-            },
-            {
-                "character_id": "gorou",
-                "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
-                "build_key": "geo_def_buffer_favonius"
-            },
-            {
-                "character_id": "albedo",
-                "role_in_team": "Sub-DPS Geo Off-field",
-                "build_key": "off_field_geo_dps_main"
-            },
-            {
-                "character_id": "kuki_shinobu",
-                "role_in_team": "Healer Electro / Aplicadora Electro",
-                "build_key": "kuki_healer_hyperbloom_tenacity_flower"
-            }
-        ]
-    },
-    {
-        "id": "itto_triple_geo_zhongli_bennett_gorou",
-        "name": "Itto - Triple Geo (Zhongli, Bennett, Gorou)",
-        "strategy": "Opção sem Albedo. Bennett fornece um grande buff de ATK (que Itto ainda usa parcialmente) e cura. Zhongli para escudo e Gorou para buffs Geo.",
-        "characters_in_team": [
-            {
-                "character_id": "itto",
-                "role_in_team": "Main DPS Geo On-field",
-                "build_key": "on_field_geo_dps_husk"
-            },
-            {
-                "character_id": "gorou",
-                "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
-                "build_key": "geo_def_buffer_favonius"
+                "build_key": "gorou_geo_buffer_exile_favonius_er"
             },
             {
                 "character_id": "zhongli",
-                "role_in_team": "Suporte Shielder / Redutor de RES Universal",
-                "build_key": "shielder_max_hp_utility"
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity_favonius"
             },
             {
                 "character_id": "bennett",
-                "role_in_team": "Suporte (ATK Buffer & Healer)",
-                "build_key": "bennett_support_noblesse_er"
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
             }
         ]
     },
     {
-        "id": "itto_microwave_geo_mc_zhongli_gorou",
-        "name": "Itto - Microwave Geo (Viajante Geo, Zhongli, Gorou)",
-        "strategy": "Foca no dano de ressonância entre os construtos de Zhongli e Viajante Geo, com Gorou buffando e Itto aproveitando o campo Geo para seu dano. Melhor com C1 Zhongli.",
+        "id": "itto_gorou_fischl_diona_triple_geo_flex",
+        "name": "Itto - Geo com Flex Electro/Cryo (Gorou, Fischl, Diona)",
+        "strategy": "Time que usa Gorou para buffs Geo, mas adiciona Fischl para dano off-field e Cristalização, e Diona para escudo, cura e ressonância Cryo (se desejado, ou para partículas). Menos focado em dano Geo puro, mas com alguma flexibilidade de reação.",
         "characters_in_team": [
             {
                 "character_id": "itto",
@@ -120,17 +66,17 @@
             {
                 "character_id": "gorou",
                 "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
-                "build_key": "geo_def_buffer_favonius"
+                "build_key": "gorou_geo_buffer_exile_favonius_er"
             },
             {
-                "character_id": "zhongli",
-                "role_in_team": "DPS Geo (Construtos e Supremo) / Shielder",
-                "build_key": "microwave_geo_construct_dps"
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Aplicadora Electro",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
             },
             {
-                "character_id": "traveler_geo",
-                "role_in_team": "Sub-DPS Geo (Construtos) / Bateria CRIT",
-                "build_key": "geo_traveler_subdps_archaic_noblesse"
+                "character_id": "diona",
+                "role_in_team": "Suporte Cryo (Escudeira, Healer, Bateria)",
+                "build_key": "diona_support_shielder_healer_noblesse_favonius"
             }
         ]
     }

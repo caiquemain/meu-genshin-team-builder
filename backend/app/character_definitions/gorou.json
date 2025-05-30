@@ -92,6 +92,124 @@
                 "Supremo (Burst) (Baixa prioridade)",
                 "Ataque Normal (Não precisa upar)"
             ]
+        },
+        {
+            "key": "gorou_geo_buffer_exile_favonius",
+            "name": "Suporte Geo Buffer (O Exilado - Favonius)",
+            "notes_build": "Maximiza a utilidade de Gorou como buffer Geo e bateria de energia para a equipe. 4p O Exilado ajuda com a recarga de energia de todos os membros da equipe após Gorou usar seu Supremo. Arco de Guerra de Favonius é essencial para geração de partículas. Priorize Recarga de Energia e Taxa CRIT para ativar a passiva de Favonius. Níveis de Talento na Habilidade Elemental são mais importantes para os buffs.",
+            "artifacts": [
+                {
+                    "set_id": "the_exile",
+                    "set_name": "O Exilado",
+                    "pieces": 4,
+                    "notes": "Fornece Recarga de Energia para Gorou (2p) e regenera Energia para os outros membros da equipe após o Supremo de Gorou (4p). Ótimo para times com alta demanda de energia.",
+                    "icon_url": "/assets/images/artifact_sets/the_exile.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%)",
+                "goblet": "DEF%",
+                "circlet": "Taxa CRIT (para Arco de Favonius) / DEF%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~200-250%+)",
+                "Taxa CRIT (para Arco de Favonius, ~50-60% é ideal)",
+                "DEF%",
+                "DEF Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_warbow",
+                    "name": "Arco de Guerra de Favonius",
+                    "rarity": 4,
+                    "type": "Arco",
+                    "category": "Gacha / Missão",
+                    "notes": "Melhor arma para Gorou como bateria, ajudando com sua própria Recarga de Energia e fornecendo partículas para a equipe. Requer investimento em Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_warbow.png"
+                },
+                {
+                    "weapon_id": "sacrificial_bow",
+                    "name": "Arco do Sacrifício",
+                    "rarity": 4,
+                    "type": "Arco",
+                    "category": "Gacha",
+                    "notes": "Alternativa se não tiver Favonius ou se precisar de mais geração de partículas da Habilidade de Gorou (com refinos altos). Menos consistente para energia da equipe que Favonius.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_bow.png"
+                },
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final",
+                    "rarity": 5,
+                    "type": "Arco",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Opção 5 estrelas que fornece RE e buffs de equipe (EM e ATQ%), embora o buff de EM seja menos relevante para times Mono Geo focados em Itto/Noelle.",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) (para buffs)",
+                "Supremo (Burst) (para buffs e aplicação de Exilado)",
+                "Ataque Normal (não precisa upar)"
+            ]
+        },
+        {
+            "key": "gorou_geo_buffer_exile_favonius_er",
+            "name": "Suporte Geo Buffer (O Exilado - Favonius)",
+            "notes_build": "Maximiza a utilidade de Gorou como buffer Geo e bateria de energia para a equipe. 4p O Exilado ajuda com a recarga de energia de todos os membros da equipe após Gorou usar seu Supremo. Arco de Guerra de Favonius é essencial para geração de partículas. Priorize Recarga de Energia e Taxa CRIT para ativar a passiva de Favonius. Níveis de Talento na Habilidade Elemental são mais importantes para os buffs.",
+            "artifacts": [
+                {
+                    "set_id": "the_exile",
+                    "set_name": "O Exilado",
+                    "pieces": 4,
+                    "notes": "Fornece Recarga de Energia para Gorou (2p) e regenera Energia para os outros membros da equipe após o Supremo de Gorou (4p). Ótimo para times com alta demanda de energia.",
+                    "icon_url": "/assets/images/artifact_sets/the_exile.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%)",
+                "goblet": "DEF%",
+                "circlet": "Taxa CRIT (para Arco de Favonius) / DEF%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~200-250%+)",
+                "Taxa CRIT (para Arco de Favonius, ~50-60% é ideal)",
+                "DEF%",
+                "DEF Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_warbow",
+                    "name": "Arco de Guerra de Favonius",
+                    "rarity": 4,
+                    "type": "Arco",
+                    "category": "Gacha / Missão",
+                    "notes": "Melhor arma para Gorou como bateria, ajudando com sua própria Recarga de Energia e fornecendo partículas para a equipe. Requer investimento em Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_warbow.png"
+                },
+                {
+                    "weapon_id": "sacrificial_bow",
+                    "name": "Arco do Sacrifício",
+                    "rarity": 4,
+                    "type": "Arco",
+                    "category": "Gacha",
+                    "notes": "Alternativa se não tiver Favonius ou se precisar de mais geração de partículas da Habilidade de Gorou (com refinos altos). Menos consistente para energia da equipe que Favonius.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_bow.png"
+                },
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final",
+                    "rarity": 5,
+                    "type": "Arco",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Opção 5 estrelas que fornece RE e buffs de equipe (EM e ATQ%), embora o buff de EM seja menos relevante para times Mono Geo focados em Itto/Noelle.",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) (para buffs)",
+                "Supremo (Burst) (para buffs e aplicação de Exilado)",
+                "Ataque Normal (não precisa upar)"
+            ]
         }
     ]
 }

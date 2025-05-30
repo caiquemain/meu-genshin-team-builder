@@ -25,6 +25,111 @@
     "element_icon_url": "/assets/images/elements/element_pyro.png",
     "build_options": [
         {
+            "key": "hutao_vape_dps_crimson_shimenawa",
+            "name": "DPS Vaporizar (Ataque Carregado)",
+            "notes_build": "Estilo de jogo principal de Hu Tao, focado em Vaporizar seus Ataques Carregados durante o estado Paramita Papilio de sua Habilidade Elemental. C1 melhora significativamente o conforto e o potencial de dano.",
+            "artifacts": [
+                {
+                    "set_id": "shimenawas_reminiscence",
+                    "set_name": "Reminiscência Nostálgica",
+                    "pieces": 4,
+                    "notes": "Fornece maior dano nos Ataques Normais e Carregados que 4p Bruxa, mas reduz significativamente a frequência com que ela pode usar o Supremo devido ao dreno de Energia.",
+                    "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png"
+                },
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "set_name": "Bruxa das Chamas Carmesim",
+                    "pieces": 4,
+                    "notes": "Muito forte para Hu Tao, mesmo que ela não consiga mais de um acúmulo do efeito de 4p. Beneficia todos os seus efeitos e escala bem com buffs de EM.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Geralmente performa um pouco pior que 4p Bruxa; no entanto, é próximo o suficiente para que sub-stats sejam o fator decisivo, especialmente se as condições do efeito de 4p forem atendidas para maximizar o buff de EM.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "crimson_witch_tenacity_2pc_mix",
+                    "set_name": "Bruxa das Chamas (2p) + Tenacidade dos Millelith (2p HP%)",
+                    "pieces": "2+2",
+                    "notes": "Combos de 2p não ficam muito atrás de conjuntos dedicados de 4p. 2p Tenacidade/2p EM/2p Bruxa são boas opções.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "crimson_witch_of_flames",
+                        "tenacity_of_the_millelith"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) ou HP%",
+                "goblet": "Bônus de Dano Pyro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Proficiência Elemental (EM) até ~100-150 (considerando buffs)",
+                "Taxa CRIT / Dano CRIT (visar 1:2)",
+                "Proficiência Elemental (EM) até 200-300",
+                "HP%",
+                "ATK% (baixa prioridade)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "staff_of_homa",
+                    "name": "Báculo de Homa",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma incontestável para Hu Tao. Maximiza o valor que ela obtém de sua passiva de HP% e HP baixo.",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_homa.png"
+                },
+                {
+                    "weapon_id": "staff_of_the_scarlet_sands",
+                    "name": "Báculo das Areias Escarlates",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Conversão de EM para ATQ e alta Taxa CRIT a tornam potente, particularmente em builds com alta EM.",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_the_scarlet_sands.png"
+                },
+                {
+                    "weapon_id": "ballad_of_the_fjords",
+                    "name": "Balada dos Fiordes",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Passe de Batalha",
+                    "notes": "Muito competitiva em R1, e entre as melhores armas de Hu Tao em R5 com passiva ativa (3 elementos diferentes na equipe).",
+                    "icon_url": "/assets/images/weapons_detail/ballad_of_the_fjords.png"
+                },
+                {
+                    "weapon_id": "dragons_bane",
+                    "name": "Perdição do Dragão",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Passiva forte e EM substancial a tornam uma opção muito forte. Escala bem com refinos, R5 é altamente competitiva.",
+                    "icon_url": "/assets/images/weapons_detail/dragons_bane.png"
+                },
+                {
+                    "weapon_id": "white_tassel",
+                    "name": "Borla Branca",
+                    "rarity": 3,
+                    "type": "Polearm",
+                    "category": "Baús (Liyue)",
+                    "notes": "R5 é a melhor opção F2P se você não tiver Lança do Vento Trocante. Performa melhor com combos N2C.",
+                    "icon_url": "/assets/images/weapons_detail/white_tassel.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal (para Ataques Carregados)",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        },
+        {
             "key": "vaporize_charged_attack_dps",
             "name": "DPS Vaporizar (Ataque Carregado)",
             "notes_build": "Estilo de jogo principal de Hu Tao, focado em Vaporizar seus Ataques Carregados durante o estado Paramita Papilio de sua Habilidade Elemental. C1 melhora significativamente o conforto e o potencial de dano.",

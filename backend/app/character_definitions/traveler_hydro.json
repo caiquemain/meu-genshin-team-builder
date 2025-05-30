@@ -1,0 +1,420 @@
+{
+    "id": "traveler_hydro",
+    "name": "Viajante (Hydro) / Traveler (Hydro)",
+    "title": "Descendente",
+    "element": "Hydro",
+    "rarity": 5,
+    "weapon": "Sword",
+    "model_type": "Medium Male/Female",
+    "role": [
+        "Off-Field Enabler",
+        "DPS (com foco na Habilidade Hold)"
+    ],
+    "description_bio": "Um viajante de outro mundo que foi separado de seu irmão gêmeo pela Deusa Desconhecida e ficou preso em Teyvat. Embarcando em uma jornada para encontrar seu irmão perdido, o Viajante se envolve nos assuntos das nações e seus Arcontes.",
+    "birthday": "Escolha do Jogador",
+    "constellation_name_official": "Viator (Masculino) / Viatrix (Feminino)",
+    "region": "Fontaine (Alinhamento Hydro)",
+    "affiliation": [],
+    "special_dish": null,
+    "namecard_url": null,
+    "icon_url": "/assets/images/characters/traveler_hydro.png",
+    "element_icon_url": "/assets/images/elements/element_hydro.png",
+    "build_options": [
+        {
+            "key": "hydro_traveler_dps_hold_skill",
+            "name": "DPS (Foco na Habilidade Elemental - Segurar)",
+            "notes_build": "Esta build foca em maximizar o dano da Habilidade Elemental (versão segurar) do Viajante Hydro, especialmente em times de Vaporizar. O Supremo é menos prioritário e os requisitos de RE são baixos se focar apenas na Habilidade.",
+            "artifacts": [
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras",
+                    "pieces": 4,
+                    "notes": "Uma das melhores opções para dano pessoal, mesmo que o efeito de 2p não seja muito útil. A perda de HP da Habilidade ativa facilmente o aumento de 36% de Taxa CRIT do conjunto.",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                },
+                {
+                    "set_id": "golden_troupe",
+                    "set_name": "Trupe Dourada",
+                    "pieces": 4,
+                    "notes": "Embora o Viajante Hydro não aproveite totalmente o efeito de 4p por ficar em campo, o bônus de 45% de Dano da Habilidade Elemental ainda é muito valioso.",
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
+                },
+                {
+                    "set_id": "nymphs_dream",
+                    "set_name": "Sonho da Ninfa",
+                    "pieces": 4,
+                    "notes": "Sem RE% suficiente para o Supremo, pode ser difícil obter três acúmulos do efeito de 4p. No entanto, o ATQ% e Dano Hydro que este conjunto fornece são bons.",
+                    "icon_url": "/assets/images/artifact_sets/nymphs_dream.png"
+                },
+                {
+                    "set_id": "hydro_skill_atk_2pc_mix",
+                    "set_name": "Dano Hydro (2p) + Dano da Habilidade (2p) / ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Conjuntos mistos versáteis podem ser usados enquanto se farma um conjunto de 4p. (Ex: Profundezas do Coração + Trupe Dourada / Gladiador).",
+                    "icon_url": "/assets/images/artifact_sets/heart_of_depth.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "heart_of_depth",
+                        "golden_troupe"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Proficiência Elemental (EM para Vaporizar)",
+                "goblet": "Bônus de Dano Hydro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (EM para Vaporizar)",
+                "HP% (pequeno buff na Habilidade)",
+                "Recarga de Energia (ER%) (baixa prioridade)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "splendor_of_tranquil_waters",
+                    "name": "Esplendor das Águas Silenciosas",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "A perda de HP da Habilidade do Viajante Hydro garante alto uptime nos 3 acúmulos do buff de DANO da Habilidade Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/splendor_of_tranquil_waters.png"
+                },
+                {
+                    "weapon_id": "uraku_misugiri",
+                    "name": "Urakugo Rensai (Uraku Misugiri)",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Fornece um aumento de DANO de Habilidade Elemental que dobra se houver um colega de equipe Geo.",
+                    "icon_url": "/assets/images/weapons_detail/uraku_misugiri.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Fornece muita Taxa CRIT junto com HP% e ATQ%. Cuidado para não exceder a Taxa CRIT se usar 4p Caçador das Sombras.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "wolf_fang",
+                    "name": "Presa do Lobo",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Passe de Batalha",
+                    "notes": "Opção poderosa do Passe de Batalha com sub-status de Taxa CRIT e buffs para a Habilidade e Supremo do Viajante Hydro.",
+                    "icon_url": "/assets/images/weapons_detail/wolf_fang.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst) (menor prioridade)",
+                "Ataque Normal (não recomendado upar)"
+            ]
+        },
+        {
+            "key": "hydro_traveler_support_instructor_favonius",
+            "name": "Suporte (Instrutor - Favonius)",
+            "notes_build": "Focado em utilidade para a equipe, usando armas e conjuntos de artefatos de suporte. A cura da C6 pode ser útil. Requisitos de RE podem ser altos se precisar usar o Supremo toda rotação.",
+            "artifacts": [
+                {
+                    "set_id": "instructor",
+                    "set_name": "Instrutor",
+                    "pieces": 4,
+                    "notes": "Fornece um grande buff de EM para times baseados em reação. Stats 4 estrelas dificultam atingir RE e Taxa CRIT para Favonius.",
+                    "icon_url": "/assets/images/artifact_sets/instructor.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Altamente encoraja o Viajante Hydro a buildar RE e usar o Supremo toda rotação. O Supremo tem 20s de cooldown, causando algum tempo de inatividade no buff de 4p.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Viável para times baseados em Florescimento se nenhum outro colega de equipe o estiver usando. A Habilidade tem 10s de cooldown, causando algum tempo de inatividade no efeito de 4p se não usar o Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / ATK%",
+                "goblet": "Bônus de Dano Hydro / Qualquer peça com bons sub-stats de RE/Taxa CRIT",
+                "circlet": "Taxa CRIT (para Espada de Favonius) / Bônus de Cura (C6)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT (para Espada de Favonius)",
+                "ATK% / HP%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Opção sólida para diminuir os requisitos de RE dos colegas de equipe e ajudar com a própria Energia do Viajante Hydro.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "freedom_sworn",
+                    "name": "Juramento pela Liberdade",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Fornece um buff decente para a equipe se o Viajante puder ativar reações para ativar a passiva.",
+                    "icon_url": "/assets/images/weapons_detail/freedom_sworn.png"
+                },
+                {
+                    "weapon_id": "fleuve_cendre_ferryman",
+                    "name": "Cruzamento de Fleuve Cendre",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "F2P (Pesca)",
+                    "notes": "Opção F2P que fornece bastante RE se o Viajante Hydro precisar.",
+                    "icon_url": "/assets/images/weapons_detail/fleuve_cendre_ferryman.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (não recomendado upar)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 912,
+            "base_atk": 18,
+            "base_def": 57,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3024,
+            "base_atk": 59,
+            "base_def": 190,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5013,
+            "base_atk": 98,
+            "base_def": 315,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6411,
+            "base_atk": 125,
+            "base_def": 402,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7648,
+            "base_atk": 149,
+            "base_def": 480,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8885,
+            "base_atk": 174,
+            "base_def": 558,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10875,
+            "base_atk": 212,
+            "base_def": 683,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Lasca de Diamante Brilhante",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/brilliant_diamond_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Diamante Brilhante",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/brilliant_diamond_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Diamante Brilhante",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/brilliant_diamond_chunk.webp"
+        },
+        {
+            "name": "Gema de Diamante Brilhante",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/brilliant_diamond_gemstone.webp"
+        },
+        {
+            "name": "Astere do Moinho de Vento",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/windwheel_aster.webp"
+        },
+        {
+            "name": "Máscara Danificada",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/damaged_mask.webp"
+        },
+        {
+            "name": "Máscara Suja",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/stained_mask.webp"
+        },
+        {
+            "name": "Máscara Ominosa",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/ominous_mask.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Corrente Estrangeira",
+            "icon_url": "/assets/images/talents/traveler_hydro/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes rápidos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando inimigos ao longo do caminho e causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Sabre Aquacristalino",
+            "icon_url": "/assets/images/talents/traveler_hydro/talent_elemental_skill.webp",
+            "description": "Libera uma torrente que pode limpar o mundo.\nPressionar: Envia uma Torrente Crescente para frente que causará Dano Hydro aos oponentes que entrar em contato.\nManter Pressionado: Entra no Modo de Mira e dispara constantemente Gotas de Orvalho na direção em que você está mirando, causando Dano Hydro aos oponentes que atingir.\nQuando a habilidade terminar, ela enviará uma Torrente Crescente para frente que causará Dano Hydro aos oponentes que entrar em contato.\nSufusão: Ao usar a configuração Manter Pressionado desta habilidade, se o HP do Viajante for superior a 50%, o DANO causado pelas Gotas de Orvalho aumentará com base no HP Máx do Viajante, e o Viajante perderá uma quantidade fixa de HP a cada segundo.\nArkhe: Pneuma: Em certos intervalos, após usar Torrente Crescente, esta habilidade liberará um Espinho Espiritual que perfura oponentes, causando Dano Hydro alinhado a Pneuma."
+        },
+        "elemental_burst": {
+            "name": "Maré Ascendente",
+            "icon_url": "/assets/images/talents/traveler_hydro/talent_elemental_burst.webp",
+            "description": "Libera uma bolha flutuante de movimento lento que causa Dano Hydro contínuo a oponentes próximos."
+        },
+        "passives": [
+            {
+                "name": "Águas Imaculadas",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/traveler_hydro/talent_passive_a1.webp",
+                "description": "Após a Gota de Orvalho disparada pelo Modo Manter Pressionado do Sabre Aquacristalino atingir um oponente, uma Gota d'Água Primordial será gerada perto do Viajante. Se o Viajante a pegar, ele restaurará 7% de HP. 1 Gota pode ser criada desta forma a cada segundo, e cada uso do Sabre Aquacristalino pode criar no máximo 4 Gotas."
+            },
+            {
+                "name": "Águas Claras",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/traveler_hydro/talent_passive_a4.webp",
+                "description": "Se o HP foi consumido via Sufusão ao usar o Modo Manter Pressionado do Sabre Aquacristalino, a Torrente Crescente no final da habilidade causará Dano Bônus igual a 45% do HP total que o Viajante consumiu neste uso da habilidade via Sufusão. O Dano Bônus máximo que pode ser ganho desta forma é 5.000."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Pérola Transoceânica",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/transoceanic_pearl.webp"
+        },
+        {
+            "name": "Pedaço Transoceânico",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/transoceanic_chunk.webp"
+        },
+        {
+            "name": "Cristal Xenocromático",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/xenochromatic_crystal.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Equidade\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_equity.webp"
+        },
+        {
+            "name": "Guia da \"Justiça\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_justice.webp"
+        },
+        {
+            "name": "Filosofia da \"Ordem\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_order.webp"
+        },
+        {
+            "name": "Samambaia do Vão do Mundo",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/worldspan_fern.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Lago Inchado",
+            "icon_url": "/assets/images/constellations/traveler_hydro/constellation_1.webp",
+            "description": "Pegar uma Gota d'Água Primordial restaurará 2 de Energia para o Viajante. Requer o Talento Passivo \"Águas Imaculadas\"."
+        },
+        {
+            "level": 2,
+            "name": "Pureza Gotejante",
+            "icon_url": "/assets/images/constellations/traveler_hydro/constellation_2.webp",
+            "description": "A Vel. de Movimento da bolha de Maré Ascendente será diminuída em 30%, e sua duração aumentada em 3s."
+        },
+        {
+            "level": 3,
+            "name": "Ondulações Turbulentas",
+            "icon_url": "/assets/images/constellations/traveler_hydro/constellation_3.webp",
+            "description": "Aumenta o Nível de Sabre Aquacristalino em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Descida Torrencial",
+            "icon_url": "/assets/images/constellations/traveler_hydro/constellation_4.webp",
+            "description": "Ao usar Sabre Aquacristalino, um Égide Aquacristalino que pode absorver 10% do HP Máx do Viajante em DANO será criado e absorverá Dano Hydro com 250% de eficácia. Ele persistirá até o Viajante terminar de usar a habilidade. Uma vez a cada 2s, após uma Gota de Orvalho atingir um oponente, se o Viajante estiver protegido pelo Égide Aquacristalino, a Absorção de DANO do Égide será restaurada para 10% do HP Máx do Viajante. Se o Viajante não estiver atualmente protegido por um Égide, um será reimplantado."
+        },
+        {
+            "level": 5,
+            "name": "Redemoinho Agitado",
+            "icon_url": "/assets/images/constellations/traveler_hydro/constellation_5.webp",
+            "description": "Aumenta o Nível de Maré Ascendente em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Marés da Justiça",
+            "icon_url": "/assets/images/constellations/traveler_hydro/constellation_6.webp",
+            "description": "Quando o Viajante pega uma Gota d'Água Primordial, ele restaurará HP para o membro da equipe próximo com a menor porcentagem de HP restante com base em 6% de seu HP Máx."
+        }
+    ]
+}
