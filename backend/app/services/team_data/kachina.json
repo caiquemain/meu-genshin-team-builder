@@ -1,0 +1,374 @@
+{
+    "id": "kachina",
+    "name": "Kachina",
+    "title": "Ouro Mosqueado Ainda Não Fundido",
+    "element": "Geo",
+    "rarity": 4,
+    "weapon": "Polearm",
+    "model_type": "Short Female",
+    "role": [
+        "Off-Field DPS",
+        "Suporte (Buffer com Pergaminho, Bateria Geo)"
+    ],
+    "description_bio": "Kachina é uma artesã de Nanatzcayan, conhecida por suas esculturas intrincadas e sua habilidade surpreendente com uma lança, apesar de sua estatura. Ela é uma figura respeitada em sua comunidade, equilibrando suas paixões artísticas com um forte senso de dever.",
+    "birthday": "22 de Abril",
+    "constellation_name_official": "Ochotona Princeps",
+    "region": "Natlan",
+    "affiliation": [
+        "Nanatzcayan"
+    ],
+    "special_dish": {
+        "name": "Impecavelmente Organizado",
+        "icon_url": "/assets/images/dishes/kachina_impeccably_organized.webp"
+    },
+    "namecard_url": "/assets/images/namecards/kachina_twirly.png",
+    "icon_url": "/assets/images/characters/kachina.png",
+    "element_icon_url": "/assets/images/elements/element_geo.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Kachina Quick Guide",
+                "url": "keqingmains.com/q/kachina-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Kachina",
+                "url": "genshin-impact.fandom.com/wiki/Kachina"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "kachina_offfield_dps_scroll_favonius",
+            "name": "DPS Off-field / Suporte (Pergaminho - Favonius)",
+            "notes_build": "Foco em fornecer dano Geo off-field e buffar a equipe com 4p Pergaminho do Herói da Cidade das Cinzas através da Cristalização. Lança de Favonius é recomendada para necessidades de RE da equipe. Alternar entre Habilidade e Supremo é importante para manter os buffs (especialmente C2+).",
+            "artifacts": [
+                {
+                    "set_id": "scroll_of_the_hero_of_cinder_city",
+                    "set_name": "Pergaminho do Herói da Cidade das Cinzas",
+                    "pieces": 4,
+                    "notes": "Sua viabilidade depende fortemente de usar este conjunto. Como personagem de Natlan, ela pode ativar o efeito completo para um buff de 40% de DANO Elemental para Geo e o elemento absorvido pela Cristalização.",
+                    "icon_url": "/assets/images/artifact_sets/scroll_of_the_hero_of_cinder_city.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Se outro personagem já estiver usando 4p Pergaminho, 4p Ritual Real pode fornecer um buff de ATQ% para a equipe.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "husk_archaic_2pc_mix",
+                    "set_name": "Casca de Sonhos Opulentos (2p) + Pedra Arcaica (2p)",
+                    "pieces": "2+2",
+                    "notes": "Opção para maximizar o dano pessoal de Kachina se os buffs de equipe já estiverem cobertos. Foca em DEF% e Dano Geo.",
+                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "husk_of_opulent_dreams",
+                        "archaic_petra"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "DEF% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Geo",
+                "circlet": "Taxa CRIT / Dano CRIT / DEF%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ~160-200% dependendo do time e C2)",
+                "Taxa CRIT (para Favonius e dano)",
+                "Dano CRIT",
+                "DEF%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Melhor opção geral para Kachina suporte, fornecendo Energia para ela e para a equipe. Requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                },
+                {
+                    "weapon_id": "footprint_of_the_rainbow",
+                    "name": "Pegada do Arco-Íris (Footprint of the Rainbow)",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Forja (Natlan) (A SER VERIFICADO)",
+                    "notes": "Arma forjável de Natlan, sua melhor arma gratuita e entre suas melhores opções gerais. Grande sub-status de DEF% e buff de DEF% da passiva.",
+                    "icon_url": "/assets/images/weapons_detail/footprint_of_the_rainbow.png"
+                },
+                {
+                    "weapon_id": "deathmatch",
+                    "name": "Lança do Duelo",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Passe de Batalha",
+                    "notes": "Boa opção para dano pessoal devido à Taxa CRIT e ATQ% (ou DEF% se buffada).",
+                    "icon_url": "/assets/images/weapons_detail/deathmatch.png"
+                },
+                {
+                    "weapon_id": "staff_of_homa",
+                    "name": "Báculo de Homa",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Opção 5 estrelas forte para dano pessoal, Dano CRIT e HP% (que pode ser convertido em ATQ pela passiva).",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_homa.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 845,
+            "base_atk": 18,
+            "base_def": 57,
+            "bonus_stat_label": "DEF",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 2803,
+            "base_atk": 59,
+            "base_def": 187,
+            "bonus_stat_label": "DEF",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 4647,
+            "base_atk": 98,
+            "base_def": 310,
+            "bonus_stat_label": "DEF",
+            "bonus_stat_value": "7.5%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 5943,
+            "base_atk": 126,
+            "base_def": 398,
+            "bonus_stat_label": "DEF",
+            "bonus_stat_value": "15.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7090,
+            "base_atk": 150,
+            "base_def": 474,
+            "bonus_stat_label": "DEF",
+            "bonus_stat_value": "15.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8236,
+            "base_atk": 174,
+            "base_def": 550,
+            "bonus_stat_label": "DEF",
+            "bonus_stat_value": "22.5%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10081,
+            "base_atk": 213,
+            "base_def": 673,
+            "bonus_stat_label": "DEF",
+            "bonus_stat_value": "30.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Mecanismo de Corda Perpétua (Perpetual Mechanical Array Part)",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/perpetual_heart.webp"
+        },
+        {
+            "name": "Lasca de Topázio Prithiva",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/prithiva_topaz_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Topázio Prithiva",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/prithiva_topaz_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Topázio Prithiva",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/prithiva_topaz_chunk.webp"
+        },
+        {
+            "name": "Gema de Topázio Prithiva",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/prithiva_topaz_gemstone.webp"
+        },
+        {
+            "name": "Cacto Rei Escarlate (Scarlet King Cactus)",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/scarlet_king_cactus.webp"
+        },
+        {
+            "name": "Seda Vermelha Desbotada",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/faded_red_satin.webp"
+        },
+        {
+            "name": "Seda Vermelha Bordada",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/trimmed_red_silk.webp"
+        },
+        {
+            "name": "Broca Vermelha Luxuosa",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/rich_red_brocade.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Artesanato da Montanha de Lança",
+            "icon_url": "/assets/images/talents/kachina/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 golpes consecutivos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para avançar, causando dano aos oponentes no caminho.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando oponentes ao longo do caminho e causando Dano Geo em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Dança do Espírito da Rocha",
+            "icon_url": "/assets/images/talents/kachina/talent_elemental_skill.webp",
+            "description": "Pressionar: Kachina usa sua lança para perfurar o chão, causando Dano Geo em AdE aos oponentes próximos e entrando no estado Bênção da Alma da Noite. Manter Pressionado: Entra no Modo de Mira para ajustar a direção do ataque. Se usado no estado Bênção da Alma da Noite, Kachina consumirá pontos de Alma da Noite e realizará um Ataque Imersivo Turbo Twirly, causando Dano Geo em AdE alinhado à Alma da Noite. Este DANO é considerado Dano de Ataque Imersivo. Este Ataque Imersivo Turbo Twirly pode ser usado para dar saltos duplos e não resulta em Dano de Queda."
+        },
+        "elemental_burst": {
+            "name": "Canção da Alma da Terra",
+            "icon_url": "/assets/images/talents/kachina/talent_elemental_burst.webp",
+            "description": "Kachina bate sua lança no chão, liberando uma onda de choque sísmica que causa Dano Geo em AdE alinhado à Alma da Noite. Ela então ganha pontos de Alma da Noite e entra no estado Bênção da Alma da Noite. Enquanto este estado estiver ativo, Kachina realizará um ataque coordenado com seu personagem ativo atual que causa Dano Geo em AdE alinhado à Alma da Noite a cada 2s. Este DANO é considerado Dano de Habilidade Elemental. Se Kachina usar sua Habilidade Elemental durante a duração do estado Bênção da Alma da Noite, ela consumirá todos os pontos de Alma da Noite restantes para aumentar o DANO do Supremo em uma quantidade proporcional à Alma da Noite consumida."
+        },
+        "passives": [
+            {
+                "name": "Esculpir com o Coração",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/kachina/talent_passive_a1.webp",
+                "description": "A AdE dos ataques coordenados da Canção da Alma da Terra é aumentada em 20%. Adicionalmente, o DANO que Kachina causa com sua Habilidade Elemental e Ataques Imersivos Turbo Twirly é aumentado em 20% de sua DEF."
+            },
+            {
+                "name": "Espírito da Terra Incansável",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/kachina/talent_passive_a4.webp",
+                "description": "Se Kachina estiver na equipe, mas não em campo, e o personagem ativo atual tiver menos de 50% de HP, Kachina ganhará 100 pontos de Alma da Noite e entrará no estado Bênção da Alma da Noite. Este efeito pode ser ativado uma vez a cada 30s."
+            },
+            {
+                "name": "Bênção Ancestral da Rocha",
+                "type": "Passiva do Domínio da Noite (Ancient Rock Blessing)",
+                "icon_url": "/assets/images/talents/kachina/talent_passive_night_realm.webp",
+                "description": "Enquanto em uma área com Mecânicas de Phlogiston dentro de Natlan, o personagem ativo ganha 10% de Bônus de Dano Geo. Este efeito não se acumula com outras Bênçãos Ancestrais da Rocha."
+            },
+            {
+                "name": "Artesã da Terra",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/kachina/talent_passive_utility.webp",
+                "description": "Quando Kachina cria materiais de Mobiliário, ela tem 10% de chance de reembolsar uma porção dos materiais usados."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Seda Vermelha Desbotada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/faded_red_satin.webp"
+        },
+        {
+            "name": "Seda Vermelha Bordada",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/trimmed_red_silk.webp"
+        },
+        {
+            "name": "Broca Vermelha Luxuosa",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/rich_red_brocade.webp"
+        },
+        {
+            "name": "Ensinamentos do \"Aviso\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_admonition.webp"
+        },
+        {
+            "name": "Guia do \"Aviso\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_admonition.webp"
+        },
+        {
+            "name": "Filosofia do \"Aviso\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_admonition.webp"
+        },
+        {
+            "name": "Estigma Dourado da Formiga da Areia (Golden Sand Ant Stigma)",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/golden_sand_ant_stigma.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Canção da Rocha Eterna",
+            "icon_url": "/assets/images/constellations/kachina/constellation_1.webp",
+            "description": "Quando um membro da equipe coleta um Fragmento Elemental criado por uma Reação de Cristalização desencadeada por Kachina, o TdR da Habilidade Elemental Dança do Espírito da Rocha de Kachina é diminuído em 1.5s. Este efeito pode ser ativado uma vez a cada 0.2s."
+        },
+        {
+            "level": 2,
+            "name": "Eco da Montanha Sagrada",
+            "icon_url": "/assets/images/constellations/kachina/constellation_2.webp",
+            "description": "A duração do estado Bênção da Alma da Noite do Supremo Elemental Canção da Alma da Terra é aumentada em 3s."
+        },
+        {
+            "level": 3,
+            "name": "Ritmo da Terra Pulsante",
+            "icon_url": "/assets/images/constellations/kachina/constellation_3.webp",
+            "description": "Aumenta o Nível de Dança do Espírito da Rocha em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Alma da Rocha Inabalável",
+            "icon_url": "/assets/images/constellations/kachina/constellation_4.webp",
+            "description": "A RES Geo dos oponentes atingidos pelo Ataque Imersivo Turbo Twirly é diminuída em 20% por 10s."
+        },
+        {
+            "level": 5,
+            "name": "Sinfonia da Terra Profunda",
+            "icon_url": "/assets/images/constellations/kachina/constellation_5.webp",
+            "description": "Aumenta o Nível de Canção da Alma da Terra em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Vontade da Terra Eterna",
+            "icon_url": "/assets/images/constellations/kachina/constellation_6.webp",
+            "description": "Quando Kachina está no estado Bênção da Alma da Noite, seu Ataque Imersivo Turbo Twirly não consumirá pontos de Alma da Noite se ela tiver pelo menos 60 pontos de Alma da Noite."
+        }
+    ]
+}

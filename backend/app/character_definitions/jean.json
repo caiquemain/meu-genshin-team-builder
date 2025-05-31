@@ -1,0 +1,431 @@
+{
+    "id": "jean",
+    "name": "Jean",
+    "title": "Cavaleira de Dandelion",
+    "element": "Anemo",
+    "rarity": 5,
+    "weapon": "Sword",
+    "model_type": "Tall Female",
+    "role": [
+        "Suporte (Healer, VV Holder, Limpeza de Aura)",
+        "Sub-DPS (Sunfire com Bennett)"
+    ],
+    "description_bio": "A Grande Mestra Intendente dos Cavaleiros de Favonius em Mondstadt. Sempre ocupada, Jean lida com distúrbios por toda Mondstadt e trabalha incansavelmente para manter a cidade do vento e da canção.",
+    "birthday": "14 de Março",
+    "constellation_name_official": "Leo Minor",
+    "region": "Mondstadt",
+    "affiliation": [
+        "Cavaleiros de Favonius",
+        "Quatro Ventos",
+        "Clã Gunnhildr"
+    ],
+    "special_dish": {
+        "name": "Pizza Revigorante",
+        "icon_url": "/assets/images/dishes/invigorating_pizza.webp"
+    },
+    "namecard_url": "/assets/images/namecards/jean_the_winds_course.png",
+    "icon_url": "/assets/images/characters/jean.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Jean Guide (Full)",
+                "url": "https://keqingmains.com/jean/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Jean",
+                "url": "https://genshin-impact.fandom.com/wiki/Jean"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "jean_general_support_vv_favonius",
+            "name": "Suporte Geral (Sombra Verde - Favonius)",
+            "notes_build": "Build principal de Jean como suporte versátil. 4p Sombra Verde é essencial para reduzir a RES Elemental dos inimigos e aumentar o dano da equipe. Espada de Favonius ajuda com a Recarga de Energia dela e da equipe.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Aumenta o Dano de Redemoinho de Jean e reduz a RES Elemental dos inimigos ao elemento infundido no Redemoinho. Geralmente a melhor opção para maximizar o dano da equipe.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Alternativa se outro personagem já estiver usando 4p Sombra Verde. Fornece um buff de ATQ% para a equipe após o Supremo de Jean.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "ocean_hued_clam",
+                    "set_name": "Concha Tingida Pelo Mar",
+                    "pieces": 4,
+                    "notes": "Pode fornecer algum dano adicional através da cura de Jean, mas Sombra Verde geralmente oferece mais para a equipe.",
+                    "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / ATK%",
+                "goblet": "ATK% / Bônus de Dano Anemo",
+                "circlet": "Taxa CRIT (para Favonius) / Bônus de Cura% / ATK% / CRIT DMG"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~160-200% dependendo do time e arma)",
+                "Taxa CRIT (para Espada de Favonius)",
+                "ATK%",
+                "Dano CRIT"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha / Missão",
+                    "notes": "Uma das melhores opções para Jean suporte, pois ajuda com a Recarga de Energia dela e da equipe. Requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "amenoma_kageuchi",
+                    "name": "Espada Amenoma Kageuchi",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Opção F2P forjável que ajuda significativamente com a Recarga de Energia de Jean. R5 é altamente recomendado.",
+                    "icon_url": "/assets/images/weapons_detail/amenoma_kageuchi.png"
+                },
+                {
+                    "weapon_id": "skyward_blade",
+                    "name": "Lâmina Celestial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Opção 5 estrelas com RE e alto ATQ Base. A passiva também fornece um pequeno buff de Taxa CRIT e ATQ/Velocidade de Movimento após o Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_blade.png"
+                },
+                {
+                    "weapon_id": "fleuve_cendre_ferryman",
+                    "name": "Cruzamento de Fleuve Cendre",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "F2P (Pesca)",
+                    "notes": "Opção F2P da pesca que fornece RE e um pouco de Taxa CRIT para a Habilidade Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/fleuve_cendre_ferryman.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst) (para cura e dano/Swirl)",
+                "Habilidade Elemental (Skill) (para dano e controle de grupo)",
+                "Ataque Normal (baixa prioridade para suporte)"
+            ]
+        },
+        {
+            "key": "jean_sunfire_support_vv_em",
+            "name": "Suporte Sunfire (Sombra Verde - EM com Bennett)",
+            "notes_build": "Build específica para a composição 'Sunfire' com Bennett, onde o Supremo de Jean aplica Redemoinho Pyro continuamente na aura Pyro do Supremo de Bennett, causando dano Pyro em área e aplicando Pyro rapidamente. Prioriza Proficiência Elemental.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Essencial para maximizar o dano de Redemoinho Pyro e reduzir a RES Pyro dos inimigos.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / Recarga de Energia (ER%)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~180-220%)",
+                "Proficiência Elemental (EM)",
+                "ATK% (contribui para a cura)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "freedom_sworn",
+                    "name": "Juramento pela Liberdade",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Jean Sunfire, fornecendo EM e buffs para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/freedom_sworn.png"
+                },
+                {
+                    "weapon_id": "iron_sting",
+                    "name": "Espinho de Ferro",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Boa opção F2P forjável com sub-status de EM.",
+                    "icon_url": "/assets/images/weapons_detail/iron_sting.png"
+                },
+                {
+                    "weapon_id": "xiphos_moonlight",
+                    "name": "Luz Lunar de Xiphos",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Fornece EM e converte parte da EM em RE para Jean e a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/xiphos_moonlight.png"
+                },
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha / Missão",
+                    "notes": "Ajuda com a alta demanda de RE, mas sacrifica EM. Útil se a RE da equipe for um problema.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Nível do Personagem para 90 (para dano de Redemoinho)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 1144,
+            "base_atk": 19,
+            "base_def": 60,
+            "bonus_stat_label": "Bônus de Cura",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3774,
+            "base_atk": 61,
+            "base_def": 197,
+            "bonus_stat_label": "Bônus de Cura",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 6262,
+            "base_atk": 101,
+            "base_def": 328,
+            "bonus_stat_label": "Bônus de Cura",
+            "bonus_stat_value": "5.5%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 8059,
+            "base_atk": 130,
+            "base_def": 421,
+            "bonus_stat_label": "Bônus de Cura",
+            "bonus_stat_value": "11.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 9582,
+            "base_atk": 155,
+            "base_def": 500,
+            "bonus_stat_label": "Bônus de Cura",
+            "bonus_stat_value": "11.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 11098,
+            "base_atk": 179,
+            "base_def": 579,
+            "bonus_stat_label": "Bônus de Cura",
+            "bonus_stat_value": "16.5%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 14695,
+            "base_atk": 239,
+            "base_def": 769,
+            "bonus_stat_label": "Bônus de Cura",
+            "bonus_stat_value": "22.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Semente de Furacão",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/hurricane_seed.webp"
+        },
+        {
+            "name": "Lasca de Turquesa Vayuda",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_chunk.webp"
+        },
+        {
+            "name": "Gema de Turquesa Vayuda",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_gemstone.webp"
+        },
+        {
+            "name": "Semente de Dandelion",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/dandelion_seed.webp"
+        },
+        {
+            "name": "Máscara Danificada",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/damaged_mask.webp"
+        },
+        {
+            "name": "Máscara Suja",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/stained_mask.webp"
+        },
+        {
+            "name": "Máscara Ominosa",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/ominous_mask.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Lâmina Favonius da Brisa do Poente",
+            "icon_url": "/assets/images/talents/jean/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes consecutivos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para lançar um inimigo ao ar. Os inimigos lançados cairão lentamente.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando inimigos ao longo do caminho e causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Lâmina de Ventaval",
+            "icon_url": "/assets/images/talents/jean/talent_elemental_skill.webp",
+            "description": "Focando o poder do vento em sua espada, Jean libera uma miniatura de tempestade, lançando inimigos na direção em que ela mira, causando Dano Anemo massivo.\nManter Pressionado: À custa do consumo contínuo de Stamina, Jean pode comandar o redemoinho para puxar oponentes e objetos próximos para sua frente.\nA direção pode ser ajustada.\nO personagem fica imóvel enquanto a habilidade está ativa."
+        },
+        "elemental_burst": {
+            "name": "Brisa de Dandelion",
+            "icon_url": "/assets/images/talents/jean/talent_elemental_burst.webp",
+            "description": "Invocando a proteção do vento, Jean cria um Campo de Dandelion giratório, lançando oponentes próximos e causando Dano Anemo.\nAo mesmo tempo, ela regenera instantaneamente uma grande quantidade de HP para todos os membros da equipe. A quantidade de HP restaurada escala com o ATQ de Jean.\nCampo de Dandelion:\n- Regenera continuamente HP para personagens ativos dentro da AdE e imbui-os com o Elemento Anemo.\n- Causa Dano Anemo a inimigos que entram ou saem da AdE."
+        },
+        "passives": [
+            {
+                "name": "Companheira do Vento do Poente",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/jean/talent_passive_a1.webp",
+                "description": "Acertos de Ataque Normal de Jean têm 50% de chance de regenerar HP igual a 15% do ATQ de Jean para todos os membros da equipe."
+            },
+            {
+                "name": "Que o Vento nos Guie",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/jean/talent_passive_a4.webp",
+                "description": "Após usar Brisa de Dandelion, regenera 20% de Energia Elemental."
+            },
+            {
+                "name": "Vento Orientador",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/jean/talent_passive_utility.webp",
+                "description": "Quando um Prato Perfeito é cozinhado, há 12% de chance de obter o dobro do produto."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Máscara Danificada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/damaged_mask.webp"
+        },
+        {
+            "name": "Máscara Suja",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/stained_mask.webp"
+        },
+        {
+            "name": "Máscara Ominosa",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/ominous_mask.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Resistência\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_resistance.webp"
+        },
+        {
+            "name": "Guia da \"Resistência\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_resistance.webp"
+        },
+        {
+            "name": "Filosofia da \"Resistência\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_resistance.webp"
+        },
+        {
+            "name": "Pluma do Vento Oriental",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/dvalins_plume.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Espiral da Tempestade",
+            "icon_url": "/assets/images/constellations/jean/constellation_1.webp",
+            "description": "Aumenta a Vel. de Puxar de Lâmina de Ventaval e o DANO causado em 40% após manter pressionado por mais de 1s."
+        },
+        {
+            "level": 2,
+            "name": "Escudo do Povo",
+            "icon_url": "/assets/images/constellations/jean/constellation_2.webp",
+            "description": "Quando Jean pega um Orbe/Partícula Elemental, todos os membros da equipe ganham 15% de aumento de Vel. de Movimento e Vel. de ATQ por 15s."
+        },
+        {
+            "level": 3,
+            "name": "Terra de Dandelion",
+            "icon_url": "/assets/images/constellations/jean/constellation_3.webp",
+            "description": "Aumenta o Nível de Brisa de Dandelion em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Reino de Dandelion",
+            "icon_url": "/assets/images/constellations/jean/constellation_4.webp",
+            "description": "Dentro do campo criado por Brisa de Dandelion, todos os oponentes têm sua RES Anemo diminuída em 40%."
+        },
+        {
+            "level": 5,
+            "name": "Vento Súbito",
+            "icon_url": "/assets/images/constellations/jean/constellation_5.webp",
+            "description": "Aumenta o Nível de Lâmina de Ventaval em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Dente de Leão, Escudo do Povo de Mondstadt",
+            "icon_url": "/assets/images/constellations/jean/constellation_6.webp",
+            "description": "DANO sofrido dentro do campo criado por Brisa de Dandelion é diminuído em 35%. Ao sair do Campo de Dandelion, este efeito dura por mais 3 acertos ou 10s.\nO DANO Sofrido da equipe inteira também é reduzido."
+        }
+    ]
+}

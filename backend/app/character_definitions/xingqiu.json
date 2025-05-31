@@ -1,0 +1,378 @@
+{
+    "id": "xingqiu",
+    "name": "Xingqiu",
+    "title": "Galante Juvenil",
+    "element": "Hydro",
+    "rarity": 4,
+    "weapon": "Sword",
+    "model_type": "Medium Male",
+    "role": [
+        "Off-Field DPS",
+        "Hydro Enabler",
+        "Suporte (Redução de Dano, Pequena Cura)"
+    ],
+    "description_bio": "Um jovem que é frequentemente visto em feiras de livros. Ele tem um comportamento gentil e educado, mas também um lado travesso e aventureiro. Ele é o segundo filho do gerente da Guilda de Comerciantes de Feiyun e um praticante ávido da arte da espada da Escola Guhua.",
+    "birthday": "9 de Outubro",
+    "constellation_name_official": "Fabulae Textile",
+    "region": "Liyue",
+    "affiliation": [
+        "Guilda de Comerciantes de Feiyun",
+        "Escola Guhua"
+    ],
+    "special_dish": {
+        "name": "Delicadeza de Todo o Povo",
+        "icon_url": "/assets/images/dishes/xingqiu_all_delicacy_banquet.webp"
+    },
+    "namecard_url": "/assets/images/namecards/xingqiu_rainbow.png",
+    "icon_url": "/assets/images/characters/xingqiu.png",
+    "element_icon_url": "/assets/images/elements/element_hydro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Xingqiu Guide (Full)",
+                "url": "https://keqingmains.com/xingqiu/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Xingqiu",
+                "url": "https://genshin-impact.fandom.com/wiki/Xingqiu"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "xingqiu_offfield_dps_emblem_sacrificial",
+            "name": "DPS Off-field (Selo da Insulação - Espada do Sacrifício)",
+            "notes_build": "Build padrão e mais forte para Xingqiu, focada em maximizar o dano de seu Supremo e garantir seu uptime. 4p Selo da Insulação é seu melhor conjunto devido aos altos requisitos de RE, especialmente pré-C6. Espada do Sacrifício é altamente recomendada para uso duplo da Habilidade e geração de energia.",
+            "artifacts": [
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto de artefatos para Xingqiu na maioria dos cenários. Ajuda com seus altos requisitos de RE e aumenta o dano de seu Supremo, sua principal fonte de dano.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Opção de suporte se outro personagem já estiver usando 4p Selo da Insulação ou se o buff de ATQ% para a equipe for mais valioso que o dano pessoal de Xingqiu.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "hydro_atk_er_2pc_mix",
+                    "set_name": "Dano Hydro (2p) + ATQ% (2p) / RE% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de 2p podem ser usadas como conjuntos de transição enquanto se farma um 4p Selo. Priorize Profundezas do Coração, Gladiador/Reminiscência, Selo da Insulação. (Ex: Profundezas + Selo).",
+                    "icon_url": "/assets/images/artifact_sets/heart_of_depth.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "heart_of_depth",
+                        "emblem_of_severed_fate"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / ATK%",
+                "goblet": "Bônus de Dano Hydro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ~180-220% sem Sacrifício/Favonius, ~140-180% com)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "sacrificial_sword",
+                    "name": "Espada do Sacrifício",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Geralmente a melhor arma para Xingqiu. Permite usar a Habilidade Elemental duas vezes, gerando mais partículas e aplicando mais Hydro. R3+ altamente recomendado para consistência.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_sword.png"
+                },
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha / Missão",
+                    "notes": "Excelente alternativa à Espada do Sacrifício, fornecendo RE e partículas para toda a equipe. Requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor opção de dano se os requisitos de RE forem atendidos por outras fontes (ex: C6).",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Fornece alta Taxa CRIT e HP%, que aumenta um pouco a cura das Espadas de Chuva. Ótima para dano.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "skyward_blade",
+                    "name": "Lâmina Celestial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Opção 5 estrelas com RE, alto ATQ Base e um pequeno buff de Taxa CRIT. Ajuda com RE se não tiver Sacrifício/Favonius.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_blade.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 851,
+            "base_atk": 17,
+            "base_def": 63,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 2797,
+            "base_atk": 56,
+            "base_def": 206,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 4637,
+            "base_atk": 93,
+            "base_def": 341,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 5949,
+            "base_atk": 119,
+            "base_def": 437,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7128,
+            "base_atk": 143,
+            "base_def": 524,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8299,
+            "base_atk": 166,
+            "base_def": 609,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10222,
+            "base_atk": 205,
+            "base_def": 758,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Coração Purificador",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/cleansing_heart.webp"
+        },
+        {
+            "name": "Lasca de Lazurita Varunada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/varunada_lazurite_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_chunk.webp"
+        },
+        {
+            "name": "Gema de Lazurita Varunada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/varunada_lazurite_gemstone.webp"
+        },
+        {
+            "name": "Lírio de Vidro",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/silk_flower.webp" 
+        },
+        {
+            "name": "Máscara Danificada",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/damaged_mask.webp"
+        },
+        {
+            "name": "Máscara Suja",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/stained_mask.webp"
+        },
+        {
+            "name": "Máscara Ominosa",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/ominous_mask.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Arte Guhua - Chuva e Espada",
+            "icon_url": "/assets/images/talents/xingqiu/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes rápidos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando inimigos ao longo do caminho e causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Espadas da Chuva Guhua - Chuva Torrencial",
+            "icon_url": "/assets/images/talents/xingqiu/talent_elemental_skill.webp",
+            "description": "Xingqiu realiza um golpe duplo com sua espada, causando Dano Hydro. Ao mesmo tempo, esta habilidade cria o número máximo de Espadas de Chuva, que orbitarão seu personagem ativo atual.\nAs Espadas de Chuva têm as seguintes propriedades:\n- Quando um personagem sofre DANO, a Espada de Chuva se estilhaçará, reduzindo a quantidade de DANO sofrido.\n- Aumenta a resistência do personagem à interrupção.\n20% do Bônus de Dano Hydro de Xingqiu será convertido em Redução de DANO adicional para as Espadas de Chuva. A Redução de DANO máxima adicional que pode ser obtida desta forma é 24%.\nO número inicial de Espadas de Chuva é 3.\nUsar esta habilidade aplica o estado \"Molhado\" a Xingqiu."
+        },
+        "elemental_burst": {
+            "name": "Espadas da Chuva Guhua - Tecelão da Chuva",
+            "icon_url": "/assets/images/talents/xingqiu/talent_elemental_burst.webp",
+            "description": "Inicia Chuva de Espadas Arco-Íris e luta usando o número máximo de Espadas de Chuva.\nChuva de Espadas Arco-Íris:\n- Os Ataques Normais do seu personagem ativo atual ativarão ataques consecutivos de espada, causando Dano Hydro.\n- As Espadas de Chuva permanecerão com seu número máximo durante a duração da habilidade."
+        },
+        "passives": [
+            {
+                "name": "Segredos Hidropáticos",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/xingqiu/talent_passive_a1.webp",
+                "description": "Quando uma Espada de Chuva é estilhaçada ou sua duração expira, regenera o HP do personagem ativo atual com base em 6% do HP Máx de Xingqiu."
+            },
+            {
+                "name": "Lâminas e Chuva",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/xingqiu/talent_passive_a4.webp",
+                "description": "Xingqiu ganha um Bônus de Dano Hydro de 20%."
+            },
+            {
+                "name": "Clarão de Gênio",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/xingqiu/talent_passive_utility.webp",
+                "description": "Quando Xingqiu cria Materiais de Talento de Personagem, ele tem 25% de chance de reembolsar uma porção dos materiais de criação usados."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Máscara Danificada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/damaged_mask.webp"
+        },
+        {
+            "name": "Máscara Suja",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/stained_mask.webp"
+        },
+        {
+            "name": "Máscara Ominosa",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/ominous_mask.webp"
+        },
+        {
+            "name": "Ensinamentos de \"Ouro\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_gold.webp"
+        },
+        {
+            "name": "Guia de \"Ouro\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_gold.webp"
+        },
+        {
+            "name": "Filosofia de \"Ouro\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_gold.webp"
+        },
+        {
+            "name": "Cauda de Boreal",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/tail_of_boreas.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "O Perfume Permanece",
+            "icon_url": "/assets/images/constellations/xingqiu/constellation_1.webp",
+            "description": "Aumenta o número máximo de Espadas de Chuva em 1."
+        },
+        {
+            "level": 2,
+            "name": "Céu e Chuva Arco-Íris",
+            "icon_url": "/assets/images/constellations/xingqiu/constellation_2.webp",
+            "description": "Estende a duração de Espadas da Chuva Guhua - Tecelão da Chuva em 3s.\nDiminui a RES Hydro dos oponentes atingidos por ataques de espada de chuva em 15% por 4s."
+        },
+        {
+            "level": 3,
+            "name": "Verso Tecedor de Chuva",
+            "icon_url": "/assets/images/constellations/xingqiu/constellation_3.webp",
+            "description": "Aumenta o Nível de Espadas da Chuva Guhua - Tecelão da Chuva em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Dominador do Mal",
+            "icon_url": "/assets/images/constellations/xingqiu/constellation_4.webp",
+            "description": "Durante Espadas da Chuva Guhua - Tecelão da Chuva, o DANO causado por Espadas da Chuva Guhua - Chuva Torrencial é aumentado em 50%."
+        },
+        {
+            "level": 5,
+            "name": "Abraço da Chuva",
+            "icon_url": "/assets/images/constellations/xingqiu/constellation_5.webp",
+            "description": "Aumenta o Nível de Espadas da Chuva Guhua - Chuva Torrencial em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Daí Colecionam-se os Versos",
+            "icon_url": "/assets/images/constellations/xingqiu/constellation_6.webp",
+            "description": "Ativar 2 ataques de espada de Chuva de Espadas Arco-Íris em sucessão aumenta grandemente o DANO do 3º ataque de espada de chuva.\nXingqiu regenera 3 de Energia quando o 3º ataque de espada de chuva atinge."
+        }
+    ]
+}

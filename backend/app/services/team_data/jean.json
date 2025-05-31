@@ -1,0 +1,83 @@
+[
+    {
+        "id": "jean_sunfire_raiden_national_variant",
+        "name": "Jean - Sunfire com Raiden National (Raiden, Bennett, Xingqiu)",
+        "strategy": "A combinação 'Sunfire' de Jean e Bennett (onde o Supremo de Jean aplica Redemoinho Pyro continuamente na aura Pyro do Supremo de Bennett) fornece aplicação Pyro em área massiva. Ótimo com Raiden e Xingqiu para causar Vaporizar e Sobrecarga.",
+        "characters_in_team": [
+            {
+                "character_id": "jean",
+                "role_in_team": "Suporte Anemo (Healer, Sunfire Enabler, VV Holder)",
+                "build_key": "jean_sunfire_support_vv_em"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Sunfire Enabler)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Main DPS Electro On-field (Burst) / Bateria",
+                "build_key": "raiden_main_dps_emblem_engulfing_or_thecatch"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            }
+        ]
+    },
+    {
+        "id": "jean_xiao_hypercarry_albedo_zhongli",
+        "name": "Jean - Hypercarry Xiao (Xiao, Albedo, Zhongli)",
+        "strategy": "Jean atua como curandeira e bateria Anemo para Xiao. Sua C4 pode reduzir RES Anemo, tornando-a ainda melhor. Albedo e Zhongli fornecem dano Geo off-field, Ressonância Geo e proteção.",
+        "characters_in_team": [
+            {
+                "character_id": "jean",
+                "role_in_team": "Suporte Anemo (Healer, Bateria, RES Anemo Shred C4)",
+                "build_key": "jean_general_support_vv_favonius"
+            },
+            {
+                "character_id": "xiao",
+                "role_in_team": "Main DPS Anemo On-field (Hypercarry)",
+                "build_key": "xiao_anemo_dps_vermillion_gladiator_homa_or_jade_spear"
+            },
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo Off-field / Bateria",
+                "build_key": "albedo_off_field_geo_dps_main"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity_favonius"
+            }
+        ]
+    },
+    {
+        "id": "jean_mono_pyro_klee_xiangling_kazuha",
+        "name": "Jean - Suporte Mono Pyro (Klee, Xiangling, Kazuha)",
+        "strategy": "Jean como curandeira e portadora de Sombra Verde em um time Mono Pyro. Klee como DPS on-field, Xiangling para dano off-field, Kazuha para buffs e agrupamento.",
+        "characters_in_team": [
+            {
+                "character_id": "jean",
+                "role_in_team": "Suporte Anemo (Healer, VV Holder)",
+                "build_key": "jean_general_support_vv_favonius"
+            },
+            {
+                "character_id": "klee",
+                "role_in_team": "Main DPS Pyro On-field",
+                "build_key": "klee_pyro_dps_lavawalker_crimson_witch_lost_prayer"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (Agrupamento, Buffer Dano Pyro)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    }
+]

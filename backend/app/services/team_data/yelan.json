@@ -1,0 +1,110 @@
+[
+    {
+        "id": "yelan_double_hydro_hu_tao_zhongli",
+        "name": "Yelan - Double Hydro com Hu Tao (Hu Tao, Xingqiu, Zhongli)",
+        "strategy": "Arquétipo clássico de Hu Tao Double Hydro. Yelan e Xingqiu fornecem aplicação Hydro abundante e dano off-field, além de Ressonância Hydro. Zhongli oferece escudo e Redução de RES.",
+        "characters_in_team": [
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field / Buffer de Dano",
+                "build_key": "yelan_offfield_dps_emblem_favonius_aqua"
+            },
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro (On-field Vaporize)",
+                "build_key": "hutao_vape_dps_crimson_shimenawa"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field / Redução de Dano",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity"
+            }
+        ]
+    },
+    {
+        "id": "yelan_raiden_national_xiangling_bennett",
+        "name": "Yelan - Raiden National (Raiden, Xiangling, Bennett)",
+        "strategy": "Variante do time Nacional com Yelan no lugar de Xingqiu, oferecendo buff de DANO% e potencial de dano pessoal maior em single-target. Raiden como driver e bateria.",
+        "characters_in_team": [
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field / Buffer de Dano",
+                "build_key": "yelan_offfield_dps_emblem_favonius_aqua"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Main DPS Electro On-field (Burst) / Bateria",
+                "build_key": "raiden_main_dps_emblem_engulfing_or_thecatch"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field (Vaporize/Overload)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "yelan_hyperbloom_nahida_kuki_shinobu_flex_electro_dendro",
+        "name": "Yelan - Hyperbloom (Nahida, Kuki Shinobu, Flex Electro/Dendro)",
+        "strategy": "Yelan como aplicadora Hydro off-field para times de Hiperflorecimento. Nahida para aplicação Dendro e buff de EM. Kuki Shinobu para cura e ativação de Hiperflorecimento. O slot flexível pode ser outro Electro (Fischl) ou Dendro (Viajante Dendro, Collei).",
+        "characters_in_team": [
+            {
+                "character_id": "yelan",
+                "role_in_team": "Aplicadora Hydro Off-field",
+                "build_key": "yelan_offfield_dps_emblem_favonius_aqua"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Ativadora de Hyperbloom (Full EM)",
+                "build_key": "kuki_shinobu_hyperbloom_full_em_flowerofparadiselost"
+            },
+            {
+                "character_id": "fischl", 
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria (Flex)",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            }
+        ]
+    },
+    {
+        "id": "yelan_mono_hydro_furina_kazuha_kokomi_ayato",
+        "name": "Yelan - Mono Hydro (Furina, Kazuha, Kokomi/Ayato)",
+        "strategy": "Time Mono Hydro focado em maximizar o Dano Hydro. Yelan e Furina fornecem dano e buffs. Kazuha com Sombra Verde reduz RES Hydro e buffa Dano Hydro. Kokomi para cura e aplicação Hydro on-field, ou Ayato como DPS Hydro on-field.",
+        "characters_in_team": [
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano",
+                "build_key": "yelan_offfield_dps_emblem_favonius_aqua"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Hydro, Buffer Dano Hydro)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "kokomi", 
+                "role_in_team": "Healer / Driver Hydro On-field (Flex DPS/Healer)",
+                "build_key": "kokomi_healer_driver_oceanhued_clam_ttds"
+            }
+        ]
+    }
+]

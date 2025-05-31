@@ -114,3 +114,32 @@ a:hover {
   text-decoration: underline;
   /* Adicionar sublinhado no hover */
 }
+
+body {
+  /* Para arquivos .cur (recomendado se disponível) */
+  cursor: url('/cursors/genshin_default.cur'), auto;
+
+  .tooltip-container-hover:hover {
+    cursor: url('/cursors/genshin_help.cur'), help;
+  }
+
+  /* Você também pode querer manter para tooltips nativos do navegador 
+   ou outros indicadores de ajuda, se aplicável em outras partes do site:
+*/
+  [title]:hover {
+    /* Para elementos com o atributo 'title' nativo que mostra a dica do navegador */
+    cursor: url('/cursors/genshin_help.cur'), help;
+  }
+
+  /* Se você usar uma classe específica para ícones de ajuda em outros lugares: */
+  .help-indicator:hover,
+  .help-icon:hover {
+    cursor: url('/cursors/genshin_help.cur'), help;
+  }
+
+  /* Para abreviações que mostram o significado completo no tooltip nativo */
+  abbr[title]:hover {
+    cursor: url('/cursors/genshin_help.cur'), help;
+
+  }
+}

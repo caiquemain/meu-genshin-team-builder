@@ -148,9 +148,12 @@ const CharacterProfilePage = () => {
 
     const profileSections = [
         { id: "general-info-section", label: "Visão Geral", condition: () => characterData.description_bio || characterData.region || characterData.role?.length > 0 },
+        { id: "ascension-materials-section", label: "Materiais de Ascensão", condition: () => characterData.total_ascension_materials?.length > 0 },
+        { id: "talent-materials-section", label: "Materiais para Talentos", condition: () => characterData.total_talent_materials_one_to_ten?.length > 0 },
         { id: "talents-section", label: "Talentos", condition: () => characterData.talents },
         { id: "constellations-section", label: "Constelações", condition: () => characterData.constellations?.length > 0 },
         { id: "builds-section", label: "Builds", condition: () => characterData.build_options?.length > 0 },
+        { id: "references-section", label: "Referências", condition: () => characterData.info_references && ((characterData.info_references.character_details_sources?.length > 0) || (characterData.info_references.build_and_teams_sources?.length > 0)) },
         { id: "teams-section", label: "Times", condition: () => suggestedTeams?.length > 0 }
     ];
 
@@ -207,6 +210,86 @@ const CharacterProfilePage = () => {
                             </p>
                         )}
                         {characterData.role?.length > 0 && <p><strong>Funções:</strong> {characterData.role.join(', ')}</p>}
+                    </div>
+                </section>
+            )}
+            {profileSections.find(s => s.id === "ascension-materials-section")?.condition() && (
+                <section id="ascension-materials-section" className="profile-section">
+                    <h2 className="section-title-accent">Materiais Totais para Ascensão (Nível 1-90)</h2>
+                    {characterData.total_ascension_materials && characterData.total_ascension_materials.length > 0 ? (
+                        <div className="materials-grid">
+                            {characterData.total_ascension_materials.map((material, index) => (
+                                <div key={`${characterId}-asc-mat-${index}`} className="material-card">
+                                    <img
+                                        src={material.icon_url || '/assets/images/materials/default_material.png'} // Fallback icon
+                                        alt={material.name}
+                                        className="material-icon"
+                                        onError={(e) => { e.target.onerror = null; e.target.src = '/assets/images/materials/default_material.png'; }} // Fallback em caso de erro no ícone
+                                    />
+                                    <span className="material-name">{material.name}</span>
+                                    <span className="material-quantity">
+                                        {material.quantity.toLocaleString('pt-BR')} {/* Formata o número para o padrão brasileiro */}
+                                    </span>
+                                </div>
+                            ))}
+                        </div>
+                    ) : (
+                        <p className="info-message">Informações de materiais de ascensão não disponíveis.</p>
+                    )}
+                </section>
+            )}
+            {profileSections.find(s => s.id === "talent-materials-section")?.condition() && (
+                <section id="talent-materials-section" className="profile-section">
+                    <h2 className="section-title-accent">Materiais Totais para Talentos</h2>
+
+                    {/* Sub-seção para 1 Talento */}
+                    <div className="talent-materials-subsection">
+                        <h3 className="subsection-title-accent">Para 1 Talento (Nível 1 ao 10)</h3>
+                        {characterData.total_talent_materials_one_to_ten && characterData.total_talent_materials_one_to_ten.length > 0 ? (
+                            <div className="materials-grid">
+                                {characterData.total_talent_materials_one_to_ten.map((material, index) => (
+                                    <div key={`${characterId}-talent1-mat-${index}`} className="material-card">
+                                        <img
+                                            src={material.icon_url || '/assets/images/materials/default_material.png'}
+                                            alt={material.name}
+                                            className="material-icon"
+                                            onError={(e) => { e.target.onerror = null; e.target.src = '/assets/images/materials/default_material.png'; }}
+                                        />
+                                        <span className="material-name">{material.name}</span>
+                                        <span className="material-quantity">
+                                            {material.quantity.toLocaleString('pt-BR')}
+                                        </span>
+                                    </div>
+                                ))}
+                            </div>
+                        ) : (
+                            <p className="info-message">Informações de materiais para 1 talento não disponíveis.</p>
+                        )}
+                    </div>
+
+                    {/* Sub-seção para 3 Talentos */}
+                    <div className="talent-materials-subsection">
+                        <h3 className="subsection-title-accent">Para 3 Talentos (Nível 1 ao 10 cada)</h3>
+                        {characterData.total_talent_materials_one_to_ten && characterData.total_talent_materials_one_to_ten.length > 0 ? (
+                            <div className="materials-grid">
+                                {characterData.total_talent_materials_one_to_ten.map((material, index) => (
+                                    <div key={`${characterId}-talent3-mat-${index}`} className="material-card">
+                                        <img
+                                            src={material.icon_url || '/assets/images/materials/default_material.png'}
+                                            alt={material.name}
+                                            className="material-icon"
+                                            onError={(e) => { e.target.onerror = null; e.target.src = '/assets/images/materials/default_material.png'; }}
+                                        />
+                                        <span className="material-name">{material.name}</span>
+                                        <span className="material-quantity">
+                                            {(material.quantity * 3).toLocaleString('pt-BR')}
+                                        </span>
+                                    </div>
+                                ))}
+                            </div>
+                        ) : (
+                            <p className="info-message">Informações de materiais para 3 talentos não disponíveis.</p>
+                        )}
                     </div>
                 </section>
             )}
@@ -356,6 +439,60 @@ const CharacterProfilePage = () => {
                     )}
                 </section>
             )}
+
+            {profileSections.find(s => s.id === "references-section")?.condition() && (
+                <section id="references-section" className="profile-section">
+                    <h2 className="section-title-accent">Fontes e Referências</h2>
+                    {characterData.info_references?.character_details_sources?.length > 0 && (
+                        <div className="reference-subsection">
+                            <h4>Informações do Personagem:</h4>
+                            <ul className="references-list">
+                                {characterData.info_references.character_details_sources.map((ref, index) => (
+                                    <li key={`char-ref-${index}`}>
+                                        {ref.url ? (
+                                            <a href={ref.url.startsWith('http') ? ref.url : `https://${ref.url}`} target="_blank" rel="noopener noreferrer">
+                                                {ref.name || ref.url}
+                                            </a>
+                                        ) : (
+                                            ref.name || ref.description
+                                        )}
+                                        {ref.url && ref.name && ref.description && ` - ${ref.description}`}
+                                        {!ref.url && ref.name && ref.description && `: ${ref.description}`}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
+
+                    {characterData.info_references?.build_and_teams_sources?.length > 0 && (
+                        <div className="reference-subsection">
+                            <h4>Informações de Builds e Times:</h4>
+                            <ul className="references-list">
+                                {characterData.info_references.build_and_teams_sources.map((ref, index) => (
+                                    <li key={`build-ref-${index}`}>
+                                        {ref.url ? (
+                                            <a href={ref.url.startsWith('http') ? ref.url : `https://${ref.url}`} target="_blank" rel="noopener noreferrer">
+                                                {ref.name || ref.url}
+                                            </a>
+                                        ) : (
+                                            ref.name || ref.description
+                                        )}
+                                        {ref.url && ref.name && ref.description && ` - ${ref.description}`}
+                                        {!ref.url && ref.name && ref.description && `: ${ref.description}`}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
+                    {/* Mensagem caso nenhuma referência específica seja encontrada mas a seção existe */}
+                    {
+                        !(characterData.info_references?.character_details_sources?.length > 0) &&
+                        !(characterData.info_references?.build_and_teams_sources?.length > 0) &&
+                        <p>Nenhuma fonte de referência específica listada para esta seção.</p>
+                    }
+                </section>
+            )}
+
 
             {profileSections.find(s => s.id === "teams-section")?.condition() && (
                 <section id="teams-section" className="profile-section">

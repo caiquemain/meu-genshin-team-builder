@@ -1,0 +1,378 @@
+{
+    "id": "kaeya",
+    "name": "Kaeya",
+    "title": "Espadachim do Vento Glacial",
+    "element": "Cryo",
+    "rarity": 4,
+    "weapon": "Sword",
+    "model_type": "Tall Male",
+    "role": [
+        "Off-Field Cryo DPS",
+        "Cryo Enabler",
+        "Battery (com Favonius)"
+    ],
+    "description_bio": "Um espadachim nos Cavaleiros de Favonius com uma aparência bastante exótica. Kaeya Alberich é o Capitão da Cavalaria dos Cavaleiros de Favonius. Ele é tido em alta estima pelo povo de Mondstadt - mesmo com todos os seus segredos e excentricidades.",
+    "birthday": "30 de Novembro",
+    "constellation_name_official": "Pavo Ocellus",
+    "region": "Mondstadt (lore de Khaenri'ah)",
+    "affiliation": [
+        "Cavaleiros de Favonius",
+        "Clã Alberich (anteriormente)"
+    ],
+    "special_dish": {
+        "name": "Espetinhos de Frutas",
+        "icon_url": "/assets/images/dishes/kaeya_fruity_skewers.webp"
+    },
+    "namecard_url": "/assets/images/namecards/kaeya_pavo_ocellus.png",
+    "icon_url": "/assets/images/characters/kaeya.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Kaeya Guide (Full)",
+                "url": "https://keqingmains.com/kaeya/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Kaeya",
+                "url": "https://genshin-impact.fandom.com/wiki/Kaeya"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "kaeya_offfield_cryo_dps_blizzard_noblesse",
+            "name": "DPS Cryo Off-field (Herói Invernal / Ritual Real)",
+            "notes_build": "Foco no dano do Supremo de Kaeya e aplicação Cryo off-field. 4p Herói Invernal é ótimo em times de Congelamento. 2p Herói + 2p Ritual Real é uma opção sólida para dano geral. Recarga de Energia é importante para manter o Supremo ativo.",
+            "artifacts": [
+                {
+                    "set_id": "blizzard_strayer",
+                    "set_name": "Herói Invernal",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Kaeya em times de Congelamento, fornecendo muita Taxa CRIT e Dano Cryo.",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png"
+                },
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Excelente opção se Kaeya tiver altos requisitos de RE e seu Supremo for uma parte significativa de seu dano (ex: times Melt onde ele ativa com seu Supremo).",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "blizzard_strayer_noblesse_oblige_2pc_mix",
+                    "set_name": "Herói Invernal (2p) + Antigo Ritual Real (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinação sólida para dano geral do Supremo e da Habilidade, especialmente se não conseguir um bom conjunto de 4p.",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "blizzard_strayer",
+                        "noblesse_oblige"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Cryo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ~140-180% dependendo da equipe)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para dano pessoal de Kaeya, especialmente se conseguir manter os acúmulos da passiva.",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Fornece alta Taxa CRIT e ATQ. Excelente 'stat stick'.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha / Missão",
+                    "notes": "Ótima para papel de suporte/bateria, ajudando com a RE de Kaeya e da equipe. Requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "amenoma_kageuchi",
+                    "name": "Espada Amenoma Kageuchi",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Excelente opção F2P, especialmente em R5, pois reduz significativamente os requisitos de RE de Kaeya.",
+                    "icon_url": "/assets/images/weapons_detail/amenoma_kageuchi.png"
+                },
+                {
+                    "weapon_id": "harbinger_of_dawn",
+                    "name": "Prenúncio do Alvorecer",
+                    "rarity": 3,
+                    "type": "Sword",
+                    "category": "Gacha / Baús",
+                    "notes": "R5 é uma opção surpreendentemente forte se conseguir manter HP >90% para a passiva de Taxa CRIT e Dano CRIT. Ótima para iniciantes.",
+                    "icon_url": "/assets/images/weapons_detail/harbinger_of_dawn.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (menor prioridade para off-field)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 963,
+            "base_atk": 19,
+            "base_def": 66,
+            "bonus_stat_label": "Recarga de Energia",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3147,
+            "base_atk": 61,
+            "base_def": 216,
+            "bonus_stat_label": "Recarga de Energia",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5218,
+            "base_atk": 102,
+            "base_def": 358,
+            "bonus_stat_label": "Recarga de Energia",
+            "bonus_stat_value": "6.7%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6700,
+            "base_atk": 130,
+            "base_def": 460,
+            "bonus_stat_label": "Recarga de Energia",
+            "bonus_stat_value": "13.3%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7975,
+            "base_atk": 155,
+            "base_def": 547,
+            "bonus_stat_label": "Recarga de Energia",
+            "bonus_stat_value": "13.3%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9243,
+            "base_atk": 180,
+            "base_def": 634,
+            "bonus_stat_label": "Recarga de Energia",
+            "bonus_stat_value": "20.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 11636,
+            "base_atk": 227,
+            "base_def": 796,
+            "bonus_stat_label": "Recarga de Energia",
+            "bonus_stat_value": "26.7%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Presa Glacial",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/hoarfrost_core.webp"
+        },
+        {
+            "name": "Lasca de Jade Shivada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/shivada_jade_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_chunk.webp"
+        },
+        {
+            "name": "Gema de Jade Shivada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/shivada_jade_gemstone.webp"
+        },
+        {
+            "name": "Lírio de Calla",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/calla_lily.webp"
+        },
+        {
+            "name": "Insígnia do Ladrão de Tesouros",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/treasure_hoarder_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Prateado",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/silver_raven_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Dourado",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/golden_raven_insignia.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Lâmina Cerimonial",
+            "icon_url": "/assets/images/talents/kaeya/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes rápidos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando inimigos ao longo do caminho e causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Geada Mortal",
+            "icon_url": "/assets/images/talents/kaeya/talent_elemental_skill.webp",
+            "description": "Libera uma explosão gélida, causando Dano Cryo aos inimigos na frente de Kaeya."
+        },
+        "elemental_burst": {
+            "name": "Valsa Glacial",
+            "icon_url": "/assets/images/talents/kaeya/talent_elemental_burst.webp",
+            "description": "Invoca 3 Pingentes de Gelo que giram em torno do personagem ativo atual.\nEstes pingentes seguirão o personagem e causarão Dano Cryo aos inimigos em seu caminho enquanto a habilidade persistir."
+        },
+        "passives": [
+            {
+                "name": "Espada do Sangue Frio",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/kaeya/talent_passive_a1.webp",
+                "description": "Cada acerto de Geada Mortal em um oponente regenera HP para Kaeya igual a 15% de seu ATQ."
+            },
+            {
+                "name": "Coração Glacial",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/kaeya/talent_passive_a4.webp",
+                "description": "Oponentes Congelados por Geada Mortal droparão Partículas Elementais adicionais.\nGeada Mortal dropará um máximo de 2 Partículas Elementais adicionais desta forma."
+            },
+            {
+                "name": "Força Oculta",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/kaeya/talent_passive_utility.webp",
+                "description": "Diminui o consumo de Stamina ao Correr de todos os seus personagens na equipe em 20%.\nNão acumulável com Talentos Passivos que fornecem exatamente os mesmos efeitos."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Insígnia do Ladrão de Tesouros",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/treasure_hoarder_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Prateado",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/silver_raven_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Dourado",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/golden_raven_insignia.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Poesia\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_ballad.webp"
+        },
+        {
+            "name": "Guia da \"Poesia\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_ballad.webp"
+        },
+        {
+            "name": "Filosofia da \"Poesia\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_ballad.webp"
+        },
+        {
+            "name": "Espírito de Boreal",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/spirit_locket_of_boreas.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Sangue Excelente",
+            "icon_url": "/assets/images/constellations/kaeya/constellation_1.webp",
+            "description": "A Taxa CRIT dos Ataques Normais e Carregados de Kaeya contra oponentes afetados por Cryo é aumentada em 15%."
+        },
+        {
+            "level": 2,
+            "name": "Dança Congelante Interminável",
+            "icon_url": "/assets/images/constellations/kaeya/constellation_2.webp",
+            "description": "Sempre que Valsa Glacial derrota um oponente durante sua duração, sua duração é aumentada em 2.5s, até um máximo de 15s."
+        },
+        {
+            "level": 3,
+            "name": "Beijo Gelado",
+            "icon_url": "/assets/images/constellations/kaeya/constellation_3.webp",
+            "description": "Aumenta o Nível de Geada Mortal em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Abraço Congelado",
+            "icon_url": "/assets/images/constellations/kaeya/constellation_4.webp",
+            "description": "Ativa automaticamente quando o HP de Kaeya cai abaixo de 20%:\nCria um escudo que absorve DANO igual a 30% de seu HP Máx. Este escudo dura 20s e absorve Dano Cryo com 250% de eficácia.\nEste efeito pode ser ativado apenas uma vez a cada 60s."
+        },
+        {
+            "level": 5,
+            "name": "Amplexo Congelante",
+            "icon_url": "/assets/images/constellations/kaeya/constellation_5.webp",
+            "description": "Aumenta o Nível de Valsa Glacial em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Redemoinho Glacial",
+            "icon_url": "/assets/images/constellations/kaeya/constellation_6.webp",
+            "description": "Valsa Glacial gerará 1 pingente de gelo adicional e restaurará 15 de Energia quando lançado."
+        }
+    ]
+}

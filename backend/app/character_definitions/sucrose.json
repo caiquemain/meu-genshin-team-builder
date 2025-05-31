@@ -1,0 +1,355 @@
+{
+    "id": "sucrose",
+    "name": "Sucrose",
+    "title": "Doçura Inofensiva",
+    "element": "Anemo",
+    "rarity": 4,
+    "weapon": "Catalyst",
+    "model_type": "Medium Female",
+    "role": [
+        "Suporte (Buffer de EM, VV Holder, Agrupamento)",
+        "Driver On-Field (Swirl DPS)"
+    ],
+    "description_bio": "Uma alquimista com uma curiosidade insaciável em relação a tudo. Ela é a assistente de Albedo e a Chefe do Departamento de Bio-Alquimia dos Cavaleiros de Favonius.",
+    "birthday": "26 de Novembro",
+    "constellation_name_official": "Ampulla",
+    "region": "Mondstadt",
+    "affiliation": [
+        "Cavaleiros de Favonius"
+    ],
+    "special_dish": {
+        "name": "Refeição Nutritiva (V.593)",
+        "icon_url": "/assets/images/dishes/sucrose_nutritious_meal_v593.webp"
+    },
+    "namecard_url": "/assets/images/namecards/sucrose_bio_alchemy.png",
+    "icon_url": "/assets/images/characters/sucrose.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Sucrose Guide (Full)",
+                "url": "https://keqingmains.com/sucrose/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Sucrose",
+                "url": "https://genshin-impact.fandom.com/wiki/Sucrose"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "sucrose_support_driver_vv_full_em",
+            "name": "Suporte/Driver (Sombra Verde - Full EM)",
+            "notes_build": "Principal forma de jogar com Sucrose, focando em maximizar sua Proficiência Elemental para buffar a equipe e aumentar o dano de Redemoinho. 4p Sombra Verde é essencial para reduzir a RES Elemental dos inimigos. Nível 90 é altamente recomendado para maximizar o dano de Redemoinho.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Sucrose na maioria dos cenários. A Redução de RES fornecida é um buff de dano imenso para a equipe, e o aumento de Dano de Redemoinho também beneficia o dano pessoal de Sucrose.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "instructor",
+                    "set_name": "Instrutor",
+                    "pieces": 4,
+                    "notes": "Opção de suporte de nicho se outro personagem já estiver usando 4p Sombra Verde ou se o buff de EM para a equipe for mais valioso do que o dano pessoal de Sucrose. Stats 4 estrelas dificultam atingir RE suficiente.",
+                    "icon_url": "/assets/images/artifact_sets/instructor.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / Recarga de Energia (ER%)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~160-200% dependendo do time e arma)",
+                "Proficiência Elemental (EM)",
+                "ATK% (baixa prioridade)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "sacrificial_fragments",
+                    "name": "Fragmentos do Sacrifício",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Geralmente a melhor arma para Sucrose. Fornece alta EM e a passiva permite um uso adicional da Habilidade Elemental, gerando mais partículas e controle de grupo. R3+ altamente recomendado.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_fragments.png"
+                },
+                {
+                    "weapon_id": "thrilling_tales_of_dragon_slayers",
+                    "name": "Histórias Extraordinárias de Caçadores de Dragões",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha / Baús",
+                    "notes": "R5 é uma excelente opção de suporte, fornecendo um buff massivo de ATQ% para um colega de equipe. Requer gerenciamento cuidadoso da rotação.",
+                    "icon_url": "/assets/images/weapons_detail/thrilling_tales_of_dragon_slayers.png"
+                },
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Ajuda com os requisitos de RE de Sucrose e da equipe, mas requer investimento em Taxa CRIT e sacrifica EM.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                },
+                {
+                    "weapon_id": "magic_guide",
+                    "name": "Guia de Magia",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha / Baús",
+                    "notes": "Opção F2P que fornece EM. A passiva é útil em times Eletricamente Carregados ou contra inimigos com aura Hydro/Electro.",
+                    "icon_url": "/assets/images/weapons_detail/magic_guide.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem para 90",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (baixa prioridade, a menos que C4 on-field)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 775,
+            "base_atk": 14,
+            "base_def": 59,
+            "bonus_stat_label": "Bônus de Dano Anemo",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 2534,
+            "base_atk": 46,
+            "base_def": 191,
+            "bonus_stat_label": "Bônus de Dano Anemo",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 4202,
+            "base_atk": 77,
+            "base_def": 317,
+            "bonus_stat_label": "Bônus de Dano Anemo",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 5391,
+            "base_atk": 98,
+            "base_def": 407,
+            "bonus_stat_label": "Bônus de Dano Anemo",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 6577,
+            "base_atk": 120,
+            "base_def": 495,
+            "bonus_stat_label": "Bônus de Dano Anemo",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 7762,
+            "base_atk": 141,
+            "base_def": 583,
+            "bonus_stat_label": "Bônus de Dano Anemo",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 9266,
+            "base_atk": 170,
+            "base_def": 703,
+            "bonus_stat_label": "Bônus de Dano Anemo",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Semente de Furacão",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/hurricane_seed.webp"
+        },
+        {
+            "name": "Lasca de Turquesa Vayuda",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_chunk.webp"
+        },
+        {
+            "name": "Gema de Turquesa Vayuda",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_gemstone.webp"
+        },
+        {
+            "name": "Flor do Moinho de Vento",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/windwheel_aster.webp"
+        },
+        {
+            "name": "Néctar de Megaflora",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/whopperflower_nectar.webp"
+        },
+        {
+            "name": "Néctar Brilhante",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/shimmering_nectar.webp"
+        },
+        {
+            "name": "Néctar de Energia",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/energy_nectar.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Criação de Espírito de Vento - Tipo 6308",
+            "icon_url": "/assets/images/talents/sucrose/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 ataques usando espíritos de vento, causando Dano Anemo.\nAtaque Carregado: Consome uma certa quantidade de Stamina e causa Dano Anemo em AdE após um curto tempo de canalização.\nAtaque Imersivo: Reúne o poder do Anemo e mergulha em direção ao chão, danificando todos os oponentes em seu caminho. Causa Dano Anemo em AdE no impacto com o chão."
+        },
+        "elemental_skill": {
+            "name": "Criação de Espírito de Vento - Experimento Número Seiscentos e Trinta e Oito",
+            "icon_url": "/assets/images/talents/sucrose/talent_elemental_skill.webp",
+            "description": "Cria um pequeno Espírito de Vento que puxa oponentes e objetos para sua localização, lança oponentes próximos e causa Dano Anemo."
+        },
+        "elemental_burst": {
+            "name": "Criação de Espírito de Vento - Proibido: Isômero Setenta e Cinco / Tipo Dois",
+            "icon_url": "/assets/images/talents/sucrose/talent_elemental_burst.webp",
+            "description": "Sucrose lança um concocto instável que cria um grande Espírito de Vento. Enquanto persistir, o grande Espírito de Vento puxará continuamente oponentes e objetos próximos, lançará oponentes próximos e causará Dano Anemo.\nAbsorção Elemental: Se o Espírito de Vento entrar em contato com Hydro/Pyro/Cryo/Electro enquanto estiver ativo, ele causará Dano Elemental adicional desse tipo. A Absorção Elemental pode ocorrer apenas uma vez por uso."
+        },
+        "passives": [
+            {
+                "name": "Conversão Catalisadora",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/sucrose/talent_passive_a1.webp",
+                "description": "Quando Sucrose ativa uma reação de Redemoinho, todos os personagens na equipe com o Elemento correspondente (excluindo Sucrose) ganham 50 de Proficiência Elemental por 8s."
+            },
+            {
+                "name": "Brincadeira Engenhosa",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/sucrose/talent_passive_a4.webp",
+                "description": "Quando Criação de Espírito de Vento - Experimento Número Seiscentos e Trinta e Oito ou Criação de Espírito de Vento - Proibido: Isômero Setenta e Cinco / Tipo Dois atingem um oponente, aumenta a Proficiência Elemental de todos os outros membros da equipe (excluindo Sucrose) em 20% da Proficiência Elemental de Sucrose por 8s."
+            },
+            {
+                "name": "Descoberta Instável",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/sucrose/talent_passive_utility.webp",
+                "description": "Quando Sucrose cria Materiais de Elevação de Personagem e Arma, ela tem 10% de chance de obter o dobro do produto."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Néctar de Megaflora",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/whopperflower_nectar.webp"
+        },
+        {
+            "name": "Néctar Brilhante",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/shimmering_nectar.webp"
+        },
+        {
+            "name": "Néctar de Energia",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/energy_nectar.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Liberdade\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_freedom.webp"
+        },
+        {
+            "name": "Guia da \"Liberdade\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_freedom.webp"
+        },
+        {
+            "name": "Filosofia da \"Liberdade\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_freedom.webp"
+        },
+        {
+            "name": "Espírito de Boreal",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/spirit_locket_of_boreas.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Campo de Vácuo Aglomerado",
+            "icon_url": "/assets/images/constellations/sucrose/constellation_1.webp",
+            "description": "Criação de Espírito de Vento - Experimento Número Seiscentos e Trinta e Oito ganha 1 carga adicional."
+        },
+        {
+            "level": 2,
+            "name": "Beth: Forma Instável",
+            "icon_url": "/assets/images/constellations/sucrose/constellation_2.webp",
+            "description": "A duração de Criação de Espírito de Vento - Proibido: Isômero Setenta e Cinco / Tipo Dois é aumentada em 2s."
+        },
+        {
+            "level": 3,
+            "name": "Totalmente Inocente",
+            "icon_url": "/assets/images/constellations/sucrose/constellation_3.webp",
+            "description": "Aumenta o Nível de Criação de Espírito de Vento - Experimento Número Seiscentos e Trinta e Oito em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Alquimia Excêntrica",
+            "icon_url": "/assets/images/constellations/sucrose/constellation_4.webp",
+            "description": "A cada 7 Ataques Normais e Carregados, Sucrose reduzirá o TdR de Criação de Espírito de Vento - Experimento Número Seiscentos e Trinta e Oito em 1~7s."
+        },
+        {
+            "level": 5,
+            "name": "Cuidado: Garrafa Comum",
+            "icon_url": "/assets/images/constellations/sucrose/constellation_5.webp",
+            "description": "Aumenta o Nível de Criação de Espírito de Vento - Proibido: Isômero Setenta e Cinco / Tipo Dois em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Teoria do Caos Entrópico",
+            "icon_url": "/assets/images/constellations/sucrose/constellation_6.webp",
+            "description": "Se Criação de Espírito de Vento - Proibido: Isômero Setenta e Cinco / Tipo Dois ativar uma Absorção Elemental, todos os membros da equipe ganham um Bônus de Dano Elemental de 20% para o elemento absorvido correspondente durante a duração da habilidade."
+        }
+    ]
+}

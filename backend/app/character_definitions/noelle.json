@@ -25,17 +25,101 @@
     "namecard_url": "/assets/images/namecards/noelle_protector.png",
     "icon_url": "/assets/images/characters/noelle.png",
     "element_icon_url": "/assets/images/elements/element_geo.png",
-    "external_links": [
-        {
-            "type": "KQM Guide (Full)",
-            "url": "keqingmains.com/noelle/"
-        },
-        {
-            "type": "Wiki Page (Fandom)",
-            "url": "genshin-impact.fandom.com/wiki/Noelle"
-        }
-    ],
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Noelle Guide (Full)",
+                "url": "https://keqingmains.com/noelle/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Noelle",
+                "url": "https://genshin-impact.fandom.com/wiki/Noelle"
+            }
+        ]
+    },
     "build_options": [
+        {
+            "key": "noelle_onfield_geo_dps_husk",
+            "name": "DPS Geo On-field (Casca de Sonhos Opulentos)",
+            "notes_build": "Maximiza o dano de Noelle durante seu Supremo, onde sua DEF é convertida em ATQ. C6 é crucial para este estilo de jogo. Requer Recarga de Energia significativa (geralmente 130-150% com baterias Geo como Gorou/Albedo/Viajante Geo).",
+            "artifacts": [
+                {
+                    "set_id": "husk_of_opulent_dreams",
+                    "set_name": "Casca de Sonhos Opulentos",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto de artefatos para Noelle DPS, fornecendo DEF% e Bônus de Dano Geo. Fácil de manter os acúmulos, pois Noelle quer ficar em campo durante seu Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png"
+                },
+                {
+                    "set_id": "gladiators_finale",
+                    "set_name": "Último Juramento do Gladiador",
+                    "pieces": 4,
+                    "notes": "Opção viável e mais acessível se tiver bons sub-stats, mas geralmente inferior a Casca de Sonhos Opulentos. Buffa apenas Ataques Normais.",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
+                },
+                {
+                    "set_id": "retracing_bolide",
+                    "set_name": "Meteoro Invertido",
+                    "pieces": 4,
+                    "notes": "Aumenta a Força do Escudo e o Dano do Ataque Normal/Carregado enquanto estiver com escudo. Sinergiza bem com o kit de Noelle, mas Casca de Sonhos Opulentos geralmente oferece mais dano.",
+                    "icon_url": "/assets/images/artifact_sets/retracing_bolide.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "DEF% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Geo",
+                "circlet": "Taxa CRIT / Dano CRIT (ou DEF% com Chifres Vermelhos e bons sub-stats de CRIT)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até requisitos)",
+                "Taxa CRIT / Dano CRIT",
+                "DEF%",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "redhorn_stonethresher",
+                    "name": "Chifres Vermelhos Destruidores de Pedras",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Noelle DPS, devido ao alto Dano CRIT e passiva que escala com DEF.",
+                    "icon_url": "/assets/images/weapons_detail/redhorn_stonethresher.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Excelente opção 4 estrelas, especialmente com refinos altos. Aumenta todo o Dano e fornece Taxa CRIT. Perde acúmulos ao sofrer dano, então manter o escudo de Noelle ativo é importante.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "whiteblind",
+                    "name": "Sombra Branca",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja F2P",
+                    "notes": "Melhor opção F2P, forjável. Fornece DEF% e sua passiva aumenta ATQ e DEF. É importante acumular a passiva antes de usar o Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/whiteblind.png"
+                },
+                {
+                    "weapon_id": "skyward_pride",
+                    "name": "Orgulho Celestial",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Alto ATQ Base e sub-status de RE ajudam com as necessidades de energia de Noelle. A passiva de Lâminas de Vácuo causa Dano Físico, mas ainda é uma boa arma.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_pride.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)"
+            ]
+        },
         {
             "key": "noelle_main_dps_husk_gladiator",
             "name": "DPS Principal (Casca 2p + Gladiador 2p)",
@@ -61,7 +145,7 @@
                 "circlet": "Taxa CRIT / Dano CRIT"
             },
             "sub_stats_priority": [
-                "Recarga de Energia (ER%) (até requisitos, ~130-150% com baterias)",
+                "Recarga de Energia (ER%) (até requisitos)",
                 "Taxa CRIT / Dano CRIT",
                 "DEF%",
                 "ATK%"
@@ -72,7 +156,7 @@
                     "name": "Chifres Vermelhos Destruidores de Pedras",
                     "rarity": 5,
                     "type": "Claymore",
-                    "category": "Gacha (Assinatura)",
+                    "category": "Gacha (Limitado)",
                     "notes": "Ainda a melhor arma devido ao alto Dano CRIT e passiva que escala com DEF.",
                     "icon_url": "/assets/images/weapons_detail/redhorn_stonethresher.png"
                 },
@@ -99,88 +183,6 @@
                 "Ataque Normal",
                 "Supremo (Burst)",
                 "Habilidade Elemental (Skill)"
-            ]
-        },
-        {
-            "key": "noelle_onfield_geo_dps_husk",
-            "name": "DPS Geo On-field (Casca de Sonhos Opulentos)",
-            "notes_build": "Foco em maximizar o dano de Noelle durante seu Supremo, onde sua DEF é convertida em ATQ. C6 é crucial para este estilo de jogo. Requer Recarga de Energia significativa, especialmente como única Geo.",
-            "artifacts": [
-                {
-                    "set_id": "husk_of_opulent_dreams",
-                    "set_name": "Casca de Sonhos Opulentos",
-                    "pieces": 4,
-                    "notes": "Melhor conjunto para Noelle DPS, fornecendo DEF% e Bônus de Dano Geo. Fácil de manter os acúmulos.",
-                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png"
-                },
-                {
-                    "set_id": "gladiators_finale",
-                    "set_name": "Último Juramento do Gladiador",
-                    "pieces": 4,
-                    "notes": "Opção viável se tiver bons sub-stats, mas geralmente inferior a Casca de Sonhos Opulentos, pois buffa apenas Ataques Normais.",
-                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
-                },
-                {
-                    "set_id": "retracing_bolide",
-                    "set_name": "Meteoro Invertido",
-                    "pieces": 4,
-                    "notes": "Aumenta a Força do Escudo e o Dano do Ataque Normal/Carregado enquanto estiver com escudo. Sinergiza bem com Noelle, mas requer bom uptime do escudo.",
-                    "icon_url": "/assets/images/artifact_sets/retracing_bolide.png"
-                }
-            ],
-            "main_stats": {
-                "sands": "DEF% / Recarga de Energia (ER%)",
-                "goblet": "Bônus de Dano Geo",
-                "circlet": "Taxa CRIT / Dano CRIT"
-            },
-            "sub_stats_priority": [
-                "Recarga de Energia (ER%) (até requisitos, ~130-150% com baterias)",
-                "Taxa CRIT / Dano CRIT",
-                "DEF%",
-                "ATK%"
-            ],
-            "weapons": [
-                {
-                    "weapon_id": "redhorn_stonethresher",
-                    "name": "Chifres Vermelhos Destruidores de Pedras",
-                    "rarity": 5,
-                    "type": "Claymore",
-                    "category": "Gacha (Limitado)",
-                    "notes": "Melhor arma para Noelle DPS, devido ao alto Dano CRIT e passiva que escala com DEF.",
-                    "icon_url": "/assets/images/weapons_detail/redhorn_stonethresher.png"
-                },
-                {
-                    "weapon_id": "serpent_spine",
-                    "name": "Espinha Dorsal da Serpente",
-                    "rarity": 4,
-                    "type": "Claymore",
-                    "category": "Passe de Batalha",
-                    "notes": "Excelente opção 4 estrelas, especialmente com refinos altos. Aumenta todo o Dano e fornece Taxa CRIT. Perde acúmulos ao sofrer dano.",
-                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
-                },
-                {
-                    "weapon_id": "whiteblind",
-                    "name": "Sombra Branca",
-                    "rarity": 4,
-                    "type": "Claymore",
-                    "category": "Forja F2P",
-                    "notes": "Melhor opção F2P, forjável. Fornece DEF% e sua passiva aumenta ATQ e DEF.",
-                    "icon_url": "/assets/images/weapons_detail/whiteblind.png"
-                },
-                {
-                    "weapon_id": "skyward_pride",
-                    "name": "Orgulho Celestial",
-                    "rarity": 5,
-                    "type": "Claymore",
-                    "category": "Gacha",
-                    "notes": "Alto ATQ Base e sub-status de RE. A passiva de Lâminas de Vácuo causa Dano Físico, que não é o foco de Noelle, mas ainda uma boa arma.",
-                    "icon_url": "/assets/images/weapons_detail/skyward_pride.png"
-                }
-            ],
-            "talent_priority": [
-                "Ataque Normal",
-                "Supremo (Burst)",
-                "Habilidade Elemental (Skill) (para dano e cura, se desejado)"
             ]
         }
     ],
@@ -256,7 +258,7 @@
             "icon_url": "/assets/images/materials/mora.webp"
         },
         {
-            "name": "Presa Glacial (Hoarfrost Core)",
+            "name": "Presa Glacial",
             "quantity": 46,
             "icon_url": "/assets/images/materials/hoarfrost_core.webp"
         },

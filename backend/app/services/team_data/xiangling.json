@@ -1,0 +1,110 @@
+[
+    {
+        "id": "xiangling_raiden_national_bennett_xingqiu",
+        "name": "Xiangling - Raiden National (Raiden, Bennett, Xingqiu)",
+        "strategy": "Um dos times mais fortes e populares do jogo. Xiangling é a principal causadora de dano Pyro off-field, ativando Vaporizar com a aplicação Hydro de Xingqiu. Raiden atua como driver on-field e bateria para toda a equipe. Bennett fornece cura massiva e buff de ATQ.",
+        "characters_in_team": [
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field (Vaporize)",
+                "build_key": "xiangling_offfield_dps_emblem_the_catch"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Main DPS Electro On-field (Burst) / Bateria",
+                "build_key": "raiden_main_dps_emblem_engulfing_or_thecatch"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            }
+        ]
+    },
+    {
+        "id": "xiangling_childe_international_bennett_kazuha",
+        "name": "Xiangling - Internacional com Childe (Childe, Bennett, Kazuha)",
+        "strategy": "Time de altíssimo dano focado em Vaporizar o Supremo de Xiangling. Childe como aplicador Hydro on-field e enabler. Bennett para buff de ATQ e cura. Kazuha para agrupar, reduzir RES e buffar Dano Elemental.",
+        "characters_in_team": [
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field (Vaporize)",
+                "build_key": "xiangling_offfield_dps_emblem_the_catch"
+            },
+            {
+                "character_id": "childe",
+                "role_in_team": "Main DPS Hydro On-field / Enabler",
+                "build_key": "tartaglia_onfield_dps_nymphs_dream_polar_star"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Hydro/Pyro, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "xiangling_mono_pyro_kazuha_bennett_lyney_flex",
+        "name": "Xiangling - Mono Pyro (Kazuha, Bennett, Lyney/Flex)",
+        "strategy": "Foco em dano Pyro bruto. Xiangling como DPS off-field. Kazuha para agrupar e buffar Dano Pyro. Bennett para buff de ATQ e ressonância. O slot flexível pode ser outro Pyro DPS (Lyney, Klee) ou um escudeiro (Zhongli).",
+        "characters_in_team": [
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field",
+                "build_key": "xiangling_offfield_dps_emblem_the_catch"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer Dano Pyro, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "lyney",
+                "role_in_team": "Main DPS Pyro On-field (Flex)",
+                "build_key": "lyney_pyro_dps_marechaussee_or_lavawalker"
+            }
+        ]
+    },
+    {
+        "id": "xiangling_reverse_melt_rosaria_kaeya_bennett",
+        "name": "Xiangling - Fusão Reversa (Rosaria, Kaeya, Bennett)",
+        "strategy": "Xiangling aplica Pyro para que Rosaria e Kaeya causem Fusão com suas Habilidades e Supremos. Bennett para buff de ATQ e cura. Time de troca rápida com alto potencial de dano.",
+        "characters_in_team": [
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Aplicadora Pyro Off-field / Sub-DPS",
+                "build_key": "xiangling_offfield_dps_emblem_the_catch"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "DPS Cryo de Troca Rápida (Melt Burst/Skill)",
+                "build_key": "rosaria_cryo_melt_dps_lavawalker_or_emblem"
+            },
+            {
+                "character_id": "kaeya",
+                "role_in_team": "DPS Cryo de Troca Rápida (Melt Burst/Skill)",
+                "build_key": "kaeya_cryo_melt_dps_blizzard_noblesse"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    }
+]

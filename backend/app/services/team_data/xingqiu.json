@@ -1,0 +1,110 @@
+[
+    {
+        "id": "xingqiu_hutao_yelan_zhongli_double_hydro_vape",
+        "name": "Xingqiu - Double Hydro Vape com Hu Tao (Hu Tao, Yelan, Zhongli)",
+        "strategy": "Time clássico onde Xingqiu e Yelan fornecem aplicação Hydro massiva para Hu Tao Vaporizar consistentemente. Zhongli oferece escudo e redução de RES. A redução de dano e pequena cura de Xingqiu também são valiosas.",
+        "characters_in_team": [
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field / Redução de Dano",
+                "build_key": "xingqiu_offfield_dps_emblem_sacrificial"
+            },
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro (On-field Vaporize)",
+                "build_key": "hutao_vape_dps_crimson_shimenawa"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field / Buffer de Dano",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity"
+            }
+        ]
+    },
+    {
+        "id": "xingqiu_raiden_national_xiangling_bennett",
+        "name": "Xingqiu - Raiden National (Raiden, Xiangling, Bennett)",
+        "strategy": "Um dos times mais fortes e populares do jogo. Xingqiu fornece dano Hydro off-field e aplicação para Vaporizar com Xiangling, enquanto Raiden atua como driver e bateria. Bennett para cura e buff de ATQ.",
+        "characters_in_team": [
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_offfield_dps_emblem_sacrificial"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Main DPS Electro On-field (Burst) / Bateria",
+                "build_key": "raiden_main_dps_emblem_engulfing_or_thecatch"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field (Vaporize/Overload)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "xingqiu_hyperbloom_nahida_kuki_shinobu_flex_electro_dendro",
+        "name": "Xingqiu - Hyperbloom (Nahida, Kuki Shinobu, Flex Electro/Dendro)",
+        "strategy": "Xingqiu como aplicador Hydro off-field para times de Hiperflorecimento. Nahida para aplicação Dendro e buff de EM. Kuki Shinobu para cura e ativação de Hiperflorecimento. O slot flexível pode ser outro Electro (Fischl, Beidou) ou Dendro (Viajante Dendro, Collei).",
+        "characters_in_team": [
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Aplicador Hydro Off-field",
+                "build_key": "xingqiu_offfield_dps_emblem_sacrificial"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Ativadora de Hyperbloom (Full EM)",
+                "build_key": "kuki_shinobu_hyperbloom_full_em_flowerofparadiselost"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria (Flex)",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            }
+        ]
+    },
+    {
+        "id": "xingqiu_taser_sucrose_fischl_beidou",
+        "name": "Xingqiu - Taser (Sucrose, Fischl, Beidou)",
+        "strategy": "Time Eletricamente Carregado (Taser) onde Xingqiu fornece aplicação Hydro off-field. Sucrose como driver Anemo on-field para espalhar os elementos e buffar EM. Fischl e Beidou para dano Electro off-field.",
+        "characters_in_team": [
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Aplicador Hydro Off-field / Sub-DPS",
+                "build_key": "xingqiu_offfield_dps_emblem_sacrificial"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Driver Anemo On-field (VV RES Shred, Agrupamento, Buffer EM)",
+                "build_key": "sucrose_anemo_driver_vv_ttds_em"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field (Dano em Área)",
+                "build_key": "beidou_offfield_dps_emblem"
+            }
+        ]
+    }
+]

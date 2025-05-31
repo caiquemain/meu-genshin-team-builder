@@ -1,0 +1,392 @@
+{
+    "id": "yelan",
+    "name": "Yelan",
+    "title": "Orquídea do Vale",
+    "element": "Hydro",
+    "rarity": 5,
+    "weapon": "Bow",
+    "model_type": "Tall Female",
+    "role": [
+        "Off-Field DPS",
+        "Hydro Enabler",
+        "Buffer de Dano (Passiva A4)"
+    ],
+    "description_bio": "Uma misteriosa pessoa que afirma trabalhar para o Ministério de Assuntos Civis de Liyue, Yelan também é a proprietária da Casa de Chá Yanshang. Sua verdadeira identidade é um mistério, mas suas habilidades em reunir informações e sua destreza em combate são inegáveis.",
+    "birthday": "20 de Abril",
+    "constellation_name_official": "Umbrabilis Orchis",
+    "region": "Liyue",
+    "affiliation": [
+        "Casa de Chá Yanshang",
+        "Ministério de Assuntos Civis (supostamente)"
+    ],
+    "special_dish": {
+        "name": "Camarão Orvalhado",
+        "icon_url": "/assets/images/dishes/yelan_dew_dipped_shrimp.webp"
+    },
+    "namecard_url": "/assets/images/namecards/yelan_throw.png",
+    "icon_url": "/assets/images/characters/yelan.png",
+    "element_icon_url": "/assets/images/elements/element_hydro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Yelan Quick Guide",
+                "url": "https://keqingmains.com/q/yelan-quickguide/"
+            },
+            {
+                "name": "KQM Yelan Guide (Full)",
+                "url": "https://keqingmains.com/yelan/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Yelan",
+                "url": "https://genshin-impact.fandom.com/wiki/Yelan"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "yelan_offfield_dps_emblem_favonius_aqua",
+            "name": "DPS Off-field (Selo da Insulação - Favonius/Aqua)",
+            "notes_build": "Principal forma de jogar com Yelan, focando no dano de seu Supremo e na aplicação Hydro off-field. 4p Selo da Insulação é seu melhor conjunto devido aos altos requisitos de RE, especialmente como única Hydro. Aqua Simulacra é sua melhor arma para dano pessoal, enquanto Favonius Warbow é excelente para utilidade de equipe.",
+            "artifacts": [
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto de artefatos para Yelan, pois ajuda a atender seus altos requisitos de RE enquanto aumenta o dano de seu Supremo, sua principal fonte de dano.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "hydro_hp_er_2pc_mix",
+                    "set_name": "Dano Hydro (2p) + HP% (2p) / RE% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de 2p podem ser usadas se não tiver um bom conjunto de 4p Selo. Priorize 2p Profundezas do Coração/Sonho da Ninfa, 2p Tenacidade/Vourukasha e 2p Selo da Insulação. (Ex: Profundezas + Tenacidade).",
+                    "icon_url": "/assets/images/artifact_sets/heart_of_depth.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "heart_of_depth",
+                        "tenacity_of_the_millelith"
+                    ]
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Se Yelan tiver RE suficiente sem 2p/4p Selo (geralmente C1+ com Aqua Simulacra), 4p Ritual Real pode ser usado para buffar o ATQ da equipe. Menos comum.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / HP%",
+                "goblet": "Bônus de Dano Hydro",
+                "circlet": "Taxa CRIT / Dano CRIT / HP% (se Taxa CRIT muito baixa)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ~180-220% Solo Hydro, ~140-160% Double Hydro)",
+                "Taxa CRIT / Dano CRIT",
+                "HP%",
+                "HP Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Yelan. Fornece um enorme sub-status de Dano CRIT e Bônus de DANO%. Baixo ATQ Base é irrelevante para Yelan.",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                },
+                {
+                    "weapon_id": "favonius_warbow",
+                    "name": "Arco de Guerra de Favonius",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha / Missão",
+                    "notes": "Uma das melhores opções, especialmente pré-C1, pois cobre seus requisitos de RE e fornece partículas para a equipe. Requer Taxa CRIT para ativar a passiva.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_warbow.png"
+                },
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Forte opção de suporte, fornecendo RE para Yelan e buffs de EM e ATQ% para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                },
+                {
+                    "weapon_id": "sacrificial_bow",
+                    "name": "Arco do Sacrifício",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Fornece RE e a chance de usar a Habilidade Elemental duas vezes, o que ajuda na geração de partículas. Favonius geralmente é preferível para consistência de energia da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_bow.png"
+                },
+                {
+                    "weapon_id": "the_stringless",
+                    "name": "O Último Acorde",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Aumenta o dano da Habilidade e Supremo de Yelan. A EM do sub-status é útil em times de Vaporizar.",
+                    "icon_url": "/assets/images/weapons_detail/the_stringless.png"
+                },
+                {
+                    "weapon_id": "recurve_bow",
+                    "name": "Arco Recurvado",
+                    "rarity": 3,
+                    "type": "Bow",
+                    "category": "Baús / NPCs",
+                    "notes": "Opção F2P para maximizar o HP de Yelan se não tiver outras opções melhores e a RE estiver coberta.",
+                    "icon_url": "/assets/images/weapons_detail/recurve_bow.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (baixa prioridade, a menos que C6 On-field)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 1120,
+            "base_atk": 19,
+            "base_def": 42,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3710,
+            "base_atk": 63,
+            "base_def": 140,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 6166,
+            "base_atk": 105,
+            "base_def": 233,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "4.8%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 7978,
+            "base_atk": 136,
+            "base_def": 301,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "9.6%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 9450,
+            "base_atk": 161,
+            "base_def": 357,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "9.6%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 10936,
+            "base_atk": 186,
+            "base_def": 413,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 14450,
+            "base_atk": 244,
+            "base_def": 548,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "19.2%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Presas Rúnicas (Runic Fang)",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/runic_fang.webp"
+        },
+        {
+            "name": "Lasca de Lazurita Varunada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/varunada_lazurite_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_chunk.webp"
+        },
+        {
+            "name": "Gema de Lazurita Varunada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/varunada_lazurite_gemstone.webp"
+        },
+        {
+            "name": "Concha Estrelada",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/starconch.webp"
+        },
+        {
+            "name": "Insígnia de Recruta",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/recruits_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Sargento",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/sergeants_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Oficial",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/lieutenants_insignia.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Arco Furtivo",
+            "icon_url": "/assets/images/talents/yelan/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 tiros consecutivos com um arco.\nAtaque Carregado: Realiza um Disparo com Mira mais preciso com Dano aumentado. Enquanto mira, um fluxo rápido de água se acumulará na ponta da flecha. Uma flecha totalmente carregada com o fluxo causará Dano Hydro.\nEstado de Avanço Súbito: Após passar 5s fora de combate, Yelan entrará no estado de \"Avanço Súbito\", no qual seu próximo Disparo com Mira totalmente carregado terá seu tempo de carregamento reduzido em 80%, e uma vez disparado, se tornará uma \"Flecha da Brecha\" que causará Dano Hydro em AdE com base no HP Máx de Yelan.\nAtaque Imersivo: Dispara uma chuva de flechas no ar antes de cair e atingir o chão, causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Teia da Vida Salvadora",
+            "icon_url": "/assets/images/talents/yelan/talent_elemental_skill.webp",
+            "description": "Dispara uma \"Linha da Vida\" que a permite se mover rapidamente, emaranhando e marcando oponentes ao longo de seu caminho.\nQuando seu movimento rápido termina, a \"Linha da Vida\" explodirá, causando Dano Hydro aos oponentes marcados com base no HP Máx de Yelan.\nPressionar: Move-se rapidamente para frente uma certa distância.\nManter Pressionado: Envolve-se em movimento rápido contínuo. Durante este tempo, Yelan pode controlar sua direção de corrida e pode encerrar seu movimento rápido usando a habilidade novamente.\nAdicionalmente, cada oponente marcado pela \"Linha da Vida\" quando ela explode concede a Yelan 34% de chance de resetar seu estado de \"Avanço Súbito\"."
+        },
+        "elemental_burst": {
+            "name": "Dado das Profundezas Claras",
+            "icon_url": "/assets/images/talents/yelan/talent_elemental_burst.webp",
+            "description": "Causa Dano Hydro em AdE e tece um \"Dado Misterioso\", que então a auxilia em batalha.\nDado Misterioso: Segue o personagem e iniciará um ataque coordenado sob as seguintes circunstâncias, causando Dano Hydro com base no HP Máx de Yelan:\n- Pode ocorrer uma vez a cada segundo quando seu próprio personagem ativo usa um Ataque Normal.\n- Pode ocorrer cada vez que a \"Linha da Vida\" de Yelan explode e atinge oponentes."
+        },
+        "passives": [
+            {
+                "name": "Apoio Tático",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/yelan/talent_passive_a1.webp",
+                "description": "Quando a equipe tem 1/2/3/4 Tipos Elementais, o HP Máx de Yelan é aumentado em 6%/12%/18%/30%."
+            },
+            {
+                "name": "Adaptação Fácil",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/yelan/talent_passive_a4.webp",
+                "description": "Enquanto um Dado Misterioso estiver ativo, o DANO do seu próprio personagem ativo aumenta em 1%, depois aumenta em mais 3.5% de DANO a cada segundo. O aumento máximo de DANO que pode ser obtido é 50%.\nA contagem de duração do efeito será resetada se Dado das Profundezas Claras for lançado novamente durante sua duração."
+            },
+            {
+                "name": "Cálculo Necessário",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/yelan/talent_passive_utility.webp",
+                "description": "Ganha 25% mais recompensas quando despachada em uma Expedição de Liyue por 20 horas."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Insígnia de Recruta",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/recruits_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Sargento",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/sergeants_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Oficial",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/lieutenants_insignia.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Prosperidade\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_prosperity.webp"
+        },
+        {
+            "name": "Guia da \"Prosperidade\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_prosperity.webp"
+        },
+        {
+            "name": "Filosofia da \"Prosperidade\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_prosperity.webp"
+        },
+        {
+            "name": "Escamas Douradas (Gilded Scale)",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/gilded_scale.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Entrando na Toca dos Conspiradores",
+            "icon_url": "/assets/images/constellations/yelan/constellation_1.webp",
+            "description": "Teia da Vida Salvadora ganha 1 carga adicional."
+        },
+        {
+            "level": 2,
+            "name": "Pegando Todos os Cantos",
+            "icon_url": "/assets/images/constellations/yelan/constellation_2.webp",
+            "description": "Quando Dado Misterioso realiza um ataque coordenado, ele disparará uma flecha de água adicional que causa 14% do HP Máx de Yelan como Dano Hydro.\nEste efeito pode ser ativado uma vez a cada 1.8s."
+        },
+        {
+            "level": 3,
+            "name": "Cuidado com o Dealer",
+            "icon_url": "/assets/images/constellations/yelan/constellation_3.webp",
+            "description": "Aumenta o Nível de Dado das Profundezas Claras em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Isca e Troca",
+            "icon_url": "/assets/images/constellations/yelan/constellation_4.webp",
+            "description": "Aumenta o HP Máx de todos os membros da equipe em 10% por 25s para cada oponente marcado pela Linha da Vida quando a Linha da Vida explode. Um aumento máximo de 40% de HP Máx pode ser obtido desta forma."
+        },
+        {
+            "level": 5,
+            "name": "Estratagema do Trapaceiro",
+            "icon_url": "/assets/images/constellations/yelan/constellation_5.webp",
+            "description": "Aumenta o Nível de Teia da Vida Salvadora em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Vencedor Leva Tudo",
+            "icon_url": "/assets/images/constellations/yelan/constellation_6.webp",
+            "description": "Após usar Dado das Profundezas Claras, Yelan entrará no estado Mestre Estrategista:\nSeus Ataques Normais serão disparados como \"Flechas da Brecha\" especiais. Estas flechas têm características semelhantes às Flechas da Brecha normais e o DANO causado é considerado Dano de Ataque Carregado, causando 156% do DANO de uma Flecha da Brecha normal.\nO estado Mestre Estrategista dura até 20s e será limpo após Yelan disparar 5 flechas."
+        }
+    ]
+}

@@ -1,0 +1,377 @@
+{
+    "id": "xiangling",
+    "name": "Xiangling",
+    "title": "Delicadeza Requintada",
+    "element": "Pyro",
+    "rarity": 4,
+    "weapon": "Polearm",
+    "model_type": "Medium Female",
+    "role": [
+        "Off-Field DPS"
+    ],
+    "description_bio": "Uma renomada chef de Liyue, Xiangling é a Chefe e garçonete do Restaurante Wanmin. Ela é apaixonada por culinária e se destaca em fazer seus pratos característicos picantes e saborosos.",
+    "birthday": "2 de Novembro",
+    "constellation_name_official": "Trulla",
+    "region": "Liyue",
+    "affiliation": [
+        "Restaurante Wanmin",
+        "A Cruz (Frota)"
+    ],
+    "special_dish": {
+        "name": "Peixe Cozido do Restaurante Wanmin",
+        "icon_url": "/assets/images/dishes/xiangling_wanmin_restaurants_boiled_fish.webp"
+    },
+    "namecard_url": "/assets/images/namecards/xiangling_fresh_from_the_pan.png",
+    "icon_url": "/assets/images/characters/xiangling.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Xiangling Guide (Full)",
+                "url": "https://keqingmains.com/xiangling/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Xiangling",
+                "url": "https://genshin-impact.fandom.com/wiki/Xiangling"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "xiangling_offfield_dps_emblem_the_catch",
+            "name": "DPS Off-field (Selo da Insulação - A Fisgada)",
+            "notes_build": "Build principal de Xiangling, focada em maximizar o dano de seu Supremo (Pyronado), que é sua principal fonte de dano. 4p Selo da Insulação é seu melhor conjunto devido aos altos requisitos de RE. \"A Fisgada\" (R5) é sua melhor arma F2P e altamente competitiva.",
+            "artifacts": [
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto de artefatos para Xiangling, pois ajuda a atender seus altos requisitos de RE enquanto aumenta o dano de seu Supremo, sua principal fonte de dano.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "set_name": "Bruxa das Chamas Carmesim",
+                    "pieces": 4,
+                    "notes": "Opção forte em times de Vaporizar se você não tiver um bom conjunto de Selo da Insulação, ou se a RE for gerenciada por outras fontes e você puder focar em mais stats ofensivos.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                },
+                {
+                    "set_id": "noblesse_oblige_crimson_witch_2pc_mix",
+                    "set_name": "Antigo Ritual Real (2p) + Bruxa das Chamas (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de 2p (Dano do Supremo, Dano Pyro, ATQ%, EM) podem ser usadas se não tiver um bom conjunto de 4p Selo. (Ex: Ritual Real + Bruxa das Chamas).",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "noblesse_oblige",
+                        "crimson_witch_of_flames"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / Proficiência Elemental (EM para Vaporizar) / ATK%",
+                "goblet": "Bônus de Dano Pyro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~180-220%+ dependendo do time e da presença de Bennett)",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM) (para Vaporizar)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "engulfing_lightning",
+                    "name": "Luz das Profundezas",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Xiangling, fornecendo RE massiva e convertendo RE em ATQ%.",
+                    "icon_url": "/assets/images/weapons_detail/engulfing_lightning.png"
+                },
+                {
+                    "weapon_id": "staff_of_homa",
+                    "name": "Báculo de Homa",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Arma extremamente forte, fornecendo Dano CRIT e ATQ% com base no HP. Requer que Xiangling fique abaixo de 50% HP para máximo potencial, o que pode ser inconsistente.",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_homa.png"
+                },
+                {
+                    "weapon_id": "the_catch",
+                    "name": "A Fisgada",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "F2P (Pesca)",
+                    "notes": "R5 é a melhor opção F2P e altamente competitiva com armas 5 estrelas. Fornece RE, Dano do Supremo e Taxa CRIT do Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/the_catch.png"
+                },
+                {
+                    "weapon_id": "wavebreakers_fin",
+                    "name": "Nadadeira do Quebra-Mar",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Em R5, é uma das melhores opções 4 estrelas para dano do Supremo, especialmente em times com alto custo de Energia total.",
+                    "icon_url": "/assets/images/weapons_detail/wavebreakers_fin.png"
+                },
+                {
+                    "weapon_id": "dragons_bane",
+                    "name": "Perdição do Dragão",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Excelente em times de Vaporizar devido ao sub-status de EM e passiva de aumento de dano.",
+                    "icon_url": "/assets/images/weapons_detail/dragons_bane.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 902,
+            "base_atk": 19,
+            "base_def": 56,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "0"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 2950,
+            "base_atk": 61,
+            "base_def": 182,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "0"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 4892,
+            "base_atk": 101,
+            "base_def": 301,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "24"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6277,
+            "base_atk": 130,
+            "base_def": 386,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "48"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7486,
+            "base_atk": 155,
+            "base_def": 461,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "48"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8694,
+            "base_atk": 180,
+            "base_def": 535,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "72"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10875,
+            "base_atk": 225,
+            "base_def": 669,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "96"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Semente de Fogo Eterno",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/everflame_seed.webp"
+        },
+        {
+            "name": "Lasca de Ágata Agnidus",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/agnidus_agate_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_chunk.webp"
+        },
+        {
+            "name": "Gema de Ágata Agnidus",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/agnidus_agate_gemstone.webp"
+        },
+        {
+            "name": "Pimenta de Jueyun",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/jueyun_chili.webp"
+        },
+        {
+            "name": "Condensado de Slime",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/slime_condensate.webp"
+        },
+        {
+            "name": "Secreção de Slime",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/slime_secretions.webp"
+        },
+        {
+            "name": "Concentrado de Slime",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/slime_concentrate.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Cozinha de Lança",
+            "icon_url": "/assets/images/talents/xiangling/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes rápidos com a lança.\nAtaque Carregado: Consome uma certa quantidade de Stamina para avançar, causando dano aos inimigos no caminho.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando inimigos ao longo do caminho e causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Ataque de Guoba",
+            "icon_url": "/assets/images/talents/xiangling/talent_elemental_skill.webp",
+            "description": "Invoca o panda Guoba, que cospe fogo continuamente nos oponentes, causando Dano Pyro em AdE."
+        },
+        "elemental_burst": {
+            "name": "Pyronado",
+            "icon_url": "/assets/images/talents/xiangling/talent_elemental_burst.webp",
+            "description": "Exibindo sua maestria com fogo e lança, Xiangling envia um Pyronado girando ao seu redor.\nO Pyronado se moverá com seu personagem ativo enquanto a habilidade persistir, causando Dano Pyro aos oponentes em seu caminho."
+        },
+        "passives": [
+            {
+                "name": "Fogo Cruzado",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/xiangling/talent_passive_a1.webp",
+                "description": "Aumenta o alcance das chamas de Guoba em 20%."
+            },
+            {
+                "name": "Cuidado, Está Quente!",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/xiangling/talent_passive_a4.webp",
+                "description": "Quando o efeito de Ataque de Guoba termina, Guoba deixa um pimentão no local onde desapareceu. Pegar o pimentão aumenta o ATQ em 10% por 10s."
+            },
+            {
+                "name": "Campeã de Culinária de Liyue",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/xiangling/talent_passive_utility.webp",
+                "description": "Quando um Prato Perfeito é cozinhado, Xiangling tem 12% de chance de obter o dobro do produto."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Condensado de Slime",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/slime_condensate.webp"
+        },
+        {
+            "name": "Secreção de Slime",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/slime_secretions.webp"
+        },
+        {
+            "name": "Concentrado de Slime",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/slime_concentrate.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Diligência\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_diligence.webp"
+        },
+        {
+            "name": "Guia da \"Diligência\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_diligence.webp"
+        },
+        {
+            "name": "Filosofia da \"Diligência\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_diligence.webp"
+        },
+        {
+            "name": "Garra de Stormterror",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/dvalins_claw.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Crocante por Fora, Macio por Dentro",
+            "icon_url": "/assets/images/constellations/xiangling/constellation_1.webp",
+            "description": "Oponentes atingidos pelos ataques de Guoba têm sua RES Pyro diminuída em 15% por 6s."
+        },
+        {
+            "level": 2,
+            "name": "Óleo na Frigideira",
+            "icon_url": "/assets/images/constellations/xiangling/constellation_2.webp",
+            "description": "O último ataque de uma sequência de Ataque Normal aplica o estado Implosão nos oponentes por 2s. Uma explosão ocorrerá assim que esta duração terminar, causando 75% do ATQ de Xiangling como Dano Pyro em AdE."
+        },
+        {
+            "level": 3,
+            "name": "Bem Cozido",
+            "icon_url": "/assets/images/constellations/xiangling/constellation_3.webp",
+            "description": "Aumenta o Nível de Pyronado em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Fogo Baixo",
+            "icon_url": "/assets/images/constellations/xiangling/constellation_4.webp",
+            "description": "A duração de Pyronado é aumentada em 40%."
+        },
+        {
+            "level": 5,
+            "name": "Guoba Furioso",
+            "icon_url": "/assets/images/constellations/xiangling/constellation_5.webp",
+            "description": "Aumenta o Nível de Ataque de Guoba em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Pyronado Condensado",
+            "icon_url": "/assets/images/constellations/xiangling/constellation_6.webp",
+            "description": "Durante Pyronado, todos os membros da equipe recebem um Bônus de Dano Pyro de 15%."
+        }
+    ]
+}

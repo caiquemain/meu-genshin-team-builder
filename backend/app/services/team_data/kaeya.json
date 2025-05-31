@@ -1,0 +1,110 @@
+[
+    {
+        "id": "kaeya_freeze_chongyun_xingqiu_anemo",
+        "name": "Kaeya - Congelamento (Chongyun, Xingqiu, Anemo)",
+        "strategy": "Time de Congelamento clássico com Kaeya como DPS Cryo off-field ou on-field com infusão de Chongyun. Xingqiu para aplicação Hydro. Um Anemo (Sucrose/Kazuha/Venti) com Sombra Verde para reduzir RES e agrupar.",
+        "characters_in_team": [
+            {
+                "character_id": "kaeya",
+                "role_in_team": "Sub-DPS Cryo / Aplicador Cryo Off-field",
+                "build_key": "kaeya_offfield_cryo_dps_blizzard_noblesse"
+            },
+            {
+                "character_id": "chongyun",
+                "role_in_team": "Suporte Cryo (Infusão Cryo, Burst DPS)",
+                "build_key": "chongyun_burst_support_noblesse"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer EM, Agrupamento)",
+                "build_key": "sucrose_anemo_support_vv_ttds_em"
+            }
+        ]
+    },
+    {
+        "id": "kaeya_reverse_melt_xiangling_bennett_rosaria",
+        "name": "Kaeya - Fusão Reversa (Xiangling, Bennett, Rosaria)",
+        "strategy": "Kaeya e Rosaria como DPS Cryo de troca rápida, ativando Fusão na aura Pyro aplicada por Xiangling (buffada por Bennett). Alto potencial de dano.",
+        "characters_in_team": [
+            {
+                "character_id": "kaeya",
+                "role_in_team": "DPS Cryo de Troca Rápida (Melt)",
+                "build_key": "kaeya_offfield_cryo_dps_blizzard_noblesse"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Aplicadora Pyro Off-field / Sub-DPS",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "DPS Cryo de Troca Rápida (Melt) / Buffer de Taxa CRIT",
+                "build_key": "rosaria_cryo_melt_dps_lavawalker_or_emblem"
+            }
+        ]
+    },
+    {
+        "id": "kaeya_mono_cryo_shenhe_chongyun_kazuha",
+        "name": "Kaeya - Mono Cryo (Shenhe, Chongyun, Kazuha)",
+        "strategy": "Foco em dano Cryo bruto. Kaeya e Chongyun como DPS Cryo (Chongyun com infusão). Shenhe buffa massivamente o dano Cryo. Kazuha para agrupar e reduzir RES Cryo.",
+        "characters_in_team": [
+            {
+                "character_id": "kaeya",
+                "role_in_team": "Main DPS Cryo On-field (com Infusão) / Sub-DPS",
+                "build_key": "kaeya_offfield_cryo_dps_blizzard_noblesse"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer de Dano Cryo)",
+                "build_key": "shenhe_cryo_buffer_noblesse_calamityqueller_or_favonius"
+            },
+            {
+                "character_id": "chongyun",
+                "role_in_team": "Suporte Cryo (Infusão Cryo, Burst DPS)",
+                "build_key": "chongyun_burst_support_noblesse"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "kaeya_physical_superconduct_fischl_zhongli_flex_cryo",
+        "name": "Kaeya - Físico (Supercondutor com Fischl, Zhongli, Flex Cryo)",
+        "strategy": "Kaeya como DPS Físico on-field. Fischl para aplicação Electro e Supercondutor. Zhongli para escudo e RES Shred. O slot flexível pode ser outro Cryo para ressonância e bateria (Rosaria, Diona).",
+        "characters_in_team": [
+            {
+                "character_id": "kaeya",
+                "role_in_team": "Main DPS Físico On-field",
+                "build_key": "kaeya_offfield_cryo_dps_blizzard_noblesse"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field (Ativadora de Supercondutor)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo / Bateria / Buffer de Taxa CRIT (Flex)",
+                "build_key": "rosaria_cryo_subdps_noblesse_favonius"
+            }
+        ]
+    }
+]

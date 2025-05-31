@@ -2,7 +2,7 @@
     {
         "id": "noelle_triple_geo_gorou_albedo_fischl",
         "name": "Noelle - Triple Geo (Gorou, Albedo, Fischl)",
-        "strategy": "Noelle como DPS principal on-field, buffada por Gorou. Albedo para dano Geo off-field e partículas. Fischl para dano Electro off-field e Cristalização ou Supercondutor (menos relevante para dano Geo).",
+        "strategy": "Noelle como DPS principal on-field, buffada por Gorou (especialmente C6 Gorou). Albedo para dano Geo off-field consistente e partículas. Fischl para dano Electro off-field e Cristalização.",
         "characters_in_team": [
             {
                 "character_id": "noelle",
@@ -11,7 +11,7 @@
             },
             {
                 "character_id": "gorou",
-                "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
+                "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo, Bateria)",
                 "build_key": "gorou_geo_buffer_exile_favonius_er"
             },
             {
@@ -27,9 +27,9 @@
         ]
     },
     {
-        "id": "noelle_double_geo_furina_yelan",
+        "id": "noelle_double_geo_furina_yelan_gorou",
         "name": "Noelle - Double Geo com Furina (Furina, Yelan, Gorou)",
-        "strategy": "Time focado em Noelle com Furina. A cura de Noelle para toda a equipe ajuda a acumular Fanfarra de Furina rapidamente. Yelan para dano Hydro off-field e buff de DANO%. Gorou para buffs Geo.",
+        "strategy": "Time focado em Noelle com Furina. A cura de Noelle para toda a equipe ajuda a acumular Fanfarra de Furina rapidamente, maximizando o buff de DANO% de Furina. Yelan para dano Hydro off-field e buff de DANO% adicional. Gorou para buffs Geo e partículas.",
         "characters_in_team": [
             {
                 "character_id": "noelle",
@@ -54,29 +54,29 @@
         ]
     },
     {
-        "id": "noelle_navia_chiori_xianyun_plunge_geo",
-        "name": "Noelle - Geo Plunge (Navia, Chiori, Xianyun)",
-        "strategy": "Xianyun permite que Noelle (e Navia/Chiori em trocas rápidas) use Ataques Imersivos com infusão Geo. Navia e Chiori para dano Geo de troca rápida e geração de partículas.",
+        "id": "noelle_gorou_zhongli_bennett_mono_geo_bennett",
+        "name": "Noelle - Mono Geo com Bennett (Gorou, Zhongli, Bennett)",
+        "strategy": "Variante Mono Geo que inclui Bennett para um buff de ATQ massivo, útil se não tiver outras opções Geo de dano off-field como Albedo. Zhongli para escudo e RES Shred. Gorou buffa DEF e Dano Geo.",
         "characters_in_team": [
             {
                 "character_id": "noelle",
-                "role_in_team": "DPS Geo On-field (Plunging Attack)",
+                "role_in_team": "Main DPS Geo On-field / Healer / Shielder",
                 "build_key": "noelle_onfield_geo_dps_husk"
             },
             {
-                "character_id": "navia",
-                "role_in_team": "Sub-DPS Geo (Quickswap Skill DPS)",
-                "build_key": "navia_geo_dps_nighttime_whispers_verdict"
+                "character_id": "gorou",
+                "role_in_team": "Suporte Geo (Buffer de DEF e Dano Geo)",
+                "build_key": "gorou_geo_buffer_exile_favonius_er"
             },
             {
-                "character_id": "chiori",
-                "role_in_team": "Sub-DPS Geo Off-field / Bateria",
-                "build_key": "chiori_offfield_dps_golden_troupe_uraku_misugiri"
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity"
             },
             {
-                "character_id": "xianyun",
-                "role_in_team": "Suporte Anemo (Healer de Equipe, Habilitadora de Ataque Imersivo)",
-                "build_key": "xianyun_anemo_healer_plunge_enabler_vv_atk_er"
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
             }
         ]
     }

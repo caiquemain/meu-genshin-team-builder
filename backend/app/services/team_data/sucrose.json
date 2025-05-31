@@ -1,0 +1,110 @@
+[
+    {
+        "id": "sucrose_taser_driver_fischl_beidou_xingqiu",
+        "name": "Sucrose - Taser Driver (Fischl, Beidou, Xingqiu)",
+        "strategy": "Sucrose como driver on-field para um time Eletricamente Carregado (Taser). Ela aplica Redemoinhos constantes, reduzindo RES com Sombra Verde, e seu EM buffa as reações e o dano de Fischl/Beidou (via A4).",
+        "characters_in_team": [
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Driver Anemo On-field (Full EM, VV Holder)",
+                "build_key": "sucrose_support_driver_vv_full_em"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field (Dano em Área)",
+                "build_key": "beidou_offfield_dps_emblem"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            }
+        ]
+    },
+    {
+        "id": "sucrose_vaporize_support_hu_tao_xingqiu_thoma",
+        "name": "Sucrose - Suporte Vaporizar Hu Tao (Hu Tao, Xingqiu, Thoma)",
+        "strategy": "Sucrose buffa o dano de Vaporizar de Hu Tao compartilhando EM e reduzindo RES Pyro com Sombra Verde. Thoma fornece escudo e aplicação Pyro para o Swirl. Xingqiu para aplicação Hydro.",
+        "characters_in_team": [
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer EM, TTDS Holder)",
+                "build_key": "sucrose_support_driver_vv_full_em"
+            },
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro On-field (Vaporize)",
+                "build_key": "hutao_vape_dps_crimson_shimenawa"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Escudeiro / Aplicador Pyro para Swirl",
+                "build_key": "thoma_shielder_support_noblesse_favonius_er"
+            }
+        ]
+    },
+    {
+        "id": "sucrose_aggravate_support_keqing_fischl_dendro_traveler",
+        "name": "Sucrose - Suporte Agravamento (Keqing, Fischl, Viajante Dendro)",
+        "strategy": "Sucrose pode ser usada em times de Agravamento para aplicar Sombra Verde e reduzir RES Electro, além de fornecer EM para a equipe, o que aumenta o dano de Agravamento.",
+        "characters_in_team": [
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer EM)",
+                "build_key": "sucrose_support_driver_vv_full_em"
+            },
+            {
+                "character_id": "keqing",
+                "role_in_team": "Main DPS Electro On-field (Aggravate Driver)",
+                "build_key": "keqing_aggravate_dps_thunderingfury"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            },
+            {
+                "character_id": "traveler_dendro",
+                "role_in_team": "Aplicador Dendro Off-field / Suporte (Deepwood Holder)",
+                "build_key": "traveler_dendro_offfield_support_deepwood_favonius"
+            }
+        ]
+    },
+    {
+        "id": "sucrose_hyperbloom_driver_xingqiu_kuki_nahida",
+        "name": "Sucrose - Driver Hyperbloom (Xingqiu, Kuki Shinobu, Nahida)",
+        "strategy": "Sucrose como driver on-field para Hiperflorecimento. Seus Redemoinhos podem agrupar sementes e espalhar elementos. Sua EM buffa o dano de Hiperflorecimento de Kuki (se Kuki ativar) ou o dano das sementes se Sucrose (com build full EM e absorção Electro/Hydro) as ativar.",
+        "characters_in_team": [
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Driver Anemo On-field (Full EM, VV Holder)",
+                "build_key": "sucrose_support_driver_vv_full_em"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Ativadora de Hyperbloom (Full EM)",
+                "build_key": "kuki_shinobu_hyperbloom_full_em_flowerofparadiselost"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            }
+        ]
+    }
+]
