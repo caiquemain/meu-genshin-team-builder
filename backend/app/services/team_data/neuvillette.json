@@ -1,0 +1,191 @@
+[
+    {
+        "id": "neuvillette_hypercarry_furina_kazuha_xilonen",
+        "name": "Neuvillette Hypercarry (Furina, Kazuha, Xilonen)",
+        "strategy": "Maximiza o dano pessoal de Neuvillette. Furina oferece buff de Dano e ressonância Hydro. Kazuha fornece buff de Dano Elemental e redução de RES Hydro com Sombra Verde. Xilonen oferece mais redução de RES e buff de Dano com Pergaminho do Herói. ",
+        "characters_in_team": [
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro",
+                "build_key": "neuvillette_onfield_dps_marechaussee"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "xilonen",
+                "role_in_team": "Suporte Geo (RES Shred/Scroll Buffer/Healer)",
+                "build_key": "xilonen_geo_support_scroll_favonius"
+            }
+        ]
+    },
+    {
+        "id": "neuvillette_hypercarry_fischl_kazuha_zhongli",
+        "name": "Neuvillette Hypercarry (Fischl, Kazuha, Zhongli)",
+        "strategy": "Versão forte sem Furina. Kazuha buffa e reduz RES Hydro. Fischl contribui com dano off-field e partículas. Zhongli oferece escudo robusto e redução de RES universal. ",
+        "characters_in_team": [
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro",
+                "build_key": "neuvillette_onfield_dps_marechaussee"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred)",
+                "build_key": "zhongli_shield_support_tenacity_petra"
+            }
+        ]
+    },
+    {
+        "id": "neuvillette_vaporize_xiangling_kazuha_xilonen",
+        "name": "Neuvillette Vaporizar (Xiangling, Kazuha, Xilonen)",
+        "strategy": "Neuvillette causa Vaporizar com seus ataques. Xiangling aplica Pyro off-field. Kazuha buffa e pode espalhar Pyro. Xilonen fornece RES Shred e buff de Dano com Pergaminho. ",
+        "characters_in_team": [
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro (Vaporize)",
+                "build_key": "neuvillette_onfield_dps_marechaussee"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro (Off-field Enabler)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer/Pyro Swirl)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "xilonen",
+                "role_in_team": "Suporte Geo (RES Shred/Scroll Buffer/Healer)",
+                "build_key": "xilonen_geo_support_scroll_favonius"
+            }
+        ]
+    },
+    {
+        "id": "neuvillette_electro_charged_fischl_beidou_kazuha",
+        "name": "Neuvillette Eletricamente Carregado (Fischl, Beidou, Kazuha)",
+        "strategy": "Neuvillette como driver on-field ativando os Supremos de Fischl e Beidou para dano Eletricamente Carregado. Kazuha com Sombra Verde para reduzir RES Hydro e Electro. ",
+        "characters_in_team": [
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "On-Field Driver Hydro",
+                "build_key": "neuvillette_onfield_dps_marechaussee"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field Single-Target/Bateria)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro (Off-field AoE/Interrupção RES)",
+                "build_key": "beidou_subdps_emblem_er_focus"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "neuvillette_hyperbloom_raiden_nahida_fischl",
+        "name": "Neuvillette Superflorescimento (Raiden, Nahida, Fischl)",
+        "strategy": "Neuvillette aplica Hydro para gerar Sementes Dendro com Nahida. Raiden (build de Proficiência) ativa Superflorescimento. Fischl adiciona dano Electro off-field. ",
+        "characters_in_team": [
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "On-Field Hydro Applier/DPS",
+                "build_key": "neuvillette_onfield_dps_marechaussee"
+            },
+            {
+                "character_id": "raiden_shogun",
+                "role_in_team": "Electro Trigger (Hyperbloom - Full EM)",
+                "build_key": "raiden_hyperbloom_full_em"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Sub-DPS Dendro (Off-field Enabler/Buffer)",
+                "build_key": "nahida_off_field_dendro_deepwood_em"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            }
+        ]
+    },
+    {
+        "id": "neuvillette_nilou_bloom_nahida_baizhu",
+        "name": "Neuvillette Germinar (Nilou, Nahida, Baizhu)",
+        "strategy": "Time de Germinar com Nilou, onde Neuvillette atua como aplicador Hydro on-field. Nahida fornece aplicação Dendro e Baizhu oferece cura e aplicação Dendro adicional. ",
+        "characters_in_team": [
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "On-Field Hydro Applier/DPS",
+                "build_key": "neuvillette_onfield_dps_marechaussee"
+            },
+            {
+                "character_id": "nilou",
+                "role_in_team": "Suporte Hydro (Bloom Enabler)",
+                "build_key": "nilou_bloom_support_full_hp"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Dendro Enabler (Off-field)",
+                "build_key": "nahida_off_field_dendro_deepwood_em"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Suporte Dendro (Healer/Shielder)",
+                "build_key": "baizhu_dendro_healer_deepwood_hp"
+            }
+        ]
+    },
+    {
+        "id": "neuvillette_freeze_furina_kazuha_ganyu",
+        "name": "Neuvillette Congelamento (Furina, Kazuha, Ganyu)",
+        "strategy": "Neuvillette como DPS Hydro em um time de Congelamento. Furina para buff de Dano e ressonância Hydro. Kazuha para agrupar e Sombra Verde. Ganyu para dano Cryo off-field e aplicação Cryo. ",
+        "characters_in_team": [
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro",
+                "build_key": "neuvillette_onfield_dps_marechaussee"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer/Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "ganyu",
+                "role_in_team": "Sub-DPS Cryo (Off-field Cryo Application)",
+                "build_key": "ganyu_cryo_sub_dps_blizzard_noblesse"
+            }
+        ]
+    }
+]

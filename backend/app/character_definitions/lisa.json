@@ -1,0 +1,440 @@
+{
+    "id": "lisa",
+    "name": "Lisa",
+    "title": "Bruxa das Rosas",
+    "element": "Electro",
+    "rarity": 4,
+    "weapon": "Catalyst",
+    "model_type": "Tall Female",
+    "role": [
+        "Support (DEF Shredder, Buffer com TTDS)",
+        "Off-Field Electro DPS",
+        "On-Field Driver (Aggravate)"
+    ],
+    "description_bio": "A Bibliotecária um tanto quanto preguiçosa dos Cavaleiros de Favonius. Lisa é uma maga poderosa que estudou na Academia de Sumeru, mas prefere uma vida mais tranquila em Mondstadt, gerenciando a biblioteca e ocasionalmente ajudando com sua expertise em Electro.",
+    "birthday": "9 de Junho",
+    "constellation_name_official": "Tempus Fugit",
+    "region": "Mondstadt (Estudou em Sumeru)",
+    "affiliation": [
+        "Cavaleiros de Favonius",
+        "Academia de Sumeru (anteriormente)"
+    ],
+    "special_dish": {
+        "name": "Macarrão Misterioso à Bolonhesa",
+        "icon_url": "/assets/images/dishes/lisa_mysterious_bolognese.webp"
+    },
+    "namecard_url": "/assets/images/namecards/lisa_tempus_fugit.png",
+    "icon_url": "/assets/images/characters/lisa.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Lisa Guide (Full)",
+                "url": "https://keqingmains.com/lisa/"
+            },
+            {
+                "name": "KQM Lisa Quick Guide",
+                "url": "https://keqingmains.com/q/lisa-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Lisa",
+                "url": "https://genshin-impact.fandom.com/wiki/Lisa"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "lisa_aggravate_dps_thundering_fury_em",
+            "name": "DPS Agravamento (Trovão Furioso - EM)",
+            "notes_build": "Lisa como driver on-field ou sub-DPS em times de Agravamento. Maximiza Proficiência Elemental e dano Electro. Nível 90 é importante para dano de Agravamento. 4p Trovão Furioso é ótimo para mais usos da Habilidade Elemental e redução de TdR.",
+            "artifacts": [
+                {
+                    "set_id": "thundering_fury",
+                    "set_name": "Trovão Furioso",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Lisa em times de Agravamento, pois aumenta o dano de Agravamento e a redução de TdR da Habilidade Elemental permite mais usos de sua Habilidade (Segurar).",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Fornece EM e ATQ%, sendo uma opção sólida para Agravamento. Mais eficiente em Resina para farmar que Trovão Furioso.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "thundersoother",
+                    "set_name": "Lançador de Trovões",
+                    "pieces": 4,
+                    "notes": "Pode ser sua melhor opção de dano se a aura Electro for mantida consistentemente, o que é viável em times de Agravamento com aplicação Dendro forte.",
+                    "icon_url": "/assets/images/artifact_sets/thundersoother.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / ATK%",
+                "goblet": "Bônus de Dano Electro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ~140-160%)",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "kaguras_verity",
+                    "name": "Verdade de Kagura",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para dano pessoal de Lisa. Com rotações adequadas, ela pode obter todos os 3 acúmulos da passiva.",
+                    "icon_url": "/assets/images/weapons_detail/kaguras_verity.png"
+                },
+                {
+                    "weapon_id": "a_thousand_floating_dreams",
+                    "name": "Mil Sonhos Flutuantes",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Fornece alta EM para Lisa e um buff de EM para a equipe, excelente para Agravamento.",
+                    "icon_url": "/assets/images/weapons_detail/a_thousand_floating_dreams.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "R5 é uma das melhores opções 4 estrelas, mesmo com a passiva aleatória. Os buffs de ATQ% e Dano Elemental são ótimos; EM também é útil.",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                },
+                {
+                    "weapon_id": "solar_pearl",
+                    "name": "Pérola Solar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Passe de Batalha",
+                    "notes": "Fornece Taxa CRIT e buffa o dano da Habilidade e Supremo. Requer Ataques Normais para buffar a Habilidade/Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/solar_pearl.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) (principalmente a versão Segurar)",
+                "Supremo (Burst)",
+                "Ataque Normal (se usada como driver on-field)"
+            ]
+        },
+        {
+            "key": "lisa_support_def_shred_ttds_noblesse",
+            "name": "Suporte (Redução de DEF - TTDS/Ritual Real)",
+            "notes_build": "Foco em sua capacidade de reduzir a DEF dos inimigos com seu Supremo (Passiva A4) e buffar o ATQ do próximo personagem com Histórias Extraordinárias de Caçadores de Dragões. 4p Ritual Real pode ser usado para buffar ainda mais a equipe.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Lisa suporte, maximizando o buff de ATQ para a equipe.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "instructor",
+                    "set_name": "Instrutor",
+                    "pieces": 4,
+                    "notes": "Opção viável se a equipe se beneficia muito de EM e o buff de ATQ do Ritual Real não é tão impactante. Requer que Lisa ative uma reação.",
+                    "icon_url": "/assets/images/artifact_sets/instructor.png"
+                },
+                {
+                    "set_id": "the_exile",
+                    "set_name": "O Exilado",
+                    "pieces": 4,
+                    "notes": "Para jogadores mais novos, ajuda com a Recarga de Energia da equipe.",
+                    "icon_url": "/assets/images/artifact_sets/the_exile.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Electro / ATK%",
+                "circlet": "Taxa CRIT (para Favonius) / ATK% / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~200-240%+)",
+                "Taxa CRIT (para Códice de Favonius, se usado)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "thrilling_tales_of_dragon_slayers",
+                    "name": "Histórias Extraordinárias de Caçadores de Dragões",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha / Baús",
+                    "notes": "R5 é a melhor opção para este papel, fornecendo um buff massivo de ATQ% para o próximo personagem. O sub-status de HP% é irrelevante para Lisa.",
+                    "icon_url": "/assets/images/weapons_detail/thrilling_tales_of_dragon_slayers.png"
+                },
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Se precisar de muita energia para a equipe e para a própria Lisa. Requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                },
+                {
+                    "weapon_id": "hakushin_ring",
+                    "name": "Anel de Hakushin",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja (Inazuma)",
+                    "notes": "Boa opção para times Eletricamente Carregados ou com DPS Electro/Hydro, fornecendo buff de Dano Elemental e RE.",
+                    "icon_url": "/assets/images/weapons_detail/hakushin_ring.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst) (para Redução de DEF e dano)",
+                "Habilidade Elemental (Skill) (para dano e stacks)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 793,
+            "base_atk": 19,
+            "base_def": 48,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "0"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 2594,
+            "base_atk": 63,
+            "base_def": 156,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "0"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 4304,
+            "base_atk": 104,
+            "base_def": 258,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "24"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 5522,
+            "base_atk": 134,
+            "base_def": 332,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "48"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 6565,
+            "base_atk": 159,
+            "base_def": 394,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "48"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 7598,
+            "base_atk": 184,
+            "base_def": 456,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "72"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 9538,
+            "base_atk": 232,
+            "base_def": 573,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "96"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Prisma de Relâmpago",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/lightning_prism.webp"
+        },
+        {
+            "name": "Lasca de Ametista Vajrada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_chunk.webp"
+        },
+        {
+            "name": "Gema de Ametista Vajrada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_gemstone.webp"
+        },
+        {
+            "name": "Rosa Glacée",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/valberry.webp"
+        },
+        {
+            "name": "Condensado de Slime",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/slime_condensate.webp"
+        },
+        {
+            "name": "Secreção de Slime",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/slime_secretions.webp"
+        },
+        {
+            "name": "Concentrado de Slime",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/slime_concentrate.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Toque Relâmpago",
+            "icon_url": "/assets/images/talents/lisa/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 ataques elétricos, causando Dano Electro.\nAtaque Carregado: Consome uma certa quantidade de Stamina para causar Dano Electro em AdE após um curto tempo de canalização.\nAtaque Imersivo: Reúne o poder do Electro e mergulha em direção ao chão, danificando todos os oponentes em seu caminho. Causa Dano Electro em AdE no impacto com o chão."
+        },
+        "elemental_skill": {
+            "name": "Arco Violeta",
+            "icon_url": "/assets/images/talents/lisa/talent_elemental_skill.webp",
+            "description": "Canaliza o poder do raio para limpar coisas problemáticas.\nPressionar: Libera um orbe elétrico que se move lentamente. Ao contato, causa Dano Electro e aplica um acúmulo do efeito Condutor (Máx 3 acúmulos) aos oponentes em uma pequena AdE.\nManter Pressionado: Após um longo tempo de canalização, chama raios dos céus, causando Dano Electro massivo a todos os oponentes próximos. Causa grande DANO a oponentes com base no número de acúmulos de Condutor aplicados a eles, e remove os acúmulos."
+        },
+        "elemental_burst": {
+            "name": "Rosa Elétrica",
+            "icon_url": "/assets/images/talents/lisa/talent_elemental_burst.webp",
+            "description": "Invoca uma Rosa Elétrica que libera raios poderosos, lançando oponentes próximos e causando Dano Electro.\nA Rosa Elétrica descarregará continuamente eletricidade para atingir oponentes dentro de sua AdE e causar Dano Electro enquanto persistir."
+        },
+        "passives": [
+            {
+                "name": "Resíduo de Arco Induzido",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/lisa/talent_passive_a1.webp",
+                "description": "Atingir oponentes com Ataques Carregados aplica acúmulos de Condutor de Arco Violeta a eles."
+            },
+            {
+                "name": "Campo Elétrico Estático",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/lisa/talent_passive_a4.webp",
+                "description": "Oponentes atingidos por Rosa Elétrica têm sua DEF diminuída em 15% por 10s."
+            },
+            {
+                "name": "Mestre em Poções",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/lisa/talent_passive_utility.webp",
+                "description": "Quando Lisa cria uma Poção, ela tem 20% de chance de reembolsar uma porção dos materiais de criação usados."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Condensado de Slime",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/slime_condensate.webp"
+        },
+        {
+            "name": "Secreção de Slime",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/slime_secretions.webp"
+        },
+        {
+            "name": "Concentrado de Slime",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/slime_concentrate.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Poesia\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_ballad.webp"
+        },
+        {
+            "name": "Guia da \"Poesia\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_ballad.webp"
+        },
+        {
+            "name": "Filosofia da \"Poesia\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_ballad.webp"
+        },
+        {
+            "name": "Garra de Stormterror",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/dvalins_claw.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Arco Infinito",
+            "icon_url": "/assets/images/constellations/lisa/constellation_1.webp",
+            "description": "Lisa regenera 2 de Energia para cada oponente atingido enquanto segura Arco Violeta. Um máximo de 10 de Energia pode ser regenerado desta forma a cada uso de Manter Pressionado de Arco Violeta."
+        },
+        {
+            "level": 2,
+            "name": "Campo Eletromagnético",
+            "icon_url": "/assets/images/constellations/lisa/constellation_2.webp",
+            "description": "Manter Pressionado Arco Violeta tem os seguintes efeitos:\n- Aumenta a DEF em 25%.\n- Aumenta a resistência à interrupção de Lisa."
+        },
+        {
+            "level": 3,
+            "name": "Trovão Ressonante",
+            "icon_url": "/assets/images/constellations/lisa/constellation_3.webp",
+            "description": "Aumenta o Nível de Rosa Elétrica em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Explosão de Plasma",
+            "icon_url": "/assets/images/constellations/lisa/constellation_4.webp",
+            "description": "Aumenta o número de raios liberados por Rosa Elétrica em 1-3."
+        },
+        {
+            "level": 5,
+            "name": "Descarga Elétrica",
+            "icon_url": "/assets/images/constellations/lisa/constellation_5.webp",
+            "description": "Aumenta o Nível de Arco Violeta em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Bruxa Pulsante",
+            "icon_url": "/assets/images/constellations/lisa/constellation_6.webp",
+            "description": "Quando Lisa entra em campo, ela aplica 3 acúmulos do efeito Condutor de Arco Violeta em oponentes próximos.\nEste efeito pode ser ativado uma vez a cada 5s."
+        }
+    ]
+}

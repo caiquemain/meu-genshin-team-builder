@@ -1,54 +1,112 @@
 [
     {
-        "name": "Raiden National",
-        "core_characters": [
-            "raiden_shogun",
-            "xiangling",
-            "bennett",
-            "xingqiu"
-        ],
-        "flex_options": [],
-        "min_owned_core": 4,
-        "strategy": "Um dos times mais fortes e populares. Dano massivo de Vaporize e Overload com as Ultimates de Xiangling e Raiden, buffadas por Bennett e possibilitadas pela aplicação Hydro de Xingqiu. Raiden também ajuda a recarregar a energia de todos."
+        "id": "raiden_hypercarry_sara_kazuha_bennett",
+        "name": "Raiden Hypercarry (Sara, Kazuha, Bennett)",
+        "strategy": "Maximiza o dano pessoal de Raiden. Sara (C6 ideal) buffa ATQ e Dano CRIT Electro. Kazuha com Sombra Verde reduz RES Electro e buffa Dano Electro. Bennett fornece um grande buff de ATQ e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "raiden_shogun",
+                "role_in_team": "Main DPS Electro",
+                "build_key": "raiden_burst_dps"
+            },
+            {
+                "character_id": "kujou_sara",
+                "role_in_team": "Suporte Electro (Buffer ATQ/CRIT DMG)",
+                "build_key": "sara_electro_buffer_noblesse_high_base_atk_weapon"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
     },
     {
-        "name": "Raiden Hypercarry",
-        "core_characters": [
-            "raiden_shogun"
-        ],
-        "flex_options": [
+        "id": "raiden_national_xiangling_xingqiu_bennett",
+        "name": "Raiden National (Xiangling, Xingqiu, Bennett)",
+        "strategy": "Uma das equipes mais fortes e populares. Raiden atua como driver on-field, bateria e causa dano, enquanto Xiangling e Xingqiu fornecem dano massivo off-field. Bennett buffa e cura.",
+        "characters_in_team": [
             {
-                "description": "Buffer de ATK/Dano",
-                "character_id_options": [
-                    "bennett"
-                ],
-                "role_hint": [
-                    "Support",
-                    "Healer"
-                ]
+                "character_id": "raiden_shogun",
+                "role_in_team": "On-Field Driver/Bateria",
+                "build_key": "raiden_burst_dps"
             },
             {
-                "description": "Buffer Anemo/VV",
-                "element": "Anemo",
-                "character_id_options": [
-                    "kaedehara_kazuha",
-                    "sucrose"
-                ],
-                "role_hint": [
-                    "Support"
-                ]
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro (Off-field)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
             },
             {
-                "description": "Buffer Electro/Suporte",
-                "character_id_options": [
-                    "kujou_sara"
-                ],
-                "role_hint": [
-                    "Support"
-                ]
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro (Off-field)",
+                "build_key": "xingqiu_off_field_hydro_support_emblem_sacrificial"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "raiden_hyperbloom_nahida_xingqiu",
+        "name": "Raiden Superflorescimento (Nahida, Xingqiu)",
+        "strategy": "Raiden usa sua Habilidade Elemental para ativar Superflorescimento off-field. Nahida aplica Dendro e Xingqiu aplica Hydro para criar Sementes Dendro. Raiden builda full Proficiência Elemental.",
+        "characters_in_team": [
+            {
+                "character_id": "raiden_shogun",
+                "role_in_team": "Electro Trigger (Hyperbloom - Full EM)",
+                "build_key": "raiden_hyperbloom_trigger"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Dendro Enabler (Off-field)",
+                "build_key": "nahida_off_field_dendro_deepwood_em"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Hydro Enabler (Off-field)",
+                "build_key": "xingqiu_off_field_hydro_support_sacrificial"
+            },
+            {
+                "character_id": "yaoyao",
+                "role_in_team": "Suporte Dendro (Healer/Deepwood Holder)",
+                "build_key": "yaoyao_dendro_healer_deepwood_favonius"
             }
         ],
-        "min_owned_core": 1,
-        "strategy": "Maximiza o dano pessoal da Raiden Shogun com buffers dedicados como Bennett, Kazuha e Kujou Sara (idealmente C6)."
+        "notes_team": "O quarto slot pode ser um curandeiro Dendro (Yaoyao, Baizhu) ou outro Hydro/Dendro para mais sementes, ou um escudo."
+    },
+    {
+        "id": "raiden_aggravate_fischl_kazuha_baizhu",
+        "name": "Raiden Agravamento (Fischl, Kazuha, Baizhu)",
+        "strategy": "Raiden como DPS on-field focada em Agravamento. Fischl para dano Electro off-field e ressonância. Kazuha para Sombra Verde e buff de Dano Electro. Baizhu para aplicação Dendro, cura e escudo leve.",
+        "characters_in_team": [
+            {
+                "character_id": "raiden_shogun",
+                "role_in_team": "Main DPS Electro (Aggravate)",
+                "build_key": "raiden_burst_dps"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field/Aggravate)",
+                "build_key": "fischl_aggravate_golden_troupe_stringless"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Suporte Dendro (Healer/Buffer/Deepwood Holder)",
+                "build_key": "baizhu_dendro_healer_deepwood_hp_protoamber"
+            }
+        ],
+        "notes_team": "Nahida pode substituir Baizhu para mais dano Dendro e buff de EM. Kirara para escudo Dendro."
     }
 ]

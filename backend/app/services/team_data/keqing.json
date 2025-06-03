@@ -1,0 +1,83 @@
+[
+    {
+        "id": "keqing_aggravate_fischl_dendro_anemo",
+        "name": "Keqing - Agravamento (Fischl, Dendro, Anemo)",
+        "strategy": "Time principal de Keqing, focado na reação de Agravamento. Fischl para dano Electro off-field e bateria. Um personagem Dendro (Nahida, Baizhu, Viajante Dendro, Collei, Yaoyao) para aplicar Dendro e um Anemo (Kazuha, Sucrose, Jean) com Sombra Verde para reduzir RES Electro.",
+        "characters_in_team": [
+            {
+                "character_id": "keqing",
+                "role_in_team": "Main DPS Electro On-field (Aggravate Driver)",
+                "build_key": "keqing_aggravate_dps_thundering_fury"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "keqing_taser_xingqiu_fischl_sucrose",
+        "name": "Keqing - Taser (Xingqiu, Fischl, Sucrose)",
+        "strategy": "Time Eletricamente Carregado (Taser) onde Keqing atua como driver on-field. Xingqiu para aplicação Hydro. Fischl para dano Electro adicional e bateria. Sucrose para Sombra Verde, agrupamento e buff de EM.",
+        "characters_in_team": [
+            {
+                "character_id": "keqing",
+                "role_in_team": "Main DPS Electro On-field (Driver)",
+                "build_key": "keqing_electro_charged_dps_thundering_fury_or_2pc_mix"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Agrupamento, Buffer EM)",
+                "build_key": "sucrose_anemo_support_vv_ttds_em"
+            }
+        ]
+    },
+    {
+        "id": "keqing_mono_electro_sara_fischl_kazuha",
+        "name": "Keqing - Mono Electro (Sara C6, Fischl, Kazuha)",
+        "strategy": "Foco em dano Electro bruto. Kujou Sara (C6) fornece um grande buff de Dano CRIT Electro e ATQ. Fischl para dano off-field e partículas. Kazuha para Sombra Verde e buff de Dano Electro.",
+        "characters_in_team": [
+            {
+                "character_id": "keqing",
+                "role_in_team": "Main DPS Electro On-field",
+                "build_key": "keqing_electro_charged_dps_thundering_fury_or_2pc_mix"
+            },
+            {
+                "character_id": "sara",
+                "role_in_team": "Suporte Electro (ATK Buffer, CRIT DMG Buffer C6)",
+                "build_key": "sara_electro_buffer_noblesse_or_emblem_high_base_atk_bow"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    }
+]

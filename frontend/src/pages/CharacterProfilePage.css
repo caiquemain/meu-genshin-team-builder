@@ -719,9 +719,6 @@
     font-weight: bold;
 }
 
-#talent-materials-section {
-    /* Pode herdar .profile-section e os estilos já aplicados a ele */
-}
 
 .talent-materials-subsection {
     margin-bottom: 35px;
@@ -811,4 +808,119 @@
     font-size: 1.1em;
     color: var(--header-text-color, #ffffff);
     font-weight: bold;
+}
+
+body.light-mode .character-profile-page {
+    background-color: #ffffff;
+    /* Fundo branco para a página no modo claro */
+    color: #212529;
+    /* Cor de texto principal escura */
+}
+
+/* --- Bloco de Informações Gerais --- */
+
+/* Parágrafos dentro da grade de informações gerais (Região, Aniversário, etc.) */
+body.light-mode #general-info-section .general-info-grid p {
+    background-color: #f8f9fa;
+    /* Um cinza muito claro, quase branco */
+    color: #212529;
+    /* Texto escuro */
+    border: 1px solid #dee2e6;
+    /* Borda sutil para definição */
+    /* Remove a dependência da variável --card-background-light que está causando problemas */
+}
+
+/* Bloco da biografia do personagem */
+body.light-theme #general-info-section .character-bio,
+/* Mantendo a regra anterior caso seja útil */
+body.light-mode #general-info-section .character-bio {
+    /* Adicionando a regra com a classe confirmada */
+    background-color: #f1f3f5;
+    /* Um tom de cinza claro um pouco diferente para a bio */
+    color: #212529;
+    /* Texto escuro */
+    border: 1px solid #dee2e6;
+    /* Borda sutil */
+}
+
+/* --- Ajustes de Cor de Texto para Títulos e Elementos de Destaque no Modo Claro --- */
+/* (Muitos destes podem já estar funcionando se as variáveis de texto globais são atualizadas,
+   mas adicionamos para garantir contraste e especificidade) */
+
+body.light-mode .character-profile-page h1,
+body.light-mode .character-profile-page h2.section-title-accent,
+body.light-mode .character-profile-page h3.build-title-accent,
+body.light-mode .character-profile-page h4.column-title-accent,
+body.light-mode .character-profile-page .talent-block h3,
+body.light-mode .character-profile-page .passive-talent h5,
+body.light-mode .character-profile-page .constellation-item strong,
+body.light-mode .character-profile-page #talent-materials-section .subsection-title-accent {
+    color: #343a40;
+    /* Cor escura para títulos principais e de seção */
+}
+
+body.light-mode .character-profile-page .character-title-subheader {
+    color: #495057;
+    /* Cor para subtítulos */
+}
+
+/* Cor para os "strong" dentro da grade de informações, mantendo o realce do elemento */
+body.light-mode #general-info-section .general-info-grid p strong {
+    color: var(--character-accent-color);
+    /* Mantém a cor de destaque do elemento */
+}
+
+/* Textos secundários e descrições, para garantir que não fiquem muito claros */
+body.light-mode .character-profile-page .talent-description,
+body.light-mode .character-profile-page .constellation-description,
+body.light-mode .character-profile-page .item-notes,
+body.light-mode .character-profile-page .item-category,
+body.light-mode .character-profile-page .main-stats-list li,
+body.light-mode .character-profile-page .substats-priority ol li,
+body.light-mode .character-profile-page .talent-priority ol li,
+body.light-mode .character-profile-page #ascension-materials-section .material-name,
+body.light-mode .character-profile-page #talent-materials-section .material-name,
+body.light-mode .character-profile-page .build-notes-full {
+    color: #495057;
+    /* Cor de texto secundário mais escura */
+}
+
+body.light-mode .character-profile-page .passive-type {
+    color: #6c757d;
+    /* Cor para texto de dica/tipo de passiva */
+}
+
+/* Ajuste específico para a navegação rápida, se necessário */
+body.light-mode .character-profile-page .profile-quick-nav {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .character-profile-page .profile-quick-nav a {
+    color: #495057;
+    /* Cor de link na navegação */
+}
+
+body.light-mode .character-profile-page .profile-quick-nav a:hover {
+    color: #ffffff;
+    /* Cor do texto no hover, o fundo já usa --character-accent-color */
+}
+
+/* Ajuste para outros cards/blocos que podem estar usando --card-background-light por padrão */
+body.light-mode .character-profile-page .talent-block,
+body.light-mode .character-profile-page .constellation-item,
+body.light-mode .character-profile-page .build-option-container,
+body.light-mode .character-profile-page .build-column,
+body.light-mode .character-profile-page .substats-priority,
+body.light-mode .character-profile-page .talent-priority,
+body.light-mode .character-profile-page .material-card,
+body.light-mode .character-profile-page .talent-materials-subsection {
+    background-color: #ffffff;
+    /* Fundo branco ou muito claro para esses cards */
+    border: 1px solid #dee2e6;
+}
+
+body.light-mode .character-profile-page .build-notes-full.accent-border-left {
+    background-color: #f1f3f5;
+    /* Fundo um pouco diferente para as notas de build */
 }

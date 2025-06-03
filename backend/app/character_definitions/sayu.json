@@ -1,0 +1,438 @@
+{
+    "id": "sayu",
+    "name": "Sayu",
+    "title": "Mujina Ninja",
+    "element": "Anemo",
+    "rarity": 4,
+    "weapon": "Claymore",
+    "model_type": "Short Female",
+    "role": [
+        "Healer",
+        "Support",
+        "Anemo Enabler",
+        "Driver"
+    ],
+    "description_bio": "Uma ninja da Shiyuumatsu-Ban em Inazuma, Sayu é pequena em estatura mas mestre na arte do ninjutsu, especialmente em técnicas de fuga e em dormir. Apesar de sua preguiça, ela cumpre suas missões com surpreendente eficácia quando necessário.",
+    "birthday": "19 de Outubro",
+    "constellation_name_official": "Nyctereutes Minor",
+    "region": "Inazuma",
+    "affiliation": [
+        "Shiyuumatsu-Ban",
+        "Comissão Yashiro"
+    ],
+    "special_dish": {
+        "name": "Técnica Arrematadora da Tontura 2.0",
+        "icon_url": "/assets/images/dishes/sayu_dizziness_be_gone_no_jutsu_version_2_0.webp"
+    },
+    "namecard_url": "/assets/images/namecards/sayu_muji_muji_daruma.png",
+    "icon_url": "/assets/images/characters/sayu.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Sayu Quick Guide",
+                "url": "https://keqingmains.com/q/sayu-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Sayu",
+                "url": "https://genshin-impact.fandom.com/wiki/Sayu"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Sayu",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Sayu"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "sayu_support_healer_vv",
+            "name": "Suporte de Supremo / Curandeira (Sombra Verde)",
+            "notes_build": "Focada em cura e utilidade Anemo com Sombra Verde. Pode ser buildada para maximizar cura (ATQ%) ou dano de Redemoinho (PE), dependendo das necessidades da equipe.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Prioridade para reduzir RES Elemental dos inimigos e aumentar dano de Redemoinho.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Opção se outro personagem Anemo já estiver usando Sombra Verde, para buffar o ATQ da equipe.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia% / ATQ% (para cura) / Proficiência Elemental (para Redemoinho)",
+                "goblet": "ATQ% (para cura) / Proficiência Elemental (para Redemoinho)",
+                "circlet": "Bônus de Cura% / ATQ% (para cura) / Proficiência Elemental (para Redemoinho)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito)",
+                "Proficiência Elemental (para dano de Redemoinho)",
+                "ATQ% (para cura)",
+                "Taxa CRIT% (para Favonius)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_greatsword",
+                    "name": "Espadão de Favonius",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Melhor opção para bateria da equipe, requer um pouco de Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_greatsword.png"
+                },
+                {
+                    "weapon_id": "sacrificial_greatsword",
+                    "name": "Espadão do Sacrifício",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Permite usos extras da Habilidade Elemental para mais Redemoinhos e aplicação Anemo.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_greatsword.png"
+                },
+                {
+                    "weapon_id": "katsuragikiri_nagamasa",
+                    "name": "Grande Espada de Katsuragi",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja",
+                    "notes": "Opção de forja com Recarga de Energia e buff de Dano de Habilidade Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/katsuragikiri_nagamasa.png"
+                },
+                {
+                    "weapon_id": "wolfs_gravestone",
+                    "name": "Túmulo do Lobo",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Para maximizar ATQ (e cura), se não precisar de RE.",
+                    "icon_url": "/assets/images/weapons_detail/wolfs_gravestone.png"
+                },
+                {
+                    "weapon_id": "skyward_pride",
+                    "name": "Orgulho Celestial",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Alto ATQ Base e Recarga de Energia, passiva de dano adicional.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_pride.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        },
+        {
+            "key": "sayu_onfield_driver_em_vv",
+            "name": "Driver On-Field (Proficiência Elemental / Redemoinho)",
+            "notes_build": "Focada em estar em campo para causar Redemoinhos continuamente com sua Habilidade Elemental (rolar). Maximiza o dano das reações de Redemoinho com Proficiência Elemental.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Essencial para maximizar o dano de Redemoinho e reduzir a RES Elemental dos inimigos.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental / Recarga de Energia%",
+                "goblet": "Proficiência Elemental",
+                "circlet": "Proficiência Elemental"
+            },
+            "sub_stats_priority": [
+                "Proficiência Elemental",
+                "Recarga de Energia% (para manter o Supremo se necessário)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "makhaira_aquamarine",
+                    "name": "Makhaira Aquamarine",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Fornece Proficiência Elemental e um buff de ATQ para a equipe baseado na PE de Sayu.",
+                    "icon_url": "/assets/images/weapons_detail/makhaira_aquamarine.png"
+                },
+                {
+                    "weapon_id": "rainslasher",
+                    "name": "Segadeira da Chuva",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Alta Proficiência Elemental e dano aumentado contra inimigos afetados por Hydro/Electro.",
+                    "icon_url": "/assets/images/weapons_detail/rainslasher.png"
+                },
+                {
+                    "weapon_id": "mailed_flower",
+                    "name": "Flor Protegida",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Evento",
+                    "notes": "Ótima opção de evento com Proficiência Elemental e buff de ATQ.",
+                    "icon_url": "/assets/images/weapons_detail/mailed_flower.png"
+                },
+                {
+                    "weapon_id": "bloodtainted_greatsword",
+                    "name": "Espadão Sangrento",
+                    "rarity": 3,
+                    "type": "Claymore",
+                    "category": "Gacha/Baús",
+                    "notes": "Opção 3★ acessível com Proficiência Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/bloodtainted_greatsword.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2469,
+            "base_atk": 51,
+            "base_def": 157,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "0"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4775,
+            "base_atk": 99,
+            "base_def": 303,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "0"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 6083,
+            "base_atk": 126,
+            "base_def": 387,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "24"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 7609,
+            "base_atk": 158,
+            "base_def": 484,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "48"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8918,
+            "base_atk": 185,
+            "base_def": 567,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "48"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 10226,
+            "base_atk": 212,
+            "base_def": 650,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "72"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 11854,
+            "base_atk": 244,
+            "base_def": 745,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "96"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Núcleo de Marionete",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/marionette_core.webp"
+        },
+        {
+            "name": "Lasca de Turquesa Vayuda",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_chunk.webp"
+        },
+        {
+            "name": "Gema de Turquesa Vayuda",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_gemstone.webp"
+        },
+        {
+            "name": "Medula de Cristal",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/crystal_marrow.webp"
+        },
+        {
+            "name": "Néctar da Flor Gigante",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/whopperflower_nectar.webp"
+        },
+        {
+            "name": "Néctar Brilhante",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/shimmering_nectar.webp"
+        },
+        {
+            "name": "Néctar Elemental",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/energy_nectar.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Lâmina Ninja Shiyuumatsu-Ban",
+            "icon_url": "/assets/images/talents/sayu/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 golpes rápidos.\nAtaque Carregado: Drena Stamina para realizar um ataque giratório contínuo. Termina com um golpe poderoso.\nAtaque Imersivo: Mergulha para atingir o chão, causando Dano em AdE."
+        },
+        "elemental_skill": {
+            "name": "Arte Yoohoo: Ataque Fuuin",
+            "icon_url": "/assets/images/talents/sayu/talent_elemental_skill.webp",
+            "description": "Pressionar: Enrola-se em uma Roda Fuufuu e avança uma curta distância antes de usar um Chute Fuufuu, causando Dano Anemo em AdE.\nManter Pressionado: Enrola-se em uma Roda Fuufuu, rolando continuamente e aumentando a RES à Interrupção. Pode controlar a direção. Durante este estado, Sayu pode absorver um Elemento Hydro/Pyro/Cryo/Electro, causando Dano Elemental adicional em AdE desse tipo. Máximo de uma absorção elemental por uso. Ao final da duração ou ao reativar a habilidade, usa um Chute Fuufuu mais forte. A duração máxima do estado de Roda é 10s. Quanto mais tempo em Roda Fuufuu, menor o TdR do Chute Fuufuu."
+        },
+        "elemental_burst": {
+            "name": "Arte Yoohoo: Agitação Mujina",
+            "icon_url": "/assets/images/talents/sayu/talent_elemental_burst.webp",
+            "description": "Causa Dano Anemo em AdE e cura todos os membros da equipe próximos (cura baseada no ATQ de Sayu). Invoca um Daruma Muji-Muji.\nDaruma Muji-Muji: A cada intervalo, realiza uma das seguintes ações com base nas condições ao redor:\n- Se a Vida dos personagens próximos estiver acima de 70%, ataca um inimigo próximo, causando Dano Anemo.\n- Se houver personagens próximos com Vida igual ou inferior a 70%, cura o personagem com a menor porcentagem de Vida (cura baseada no ATQ de Sayu).\n- Se não houver inimigos próximos e todos os personagens tiverem mais de 70% de Vida, ele cura os personagens."
+        },
+        "passives": [
+            {
+                "name": "Alguém Mais Eficiente",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/sayu/talent_passive_a1.webp",
+                "description": "Quando Sayu desencadeia uma Reação de Redemoinho, ela cura todos os seus personagens e aliados próximos em 300 de Vida. Ela também curará um adicional de 1.2 de Vida para cada ponto de Proficiência Elemental que ela tiver. Este efeito pode ser ativado uma vez a cada 2s."
+            },
+            {
+                "name": "Não Quero Mais Trabalho",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/sayu/talent_passive_a4.webp",
+                "description": "O Daruma Muji-Muji de Arte Yoohoo: Agitação Mujina (Supremo) ganha os seguintes efeitos:\n- Ao curar um personagem, ele também curará personagens próximos a esse personagem em 20% da quantidade de Vida curada.\n- Aumenta a AdE de seu ataque contra oponentes."
+            },
+            {
+                "name": "Arte Yoohoo: Técnica Silenciadora",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/sayu/talent_passive_utility.webp",
+                "description": "Quando Sayu está na equipe, seus personagens não assustarão Borboletas de Cristal e certos outros animais ao se aproximarem deles."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Néctar da Flor Gigante",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/whopperflower_nectar.webp"
+        },
+        {
+            "name": "Néctar Brilhante",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/shimmering_nectar.webp"
+        },
+        {
+            "name": "Néctar Elemental",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/energy_nectar.webp"
+        },
+        {
+            "name": "Ensinamentos da Luz Celeste",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_light.webp"
+        },
+        {
+            "name": "Guia da Luz Celeste",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_light.webp"
+        },
+        {
+            "name": "Filosofia da Luz Celeste",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_light.webp"
+        },
+        {
+            "name": "Escama Dourada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/gilded_scale.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Técnica Multi-Serviço",
+            "icon_url": "/assets/images/constellations/sayu/constellation_1.webp",
+            "description": "As ações do Daruma Muji-Muji de Arte Yoohoo: Agitação Mujina (Supremo) ignorarão as restrições de Vida e poderão atacar simultaneamente inimigos próximos e curar personagens."
+        },
+        {
+            "level": 2,
+            "name": "Livrando o Caminho",
+            "icon_url": "/assets/images/constellations/sayu/constellation_2.webp",
+            "description": "Arte Yoohoo: Ataque Fuuin (Habilidade Elemental) ganha os seguintes efeitos:\n- O Dano do Chute Fuufuu ao Pressionar a Habilidade aumenta em 3.3%.\n- A cada 0.5s que Sayu permanece no estado de Roda Fuufuu (Manter Pressionado), o Dano do Chute Fuufuu subsequente aumenta em 3.3%. O aumento máximo de Dano do Chute Fuufuu que pode ser obtido desta forma é 66%."
+        },
+        {
+            "level": 3,
+            "name": "Perito na Fuga",
+            "icon_url": "/assets/images/constellations/sayu/constellation_3.webp",
+            "description": "Aumenta o nível de Arte Yoohoo: Agitação Mujina (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Tudo Fica Menor",
+            "icon_url": "/assets/images/constellations/sayu/constellation_4.webp",
+            "description": "Quando Sayu desencadeia uma Reação de Redemoinho, ela regenera 1.2 de Energia Elemental. Este efeito pode ocorrer uma vez a cada 2s."
+        },
+        {
+            "level": 5,
+            "name": "Velocidade é Essencial",
+            "icon_url": "/assets/images/constellations/sayu/constellation_5.webp",
+            "description": "Aumenta o nível de Arte Yoohoo: Ataque Fuuin (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Hora de Dormir",
+            "icon_url": "/assets/images/constellations/sayu/constellation_6.webp",
+            "description": "Cada ponto de Proficiência Elemental de Sayu aumentará o Dano do ataque do Daruma Muji-Muji (Supremo) em 0.2% de ATQ e sua cura em 3 de Vida. Um máximo de 400% de ATQ como Dano e 6000 de Vida como cura pode ser obtido desta forma."
+        }
+    ]
+}

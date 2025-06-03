@@ -1,0 +1,110 @@
+[
+    {
+        "id": "kuki_shinobu_hyperbloom_nahida_xingqiu_yelan",
+        "name": "Kuki Shinobu - Hyperbloom (Nahida, Xingqiu, Yelan)",
+        "strategy": "Time de Hiperflorecimento onde Kuki Shinobu é a principal ativadora com sua Habilidade Elemental, buildada com full Proficiência Elemental. Nahida para aplicação Dendro massiva. Xingqiu e Yelan (Double Hydro) para geração de Sementes Dendro e dano off-field.",
+        "characters_in_team": [
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Ativadora de Hyperbloom (Full EM)",
+                "build_key": "kuki_shinobu_hyperbloom_trigger_full_em"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field / Buffer de Dano",
+                "build_key": "yelan_subdps_emblem_eosf"
+            }
+        ]
+    },
+    {
+        "id": "kuki_shinobu_aggravate_support_alhaitham_fischl_nahida",
+        "name": "Kuki Shinobu - Suporte Aggravate (Alhaitham, Fischl, Nahida)",
+        "strategy": "Kuki Shinobu fornece cura e aplicação Electro para um time de Agravamento/Espalhar. Alhaitham como DPS Dendro on-field. Fischl para dano Electro off-field e bateria. Nahida para aplicação Dendro e buff de EM. Kuki pode usar 4p Instrutor ou 4p Tenacidade.",
+        "characters_in_team": [
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Suporte Electro (Pode usar Instrutor/Tenacidade)",
+                "build_key": "kuki_shinobu_quicken_support_deepwood_tenacity"
+            },
+            {
+                "character_id": "alhaitham",
+                "role_in_team": "Main DPS Dendro On-field (Spread)",
+                "build_key": "alhaitham_spread_dps_gilded_dreams"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM (Pode usar Deepwood)",
+                "build_key": "nahida_offfield_support_deepwood_or_gilded_dreams"
+            }
+        ]
+    },
+    {
+        "id": "kuki_shinobu_taser_driver_ayato_beidou_sucrose",
+        "name": "Kuki Shinobu - Driver Taser (Ayato, Beidou, Sucrose)",
+        "strategy": "Kuki como curandeira e aplicadora Electro secundária em um time Taser. Ayato como driver Hydro on-field. Beidou para dano Electro AoE. Sucrose para Sombra Verde, agrupamento e buff de EM. Kuki pode usar Ataques Normais brevemente para mais aplicação Electro se C6.",
+        "characters_in_team": [
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Aplicadora Electro Secundária",
+                "build_key": "kuki_shinobu_quicken_support_deepwood_tenacity"
+            },
+            {
+                "character_id": "ayato",
+                "role_in_team": "Main DPS Hydro On-field / Driver",
+                "build_key": "ayato_onfield_dps_heart_of_depth_haran"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field (Dano em Área)",
+                "build_key": "beidou_offfield_dps_emblem"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Agrupamento, Buffer EM)",
+                "build_key": "sucrose_anemo_driver_vv_ttds_em"
+            }
+        ]
+    },
+    {
+        "id": "kuki_shinobu_eula_physical_rosaria_flex_electro",
+        "name": "Kuki Shinobu - Suporte Físico Eula (Eula, Rosaria, Flex)",
+        "strategy": "Kuki Shinobu como curandeira e aplicadora Electro para Supercondutor em times de Eula. Rosaria para ressonância Cryo, Taxa CRIT e partículas. O slot flexível pode ser outro Electro (Fischl/Raiden) ou um escudeiro (Zhongli/Diona).",
+        "characters_in_team": [
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Aplicadora Electro para Supercondutor",
+                "build_key": "kuki_shinobu_quicken_support_deepwood_tenacity"
+            },
+            {
+                "character_id": "eula",
+                "role_in_team": "Main DPS Físico (On-field)",
+                "build_key": "eula_physical_dps_pale_flame_songofbrokenpines"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo / Bateria / Buffer de Taxa CRIT",
+                "build_key": "rosaria_cryo_subdps_noblesse_favonius"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal) (Flex)",
+                "build_key": "shielder_max_hp_utility_tenacity"
+            }
+        ]
+    }
+]

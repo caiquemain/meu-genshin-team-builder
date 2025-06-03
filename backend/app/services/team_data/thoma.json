@@ -1,0 +1,110 @@
+[
+    {
+        "id": "thoma_burgeon_ayato_nahida_baizhu",
+        "name": "Thoma - Germinação (Ayato, Nahida, Baizhu)",
+        "strategy": "Thoma como ativador de Germinação, usando sua aplicação Pyro off-field para detonar Sementes Dendro. Ayato como driver Hydro on-field, Nahida para aplicação Dendro massiva e Baizhu para cura e ressonância Dendro.",
+        "characters_in_team": [
+            {
+                "character_id": "thoma",
+                "role_in_team": "Ativador de Germinação (Full EM) / Escudeiro",
+                "build_key": "thoma_burgeon_trigger_flower_paradise_kitain_favonius"
+            },
+            {
+                "character_id": "ayato",
+                "role_in_team": "Main DPS Hydro On-field / Driver",
+                "build_key": "ayato_onfield_dps_heart_of_depth_haran"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Healer / Aplicador Dendro Secundário / Escudeiro Leve",
+                "build_key": "baizhu_healer_deepwood_prototype_amber_hp"
+            }
+        ]
+    },
+    {
+        "id": "thoma_shielder_hu_tao_xingqiu_sucrose_vv_vape",
+        "name": "Thoma - Escudeiro VV Vape (Hu Tao, Xingqiu, Sucrose)",
+        "strategy": "Thoma fornece escudo para Hu Tao e aplicação Pyro para Sucrose aplicar Swirl Pyro, reduzindo a RES Pyro dos inimigos e buffando Hu Tao. Xingqiu para aplicação Hydro e Vaporizar.",
+        "characters_in_team": [
+            {
+                "character_id": "thoma",
+                "role_in_team": "Escudeiro / Aplicador Pyro para Swirl",
+                "build_key": "thoma_shielder_support_hp_er"
+            },
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro On-field (Vaporize)",
+                "build_key": "hutao_vape_dps_crimson_shimenawa"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer EM)",
+                "build_key": "sucrose_anemo_support_vv_ttds_em"
+            }
+        ]
+    },
+    {
+        "id": "thoma_wanderer_faruzan_bennett_hypercarry_support",
+        "name": "Thoma - Suporte Hypercarry Andarilho (Andarilho, Faruzan, Bennett)",
+        "strategy": "Thoma oferece escudo e Ressonância Pyro para um time Hypercarry do Andarilho. Faruzan buffa Dano Anemo e Bennett fornece ATQ massivo.",
+        "characters_in_team": [
+            {
+                "character_id": "thoma",
+                "role_in_team": "Escudeiro / Ressonância Pyro",
+                "build_key": "thoma_shielder_support_hp_er"
+            },
+            {
+                "character_id": "wanderer",
+                "role_in_team": "Main DPS Anemo On-field",
+                "build_key": "wanderer_anemo_dps_desert_pavilion_or_shimenawa"
+            },
+            {
+                "character_id": "faruzan",
+                "role_in_team": "Suporte Anemo (Buffer de Dano Anemo & RES Shred Anemo)",
+                "build_key": "faruzan_anemo_buffer_noblesse_favonius_er_c6_tenacity"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "thoma_chevreuse_overload_fischl_clorinde",
+        "name": "Thoma - Sobrecarga Chevreuse (Chevreuse, Fischl, Clorinde)",
+        "strategy": "Em times de Sobrecarga com Chevreuse, Thoma pode fornecer escudo e aplicação Pyro off-field. Clorinde como DPS Electro on-field e Fischl para dano off-field.",
+        "characters_in_team": [
+            {
+                "character_id": "thoma",
+                "role_in_team": "Escudeiro / Aplicador Pyro Off-field",
+                "build_key": "thoma_shielder_support_hp_er"
+            },
+            {
+                "character_id": "chevreuse",
+                "role_in_team": "Suporte (Buffer de Sobrecarga, RES Shred Pyro/Electro, Healer)",
+                "build_key": "chevreuse_overload_buffer_songofdays_noblesse"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "clorinde",
+                "role_in_team": "Main DPS Electro On-field",
+                "build_key": "clorinde_onfield_dps_fragment_whimsy_absolution"
+            }
+        ]
+    }
+]

@@ -1,46 +1,90 @@
 {
     "id": "layla",
     "name": "Layla",
+    "title": "Contemplações da Estrela Noturna",
     "element": "Cryo",
     "rarity": 4,
     "weapon": "Sword",
+    "model_type": "Medium Female",
     "role": [
         "Shielder",
-        "Off-Field DPS"
+        "Off-Field Cryo Enabler",
+        "Cryo Battery (com Favonius)"
     ],
+    "description_bio": "Uma estudante da Rtawahist na Academia de Sumeru, Layla é especializada em Astrologia Teórica. Cronicamente privada de sono, ela sofre de sonambulismo, durante o qual sua personalidade muda e ela completa suas teses com brilhantismo.",
+    "birthday": "19 de Dezembro",
+    "constellation_name_official": "Luscinia",
+    "region": "Sumeru",
+    "affiliation": [
+        "Academia de Sumeru (Rtawahist)"
+    ],
+    "special_dish": {
+        "name": "Sono Extravagante",
+        "icon_url": "/assets/images/dishes/layla_extravagant_slumber.webp"
+    },
+    "namecard_url": "/assets/images/namecards/layla_daydream.png",
     "icon_url": "/assets/images/characters/layla.png",
     "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Layla Guide (Full)",
+                "url": "https://keqingmains.com/layla/"
+            },
+            {
+                "name": "KQM Layla Quick Guide",
+                "url": "https://keqingmains.com/q/layla-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Layla",
+                "url": "https://genshin-impact.fandom.com/wiki/Layla"
+            }
+        ]
+    },
     "build_options": [
         {
-            "key": "layla_shielder_tenacity_hp",
-            "name": "Escudeira (Tenacidade dos Millelith - Foco em HP)",
-            "notes_build": "Maximiza a absorção do escudo de Layla com HP%. 4p Tenacidade dos Millelith é o melhor conjunto geral, oferecendo o escudo mais forte e um buff de ATQ para a equipe.  Priorize subir o nível do personagem para aumentar o HP Máx. ",
+            "key": "layla_shielder_support_tenacity_favonius",
+            "name": "Suporte Escudeira (Tenacidade - Favonius)",
+            "notes_build": "Foco em maximizar a força do escudo de Layla (que escala com HP Máx) e sua utilidade para a equipe com geração de partículas (Espada de Favonius) e buffs (4p Tenacidade/Ritual Real). Nível do personagem e da Habilidade Elemental são prioridade para o escudo.",
             "artifacts": [
                 {
                     "set_id": "tenacity_of_the_millelith",
                     "set_name": "Tenacidade dos Millelith",
                     "pieces": 4,
-                    "notes": "Melhor conjunto geral para Layla, fornecendo o escudo mais forte e um buff de ATQ para a equipe com bom uptime. ",
+                    "notes": "Melhor conjunto geral para Layla suporte, fornecendo HP% para seu escudo e um buff de ATQ% para a equipe com bom uptime devido aos projéteis de sua Habilidade.",
                     "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
                 },
                 {
                     "set_id": "noblesse_oblige",
                     "set_name": "Antigo Ritual Real",
                     "pieces": 4,
-                    "notes": "Alternativa se não houver um bom conjunto Tenacidade, mas com uptime menor no buff de ATQ e escudo mais fraco. ",
+                    "notes": "Alternativa se outro personagem já estiver usando 4p Tenacidade. Fornece um buff de ATQ% para a equipe após o Supremo de Layla.",
                     "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "hp_er_2pc_mix_layla",
+                    "set_name": "HP% (2p) + HP% (2p) / RE% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Opção universal para maximizar o HP do escudo ou atender aos requisitos de RE. (Ex: Tenacidade + Brilho de Vourukasha / Selo da Insulação).",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "tenacity_of_the_millelith",
+                        "vourukashas_glow"
+                    ]
                 }
             ],
             "main_stats": {
-                "sands": "HP% / Recarga de Energia (se necessário)",
+                "sands": "HP% / Recarga de Energia (ER%)",
                 "goblet": "HP%",
-                "circlet": "HP%"
+                "circlet": "HP% / Taxa CRIT (para Espada de Favonius)"
             },
             "sub_stats_priority": [
-                "Recarga de Energia (até o requisito)",
                 "HP%",
-                "HP Flat",
-                "Taxa CRIT (para Espada de Favonius)"
+                "Recarga de Energia (ER%) (até o requisito, ~150-200% dependendo do time e C1)",
+                "Taxa CRIT (para Espada de Favonius)",
+                "HP Flat"
             ],
             "weapons": [
                 {
@@ -48,76 +92,73 @@
                     "name": "Chave de Khaj-Nisut",
                     "rarity": 5,
                     "type": "Sword",
-                    "category": "Gacha",
-                    "notes": "Melhor arma para a absorção do escudo de Layla devido ao seu sub-status massivo de HP%. ",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para maximizar o HP de Layla e a força do escudo. A passiva de EM para a equipe também é útil em times de reação.",
                     "icon_url": "/assets/images/weapons_detail/key_of_khaj_nisut.png"
-                },
-                {
-                    "weapon_id": "the_dockhands_assistant",
-                    "name": "A Doca",
-                    "rarity": 4,
-                    "type": "Sword",
-                    "category": "Gacha",
-                    "notes": "Próxima melhor opção para o escudo de Layla devido ao sub-status de HP%. ",
-                    "icon_url": "/assets/images/weapons_detail/the_dockhands_assistant.png"
                 },
                 {
                     "weapon_id": "favonius_sword",
                     "name": "Espada de Favonius",
                     "rarity": 4,
                     "type": "Sword",
-                    "category": "Gacha",
-                    "notes": "Forte opção de suporte, fornece Energia valiosa para a equipe e ajuda a cumprir os requisitos de RE de Layla. ",
+                    "category": "Gacha / Missão",
+                    "notes": "Excelente para ajudar com a Recarga de Energia de Layla e da equipe. Requer investimento em Taxa CRIT.",
                     "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "sacrificial_sword",
+                    "name": "Espada do Sacrifício",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Permite um uso adicional da Habilidade, melhorando o uptime do escudo e a geração de partículas. Refinos altos são preferíveis.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_sword.png"
+                },
+                {
+                    "weapon_id": "the_dockhands_assistant",
+                    "name": "A Assistente do Estivador",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Fornece HP%, aumentando a força do escudo. Boa opção se não precisar de RE da arma.",
+                    "icon_url": "/assets/images/weapons_detail/the_dockhands_assistant.png"
                 }
             ],
             "talent_priority": [
-                "Habilidade Elemental (Skill)",
-                "Supremo (Burst) (menor prioridade para build de escudo puro)",
-                "Ataque Normal (não precisa upar)"
+                "Habilidade Elemental (Skill) (para escudo)",
+                "Supremo (Burst) (para aplicação Cryo e dano adicional)",
+                "Ataque Normal (baixa prioridade)"
             ]
         },
         {
-            "key": "layla_offfield_dps_blizzard_crit",
-            "name": "DPS Off-field (Herói Invernal - Foco em Dano)",
-            "notes_build": "Focada no dano off-field de Layla, mantendo um escudo decente. Mais eficaz com alto investimento (idealmente C6) e em times focados em dano Cryo (Congelamento, Mono Cryo).  Stats de Dano CRIT, Bônus de Dano Cryo e HP% são importantes. ",
+            "key": "layla_offfield_cryo_dps_blizzard",
+            "name": "DPS Cryo Off-field (Herói Invernal)",
+            "notes_build": "Foco no dano pessoal de Layla, principalmente de seu Supremo e das Estrelas Cadentes da Habilidade. Melhor em times de Congelamento ou Mono Cryo com 4p Herói Invernal. C6 aumenta significativamente o dano.",
             "artifacts": [
                 {
                     "set_id": "blizzard_strayer",
                     "set_name": "Herói Invernal",
                     "pieces": 4,
-                    "notes": "Opção mais forte para dano pessoal em times de Congelamento e Mono Cryo, permitindo focar em HP% e Dano CRIT. ",
+                    "notes": "Melhor conjunto para maximizar o dano Cryo de Layla em times de Congelamento ou Mono Cryo, fornecendo alta Taxa CRIT.",
                     "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png"
                 },
                 {
                     "set_id": "emblem_of_severed_fate",
                     "set_name": "Selo da Insulação",
                     "pieces": 4,
-                    "notes": "Oferece um bônus substancial de Dano do Supremo enquanto acomoda os requisitos de RE de Layla. ",
+                    "notes": "Se Layla tiver altos requisitos de RE e seu Supremo for uma parte significativa do dano, este conjunto é uma boa opção.",
                     "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
-                },
-                {
-                    "set_id": "tenacity_hp_blizzard_cryo_2pc_mix",
-                    "set_name": "Tenacidade (2p HP%) + Herói Invernal (2p Cryo%)",
-                    "pieces": "2+2",
-                    "notes": "Combinações de 2 peças podem ser usadas enquanto farma conjuntos completos, mas perdem os bônus potentes de 4 peças. ",
-                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png",
-                    "pieces_display": "2+2",
-                    "is_combo": true,
-                    "combo_set_ids": [
-                        "tenacity_of_the_millelith",
-                        "blizzard_strayer"
-                    ]
                 }
             ],
             "main_stats": {
-                "sands": "HP% / Recarga de Energia",
-                "goblet": "Bônus de Dano Cryo / HP%",
-                "circlet": "Taxa CRIT / Dano CRIT / HP%"
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Cryo",
+                "circlet": "Dano CRIT / Taxa CRIT"
             },
             "sub_stats_priority": [
-                "Recarga de Energia (até o requisito)",
-                "Taxa CRIT / Dano CRIT",
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Dano CRIT / Taxa CRIT",
+                "ATK%",
                 "HP%"
             ],
             "weapons": [
@@ -127,26 +168,8 @@
                     "rarity": 5,
                     "type": "Sword",
                     "category": "Gacha",
-                    "notes": "Melhor em geral para dano, com o benefício adicional de um buff de HP% da passiva. ",
+                    "notes": "Excelente 'stat stick' de Taxa CRIT e fornece HP% que aumenta um pouco o escudo e o dano (C4).",
                     "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
-                },
-                {
-                    "weapon_id": "uraku_misugiri",
-                    "name": "Urakugo Rensai (Uraku Misugiri)",
-                    "rarity": 5,
-                    "type": "Sword",
-                    "category": "Gacha (Limitado)",
-                    "notes": "Segunda melhor opção de dano, mesmo sem sua passiva completa. ",
-                    "icon_url": "/assets/images/weapons_detail/uraku_misugiri.png"
-                },
-                {
-                    "weapon_id": "harbinger_of_dawn",
-                    "name": "Prenúncio do Alvorecer",
-                    "rarity": 3,
-                    "type": "Sword",
-                    "category": "Gacha / Baús",
-                    "notes": "Arma 3 estrelas facilmente obtenível que supera a maioria das opções 5 estrelas se sua passiva for mantida. ",
-                    "icon_url": "/assets/images/weapons_detail/harbinger_of_dawn.png"
                 },
                 {
                     "weapon_id": "mistsplitter_reforged",
@@ -154,15 +177,272 @@
                     "rarity": 5,
                     "type": "Sword",
                     "category": "Gacha (Limitado)",
-                    "notes": "Arma de CRIT com desempenho similar ou ligeiramente pior que Prenúncio do Alvorecer, mas mantém eficácia se Layla sofrer dano. ",
+                    "notes": "Fornece alto Dano CRIT e Bônus de Dano Elemental. Layla pode obter 1-2 acúmulos da passiva.",
                     "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "harbinger_of_dawn",
+                    "name": "Prenúncio do Alvorecer",
+                    "rarity": 3,
+                    "type": "Sword",
+                    "category": "Gacha / Baús",
+                    "notes": "R5 é uma opção F2P surpreendentemente forte para dano, fornecendo Taxa CRIT e Dano CRIT se o HP de Layla for mantido >90% (o que seu escudo ajuda a fazer).",
+                    "icon_url": "/assets/images/weapons_detail/harbinger_of_dawn.png"
+                },
+                {
+                    "weapon_id": "wolf_fang",
+                    "name": "Presa do Lobo",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Passe de Batalha",
+                    "notes": "Boa opção do Passe de Batalha, fornecendo Taxa CRIT e buffs para Habilidade e Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/wolf_fang.png"
                 }
             ],
             "talent_priority": [
                 "Habilidade Elemental (Skill)",
                 "Supremo (Burst)",
-                "Ataque Normal (não precisa upar)"
+                "Ataque Normal (baixa prioridade)"
             ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 953,
+            "base_atk": 18,
+            "base_def": 55,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3118,
+            "base_atk": 58,
+            "base_def": 179,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5174,
+            "base_atk": 96,
+            "base_def": 297,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6640,
+            "base_atk": 123,
+            "base_def": 382,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7938,
+            "base_atk": 147,
+            "base_def": 457,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9228,
+            "base_atk": 171,
+            "base_def": 531,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 11384,
+            "base_atk": 212,
+            "base_def": 657,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Mecanismo de Engrenagem Perpétua",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/perpetual_caliber.webp"
+        },
+        {
+            "name": "Lasca de Jade Shivada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/shivada_jade_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_chunk.webp"
+        },
+        {
+            "name": "Gema de Jade Shivada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/shivada_jade_gemstone.webp"
+        },
+        {
+            "name": "Lótus Nilotpala",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/nilotpala_lotus.webp"
+        },
+        {
+            "name": "Pergaminho Guia",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/divining_scroll.webp"
+        },
+        {
+            "name": "Pergaminho Selado",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/sealed_scroll.webp"
+        },
+        {
+            "name": "Pergaminho Proibido",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/forbidden_curse_scroll.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Lâmina da Tríade Radiante",
+            "icon_url": "/assets/images/talents/layla/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 3 golpes rápidos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando inimigos ao longo do caminho e causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Noites de Foco Solene",
+            "icon_url": "/assets/images/talents/layla/talent_elemental_skill.webp",
+            "description": "Cria uma Cortina do Sono que causa Dano Cryo em AdE e gera um escudo que absorve DANO baseado no HP Máx de Layla e absorve Dano Cryo com 250% de eficácia. Enquanto a Cortina do Sono estiver ativa, ela criará 1 Estrela Cadente que será disparada em oponentes dentro de sua AdE a cada 1.5s. Quando uma Estrela Cadente atinge um oponente, ela causa Dano Cryo. Quando a Habilidade Elemental do personagem ativo usa uma Habilidade Elemental enquanto a Cortina do Sono está ativa, 2 Estrelas Cadentes serão criadas. Estrelas Cadentes podem ser criadas desta forma uma vez a cada 0.3s. Um máximo de 4 Estrelas Cadentes podem ser criadas desta forma. Cada Estrela Cadente disparada pela Cortina do Sono aumenta a Força do Escudo de Escudos de Cortina do Sono ativos em 6% por 20s. Máx. 4 acúmulos."
+        },
+        "elemental_burst": {
+            "name": "Sonho Estrelado da Canção de Ninar",
+            "icon_url": "/assets/images/talents/layla/talent_elemental_burst.webp",
+            "description": "Libera um Celestial Dreamsphere que dispara continuamente Balas Estelares em oponentes dentro de sua AdE, causando Dano Cryo. Quando uma Bala Estelar atinge, ela gerará 1 Estrela Cadente para Cortinas do Sono próximas."
+        },
+        "passives": [
+            {
+                "name": "Sombra Perturbadora Como Estrelas",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/layla/talent_passive_a1.webp",
+                "description": "Enquanto a Cortina do Sono estiver ativa, o efeito de Fortalecimento do Escudo de Selo de Escudo Reforçado acumulado de Noites de Foco Solene terá o seguinte efeito: Cada vez que a Cortina do Sono ganhar 1 Estrela Cadente, o efeito Fortalecimento do Escudo será concedido: Personagens ativos protegidos pela Cortina do Sono têm sua Força do Escudo aumentada em 6%. Este efeito pode acumular até 4 vezes e persistirá até a Cortina do Sono desaparecer."
+            },
+            {
+                "name": "Sono Doce Como Água Estagnada",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/layla/talent_passive_a4.webp",
+                "description": "O DANO causado pelas Estrelas Cadentes disparadas por Noites de Foco Solene é aumentado em 1.5% do HP Máx de Layla."
+            },
+            {
+                "name": "Sonho Revelado Pela Estrela da Manhã",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/layla/talent_passive_utility.webp",
+                "description": "Quando Layla cria Materiais de Talento de Personagem, ela tem 10% de chance de receber o dobro do produto."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Pergaminho Guia",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/divining_scroll.webp"
+        },
+        {
+            "name": "Pergaminho Selado",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/sealed_scroll.webp"
+        },
+        {
+            "name": "Pergaminho Proibido",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/forbidden_curse_scroll.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Engenosidade\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_ingenuity.webp"
+        },
+        {
+            "name": "Guia da \"Engenosidade\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_ingenuity.webp"
+        },
+        {
+            "name": "Filosofia da \"Engenosidade\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_ingenuity.webp"
+        },
+        {
+            "name": "Espelho de Mushin",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/mirror_of_mushin.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Fortaleza da Fantasia",
+            "icon_url": "/assets/images/constellations/layla/constellation_1.webp",
+            "description": "A Absorção de DANO do escudo da Cortina do Sono criado por Noites de Foco Solene é aumentada em 20%.\nAdicionalmente, ao liberar Noites de Foco Solene, ela criará um escudo para todos os membros da equipe próximos que não estão protegidos por uma Cortina do Sono. Este escudo terá 35% da absorção de DANO de uma Cortina do Sono normal, durará 12s e absorverá Dano Cryo com 250% de eficácia."
+        },
+        {
+            "level": 2,
+            "name": "Luz da Intercessão Sacrificial",
+            "icon_url": "/assets/images/constellations/layla/constellation_2.webp",
+            "description": "Quando Estrelas Cadentes de Noites de Foco Solene atingem oponentes, elas restaurarão 1 de Energia para Layla. Cada Estrela Cadente pode restaurar Energia para ela desta forma uma vez."
+        },
+        {
+            "level": 3,
+            "name": "Segredo da Sombra da Noite",
+            "icon_url": "/assets/images/constellations/layla/constellation_3.webp",
+            "description": "Aumenta o Nível de Noites de Foco Solene em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Convicção da Estrela Brilhante",
+            "icon_url": "/assets/images/constellations/layla/constellation_4.webp",
+            "description": "Quando Noites de Foco Solene começa a disparar Estrelas Cadentes, ela concederá a todos os membros da equipe próximos o efeito Luz Estrelar do Despertar por 3s.\nEste efeito aumenta o DANO do Ataque Normal e Carregado em 5% do HP Máx de Layla."
+        },
+        {
+            "level": 5,
+            "name": "Fluxo da Consciência Luminosa",
+            "icon_url": "/assets/images/constellations/layla/constellation_5.webp",
+            "description": "Aumenta o Nível de Sonho Estrelado da Canção de Ninar em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Fagulha Radiante da Alma Adormecida",
+            "icon_url": "/assets/images/constellations/layla/constellation_6.webp",
+            "description": "Estrelas Cadentes de Noites de Foco Solene e Balas Estelares de Sonho Estrelado da Canção de Ninar causam 40% a mais de DANO.\nO intervalo entre a criação de Estrelas Cadentes de Noites de Foco Solene é diminuído em 20%."
         }
     ]
 }

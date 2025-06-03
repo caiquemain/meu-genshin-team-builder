@@ -1,0 +1,449 @@
+{
+    "id": "raiden_shogun",
+    "name": "Shogun Raiden",
+    "title": "Plano da Eutimia",
+    "element": "Electro",
+    "rarity": 5,
+    "weapon": "Polearm",
+    "model_type": "Tall Female",
+    "role": [
+        "On-Field DPS",
+        "Sub-DPS",
+        "Battery",
+        "Buffer"
+    ],
+    "description_bio": "A Shogun Raiden é composta por dois seres: Ei, a atual Arconte Electro de Inazuma, e a Shogun, uma marionete criada por Ei para governar em seu nome, buscando uma eternidade imutável para sua nação.",
+    "birthday": "26 de Junho",
+    "constellation_name_official": "Imperatrix Umbrosa",
+    "region": "Inazuma",
+    "affiliation": [
+        "Cidade de Inazuma",
+        "Shogunato de Inazuma",
+        "Os Sete"
+    ],
+    "special_dish": {
+        "name": "Nenhum",
+        "icon_url": null
+    },
+    "namecard_url": "/assets/images/namecards/raiden_shogun_enlightenment.png",
+    "icon_url": "/assets/images/characters/raiden_shogun.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Raiden Shogun Full Guide",
+                "url": "https://keqingmains.com/raiden/"
+            },
+            {
+                "name": "KQM Raiden Shogun Quick Guide",
+                "url": "https://keqingmains.com/q/raiden-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Raiden Shogun",
+                "url": "https://genshin-impact.fandom.com/wiki/Raiden_Shogun"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Raiden Shogun",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Raiden_Shogun"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "raiden_burst_dps",
+            "name": "DPS de Supremo (Hypercarry)",
+            "notes_build": "Focada em maximizar o dano do Supremo de Raiden, que também regenera Energia para a equipe. Requer alta Recarga de Energia, que é convertida em Dano Electro e mais regeneração de Energia (Passiva A4).",
+            "artifacts": [
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Seu melhor conjunto (BiS) indiscutível. Fornece RE e converte RE em Dano de Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia% / ATQ%",
+                "goblet": "Bônus de Dano Electro% / ATQ%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito, ~200-250%)",
+                "Taxa CRIT% / Dano CRIT%",
+                "ATQ%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "engulfing_lightning",
+                    "name": "Luz do Cortador de Grama",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Sua melhor arma (BiS). Converte RE em ATQ, incentivando build de alta RE.",
+                    "icon_url": "/assets/images/weapons_detail/engulfing_lightning.png"
+                },
+                {
+                    "weapon_id": "staff_of_homa",
+                    "name": "Báculo de Homa",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Ótima opção devido aos altos stats CRIT e ATQ passivo. Passiva de Vida baixa raramente é ativada.",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_homa.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_winged_spear",
+                    "name": "Lança de Jade Primitiva",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Taxa CRIT e ATQ% passivo. Boa opção de stats.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_winged_spear.png"
+                },
+                {
+                    "weapon_id": "the_catch",
+                    "name": "A Fisgada",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "F2P (Pesca)",
+                    "notes": "Excelente opção F2P, fornece RE e aumenta Dano e Taxa CRIT do Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/the_catch.png"
+                },
+                {
+                    "weapon_id": "skyward_spine",
+                    "name": "Espinha Celestial",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "RE, Taxa CRIT e um pouco de Velocidade de ATQ. Stats base altos.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_spine.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        },
+        {
+            "key": "raiden_hyperbloom_trigger",
+            "name": "Ativadora de Superflorescimento (Off-field EM)",
+            "notes_build": "Focada em maximizar o dano da reação de Superflorescimento, utilizando a aplicação Electro off-field de sua Habilidade Elemental. Prioriza Proficiência Elemental e Nível do Personagem.",
+            "artifacts": [
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Aumenta a Proficiência Elemental de Raiden, maximizando o dano do Superflorescimento.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "flower_of_paradise_lost",
+                    "set_name": "Flor do Paraíso Perdido",
+                    "pieces": 4,
+                    "notes": "Tecnicamente o maior dano para Superflorescimento, mas menos eficiente para farmar Resina.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png"
+                },
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Usar se nenhum outro personagem na equipe estiver usando, para reduzir a RES Dendro dos inimigos.",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental",
+                "goblet": "Proficiência Elemental",
+                "circlet": "Proficiência Elemental"
+            },
+            "sub_stats_priority": [
+                "Proficiência Elemental",
+                "Recarga de Energia% (para buff de Dano de Supremo da Habilidade, se desejado)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "dragons_bane",
+                    "name": "Perdição do Dragão",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Melhor opção pela alta Proficiência Elemental. Passiva não é útil.",
+                    "icon_url": "/assets/images/weapons_detail/dragons_bane.png"
+                },
+                {
+                    "weapon_id": "moonpiercer",
+                    "name": "Moonpiercer (Perfurador de Luas)",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Forja (Sumeru)",
+                    "notes": "Opção F2P forte com Proficiência Elemental, passiva pode buffar ATQ de um aliado. Detalhes completos desta arma precisam ser adicionados ao banco de dados.",
+                    "icon_url": "/assets/images/weapons_detail/moonpiercer.png"
+                },
+                {
+                    "weapon_id": "kitain_cross_spear",
+                    "name": "Lança Cruzada de Kitain",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Forja (Inazuma)",
+                    "notes": "Opção F2P com Proficiência Elemental, passiva ajuda na energia de Raiden se usar Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/kitain_cross_spear.png"
+                },
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Menos Proficiência, mas pode ajudar com energia da equipe. Requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem até 90",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2606,
+            "base_atk": 68,
+            "base_def": 159,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 5189,
+            "base_atk": 136,
+            "base_def": 317,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 6675,
+            "base_atk": 174,
+            "base_def": 408,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "8.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 8373,
+            "base_atk": 219,
+            "base_def": 512,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "16.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 9875,
+            "base_atk": 258,
+            "base_def": 604,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "16.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 11388,
+            "base_atk": 298,
+            "base_def": 696,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "24.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 12907,
+            "base_atk": 337,
+            "base_def": 789,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "32.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Pérola da Tempestade",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/storm_beads.webp"
+        },
+        {
+            "name": "Lasca de Ametista Vajrada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_chunk.webp"
+        },
+        {
+            "name": "Gema de Ametista Vajrada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_gemstone.webp"
+        },
+        {
+            "name": "Fruto Tenkumo",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/amakumo_fruit.webp"
+        },
+        {
+            "name": "Protetor de Mão Velho",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/old_handguard.webp"
+        },
+        {
+            "name": "Protetor de Mão Kageuchi",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/kageuchi_handguard.webp"
+        },
+        {
+            "name": "Protetor de Mão Famoso",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/famed_handguard.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Origem",
+            "icon_url": "/assets/images/talents/raiden_shogun/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes rápidos de lança.\nAtaque Carregado: Consome Stamina para realizar um corte ascendente.\nAtaque Imersivo: Mergulha e atinge o chão, causando Dano em AdE.\nNota: Os níveis deste talento não afetam o dano dos ataques durante o Supremo."
+        },
+        "elemental_skill": {
+            "name": "Milagre: Luz Maligna",
+            "icon_url": "/assets/images/talents/raiden_shogun/talent_elemental_skill.webp",
+            "description": "Raiden Shogun revela um fragmento de sua Eutimia, causando Dano Electro aos inimigos próximos e concedendo aos membros da equipe o Olho do Julgamento Tempestuoso.\nOlho do Julgamento Tempestuoso: Quando personagens com este buff atacam e causam Dano, o Olho desfere um ataque coordenado, causando Dano Electro em AdE. Personagens com o Olho têm o Dano de seus Supremos aumentado com base no Custo de Energia do Supremo. O Olho pode iniciar um ataque coordenado a cada 0.9s por equipe."
+        },
+        "elemental_burst": {
+            "name": "Arte Secreta: Musou Shinsetsu",
+            "icon_url": "/assets/images/talents/raiden_shogun/talent_elemental_burst.webp",
+            "description": "Desfere o Musou no Hitotachi, causando Dano Electro em AdE e entrando no estado Musou Isshin.\nMusou Isshin: Raiden usa sua tachi, e seus Ataques Normais, Carregados e Imersivos são convertidos para Dano Electro (considerado Dano de Supremo) e não podem ser substituídos. Ao atingir inimigos, regenera Energia para todos os membros da equipe (até 5 vezes). Aumenta a RES à Interrupção e concede imunidade a dano de Eletricamente Carregado.\nChakra Desiderata: Acumula Determinação quando aliados (exceto Raiden) usam seus Supremos. O dano do Musou no Hitotachi e dos ataques em Musou Isshin é aumentado com base na Determinação consumida."
+        },
+        "passives": [
+            {
+                "name": "Desejos Incontados",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/raiden_shogun/talent_passive_a1.webp",
+                "description": "Quando membros da equipe próximos obtêm Orbes ou Partículas Elementais, o Chakra Desiderata ganha 2 acúmulos de Determinação. Este efeito pode ocorrer uma vez a cada 3s."
+            },
+            {
+                "name": "Transcendência",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/raiden_shogun/talent_passive_a4.webp",
+                "description": "Cada 1% de Recarga de Energia acima de 100% que a Shogun Raiden possui concede a ela: 0.6% a mais de restauração de Energia Elemental de Musou Isshin e 0.4% de Bônus de Dano Electro."
+            },
+            {
+                "name": "Preservação Suprema",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/raiden_shogun/talent_passive_utility.webp",
+                "description": "Ao ascender Espadas e Lanças, a Mora gasta é reduzida em 50%."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Protetor de Mão Velho",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/old_handguard.webp"
+        },
+        {
+            "name": "Protetor de Mão Kageuchi",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/kageuchi_handguard.webp"
+        },
+        {
+            "name": "Protetor de Mão Famoso",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/famed_handguard.webp"
+        },
+        {
+            "name": "Ensinamentos da Luz Celeste",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_light.webp"
+        },
+        {
+            "name": "Guia da Luz Celeste",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_light.webp"
+        },
+        {
+            "name": "Filosofia da Luz Celeste",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_light.webp"
+        },
+        {
+            "name": "Momento Derretido",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/molten_moment.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Inscrição Ameaçadora",
+            "icon_url": "/assets/images/constellations/raiden_shogun/constellation_1.webp",
+            "description": "Chakra Desiderata acumulará Determinação ainda mais rápido. Quando personagens Electro usarem seus Supremos, o ganho de Determinação é aumentado em 80%. Quando personagens de outros Tipos Elementais usam seus Supremos, o ganho de Determinação é aumentado em 20%."
+        },
+        {
+            "level": 2,
+            "name": "Quebra-Aço",
+            "icon_url": "/assets/images/constellations/raiden_shogun/constellation_2.webp",
+            "description": "Sob o estado de Musou no Hitotachi e Musou Isshin, os ataques da Shogun Raiden, aplicados pela Arte Secreta: Musou Shinsetsu, ignoram 60% da DEF dos oponentes."
+        },
+        {
+            "level": 3,
+            "name": "Passado do Shinkage",
+            "icon_url": "/assets/images/constellations/raiden_shogun/constellation_3.webp",
+            "description": "Aumenta o Nível de Arte Secreta: Musou Shinsetsu (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Juramento de Decoro",
+            "icon_url": "/assets/images/constellations/raiden_shogun/constellation_4.webp",
+            "description": "Quando o estado de Musou Isshin aplicado pela Arte Secreta: Musou Shinsetsu expira, todos os membros da equipe próximos (exceto a Shogun Raiden) ganham 30% de Bônus de ATQ por 10s."
+        },
+        {
+            "level": 5,
+            "name": "Descendência Shogun",
+            "icon_url": "/assets/images/constellations/raiden_shogun/constellation_5.webp",
+            "description": "Aumenta o Nível de Milagre: Luz Maligna (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Portadora de Desejos",
+            "icon_url": "/assets/images/constellations/raiden_shogun/constellation_6.webp",
+            "description": "Durante o estado de Musou Isshin aplicado pela Arte Secreta: Musou Shinsetsu, quando o Supremo da Shogun Raiden atinge um inimigo irá reduzir o Tempo de Recarga do Supremo de todos os membros de equipe próximos em 1s (exceto pela Raiden Shogun em si). Este efeito pode ser desencadeado uma vez a cada 1s, e pode ser desencadeado em um total de 5 vezes durante a duração deste estado."
+        }
+    ]
+}

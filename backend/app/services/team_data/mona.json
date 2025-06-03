@@ -1,0 +1,112 @@
+[
+    {
+        "id": "mona_freeze_support",
+        "name": "Mona - Suporte para Times de Congelamento (Freeze)",
+        "strategy": "Mona aplica Hydro para reações de Congelamento, permitindo estender a duração do seu buff de Omen. Geralmente com um DPS Cryo, outro Cryo para bateria/ressonância e um Anemo para VV e agrupar.",
+        "characters_in_team": [
+            {
+                "character_id": "mona",
+                "role_in_team": "Suporte Hydro (Buffer Omen/Aplicadora Hydro)",
+                "build_key": "mona_support_omen_buffer"
+            },
+            {
+                "character_id": "ganyu",
+                "role_in_team": "Main DPS Cryo",
+                "build_key": "ganyu_freeze_dps_blizzard"
+            },
+            {
+                "character_id": "venti",
+                "role_in_team": "Suporte Anemo (Agrupamento/VV Shred/Bateria)",
+                "build_key": "venti_anemo_support_vv_stringless"
+            },
+            {
+                "character_id": "diona",
+                "role_in_team": "Suporte Cryo (Escudo/Cura/Bateria)",
+                "build_key": "diona_cryo_support_favonius_noblesse"
+            }
+        ],
+        "notes_team": "Outras opções de DPS Cryo: Ayaka. Outras opções Anemo: Kazuha, Sucrose. Outras opções Cryo Suporte: Shenhe, Rosaria."
+    },
+    {
+        "id": "mona_onfield_vaporize_dps",
+        "name": "Mona - DPS Principal de Vaporizar",
+        "strategy": "Mona maximiza seu dano pessoal através de Ataques Carregados e Supremo vaporizados. Requer aplicação Pyro consistente de suportes como Xiangling e Bennett, e um Anemo para redução de RES e buffs.",
+        "characters_in_team": [
+            {
+                "character_id": "mona",
+                "role_in_team": "Main DPS Hydro (Vaporize)",
+                "build_key": "mona_dps_hydro_carry"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro (Off-field Enabler)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer/Pyro Battery)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer/Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "mona_quickswap_electro_charged",
+        "name": "Mona - Eletricamente Carregado de Troca Rápida",
+        "strategy": "Mona aplica Hydro para manter Eletricamente Carregado com suportes Electro off-field como Fischl e Beidou. Um Anemo com Sombra Verde é ideal para reduzir RES de ambos os elementos.",
+        "characters_in_team": [
+            {
+                "character_id": "mona",
+                "role_in_team": "Sub-DPS Hydro / Enabler",
+                "build_key": "mona_dps_hydro_carry"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field Single-Target)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro (Off-field AoE)",
+                "build_key": "beidou_subdps_emblem_er_focus"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (VV Shred/Agrupamento/EM Share)",
+                "build_key": "sucrose_anemo_support_vv_sacrificial"
+            }
+        ]
+    },
+    {
+        "id": "mona_general_nuke_support",
+        "name": "Mona - Suporte Geral para Nukes",
+        "strategy": "Mona usa seu buff de Omen e potencial Histórias Extraordinárias de Caçadores de Dragões para ampliar o dano de um DPS principal que causa muito dano em um curto período (nuke). Comum em composições de 'dano por screenshot'.",
+        "characters_in_team": [
+            {
+                "character_id": "mona",
+                "role_in_team": "Suporte (Buffer Omen)",
+                "build_key": "mona_support_omen_buffer"
+            },
+            {
+                "character_id": "raiden_shogun",
+                "role_in_team": "Main DPS (Nuke Capability)",
+                "build_key": "raiden_on_field_dps_emblem"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ],
+        "notes_team": "Outros DPS com capacidade de nuke: Hu Tao, Dehya (para Vaporizar o Supremo)."
+    }
+]

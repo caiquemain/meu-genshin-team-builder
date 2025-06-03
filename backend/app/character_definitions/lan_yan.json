@@ -1,0 +1,421 @@
+{
+    "id": "lan_yan",
+    "name": "Lan Yan",
+    "title": "Jade Primaveril",
+    "element": "Anemo",
+    "rarity": 4,
+    "weapon": "Catalyst",
+    "model_type": "Medium Female",
+    "role": [
+        "Suporte (Shielder, VV Holder, Buffer)",
+        "On-Field Driver"
+    ],
+    "description_bio": "Uma renomada artesã de trançado de vime da Associação de Artesanato do Vale Chenyu. Lan Yan é conhecida por sua destreza manual e sua capacidade de criar peças que capturam a essência dos ventos e da natureza.",
+    "birthday": "6 de Janeiro",
+    "constellation_name_official": "Hirundo Lazuli",
+    "region": "Liyue (Vale Chenyu)",
+    "affiliation": [
+        "Associação de Artesanato do Vale Chenyu"
+    ],
+    "special_dish": {
+        "name": "Flores de Jade",
+        "icon_url": "/assets/images/dishes/lan_yan_jade_cut_flowers.webp"
+    },
+    "namecard_url": "/assets/images/namecards/lan_yan_silver_swallow.png",
+    "icon_url": "/assets/images/characters/lan_yan.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Lan Yan Quick Guide",
+                "url": "https://keqingmains.com/q/lan-yan-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Lan Yan",
+                "url": "https://genshin-impact.fandom.com/wiki/Lan_Yan"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "lan_yan_support_shielder_vv_favonius",
+            "name": "Suporte Escudeira (Sombra Verde - Favonius)",
+            "notes_build": "Foco em fornecer escudo, Redução de RES com 4p Sombra Verde e energia para a equipe com Códice de Favonius. A força do escudo escala com ATQ. Proficiência Elemental é útil se ela ativar Redemoinhos, mas o foco é utilidade.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Lan Yan suporte, fornecendo Redução de RES Elemental para os elementos absorvidos no Redemoinho, aumentando significativamente o dano da equipe.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Alternativa se outro personagem já estiver usando 4p Sombra Verde. Fornece um buff de ATQ% para a equipe após o Supremo de Lan Yan.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "the_exile",
+                    "set_name": "O Exilado",
+                    "pieces": 4,
+                    "notes": "Opção para jogadores mais novos com foco em Recarga de Energia para a equipe. Sacrifica stats pessoais de Lan Yan.",
+                    "icon_url": "/assets/images/artifact_sets/the_exile.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / ATK%",
+                "goblet": "ATK% / Bônus de Dano Anemo",
+                "circlet": "Taxa CRIT (para Favonius) / ATK% / Bônus de Cura (se focar na cura da C1)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~180-220% dependendo do time)",
+                "Taxa CRIT (para Códice de Favonius)",
+                "ATK%",
+                "Proficiência Elemental (EM)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Excelente para ajudar com a Recarga de Energia de Lan Yan e da equipe. Requer investimento em Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                },
+                {
+                    "weapon_id": "thrilling_tales_of_dragon_slayers",
+                    "name": "Histórias Extraordinárias de Caçadores de Dragões",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha / Baús",
+                    "notes": "R5 é uma opção de suporte muito forte, fornecendo um grande buff de ATQ% para o próximo personagem. Requer gerenciamento cuidadoso da rotação.",
+                    "icon_url": "/assets/images/weapons_detail/thrilling_tales_of_dragon_slayers.png"
+                },
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Opção F2P que fornece HP (aumentando a cura da C1) e ajuda com a Recarga de Energia de Lan Yan, além de cura para a equipe com o Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                },
+                {
+                    "weapon_id": "hakushin_ring",
+                    "name": "Anel de Hakushin",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja (Inazuma)",
+                    "notes": "Boa opção em times Eletricamente Carregados ou com DPS Electro/Hydro, fornecendo buff de Dano Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/hakushin_ring.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) (para escudo e dano)",
+                "Supremo (Burst) (para agrupamento e buff de Ritual Real, se usado)",
+                "Ataque Normal (baixa prioridade para suporte)"
+            ]
+        },
+        {
+            "key": "lan_yan_onfield_driver_vv_em",
+            "name": "Driver On-Field (Sombra Verde - Full EM)",
+            "notes_build": "Lan Yan como driver on-field, utilizando seus Ataques Normais Anemo para ativar Redemoinhos e reações elementais de colegas de equipe off-field. Maximiza Proficiência Elemental para o dano de Redemoinho. Nível 90 é recomendado.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Essencial para reduzir a RES Elemental dos inimigos e aumentar o dano de Redemoinho de Lan Yan.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / Recarga de Energia (ER%)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Proficiência Elemental (EM)",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "sacrificial_fragments",
+                    "name": "Fragmentos do Sacrifício",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Fornece alta EM e a passiva pode permitir um uso adicional da Habilidade Elemental para mais Redemoinhos e controle de grupo.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_fragments.png"
+                },
+                {
+                    "weapon_id": "a_thousand_floating_dreams",
+                    "name": "Mil Sonhos Flutuantes",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "'Stat stick' de EM que também pode buffar a EM da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/a_thousand_floating_dreams.png"
+                },
+                {
+                    "weapon_id": "magic_guide",
+                    "name": "Guia de Magia",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha / Baús",
+                    "notes": "Opção F2P com EM. A passiva é útil em times Eletricamente Carregados.",
+                    "icon_url": "/assets/images/weapons_detail/magic_guide.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem para 90",
+                "Ataque Normal (para ativar Redemoinhos on-field)",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 821,
+            "base_atk": 18,
+            "base_def": 50,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 2688,
+            "base_atk": 59,
+            "base_def": 162,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 4459,
+            "base_atk": 98,
+            "base_def": 269,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 5722,
+            "base_atk": 125,
+            "base_def": 345,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 6800,
+            "base_atk": 149,
+            "base_def": 410,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 7937,
+            "base_atk": 174,
+            "base_def": 480,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 9694,
+            "base_atk": 212,
+            "base_def": 585,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Núcleo da Fonte Secreta com Inscrição Dourada",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/gold_inscribed_secret_source_core.webp"
+        },
+        {
+            "name": "Lasca de Turquesa Vayuda",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_chunk.webp"
+        },
+        {
+            "name": "Gema de Turquesa Vayuda",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_gemstone.webp"
+        },
+        {
+            "name": "Jade Cristalino",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/clearwater_jade.webp"
+        },
+        {
+            "name": "Apito de Madeira de Sentinela",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/sentrys_wooden_whistle.webp"
+        },
+        {
+            "name": "Apito de Metal de Guerreiro",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/warriors_metal_whistle.webp"
+        },
+        {
+            "name": "Apito Dourado de Guerreiro Sauriano Coroado",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/saurian_crowned_warriors_golden_whistle.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Artesanato do Vento Cortante",
+            "icon_url": "/assets/images/talents/lan_yan/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 3 ataques, causando Dano Anemo.\nAtaque Carregado: Consome uma certa quantidade de Stamina e dispara um tiro, causando Dano Anemo em AdE.\nAtaque Imersivo: Mergulha em direção ao chão do ar, danificando todos os oponentes no caminho. Causa Dano Anemo em AdE no impacto com o chão."
+        },
+        "elemental_skill": {
+            "name": "Escudo Tecido pelo Vento",
+            "icon_url": "/assets/images/talents/lan_yan/talent_elemental_skill.webp",
+            "description": "Pressionar: Lan Yan usa os ventos para criar um Escudo do Vento Gentil que causa Dano Anemo em AdE aos oponentes próximos. O Escudo do Vento Gentil absorve DANO baseado no ATQ de Lan Yan e é 250% mais eficaz em absorver Dano Anemo. Após ser destruído ou sua duração expirar, ele causará Dano Anemo em AdE novamente. Manter Pressionado: Entra no Modo de Mira para selecionar um local. Ao soltar, Lan Yan se teleporta para o local selecionado e libera um Escudo do Vento Gentil. Só pode ser usado uma vez enquanto no ar."
+        },
+        "elemental_burst": {
+            "name": "Santuário da Andorinha Prateada",
+            "icon_url": "/assets/images/talents/lan_yan/talent_elemental_burst.webp",
+            "description": "Cria um Olho do Santuário da Andorinha Prateada que causa Dano Anemo em AdE aos oponentes próximos. Por sua duração, o Olho do Santuário puxará continuamente oponentes e objetos próximos e causará Dano Anemo em AdE aos oponentes dentro de sua AdE a cada segundo. Absorção Elemental: Se o Olho do Santuário entrar em contato com Hydro/Pyro/Cryo/Electro, ele absorverá esse elemento e causará DANO adicional desse tipo elemental. A Absorção Elemental pode ocorrer apenas uma vez durante a duração desta habilidade."
+        },
+        "passives": [
+            {
+                "name": "Laços da Brisa Suave",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/lan_yan/talent_passive_a1.webp",
+                "description": "Quando o Escudo do Vento Gentil de Lan Yan cura um membro da equipe através de sua Constelação Nv.1 \"Tecelã da Proteção Sedosa\" enquanto ela não está em campo, sua duração é estendida em 6s. Este efeito pode ocorrer uma vez a cada 12s."
+            },
+            {
+                "name": "Artesanato Reverenciado",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/lan_yan/talent_passive_a4.webp",
+                "description": "Quando membros da equipe próximos causam DANO Elemental, eles ganham um Bônus de DANO Anemo de 15% por 10s. Este efeito não se acumula."
+            },
+            {
+                "name": "Dedos Ágeis da Artesã",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/lan_yan/talent_passive_utility.webp",
+                "description": "Quando Lan Yan cria materiais de Elevação de Personagem e Arma, ela tem 10% de chance de obter o dobro do produto."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Apito de Madeira de Sentinela",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/sentrys_wooden_whistle.webp"
+        },
+        {
+            "name": "Apito de Metal de Guerreiro",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/warriors_metal_whistle.webp"
+        },
+        {
+            "name": "Apito Dourado de Guerreiro Sauriano Coroado",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/saurian_crowned_warriors_golden_whistle.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Esforço\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_diligence.webp"
+        },
+        {
+            "name": "Guia da \"Esforço\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_diligence.webp"
+        },
+        {
+            "name": "Filosofia da \"Esforço\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_diligence.webp"
+        },
+        {
+            "name": "Chamas Solares Erodidas",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/eroded_sunfire.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Tecelã da Proteção Sedosa",
+            "icon_url": "/assets/images/constellations/lan_yan/constellation_1.webp",
+            "description": "Quando o Escudo do Vento Gentil é criado, ele curará o personagem ativo atual em 6% do ATQ de Lan Yan a cada segundo por 5s."
+        },
+        {
+            "level": 2,
+            "name": "Canção da Andorinha Prateada",
+            "icon_url": "/assets/images/constellations/lan_yan/constellation_2.webp",
+            "description": "A duração do Olho do Santuário da Andorinha Prateada criado pelo Supremo Elemental Santuário da Andorinha Prateada é aumentada em 3s."
+        },
+        {
+            "level": 3,
+            "name": "Ventos da Manhã Serena",
+            "icon_url": "/assets/images/constellations/lan_yan/constellation_3.webp",
+            "description": "Aumenta o Nível de Escudo Tecido pelo Vento em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Guardiã do Vale Verdejante",
+            "icon_url": "/assets/images/constellations/lan_yan/constellation_4.webp",
+            "description": "Quando o Escudo do Vento Gentil de Lan Yan é destruído ou sua duração expira, ela ganhará 15 de Energia Elemental."
+        },
+        {
+            "level": 5,
+            "name": "Olho da Tempestade Tranquila",
+            "icon_url": "/assets/images/constellations/lan_yan/constellation_5.webp",
+            "description": "Aumenta o Nível de Santuário da Andorinha Prateada em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Espírito Livre do Vento",
+            "icon_url": "/assets/images/constellations/lan_yan/constellation_6.webp",
+            "description": "Quando Lan Yan está no estado Bênção da Alma da Noite, todos os membros da equipe próximos (incluindo Lan Yan) ganham 10% de Bônus de DANO Anemo e 10% de Bônus de Vel. de Movimento."
+        }
+    ]
+}

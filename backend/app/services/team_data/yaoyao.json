@@ -1,0 +1,110 @@
+[
+    {
+        "id": "yaoyao_nilou_bloom_nahida_xingqiu",
+        "name": "Yaoyao - Nilou Bloom (Nilou, Nahida, Xingqiu)",
+        "strategy": "Yaoyao como curandeira e aplicadora Dendro secundária em times de Florescimento de Nilou. Sua cura é essencial para mitigar o auto-dano das Sementes da Abundância. Nahida para aplicação Dendro principal e Xingqiu para aplicação Hydro off-field.",
+        "characters_in_team": [
+            {
+                "character_id": "yaoyao",
+                "role_in_team": "Healer / Aplicadora Dendro Secundária",
+                "build_key": "yaoyao_healer_deepwood_favonius"
+            },
+            {
+                "character_id": "nilou",
+                "role_in_team": "Ativadora de Florescimento Abundante / Aplicadora Hydro",
+                "build_key": "nilou_bountiful_bloom_hp_focus"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Principal / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            }
+        ]
+    },
+    {
+        "id": "yaoyao_hyperbloom_kuki_shinobu_xingqiu_dendro_traveler",
+        "name": "Yaoyao - Hyperbloom (Kuki Shinobu, Xingqiu, Viajante Dendro)",
+        "strategy": "Yaoyao fornece cura e aplicação Dendro para times de Hiperflorecimento. Kuki Shinobu ativa Hiperflorecimento e cura adicional. Xingqiu para aplicação Hydro e Viajante Dendro para mais Dendro e buffs.",
+        "characters_in_team": [
+            {
+                "character_id": "yaoyao",
+                "role_in_team": "Healer / Aplicadora Dendro",
+                "build_key": "yaoyao_healer_deepwood_favonius"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer Principal / Ativadora de Hyperbloom (Full EM)",
+                "build_key": "kuki_shinobu_hyperbloom_full_em_flowerofparadiselost"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "traveler_dendro",
+                "role_in_team": "Aplicador Dendro Off-field / Suporte",
+                "build_key": "traveler_dendro_offfield_support_deepwood_favonius"
+            }
+        ]
+    },
+    {
+        "id": "yaoyao_aggravate_keqing_fischl_kazuha",
+        "name": "Yaoyao - Suporte Aggravate (Keqing, Fischl, Kazuha)",
+        "strategy": "Yaoyao como curandeira e aplicadora Dendro em times de Agravamento. Keqing como driver Electro, Fischl para dano off-field e Kazuha para Sombra Verde e buffs. Yaoyao pode usar 4p Instrutor para buffar EM.",
+        "characters_in_team": [
+            {
+                "character_id": "yaoyao",
+                "role_in_team": "Healer / Aplicadora Dendro (Pode usar Instrutor)",
+                "build_key": "yaoyao_healer_deepwood_favonius"
+            },
+            {
+                "character_id": "keqing",
+                "role_in_team": "Main DPS Electro On-field (Aggravate Driver)",
+                "build_key": "keqing_aggravate_dps_thunderingfury"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "yaoyao_burgeon_thoma_xingqiu_flex_hydro_dendro",
+        "name": "Yaoyao - Burgeon (Thoma, Xingqiu, Flex Hydro/Dendro)",
+        "strategy": "Yaoyao como curandeira e aplicadora Dendro em times de Germinação. Thoma (full EM) ativa Germinação. Xingqiu para aplicação Hydro. O slot flexível pode ser outro Hydro para mais sementes ou outro Dendro para ressonância.",
+        "characters_in_team": [
+            {
+                "character_id": "yaoyao",
+                "role_in_team": "Healer / Aplicadora Dendro",
+                "build_key": "yaoyao_healer_deepwood_favonius"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Ativador de Germinação (Full EM) / Escudeiro",
+                "build_key": "thoma_burgeon_full_em_kitain_or_dragons_bane"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "collei",
+                "role_in_team": "Aplicadora Dendro Off-field / Ressonância Dendro (Flex)",
+                "build_key": "collei_support_deepwood_favonius"
+            }
+        ]
+    }
+]

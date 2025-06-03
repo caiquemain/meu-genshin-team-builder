@@ -1,0 +1,83 @@
+[
+    {
+        "id": "lan_yan_ororon_yelan_yae_miko_taser_driver",
+        "name": "Lan Yan - Taser Driver (Ororon, Yelan, Yae Miko)",
+        "strategy": "Lan Yan como driver on-field para um time Eletricamente Carregado (Taser). Ororon, Yelan e Yae Miko fornecem dano e aplicação elemental off-field. Lan Yan aplica Redemoinhos e Sombra Verde.",
+        "characters_in_team": [
+            {
+                "character_id": "lan_yan",
+                "role_in_team": "Driver Anemo On-field / Suporte (VV Holder, Shielder)",
+                "build_key": "lan_yan_onfield_driver_vv_em"
+            },
+            {
+                "character_id": "ororon",
+                "role_in_team": "Sub-DPS Electro Off-field / Buffer (4p Pergaminho)",
+                "build_key": "ororon_offfield_dps_scroll_of_cinder_city"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "yae_miko",
+                "role_in_team": "Sub-DPS Electro Off-field",
+                "build_key": "yae_miko_offfield_dps_golden_troupe_aggravate"
+            }
+        ]
+    },
+    {
+        "id": "lan_yan_faruzan_bennett_wanderer_anemo_dps_support",
+        "name": "Lan Yan - Suporte DPS Anemo (Andarilho, Faruzan, Bennett)",
+        "strategy": "Lan Yan como suporte para um DPS Anemo como o Andarilho, fornecendo escudo e Sombra Verde. Faruzan para buffs de Dano Anemo e RES Shred Anemo. Bennett para ATQ e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "lan_yan",
+                "role_in_team": "Suporte Anemo (Shielder, VV Holder)",
+                "build_key": "lan_yan_support_shielder_vv_favonius"
+            },
+            {
+                "character_id": "wanderer",
+                "role_in_team": "Main DPS Anemo On-field",
+                "build_key": "wanderer_anemo_dps_desert_pavilion_or_shimenawa"
+            },
+            {
+                "character_id": "faruzan",
+                "role_in_team": "Suporte Anemo (Buffer de Dano Anemo & RES Shred Anemo)",
+                "build_key": "faruzan_anemo_buffer_noblesse_favonius_er_c6_tenacity"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "lan_yan_mono_hydro_furina_yelan_xingqiu",
+        "name": "Lan Yan - Suporte Mono Hydro (Furina, Yelan, Xingqiu)",
+        "strategy": "Lan Yan como portadora de Sombra Verde em um time Mono Hydro para reduzir a RES Hydro dos inimigos. Sua cura C1 e escudo ajudam com a sobrevivência, especialmente com Furina.",
+        "characters_in_team": [
+            {
+                "character_id": "lan_yan",
+                "role_in_team": "Suporte Anemo (VV Holder, Shielder, Healer C1)",
+                "build_key": "lan_yan_support_shielder_vv_favonius"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer de Dano (Off-field)",
+                "build_key": "furina_subdps_golden_troupe_favonius"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field / Redução de Dano",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            }
+        ]
+    }
+]

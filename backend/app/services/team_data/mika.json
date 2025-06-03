@@ -1,0 +1,142 @@
+[
+    {
+        "id": "mika_eula_physical_support",
+        "name": "Mika - Suporte Físico para Eula",
+        "strategy": "Mika fornece buffs de Dano Físico e Velocidade de ATQ para Eula, além de cura.  Requer outro Cryo para bateria/ressonância e um Electro para Supercondutor.  O buff de Vel. ATQ de Mika (13% no Nv.1 da Habilidade) já permite que Eula ganhe um acúmulo extra em seu Supremo (de 13 para 14). ",
+        "characters_in_team": [
+            {
+                "character_id": "mika",
+                "role_in_team": "Suporte (Healer/Buffer Físico)",
+                "build_key": "mika_support_healer_favonius"
+            },
+            {
+                "character_id": "eula",
+                "role_in_team": "Main DPS (Físico)",
+                "build_key": "eula_physical_hypercarry_ стандарт"
+            },
+            {
+                "character_id": "raiden_shogun",
+                "role_in_team": "Sub-DPS Electro (Supercondutor Enabler/Battery)",
+                "build_key": "raiden_off_field_electro_support"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Suporte Cryo (Bateria/Buff Taxa CRIT/RES Shred Físico com C6)",
+                "build_key": "rosaria_cryo_support_favonius"
+            }
+        ],
+        "example_rotations": [
+            {
+                "name": "Eula com Fischl e Rosaria",
+                "rotation_steps": "Fischl E/Q > Rosaria E > Eula tE > Mika Q (h)E > Rosaria Q > Eula Q Combo* > Rosaria E > Eula N4 hE N4*. *O combo ideal da Eula depende da Vel. de ATQ. "
+            },
+            {
+                "name": "Eula com Raiden e Shenhe",
+                "rotation_steps": "Raiden E > Eula tE N2 > Mika Q > Shenhe tE Q > Mika (h)E > (N1) Eula Q N4 hE N4* > Shenhe tE N1 > Raiden Q 3[N3C]. *O combo ideal da Eula depende da Vel. de ATQ. "
+            },
+            {
+                "name": "Eula com Raiden e Furina",
+                "rotation_steps": "Raiden E > Furina E(D) Q > Mika Q (h)E > Eula tE Q N4 hE N4* > Raiden Q 3[N3C]. *O combo ideal da Eula depende da Vel. de ATQ. "
+            }
+        ]
+    },
+    {
+        "id": "mika_freminet_physical_support",
+        "name": "Mika - Suporte Físico para Freminet",
+        "strategy": "Mika buffa o Dano Físico de Freminet e oferece cura. A Vel. de ATQ melhora o conforto dos combos.  Recomenda-se Hydro para Quebrar Gelo (Shatter) devido à sinergia de Freminet com essa reação, e Electro para Supercondutor. ",
+        "characters_in_team": [
+            {
+                "character_id": "mika",
+                "role_in_team": "Suporte (Healer/Buffer Físico)",
+                "build_key": "mika_support_healer_favonius"
+            },
+            {
+                "character_id": "freminet",
+                "role_in_team": "Main DPS (Físico)",
+                "build_key": "freminet_physical_dps"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Supercondutor Enabler)",
+                "build_key": "fischl_off_field_electro_golden_troupe"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro (Shatter Enabler/DMG Buff)",
+                "build_key": "yelan_off_field_hydro_support_emblem"
+            }
+        ],
+        "example_rotations": [
+            {
+                "name": "Freminet com Fischl e Yelan",
+                "rotation_steps": "Fischl E/Q > Yelan E Q (N1)* > Mika Q (N1*) (h)E > Freminet (N1*) E Q N3 2[E N3 (N1)]. *Ataques Normais entre habilidades aumentam as ativações do Supremo da Yelan. "
+            }
+        ]
+    },
+    {
+        "id": "mika_wanderer_atk_spd_buffer",
+        "name": "Mika - Buffer de Vel. de ATQ para Andarilho",
+        "strategy": "Mika foca em fornecer Vel. de ATQ para o Andarilho (Wanderer), que se beneficia por não ter hitlag em seus ataques.  A cura de Mika é um bônus. Geralmente combinado com Bennett e Faruzan C6. Mika pode ter RE mínima se Bennett for o curandeiro principal. ",
+        "characters_in_team": [
+            {
+                "character_id": "mika",
+                "role_in_team": "Buffer (Velocidade de ATQ)",
+                "build_key": "mika_support_healer_favonius"
+            },
+            {
+                "character_id": "wanderer",
+                "role_in_team": "Main DPS (Anemo)",
+                "build_key": "wanderer_anemo_dps_desert_pavilion"
+            },
+            {
+                "character_id": "faruzan",
+                "role_in_team": "Suporte Anemo (Buffer/RES Shred)",
+                "build_key": "faruzan_anemo_support_c6_favonius"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ],
+        "example_rotations": [
+            {
+                "name": "Andarilho com Bennett e Faruzan",
+                "rotation_steps": "Faruzan (E CA) Q > Mika tE (Q*) > Bennett tE Q > Andarilho (CA) E NA-spam (Q) > Bennett tE. *Supremo de Mika opcional se Bennett curar e usar Ritual Real. "
+            }
+        ]
+    },
+    {
+        "id": "mika_furina_healer_flex",
+        "name": "Mika - Curandeiro Geral (Times com Furina)",
+        "strategy": "Mika atua como curandeiro para maximizar os buffs de Furina, com sua cura em área no Supremo e cura contínua.  Sua baixa aplicação Cryo e tempo de campo mínimo o tornam flexível para diversos núcleos de equipe. ",
+        "characters_in_team": [
+            {
+                "character_id": "mika",
+                "role_in_team": "Curandeiro",
+                "build_key": "mika_support_healer_favonius"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            },
+            {
+                "character_id": "raiden_shogun",
+                "role_in_team": "Main DPS Electro / Bateria",
+                "build_key": "raiden_on_field_dps_emblem"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Sub-DPS Dendro / Enabler",
+                "build_key": "nahida_off_field_dendro_deepwood"
+            }
+        ],
+        "example_rotations": [
+            {
+                "name": "Raiden Hyperbloom com Furina e Nahida",
+                "rotation_steps": "Raiden E > Furina E(D) Q > Nahida (h)E (Q) > Mika Q tE (N1) > Raiden Q 3[N3C] N1C*. *Com Vel. de ATQ suficiente, o último N1C da Raiden pode ser N2C ou N3C. "
+            }
+        ]
+    }
+]

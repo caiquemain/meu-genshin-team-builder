@@ -1,0 +1,443 @@
+{
+    "id": "lynette",
+    "name": "Lynette",
+    "title": "Elegância nas Sombras",
+    "element": "Anemo",
+    "rarity": 4,
+    "weapon": "Sword",
+    "model_type": "Medium Female",
+    "role": [
+        "Off-Field Anemo DPS/Support (VV Holder, Taunt)",
+        "On-Field Anemo DPS (C6)"
+    ],
+    "description_bio": "Uma assistente de mágico de fala mansa e poucas emoções, Lynette é a irmã gêmea mais nova de Lyney. Sua lógica e discrição complementam o talento extravagante de seu irmão, tornando-os uma dupla de mágicos renomada.",
+    "birthday": "2 de Fevereiro",
+    "constellation_name_official": "Felis Alba",
+    "region": "Fontaine",
+    "affiliation": [
+        "Hotel Bouffes d'ete",
+        "Casa da Lareira (Fatui)"
+    ],
+    "special_dish": {
+        "name": "Gole Descontraído",
+        "icon_url": "/assets/images/dishes/lynette_a_leisurely_sip.webp"
+    },
+    "namecard_url": "/assets/images/namecards/lynette_earnestness.png",
+    "icon_url": "/assets/images/characters/lynette.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Lynette Quick Guide",
+                "url": "https://keqingmains.com/q/lynette-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Lynette",
+                "url": "https://genshin-impact.fandom.com/wiki/Lynette"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "lynette_support_vv_favonius",
+            "name": "Suporte Anemo (Sombra Verde - Favonius)",
+            "notes_build": "Foco em fornecer Redução de RES com 4p Sombra Verde, utilidade com a provocação (Taunt) de sua Habilidade Elemental e geração de energia para a equipe com Espada de Favonius. Pré-C6, o dano pessoal de Lynette é baixo, então utilidade é prioridade.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Lynette suporte, permitindo que ela reduza a RES Elemental dos inimigos e aumente o dano de Redemoinho. Essencial na maioria de seus times.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Opção viável se outro personagem já estiver usando 4p Sombra Verde. Fornece um buff de ATQ% para a equipe após o Supremo de Lynette.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / ATK%",
+                "goblet": "Bônus de Dano Anemo / ATK%",
+                "circlet": "Taxa CRIT (para Favonius) / Dano CRIT / ATK%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~180-220% dependendo do time e C4)",
+                "Taxa CRIT (para Espada de Favonius)",
+                "ATK%",
+                "Dano CRIT"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha / Missão",
+                    "notes": "Uma das melhores opções para Lynette suporte, ajudando com a Recarga de Energia dela e da equipe. Requer investimento em Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "fleuve_cendre_ferryman",
+                    "name": "Cruzamento de Fleuve Cendre",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "F2P (Pesca)",
+                    "notes": "Opção F2P sólida que fornece alta RE e um pouco de Taxa CRIT para a Habilidade Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/fleuve_cendre_ferryman.png"
+                },
+                {
+                    "weapon_id": "sacrificial_sword",
+                    "name": "Espada do Sacrifício",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Permite um uso adicional da Habilidade Elemental para mais dano, partículas e Redemoinhos. Refinos altos são recomendados.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_sword.png"
+                },
+                {
+                    "weapon_id": "skyward_blade",
+                    "name": "Lâmina Celestial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Fornece RE e alto ATQ Base. Boa opção se disponível.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_blade.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (baixa prioridade, a menos que C6)"
+            ]
+        },
+        {
+            "key": "lynette_c6_onfield_anemo_dps",
+            "name": "C6 DPS Anemo On-field (Sombra Verde - ADC)",
+            "notes_build": "Com C6, Lynette ganha Infusão Anemo e Bônus de Dano Anemo, permitindo um estilo de jogo DPS on-field. Prioriza stats ADC (ATQ%/Dano Anemo/CRIT) enquanto ainda usa 4p Sombra Verde para utilidade.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Ainda o melhor conjunto devido à Redução de RES e aumento do Dano de Redemoinho, mesmo para DPS on-field.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "desert_pavilion_chronicle",
+                    "set_name": "Crônicas do Pavilhão do Deserto",
+                    "pieces": 4,
+                    "notes": "Opção para maximizar o dano do Ataque Normal/Carregado de Lynette C6. Requer um Ataque Carregado para ativar.",
+                    "icon_url": "/assets/images/artifact_sets/desert_pavilion_chronicle.png"
+                },
+                {
+                    "set_id": "anemo_atk_2pc_mix_lynette_c6",
+                    "set_name": "Dano Anemo (2p) + ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Alternativa se não tiver um bom conjunto 4p Sombra Verde ou Pavilhão do Deserto com stats ofensivos. (Ex: Sombra Verde + Gladiador).",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "viridescent_venerer",
+                        "gladiators_finale"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Anemo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Recarga de Energia (ER%) (meta mais baixa com C4, ~140-160%)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Excelente opção para dano, fornecendo Dano CRIT e Bônus de Dano Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Alto ATQ Base e Taxa CRIT massiva. Muito consistente.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "uraku_misugiri",
+                    "name": "Urakugo Rensai (Uraku Misugiri)",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Ótima opção com Dano CRIT e buffs para Ataque Normal e Habilidade Elemental, especialmente com um colega Geo.",
+                    "icon_url": "/assets/images/weapons_detail/uraku_misugiri.png"
+                },
+                {
+                    "weapon_id": "wolf_fang",
+                    "name": "Presa do Lobo",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Passe de Batalha",
+                    "notes": "Melhor opção 4 estrelas do Passe de Batalha, fornecendo Taxa CRIT e buffs para Habilidade e Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/wolf_fang.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal (para C6)",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 963,
+            "base_atk": 19,
+            "base_def": 55,
+            "bonus_stat_label": "Bônus de Dano Anemo",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3147,
+            "base_atk": 62,
+            "base_def": 179,
+            "bonus_stat_label": "Bônus de Dano Anemo",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5218,
+            "base_atk": 103,
+            "base_def": 297,
+            "bonus_stat_label": "Bônus de Dano Anemo",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6700,
+            "base_atk": 132,
+            "base_def": 382,
+            "bonus_stat_label": "Bônus de Dano Anemo",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7975,
+            "base_atk": 157,
+            "base_def": 454,
+            "bonus_stat_label": "Bônus de Dano Anemo",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9243,
+            "base_atk": 182,
+            "base_def": 526,
+            "bonus_stat_label": "Bônus de Dano Anemo",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 11284,
+            "base_atk": 223,
+            "base_def": 643,
+            "bonus_stat_label": "Bônus de Dano Anemo",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Engrenagem Artificiada Sobressalente: Coppelius",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/artificed_spare_clockwork_component_coppelius.webp"
+        },
+        {
+            "name": "Lasca de Turquesa Vayuda",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_chunk.webp"
+        },
+        {
+            "name": "Gema de Turquesa Vayuda",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_gemstone.webp"
+        },
+        {
+            "name": "Lumidouce Bell",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/lumidouce_bell.webp"
+        },
+        {
+            "name": "Engrenagem Meshing",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/meshing_gear.webp"
+        },
+        {
+            "name": "Engrenagem Mecânica",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/mechanical_spur_gear.webp"
+        },
+        {
+            "name": "Engrenagem Artificiada Dinâmica",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/artificed_dynamic_gear.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Lâmina Convidativa Rápida",
+            "icon_url": "/assets/images/talents/lynette/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 golpes rápidos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando inimigos ao longo do caminho e causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Mistério Obscurecedor",
+            "icon_url": "/assets/images/talents/lynette/talent_elemental_skill.webp",
+            "description": "Lynette sacode sua capa e executa um Enigma Thrust, causando Dano Anemo.\nQuando o Enigma Thrust atinge um oponente, ele restaurará o HP de Lynette com base em seu HP Máx, e nos 4s seguintes, ela perderá uma certa quantidade de HP por segundo.\nPressionar: Lynette executa rapidamente um Enigma Thrust.\nManter Pressionado: Lynette entrará no estado \"Sombra Enigmática\" de alta velocidade e aplicará uma Marca Sombria a um oponente próximo. Quando este estado terminar, Lynette desferirá seu Enigma Thrust. Se houver um oponente com uma Marca Sombria próximo, Lynette se aproximará dele em um instante antes de usar Enigma Thrust.\nNo máximo 1 oponente pode ser marcado pela Marca Sombria por vez. Quando um oponente marcado estiver muito longe de Lynette, a Marca será cancelada.\nArkhe: Ousia: Em certos intervalos, quando Lynette usar Enigma Thrust, ela liberará uma Lâmina da Torrente Fluente que causa Dano Anemo alinhado a Ousia."
+        },
+        "elemental_burst": {
+            "name": "Truque de Mágica: Alteração Surpreendente",
+            "icon_url": "/assets/images/talents/lynette/talent_elemental_burst.webp",
+            "description": "Lynette levanta sua capa no alto, causando Dano Anemo em AdE e usando truques surpreendentes para invocar uma Caixa Felina Bizarra!\nCaixa Felina Bizarra:\n- Provoca oponentes próximos, atraindo seus ataques.\n- Causa Dano Anemo a oponentes próximos em intervalos.\n- Quando a Caixa Felina Bizarra entrar em contato com Hydro/Pyro/Cryo/Electro, ela absorverá esse elemento e disparará adicionalmente Tiros Vívidos que causam DANO desse tipo elemental em intervalos. A Absorção Elemental pode ocorrer apenas uma vez durante a duração desta habilidade."
+        },
+        "passives": [
+            {
+                "name": "Sinergia Sofisticada",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/lynette/talent_passive_a1.webp",
+                "description": "Dentro de 10s após Truque de Mágica: Alteração Surpreendente liberar uma Caixa Felina Bizarra, quando houver 1/2/3/4 Tipos Elementais presentes na equipe, o ATQ de todos os membros da equipe será aumentado em 8%/12%/16%/20% respectivamente."
+            },
+            {
+                "name": "Adereços Bem Preparados",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/lynette/talent_passive_a4.webp",
+                "description": "Após a Caixa Felina Bizarra invocada por Truque de Mágica: Alteração Surpreendente realizar uma Conversão Elemental, o DANO do Supremo Elemental de Lynette aumentará em 15%. Este efeito persistirá até a duração da Caixa Felina Bizarra terminar."
+            },
+            {
+                "name": "Ponto de Vista",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/lynette/talent_passive_utility.webp",
+                "description": "Mostra a localização de Orbes de Recuperação próximos no minimapa. A AdE em que os Orbes de Recuperação são restaurados é aumentada em 25%."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Engrenagem Meshing",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/meshing_gear.webp"
+        },
+        {
+            "name": "Engrenagem Mecânica",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/mechanical_spur_gear.webp"
+        },
+        {
+            "name": "Engrenagem Artificiada Dinâmica",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/artificed_dynamic_gear.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Ordem\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_order.webp"
+        },
+        {
+            "name": "Guia da \"Ordem\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_order.webp"
+        },
+        {
+            "name": "Filosofia da \"Ordem\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_order.webp"
+        },
+        {
+            "name": "Flor Eterna do Sonho Evanescente",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/everamber.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Lâmina da Fenda Enigmática",
+            "icon_url": "/assets/images/constellations/lynette/constellation_1.webp",
+            "description": "Quando o Enigma Thrust de Mistério Obscurecedor atinge um oponente marcado com uma Marca Sombria, um vórtice será liberado na posição do oponente que puxará oponentes próximos."
+        },
+        {
+            "level": 2,
+            "name": "Mistério da Mente Aguçada",
+            "icon_url": "/assets/images/constellations/lynette/constellation_2.webp",
+            "description": "Quando a Caixa Felina Bizarra disparada por Truque de Mágica: Alteração Surpreendente dispara um Tiro Vívido, ela disparará um Tiro Vívido adicional."
+        },
+        {
+            "level": 3,
+            "name": "Cognição Invertida",
+            "icon_url": "/assets/images/constellations/lynette/constellation_3.webp",
+            "description": "Aumenta o Nível de Truque de Mágica: Alteração Surpreendente em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Compreensão Tácita",
+            "icon_url": "/assets/images/constellations/lynette/constellation_4.webp",
+            "description": "Mistério Obscurecedor ganha 1 carga adicional."
+        },
+        {
+            "level": 5,
+            "name": "Obstrução da Visão",
+            "icon_url": "/assets/images/constellations/lynette/constellation_5.webp",
+            "description": "Aumenta o Nível de Mistério Obscurecedor em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Verdade Revelada",
+            "icon_url": "/assets/images/constellations/lynette/constellation_6.webp",
+            "description": "Quando Lynette usa o Enigma Thrust de Mistério Obscurecedor, ela ganhará uma Infusão Anemo e 20% de Bônus de Dano Anemo por 6s."
+        }
+    ]
+}

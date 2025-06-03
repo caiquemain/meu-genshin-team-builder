@@ -1,0 +1,502 @@
+{
+    "id": "mona",
+    "name": "Mona",
+    "title": "Reflexão Astral",
+    "element": "Hydro",
+    "rarity": 5,
+    "weapon": "Catalyst",
+    "model_type": "Medium Female",
+    "role": [
+        "Support",
+        "Sub-DPS",
+        "Burst DPS"
+    ],
+    "description_bio": "Mona Megistus é uma misteriosa jovem astróloga que se proclama \"Grande Astróloga Mona Megistus\" e possui habilidades para igualar o título. Erudita e orgulhosa, apesar de estar frequentemente com dificuldades financeiras e levar uma vida frugal, ela rejeita veementemente usar a astrologia para obter lucro.",
+    "birthday": "31 de Agosto",
+    "constellation_name_official": "Astrolabos",
+    "region": "Mondstadt",
+    "affiliation": [
+        "Mondstadt",
+        "Pássaro a Vapor"
+    ],
+    "special_dish": {
+        "name": "Sabedoria Suprema (Vida)",
+        "icon_url": "/assets/images/dishes/mona_sabedoria_suprema_vida.webp"
+    },
+    "namecard_url": "/assets/images/namecards/mona_starry_sky.png",
+    "icon_url": "/assets/images/characters/mona.png",
+    "element_icon_url": "/assets/images/elements/element_hydro.png",
+    "updated_date": "2025-06-01",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Mona Full Guide (Outdated for builds)",
+                "url": "https://keqingmains.com/mona/"
+            },
+            {
+                "name": "KQM Mona Quick Guide",
+                "url": "https://keqingmains.com/q/mona-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Mona",
+                "url": "https://genshin-impact.fandom.com/wiki/Mona"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Mona",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Mona"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "mona_support_omen_buffer",
+            "name": "Suporte (Buffer de Omen / Aplicadora Hydro)",
+            "notes_build": "Focada em maximizar o buff de Dano do Presságio (Omen) de seu Supremo e fornecer utilidade com aplicação Hydro e potencial uso de Histórias Extraordinárias de Caçadores de Dragões. Requer alta Recarga de Energia.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Melhor opção para buff de ATQ para a equipe.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Buff de ATQ para a equipe, mas com uptime limitado pela Habilidade Elemental de Mona. Usar se outro personagem já usa Ritual Real.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                },
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Confortável para atingir alta RE e maximizar o dano pessoal do Supremo de Mona em times onde ela precisa de muita RE (ex: Congelamento).",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia% / ATQ%",
+                "goblet": "Bônus de Dano Hydro% / ATQ%",
+                "circlet": "Taxa CRIT% / Dano CRIT% (ou Recarga de Energia% se necessário)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até o requisito, ~220-300% dependendo da equipe)",
+                "Taxa CRIT / Dano CRIT",
+                "ATQ%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Excelente para as necessidades de RE de Mona e da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                },
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Opção de forja que reduz a RE necessária e oferece cura para a equipe, útil em times Congelamento.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                },
+                {
+                    "weapon_id": "thrilling_tales_of_dragon_slayers",
+                    "name": "Histórias Extraordinárias de Caçadores de Dragões",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Buff massivo de ATQ para o próximo personagem, mas dificulta atingir a RE de Mona.",
+                    "icon_url": "/assets/images/weapons_detail/thrilling_tales_of_dragon_slayers.png"
+                },
+                {
+                    "weapon_id": "oathsworn_eye",
+                    "name": "Olho do Juramento",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Evento",
+                    "notes": "Opção de evento (V2.5) com ATQ% e passiva que ajuda na RE.",
+                    "icon_url": "/assets/images/weapons_detail/oathsworn_eye.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        },
+        {
+            "key": "mona_dps_hydro_carry",
+            "name": "DPS On-Field (Vaporizar / Eletricamente Carregado)",
+            "notes_build": "Focada em seu dano pessoal através de Ataques Carregados e Supremo, utilizando reações de Vaporizar ou Eletricamente Carregado.",
+            "artifacts": [
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Melhor para nuke de Supremo em times de Vaporizar, mas não buffa Ataques Carregados.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "heart_of_depth",
+                    "set_name": "Profundezas do Coração",
+                    "pieces": 4,
+                    "notes": "Bom para Eletricamente Carregado, buffa Ataques Normais/Carregados após Habilidade Elemental, mas não o Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/heart_of_depth.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Competitivo para times de Vaporizar devido à Proficiência Elemental e ATQ%.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "wanderers_troupe",
+                    "set_name": "Trupe Itinerante",
+                    "pieces": 4,
+                    "notes": "Forte para Vaporizar Ataques Carregados, mas não buffa o Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/wanderers_troupe.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ% / Proficiência Elemental (para Vaporizar)",
+                "goblet": "Bônus de Dano Hydro%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até o requisito, ~160-250%)",
+                "Taxa CRIT / Dano CRIT",
+                "ATQ%",
+                "Proficiência Elemental (para Vaporizar)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "lost_prayer_to_the_sacred_winds",
+                    "name": "Oração Perdida aos Ventos Sagrados",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Forte com Taxa CRIT, passiva requer tempo em campo.",
+                    "icon_url": "/assets/images/weapons_detail/lost_prayer_to_the_sacred_winds.png"
+                },
+                {
+                    "weapon_id": "kaguras_verity",
+                    "name": "Verdade de Kagura",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Dano CRIT, passiva requer múltiplos usos da Habilidade Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/kaguras_verity.png"
+                },
+                {
+                    "weapon_id": "skyward_atlas",
+                    "name": "Atlas Celestial",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Alto ATK base e ATQ%, mas passiva pode atrapalhar combos de nuke.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_atlas.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Melhor 4★ para DPS e nuke, mas com passiva aleatória e tempo de inatividade.",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                },
+                {
+                    "weapon_id": "sacrificial_jade",
+                    "name": "Sacrificial Jade (Jade Sacrificial)",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Passe de Batalha",
+                    "notes": "Opção de Taxa CRIT do Passe de Batalha. Detalhes completos desta arma precisam ser adicionados ao banco de dados.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_jade.png"
+                },
+                {
+                    "weapon_id": "mappa_mare",
+                    "name": "Mapa Mare",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Boa opção F2P para times de Vaporizar.",
+                    "icon_url": "/assets/images/weapons_detail/mappa_mare.png"
+                },
+                {
+                    "weapon_id": "hakushin_ring",
+                    "name": "Anel de Hakushin",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Forte em times Eletricamente Carregado, buffa dano elemental da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/hakushin_ring.png"
+                },
+                {
+                    "weapon_id": "dodoco_tales",
+                    "name": "Contos de Dodoco",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Evento",
+                    "notes": "Ótima opção F2P de evento (V1.6) para DPS com Ataques Carregados.",
+                    "icon_url": "/assets/images/weapons_detail/dodoco_tales.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2102,
+            "base_atk": 58,
+            "base_def": 132,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4185,
+            "base_atk": 115,
+            "base_def": 263,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5383,
+            "base_atk": 148,
+            "base_def": 338,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "8.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6752,
+            "base_atk": 186,
+            "base_def": 424,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "16.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7964,
+            "base_atk": 220,
+            "base_def": 500,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "16.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9184,
+            "base_atk": 253,
+            "base_def": 576,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "24.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10409,
+            "base_atk": 287,
+            "base_def": 653,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "32.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Coração Purificador",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/cleansing_heart.webp"
+        },
+        {
+            "name": "Lasca de Lazurita Varunada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/varunada_lazurite_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_chunk.webp"
+        },
+        {
+            "name": "Gema de Lazurita Varunada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/varunada_lazurite_gemstone.webp"
+        },
+        {
+            "name": "Cogumelo Philanemo",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/philanemo_mushroom.webp"
+        },
+        {
+            "name": "Néctar da Flor Gigante",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/whopperflower_nectar.webp"
+        },
+        {
+            "name": "Néctar Brilhante",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/shimmering_nectar.webp"
+        },
+        {
+            "name": "Néctar Elemental",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/energy_nectar.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Destino Desencapado",
+            "icon_url": "/assets/images/talents/mona/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 ataques com esguichos de água que infligem Dano Hydro.\nAtaque Carregado: Consome Stamina para infligir Dano Hydro em AdE após um curto período de canalização.\nAtaque Imersivo: Mergulha em pleno ar, infligindo Dano Hydro em AdE durante o impacto.\nO combo ótimo de DPS é N2 + Ataque Carregado com Cancelamento de Salto (2NA+CA JC)."
+        },
+        "elemental_skill": {
+            "name": "Água Ilusória",
+            "icon_url": "/assets/images/talents/mona/talent_elemental_skill.webp",
+            "description": "Cria um Fantasma ilusório que provoca inimigos próximos, inflige Dano Hydro continuamente (4 ticks) e explode ao final da duração, causando Dano Hydro em AdE.\nManter Pressionado faz Mona recuar rapidamente antes de conjurar o Fantasma.\nGera 3-4 Partículas Hydro na explosão final se atingir um inimigo."
+        },
+        "elemental_burst": {
+            "name": "Órbita Divina",
+            "icon_url": "/assets/images/talents/mona/talent_elemental_burst.webp",
+            "description": "Aplica o status Bolha Ilusória em inimigos em uma grande AdE, aplicando Hydro e imobilizando inimigos menores.\nQuando um inimigo afetado pela Bolha Ilusória sofre Dano, aplica um Presságio (Omen) que concede um Bônus de Dano e aumenta o Dano do ataque que o ativou.\nA Bolha é removida, causando Dano Hydro massivo.\nO Presságio aumenta o Dano recebido pelos inimigos e seu temporizador (até 5s no Nv.7+) só começa após a explosão da Bolha."
+        },
+        "alternate_sprint": {
+            "name": "Vicissitude",
+            "icon_url": "/assets/images/talents/mona/talent_alternate_sprint.webp",
+            "description": "Mona se envolve em um fluxo de água, consumindo Stamina para se mover rapidamente, inclusive sobre a água.\nAplica Hydro a inimigos próximos ao ressurgir.\nPossui frames de invencibilidade curtos."
+        },
+        "passives": [
+            {
+                "name": "\"Aquela bruxa velha veio atrás de mim!\"",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/mona/talent_passive_a1.webp",
+                "description": "Após usar Vicissitude por 2s, se houver inimigos próximos, Mona cria automaticamente um Fantasma (da Habilidade Elemental) que dura 2s e causa 50% do Dano de explosão da Água Ilusória."
+            },
+            {
+                "name": "\"Deixe nas mãos do destino!\"",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/mona/talent_passive_a4.webp",
+                "description": "Aumenta o Bônus de Dano Hydro de Mona em um valor equivalente a 20% de sua Taxa de Recarga de Energia."
+            },
+            {
+                "name": "Princípio da Astrologia",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/mona/talent_passive_utility.webp",
+                "description": "Ao criar Materiais de Ascensão de Armas, há 25% de chance de restituir uma parte dos materiais usados."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Néctar da Flor Gigante",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/whopperflower_nectar.webp"
+        },
+        {
+            "name": "Néctar Brilhante",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/shimmering_nectar.webp"
+        },
+        {
+            "name": "Néctar Elemental",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/energy_nectar.webp"
+        },
+        {
+            "name": "Ensinamentos de Resistência",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_resistance.webp"
+        },
+        {
+            "name": "Guia de Resistência",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_resistance.webp"
+        },
+        {
+            "name": "Filosofia de Resistência",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_resistance.webp"
+        },
+        {
+            "name": "Cálice do Vento Norte",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/ring_of_boreas.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Profecia da Submersão",
+            "icon_url": "/assets/images/constellations/mona/constellation_1.webp",
+            "description": "Quando qualquer membro da equipe atinge um oponente afetado por um Presságio (Omen), os efeitos das Reações Elementais relacionadas a Hydro são aprimorados por 8s: Dano de Eletricamente Carregado, Vaporizar e Redemoinho Hydro aumentam em 15%. A duração de Congelamento é aumentada em 15% (Nota: este aumento da duração de Congelamento é atualmente considerado bugado e não funciona efetivamente no jogo)."
+        },
+        {
+            "level": 2,
+            "name": "Corrente Lunar",
+            "icon_url": "/assets/images/constellations/mona/constellation_2.webp",
+            "description": "Quando um Ataque Normal acerta, há 20% de chance de ser automaticamente seguido por um Ataque Carregado. Este efeito pode ocorrer uma vez a cada 5s e não consome Stamina."
+        },
+        {
+            "level": 3,
+            "name": "Revolução Incessante",
+            "icon_url": "/assets/images/constellations/mona/constellation_3.webp",
+            "description": "Aumenta o nível da Órbita Divina (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Profecia do Fim",
+            "icon_url": "/assets/images/constellations/mona/constellation_4.webp",
+            "description": "Quando qualquer membro da equipe ataca um oponente afetado pelo Presságio (Omen), sua Taxa CRIT é aumentada em 15%."
+        },
+        {
+            "level": 5,
+            "name": "Zombaria da Fortuna",
+            "icon_url": "/assets/images/constellations/mona/constellation_5.webp",
+            "description": "Aumenta o nível da Água Ilusória (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Retórica da Calamidade",
+            "icon_url": "/assets/images/constellations/mona/constellation_6.webp",
+            "description": "Ao entrar em Vicissitude (Corrida Alternativa), Mona ganha um aumento de 60% no Dano de seu próximo Ataque Carregado para cada segundo em movimento. Um máximo de 180% de bônus de Dano (3 segundos de movimento) pode ser alcançado. O efeito dura no máximo 8s."
+        }
+    ]
+}

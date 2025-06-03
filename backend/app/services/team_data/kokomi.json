@@ -1,0 +1,110 @@
+[
+    {
+        "id": "kokomi_freeze_ayaka_shenhe_kazuha",
+        "name": "Kokomi - Congelamento Premium (Ayaka, Shenhe, Kazuha)",
+        "strategy": "Kokomi como aplicadora Hydro off-field e curandeira para um time de Congelamento com Ayaka e Shenhe como DPS Cryo. Kazuha para Sombra Verde e buffs. Kokomi pode usar Histórias Extraordinárias e 4p Tenacidade para buffar a equipe.",
+        "characters_in_team": [
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Aplicadora Hydro Off-field (TTDS/Tenacity Holder)",
+                "build_key": "kokomi_offfield_hydro_support_tenacity_ttds"
+            },
+            {
+                "character_id": "ayaka",
+                "role_in_team": "Main DPS Cryo (On-field)",
+                "build_key": "ayaka_dps_blizzard_strayer_mistsplitter"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer de Dano Cryo)",
+                "build_key": "shenhe_cryo_buffer_noblesse_calamityqueller_or_favonius"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "kokomi_nilou_bloom_nahida_dendro_traveler",
+        "name": "Kokomi - Nilou Bloom (Nilou, Nahida, Viajante Dendro)",
+        "strategy": "Kokomi como curandeira e aplicadora Hydro on-field em times de Florescimento de Nilou. Sua cura é essencial para mitigar o auto-dano das Sementes da Abundância. Nahida e Viajante Dendro para aplicação Dendro.",
+        "characters_in_team": [
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Driver Hydro On-field (Pode ativar Blooms)",
+                "build_key": "kokomi_onfield_driver_ocean_hued_clam_moonglow"
+            },
+            {
+                "character_id": "nilou",
+                "role_in_team": "Ativadora de Florescimento Abundante / Aplicadora Hydro",
+                "build_key": "nilou_bountiful_bloom_hp_focus"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field Principal / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "traveler_dendro",
+                "role_in_team": "Aplicador Dendro Off-field Secundário",
+                "build_key": "traveler_dendro_offfield_support_deepwood_favonius"
+            }
+        ]
+    },
+    {
+        "id": "kokomi_taser_fischl_beidou_sucrose",
+        "name": "Kokomi - Taser (Fischl, Beidou, Sucrose)",
+        "strategy": "Kokomi como driver on-field em um time Eletricamente Carregado (Taser). Sua aplicação Hydro e Ataques Normais ativam o dano off-field de Fischl e Beidou. Sucrose para Sombra Verde, agrupamento e buff de EM.",
+        "characters_in_team": [
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Driver Hydro On-field / Healer",
+                "build_key": "kokomi_onfield_driver_ocean_hued_clam_moonglow"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field (Dano em Área)",
+                "build_key": "beidou_offfield_dps_emblem"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Agrupamento, Buffer EM)",
+                "build_key": "sucrose_anemo_driver_vv_ttds_em"
+            }
+        ]
+    },
+    {
+        "id": "kokomi_hyperbloom_nahida_raiden_flex_dendro_hydro",
+        "name": "Kokomi - Hyperbloom (Nahida, Raiden, Flex)",
+        "strategy": "Kokomi fornece cura e aplicação Hydro para gerar Sementes Dendro com Nahida. Raiden (full EM) ativa Hiperflorecimento. O slot flexível pode ser outro Dendro para ressonância ou outro Hydro para mais aplicação.",
+        "characters_in_team": [
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Aplicadora Hydro On-field/Off-field",
+                "build_key": "kokomi_offfield_hydro_support_tenacity_ttds"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field Principal / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Ativadora de Hyperbloom (Full EM Off-field)",
+                "build_key": "raiden_hyperbloom_trigger_full_em_dragons_bane"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field (Flex)",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            }
+        ]
+    }
+]

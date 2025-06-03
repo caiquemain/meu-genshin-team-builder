@@ -1,0 +1,110 @@
+[
+    {
+        "id": "kazuha_international_childe_xiangling_bennett",
+        "name": "Kazuha - Internacional (Childe, Xiangling, Bennett)",
+        "strategy": "Time clássico 'Internacional' onde Kazuha é essencial para aplicar Swirl duplo (Hydro e Pyro), reduzir RES e buffar massivamente o dano de Childe e Xiangling. Bennett para cura e buff de ATQ.",
+        "characters_in_team": [
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_full_em"
+            },
+            {
+                "character_id": "childe",
+                "role_in_team": "Main DPS Hydro On-field / Enabler",
+                "build_key": "tartaglia_onfield_dps_nymphs_dream_polar_star"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field (Vaporize)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Bateria Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "kazuha_freeze_ayaka_shenhe_kokomi",
+        "name": "Kazuha - Congelamento Premium (Ayaka, Shenhe, Kokomi)",
+        "strategy": "Kazuha buffa o dano Cryo de Ayaka e Shenhe, agrupa inimigos e aplica Sombra Verde para redução de RES Cryo. Kokomi para aplicação Hydro e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Cryo, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_full_em"
+            },
+            {
+                "character_id": "ayaka",
+                "role_in_team": "Main DPS Cryo (On-field)",
+                "build_key": "ayaka_dps_blizzard_strayer_mistsplitter"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer de Dano Cryo)",
+                "build_key": "shenhe_cryo_buffer_noblesse_calamityqueller_or_favonius"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Aplicadora Hydro Off-field (Hydro Enabler)",
+                "build_key": "kokomi_healer_tenacity_ttds_prototype_amber"
+            }
+        ]
+    },
+    {
+        "id": "kazuha_mono_pyro_lyney_xiangling_bennett",
+        "name": "Kazuha - Mono Pyro (Lyney, Xiangling, Bennett)",
+        "strategy": "Kazuha maximiza o dano Pyro da equipe com Sombra Verde e seu buff de Dano Elemental. Lyney como DPS on-field, Xiangling para dano off-field e Bennett para buff de ATQ e ressonância.",
+        "characters_in_team": [
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer Dano Pyro, Agrupamento)",
+                "build_key": "kazuha_support_vv_full_em"
+            },
+            {
+                "character_id": "lyney",
+                "role_in_team": "Main DPS Pyro On-field (Charged Shot)",
+                "build_key": "lyney_pyro_dps_marechaussee_or_lavawalker"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "kazuha_aggravate_keqing_fischl_baizhu",
+        "name": "Kazuha - Aggravate (Keqing, Fischl, Baizhu)",
+        "strategy": "Kazuha aplica Swirl Electro para reduzir RES com Sombra Verde e buffar o dano Electro de Keqing e Fischl. Baizhu fornece aplicação Dendro para Agravamento e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental, Agrupamento)",
+                "build_key": "kazuha_support_vv_full_em"
+            },
+            {
+                "character_id": "keqing",
+                "role_in_team": "Main DPS Electro On-field (Aggravate Driver)",
+                "build_key": "keqing_aggravate_dps_thunderingfury"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Suporte Dendro (Healer, Aplicador Dendro, Buffer de Agravamento)",
+                "build_key": "baizhu_healer_deepwood_prototype_amber_hp"
+            }
+        ]
+    }
+]

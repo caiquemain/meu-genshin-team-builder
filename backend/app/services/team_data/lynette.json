@@ -1,0 +1,83 @@
+[
+    {
+        "id": "lynette_support_general_fischl_xingqiu_flex_dps",
+        "name": "Lynette - Suporte Anemo Geral (Fischl, Xingqiu, DPS Flex)",
+        "strategy": "Lynette como suporte Anemo com 4p Sombra Verde para reduzir RES Elemental. Sua provocação (Taunt) da Habilidade ajuda com controle de grupo. Pode ser usada em times Taser com Fischl e Xingqiu, ou para buffar um DPS principal de outro elemento.",
+        "characters_in_team": [
+            {
+                "character_id": "lynette",
+                "role_in_team": "Suporte Anemo (VV Holder, Taunt)",
+                "build_key": "lynette_support_vv_favonius"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro On-field (DPS Flex)",
+                "build_key": "hutao_vape_dps_crimson_shimenawa"
+            }
+        ]
+    },
+    {
+        "id": "lynette_c6_hyperbloom_trigger_nahida_xingqiu_kuki",
+        "name": "Lynette C6 - Ativadora de Hyperbloom (Nahida, Xingqiu, Kuki)",
+        "strategy": "Com C6, Lynette ganha infusão Anemo e pode atuar como driver on-field para Hiperflorecimento, ativando Redemoinhos nos elementos aplicados e ajudando a agrupar sementes. Kuki Shinobu ainda é a principal ativadora de Hiperflorecimento.",
+        "characters_in_team": [
+            {
+                "character_id": "lynette",
+                "role_in_team": "Driver Anemo On-field (C6 - Swirl para Hyperbloom)",
+                "build_key": "lynette_c6_onfield_anemo_dps"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Ativadora Principal de Hyperbloom (Full EM)",
+                "build_key": "kuki_shinobu_hyperbloom_full_em_flowerofparadiselost"
+            }
+        ]
+    },
+    {
+        "id": "lynette_double_anemo_wanderer_faruzan_bennett",
+        "name": "Lynette - Double Anemo com Andarilho (Andarilho, Faruzan, Bennett)",
+        "strategy": "Lynette como segunda Anemo para fornecer partículas para o Andarilho e Faruzan, além de Sombra Verde se Faruzan não estiver usando. Seu buff de ATQ da Passiva A1 beneficia o Andarilho.",
+        "characters_in_team": [
+            {
+                "character_id": "lynette",
+                "role_in_team": "Suporte Anemo (Bateria, VV Holder, Buffer ATQ A1)",
+                "build_key": "lynette_support_vv_favonius"
+            },
+            {
+                "character_id": "wanderer",
+                "role_in_team": "Main DPS Anemo On-field",
+                "build_key": "wanderer_anemo_dps_desert_pavilion_or_shimenawa"
+            },
+            {
+                "character_id": "faruzan",
+                "role_in_team": "Suporte Anemo (Buffer de Dano Anemo & RES Shred Anemo)",
+                "build_key": "faruzan_anemo_buffer_noblesse_favonius_er_c6_tenacity"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    }
+]

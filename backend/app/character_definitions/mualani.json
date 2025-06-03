@@ -1,0 +1,428 @@
+{
+    "id": "mualani",
+    "name": "Mualani",
+    "title": "Surfista Perseguidora das Ondas",
+    "element": "Hydro",
+    "rarity": 5,
+    "weapon": "Catalyst",
+    "model_type": "Medium Female",
+    "role": [
+        "On-Field DPS",
+        "Burst DPS"
+    ],
+    "description_bio": "Mualani é uma alegre e enérgica surfista de Natlan que comanda as ondas com seu fiel companheiro tubarão, Akua. Ela adora a emoção da aventura e está sempre em busca da onda perfeita, trazendo uma energia contagiante para todos ao seu redor.",
+    "birthday": "3 de Agosto",
+    "constellation_name_official": "Phoca Neomonachus",
+    "region": "Natlan",
+    "affiliation": [
+        "Meztli"
+    ],
+    "special_dish": {
+        "name": "Passe a Sorte",
+        "icon_url": "/assets/images/dishes/mualani_passe_a_sorte.webp"
+    },
+    "namecard_url": "/assets/images/namecards/mualani_sharky.png",
+    "icon_url": "/assets/images/characters/mualani.png",
+    "element_icon_url": "/assets/images/elements/element_hydro.png",
+    "updated_date": "2025-06-01",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Mualani Quick Guide",
+                "url": "https://keqingmains.com/q/mualani-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Mualani",
+                "url": "https://genshin-impact.fandom.com/wiki/Mualani"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Mualani",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Mualani"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "mualani_onfield_dps_obsidian_codex",
+            "name": "DPS On-Field (Códice de Obsidiana / Caçador das Sombras)",
+            "notes_build": "Maximiza o dano Hydro on-field de Mualani, focando em seu Supremo e ataques aprimorados. Requer gerenciamento de RE e bom uptime dos buffs.",
+            "artifacts": [
+                {
+                    "set_id": "obsidian_codex",
+                    "set_name": "Códice de Obsidiana",
+                    "pieces": 4,
+                    "notes": "Novo conjunto de Natlan, oferece DANO Universal e alta Taxa CRIT, excelente para ela.",
+                    "icon_url": "/assets/images/artifact_sets/obsidian_codex.png"
+                },
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras",
+                    "pieces": 4,
+                    "notes": "Forte se houver um mecanismo de alteração de Vida na equipe (como Furina), fornecendo muita Taxa CRIT.",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                },
+                {
+                    "set_id": "heart_of_depth",
+                    "set_name": "Profundezas do Coração",
+                    "pieces": 4,
+                    "notes": "Opção sólida, buffa Dano Hydro e Ataques Normais/Carregados.",
+                    "icon_url": "/assets/images/artifact_sets/heart_of_depth.png"
+                },
+                {
+                    "set_id": "nymphs_dream",
+                    "set_name": "Sonho da Ninfa",
+                    "pieces": 4,
+                    "notes": "Potencialmente forte com acúmulos, mas pode ser inconsistente para manter todos os buffs.",
+                    "icon_url": "/assets/images/artifact_sets/nymphs_dream.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ% / Recarga de Energia%",
+                "goblet": "Bônus de Dano Hydro%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "ATQ%",
+                "Vida%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "tome_of_the_eternal_flow",
+                    "name": "Escrituras do Fluxo Eterno",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Excelente opção se Mualani escala bem com Vida e utiliza Ataques Carregados, devido ao Dano CRIT e passiva de Vida/Dano de Ataque Carregado.",
+                    "icon_url": "/assets/images/weapons_detail/tome_of_the_eternal_flow.png"
+                },
+                {
+                    "weapon_id": "kaguras_verity",
+                    "name": "Verdade de Kagura",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Substatus de Dano CRIT e buff de Dano de Habilidade Elemental e Dano Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/kaguras_verity.png"
+                },
+                {
+                    "weapon_id": "lost_prayer_to_the_sacred_winds",
+                    "name": "Oração Perdida aos Ventos Sagrados",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Substatus de Taxa CRIT e buff de Dano Elemental que aumenta com o tempo em campo.",
+                    "icon_url": "/assets/images/weapons_detail/lost_prayer_to_the_sacred_winds.png"
+                },
+                {
+                    "weapon_id": "skyward_atlas",
+                    "name": "Atlas Celestial",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Alto ATK base, substatus de ATQ% e um bônus de Dano Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_atlas.png"
+                },
+                {
+                    "weapon_id": "a_thousand_floating_dreams",
+                    "name": "Mil Sonhos Flutuantes",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Focada em Proficiência Elemental, boa para times de Vaporizar ou outras reações.",
+                    "icon_url": "/assets/images/weapons_detail/a_thousand_floating_dreams.png"
+                },
+                {
+                    "weapon_id": "flowing_purity",
+                    "name": "Pureza do Fluxo",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Opção de forja com ATQ%, a passiva de buff de Dano Elemental é ativada ao usar Habilidade Elemental e se curar.",
+                    "icon_url": "/assets/images/weapons_detail/flowing_purity.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Substatus de Dano CRIT e passiva com buffs aleatórios de ATQ, Dano Elemental ou Proficiência Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                },
+                {
+                    "weapon_id": "sacrificial_jade",
+                    "name": "Sacrifício de Jade (Sacrificial Jade)",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Passe de Batalha",
+                    "notes": "Opção do Passe de Batalha com Taxa CRIT e passiva que aumenta Vida Máx. e Proficiência Elemental fora de campo.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_jade.png"
+                },
+                {
+                    "weapon_id": "solar_pearl",
+                    "name": "Pérola Solar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Passe de Batalha",
+                    "notes": "Substatus de Taxa CRIT e passiva que buffa Habilidade/Supremo e Ataques Normais alternadamente.",
+                    "icon_url": "/assets/images/weapons_detail/solar_pearl.png"
+                },
+                {
+                    "weapon_id": "ballad_of_the_boundless_blue",
+                    "name": "Balada do Azul Infinito",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Evento",
+                    "notes": "Opção de evento com Recarga de Energia e buff para Ataques Normais e Carregados.",
+                    "icon_url": "/assets/images/weapons_detail/ballad_of_the_boundless_blue.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2102,
+            "base_atk": 68,
+            "base_def": 132,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4185,
+            "base_atk": 136,
+            "base_def": 263,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5383,
+            "base_atk": 175,
+            "base_def": 338,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "9.6%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6752,
+            "base_atk": 219,
+            "base_def": 424,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "19.2%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7964,
+            "base_atk": 258,
+            "base_def": 500,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "19.2%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9184,
+            "base_atk": 298,
+            "base_def": 576,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "28.8%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10409,
+            "base_atk": 338,
+            "base_def": 653,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "38.4%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Barbatana Cortadora de Água",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/mark_of_the_binding_blessing.webp"
+        },
+        {
+            "name": "Lasca de Lazurita Varunada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/varunada_lazurite_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_chunk.webp"
+        },
+        {
+            "name": "Gema de Lazurita Varunada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/varunada_lazurite_gemstone.webp"
+        },
+        {
+            "name": "Tidalga",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/tidalga.webp"
+        },
+        {
+            "name": "Pérola Transoceânica",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/transoceanic_pearl.webp"
+        },
+        {
+            "name": "Pedaço Transoceânico",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/transoceanic_chunk.webp"
+        },
+        {
+            "name": "Cristal Xenocromático",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/xenochromatic_crystal.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Onda Impactante",
+            "icon_url": "/assets/images/talents/mualani/talent_normal_attack.webp",
+            "description": "Ataque Normal: Comanda Akua para realizar até 4 ataques Hydro.\nAtaque Carregado: Consome Stamina para liberar um vórtice Hydro poderoso após um curto tempo de canalização.\nAtaque Imersivo: Mergulha do ar e atinge o chão abaixo, danificando inimigos ao longo do caminho e causando Dano Hydro em AdE no impacto.\nDurante o estado 'Alma da Noite' de seu Supremo, os Ataques Normais e Carregados de Mualani são convertidos para Dano Hydro que não pode ser substituído, e seu Dano é aumentado."
+        },
+        "elemental_skill": {
+            "name": "Chamado do Companheiro Tubarão",
+            "icon_url": "/assets/images/talents/mualani/talent_elemental_skill.webp",
+            "description": "Mualani invoca Akua, seu companheiro tubarão, para atacar.\nPressionar: Akua avança, causando Dano Hydro aos inimigos em seu caminho.\nManter Pressionado: Entra no modo de mira para ajustar a direção. Soltar faz Akua avançar com ainda mais força.\nDurante o estado 'Alma da Noite' (do Supremo 'Maré Alta de Frenesi'), usar esta habilidade consome uma certa quantidade de 'Alma da Noite' para desencadear 'Investida da Perdição Aquática', que causa Dano Hydro aumentado e restaura Vida para Mualani com base em sua Vida Máx."
+        },
+        "elemental_burst": {
+            "name": "Maré Alta de Frenesi",
+            "icon_url": "/assets/images/talents/mualani/talent_elemental_burst.webp",
+            "description": "Mualani e Akua liberam uma onda devastadora, causando Dano Hydro em AdE e entrando no estado 'Alma da Noite'.\nAlma da Noite: Os Ataques Normais e Carregados de Mualani são convertidos para Dano Hydro e seu dano é aumentado. Além disso, sua Habilidade Elemental 'Chamado do Companheiro Tubarão' é aprimorada para 'Investida da Perdição Aquática'. A 'Alma da Noite' é consumida continuamente enquanto Mualani estiver em campo e também ao usar 'Investida da Perdição Aquática'. O estado termina quando a 'Alma da Noite' se esgota ou Mualani sai de campo."
+        },
+        "passives": [
+            {
+                "name": "Zelo da Maré",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/mualani/talent_passive_a1.webp",
+                "description": "Enquanto Mualani está no estado 'Alma da Noite', cada vez que seus Ataques Normais ou Carregados atingem um inimigo, ela ganha um acúmulo de 'Zelo da Maré', aumentando seu Bônus de Dano Hydro. Este efeito pode acumular várias vezes. A RES a Interrupção de Mualani também é aumentada durante 'Alma da Noite'."
+            },
+            {
+                "name": "Determinação da Correnteza",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/mualani/talent_passive_a4.webp",
+                "description": "Quando 'Investida da Perdição Aquática' (Habilidade Elemental aprimorada durante o Supremo) atinge um inimigo, uma porção da 'Alma da Noite' consumida é restaurada, permitindo estender a duração do estado 'Alma da Noite'."
+            },
+            {
+                "name": "Exploradora das Ondas",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/mualani/talent_passive_utility.webp",
+                "description": "Diminui o consumo de Stamina ao nadar para todos os membros da equipe em 20%. Não acumulável com Talentos Passivos que fornecem exatamente os mesmos efeitos."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Pérola Transoceânica",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/transoceanic_pearl.webp"
+        },
+        {
+            "name": "Pedaço Transoceânico",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/transoceanic_chunk.webp"
+        },
+        {
+            "name": "Cristal Xenocromático",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/xenochromatic_crystal.webp"
+        },
+        {
+            "name": "Ensinamentos da Admoestação",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_admonition.webp"
+        },
+        {
+            "name": "Guia da Admoestação",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_admonition.webp"
+        },
+        {
+            "name": "Filosofia da Admoestação",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_admonition.webp"
+        },
+        {
+            "name": "Massa Sem Luz",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/lightless_mass.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Tubarão-Rei Implacável",
+            "icon_url": "/assets/images/constellations/mualani/constellation_1.webp",
+            "description": "A 'Investida da Perdição Aquática' (Habilidade Elemental aprimorada) cria uma explosão Hydro adicional ao atingir um inimigo, causando Dano Hydro igual a uma porcentagem do ATQ de Mualani."
+        },
+        {
+            "level": 2,
+            "name": "Frenesi de Alimentação",
+            "icon_url": "/assets/images/constellations/mualani/constellation_2.webp",
+            "description": "Durante o estado 'Alma da Noite', a Taxa CRIT dos Ataques Normais e Carregados de Mualani é aumentada significativamente contra inimigos com menos de 50% de Vida."
+        },
+        {
+            "level": 3,
+            "name": "Megatsunami",
+            "icon_url": "/assets/images/constellations/mualani/constellation_3.webp",
+            "description": "Aumenta o nível da Maré Alta de Frenesi (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Senhora das Profundezas",
+            "icon_url": "/assets/images/constellations/mualani/constellation_4.webp",
+            "description": "Inimigos atingidos pela onda inicial do Supremo 'Maré Alta de Frenesi' têm sua RES Hydro diminuída em 30% por 10 segundos."
+        },
+        {
+            "level": 5,
+            "name": "Cavalgada das Marés",
+            "icon_url": "/assets/images/constellations/mualani/constellation_5.webp",
+            "description": "Aumenta o nível do Chamado do Companheiro Tubarão (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Terror dos Sete Mares",
+            "icon_url": "/assets/images/constellations/mualani/constellation_6.webp",
+            "description": "Os Ataques Carregados de Mualani durante o estado 'Alma da Noite' não consomem 'Alma da Noite' por 5 segundos após usar 'Investida da Perdição Aquática'. Adicionalmente, estes Ataques Carregados restauram uma pequena quantidade da Vida Máxima de Mualani ao atingir inimigos."
+        }
+    ]
+}

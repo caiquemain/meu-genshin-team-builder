@@ -1,0 +1,86 @@
+[
+    {
+        "id": "qiqi_healer_flex_slot",
+        "name": "Qiqi - Curandeira Flexível (Concha)",
+        "strategy": "Qiqi atua como curandeira principal, garantindo a sobrevivência da equipe com sua cura potente e consistente[cite: 5238, 5239]. O conjunto Concha Tingida Pelo Mar permite que ela também contribua com dano passivo[cite: 5242].",
+        "characters_in_team": [
+            {
+                "character_id": "qiqi",
+                "role_in_team": "Curandeira Principal",
+                "build_key": "qiqi_general_healer_clam"
+            },
+            {
+                "character_id": "any_main_dps",
+                "role_in_team": "DPS Principal",
+                "build_key": "generic_dps_build"
+            },
+            {
+                "character_id": "any_sub_dps",
+                "role_in_team": "Sub-DPS / Suporte",
+                "build_key": "generic_sub_dps_support_build"
+            },
+            {
+                "character_id": "any_support_flex",
+                "role_in_team": "Suporte / Flex",
+                "build_key": "generic_support_flex_build"
+            }
+        ],
+        "notes_team": "Qiqi se encaixa em times que precisam de cura massiva e conforto, especialmente em estágios iniciais do jogo ou para jogadores que preferem segurança[cite: 5156, 5161]."
+    },
+    {
+        "id": "qiqi_taser_driver_beidou_fischl",
+        "name": "Qiqi - Driver Taser (Beidou + Fischl)",
+        "strategy": "Qiqi utiliza seus rápidos Ataques Normais para ativar continuamente os Supremos de Beidou e Fischl, maximizando o dano Eletricamente Carregado[cite: 5259, 5260]. Sua cura mantém a equipe e ela própria vivas durante o combate corpo a corpo[cite: 5261].",
+        "characters_in_team": [
+            {
+                "character_id": "qiqi",
+                "role_in_team": "Driver On-Field / Curandeira",
+                "build_key": "qiqi_taser_driver_physical"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro (Off-field AoE)",
+                "build_key": "beidou_subdps_emblem_er_focus"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field Single-Target/Bateria)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro (Off-field/Redução de Dano)",
+                "build_key": "xingqiu_off_field_hydro_support_emblem"
+            }
+        ],
+        "notes_team": "Um personagem Anemo com Sombra Verde (ex: Sucrose, Kazuha) pode ser usado no lugar de Xingqiu para agrupar e reduzir RES[cite: 5267, 5270, 5271]. A cura de Qiqi é importante aqui."
+    },
+    {
+        "id": "qiqi_superconduct_physical_support",
+        "name": "Qiqi - Suporte Supercondutor (DPS Físico)",
+        "strategy": "Qiqi fornece aplicação Cryo consistente e off-field com sua Habilidade Elemental para manter a reação de Supercondutor ativa, reduzindo a RES Física dos inimigos para um DPS Físico como Razor ou Eula[cite: 5256, 5257].",
+        "characters_in_team": [
+            {
+                "character_id": "qiqi",
+                "role_in_team": "Suporte Cryo (Healer/Superconduct Enabler)",
+                "build_key": "qiqi_general_healer_clam"
+            },
+            {
+                "character_id": "razor",
+                "role_in_team": "Main DPS Físico",
+                "build_key": "razor_physical_dps_pale_flame"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field/Bateria)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred)",
+                "build_key": "zhongli_shield_support_tenacity"
+            }
+        ],
+        "notes_team": "Outros DPS Físicos como Eula também se beneficiam. Rosaria pode ser uma alternativa a Zhongli para Ressonância Cryo e buff de Taxa CRIT."
+    }
+]

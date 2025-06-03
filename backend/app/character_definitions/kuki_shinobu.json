@@ -1,0 +1,464 @@
+{
+    "id": "kuki_shinobu",
+    "name": "Kuki Shinobu",
+    "title": "Erradicadora das Preocupações",
+    "element": "Electro",
+    "rarity": 4,
+    "weapon": "Sword",
+    "model_type": "Medium Female",
+    "role": [
+        "Healer",
+        "Hyperbloom Trigger",
+        "Off-Field Electro Enabler"
+    ],
+    "description_bio": "A confiável e capaz vice-líder da Gangue Arataki. Apesar de preferir uma vida mais tranquila e profissional, Shinobu frequentemente se vê resolvendo os problemas causados por Itto e o resto da gangue.",
+    "birthday": "27 de Julho",
+    "constellation_name_official": "Tribulatio Demptio",
+    "region": "Inazuma",
+    "affiliation": [
+        "Gangue Arataki",
+        "Clã Kuki (anteriormente)",
+        "Grande Santuário Narukami (anteriormente)"
+    ],
+    "special_dish": {
+        "name": "Valsa do Omelete de Arroz",
+        "icon_url": "/assets/images/dishes/kuki_shinobu_omurice_waltz.webp"
+    },
+    "namecard_url": "/assets/images/namecards/kuki_shinobu_net.png",
+    "icon_url": "/assets/images/characters/kuki.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Kuki Shinobu Guide (Full)",
+                "url": "https://keqingmains.com/kuki/"
+            },
+            {
+                "name": "KQM Kuki Shinobu Quick Guide",
+                "url": "https://keqingmains.com/q/shinobu-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Kuki Shinobu",
+                "url": "https://genshin-impact.fandom.com/wiki/Kuki_Shinobu"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "kuki_shinobu_hyperbloom_trigger_full_em",
+            "name": "Ativadora de Hyperbloom (Full EM)",
+            "notes_build": "Principal build de Kuki Shinobu, focada em maximizar sua Proficiência Elemental (EM) para o dano de Hiperflorecimento. Sua cura também escala com EM (Passiva A4). Nível 90 é crucial para dano de Hiperflorecimento. 4p Flor do Paraíso Perdido ou 4p Sonhos Dourados são ideais.",
+            "artifacts": [
+                {
+                    "set_id": "flower_of_paradise_lost",
+                    "set_name": "Flor do Paraíso Perdido",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para maximizar o dano de Hiperflorecimento de Shinobu. Farmar pode ser menos eficiente em Resina.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Opção muito forte e mais eficiente em Resina para farmar. O buff de EM do conjunto de 4p aumenta o dano de Hiperflorecimento e a cura.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "em_2pc_mix_hyperbloom_kuki",
+                    "set_name": "Proficiência Elemental (2p) + Proficiência Elemental (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de 2p de EM (Sonhos Dourados, Trupe Itinerante, Flor do Paraíso) são a melhor opção se não tiver um bom conjunto de 4p.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "gilded_dreams",
+                        "wanderers_troupe"
+                    ]
+                },
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Embora o bônus de 2p HP seja útil para cura e sobrevivência, o buff de ATQ% de 4p não é tão valioso para o dano de Hiperflorecimento, mas pode buffar colegas de equipe.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM) / Bônus de Cura (se cura for prioridade e EM suficiente)"
+            },
+            "sub_stats_priority": [
+                "Proficiência Elemental (EM)",
+                "HP%",
+                "Recarga de Energia (ER%) (requisito baixo, ~120-140%)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "key_of_khaj_nisut",
+                    "name": "Chave de Khaj-Nisut",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Kuki Shinobu. Fornece HP% massivo e converte HP em EM para Shinobu e a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/key_of_khaj_nisut.png"
+                },
+                {
+                    "weapon_id": "freedom_sworn",
+                    "name": "Juramento pela Liberdade",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Sub-status de EM e passiva que buffa Ataques Normais, Carregados e Imersivos, e ATQ% para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/freedom_sworn.png"
+                },
+                {
+                    "weapon_id": "xiphos_moonlight",
+                    "name": "Luz Lunar de Xiphos",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Uma das melhores opções 4 estrelas, fornecendo EM e convertendo EM em RE para Shinobu e a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/xiphos_moonlight.png"
+                },
+                {
+                    "weapon_id": "iron_sting",
+                    "name": "Espinho de Ferro",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Opção F2P forjável com EM. A passiva de Bônus de DANO% não é muito útil para Hiperflorecimento.",
+                    "icon_url": "/assets/images/weapons_detail/iron_sting.png"
+                },
+                {
+                    "weapon_id": "toukabou_shigure",
+                    "name": "Sussurro da Floresta",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Evento",
+                    "notes": "Arma de evento com EM. A passiva pode ser útil.",
+                    "icon_url": "/assets/images/weapons_detail/toukabou_shigure.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem para 90",
+                "Habilidade Elemental (Skill) (para aplicação Electro e cura)",
+                "Supremo (Burst) (baixa prioridade para esta build)",
+                "Ataque Normal (não precisa upar)"
+            ]
+        },
+        {
+            "key": "kuki_shinobu_quicken_support_deepwood_tenacity",
+            "name": "Suporte Quicken (Memórias da Floresta / Tenacidade)",
+            "notes_build": "Kuki como suporte em times Quicken (Agravamento/Espalhar), fornecendo cura e aplicação Electro. Pode usar 4p Memórias da Floresta se não houver outro portador, ou 4p Tenacidade para buffar ATQ.",
+            "artifacts": [
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Para reduzir a RES Dendro dos inimigos, útil em times Quicken com DPS Dendro.",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                },
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Opção forte para buffar o ATQ da equipe, com bom uptime devido à Habilidade Elemental de Shinobu.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Se precisar de um buff de ATQ para a equipe e já tiver portadores de Memórias/Tenacidade.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "HP% / Recarga de Energia (ER%)",
+                "goblet": "HP%",
+                "circlet": "Bônus de Cura% / HP% / Taxa CRIT (para Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "HP%",
+                "Proficiência Elemental (EM) (se ativar Agravamento)",
+                "Taxa CRIT (para Espada de Favonius)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha / Missão",
+                    "notes": "Excelente para necessidades de energia da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "key_of_khaj_nisut",
+                    "name": "Chave de Khaj-Nisut",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Ainda forte pelo HP e buff de EM para a equipe, que é útil em Quicken.",
+                    "icon_url": "/assets/images/weapons_detail/key_of_khaj_nisut.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Fornece HP e Taxa CRIT, bom para dano pessoal e sobrevivência.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Nível do Personagem para 90"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 1025,
+            "base_atk": 18,
+            "base_def": 63,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3353,
+            "base_atk": 58,
+            "base_def": 204,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5563,
+            "base_atk": 96,
+            "base_def": 338,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 7137,
+            "base_atk": 123,
+            "base_def": 434,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8482,
+            "base_atk": 147,
+            "base_def": 521,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9820,
+            "base_atk": 170,
+            "base_def": 607,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 12189,
+            "base_atk": 212,
+            "base_def": 751,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Presas Rúnicas",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/runic_fang.webp"
+        },
+        {
+            "name": "Lasca de Ametista Vajrada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_chunk.webp"
+        },
+        {
+            "name": "Gema de Ametista Vajrada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_gemstone.webp"
+        },
+        {
+            "name": "Erva Naku",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/naku_weed.webp"
+        },
+        {
+            "name": "Casco Espectral",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/spectral_husk.webp"
+        },
+        {
+            "name": "Coração Espectral",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/spectral_heart.webp"
+        },
+        {
+            "name": "Núcleo Espectral",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/spectral_nucleus.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Lâmina Secreta da Sombra",
+            "icon_url": "/assets/images/talents/kuki_shinobu/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 golpes rápidos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando inimigos ao longo do caminho e causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Anel Santificador",
+            "icon_url": "/assets/images/talents/kuki_shinobu/talent_elemental_skill.webp",
+            "description": "Cria um Anel Santificador à custa de uma porção de seu HP, causando Dano Electro a oponentes próximos.\nAnel Santificador: Segue seu personagem ativo atual. Causa Dano Electro a oponentes próximos a cada 1.5s e restaura HP para o personagem ativo dentro da AdE do anel com base no HP Máx de Kuki Shinobu.\nO consumo de HP desta habilidade só pode reduzir seu HP para 20%."
+        },
+        "elemental_burst": {
+            "name": "Ritual de Gyoei Narukami Kariyama",
+            "icon_url": "/assets/images/talents/kuki_shinobu/talent_elemental_burst.webp",
+            "description": "Cria um campo que limpa tudo que é vil, causando Dano Electro contínuo a oponentes dentro de sua AdE com base no HP Máx de Kuki Shinobu.\nSe o HP de Kuki Shinobu for igual ou inferior a 50% quando esta habilidade é usada, o campo durará mais tempo."
+        },
+        "passives": [
+            {
+                "name": "Libertação do Sofrimento",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/kuki_shinobu/talent_passive_a1.webp",
+                "description": "Quando o HP de Shinobu é igual ou inferior a 50%, seu Bônus de Cura é aumentado em 15%."
+            },
+            {
+                "name": "Refúgio Tranquilizador",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/kuki_shinobu/talent_passive_a4.webp",
+                "description": "Os efeitos de cura de Anel Santificador serão aumentados com base na Proficiência Elemental de Shinobu: A cura aumentará em 75% de sua Proficiência Elemental. O DANO também aumentará em 25% de sua Proficiência Elemental."
+            },
+            {
+                "name": "Prece Prolongada",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/kuki_shinobu/talent_passive_utility.webp",
+                "description": "Ganha 25% mais recompensas quando despachada em uma Expedição de Inazuma por 20 horas."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Casco Espectral",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/spectral_husk.webp"
+        },
+        {
+            "name": "Coração Espectral",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/spectral_heart.webp"
+        },
+        {
+            "name": "Núcleo Espectral",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/spectral_nucleus.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Elegância\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_elegance.webp"
+        },
+        {
+            "name": "Guia da \"Elegância\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_elegance.webp"
+        },
+        {
+            "name": "Filosofia da \"Elegância\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_elegance.webp"
+        },
+        {
+            "name": "Lágrima da Deusa do Desastre",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/tears_of_the_calamitous_god.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Abandonar a Compaixão",
+            "icon_url": "/assets/images/constellations/kuki_shinobu/constellation_1.webp",
+            "description": "A AdE de Ritual de Gyoei Narukami Kariyama é aumentada em 50%."
+        },
+        {
+            "level": 2,
+            "name": "Abandonar a Sorte",
+            "icon_url": "/assets/images/constellations/kuki_shinobu/constellation_2.webp",
+            "description": "A duração de Anel Santificador é aumentada em 3s."
+        },
+        {
+            "level": 3,
+            "name": "Abandonar a Dor",
+            "icon_url": "/assets/images/constellations/kuki_shinobu/constellation_3.webp",
+            "description": "Aumenta o Nível de Anel Santificador em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Abandonar o Segredo",
+            "icon_url": "/assets/images/constellations/kuki_shinobu/constellation_4.webp",
+            "description": "Quando os Ataques Normais, Carregados ou Imersivos de personagens afetados pelo Anel Santificador de Shinobu atingem oponentes, uma Marca de Estilete Trovejante cairá na posição do oponente e causará Dano Electro em AdE com base em 9.7% do HP Máx de Shinobu.\nEste efeito pode ocorrer uma vez a cada 5s."
+        },
+        {
+            "level": 5,
+            "name": "Abandonar a Cortesia",
+            "icon_url": "/assets/images/constellations/kuki_shinobu/constellation_5.webp",
+            "description": "Aumenta o Nível de Ritual de Gyoei Narukami Kariyama em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Abandonar a Fraqueza",
+            "icon_url": "/assets/images/constellations/kuki_shinobu/constellation_6.webp",
+            "description": "Quando Kuki Shinobu sofre DANO letal, este DANO não a derrubará. Este efeito será ativado automaticamente quando seu HP atingir 1 e pode ser ativado apenas uma vez a cada 60s.\nQuando o HP de Shinobu cai abaixo de 25%, ela ganhará 150 de Proficiência Elemental por 15s. Este efeito pode ser ativado apenas uma vez a cada 60s."
+        }
+    ]
+}

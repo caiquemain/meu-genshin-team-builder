@@ -1,0 +1,83 @@
+[
+    {
+        "id": "kujou_sara_raiden_hypercarry_kazuha_bennett",
+        "name": "Kujou Sara - Raiden Hypercarry (Raiden, Kazuha, Bennett)",
+        "strategy": "Sara atua como buffer principal para Raiden Shogun, especialmente com C6, fornecendo ATQ e Dano CRIT Electro. Kazuha para Sombra Verde e buff de Dano Electro. Bennett para buff de ATQ massivo e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "kujou_sara",
+                "role_in_team": "Suporte Electro (ATK Buffer, CRIT DMG Buffer C6)",
+                "build_key": "kujou_sara_atk_buffer_noblesse_favonius"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Main DPS Electro On-field (Hypercarry Burst)",
+                "build_key": "raiden_hypercarry_dps_emblem_engulfing"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "kujou_sara_mono_electro_yae_miko_fischl_kazuha",
+        "name": "Kujou Sara - Mono Electro (Yae Miko, Fischl, Kazuha)",
+        "strategy": "Time focado em dano Electro bruto. Sara buffa Yae Miko e Fischl. Kazuha com Sombra Verde reduz RES Electro e buffa Dano Electro. Fischl também atua como bateria.",
+        "characters_in_team": [
+            {
+                "character_id": "kujou_sara",
+                "role_in_team": "Suporte Electro (ATK Buffer, CRIT DMG Buffer C6)",
+                "build_key": "kujou_sara_atk_buffer_noblesse_favonius"
+            },
+            {
+                "character_id": "yae_miko",
+                "role_in_team": "Sub-DPS Electro Off-field / On-field",
+                "build_key": "yae_miko_offfield_dps_golden_troupe_aggravate"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "kujou_sara_aggravate_keqing_nahida_anemo",
+        "name": "Kujou Sara - Aggravate (Keqing, Nahida, Anemo)",
+        "strategy": "Sara buffa Keqing em um time de Agravamento. Nahida fornece aplicação Dendro e buff de EM. Um Anemo (Kazuha/Sucrose) com Sombra Verde para reduzir RES Electro.",
+        "characters_in_team": [
+            {
+                "character_id": "kujou_sara",
+                "role_in_team": "Suporte Electro (ATK Buffer, CRIT DMG Buffer C6)",
+                "build_key": "kujou_sara_atk_buffer_noblesse_favonius"
+            },
+            {
+                "character_id": "keqing",
+                "role_in_team": "Main DPS Electro On-field (Aggravate Driver)",
+                "build_key": "keqing_aggravate_dps_thunderingfury"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer EM, Agrupamento)",
+                "build_key": "sucrose_anemo_support_vv_ttds_em"
+            }
+        ]
+    }
+]

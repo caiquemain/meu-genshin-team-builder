@@ -210,6 +210,8 @@ const CharacterProfilePage = () => {
                             </p>
                         )}
                         {characterData.role?.length > 0 && <p><strong>Funções:</strong> {characterData.role.join(', ')}</p>}
+                        {/* LINHA ADICIONADA ABAIXO */}
+                        {characterData.updated_date && <p><strong>Última atualização:</strong> {new Date(characterData.updated_date).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit', year: 'numeric' })}</p>}
                     </div>
                 </section>
             )}
@@ -269,7 +271,7 @@ const CharacterProfilePage = () => {
 
                     {/* Sub-seção para 3 Talentos */}
                     <div className="talent-materials-subsection">
-                        <h3 className="subsection-title-accent">Para 3 Talentos (Nível 1 ao 10 cada)</h3>
+                        <h3 className="subsection-title-accent">Para 3 Talentos (Nível 1 ao 10 total)</h3>
                         {characterData.total_talent_materials_one_to_ten && characterData.total_talent_materials_one_to_ten.length > 0 ? (
                             <div className="materials-grid">
                                 {characterData.total_talent_materials_one_to_ten.map((material, index) => (

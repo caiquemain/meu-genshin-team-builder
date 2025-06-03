@@ -1,0 +1,382 @@
+{
+    "id": "kujou_sara",
+    "name": "Kujou Sara",
+    "title": "Flecha de Penas de Corvo",
+    "element": "Electro",
+    "rarity": 4,
+    "weapon": "Bow",
+    "model_type": "Tall Female",
+    "role": [
+        "Suporte (ATK Buffer)",
+        "Buffer de Dano CRIT Electro (C6)",
+        "Burst DPS (Secundário)"
+    ],
+    "description_bio": "Uma general da Comissão Tenryou. Leal tanto ao Shogunato quanto à sua palavra, Kujou Sara carrega a justiça em suas asas de corvo.",
+    "birthday": "14 de Julho",
+    "constellation_name_official": "Flabellum",
+    "region": "Inazuma",
+    "affiliation": [
+        "Comissão Tenryou",
+        "Clã Kujou (adotada)"
+    ],
+    "special_dish": {
+        "name": "Fé Eterna",
+        "icon_url": "/assets/images/dishes/kujou_sara_faith_eternal.webp"
+    },
+    "namecard_url": "/assets/images/namecards/kujou_sara_tengu.png",
+    "icon_url": "/assets/images/characters/sara.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Kujou Sara Guide (Full)",
+                "url": "https://keqingmains.com/sara/"
+            },
+            {
+                "name": "KQM Kujou Sara Quick Guide",
+                "url": "https://keqingmains.com/q/sara-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Kujou Sara",
+                "url": "https://genshin-impact.fandom.com/wiki/Kujou_Sara"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "kujou_sara_atk_buffer_noblesse_favonius",
+            "name": "Buffer de ATQ (Ritual Real - Favonius)",
+            "notes_build": "Foco em maximizar o buff de ATQ de Sara para a equipe e garantir o uptime de seu Supremo. 4p Ritual Real é geralmente seu melhor conjunto para suporte. Arco de Guerra de Favonius é excelente para Recarga de Energia. Priorize armas com alto ATQ Base para o buff de ATQ.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Sara suporte, pois seu buff de ATQ para a equipe após o Supremo acumula com o buff de sua Habilidade Elemental.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Alternativa para aumentar o dano pessoal do Supremo de Sara se o buff de 4p Ritual Real já estiver sendo fornecido por outro personagem ou não for tão necessário.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "er_electro_atk_2pc_mix",
+                    "set_name": "Recarga de Energia (2p) + Dano Electro (2p) / ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de 2p podem ser usadas se não tiver um bom conjunto de 4p. Priorize RE e depois stats ofensivos. (Ex: Selo da Insulação + Trovão Furioso/Gladiador).",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "emblem_of_severed_fate",
+                        "thundering_fury"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / ATK%",
+                "goblet": "Bônus de Dano Electro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~180-220%+ dependendo do time e C2)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Sara suporte. Fornece RE, buff de EM e ATQ% para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                },
+                {
+                    "weapon_id": "skyward_harp",
+                    "name": "Harpa Celestial",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Alto ATQ Base para maximizar o buff de ATQ de Sara, além de Taxa CRIT e Dano CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_harp.png"
+                },
+                {
+                    "weapon_id": "favonius_warbow",
+                    "name": "Arco de Guerra de Favonius",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha / Missão",
+                    "notes": "Excelente opção para ajudar com a Recarga de Energia de Sara e da equipe. Requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_warbow.png"
+                },
+                {
+                    "weapon_id": "sacrificial_bow",
+                    "name": "Arco do Sacrifício",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Pode permitir um uso adicional da Habilidade Elemental, ajudando com a aplicação de buffs e RE, mas pode ser menos consistente que Favonius.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_bow.png"
+                },
+                {
+                    "weapon_id": "mouuns_moon",
+                    "name": "Lua de Mouun",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Em R5, pode fornecer um grande Bônus de Dano do Supremo para Sara, especialmente em times com alto custo de Energia.",
+                    "icon_url": "/assets/images/weapons_detail/mouun's_moon.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) (para o buff de ATQ)",
+                "Supremo (Burst) (para dano e buff de Ritual Real)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 802,
+            "base_atk": 16,
+            "base_def": 53,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 2625,
+            "base_atk": 53,
+            "base_def": 172,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 4353,
+            "base_atk": 88,
+            "base_def": 286,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 5586,
+            "base_atk": 112,
+            "base_def": 367,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 6691,
+            "base_atk": 135,
+            "base_def": 440,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 7811,
+            "base_atk": 157,
+            "base_def": 513,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 9570,
+            "base_atk": 195,
+            "base_def": 628,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Mecanismo de Tempestade",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/storm_beads.webp"
+        },
+        {
+            "name": "Lasca de Ametista Vajrada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_chunk.webp"
+        },
+        {
+            "name": "Gema de Ametista Vajrada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_gemstone.webp"
+        },
+        {
+            "name": "Dendrobium",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/dendrobium.webp"
+        },
+        {
+            "name": "Máscara Danificada",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/damaged_mask.webp"
+        },
+        {
+            "name": "Máscara Suja",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/stained_mask.webp"
+        },
+        {
+            "name": "Máscara Ominosa",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/ominous_mask.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Arquearia Tengu",
+            "icon_url": "/assets/images/talents/kujou_sara/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 tiros consecutivos com um arco.\nAtaque Carregado: Realiza um Disparo com Mira mais preciso com Dano aumentado. Enquanto mira, penas de corvo escuras como a noite se acumularão na ponta da flecha. Uma flecha totalmente carregada com penas de corvo causará Dano Electro.\nAtaque Imersivo: Dispara uma chuva de flechas no ar antes de cair e atingir o chão, causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Convocação da Tempestade Tengu",
+            "icon_url": "/assets/images/talents/kujou_sara/talent_elemental_skill.webp",
+            "description": "Recua rapidamente com a velocidade de um tengu, invocando a proteção da Pena de Corvo. Ganha Cobertura da Pena de Corvo por 18s, e quando Kujou Sara dispara um Disparo com Mira totalmente carregado, a Cobertura da Pena de Corvo será consumida, e deixará uma Pena de Corvo no local alvo.\nPenas de Corvo ativarão Tengu Juurai: Emboscada após um curto período, causando Dano Electro e concedendo ao personagem ativo dentro da AdE da Emboscada um Bônus de ATQ com base no ATQ Base de Kujou Sara.\nOs Bônus de ATQ de diferentes Tengu Juurai não se acumulam, e seus efeitos e durações serão determinados pelo último Tengu Juurai a entrar em vigor."
+        },
+        "elemental_burst": {
+            "name": "Subjugação: Koukou Sendou",
+            "icon_url": "/assets/images/talents/kujou_sara/talent_elemental_burst.webp",
+            "description": "Lança um Tengu Juurai: Quebrador de Titãs, causando Dano Electro em AdE. Depois, o Tengu Juurai: Quebrador de Titãs se espalha em 4 Tengu Juurai: Aglomerados de Tempestade consecutivos, causando Dano Electro em AdE.\nTengu Juurai: Quebrador de Titãs e Tengu Juurai: Aglomerados de Tempestade concederão ao personagem ativo dentro de sua AdE o mesmo Bônus de ATQ que é concedido pela Habilidade Elemental de Kujou Sara, Convocação da Tempestade Tengu.\nO Bônus de ATQ fornecido por vários tipos de Tengu Juurai não se acumula, e seus efeitos e durações serão determinados pelo último Tengu Juurai a entrar em vigor."
+        },
+        "passives": [
+            {
+                "name": "Armadura Imperial",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/kujou_sara/talent_passive_a1.webp",
+                "description": "Enquanto no estado Cobertura da Pena de Corvo fornecido por Convocação da Tempestade Tengu, o tempo de carregamento do Disparo com Mira é diminuído em 60%."
+            },
+            {
+                "name": "Decorum",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/kujou_sara/talent_passive_a4.webp",
+                "description": "Quando Tengu Juurai: Emboscada atinge oponentes, Kujou Sara restaurará 1.2 de Energia para todos os membros da equipe (incluindo ela mesma) para cada 100% de Recarga de Energia que ela possui. Este efeito pode ser ativado uma vez a cada 3s."
+            },
+            {
+                "name": "Levantamento de Terras",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/kujou_sara/talent_passive_utility.webp",
+                "description": "Quando despachada em uma Expedição de Inazuma, o tempo consumido é reduzido em 25%."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Máscara Danificada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/damaged_mask.webp"
+        },
+        {
+            "name": "Máscara Suja",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/stained_mask.webp"
+        },
+        {
+            "name": "Máscara Ominosa",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/ominous_mask.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Elegância\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_elegance.webp"
+        },
+        {
+            "name": "Guia da \"Elegância\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_elegance.webp"
+        },
+        {
+            "name": "Filosofia da \"Elegância\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_elegance.webp"
+        },
+        {
+            "name": "Coração de Cinzas",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/ashen_heart.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Olho de Corvo",
+            "icon_url": "/assets/images/constellations/kujou_sara/constellation_1.webp",
+            "description": "Quando Tengu Juurai concede aos personagens Bônus de ATQ ou atinge oponentes, o TdR de Convocação da Tempestade Tengu é diminuído em 1s. Este efeito pode ser ativado uma vez a cada 3s."
+        },
+        {
+            "level": 2,
+            "name": "Asas Negras",
+            "icon_url": "/assets/images/constellations/kujou_sara/constellation_2.webp",
+            "description": "Liberar Convocação da Tempestade Tengu deixará uma Pena de Corvo menor na posição original de Kujou Sara que causa 30% do DANO original de Tengu Juurai: Emboscada."
+        },
+        {
+            "level": 3,
+            "name": "A Guerra Interior",
+            "icon_url": "/assets/images/constellations/kujou_sara/constellation_3.webp",
+            "description": "Aumenta o Nível de Subjugação: Koukou Sendou em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Prova Conclusiva",
+            "icon_url": "/assets/images/constellations/kujou_sara/constellation_4.webp",
+            "description": "O número de Tengu Juurai: Aglomerados de Tempestade liberados por Subjugação: Koukou Sendou é aumentado para 6."
+        },
+        {
+            "level": 5,
+            "name": "Feitiço Shingan",
+            "icon_url": "/assets/images/constellations/kujou_sara/constellation_5.webp",
+            "description": "Aumenta o Nível de Convocação da Tempestade Tengu em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Pecado do Orgulho",
+            "icon_url": "/assets/images/constellations/kujou_sara/constellation_6.webp",
+            "description": "O Dano Electro de personagens que tiveram seu ATQ aumentado por Tengu Juurai tem seu Dano CRIT aumentado em 60%."
+        }
+    ]
+}

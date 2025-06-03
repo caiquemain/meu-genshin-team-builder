@@ -1,0 +1,373 @@
+{
+    "id": "yaoyao",
+    "name": "Yaoyao",
+    "title": "Graça Florescente",
+    "element": "Dendro",
+    "rarity": 4,
+    "weapon": "Polearm",
+    "model_type": "Short Female",
+    "role": [
+        "Healer",
+        "Off-Field Dendro Enabler"
+    ],
+    "description_bio": "A mais jovem discípula da Adeptus Corista. Yaoyao é uma garota gentil e atenciosa que cuida de todos ao seu redor, desde humanos e animais até seus companheiros adepti.",
+    "birthday": "6 de Março",
+    "constellation_name_official": "Osmanthus",
+    "region": "Liyue",
+    "affiliation": [
+        "Morada da Adeptus Corista"
+    ],
+    "special_dish": {
+        "name": "Comida Caseira de Qingce",
+        "icon_url": "/assets/images/dishes/yaoyao_qingce_household_dish.webp"
+    },
+    "namecard_url": "/assets/images/namecards/yaoyao_yuegui.png",
+    "icon_url": "/assets/images/characters/yaoyao.png",
+    "element_icon_url": "/assets/images/elements/element_dendro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Yaoyao Guide (Full)",
+                "url": "https://keqingmains.com/yaoyao/"
+            },
+            {
+                "name": "KQM Yaoyao Quick Guide",
+                "url": "https://keqingmains.com/q/yaoyao-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Yaoyao",
+                "url": "https://genshin-impact.fandom.com/wiki/Yaoyao"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "yaoyao_healer_deepwood_favonius",
+            "name": "Healer (Memórias da Floresta - Favonius)",
+            "notes_build": "Foco em maximizar a cura de Yaoyao e sua capacidade de aplicar Dendro off-field, enquanto também ajuda com a Recarga de Energia da equipe. 4p Memórias da Floresta é ideal se ela for a única Dendro ou se precisar reduzir a RES Dendro. Lança de Favonius é excelente para utilidade.",
+            "artifacts": [
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto se Yaoyao for a única personagem Dendro na equipe ou se outro personagem não puder usar este conjunto de forma eficaz. A Redução de RES Dendro aumenta o dano de todas as reações Dendro.",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                },
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Embora o buff de ATQ% de 4p seja menos consistente com a Habilidade Elemental de Yaoyao (que não causa dano com frequência suficiente off-field), o bônus de 2p HP% é ótimo para sua cura.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                },
+                {
+                    "set_id": "ocean_hued_clam",
+                    "set_name": "Concha Tingida Pelo Mar",
+                    "pieces": 4,
+                    "notes": "Converte a cura de Yaoyao em Dano Físico adicional. Pode ser uma boa opção se a cura já for suficiente e você quiser mais dano pessoal de Yaoyao.",
+                    "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png"
+                },
+                {
+                    "set_id": "maiden_beloved",
+                    "set_name": "Donzela Amada",
+                    "pieces": 4,
+                    "notes": "Maximiza a cura de Yaoyao, mas geralmente Concha Tingida ou conjuntos de suporte de equipe são preferíveis.",
+                    "icon_url": "/assets/images/artifact_sets/maiden_beloved.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / HP%",
+                "goblet": "HP%",
+                "circlet": "Bônus de Cura% / HP% / Taxa CRIT (para Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~180-220%+ dependendo do time)",
+                "HP%",
+                "Taxa CRIT (para Lança de Favonius)",
+                "HP Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Melhor opção geral para Yaoyao como suporte, pois ajuda significativamente com sua Recarga de Energia e da equipe. Requer investimento em Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                },
+                {
+                    "weapon_id": "black_tassel",
+                    "name": "Borla Preta",
+                    "rarity": 3,
+                    "type": "Polearm",
+                    "category": "Baús / Gacha",
+                    "notes": "Opção F2P que fornece muito HP%, maximizando a cura de Yaoyao. Não ajuda com RE.",
+                    "icon_url": "/assets/images/weapons_detail/black_tassel.png"
+                },
+                {
+                    "weapon_id": "rightful_reward",
+                    "name": "Recompensa Justa",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Forja (Fontaine)",
+                    "notes": "Boa opção forjável que fornece HP% e ajuda com a Energia se Yaoyao for curada (o que ela faz consigo mesma).",
+                    "icon_url": "/assets/images/weapons_detail/rightful_reward.png"
+                },
+                {
+                    "weapon_id": "kitain_cross_spear",
+                    "name": "Lança Cruzada de Kitain",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Forja (Inazuma)",
+                    "notes": "Fornece Proficiência Elemental, que pode ser útil em times de Florescimento, e a passiva ajuda com a Recarga de Energia.",
+                    "icon_url": "/assets/images/weapons_detail/kitain_cross_spear.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) (para cura off-field)",
+                "Supremo (Burst) (para cura em área e aplicação Dendro)",
+                "Ataque Normal (não precisa upar)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 860,
+            "base_atk": 18,
+            "base_def": 63,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 2815,
+            "base_atk": 58,
+            "base_def": 204,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 4668,
+            "base_atk": 96,
+            "base_def": 338,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 5990,
+            "base_atk": 124,
+            "base_def": 434,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7177,
+            "base_atk": 148,
+            "base_def": 521,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8357,
+            "base_atk": 172,
+            "base_def": 607,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10304,
+            "base_atk": 212,
+            "base_def": 751,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Pseudo-estames (Quelled Creeper)",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/quelled_creeper.webp"
+        },
+        {
+            "name": "Lasca de Esmeralda Nagadus",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/nagadus_emerald_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Esmeralda Nagadus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/nagadus_emerald_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Esmeralda Nagadus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/nagadus_emerald_chunk.webp"
+        },
+        {
+            "name": "Gema de Esmeralda Nagadus",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/nagadus_emerald_gemstone.webp"
+        },
+        {
+            "name": "Pimenta de Jueyun",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/jueyun_chili.webp"
+        },
+        {
+            "name": "Condensado de Slime",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/slime_condensate.webp"
+        },
+        {
+            "name": "Secreção de Slime",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/slime_secretions.webp"
+        },
+        {
+            "name": "Concentrado de Slime",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/slime_concentrate.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Arremesso de Rabanete",
+            "icon_url": "/assets/images/talents/yaoyao/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 golpes consecutivos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para avançar, causando dano aos oponentes no caminho.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando inimigos ao longo do caminho e causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Céu Estrelado de Raphanus",
+            "icon_url": "/assets/images/talents/yaoyao/talent_elemental_skill.webp",
+            "description": "Invoca um dispositivo especial criado por certa Adeptus chamado \"Yuegui: Modo Arremesso\".\nYuegui: Modo Arremesso: Arremessa Rabanetes de Jade Branca que explodem ao atingir oponentes, causando Dano Dendro e restaurando HP para o personagem ativo com base no HP Máx de Yaoyao. Se não houver oponentes próximos, ou se o HP do personagem ativo estiver acima de 70%, ele arremessará Rabanetes em direção ao personagem. Se houver oponentes próximos e o HP do personagem ativo estiver abaixo de 70%, ele arremessará Rabanetes em um oponente. Até 2 Yuegui: Modo Arremesso podem existir ao mesmo tempo."
+        },
+        "elemental_burst": {
+            "name": "Descenso de Jade da Lua",
+            "icon_url": "/assets/images/talents/yaoyao/talent_elemental_burst.webp",
+            "description": "A pedido de certa Adeptus, libera todo o potencial de Yuegui, causando Dano Dendro a oponentes próximos e entrando no estado (um tanto inadequado) de Legado Adepti. Legado Adepti: Rabanetes de Jade Branca gerados são considerados Dano de Supremo Elemental. Eles restaurarão HP para todos os personagens da equipe próximos, e o Dano Dendro que causam também curará o personagem ativo. Yuegui: Modo Salto: Quando o estado de Legado Adepti termina, Yaoyao invocará 3 Yuegui: Modo Salto. Estes Yuegui: Modo Salto agirão de forma similar ao Yuegui: Modo Arremesso, exceto que o DANO que causam e a cura que fornecem são considerados Dano de Supremo Elemental."
+        },
+        "passives": [
+            {
+                "name": "Espalhando Estrelas",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/yaoyao/talent_passive_a1.webp",
+                "description": "Enquanto no estado de Legado Adepti, Yaoyao irá continuamente arremessar Rabanetes de Jade Branca em oponentes próximos quando ela correr, pular ou estiver em estado de Sprint. Ela pode arremessar 1 Rabanejo de Jade Branca desta forma uma vez a cada 0.6s."
+            },
+            {
+                "name": "Dedicada aos Outros",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/yaoyao/talent_passive_a4.webp",
+                "description": "Quando Rabanetes de Jade Branca explodem, personagens ativos dentro da AdE da explosão recuperarão HP a cada segundo com base em 0.8% do HP Máx de Yaoyao. Este efeito dura 5s."
+            },
+            {
+                "name": "Pegadas Leves",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/yaoyao/talent_passive_utility.webp",
+                "description": "Quando Yaoyao está na equipe, seus personagens não assustarão certos animais, incluindo Borboletas de Cristal, ao se aproximarem deles."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Condensado de Slime",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/slime_condensate.webp"
+        },
+        {
+            "name": "Secreção de Slime",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/slime_secretions.webp"
+        },
+        {
+            "name": "Concentrado de Slime",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/slime_concentrate.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Diligência\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_diligence.webp"
+        },
+        {
+            "name": "Guia da \"Diligência\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_diligence.webp"
+        },
+        {
+            "name": "Filosofia da \"Diligência\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_diligence.webp"
+        },
+        {
+            "name": "Coroa do Rei Dragão (Daka's Bell)",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/dakas_bell.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Favor Adepti",
+            "icon_url": "/assets/images/constellations/yaoyao/constellation_1.webp",
+            "description": "Quando Rabanetes de Jade Branca explodem, personagens ativos dentro de sua AdE ganham 15% de Bônus de Dano Dendro por 8s e têm 15 de Stamina restaurados. Esta restauração de Stamina pode ser ativada apenas uma vez a cada 5s."
+        },
+        {
+            "level": 2,
+            "name": "Ingenuidade Inocente",
+            "icon_url": "/assets/images/constellations/yaoyao/constellation_2.webp",
+            "description": "Enquanto no estado de Legado Adepti causado por Descenso de Jade da Lua, se as explosões de Rabanete de Jade Branca atingirem oponentes, Yaoyao restaurará 3 de Energia. Esta restauração de Energia pode ser ativada uma vez a cada 0.8s."
+        },
+        {
+            "level": 3,
+            "name": "Leal e Diligente",
+            "icon_url": "/assets/images/constellations/yaoyao/constellation_3.webp",
+            "description": "Aumenta o Nível de Céu Estrelado de Raphanus em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Preciosa Fofura",
+            "icon_url": "/assets/images/constellations/yaoyao/constellation_4.webp",
+            "description": "Após usar Céu Estrelado de Raphanus ou Descenso de Jade da Lua, a Proficiência Elemental de Yaoyao aumentará com base em 0.3% de seu HP Máx por 8s. O aumento máximo de Proficiência Elemental que ela pode ganhar desta forma é 120."
+        },
+        {
+            "level": 5,
+            "name": "Coragem Bondosa",
+            "icon_url": "/assets/images/constellations/yaoyao/constellation_5.webp",
+            "description": "Aumenta o Nível de Descenso de Jade da Lua em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Beneficência Compassiva",
+            "icon_url": "/assets/images/constellations/yaoyao/constellation_6.webp",
+            "description": "Para cada 2 Rabanetes de Jade Branca que Yuegui: Modo Arremesso arremessar, ele também arremessará um Mega Rabanete que terá uma AdE maior que o Rabanejo de Jade Branca e, ao explodir, causará Dano Dendro em AdE igual a 75% do ATQ de Yaoyao e restaurará HP igual a 7.5% do HP Máx de Yaoyao. Cada Yuegui: Modo Arremesso pode arremessar no máximo 2 Mega Rabanetes."
+        }
+    ]
+}

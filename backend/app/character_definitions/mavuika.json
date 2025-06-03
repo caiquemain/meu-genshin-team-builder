@@ -1,0 +1,444 @@
+{
+    "id": "mavuika",
+    "name": "Mavuika",
+    "title": "Chama da Noite Ardente",
+    "element": "Pyro",
+    "rarity": 5,
+    "weapon": "Claymore",
+    "model_type": "Tall Female",
+    "role": [
+        "On-Field DPS",
+        "Off-Field DPS/Enabler"
+    ],
+    "description_bio": "Mavuika é a Arconte Pyro atual e a divindade que preside Natlan. Conhecida como a Deusa da Guerra e do Sol, ela é uma líder feroz, mas compassiva, que valoriza a força e a paixão de seu povo.",
+    "birthday": "28 de Agosto",
+    "constellation_name_official": "Sol Invictus",
+    "region": "Natlan",
+    "affiliation": [
+        "Os Sete",
+        "Arcontes",
+        "Huitztlan"
+    ],
+    "special_dish": {
+        "name": "Hino da Chama Reunida",
+        "icon_url": "/assets/images/dishes/mavuika_hymn_of_gathered_flame.webp"
+    },
+    "namecard_url": "/assets/images/namecards/mavuika_suncrowned.png",
+    "icon_url": "/assets/images/characters/mavuika.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Mavuika Quick Guide",
+                "url": "https://keqingmains.com/q/mavuika-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Mavuika",
+                "url": "https://genshin-impact.fandom.com/wiki/Mavuika"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "mavuika_onfield_dps_obsidian_codex",
+            "name": "DPS On-field (Códice de Obsidiana)",
+            "notes_build": "Foco em maximizar o dano on-field de Mavuika, especialmente durante seu Supremo que infunde seus ataques com Pyro e aumenta seu dano. 4p Códice de Obsidiana é seu melhor conjunto devido ao Bônus de DANO Universal e Taxa CRIT.",
+            "artifacts": [
+                {
+                    "set_id": "obsidian_codex",
+                    "set_name": "Códice de Obsidiana",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Mavuika, com 100% de uptime em todos os seus buffs. Bônus de DANO Universal e Taxa CRIT alta.",
+                    "icon_url": "/assets/images/artifact_sets/obsidian_codex.png"
+                },
+                {
+                    "set_id": "fragment_of_harmonic_whimsy",
+                    "set_name": "Fragmento da Fantasia Harmônica",
+                    "pieces": 4,
+                    "notes": "Conjunto forte que concede Bônus de DANO para todo o kit de Mavuika. Ela pode manter 3 acúmulos consistentemente em uma rotação.",
+                    "icon_url": "/assets/images/artifact_sets/fragment_of_harmonic_whimsy.png"
+                },
+                {
+                    "set_id": "lavawalker",
+                    "set_name": "Atravessador de Fogo",
+                    "pieces": 4,
+                    "notes": "Opção sólida em times Mono Pyro ou com aplicação Pyro consistente. Buff de DANO% incondicional contra inimigos afetados por Pyro.",
+                    "icon_url": "/assets/images/artifact_sets/lavawalker.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Proficiência Elemental (EM para Vaporizar/Fusão)",
+                "goblet": "Bônus de Dano Pyro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ~120-150% dependendo do time e C4)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (EM para reações)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "a_thousand_blazing_suns",
+                    "name": "Mil Sóis Flamejantes",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Assinatura/Customizado)",
+                    "notes": "Melhor arma para Mavuika. Fornece Dano CRIT e Taxa CRIT, com um Bônus de DANO% para ataques Pyro.",
+                    "icon_url": "/assets/images/weapons_detail/a_thousand_blazing_suns.png"
+                },
+                {
+                    "weapon_id": "beacon_of_the_reed_sea",
+                    "name": "Sinal dos Mares de Juncos",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Outra ótima opção, fornecendo Taxa CRIT e ATQ%.",
+                    "icon_url": "/assets/images/weapons_detail/beacon_of_the_reed_sea.png"
+                },
+                {
+                    "weapon_id": "redhorn_stonethresher",
+                    "name": "Chifres Vermelhos Destruidores de Pedras",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "'Stat stick' de Dano CRIT. A passiva de DEF não é muito útil, mas os stats base são altos.",
+                    "icon_url": "/assets/images/weapons_detail/redhorn_stonethresher.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "R5 é competitiva com armas 5 estrelas se Mavuika estiver protegida por escudo para manter os acúmulos.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "tidal_shadow",
+                    "name": "Sombra da Maré",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja",
+                    "notes": "Opção F2P decente se houver um curandeiro na equipe para ativar sua passiva de ATQ%.",
+                    "icon_url": "/assets/images/weapons_detail/tidal_shadow.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        },
+        {
+            "key": "mavuika_offfield_enabler_scroll_of_cinder_city",
+            "name": "Habilitadora Off-field (Pergaminho da Cidade das Cinzas)",
+            "notes_build": "Mavuika como aplicadora Pyro off-field e buffer com 4p Pergaminho do Herói da Cidade das Cinzas, útil em times que precisam de aplicação Pyro e buffs de DANO Elemental. Foco em RE e ATQ para o buff.",
+            "artifacts": [
+                {
+                    "set_id": "scroll_of_the_hero_of_cinder_city",
+                    "set_name": "Pergaminho do Herói da Cidade das Cinzas",
+                    "pieces": 4,
+                    "notes": "Sua aplicação Pyro off-field pode ativar o efeito completo do conjunto para um buff de 40% de DANO Elemental para Pyro e o elemento com o qual reagiu.",
+                    "icon_url": "/assets/images/artifact_sets/scroll_of_the_hero_of_cinder_city.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Se o buff de ATQ% para a equipe for mais desejado e outro personagem já estiver usando Pergaminho.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / ATK%",
+                "goblet": "Bônus de Dano Pyro / ATK%",
+                "circlet": "Taxa CRIT / Dano CRIT / ATK%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "ATK%",
+                "Taxa CRIT / Dano CRIT"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_greatsword",
+                    "name": "Espadão de Favonius",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Excelente para necessidades de energia da equipe e de Mavuika. Requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_greatsword.png"
+                },
+                {
+                    "weapon_id": "sacrificial_greatsword",
+                    "name": "Espadão do Sacrifício",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Permite mais usos da Habilidade para aplicação Pyro e partículas.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_greatsword.png"
+                },
+                {
+                    "weapon_id": "ultimate_overlords_mega_magic_sword",
+                    "name": "Espada Mágica \"Supremacia\"",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Evento",
+                    "notes": "Fornece RE e ATQ%, uma boa opção de evento para suporte.",
+                    "icon_url": "/assets/images/weapons_detail/ultimate_overlords_mega_magic_sword.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (baixa prioridade para off-field)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 1084,
+            "base_atk": 26,
+            "base_def": 61,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3549,
+            "base_atk": 86,
+            "base_def": 199,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5889,
+            "base_atk": 143,
+            "base_def": 331,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "9.6%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 7555,
+            "base_atk": 183,
+            "base_def": 425,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "19.2%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8921,
+            "base_atk": 217,
+            "base_def": 502,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "19.2%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 10280,
+            "base_atk": 250,
+            "base_def": 579,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "28.8%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 12943,
+            "base_atk": 315,
+            "base_def": 728,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "38.4%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Núcleo da Fonte Secreta com Inscrição Dourada",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/gold_inscribed_secret_source_core.webp"
+        },
+        {
+            "name": "Lasca de Ágata Agnidus",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/agnidus_agate_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_chunk.webp"
+        },
+        {
+            "name": "Gema de Ágata Agnidus",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/agnidus_agate_gemstone.webp"
+        },
+        {
+            "name": "Flor Púrpura Definhada",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/withering_purpurbloom.webp"
+        },
+        {
+            "name": "Insígnia do Ladrão de Tesouros",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/treasure_hoarder_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Prateado",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/silver_raven_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Dourado",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/golden_raven_insignia.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Lâmina Solar Inigualável",
+            "icon_url": "/assets/images/talents/mavuika/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 golpes consecutivos.\nAtaque Carregado: Consome Stamina ao longo do tempo para realizar ataques giratórios contínuos contra todos os oponentes próximos. No final da sequência, realiza um golpe ainda mais poderoso.\nAtaque Imersivo: Mergulha do ar para atingir o chão, danificando oponentes ao longo do caminho e causando Dano Pyro em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Dança da Chama Crescente",
+            "icon_url": "/assets/images/talents/mavuika/talent_elemental_skill.webp",
+            "description": "Pressionar: Mavuika dá um passo elegante, causando Dano Pyro em AdE.\nManter Pressionado: Entra no estado Dança da Devoção. Mavuika usa uma Dança da Devoção para comandar os espíritos do Sol a causar Dano Pyro em AdE continuamente. Se um membro da equipe desencadear uma Reação de Queimadura enquanto Mavuika está na Dança da Devoção, ela ganhará um acúmulo de Coração Ardente. Máximo de 3 acúmulos. A Habilidade pode ser mantida por até 10s e termina quando o botão da Habilidade é solto ou o tempo acaba. Se Mavuika tiver acúmulos de Coração Ardente quando a Dança da Devoção terminar, ela causará Dano Pyro em AdE adicional com base nos acúmulos. Se Mavuika estiver no estado Bênção da Alma da Noite ao usar esta Habilidade, ela consumirá 25 pontos de Alma da Noite para invocar Haborym."
+        },
+        "elemental_burst": {
+            "name": "Ascensão do Sol Invencível",
+            "icon_url": "/assets/images/talents/mavuika/talent_elemental_burst.webp",
+            "description": "Mavuika invoca o poder do Sol Invicto, causando Dano Pyro em AdE alinhado à Alma da Noite e entrando no estado Bênção da Alma da Noite. Ela então ganha 100 pontos de Alma da Noite e os seguintes efeitos:\n- Infusão Pyro em seus Ataques Normais, Carregados e Imersivos que não pode ser substituída.\n- O Dano de Ataque Normal e Carregado de Mavuika é aumentado.\n- A cada 2s, Mavuika ganhará 1 acúmulo de Espírito de Luta, aumentando sua RES a Interrupção e DEF. Máximo de 3 acúmulos. Os acúmulos de Espírito de Luta são perdidos quando Mavuika sofre DANO. Quando o estado Bênção da Alma da Noite termina, todos os acúmulos de Espírito de Luta são consumidos, e Mavuika restaura Alma da Noite com base no número de acúmulos consumidos.\nEnquanto estiver ativo, o estado Bênção da Alma da Noite de Mavuika não terminará mesmo se ela não estiver em campo."
+        },
+        "passives": [
+            {
+                "name": "Majestade Radiante",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/mavuika/talent_passive_a1.webp",
+                "description": "Após um Ataque Normal, Carregado ou Imersivo de Mavuika (no estado Bênção da Alma da Noite) atingir um oponente, ele causará um ataque coordenado com Haborym, causando Dano Pyro em AdE alinhado à Alma da Noite igual a 50% de seu ATQ. Este efeito pode ser ativado uma vez a cada 2s."
+            },
+            {
+                "name": "Vontade Indomável",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/mavuika/talent_passive_a4.webp",
+                "description": "O Supremo Elemental Ascensão do Sol Invencível de Mavuika ganhará os seguintes efeitos com base nos membros da equipe de Natlan:\n- 1 Membro: A duração do estado Bênção da Alma da Noite é aumentada em 3s.\n- 2 Membros: Mavuika ganhará imediatamente o máximo de acúmulos de Espírito de Luta ao usar seu Supremo Elemental.\n- 3 Membros: A Taxa CRIT de Mavuika aumenta em 15% enquanto estiver no estado Bênção da Alma da Noite."
+            },
+            {
+                "name": "Poder do Deus do Fogo",
+                "type": "Passiva do Domínio da Noite (Power of the Fire God)",
+                "icon_url": "/assets/images/talents/mavuika/talent_passive_night_realm.webp",
+                "description": "Quando em uma área com Mecânicas de Phlogiston dentro de Natlan, quando um membro da equipe com um Nome Antigo desencadeia uma Reação de Queimadura, o DANO de Queimadura é aumentado em 30%. Quando o personagem ativo atual está no estado Alma da Noite, seu DANO de Queimadura é aumentado em 50%."
+            },
+            {
+                "name": "Legado da Tribo do Sol",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/mavuika/talent_passive_utility.webp",
+                "description": "Aumenta a Vel. de Movimento de todos os membros da equipe em 10% durante o dia (6:00 – 18:00).\nNão tem efeito em Domínios, Domínios de Desafio ou no Abismo Espiral. Não acumulável com Talentos Passivos que fornecem exatamente os mesmos efeitos."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Insígnia do Ladrão de Tesouros",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/treasure_hoarder_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Prateado",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/silver_raven_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Dourado",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/golden_raven_insignia.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Justiça\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_justice.webp"
+        },
+        {
+            "name": "Guia da \"Justiça\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_justice.webp"
+        },
+        {
+            "name": "Filosofia da \"Justiça\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_justice.webp"
+        },
+        {
+            "name": "Chifre Erodido",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/eroded_horn.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Chama Impiedosa",
+            "icon_url": "/assets/images/constellations/mavuika/constellation_1.webp",
+            "description": "Enquanto no estado Bênção da Alma da Noite, quando os Ataques Normais ou Carregados de Mavuika atingem um oponente afetado por Queimadura, eles criarão uma explosão, causando Dano Pyro em AdE igual a 120% de seu ATQ. Este efeito pode ser ativado uma vez a cada 2s."
+        },
+        {
+            "level": 2,
+            "name": "Fogo Purificador Imortal",
+            "icon_url": "/assets/images/constellations/mavuika/constellation_2.webp",
+            "description": "Quando a Habilidade Elemental Dança da Chama Crescente de Mavuika atinge um oponente, ela ganhará um acúmulo de Coração Ardente. Este efeito pode ser ativado uma vez a cada 2s."
+        },
+        {
+            "level": 3,
+            "name": "Sol Que Nunca Se Põe",
+            "icon_url": "/assets/images/constellations/mavuika/constellation_3.webp",
+            "description": "Aumenta o Nível de Ascensão do Sol Invencível em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Decreto do Sol Ardente",
+            "icon_url": "/assets/images/constellations/mavuika/constellation_4.webp",
+            "description": "Quando o Supremo Elemental Ascensão do Sol Invencível de Mavuika ou o ataque coordenado de Haborym atinge um oponente, a RES Pyro desse oponente é diminuída em 20% por 10s."
+        },
+        {
+            "level": 5,
+            "name": "Ritual da Chama Viva",
+            "icon_url": "/assets/images/constellations/mavuika/constellation_5.webp",
+            "description": "Aumenta o Nível de Dança da Chama Crescente em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Glória do Sol Eterno",
+            "icon_url": "/assets/images/constellations/mavuika/constellation_6.webp",
+            "description": "Mavuika ganhará os seguintes efeitos enquanto no estado Bênção da Alma da Noite:\n- Aumenta a Taxa CRIT de Mavuika em 10% e seu Dano CRIT em 20%.\n- Mavuika não consumirá Stamina ao usar Ataques Carregados."
+        }
+    ]
+}

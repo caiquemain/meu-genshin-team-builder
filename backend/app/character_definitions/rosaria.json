@@ -1,0 +1,531 @@
+{
+    "id": "rosaria",
+    "name": "Rosaria",
+    "title": "Benevolência Espinhosa",
+    "element": "Cryo",
+    "rarity": 4,
+    "weapon": "Polearm",
+    "model_type": "Tall Female",
+    "role": [
+        "Sub-DPS",
+        "Burst DPS",
+        "Support",
+        "Cryo Applicator"
+    ],
+    "description_bio": "Uma irmã da Igreja de Favonius em Mondstadt, Rosaria é conhecida por suas palavras e atos afiados, preferindo agir nas sombras para garantir a segurança de Mondstadt à sua maneira peculiar.",
+    "birthday": "24 de Janeiro",
+    "constellation_name_official": "Spinea Corona",
+    "region": "Mondstadt",
+    "affiliation": [
+        "Igreja de Favonius"
+    ],
+    "special_dish": {
+        "name": "Jantar Experimental",
+        "icon_url": "/assets/images/dishes/rosaria_dinner_of_judgment.webp"
+    },
+    "namecard_url": "/assets/images/namecards/rosaria_indenture.png",
+    "icon_url": "/assets/images/characters/rosaria.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Rosaria Full Guide",
+                "url": "https://keqingmains.com/rosaria/"
+            },
+            {
+                "name": "KQM Rosaria Quick Guide",
+                "url": "https://keqingmains.com/q/rosaria-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Rosaria",
+                "url": "https://genshin-impact.fandom.com/wiki/Rosaria"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Rosaria",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Rosaria"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "rosaria_reverse_melt_dps",
+            "name": "DPS de Fusão Reversa (Sub-DPS/Quickswap)",
+            "notes_build": "Focada em causar alto dano Cryo através da reação de Fusão Reversa com seu Supremo e Habilidade Elemental, geralmente em rotações rápidas.",
+            "artifacts": [
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Fusão Reversa em baixas necessidades de RE, fornecendo PE e ATQ%.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "lavawalker",
+                    "set_name": "Atravessador de Fogo",
+                    "pieces": 4,
+                    "notes": "Opção competitiva se puder manter aura Pyro nos inimigos consistentemente.",
+                    "icon_url": "/assets/images/artifact_sets/lavawalker.png"
+                },
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Ótimo conjunto geral, especialmente se Rosaria precisar de mais Recarga de Energia.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                },
+                {
+                    "set_id": "blizzard_strayer",
+                    "set_name": "Herói Invernal",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p Ritual Real ou 2p ATQ%/PE para um bom equilíbrio de dano.",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental / ATQ%",
+                "goblet": "Bônus de Dano Cryo%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito)",
+                "Taxa CRIT%",
+                "Dano CRIT%",
+                "Proficiência Elemental",
+                "ATQ%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "staff_of_the_scarlet_sands",
+                    "name": "Báculo das Areias Escarlates",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor opção devido à alta Taxa CRIT, PE e conversão de PE para ATQ.",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_the_scarlet_sands.png"
+                },
+                {
+                    "weapon_id": "staff_of_homa",
+                    "name": "Báculo de Homa",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Dano CRIT alto e bônus de ATQ, muito forte.",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_homa.png"
+                },
+                {
+                    "weapon_id": "wavebreakers_fin",
+                    "name": "Nadadeira do Quebra-Mar",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Competitiva, especialmente em R5. Fornece Dano de Supremo e ATQ%.",
+                    "icon_url": "/assets/images/weapons_detail/wavebreakers_fin.png"
+                },
+                {
+                    "weapon_id": "deathmatch",
+                    "name": "Lança do Duelo",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Passe de Batalha",
+                    "notes": "Alta Taxa CRIT, ajuda no compartilhamento de CRIT (A4).",
+                    "icon_url": "/assets/images/weapons_detail/deathmatch.png"
+                },
+                {
+                    "weapon_id": "dragons_bane",
+                    "name": "Perdição do Dragão",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Substatus de PE e passiva de Dano% são perfeitos para Fusão Reversa.",
+                    "icon_url": "/assets/images/weapons_detail/dragons_bane.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        },
+        {
+            "key": "rosaria_freeze_sub_dps_support",
+            "name": "Sub-DPS de Congelamento / Suporte CRIT",
+            "notes_build": "Focada em dano Cryo off-field consistente, geração de partículas e compartilhamento de Taxa CRIT para a equipe.",
+            "artifacts": [
+                {
+                    "set_id": "blizzard_strayer",
+                    "set_name": "Herói Invernal",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para times de Congelamento, fornecendo muita Taxa CRIT.",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Opção de suporte se Rosaria for a melhor usuária do conjunto na equipe.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ% / Recarga de Energia%",
+                "goblet": "Bônus de Dano Cryo%",
+                "circlet": "Dano CRIT% (com 4p Herói Invernal) / Taxa CRIT%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito)",
+                "Dano CRIT%",
+                "Taxa CRIT% (até ~45% com 4p Herói Invernal, ou mais para A4)",
+                "ATQ%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "wavebreakers_fin",
+                    "name": "Nadadeira do Quebra-Mar",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "BiS em times de Congelamento, especialmente em R5. Aumenta o Dano do Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/wavebreakers_fin.png"
+                },
+                {
+                    "weapon_id": "staff_of_homa",
+                    "name": "Báculo de Homa",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Segunda melhor opção, muito Dano CRIT e ATQ.",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_homa.png"
+                },
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Excelente para reduzir a necessidade de RE da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                },
+                {
+                    "weapon_id": "the_catch",
+                    "name": "A Fisgada",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "F2P (Pesca)",
+                    "notes": "Melhor opção F2P, aumenta Dano e Taxa CRIT do Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/the_catch.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        },
+        {
+            "key": "rosaria_general_support",
+            "name": "Suporte Geral (Buff CRIT / Bateria / RES Shred Físico C6)",
+            "notes_build": "Focada em fornecer utilidade para a equipe: compartilhamento de Taxa CRIT, geração de partículas Cryo e, se C6, redução de RES Física. O dano pessoal é secundário.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Conjunto de suporte padrão para buffar o ATQ da equipe.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "instructor",
+                    "set_name": "Instrutor",
+                    "pieces": 4,
+                    "notes": "Opção de baixo investimento para buffar a Proficiência Elemental da equipe (ex: times de Hu Tao VapeMelt).",
+                    "icon_url": "/assets/images/artifact_sets/instructor.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia% / ATQ%",
+                "goblet": "Bônus de Dano Cryo%",
+                "circlet": "Taxa CRIT% (para maximizar A4 e Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito)",
+                "Taxa CRIT%",
+                "ATQ%",
+                "Dano CRIT%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Melhor opção para suporte, reduz a necessidade de RE da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                },
+                {
+                    "weapon_id": "deathmatch",
+                    "name": "Lança do Duelo",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Passe de Batalha",
+                    "notes": "Alta Taxa CRIT para maximizar o buff da A4.",
+                    "icon_url": "/assets/images/weapons_detail/deathmatch.png"
+                },
+                {
+                    "weapon_id": "prototype_starglitter",
+                    "name": "Protótipo Estelar",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Forja",
+                    "notes": "Opção F2P com Recarga de Energia se A Fisgada não estiver disponível.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_starglitter.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2647,
+            "base_atk": 52,
+            "base_def": 153,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 5118,
+            "base_atk": 100,
+            "base_def": 296,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 6516,
+            "base_atk": 127,
+            "base_def": 376,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 8096,
+            "base_atk": 158,
+            "base_def": 468,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 9493,
+            "base_atk": 185,
+            "base_def": 548,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 10891,
+            "base_atk": 213,
+            "base_def": 629,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 12289,
+            "base_atk": 240,
+            "base_def": 710,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Núcleo de Geada",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/hoarfrost_core.webp"
+        },
+        {
+            "name": "Lasca de Jade Shivada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/shivada_jade_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_chunk.webp"
+        },
+        {
+            "name": "Gema de Jade Shivada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/shivada_jade_gemstone.webp"
+        },
+        {
+            "name": "Valberry",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/valberry.webp"
+        },
+        {
+            "name": "Insígnia de Recruta",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/recruits_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Sargento",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/sergeants_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Oficial",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/lieutenants_insignia.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Lança Eclesiástica",
+            "icon_url": "/assets/images/talents/rosaria/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes rápidos com a lança.\nAtaque Carregado: Consome Stamina para se lançar para frente, infligindo Dano em seu trajeto.\nAtaque Imersivo: Mergulha em pleno ar para golpear o chão, causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Confissão Desoladora",
+            "icon_url": "/assets/images/talents/rosaria/talent_elemental_skill.webp",
+            "description": "Rosaria se move rapidamente para trás de um inimigo (exceto os muito grandes), então perfura e corta com sua lança, causando Dano Cryo. Gera 3 Partículas Cryo ao atingir um inimigo."
+        },
+        "elemental_burst": {
+            "name": "Ritos de Terminação",
+            "icon_url": "/assets/images/talents/rosaria/talent_elemental_burst.webp",
+            "description": "Rosaria brande sua arma para cortar inimigos próximos e invoca uma Lança de Gelo que atinge o solo. Ambas as ações causam Dano Cryo. Enquanto ativa, a Lança de Gelo emite ar frio intermitentemente, causando Dano Cryo em AdE. Este talento \"snapshota\" os atributos de Rosaria no momento do uso."
+        },
+        "passives": [
+            {
+                "name": "Confissões Forçadas",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/rosaria/talent_passive_a1.webp",
+                "description": "Quando Rosaria atinge um oponente por trás usando Confissão Desoladora (Habilidade Elemental), sua Taxa CRIT aumenta em 12% por 5s."
+            },
+            {
+                "name": "Samaritana da Escuridão",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/rosaria/talent_passive_a4.webp",
+                "description": "Lançar Ritos de Terminação (Supremo) aumenta a Taxa CRIT de todos os membros da equipe próximos (exceto Rosaria) em 15% da Taxa CRIT de Rosaria por 10s. O bônus de Taxa CRIT obtido desta maneira não pode exceder 15%."
+            },
+            {
+                "name": "Caminhada Noturna",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/rosaria/talent_passive_utility.webp",
+                "description": "Durante a noite (18:00 - 06:00), aumenta a Velocidade de Movimento dos membros da equipe em 10%. Não tem efeito em Domínios, Domínios Dizimados ou no Abismo Espiral. Não acumulável com Talentos Passivos de efeito igual."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Insígnia de Recruta",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/recruits_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Sargento",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/sergeants_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Oficial",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/lieutenants_insignia.webp"
+        },
+        {
+            "name": "Ensinamentos de Poemas",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_ballad.webp"
+        },
+        {
+            "name": "Guia de Poemas",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_ballad.webp"
+        },
+        {
+            "name": "Filosofia de Poemas",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_ballad.webp"
+        },
+        {
+            "name": "Sombra do Guerreiro",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/shadow_of_the_warrior.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Guia do Pecado",
+            "icon_url": "/assets/images/constellations/rosaria/constellation_1.webp",
+            "description": "Depois do ataque de Rosaria causar Dano CRIT, sua Vel. de ATQ aumenta em 10% e o Dano do Ataque Normal aumenta em 10%. Esse efeito dura por 4s."
+        },
+        {
+            "level": 2,
+            "name": "Terra Profana",
+            "icon_url": "/assets/images/constellations/rosaria/constellation_2.webp",
+            "description": "O Dano causado pela Lança de Gelo de Ritos de Terminação (Supremo) é estendido em 4s (adiciona 2 ticks de dano)."
+        },
+        {
+            "level": 3,
+            "name": "Ritual de Confissão",
+            "icon_url": "/assets/images/constellations/rosaria/constellation_3.webp",
+            "description": "Aumenta o nível da habilidade Confissão Desoladora (Habilidade Elemental) em 3. O nível máximo é 15."
+        },
+        {
+            "level": 4,
+            "name": "Graça do Sofrimento",
+            "icon_url": "/assets/images/constellations/rosaria/constellation_4.webp",
+            "description": "Quando a habilidade Confissão Desoladora (Habilidade Elemental) causa um golpe CRIT, Rosaria regenera 5 pontos de Energia Elemental. Esse efeito só pode ocorrer uma vez quando a Confissão Desoladora é lançada."
+        },
+        {
+            "level": 5,
+            "name": "Oração do Decesso",
+            "icon_url": "/assets/images/constellations/rosaria/constellation_5.webp",
+            "description": "Aumenta o nível da habilidade Ritos de Terminação (Supremo) em 3. O nível máximo é 15."
+        },
+        {
+            "level": 6,
+            "name": "Julgamento Divino",
+            "icon_url": "/assets/images/constellations/rosaria/constellation_6.webp",
+            "description": "Os ataques de Ritos de Terminação (Supremo) reduzirão a RES Física dos Inimigos em 20% por 10s."
+        }
+    ]
+}

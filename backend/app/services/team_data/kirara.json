@@ -1,0 +1,110 @@
+[
+    {
+        "id": "kirara_aggravate_keqing_fischl_kazuha",
+        "name": "Kirara - Agravamento (Keqing, Fischl, Kazuha)",
+        "strategy": "Kirara fornece escudo e aplicação Dendro para times de Agravamento. Seu escudo é particularmente útil contra Dano Dendro (como de auto-dano de Florescimento se um aplicador Hydro estiver presente). Keqing como driver, Fischl para dano off-field e bateria, Kazuha para buffs e VV Shred.",
+        "characters_in_team": [
+            {
+                "character_id": "kirara",
+                "role_in_team": "Escudeira / Aplicadora Dendro",
+                "build_key": "kirara_shielder_support_hp_er"
+            },
+            {
+                "character_id": "keqing",
+                "role_in_team": "Main DPS Electro On-field (Aggravate Driver)",
+                "build_key": "keqing_aggravate_dps_thunderingfury"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "kirara_nilou_bloom_nahida_kokomi",
+        "name": "Kirara - Nilou Bloom (Nilou, Nahida, Kokomi)",
+        "strategy": "Kirara como escudeira para mitigar o auto-dano das Sementes Abundantes de Nilou. Sua aplicação Dendro on-field no estado Caixa Neko Urgente pode ser útil. Nahida para aplicação Dendro massiva e Kokomi para cura e aplicação Hydro.",
+        "characters_in_team": [
+            {
+                "character_id": "kirara",
+                "role_in_team": "Escudeira / Driver Dendro On-field (Caixa Neko)",
+                "build_key": "kirara_shielder_support_hp_er"
+            },
+            {
+                "character_id": "nilou",
+                "role_in_team": "Ativadora de Florescimento Abundante / Aplicadora Hydro",
+                "build_key": "nilou_bloom_hp_keyofkhajnisut"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Aplicadora Hydro On-field",
+                "build_key": "kokomi_healer_driver_oceanhued_clam_ttds"
+            }
+        ]
+    },
+    {
+        "id": "kirara_hyperbloom_quickbloom_cyno_xingqiu_nahida",
+        "name": "Kirara - Hyperbloom/Quickbloom (Cyno, Xingqiu, Nahida)",
+        "strategy": "Kirara fornece escudo para Cyno, permitindo que ele maximize seu tempo em campo. A aplicação Dendro de Kirara é suplementar à de Nahida. Xingqiu para Hydro e Kuki (ou outro Electro) para Hiperflorecimento, mas a guia KQM menciona Cyno.",
+        "characters_in_team": [
+            {
+                "character_id": "kirara",
+                "role_in_team": "Escudeira / Aplicadora Dendro",
+                "build_key": "kirara_shielder_support_hp_er"
+            },
+            {
+                "character_id": "cyno",
+                "role_in_team": "Main DPS Electro On-field (Driver de Quickbloom/Aggravate)",
+                "build_key": "cyno_quickbloom_dps_thundering_fury_scarlet_sands"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            }
+        ]
+    },
+    {
+        "id": "kirara_burgeon_thoma_ayato_dendro_traveler",
+        "name": "Kirara - Burgeon (Thoma, Ayato, Viajante Dendro)",
+        "strategy": "Kirara como escudeira para proteger contra o auto-dano de Germinação e fornecer aplicação Dendro. Ayato como aplicador Hydro on-field, Viajante Dendro para mais Dendro e Thoma (full EM) para ativar Germinação.",
+        "characters_in_team": [
+            {
+                "character_id": "kirara",
+                "role_in_team": "Escudeira / Aplicadora Dendro",
+                "build_key": "kirara_shielder_support_hp_er"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Ativador de Germinação (Full EM) / Escudeiro Secundário",
+                "build_key": "thoma_burgeon_full_em_kitain_or_dragons_bane"
+            },
+            {
+                "character_id": "ayato",
+                "role_in_team": "Main DPS Hydro On-field / Driver",
+                "build_key": "ayato_onfield_dps_heart_of_depth_haran"
+            },
+            {
+                "character_id": "traveler_dendro",
+                "role_in_team": "Aplicador Dendro Off-field / Suporte (Deepwood Holder)",
+                "build_key": "traveler_dendro_offfield_support_deepwood_favonius"
+            }
+        ]
+    }
+]

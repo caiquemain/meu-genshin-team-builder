@@ -1,0 +1,403 @@
+{
+    "id": "neuvillette",
+    "name": "Neuvillette",
+    "title": "Ordenador das Marés",
+    "element": "Hydro",
+    "arkhe": "Pneuma",
+    "rarity": 5,
+    "weapon": "Catalyst",
+    "model_type": "Tall Male",
+    "role": [
+        "On-Field DPS",
+        "Hypercarry"
+    ],
+    "description_bio": "O Iudex de Fontaine, Neuvillette, é conhecido por sua imparcialidade inabalável. Embora defenda as regras do tribunal com a máxima reverência, ele é bastante reservado ao lidar com emoções humanas e muitas vezes se distancia do público. Secretamente, ele é a reencarnação do Dragão Hydro.",
+    "birthday": "18 de Dezembro",
+    "constellation_name_official": "Leviathan Judicator",
+    "region": "Fontaine",
+    "affiliation": [
+        "Corte de Fontaine",
+        "Fantasma de Marechaussee",
+        "Palais Mermonia",
+        "Sete Soberanos Dragões"
+    ],
+    "special_dish": {
+        "name": "\"Consommé Purete\"",
+        "icon_url": "/assets/images/dishes/neuvillette_consomme_purete.webp"
+    },
+    "namecard_url": "/assets/images/namecards/neuvillette_surge.png",
+    "icon_url": "/assets/images/characters/neuvillette.png",
+    "element_icon_url": "/assets/images/elements/element_hydro.png",
+    "updated_date": "2025-06-01",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Neuvillette Full Guide",
+                "url": "https://keqingmains.com/neuvillette/"
+            },
+            {
+                "name": "KQM Neuvillette Quick Guide",
+                "url": "https://keqingmains.com/q/neuvillette-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Neuvillette",
+                "url": "https://genshin-impact.fandom.com/wiki/Neuvillette"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Neuvillette",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Neuvillette"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "neuvillette_onfield_dps_marechaussee",
+            "name": "DPS On-Field (Caçador das Sombras)",
+            "notes_build": "Foco em maximizar o dano de seus Ataques Carregados: Justiça Igual, utilizando sua mecânica de Gotas d'Água Primordial e escalonamento com Vida Máx. Sua jogabilidade é confortável devido ao alcance e auto-sustentação.",
+            "artifacts": [
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras",
+                    "pieces": 4,
+                    "notes": "Seu melhor conjunto, fornecendo Dano de Ataque Carregado e alta Taxa CRIT através da flutuação de Vida de Neuvillette. ",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                },
+                {
+                    "set_id": "heart_of_depth",
+                    "set_name": "Profundezas do Coração",
+                    "pieces": 4,
+                    "notes": "Opção decente, fornece Bônus de Dano Hydro e Dano de Ataque Carregado, mas é consideravelmente inferior ao Caçador das Sombras. ",
+                    "icon_url": "/assets/images/artifact_sets/heart_of_depth.png"
+                },
+                {
+                    "set_id": "retracing_bolide",
+                    "set_name": "Meteoro Invertido",
+                    "pieces": 4,
+                    "notes": "Similar ao Profundezas do Coração em performance, mas requer um escudeiro com alta cobertura. Não recomendado farmar especificamente para ele. ",
+                    "icon_url": "/assets/images/artifact_sets/retracing_bolide.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Vida%",
+                "goblet": "Bônus de Dano Hydro% / Vida%",
+                "circlet": "Taxa CRIT% / Dano CRIT% / Vida%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito)",
+                "Taxa CRIT% / Dano CRIT%",
+                "Vida%",
+                "Vida Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "tome_of_the_eternal_flow",
+                    "name": "Escrituras do Fluxo Eterno",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Sua melhor arma (BiS). Oferece Dano CRIT, Vida% e Dano de Ataque Carregado, além de restaurar Energia. ",
+                    "icon_url": "/assets/images/weapons_detail/tome_of_the_eternal_flow.png"
+                },
+                {
+                    "weapon_id": "sacrificial_jade",
+                    "name": "Sacrifício de Jade (Sacrificial Jade)",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Passe de Batalha",
+                    "notes": "Sua segunda melhor arma na maioria dos cenários. Oferece Taxa CRIT e Vida%, mas a passiva restringe o tempo em campo. ",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_jade.png"
+                },
+                {
+                    "weapon_id": "surfs_up",
+                    "name": "Surf's Up (Hora do Surfe)",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Terceira melhor arma 5 estrelas, focada em Dano CRIT e Vida%. Passiva de Dano de Ataque Normal não é ideal. Detalhes completos desta arma precisam ser adicionados ao banco de dados. ",
+                    "icon_url": "/assets/images/weapons_detail/surfs_up.png"
+                },
+                {
+                    "weapon_id": "cashflow_supervision",
+                    "name": "Supervisão de Caixa",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alternativa forte, especialmente em altos refinamentos. Bônus de Dano de Ataque Carregado. ",
+                    "icon_url": "/assets/images/weapons_detail/cashflow_supervision.png"
+                },
+                {
+                    "weapon_id": "ash_graven_drinking_horn",
+                    "name": "Ash-Graven Drinking Horn (Chifre de Beber Cinza-Gravado)",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Evento",
+                    "notes": "Melhor arma F2P de Neuvillette em cenários de baixa RE. Oferece Vida% e dano passivo em AdE. Detalhes completos desta arma precisam ser adicionados ao banco de dados. ",
+                    "icon_url": "/assets/images/weapons_detail/ash_graven_drinking_horn.png"
+                },
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Melhor arma F2P em cenários de RE moderada/alta. Oferece Vida%, cura para a equipe e restauração de Energia. ",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                },
+                {
+                    "weapon_id": "lost_prayer_to_the_sacred_winds",
+                    "name": "Oração Perdida aos Ventos Sagrados",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Opção com Taxa CRIT e Bônus de Dano Elemental, mas pode dificultar o balanceamento de Taxa CRIT com Caçador das Sombras. ",
+                    "icon_url": "/assets/images/weapons_detail/lost_prayer_to_the_sacred_winds.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Nível do Personagem até 90",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2967,
+            "base_atk": 42,
+            "base_def": 116,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 5908,
+            "base_atk": 84,
+            "base_def": 232,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 7599,
+            "base_atk": 108,
+            "base_def": 298,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "9.6%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 9533,
+            "base_atk": 135,
+            "base_def": 374,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "19.2%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 11243,
+            "base_atk": 159,
+            "base_def": 441,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "19.2%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 12965,
+            "base_atk": 184,
+            "base_def": 509,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "28.8%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 14695,
+            "base_atk": 208,
+            "base_def": 576,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "38.4%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Chifre de Água do Mar Primordial",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/fontemer_unihorn.webp"
+        },
+        {
+            "name": "Lasca de Lazurita Varunada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/varunada_lazurite_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_chunk.webp"
+        },
+        {
+            "name": "Gema de Lazurita Varunada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/varunada_lazurite_gemstone.webp"
+        },
+        {
+            "name": "Lumitoile",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/lumitoile.webp"
+        },
+        {
+            "name": "Pérola Transoceânica",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/transoceanic_pearl.webp"
+        },
+        {
+            "name": "Pedaço Transoceânico",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/transoceanic_chunk.webp"
+        },
+        {
+            "name": "Cristal Xenocromático",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/xenochromatic_crystal.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Como Águas Paradas",
+            "icon_url": "/assets/images/talents/neuvillette/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 3 ataques Hydro. \nAtaque Carregado (Comum): Consome Stamina para um ataque Hydro em AdE. \nFortalecimento de Ataque Carregado (Reprimenda Judicial): Ao carregar, Neuvillette forma uma Insígnia da Arbitração, podendo se mover e absorver Gotas d'Água Primordial.  Cada gota acelera a formação (3 gotas para carga quase instantânea) e cura Neuvillette. \nAtaque Carregado (Justiça Igual): Se a insígnia for formada, desfere um jato contínuo de Dano Hydro em AdE numa área linear por 3s.  Não consome Stamina, mas drena 8% da Vida Máx. a cada 0.5s se Neuvillette estiver acima de 50% de Vida. \nAtaque Imersivo: Causa Dano Hydro em AdE no impacto. "
+        },
+        "elemental_skill": {
+            "name": "Lágrimas, Eu Retribuirei",
+            "icon_url": "/assets/images/talents/neuvillette/talent_elemental_skill.webp",
+            "description": "Invoca uma Cachoeira Furiosa que causa Dano Hydro em AdE baseado na Vida Máx. de Neuvillette.  Ao atingir um inimigo, gera 3 Gotas d'Água Primordial.  Gera 4 Partículas Elementais se atingir um inimigo. \nArkhe: Pneuma - Periodicamente, quando a Cachoeira Furiosa desce, um Espinho Espiritual também desce, causando Dano Hydro com Pneuma. "
+        },
+        "elemental_burst": {
+            "name": "Marés, Eu Retornarei",
+            "icon_url": "/assets/images/talents/neuvillette/talent_elemental_burst.webp",
+            "description": "Libera ondas que causam Dano Hydro em AdE baseado na Vida Máx. de Neuvillette.  Após um curto intervalo, 2 cachoeiras descem, causando mais Dano Hydro em AdE menor e gerando um total de 6 Gotas d'Água Primordial em uma área à frente. "
+        },
+        "passives": [
+            {
+                "name": "Herdeiro do Antigo Legado do Mar",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/neuvillette/talent_passive_a1.webp",
+                "description": "Quando um membro da equipe desencadeia Vaporizar, Congelamento, Eletricamente Carregado, Florescimento, Redemoinho Hydro ou Cristalização Hydro em oponentes, concede a Neuvillette 1 acúmulo de 'Glória do Dragão Ancestral' por 30s (máx. 3 acúmulos).  'Glória do Dragão Ancestral' faz o 'Ataque Carregado: Justiça Igual' causar 110%/125%/160% de seu Dano original, para 1/2/3 acúmulos respectivamente.  Os acúmulos de cada tipo de Reação Elemental existem independentemente. "
+            },
+            {
+                "name": "Disciplina do Grande Juiz",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/neuvillette/talent_passive_a4.webp",
+                "description": "Para cada 1% da Vida atual de Neuvillette acima de 30% de sua Vida Máx., ele ganha 0.6% de Bônus de Dano Hydro.  Um máximo de 30% de Bônus de Dano Hydro pode ser obtido desta forma (requer 80% de Vida Máx. ou mais). "
+            },
+            {
+                "name": "Reunindo-se como a Maré",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/neuvillette/talent_passive_utility.webp",
+                "description": "Aumenta a Velocidade de Sprint subaquático dos membros da sua equipe em 15%.  Não acumulável com Talentos Passivos que fornecem exatamente os mesmos efeitos. "
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Pérola Transoceânica",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/transoceanic_pearl.webp"
+        },
+        {
+            "name": "Pedaço Transoceânico",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/transoceanic_chunk.webp"
+        },
+        {
+            "name": "Cristal Xenocromático",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/xenochromatic_crystal.webp"
+        },
+        {
+            "name": "Ensinamentos da Igualdade",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_equity.webp"
+        },
+        {
+            "name": "Guia da Igualdade",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_equity.webp"
+        },
+        {
+            "name": "Filosofia da Igualdade",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_equity.webp"
+        },
+        {
+            "name": "Âmbar Eterno",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/everamber.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Instituição Venerável",
+            "icon_url": "/assets/images/constellations/neuvillette/constellation_1.webp",
+            "description": "Quando Neuvillette entra no campo de batalha, ele obtém 1 acúmulo de 'Glória do Dragão Ancestral' (Passiva A1).  É necessário ter desbloqueado a Passiva 'Herdeiro do Antigo Legado do Mar'.  Além disso, sua resistência à interrupção é aumentada durante o 'Fortalecimento de Ataque Carregado: Reprimenda Judicial' e o 'Ataque Carregado: Justiça Igual'. "
+        },
+        {
+            "level": 2,
+            "name": "A Lei Ordena",
+            "icon_url": "/assets/images/constellations/neuvillette/constellation_2.webp",
+            "description": "A Passiva 'Herdeiro do Antigo Legado do Mar' é aprimorada: cada acúmulo de 'Glória do Dragão Ancestral' aumenta o Dano CRIT do 'Ataque Carregado: Justiça Igual' em 14%.  O aumento máximo que pode ser alcançado desta forma é 42%.  É necessário ter desbloqueado a Passiva 'Herdeiro do Antigo Legado do Mar'. "
+        },
+        {
+            "level": 3,
+            "name": "Ficção Antiga",
+            "icon_url": "/assets/images/constellations/neuvillette/constellation_3.webp",
+            "description": "Aumenta o nível do Ataque Normal: Como Águas Paradas em 3.  O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Coroado em Compaixão",
+            "icon_url": "/assets/images/constellations/neuvillette/constellation_4.webp",
+            "description": "Quando Neuvillette está em campo e é curado, 1 Gota d'Água Primordial será gerada.  Este efeito pode ocorrer uma vez a cada 4s. "
+        },
+        {
+            "level": 5,
+            "name": "Julgamento Axiomático",
+            "icon_url": "/assets/images/constellations/neuvillette/constellation_5.webp",
+            "description": "Aumenta o nível de Marés, Eu Retornarei (Supremo) em 3.  O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Recompensa Furiosa",
+            "icon_url": "/assets/images/constellations/neuvillette/constellation_6.webp",
+            "description": "Ao usar 'Ataque Carregado: Justiça Igual', Neuvillette pode absorver Gotas d'Água Primordial próximas em uma AdE.  Cada Gota absorvida aumenta a duração do 'Ataque Carregado: Justiça Igual' em 1s.  Adicionalmente, quando 'Justiça Igual' atinge oponentes, disparará 2 correntes adicionais a cada 2s, cada uma causando Dano Hydro igual a 10% da Vida Máx. de Neuvillette.  O dano causado desta forma conta como Dano de 'Justiça Igual'. "
+        }
+    ]
+}

@@ -1,0 +1,469 @@
+{
+    "id": "thoma",
+    "name": "Thoma",
+    "title": "Protetor de Longe",
+    "element": "Pyro",
+    "rarity": 4,
+    "weapon": "Polearm",
+    "model_type": "Tall Male",
+    "role": [
+        "Shielder",
+        "Burgeon Trigger",
+        "Off-Field Pyro Enabler"
+    ],
+    "description_bio": "O governante da Comissão Yashiro e do Clã Kamisato. Thoma é um indivíduo bem conhecido em Inazuma. Ele é gentil e acessível, e tem uma maneira de se dar bem com todos. No entanto, ele também tem um lado sério e formidável.",
+    "birthday": "9 de Janeiro",
+    "constellation_name_official": "Rubeum Scutum",
+    "region": "Inazuma (Origem: Mondstadt)",
+    "affiliation": [
+        "Comissão Yashiro",
+        "Clã Kamisato"
+    ],
+    "special_dish": {
+        "name": "\"Calor\"",
+        "icon_url": "/assets/images/dishes/thoma_warmth.webp"
+    },
+    "namecard_url": "/assets/images/namecards/thoma_blazing_guard.png",
+    "icon_url": "/assets/images/characters/thoma.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Thoma Guide (Full)",
+                "url": "https://keqingmains.com/thoma/"
+            },
+            {
+                "name": "KQM Thoma Quick Guide",
+                "url": "https://keqingmains.com/q/thoma-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Thoma",
+                "url": "https://genshin-impact.fandom.com/wiki/Thoma"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "thoma_burgeon_trigger_flower_paradise_kitain_favonius",
+            "name": "Ativador de Germinação (Flor do Paraíso - Kitain/Favonius)",
+            "notes_build": "Foco em maximizar o dano de Germinação de Thoma. Prioriza Proficiência Elemental (EM) e Recarga de Energia (ER%). Nível 90 é crucial para o dano de Germinação. C4 é uma constelação muito valiosa para diminuir os requisitos de RE.",
+            "artifacts": [
+                {
+                    "set_id": "flower_of_paradise_lost",
+                    "set_name": "Flor do Paraíso Perdido",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para maximizar o dano de Germinação de Thoma.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Alternativa forte que fornece muita EM. Mais eficiente em Resina para farmar que Flor do Paraíso Perdido.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "set_name": "Bruxa das Chamas Carmesim",
+                    "pieces": 4,
+                    "notes": "Aumenta o dano de Germinação e o Dano Pyro (útil se build híbrida). O bônus de 2p de Dano Pyro não é ideal para Germinação pura.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                },
+                {
+                    "set_id": "em_2pc_mix_burgeon_thoma",
+                    "set_name": "Proficiência Elemental (2p) + Proficiência Elemental (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de 2p de EM (Sonhos Dourados, Trupe Itinerante, Flor do Paraíso) são viáveis e fáceis de montar.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "gilded_dreams",
+                        "wanderers_troupe"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / Recarga de Energia (ER%)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~180-220%+)",
+                "Proficiência Elemental (EM)",
+                "HP% (para escudo mais forte)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "kitain_cross_spear",
+                    "name": "Lança Cruzada de Kitain",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Forja (Inazuma)",
+                    "notes": "Excelente opção forjável. Fornece EM e ajuda com a Recarga de Energia através de sua passiva.",
+                    "icon_url": "/assets/images/weapons_detail/kitain_cross_spear.png"
+                },
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Ajuda com os altos requisitos de RE de Thoma e da equipe. Requer investimento em Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                },
+                {
+                    "weapon_id": "dragons_bane",
+                    "name": "Perdição do Dragão",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Melhor opção para dano se os requisitos de RE forem atendidos. Fornece alta EM.",
+                    "icon_url": "/assets/images/weapons_detail/dragons_bane.png"
+                },
+                {
+                    "weapon_id": "moonpiercer",
+                    "name": "Perfurador de Luas (Moonpiercer)",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Forja (Sumeru) (A SER VERIFICADO)",
+                    "notes": "Opção forjável com EM. A passiva pode buffar o ATQ de um colega de equipe.",
+                    "icon_url": "/assets/images/weapons_detail/moonpiercer.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem para 90",
+                "Habilidade Elemental (Skill) (para escudo e aplicação Pyro)",
+                "Supremo (Burst) (para aplicação Pyro off-field)",
+                "Ataque Normal (não precisa upar)"
+            ]
+        },
+        {
+            "key": "thoma_shielder_support_hp_er",
+            "name": "Suporte Escudeiro (Foco em HP/RE)",
+            "notes_build": "Focado em fornecer um escudo forte e consistente para a equipe. Maximiza HP e Recarga de Energia para manter o Supremo ativo e o escudo atualizado.",
+            "artifacts": [
+                {
+                    "set_id": "tenacity_of_the_millelith_emblem_of_severed_fate_2pc_mix",
+                    "set_name": "Tenacidade (2p HP%) + Selo da Insulação (2p RE%)",
+                    "pieces": "2+2",
+                    "notes": "Combinação equilibrada para força do escudo e Recarga de Energia.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "tenacity_of_the_millelith",
+                        "emblem_of_severed_fate"
+                    ]
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Se Thoma puder usar o Supremo consistentemente, este conjunto buffa o ATQ da equipe.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "instructor",
+                    "set_name": "Instrutor",
+                    "pieces": 4,
+                    "notes": "Buffa a Proficiência Elemental da equipe se Thoma ativar reações. Stats 4 estrelas podem comprometer a força do escudo e RE.",
+                    "icon_url": "/assets/images/artifact_sets/instructor.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / HP%",
+                "goblet": "HP%",
+                "circlet": "HP% / Taxa CRIT (para Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta alta, ~200-240%+)",
+                "HP%",
+                "Taxa CRIT (para Lança de Favonius)",
+                "HP Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Melhor opção para maximizar a utilidade de bateria para Thoma e a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                },
+                {
+                    "weapon_id": "black_tassel",
+                    "name": "Borla Preta",
+                    "rarity": 3,
+                    "type": "Polearm",
+                    "category": "Baús / Gacha",
+                    "notes": "Opção F2P para maximizar o HP de Thoma e a força do escudo se a RE não for um problema.",
+                    "icon_url": "/assets/images/weapons_detail/black_tassel.png"
+                },
+                {
+                    "weapon_id": "rightful_reward",
+                    "name": "Recompensa Justa",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Forja (Fontaine)",
+                    "notes": "Boa opção forjável que fornece HP% e ajuda com a Energia se Thoma for curado.",
+                    "icon_url": "/assets/images/weapons_detail/rightful_reward.png"
+                },
+                {
+                    "weapon_id": "prototype_starglitter",
+                    "name": "Protótipo Estelar",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Forja",
+                    "notes": "Opção forjável com RE, mas geralmente Favonius ou Kitain (para Germinação) são preferíveis.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_starglitter.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) (para escudo)",
+                "Supremo (Burst) (para uptime do escudo e aplicação Pyro)",
+                "Ataque Normal (não precisa upar)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 860,
+            "base_atk": 17,
+            "base_def": 63,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 2815,
+            "base_atk": 55,
+            "base_def": 204,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 4668,
+            "base_atk": 91,
+            "base_def": 338,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 5990,
+            "base_atk": 117,
+            "base_def": 434,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7177,
+            "base_atk": 140,
+            "base_def": 521,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8357,
+            "base_atk": 163,
+            "base_def": 607,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10304,
+            "base_atk": 202,
+            "base_def": 751,
+            "bonus_stat_label": "ATK",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Brasa Ardente (Smoldering Pearl)",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/smoldering_pearl.webp"
+        },
+        {
+            "name": "Lasca de Ágata Agnidus",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/agnidus_agate_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_chunk.webp"
+        },
+        {
+            "name": "Gema de Ágata Agnidus",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/agnidus_agate_gemstone.webp"
+        },
+        {
+            "name": "Cogumelo Fluorescente",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/fluorescent_fungus.webp"
+        },
+        {
+            "name": "Insígnia do Ladrão de Tesouros",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/treasure_hoarder_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Prateado",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/silver_raven_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Dourado",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/golden_raven_insignia.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Lança Veloz",
+            "icon_url": "/assets/images/talents/thoma/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 golpes consecutivos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para avançar, causando dano aos oponentes no caminho.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando oponentes ao longo do caminho e causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Bênção Ardente",
+            "icon_url": "/assets/images/talents/thoma/talent_elemental_skill.webp",
+            "description": "Thoma apoia sua lança no chão, canalizando as chamas para realizar um chute que causa Dano Pyro em AdE e invoca uma Barreira Ardente defensiva. No momento em que é liberada, a Barreira Ardente aplica o Elemento Pyro a Thoma.\nA absorção de DANO da Barreira Ardente escala com base no HP Máx de Thoma.\nA Barreira Ardente possui as seguintes características:\n- Absorve Dano Pyro com 250% de eficácia.\n- A absorção de DANO de uma nova Barreira Ardente se acumulará com a de uma Barreira Ardente existente, e sua duração será atualizada."
+        },
+        "elemental_burst": {
+            "name": "Oyoroi Carmesim",
+            "icon_url": "/assets/images/talents/thoma/talent_elemental_burst.webp",
+            "description": "Thoma gira sua lança, cortando seus inimigos com chamas abrasadoras que causam Dano Pyro em AdE e tecem uma Armadura Oyoroi Flamejante.\nArmadura Oyoroi Flamejante:\nEnquanto este efeito estiver ativo, o Ataque Normal do personagem ativo atual ativará um Colapso Ardente que causa Dano Pyro em AdE e invoca uma Barreira Ardente.\nColapso Ardente pode ser ativado uma vez a cada 1s.\nAs Barreiras Ardentes criadas desta forma são idênticas às criadas pela Habilidade Elemental de Thoma, Bênção Ardente, exceto pela quantidade de DANO que podem absorver.\n- Absorvem Dano Pyro com 250% de eficácia.\n- A absorção de DANO de uma nova Barreira Ardente se acumulará com a de uma Barreira Ardente existente, e sua duração será atualizada.\nSe Thoma cair, os efeitos da Armadura Oyoroi Flamejante serão dissipados."
+        },
+        "passives": [
+            {
+                "name": "Armadura Transcendente",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/thoma/talent_passive_a1.webp",
+                "description": "Quando seu personagem ativo atual obtém ou atualiza uma Barreira Ardente, a Força do Escudo desse personagem aumenta em 5% por 6s. Este efeito pode ser acumulado até 5 vezes e pode ser ativado uma vez a cada 0.3s."
+            },
+            {
+                "name": "Investida Flamejante",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/thoma/talent_passive_a4.webp",
+                "description": "DANO causado por Colapso Ardente de Oyoroi Carmesim aumentado em 2.2% do HP Máx de Thoma."
+            },
+            {
+                "name": "Frenesi da Pesca",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/thoma/talent_passive_utility.webp",
+                "description": "Captura bem-sucedida ao pescar em Inazuma tem 20% de chance de dobrar o produto."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Insígnia do Ladrão de Tesouros",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/treasure_hoarder_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Prateado",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/silver_raven_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Dourado",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/golden_raven_insignia.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Transitoriedade\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_transience.webp"
+        },
+        {
+            "name": "Guia da \"Transitoriedade\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_transience.webp"
+        },
+        {
+            "name": "Filosofia da \"Transitoriedade\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_transience.webp"
+        },
+        {
+            "name": "Coração Infernal",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/hellfire_butterfly.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Dever de um Colega",
+            "icon_url": "/assets/images/constellations/thoma/constellation_1.webp",
+            "description": "Quando uma Barreira Ardente sofre DANO para um personagem diferente de Thoma, o TdR da Bênção Ardente de Thoma é diminuído em 3s, e o TdR de Oyoroi Carmesim é diminuído em 3s. Este efeito pode ser ativado uma vez a cada 20s."
+        },
+        {
+            "level": 2,
+            "name": "Habilidade de um Subordinado",
+            "icon_url": "/assets/images/constellations/thoma/constellation_2.webp",
+            "description": "A duração de Oyoroi Carmesim é aumentada em 3s."
+        },
+        {
+            "level": 3,
+            "name": "Resolução Fortificada",
+            "icon_url": "/assets/images/constellations/thoma/constellation_3.webp",
+            "description": "Aumenta o Nível de Bênção Ardente em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Plano de Longo Prazo",
+            "icon_url": "/assets/images/constellations/thoma/constellation_4.webp",
+            "description": "Após usar Oyoroi Carmesim, Thoma restaura 15 de Energia Elemental."
+        },
+        {
+            "level": 5,
+            "name": "Fogo Incontrolável",
+            "icon_url": "/assets/images/constellations/thoma/constellation_5.webp",
+            "description": "Aumenta o Nível de Oyoroi Carmesim em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Coração Ardente",
+            "icon_url": "/assets/images/constellations/thoma/constellation_6.webp",
+            "description": "Quando uma Barreira Ardente é obtida ou atualizada, o DANO causado pelos Ataques Normais, Carregados e Imersivos de todos os membros da equipe aumenta em 15% por 6s."
+        }
+    ]
+}

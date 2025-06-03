@@ -1,0 +1,83 @@
+[
+    {
+        "id": "lisa_aggravate_driver_fischl_nahida_kazuha",
+        "name": "Lisa - Driver Agravamento (Fischl, Nahida, Kazuha)",
+        "strategy": "Lisa como driver on-field em times de Agravamento, utilizando sua Habilidade Elemental (Segurar) para alto dano e aplicando Electro para as reações. Fischl para dano off-field e bateria. Nahida para aplicação Dendro e buff de EM. Kazuha para Sombra Verde e buffs.",
+        "characters_in_team": [
+            {
+                "character_id": "lisa",
+                "role_in_team": "Driver Electro On-field (Aggravate)",
+                "build_key": "lisa_aggravate_dps_thundering_fury_em"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field / Bateria",
+                "build_key": "fischl_subdps_golden_troupe_stringless_aggravate"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Electro, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "lisa_support_def_shred_raiden_hypercarry_sara_bennett",
+        "name": "Lisa - Suporte Hypercarry Raiden (Raiden, Sara C6, Bennett)",
+        "strategy": "Lisa atua como suporte para Raiden, fornecendo Redução de DEF com seu Supremo (Passiva A4) e podendo usar Histórias Extraordinárias de Caçadores de Dragões para buffar Raiden. Sara (C6) e Bennett para buffs adicionais.",
+        "characters_in_team": [
+            {
+                "character_id": "lisa",
+                "role_in_team": "Suporte (Redução de DEF, Buffer TTDS)",
+                "build_key": "lisa_support_def_shred_ttds_noblesse"
+            },
+            {
+                "character_id": "raiden",
+                "role_in_team": "Main DPS Electro On-field (Hypercarry Burst)",
+                "build_key": "raiden_hypercarry_dps_emblem_engulfing"
+            },
+            {
+                "character_id": "sara",
+                "role_in_team": "Suporte Electro (ATK Buffer, CRIT DMG Buffer C6)",
+                "build_key": "sara_electro_buffer_noblesse_or_emblem_high_base_atk_bow"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "lisa_taser_xingqiu_beidou_sucrose",
+        "name": "Lisa - Taser (Xingqiu, Beidou, Sucrose)",
+        "strategy": "Lisa como uma das aplicadoras Electro em um time Eletricamente Carregado (Taser), com seu Supremo fornecendo dano e Redução de DEF. Xingqiu para Hydro, Beidou para mais dano Electro, Sucrose como driver.",
+        "characters_in_team": [
+            {
+                "character_id": "lisa",
+                "role_in_team": "Sub-DPS Electro Off-field / Redução de DEF",
+                "build_key": "lisa_aggravate_dps_thundering_fury_em"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro Off-field (Dano em Área)",
+                "build_key": "beidou_offfield_dps_emblem"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Driver Anemo On-field (VV RES Shred, Agrupamento, Buffer EM)",
+                "build_key": "sucrose_anemo_driver_vv_ttds_em"
+            }
+        ]
+    }
+]

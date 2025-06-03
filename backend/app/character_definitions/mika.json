@@ -1,0 +1,386 @@
+{
+    "id": "mika",
+    "name": "Mika",
+    "title": "Topógrafo da Geada Translúcida",
+    "element": "Cryo",
+    "rarity": 4,
+    "weapon": "Polearm",
+    "model_type": "Medium Male",
+    "role": [
+        "Support",
+        "Healer",
+        "Buffer"
+    ],
+    "description_bio": "Mika Schmidt é um Topógrafo da Linha de Frente da Companhia de Reconhecimento dos Cavaleiros de Favonius. Irmão mais novo de Huffman, ele é um jovem tímido, mas dedicado, que se destaca em suas tarefas e valoriza o trabalho em equipe.",
+    "birthday": "11 de Agosto",
+    "constellation_name_official": "Palumbus",
+    "region": "Mondstadt",
+    "affiliation": [
+        "Cavaleiros de Favonius"
+    ],
+    "special_dish": {
+        "name": "Fortaleza do Topógrafo",
+        "icon_url": "/assets/images/dishes/mika_fortaleza_do_topografo.webp"
+    },
+    "namecard_url": "/assets/images/namecards/mika_index.png",
+    "icon_url": "/assets/images/characters/mika.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Mika Full Guide",
+                "url": "https://keqingmains.com/mika/"
+            },
+            {
+                "name": "KQM Mika Quick Guide",
+                "url": "https://keqingmains.com/q/mika-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Mika",
+                "url": "https://genshin-impact.fandom.com/wiki/Mika"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Mika",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Mika"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "mika_support_healer_favonius",
+            "name": "Suporte Físico / Curandeiro",
+            "notes_build": "Mika foca em maximizar sua cura e buffs de Dano Físico e Vel. de ATQ, além de atender seus requisitos de Recarga de Energia para uso consistente do Supremo. Seus buffs são especialmente úteis para personagens de Dano Físico como Eula e Freminet.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Melhor opção para buffar o ATQ da equipe, incentivando o uso do Supremo toda rotação. ",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "ocean_hued_clam",
+                    "set_name": "Concha Tingida Pelo Mar",
+                    "pieces": 4,
+                    "notes": "Viável se outro personagem já usa Ritual Real ou se o buff de ATQ não é tão valorizado. Maximiza o dano da Concha no Supremo inicial. ",
+                    "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png"
+                },
+                {
+                    "set_id": "song_of_days_past",
+                    "set_name": "Canção dos Dias Passados",
+                    "pieces": 4,
+                    "notes": "Outra opção se Ritual Real já estiver em uso. Fornece Bônus de Cura e um buff de Dano Adicional Base. Pode ser menos eficiente que Concha em multi-alvo. ",
+                    "icon_url": "/assets/images/artifact_sets/song_of_days_past.png"
+                },
+                {
+                    "set_id": "the_exile",
+                    "set_name": "O Exilado",
+                    "pieces": 4,
+                    "notes": "Opção de 4 estrelas para ajudar com a Energia da equipe (exceto Mika). Útil se as estatísticas de conjuntos 5 estrelas não forem cruciais para Mika. ",
+                    "icon_url": "/assets/images/artifact_sets/the_exile.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia% / HP%",
+                "goblet": "HP%",
+                "circlet": "Bônus de Cura% / HP% (Taxa CRIT se usando Lança de Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (até o requisito)",
+                "Taxa CRIT (para Lança de Favonius)",
+                "HP%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Lança",
+                    "category": "Gacha",
+                    "notes": "Mais recomendada para ajudar com a Energia da equipe e de Mika. Requer um pouco de Taxa CRIT. ",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                },
+                {
+                    "weapon_id": "dialogues_of_the_desert_sages",
+                    "name": "Diálogos dos Sábios do Deserto",
+                    "rarity": 4,
+                    "type": "Lança",
+                    "category": "Evento",
+                    "notes": "Ótima opção de evento (V4.5). Fornece HP% e muita Energia flat (32 no R5 por rotação), reduzindo drasticamente a RE. ",
+                    "icon_url": "/assets/images/weapons_detail/dialogues_of_the_desert_sages.png"
+                },
+                {
+                    "weapon_id": "rightful_reward",
+                    "name": "Recompensa Justa",
+                    "rarity": 4,
+                    "type": "Lança",
+                    "category": "Forja",
+                    "notes": "Opção de forja similar a Diálogos, mas com menos HP% e Energia. R5 concede 16 de Energia por ativação. ",
+                    "icon_url": "/assets/images/weapons_detail/rightful_reward.png"
+                },
+                {
+                    "weapon_id": "prototype_starglitter",
+                    "name": "Protótipo Estelar",
+                    "rarity": 4,
+                    "type": "Lança",
+                    "category": "Forja",
+                    "notes": "Opção de forja para RE se as anteriores não estiverem disponíveis. ",
+                    "icon_url": "/assets/images/weapons_detail/prototype_starglitter.png"
+                },
+                {
+                    "weapon_id": "black_tassel",
+                    "name": "Borla Preta",
+                    "rarity": 3,
+                    "type": "Lança",
+                    "category": "Gacha / Baús",
+                    "notes": "Foco em HP% para maximizar a cura, usar apenas se os requisitos de RE forem atendidos e Favonius não for necessária. ",
+                    "icon_url": "/assets/images/weapons_detail/black_tassel.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 1049,
+            "base_atk": 19,
+            "base_def": 60,
+            "bonus_stat_label": "HP%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 2694,
+            "base_atk": 48,
+            "base_def": 154,
+            "bonus_stat_label": "HP%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 3477,
+            "base_atk": 62,
+            "base_def": 198,
+            "bonus_stat_label": "HP%",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 5208,
+            "base_atk": 93,
+            "base_def": 297,
+            "bonus_stat_label": "HP%",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 5765,
+            "base_atk": 103,
+            "base_def": 329,
+            "bonus_stat_label": "HP%",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 6631,
+            "base_atk": 118,
+            "base_def": 378,
+            "bonus_stat_label": "HP%",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 7373,
+            "base_atk": 131,
+            "base_def": 420,
+            "bonus_stat_label": "HP%",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Falso Estame",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/pseudo_stamens.webp"
+        },
+        {
+            "name": "Lasca de Jade Shivada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/shivada_jade_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_chunk.webp"
+        },
+        {
+            "name": "Gema de Jade Shivada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/shivada_jade_gemstone.webp"
+        },
+        {
+            "name": "Gancho do Lobo",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/wolfhook.webp"
+        },
+        {
+            "name": "Insígnia de Recruta",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/recruits_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Sargento",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/sergeants_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Oficial",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/lieutenants_insignia.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Lança de Favonius - Ponto de Passagem",
+            "icon_url": "/assets/images/talents/mika/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes consecutivos com sua lança e besta. \nAtaque Carregado: Consome uma certa quantidade de Stamina para se lançar para frente, infligindo Dano em seu trajeto. \nAtaque Imersivo: Mergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em AdE durante o impacto. "
+        },
+        "elemental_skill": {
+            "name": "Redemoinho Estelar Gelado",
+            "icon_url": "/assets/images/talents/mika/talent_elemental_skill.webp",
+            "description": "Mika usa sua besta para atacar, concedendo a todos os personagens da equipe o estado Alma do Vento, que aumenta a Vel. de ATQ dos personagens ativos. \nPressionar: Dispara uma Flecha Gélida que perfura os inimigos, causando Dano Cryo. \nManter Pressionado: Entra no modo de mira, fixando um oponente e disparando um Sinal Estelar Gélido. Ao atingir, o Sinal Estelar Gélido explode, lançando Fragmentos Estelares Gélidos em até 3 outros oponentes, causando Dano Cryo. "
+        },
+        "elemental_burst": {
+            "name": "Canção da Pena do Céu",
+            "icon_url": "/assets/images/talents/mika/talent_elemental_burst.webp",
+            "description": "Regenera Vida para todos os membros da equipe próximos com base na Vida Máxima de Mika e concede a eles o estado Pena do Falcão. \nPena do Falcão: Quando os Ataques Normais de personagens ativos atingem um inimigo, Mika regenera Vida para esses personagens com base em sua Vida Máxima. Este efeito de cura ocorre em intervalos. "
+        },
+        "passives": [
+            {
+                "name": "Supressão de Disparo Rápido",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/mika/talent_passive_a1.webp",
+                "description": "O estado Alma do Vento (da Habilidade Elemental) concede aos personagens ativos o efeito Detector, aumentando seu Dano Físico em 10% por acúmulo. \n- Se a Flecha Gélida (Pressionar Habilidade) atingir mais de um oponente, cada oponente adicional gera 1 acúmulo de Detector. \n- Quando um Fragmento Estelar Gélido (Manter Habilidade) atinge um oponente, gera 1 acúmulo de Detector. Cada Fragmento pode ativar o efeito 1 vez. \nMáximo de 3 acúmulos base (aumentado por A4 e C6). Se a Habilidade Elemental for usada novamente, os acúmulos existentes são removidos. "
+            },
+            {
+                "name": "Mapeamento Topográfico",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/mika/talent_passive_a4.webp",
+                "description": "Quando um personagem ativo afetado simultaneamente por Pena do Falcão (Supremo) e Alma do Vento (Habilidade) causa um Acerto CRIT, Alma do Vento concede 1 acúmulo de Detector (da Passiva A1). \nMáximo de 1 acúmulo desta forma por duração de Alma do Vento. \nAumenta o número máximo de acúmulos de Detector que podem ser obtidos através de Alma do Vento em 1. \nRequer que a passiva 'Supressão de Disparo Rápido' esteja desbloqueada. "
+            },
+            {
+                "name": "Demarcação",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/mika/talent_passive_utility.webp",
+                "description": "Mostra a localização de especialidades de Mondstadt próximas no mapa. "
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Insígnia de Recruta",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/recruits_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Sargento",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/sergeants_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Oficial",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/lieutenants_insignia.webp"
+        },
+        {
+            "name": "Ensinamentos de Poemas",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_ballad.webp"
+        },
+        {
+            "name": "Guia de Poemas",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_ballad.webp"
+        },
+        {
+            "name": "Filosofia de Poemas",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_ballad.webp"
+        },
+        {
+            "name": "Espelho de Mushin",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/mirror_of_mushin.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Contingência Inesperada",
+            "icon_url": "/assets/images/constellations/mika/constellation_1.webp",
+            "description": "O estado Alma do Vento (Habilidade Elemental) reduz o intervalo de cura do estado Pena do Falcão (Supremo). A porcentagem de redução é igual ao aumento de Vel. de ATQ fornecido pela Alma do Vento. "
+        },
+        {
+            "level": 2,
+            "name": "Jornada Acompanhada",
+            "icon_url": "/assets/images/constellations/mika/constellation_2.webp",
+            "description": "Quando a Flecha Gélida ou o Sinal Estelar Gélido da Habilidade Elemental atingem um oponente pela primeira vez, gera 1 acúmulo de Detector (Passiva A1 'Supressão de Disparo Rápido'). É necessário ter desbloqueado a Passiva A1. "
+        },
+        {
+            "level": 3,
+            "name": "Batedor Veterano",
+            "icon_url": "/assets/images/constellations/mika/constellation_3.webp",
+            "description": "Aumenta o nível da Canção da Pena do Céu (Supremo) em 3. O nível máximo de elevação é 15. "
+        },
+        {
+            "level": 4,
+            "name": "Bênção do Sol Gelado",
+            "icon_url": "/assets/images/constellations/mika/constellation_4.webp",
+            "description": "Quando o estado Pena do Falcão (Supremo) de Mika cura membros da equipe, restaura 3 de Energia para Mika. Pode ocorrer até 5 vezes por uso do Supremo. "
+        },
+        {
+            "level": 5,
+            "name": "Flecha Sinalizadora",
+            "icon_url": "/assets/images/constellations/mika/constellation_5.webp",
+            "description": "Aumenta o nível do Redemoinho Estelar Gelado (Habilidade Elemental) em 3. O nível máximo de elevação é 15. "
+        },
+        {
+            "level": 6,
+            "name": "Conselheiro Acompanhante",
+            "icon_url": "/assets/images/constellations/mika/constellation_6.webp",
+            "description": "Aumenta o número máximo de acúmulos de Detector (Passiva A1) em 1. Adicionalmente, personagens ativos afetados por Alma do Vento (Habilidade Elemental) causam 60% mais Dano CRIT Físico. É necessário ter desbloqueado a Passiva A1. "
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+[
+    {
+        "id": "nilou_double_hydro_double_dendro_bloom_nahida_baizhu",
+        "name": "Nilou - Double Hydro Double Dendro Bloom (Nahida, Baizhu, Flex Hydro)",
+        "strategy": "Time padrão de Nilou focado em Sementes da Abundância. Nilou maximiza HP. Nahida para aplicação Dendro massiva e buff de EM. Baizhu para cura, escudo leve e ressonância Dendro. O outro Hydro pode ser Kokomi (cura/driver), Yelan/Xingqiu (dano off-field) ou o Viajante Hydro.",
+        "characters_in_team": [
+            {
+                "character_id": "nilou",
+                "role_in_team": "Ativadora de Florescimento Abundante / Aplicadora Hydro",
+                "build_key": "nilou_bountiful_bloom_hp_focus"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field Principal / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Healer / Escudeiro Leve / Aplicador Dendro Secundário",
+                "build_key": "baizhu_healer_deepwood_prototype_amber_hp"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer Principal / Driver Hydro On-field (Flex Hydro)",
+                "build_key": "kokomi_healer_driver_oceanhued_clam_ttds"
+            }
+        ]
+    },
+    {
+        "id": "nilou_triple_hydro_dendro_traveler_yelan_kokomi",
+        "name": "Nilou - Triple Hydro Bloom (Viajante Dendro, Yelan, Kokomi)",
+        "strategy": "Variação com três personagens Hydro para maximizar a aplicação Hydro e se beneficiar da Ressonância Hydro. Viajante Dendro como único aplicador Dendro. Yelan para dano off-field. Kokomi para cura e aplicação Hydro on-field.",
+        "characters_in_team": [
+            {
+                "character_id": "nilou",
+                "role_in_team": "Ativadora de Florescimento Abundante / Aplicadora Hydro",
+                "build_key": "nilou_bountiful_bloom_hp_focus"
+            },
+            {
+                "character_id": "traveler_dendro",
+                "role_in_team": "Aplicador Dendro Off-field Único",
+                "build_key": "traveler_dendro_offfield_support_deepwood_favonius"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "kokomi",
+                "role_in_team": "Healer / Driver Hydro On-field",
+                "build_key": "kokomi_healer_driver_oceanhued_clam_ttds"
+            }
+        ]
+    },
+    {
+        "id": "nilou_on_field_bloom_kaveh_xingqiu_yaoyao",
+        "name": "Nilou - On-field Bloom (Kaveh, Xingqiu, Yaoyao)",
+        "strategy": "Nilou pode atuar on-field para ativar Sementes da Abundância. Kaveh como outro aplicador Dendro e detonador de sementes. Xingqiu para dano e aplicação Hydro off-field. Yaoyao para cura e aplicação Dendro.",
+        "characters_in_team": [
+            {
+                "character_id": "nilou",
+                "role_in_team": "Driver Hydro On-field / Ativadora de Florescimento Abundante",
+                "build_key": "nilou_bountiful_bloom_hp_focus"
+            },
+            {
+                "character_id": "kaveh",
+                "role_in_team": "Aplicador Dendro On-field/Off-field / Detonador de Sementes",
+                "build_key": "kaveh_bloom_driver_deepwood_em_er"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "yaoyao",
+                "role_in_team": "Healer / Aplicadora Dendro Off-field",
+                "build_key": "yaoyao_dendro_healer_deepwood_favonius"
+            }
+        ]
+    }
+]

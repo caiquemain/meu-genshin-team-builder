@@ -234,6 +234,117 @@
                 "Supremo (Burst)",
                 "Habilidade Elemental (Skill)"
             ]
+        },
+        {
+            "key": "furina_hydro_sub_dps_golden_troupe",
+            "name": "Suporte Hydro Off-field / Buffer de Dano",
+            "notes_build": "Foco em maximizar o buff de Dano% do Supremo e o dano off-field da Habilidade Elemental. Requer um healer na equipe para acumular Fanfarra e manter o HP da equipe. Nível 90 é recomendado.",
+            "artifacts": [
+                {
+                    "set_id": "golden_troupe",
+                    "set_name": "Trupe Dourada",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para o dano pessoal de Furina, pois ela é primariamente um dealer de dano de Habilidade Elemental off-field.",
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
+                },
+                {
+                    "combo_name_display": "2p HP% / Dano Skill / ER% / Dano Hydro",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "tenacity_of_the_millelith",
+                        "golden_troupe"
+                    ],
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png",
+                    "notes": "Alternativas enquanto farma 4p Trupe Dourada, mas significativamente inferiores."
+                },
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Pior para o dano pessoal de Furina, mas pode ser uma alternativa em times onde a maior parte do dano vem de personagens que escalam com ATK e Furina pode manter o buff ativo.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "HP% / Recarga de Energia (ER%)",
+                "goblet": "HP% / Bônus de Dano Hydro",
+                "circlet": "Taxa CRIT / Dano CRIT / HP% (CRIT geralmente melhor)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até os requisitos, varia muito de ~100% a ~260%)",
+                "Taxa CRIT / Dano CRIT",
+                "HP%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "splendor_of_tranquil_waters",
+                    "name": "Esplendor das Águas Silenciosas",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Sua melhor arma para dano pessoal, mesmo que precise de Areia de ER.",
+                    "icon_url": "/assets/images/weapons_detail/splendor_of_tranquil_waters.png"
+                },
+                {
+                    "weapon_id": "uraku_misugiri",
+                    "name": "Uraku Misugiri",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Excelentes stats. Com um personagem Geo no time, aumenta ainda mais o Dano da Skill, tornando-se sua segunda melhor arma.",
+                    "icon_url": "/assets/images/weapons_detail/uraku_misugiri.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Alta Taxa CRIT e 20% HP. O buff de ATK não é útil, mas ainda é uma ótima opção.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "festering_desire",
+                    "name": "Espada Pútrida R5",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Evento F2P (Não mais obtenível)",
+                    "notes": "Similar à Cruzamento de Fleuve Cendre, fornece ER, Taxa CRIT da Skill e Dano da Skill. Excelente se você a tiver.",
+                    "icon_url": "/assets/images/weapons_detail/festering_desire.png"
+                },
+                {
+                    "weapon_id": "fleuve_cendre_ferryman",
+                    "name": "Cruzamento de Fleuve Cendre R5",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "F2P (Pesca)",
+                    "notes": "Ótima opção F2P, fornece muita ER e Taxa CRIT para a Habilidade Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/fleuve_cendre_ferryman.png"
+                },
+                {
+                    "weapon_id": "key_of_khaj_nisut",
+                    "name": "Chave de Khaj-Nisut",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Mais forte para o dano pessoal de Furina que Cano Desejado, e também buffa EM do time, bom para times de reação.",
+                    "icon_url": "/assets/images/weapons_detail/key_of_khaj_nisut.png"
+                },
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Alto ER e partículas extras para o time, quase sempre supre as necessidades de ER de Furina.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)"
+            ]
         }
     ]
 }

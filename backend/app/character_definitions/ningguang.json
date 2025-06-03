@@ -1,0 +1,495 @@
+{
+    "id": "ningguang",
+    "name": "Ningguang",
+    "title": "Estrela em Eclipse",
+    "element": "Geo",
+    "rarity": 4,
+    "weapon": "Catalyst",
+    "model_type": "Tall Female",
+    "role": [
+        "On-Field DPS",
+        "Burst DPS",
+        "Sub-DPS"
+    ],
+    "description_bio": "Dona da Câmara de Jade e a Tianquan do Qixing de Liyue, Ningguang é a personificação da lei e da ordem em Liyue. Sua riqueza é insuperável em todo o Teyvat, e ela é conhecida por sua astúcia nos negócios e sua capacidade de acumular informações.",
+    "birthday": "26 de Agosto",
+    "constellation_name_official": "Opus Aequilibrium",
+    "region": "Liyue",
+    "affiliation": [
+        "Qixing de Liyue"
+    ],
+    "special_dish": {
+        "name": "Carne de Mora Qiankun",
+        "icon_url": "/assets/images/dishes/ningguang_qiankun_mora_meat.webp"
+    },
+    "namecard_url": "/assets/images/namecards/ningguang_phoenix.png",
+    "icon_url": "/assets/images/characters/ningguang.png",
+    "element_icon_url": "/assets/images/elements/element_geo.png",
+    "updated_date": "2025-06-02",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Ningguang Full Guide",
+                "url": "https://keqingmains.com/ningguang/"
+            },
+            {
+                "name": "KQM Ningguang Quick Guide",
+                "url": "https://keqingmains.com/q/ningguang-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Ningguang",
+                "url": "https://genshin-impact.fandom.com/wiki/Ningguang"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Ningguang",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Ningguang"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "ningguang_dps_main",
+            "name": "DPS On-Field / Burst (Pedra Arcaica / Mix 2pc)",
+            "notes_build": "Focada em maximizar o dano pessoal de Ningguang, tanto sustentado quanto em seu Supremo. Flexível entre DPS principal em campo ou DPS de troca rápida (quickswap).",
+            "artifacts": [
+                {
+                    "set_id": "archaic_petra",
+                    "set_name": "Pedra Arcaica",
+                    "pieces": 4,
+                    "notes": "Combinado com 2p ATQ% (Gladiador/Shimenawa) ou 2p Ritual Real para um bom equilíbrio de dano Geo e ATQ/Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/archaic_petra.png"
+                },
+                {
+                    "set_id": "gladiators_finale",
+                    "set_name": "Fim do Gladiador",
+                    "pieces": 2,
+                    "notes": "+18% ATQ. Combinar com 2p Pedra Arcaica.",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
+                },
+                {
+                    "set_id": "shimenawas_reminiscence",
+                    "set_name": "Reminiscência de Shimenawa",
+                    "pieces": 2,
+                    "notes": "+18% ATQ. Combinar com 2p Pedra Arcaica.",
+                    "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 2,
+                    "notes": "+20% Dano de Supremo. Combinar com 2p Pedra Arcaica para foco no Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "shimenawas_reminiscence",
+                    "set_name": "Reminiscência de Shimenawa",
+                    "pieces": 4,
+                    "notes": "Para foco em Ataques Carregados, mas o consumo de Energia pode ser problemático para o Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ%",
+                "goblet": "Bônus de Dano Geo%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATQ%",
+                "Recarga de Energia% (se necessário para manter o Supremo)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "memory_of_dust",
+                    "name": "Memória da Poeira",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Sua melhor arma (BiS) se estiver consistentemente protegida por escudo. Alto ATQ%.",
+                    "icon_url": "/assets/images/weapons_detail/memory_of_dust.png"
+                },
+                {
+                    "weapon_id": "lost_prayer_to_the_sacred_winds",
+                    "name": "Oração Perdida aos Ventos Sagrados",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Taxa CRIT e Bônus de Dano Elemental, ótima para DPS em campo.",
+                    "icon_url": "/assets/images/weapons_detail/lost_prayer_to_the_sacred_winds.png"
+                },
+                {
+                    "weapon_id": "skyward_atlas",
+                    "name": "Atlas Celestial",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Alto ATQ base e ATQ%, passiva contribui com dano adicional.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_atlas.png"
+                },
+                {
+                    "weapon_id": "kaguras_verity",
+                    "name": "Verdade de Kagura",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Focada em Dano de Habilidade Elemental, mas os altos stats de Dano CRIT a tornam viável.",
+                    "icon_url": "/assets/images/weapons_detail/kaguras_verity.png"
+                },
+                {
+                    "weapon_id": "solar_pearl",
+                    "name": "Pérola Solar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Passe de Batalha",
+                    "notes": "Excelente opção 4★, Taxa CRIT e passiva que buffa Ataques Normais, Habilidade e Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/solar_pearl.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Dano CRIT e buffs aleatórios poderosos, ótimo para quickswap/burst.",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                },
+                {
+                    "weapon_id": "dodoco_tales",
+                    "name": "Contos de Dodoco",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Evento",
+                    "notes": "Boa opção F2P de evento, buffa Ataques Normais e Carregados.",
+                    "icon_url": "/assets/images/weapons_detail/dodoco_tales.png"
+                },
+                {
+                    "weapon_id": "blackcliff_agate",
+                    "name": "Ágata do Penhasco Obscuro",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Loja da Paimon",
+                    "notes": "Dano CRIT e buff de ATQ ao derrotar inimigos.",
+                    "icon_url": "/assets/images/weapons_detail/blackcliff_agate.png"
+                },
+                {
+                    "weapon_id": "wine_and_song",
+                    "name": "Wine and Song (Vinho e Canção)",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Desejo",
+                    "notes": "Opção com Recarga de Energia e passiva que reduz custo de Stamina de corrida e aumenta ATQ. Detalhes completos desta arma precisam ser adicionados ao banco de dados.",
+                    "icon_url": "/assets/images/weapons_detail/wine_and_song.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)"
+            ]
+        },
+        {
+            "key": "ningguang_support_ttds_archaic",
+            "name": "Suporte (Buff / Pedra Arcaica)",
+            "notes_build": "Focada em buffar a equipe com Histórias Extraordinárias de Caçadores de Dragões (TTDS) e/ou o bônus de Dano Elemental do conjunto Pedra Arcaica.",
+            "artifacts": [
+                {
+                    "set_id": "archaic_petra",
+                    "set_name": "Pedra Arcaica",
+                    "pieces": 4,
+                    "notes": "Coletar um fragmento de Cristalização concede Bônus de Dano Elemental correspondente à equipe.",
+                    "icon_url": "/assets/images/artifact_sets/archaic_petra.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Para buffar o ATQ da equipe com seu Supremo, se mais ninguém estiver usando.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia% / ATQ%",
+                "goblet": "Bônus de Dano Geo%",
+                "circlet": "Taxa CRIT% (para Favonius) / ATQ%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia%",
+                "ATQ%",
+                "Taxa CRIT (se usando Favonius)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "thrilling_tales_of_dragon_slayers",
+                    "name": "Histórias Extraordinárias de Caçadores de Dragões",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Melhor opção para buffar o ATQ do próximo personagem a entrar em campo.",
+                    "icon_url": "/assets/images/weapons_detail/thrilling_tales_of_dragon_slayers.png"
+                },
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Para geração de partículas de Energia para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                },
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Para cura adicional e ajuda com Energia.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2021,
+            "base_atk": 44,
+            "base_def": 119,
+            "bonus_stat_label": "Bônus de Dano Geo%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3908,
+            "base_atk": 86,
+            "base_def": 230,
+            "bonus_stat_label": "Bônus de Dano Geo%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 4977,
+            "base_atk": 109,
+            "base_def": 294,
+            "bonus_stat_label": "Bônus de Dano Geo%",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6286,
+            "base_atk": 137,
+            "base_def": 371,
+            "bonus_stat_label": "Bônus de Dano Geo%",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7355,
+            "base_atk": 160,
+            "base_def": 435,
+            "bonus_stat_label": "Bônus de Dano Geo%",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8425,
+            "base_atk": 184,
+            "base_def": 499,
+            "bonus_stat_label": "Bônus de Dano Geo%",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 9787,
+            "base_atk": 212,
+            "base_def": 573,
+            "bonus_stat_label": "Bônus de Dano Geo%",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Pilar de Basalto",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/basalt_pillar.webp"
+        },
+        {
+            "name": "Lasca de Topázio Prithiva",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/prithiva_topaz_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Topázio Prithiva",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/prithiva_topaz_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Topázio Prithiva",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/prithiva_topaz_chunk.webp"
+        },
+        {
+            "name": "Gema de Topázio Prithiva",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/prithiva_topaz_gemstone.webp"
+        },
+        {
+            "name": "Lírio de Vidro",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/glaze_lily.webp"
+        },
+        {
+            "name": "Insígnia de Recruta",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/recruits_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Sargento",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/sergeants_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Oficial",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/lieutenants_insignia.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Fragmentos Cintilantes",
+            "icon_url": "/assets/images/talents/ningguang/talent_normal_attack.webp",
+            "description": "Ataque Normal: Dispara gemas que causam Dano Geo. Ao atingir, concede a Ningguang uma Jade Estelar. Máximo de 3 Jades Estelares.\nAtaque Carregado: Consome uma certa quantidade de Stamina para disparar uma gema gigante que causa Dano Geo. Se Ningguang tiver Jades Estelares, ela libera todas elas no Ataque Carregado, causando dano adicional. O Ataque Carregado com Jades Estelares não consome Stamina (Passiva A1).\nAtaque Imersivo: Concentrando o poder Geo, Ningguang mergulha em direção ao chão, causando dano a todos os inimigos em seu caminho. Causa Dano Geo em AdE durante o impacto com o chão."
+        },
+        "elemental_skill": {
+            "name": "Tela de Jade",
+            "icon_url": "/assets/images/talents/ningguang/talent_elemental_skill.webp",
+            "description": "Cria uma Tela de Jade magnífica a partir de obsidiana e ouro, causando Dano Geo em AdE.\nA Tela de Jade bloqueia projéteis inimigos. Sua durabilidade é baseada na Vida Máx. de Ningguang.\nA Tela de Jade é considerada uma Construção Geo e pode ser usada para bloquear certos ataques, mas não pode ser escalada.\nSó pode existir uma Tela de Jade por vez. Manter pressionado ajusta a posição da Tela de Jade antes de ser criada."
+        },
+        "elemental_burst": {
+            "name": "Fragmento Estelar",
+            "icon_url": "/assets/images/talents/ningguang/talent_elemental_burst.webp",
+            "description": "Ningguang dispersa uma grande quantidade de gemas ao seu redor e as dispara automaticamente contra inimigos próximos, causando Dano Geo massivo. Se Fragmento Estelar for usado enquanto uma Tela de Jade estiver próxima, a Tela de Jade também disparará projéteis de gema adicionais."
+        },
+        "passives": [
+            {
+                "name": "Plano B",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/ningguang/talent_passive_a1.webp",
+                "description": "Quando Ningguang possui Jades Estelares, seu Ataque Carregado não consome Stamina."
+            },
+            {
+                "name": "Reserva Estratégica",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/ningguang/talent_passive_a4.webp",
+                "description": "Personagens que passam através da Tela de Jade ganham um Bônus de Dano Geo de 12% por 10s."
+            },
+            {
+                "name": "Tesouro Extraordinário",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/ningguang/talent_passive_utility.webp",
+                "description": "Mostra a localização de Minérios de Forja (Ferro, Ferro Branco, Cristal, Cristal Mágico, Argento Estrelado e Pedaço de Ametista) próximos no minimapa."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Insígnia de Recruta",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/recruits_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Sargento",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/sergeants_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Oficial",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/lieutenants_insignia.webp"
+        },
+        {
+            "name": "Ensinamentos de Prosperidade",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_prosperity.webp"
+        },
+        {
+            "name": "Guia de Prosperidade",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_prosperity.webp"
+        },
+        {
+            "name": "Filosofia de Prosperidade",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_prosperity.webp"
+        },
+        {
+            "name": "Bloqueio Espiritual de Boreas",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/spirit_locket_of_boreas.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Fragmentos Perfurantes",
+            "icon_url": "/assets/images/constellations/ningguang/constellation_1.webp",
+            "description": "Quando um Ataque Normal atinge, ele causa Dano em AdE."
+        },
+        {
+            "level": 2,
+            "name": "Choque de Jade",
+            "icon_url": "/assets/images/constellations/ningguang/constellation_2.webp",
+            "description": "Quando a Tela de Jade é estilhaçada (expira ou é destruída), seu Tempo de Recarga é zerado. Este efeito pode ocorrer uma vez a cada 6s."
+        },
+        {
+            "level": 3,
+            "name": "O Brilho Mais Exuberante do Firmamento",
+            "icon_url": "/assets/images/constellations/ningguang/constellation_3.webp",
+            "description": "Aumenta o nível de Fragmento Estelar (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "O Requintado Brilho das Sete Estrelas",
+            "icon_url": "/assets/images/constellations/ningguang/constellation_4.webp",
+            "description": "Tela de Jade aumenta a RES Elemental dos personagens próximos em 10%."
+        },
+        {
+            "level": 5,
+            "name": "Pedaço de Jade Invencível",
+            "icon_url": "/assets/images/constellations/ningguang/constellation_5.webp",
+            "description": "Aumenta o nível da Tela de Jade (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Sete Estrelas Magníficas",
+            "icon_url": "/assets/images/constellations/ningguang/constellation_6.webp",
+            "description": "Ao usar Fragmento Estelar (Supremo), Ningguang ganha 7 Jades Estelares."
+        }
+    ]
+}

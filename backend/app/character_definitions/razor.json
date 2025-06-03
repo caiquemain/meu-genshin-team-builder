@@ -1,0 +1,580 @@
+{
+    "id": "razor",
+    "name": "Razor",
+    "title": "Garoto Lobo",
+    "element": "Electro",
+    "rarity": 4,
+    "weapon": "Claymore",
+    "model_type": "Medium Male",
+    "role": [
+        "On-Field DPS",
+        "Physical DPS",
+        "Aggravate DPS"
+    ],
+    "description_bio": "Um menino abandonado quando bebê e acolhido pelo Lobo do Norte, Andrius. Criado por sua matilha em Wolvendom, Razor se sente mais em casa na natureza, lutando com garra e trovão, e está lentamente se reintegrando à sociedade humana com a ajuda de Lisa e Varka.",
+    "birthday": "9 de Setembro",
+    "constellation_name_official": "Lupus Minor",
+    "region": "Mondstadt",
+    "affiliation": [
+        "Reino dos Lobos (Wolvendom)",
+        "Andrius (Boreas)"
+    ],
+    "special_dish": {
+        "name": "Bolinho em Formato de Pata",
+        "icon_url": "/assets/images/dishes/razor_puppy_paw_hash_brown.webp"
+    },
+    "namecard_url": "/assets/images/namecards/razor_wolvensprint.png",
+    "icon_url": "/assets/images/characters/razor.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Razor Full Guide",
+                "url": "https://keqingmains.com/razor/"
+            },
+            {
+                "name": "KQM Razor Quick Guide",
+                "url": "https://keqingmains.com/q/razor-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Razor",
+                "url": "https://genshin-impact.fandom.com/wiki/Razor"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Razor",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Razor"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "razor_physical_dps_pale_flame",
+            "name": "DPS Físico (Chama Pálida)",
+            "notes_build": "Foco em maximizar o Dano Físico dos Ataques Normais de Razor, geralmente com Supercondutor. É seu estilo de jogo mais tradicional e acessível no início.",
+            "artifacts": [
+                {
+                    "set_id": "pale_flame",
+                    "set_name": "Chama Pálida",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Dano Físico, fácil de manter o efeito com a Habilidade Elemental de Razor.",
+                    "icon_url": "/assets/images/artifact_sets/pale_flame.png"
+                },
+                {
+                    "set_id": "gladiators_finale",
+                    "set_name": "Fim do Gladiador",
+                    "pieces": 4,
+                    "notes": "Opção sólida e consistente, buffa Dano de Ataque Normal.",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
+                },
+                {
+                    "set_id": "bloodstained_chivalry",
+                    "set_name": "Cavaleiro Manchado de Sangue",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p Chama Pálida para +50% de Dano Físico.",
+                    "icon_url": "/assets/images/artifact_sets/bloodstained_chivalry.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ%",
+                "goblet": "Bônus de Dano Físico%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATQ%",
+                "Recarga de Energia% (até o requisito)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "song_of_broken_pines",
+                    "name": "Canção dos Pinhos Quebrados",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alto ATQ Base e Bônus de Dano Físico, excelente para este build.",
+                    "icon_url": "/assets/images/weapons_detail/song_of_broken_pines.png"
+                },
+                {
+                    "weapon_id": "wolfs_gravestone",
+                    "name": "Túmulo do Lobo",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Alto ATQ% e passiva que buffa o ATQ de toda a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/wolfs_gravestone.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Melhor opção 4★, Taxa CRIT e buff de Dano universal. Requer escudo para manter acúmulos.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "prototype_archaic",
+                    "name": "Protótipo Arcaico",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja",
+                    "notes": "Boa opção F2P com ATQ% e dano adicional passivo.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_archaic.png"
+                },
+                {
+                    "weapon_id": "tidal_shadow",
+                    "name": "Sombra da Maré",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja (Fontaine)",
+                    "notes": "Opção de forja de Fontaine, pode superar o Protótipo Arcaico se a passiva de ATQ (após cura) for ativada consistentemente.",
+                    "icon_url": "/assets/images/weapons_detail/tidal_shadow.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)"
+            ]
+        },
+        {
+            "key": "razor_aggravate_dps_thundering_fury",
+            "name": "DPS de Agravamento (Fúria Trovejante)",
+            "notes_build": "Foca em maximizar o Dano Electro de Razor através da reação de Agravamento, enquanto ainda contribui com Dano Físico. Requer aplicação Dendro consistente.",
+            "artifacts": [
+                {
+                    "set_id": "thundering_fury",
+                    "set_name": "Fúria Trovejante",
+                    "pieces": 4,
+                    "notes": "Opção preferida para Agravamento, reduz o cooldown da Habilidade Elemental permitindo mais ativações de Agravamento.",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Fornece ATQ% e Proficiência Elemental, bons para Agravamento.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "thundersoother",
+                    "set_name": "Lançador de Trovões",
+                    "pieces": 4,
+                    "notes": "Potente se a aura Electro puder ser mantida consistentemente nos inimigos.",
+                    "icon_url": "/assets/images/artifact_sets/thundersoother.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ% / Proficiência Elemental",
+                "goblet": "Bônus de Dano Electro% / ATQ%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental",
+                "ATQ%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "beacon_of_the_reed_sea",
+                    "name": "Sinal dos Mares de Juncos",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alto ATQ Base, Taxa CRIT e passiva de ATQ%.",
+                    "icon_url": "/assets/images/weapons_detail/beacon_of_the_reed_sea.png"
+                },
+                {
+                    "weapon_id": "wolfs_gravestone",
+                    "name": "Túmulo do Lobo",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Concede muito ATQ%, beneficiando tanto o dano Electro quanto Físico.",
+                    "icon_url": "/assets/images/weapons_detail/wolfs_gravestone.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Taxa CRIT e buff de Dano Total, excelente para dano híbrido.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "rainslasher",
+                    "name": "Segadeira da Chuva",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Proficiência Elemental e buff de dano contra inimigos afetados por Hydro/Electro.",
+                    "icon_url": "/assets/images/weapons_detail/rainslasher.png"
+                },
+                {
+                    "weapon_id": "mailed_flower",
+                    "name": "Flor Protegida",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Evento",
+                    "notes": "Opção F2P de evento com Proficiência Elemental e ATQ%.",
+                    "icon_url": "/assets/images/weapons_detail/mailed_flower.png"
+                },
+                {
+                    "weapon_id": "talking_stick",
+                    "name": "Talking Stick (Bastão da Fala)",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Taxa CRIT. Passiva pode conceder ATQ% ou Bônus de Dano Elemental. Detalhes completos desta arma precisam ser adicionados ao banco de dados.",
+                    "icon_url": "/assets/images/weapons_detail/talking_stick.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)"
+            ]
+        },
+        {
+            "key": "razor_transformative_full_em",
+            "name": "DPS de Reações Transformativas (Full EM)",
+            "notes_build": "Foco em maximizar o dano de reações como Supercondutor, Eletricamente Carregado, Sobrecarga, e especialmente Germinação (Burgeon) ou Superflorescimento (Hyperbloom) se houver Dendro. Razor atua como o ativador dessas reações.",
+            "artifacts": [
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Fornece muita Proficiência Elemental.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "flower_of_paradise_lost",
+                    "set_name": "Flor do Paraíso Perdido",
+                    "pieces": 4,
+                    "notes": "Aumenta o dano de Germinação/Superflorescimento, mas menos eficiente para farmar.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png"
+                },
+                {
+                    "set_id": "thundering_fury",
+                    "set_name": "Fúria Trovejante",
+                    "pieces": 4,
+                    "notes": "Buffa o dano de reações Electro e reduz o cooldown da Habilidade Elemental.",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental / Recarga de Energia%",
+                "goblet": "Proficiência Elemental",
+                "circlet": "Proficiência Elemental / Taxa CRIT% (para Favonius)"
+            },
+            "sub_stats_priority": [
+                "Proficiência Elemental",
+                "Recarga de Energia% (para manter o Supremo ativo para aplicação Electro)",
+                "Taxa CRIT% (se usando Favonius)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "mailed_flower",
+                    "name": "Flor Protegida",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Evento",
+                    "notes": "Melhor opção F2P, alta Proficiência Elemental e ATQ%.",
+                    "icon_url": "/assets/images/weapons_detail/mailed_flower.png"
+                },
+                {
+                    "weapon_id": "bloodtainted_greatsword",
+                    "name": "Espadão Sangrento",
+                    "rarity": 3,
+                    "type": "Claymore",
+                    "category": "Gacha/Baús",
+                    "notes": "Opção 3★ barata com Proficiência Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/bloodtainted_greatsword.png"
+                },
+                {
+                    "weapon_id": "makhaira_aquamarine",
+                    "name": "Makhaira Aquamarine",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Proficiência Elemental e buff de ATQ para a equipe baseado na PE de Razor.",
+                    "icon_url": "/assets/images/weapons_detail/makhaira_aquamarine.png"
+                },
+                {
+                    "weapon_id": "rainslasher",
+                    "name": "Segadeira da Chuva",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Proficiência Elemental e dano aumentado contra inimigos afetados por Hydro/Electro.",
+                    "icon_url": "/assets/images/weapons_detail/rainslasher.png"
+                },
+                {
+                    "weapon_id": "forest_regalia",
+                    "name": "Forest Regalia (Regalia da Floresta)",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja (Sumeru)",
+                    "notes": "Opção de Forja com RE e passiva de Proficiência Elemental. Detalhes completos desta arma precisam ser adicionados ao banco de dados.",
+                    "icon_url": "/assets/images/weapons_detail/forest_regalia.png"
+                },
+                {
+                    "weapon_id": "favonius_greatsword",
+                    "name": "Espadão de Favonius",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Ajuda com a Recarga de Energia da equipe, mas requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_greatsword.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem até 90",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2577,
+            "base_atk": 50,
+            "base_def": 162,
+            "bonus_stat_label": "Bônus de Dano Físico%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4982,
+            "base_atk": 97,
+            "base_def": 313,
+            "bonus_stat_label": "Bônus de Dano Físico%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 6343,
+            "base_atk": 124,
+            "base_def": 398,
+            "bonus_stat_label": "Bônus de Dano Físico%",
+            "bonus_stat_value": "7.5%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 7881,
+            "base_atk": 154,
+            "base_def": 495,
+            "bonus_stat_label": "Bônus de Dano Físico%",
+            "bonus_stat_value": "15.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 9241,
+            "base_atk": 180,
+            "base_def": 580,
+            "bonus_stat_label": "Bônus de Dano Físico%",
+            "bonus_stat_value": "15.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 10602,
+            "base_atk": 207,
+            "base_def": 665,
+            "bonus_stat_label": "Bônus de Dano Físico%",
+            "bonus_stat_value": "22.5%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 11962,
+            "base_atk": 234,
+            "base_def": 751,
+            "bonus_stat_label": "Bônus de Dano Físico%",
+            "bonus_stat_value": "30.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Prisma do Relâmpago",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/lightning_prism.webp"
+        },
+        {
+            "name": "Lasca de Ametista Vajrada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_chunk.webp"
+        },
+        {
+            "name": "Gema de Ametista Vajrada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_gemstone.webp"
+        },
+        {
+            "name": "Gancho do Lobo",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/wolfhook.webp"
+        },
+        {
+            "name": "Máscara Danificada",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/damaged_mask.webp"
+        },
+        {
+            "name": "Máscara Suja",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/stained_mask.webp"
+        },
+        {
+            "name": "Máscara Ominosa",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/ominous_mask.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Presa de Aço",
+            "icon_url": "/assets/images/talents/razor/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 golpes consecutivos. O 4º golpe causa knockback.\nAtaque Carregado: Drena Stamina para realizar um ataque giratório contínuo, terminando com um golpe mais poderoso.\nAtaque Imersivo: Mergulha para atingir o chão, causando Dano em AdE."
+        },
+        "elemental_skill": {
+            "name": "Garra e Trovão",
+            "icon_url": "/assets/images/talents/razor/talent_elemental_skill.webp",
+            "description": "Pressionar: Balança a Garra de Lobo do Trovão, causando Dano Electro. Ao atingir, Razor ganha um Selo Electro (máx. 3), que aumenta sua Recarga de Energia. Cada novo Selo refresca a duração.\nManter Pressionado: Causa uma tempestade de raios em AdE, causando Dano Electro massivo e absorvendo Selos Electro para converter em Energia para Razor."
+        },
+        "elemental_burst": {
+            "name": "Dente de Relâmpago",
+            "icon_url": "/assets/images/talents/razor/talent_elemental_burst.webp",
+            "description": "Invoca o Lobo Interior, causando Dano Electro em AdE e absorvendo Selos Electro para Energia. Por 15s, o Lobo Interior ataca junto com os Ataques Normais de Razor, causando Dano Electro. Aumenta a Vel. de ATQ e RES Electro de Razor, concede imunidade a Dano Eletricamente Carregado e aumenta a RES à Interrupção. Desabilita Ataques Carregados. Sair de campo encerra o efeito e retorna até 10 de Energia."
+        },
+        "passives": [
+            {
+                "name": "Despertamento",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/razor/talent_passive_a1.webp",
+                "description": "Diminui a Recarga de Garra e Trovão em 18%. Usar Dente de Relâmpago redefine a Recarga de Garra e Trovão."
+            },
+            {
+                "name": "Fome",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/razor/talent_passive_a4.webp",
+                "description": "Quando a Energia de Razor está abaixo de 50%, aumenta sua Recarga de Energia em 30%."
+            },
+            {
+                "name": "Corrida de Lobos",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/razor/talent_passive_utility.webp",
+                "description": "Diminui o consumo de Stamina ao Correr de todos os membros da equipe em 20%. Não acumulável com Talentos Passivos que fornecem exatamente os mesmos efeitos."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Máscara Danificada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/damaged_mask.webp"
+        },
+        {
+            "name": "Máscara Suja",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/stained_mask.webp"
+        },
+        {
+            "name": "Máscara Ominosa",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/ominous_mask.webp"
+        },
+        {
+            "name": "Ensinamentos de Resistência",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_resistance.webp"
+        },
+        {
+            "name": "Guia de Resistência",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_resistance.webp"
+        },
+        {
+            "name": "Filosofia de Resistência",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_resistance.webp"
+        },
+        {
+            "name": "Garra do Vento Oriental",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/dvalins_claw.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Natureza do Lobo",
+            "icon_url": "/assets/images/constellations/razor/constellation_1.webp",
+            "description": "Ao obter um Orbe ou Partícula Elemental, aumenta o Dano de Razor em 10% por 8s."
+        },
+        {
+            "level": 2,
+            "name": "Supressão",
+            "icon_url": "/assets/images/constellations/razor/constellation_2.webp",
+            "description": "Aumenta a Taxa CRIT contra inimigos com menos de 30% de Vida em 10%."
+        },
+        {
+            "level": 3,
+            "name": "Espírito Animal",
+            "icon_url": "/assets/images/constellations/razor/constellation_3.webp",
+            "description": "Aumenta o nível de Dente de Relâmpago (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Mordida",
+            "icon_url": "/assets/images/constellations/razor/constellation_4.webp",
+            "description": "Ao pressionar para lançar Garra e Trovão (Habilidade Elemental), diminui a DEF dos inimigos acertados em 15% por 7s."
+        },
+        {
+            "level": 5,
+            "name": "Garras Afiadas",
+            "icon_url": "/assets/images/constellations/razor/constellation_5.webp",
+            "description": "Aumenta o nível da Garra e Trovão (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Lupus Fulguris",
+            "icon_url": "/assets/images/constellations/razor/constellation_6.webp",
+            "description": "A cada 10s, a espada de Razor recarrega, fazendo com que o próximo Ataque Normal libere um relâmpago que causa 100% do ATQ de Razor como Dano Electro. Quando Razor não estiver usando Dente de Relâmpago (Supremo), um golpe de relâmpago contra o inimigo concederá um Selo Electro a Razor pela Garra e Trovão."
+        }
+    ]
+}

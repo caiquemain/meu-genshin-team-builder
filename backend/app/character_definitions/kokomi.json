@@ -1,0 +1,422 @@
+{
+    "id": "kokomi",
+    "name": "Sangonomiya Kokomi",
+    "title": "Pérola de Sabedoria",
+    "element": "Hydro",
+    "rarity": 5,
+    "weapon": "Catalyst",
+    "model_type": "Medium Female",
+    "role": [
+        "Healer",
+        "Hydro Enabler (Off-Field e On-Field)",
+        "Driver On-Field (Bloom/Electro-Charged)"
+    ],
+    "description_bio": "A Divina Sacerdotisa da Ilha Watatsumi e uma descendente do Clã Sangonomiya. Kokomi é uma estrategista brilhante e uma líder atenciosa, embora carregue o peso de sua ilha sobre os ombros.",
+    "birthday": "22 de Fevereiro",
+    "constellation_name_official": "Dracaena Somnolenta",
+    "region": "Inazuma",
+    "affiliation": [
+        "Ilha Watatsumi",
+        "Clã Sangonomiya",
+        "Exército de Watatsumi"
+    ],
+    "special_dish": {
+        "name": "Estratagema Impressionante",
+        "icon_url": "/assets/images/dishes/kokomi_a_stunning_stratagem.webp"
+    },
+    "namecard_url": "/assets/images/namecards/kokomi_the_deep.png",
+    "icon_url": "/assets/images/characters/kokomi.png",
+    "element_icon_url": "/assets/images/elements/element_hydro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Kokomi Guide (Full)",
+                "url": "https://keqingmains.com/kokomi/"
+            },
+            {
+                "name": "KQM Kokomi Quick Guide",
+                "url": "https://keqingmains.com/q/kokomi-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Sangonomiya Kokomi",
+                "url": "https://genshin-impact.fandom.com/wiki/Sangonomiya_Kokomi"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "kokomi_offfield_hydro_support_tenacity_ttds",
+            "name": "Suporte Hydro Off-field (Tenacidade - TTDS)",
+            "notes_build": "Principal build de Kokomi como suporte, focando em cura consistente, aplicação Hydro off-field com sua Habilidade Elemental (Bake-Kurage) e buff de ATQ para a equipe com 4p Tenacidade dos Millelith e Histórias Extraordinárias de Caçadores de Dragões (TTDS).",
+            "artifacts": [
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Kokomi suporte off-field, pois ela pode manter o buff de 20% de ATQ para a equipe com 100% de uptime através de sua Habilidade Elemental.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                },
+                {
+                    "set_id": "ocean_hued_clam",
+                    "set_name": "Concha Tingida Pelo Mar",
+                    "pieces": 4,
+                    "notes": "Opção para mais dano pessoal se o buff de ATQ de Tenacidade não for tão valorizado pela equipe. Converte a cura de Kokomi em Dano Físico.",
+                    "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png"
+                },
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Viável em times baseados em Dendro se nenhum outro personagem puder usar este conjunto de forma eficaz. Reduz a RES Dendro dos inimigos.",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / HP%",
+                "goblet": "HP%",
+                "circlet": "Bônus de Cura% / HP%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~160-200% dependendo do time e C1)",
+                "HP%",
+                "HP Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "thrilling_tales_of_dragon_slayers",
+                    "name": "Histórias Extraordinárias de Caçadores de Dragões",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha / Baús",
+                    "notes": "R5 é uma das melhores armas para Kokomi suporte devido ao seu buff massivo de ATQ% para o próximo personagem. Sub-status de HP% também é útil.",
+                    "icon_url": "/assets/images/weapons_detail/thrilling_tales_of_dragon_slayers.png"
+                },
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Excelente opção F2P, especialmente em R5. Fornece HP%, cura para a equipe com o Supremo e ajuda com a Recarga de Energia de Kokomi.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                },
+                {
+                    "weapon_id": "hakushin_ring",
+                    "name": "Anel de Hakushin",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja (Inazuma)",
+                    "notes": "Em times Eletricamente Carregados, R5 Anel de Hakushin fornece um buff de Dano Elemental para os membros da equipe Hydro e Electro.",
+                    "icon_url": "/assets/images/weapons_detail/hakushin_ring.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) (para cura e aplicação Hydro)",
+                "Supremo (Burst) (para resetar a Habilidade e cura em área)",
+                "Ataque Normal (baixa prioridade para off-field)"
+            ]
+        },
+        {
+            "key": "kokomi_onfield_driver_ocean_hued_clam_moonglow",
+            "name": "Driver On-Field (Concha Tingida - Brilho Eterno da Lua)",
+            "notes_build": "Kokomi como driver on-field, utilizando seu Supremo para aumentar o dano de seus Ataques Normais, Habilidade Elemental e cura. 4p Concha Tingida Pelo Mar é ideal para este estilo de jogo, convertendo sua alta cura em dano.",
+            "artifacts": [
+                {
+                    "set_id": "ocean_hued_clam",
+                    "set_name": "Concha Tingida Pelo Mar",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Kokomi on-field, pois seu Supremo permite que ela maximize facilmente o dano da Bolha do conjunto.",
+                    "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png"
+                },
+                {
+                    "set_id": "heart_of_depth",
+                    "set_name": "Profundezas do Coração",
+                    "pieces": 4,
+                    "notes": "Se focar no dano Hydro pessoal de Kokomi e não apenas no dano da Concha, este conjunto é uma opção, mas Concha Tingida é geralmente melhor para o dano total.",
+                    "icon_url": "/assets/images/artifact_sets/heart_of_depth.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "HP% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Hydro",
+                "circlet": "Bônus de Cura%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~140-180%)",
+                "HP%",
+                "ATK% (se usar Ataques Normais frequentemente)",
+                "HP Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "everlasting_moonglow",
+                    "name": "Brilho Eterno da Lua",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Arma assinatura de Kokomi e sua melhor opção para este estilo de jogo. Fornece HP%, Bônus de Cura, aumenta o Dano do Ataque Normal com base no HP Máx e ajuda com a Energia.",
+                    "icon_url": "/assets/images/weapons_detail/everlasting_moonglow.png"
+                },
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Melhor opção F2P e altamente competitiva, especialmente em R5. Fornece HP% e utilidade de energia/cura.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 1049,
+            "base_atk": 18,
+            "base_def": 51,
+            "bonus_stat_label": "Bônus de Dano Hydro",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3432,
+            "base_atk": 59,
+            "base_def": 168,
+            "bonus_stat_label": "Bônus de Dano Hydro",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5700,
+            "base_atk": 98,
+            "base_def": 279,
+            "bonus_stat_label": "Bônus de Dano Hydro",
+            "bonus_stat_value": "7.2%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 7314,
+            "base_atk": 126,
+            "base_def": 358,
+            "bonus_stat_label": "Bônus de Dano Hydro",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8731,
+            "base_atk": 150,
+            "base_def": 427,
+            "bonus_stat_label": "Bônus de Dano Hydro",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 10141,
+            "base_atk": 174,
+            "base_def": 496,
+            "bonus_stat_label": "Bônus de Dano Hydro",
+            "bonus_stat_value": "21.6%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 13471,
+            "base_atk": 234,
+            "base_def": 657,
+            "bonus_stat_label": "Bônus de Dano Hydro",
+            "bonus_stat_value": "28.8%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Orvalho da Repudiação",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/dew_of_repudiation.webp"
+        },
+        {
+            "name": "Lasca de Lazurita Varunada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/varunada_lazurite_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_chunk.webp"
+        },
+        {
+            "name": "Gema de Lazurita Varunada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/varunada_lazurite_gemstone.webp"
+        },
+        {
+            "name": "Pérola Sango",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/sango_pearl.webp"
+        },
+        {
+            "name": "Casco Espectral",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/spectral_husk.webp"
+        },
+        {
+            "name": "Coração Espectral",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/spectral_heart.webp"
+        },
+        {
+            "name": "Núcleo Espectral",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/spectral_nucleus.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "A Forma da Água",
+            "icon_url": "/assets/images/talents/kokomi/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 3 ataques consecutivos que assumem a forma de peixes nadando, causando Dano Hydro.\nAtaque Carregado: Consome uma certa quantidade de Stamina para causar Dano Hydro em AdE após um curto tempo de canalização.\nAtaque Imersivo: Reunindo o poder do Hydro, Kokomi mergulha em direção ao chão do ar, danificando todos os oponentes em seu caminho. Causa Dano Hydro em AdE no impacto com o chão."
+        },
+        "elemental_skill": {
+            "name": "Juramento de Kurage",
+            "icon_url": "/assets/images/talents/kokomi/talent_elemental_skill.webp",
+            "description": "Invoca um \"Bake-Kurage\" criado a partir da água que pode curar seus aliados.\nUsar esta habilidade aplicará o estado Molhado a Sangonomiya Kokomi.\nBake-Kurage: Causa Dano Hydro a oponentes ao redor e cura personagens ativos próximos em intervalos fixos. Esta cura escala com base no HP Máx de Kokomi."
+        },
+        "elemental_burst": {
+            "name": "Ascensão da Nereida",
+            "icon_url": "/assets/images/talents/kokomi/talent_elemental_burst.webp",
+            "description": "O poder de Watatsumi desce, causando Dano Hydro a oponentes próximos, antes de revestir Kokomi em um Manto Cerimonial feito das águas correntes de Sangonomiya.\nManto Cerimonial:\n- O DANO do Ataque Normal e Carregado de Sangonomiya Kokomi, e o DANO do Bake-Kurage de sua Habilidade Elemental são aumentados com base em seu HP Máx.\n- Quando seus Ataques Normais e Carregados atingem oponentes, Kokomi restaurará HP para todos os membros da equipe próximos, e a quantidade restaurada é baseada em seu HP Máx.\n- Aumenta a resistência à interrupção de Sangonomiya Kokomi e permite que ela se mova sobre a superfície da água.\nEstes efeitos serão limpos quando Sangonomiya Kokomi sair do campo."
+        },
+        "passives": [
+            {
+                "name": "Caixão de Tamanooya",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/kokomi/talent_passive_a1.webp",
+                "description": "Se o Bake-Kurage de Sangonomiya Kokomi estiver em campo quando ela usar Ascensão da Nereida, a duração do Bake-Kurage será atualizada."
+            },
+            {
+                "name": "Canção de Pérolas",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/kokomi/talent_passive_a4.webp",
+                "description": "Enquanto estiver usando o Manto Cerimonial criado por Ascensão da Nereida, o Bônus de DANO do Ataque Normal e Carregado que Sangonomiya Kokomi ganha com base em seu HP Máx receberá um aumento adicional com base em 15% de seu Bônus de Cura."
+            },
+            {
+                "name": "Princesa de Watatsumi",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/kokomi/talent_passive_utility.webp",
+                "description": "Diminui o consumo de Stamina ao Nadar de seus próprios personagens na equipe em 20%.\nNão acumulável com Talentos Passivos que fornecem exatamente os mesmos efeitos."
+            },
+            {
+                "name": "Estratagema Impecável",
+                "type": "Passiva Fixa",
+                "icon_url": "/assets/images/talents/kokomi/talent_passive_fixed.webp",
+                "description": "Sangonomiya Kokomi ganha um Bônus de Cura de 25%. Sua Taxa CRIT diminui em 100%."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Casco Espectral",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/spectral_husk.webp"
+        },
+        {
+            "name": "Coração Espectral",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/spectral_heart.webp"
+        },
+        {
+            "name": "Núcleo Espectral",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/spectral_nucleus.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Transitoriedade\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_transience.webp"
+        },
+        {
+            "name": "Guia da \"Transitoriedade\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_transience.webp"
+        },
+        {
+            "name": "Filosofia da \"Transitoriedade\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_transience.webp"
+        },
+        {
+            "name": "Borboleta Infernal",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/hellfire_butterfly.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "No Limite das Águas",
+            "icon_url": "/assets/images/constellations/kokomi/constellation_1.webp",
+            "description": "Enquanto estiver usando o Manto Cerimonial criado por Ascensão da Nereida, o último Ataque Normal na sequência de combo de Sangonomiya Kokomi liberará um peixe nadador adicional que causa 30% de seu HP Máx como Dano Hydro. Este DANO não é considerado Dano de Ataque Normal."
+        },
+        {
+            "level": 2,
+            "name": "As Nuvens Ondulantes Como Bandeiras de Seda",
+            "icon_url": "/assets/images/constellations/kokomi/constellation_2.webp",
+            "description": "Sangonomiya Kokomi ganha os seguintes bônus de Cura para personagens com 50% de HP ou menos através dos seguintes métodos:\n∙ Bake-Kurage de Juramento de Kurage: Bônus de Cura de HP Máx de 4.5%.\n∙ Ataques Normais e Carregados de Ascensão da Nereida: Bônus de Cura de HP Máx de 0.6%."
+        },
+        {
+            "level": 3,
+            "name": "A Lua, Sobre as Águas",
+            "icon_url": "/assets/images/constellations/kokomi/constellation_3.webp",
+            "description": "Aumenta o Nível de Ascensão da Nereida em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "A Lua Contempla as Águas",
+            "icon_url": "/assets/images/constellations/kokomi/constellation_4.webp",
+            "description": "Enquanto estiver usando o Manto Cerimonial criado por Ascensão da Nereida, a Vel. de ATQ Normal de Sangonomiya Kokomi aumenta em 10%, e Ataques Normais que atingem oponentes restaurarão 0.8 de Energia para ela. Este efeito pode ocorrer uma vez a cada 0.2s."
+        },
+        {
+            "level": 5,
+            "name": "Todas as Correntes Flutuam para o Mar",
+            "icon_url": "/assets/images/constellations/kokomi/constellation_5.webp",
+            "description": "Aumenta o Nível de Juramento de Kurage em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Sango Isshin",
+            "icon_url": "/assets/images/constellations/kokomi/constellation_6.webp",
+            "description": "Enquanto estiver usando o Manto Cerimonial criado por Ascensão da Nereida, Sangonomiya Kokomi ganha um Bônus de Dano Hydro de 40% por 4s após seus Ataques Normais e Carregados curarem um personagem com 80% ou mais de HP."
+        }
+    ]
+}

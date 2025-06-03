@@ -1,0 +1,83 @@
+[
+    {
+        "id": "mavuika_melt_bennett_citlali_xilonen",
+        "name": "Mavuika - Fusão (Bennett, Citlali, Xilonen)",
+        "strategy": "Time focado em maximizar o dano de Fusão de Mavuika. Bennett para buff de ATQ e cura. Citlali para aplicação Cryo off-field, escudo e Redução de RES Pyro. Xilonen para buffs de DANO% e RES Shred Geo/Pyro.",
+        "characters_in_team": [
+            {
+                "character_id": "mavuika",
+                "role_in_team": "Main DPS Pyro On-field (Melt)",
+                "build_key": "mavuika_onfield_dps_obsidian_codex"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "citlali",
+                "role_in_team": "Suporte Cryo (Escudeira, Aplicadora Cryo, RES Pyro Shred)",
+                "build_key": "citlali_shield_support_scroll_em_er"
+            },
+            {
+                "character_id": "xilonen",
+                "role_in_team": "Suporte Geo (Buffer com Pergaminho, RES Shred Geo/Pyro)",
+                "build_key": "xilonen_geo_support_scroll_favonius"
+            }
+        ]
+    },
+    {
+        "id": "mavuika_chevreuse_overload_fischl_ororon",
+        "name": "Mavuika - Sobrecarga Chevreuse (Chevreuse, Fischl, Ororon)",
+        "strategy": "Time de Sobrecarga com Chevreuse. Mavuika e Ororon ativam a Ressonância de Natlan de Chevreuse. Fischl para dano Electro off-field adicional.",
+        "characters_in_team": [
+            {
+                "character_id": "mavuika",
+                "role_in_team": "Main DPS Pyro On-field",
+                "build_key": "mavuika_onfield_dps_obsidian_codex"
+            },
+            {
+                "character_id": "chevreuse",
+                "role_in_team": "Suporte (Buffer de Sobrecarga, RES Shred Pyro/Electro, Healer)",
+                "build_key": "chevreuse_overload_buffer_songofdays_noblesse"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro Off-field",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "ororon",
+                "role_in_team": "Sub-DPS Electro Off-field / Suporte (Buffer com Pergaminho)",
+                "build_key": "ororon_offfield_dps_scroll_of_cinder_city"
+            }
+        ]
+    },
+    {
+        "id": "mavuika_mono_pyro_bennett_kazuha_xiangling",
+        "name": "Mavuika - Mono Pyro (Bennett, Kazuha, Xiangling)",
+        "strategy": "Time Mono Pyro tradicional. Mavuika como DPS principal on-field. Bennett para buff de ATQ e cura. Kazuha para agrupar e buffar Dano Pyro com Sombra Verde. Xiangling para dano Pyro off-field.",
+        "characters_in_team": [
+            {
+                "character_id": "mavuika",
+                "role_in_team": "Main DPS Pyro On-field",
+                "build_key": "mavuika_onfield_dps_obsidian_codex"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer Dano Pyro, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            }
+        ]
+    }
+]

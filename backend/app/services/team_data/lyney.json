@@ -1,0 +1,83 @@
+[
+    {
+        "id": "lyney_mono_pyro_bennett_kazuha_zhongli",
+        "name": "Lyney - Mono Pyro (Bennett, Kazuha, Zhongli)",
+        "strategy": "Time Mono Pyro onde Lyney é o DPS principal. Bennett para buff de ATQ massivo e cura. Kazuha para agrupar, reduzir RES Pyro com Sombra Verde e buffar Dano Pyro. Zhongli para escudo robusto e redução de RES universal.",
+        "characters_in_team": [
+            {
+                "character_id": "lyney",
+                "role_in_team": "Main DPS Pyro On-field (Charged Shot)",
+                "build_key": "lyney_mono_pyro_charged_attack_dps_marechaussee"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer Dano Pyro, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Escudeiro / Suporte (RES Shred Universal)",
+                "build_key": "shielder_max_hp_utility_tenacity"
+            }
+        ]
+    },
+    {
+        "id": "lyney_mono_pyro_xiangling_kazuha_bennett",
+        "name": "Lyney - Mono Pyro com Xiangling (Bennett, Kazuha, Xiangling)",
+        "strategy": "Variação Mono Pyro com Xiangling para dano Pyro off-field adicional. Lyney como DPS on-field, Bennett para ATQ e cura, Kazuha para buffs e controle de grupo.",
+        "characters_in_team": [
+            {
+                "character_id": "lyney",
+                "role_in_team": "Main DPS Pyro On-field (Charged Shot)",
+                "build_key": "lyney_mono_pyro_charged_attack_dps_marechaussee"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer Dano Pyro, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            }
+        ]
+    },
+    {
+        "id": "lyney_vaporize_bennett_yelan_kazuha",
+        "name": "Lyney - Vaporizar (Bennett, Yelan, Kazuha)",
+        "strategy": "Embora Mono Pyro seja geralmente preferido, Lyney pode funcionar em times de Vaporizar. Yelan para aplicação Hydro off-field. Bennett para buffs e Kazuha para Swirl Hydro/Pyro.",
+        "characters_in_team": [
+            {
+                "character_id": "lyney",
+                "role_in_team": "Main DPS Pyro On-field (Vaporize Charged Shot)",
+                "build_key": "lyney_mono_pyro_charged_attack_dps_marechaussee"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro / Aplicadora Hydro Off-field",
+                "build_key": "yelan_subdps_emblem_eosf"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred, Buffer Dano Elemental)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    }
+]

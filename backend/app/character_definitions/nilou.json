@@ -1,0 +1,368 @@
+{
+    "id": "nilou",
+    "name": "Nilou",
+    "title": "Dança da Luz de Lótus",
+    "element": "Hydro",
+    "rarity": 5,
+    "weapon": "Sword",
+    "model_type": "Medium Female",
+    "role": [
+        "Bloom Enabler (Bountiful Cores)",
+        "Off-Field Hydro Applicator"
+    ],
+    "description_bio": "A estrela do Teatro Zubayr, Nilou é admirada por sua dança graciosa e natureza gentil. Ela incorpora a arte e a beleza, cativando o público com suas performances que contam histórias de sonhos e esperança.",
+    "birthday": "3 de Dezembro",
+    "constellation_name_official": "Lotos Somno",
+    "region": "Sumeru",
+    "affiliation": [
+        "Teatro Zubayr"
+    ],
+    "special_dish": {
+        "name": "Dança Espiral",
+        "icon_url": "/assets/images/dishes/nilou_swirling_steps.webp"
+    },
+    "namecard_url": "/assets/images/namecards/nilou_lotus_dance.png",
+    "icon_url": "/assets/images/characters/nilou.png",
+    "element_icon_url": "/assets/images/elements/element_hydro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Nilou Guide (Full)",
+                "url": "https://keqingmains.com/nilou/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Nilou",
+                "url": "https://genshin-impact.fandom.com/wiki/Nilou"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "nilou_bountiful_bloom_hp_focus",
+            "name": "Florescimento Abundante (Foco em HP)",
+            "notes_build": "Principal forma de jogar com Nilou, focando em maximizar seu HP para aumentar o dano das Sementes da Abundância criadas por sua passiva A1. Requer uma equipe composta apenas por personagens Hydro e Dendro. Nível 90 é crucial para o dano de Florescimento.",
+            "artifacts": [
+                {
+                    "set_id": "tenacity_vourukasha_2pc_hp_mix",
+                    "set_name": "Tenacidade dos Millelith (2p) + Brilho de Vourukasha (2p)",
+                    "pieces": "2+2",
+                    "notes": "Melhor combinação para maximizar o HP de Nilou, já que ambos os conjuntos fornecem +20% HP. Isso aumenta diretamente o dano das Sementes da Abundância.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "tenacity_of_the_millelith",
+                        "vourukashas_glow"
+                    ]
+                },
+                {
+                    "set_id": "em_2pc_mix_bloom_nilou",
+                    "set_name": "Proficiência Elemental (2p) + Proficiência Elemental (2p)",
+                    "pieces": "2+2",
+                    "notes": "Se Nilou estiver ativando a maioria das Sementes da Abundância (menos comum), uma build de Proficiência Elemental (EM) pode ser considerada, mas HP geralmente é melhor para o buff da equipe. (Ex: Sonhos Dourados + Trupe Itinerante).",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "gilded_dreams",
+                        "wanderers_troupe"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "HP%",
+                "goblet": "HP%",
+                "circlet": "HP%"
+            },
+            "sub_stats_priority": [
+                "HP%",
+                "Proficiência Elemental (EM) (se Nilou ativar Blooms)",
+                "Recarga de Energia (ER%) (Baixa prioridade, Supremo não é crucial)",
+                "HP Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "key_of_khaj_nisut",
+                    "name": "Chave de Khaj-Nisut",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Nilou. Fornece uma quantidade massiva de HP% e converte HP em EM para Nilou e a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/key_of_khaj_nisut.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Fornece HP% e uma grande quantidade de Taxa CRIT, útil se buildar Nilou para algum dano pessoal, mas Chave de Khaj-Nisut é superior para times de Florescimento.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "iron_sting",
+                    "name": "Espinho de Ferro",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Opção F2P que fornece EM, útil se Nilou estiver ativando algumas Sementes.",
+                    "icon_url": "/assets/images/weapons_detail/iron_sting.png"
+                },
+                {
+                    "weapon_id": "xiphos_moonlight",
+                    "name": "Luz Lunar de Xiphos",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Fornece EM e ajuda com a RE da equipe. Boa opção 4 estrelas.",
+                    "icon_url": "/assets/images/weapons_detail/xiphos_moonlight.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) (para stances e aplicação Hydro)",
+                "Supremo (Burst) (para dano Hydro adicional e aplicação)",
+                "Nível do Personagem para 90 (para HP Máx e dano de Florescimento)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 1184,
+            "base_atk": 19,
+            "base_def": 57,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3878,
+            "base_atk": 61,
+            "base_def": 186,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 6436,
+            "base_atk": 101,
+            "base_def": 308,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "7.2%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 8282,
+            "base_atk": 130,
+            "base_def": 397,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 9799,
+            "base_atk": 154,
+            "base_def": 470,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 11310,
+            "base_atk": 178,
+            "base_def": 542,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "21.6%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 15180,
+            "base_atk": 239,
+            "base_def": 729,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "28.8%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Mola Perpétua",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/perpetual_caliber.webp"
+        },
+        {
+            "name": "Lasca de Lazurita Varunada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/varunada_lazurite_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_chunk.webp"
+        },
+        {
+            "name": "Gema de Lazurita Varunada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/varunada_lazurite_gemstone.webp"
+        },
+        {
+            "name": "Lótus de Padisarah",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/padisarah.webp"
+        },
+        {
+            "name": "Esporos de Cogumelo Flutuante",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/fungal_spores.webp"
+        },
+        {
+            "name": "Pólen fluorescente",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/luminescent_pollen.webp"
+        },
+        {
+            "name": "Poeira Cristalina de Cisto",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/crystalline_cyst_dust.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Dança de Samser",
+            "icon_url": "/assets/images/talents/nilou/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 3 golpes rápidos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para desferir um golpe giratório.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando inimigos ao longo do caminho e causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Dança dos Sete Reinos",
+            "icon_url": "/assets/images/talents/nilou/talent_elemental_skill.webp",
+            "description": "Entra no estado Pirueta, causando Dano Hydro a oponentes próximos com base no HP Máx de Nilou.\nEnquanto no estado Pirueta, os Ataques Normais e Habilidades Elementais de Nilou farão com que ela entre nas posturas Dança da Espada e Passos Rodopiantes respectivamente, causando Dano Hydro que é considerado Dano de Habilidade Elemental.\nNeste estado, o terceiro passo de dança de Nilou encerrará a Pirueta e, de acordo com o tipo do terceiro passo, desencadeará os seguintes efeitos:\n- Dança da Espada: Libera uma Lua Aquosa Luminosa que causa Dano Hydro a oponentes que atinge e concede a Nilou a Aura de Oração Lunar. Esta aura segue seu personagem ativo e aplica o estado Molhado aos oponentes dentro de sua AdE.\n- Passos Rodopiantes: Nilou libera um Círculo Aquático que causa Dano Hydro em AdE e cria uma Aura da Tranquilidade que segue seu personagem ativo, aplicando continuamente o estado Molhado aos oponentes dentro de sua AdE.\nNilou não pode realizar Ataques Carregados enquanto estiver no estado Pirueta ou sob o efeito da Aura de Oração Lunar. Estes efeitos serão removidos quando Nilou sair do campo."
+        },
+        "elemental_burst": {
+            "name": "Dança de Abzendegi: Nascente Distante dos Sonhos",
+            "icon_url": "/assets/images/talents/nilou/talent_elemental_burst.webp",
+            "description": "Começa a dança de sonhos distantes e lagos auditivos, fazendo florescer um Lótus de Águas Distantes que causa Dano Hydro em AdE com base no HP Máx de Nilou e aplica o efeito Aeon Persistente aos oponentes atingidos.\nApós um curto intervalo, os oponentes afetados por Aeon Persistente sofrerão Dano Hydro."
+        },
+        "passives": [
+            {
+                "name": "Corte da Dança Enfeitada",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/nilou/talent_passive_a1.webp",
+                "description": "Quando todos os personagens na equipe são Dendro ou Hydro, e há pelo menos um personagem Dendro e um personagem Hydro:\nO terceiro passo de dança da Dança dos Sete Reinos de Nilou concederá a todos os personagens próximos o estado Bênção do Cálice Dourado por 30s.\nPersonagens sob o efeito de Bênção do Cálice Dourado aumentarão sua Proficiência Elemental em 100 por 10s sempre que forem atingidos por ataques Dendro. Além disso, ativar a reação de Florescimento fará com que sejam criados Núcleos da Abundância em vez de Núcleos Dendro.\nEsses Núcleos da Abundância explodirão muito rapidamente após serem criados e terão uma AdE maior.\nNúcleos da Abundância não podem ativar Hiperflorecimento ou Germinação, e compartilham um limite numérico com Núcleos Dendro. O DANO de ataque de Núcleos da Abundância é considerado DANO causado por Núcleos Dendro produzidos por Florescimento."
+            },
+            {
+                "name": "Sonho da Dança da Eternidade",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/nilou/talent_passive_a4.webp",
+                "description": "Cada 1.000 pontos de HP Máx de Nilou acima de 30.000 aumentarão o DANO causado por Núcleos da Abundância criados por personagens sob o efeito de Bênção do Cálice Dourado em 9%. O DANO máximo que pode ser aumentado para Núcleos da Abundância desta forma é 400%."
+            },
+            {
+                "name": "Lótus de Jade Branca",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/nilou/talent_passive_utility.webp",
+                "description": "Quando um Prato Perfeito é cozinhado, há 12% de chance de obter o dobro do produto."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Esporos de Cogumelo Flutuante",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/fungal_spores.webp"
+        },
+        {
+            "name": "Pólen fluorescente",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/luminescent_pollen.webp"
+        },
+        {
+            "name": "Poeira Cristalina de Cisto",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/crystalline_cyst_dust.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Práxis\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_praxis.webp"
+        },
+        {
+            "name": "Guia da \"Práxis\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_praxis.webp"
+        },
+        {
+            "name": "Filosofia da \"Práxis\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_praxis.webp"
+        },
+        {
+            "name": "Lágrima da Deusa do Desastre",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/tears_of_the_calamitous_god.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Dança da Lua Minguante",
+            "icon_url": "/assets/images/constellations/nilou/constellation_1.webp",
+            "description": "Dança dos Sete Reinos receberá os seguintes aprimoramentos:\n∙ DANO da Lua Aquosa Luminosa aumentado em 65%.\n∙ A duração da Aura da Tranquilidade é estendida em 6s."
+        },
+        {
+            "level": 2,
+            "name": "Chuva de Flores do Céu Estrelado",
+            "icon_url": "/assets/images/constellations/nilou/constellation_2.webp",
+            "description": "Após personagens sob o efeito de Bênção do Cálice Dourado causarem Dano Hydro a oponentes, a RES Hydro desses oponentes será diminuída em 35% por 10s. Após uma reação de Florescimento causar DANO a oponentes, sua RES Dendro será diminuída em 35% por 10s.\nVocê precisa ter desbloqueado o Talento Passivo \"Corte da Dança Enfeitada\"."
+        },
+        {
+            "level": 3,
+            "name": "Passos Sombrios do Bardo",
+            "icon_url": "/assets/images/constellations/nilou/constellation_3.webp",
+            "description": "Aumenta o Nível de Dança de Abzendegi: Nascente Distante dos Sonhos em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Impulso Fútil",
+            "icon_url": "/assets/images/constellations/nilou/constellation_4.webp",
+            "description": "Após o terceiro passo de dança da Pirueta de Dança dos Sete Reinos atingir oponentes, Nilou ganhará 15 de Energia Elemental, e o DANO de sua Dança de Abzendegi: Nascente Distante dos Sonhos aumentará em 50% por 8s."
+        },
+        {
+            "level": 5,
+            "name": "Luz Rodopiante",
+            "icon_url": "/assets/images/constellations/nilou/constellation_5.webp",
+            "description": "Aumenta o Nível de Dança dos Sete Reinos em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Melodia da Centelha Gélida",
+            "icon_url": "/assets/images/constellations/nilou/constellation_6.webp",
+            "description": "Para cada 1.000 pontos de HP Máx, a Taxa CRIT de Nilou aumenta em 0.6% e seu Dano CRIT aumenta em 1.2%.\nA Taxa CRIT máxima que pode ser aumentada desta forma é 30%, e o Dano CRIT máximo é 60%."
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+[
+    {
+        "id": "sayu_mono_pyro_support",
+        "name": "Sayu - Suporte Mono Pyro (VV)",
+        "strategy": "Sayu fornece cura e redução de RES Pyro com Sombra Verde para um time Mono Pyro, geralmente com Lyney ou outro DPS Pyro. Sua mobilidade também ajuda a agrupar inimigos.",
+        "characters_in_team": [
+            {
+                "character_id": "sayu",
+                "role_in_team": "Suporte Anemo (Healer/VV Holder)",
+                "build_key": "sayu_support_healer_vv"
+            },
+            {
+                "character_id": "lyney",
+                "role_in_team": "Main DPS Pyro",
+                "build_key": "lyney_mono_pyro_dps_marechaussee"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro (Off-field)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer/Pyro Battery)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "sayu_taser_driver",
+        "name": "Sayu - Driver Taser (Eletricamente Carregado)",
+        "strategy": "Sayu como driver on-field usando sua Habilidade Elemental para causar Redemoinhos Hydro e Electro continuamente, ativando o dano de personagens Electro e Hydro off-field.",
+        "characters_in_team": [
+            {
+                "character_id": "sayu",
+                "role_in_team": "On-Field Driver Anemo (EM)",
+                "build_key": "sayu_onfield_driver_em_vv"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro (Off-field AoE)",
+                "build_key": "beidou_subdps_emblem_er_focus"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro (Off-field)",
+                "build_key": "xingqiu_off_field_hydro_support_emblem_sacrificial"
+            }
+        ],
+        "notes_team": "Kokomi pode substituir Xingqiu para mais cura e aplicação Hydro. Sucrose pode ser usada no lugar de Sayu se o agrupamento for mais valorizado que a cura de Sayu."
+    },
+    {
+        "id": "sayu_hyperbloom_driver",
+        "name": "Sayu - Driver Superflorescimento",
+        "strategy": "Sayu absorve Hydro com sua Habilidade Elemental para rolar e criar Sementes Dendro com um aplicador Dendro off-field. Um personagem Electro off-field (Kuki ou Raiden EM) ativa o Superflorescimento.",
+        "characters_in_team": [
+            {
+                "character_id": "sayu",
+                "role_in_team": "On-Field Driver Anemo (Hydro Swirl/EM)",
+                "build_key": "sayu_onfield_driver_em_vv"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Dendro Enabler (Off-field)",
+                "build_key": "nahida_off_field_dendro_deepwood_em"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Electro Trigger (Hyperbloom/Healer)",
+                "build_key": "kuki_hyperbloom_full_em_gilded"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Hydro Enabler (Off-field)",
+                "build_key": "xingqiu_off_field_hydro_support_sacrificial"
+            }
+        ],
+        "notes_team": "Raiden Shogun (full EM) pode substituir Kuki Shinobu. Outro Hydro off-field como Yelan ou Kokomi também funciona."
+    },
+    {
+        "id": "sayu_aggravate_driver_support",
+        "name": "Sayu - Driver/Suporte de Agravamento",
+        "strategy": "Sayu pode atuar como driver on-field com sua Habilidade Elemental absorvendo Electro para causar Agravamento, ou como suporte de Supremo para curar e aplicar Sombra Verde em times de Agravamento onde outro personagem é o driver.",
+        "characters_in_team": [
+            {
+                "character_id": "sayu",
+                "role_in_team": "Driver Anemo (Electro Swirl/EM) ou Suporte (Healer/VV)",
+                "build_key": "sayu_onfield_driver_em_vv"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field/Aggravate Enabler)",
+                "build_key": "fischl_aggravate_golden_troupe_stringless"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Dendro Enabler (Off-field/Buffer EM)",
+                "build_key": "nahida_off_field_dendro_deepwood_em"
+            },
+            {
+                "character_id": "lisa",
+                "role_in_team": "Suporte Electro (DEF Shred/TTDS Holder)",
+                "build_key": "lisa_electro_support_noblesse_ttds_er"
+            }
+        ],
+        "notes_team": "Beidou ou Yae Miko podem substituir Lisa ou Fischl. Baizhu ou Kirara podem ser o personagem Dendro se precisar de mais sobrevivência."
+    }
+]

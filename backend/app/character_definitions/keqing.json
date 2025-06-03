@@ -1,0 +1,456 @@
+{
+    "id": "keqing",
+    "name": "Keqing",
+    "title": "Trovão Condutor",
+    "element": "Electro",
+    "rarity": 5,
+    "weapon": "Sword",
+    "model_type": "Medium Female",
+    "role": [
+        "On-Field DPS (Aggravate)",
+        "On-Field DPS (Electro-Charged/Quickswap)"
+    ],
+    "description_bio": "A Yuheng dos Qixing de Liyue. Keqing é alguém que acredita que a humanidade deve determinar seu próprio destino, e ela trabalha incansavelmente para provar que os humanos podem prosperar mesmo sem a orientação dos Arcontes.",
+    "birthday": "20 de Novembro",
+    "constellation_name_official": "Trulla Cementarii",
+    "region": "Liyue",
+    "affiliation": [
+        "Qixing de Liyue"
+    ],
+    "special_dish": {
+        "name": "Peixe Grelhado de Sobrevivência",
+        "icon_url": "/assets/images/dishes/keqing_survival_grilled_fish.webp"
+    },
+    "namecard_url": "/assets/images/namecards/keqing_lightning_stiletto.png",
+    "icon_url": "/assets/images/characters/keqing.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Keqing Guide (Full)",
+                "url": "https://keqingmains.com/keqing/"
+            },
+            {
+                "name": "KQM Keqing Quick Guide",
+                "url": "https://keqingmains.com/q/keqing-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Keqing",
+                "url": "https://genshin-impact.fandom.com/wiki/Keqing"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "keqing_aggravate_dps_thundering_fury",
+            "name": "DPS Agravamento (Trovão Furioso)",
+            "notes_build": "Principal build de Keqing, focada em maximizar seu dano em times de Agravamento com personagens Dendro. 4p Trovão Furioso é seu melhor conjunto para este estilo de jogo, permitindo mais usos da Habilidade Elemental e Ataques Normais/Carregados infundidos em Electro. Nível 90 é importante para dano de Agravamento.",
+            "artifacts": [
+                {
+                    "set_id": "thundering_fury",
+                    "set_name": "Trovão Furioso",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Keqing de Agravamento. A redução de TdR da Habilidade Elemental permite que Keqing mantenha uptime quase total de sua infusão Electro e use sua Habilidade mais vezes.",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Opção forte se tiver bons sub-stats, fornecendo EM e ATQ%. Mais eficiente em Resina para farmar que Trovão Furioso.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "thundersoother",
+                    "set_name": "Lançador de Trovões",
+                    "pieces": 4,
+                    "notes": "Pode superar Trovão Furioso em dano se a aura Electro for mantida 100% do tempo, o que é viável em times de Agravamento com aplicação Dendro consistente.",
+                    "icon_url": "/assets/images/artifact_sets/thundersoother.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / ATK%",
+                "goblet": "Bônus de Dano Electro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental (EM)",
+                "ATK%",
+                "Recarga de Energia (ER%) (requisito baixo, ~110-130%)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Keqing em quase todos os cenários, especialmente Agravamento. Ela pode manter os 3 acúmulos da passiva.",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Fornece alta Taxa CRIT e ATQ. Excelente 'stat stick' muito consistente.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "light_of_foliar_incision",
+                    "name": "Luz das Folhas Cortadas",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Muito forte para Keqing de Agravamento devido ao Dano CRIT e passiva que escala com EM.",
+                    "icon_url": "/assets/images/weapons_detail/light_of_foliar_incision.png"
+                },
+                {
+                    "weapon_id": "lion_s_roar",
+                    "name": "Rugido do Leão",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "R5 é uma das melhores opções 4 estrelas, especialmente em times onde a aura Electro ou Pyro é mantida (Agravamento, Mono Electro, Overvape).",
+                    "icon_url": "/assets/images/weapons_detail/lion's_roar.png"
+                },
+                {
+                    "weapon_id": "iron_sting",
+                    "name": "Espinho de Ferro",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Opção F2P sólida para Keqing de Agravamento devido ao sub-status de EM e passiva de Bônus de DANO%.",
+                    "icon_url": "/assets/images/weapons_detail/iron_sting.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Supremo (Burst) (próximo ao Ataque Normal em Agravamento)",
+                "Habilidade Elemental (Skill) (próximo ao Supremo em Agravamento)"
+            ]
+        },
+        {
+            "key": "keqing_electro_charged_dps_thundering_fury_or_2pc_mix",
+            "name": "DPS Eletricamente Carregado (Trovão Furioso / Misto)",
+            "notes_build": "Keqing como driver on-field em times Taser (Eletricamente Carregado). 4p Trovão Furioso ainda é bom pela redução de TdR. Combinações de 2p ATQ% e 2p Dano Electro são alternativas.",
+            "artifacts": [
+                {
+                    "set_id": "thundering_fury",
+                    "set_name": "Trovão Furioso",
+                    "pieces": 4,
+                    "notes": "A redução de TdR da Habilidade Elemental permite maior uptime da infusão Electro e mais mobilidade.",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png"
+                },
+                {
+                    "set_id": "thundering_fury_atk_2pc_mix",
+                    "set_name": "Trovão Furioso (2p) + ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinação consistente para dano. (Ex: Trovão Furioso + Gladiador/Reminiscência).",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "thundering_fury",
+                        "gladiators_finale"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Electro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Recarga de Energia (ER%) (requisito baixo)",
+                "Proficiência Elemental (EM) (menor prioridade aqui)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor opção para dano pessoal.",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Excelente 'stat stick' de Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "haran_geppaku_futsu",
+                    "name": "Haran Geppaku Futsu",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Fornece Taxa CRIT e Bônus de Dano de Ataque Normal, útil em times Taser onde Keqing fica mais tempo em campo.",
+                    "icon_url": "/assets/images/weapons_detail/haran_geppaku_futsu.png"
+                },
+                {
+                    "weapon_id": "lion_s_roar",
+                    "name": "Rugido do Leão",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "R5 é muito forte devido ao bônus de dano contra inimigos afetados por Electro ou Pyro. Bom uptime em times Taser.",
+                    "icon_url": "/assets/images/weapons_detail/lion's_roar.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 1020,
+            "base_atk": 25,
+            "base_def": 62,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3347,
+            "base_atk": 82,
+            "base_def": 203,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5553,
+            "base_atk": 136,
+            "base_def": 337,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "9.6%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 7143,
+            "base_atk": 175,
+            "base_def": 434,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "19.2%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8532,
+            "base_atk": 209,
+            "base_def": 518,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "19.2%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9914,
+            "base_atk": 243,
+            "base_def": 602,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "28.8%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 13103,
+            "base_atk": 323,
+            "base_def": 799,
+            "bonus_stat_label": "Dano CRIT",
+            "bonus_stat_value": "38.4%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Prisma de Relâmpago",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/lightning_prism.webp"
+        },
+        {
+            "name": "Lasca de Ametista Vajrada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_chunk.webp"
+        },
+        {
+            "name": "Gema de Ametista Vajrada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_gemstone.webp"
+        },
+        {
+            "name": "Cor Lapis",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/cor_lapis.webp"
+        },
+        {
+            "name": "Néctar de Megaflora",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/whopperflower_nectar.webp"
+        },
+        {
+            "name": "Néctar Brilhante",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/shimmering_nectar.webp"
+        },
+        {
+            "name": "Néctar de Energia",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/energy_nectar.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Espada Yunlai",
+            "icon_url": "/assets/images/talents/keqing/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes rápidos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando inimigos ao longo do caminho e causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Retorno Estelar",
+            "icon_url": "/assets/images/talents/keqing/talent_elemental_skill.webp",
+            "description": "Arremessa um Estilete Elétrico que aniquila seus inimigos como um raio veloz.\nQuando o Estilete atinge seu alvo, ele causa Dano Electro aos inimigos em uma pequena AdE, e coloca uma Marca de Estilete em seu local.\nManter Pressionado: Ajusta a direção para onde o Estilete será arremessado. Estiletes arremessados ao Manter Pressionado podem ser suspensos no ar, permitindo que Keqing salte para eles ao usar Retorno Estelar uma segunda vez.\nRecast: Se Keqing usar Retorno Estelar novamente ou usar um Ataque Carregado enquanto a Marca de Estilete estiver presente, ela limpará a Marca e produzirá efeitos diferentes:\n- Se ela usar Retorno Estelar novamente, ela se teleportará para a localização da Marca e desferirá um golpe cortante, causando Dano Electro em AdE. Ao se teleportar para um Estilete que foi lançado ao Manter Pressionado a habilidade, Keqing pode passar através de obstruções de terreno.\n- Se Keqing usar um Ataque Carregado, ela desencadeará uma série de trovões cortantes na localização da Marca, causando Dano Electro em AdE."
+        },
+        "elemental_burst": {
+            "name": "Caminho da Espada Celestial",
+            "icon_url": "/assets/images/talents/keqing/talent_elemental_burst.webp",
+            "description": "Keqing libera o poder do raio, causando Dano Electro em AdE.\nEla então se mistura à sombra de sua lâmina, desferindo uma série de golpes trovejantes em inimigos próximos que causam múltiplos acertos de Dano Electro. O golpe final causa Dano Electro massivo em AdE."
+        },
+        "passives": [
+            {
+                "name": "Penitência Trovejante",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/keqing/talent_passive_a1.webp",
+                "description": "Após relançar Retorno Estelar enquanto uma Marca de Estilete está presente, o Ataque de Keqing é infundido com Electro por 5s."
+            },
+            {
+                "name": "Nobreza Aristocrática",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/keqing/talent_passive_a4.webp",
+                "description": "Quando lança Caminho da Espada Celestial, a Taxa CRIT e Recarga de Energia de Keqing são aumentadas em 15% por 8s."
+            },
+            {
+                "name": "Supervisora da Terra",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/keqing/talent_passive_utility.webp",
+                "description": "Quando despachada em uma Expedição de Liyue, o tempo consumido é reduzido em 25%."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Néctar de Megaflora",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/whopperflower_nectar.webp"
+        },
+        {
+            "name": "Néctar Brilhante",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/shimmering_nectar.webp"
+        },
+        {
+            "name": "Néctar de Energia",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/energy_nectar.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Prosperidade\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_prosperity.webp"
+        },
+        {
+            "name": "Guia da \"Prosperidade\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_prosperity.webp"
+        },
+        {
+            "name": "Filosofia da \"Prosperidade\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_prosperity.webp"
+        },
+        {
+            "name": "Anel de Boreal",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/ring_of_boreas.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Força Trovejante",
+            "icon_url": "/assets/images/constellations/keqing/constellation_1.webp",
+            "description": "Relançar Retorno Estelar enquanto uma Marca de Estilete está presente causa 50% do ATQ de Keqing como Dano Electro em AdE no ponto inicial e final do teleporte."
+        },
+        {
+            "level": 2,
+            "name": "Extração Severa",
+            "icon_url": "/assets/images/constellations/keqing/constellation_2.webp",
+            "description": "Quando os Ataques Normais e Carregados de Keqing atingem oponentes afetados por Electro, eles têm 50% de chance de produzir uma Partícula Elemental. Este efeito pode ocorrer apenas uma vez a cada 5s."
+        },
+        {
+            "level": 3,
+            "name": "Reforma Antecipada",
+            "icon_url": "/assets/images/constellations/keqing/constellation_3.webp",
+            "description": "Aumenta o Nível de Caminho da Espada Celestial em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Sintonia",
+            "icon_url": "/assets/images/constellations/keqing/constellation_4.webp",
+            "description": "Por 10s após Keqing ativar uma Reação Elemental relacionada a Electro, seu ATQ é aumentado em 25%."
+        },
+        {
+            "level": 5,
+            "name": "Estrelas Errantes",
+            "icon_url": "/assets/images/constellations/keqing/constellation_5.webp",
+            "description": "Aumenta o Nível de Retorno Estelar em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Estrela Obstinada",
+            "icon_url": "/assets/images/constellations/keqing/constellation_6.webp",
+            "description": "Ao iniciar um Ataque Normal, Ataque Carregado, Habilidade Elemental ou Supremo Elemental, Keqing ganha um Bônus de Dano Electro de 6% por 8s. Efeitos ativados por Ataques Normais, Ataques Carregados, Habilidades Elementais e Supremos Elementais são considerados entidades separadas. Acúmulos de efeitos de diferentes fontes são contados independentemente."
+        }
+    ]
+}

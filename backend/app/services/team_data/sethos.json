@@ -1,0 +1,84 @@
+[
+    {
+        "id": "sethos_quicken_aggravate_fischl_nahida_zhongli",
+        "name": "Sethos - Agravamento (Fischl, Nahida, Zhongli)",
+        "strategy": "Sethos como DPS principal Electro, causando dano com seus Ataques Carregados ou Normais (pós-Supremo) amplificados pela reação de Agravamento. Fischl fornece dano Electro off-field e partículas. Nahida aplica Dendro e buffa Proficiência Elemental. Zhongli oferece escudo e redução de RES.",
+        "characters_in_team": [
+            {
+                "character_id": "sethos",
+                "role_in_team": "Main DPS Electro (Aggravate)",
+                "build_key": "sethos_charged_shot_dps"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field/Bateria)",
+                "build_key": "fischl_aggravate_golden_troupe_stringless"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Dendro Enabler (Off-field/Buffer EM)",
+                "build_key": "nahida_off_field_dendro_deepwood_em"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred)",
+                "build_key": "zhongli_shield_support_tenacity"
+            }
+        ],
+        "notes_team": "Kazuha ou Sucrose podem substituir Zhongli para mais buff de Dano Elemental e controle de grupo, mas o time perde o escudo. Baizhu ou Kirara podem substituir Nahida para mais sobrevivência com cura/escudo e aplicação Dendro."
+    },
+    {
+        "id": "sethos_quicken_fischl_kirara_sucrose",
+        "name": "Sethos - Agravamento F2P (Fischl, Kirara, Sucrose)",
+        "strategy": "Uma variação mais acessível do time de Agravamento. Fischl para dano Electro off-field. Kirara fornece escudo e aplicação Dendro. Sucrose com Sombra Verde reduz RES Electro e agrupa inimigos, podendo também usar Histórias Extraordinárias de Caçadores de Dragões.",
+        "characters_in_team": [
+            {
+                "character_id": "sethos",
+                "role_in_team": "Main DPS Electro (Aggravate)",
+                "build_key": "sethos_charged_shot_dps"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field/Bateria)",
+                "build_key": "fischl_aggravate_golden_troupe_stringless"
+            },
+            {
+                "character_id": "kirara",
+                "role_in_team": "Suporte Dendro (Escudeira/Aplicadora Dendro)",
+                "build_key": "kirara_dendro_shield_support_noblesse_favonius"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (VV Shred/Buffer EM/TTDS Holder)",
+                "build_key": "sucrose_anemo_support_vv_sacrificial_ttds"
+            }
+        ]
+    },
+    {
+        "id": "sethos_quickswap_tighnari_fischl_baizhu",
+        "name": "Sethos - Troca Rápida (Tighnari, Fischl, Baizhu)",
+        "strategy": "Time de troca rápida focado em Agravamento, com Sethos e Tighnari alternando como DPS de Ataque Carregado. Fischl fornece dano off-field e partículas. Baizhu oferece cura, escudo leve e aplicação Dendro.",
+        "characters_in_team": [
+            {
+                "character_id": "sethos",
+                "role_in_team": "Burst DPS Electro (Charged Shot)",
+                "build_key": "sethos_charged_shot_dps"
+            },
+            {
+                "character_id": "tighnari",
+                "role_in_team": "Burst DPS Dendro (Charged Shot)",
+                "build_key": "tighnari_dendro_dps_wanderers_hunters"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field)",
+                "build_key": "fischl_aggravate_golden_troupe_stringless"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Suporte Dendro (Healer/Buffer/Deepwood Holder)",
+                "build_key": "baizhu_dendro_healer_deepwood_hp_protoamber"
+            }
+        ]
+    }
+]

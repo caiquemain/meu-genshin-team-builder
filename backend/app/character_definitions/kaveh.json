@@ -1,0 +1,379 @@
+{
+    "id": "kaveh",
+    "name": "Kaveh",
+    "title": "Refletor Empíreo",
+    "element": "Dendro",
+    "rarity": 4,
+    "weapon": "Claymore",
+    "model_type": "Tall Male",
+    "role": [
+        "On-Field Driver (Bloom Teams)",
+        "Dendro Enabler"
+    ],
+    "description_bio": "Um arquiteto renomado de Sumeru, Kaveh é conhecido como a Luz de Kshahrewar. Apesar de sua fama, ele é frequentemente atormentado por dívidas devido à sua generosidade e ideais artísticos. Ele mora com Alhaitham, com quem tem uma relação complicada.",
+    "birthday": "9 de Julho",
+    "constellation_name_official": "Paradisaea",
+    "region": "Sumeru",
+    "affiliation": [
+        "Estúdio Independente de Design",
+        "Academia de Sumeru (Kshahrewar)"
+    ],
+    "special_dish": {
+        "name": "A Determinação",
+        "icon_url": "/assets/images/dishes/kaveh_the_surveyors'_expertise.webp"
+    },
+    "namecard_url": "/assets/images/namecards/kaveh_dome_of_heavens.png",
+    "icon_url": "/assets/images/characters/kaveh.png",
+    "element_icon_url": "/assets/images/elements/element_dendro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Kaveh Guide (Full)",
+                "url": "https://keqingmains.com/kaveh/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Kaveh",
+                "url": "https://genshin-impact.fandom.com/wiki/Kaveh"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "kaveh_bloom_driver_deepwood_em_er",
+            "name": "Driver de Florescimento (Memórias da Floresta - EM/RE)",
+            "notes_build": "Foco em Kaveh como driver on-field para times de Florescimento, detonando Sementes Dendro com sua Habilidade e se curando. Prioriza Proficiência Elemental para dano de Florescimento e Recarga de Energia para manter o Supremo ativo. Nível 90 é altamente recomendado.",
+            "artifacts": [
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto se nenhum outro colega de equipe puder usá-lo. Fornece Redução de RES Dendro, aumentando o dano de Florescimento.",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                },
+                {
+                    "set_id": "flower_of_paradise_lost",
+                    "set_name": "Flor do Paraíso Perdido",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para o dano pessoal de Florescimento de Kaveh se outro personagem já estiver usando 4p Memórias da Floresta.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Conjunto de EM geral que funciona bem se outro personagem estiver com Memórias da Floresta. Mais eficiente em Resina para farmar que Flor do Paraíso Perdido.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "ocean_hued_clam",
+                    "set_name": "Concha Tingida Pelo Mar",
+                    "pieces": 4,
+                    "notes": "Opção confortável que fornece algum dano adicional através da cura de Kaveh. A cura deve ser consistente para maximizar o dano da bolha.",
+                    "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia (ER%) / Proficiência Elemental (EM)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM) / Bônus de Cura (para Concha Tingida)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~180-220%+ dependendo do time e armas)",
+                "Proficiência Elemental (EM)",
+                "HP% (para sobrevivência)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "mailed_flower",
+                    "name": "Flor Empilhada",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Evento",
+                    "notes": "R5 é uma das melhores opções de Kaveh, fornecendo EM e ATQ%.",
+                    "icon_url": "/assets/images/weapons_detail/mailed_flower.png"
+                },
+                {
+                    "weapon_id": "favonius_greatsword",
+                    "name": "Espadão de Favonius",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Ajuda com os altos requisitos de RE de Kaveh e da equipe. Requer alguma Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_greatsword.png"
+                },
+                {
+                    "weapon_id": "sacrificial_greatsword",
+                    "name": "Espadão do Sacrifício",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Com refinos altos, um uso extra da Habilidade pode reduzir os requisitos de RE e aumentar a frequência de detonação de sementes.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_greatsword.png"
+                },
+                {
+                    "weapon_id": "makhaira_aquamarine",
+                    "name": "Makhaira Aquamarine",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Boa opção de EM que também fornece um buff de ATQ para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/makhaira_aquamarine.png"
+                },
+                {
+                    "weapon_id": "rainslasher",
+                    "name": "Segadeira da Chuva",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "'Stat stick' de EM. A passiva aumenta o dano contra inimigos afetados por Hydro, útil em times de Florescimento.",
+                    "icon_url": "/assets/images/weapons_detail/rainslasher.png"
+                }
+            ],
+            "talent_priority": [
+                "Nível do Personagem para 90",
+                "Supremo (Burst) (para buffs de Florescimento e infusão)",
+                "Habilidade Elemental (Skill) (para detonação de sementes)",
+                "Ataque Normal (se usado como driver principal)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 981,
+            "base_atk": 20,
+            "base_def": 62,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "0"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3209,
+            "base_atk": 64,
+            "base_def": 204,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "0"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5322,
+            "base_atk": 106,
+            "base_def": 338,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "24"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6828,
+            "base_atk": 136,
+            "base_def": 433,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "48"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8089,
+            "base_atk": 161,
+            "base_def": 513,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "48"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9343,
+            "base_atk": 186,
+            "base_def": 593,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "72"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 11384,
+            "base_atk": 234,
+            "base_def": 751,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "96"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Pseudo-estames (Quelled Creeper)",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/quelled_creeper.webp"
+        },
+        {
+            "name": "Lasca de Esmeralda Nagadus",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/nagadus_emerald_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Esmeralda Nagadus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/nagadus_emerald_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Esmeralda Nagadus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/nagadus_emerald_chunk.webp"
+        },
+        {
+            "name": "Gema de Esmeralda Nagadus",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/nagadus_emerald_gemstone.webp"
+        },
+        {
+            "name": "Flor Quilan Kamalatmika (Mourning Flower)",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/mourning_flower.webp"
+        },
+        {
+            "name": "Esporos de Cogumelo Flutuante",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/fungal_spores.webp"
+        },
+        {
+            "name": "Pólen fluorescente",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/luminescent_pollen.webp"
+        },
+        {
+            "name": "Poeira Cristalina de Cisto",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/crystalline_cyst_dust.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Inversão Esquemática",
+            "icon_url": "/assets/images/talents/kaveh/talent_normal_attack.webp",
+            "description": "Ataque Normal: Usa Mehrak para realizar até 4 ataques consecutivos.\nAtaque Carregado: Consome Stamina ao longo do tempo para realizar ataques contínuos. No final da sequência, realiza um golpe ainda mais poderoso.\nAtaque Imersivo: Mergulha em direção ao chão do ar, danificando todos os oponentes em seu caminho. Causa Dano Dendro em AdE no impacto com o chão."
+        },
+        "elemental_skill": {
+            "name": "Engenhosidade Artística",
+            "icon_url": "/assets/images/talents/kaveh/talent_elemental_skill.webp",
+            "description": "Usa o poder de mapeamento de Mehrak para atacar, causando Dano Dendro em AdE. Irá escanear todos os Núcleos Dendro dentro dessa AdE e fará com que eles explodam imediatamente.\nSe esta habilidade fizer com que Núcleos Dendro ativados por personagens da sua própria equipe (incluindo Kaveh) explodam, o DANO dessas explosões será aumentado com base na Proficiência Elemental de Kaveh."
+        },
+        "elemental_burst": {
+            "name": "Cúpula Pintada",
+            "icon_url": "/assets/images/talents/kaveh/talent_elemental_burst.webp",
+            "description": "Libera completamente o poder de Mehrak e cria um espaço cúbico de mapeamento, causando Dano Dendro em AdE a todos os oponentes dentro dele, fazendo com que todos os Núcleos Dendro dentro de sua AdE explodam imediatamente, e concedendo a Kaveh os seguintes efeitos por uma certa duração:\n- Aumenta a AdE do Ataque Normal, Carregado e Imersivo de Kaveh, e converte seu DANO de Ataque em Dano Dendro que não pode ser substituído.\n- O DANO de explosão dos Núcleos Dendro criados por seus próprios membros da equipe através de reações de Florescimento é aumentado.\n- A resistência à interrupção de Kaveh é aumentada.\nEstes efeitos serão cancelados assim que Kaveh sair do campo."
+        },
+        "passives": [
+            {
+                "name": "Responsabilidade do Empreiteiro",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/kaveh/talent_passive_a1.webp",
+                "description": "Quando o DANO de Núcleos Dendro (incluindo Germinação e Hiperflorecimento) atinge Kaveh, Kaveh recuperará HP igual a 300% de sua Proficiência Elemental. Este efeito pode ser ativado uma vez a cada 0.5s."
+            },
+            {
+                "name": "Um Olhar para as Artes do Idealismo",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/kaveh/talent_passive_a4.webp",
+                "description": "Durante Cúpula Pintada, os Ataques Normais, Carregados e Imersivos de Kaveh que atingem oponentes aumentarão sua Proficiência Elemental em 25 por 3s. Este efeito pode ser ativado uma vez a cada 0.1s. Máx. 4 acúmulos. Este efeito será cancelado quando os efeitos de Cúpula Pintada expirarem."
+            },
+            {
+                "name": "O Dote de um Criador",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/kaveh/talent_passive_utility.webp",
+                "description": "Ao criar Decorações de Construção, Paisagem e Ornamento, ele tem 100% de chance de reembolsar uma porção dos materiais usados."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Esporos de Cogumelo Flutuante",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/fungal_spores.webp"
+        },
+        {
+            "name": "Pólen fluorescente",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/luminescent_pollen.webp"
+        },
+        {
+            "name": "Poeira Cristalina de Cisto",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/crystalline_cyst_dust.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Engenosidade\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_ingenuity.webp"
+        },
+        {
+            "name": "Guia da \"Engenosidade\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_ingenuity.webp"
+        },
+        {
+            "name": "Filosofia da \"Engenosidade\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_ingenuity.webp"
+        },
+        {
+            "name": "Flor Primitiva do Oásis (Primordial Greenbloom)",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/primordial_greenbloom.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Portal Sublime",
+            "icon_url": "/assets/images/constellations/kaveh/constellation_1.webp",
+            "description": "Dentro de 3s após Kaveh usar Engenhosidade Artística, sua RES Dendro e RES a Interrupção aumentarão em 50% e 100% respectivamente."
+        },
+        {
+            "level": 2,
+            "name": "Estrada Graciosa",
+            "icon_url": "/assets/images/constellations/kaveh/constellation_2.webp",
+            "description": "A Vel. de ATQ Normal de Kaveh aumenta em 15% durante Cúpula Pintada."
+        },
+        {
+            "level": 3,
+            "name": "Oferenda do Deus Prostrado",
+            "icon_url": "/assets/images/constellations/kaveh/constellation_3.webp",
+            "description": "Aumenta o Nível de Cúpula Pintada em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Festa do Banquete",
+            "icon_url": "/assets/images/constellations/kaveh/constellation_4.webp",
+            "description": "O DANO de explosão de Núcleos Dendro criado por Kaveh de reações de Florescimento aumenta em 60%."
+        },
+        {
+            "level": 5,
+            "name": "Escrituras Celestes",
+            "icon_url": "/assets/images/constellations/kaveh/constellation_5.webp",
+            "description": "Aumenta o Nível de Engenhosidade Artística em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Idealismo do Paraíso",
+            "icon_url": "/assets/images/constellations/kaveh/constellation_6.webp",
+            "description": "Quando os Ataques Normais, Carregados ou Imersivos de Kaveh atingem oponentes durante Cúpula Pintada, eles liberarão um Resplendor Pairava em sua localização, causando 61.8% do ATQ de Kaveh como Dano Dendro em AdE e fazendo com que todos os Núcleos Dendro dentro dessa AdE explodam. Este efeito pode ser ativado uma vez a cada 3s."
+        }
+    ]
+}

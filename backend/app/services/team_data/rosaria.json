@@ -1,0 +1,113 @@
+[
+    {
+        "id": "rosaria_reverse_melt_xiangling_bennett",
+        "name": "Rosaria - Fusão Reversa (Xiangling + Bennett)",
+        "strategy": "Rosaria causa dano Cryo significativo através da Fusão Reversa de seu Supremo e Habilidade Elemental, habilitada pela aplicação Pyro de Xiangling, buffada por Bennett. Um quarto membro flexível (Cryo, Anemo ou Geo) completa o time.",
+        "characters_in_team": [
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo (Melt)",
+                "build_key": "rosaria_reverse_melt_dps"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro (Off-field Enabler)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer/Pyro Battery)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kaeya",
+                "role_in_team": "Suporte Cryo (Bateria/Sub-DPS)",
+                "build_key": "kaeya_cryo_sub_dps_blizzard_noblesse"
+            }
+        ],
+        "notes_team": "Outras opções flex: Kazuha (VV/Buff), Sucrose (VV/EM Share), Zhongli (Escudo/RES Shred), Shenhe (Buff Cryo)."
+    },
+    {
+        "id": "rosaria_freeze_ayaka_kokomi_kazuha",
+        "name": "Rosaria - Congelamento (Ayaka, Kokomi, Kazuha)",
+        "strategy": "Rosaria atua como Sub-DPS e bateria Cryo para Ayaka, além de compartilhar Taxa CRIT. Kokomi aplica Hydro e cura. Kazuha agrupa inimigos e reduz RES Cryo com Sombra Verde.",
+        "characters_in_team": [
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo / Suporte CRIT",
+                "build_key": "rosaria_freeze_sub_dps_support"
+            },
+            {
+                "character_id": "kamisato_ayaka",
+                "role_in_team": "Main DPS Cryo",
+                "build_key": "ayaka_freeze_dps_blizzard_mistsplitter"
+            },
+            {
+                "character_id": "sangonomiya_kokomi",
+                "role_in_team": "Suporte Hydro (Aplicadora Hydro/Healer/TTDS)",
+                "build_key": "kokomi_hydro_support_tenacity_ttds"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ],
+        "notes_team": "Outras opções Hydro: Mona (Omen/TTDS). Outras opções Anemo: Venti (Agrupamento/Bateria). Ganyu pode ser Main DPS Cryo."
+    },
+    {
+        "id": "rosaria_support_eula_raiden_zhongli",
+        "name": "Rosaria - Suporte para Eula (Raiden, Zhongli)",
+        "strategy": "Rosaria fornece partículas Cryo para Eula, compartilha Taxa CRIT e, com C6, reduz RES Física. Raiden aplica Supercondutor e recarrega Energia. Zhongli oferece escudo e redução de RES.",
+        "characters_in_team": [
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Suporte Cryo (Bateria/CRIT Share/Phys RES Shred C6)",
+                "build_key": "rosaria_general_support"
+            },
+            {
+                "character_id": "eula",
+                "role_in_team": "Main DPS Físico",
+                "build_key": "eula_physical_hypercarry_pines_pale_flame"
+            },
+            {
+                "character_id": "raiden_shogun",
+                "role_in_team": "Sub-DPS Electro (Superconduct/Bateria)",
+                "build_key": "raiden_burst_dps"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred)",
+                "build_key": "zhongli_shield_support_tenacity"
+            }
+        ],
+        "notes_team": "Diona ou Layla podem substituir Zhongli para mais ressonância Cryo e cura/escudo, mas perdem o RES Shred universal."
+    },
+    {
+        "id": "rosaria_support_razor_fischl_zhongli",
+        "name": "Rosaria - Suporte para Razor (Fischl, Zhongli)",
+        "strategy": "Rosaria aplica Cryo para Supercondutor, buffa Taxa CRIT e com C6 reduz RES Física para Razor. Fischl é bateria Electro e causa dano off-field. Zhongli fornece escudo e RES Shred.",
+        "characters_in_team": [
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Suporte Cryo (Superconduct/CRIT Share/Phys RES Shred C6)",
+                "build_key": "rosaria_general_support"
+            },
+            {
+                "character_id": "razor",
+                "role_in_team": "Main DPS Físico",
+                "build_key": "razor_physical_dps_pale_flame"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field/Bateria)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred)",
+                "build_key": "zhongli_shield_support_tenacity"
+            }
+        ]
+    }
+]

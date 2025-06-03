@@ -1,17 +1,16 @@
 {
     "id": "albedo",
     "name": "Albedo",
-    "title": "Kreideprinz",
+    "title": "Príncipe do Giz",
     "element": "Geo",
     "rarity": 5,
     "weapon": "Sword",
     "model_type": "Medium Male",
     "role": [
-        "Sub-DPS",
-        "Support",
-        "Battery"
+        "Off-Field Geo DPS",
+        "Suporte (Buffer de EM, Bateria Geo)"
     ],
-    "description_bio": "Um humano sintético criado pela alquimista Rhinedottir, o misterioso Albedo é o Alquimista Chefe e Capitão da Equipe de Investigação dos Cavaleiros de Favonius. ",
+    "description_bio": "Um humano sintético criado pela alquimista Rhinedottir, o misterioso Albedo é o Alquimista Chefe e Capitão da Equipe de Investigação dos Cavaleiros de Favonius.",
     "birthday": "13 de Setembro",
     "constellation_name_official": "Princeps Cretaceus",
     "region": "Mondstadt",
@@ -20,204 +19,108 @@
     ],
     "special_dish": {
         "name": "Sonho da Floresta",
-        "icon_url": "/assets/images/dishes/woodland_dream.webp"
+        "icon_url": "/assets/images/dishes/albedo_woodland_dream.webp"
     },
-    "namecard_url": "/assets/images/namecards/albedo_sun_blossom.webp",
+    "namecard_url": "/assets/images/namecards/albedo_sun_blossom.png",
     "icon_url": "/assets/images/characters/albedo.png",
     "element_icon_url": "/assets/images/elements/element_geo.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Albedo Guide (Full)",
+                "url": "https://keqingmains.com/albedo/"
+            },
+            {
+                "name": "KQM Albedo Quick Guide",
+                "url": "https://keqingmains.com/q/albedo-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Albedo",
+                "url": "https://genshin-impact.fandom.com/wiki/Albedo"
+            }
+        ]
+    },
     "build_options": [
         {
-            "key": "off_field_geo_dps_main",
-            "name": "Sub-DPS Geo Off-field (Foco em DEF e Dano da Skill)",
-            "notes_build": "Esta build maximiza o dano da Habilidade Elemental de Albedo, que é sua principal fonte de dano. ER pode ser ignorado se o Supremo não for usado regularmente, conforme guia KQM.",
+            "key": "albedo_offfield_geo_dps_husk_cinnabar",
+            "name": "DPS Geo Off-field (Casca - Haste de Cinábrio)",
+            "notes_build": "Foco principal no dano off-field da Flor Transiente de sua Habilidade Elemental, que escala com DEF. 4p Casca de Sonhos Opulentos e Haste de Cinábrio são suas melhores opções para maximizar esse dano. Seu Supremo também fornece um buff de EM para a equipe.",
             "artifacts": [
                 {
                     "set_id": "husk_of_opulent_dreams",
                     "set_name": "Casca de Sonhos Opulentos",
                     "pieces": 4,
-                    "notes": "Melhor conjunto para dano pessoal, snapshotando o efeito de 4 peças.",
+                    "notes": "Melhor conjunto de artefatos para Albedo, fornecendo DEF% e Bônus de Dano Geo. Ele mantém facilmente os acúmulos off-field.",
                     "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png"
                 },
                 {
                     "set_id": "golden_troupe",
                     "set_name": "Trupe Dourada",
                     "pieces": 4,
-                    "notes": "Comparável ao Casca de Sonhos com Haste de Cinábrio, excelente para o dano da Skill.",
+                    "notes": "Conjunto forte que buffa o Dano da Habilidade Elemental. Competitivo com Casca de Sonhos Opulentos, especialmente se já tiver um bom conjunto farmado.",
                     "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
                 },
                 {
-                    "set_id": "husk_archaic_petra_2pc_mix",
-                    "set_name": "2p Casca de Sonhos Opulentos + 2p Pedra Arcaica",
-                    "pieces": "2+2",
-                    "notes": "Alternativa viável se não tiver 4p Casca bons.",
-                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png",
-                    "pieces_display": "2+2",
-                    "is_combo": true,
-                    "combo_set_ids": [
-                        "husk_of_opulent_dreams",
-                        "archaic_petra"
-                    ]
+                    "set_id": "archaic_petra",
+                    "set_name": "Pedra Arcaica",
+                    "pieces": 4,
+                    "notes": "Pode ser usado para buffar o dano elemental de um colega de equipe se Albedo consistentemente pegar o Fragmento Elemental correspondente. Mais situacional.",
+                    "icon_url": "/assets/images/artifact_sets/archaic_petra.png"
                 }
             ],
             "main_stats": {
                 "sands": "DEF%",
                 "goblet": "Bônus de Dano Geo",
-                "circlet": "Taxa CRIT / Dano CRIT"
+                "circlet": "Taxa CRIT / Dano CRIT / DEF% (com Haste de Cinábrio e bons sub-stats de CRIT)"
             },
             "sub_stats_priority": [
                 "Taxa CRIT / Dano CRIT",
                 "DEF%",
-                "Recarga de Energia (se for usar o Supremo com frequência)",
-                "ATK% (beneficia o Supremo)"
+                "ATK% (menor prioridade, afeta apenas o dano inicial da Habilidade/Supremo)",
+                "Recarga de Energia (ER%) (baixa prioridade, Supremo não é foco principal)"
             ],
             "weapons": [
                 {
                     "weapon_id": "cinnabar_spindle",
-                    "name": "Haste de Cinábrio R5",
+                    "name": "Haste de Cinábrio",
                     "rarity": 4,
                     "type": "Sword",
-                    "category": "Evento F2P (Não mais obtenível)",
-                    "notes": "Sua melhor arma, se disponível do evento.",
+                    "category": "Evento",
+                    "notes": "Melhor arma para Albedo, feita sob medida para seu kit, fornecendo DEF% e aumentando o Dano da Habilidade Elemental com base na DEF. Arma de evento exclusiva.",
                     "icon_url": "/assets/images/weapons_detail/cinnabar_spindle.png"
                 },
                 {
                     "weapon_id": "harbinger_of_dawn",
-                    "name": "Prenúncio do Alvorecer R5",
+                    "name": "Prenúncio do Alvorecer",
                     "rarity": 3,
                     "type": "Sword",
-                    "category": "F2P (Obtido em Orações)",
-                    "notes": "Melhor opção F2P se não tiver Haste de Cinábrio, requer >90% HP.",
+                    "category": "Gacha / Baús",
+                    "notes": "R5 é sua melhor opção F2P se não tiver Haste de Cinábrio. Fornece Dano CRIT e Taxa CRIT quando o HP está acima de 90%, o que é fácil para Albedo manter off-field.",
                     "icon_url": "/assets/images/weapons_detail/harbinger_of_dawn.png"
                 },
                 {
-                    "weapon_id": "wolf_fang",
-                    "name": "Presa do Lobo R5",
-                    "rarity": 4,
-                    "type": "Sword",
-                    "category": "Passe de Batalha",
-                    "notes": "Levemente superior ao Prenúncio do Alvorecer R5, mas com custo.",
-                    "icon_url": "/assets/images/weapons_detail/wolf_fang.png"
-                },
-                {
                     "weapon_id": "primordial_jade_cutter",
-                    "name": "Cortador de Jade Primordial R1",
+                    "name": "Cortador de Jade Primordial",
                     "rarity": 5,
                     "type": "Sword",
                     "category": "Gacha",
-                    "notes": "Melhor opção 5 estrelas se usar o Supremo, ótimo stat stick de Taxa CRIT.",
+                    "notes": "Fornece alta Taxa CRIT e HP% que é convertido em ATQ. Forte 'stat stick', embora a passiva de ATQ não beneficie tanto o dano da Flor Transiente quanto DEF.",
                     "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
                 },
                 {
-                    "weapon_id": "favonius_sword",
-                    "name": "Espada de Favonius ",
-                    "rarity": 4,
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
                     "type": "Sword",
-                    "category": "Gacha",
-                    "notes": "Transforma Albedo mais em uma bateria para o time, sacrificando dano pessoal.",
-                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                    "category": "Gacha (Limitado)",
+                    "notes": "Outro 'stat stick' 5 estrelas forte com Dano CRIT. Albedo geralmente consegue apenas 1 acúmulo da passiva de Bônus de Dano Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
                 }
             ],
             "talent_priority": [
                 "Habilidade Elemental (Skill)",
-                "Supremo (Burst)",
-                "Ataque Normal (geralmente não upado)"
-            ]
-        },
-        {
-            "key": "albedo_off_field_geo_dps_main",
-            "name": "Sub-DPS Geo Off-field (Foco em DEF e Dano da Skill)",
-            "notes_build": "Esta build maximiza o dano da Habilidade Elemental de Albedo, que é sua principal fonte de dano. ER pode ser ignorado se o Supremo não for usado regularmente, conforme guia KQM.",
-            "artifacts": [
-                {
-                    "set_id": "husk_of_opulent_dreams",
-                    "set_name": "Casca de Sonhos Opulentos",
-                    "pieces": 4,
-                    "notes": "Melhor conjunto para dano pessoal, snapshotando o efeito de 4 peças.",
-                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png"
-                },
-                {
-                    "set_id": "golden_troupe",
-                    "set_name": "Trupe Dourada",
-                    "pieces": 4,
-                    "notes": "Comparável ao Casca de Sonhos com Haste de Cinábrio, excelente para o dano da Skill.",
-                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
-                },
-                {
-                    "set_id": "husk_archaic_petra_2pc_mix",
-                    "set_name": "2p Casca de Sonhos Opulentos + 2p Pedra Arcaica",
-                    "pieces": "2+2",
-                    "notes": "Alternativa viável se não tiver 4p Casca bons.",
-                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png",
-                    "pieces_display": "2+2",
-                    "is_combo": true,
-                    "combo_set_ids": [
-                        "husk_of_opulent_dreams",
-                        "archaic_petra"
-                    ]
-                }
-            ],
-            "main_stats": {
-                "sands": "DEF%",
-                "goblet": "Bônus de Dano Geo",
-                "circlet": "Taxa CRIT / Dano CRIT"
-            },
-            "sub_stats_priority": [
-                "Taxa CRIT / Dano CRIT",
-                "DEF%",
-                "Recarga de Energia (se for usar o Supremo com frequência)",
-                "ATK% (beneficia o Supremo)"
-            ],
-            "weapons": [
-                {
-                    "weapon_id": "cinnabar_spindle",
-                    "name": "Haste de Cinábrio R5",
-                    "rarity": 4,
-                    "type": "Sword",
-                    "category": "Evento F2P (Não mais obtenível)",
-                    "notes": "Sua melhor arma, se disponível do evento.",
-                    "icon_url": "/assets/images/weapons_detail/cinnabar_spindle.png"
-                },
-                {
-                    "weapon_id": "harbinger_of_dawn",
-                    "name": "Prenúncio do Alvorecer R5",
-                    "rarity": 3,
-                    "type": "Sword",
-                    "category": "F2P (Obtido em Orações)",
-                    "notes": "Melhor opção F2P se não tiver Haste de Cinábrio, requer >90% HP.",
-                    "icon_url": "/assets/images/weapons_detail/harbinger_of_dawn.png"
-                },
-                {
-                    "weapon_id": "wolf_fang",
-                    "name": "Presa do Lobo R5",
-                    "rarity": 4,
-                    "type": "Sword",
-                    "category": "Passe de Batalha",
-                    "notes": "Levemente superior ao Prenúncio do Alvorecer R5, mas com custo.",
-                    "icon_url": "/assets/images/weapons_detail/wolf_fang.png"
-                },
-                {
-                    "weapon_id": "primordial_jade_cutter",
-                    "name": "Cortador de Jade Primordial R1",
-                    "rarity": 5,
-                    "type": "Sword",
-                    "category": "Gacha",
-                    "notes": "Melhor opção 5 estrelas se usar o Supremo, ótimo stat stick de Taxa CRIT.",
-                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
-                },
-                {
-                    "weapon_id": "favonius_sword",
-                    "name": "Espada de Favonius ",
-                    "rarity": 4,
-                    "type": "Sword",
-                    "category": "Gacha",
-                    "notes": "Transforma Albedo mais em uma bateria para o time, sacrificando dano pessoal.",
-                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
-                }
-            ],
-            "talent_priority": [
-                "Habilidade Elemental (Skill)",
-                "Supremo (Burst)",
-                "Ataque Normal (geralmente não upado)"
+                "Supremo (Burst) (para buff de EM e dano adicional, se desejado)",
+                "Ataque Normal (não precisa upar)"
             ]
         }
     ],
@@ -225,54 +128,54 @@
         {
             "ascension_phase": 0,
             "level_max": 20,
-            "base_hp": 2671,
-            "base_atk": 51,
-            "base_def": 177,
+            "base_hp": 1030,
+            "base_atk": 20,
+            "base_def": 68,
             "bonus_stat_label": "Bônus de Dano Geo",
             "bonus_stat_value": "0.0%"
         },
         {
             "ascension_phase": 1,
             "level_max": 40,
-            "base_hp": 5317,
-            "base_atk": 101,
-            "base_def": 352,
+            "base_hp": 3371,
+            "base_atk": 64,
+            "base_def": 223,
             "bonus_stat_label": "Bônus de Dano Geo",
             "bonus_stat_value": "0.0%"
         },
         {
             "ascension_phase": 2,
             "level_max": 50,
-            "base_hp": 6839,
-            "base_atk": 130,
-            "base_def": 453,
+            "base_hp": 5594,
+            "base_atk": 106,
+            "base_def": 369,
             "bonus_stat_label": "Bônus de Dano Geo",
             "bonus_stat_value": "7.2%"
         },
         {
             "ascension_phase": 3,
             "level_max": 60,
-            "base_hp": 8579,
-            "base_atk": 163,
-            "base_def": 568,
+            "base_hp": 7179,
+            "base_atk": 136,
+            "base_def": 474,
             "bonus_stat_label": "Bônus de Dano Geo",
             "bonus_stat_value": "14.4%"
         },
         {
             "ascension_phase": 4,
             "level_max": 70,
-            "base_hp": 10119,
-            "base_atk": 192,
-            "base_def": 670,
+            "base_hp": 8529,
+            "base_atk": 162,
+            "base_def": 563,
             "bonus_stat_label": "Bônus de Dano Geo",
             "bonus_stat_value": "14.4%"
         },
         {
             "ascension_phase": 5,
             "level_max": 80,
-            "base_hp": 11669,
-            "base_atk": 222,
-            "base_def": 773,
+            "base_hp": 9873,
+            "base_atk": 187,
+            "base_def": 648,
             "bonus_stat_label": "Bônus de Dano Geo",
             "bonus_stat_value": "21.6%"
         },
@@ -290,88 +193,88 @@
         {
             "name": "Mora",
             "quantity": 420000,
-            "icon_url": "/assets/images/materials/mora.png"
+            "icon_url": "/assets/images/materials/mora.webp"
         },
         {
             "name": "Pilar de Basalto",
             "quantity": 46,
-            "icon_url": "/assets/images/materials/basalt_pillar.png"
+            "icon_url": "/assets/images/materials/basalt_pillar.webp"
         },
         {
             "name": "Lasca de Topázio Prithiva",
             "quantity": 1,
-            "icon_url": "/assets/images/materials/prithiva_topaz_sliver.png"
+            "icon_url": "/assets/images/materials/prithiva_topaz_sliver.webp"
         },
         {
             "name": "Fragmento de Topázio Prithiva",
             "quantity": 9,
-            "icon_url": "/assets/images/materials/prithiva_topaz_fragment.png"
+            "icon_url": "/assets/images/materials/prithiva_topaz_fragment.webp"
         },
         {
             "name": "Pedaço de Topázio Prithiva",
             "quantity": 9,
-            "icon_url": "/assets/images/materials/prithiva_topaz_chunk.png"
+            "icon_url": "/assets/images/materials/prithiva_topaz_chunk.webp"
         },
         {
             "name": "Gema de Topázio Prithiva",
             "quantity": 6,
-            "icon_url": "/assets/images/materials/prithiva_topaz_gemstone.png"
+            "icon_url": "/assets/images/materials/prithiva_topaz_gemstone.webp"
         },
         {
             "name": "Cecília",
             "quantity": 168,
-            "icon_url": "/assets/images/materials/cecilia.png"
+            "icon_url": "/assets/images/materials/cecilia.webp"
         },
         {
             "name": "Pergaminho Guia",
             "quantity": 18,
-            "icon_url": "/assets/images/materials/divining_scroll.png"
+            "icon_url": "/assets/images/materials/divining_scroll.webp"
         },
         {
             "name": "Pergaminho Selado",
             "quantity": 30,
-            "icon_url": "/assets/images/materials/sealed_scroll.png"
+            "icon_url": "/assets/images/materials/sealed_scroll.webp"
         },
         {
-            "name": "Pergaminho da Maldição",
+            "name": "Pergaminho Proibido",
             "quantity": 36,
-            "icon_url": "/assets/images/materials/forbidden_curse_scroll.png"
+            "icon_url": "/assets/images/materials/forbidden_curse_scroll.webp"
         }
     ],
     "talents": {
         "normal_attack": {
-            "name": "Técnica da Espada de Favonius - Weiss",
-            "icon_url": "/assets/images/talents/albedo/albedo_na.webp",
-            "description": "Ataque Normal: Realiza até 5 golpes rápidos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\nAtaque Imersivo: Mergulha em pleno ar para golpear o chão abaixo, causando dano aos inimigos ao longo do caminho e infligindo Dano em AdE durante o impacto."
+            "name": "Lâmina Favonius - Giz",
+            "icon_url": "/assets/images/talents/albedo/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes rápidos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando inimigos ao longo do caminho e causando Dano em AdE no impacto."
         },
         "elemental_skill": {
             "name": "Abiogênese: Isotoma Solar",
-            "icon_url": "/assets/images/talents/albedo/albedo_skill.webp",
-            "description": "Albedo cria uma Isotoma Solar usando alquimia, que causa Dano Geo em AdE em seu aparecimento.\n**Isotoma Solar** possui as seguintes propriedades:\n- Quando inimigos dentro do campo da Isotoma Solar recebem DANO, a Isotoma Solar irá gerar Flores Transientes que causam Dano Geo em AdE. O DANO causado escala com a DEF de Albedo. \n- Flores Transientes só podem ser geradas uma vez a cada 2s. \n- Quando um personagem está localizado no centro da Isotoma Solar, a Isotoma Solar acumulará poder Geo para formar uma plataforma cristalizada que eleva o personagem a uma certa altura. \n- Apenas uma plataforma cristalizada pode existir por vez. \n- Isotoma Solar é considerada uma construção Geo. \n- Apenas uma Isotoma Solar criada pelo próprio Albedo pode existir por vez. \n**Manter Pressionado**: Permite designar a localização da habilidade. "
+            "icon_url": "/assets/images/talents/albedo/talent_elemental_skill.webp",
+            "description": "Albedo cria uma Isotoma Solar usando alquimia, que causa Dano Geo em AdE em sua criação.\nIsotoma Solar tem as seguintes propriedades:\n- Quando inimigos dentro da zona da Isotoma Solar sofrem dano, a Isotoma Solar gerará Flores Transientes, que causam Dano Geo em AdE. O DANO causado escala com a DEF de Albedo.\n- Flores Transientes só podem ser geradas uma vez a cada 2s.\n- Quando um personagem está localizado na Isotoma Solar, a Isotoma Solar acumulará poder Geo para formar uma Plataforma Cristalizada, que eleva o personagem a uma certa altura.\nApenas uma Isotoma Solar criada pelo próprio Albedo pode existir por vez.\nIsotoma Solar é considerada uma construção Geo."
         },
         "elemental_burst": {
             "name": "Ritual da Progenitura: Maré Tectônica",
-            "icon_url": "/assets/images/talents/albedo/albedo_burst.webp",
-            "description": "Sob o comando de Albedo, cristais Geo surgem e explodem, causando Dano Geo em AdE na frente dele. \nSe uma Isotoma Solar criada pelo próprio Albedo estiver no campo, 7 Flores Fatais serão geradas no campo da Isotoma Solar, explodindo violentamente e causando Dano Geo em AdE. \nO Dano da Maré Tectônica e o Dano da Flor Fatal não gerarão Flores Transientes. "
+            "icon_url": "/assets/images/talents/albedo/talent_elemental_burst.webp",
+            "description": "Sob o comando de Albedo, cristais Geo explodem, causando Dano Geo em AdE na frente dele.\nSe uma Isotoma Solar criada pelo próprio Albedo estiver no campo, 7 Flores Fatais serão geradas no campo da Isotoma Solar, explodindo violentamente e causando Dano Geo em AdE.\nO DANO da Maré Tectônica e o DANO da Flor Fatal não geram Flores Transientes."
         },
         "passives": [
             {
-                "name": "Poder de Calcita",
+                "name": "Ameaça Calcária",
                 "type": "Passiva de 1ª Ascensão",
-                "icon_url": "/assets/images/talents/albedo/albedo_a1.webp",
-                "description": "Flores Transientes geradas por Abiogênese: Isotoma Solar causam 25% a mais de DANO a oponentes com HP abaixo de 50%. "
+                "icon_url": "/assets/images/talents/albedo/talent_passive_a1.webp",
+                "description": "Flores Transientes geradas por Abiogênese: Isotoma Solar causam 25% a mais de DANO a oponentes cujo HP esteja abaixo de 50%."
             },
             {
-                "name": "Natureza Homuncular",
+                "name": "Sabedoria Homuncular",
                 "type": "Passiva de 4ª Ascensão",
-                "icon_url": "/assets/images/talents/albedo/albedo_a4.webp",
-                "description": "Usar Ritual da Progenitura: Maré Tectônica aumenta a Proficiência Elemental de membros da equipe próximos em 125 por 10s. "
+                "icon_url": "/assets/images/talents/albedo/talent_passive_a4.webp",
+                "description": "Usar Ritual da Progenitura: Maré Tectônica aumenta a Proficiência Elemental de membros da equipe próximos em 125 por 10s."
             },
             {
-                "name": "Lampejo de Gênio",
+                "name": "Clarão de Gênio",
                 "type": "Passiva Utilitária",
-                "icon_url": "/assets/images/talents/albedo/albedo_utility.webp",
-                "description": "Quando Albedo cria Materiais de Ascensão de Arma, ele tem 10% de chance de receber o dobro do produto. "
+                "icon_url": "/assets/images/talents/albedo/talent_passive_utility.webp",
+                "description": "Ao criar Materiais de Elevação de Arma, ele tem 10% de chance de receber o dobro do produto."
             }
         ]
     },
@@ -392,27 +295,27 @@
             "icon_url": "/assets/images/materials/sealed_scroll.webp"
         },
         {
-            "name": "Pergaminho da Maldição",
+            "name": "Pergaminho Proibido",
             "quantity": 31,
             "icon_url": "/assets/images/materials/forbidden_curse_scroll.webp"
         },
         {
-            "name": "Ensinamentos de \"Poemas\"",
+            "name": "Ensinamentos da \"Poesia\"",
             "quantity": 3,
             "icon_url": "/assets/images/materials/teachings_of_ballad.webp"
         },
         {
-            "name": "Guia de \"Poemas\"",
+            "name": "Guia da \"Poesia\"",
             "quantity": 21,
             "icon_url": "/assets/images/materials/guide_to_ballad.webp"
         },
         {
-            "name": "Filosofia de \"Poemas\"",
+            "name": "Filosofia da \"Poesia\"",
             "quantity": 38,
             "icon_url": "/assets/images/materials/philosophies_of_ballad.webp"
         },
         {
-            "name": "Presa do Monoceros Caeli",
+            "name": "Presa de Monoceros Caeli",
             "quantity": 6,
             "icon_url": "/assets/images/materials/tusk_of_monoceros_caeli.webp"
         },
@@ -427,37 +330,37 @@
             "level": 1,
             "name": "Flor do Éden",
             "icon_url": "/assets/images/constellations/albedo/constellation_flower_of_eden.webp",
-            "description": "Flores Transientes geradas pela Abiogênese: Isotoma Solar de Albedo regeneram 1.2 de Energia para Albedo. "
+            "description": "Flores Transientes geradas pela Abiogênese: Isotoma Solar de Albedo regeneram 1.2 de Energia para Albedo."
         },
         {
             "level": 2,
-            "name": "Abertura do Fanerozoico",
+            "name": "Phanerozóico",
             "icon_url": "/assets/images/constellations/albedo/constellation_opening_of_phanerozoic.webp",
-            "description": "Flores Transientes geradas por Abiogênese: Isotoma Solar concedem a Albedo Cálculo Fatal por 30s:\nLiberar Ritual da Progenitura: Maré Tectônica consome todos os acúmulos de Cálculo Fatal.\nCada acúmulo de Cálculo Fatal consumido aumenta o DANO causado pelas Flores Fatais e pelo DANO de explosão do Ritual da Progenitura: Maré Tectônica em 30% da DEF de Albedo.\nEste efeito acumula até 4 vezes. "
+            "description": "Flores Transientes geradas por Abiogênese: Isotoma Solar concedem a Albedo Julgamento Fatal por 30s:\nLiberar Ritual da Progenitura: Maré Tectônica consome todos os acúmulos de Julgamento Fatal. Cada acúmulo de Julgamento Fatal consumido aumenta o DANO causado pelas Flores Fatais e o DANO de explosão do Ritual da Progenitura: Maré Tectônica em 30% da DEF de Albedo.\nEste efeito acumula até 4 vezes."
         },
         {
             "level": 3,
             "name": "Graça de Hélios",
             "icon_url": "/assets/images/constellations/albedo/constellation_grace_of_helios.webp",
-            "description": "Aumenta o Nível de Abiogênese: Isotoma Solar em 3.\nO nível máximo de elevação é 15. "
+            "description": "Aumenta o Nível de Abiogênese: Isotoma Solar em 3.\nO nível máximo de elevação é 15."
         },
         {
             "level": 4,
             "name": "Descida da Divindade",
             "icon_url": "/assets/images/constellations/albedo/constellation_descent_of_divinity.webp",
-            "description": "Membros ativos da equipe dentro do campo da Isotoma Solar têm seu DANO de Ataque Imersivo aumentado em 30%. "
+            "description": "Membros ativos da equipe dentro do campo da Isotoma Solar têm seu DANO de Ataque Imersivo aumentado em 30%."
         },
         {
             "level": 5,
             "name": "Maré de Hadeano",
             "icon_url": "/assets/images/constellations/albedo/constellation_tide_of_hadean.webp",
-            "description": "Aumenta o Nível de Ritual da Progenitura: Maré Tectônica em 3.\nO nível máximo de elevação é 15. "
+            "description": "Aumenta o Nível de Ritual da Progenitura: Maré Tectônica em 3.\nO nível máximo de elevação é 15."
         },
         {
             "level": 6,
             "name": "Pó da Purificação",
             "icon_url": "/assets/images/constellations/albedo/constellation_dust_of_purification.webp",
-            "description": "Membros ativos da equipe dentro do campo da Isotoma Solar que estão protegidos por um escudo criado por Cristalização têm seu DANO aumentado em 17%. "
+            "description": "Se membros ativos da equipe estiverem dentro do campo da Isotoma Solar e protegidos por um escudo criado por Cristalização, seu DANO é aumentado em 17%."
         }
     ]
 }

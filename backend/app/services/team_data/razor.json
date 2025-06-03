@@ -1,0 +1,86 @@
+[
+    {
+        "id": "razor_physical_superconduct",
+        "name": "Razor - DPS Físico (Supercondutor)",
+        "strategy": "Razor como DPS Físico principal, com um personagem Cryo para ativar Supercondutor e reduzir a RES Física dos inimigos. Os outros dois slots são flexíveis para mais dano off-field, buffs ou sobrevivência.",
+        "characters_in_team": [
+            {
+                "character_id": "razor",
+                "role_in_team": "Main DPS Físico",
+                "build_key": "razor_physical_dps_pale_flame"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Bateria/Ressonância)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Suporte Cryo (Aplicadora Cryo/Buff Taxa CRIT/RES Shred Físico C6)",
+                "build_key": "rosaria_cryo_support_favonius_noblesse"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred Universal)",
+                "build_key": "zhongli_shield_support_tenacity"
+            }
+        ],
+        "notes_team": "Outras opções Cryo: Diona (cura/escudo), Kaeya (aplicação Cryo). Outras opções Flex: Xingqiu (dano off-field/redução de dano), Bennett (buff ATQ/cura, cuidado com Sobrecarga)."
+    },
+    {
+        "id": "razor_aggravate_dps",
+        "name": "Razor - DPS de Agravamento",
+        "strategy": "Razor foca em Dano Electro através da reação de Agravamento, com aplicação Dendro consistente e outro Electro para ressonância/bateria. Um Anemo com Sombra Verde é recomendado.",
+        "characters_in_team": [
+            {
+                "character_id": "razor",
+                "role_in_team": "Main DPS Electro (Aggravate)",
+                "build_key": "razor_aggravate_dps_thundering_fury"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field/Aggravate Enabler)",
+                "build_key": "fischl_aggravate_golden_troupe_stringless"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Dendro Enabler (Off-field/Buffer EM)",
+                "build_key": "nahida_off_field_dendro_deepwood_em"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ],
+        "notes_team": "Outros Dendro: Viajante Dendro, Yaoyao, Baizhu (cura/escudo). Outros Anemo: Sucrose (buff EM)."
+    },
+    {
+        "id": "razor_transformative_reaction_thundering_furry",
+        "name": "Razor - DPS de Reações Transformativas (Thundering Furry)",
+        "strategy": "Build de nicho, geralmente com Bennett C6 para infusão Pyro, permitindo que Razor ative Germinação (Burgeon) e Sobrecarga com alta Proficiência Elemental. Requer aplicação Hydro e Dendro.",
+        "characters_in_team": [
+            {
+                "character_id": "razor",
+                "role_in_team": "On-Field Trigger (Full EM)",
+                "build_key": "razor_transformative_full_em"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte Pyro (Healer/Buffer/C6 Pyro Infusion)",
+                "build_key": "bennett_c6_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Hydro Enabler (Off-field)",
+                "build_key": "xingqiu_off_field_hydro_support_sacrificial_em"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Dendro Enabler (Off-field)",
+                "build_key": "nahida_off_field_dendro_deepwood_em"
+            }
+        ],
+        "notes_team": "Este time depende muito do C6 de Bennett. Sem ele, o foco em Sobrecarga/Eletricamente Carregado com EM é possível, mas menos efetivo que builds de Dano Direto."
+    }
+]

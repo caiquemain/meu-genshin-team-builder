@@ -1,0 +1,441 @@
+{
+    "id": "kirara",
+    "name": "Kirara",
+    "title": "Gatinha dos Beirais",
+    "element": "Dendro",
+    "rarity": 4,
+    "weapon": "Sword",
+    "model_type": "Medium Female",
+    "role": [
+        "Shielder",
+        "On-Field Dendro Enabler (Neko Box State)",
+        "Off-Field Dendro DPS (Burst)"
+    ],
+    "description_bio": "Uma entregadora da Komaniya Express em Inazuma. Uma nekomata com duas caudas que adora seu trabalho e a sociedade humana. Seus pacotes são sempre entregues com rapidez e segurança.",
+    "birthday": "22 de Janeiro",
+    "constellation_name_official": "Arcella",
+    "region": "Inazuma",
+    "affiliation": [
+        "Komaniya Express"
+    ],
+    "special_dish": {
+        "name": "Bento Energizante",
+        "icon_url": "/assets/images/dishes/kirara_energizing_bento.webp"
+    },
+    "namecard_url": "/assets/images/namecards/kirara_neko_box.png",
+    "icon_url": "/assets/images/characters/kirara.png",
+    "element_icon_url": "/assets/images/elements/element_dendro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Kirara Guide (Full)",
+                "url": "https://keqingmains.com/kirara/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Kirara",
+                "url": "https://genshin-impact.fandom.com/wiki/Kirara"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "kirara_shielder_support_hp_er",
+            "name": "Suporte Escudeira (Foco em HP/RE)",
+            "notes_build": "Foco em maximizar a força do escudo de Kirara (que escala com HP Máx) e garantir que ela possa usar sua Habilidade Elemental para manter o escudo. Recarga de Energia é importante se planeja usar o Supremo para dano ou aplicação Dendro adicional.",
+            "artifacts": [
+                {
+                    "set_id": "tenacity_vourukasha_2pc_hp_mix",
+                    "set_name": "Tenacidade dos Millelith (2p) + Brilho de Vourukasha (2p)",
+                    "pieces": "2+2",
+                    "notes": "Melhor combinação para maximizar o HP de Kirara e, consequentemente, a força de seu escudo. Ambas as peças de 2p fornecem +20% HP.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "tenacity_of_the_millelith",
+                        "vourukashas_glow"
+                    ]
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Se Kirara puder usar seu Supremo consistentemente, este conjunto pode buffar o ATQ da equipe. Bom se outros buffs defensivos/Dendro já estiverem cobertos.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Pode ser usado por Kirara para reduzir a RES Dendro dos inimigos se nenhum outro personagem na equipe puder usar este conjunto de forma eficaz.",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "HP% / Recarga de Energia (ER%)",
+                "goblet": "HP%",
+                "circlet": "HP% / Taxa CRIT (para Favonius)"
+            },
+            "sub_stats_priority": [
+                "HP%",
+                "Recarga de Energia (ER%) (se usar Supremo)",
+                "HP Flat",
+                "Taxa CRIT (para Espada de Favonius)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "key_of_khaj_nisut",
+                    "name": "Chave de Khaj-Nisut",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para maximizar o HP de Kirara e a força do escudo. A passiva de EM para a equipe também é útil em times de reação.",
+                    "icon_url": "/assets/images/weapons_detail/key_of_khaj_nisut.png"
+                },
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha / Missão",
+                    "notes": "Excelente para ajudar com a Recarga de Energia de Kirara e da equipe. Requer alguma Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "sacrificial_sword",
+                    "name": "Espada do Sacrifício",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Permite um uso adicional da Habilidade, melhorando o uptime do escudo e a geração de partículas. Refinos altos são preferíveis.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_sword.png"
+                },
+                {
+                    "weapon_id": "sapwood_blade",
+                    "name": "Lâmina de Madeira",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja (Sumeru)",
+                    "notes": "Opção F2P forjável que fornece RE e um buff de EM para o personagem que pegar a Folha da Consciência.",
+                    "icon_url": "/assets/images/weapons_detail/sapwood_blade.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill) (para escudo)",
+                "Supremo (Burst) (para dano/aplicação Dendro adicional)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        },
+        {
+            "key": "kirara_dendro_dps_deepwood_golden_troupe",
+            "name": "DPS Dendro (Memórias da Floresta / Trupe Dourada)",
+            "notes_build": "Foco no dano pessoal de Kirara, principalmente de seu Supremo e Habilidade. Útil em times Quicken ou como um sub-DPS Dendro. Requer investimento em stats ofensivos.",
+            "artifacts": [
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Ainda uma ótima opção para aumentar o dano pessoal de Kirara e o dano das reações Dendro da equipe.",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                },
+                {
+                    "set_id": "golden_troupe",
+                    "set_name": "Trupe Dourada",
+                    "pieces": 4,
+                    "notes": "Se Kirara for usada principalmente off-field e o foco for o dano de sua Habilidade (no estado de Caixa Neko Urgente), este conjunto pode ser forte.",
+                    "icon_url": "/assets/images/artifact_sets/golden_troupe.png"
+                },
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Se o Supremo de Kirara for uma parte significativa de seu dano e ela tiver altos requisitos de RE, este conjunto é viável.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Proficiência Elemental (EM para Agravamento/Espalhar)",
+                "goblet": "Bônus de Dano Dendro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK% / Proficiência Elemental (EM)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Excelente 'stat stick' de Taxa CRIT e fornece HP% que aumenta um pouco o escudo.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "light_of_foliar_incision",
+                    "name": "Luz das Folhas Cortadas",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Dano CRIT alto e passiva que escala com EM, útil se Kirara ativar reações como Espalhar.",
+                    "icon_url": "/assets/images/weapons_detail/light_of_foliar_incision.png"
+                },
+                {
+                    "weapon_id": "wolf_fang",
+                    "name": "Presa do Lobo",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Passe de Batalha",
+                    "notes": "Boa opção do Passe de Batalha, fornecendo Taxa CRIT e buffs para Habilidade e Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/wolf_fang.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (se usada como driver on-field)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 1025,
+            "base_atk": 18,
+            "base_def": 46,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3353,
+            "base_atk": 60,
+            "base_def": 151,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5563,
+            "base_atk": 100,
+            "base_def": 250,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 7137,
+            "base_atk": 128,
+            "base_def": 321,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8482,
+            "base_atk": 152,
+            "base_def": 382,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9820,
+            "base_atk": 176,
+            "base_def": 442,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 12189,
+            "base_atk": 223,
+            "base_def": 548,
+            "bonus_stat_label": "HP",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Presa Esmagadora de Dragarto (Evergloom Ring)",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/evergloom_ring.webp"
+        },
+        {
+            "name": "Lasca de Esmeralda Nagadus",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/nagadus_emerald_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Esmeralda Nagadus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/nagadus_emerald_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Esmeralda Nagadus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/nagadus_emerald_chunk.webp"
+        },
+        {
+            "name": "Gema de Esmeralda Nagadus",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/nagadus_emerald_gemstone.webp"
+        },
+        {
+            "name": "Amakumo Fruit",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/amakumo_fruit.webp"
+        },
+        {
+            "name": "Casco Espectral",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/spectral_husk.webp"
+        },
+        {
+            "name": "Coração Espectral",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/spectral_heart.webp"
+        },
+        {
+            "name": "Núcleo Espectral",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/spectral_nucleus.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Corte da Caixa",
+            "icon_url": "/assets/images/talents/kirara/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 golpes rápidos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para desferir 3 golpes rápidos de garra.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando inimigos ao longo do caminho e causando Dano em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Miáu-ravilhoso Caixote Voador",
+            "icon_url": "/assets/images/talents/kirara/talent_elemental_skill.webp",
+            "description": "Pressionar: Salta no ar com a agilidade de um gato passando pelos telhados, atacando seus inimigos com um Chute Voador Felino que causa Dano Dendro em AdE enquanto cria um Escudo de Transporte Seguro. O escudo absorverá Dano Dendro com 250% de eficácia. A absorção de DANO do escudo será baseada no HP Máx de Kirara e não excederá uma certa porcentagem de seu HP Máx. O escudo restante será transferido para o personagem ativo quando um novo for gerado.\nManter Pressionado: Enrola-se em um Escudo de Transporte Seguro idêntico ao criado por Pressionar e se transforma em uma Caixa Neko Urgente para entrega mais rápida. Quando no estado Caixa Neko Urgente, a Vel. de Movimento, Vel. de Escalada e capacidade de salto de Kirara são aumentadas, e seu Consumo de Stamina ao escalar é diminuído. Quando ela esbarra em oponentes, ela causará Dano Dendro neles. Este DANO pode ser causado em cada oponente uma vez a cada 0.5s. Quando a duração terminar ou a habilidade for usada novamente, um Chute Voador Felino mais poderoso que o de Pressionar será liberado, causando Dano Dendro em AdE. O estado Caixa Neko Urgente dura no máximo 10s. Quando o estado terminar, a habilidade entrará em TdR. Quanto mais tempo Kirara passar no estado Caixa Neko Urgente, maior será o TdR."
+        },
+        "elemental_burst": {
+            "name": "Arte Secreta: Entrega Surpresa",
+            "icon_url": "/assets/images/talents/kirara/talent_elemental_burst.webp",
+            "description": "Esmaga seus inimigos com um Pacote Especial de Entrega Urgente que ela usa para punir ladrões, causando Dano Dendro em AdE. Após o Pacote Especial de Entrega Urgente explodir, ele se dividirá em muitas Pequenas Cargas Dendro Cardamomo. As Pequenas Cargas Dendro Cardamomo explodirão ao entrar em contato com oponentes ou após um período de tempo, causando Dano Dendro em AdE."
+        },
+        "passives": [
+            {
+                "name": "Cauda Arrepiada de Susto",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/kirara/talent_passive_a1.webp",
+                "description": "Quando Kirara atinge oponentes com Miáu-ravilhoso Caixote Voador, ela concederá ao personagem um Selo de Escudo Reforçado. Este efeito pode ser ativado uma vez para cada oponente atingido por Miáu-ravilhoso Caixote Voador a cada 0.5s. Selos de Escudo Reforçado podem ser acumulados até 3 vezes e durarão 20s. Usar Miáu-ravilhoso Caixote Voador novamente limpará todos os Selos de Escudo Reforçado existentes. Cada Selo de Escudo Reforçado acumulado aumenta a Absorção de DANO do Escudo de Transporte Seguro em 8%."
+            },
+            {
+                "name": "Distração Felina",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/kirara/talent_passive_a4.webp",
+                "description": "Cada 1.000 de HP Máx que Kirara possui aumentará o DANO causado por Miáu-ravilhoso Caixote Voador em 0.4%, e o DANO causado por Arte Secreta: Entrega Surpresa em 0.3%."
+            },
+            {
+                "name": "Passos Felinos Silenciosos",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/kirara/talent_passive_utility.webp",
+                "description": "Quando Kirara está na equipe, os membros da equipe ativos não assustarão animais que dropam Aves, Carne Crua ou Carne Resfriada ao se aproximarem deles."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Casco Espectral",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/spectral_husk.webp"
+        },
+        {
+            "name": "Coração Espectral",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/spectral_heart.webp"
+        },
+        {
+            "name": "Núcleo Espectral",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/spectral_nucleus.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Transitoriedade\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_transience.webp"
+        },
+        {
+            "name": "Guia da \"Transitoriedade\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_transience.webp"
+        },
+        {
+            "name": "Filosofia da \"Transitoriedade\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_transience.webp"
+        },
+        {
+            "name": "Flor Eterna do Sonho Evanescente (Everamber)",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/everamber.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Circulação de Material",
+            "icon_url": "/assets/images/constellations/kirara/constellation_1.webp",
+            "description": "Cada 8.000 de HP Máx que Kirara possui fará com que ela crie 1 Pequena Carga Dendro Cardamomo adicional quando ela usar Arte Secreta: Entrega Surpresa. Um máximo de 4 Pequenas Cargas Dendro Cardamomo adicionais podem ser criadas desta forma."
+        },
+        {
+            "level": 2,
+            "name": "Embalagem Perfeita",
+            "icon_url": "/assets/images/constellations/kirara/constellation_2.webp",
+            "description": "Quando Kirara está no estado Caixa Neko Urgente de Miáu-ravilhoso Caixote Voador, ela concederá Escudos de Transporte Crítico para outros membros da equipe com quem ela colidir. O Escudo de Transporte Crítico absorverá DANO igual a 40% da absorção máxima que um Escudo de Transporte Seguro pode fornecer, e absorverá Dano Dendro com 250% de eficácia. Escudos de Transporte Crítico duram 12s e podem ser ativados uma vez em cada personagem a cada 10s."
+        },
+        {
+            "level": 3,
+            "name": "Perícia em Mapeamento Universal",
+            "icon_url": "/assets/images/constellations/kirara/constellation_3.webp",
+            "description": "Aumenta o Nível de Miáu-ravilhoso Caixote Voador em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Corcel Veloz",
+            "icon_url": "/assets/images/constellations/kirara/constellation_4.webp",
+            "description": "Após o personagem ativo atual protegido por um Escudo de Transporte Seguro ou Escudo de Transporte Crítico acertar oponentes com Ataques Normais, Carregados ou Imersivos, Kirara usará Pequenas Cargas Dendro Cardamomo para realizar um ataque coordenado, causando Dano Dendro igual a 200% de seu ATQ. O DANO causado desta forma é considerado Dano de Supremo Elemental. Este efeito pode ser ativado uma vez a cada 3.8s."
+        },
+        {
+            "level": 5,
+            "name": "Ritmo Constante",
+            "icon_url": "/assets/images/constellations/kirara/constellation_5.webp",
+            "description": "Aumenta o Nível de Arte Secreta: Entrega Surpresa em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Mestre da Miríade de Rotas",
+            "icon_url": "/assets/images/constellations/kirara/constellation_6.webp",
+            "description": "Após Kirara usar sua Habilidade Elemental ou Supremo Elemental, todos os membros da equipe próximos ganham 12% de Bônus de DANO de Todos os Elementos por 15s."
+        }
+    ]
+}

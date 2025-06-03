@@ -1,0 +1,83 @@
+[
+    {
+        "id": "kinich_emilie_bennett_mavuika_burning",
+        "name": "Kinich - Queimadura (Emilie, Bennett, Mavuika)",
+        "strategy": "Time focado em Queimadura para maximizar o dano dos Canhões Scalespiker de Kinich. Emilie fornece dano Dendro off-field e pode usar 4p Memórias da Floresta. Bennett para buff de ATQ e cura. Mavuika para aplicação Pyro off-field e dano.",
+        "characters_in_team": [
+            {
+                "character_id": "kinich",
+                "role_in_team": "Main DPS Dendro On-field (Foco em Queimadura)",
+                "build_key": "kinich_burning_dps_obsidian_codex"
+            },
+            {
+                "character_id": "emilie",
+                "role_in_team": "Sub-DPS Dendro Off-field (Deepwood Holder)",
+                "build_key": "emilie_offfield_dps_deepwood_memories_deathmatch"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "mavuika",
+                "role_in_team": "Sub-DPS Pyro Off-field / Aplicadora Pyro",
+                "build_key": "mavuika_pyro_subdps_emblem_or_crimson"
+            }
+        ]
+    },
+    {
+        "id": "kinich_bennett_xiangling_kazuha_mono_pyro_variant",
+        "name": "Kinich - Suporte em Mono Pyro (Bennett, Xiangling, Kazuha)",
+        "strategy": "Kinich como único Dendro em um time Mono Pyro, fornecendo aplicação Dendro para Queimadura e se beneficiando dos buffs de Kazuha e Bennett. Xiangling para dano Pyro off-field massivo.",
+        "characters_in_team": [
+            {
+                "character_id": "kinich",
+                "role_in_team": "Sub-DPS Dendro On-field (Enabler de Queimadura)",
+                "build_key": "kinich_burning_dps_obsidian_codex"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer, Ressonância Pyro)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro Off-field",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "kaedehara_kazuha",
+                "role_in_team": "Suporte Anemo (VV RES Shred Pyro, Buffer Dano Pyro, Agrupamento)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "kinich_bennett_xingqiu_thoma_burgeon",
+        "name": "Kinich - Germinação (Bennett, Xingqiu, Thoma)",
+        "strategy": "Kinich como driver Dendro on-field para um time de Germinação. Xingqiu para aplicação Hydro. Thoma (full EM) para ativar Germinação e fornecer escudo. Bennett para buffs e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "kinich",
+                "role_in_team": "Driver Dendro On-field",
+                "build_key": "kinich_burning_dps_obsidian_codex"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer, Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Ativador de Germinação (Full EM) / Escudeiro",
+                "build_key": "thoma_burgeon_full_em_kitain_or_dragons_bane"
+            }
+        ]
+    }
+]

@@ -1,0 +1,383 @@
+{
+    "id": "kinich",
+    "name": "Kinich",
+    "title": "Caçador da Têmpera",
+    "element": "Dendro",
+    "rarity": 5,
+    "weapon": "Claymore",
+    "model_type": "Medium Male",
+    "role": [
+        "On-Field DPS (Burning Focus)"
+    ],
+    "description_bio": "Um caçador de Huitztlan em Natlan, Kinich é um indivíduo estoico e habilidoso, reverenciado por sua proeza em rastrear e caçar as feras mais perigosas. Ele carrega o nome antigo Malipo, significando 'Têmpera', refletindo sua natureza resiliente.",
+    "birthday": "11 de Novembro",
+    "constellation_name_official": "Chimaera Alebriius",
+    "region": "Natlan",
+    "affiliation": [
+        "Huitztlan"
+    ],
+    "special_dish": {
+        "name": "Recompensa do Caçador Sauriano",
+        "icon_url": "/assets/images/dishes/kinich_saurian_hunters_reward.webp"
+    },
+    "namecard_url": "/assets/images/namecards/kinich_ajaw.png",
+    "icon_url": "/assets/images/characters/kinich.png",
+    "element_icon_url": "/assets/images/elements/element_dendro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Kinich Quick Guide",
+                "url": "keqingmains.com/q/kinich-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Kinich",
+                "url": "https://genshin-impact.fandom.com/wiki/Kinich"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "kinich_burning_dps_obsidian_codex",
+            "name": "DPS de Queimadura (Códice de Obsidiana)",
+            "notes_build": "Foco em maximizar o dano on-field de Kinich através de sua Habilidade Elemental melhorada (Canhões Scalespiker) enquanto uma aura de Queimadura é mantida nos inimigos. 4p Códice de Obsidiana é seu melhor conjunto. Proficiência Elemental é útil, mas ATQ% e CRIT geralmente fornecem mais dano para seus Canhões.",
+            "artifacts": [
+                {
+                    "set_id": "obsidian_codex",
+                    "set_name": "Códice de Obsidiana",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto de artefatos para Kinich. O Bônus de DANO Universal e a Taxa CRIT são inestimáveis.",
+                    "icon_url": "/assets/images/artifact_sets/obsidian_codex.png"
+                },
+                {
+                    "set_id": "unfinished_reverie",
+                    "set_name": "Devaneio Inacabado",
+                    "pieces": 4,
+                    "notes": "Opção competitiva que performa similarmente a 4p Códice de Obsidiana, mas é mais difícil de usar de forma otimizada devido aos seus requisitos de rotação mais rígidos.",
+                    "icon_url": "/assets/images/artifact_sets/unfinished_reverie.png"
+                },
+                {
+                    "set_id": "gilded_dreams_deepwood_2pc_mix",
+                    "set_name": "Sonhos Dourados (2p) + Memórias da Floresta (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinação de 2p Proficiência Elemental e 2p Bônus de Dano Dendro. Viável se não tiver um bom conjunto de 4p.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "gilded_dreams",
+                        "deepwood_memories"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Proficiência Elemental (EM)",
+                "goblet": "Bônus de Dano Dendro",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito, ~120-140% com outro Dendro/Favonius)",
+                "Taxa CRIT / Dano CRIT",
+                "ATQ%",
+                "Proficiência Elemental (EM)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "fang_of_the_mountain_king",
+                    "name": "Presa do Rei da Montanha",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Assinatura/Customizado)",
+                    "notes": "Arma assinatura de Kinich e sua Melhor em Slot incondicional para todos os cenários.",
+                    "icon_url": "/assets/images/weapons_detail/fang_of_the_mountain_king.png"
+                },
+                {
+                    "weapon_id": "earth_shaker",
+                    "name": "Abalador de Terra (Earth Shaker)",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja (Natlan) (A SER VERIFICADO)",
+                    "notes": "Arma gratuita poderosa para Kinich que, na maioria dos times, tem 100% de uptime em sua passiva.",
+                    "icon_url": "/assets/images/weapons_detail/earth_shaker.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "A Taxa CRIT e o Bônus de DANO% desta arma são valiosos para Kinich. Requer um escudeiro.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "beacon_of_the_reed_sea",
+                    "name": "Sinal dos Mares de Juncos",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Bom 'stat stick' de Taxa CRIT. A passiva é um tanto sinérgica, pois Kinich pode se curar.",
+                    "icon_url": "/assets/images/weapons_detail/beacon_of_the_reed_sea.png"
+                },
+                {
+                    "weapon_id": "mailed_flower",
+                    "name": "Flor Empilhada",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Evento",
+                    "notes": "Se você a tiver em R5, é uma boa opção gratuita, fornecendo EM e ATQ%.",
+                    "icon_url": "/assets/images/weapons_detail/mailed_flower.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Nível do Personagem para 90",
+                "Supremo (Burst)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 1001,
+            "base_atk": 26,
+            "base_def": 62,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3282,
+            "base_atk": 85,
+            "base_def": 202,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5444,
+            "base_atk": 141,
+            "base_def": 335,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "4.8%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6984,
+            "base_atk": 181,
+            "base_def": 430,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "9.6%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8306,
+            "base_atk": 215,
+            "base_def": 511,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "9.6%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9621,
+            "base_atk": 249,
+            "base_def": 592,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 12106,
+            "base_atk": 313,
+            "base_def": 745,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "19.2%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Coroa do Dragão das Rochas (Dragonlord's Crown)",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/dragonlords_crown.webp"
+        },
+        {
+            "name": "Lasca de Esmeralda Nagadus",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/nagadus_emerald_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Esmeralda Nagadus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/nagadus_emerald_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Esmeralda Nagadus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/nagadus_emerald_chunk.webp"
+        },
+        {
+            "name": "Gema de Esmeralda Nagadus",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/nagadus_emerald_gemstone.webp"
+        },
+        {
+            "name": "Haste de Samambaia Pétala de Sol (Sunpetal Fern Stalk)",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/sunpetal_fern_stalk.webp"
+        },
+        {
+            "name": "Seda Vermelha Desbotada",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/faded_red_satin.webp"
+        },
+        {
+            "name": "Seda Vermelha Bordada",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/trimmed_red_silk.webp"
+        },
+        {
+            "name": "Broca Vermelha Luxuosa",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/rich_red_brocade.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Assalto do Lorde Lagarto",
+            "icon_url": "/assets/images/talents/kinich/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 golpes consecutivos.\nAtaque Carregado: Drena Stamina ao longo do tempo para realizar ataques giratórios contínuos contra todos os oponentes próximos. No final da sequência, realiza um golpe ainda mais poderoso.\nAtaque Imersivo: Mergulha em direção ao chão do ar, danificando todos os oponentes em seu caminho. Causa Dano Dendro em AdE no impacto com o chão."
+        },
+        "elemental_skill": {
+            "name": "Canhão Scalespiker",
+            "icon_url": "/assets/images/talents/kinich/talent_elemental_skill.webp",
+            "description": "Kinich ruge para o céu, liberando um Canhão Scalespiker de suas costas que causa Dano Dendro em AdE.\nManter Pressionado: Entra no Modo de Mira para ajustar a direção do ataque. Se Kinich estiver no estado Bênção da Alma da Noite, ele consumirá 20 pontos de Alma da Noite para disparar um Canhão Scalespiker adicional que causa Dano Dendro em AdE alinhado à Alma da Noite."
+        },
+        "elemental_burst": {
+            "name": "Fúria Dracônica do Olho Fumegante",
+            "icon_url": "/assets/images/talents/kinich/talent_elemental_burst.webp",
+            "description": "Kinich libera todo o seu poder, causando Dano Dendro em AdE alinhado à Alma da Noite e entrando no estado Bênção da Alma da Noite. Enquanto neste estado, Kinich ganhará 100 pontos de Alma da Noite e os seguintes efeitos:\n- A Vel. de ATQ Normal de Kinich é aumentada.\n- Kinich dispara um Canhão Scalespiker adicional que causa Dano Dendro em AdE alinhado à Alma da Noite a cada 2 Ataques Normais.\n- Aumenta a resistência à interrupção de Kinich.\n- Kinich perde 10 pontos de Alma da Noite a cada segundo. Este efeito será cancelado assim que Kinich sair do campo ou ficar sem pontos de Alma da Noite.\nEnquanto estiver ativo, o estado Bênção da Alma da Noite de Kinich não terminará mesmo se ele não estiver em campo."
+        },
+        "passives": [
+            {
+                "name": "Bênção do Deus da Têmpera",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/kinich/talent_passive_a1.webp",
+                "description": "Enquanto no estado Bênção da Alma da Noite, se Kinich consumir HP para usar sua Habilidade Elemental, o DANO de todos os Canhões Scalespiker disparados por esta Habilidade será aumentado em 20% de seu ATQ."
+            },
+            {
+                "name": "Presente do Deus da Têmpera",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/kinich/talent_passive_a4.webp",
+                "description": "Enquanto no estado Bênção da Alma da Noite, se a Habilidade Elemental Canhão Scalespiker de Kinich atingir oponentes afetados por Queimadura, ele ganhará 15 pontos de Alma da Noite. Este efeito pode ser ativado uma vez a cada 0.1s."
+            },
+            {
+                "name": "Caçador Mestre da Têmpera",
+                "type": "Passiva do Domínio da Noite (Master Tempering Hunter)",
+                "icon_url": "/assets/images/talents/kinich/talent_passive_night_realm.webp",
+                "description": "Quando em uma área com Mecânicas de Phlogiston dentro de Natlan, a capacidade de Alma da Noite de Kinich é aumentada em 100 pontos. Enquanto no estado Bênção da Alma da Noite, ele ganhará 100% de RES a Dano de Phlogiston e restaurará 20% de seu HP Máx a cada 5s."
+            },
+            {
+                "name": "Guia de Sobrevivência de Huitztlan",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/kinich/talent_passive_utility.webp",
+                "description": "Diminui o consumo de Stamina de todos os membros da equipe ao escalar e correr em 20%. Não acumulável com Talentos Passivos que fornecem exatamente os mesmos efeitos."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Seda Vermelha Desbotada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/faded_red_satin.webp"
+        },
+        {
+            "name": "Seda Vermelha Bordada",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/trimmed_red_silk.webp"
+        },
+        {
+            "name": "Broca Vermelha Luxuosa",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/rich_red_brocade.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Práxis\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_praxis.webp"
+        },
+        {
+            "name": "Guia da \"Práxis\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_praxis.webp"
+        },
+        {
+            "name": "Filosofia da \"Práxis\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_praxis.webp"
+        },
+        {
+            "name": "Lágrima da Deusa do Desastre (Tears of the Calamitous God)",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/tears_of_the_calamitous_god.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Chamado do Alfa da Matilha",
+            "icon_url": "/assets/images/constellations/kinich/constellation_1.webp",
+            "description": "Quando Kinich está no estado Bênção da Alma da Noite, ele ganhará 1 acúmulo de Rugido do Vulcão a cada 0.5s. Cada acúmulo aumenta o DANO de Ataque Normal de Kinich em 10%. Este efeito acumula até 5 vezes. O efeito Rugido do Vulcão dura até o estado Bênção da Alma da Noite de Kinich terminar."
+        },
+        {
+            "level": 2,
+            "name": "Presa do Soberano Sauriano",
+            "icon_url": "/assets/images/constellations/kinich/constellation_2.webp",
+            "description": "Quando Kinich usa seu Supremo Elemental Fúria Dracônica do Olho Fumegante, ele ganha um escudo que dura até que seu estado Bênção da Alma da Noite termine e absorve DANO igual a 30% de seu HP Máx. Este escudo é 250% eficaz contra Dano Dendro."
+        },
+        {
+            "level": 3,
+            "name": "Fúria do Deus da Têmpera",
+            "icon_url": "/assets/images/constellations/kinich/constellation_3.webp",
+            "description": "Aumenta o Nível de Canhão Scalespiker em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Devorador do Sol Ardente",
+            "icon_url": "/assets/images/constellations/kinich/constellation_4.webp",
+            "description": "Enquanto no estado Bênção da Alma da Noite, o ATQ de Kinich aumenta em 5% a cada segundo, até um máximo de 25%.\nAdicionalmente, o DANO causado por Canhão Scalespiker será aumentado em 50% quando Kinich tiver menos de 50% de HP."
+        },
+        {
+            "level": 5,
+            "name": "Devastação do Lorde Dragão",
+            "icon_url": "/assets/images/constellations/kinich/constellation_5.webp",
+            "description": "Aumenta o Nível de Fúria Dracônica do Olho Fumegante em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Ascensão do Deus da Têmpera",
+            "icon_url": "/assets/images/constellations/kinich/constellation_6.webp",
+            "description": "A duração de Bênção da Alma da Noite é aumentada em 5s. Quando o estado Bênção da Alma da Noite termina, ele restaurará 15% do HP Máx de Kinich."
+        }
+    ]
+}

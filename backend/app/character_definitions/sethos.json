@@ -1,0 +1,468 @@
+{
+    "id": "sethos",
+    "name": "Sethos",
+    "title": "Medida da Sabedoria",
+    "element": "Electro",
+    "rarity": 4,
+    "weapon": "Bow",
+    "model_type": "Medium Male",
+    "role": [
+        "On-Field DPS",
+        "Charged Shot DPS",
+        "Normal Attack DPS"
+    ],
+    "description_bio": "Um emissário do Templo do Silêncio no Deserto de Sumeru, Sethos é um indivíduo enigmático com mecânicas únicas de Energia, focando seu dano em Ataques Carregados perfurantes ou Ataques Normais infundidos após seu Supremo.",
+    "birthday": "31 de Maio",
+    "constellation_name_official": "Basileos Delta",
+    "region": "Sumeru",
+    "affiliation": [
+        "Templo do Silêncio"
+    ],
+    "special_dish": {
+        "name": "Rolinho de Carne Mega Gostoso",
+        "icon_url": "/assets/images/dishes/sethos_super_dee_duper_delicious_meat_roll.webp"
+    },
+    "namecard_url": "/assets/images/namecards/sethos_ba_fragment.png",
+    "icon_url": "/assets/images/characters/sethos.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Sethos Quick Guide",
+                "url": "https://keqingmains.com/q/sethos-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Sethos",
+                "url": "https://genshin-impact.fandom.com/wiki/Sethos"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Sethos",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Sethos"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "sethos_normal_attack_dps",
+            "name": "DPS de Ataque Normal (Pós-Supremo)",
+            "notes_build": "Utiliza o Supremo de Sethos para converter seus Ataques Normais em Dano Electro, que também são considerados Dano de Ataque Carregado. Focado em reações de Agravamento (Quicken).",
+            "artifacts": [
+                {
+                    "set_id": "wanderers_troupe",
+                    "set_name": "Trupe Itinerante",
+                    "pieces": 4,
+                    "notes": "Aumenta o Dano do Ataque Carregado significativamente, o que beneficia os Ataques Normais infundidos de Sethos.",
+                    "icon_url": "/assets/images/artifact_sets/wanderers_troupe.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Fornece Proficiência Elemental e ATQ%, bom para times de Agravamento.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "thundering_fury",
+                    "set_name": "Fúria Trovejante",
+                    "pieces": 4,
+                    "notes": "Aumenta Dano Electro e de reações Electro, reduz o TdR da Habilidade Elemental.",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental / ATQ%",
+                "goblet": "Bônus de Dano Electro%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental",
+                "ATQ%",
+                "Recarga de Energia%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "hunters_path",
+                    "name": "Caminho do Caçador",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Sua melhor opção 5★, oferece alta Taxa CRIT e buff de Dano de Ataque Carregado baseado em PE.",
+                    "icon_url": "/assets/images/weapons_detail/hunters_path.png"
+                },
+                {
+                    "weapon_id": "the_first_great_magic",
+                    "name": "A Primeira Grande Mágica",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alto Dano CRIT e buff de Dano de Ataque Carregado.",
+                    "icon_url": "/assets/images/weapons_detail/the_first_great_magic.png"
+                },
+                {
+                    "weapon_id": "slingshot",
+                    "name": "Estilingue",
+                    "rarity": 3,
+                    "type": "Bow",
+                    "category": "Gacha/Baús",
+                    "notes": "Surpreendentemente forte e acessível, alta Taxa CRIT e passiva de aumento de Dano se a flecha atingir rapidamente.",
+                    "icon_url": "/assets/images/weapons_detail/slingshot.png"
+                },
+                {
+                    "weapon_id": "scion_of_the_blazing_sun",
+                    "name": "Herdeiro do Sol Ardente",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Passe de Batalha",
+                    "notes": "Taxa CRIT e dano adicional em Ataques Carregados.",
+                    "icon_url": "/assets/images/weapons_detail/scion_of_the_blazing_sun.png"
+                },
+                {
+                    "weapon_id": "cloudforged",
+                    "name": "Cloudforged (Forjado nas Nuvens)",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Evento",
+                    "notes": "Arma temática de Sethos (PE e buff de PE após perda de Energia), geralmente superada por Estilingue. Detalhes precisam ser adicionados ao banco de dados.",
+                    "icon_url": "/assets/images/weapons_detail/cloudforged.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)"
+            ]
+        },
+        {
+            "key": "sethos_charged_shot_dps",
+            "name": "DPS de Ataque Carregado (Flecha Perfurante)",
+            "notes_build": "Focado no Ataque Carregado Nível 2 de Sethos (Flecha Perfurante das Sombras), que consome Energia Elemental para aumentar seu dano. Este estilo de jogo prioriza Proficiência Elemental para reações.",
+            "artifacts": [
+                {
+                    "set_id": "wanderers_troupe",
+                    "set_name": "Trupe Itinerante",
+                    "pieces": 4,
+                    "notes": "Aumenta o Dano do Ataque Carregado em 35% e fornece PE.",
+                    "icon_url": "/assets/images/artifact_sets/wanderers_troupe.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Fornece Proficiência Elemental e ATQ%, bom para este estilo de jogo.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "shimenawas_reminiscence",
+                    "set_name": "Reminiscência Nostálgica",
+                    "pieces": 4,
+                    "notes": "Aumenta o Dano do Ataque Carregado ao custo de Energia, o que pode sinergizar com a mecânica de Sethos.",
+                    "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental / ATQ%",
+                "goblet": "Bônus de Dano Electro%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental",
+                "ATQ%",
+                "Recarga de Energia% (para a Habilidade Elemental)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "hunters_path",
+                    "name": "Caminho do Caçador",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Taxa CRIT e aumento de Dano de Ataque Carregado baseado em PE.",
+                    "icon_url": "/assets/images/weapons_detail/hunters_path.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alto Dano CRIT e aumento de Dano geral quando próximo a inimigos.",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                },
+                {
+                    "weapon_id": "ibis_piercer",
+                    "name": "Bico de Íbis (Ibis Piercer)",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Evento",
+                    "notes": "ATQ% e aumento de PE após Ataque Carregado. Detalhes precisam ser adicionados ao banco de dados.",
+                    "icon_url": "/assets/images/weapons_detail/ibis_piercer.png"
+                },
+                {
+                    "weapon_id": "prototype_crescent",
+                    "name": "Protótipo Crescente",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Forja",
+                    "notes": "Aumenta ATQ e Vel. de Movimento ao atingir pontos fracos.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_crescent.png"
+                },
+                {
+                    "weapon_id": "slingshot",
+                    "name": "Estilingue",
+                    "rarity": 3,
+                    "type": "Bow",
+                    "category": "Gacha/Baús",
+                    "notes": "Alta Taxa CRIT, passiva aumenta Dano se a flecha atingir rapidamente.",
+                    "icon_url": "/assets/images/weapons_detail/slingshot.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2021,
+            "base_atk": 46,
+            "base_def": 112,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "0"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3908,
+            "base_atk": 90,
+            "base_def": 218,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "0"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 4977,
+            "base_atk": 114,
+            "base_def": 277,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "24"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6286,
+            "base_atk": 144,
+            "base_def": 350,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "48"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7355,
+            "base_atk": 168,
+            "base_def": 408,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "48"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8425,
+            "base_atk": 193,
+            "base_def": 467,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "72"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 9787,
+            "base_atk": 224,
+            "base_def": 541,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "96"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Escama das Nuvens Espiraladas",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/cloudseam_scale.webp"
+        },
+        {
+            "name": "Lasca de Ametista Vajrada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_chunk.webp"
+        },
+        {
+            "name": "Gema de Ametista Vajrada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_gemstone.webp"
+        },
+        {
+            "name": "Trishiraite",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/trishiraite.webp"
+        },
+        {
+            "name": "Cetim Vermelho Desbotado",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/faded_red_satin.webp"
+        },
+        {
+            "name": "Seda Vermelha Bordada",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/trimmed_red_silk.webp"
+        },
+        {
+            "name": "Brocado Vermelho Luxuoso",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/rich_red_brocade.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Técnica de Arco Real",
+            "icon_url": "/assets/images/talents/sethos/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 3 disparos consecutivos.\nAtaque Carregado: Realiza um Disparo com Mira com Dano aumentado. Ao mirar, poder Electro se acumulará na ponta da flecha. Flecha totalmente carregada causa Dano Electro. Ataque Carregado Nv. 2 (Flecha Perfurante das Sombras): Dispara uma Flecha Perfurante das Sombras que causa Dano Electro e perfura inimigos. Consome uma certa quantidade de Energia Elemental para carregar; não pode ser usada se Energia for insuficiente."
+        },
+        "elemental_skill": {
+            "name": "Ritual Antigo: Sombra Perfurante das Areias",
+            "icon_url": "/assets/images/talents/sethos/talent_elemental_skill.webp",
+            "description": "Reúne o poder do trovão, causando Dano Electro em AdE e recuando rapidamente. Se este ataque desencadear reações de Eletricamente Carregado, Supercondutor, Sobrecarga, Aceleração, Agravamento, Hiperflorescimento ou Redemoinho Electro, Sethos recupera uma certa quantidade de Energia Elemental."
+        },
+        "elemental_burst": {
+            "name": "Cerimônia Secreta: Travessia das Dunas Crepusculares",
+            "icon_url": "/assets/images/talents/sethos/talent_elemental_burst.webp",
+            "description": "Realiza um rito secreto, entrando no estado 'Meditação Crepuscular'. Neste estado, os Ataques Normais de Sethos são convertidos para Flechas Penetrantes do Crepúsculo, que causam Dano Electro aumentado (considerado Dano de Ataque Carregado) e perfuram inimigos. O dano das Flechas Penetrantes do Crepúsculo aumenta com base na Proficiência Elemental de Sethos. O estado é removido quando Sethos sai de campo."
+        },
+        "passives": [
+            {
+                "name": "Código de Honra do Escorpião Negro",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/sethos/talent_passive_a1.webp",
+                "description": "Ao realizar um Disparo com Mira, o tempo de carga do Ataque Carregado Nv. 2 (Flecha Perfurante das Sombras) é reduzido com base na Energia Elemental consumida. Se nenhuma Energia for consumida, o tempo de carga é reduzido em uma quantidade fixa."
+            },
+            {
+                "name": "Presente do Grão-Rei Escarlate",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/sethos/talent_passive_a4.webp",
+                "description": "A cada 15s, Sethos ganha o efeito 'Areias Escaldantes' quando sua Energia Elemental é consumida, aumentando o Dano da Flecha Perfurante das Sombras em uma porcentagem de sua Proficiência Elemental. O efeito dura alguns segundos e é removido após disparar um certo número de Flechas Perfurantes das Sombras."
+            },
+            {
+                "name": "Thoth, o Mensageiro do Deserto",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/sethos/talent_passive_utility.webp",
+                "description": "Mostra a localização de especialidades de Sumeru próximas no minimapa."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Cetim Vermelho Desbotado",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/faded_red_satin.webp"
+        },
+        {
+            "name": "Seda Vermelha Bordada",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/trimmed_red_silk.webp"
+        },
+        {
+            "name": "Brocado Vermelho Luxuoso",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/rich_red_brocade.webp"
+        },
+        {
+            "name": "Ensinamentos da Práxis",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_praxis.webp"
+        },
+        {
+            "name": "Guia da Práxis",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_praxis.webp"
+        },
+        {
+            "name": "Filosofia da Práxis",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_praxis.webp"
+        },
+        {
+            "name": "Sino de Daka",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/dakas_bell.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Canção da Areia Retumbante",
+            "icon_url": "/assets/images/constellations/sethos/constellation_1.webp",
+            "description": "A Taxa CRIT da Flecha Perfurante das Sombras (Ataque Carregado Nv. 2) é aumentada em 15%."
+        },
+        {
+            "level": 2,
+            "name": "Segredo do Selo Silencioso",
+            "icon_url": "/assets/images/constellations/sethos/constellation_2.webp",
+            "description": "Quando Sethos recupera Energia Elemental através da Habilidade Elemental ou da Passiva A4, seu Bônus de Dano Electro aumenta com base na quantidade de Energia recuperada. Este efeito pode acumular e dura por um certo período."
+        },
+        {
+            "level": 3,
+            "name": "Rito da Renovação da Alma",
+            "icon_url": "/assets/images/constellations/sethos/constellation_3.webp",
+            "description": "Aumenta o nível do Ataque Normal: Técnica de Arco Real em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Vigília do Templo Solene",
+            "icon_url": "/assets/images/constellations/sethos/constellation_4.webp",
+            "description": "Quando uma Flecha Perfurante das Sombras ou uma Flecha Penetrante do Crepúsculo (do Supremo) atinge 2 ou mais oponentes, todos os membros da equipe próximos ganham 80 de Proficiência Elemental por 10s."
+        },
+        {
+            "level": 5,
+            "name": "Mistério da Tumba do Deserto",
+            "icon_url": "/assets/images/constellations/sethos/constellation_5.webp",
+            "description": "Aumenta o nível de Cerimônia Secreta: Travessia das Dunas Crepusculares (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Diadema da Aurora Desértica",
+            "icon_url": "/assets/images/constellations/sethos/constellation_6.webp",
+            "description": "Após uma Flecha Perfurante das Sombras atingir um oponente, a Energia Elemental consumida para carregar esta Flecha Perfurante das Sombras será reembolsada. Este efeito pode ser ativado uma vez a cada 15s."
+        }
+    ]
+}

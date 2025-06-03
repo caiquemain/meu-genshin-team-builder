@@ -1,0 +1,389 @@
+{
+    "id": "lyney",
+    "name": "Lyney",
+    "title": "Espetáculo Fantasmagórico",
+    "element": "Pyro",
+    "rarity": 5,
+    "weapon": "Bow",
+    "model_type": "Medium Male",
+    "role": [
+        "On-Field DPS (Charged Attack)",
+        "Mono Pyro DPS"
+    ],
+    "description_bio": "Um mágico renomado de Fontaine, conhecido por suas performances deslumbrantes e sua personalidade carismática. Lyney é o irmão gêmeo mais velho de Lynette e frequentemente se apresenta com ela, cativando o público com sua maestria em ilusão e prestidigitação.",
+    "birthday": "2 de Fevereiro",
+    "constellation_name_official": "Felis Fuscus",
+    "region": "Fontaine",
+    "affiliation": [
+        "Hotel Bouffes d'ete",
+        "Casa da Lareira (Fatui)"
+    ],
+    "special_dish": {
+        "name": "Truques Cúbicos",
+        "icon_url": "/assets/images/dishes/lyney_cubic_tricks.webp"
+    },
+    "namecard_url": "/assets/images/namecards/lyney_pretense.png",
+    "icon_url": "/assets/images/characters/lyney.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Lyney Guide (Full)",
+                "url": "https://keqingmains.com/lyney/"
+            },
+            {
+                "name": "KQM Lyney Quick Guide",
+                "url": "https://keqingmains.com/q/lyney-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Lyney",
+                "url": "https://genshin-impact.fandom.com/wiki/Lyney"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "lyney_mono_pyro_charged_attack_dps_marechaussee",
+            "name": "DPS Mono Pyro (Ataque Carregado - Caçador das Sombras)",
+            "notes_build": "Principal build de Lyney, focada em maximizar seu dano de Ataque Carregado em times Mono Pyro ou com alta presença Pyro para ativar sua Passiva A4. 4p Caçador das Sombras é seu melhor conjunto devido à sua mecânica de perda e ganho de HP.",
+            "artifacts": [
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Lyney, pois ele pode facilmente ativar o efeito completo de 36% de Taxa CRIT devido à sua mecânica de consumo e restauração de HP.",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                },
+                {
+                    "set_id": "lavawalker",
+                    "set_name": "Atravessador de Fogo",
+                    "pieces": 4,
+                    "notes": "Conjunto forte em times Mono Pyro onde a aura Pyro é mantida consistentemente nos inimigos. Cuidado com reações que removem Pyro.",
+                    "icon_url": "/assets/images/artifact_sets/lavawalker.png"
+                },
+                {
+                    "set_id": "wanderers_troupe",
+                    "set_name": "Trupe Itinerante",
+                    "pieces": 4,
+                    "notes": "Aumenta o dano do Ataque Carregado de Lyney e fornece EM, que é útil em times Vaporizar/Fusão (embora Mono Pyro seja seu foco principal).",
+                    "icon_url": "/assets/images/artifact_sets/wanderers_troupe.png"
+                },
+                {
+                    "set_id": "crimson_witch_atk_2pc_mix",
+                    "set_name": "Bruxa das Chamas (2p) + ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Combinações de 2p podem ser usadas como transição. 2p Bruxa + 2p ATQ% é geralmente a melhor dessas combinações. (Ex: Bruxa + Gladiador).",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "crimson_witch_of_flames",
+                        "gladiators_finale"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK%",
+                "goblet": "Bônus de Dano Pyro",
+                "circlet": "Dano CRIT (com Caçador das Sombras) / Taxa CRIT"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Recarga de Energia (ER%) (requisito baixo, ~100-120%)",
+                "Proficiência Elemental (EM) (baixa prioridade para Mono Pyro)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "the_first_great_magic",
+                    "name": "A Primeira Grande Mágica",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Arma assinatura e Melhor em Slot para Lyney. Fornece Dano CRIT e um buff de ATQ% baseado no número de personagens Pyro na equipe.",
+                    "icon_url": "/assets/images/weapons_detail/the_first_great_magic.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Excelente 'stat stick' de Dano CRIT. A passiva de Bônus de DANO% requer proximidade, mas ainda é muito forte.",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                },
+                {
+                    "weapon_id": "thundering_pulse",
+                    "name": "Agitação Trovejante",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Outra forte opção 5 estrelas com Dano CRIT. A passiva de ATQ% é bem utilizada por Lyney.",
+                    "icon_url": "/assets/images/weapons_detail/thundering_pulse.png"
+                },
+                {
+                    "weapon_id": "scion_of_the_blazing_sun",
+                    "name": "Herdeiro do Sol Ardente",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Passe de Batalha",
+                    "notes": "Opção do Passe de Batalha que fornece Taxa CRIT e dano adicional nos Ataques Carregados.",
+                    "icon_url": "/assets/images/weapons_detail/scion_of_the_blazing_sun.png"
+                },
+                {
+                    "weapon_id": "song_of_stillness",
+                    "name": "Canção da Patrulha do Pico",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Forja (Fontaine)",
+                    "notes": "Opção F2P forjável. Requer um curandeiro na equipe para ativar a passiva de Bônus de DANO%.",
+                    "icon_url": "/assets/images/weapons_detail/song_of_stillness.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal (para Ataque Carregado)",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst) (importante para stacks de Prop Surplus)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 860,
+            "base_atk": 25,
+            "base_def": 43,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 2815,
+            "base_atk": 81,
+            "base_def": 141,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 4668,
+            "base_atk": 135,
+            "base_def": 234,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "4.8%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 5990,
+            "base_atk": 173,
+            "base_def": 300,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "9.6%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7177,
+            "base_atk": 208,
+            "base_def": 360,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "9.6%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8357,
+            "base_atk": 242,
+            "base_def": 419,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 11021,
+            "base_atk": 318,
+            "base_def": 551,
+            "bonus_stat_label": "Taxa CRIT",
+            "bonus_stat_value": "19.2%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Resolução do Imperador (Emperor's Resolution)",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/emperors_resolution.webp"
+        },
+        {
+            "name": "Lasca de Ágata Agnidus",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/agnidus_agate_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_chunk.webp"
+        },
+        {
+            "name": "Gema de Ágata Agnidus",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/agnidus_agate_gemstone.webp"
+        },
+        {
+            "name": "Rosa Arco-Íris",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/rainbow_rose.webp"
+        },
+        {
+            "name": "Insígnia de Recruta",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/recruits_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Sargento",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/sergeants_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Oficial",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/lieutenants_insignia.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Forçar Cartas e Mudar Flores",
+            "icon_url": "/assets/images/talents/lyney/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 tiros consecutivos com um arco.\nAtaque Carregado: Realiza um Disparo com Mira mais preciso com Dano aumentado. Ao mirar, chamas se acumularão na ponta da flecha antes de ser disparada. Possui efeitos diferentes com base no tempo de carga:\n- Carga Nível 1: Dispara uma flecha flamejante que causa Dano Pyro.\n- Carga Nível 2: Dispara uma Flecha de Objeto Cênico que causa Dano Pyro, e ao atingir, invoca um Chapéu Felino Cômico. Ao disparar Flechas de Objeto Cênico enquanto o HP estiver acima de 60%, Lyney consumirá uma porção de seu HP para obter 1 acúmulo de \"Adereço Excedente\". Máx 5 acúmulos. Este efeito será removido após o personagem passar 30s fora de combate.\nChapéu Felino Cômico: Pode provocar oponentes próximos e atrair seus ataques. Cada oponente pode ser provocado pelo Chapéu apenas uma vez a cada 5s. Dura 4s. Quando destruído, ou quando sua duração expira, ele disparará um Fogo de Artifício Pirotécnico em 1 oponente próximo, causando Dano Pyro. Apenas 1 Chapéu Felino Cômico criado pelo próprio Lyney pode existir por vez.\nArkhe: Pneuma: Em certos intervalos, após uma Flecha de Objeto Cênico atingir um oponente, uma Lâmina Espiritual descerá na posição do oponente, causando Dano Pyro alinhado a Pneuma."
+        },
+        "elemental_skill": {
+            "name": "Luzes Multicoloridas",
+            "icon_url": "/assets/images/talents/lyney/talent_elemental_skill.webp",
+            "description": "Lyney agita seu chapéu, liberando uma surpresa de fogos de artifício! Ao usar esta habilidade, ele limpa todos os acúmulos de Adereço Excedente e causa Dano Pyro em AdE a oponentes na frente dele. O DANO é aumentado com base nos acúmulos limpos, e isso também regenerará o HP de Lyney com base em seu HP Máx.\nQuando um Chapéu Felino Cômico criado por Lyney está no campo, os fogos de artifício farão com que ele exploda, causando Dano Pyro em AdE igual ao DANO de um Fogo de Artifício Pirotécnico. O DANO causado desta forma é considerado Dano de Ataque Carregado."
+        },
+        "elemental_burst": {
+            "name": "Truque Maravilhoso: Desfile Milagroso",
+            "icon_url": "/assets/images/talents/lyney/talent_elemental_burst.webp",
+            "description": "Lyney se transforma em um Gato Risonho Gigante na Cartola! (Espera... O Gato?) Ele se move rapidamente, causando Dano Pyro uma vez a cada oponente próximo que atinge. Quando a duração do Gato Risonho na Cartola termina ou quando ele usa sua Habilidade Elemental, ele explodirá os fogos de artifício, causando Dano Pyro em AdE, invocará 1 Chapéu Felino Cômico e concederá a Lyney 1 acúmulo de Adereço Excedente."
+        },
+        "passives": [
+            {
+                "name": "Performance Perigosa",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/lyney/talent_passive_a1.webp",
+                "description": "Se Lyney consumir HP ao disparar uma Flecha de Objeto Cênico, o Chapéu Felino Cômico invocado por esta Flecha de Objeto Cênico restaurará 3 de Energia para Lyney e aumentará o DANO causado em 80% de seu ATQ ao explodir."
+            },
+            {
+                "name": "Aplausos Concludentes",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/lyney/talent_passive_a4.webp",
+                "description": "O DANO causado por Lyney a oponentes afetados por Pyro receberá os seguintes bônus:\n- Aumenta o DANO causado em 60%.\n- Cada personagem Pyro na equipe (excluindo o próprio Lyney) fará com que este bônus seja aumentado em mais 20%.\nLyney pode causar um máximo de 100% de DANO aumentado a oponentes afetados por Pyro desta forma."
+            },
+            {
+                "name": "Descoberta Trivial",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/lyney/talent_passive_utility.webp",
+                "description": "Exibe a localização de especialidades regionais de Fontaine próximas no minimapa."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Insígnia de Recruta",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/recruits_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Sargento",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/sergeants_insignia.webp"
+        },
+        {
+            "name": "Insígnia de Oficial",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/lieutenants_insignia.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Equidade\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_equity.webp"
+        },
+        {
+            "name": "Guia da \"Equidade\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_equity.webp"
+        },
+        {
+            "name": "Filosofia da \"Equidade\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_equity.webp"
+        },
+        {
+            "name": "Flor Primitiva do Oásis",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/primordial_greenbloom.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Truques Mirabolantes",
+            "icon_url": "/assets/images/constellations/lyney/constellation_1.webp",
+            "description": "Lyney pode ter 2 Chapéus Felinos Cômicos presentes ao mesmo tempo.\nAdicionalmente, Flechas de Objeto Cênico invocarão 2 Chapéus Felinos Cômicos e concederão a Lyney 1 acúmulo adicional de Adereço Excedente ao atingir. Este efeito pode ocorrer uma vez a cada 15s."
+        },
+        {
+            "level": 2,
+            "name": "Distração Ardilosa",
+            "icon_url": "/assets/images/constellations/lyney/constellation_2.webp",
+            "description": "Quando Lyney está em campo, ele ganhará um acúmulo de Atenção Focada a cada 2s. Isso aumentará seu Dano CRIT em 20%. Máx 3 acúmulos. Este efeito será cancelado quando Lyney sair do campo."
+        },
+        {
+            "level": 3,
+            "name": "Mão de Prestidigitador",
+            "icon_url": "/assets/images/constellations/lyney/constellation_3.webp",
+            "description": "Aumenta o Nível de Ataque Normal: Forçar Cartas e Mudar Flores em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Plano Bem Encenado",
+            "icon_url": "/assets/images/constellations/lyney/constellation_4.webp",
+            "description": "O Ataque Carregado Pyro de Lyney diminuirá a RES Pyro do oponente atingido em 20% por 6s."
+        },
+        {
+            "level": 5,
+            "name": "Segredo da Surpresa",
+            "icon_url": "/assets/images/constellations/lyney/constellation_5.webp",
+            "description": "Aumenta o Nível de Truque Maravilhoso: Desfile Milagroso em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Sorriso Capcioso",
+            "icon_url": "/assets/images/constellations/lyney/constellation_6.webp",
+            "description": "Quando Lyney dispara uma Flecha de Objeto Cênico, ele disparará um Fogo de Artifício Pirotécnico: Reprise que causa 80% do DANO de um Fogo de Artifício Pirotécnico. Este DANO é considerado Dano de Ataque Carregado."
+        }
+    ]
+}

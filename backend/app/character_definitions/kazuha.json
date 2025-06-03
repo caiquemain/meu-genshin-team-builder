@@ -1,0 +1,444 @@
+{
+    "id": "kaedehara_kazuha",
+    "name": "Kaedehara Kazuha",
+    "title": "Folhas Escarlates Perseguem as Ondas Selvagens",
+    "element": "Anemo",
+    "rarity": 5,
+    "weapon": "Sword",
+    "model_type": "Medium Male",
+    "role": [
+        "Suporte (Buffer de Dano Elemental, VV Holder, Agrupamento)",
+        "Sub-DPS (Swirl)"
+    ],
+    "description_bio": "Um samurai errante de Inazuma que atualmente está com a Frota Crux de Liyue. Um espírito gentil e despreocupado cujo coração abriga muitos fardos do passado.",
+    "birthday": "29 de Outubro",
+    "constellation_name_official": "Acer Palmatum",
+    "region": "Inazuma",
+    "affiliation": [
+        "A Cruz (Frota)",
+        "Clã Kaedehara (anteriormente)",
+        "Exército de Watatsumi (anteriormente)"
+    ],
+    "special_dish": {
+        "name": "Beleza de Todo Clima",
+        "icon_url": "/assets/images/dishes/kazuha_all_weather_beauty.webp"
+    },
+    "namecard_url": "/assets/images/namecards/kazuha_autumn_maple_viewing.png",
+    "icon_url": "/assets/images/characters/kazuha.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Kazuha Guide (Full)",
+                "url": "https://keqingmains.com/kazuha/"
+            },
+            {
+                "name": "KQM Kazuha Quick Guide",
+                "url": "https://keqingmains.com/q/kazuha-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom) - Kaedehara Kazuha",
+                "url": "https://genshin-impact.fandom.com/wiki/Kaedehara_Kazuha"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "kazuha_support_vv_full_em",
+            "name": "Suporte (Sombra Verde - Full EM)",
+            "notes_build": "Principal build de Kazuha, focada em maximizar seu buff de Dano Elemental (Passiva A4) através de Proficiência Elemental e reduzir a RES Elemental dos inimigos com 4p Sombra Verde. Nível 90 é altamente recomendado para maximizar o dano de Redemoinho.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para Kazuha suporte. A Redução de RES fornecida é um buff de dano imenso para a equipe, e o aumento de Dano de Redemoinho também beneficia o dano pessoal de Kazuha.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental (EM) / Recarga de Energia (ER%)",
+                "goblet": "Proficiência Elemental (EM)",
+                "circlet": "Proficiência Elemental (EM)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (meta de ~160-200% dependendo da arma e time)",
+                "Proficiência Elemental (EM)",
+                "ATK% (baixa prioridade)",
+                "Taxa CRIT / Dano CRIT (baixa prioridade para esta build)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "freedom_sworn",
+                    "name": "Juramento pela Liberdade",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor arma para Kazuha suporte se você puder ativar a passiva de forma confiável. Fornece EM e buffs de ATQ% e Dano de Ataque Normal/Carregado/Imersivo para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/freedom_sworn.png"
+                },
+                {
+                    "weapon_id": "xiphos_moonlight",
+                    "name": "Luz Lunar de Xiphos",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "R5 Xiphos é sua melhor opção 4 estrelas. Concede RE para Kazuha e sua equipe com base em sua EM.",
+                    "icon_url": "/assets/images/weapons_detail/xiphos_moonlight.png"
+                },
+                {
+                    "weapon_id": "iron_sting",
+                    "name": "Espinho de Ferro",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Melhor opção F2P e uma das melhores armas gerais para Kazuha devido ao seu sub-status de EM. A passiva de Bônus de DANO% também é boa.",
+                    "icon_url": "/assets/images/weapons_detail/iron_sting.png"
+                },
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha / Missão",
+                    "notes": "Boa opção se Kazuha ou sua equipe tiverem problemas com Recarga de Energia. Requer investimento em Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "toukabou_shigure",
+                    "name": "Sussurro da Floresta (Toukabou Shigure)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Evento",
+                    "notes": "Opção de evento gratuita que fornece EM. A passiva pode ser útil em alguns cenários.",
+                    "icon_url": "/assets/images/weapons_detail/toukabou_shigure.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        },
+        {
+            "key": "kazuha_sub_dps_vv_adc",
+            "name": "Sub-DPS Anemo (Sombra Verde - ADC)",
+            "notes_build": "Build focada no dano pessoal Anemo de Kazuha, usando ATQ%/Dano Anemo/CRIT. 4p Sombra Verde ainda é recomendado pela utilidade para a equipe. Viável se outro personagem já estiver fornecendo buffs de EM ou se o dano pessoal de Kazuha for preferido.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Ainda o mais recomendado para buffar o dano da equipe, mesmo em builds ADC.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "anemo_atk_2pc_mix_adc_kazuha",
+                    "set_name": "Dano Anemo (2p) + ATQ% (2p)",
+                    "pieces": "2+2",
+                    "notes": "Se o buff de equipe de 4p Sombra Verde não for necessário ou já estiver coberto, esta combinação pode oferecer um pouco mais de dano pessoal. (Ex: Sombra Verde + Gladiador).",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png",
+                    "pieces_display": "2+2",
+                    "is_combo": true,
+                    "combo_set_ids": [
+                        "viridescent_venerer",
+                        "gladiators_finale"
+                    ]
+                }
+            ],
+            "main_stats": {
+                "sands": "ATK% / Recarga de Energia (ER%)",
+                "goblet": "Bônus de Dano Anemo",
+                "circlet": "Taxa CRIT / Dano CRIT"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia (ER%) (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "ATK%",
+                "Proficiência Elemental (EM)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortador de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Melhor opção geral para Kazuha ADC devido à sua alta Taxa CRIT e ATQ% passivo.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Fornece alto Dano CRIT e Bônus de Dano Elemental. Kazuha pode manter 1-2 acúmulos da passiva.",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "haran_geppaku_futsu",
+                    "name": "Haran Geppaku Futsu",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Taxa CRIT e Bônus de Dano Elemental o tornam uma excelente escolha.",
+                    "icon_url": "/assets/images/weapons_detail/haran_geppaku_futsu.png"
+                },
+                {
+                    "weapon_id": "wolf_fang",
+                    "name": "Presa do Lobo",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Passe de Batalha",
+                    "notes": "Ótima opção 4 estrelas do Passe de Batalha, fornecendo Taxa CRIT e buffs para Habilidade e Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/wolf_fang.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal (baixa prioridade)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 1039,
+            "base_atk": 23,
+            "base_def": 63,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "0"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3403,
+            "base_atk": 75,
+            "base_def": 204,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "0"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5645,
+            "base_atk": 125,
+            "base_def": 339,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "28.8"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 7243,
+            "base_atk": 160,
+            "base_def": 435,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "57.6"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8581,
+            "base_atk": 190,
+            "base_def": 516,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "57.6"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9818,
+            "base_atk": 217,
+            "base_def": 591,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "86.4"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 13348,
+            "base_atk": 297,
+            "base_def": 807,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "115.2"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Mecanismo Marionete",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/marionette_core.webp"
+        },
+        {
+            "name": "Lasca de Turquesa Vayuda",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_chunk.webp"
+        },
+        {
+            "name": "Gema de Turquesa Vayuda",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_gemstone.webp"
+        },
+        {
+            "name": "Dendrobium do Mar",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/sea_ganoderma.webp"
+        },
+        {
+            "name": "Insígnia do Ladrão de Tesouros",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/treasure_hoarder_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Prateado",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/silver_raven_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Dourado",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/golden_raven_insignia.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Lâmina de Garyuu",
+            "icon_url": "/assets/images/talents/kazuha/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes rápidos.\nAtaque Carregado: Consome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.\nAtaque Imersivo: Mergulha do ar para atingir o chão abaixo, danificando inimigos ao longo do caminho e causando Dano em AdE no impacto. Se o Ataque Imersivo — Midare Ranzan for ativado pela Habilidade Elemental Chihayaburu, o Dano do Ataque Imersivo é convertido para Dano Anemo e criará um pequeno túnel de vento através de uma técnica secreta de espada que puxa objetos e oponentes próximos."
+        },
+        "elemental_skill": {
+            "name": "Chihayaburu",
+            "icon_url": "/assets/images/talents/kazuha/talent_elemental_skill.webp",
+            "description": "Libera uma técnica secreta tão feroz quanto o vento impetuoso que puxa objetos e oponentes para a posição atual de Kazuha antes de lançar os oponentes dentro de sua AdE para o ar, causando Dano Anemo e levantando Kazuha no ar.\nPode ser usado no ar.\nManter Pressionado: Carrega antes de liberar maior Dano Anemo em uma AdE maior do que Pressionar.\nAtaque Imersivo: Midare Ranzan: Se Chihayaburu for usado antes de Kazuha tocar o chão ao realizar um Ataque Imersivo, o Dano do Ataque Imersivo é convertido para Dano Anemo e criará um pequeno túnel de vento através de uma técnica secreta de espada que puxa objetos e oponentes próximos."
+        },
+        "elemental_burst": {
+            "name": "Lâmina de Kazuha",
+            "icon_url": "/assets/images/talents/kazuha/talent_elemental_burst.webp",
+            "description": "A técnica de assinatura de Kazuha — um único golpe como uma tempestade que se aproxima, causando Dano Anemo em AdE. A lâmina do vento deixará para trás um campo conhecido como \"Vento do Outono\" que causa Dano Anemo em AdE em intervalos definidos aos oponentes dentro dele.\nAbsorção Elemental: Se Vento do Outono entrar em contato com Hydro/Pyro/Cryo/Electro, ele absorverá esse elemento e causará Dano em AdE adicional desse tipo elemental. A Absorção Elemental pode ocorrer apenas uma vez durante a duração desta habilidade."
+        },
+        "passives": [
+            {
+                "name": "Lâmina da Nuvem Escondida",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/kazuha/talent_passive_a1.webp",
+                "description": "Se Chihayaburu entrar em contato com Hydro/Pyro/Cryo/Electro ao ser lançado, Chihayaburu absorverá esse elemento e se Ataque Imersivo: Midare Ranzan for usado antes que o efeito da habilidade termine, ele causará 200% de ATQ adicional do elemento absorvido como DANO. Isso será considerado Dano de Ataque Imersivo. A Absorção Elemental pode ocorrer apenas uma vez por uso de Chihayaburu."
+            },
+            {
+                "name": "Poesia de Soumon",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/kazuha/talent_passive_a4.webp",
+                "description": "Ao ativar uma reação de Redemoinho, Kaedehara Kazuha concederá a todos os membros da equipe um Bônus de Dano Elemental de 0.04% ao elemento absorvido pelo Redemoinho para cada ponto de Proficiência Elemental que ele possui por 8s. Bônus para diferentes elementos obtidos desta forma podem coexistir."
+            },
+            {
+                "name": "Andarilho das Nuvens",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/kazuha/talent_passive_utility.webp",
+                "description": "Diminui o consumo de Stamina ao Correr de seus próprios personagens na equipe em 20%.\nNão acumulável com Talentos Passivos que fornecem exatamente os mesmos efeitos."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Insígnia do Ladrão de Tesouros",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/treasure_hoarder_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Prateado",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/silver_raven_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Dourado",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/golden_raven_insignia.webp"
+        },
+        {
+            "name": "Ensinamentos da \"Diligência\"",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_diligence.webp"
+        },
+        {
+            "name": "Guia da \"Diligência\"",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_diligence.webp"
+        },
+        {
+            "name": "Filosofia da \"Diligência\"",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_diligence.webp"
+        },
+        {
+            "name": "Escama Dourada (Gilded Scale)",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/gilded_scale.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Montanhas Escarlates",
+            "icon_url": "/assets/images/constellations/kazuha/constellation_1.webp",
+            "description": "Diminui o TdR de Chihayaburu em 10%.\nUsar Lâmina de Kazuha reseta o TdR de Chihayaburu."
+        },
+        {
+            "level": 2,
+            "name": "Vento das Colinas Yamaarashi",
+            "icon_url": "/assets/images/constellations/kazuha/constellation_2.webp",
+            "description": "O campo de Vento do Outono criado por Lâmina de Kazuha tem os seguintes efeitos:\n- Aumenta a Proficiência Elemental de Kaedehara Kazuha em 200.\n- Aumenta a Proficiência Elemental dos personagens dentro do campo em 200.\nOs efeitos de aumento de Proficiência Elemental desta Constelação não se acumulam."
+        },
+        {
+            "level": 3,
+            "name": "Conto de Maple",
+            "icon_url": "/assets/images/constellations/kazuha/constellation_3.webp",
+            "description": "Aumenta o Nível de Chihayaburu em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Vazio de Oozora",
+            "icon_url": "/assets/images/constellations/kazuha/constellation_4.webp",
+            "description": "Quando a Energia Elemental de Kaedehara Kazuha é inferior a 45, ele obtém os seguintes efeitos:\n- Pressionar ou Manter Pressionado Chihayaburu regenera 3 ou 4 de Energia Elemental para Kaedehara Kazuha, respectivamente.\n- Ao planar, Kaedehara Kazuha regenera 2 de Energia Elemental por segundo."
+        },
+        {
+            "level": 5,
+            "name": "Sabedoria de Eras",
+            "icon_url": "/assets/images/constellations/kazuha/constellation_5.webp",
+            "description": "Aumenta o Nível de Lâmina de Kazuha em 3.\nO nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Vento Escarlate Carmesim",
+            "icon_url": "/assets/images/constellations/kazuha/constellation_6.webp",
+            "description": "Após Kaedehara Kazuha usar Chihayaburu ou Lâmina de Kazuha, ele ganha uma Infusão Anemo por 5s. Adicionalmente, cada ponto de Proficiência Elemental aumentará o DANO causado pelos Ataques Normais, Carregados e Imersivos de Kaedehara Kazuha em 0.2%."
+        }
+    ]
+}

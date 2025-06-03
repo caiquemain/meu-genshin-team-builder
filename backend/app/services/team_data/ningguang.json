@@ -1,0 +1,86 @@
+[
+    {
+        "id": "ningguang_double_geo_flex",
+        "name": "Ningguang - Duplo Geo + Flex",
+        "strategy": "Ningguang como DPS principal ou quickswap, combinada com outro personagem Geo para Ressonância Geo (Zhongli, Albedo, Gorou, Chiori, Viajante Geo). Os outros dois slots são flexíveis para suportes que forneçam buffs, cura ou reações (ex: Bennett, Xingqiu, Fischl).",
+        "characters_in_team": [
+            {
+                "character_id": "ningguang",
+                "role_in_team": "Main DPS / Burst DPS Geo",
+                "build_key": "ningguang_dps_main"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred)",
+                "build_key": "zhongli_shield_support_tenacity_petra"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro (Off-field)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            }
+        ],
+        "notes_team": "Outras opções Geo: Albedo (dano off-field), Gorou (buff DEF, bom se escalar com DEF), Chiori. Outras opções Flex: Xingqiu/Yelan (dano off-field Hydro), Fischl/Yae Miko (dano off-field Electro)."
+    },
+    {
+        "id": "ningguang_mono_geo",
+        "name": "Ningguang - Mono Geo",
+        "strategy": "Time focado totalmente em dano Geo, com Ningguang como DPS principal, geralmente acompanhada por Gorou (C6 é ideal para buff de Dano CRIT Geo), Albedo/Chiori para dano off-field, e Zhongli para escudo e RES Shred.",
+        "characters_in_team": [
+            {
+                "character_id": "ningguang",
+                "role_in_team": "Main DPS Geo",
+                "build_key": "ningguang_dps_main"
+            },
+            {
+                "character_id": "gorou",
+                "role_in_team": "Suporte Geo (Buffer DEF/Geo DMG)",
+                "build_key": "gorou_geo_support_favonius_exile"
+            },
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo (Off-field)",
+                "build_key": "albedo_geo_sub_dps_husk"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred)",
+                "build_key": "zhongli_shield_support_tenacity"
+            }
+        ],
+        "notes_team": "Chiori pode substituir Albedo. Se Gorou não for C6, o buff de Dano CRIT não estará presente."
+    },
+    {
+        "id": "ningguang_navia_support",
+        "name": "Ningguang - Suporte para Navia",
+        "strategy": "Ningguang atua como bateria Geo para Navia e pode usar Histórias Extraordinárias de Caçadores de Dragões para buffar o ATQ de Navia. Ela também contribui com dano e Cristalização.",
+        "characters_in_team": [
+            {
+                "character_id": "ningguang",
+                "role_in_team": "Suporte Geo (Bateria/TTDS Holder)",
+                "build_key": "ningguang_support_ttds_archaic"
+            },
+            {
+                "character_id": "navia",
+                "role_in_team": "Main DPS Geo",
+                "build_key": "navia_geo_dps_nighttime_whispers"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            }
+        ],
+        "notes_team": "Xiangling pode ser usada no lugar de Furina para uma abordagem focada em Pyro + Geo. Zhongli também é uma boa opção no lugar de Bennett/Furina para mais sobrevivência."
+    }
+]

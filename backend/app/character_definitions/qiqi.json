@@ -1,0 +1,449 @@
+{
+    "id": "qiqi",
+    "name": "Qiqi",
+    "title": "Ressurreição Gélida",
+    "element": "Cryo",
+    "rarity": 5,
+    "weapon": "Sword",
+    "model_type": "Short Female",
+    "role": [
+        "Healer",
+        "Off-Field Cryo Applicator",
+        "Driver"
+    ],
+    "description_bio": "Uma aprendiz e coletora de ervas no Chalé de Bubu. 'Abençoada' pelos adepti com um corpo que não pode morrer, esta pequena zumbi não consegue fazer nada sem primeiro dar ordens a si mesma para fazê-lo[cite: 5142, 5143]. Sua memória é como uma peneira, e ela sempre carrega um caderno para anotar coisas importantes[cite: 5144].",
+    "birthday": "3 de Março",
+    "constellation_name_official": "Pristina Nola",
+    "region": "Liyue",
+    "affiliation": [
+        "Chalé de Bubu",
+        "Adepti"
+    ],
+    "special_dish": {
+        "name": "Sem Futuro",
+        "icon_url": "/assets/images/dishes/qiqi_no_tomorrow.webp"
+    },
+    "namecard_url": "/assets/images/namecards/qiqi_cold_storage.png",
+    "icon_url": "/assets/images/characters/qiqi.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "updated_date": "2025-06-02",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Qiqi Guide",
+                "url": "https://keqingmains.com/qiqi/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Qiqi",
+                "url": "https://genshin-impact.fandom.com/wiki/Qiqi"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Qiqi",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Qiqi"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "qiqi_general_healer_clam",
+            "name": "Curandeira Geral (Concha Tingida Pelo Mar)",
+            "notes_build": "Maximiza a capacidade de cura de Qiqi enquanto contribui com dano passivo através do conjunto Concha Tingida Pelo Mar. Ideal para manter a equipe viva em qualquer situação[cite: 5237, 5238, 5239].",
+            "artifacts": [
+                {
+                    "set_id": "ocean_hued_clam",
+                    "set_name": "Concha Tingida Pelo Mar",
+                    "pieces": 4,
+                    "notes": "Melhor opção, adiciona dano significativo com base na cura de Qiqi[cite: 5242].",
+                    "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png"
+                },
+                {
+                    "set_id": "maiden_beloved",
+                    "set_name": "Donzela Amada",
+                    "pieces": 4,
+                    "notes": "Foco total em maximizar a cura, se o dano da Concha não for prioridade[cite: 5248].",
+                    "icon_url": "/assets/images/artifact_sets/maiden_beloved.png"
+                },
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Oferece buff de ATQ para a equipe, mas requer proximidade e acerto da Habilidade Elemental[cite: 5246, 5247].",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ% / Recarga de Energia%",
+                "goblet": "ATQ%",
+                "circlet": "Bônus de Cura% / ATQ%"
+            },
+            "sub_stats_priority": [
+                "ATQ%",
+                "Recarga de Energia%",
+                "ATQ Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "sacrificial_sword",
+                    "name": "Espada do Sacrifício",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Ideal para maximizar o uptime da Habilidade Elemental e, consequentemente, da Concha Tingida Pelo Mar ou cura[cite: 5254, 5288].",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_sword.png"
+                },
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Ajuda com a Recarga de Energia da equipe[cite: 5255].",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "prototype_rancour",
+                    "name": "Protótipo Rancor",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Opção F2P com alto ATQ base para aumentar a cura[cite: 5253].",
+                    "icon_url": "/assets/images/weapons_detail/prototype_rancour.png"
+                },
+                {
+                    "weapon_id": "the_flute",
+                    "name": "A Flauta",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Fornece ATQ% e um pequeno dano adicional[cite: 5321].",
+                    "icon_url": "/assets/images/weapons_detail/the_flute.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal"
+            ]
+        },
+        {
+            "key": "qiqi_taser_driver_physical",
+            "name": "Driver Taser (Físico / Concha)",
+            "notes_build": "Qiqi atua como driver on-field, usando seus Ataques Normais rápidos para ativar habilidades off-field de personagens Electro (como Beidou/Fischl). Pode focar em Dano Físico ou maximizar dano da Concha Tingida Pelo Mar[cite: 5259, 5260].",
+            "artifacts": [
+                {
+                    "set_id": "ocean_hued_clam",
+                    "set_name": "Concha Tingida Pelo Mar",
+                    "pieces": 4,
+                    "notes": "Contribui com dano significativo baseado na cura enquanto Qiqi está em campo atacando[cite: 5286].",
+                    "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png"
+                },
+                {
+                    "set_id": "pale_flame",
+                    "set_name": "Chama Pálida",
+                    "pieces": 2,
+                    "notes": "Para build focada em Dano Físico, combinada com 2p Cavaleiro Manchado de Sangue[cite: 5289].",
+                    "icon_url": "/assets/images/artifact_sets/pale_flame.png"
+                },
+                {
+                    "set_id": "bloodstained_chivalry",
+                    "set_name": "Cavaleiro Manchado de Sangue",
+                    "pieces": 2,
+                    "notes": "Para build focada em Dano Físico, combinada com 2p Chama Pálida[cite: 5289].",
+                    "icon_url": "/assets/images/artifact_sets/bloodstained_chivalry.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ%",
+                "goblet": "Bônus de Dano Físico% (para build física) / ATQ% (para Concha)",
+                "circlet": "Taxa CRIT% / Dano CRIT% (para build física) / Bônus de Cura% (para Concha)"
+            },
+            "sub_stats_priority": [
+                "ATQ%",
+                "Taxa CRIT / Dano CRIT (para build física)",
+                "Recarga de Energia%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "aquila_favonia",
+                    "name": "Falcão",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Alto ATQ base e Bônus de Dano Físico, excelente para build física[cite: 5309].",
+                    "icon_url": "/assets/images/weapons_detail/aquila_favonia.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortadora de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Alta Taxa CRIT e bônus de Vida que se converte em ATQ, bom para dano geral[cite: 5309].",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "sacrificial_sword",
+                    "name": "Espada do Sacrifício",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Melhor opção com 4p Concha Tingida Pelo Mar para maximizar o uptime da cura e dano da concha[cite: 5306, 5320].",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_sword.png"
+                },
+                {
+                    "weapon_id": "the_black_sword",
+                    "name": "A Espada Negra",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Passe de Batalha",
+                    "notes": "Boa para build física, oferece Taxa CRIT e buff para Ataques Normais/Carregados[cite: 5307, 5317].",
+                    "icon_url": "/assets/images/weapons_detail/the_black_sword.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2498,
+            "base_atk": 58,
+            "base_def": 186,
+            "bonus_stat_label": "Bônus de Cura%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4973,
+            "base_atk": 115,
+            "base_def": 371,
+            "bonus_stat_label": "Bônus de Cura%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 6396,
+            "base_atk": 148,
+            "base_def": 477,
+            "bonus_stat_label": "Bônus de Cura%",
+            "bonus_stat_value": "5.5%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 8023,
+            "base_atk": 186,
+            "base_def": 598,
+            "bonus_stat_label": "Bônus de Cura%",
+            "bonus_stat_value": "11.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 9463,
+            "base_atk": 220,
+            "base_def": 706,
+            "bonus_stat_label": "Bônus de Cura%",
+            "bonus_stat_value": "11.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 10912,
+            "base_atk": 253,
+            "base_def": 814,
+            "bonus_stat_label": "Bônus de Cura%",
+            "bonus_stat_value": "16.5%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 12368,
+            "base_atk": 287,
+            "base_def": 922,
+            "bonus_stat_label": "Bônus de Cura%",
+            "bonus_stat_value": "22.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Núcleo de Geada",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/hoarfrost_core.webp"
+        },
+        {
+            "name": "Lasca de Jade Shivada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/shivada_jade_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_chunk.webp"
+        },
+        {
+            "name": "Gema de Jade Shivada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/shivada_jade_gemstone.webp"
+        },
+        {
+            "name": "Violeta",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/violetgrass.webp"
+        },
+        {
+            "name": "Pergaminho Guia",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/divining_scroll.webp"
+        },
+        {
+            "name": "Pergaminho do Encantamento",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/sealed_scroll.webp"
+        },
+        {
+            "name": "Pergaminho da Maldição",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/forbidden_curse_scroll.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Arte da Espada Antiga",
+            "icon_url": "/assets/images/talents/qiqi/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes rápidos[cite: 5165].\nAtaque Carregado: Consome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada[cite: 5166].\nAtaque Imersivo: Mergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em AdE durante o impacto[cite: 5167]."
+        },
+        "elemental_skill": {
+            "name": "Arte do Adeptus: Arauto da Floresta",
+            "icon_url": "/assets/images/talents/qiqi/talent_elemental_skill.webp",
+            "description": "Qiqi invoca o Arauto da Floresta, causando Dano Cryo aos inimigos ao redor[cite: 5172].\nArauto da Floresta:\n- Ao atingir, os Ataques Normais e Carregados de Qiqi regeneram Vida para todos os membros da equipe e aliados próximos. A cura escala com o ATQ de Qiqi[cite: 5173].\n- Regenera periodicamente a Vida do personagem ativo[cite: 5174].\n- Segue o personagem, causando Dano Cryo aos inimigos em seu caminho[cite: 5175]."
+        },
+        "elemental_burst": {
+            "name": "Arte do Adeptus: Preservador da Fortuna",
+            "icon_url": "/assets/images/talents/qiqi/talent_elemental_burst.webp",
+            "description": "Qiqi libera poder Adepti, marcando inimigos próximos com um Talismã da Preservação da Fortuna que causa Dano Cryo[cite: 5188].\nTalismã da Preservação da Fortuna: Quando inimigos afetados por este Talismã sofrem Dano, o personagem que causou o Dano regenera Vida[cite: 5189]."
+        },
+        "passives": [
+            {
+                "name": "Métodos que Prolongam a Vida",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/qiqi/talent_passive_a1.webp",
+                "description": "Quando um personagem sob o efeito de Arte do Adeptus: Arauto da Floresta desencadeia uma Reação Elemental, seu Bônus de Cura Recebido é aumentado em 20% por 8s[cite: 5207, 5427]."
+            },
+            {
+                "name": "Um Vislumbre do Arcano",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/qiqi/talent_passive_a4.webp",
+                "description": "Quando Qiqi atinge inimigos com seus Ataques Normais e Carregados, ela tem 50% de chance de aplicar um Talismã da Preservação da Fortuna a eles por 6s. Este efeito pode ocorrer uma vez a cada 30s[cite: 5396, 5428]."
+            },
+            {
+                "name": "Memórias da Vida Passada",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/qiqi/talent_passive_utility.webp",
+                "description": "Mostra a localização de especialidades de Liyue próximas no minimapa[cite: 5401, 5430]."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Pergaminho Guia",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/divining_scroll.webp"
+        },
+        {
+            "name": "Pergaminho do Encantamento",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/sealed_scroll.webp"
+        },
+        {
+            "name": "Pergaminho da Maldição",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/forbidden_curse_scroll.webp"
+        },
+        {
+            "name": "Ensinamentos de Prosperidade",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_prosperity.webp"
+        },
+        {
+            "name": "Guia de Prosperidade",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_prosperity.webp"
+        },
+        {
+            "name": "Filosofia de Prosperidade",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_prosperity.webp"
+        },
+        {
+            "name": "Cauda do Vento do Norte",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/tail_of_boreas.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Ascéticos do Gelo",
+            "icon_url": "/assets/images/constellations/qiqi/constellation_1.webp",
+            "description": "Quando o Arauto da Floresta atinge um inimigo marcado pelo Talismã da Preservação da Fortuna, Qiqi regenera 2 de Energia[cite: 5216, 5431]."
+        },
+        {
+            "level": 2,
+            "name": "Congelando até os Ossos",
+            "icon_url": "/assets/images/constellations/qiqi/constellation_2.webp",
+            "description": "O Dano do Ataque Normal e Ataque Carregado de Qiqi contra os inimigos afetados por Cryo aumentam 15%[cite: 5225, 5432]."
+        },
+        {
+            "level": 3,
+            "name": "Elogio Ascendente",
+            "icon_url": "/assets/images/constellations/qiqi/constellation_3.webp",
+            "description": "Aumenta o nível de Arte do Adeptus: Preservador da Fortuna (Supremo) em 3. O nível máximo de elevação é 15[cite: 5227, 5433]."
+        },
+        {
+            "level": 4,
+            "name": "Supressão Divina",
+            "icon_url": "/assets/images/constellations/qiqi/constellation_4.webp",
+            "description": "Os alvos marcados com o Talismã da Preservação da Fortuna têm seu ATQ reduzido em 20%[cite: 5229, 5434]."
+        },
+        {
+            "level": 5,
+            "name": "Flor de Lótus Carmesim",
+            "icon_url": "/assets/images/constellations/qiqi/constellation_5.webp",
+            "description": "Aumenta o nível de Arte do Adeptus: Arauto da Floresta (Habilidade Elemental) em 3. O nível máximo de elevação é 15[cite: 5233, 5435]."
+        },
+        {
+            "level": 6,
+            "name": "Ritual de Ressurreição",
+            "icon_url": "/assets/images/constellations/qiqi/constellation_6.webp",
+            "description": "Ao usar Arte do Adeptus: Preservador da Fortuna (Supremo), revive todos os personagens da equipe caídos ao redor e regenera 50% da Vida deles. Este efeito pode ocorrer uma vez a cada 15 minutos[cite: 5235, 5436]."
+        }
+    ]
+}

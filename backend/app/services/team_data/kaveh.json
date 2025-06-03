@@ -1,0 +1,83 @@
+[
+    {
+        "id": "kaveh_nilou_bloom_xingqiu_baizhu",
+        "name": "Kaveh - Nilou Bloom (Nilou, Xingqiu, Baizhu)",
+        "strategy": "Kaveh como driver on-field para times de Florescimento de Nilou, detonando Sementes Abundantes e se curando com sua Passiva A1. Xingqiu para dano Hydro off-field e aplicação. Baizhu para cura adicional, aplicação Dendro e escudo leve.",
+        "characters_in_team": [
+            {
+                "character_id": "kaveh",
+                "role_in_team": "Driver Dendro On-field / Ativador de Bloom (Full EM)",
+                "build_key": "kaveh_bloom_driver_deepwood_em_er"
+            },
+            {
+                "character_id": "nilou",
+                "role_in_team": "Ativadora de Florescimento Abundante / Aplicadora Hydro",
+                "build_key": "nilou_bloom_hp_keyofkhajnisut"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Healer / Aplicador Dendro Secundário / Escudeiro Leve",
+                "build_key": "baizhu_healer_deepwood_prototype_amber_hp"
+            }
+        ]
+    },
+    {
+        "id": "kaveh_hyperbloom_xingqiu_kuki_shinobu_nahida",
+        "name": "Kaveh - Hyperbloom (Xingqiu, Kuki Shinobu, Nahida)",
+        "strategy": "Kaveh atua como driver on-field, aplicando Dendro para gerar Sementes com Xingqiu. Kuki Shinobu ativa Hiperflorecimento e cura. Nahida para aplicação Dendro off-field massiva e buff de EM.",
+        "characters_in_team": [
+            {
+                "character_id": "kaveh",
+                "role_in_team": "Driver Dendro On-field",
+                "build_key": "kaveh_bloom_driver_deepwood_em_er"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Healer / Ativadora de Hyperbloom (Full EM)",
+                "build_key": "kuki_shinobu_hyperbloom_full_em_flowerofparadiselost"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Aplicadora Dendro Off-field / Buffer EM",
+                "build_key": "nahida_offfield_support_deepwood"
+            }
+        ]
+    },
+    {
+        "id": "kaveh_burgeon_thoma_xingqiu_yaoyao",
+        "name": "Kaveh - Burgeon (Thoma, Xingqiu, Yaoyao)",
+        "strategy": "Kaveh como driver on-field para Germinação. Xingqiu para aplicação Hydro. Yaoyao para aplicação Dendro e cura. Thoma (full EM) ativa Germinação e fornece um escudo.",
+        "characters_in_team": [
+            {
+                "character_id": "kaveh",
+                "role_in_team": "Driver Dendro On-field",
+                "build_key": "kaveh_bloom_driver_deepwood_em_er"
+            },
+            {
+                "character_id": "thoma",
+                "role_in_team": "Ativador de Germinação (Full EM) / Escudeiro",
+                "build_key": "thoma_burgeon_full_em_kitain_or_dragons_bane"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro / Aplicador Hydro Off-field",
+                "build_key": "xingqiu_subdps_emblem_sacrificial_sword"
+            },
+            {
+                "character_id": "yaoyao",
+                "role_in_team": "Healer / Aplicadora Dendro Off-field",
+                "build_key": "yaoyao_dendro_healer_deepwood_favonius"
+            }
+        ]
+    }
+]
