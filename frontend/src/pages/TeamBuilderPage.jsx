@@ -1,14 +1,16 @@
 // frontend/src/pages/TeamBuilderPage.jsx
 import React, { useState, useEffect } from 'react';
-import { getAllCharacters, getTeamSuggestions } from '../services/characterService'; // Ajuste o caminho se necessário
+import { getAllCharacters, getTeamSuggestions } from '../services/characterService';
 import CharacterCard from '../components/CharacterCard';
 import SuggestedTeamCard from '../components/SuggestedTeamCard';
 import FilterBar from '../components/FilterBar';
+import { useSelectedCharacters } from '../contexts/SelectedCharactersContext'; // Importar o hook
 import './TeamBuilderPage.css';
 
 const TeamBuilderPage = () => {
     const [allCharacters, setAllCharacters] = useState([]);
-    const [selectedCharacters, setSelectedCharacters] = useState(new Set());
+    const { selectedCharacterIds, toggleCharacterSelection, clearSelectedCharacters } = useSelectedCharacters(); // USAR DO CONTEXTO
+
     const [isLoading, setIsLoading] = useState(true);
     const [isSuggesting, setIsSuggesting] = useState(false);
     const [error, setError] = useState(null);
@@ -28,7 +30,7 @@ const TeamBuilderPage = () => {
             setError(null);
             try {
                 const characters = await getAllCharacters();
-                setAllCharacters(characters || []); // Garante que seja um array
+                setAllCharacters(characters || []);
             } catch (err) {
                 console.error("Erro no TeamBuilderPage ao buscar personagens:", err);
                 setError("Falha ao carregar personagens. Verifique se o backend está rodando e acessível.");
@@ -40,19 +42,11 @@ const TeamBuilderPage = () => {
     }, []);
 
     const handleSelectCharacter = (characterId) => {
-        setSelectedCharacters(prevSelected => {
-            const newSelected = new Set(prevSelected);
-            if (newSelected.has(characterId)) {
-                newSelected.delete(characterId);
-            } else {
-                newSelected.add(characterId);
-            }
-            return newSelected;
-        });
+        toggleCharacterSelection(characterId);
     };
 
     const handleSubmitSelectedCharacters = async () => {
-        if (selectedCharacters.size === 0) {
+        if (selectedCharacterIds.size === 0) { // Usar selectedCharacterIds.size do contexto
             setSuggestionError("Por favor, selecione ao menos um personagem.");
             setSuggestedTeams([]);
             return;
@@ -62,10 +56,8 @@ const TeamBuilderPage = () => {
         setSuggestedTeams([]);
 
         try {
-            // Ajuste para como sua função getTeamSuggestions espera os dados,
-            // pode ser um array de IDs ou objetos.
-            const teams = await getTeamSuggestions(Array.from(selectedCharacters));
-            setSuggestedTeams(teams || []); // Garante que seja um array
+            const teams = await getTeamSuggestions(Array.from(selectedCharacterIds)); // Usar Array.from(selectedCharacterIds) do contexto
+            setSuggestedTeams(teams || []);
         } catch (err) {
             console.error("Erro ao obter sugestões de times:", err);
             setSuggestionError(err.response?.data?.error || err.message || "Falha ao buscar sugestões de times.");
@@ -87,7 +79,7 @@ const TeamBuilderPage = () => {
     };
 
     const filteredCharacters = allCharacters.filter(character => {
-        if (!character) return false; // Adiciona verificação para personagem nulo/undefined
+        if (!character) return false;
         const { element, weapon, rarity } = activeFilters;
         if (element && character.element !== element) return false;
         if (weapon && character.weapon !== weapon) return false;
@@ -114,17 +106,17 @@ const TeamBuilderPage = () => {
 
             <p className="character-count-display">
                 Exibindo {filteredCharacters.length} de {allCharacters.length} personagens.
-                Selecionados: {selectedCharacters.size}
+                Selecionados: {selectedCharacterIds.size} {/* Usar selectedCharacterIds.size do contexto */}
             </p>
             <div className="character-grid">
                 {filteredCharacters.length > 0 ? (
                     filteredCharacters.map(character => (
-                        character && character.id ? ( // Adiciona verificação extra para character e character.id
+                        character && character.id ? (
                             <CharacterCard
                                 key={character.id}
                                 character={character}
                                 onSelectCharacter={handleSelectCharacter}
-                                isSelected={selectedCharacters.has(character.id)}
+                                isSelected={selectedCharacterIds.has(character.id)} // Usar selectedCharacterIds.has do contexto
                             />
                         ) : null
                     ))
@@ -141,10 +133,15 @@ const TeamBuilderPage = () => {
                     <button
                         onClick={handleSubmitSelectedCharacters}
                         className="submit-button"
-                        disabled={isSuggesting || selectedCharacters.size === 0}
+                        disabled={isSuggesting || selectedCharacterIds.size === 0} // Usar selectedCharacterIds.size do contexto
                     >
                         {isSuggesting ? 'Sugerindo...' : 'Sugerir Times'}
                     </button>
+                    {selectedCharacterIds.size > 0 && ( // Usar selectedCharacterIds.size do contexto
+                        <button onClick={clearSelectedCharacters} className="clear-button">
+                            Limpar Seleção
+                        </button>
+                    )}
                 </div>
             )}
 
@@ -157,9 +154,9 @@ const TeamBuilderPage = () => {
             {!isSuggesting && suggestedTeams.length > 0 && (
                 <div className="suggested-teams-container">
                     <h2>Times Sugeridos:</h2>
-                    <div className="suggested-teams-grid"> {/* Adicionado para consistência de layout */}
+                    <div className="suggested-teams-grid">
                         {suggestedTeams.map((team, index) => (
-                            team ? ( // Adiciona verificação para team nulo/undefined
+                            team ? (
                                 <SuggestedTeamCard key={team.name || `team-${index}`} team={team} />
                             ) : null
                         ))}
