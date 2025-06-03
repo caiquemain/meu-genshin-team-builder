@@ -1,0 +1,112 @@
+[
+    {
+        "id": "yanfei_vaporize_xingqiu_bennett_sucrose",
+        "name": "Yanfei - Vaporizar (Xingqiu, Bennett, Sucrose)",
+        "strategy": "Yanfei como DPS Pyro principal, causando Vaporizar com seus Ataques Carregados. Xingqiu fornece aplicação Hydro off-field. Bennett buffa ATQ e cura. Sucrose agrupa inimigos, reduz RES Pyro com Sombra Verde e compartilha Proficiência Elemental.",
+        "characters_in_team": [
+            {
+                "character_id": "yanfei",
+                "role_in_team": "Main DPS Pyro (Vaporize)",
+                "build_key": "yanfei_onfield_pyro_dps_wanderers"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro (Off-field Enabler)",
+                "build_key": "xingqiu_off_field_hydro_support_emblem_sacrificial"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer/Pyro Battery)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "sucrose",
+                "role_in_team": "Suporte Anemo (VV Shred/EM Buffer/Agrupamento)",
+                "build_key": "sucrose_anemo_support_vv_sacrificial_ttds"
+            }
+        ],
+        "notes_team": "Yelan pode substituir Xingqiu. Kazuha pode substituir Sucrose para mais buff de Dano Elemental."
+    },
+    {
+        "id": "yanfei_overvape_fischl_xingqiu_bennett",
+        "name": "Yanfei - Supervaporização (Fischl, Xingqiu, Bennett)",
+        "strategy": "Yanfei causa Vaporizar e Sobrecarga simultaneamente. Fischl fornece dano Electro off-field. Xingqiu para aplicação Hydro. Bennett para buffs e cura.",
+        "characters_in_team": [
+            {
+                "character_id": "yanfei",
+                "role_in_team": "Main DPS Pyro (Overvape)",
+                "build_key": "yanfei_onfield_pyro_dps_wanderers"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro (Off-field Enabler)",
+                "build_key": "xingqiu_off_field_hydro_support_emblem_sacrificial"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "yanfei_mono_pyro_kazuha_bennett_xiangling",
+        "name": "Yanfei - Mono Pyro (Kazuha, Bennett, Xiangling)",
+        "strategy": "Time focado em Dano Pyro bruto. Yanfei como DPS on-field. Kazuha agrupa e buffa Dano Pyro com Sombra Verde. Bennett para buff de ATQ e cura. Xiangling para dano Pyro off-field.",
+        "characters_in_team": [
+            {
+                "character_id": "yanfei",
+                "role_in_team": "Main DPS Pyro",
+                "build_key": "yanfei_onfield_pyro_dps_wanderers"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer/Pyro Battery)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro (Off-field)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            }
+        ]
+    },
+    {
+        "id": "yanfei_c4_shielder_hu_tao_yelan_zhongli",
+        "name": "Yanfei C4 - Suporte de Escudo (Hu Tao)",
+        "strategy": "Yanfei C4 fornece um escudo Pyro forte com seu Supremo, sendo útil para proteger Hu Tao. Pode usar Histórias Extraordinárias de Caçadores de Dragões para buffar Hu Tao.",
+        "characters_in_team": [
+            {
+                "character_id": "yanfei",
+                "role_in_team": "Suporte Shielder (C4+) / TTDS Holder",
+                "build_key": "yanfei_c4_shielder_support"
+            },
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro",
+                "build_key": "hutao_pyro_vape_dps_shimenawa_homa"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro (Off-field/DMG Buff)",
+                "build_key": "yelan_off_field_hydro_support_emblem_favonius"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred)",
+                "build_key": "zhongli_shield_support_tenacity"
+            }
+        ],
+        "notes_team": "Xingqiu pode substituir Yelan. Se Yanfei não tiver C4, Thoma C6 ou Diona são melhores opções de escudo Pyro/sobrevivência."
+    }
+]

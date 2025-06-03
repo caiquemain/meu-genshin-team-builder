@@ -1,0 +1,460 @@
+{
+    "id": "yanfei",
+    "name": "Yanfei",
+    "title": "Inocência Sábia",
+    "element": "Pyro",
+    "rarity": 4,
+    "weapon": "Catalyst",
+    "model_type": "Medium Female",
+    "role": [
+        "On-Field DPS",
+        "Pyro DPS",
+        "Shielder Support (C4)"
+    ],
+    "description_bio": "Uma renomada consultora jurídica do Porto de Liyue. Yanfei é uma jovem meio-adepti brilhante e enérgica que conhece as leis como a palma da mão, sempre buscando um equilíbrio justo e ajudando seus clientes dentro dos limites da legalidade.",
+    "birthday": "28 de Julho",
+    "constellation_name_official": "Bestia Iustitia",
+    "region": "Liyue",
+    "affiliation": [
+        "Consultoria Jurídica Yanfei",
+        "Adepti (Descendente)"
+    ],
+    "special_dish": {
+        "name": "\"Do Meu Jeito\"",
+        "icon_url": "/assets/images/dishes/yanfei_my_way.webp"
+    },
+    "namecard_url": "/assets/images/namecards/yanfei_impartial.png",
+    "icon_url": "/assets/images/characters/yanfei.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Yanfei Full Guide (Outdated)",
+                "url": "https://keqingmains.com/yanfei/"
+            },
+            {
+                "name": "KQM Yanfei Quick Guide",
+                "url": "https://keqingmains.com/q/yanfei-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Yanfei",
+                "url": "https://genshin-impact.fandom.com/wiki/Yanfei"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Yanfei",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Yanfei"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "yanfei_onfield_pyro_dps_wanderers",
+            "name": "DPS Pyro On-Field (Trupe Itinerante)",
+            "notes_build": "Focada em maximizar o Dano Pyro dos Ataques Carregados de Yanfei, que são sua principal fonte de dano. Funciona bem em times de Vaporizar ou Mono Pyro.",
+            "artifacts": [
+                {
+                    "set_id": "wanderers_troupe",
+                    "set_name": "Trupe Itinerante",
+                    "pieces": 4,
+                    "notes": "Seu melhor conjunto (BiS) para Ataques Carregados, fornecendo PE e um grande bônus de Dano para eles.",
+                    "icon_url": "/assets/images/artifact_sets/wanderers_troupe.png"
+                },
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "set_name": "Bruxa das Chamas Carmesim",
+                    "pieces": 4,
+                    "notes": "Opção forte, especialmente em times de Vaporizar, buffando Dano Pyro e de reações.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                },
+                {
+                    "set_id": "shimenawas_reminiscence",
+                    "set_name": "Reminiscência Nostálgica",
+                    "pieces": 4,
+                    "notes": "Aumenta o Dano do Ataque Carregado ao custo de Energia, pode ser viável se o Supremo não for crucial.",
+                    "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Boa opção em times de reação para aumentar PE e ATQ.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ% / Proficiência Elemental (para Vaporizar)",
+                "goblet": "Bônus de Dano Pyro%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATQ%",
+                "Proficiência Elemental (para Vaporizar)",
+                "Recarga de Energia%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "lost_prayer_to_the_sacred_winds",
+                    "name": "Oração Perdida aos Ventos Sagrados",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Excelente opção 5★, fornece Taxa CRIT e Bônus de Dano Elemental com tempo em campo.",
+                    "icon_url": "/assets/images/weapons_detail/lost_prayer_to_the_sacred_winds.png"
+                },
+                {
+                    "weapon_id": "skyward_atlas",
+                    "name": "Atlas Celestial",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Alto ATQ base e ATQ%, bom para dano geral.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_atlas.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Melhor opção 4★, Dano CRIT e buffs aleatórios poderosos (ATQ% ou Dano Elemental são os melhores).",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                },
+                {
+                    "weapon_id": "solar_pearl",
+                    "name": "Pérola Solar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Passe de Batalha",
+                    "notes": "Taxa CRIT e passiva que buffa Ataques Normais, Habilidade e Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/solar_pearl.png"
+                },
+                {
+                    "weapon_id": "dodoco_tales",
+                    "name": "Contos de Dodoco",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Evento",
+                    "notes": "Ótima opção F2P de evento, buffa Ataques Normais e Carregados.",
+                    "icon_url": "/assets/images/weapons_detail/dodoco_tales.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)"
+            ]
+        },
+        {
+            "key": "yanfei_c4_shielder_support",
+            "name": "Suporte de Escudo (C4+)",
+            "notes_build": "Utiliza sua Constelação 4 para criar um escudo forte com seu Supremo. Focada em Vida para maximizar o escudo e Recarga de Energia para manter o Supremo ativo.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Para buffar o ATQ da equipe após usar o Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "instructor",
+                    "set_name": "Instrutor",
+                    "pieces": 4,
+                    "notes": "Opção de baixo investimento para buffar a Proficiência Elemental da equipe.",
+                    "icon_url": "/assets/images/artifact_sets/instructor.png"
+                },
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p Vida% (Donzela Amada/Brilho de Vourukasha) para maximizar Vida e escudo.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia% / Vida%",
+                "goblet": "Vida%",
+                "circlet": "Vida% / Bônus de Cura% (para Protótipo Âmbar)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito, ~200%+) ",
+                "Vida%",
+                "Vida Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Melhor opção F2P, fornece Vida%, energia para Yanfei e cura para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                },
+                {
+                    "weapon_id": "thrilling_tales_of_dragon_slayers",
+                    "name": "Histórias Extraordinárias de Caçadores de Dragões",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Opção de baixo investimento para buffar massivamente o ATQ do próximo personagem, mas Vida% secundária é baixa para o escudo.",
+                    "icon_url": "/assets/images/weapons_detail/thrilling_tales_of_dragon_slayers.png"
+                },
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Para ajudar com a Recarga de Energia da equipe, requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 1985,
+            "base_atk": 51,
+            "base_def": 123,
+            "bonus_stat_label": "Bônus de Dano Pyro%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 3837,
+            "base_atk": 98,
+            "base_def": 237,
+            "bonus_stat_label": "Bônus de Dano Pyro%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 4904,
+            "base_atk": 126,
+            "base_def": 304,
+            "bonus_stat_label": "Bônus de Dano Pyro%",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6161,
+            "base_atk": 158,
+            "base_def": 382,
+            "bonus_stat_label": "Bônus de Dano Pyro%",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7417,
+            "base_atk": 190,
+            "base_def": 459,
+            "bonus_stat_label": "Bônus de Dano Pyro%",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8674,
+            "base_atk": 222,
+            "base_def": 537,
+            "bonus_stat_label": "Bônus de Dano Pyro%",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10046,
+            "base_atk": 240,
+            "base_def": 622,
+            "bonus_stat_label": "Bônus de Dano Pyro%",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Jade Juvenil",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/juvenile_jade.webp"
+        },
+        {
+            "name": "Lasca de Ágata Agnidus",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/agnidus_agate_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_chunk.webp"
+        },
+        {
+            "name": "Gema de Ágata Agnidus",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/agnidus_agate_gemstone.webp"
+        },
+        {
+            "name": "Jade Noctilucosa",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/noctilucous_jade.webp"
+        },
+        {
+            "name": "Insígnia do Ladrão de Tesouros",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/treasure_hoarder_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Prateado",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/silver_raven_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Dourado",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/golden_raven_insignia.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Selo de Fogo",
+            "icon_url": "/assets/images/talents/yanfei/talent_normal_attack.webp",
+            "description": "Ataque Normal: Dispara bolas de fogo, causando Dano Pyro. Ao atingir, concede a Yanfei um Selo Escarlate (máx. 3 ou 4 com C6). Cada selo diminui o consumo de Stamina do Ataque Carregado.\nAtaque Carregado: Consome Stamina e todos os Selos Escarlates para causar Dano Pyro em AdE. O Dano e AdE aumentam com o número de selos consumidos.\nAtaque Imersivo: Mergulha para atingir o chão, causando Dano Pyro em AdE."
+        },
+        "elemental_skill": {
+            "name": "Acordo Assinado",
+            "icon_url": "/assets/images/talents/yanfei/talent_elemental_skill.webp",
+            "description": "Invoca chamas que causam Dano Pyro em AdE. Se atingir inimigos, concede a Yanfei o número máximo de Selos Escarlates."
+        },
+        "elemental_burst": {
+            "name": "Contrato Vinculativo",
+            "icon_url": "/assets/images/talents/yanfei/talent_elemental_burst.webp",
+            "description": "Desencadeia uma explosão de chamas intensas, causando Dano Pyro em AdE, concedendo a Yanfei o número máximo de Selos Escarlates e aplicando o efeito Brilhantismo.\nBrilhantismo: Concede a Yanfei um Selo Escarlate em intervalos regulares e aumenta o Dano de seu Ataque Carregado. O efeito termina se Yanfei sair de campo ou for derrotada."
+        },
+        "passives": [
+            {
+                "name": "Termos Associados",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/yanfei/talent_passive_a1.webp",
+                "description": "Quando Yanfei consome Selos Escarlates usando um Ataque Carregado, cada Selo Escarlate aumenta o Bônus de Dano Pyro de Yanfei em 5% por 6s. Este efeito não acumula se um novo Ataque Carregado for usado durante a duração."
+            },
+            {
+                "name": "Olhos Justiceiros",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/yanfei/talent_passive_a4.webp",
+                "description": "Quando o Ataque Carregado de Yanfei causa um Acerto CRIT em um inimigo, ela causa um Dano Pyro em AdE adicional igual a 80% de seu ATQ. Este Dano é considerado Dano de Ataque Carregado."
+            },
+            {
+                "name": "Conhecimento Jurídico",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/yanfei/talent_passive_utility.webp",
+                "description": "Mostra a localização de especialidades de Liyue próximas no minimapa."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Insígnia do Ladrão de Tesouros",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/treasure_hoarder_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Prateado",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/silver_raven_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Dourado",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/golden_raven_insignia.webp"
+        },
+        {
+            "name": "Ensinamentos de Ouro",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_gold.webp"
+        },
+        {
+            "name": "Guia de Ouro",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_gold.webp"
+        },
+        {
+            "name": "Filosofia de Ouro",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_gold.webp"
+        },
+        {
+            "name": "Galho de Jade de Sangue",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/bloodjade_branch.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "A Lei Sabe",
+            "icon_url": "/assets/images/constellations/yanfei/constellation_1.webp",
+            "description": "Quando Yanfei usa um Ataque Carregado, cada Selo Escarlate existente adicionalmente reduz o consumo de Stamina deste Ataque Carregado em 10% e aumenta a RES à Interrupção de Yanfei durante sua liberação."
+        },
+        {
+            "level": 2,
+            "name": "Interpretação Final",
+            "icon_url": "/assets/images/constellations/yanfei/constellation_2.webp",
+            "description": "Aumenta a Taxa CRIT do Ataque Carregado de Yanfei em 20% contra inimigos com menos de 50% de Vida."
+        },
+        {
+            "level": 3,
+            "name": "Samadhi, Carimbo Flamejante",
+            "icon_url": "/assets/images/constellations/yanfei/constellation_3.webp",
+            "description": "Aumenta o nível de Acordo Assinado (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Contrato de Suplementação",
+            "icon_url": "/assets/images/constellations/yanfei/constellation_4.webp",
+            "description": "Ao usar Contrato Vinculativo (Supremo): Cria um escudo que absorve Dano até 45% da Vida Máx. de Yanfei por 15s. Este escudo absorve Dano Pyro com 250% de eficácia."
+        },
+        {
+            "level": 5,
+            "name": "Declaração Juramentada",
+            "icon_url": "/assets/images/constellations/yanfei/constellation_5.webp",
+            "description": "Aumenta o nível de Contrato Vinculativo (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Cláusula Adicional",
+            "icon_url": "/assets/images/constellations/yanfei/constellation_6.webp",
+            "description": "Aumenta o número máximo de Selos Escarlates em 1."
+        }
+    ]
+}

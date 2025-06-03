@@ -1,0 +1,449 @@
+{
+    "id": "xianyun",
+    "name": "Xianyun",
+    "title": "Mensageira Celestial",
+    "element": "Anemo",
+    "rarity": 5,
+    "weapon": "Catalyst",
+    "model_type": "Tall Female",
+    "role": [
+        "Support",
+        "Healer",
+        "Plunge Attack Enabler/Buffer"
+    ],
+    "description_bio": "Uma das Poderosas e Iluminadas Adepti de Liyue, amplamente conhecida como Retentora de Nuvem. Mestre da mecânica e de várias outras artes, ela agora reside no Porto de Liyue sob a forma humana de Xianyun, desfrutando de uma vida mais mundana enquanto secretamente orienta seus discípulos e auxilia a cidade.",
+    "birthday": "11 de Abril",
+    "constellation_name_official": "Grus Serena",
+    "region": "Liyue",
+    "affiliation": [
+        "Monte Aocang",
+        "Adepti"
+    ],
+    "special_dish": {
+        "name": "Alegria Abrangedora",
+        "icon_url": "/assets/images/dishes/xianyun_encompassing_gladness.webp"
+    },
+    "namecard_url": "/assets/images/namecards/xianyun_white_clouds.png",
+    "icon_url": "/assets/images/characters/xianyun.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Xianyun Quick Guide",
+                "url": "https://keqingmains.com/q/xianyun-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Xianyun",
+                "url": "https://genshin-impact.fandom.com/wiki/Xianyun"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Xianyun",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Xianyun"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "xianyun_plunge_support_healer_vv",
+            "name": "Suporte de Ataque Imersivo / Curandeira (Sombra Verde)",
+            "notes_build": "Focada em habilitar e buffar o Dano de Ataque Imersivo da equipe, fornecer cura contínua para toda a equipe e reduzir a RES Elemental dos inimigos com Sombra Verde. Requer alta Recarga de Energia.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto (BiS) para suporte Anemo, reduzindo a RES Elemental dos inimigos ao elemento infundido no Redemoinho.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "song_of_days_past",
+                    "set_name": "Canção dos Dias Passados",
+                    "pieces": 4,
+                    "notes": "Opção viável se Sombra Verde já estiver em uso ou se o foco for maximizar o buff de Dano Adicional Base de sua cura.",
+                    "icon_url": "/assets/images/artifact_sets/song_of_days_past.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Se nenhum outro personagem na equipe estiver usando, para buffar o ATQ de todos após o Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia% / ATQ%",
+                "goblet": "ATQ%",
+                "circlet": "ATQ% / Bônus de Cura%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito, ~180-220%+)",
+                "ATQ%",
+                "ATQ Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "cranes_echoing_call",
+                    "name": "Chamado Ecoante da Garça",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Sua melhor arma (BiS). Alto ATQ Base, ATQ% e buff de Dano de Ataque Imersivo.",
+                    "icon_url": "/assets/images/weapons_detail/cranes_echoing_call.png"
+                },
+                {
+                    "weapon_id": "skyward_atlas",
+                    "name": "Atlas Celestial",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Alto ATQ Base e ATQ%, boa opção geral.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_atlas.png"
+                },
+                {
+                    "weapon_id": "oathsworn_eye",
+                    "name": "Olho do Juramento",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Evento",
+                    "notes": "Excelente opção F2P de evento, fornece ATQ% e ajuda na Recarga de Energia após usar Habilidade Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/oathsworn_eye.png"
+                },
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Ótimo para necessidades de energia da equipe, requer um pouco de Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                },
+                {
+                    "weapon_id": "hakushin_ring",
+                    "name": "Anel de Hakushin",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Útil em times com reações Electro, buffando Dano Elemental. Xianyun precisa ativar a reação.",
+                    "icon_url": "/assets/images/weapons_detail/hakushin_ring.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        },
+        {
+            "key": "xianyun_general_healer_vv",
+            "name": "Curandeira Geral (Sombra Verde)",
+            "notes_build": "Focada primariamente em cura e utilidade Anemo com Sombra Verde, sem ênfase no buff de Ataque Imersivo. Build mais flexível para times que não usam Ataques Imersivos.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Ainda recomendado para utilidade de redução de RES.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "song_of_days_past",
+                    "set_name": "Canção dos Dias Passados",
+                    "pieces": 4,
+                    "notes": "Maximiza o potencial de buff através da cura.",
+                    "icon_url": "/assets/images/artifact_sets/song_of_days_past.png"
+                },
+                {
+                    "set_id": "ocean_hued_clam",
+                    "set_name": "Concha Tingida Pelo Mar",
+                    "pieces": 4,
+                    "notes": "Converte cura em Dano Físico adicional.",
+                    "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia% / ATQ%",
+                "goblet": "ATQ%",
+                "circlet": "Bônus de Cura% / ATQ%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito)",
+                "ATQ%",
+                "ATQ Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Melhor opção para este papel, ajudando com a energia da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                },
+                {
+                    "weapon_id": "prototype_amber",
+                    "name": "Protótipo Âmbar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Opção F2P que fornece cura adicional e energia para Xianyun.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_amber.png"
+                },
+                {
+                    "weapon_id": "thrilling_tales_of_dragon_slayers",
+                    "name": "Histórias Extraordinárias de Caçadores de Dragões",
+                    "rarity": 3,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Opção de baixo investimento para buffar o ATQ do próximo personagem, mas dificulta atingir a RE de Xianyun.",
+                    "icon_url": "/assets/images/weapons_detail/thrilling_tales_of_dragon_slayers.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2102,
+            "base_atk": 68,
+            "base_def": 116,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4065,
+            "base_atk": 132,
+            "base_def": 225,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5175,
+            "base_atk": 168,
+            "base_def": 286,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "7.2%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6581,
+            "base_atk": 213,
+            "base_def": 364,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7692,
+            "base_atk": 249,
+            "base_def": 425,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8810,
+            "base_atk": 286,
+            "base_def": 487,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "21.6%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10331,
+            "base_atk": 335,
+            "base_def": 570,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "28.8%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Escama das Nuvens Espiraladas",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/cloudseam_scale.webp"
+        },
+        {
+            "name": "Lasca de Turquesa Vayuda",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_chunk.webp"
+        },
+        {
+            "name": "Gema de Turquesa Vayuda",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_gemstone.webp"
+        },
+        {
+            "name": "Jade Aquaclara",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/clearwater_jade.webp"
+        },
+        {
+            "name": "Pergaminho Guia",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/divining_scroll.webp"
+        },
+        {
+            "name": "Pergaminho do Encantamento",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/sealed_scroll.webp"
+        },
+        {
+            "name": "Pergaminho da Maldição",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/forbidden_curse_scroll.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Palavras Secretas da Flor da Amizade",
+            "icon_url": "/assets/images/talents/xianyun/talent_normal_attack.webp",
+            "description": "Ataque Normal: Invoca ventos que tomam a forma de borboletas, realizando até 4 ataques que causam Dano Anemo.\nAtaque Carregado: Consome Stamina para lançar um Anel de Vento em linha reta, causando Dano Anemo aos inimigos no caminho.\nAtaque Imersivo: Concentrando o poder Anemo, Xianyun mergulha em direção ao chão, causando Dano em AdE. Este Dano é considerado Dano de Ataque Imersivo."
+        },
+        "elemental_skill": {
+            "name": "Nuvens Brancas ao Amanhecer",
+            "icon_url": "/assets/images/talents/xianyun/talent_elemental_skill.webp",
+            "description": "Xianyun entra no estado de Nuvem Transfigurada, não sofrendo Dano de Queda, e usa uma Escada Celestial. Neste estado, pode usar Escada Celestial até 2 vezes adicionais. Cada uso aumenta a altura e o Dano do próximo Ataque Imersivo Onda de Nuvens Impactante. Se Escada Celestial não for usada em um curto período, o estado termina.\nOnda de Nuvens Impactante: Executado como um Ataque Imersivo, causa Dano Anemo em AdE e termina o estado de Nuvem Transfigurada. Este Dano é considerado Dano de Ataque Imersivo."
+        },
+        "elemental_burst": {
+            "name": "Estrelas se Reúnem ao Pôr do Sol",
+            "icon_url": "/assets/images/talents/xianyun/talent_elemental_burst.webp",
+            "description": "Causa Dano Anemo em AdE, cura todos os membros da equipe próximos (cura baseada no ATQ de Xianyun) e invoca o mecanismo 'Engenhoca de Estrelas'.\nEngenhoca de Estrelas: Segue continuamente o personagem ativo, curando periodicamente todos os membros da equipe. Possui inicialmente 8 acúmulos de 'Apoio Adepti'. Enquanto tiver 'Apoio Adepti', aumenta a altura do salto do personagem ativo. Quando o personagem ativo completa um Ataque Imersivo, a Engenhoca de Estrelas consome 1 acúmulo e causa Dano Anemo em AdE."
+        },
+        "passives": [
+            {
+                "name": "Pena da Garça",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/xianyun/talent_passive_a1.webp",
+                "description": "Cada inimigo atingido por Onda de Nuvens Impactante (da Habilidade Elemental) concede a todos os membros da equipe próximos 1 acúmulo de 'Pena da Tempestade' por 20s. Máximo de 4 acúmulos. Aumenta a Taxa CRIT de Ataque Imersivo em 4%/6%/8%/10% respectivamente. Acúmulos de diferentes personagens existem independentemente."
+            },
+            {
+                "name": "Adeptus em Sua Morada",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/xianyun/talent_passive_a4.webp",
+                "description": "Quando a Engenhoca de Estrelas (do Supremo) tem acúmulos de 'Apoio Adepti', o Dano do Ataque Imersivo dos personagens ativos próximos é aumentado em 200% do ATQ de Xianyun. O aumento máximo de Dano que pode ser obtido desta forma é 9000."
+            },
+            {
+                "name": "Forma da Garça",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/xianyun/talent_passive_utility.webp",
+                "description": "Aumenta a Velocidade de Planar em 15% para seus próprios personagens da equipe. Não acumulável com Talentos Passivos que fornecem exatamente os mesmos efeitos."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Pergaminho Guia",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/divining_scroll.webp"
+        },
+        {
+            "name": "Pergaminho do Encantamento",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/sealed_scroll.webp"
+        },
+        {
+            "name": "Pergaminho da Maldição",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/forbidden_curse_scroll.webp"
+        },
+        {
+            "name": "Ensinamentos de Ouro",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_gold.webp"
+        },
+        {
+            "name": "Guia de Ouro",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_gold.webp"
+        },
+        {
+            "name": "Filosofia de Ouro",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_gold.webp"
+        },
+        {
+            "name": "Olho Devorador do Turbilhão de Luz",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/lightless_eye_of_the_maelstrom.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Vento Purificador de Intenções Malignas",
+            "icon_url": "/assets/images/constellations/xianyun/constellation_1.webp",
+            "description": "Nuvens Brancas ao Amanhecer (Habilidade Elemental) ganha 1 carga adicional."
+        },
+        {
+            "level": 2,
+            "name": "Reclusão do Mundo Mundano",
+            "icon_url": "/assets/images/constellations/xianyun/constellation_2.webp",
+            "description": "Após usar Nuvens Brancas ao Amanhecer (Habilidade Elemental), o ATQ de Xianyun é aumentado em 20% por 15s. Adicionalmente, o efeito da Passiva 'Adeptus em Sua Morada' é fortalecido: Quando a Engenhoca de Estrelas (do Supremo) tem acúmulos de 'Apoio Adepti', o Dano do Ataque Imersivo dos personagens ativos próximos é aumentado em 400% do ATQ de Xianyun. O aumento máximo de Dano que pode ser obtido desta forma é 18000."
+        },
+        {
+            "level": 3,
+            "name": "Criações da Lua e Estrelas",
+            "icon_url": "/assets/images/constellations/xianyun/constellation_3.webp",
+            "description": "Aumenta o nível de Estrelas se Reúnem ao Pôr do Sol (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Deleite da Jujuba Deliciosa",
+            "icon_url": "/assets/images/constellations/xianyun/constellation_4.webp",
+            "description": "Após usar Escada Celestial 1/2/3 vezes durante uma única instância de Nuvem Transfigurada (Habilidade Elemental), quando a Onda de Nuvens Impactante desta instância atingir oponentes, ela curará todos os membros da equipe próximos em uma quantidade igual a 50%/80%/150% do ATQ de Xianyun, respectivamente. Este efeito pode ser ativado uma vez a cada 5s."
+        },
+        {
+            "level": 5,
+            "name": "Evoluindo para os Céus",
+            "icon_url": "/assets/images/constellations/xianyun/constellation_5.webp",
+            "description": "Aumenta o nível de Nuvens Brancas ao Amanhecer (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Serva da Retentora de Nuvem",
+            "icon_url": "/assets/images/constellations/xianyun/constellation_6.webp",
+            "description": "Após Xianyun usar Escada Celestial 1/2/3 vezes durante uma única instância de Nuvem Transfigurada (Habilidade Elemental), o Dano CRIT de Onda de Nuvens Impactante desta instância é aumentado em 15%/35%/70%, respectivamente. Dentro de 16s após Xianyun usar Estrelas se Reúnem ao Pôr do Sol (Supremo), seu uso de Nuvens Brancas ao Amanhecer (Habilidade Elemental) não entrará em TdR. Este efeito será cancelado após ela usar Nuvens Brancas ao Amanhecer 8 vezes."
+        }
+    ]
+}

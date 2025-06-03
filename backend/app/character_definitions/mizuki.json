@@ -1,0 +1,377 @@
+{
+    "id": "yumemizuki_mizuki",
+    "name": "Yumemizuki Mizuki",
+    "title": "Abraço dos Sonhos Encantadores",
+    "element": "Anemo",
+    "rarity": 5,
+    "weapon": "Catalyst",
+    "model_type": "Medium Female",
+    "role": [
+        "On-Field DPS",
+        "Swirl DPS",
+        "Buffer"
+    ],
+    "description_bio": "Uma psicóloga e principal acionista da Casa de Banhos Aisa em Inazuma. Yumemizuki Mizuki é conhecida por sua habilidade de interagir com sonhos e pesadelos, oferecendo conforto e soluções para aqueles atormentados por eles. Ela possui uma natureza gentil, mas é perspicaz e determinada em sua missão de guiar os outros através do reino onírico.",
+    "birthday": "16 de Março",
+    "constellation_name_official": "Tapirus Somniator",
+    "region": "Inazuma",
+    "affiliation": [
+        "Inazuma",
+        "Casa de Banhos Aisa (acionista)"
+    ],
+    "special_dish": {
+        "name": "Sonhos Curadores",
+        "icon_url": "/assets/images/dishes/yumemizuki_mizuki_dreams_of_healing.webp"
+    },
+    "namecard_url": "/assets/images/namecards/yumemizuki_mizuki_nightmare_devourer.png",
+    "icon_url": "/assets/images/characters/yumemizuki_mizuki.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Yumemizuki Mizuki Quick Guide",
+                "url": "https://keqingmains.com/q/yumemizuki_mizuki-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Yumemizuki Mizuki",
+                "url": "https://genshin-impact.fandom.com/wiki/Yumemizuki_Mizuki"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Yumemizuki Mizuki",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Yumemizuki_Mizuki"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "yumemizuki_mizuki_onfield_swirl_dps_vv",
+            "name": "DPS de Redemoinho On-Field (Sombra Verde)",
+            "notes_build": "Focada em maximizar o dano da reação de Redemoinho e buffar o dano elemental da equipe (Pyro, Hydro, Electro, Cryo - PHEC) enquanto está em campo. Sua Habilidade Elemental permite flutuar e causar Redemoinhos continuamente.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Seu melhor conjunto (BiS) indiscutível. Reduz a RES Elemental dos inimigos e aumenta o dano de Redemoinho.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Alternativa se outro personagem Anemo já estiver usando Sombra Verde, para maximizar a Proficiência Elemental de Mizuki.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "flower_of_paradise_lost",
+                    "set_name": "Flor do Paraíso Perdido",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p de PE (Sonhos Dourados/Trupe Itinerante) se não puder usar 4p Sombra Verde. Menos recomendado.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental / Recarga de Energia% (se necessário)",
+                "goblet": "Proficiência Elemental",
+                "circlet": "Proficiência Elemental"
+            },
+            "sub_stats_priority": [
+                "Proficiência Elemental",
+                "Recarga de Energia% (para manter o Supremo)",
+                "ATQ% (menor prioridade)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "sunny_morning_sleep_in",
+                    "name": "Sunny Morning Sleep-In (Sonho da Manhã Ensolarada)",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Sua melhor arma (BiS). Oferece alta Proficiência Elemental e buffs de PE adicionais. Detalhes completos desta arma precisam ser adicionados ao banco de dados.",
+                    "icon_url": "/assets/images/weapons_detail/sunny_morning_sleep-in.png"
+                },
+                {
+                    "weapon_id": "a_thousand_floating_dreams",
+                    "name": "Mil Sonhos Flutuantes",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Excelente opção 5★, fornece muita Proficiência Elemental e buff de PE para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/a_thousand_floating_dreams.png"
+                },
+                {
+                    "weapon_id": "sacrificial_fragments",
+                    "name": "Fragmentos do Sacrifício",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Ótima opção 4★, alta Proficiência Elemental e chance de resetar o TdR da Habilidade Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_fragments.png"
+                },
+                {
+                    "weapon_id": "mappa_mare",
+                    "name": "Mapa Mare",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Opção F2P que fornece Proficiência Elemental e buff de Dano Elemental ao causar reações.",
+                    "icon_url": "/assets/images/weapons_detail/mappa_mare.png"
+                },
+                {
+                    "weapon_id": "favonius_codex",
+                    "name": "Códice de Favonius",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Para necessidades de Recarga de Energia da equipe, se a PE já for alta.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_codex.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2124,
+            "base_atk": 54,
+            "base_def": 120,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "0"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4106,
+            "base_atk": 105,
+            "base_def": 233,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "0"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5228,
+            "base_atk": 133,
+            "base_def": 297,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "28.8"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6610,
+            "base_atk": 169,
+            "base_def": 376,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "57.6"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7732,
+            "base_atk": 197,
+            "base_def": 439,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "57.6"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8861,
+            "base_atk": 226,
+            "base_def": 502,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "86.4"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10307,
+            "base_atk": 263,
+            "base_def": 585,
+            "bonus_stat_label": "Proficiência Elemental",
+            "bonus_stat_value": "115.2"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Anel da Escuridão Eterna",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/evergloom_ring.webp"
+        },
+        {
+            "name": "Lasca de Turquesa Vayuda",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_chunk.webp"
+        },
+        {
+            "name": "Gema de Turquesa Vayuda",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_gemstone.webp"
+        },
+        {
+            "name": "Ganoderma do Mar",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/sea_ganoderma.webp"
+        },
+        {
+            "name": "Casca Espectral",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/spectral_husk.webp"
+        },
+        {
+            "name": "Coração Espectral",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/spectral_heart.webp"
+        },
+        {
+            "name": "Núcleo Espectral",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/spectral_nucleus.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Melodia do Sono Flutuante",
+            "icon_url": "/assets/images/talents/yumemizuki_mizuki/talent_normal_attack.webp",
+            "description": "Ataque Normal: Dispara orbes de vento, realizando até 4 ataques que causam Dano Anemo.\nAtaque Carregado: Consome Stamina para conjurar um vendaval em forma de anel, causando Dano Anemo em AdE após um curto tempo de canalização.\nAtaque Imersivo: Mergulha do ar, causando Dano Anemo em AdE ao impactar o chão."
+        },
+        "elemental_skill": {
+            "name": "Véu dos Sonhos Lúcidos",
+            "icon_url": "/assets/images/talents/yumemizuki_mizuki/talent_elemental_skill.webp",
+            "description": "Mizuki flutua, entrando no estado 'Passeio Onírico'. Neste estado, ela consome Vigor Onírico para se manter no ar e se mover. Seus Ataques Normais são substituídos por 'Pulso Onírico', que causa Dano Anemo em AdE e desencadeia Redemoinho. Seus Ataques Carregados são substituídos por 'Explosão Onírica', que causa Dano Anemo em AdE maior e consome mais Vigor Onírico. O estado termina quando o Vigor Onírico se esgota ou a Habilidade é usada novamente."
+        },
+        "elemental_burst": {
+            "name": "Canção de Ninar do Pesadelo Devorador",
+            "icon_url": "/assets/images/talents/yumemizuki_mizuki/talent_elemental_burst.webp",
+            "description": "Cria um 'Santuário dos Sonhos' que causa Dano Anemo em AdE aos inimigos próximos e cura todos os membros da equipe (cura baseada na Proficiência Elemental de Mizuki). O Santuário também atrai inimigos próximos e aumenta a Proficiência Elemental dos personagens dentro de sua AdE."
+        },
+        "passives": [
+            {
+                "name": "Santuário dos Sonhos",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/yumemizuki_mizuki/talent_passive_a1.webp",
+                "description": "Quando Mizuki está no estado 'Passeio Onírico' (Habilidade Elemental), a duração da Habilidade Elemental de personagens da equipe (excluindo Mizuki) que estejam dentro da AdE de um Santuário dos Sonhos (Supremo) é aumentada."
+            },
+            {
+                "name": "Fluxo Onírico",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/yumemizuki_mizuki/talent_passive_a4.webp",
+                "description": "Quando um Redemoinho desencadeado por Mizuki absorve um Elemento (Hydro/Pyro/Cryo/Electro), o Dano causado por esse elemento pela equipe é aumentado por um período."
+            },
+            {
+                "name": "Colecionadora de Sonhos",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/yumemizuki_mizuki/talent_passive_utility.webp",
+                "description": "Ao fabricar Materiais de Elevação de Personagem e Arma, há 25% de chance de restituir uma parte dos materiais usados."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Casca Espectral",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/spectral_husk.webp"
+        },
+        {
+            "name": "Coração Espectral",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/spectral_heart.webp"
+        },
+        {
+            "name": "Núcleo Espectral",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/spectral_nucleus.webp"
+        },
+        {
+            "name": "Ensinamentos da Transitoriedade",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_transience.webp"
+        },
+        {
+            "name": "Guia da Transitoriedade",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_transience.webp"
+        },
+        {
+            "name": "Filosofia da Transitoriedade",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_transience.webp"
+        },
+        {
+            "name": "Coração das Cinzas",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/ashen_heart.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Limiar do Reino dos Sonhos",
+            "icon_url": "/assets/images/constellations/yumemizuki_mizuki/constellation_1.webp",
+            "description": "Véu dos Sonhos Lúcidos (Habilidade Elemental) ganha 1 carga adicional."
+        },
+        {
+            "level": 2,
+            "name": "Sussurros da Alma Adormecida",
+            "icon_url": "/assets/images/constellations/yumemizuki_mizuki/constellation_2.webp",
+            "description": "Quando o Santuário dos Sonhos (Supremo) causa Dano Anemo, ele também causa uma instância adicional de Dano Anemo igual a 50% da Proficiência Elemental de Mizuki."
+        },
+        {
+            "level": 3,
+            "name": "Espelho da Consciência Serena",
+            "icon_url": "/assets/images/constellations/yumemizuki_mizuki/constellation_3.webp",
+            "description": "Aumenta o nível de Véu dos Sonhos Lúcidos (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Abraço do Sono Eterno",
+            "icon_url": "/assets/images/constellations/yumemizuki_mizuki/constellation_4.webp",
+            "description": "Quando Mizuki coleta um Orbe ou Partícula Elemental, a duração do estado 'Passeio Onírico' (Habilidade Elemental) é estendida em 1s. Máximo de 5s de extensão por uso."
+        },
+        {
+            "level": 5,
+            "name": "Tecelã de Pesadelos e Maravilhas",
+            "icon_url": "/assets/images/constellations/yumemizuki_mizuki/constellation_5.webp",
+            "description": "Aumenta o nível de Canção de Ninar do Pesadelo Devorador (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Herdeira do Deus dos Sonhos",
+            "icon_url": "/assets/images/constellations/yumemizuki_mizuki/constellation_6.webp",
+            "description": "Quando Mizuki está no estado 'Passeio Onírico', o Dano CRIT dos Redemoinhos desencadeados por ela aumenta em 40%. Adicionalmente, o Santuário dos Sonhos (Supremo) agora também reduz a RES Anemo dos inimigos em 20%."
+        }
+    ]
+}

@@ -1,0 +1,452 @@
+{
+    "id": "wriothesley",
+    "name": "Wriothesley",
+    "title": "Emissário da Culpa Incógnita",
+    "element": "Cryo",
+    "arkhe": "Ousia",
+    "rarity": 5,
+    "weapon": "Catalyst",
+    "model_type": "Tall Male",
+    "role": [
+        "On-Field DPS",
+        "Cryo DPS"
+    ],
+    "description_bio": "O Duque da Fortaleza Meropide e um executor silencioso da justiça nas profundezas de Fontaine. Wriothesley lida com os problemas com punhos frios e uma mente calculista, mantendo a ordem no submundo com uma abordagem pragmática.",
+    "birthday": "23 de Novembro",
+    "constellation_name_official": "Cerberus",
+    "region": "Fontaine",
+    "affiliation": [
+        "Fortaleza Meropide"
+    ],
+    "special_dish": {
+        "name": "Churrasco de Costela com Molho Secreto",
+        "icon_url": "/assets/images/dishes/wriothesley_secret_sauce_bbq_ribs.webp"
+    },
+    "namecard_url": "/assets/images/namecards/wriothesley_detention.png",
+    "icon_url": "/assets/images/characters/wriothesley.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Wriothesley Quick Guide",
+                "url": "https://keqingmains.com/q/wriothesley-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Wriothesley",
+                "url": "https://genshin-impact.fandom.com/wiki/Wriothesley"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Wriothesley",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Wriothesley"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "wriothesley_reverse_melt_marechaussee",
+            "name": "DPS de Fusão Reversa (Caçador das Sombras)",
+            "notes_build": "Focado em maximizar o dano Cryo de Wriothesley através da reação de Fusão Reversa, utilizando seus Ataques Normais e Carregados aprimorados. O conjunto Caçador das Sombras é ideal devido à sua mecânica de perda/ganho de Vida.",
+            "artifacts": [
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras Marechaussee",
+                    "pieces": 4,
+                    "notes": "Seu melhor conjunto (BiS) na maioria dos cenários, especialmente para Fusão Reversa, devido ao alto bônus de Taxa CRIT.",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                },
+                {
+                    "set_id": "shimenawas_reminiscence",
+                    "set_name": "Reminiscência Nostálgica",
+                    "pieces": 4,
+                    "notes": "Opção forte que aumenta o Dano de Ataque Normal/Carregado ao custo de Energia. Pode ser melhor se a Taxa CRIT já for alta.",
+                    "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ% / Proficiência Elemental (para Fusão Reversa)",
+                "goblet": "Bônus de Dano Cryo%",
+                "circlet": "Dano CRIT% / Taxa CRIT%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT% / Dano CRIT%",
+                "ATQ%",
+                "Proficiência Elemental (para Fusão Reversa)",
+                "Recarga de Energia% (baixa prioridade)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "cashflow_supervision",
+                    "name": "Supervisão de Caixa",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Sua melhor arma (BiS). Fornece Taxa CRIT e buffs de ATQ e Dano de Ataque Normal/Carregado com flutuações de Vida.",
+                    "icon_url": "/assets/images/weapons_detail/cashflow_supervision.png"
+                },
+                {
+                    "weapon_id": "tulaytullahs_remembrance",
+                    "name": "Reminiscências de Tulaytullah",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Excelente opção com Dano CRIT, aumenta Vel. de ATQ Normal e Dano de Ataque Normal.",
+                    "icon_url": "/assets/images/weapons_detail/tulaytullahs_remembrance.png"
+                },
+                {
+                    "weapon_id": "lost_prayer_to_the_sacred_winds",
+                    "name": "Oração Perdida aos Ventos Sagrados",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Fornece Taxa CRIT e Bônus de Dano Elemental com tempo em campo.",
+                    "icon_url": "/assets/images/weapons_detail/lost_prayer_to_the_sacred_winds.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Ótima opção 4★ com Dano CRIT e buffs aleatórios poderosos (ATQ% ou Dano Elemental são os melhores).",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                },
+                {
+                    "weapon_id": "flowing_purity",
+                    "name": "Pureza do Fluxo",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Forja",
+                    "notes": "Boa opção de forja se puder limpar o Contrato de Vida consistentemente (requer curandeiro).",
+                    "icon_url": "/assets/images/weapons_detail/flowing_purity.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        },
+        {
+            "key": "wriothesley_mono_cryo_freeze_blizzard",
+            "name": "DPS Mono Cryo / Congelamento (Herói Invernal)",
+            "notes_build": "Focado em Dano Cryo direto em times Mono Cryo ou utilizando a alta Taxa CRIT do conjunto Herói Invernal em times de Congelamento.",
+            "artifacts": [
+                {
+                    "set_id": "blizzard_strayer",
+                    "set_name": "Herói Invernal",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para times de Congelamento, fornecendo uma quantidade massiva de Taxa CRIT.",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png"
+                },
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras Marechaussee",
+                    "pieces": 4,
+                    "notes": "Melhor para Mono Cryo (especialmente com Furina) ou se não conseguir manter Congelamento. Requer flutuação de Vida.",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                },
+                {
+                    "set_id": "shimenawas_reminiscence",
+                    "set_name": "Reminiscência Nostálgica",
+                    "pieces": 4,
+                    "notes": "Opção para Mono Cryo se não houver Furina e precisar de mais Dano de Ataque Normal/Carregado.",
+                    "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ%",
+                "goblet": "Bônus de Dano Cryo%",
+                "circlet": "Dano CRIT% (com Herói Invernal) / Taxa CRIT% (com outros sets)"
+            },
+            "sub_stats_priority": [
+                "Dano CRIT%",
+                "Taxa CRIT% (menos prioridade com 4p Herói Invernal)",
+                "ATQ%",
+                "Recarga de Energia% (baixa prioridade)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "cashflow_supervision",
+                    "name": "Supervisão de Caixa",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Ainda sua melhor arma.",
+                    "icon_url": "/assets/images/weapons_detail/cashflow_supervision.png"
+                },
+                {
+                    "weapon_id": "tulaytullahs_remembrance",
+                    "name": "Reminiscências de Tulaytullah",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Excelente opção.",
+                    "icon_url": "/assets/images/weapons_detail/tulaytullahs_remembrance.png"
+                },
+                {
+                    "weapon_id": "solar_pearl",
+                    "name": "Pérola Solar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Passe de Batalha",
+                    "notes": "Boa opção 4★ com Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/solar_pearl.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Dano CRIT e buffs, mas o buff de PE é menos útil aqui.",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2967,
+            "base_atk": 68,
+            "base_def": 153,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "50.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 5739,
+            "base_atk": 131,
+            "base_def": 296,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "50.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 7311,
+            "base_atk": 167,
+            "base_def": 377,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "59.6%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 9184,
+            "base_atk": 210,
+            "base_def": 474,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "69.2%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 10602,
+            "base_atk": 242,
+            "base_def": 546,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "69.2%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 12029,
+            "base_atk": 275,
+            "base_def": 620,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "78.9%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 14717,
+            "base_atk": 311,
+            "base_def": 709,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "88.4%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Dispositivo de Turbilhão",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/tourbillon_device.webp"
+        },
+        {
+            "name": "Lasca de Jade Shivada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/shivada_jade_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_chunk.webp"
+        },
+        {
+            "name": "Gema de Jade Shivada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/shivada_jade_gemstone.webp"
+        },
+        {
+            "name": "Unidade de Subdetecção",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/subdetection_unit.webp"
+        },
+        {
+            "name": "Engrenagem de Malha",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/meshing_gear.webp"
+        },
+        {
+            "name": "Engrenagem de Dente Reto Mecânica",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/mechanical_spur_gear.webp"
+        },
+        {
+            "name": "Engrenagem Dinâmica Artificial",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/artificed_dynamic_gear.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Punhos Glaciais da Justiça Sombria",
+            "icon_url": "/assets/images/talents/wriothesley/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 socos rápidos, causando Dano Cryo.\nAtaque Carregado: Consome Stamina para saltar e desferir um Soco Saltitante, causando Dano Cryo em AdE.\nAtaque Imersivo: Mergulha para atingir o chão, causando Dano Cryo em AdE."
+        },
+        "elemental_skill": {
+            "name": "Investida da Presa Congelante",
+            "icon_url": "/assets/images/talents/wriothesley/talent_elemental_skill.webp",
+            "description": "Wriothesley avança uma curta distância e entra no estado 'Arrepio Perfurante'.\nArrepio Perfurante: Aumenta a RES à Interrupção de Wriothesley. Quando sua Vida estiver acima de 50%, aprimora o Dano de seus Ataques Normais 'Punho de Repreensão' e, ao atingir, consome uma porção de sua Vida. Este consumo pode ocorrer uma vez a cada 0.1s. O estado é removido quando Wriothesley sai de campo."
+        },
+        "elemental_burst": {
+            "name": "Mordida Devastadora do Lobo Cinzento",
+            "icon_url": "/assets/images/talents/wriothesley/talent_elemental_burst.webp",
+            "description": "Ativa suas luvas de boxe, desferindo um soco direto condensado com gelo, seguido por Estalactites de Gelo que causam múltiplas instâncias de Dano Cryo em AdE.\nArkhe: Ousia - Após as Estalactites de Gelo terminarem, uma Lâmina Fluente desce na posição do oponente, causando Dano Cryo alinhado com Ousia."
+        },
+        "passives": [
+            {
+                "name": "Justiça para os Pecadores",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/wriothesley/talent_passive_a1.webp",
+                "description": "Quando a Vida de Wriothesley estiver abaixo de 60%, ele obtém uma 'Admoestação Graciosa'. O próximo Ataque Carregado de seus Punhos Glaciais da Justiça Sombria será aprimorado para se tornar 'Punho de Repreensão: Salto'. Ele não consumirá Stamina, causará 50% de Dano aumentado e, ao atingir, restaurará 30% da Vida Máx. de Wriothesley. Pode ser obtido uma vez a cada 5s."
+            },
+            {
+                "name": "Retribuição para os Culpados",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/wriothesley/talent_passive_a4.webp",
+                "description": "Quando a Vida atual de Wriothesley aumenta ou diminui, se ele estiver no estado 'Arrepio Perfurante' de Investida da Presa Congelante, 'Arrepio Perfurante' ganhará um acúmulo de 'Decreto de Processo'. Máximo de 5 acúmulos. Cada acúmulo aumentará o ATQ de Wriothesley em 6%. Este efeito dura até o final do estado 'Arrepio Perfurante'."
+            },
+            {
+                "name": "O Decreto do Duque",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/wriothesley/talent_passive_utility.webp",
+                "description": "Ao fabricar Materiais de Ascensão de Arma, há 10% de chance de receber o dobro do produto."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Engrenagem de Malha",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/meshing_gear.webp"
+        },
+        {
+            "name": "Engrenagem de Dente Reto Mecânica",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/mechanical_spur_gear.webp"
+        },
+        {
+            "name": "Engrenagem Dinâmica Artificial",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/artificed_dynamic_gear.webp"
+        },
+        {
+            "name": "Ensinamentos da Ordem",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_order.webp"
+        },
+        {
+            "name": "Guia da Ordem",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_order.webp"
+        },
+        {
+            "name": "Filosofia da Ordem",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_order.webp"
+        },
+        {
+            "name": "Flor Verdejante Primordial",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/primordial_greenbloom.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Aterrorizar os Malfeitores",
+            "icon_url": "/assets/images/constellations/wriothesley/constellation_1.webp",
+            "description": "O efeito 'Admoestação Graciosa' da Passiva 'Justiça para os Pecadores' é alterado: Quando a Vida de Wriothesley estiver abaixo de 60% OU enquanto ele estiver no estado 'Arrepio Perfurante', o quinto golpe de Punho de Repreensão (Ataque Normal) concederá Admoestação Graciosa. 1 Admoestação Graciosa pode ser obtida a cada 2.5s. Adicionalmente, Punho de Repreensão: Salto terá seu Dano aumentado em 200% e, ao atingir enquanto no estado Arrepio Perfurante, a duração do estado é estendida em 4s. 1 tal extensão pode ocorrer por uso de Arrepio Perfurante."
+        },
+        {
+            "level": 2,
+            "name": "Prender os Arrogantes",
+            "icon_url": "/assets/images/constellations/wriothesley/constellation_2.webp",
+            "description": "Ao usar Mordida Devastadora do Lobo Cinzento (Supremo), cada acúmulo de 'Decreto de Processo' da Passiva 'Retribuição para os Culpados' aumentará o Dano causado em 40%."
+        },
+        {
+            "level": 3,
+            "name": "Punir os Corruptos",
+            "icon_url": "/assets/images/constellations/wriothesley/constellation_3.webp",
+            "description": "Aumenta o nível do Ataque Normal: Punhos Glaciais da Justiça Sombria em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Redimir os Sofridos",
+            "icon_url": "/assets/images/constellations/wriothesley/constellation_4.webp",
+            "description": "A Vida restaurada para Wriothesley através de Punho de Repreensão: Salto é aumentada para 50% de sua Vida Máx. Adicionalmente, quando Wriothesley é curado e a cura transborda, se ele estiver em campo, sua Vel. de ATQ aumenta em 20% por 4s. Se ele estiver fora de campo, a Vel. de ATQ de todos os membros da equipe aumenta em 10% por 6s. Estas duas formas de aumento de Vel. de ATQ não podem acumular."
+        },
+        {
+            "level": 5,
+            "name": "Perdoar os Inocentes",
+            "icon_url": "/assets/images/constellations/wriothesley/constellation_5.webp",
+            "description": "Aumenta o nível de Mordida Devastadora do Lobo Cinzento (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Estimar os Justos",
+            "icon_url": "/assets/images/constellations/wriothesley/constellation_6.webp",
+            "description": "A Taxa CRIT de Punho de Repreensão: Salto é aumentada em 10%, e seu Dano CRIT é aumentado em 80%. Ao ser liberado, também desfere um Estalactite de Gelo adicional que causa 100% do Dano original de Punho de Repreensão: Salto. Este Dano é considerado Dano de Ataque Carregado."
+        }
+    ]
+}

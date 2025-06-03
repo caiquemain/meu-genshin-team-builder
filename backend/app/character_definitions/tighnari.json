@@ -1,0 +1,392 @@
+{
+    "id": "tighnari",
+    "name": "Tighnari",
+    "title": "Andarilho Verdejante",
+    "element": "Dendro",
+    "rarity": 5,
+    "weapon": "Bow",
+    "model_type": "Medium Male",
+    "role": [
+        "Quickswap DPS",
+        "Spread DPS",
+        "Dendro DPS"
+    ],
+    "description_bio": "Um jovem pesquisador especialista em botânica e Patrulheiro Florestal da Floresta Avidya em Sumeru. Tighnari é conhecido por sua mente afiada, paixão por compartilhar conhecimento e pouca paciência para aqueles que desrespeitam a natureza ou agem de forma imprudente.",
+    "birthday": "29 de Dezembro",
+    "constellation_name_official": "Vulpes Zerda",
+    "region": "Sumeru",
+    "affiliation": [
+        "Florestal Avidya",
+        "Academia de Sumeru",
+        "Amurta"
+    ],
+    "special_dish": {
+        "name": "Recomendação de Patrulheiro Florestal",
+        "icon_url": "/assets/images/dishes/tighnari_forest_watchers_choice.webp"
+    },
+    "namecard_url": "/assets/images/namecards/tighnari_dew_kissed.png",
+    "icon_url": "/assets/images/characters/tighnari.png",
+    "element_icon_url": "/assets/images/elements/element_dendro.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Tighnari Full Guide",
+                "url": "https://keqingmains.com/tighnari/"
+            },
+            {
+                "name": "KQM Tighnari Quick Guide",
+                "url": "https://keqingmains.com/q/tighnari-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Tighnari",
+                "url": "https://genshin-impact.fandom.com/wiki/Tighnari"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Tighnari",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Tighnari"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "tighnari_spread_dps_deepwood",
+            "name": "DPS de Propagação (Memórias da Floresta)",
+            "notes_build": "Focado em causar dano Dendro rápido através de seus Ataques Carregados e Supremo, principalmente com a reação de Propagação (Spread) em times de Aceleração (Quicken).",
+            "artifacts": [
+                {
+                    "set_id": "deepwood_memories",
+                    "set_name": "Memórias da Floresta",
+                    "pieces": 4,
+                    "notes": "Seu melhor conjunto (BiS) na maioria dos times de Propagação, pois reduz a RES Dendro dos inimigos.",
+                    "icon_url": "/assets/images/artifact_sets/deepwood_memories.png"
+                },
+                {
+                    "set_id": "wanderers_troupe",
+                    "set_name": "Trupe Itinerante",
+                    "pieces": 4,
+                    "notes": "Opção forte que aumenta o Dano do Ataque Carregado e fornece Proficiência Elemental.",
+                    "icon_url": "/assets/images/artifact_sets/wanderers_troupe.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Boa alternativa se outro personagem na equipe já estiver usando 4p Memórias da Floresta, fornecendo PE e ATQ%.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental / ATQ%",
+                "goblet": "Bônus de Dano Dendro%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental",
+                "ATQ%",
+                "Recarga de Energia% (geralmente baixa prioridade)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "hunters_path",
+                    "name": "Caminho do Caçador",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Sua melhor arma (BiS). Oferece alta Taxa CRIT e aumenta o Dano do Ataque Carregado com base na Proficiência Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/hunters_path.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alto Dano CRIT e aumento de Dano geral, muito forte.",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                },
+                {
+                    "weapon_id": "polar_star",
+                    "name": "Estrela Invernal",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Taxa CRIT e buff de ATQ% e Dano de Habilidade/Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/polar_star.png"
+                },
+                {
+                    "weapon_id": "the_viridescent_hunt",
+                    "name": "Caça Esmeralda",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Passe de Batalha",
+                    "notes": "Taxa CRIT e um pequeno efeito de controle de grupo.",
+                    "icon_url": "/assets/images/weapons_detail/the_viridescent_hunt.png"
+                },
+                {
+                    "weapon_id": "slingshot",
+                    "name": "Estilingue",
+                    "rarity": 3,
+                    "type": "Bow",
+                    "category": "Gacha/Baús",
+                    "notes": "Excelente opção 3★ devido à Taxa CRIT e passiva de aumento de Dano (se a flecha atingir rapidamente).",
+                    "icon_url": "/assets/images/weapons_detail/slingshot.png"
+                },
+                {
+                    "weapon_id": "prototype_crescent",
+                    "name": "Protótipo Crescente",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Forja",
+                    "notes": "Opção F2P que fornece ATQ% ao atingir pontos fracos.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_crescent.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2163,
+            "base_atk": 53,
+            "base_def": 126,
+            "bonus_stat_label": "Bônus de Dano Dendro%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4200,
+            "base_atk": 104,
+            "base_def": 246,
+            "bonus_stat_label": "Bônus de Dano Dendro%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5403,
+            "base_atk": 133,
+            "base_def": 316,
+            "bonus_stat_label": "Bônus de Dano Dendro%",
+            "bonus_stat_value": "7.2%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6806,
+            "base_atk": 167,
+            "base_def": 398,
+            "bonus_stat_label": "Bônus de Dano Dendro%",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8008,
+            "base_atk": 197,
+            "base_def": 468,
+            "bonus_stat_label": "Bônus de Dano Dendro%",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9219,
+            "base_atk": 227,
+            "base_def": 539,
+            "bonus_stat_label": "Bônus de Dano Dendro%",
+            "bonus_stat_value": "21.6%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10865,
+            "base_atk": 268,
+            "base_def": 638,
+            "bonus_stat_label": "Bônus de Dano Dendro%",
+            "bonus_stat_value": "28.8%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Bico de Gancho Majestoso",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/majestic_hooked_beak.webp"
+        },
+        {
+            "name": "Lasca de Esmeralda Nagadus",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/nagadus_emerald_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Esmeralda Nagadus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/nagadus_emerald_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Esmeralda Nagadus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/nagadus_emerald_chunk.webp"
+        },
+        {
+            "name": "Gema de Esmeralda Nagadus",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/nagadus_emerald_gemstone.webp"
+        },
+        {
+            "name": "Lótus Nilotpala",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/nilotpala_lotus.webp"
+        },
+        {
+            "name": "Esporo de Cogumelo",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/fungal_spores.webp"
+        },
+        {
+            "name": "Pólen fluorescente",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/luminescent_pollen.webp"
+        },
+        {
+            "name": "Pó de Cisto Cristalino",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/crystalline_cyst_dust.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Khanda Destruidora de Barreiras",
+            "icon_url": "/assets/images/talents/tighnari/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 disparos consecutivos.\nAtaque Carregado: Realiza um Disparo com Mira mais preciso com Dano aumentado. Ao mirar, o poder de Dendro se acumulará na ponta da flecha. Efeitos diferentes com base no tempo de carga:\n- Carga Nv. 1: Dispara uma flecha infundida com Dendro que causa Dano Dendro.\n- Carga Nv. 2: Dispara uma Flecha de Vinha. Ao atingir, causa Dano Dendro e cria 4 Flechas Enredadoras que perseguem inimigos próximos e causam Dano Dendro.\nAtaque Imersivo: Dispara uma chuva de flechas, causando Dano em AdE ao atingir o chão."
+        },
+        "elemental_skill": {
+            "name": "Vijna-Phala Mina",
+            "icon_url": "/assets/images/talents/tighnari/talent_elemental_skill.webp",
+            "description": "Tighnari lança um Receptáculo Vijna à frente, causando Dano Dendro em AdE e criando um Campo Vijna-Ayur que provoca inimigos e atrai seus ataques.\nAlém disso, Tighnari ganha o efeito 'Penetração Vijna', que diminui o tempo de carga da Flecha de Vinha (Ataque Carregado Nv. 2) em 2.4s. Este efeito desaparece quando a duração da habilidade termina ou após Tighnari disparar 3 Flechas de Vinha."
+        },
+        "elemental_burst": {
+            "name": "Flecha de Videira Criadora de Moda",
+            "icon_url": "/assets/images/talents/tighnari/talent_elemental_burst.webp",
+            "description": "Combina o poder de todas as sementes para disparar 6 Flechas de Videira que perseguem os inimigos e causam Dano Dendro. Após atingirem, as Flechas de Videira criam uma segunda onda de Flechas de Videira Enredadoras que também perseguem inimigos próximos e causam Dano Dendro ao atingir."
+        },
+        "passives": [
+            {
+                "name": "Visão Aguçada",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/tighnari/talent_passive_a1.webp",
+                "description": "Após Tighnari disparar uma Flecha de Vinha (Ataque Carregado Nv. 2), sua Proficiência Elemental aumenta em 50 por 4s."
+            },
+            {
+                "name": "Conhecedor Escolástico",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/tighnari/talent_passive_a4.webp",
+                "description": "Para cada ponto de Proficiência Elemental que Tighnari possui, o Dano de seu Ataque Carregado e de sua Flecha de Videira Criadora de Moda (Supremo) é aumentado em 0.06%. O Dano máximo obtido desta forma é 60%."
+            },
+            {
+                "name": "Conhecimento Enciclopédico",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/tighnari/talent_passive_utility.webp",
+                "description": "Mostra a localização de especialidades de Sumeru próximas no minimapa."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Esporo de Cogumelo",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/fungal_spores.webp"
+        },
+        {
+            "name": "Pólen fluorescente",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/luminescent_pollen.webp"
+        },
+        {
+            "name": "Pó de Cisto Cristalino",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/crystalline_cyst_dust.webp"
+        },
+        {
+            "name": "Ensinamentos da Admoestação",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_admonition.webp"
+        },
+        {
+            "name": "Guia da Admoestação",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_admonition.webp"
+        },
+        {
+            "name": "Filosofia da Admoestação",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_admonition.webp"
+        },
+        {
+            "name": "Significado de Aeons",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/the_meaning_of_aeons.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Começos Determinados na Raiz",
+            "icon_url": "/assets/images/constellations/tighnari/constellation_1.webp",
+            "description": "A Taxa CRIT do Ataque Carregado de Tighnari aumenta em 15%."
+        },
+        {
+            "level": 2,
+            "name": "Origens Conhecidas no Caule",
+            "icon_url": "/assets/images/constellations/tighnari/constellation_2.webp",
+            "description": "Quando há oponentes dentro do Campo Vijna-Ayur criado por Vijna-Phala Mina (Habilidade Elemental), Tighnari ganha 20% de Bônus de Dano Dendro. O efeito durará até 6s após o Campo Vijna-Ayur terminar ou não houver mais oponentes dentro dele."
+        },
+        {
+            "level": 3,
+            "name": "Fortunas Vistas nos Ramos",
+            "icon_url": "/assets/images/constellations/tighnari/constellation_3.webp",
+            "description": "Aumenta o nível de Flecha de Videira Criadora de Moda (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Vislumbres Contidos nas Folhas",
+            "icon_url": "/assets/images/constellations/tighnari/constellation_4.webp",
+            "description": "Quando Flecha de Videira Criadora de Moda (Supremo) é lançada, todos os membros da equipe próximos ganham 60 de Proficiência Elemental por 8s. Se o Supremo desencadear Aceleração, Queimadura, Florescimento, Intensificação ou Propagação, sua Proficiência Elemental aumentará em mais 60. Este último aumento também reiniciará a duração do buff."
+        },
+        {
+            "level": 5,
+            "name": "Compreensão Emanada das Flores",
+            "icon_url": "/assets/images/constellations/tighnari/constellation_5.webp",
+            "description": "Aumenta o nível de Vijna-Phala Mina (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Karma Manifestado nos Frutos",
+            "icon_url": "/assets/images/constellations/tighnari/constellation_6.webp",
+            "description": "O tempo de carga da Flecha de Vinha (Ataque Carregado Nv. 2) é reduzido em 0.9s, e ela produzirá 1 Flecha Enredadora adicional ao atingir."
+        }
+    ]
+}

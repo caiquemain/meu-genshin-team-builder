@@ -1,0 +1,114 @@
+[
+    {
+        "id": "wriothesley_reverse_melt_shenhe_bennett_kazuha",
+        "name": "Wriothesley - Fusão Reversa (Shenhe, Bennett, Kazuha)",
+        "strategy": "Wriothesley como DPS principal Cryo, causando dano massivo com Fusão Reversa em seus Ataques Normais e Carregados aprimorados. Shenhe buffa Dano Cryo e reduz RES Cryo/Física. Bennett fornece ATQ e aplicação Pyro. Kazuha com Sombra Verde espalha Pyro e buffa Dano Elemental.",
+        "characters_in_team": [
+            {
+                "character_id": "wriothesley",
+                "role_in_team": "Main DPS Cryo (Reverse Melt)",
+                "build_key": "wriothesley_reverse_melt_marechaussee"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer/RES Shred)",
+                "build_key": "shenhe_cryo_support_buffer"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer/Pyro Enabler)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer/Pyro Swirl)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ],
+        "notes_team": "Xiangling pode substituir Kazuha para mais aplicação Pyro off-field, mas Kazuha oferece mais buffs diretos para Wriothesley."
+    },
+    {
+        "id": "wriothesley_mono_cryo_shenhe_kazuha_furina",
+        "name": "Wriothesley - Mono Cryo (Shenhe, Kazuha, Furina)",
+        "strategy": "Foco no Dano Cryo direto de Wriothesley e Shenhe. Furina buffa o dano de todos e fornece aplicação Hydro para congelamento ocasional e para ativar a passiva A4 de Wriothesley. Kazuha agrupa e buffa Dano Cryo.",
+        "characters_in_team": [
+            {
+                "character_id": "wriothesley",
+                "role_in_team": "Main DPS Cryo",
+                "build_key": "wriothesley_mono_cryo_freeze_blizzard"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer/Sub-DPS)",
+                "build_key": "shenhe_cryo_support_buffer"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            }
+        ],
+        "notes_team": "Se não usar Furina, um terceiro Cryo como Diona/Layla/Mika pode ser usado para mais ressonância e utilidade defensiva/buff."
+    },
+    {
+        "id": "wriothesley_freeze_shenhe_yelan_kazuha",
+        "name": "Wriothesley - Congelamento (Shenhe, Yelan, Kazuha)",
+        "strategy": "Time de Congelamento onde Wriothesley é o DPS on-field. Shenhe buffa seu Dano Cryo. Yelan fornece aplicação Hydro off-field e buff de dano. Kazuha agrupa e usa Sombra Verde.",
+        "characters_in_team": [
+            {
+                "character_id": "wriothesley",
+                "role_in_team": "Main DPS Cryo (Freeze)",
+                "build_key": "wriothesley_mono_cryo_freeze_blizzard"
+            },
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer)",
+                "build_key": "shenhe_cryo_support_buffer"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro (Off-field/DMG Buff)",
+                "build_key": "yelan_off_field_hydro_support_emblem_favonius"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ],
+        "notes_team": "Kokomi ou Mona podem substituir Yelan para diferentes tipos de aplicação Hydro e utilidade. Xingqiu também é uma opção forte."
+    },
+    {
+        "id": "wriothesley_hyperbloom_nahida_xingqiu_kuki",
+        "name": "Wriothesley - Superflorescimento (Nahida, Xingqiu, Kuki)",
+        "strategy": "Wriothesley como driver on-field que aplica Cryo, ajudando a manter Quicken ou Freeze enquanto as sementes são criadas por Nahida e Xingqiu. Kuki Shinobu (full EM) ativa Superflorescimento.",
+        "characters_in_team": [
+            {
+                "character_id": "wriothesley",
+                "role_in_team": "On-Field Driver Cryo",
+                "build_key": "wriothesley_reverse_melt_marechaussee"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Dendro Enabler (Off-field)",
+                "build_key": "nahida_off_field_dendro_deepwood_em"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Hydro Enabler (Off-field)",
+                "build_key": "xingqiu_off_field_hydro_support_sacrificial"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Electro Trigger (Hyperbloom/Healer - Full EM)",
+                "build_key": "kuki_hyperbloom_full_em_gilded"
+            }
+        ],
+        "notes_team": "Wriothesley não foca em PE aqui, seu papel é mais para dano pessoal e alguma utilidade Cryo. Raiden Shogun (full EM) pode ser usada no lugar de Kuki."
+    }
+]

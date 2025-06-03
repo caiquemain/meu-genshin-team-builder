@@ -1,0 +1,436 @@
+{
+    "id": "venti",
+    "name": "Venti",
+    "title": "Cantor dos Ventos Celestiais",
+    "element": "Anemo",
+    "rarity": 5,
+    "weapon": "Bow",
+    "model_type": "Medium Male",
+    "role": [
+        "Support",
+        "Sub-DPS",
+        "Crowd Control",
+        "Battery"
+    ],
+    "description_bio": "Um bardo desconhecido que às vezes canta canções ultrapassadas, outras vezes canta novas canções que ninguém nunca ouviu. Gosta de maçãs e de um ambiente animado, mas detesta queijo e coisas pegajosas. Secretamente, ele é Barbatos, o Arconte Anemo.",
+    "birthday": "16 de Junho",
+    "constellation_name_official": "Carmen Dei",
+    "region": "Mondstadt",
+    "affiliation": [
+        "Cidade de Mondstadt",
+        "Arcontes",
+        "Mil Ventos"
+    ],
+    "special_dish": {
+        "name": "Ensopado Verdadeiro do Arconte Anemo",
+        "icon_url": "/assets/images/dishes/venti_a_buoyant_breeze.webp"
+    },
+    "namecard_url": "/assets/images/namecards/venti_azure_sky.png",
+    "icon_url": "/assets/images/characters/venti.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Venti Full Guide",
+                "url": "https://keqingmains.com/venti/"
+            },
+            {
+                "name": "KQM Venti Quick Guide",
+                "url": "https://keqingmains.com/q/venti-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Venti",
+                "url": "https://genshin-impact.fandom.com/wiki/Venti"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Venti",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Venti"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "venti_em_swirl_support",
+            "name": "Suporte de Redemoinho (Proficiência Elemental)",
+            "notes_build": "Focado em maximizar o dano da reação de Redemoinho e o buff de redução de RES do conjunto Sombra Verde. Ideal para controle de grupo e dano em área contra múltiplos alvos.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Essencial para reduzir a RES Elemental dos inimigos ao elemento absorvido no Redemoinho e aumentar o dano de Redemoinho.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental / Recarga de Energia%",
+                "goblet": "Proficiência Elemental",
+                "circlet": "Proficiência Elemental"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito, ~160-200%)",
+                "Proficiência Elemental",
+                "ATQ%",
+                "Taxa CRIT% (para Favonius)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Melhor opção de suporte, fornece RE, PE e buffs de ATQ/PE para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                },
+                {
+                    "weapon_id": "the_stringless",
+                    "name": "O Último Acorde",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Aumenta o dano da Habilidade Elemental e Supremo, além de fornecer PE.",
+                    "icon_url": "/assets/images/weapons_detail/the_stringless.png"
+                },
+                {
+                    "weapon_id": "favonius_warbow",
+                    "name": "Arco de Guerra de Favonius",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Excelente para geração de partículas para a equipe, requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_warbow.png"
+                },
+                {
+                    "weapon_id": "windblume_ode",
+                    "name": "Ode à Brisa Florescente",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Evento",
+                    "notes": "Opção F2P de evento, fornece PE e um buff de ATQ após usar Habilidade Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/windblume_ode.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        },
+        {
+            "key": "venti_crit_anemo_dps",
+            "name": "DPS Anemo (CRIT Build)",
+            "notes_build": "Focado no dano Anemo pessoal de Venti, especialmente de seu Supremo. Mantém a utilidade do Sombra Verde, mas prioriza stats de CRIT e Dano Anemo.",
+            "artifacts": [
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 4,
+                    "notes": "Ainda a melhor opção devido à redução de RES, que também beneficia o dano pessoal de Venti.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p Bônus de Dano Anemo (Sombra Verde) para aumentar o dano do Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ% / Recarga de Energia%",
+                "goblet": "Bônus de Dano Anemo%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito)",
+                "Taxa CRIT / Dano CRIT",
+                "ATQ%",
+                "Proficiência Elemental"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "polar_star",
+                    "name": "Estrela Invernal",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Excelente para dano pessoal, oferece Taxa CRIT e aumenta dano da Habilidade/Supremo e ATQ.",
+                    "icon_url": "/assets/images/weapons_detail/polar_star.png"
+                },
+                {
+                    "weapon_id": "aqua_simulacra",
+                    "name": "Aqua Simulacra",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alto Dano CRIT e aumento de Dano geral.",
+                    "icon_url": "/assets/images/weapons_detail/aqua_simulacra.png"
+                },
+                {
+                    "weapon_id": "skyward_harp",
+                    "name": "Harpa Celestial",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Fornece Taxa CRIT e Dano CRIT, além de dano físico adicional.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_harp.png"
+                },
+                {
+                    "weapon_id": "the_stringless",
+                    "name": "O Último Acorde",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Continua sendo uma ótima opção 4★, aumentando o dano da Habilidade e Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/the_stringless.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2163,
+            "base_atk": 53,
+            "base_def": 137,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4200,
+            "base_atk": 104,
+            "base_def": 267,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5403,
+            "base_atk": 133,
+            "base_def": 343,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "8.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6806,
+            "base_atk": 167,
+            "base_def": 432,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "16.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8008,
+            "base_atk": 197,
+            "base_def": 509,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "16.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9219,
+            "base_atk": 227,
+            "base_def": 587,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "24.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10865,
+            "base_atk": 263,
+            "base_def": 669,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "32.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Semente de Furacão",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/hurricane_seed.webp"
+        },
+        {
+            "name": "Lasca de Turquesa Vayuda",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_chunk.webp"
+        },
+        {
+            "name": "Gema de Turquesa Vayuda",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_gemstone.webp"
+        },
+        {
+            "name": "Cecília",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/cecilia.webp"
+        },
+        {
+            "name": "Secreção de Slime",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/slime_condensate.webp"
+        },
+        {
+            "name": "Resina de Slime",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/slime_secretions.webp"
+        },
+        {
+            "name": "Essência de Slime",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/slime_concentrate.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Arquearia Divina",
+            "icon_url": "/assets/images/talents/venti/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 6 disparos consecutivos.\nAtaque Carregado: Realiza um Disparo com Mira mais preciso com Dano aumentado. Ao mirar, ventos poderosos se acumulam na ponta da flecha. Flecha totalmente carregada causa Dano Anemo.\nAtaque Imersivo: Dispara uma chuva de flechas, causando Dano em AdE ao atingir o chão."
+        },
+        "elemental_skill": {
+            "name": "Sonata Celestial",
+            "icon_url": "/assets/images/talents/venti/talent_elemental_skill.webp",
+            "description": "Pressionar: Invoca um Domínio dos Ventos no local do inimigo, causando Dano Anemo em AdE e lançando inimigos ao ar.\nManter Pressionado: Invoca um Domínio dos Ventos ainda maior com Venti como centro, causando Dano Anemo em AdE e lançando inimigos afetados ao ar. Após liberar a versão Mantida Pressionada, Venti cavalga a corrente de vento para o ar."
+        },
+        "elemental_burst": {
+            "name": "Grande Ode do Vento",
+            "icon_url": "/assets/images/talents/venti/talent_elemental_burst.webp",
+            "description": "Dispara uma flecha feita de ventos incontáveis, criando um Olho da Tempestade gigante que suga objetos e inimigos próximos, causando Dano Anemo contínuo.\nAbsorção Elemental: Se o Olho da Tempestade entrar em contato com Hydro/Pyro/Cryo/Electro, ele absorverá esse elemento e causará Dano Elemental adicional desse tipo. A Absorção Elemental pode ocorrer apenas uma vez durante a duração da habilidade."
+        },
+        "passives": [
+            {
+                "name": "Abraçar os Ventos",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/venti/talent_passive_a1.webp",
+                "description": "Manter pressionado Sonata Celestial cria uma corrente de vento ascendente que dura 20s."
+            },
+            {
+                "name": "Olho da Tempestade",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/venti/talent_passive_a4.webp",
+                "description": "Regenera 15 de Energia para Venti após o efeito de Grande Ode do Vento (Supremo) terminar. Se uma Absorção Elemental ocorreu, também regenera 15 de Energia para todos os personagens na equipe do elemento correspondente."
+            },
+            {
+                "name": "Cavaleiro dos Ventos",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/venti/talent_passive_utility.webp",
+                "description": "Diminui o consumo de Stamina ao Planar de todos os membros da equipe em 20%. Não acumulável com Talentos Passivos que fornecem exatamente os mesmos efeitos."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Secreção de Slime",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/slime_condensate.webp"
+        },
+        {
+            "name": "Resina de Slime",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/slime_secretions.webp"
+        },
+        {
+            "name": "Essência de Slime",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/slime_concentrate.webp"
+        },
+        {
+            "name": "Ensinamentos de Poemas",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_ballad.webp"
+        },
+        {
+            "name": "Guia de Poemas",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_ballad.webp"
+        },
+        {
+            "name": "Filosofia de Poemas",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_ballad.webp"
+        },
+        {
+            "name": "Cauda do Vento do Norte",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/tail_of_boreas.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Rajada de Vento Dividida",
+            "icon_url": "/assets/images/constellations/venti/constellation_1.webp",
+            "description": "Dispara 2 flechas adicionais por Disparo com Mira, cada uma causando 33% do Dano da flecha original."
+        },
+        {
+            "level": 2,
+            "name": "Brisa da Reminiscência",
+            "icon_url": "/assets/images/constellations/venti/constellation_2.webp",
+            "description": "Sonata Celestial (Habilidade Elemental) diminui a RES Anemo e RES Física dos oponentes em 12% por 10s. Oponentes lançados ao ar por Sonata Celestial sofrem uma diminuição adicional de 12% de RES Anemo e RES Física enquanto estiverem no ar."
+        },
+        {
+            "level": 3,
+            "name": "Ode aos Mil Ventos",
+            "icon_url": "/assets/images/constellations/venti/constellation_3.webp",
+            "description": "Aumenta o nível de Grande Ode do Vento (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Furação da Liberdade",
+            "icon_url": "/assets/images/constellations/venti/constellation_4.webp",
+            "description": "Quando Venti coleta um Orbe ou Partícula Elemental, ele recebe 25% de Bônus de Dano Anemo por 10s."
+        },
+        {
+            "level": 5,
+            "name": "Concerto Celestial",
+            "icon_url": "/assets/images/constellations/venti/constellation_5.webp",
+            "description": "Aumenta o nível de Sonata Celestial (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Tempestade da Resistência",
+            "icon_url": "/assets/images/constellations/venti/constellation_6.webp",
+            "description": "Alvos que recebem Dano de Grande Ode do Vento (Supremo) têm sua RES Anemo diminuída em 20%. Se uma Absorção Elemental ocorrer, sua RES ao elemento correspondente também é diminuída em 20%."
+        }
+    ]
+}

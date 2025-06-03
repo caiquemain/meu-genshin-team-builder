@@ -1,0 +1,84 @@
+[
+    {
+        "id": "mizuki_taser_fischl_beidou_xingqiu",
+        "name": "Mizuki - Taser (Fischl, Beidou, Xingqiu)",
+        "strategy": "Mizuki como driver Anemo on-field, causando Redemoinhos Hydro e Electro continuamente para ativar o dano off-field de Fischl, Beidou e Xingqiu. Sua cura e buff de PE do Supremo são valiosos.",
+        "characters_in_team": [
+            {
+                "character_id": "yumemizuki_mizuki",
+                "role_in_team": "On-Field Anemo Driver/Swirl DPS",
+                "build_key": "yumemizuki_mizuki_onfield_swirl_dps_vv"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro (Off-field AoE)",
+                "build_key": "beidou_subdps_emblem_er_focus"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro (Off-field/Redução de Dano)",
+                "build_key": "xingqiu_off_field_hydro_support_emblem_sacrificial"
+            }
+        ]
+    },
+    {
+        "id": "mizuki_hyperbloom_nahida_xingqiu_kuki",
+        "name": "Mizuki - Superflorescimento (Nahida, Xingqiu, Kuki)",
+        "strategy": "Mizuki como driver Anemo on-field, usando Redemoinhos para espalhar Hydro e ajudar na criação de Sementes Dendro. Kuki Shinobu (full EM) ativa Superflorescimento. Mizuki também cura e pode buffar a PE da equipe.",
+        "characters_in_team": [
+            {
+                "character_id": "yumemizuki_mizuki",
+                "role_in_team": "On-Field Anemo Driver/Healer",
+                "build_key": "yumemizuki_mizuki_onfield_swirl_dps_vv"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Dendro Enabler (Off-field)",
+                "build_key": "nahida_off_field_dendro_deepwood_em"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Hydro Enabler (Off-field)",
+                "build_key": "xingqiu_off_field_hydro_support_sacrificial"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Electro Trigger (Hyperbloom/Healer - Full EM)",
+                "build_key": "kuki_hyperbloom_full_em_gilded"
+            }
+        ]
+    },
+    {
+        "id": "mizuki_mono_element_support",
+        "name": "Mizuki - Suporte para Mono Elemento (Ex: Mono Pyro)",
+        "strategy": "Mizuki usa 4p Sombra Verde para reduzir RES do elemento principal do time (Pyro, Hydro, Electro ou Cryo). Sua cura e buff de PE do Supremo são um bônus. Foca em manter o elemento correto no Redemoinho.",
+        "characters_in_team": [
+            {
+                "character_id": "yumemizuki_mizuki",
+                "role_in_team": "Suporte Anemo (VV Holder/Healer)",
+                "build_key": "yumemizuki_mizuki_onfield_swirl_dps_vv"
+            },
+            {
+                "character_id": "lyney",
+                "role_in_team": "Main DPS Pyro",
+                "build_key": "lyney_mono_pyro_dps_marechaussee"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro (Off-field)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer/Pyro Battery)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ],
+        "notes_team": "Funciona bem com times focados em um único elemento que pode ser Redemoinhado."
+    }
+]

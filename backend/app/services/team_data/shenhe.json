@@ -1,0 +1,113 @@
+[
+    {
+        "id": "shenhe_mono_cryo_ayaka_kazuha",
+        "name": "Shenhe - Mono Cryo (Ayaka/Ganyu, Kazuha)",
+        "strategy": "Shenhe maximiza o dano de um DPS Cryo principal (Ayaka ou Ganyu) com seus buffs de Pena Gelada e redução de RES Cryo. Kazuha com Sombra Verde aumenta ainda mais o dano Cryo. Um quarto personagem Cryo (Diona, Layla, Rosaria) serve como bateria e para ressonância.",
+        "characters_in_team": [
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer)",
+                "build_key": "shenhe_cryo_support_buffer"
+            },
+            {
+                "character_id": "kamisato_ayaka",
+                "role_in_team": "Main DPS Cryo",
+                "build_key": "ayaka_freeze_dps_blizzard_mistsplitter"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "diona",
+                "role_in_team": "Suporte Cryo (Escudo/Cura/Bateria)",
+                "build_key": "diona_cryo_support_favonius_noblesse"
+            }
+        ],
+        "notes_team": "Ganyu pode ser a Main DPS no lugar de Ayaka. Rosaria ou Layla podem substituir Diona."
+    },
+    {
+        "id": "shenhe_freeze_ayaka_kokomi_kazuha",
+        "name": "Shenhe - Congelamento (Ayaka, Kokomi, Kazuha)",
+        "strategy": "Similar ao Mono Cryo, mas com um aplicador Hydro (Kokomi ou Mona) para manter os inimigos Congelados, permitindo que o conjunto Herói Invernal seja totalmente eficaz. Shenhe buffa o dano Cryo de Ayaka.",
+        "characters_in_team": [
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer)",
+                "build_key": "shenhe_cryo_support_buffer"
+            },
+            {
+                "character_id": "kamisato_ayaka",
+                "role_in_team": "Main DPS Cryo",
+                "build_key": "ayaka_freeze_dps_blizzard_mistsplitter"
+            },
+            {
+                "character_id": "sangonomiya_kokomi",
+                "role_in_team": "Suporte Hydro (Aplicadora Hydro/Healer/TTDS)",
+                "build_key": "kokomi_hydro_support_tenacity_ttds"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ],
+        "notes_team": "Mona pode substituir Kokomi. Venti pode substituir Kazuha para maior controle de grupo."
+    },
+    {
+        "id": "shenhe_reverse_melt_rosaria_bennett_kazuha",
+        "name": "Shenhe - Fusão Reversa (Rosaria, Bennett, Kazuha)",
+        "strategy": "Shenhe buffa o dano Cryo de Rosaria, que foca em causar Fusão Reversa com seu Supremo. Bennett fornece ATQ e aplicação Pyro. Kazuha espalha Pyro com Sombra Verde e buffa dano.",
+        "characters_in_team": [
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (Buffer)",
+                "build_key": "shenhe_cryo_support_buffer"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Sub-DPS Cryo (Melt)",
+                "build_key": "rosaria_reverse_melt_dps"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer/Pyro Enabler)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer/Pyro Swirl)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ],
+        "notes_team": "Ganyu pode ser a DPS de Fusão Reversa no lugar de Rosaria. Xiangling pode ser usada para aplicação Pyro adicional."
+    },
+    {
+        "id": "shenhe_support_eula_raiden_zhongli",
+        "name": "Shenhe - Suporte para Eula (Raiden, Zhongli)",
+        "strategy": "Shenhe fornece redução de RES Física e Cryo com seu Supremo, além de buffar o dano Cryo (menos relevante para Eula). Eula é a DPS Física principal. Raiden aplica Supercondutor e é bateria. Zhongli oferece escudo e redução de RES.",
+        "characters_in_team": [
+            {
+                "character_id": "shenhe",
+                "role_in_team": "Suporte Cryo (RES Shred)",
+                "build_key": "shenhe_cryo_support_buffer"
+            },
+            {
+                "character_id": "eula",
+                "role_in_team": "Main DPS Físico",
+                "build_key": "eula_physical_hypercarry_pines_pale_flame"
+            },
+            {
+                "character_id": "raiden_shogun",
+                "role_in_team": "Sub-DPS Electro (Superconduct/Bateria)",
+                "build_key": "raiden_burst_dps"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred)",
+                "build_key": "zhongli_shield_support_tenacity"
+            }
+        ]
+    }
+]

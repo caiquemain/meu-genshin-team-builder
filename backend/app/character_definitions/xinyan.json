@@ -1,0 +1,508 @@
+{
+    "id": "xinyan",
+    "name": "Xinyan",
+    "title": "Melodia Incandescente",
+    "element": "Pyro",
+    "rarity": 4,
+    "weapon": "Claymore",
+    "model_type": "Medium Female",
+    "role": [
+        "Physical DPS",
+        "Pyro DPS",
+        "Shielder Support"
+    ],
+    "description_bio": "A única musicista de Rock 'n' Roll de Liyue. Xinyan usa sua música e paixão para despertar almas cansadas e inspirar aqueles que a ouvem. Apesar de sua aparência intimidadora, ela é surpreendentemente fácil de lidar e adora fazer novos amigos.",
+    "birthday": "16 de Outubro",
+    "constellation_name_official": "Fila Ignium",
+    "region": "Liyue",
+    "affiliation": [
+        "Cordas Vermelhas (The Red Strings)"
+    ],
+    "special_dish": {
+        "name": "Galinha Roqueira!",
+        "icon_url": "/assets/images/dishes/xinyan_rockin_riffin_chicken.webp"
+    },
+    "namecard_url": "/assets/images/namecards/xinyan_songs_end.png",
+    "icon_url": "/assets/images/characters/xinyan.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Xinyan Guide",
+                "url": "https://keqingmains.com/xinyan/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Xinyan",
+                "url": "https://genshin-impact.fandom.com/wiki/Xinyan"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Xinyan",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Xinyan"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "xinyan_physical_dps_pale_flame",
+            "name": "DPS Físico (Chama Pálida)",
+            "notes_build": "Focada em maximizar o Dano Físico dos Ataques Normais e Carregados de Xinyan, especialmente o dano do Supremo que também é parcialmente Físico. Requer Supercondutor para melhor eficácia.",
+            "artifacts": [
+                {
+                    "set_id": "pale_flame",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p Cavaleiro Manchado de Sangue para +50% de Dano Físico. Esta é geralmente a melhor combinação para Dano Físico sustentado.",
+                    "icon_url": "/assets/images/artifact_sets/pale_flame.png"
+                },
+                {
+                    "set_id": "bloodstained_chivalry",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p Chama Pálida para +50% de Dano Físico.",
+                    "icon_url": "/assets/images/artifact_sets/bloodstained_chivalry.png"
+                },
+                {
+                    "set_id": "pale_flame",
+                    "set_name": "Chama Pálida",
+                    "pieces": 4,
+                    "notes": "Pode ser usado se conseguir manter o buff de ATQ% do 4p ativo consistentemente.",
+                    "icon_url": "/assets/images/artifact_sets/pale_flame.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ%",
+                "goblet": "Bônus de Dano Físico%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATQ%",
+                "Recarga de Energia% (para o Supremo)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "redhorn_stonethresher",
+                    "name": "Chifres Vermelhos Destruidores de Pedras",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alto Dano CRIT e aumenta Dano de Ataque Normal/Carregado baseado na DEF (Xinyan C6 converte DEF em ATQ).",
+                    "icon_url": "/assets/images/weapons_detail/redhorn_stonethresher.png"
+                },
+                {
+                    "weapon_id": "song_of_broken_pines",
+                    "name": "Canção dos Pinhos Quebrados",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alto ATQ Base, Bônus de Dano Físico e buff de ATQ/Velocidade de ATQ para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/song_of_broken_pines.png"
+                },
+                {
+                    "weapon_id": "serpent_spine",
+                    "name": "Espinha Dorsal da Serpente",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Passe de Batalha",
+                    "notes": "Excelente opção 4★, Taxa CRIT e buff de Dano universal. Requer escudo para manter acúmulos.",
+                    "icon_url": "/assets/images/weapons_detail/serpent_spine.png"
+                },
+                {
+                    "weapon_id": "snow_tombed_starsilver",
+                    "name": "Estrela de Prata Enterrada na Neve",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja (Espinha do Dragão)",
+                    "notes": "Opção F2P com Bônus de Dano Físico e passiva de dano Cryo.",
+                    "icon_url": "/assets/images/weapons_detail/snow-tombed_starsilver.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)"
+            ]
+        },
+        {
+            "key": "xinyan_pyro_burst_nuke",
+            "name": "DPS Pyro (Nuke de Supremo)",
+            "notes_build": "Focada em maximizar o Dano Pyro do Supremo de Xinyan (especialmente com C2, que garante CRIT no Supremo). Pode usar reações de Fusão/Vaporizar para aumentar o dano.",
+            "artifacts": [
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p Ritual Real para maximizar o dano Pyro do Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p Bruxa das Chamas Carmesim.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 4,
+                    "notes": "Se precisar de muita Recarga de Energia e quiser focar no dano do Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ% / Recarga de Energia%",
+                "goblet": "Bônus de Dano Pyro%",
+                "circlet": "Dano CRIT% (com C2) / Taxa CRIT%"
+            },
+            "sub_stats_priority": [
+                "Dano CRIT (especialmente com C2)",
+                "Taxa CRIT",
+                "ATQ%",
+                "Recarga de Energia%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "redhorn_stonethresher",
+                    "name": "Chifres Vermelhos Destruidores de Pedras",
+                    "rarity": 5,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alto Dano CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/redhorn_stonethresher.png"
+                },
+                {
+                    "weapon_id": "akuoumaru",
+                    "name": "Akuoumaru",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Aumenta o Dano do Supremo com base na energia total da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/akuoumaru.png"
+                },
+                {
+                    "weapon_id": "luxurious_sea_lord",
+                    "name": "Lord do Mar Luxuoso",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Evento",
+                    "notes": "ATQ% e aumenta Dano do Supremo. Ótima opção F2P de evento.",
+                    "icon_url": "/assets/images/weapons_detail/luxurious_sea-lord.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        },
+        {
+            "key": "xinyan_shielder_support",
+            "name": "Suporte de Escudo (Foco em DEF)",
+            "notes_build": "Maximiza a absorção do escudo da Habilidade Elemental de Xinyan, que escala com DEF. O escudo também aplica Pyro e, no nível máximo, aumenta Dano Físico (C4).",
+            "artifacts": [
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Ideal para buffar ATQ da equipe e força do escudo, se conseguir manter o buff da Habilidade Elemental.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                },
+                {
+                    "set_id": "husk_of_opulent_dreams",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p Tenacidade dos Millelith para maximizar DEF e força do escudo.",
+                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Para buff geral de ATQ para a equipe com seu Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "DEF% / Recarga de Energia%",
+                "goblet": "DEF%",
+                "circlet": "DEF% / Taxa CRIT% (para Favonius)"
+            },
+            "sub_stats_priority": [
+                "DEF%",
+                "Recarga de Energia%",
+                "Taxa CRIT% (se usando Favonius)",
+                "DEF Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_greatsword",
+                    "name": "Espadão de Favonius",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Melhor opção para suporte, ajudando com a energia da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_greatsword.png"
+                },
+                {
+                    "weapon_id": "sacrificial_greatsword",
+                    "name": "Espadão do Sacrifício",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Gacha",
+                    "notes": "Permite mais usos da Habilidade Elemental para maior uptime do escudo.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_greatsword.png"
+                },
+                {
+                    "weapon_id": "whiteblind",
+                    "name": "Sombra Branca",
+                    "rarity": 4,
+                    "type": "Claymore",
+                    "category": "Forja",
+                    "notes": "Opção F2P que fornece muita DEF para fortalecer o escudo.",
+                    "icon_url": "/assets/images/weapons_detail/whiteblind.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2381,
+            "base_atk": 53,
+            "base_def": 170,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4603,
+            "base_atk": 102,
+            "base_def": 329,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5862,
+            "base_atk": 130,
+            "base_def": 419,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 7280,
+            "base_atk": 161,
+            "base_def": 521,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8539,
+            "base_atk": 189,
+            "base_def": 611,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9799,
+            "base_atk": 217,
+            "base_def": 701,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 11201,
+            "base_atk": 249,
+            "base_def": 801,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Semente de Fogo Eterno",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/everflame_seed.webp"
+        },
+        {
+            "name": "Lasca de Ágata Agnidus",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/agnidus_agate_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_chunk.webp"
+        },
+        {
+            "name": "Gema de Ágata Agnidus",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/agnidus_agate_gemstone.webp"
+        },
+        {
+            "name": "Violeta",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/violetgrass.webp"
+        },
+        {
+            "name": "Insígnia do Ladrão de Tesouros",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/treasure_hoarder_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Prateado",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/silver_raven_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Dourado",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/golden_raven_insignia.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Dança de Fogo",
+            "icon_url": "/assets/images/talents/xinyan/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 4 golpes consecutivos.\nAtaque Carregado: Drena Stamina para realizar um ataque giratório contínuo, terminando com um golpe poderoso.\nAtaque Imersivo: Mergulha para atingir o chão, causando Dano em AdE."
+        },
+        "elemental_skill": {
+            "name": "Performance Contagiante",
+            "icon_url": "/assets/images/talents/xinyan/talent_elemental_skill.webp",
+            "description": "Xinyan brande seu instrumento, causando Dano Pyro aos inimigos próximos e formando um Escudo baseado na sua DEF e no número de inimigos atingidos.\n- 0-1 inimigo: Escudo Nv. 1: Ad Lib.\n- 2 inimigos: Escudo Nv. 2: Entrada Estelar.\n- 3+ inimigos: Escudo Nv. 3: Rave (Causa Dano Pyro intermitente aos inimigos próximos).\nO escudo possui 250% de eficácia de absorção contra Dano Pyro e aplica Pyro em Xinyan brevemente."
+        },
+        "elemental_burst": {
+            "name": "Riff da Revolução",
+            "icon_url": "/assets/images/talents/xinyan/talent_elemental_burst.webp",
+            "description": "Xinyan toca rapidamente, lançando ondas sonoras que repelem inimigos e causam Dano Físico em AdE. Então, cria explosões intensas que causam Dano Pyro aos inimigos próximos."
+        },
+        "passives": [
+            {
+                "name": "O Show Deve Continuar, Mesmo Sem Público...",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/xinyan/talent_passive_a1.webp",
+                "description": "Diminui o número de oponentes que Performance Contagiante (Habilidade Elemental) precisa atingir para ativar cada nível de escudo:\n- Escudo Nv. 2: Entrada Estelar - requisito reduzido para 1 inimigo atingido.\n- Escudo Nv. 3: Rave - requisito reduzido para 2 inimigos atingidos."
+            },
+            {
+                "name": "...Agora Isso é Rock N' Roll!",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/xinyan/talent_passive_a4.webp",
+                "description": "Personagens protegidos pelo escudo de Performance Contagiante (Habilidade Elemental) causam 15% a mais de Dano Físico."
+            },
+            {
+                "name": "Receita para o Sucesso",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/xinyan/talent_passive_utility.webp",
+                "description": "Quando uma Culinária Perfeita é feita em comidas de aumento de DEF, Xinyan tem 12% de chance de obter o dobro do produto."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Insígnia do Ladrão de Tesouros",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/treasure_hoarder_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Prateado",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/silver_raven_insignia.webp"
+        },
+        {
+            "name": "Insígnia do Corvo Dourado",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/golden_raven_insignia.webp"
+        },
+        {
+            "name": "Ensinamentos de Ouro",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_gold.webp"
+        },
+        {
+            "name": "Guia de Ouro",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_gold.webp"
+        },
+        {
+            "name": "Filosofia de Ouro",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_gold.webp"
+        },
+        {
+            "name": "Chifre de Monoceros Caeli",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/tusk_of_monoceros_caeli.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Aceleração Fatal",
+            "icon_url": "/assets/images/constellations/xinyan/constellation_1.webp",
+            "description": "Após um Acerto CRIT, a Vel. de ATQ dos Ataques Normais e Carregados de Xinyan aumenta em 12% por 5s. Este efeito pode ser ativado uma vez a cada 5s."
+        },
+        {
+            "level": 2,
+            "name": "Abertura Improvisada",
+            "icon_url": "/assets/images/constellations/xinyan/constellation_2.webp",
+            "description": "A Taxa CRIT do Dano Físico de Riff da Revolução (Supremo) é aumentada em 100%, e formará um escudo Nv. 3: Rave."
+        },
+        {
+            "level": 3,
+            "name": "Bis Duplo",
+            "icon_url": "/assets/images/constellations/xinyan/constellation_3.webp",
+            "description": "Aumenta o nível de Performance Contagiante (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Ritmo Contagiante",
+            "icon_url": "/assets/images/constellations/xinyan/constellation_4.webp",
+            "description": "O Dano causado por Performance Contagiante (Habilidade Elemental) diminui a RES Física do oponente em 15% por 12s."
+        },
+        {
+            "level": 5,
+            "name": "Grito Feroz",
+            "icon_url": "/assets/images/constellations/xinyan/constellation_5.webp",
+            "description": "Aumenta o nível de Riff da Revolução (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Rock Incandescente",
+            "icon_url": "/assets/images/constellations/xinyan/constellation_6.webp",
+            "description": "Diminui o consumo de Stamina dos Ataques Carregados de Xinyan em 30%. Adicionalmente, os Ataques Carregados de Xinyan ganham um Bônus de ATQ igual a 50% de sua DEF."
+        }
+    ]
+}

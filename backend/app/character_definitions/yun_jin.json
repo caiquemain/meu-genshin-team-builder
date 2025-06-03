@@ -1,0 +1,377 @@
+{
+    "id": "yun_jin",
+    "name": "Yun Jin",
+    "title": "Palco Lúcida",
+    "element": "Geo",
+    "rarity": 4,
+    "weapon": "Polearm",
+    "model_type": "Medium Female",
+    "role": [
+        "Support",
+        "Normal Attack Buffer"
+    ],
+    "description_bio": "Uma renomada diretora de ópera e cantora da Trupe de Ópera Yun-Han em Liyue. Yun Jin é conhecida por suas performances vívidas e sua dedicação em preservar e inovar a arte da ópera de Liyue, cativando audiências com sua voz e presença de palco.",
+    "birthday": "21 de Maio",
+    "constellation_name_official": "Opera Grandis",
+    "region": "Liyue",
+    "affiliation": [
+        "Trupe de Ópera Yun-Han",
+        "Casa de Chá Heyu",
+        "Família Yun"
+    ],
+    "special_dish": {
+        "name": "Nuvens Sobre Jade",
+        "icon_url": "/assets/images/dishes/yun_jin_cloud_shrouded_jade.webp"
+    },
+    "namecard_url": "/assets/images/namecards/yun_jin_rhyme.png",
+    "icon_url": "/assets/images/characters/yun_jin.png",
+    "element_icon_url": "/assets/images/elements/element_geo.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Yun Jin Guide",
+                "url": "https://keqingmains.com/yun-jin/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Yun Jin",
+                "url": "https://genshin-impact.fandom.com/wiki/Yun_Jin"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Yunjin",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Yunjin"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "yun_jin_normal_attack_support_husk",
+            "name": "Suporte de Ataque Normal (Casca de Sonhos Opulentos)",
+            "notes_build": "Focada em maximizar o buff de Dano de Ataque Normal concedido por seu Supremo, que escala com sua DEF. Recarga de Energia é crucial para manter o Supremo ativo.",
+            "artifacts": [
+                {
+                    "set_id": "husk_of_opulent_dreams",
+                    "set_name": "Casca de Sonhos Opulentos",
+                    "pieces": 4,
+                    "notes": "Seu melhor conjunto (BiS), fornece DEF% e Bônus de Dano Geo, embora o dano pessoal de Yun Jin seja secundário.",
+                    "icon_url": "/assets/images/artifact_sets/husk_of_opulent_dreams.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Opção viável se nenhum outro personagem na equipe estiver usando, para buffar o ATQ de todos.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p Casca de Sonhos Opulentos para balancear DEF e Recarga de Energia.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "DEF% / Recarga de Energia%",
+                "goblet": "DEF%",
+                "circlet": "DEF% / Taxa CRIT% (para Lança de Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito, ~180-220%+) ",
+                "DEF%",
+                "Taxa CRIT% (para Lança de Favonius)",
+                "DEF Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Melhor opção geral para suporte, ajuda com a energia de Yun Jin e da equipe. Requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                },
+                {
+                    "weapon_id": "deathmatch",
+                    "name": "Lança do Duelo",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Passe de Batalha",
+                    "notes": "Fornece Taxa CRIT para ativar Favonius mais facilmente (se não usar Favonius diretamente) e um buff de DEF/ATQ.",
+                    "icon_url": "/assets/images/weapons_detail/deathmatch.png"
+                },
+                {
+                    "weapon_id": "prototype_starglitter",
+                    "name": "Protótipo Estelar",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Forja",
+                    "notes": "Opção F2P com Recarga de Energia.",
+                    "icon_url": "/assets/images/weapons_detail/prototype_starglitter.png"
+                },
+                {
+                    "weapon_id": "skyward_spine",
+                    "name": "Espinha Celestial",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Opção 5★ com alta Recarga de Energia e Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_spine.png"
+                },
+                {
+                    "weapon_id": "engulfing_lightning",
+                    "name": "Luz do Cortador de Grama",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Se disponível, oferece muita Recarga de Energia e converte parte dela em ATQ.",
+                    "icon_url": "/assets/images/weapons_detail/engulfing_lightning.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2252,
+            "base_atk": 41,
+            "base_def": 157,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4354,
+            "base_atk": 79,
+            "base_def": 304,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5544,
+            "base_atk": 101,
+            "base_def": 387,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "6.7%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6963,
+            "base_atk": 126,
+            "base_def": 486,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "13.3%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8153,
+            "base_atk": 148,
+            "base_def": 569,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "13.3%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9349,
+            "base_atk": 170,
+            "base_def": 652,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "20.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10899,
+            "base_atk": 191,
+            "base_def": 734,
+            "bonus_stat_label": "Recarga de Energia%",
+            "bonus_stat_value": "26.7%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Insígnia da Fenda",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/riftborn_regalia.webp"
+        },
+        {
+            "name": "Lasca de Topázio Prithiva",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/prithiva_topaz_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Topázio Prithiva",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/prithiva_topaz_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Topázio Prithiva",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/prithiva_topaz_chunk.webp"
+        },
+        {
+            "name": "Gema de Topázio Prithiva",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/prithiva_topaz_gemstone.webp"
+        },
+        {
+            "name": "Lírio de Vidro",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/glaze_lily.webp"
+        },
+        {
+            "name": "Máscara Danificada",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/damaged_mask.webp"
+        },
+        {
+            "name": "Máscara Suja",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/stained_mask.webp"
+        },
+        {
+            "name": "Máscara Ominosa",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/ominous_mask.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Golpe da Nuvem",
+            "icon_url": "/assets/images/talents/yun_jin/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes rápidos com a lança.\nAtaque Carregado: Consome Stamina para avançar, infligindo Dano em seu trajeto.\nAtaque Imersivo: Mergulha para atingir o chão, causando Dano em AdE."
+        },
+        "elemental_skill": {
+            "name": "Melodia da Nuvem de Abertura",
+            "icon_url": "/assets/images/talents/yun_jin/talent_elemental_skill.webp",
+            "description": "Pressionar: Gira sua lança, causando Dano Geo.\nManter Pressionado: Forma um escudo que absorve Dano baseado na Vida Máx. de Yun Jin e tem 150% de eficácia contra Dano Físico e Elemental. Ao soltar, ou quando o escudo quebra/expira, Yun Jin libera o poder armazenado, causando Dano Geo. O Dano é baseado no tempo de carga (Nível 1 ou Nível 2 de Carga)."
+        },
+        "elemental_burst": {
+            "name": "Bandeira Quebra-Penhasco",
+            "icon_url": "/assets/images/talents/yun_jin/talent_elemental_burst.webp",
+            "description": "Causa Dano Geo em AdE e concede a todos os membros da equipe o efeito 'Bandeira da Nuvem Flutuante'.\nBandeira da Nuvem Flutuante: Quando Ataques Normais causam Dano a oponentes, o Dano causado é aumentado com base na DEF atual de Yun Jin. O efeito desaparece após sua duração expirar ou após um certo número de ativações (gatilhos). Quando um Ataque Normal atinge múltiplos inimigos simultaneamente, os gatilhos são consumidos com base no número de inimigos atingidos. Os gatilhos são contados individualmente para cada membro da equipe."
+        },
+        "passives": [
+            {
+                "name": "Auto-Preservação Genuína",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/yun_jin/talent_passive_a1.webp",
+                "description": "Usar Melodia da Nuvem de Abertura (Habilidade Elemental) no momento exato em que Yun Jin é atacada ativará sua forma de Carga Nível 2."
+            },
+            {
+                "name": "Rompendo com as Convenções",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/yun_jin/talent_passive_a4.webp",
+                "description": "O bônus de Dano de Ataque Normal concedido por Bandeira da Nuvem Flutuante (Supremo) é aumentado adicionalmente com base no número de Tipos Elementais diferentes na equipe (1/2/3/4 Tipos Elementais concedem 2.5%/5%/7.5%/11.5% da DEF de Yun Jin, respectivamente)."
+            },
+            {
+                "name": "Leveza Clássica",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/yun_jin/talent_passive_utility.webp",
+                "description": "Quando uma Culinária Perfeita é feita em comidas de Aventura, há 12% de chance de obter o dobro do produto."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Máscara Danificada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/damaged_mask.webp"
+        },
+        {
+            "name": "Máscara Suja",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/stained_mask.webp"
+        },
+        {
+            "name": "Máscara Ominosa",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/ominous_mask.webp"
+        },
+        {
+            "name": "Ensinamentos de Esforço",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_diligence.webp"
+        },
+        {
+            "name": "Guia de Esforço",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_diligence.webp"
+        },
+        {
+            "name": "Filosofia de Esforço",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_diligence.webp"
+        },
+        {
+            "name": "Coração das Cinzas",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/ashen_heart.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Estilo Acrobático",
+            "icon_url": "/assets/images/constellations/yun_jin/constellation_1.webp",
+            "description": "O Tempo de Recarga de Melodia da Nuvem de Abertura (Habilidade Elemental) é reduzido em 18%."
+        },
+        {
+            "level": 2,
+            "name": "Inventário de Personagens",
+            "icon_url": "/assets/images/constellations/yun_jin/constellation_2.webp",
+            "description": "Após Bandeira Quebra-Penhasco (Supremo) ser usada, o Dano de Ataque Normal de todos os membros da equipe próximos aumenta em 15% por 12s."
+        },
+        {
+            "level": 3,
+            "name": "Porta-Bandeira Marcial",
+            "icon_url": "/assets/images/constellations/yun_jin/constellation_3.webp",
+            "description": "Aumenta o nível de Bandeira Quebra-Penhasco (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Florescer da Formação",
+            "icon_url": "/assets/images/constellations/yun_jin/constellation_4.webp",
+            "description": "Quando Yun Jin desencadeia a reação de Cristalização, sua DEF aumenta em 20% por 12s."
+        },
+        {
+            "level": 5,
+            "name": "Fama Internacional",
+            "icon_url": "/assets/images/constellations/yun_jin/constellation_5.webp",
+            "description": "Aumenta o nível de Melodia da Nuvem de Abertura (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Harmonia e Elegância",
+            "icon_url": "/assets/images/constellations/yun_jin/constellation_6.webp",
+            "description": "Personagens afetados pela Bandeira da Nuvem Flutuante (Supremo) têm sua Vel. de ATQ Normal aumentada em 12%."
+        }
+    ]
+}

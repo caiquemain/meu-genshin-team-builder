@@ -1,0 +1,114 @@
+[
+    {
+        "id": "sigewinne_furina_forward_vape",
+        "name": "Sigewinne - Vaporizar Direto com Furina",
+        "strategy": "Sigewinne atua como curandeira para maximizar os buffs de Furina e fornece buff de Dano de Habilidade Elemental off-field. Um DPS Pyro on-field (como Lyney ou Hu Tao) causa Vaporizar com a aplicação Hydro de Furina e Sigewinne.",
+        "characters_in_team": [
+            {
+                "character_id": "sigewinne",
+                "role_in_team": "Healer / Buffer Off-Field",
+                "build_key": "sigewinne_off_field_healer_buffer"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            },
+            {
+                "character_id": "lyney",
+                "role_in_team": "Main DPS Pyro (Vaporize)",
+                "build_key": "lyney_vaporize_dps_marechaussee"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ],
+        "notes_team": "Bennett pode substituir Kazuha para mais ATQ, especialmente se Lyney for o DPS. Outros DPS Pyro como Hu Tao ou Yoimiya também funcionam."
+    },
+    {
+        "id": "sigewinne_electro_charged_furina",
+        "name": "Sigewinne - Eletricamente Carregado com Furina",
+        "strategy": "Sigewinne e Furina fornecem aplicação Hydro e buffs. Um ou dois personagens Electro off-field (Fischl, Yae Miko, Beidou) causam dano Eletricamente Carregado. Um Anemo é recomendado para Sombra Verde.",
+        "characters_in_team": [
+            {
+                "character_id": "sigewinne",
+                "role_in_team": "Healer / Buffer Off-Field",
+                "build_key": "sigewinne_off_field_healer_buffer"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ],
+        "notes_team": "Beidou ou Yae Miko podem complementar Fischl. Neuvillette pode ser o driver Hydro on-field."
+    },
+    {
+        "id": "sigewinne_mono_hydro_furina_yelan",
+        "name": "Sigewinne - Mono Hydro (Furina, Yelan)",
+        "strategy": "Time focado em maximizar o Dano Hydro com Furina, Yelan e Sigewinne. Um personagem Anemo (Kazuha) com Sombra Verde é essencial para reduzir RES Hydro e buffar o dano.",
+        "characters_in_team": [
+            {
+                "character_id": "sigewinne",
+                "role_in_team": "Healer / Buffer Off-Field",
+                "build_key": "sigewinne_off_field_healer_buffer"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro (Off-field DMG/Buff)",
+                "build_key": "yelan_off_field_hydro_support_emblem"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ],
+        "notes_team": "Neuvillette ou Ayato podem ser o Main DPS Hydro on-field neste time."
+    },
+    {
+        "id": "sigewinne_nilou_bloom",
+        "name": "Sigewinne - Germinar com Nilou",
+        "strategy": "Sigewinne como curandeira e aplicadora Hydro secundária em times de Germinar com Nilou. É crucial ter aplicadores Dendro consistentes (Nahida, Viajante Dendro, Collei, Baizhu).",
+        "characters_in_team": [
+            {
+                "character_id": "sigewinne",
+                "role_in_team": "Healer / Hydro Enabler",
+                "build_key": "sigewinne_off_field_healer_buffer"
+            },
+            {
+                "character_id": "nilou",
+                "role_in_team": "Suporte Hydro (Bloom Enabler)",
+                "build_key": "nilou_bloom_support_full_hp"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Dendro Enabler (Off-field)",
+                "build_key": "nahida_off_field_dendro_deepwood_em"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Suporte Dendro (Healer/Shielder/Deepwood Holder)",
+                "build_key": "baizhu_dendro_healer_deepwood_hp"
+            }
+        ],
+        "notes_team": "Outros personagens Dendro como Collei ou Viajante Dendro podem ser usados. Kokomi pode ser outra opção Hydro se a cura de Sigewinne não for suficiente ou para mais aplicação Hydro."
+    }
+]

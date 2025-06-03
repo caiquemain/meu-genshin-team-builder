@@ -1,0 +1,110 @@
+[
+    {
+        "id": "xianyun_xiao_hypercarry",
+        "name": "Xianyun - Hypercarry de Xiao",
+        "strategy": "Xianyun fornece cura massiva e habilita/buffa os Ataques Imersivos de Xiao. Faruzan (C6 ideal) aumenta o Dano Anemo de Xiao. Bennett buffa o ATQ.",
+        "characters_in_team": [
+            {
+                "character_id": "xiao",
+                "role_in_team": "Main DPS Anemo (Plunge)",
+                "build_key": "xiao_anemo_plunge_dps_vermillion"
+            },
+            {
+                "character_id": "xianyun",
+                "role_in_team": "Suporte Anemo (Healer/Plunge Buffer)",
+                "build_key": "xianyun_plunge_support_healer_vv"
+            },
+            {
+                "character_id": "faruzan",
+                "role_in_team": "Suporte Anemo (Buffer Anemo/RES Shred)",
+                "build_key": "faruzan_anemo_support_c6_favonius"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "xianyun_gaming_vaporize_plunge",
+        "name": "Xianyun - Gaming Vaporizar Imersivo",
+        "strategy": "Gaming como DPS principal, focando em Ataques Imersivos Pyro para Vaporizar. Xianyun habilita/buffa os Imersivos e cura. Furina buffa dano e aplica Hydro. Bennett buffa ATQ e fornece ressonância Pyro.",
+        "characters_in_team": [
+            {
+                "character_id": "gaming",
+                "role_in_team": "Main DPS Pyro (Plunge Vaporize)",
+                "build_key": "gaming_pyro_plunge_dps_crimson_witch"
+            },
+            {
+                "character_id": "xianyun",
+                "role_in_team": "Suporte Anemo (Healer/Plunge Enabler/VV Holder)",
+                "build_key": "xianyun_plunge_support_healer_vv"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer/Pyro Resonance)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "xianyun_hutao_plunge_vaporize",
+        "name": "Xianyun - Hu Tao Vaporizar Imersivo (com Furina)",
+        "strategy": "Hu Tao utiliza Ataques Imersivos para Vaporizar, habilitados por Xianyun. Furina buffa o dano e aplica Hydro. Yelan fornece mais dano Hydro off-field e ressonância Hydro.",
+        "characters_in_team": [
+            {
+                "character_id": "hu_tao",
+                "role_in_team": "Main DPS Pyro (Plunge Vaporize)",
+                "build_key": "hutao_pyro_vape_dps_shimenawa_homa"
+            },
+            {
+                "character_id": "xianyun",
+                "role_in_team": "Suporte Anemo (Healer/Plunge Enabler/VV Holder)",
+                "build_key": "xianyun_plunge_support_healer_vv"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro (Off-field/DMG Buff)",
+                "build_key": "yelan_off_field_hydro_support_emblem_favonius"
+            }
+        ]
+    },
+    {
+        "id": "xianyun_diluc_plunge_vaporize_bennett_furina",
+        "name": "Xianyun - Diluc Vaporizar Imersivo (Bennett, Furina)",
+        "strategy": "Diluc foca em Ataques Imersivos infundidos com Pyro (pós-Supremo) para Vaporizar. Xianyun habilita os imersivos e cura. Bennett buffa ATQ e fornece ressonância. Furina buffa dano e aplica Hydro.",
+        "characters_in_team": [
+            {
+                "character_id": "diluc",
+                "role_in_team": "Main DPS Pyro (Plunge Vaporize)",
+                "build_key": "diluc_pyro_vape_dps_crimson_witch"
+            },
+            {
+                "character_id": "xianyun",
+                "role_in_team": "Suporte Anemo (Healer/Plunge Enabler/VV Holder)",
+                "build_key": "xianyun_plunge_support_healer_vv"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer/Pyro Resonance)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            }
+        ]
+    }
+]

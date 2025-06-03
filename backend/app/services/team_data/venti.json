@@ -1,0 +1,113 @@
+[
+    {
+        "id": "venti_morgana_freeze",
+        "name": "Venti - Morgana (Congelamento)",
+        "strategy": "Composição clássica de Congelamento onde Venti agrupa inimigos em seu Supremo, infundindo-o com Hydro (de Mona/Kokomi) para permitir que um DPS Cryo (Ganyu/Ayaka) cause dano massivo em área. Diona fornece escudo, cura e ressonância Cryo.",
+        "characters_in_team": [
+            {
+                "character_id": "venti",
+                "role_in_team": "Suporte Anemo (Controle de Grupo/VV Shred/Bateria)",
+                "build_key": "venti_em_swirl_support"
+            },
+            {
+                "character_id": "ganyu",
+                "role_in_team": "Main DPS Cryo",
+                "build_key": "ganyu_freeze_dps_blizzard_amos"
+            },
+            {
+                "character_id": "mona",
+                "role_in_team": "Suporte Hydro (Aplicadora Hydro/Buffer Omen/TTDS)",
+                "build_key": "mona_support_omen_buffer_ttds_favonius"
+            },
+            {
+                "character_id": "diona",
+                "role_in_team": "Suporte Cryo (Escudo/Cura/Bateria)",
+                "build_key": "diona_cryo_support_favonius_noblesse"
+            }
+        ],
+        "notes_team": "Ayaka pode ser a DPS Cryo. Kokomi pode substituir Mona para mais cura e aplicação Hydro consistente."
+    },
+    {
+        "id": "venti_electro_charged_taser",
+        "name": "Venti - Taser (Eletricamente Carregado)",
+        "strategy": "Venti agrupa inimigos e espalha Hydro e Electro com seu Supremo, maximizando o dano da reação Eletricamente Carregado de personagens como Fischl e Beidou. Um aplicador Hydro como Xingqiu ou Kokomi é usado.",
+        "characters_in_team": [
+            {
+                "character_id": "venti",
+                "role_in_team": "Suporte Anemo (Controle de Grupo/VV Shred)",
+                "build_key": "venti_em_swirl_support"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro (Off-field AoE)",
+                "build_key": "beidou_subdps_emblem_er_focus"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro (Off-field/Redução de Dano)",
+                "build_key": "xingqiu_off_field_hydro_support_emblem_sacrificial"
+            }
+        ],
+        "notes_team": "Sucrose pode ser uma alternativa a Venti se buffs de PE forem mais desejados. Kokomi ou Yae Miko podem integrar o time."
+    },
+    {
+        "id": "venti_mono_pyro_lyney",
+        "name": "Venti - Mono Pyro (com Lyney)",
+        "strategy": "Venti agrupa inimigos e aplica Sombra Verde para reduzir RES Pyro, aumentando o dano de um time Mono Pyro focado em Lyney, Bennett e Xiangling.",
+        "characters_in_team": [
+            {
+                "character_id": "venti",
+                "role_in_team": "Suporte Anemo (Controle de Grupo/VV Shred)",
+                "build_key": "venti_em_swirl_support"
+            },
+            {
+                "character_id": "lyney",
+                "role_in_team": "Main DPS Pyro",
+                "build_key": "lyney_mono_pyro_dps_marechaussee"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro (Off-field)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer/Pyro Battery)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    },
+    {
+        "id": "venti_anemo_hypercarry_support",
+        "name": "Venti - Suporte para Hypercarry Anemo (Wanderer/Xiao)",
+        "strategy": "Venti fornece controle de grupo, redução de RES Anemo (C6) e partículas de energia para um DPS Anemo principal como Andarilho ou Xiao, geralmente com Faruzan e Bennett para buffs máximos.",
+        "characters_in_team": [
+            {
+                "character_id": "venti",
+                "role_in_team": "Suporte Anemo (Controle de Grupo/Bateria)",
+                "build_key": "venti_crit_anemo_dps"
+            },
+            {
+                "character_id": "wanderer",
+                "role_in_team": "Main DPS Anemo",
+                "build_key": "wanderer_anemo_dps_desert_pavilion"
+            },
+            {
+                "character_id": "faruzan",
+                "role_in_team": "Suporte Anemo (Buffer Anemo/RES Shred)",
+                "build_key": "faruzan_anemo_support_c6_favonius"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ],
+        "notes_team": "Xiao pode ser o DPS Anemo. Venti com build de CRIT pode contribuir mais com dano pessoal aqui."
+    }
+]

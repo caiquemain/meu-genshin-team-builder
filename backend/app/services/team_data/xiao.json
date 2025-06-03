@@ -1,0 +1,85 @@
+[
+    {
+        "id": "xiao_hypercarry_faruzan_bennett_zhongli",
+        "name": "Xiao - Hypercarry (Faruzan, Bennett, Zhongli)",
+        "strategy": "Maximiza o dano pessoal de Xiao. Faruzan (C6 ideal) é crucial para buff de Dano Anemo e redução de RES Anemo. Bennett fornece um grande buff de ATQ e cura. Zhongli oferece escudo robusto e redução de RES universal.",
+        "characters_in_team": [
+            {
+                "character_id": "xiao",
+                "role_in_team": "Main DPS Anemo (Plunge)",
+                "build_key": "xiao_anemo_hypercarry_vermillion"
+            },
+            {
+                "character_id": "faruzan",
+                "role_in_team": "Suporte Anemo (Buffer Anemo/RES Shred)",
+                "build_key": "faruzan_anemo_support_c6_favonius"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred)",
+                "build_key": "zhongli_shield_support_tenacity"
+            }
+        ]
+    },
+    {
+        "id": "xiao_hypercarry_xianyun_faruzan_furina",
+        "name": "Xiao - Hypercarry (Xianyun, Faruzan, Furina)",
+        "strategy": "Uma variação poderosa utilizando Xianyun para cura adicional, buff de Ataque Imersivo e potencial Sombra Verde. Furina aumenta o dano de toda a equipe. Faruzan continua sendo um buffer Anemo chave.",
+        "characters_in_team": [
+            {
+                "character_id": "xiao",
+                "role_in_team": "Main DPS Anemo (Plunge)",
+                "build_key": "xiao_anemo_hypercarry_vermillion"
+            },
+            {
+                "character_id": "xianyun",
+                "role_in_team": "Suporte Anemo (Healer/Plunge Buffer/VV Holder)",
+                "build_key": "xianyun_plunge_support_healer_vv"
+            },
+            {
+                "character_id": "faruzan",
+                "role_in_team": "Suporte Anemo (Buffer Anemo/RES Shred)",
+                "build_key": "faruzan_anemo_support_c6_favonius"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            }
+        ],
+        "notes_team": "Bennett pode substituir Furina para um buff de ATQ mais direto se a sinergia com Xianyun for preferida."
+    },
+    {
+        "id": "xiao_double_geo_faruzan_zhongli_albedo",
+        "name": "Xiao - Duplo Geo (Faruzan, Zhongli, Albedo)",
+        "strategy": "Xiao como DPS principal com Faruzan. Zhongli e Albedo fornecem Ressonância Geo (aumento de Dano e RES a Interrupção com escudo), escudo forte, dano Geo off-field e partículas.",
+        "characters_in_team": [
+            {
+                "character_id": "xiao",
+                "role_in_team": "Main DPS Anemo (Plunge)",
+                "build_key": "xiao_anemo_hypercarry_vermillion"
+            },
+            {
+                "character_id": "faruzan",
+                "role_in_team": "Suporte Anemo (Buffer Anemo/RES Shred)",
+                "build_key": "faruzan_anemo_support_c6_favonius"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred)",
+                "build_key": "zhongli_shield_support_tenacity"
+            },
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo (Off-field)",
+                "build_key": "albedo_geo_sub_dps_husk_cinnabar"
+            }
+        ],
+        "notes_team": "Chiori pode substituir Albedo para um perfil de dano off-field diferente."
+    }
+]

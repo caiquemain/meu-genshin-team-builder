@@ -1,0 +1,113 @@
+[
+    {
+        "id": "wanderer_hypercarry_faruzan_bennett_zhongli",
+        "name": "Andarilho - Hypercarry (Faruzan, Bennett, Zhongli)",
+        "strategy": "Maximiza o dano pessoal do Andarilho. Faruzan (C6 ideal) é crucial para buff de Dano Anemo e redução de RES Anemo. Bennett fornece um grande buff de ATQ e cura. Zhongli oferece escudo e redução de RES universal.",
+        "characters_in_team": [
+            {
+                "character_id": "wanderer",
+                "role_in_team": "Main DPS Anemo",
+                "build_key": "wanderer_anemo_hypercarry_dpc"
+            },
+            {
+                "character_id": "faruzan",
+                "role_in_team": "Suporte Anemo (Buffer Anemo/RES Shred)",
+                "build_key": "faruzan_anemo_support_c6_favonius"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred)",
+                "build_key": "zhongli_shield_support_tenacity"
+            }
+        ]
+    },
+    {
+        "id": "wanderer_hypercarry_furina_faruzan_jean",
+        "name": "Andarilho - Hypercarry (Furina, Faruzan, Jean)",
+        "strategy": "Utiliza Furina para um grande buff de Dano. Faruzan continua essencial. Jean (ou outro curandeiro Anemo como Xianyun) fornece cura para toda a equipe para maximizar os acúmulos de Fanfarra de Furina e pode usar Sombra Verde.",
+        "characters_in_team": [
+            {
+                "character_id": "wanderer",
+                "role_in_team": "Main DPS Anemo",
+                "build_key": "wanderer_anemo_hypercarry_dpc"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            },
+            {
+                "character_id": "faruzan",
+                "role_in_team": "Suporte Anemo (Buffer Anemo/RES Shred)",
+                "build_key": "faruzan_anemo_support_c6_favonius"
+            },
+            {
+                "character_id": "jean",
+                "role_in_team": "Suporte Anemo (Healer/VV Holder)",
+                "build_key": "jean_anemo_healer_vv_favonius"
+            }
+        ],
+        "notes_team": "Xianyun pode substituir Jean para cura e buff de Ataque Imersivo (embora Andarilho foque em Ataques Normais/Carregados em voo)."
+    },
+    {
+        "id": "wanderer_taser_driver_fischl_xingqiu_beidou",
+        "name": "Andarilho - Driver Taser (Fischl, Xingqiu, Beidou)",
+        "strategy": "Andarilho como driver on-field para ativar as habilidades off-field de Fischl, Xingqiu e Beidou, causando dano Eletricamente Carregado e Redemoinhos.",
+        "characters_in_team": [
+            {
+                "character_id": "wanderer",
+                "role_in_team": "On-Field Anemo Driver",
+                "build_key": "wanderer_anemo_hypercarry_dpc"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro (Off-field)",
+                "build_key": "xingqiu_off_field_hydro_support_emblem_sacrificial"
+            },
+            {
+                "character_id": "beidou",
+                "role_in_team": "Sub-DPS Electro (Off-field AoE)",
+                "build_key": "beidou_subdps_emblem_er_focus"
+            }
+        ],
+        "notes_team": "Wanderer usa 4p Sombra Verde nesta composição para maximizar o dano do time."
+    },
+    {
+        "id": "wanderer_hyperbloom_driver_nahida_xingqiu_kuki",
+        "name": "Andarilho - Driver Superflorescimento (Nahida, Xingqiu, Kuki)",
+        "strategy": "Andarilho como driver on-field, usando Redemoinhos para espalhar Hydro e ativar a criação de Sementes Dendro com Nahida e Xingqiu. Kuki Shinobu (full EM) ativa Superflorescimento.",
+        "characters_in_team": [
+            {
+                "character_id": "wanderer",
+                "role_in_team": "On-Field Anemo Driver",
+                "build_key": "wanderer_anemo_hypercarry_dpc"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Dendro Enabler (Off-field)",
+                "build_key": "nahida_off_field_dendro_deepwood_em"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Hydro Enabler (Off-field)",
+                "build_key": "xingqiu_off_field_hydro_support_sacrificial"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Electro Trigger (Hyperbloom/Healer - Full EM)",
+                "build_key": "kuki_hyperbloom_full_em_gilded"
+            }
+        ],
+        "notes_team": "Wanderer com 4p Sombra Verde é recomendado aqui."
+    }
+]

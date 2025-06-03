@@ -1,0 +1,384 @@
+{
+    "id": "xilonen",
+    "name": "Xilonen",
+    "title": "Fogo Ardente Forja a Alma",
+    "element": "Geo",
+    "rarity": 5,
+    "weapon": "Sword",
+    "model_type": "Tall Female",
+    "role": [
+        "Off-Field Support",
+        "Healer",
+        "Buffer"
+    ],
+    "description_bio": "Uma renomada ferreira de Nanatzcayan em Natlan, conhecida por sua habilidade excepcional e temperamento ardente. Xilonen valoriza a força e a dedicação, tanto em seu ofício quanto naqueles ao seu redor, e sua presença é tão imponente quanto as montanhas vulcânicas de sua terra natal.",
+    "birthday": "13 de Março",
+    "constellation_name_official": "Felis Pardalis",
+    "region": "Natlan",
+    "affiliation": [
+        "Nanatzcayan"
+    ],
+    "special_dish": {
+        "name": "Balas de Leite com Sabor de Frutas",
+        "icon_url": "/assets/images/dishes/xilonen_fruit_flavored_milk_candies.webp"
+    },
+    "namecard_url": "/assets/images/namecards/xilonen_cue_point.png",
+    "icon_url": "/assets/images/characters/xilonen.png",
+    "element_icon_url": "/assets/images/elements/element_geo.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Xilonen Quick Guide",
+                "url": "https://keqingmains.com/q/xilonen-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Xilonen",
+                "url": "https://genshin-impact.fandom.com/wiki/Xilonen"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Xilonen",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Xilonen"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "xilonen_support_healer_scroll_petra",
+            "name": "Suporte Off-Field / Curandeira (Pergaminho/Pedra Arcaica)",
+            "notes_build": "Focada em fornecer cura para a equipe, buffs de Dano Elemental (com Pergaminho do Herói da Cidade das Cinzas ou Pedra Arcaica) e redução de RES com sua Habilidade Elemental. Requer boa Recarga de Energia.",
+            "artifacts": [
+                {
+                    "set_id": "scroll_of_the_hero_of_cinder_city",
+                    "set_name": "Pergaminho do Herói da Cidade das Cinzas",
+                    "pieces": 4,
+                    "notes": "Seu melhor conjunto (BiS) como personagem de Natlan, oferecendo um grande buff de Dano Elemental para a equipe.",
+                    "icon_url": "/assets/images/artifact_sets/scroll_of_the_hero_of_cinder_city.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Opção sólida para buffar o ATQ da equipe se outro personagem não estiver usando.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "archaic_petra",
+                    "set_name": "Pedra Arcaica",
+                    "pieces": 4,
+                    "notes": "Para buffar o Dano Elemental correspondente ao fragmento de Cristalização coletado. Requer que Xilonen colete os fragmentos.",
+                    "icon_url": "/assets/images/artifact_sets/archaic_petra.png"
+                },
+                {
+                    "set_id": "instructor",
+                    "set_name": "Instrutor",
+                    "pieces": 4,
+                    "notes": "Opção de baixo investimento para buffar a Proficiência Elemental da equipe, útil em times de reação.",
+                    "icon_url": "/assets/images/artifact_sets/instructor.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia% / Vida% / DEF% (se usando Canção da Patrulha do Pico)",
+                "goblet": "Vida% / DEF% (se usando Canção da Patrulha do Pico)",
+                "circlet": "Bônus de Cura% / Vida% / DEF% (se usando Canção da Patrulha do Pico) / Taxa CRIT% (para Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito)",
+                "Vida% / DEF% (dependendo da arma e escalonamento da cura/buff)",
+                "Taxa CRIT% (para Favonius)",
+                "Vida Flat / DEF Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "peak_patrol_song",
+                    "name": "Peak Patrol Song (Canção da Patrulha do Pico)",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Sua melhor arma (BiS). Buffa Dano Elemental da equipe com base na DEF de Xilonen após usar o Supremo. Detalhes completos desta arma precisam ser adicionados ao banco de dados.",
+                    "icon_url": "/assets/images/weapons_detail/peak_patrol_song.png"
+                },
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Excelente para necessidades de energia da equipe, requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "sapwood_blade",
+                    "name": "Lâmina de Madeira",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja (Sumeru)",
+                    "notes": "Opção de forja com Recarga de Energia, passiva concede Proficiência Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/sapwood_blade.png"
+                },
+                {
+                    "weapon_id": "xiphos_moonlight",
+                    "name": "Luz Lunar de Xiphos",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Fornece Proficiência Elemental e converte PE em RE para Xilonen e a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/xiphos_moonlight.png"
+                },
+                {
+                    "weapon_id": "skyward_blade",
+                    "name": "Lâmina Celestial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Alto ATQ Base e Recarga de Energia, com pequenos buffs de Taxa CRIT e Vel. de ATQ/Movimento.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_blade.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2252,
+            "base_atk": 46,
+            "base_def": 143,
+            "bonus_stat_label": "Bônus de Cura%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4354,
+            "base_atk": 89,
+            "base_def": 278,
+            "bonus_stat_label": "Bônus de Cura%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5544,
+            "base_atk": 113,
+            "base_def": 353,
+            "bonus_stat_label": "Bônus de Cura%",
+            "bonus_stat_value": "5.5%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6963,
+            "base_atk": 142,
+            "base_def": 442,
+            "bonus_stat_label": "Bônus de Cura%",
+            "bonus_stat_value": "11.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8153,
+            "base_atk": 166,
+            "base_def": 518,
+            "bonus_stat_label": "Bônus de Cura%",
+            "bonus_stat_value": "11.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9349,
+            "base_atk": 191,
+            "base_def": 594,
+            "bonus_stat_label": "Bônus de Cura%",
+            "bonus_stat_value": "16.5%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10899,
+            "base_atk": 222,
+            "base_def": 690,
+            "bonus_stat_label": "Bônus de Cura%",
+            "bonus_stat_value": "22.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Talismã da Terra Enigmática",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/talisman_of_the_enigmatic_land.webp"
+        },
+        {
+            "name": "Lasca de Topázio Prithiva",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/prithiva_topaz_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Topázio Prithiva",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/prithiva_topaz_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Topázio Prithiva",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/prithiva_topaz_chunk.webp"
+        },
+        {
+            "name": "Gema de Topázio Prithiva",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/prithiva_topaz_gemstone.webp"
+        },
+        {
+            "name": "Fruta Quenepa",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/quenepa_berry.webp"
+        },
+        {
+            "name": "Cetim Vermelho Desbotado",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/faded_red_satin.webp"
+        },
+        {
+            "name": "Seda Vermelha Bordada",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/trimmed_red_silk.webp"
+        },
+        {
+            "name": "Brocado Vermelho Luxuoso",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/rich_red_brocade.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Dança da Lâmina Ardente",
+            "icon_url": "/assets/images/talents/xilonen/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes rápidos com a espada.\nAtaque Carregado: Consome Stamina para desferir 2 golpes rápidos.\nAtaque Imersivo: Mergulha para atingir o chão, causando Dano em AdE."
+        },
+        "elemental_skill": {
+            "name": "Alma da Forja Crepitante",
+            "icon_url": "/assets/images/talents/xilonen/talent_elemental_skill.webp",
+            "description": "Xilonen invoca o espírito da forja, causando Dano Geo em AdE aos inimigos próximos. Concede 'Amostras de Minério' à equipe. Ao coletar 'Amostras de Minério', a RES Geo dos inimigos próximos é reduzida e a DEF do personagem ativo aumenta. Este efeito pode ser compartilhado com personagens Natlan na equipe para ativar seus efeitos de 'Alma da Noite'."
+        },
+        "elemental_burst": {
+            "name": "Ritual da Chama Sagrada",
+            "icon_url": "/assets/images/talents/xilonen/talent_elemental_burst.webp",
+            "description": "Xilonen realiza um ritual ancestral, causando Dano Geo em AdE e curando todos os membros da equipe (cura baseada na Vida Máx. de Xilonen). Cria um 'Santuário da Forja' que pulsa periodicamente, causando Dano Geo em AdE e curando o personagem ativo."
+        },
+        "passives": [
+            {
+                "name": "Bênção da Centelha Divina",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/xilonen/talent_passive_a1.webp",
+                "description": "Quando Xilonen está na equipe, e um personagem ativo coleta um fragmento criado pela reação de Cristalização, a duração do escudo de Cristalização é aumentada e sua força é aumentada."
+            },
+            {
+                "name": "Espírito do Artesão Eterno",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/xilonen/talent_passive_a4.webp",
+                "description": "Quando o 'Santuário da Forja' (do Supremo) está ativo, o Bônus de Dano Geo dos membros da equipe próximos aumenta com base em uma porcentagem da DEF de Xilonen."
+            },
+            {
+                "name": "Presente da Montanha",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/xilonen/talent_passive_utility.webp",
+                "description": "Ao forjar Materiais de Ascensão de Arma, há 10% de chance de restituir uma parte dos minérios usados."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Cetim Vermelho Desbotado",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/faded_red_satin.webp"
+        },
+        {
+            "name": "Seda Vermelha Bordada",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/trimmed_red_silk.webp"
+        },
+        {
+            "name": "Brocado Vermelho Luxuoso",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/rich_red_brocade.webp"
+        },
+        {
+            "name": "Ensinamentos do Acendimento",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_kindling.webp"
+        },
+        {
+            "name": "Guia do Acendimento",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_kindling.webp"
+        },
+        {
+            "name": "Filosofia do Acendimento",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_kindling.webp"
+        },
+        {
+            "name": "Negação e Julgamento",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/denial_and_judgment.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Forja da Resiliência",
+            "icon_url": "/assets/images/constellations/xilonen/constellation_1.webp",
+            "description": "A duração de Alma da Forja Crepitante (Habilidade Elemental) é aumentada em 4s. Além disso, quando um personagem coleta uma 'Amostra de Minério', a DEF de Xilonen aumenta em 20% por 10s."
+        },
+        {
+            "level": 2,
+            "name": "Calor da Inspiração",
+            "icon_url": "/assets/images/constellations/xilonen/constellation_2.webp",
+            "description": "O 'Santuário da Forja' criado por Ritual da Chama Sagrada (Supremo) agora também concede um bônus de ATQ para o personagem ativo, igual a 50% da DEF de Xilonen."
+        },
+        {
+            "level": 3,
+            "name": "Martelo da Criação Divina",
+            "icon_url": "/assets/images/constellations/xilonen/constellation_3.webp",
+            "description": "Aumenta o nível de Alma da Forja Crepitante (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Alma da Montanha Ecoante",
+            "icon_url": "/assets/images/constellations/xilonen/constellation_4.webp",
+            "description": "Quando um personagem ativo dentro do 'Santuário da Forja' (Supremo) causa Dano Geo, o TdR de Alma da Forja Crepitante (Habilidade Elemental) de Xilonen é reduzido em 1s. Este efeito pode ocorrer uma vez a cada 2s."
+        },
+        {
+            "level": 5,
+            "name": "Chama Eterna da Maestria",
+            "icon_url": "/assets/images/constellations/xilonen/constellation_5.webp",
+            "description": "Aumenta o nível de Ritual da Chama Sagrada (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Legado da Artesã Lendária",
+            "icon_url": "/assets/images/constellations/xilonen/constellation_6.webp",
+            "description": "Quando Xilonen ativa Ritual da Chama Sagrada (Supremo), todos os membros da equipe ganham o efeito 'Alma da Montanha': Dano CRIT Geo aumentado em 40% por 15s."
+        }
+    ]
+}

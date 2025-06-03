@@ -1,0 +1,110 @@
+[
+    {
+        "id": "yun_jin_yoimiya_vape",
+        "name": "Yun Jin - Suporte para Yoimiya (Vaporizar)",
+        "strategy": "Yun Jin buffa os Ataques Normais de Yoimiya, que são sua principal fonte de dano. Xingqiu ou Yelan fornecem aplicação Hydro para Vaporizar. Um quarto slot flexível (Bennett para ATQ, Zhongli para escudo, ou outro suporte).",
+        "characters_in_team": [
+            {
+                "character_id": "yun_jin",
+                "role_in_team": "Suporte de Ataque Normal",
+                "build_key": "yun_jin_normal_attack_support_husk"
+            },
+            {
+                "character_id": "yoimiya",
+                "role_in_team": "Main DPS Pyro (Ataque Normal)",
+                "build_key": "yoimiya_pyro_dps_shimenawa_rust"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro (Off-field Enabler)",
+                "build_key": "xingqiu_off_field_hydro_support_emblem_sacrificial"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred)",
+                "build_key": "zhongli_shield_support_tenacity"
+            }
+        ]
+    },
+    {
+        "id": "yun_jin_ayato_hypercarry",
+        "name": "Yun Jin - Suporte para Ayato Hypercarry",
+        "strategy": "Yun Jin buffa os Ataques Normais da Habilidade Elemental de Ayato. Bennett para buff de ATQ e Kazuha para buff de Dano Hydro e Sombra Verde.",
+        "characters_in_team": [
+            {
+                "character_id": "yun_jin",
+                "role_in_team": "Suporte de Ataque Normal",
+                "build_key": "yun_jin_normal_attack_support_husk"
+            },
+            {
+                "character_id": "kamisato_ayato",
+                "role_in_team": "Main DPS Hydro (Ataque Normal)",
+                "build_key": "ayato_hydro_dps_heart_of_depth_haran"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "yun_jin_noelle_main_dps",
+        "name": "Yun Jin - Suporte para Noelle DPS",
+        "strategy": "Yun Jin buffa os Ataques Normais de Noelle durante seu Supremo. Gorou (C6 ideal) buffa DEF e Dano Geo. Um quarto personagem flexível, como Albedo/Chiori para dano off-field ou Fischl para Cristalização.",
+        "characters_in_team": [
+            {
+                "character_id": "yun_jin",
+                "role_in_team": "Suporte de Ataque Normal",
+                "build_key": "yun_jin_normal_attack_support_husk"
+            },
+            {
+                "character_id": "noelle",
+                "role_in_team": "Main DPS Geo (Ataque Normal)",
+                "build_key": "noelle_geo_dps_husk_redhorn"
+            },
+            {
+                "character_id": "gorou",
+                "role_in_team": "Suporte Geo (Buffer DEF/Geo DMG)",
+                "build_key": "gorou_geo_support_favonius_exile_c6"
+            },
+            {
+                "character_id": "albedo",
+                "role_in_team": "Sub-DPS Geo (Off-field)",
+                "build_key": "albedo_geo_sub_dps_husk_cinnabar"
+            }
+        ]
+    },
+    {
+        "id": "yun_jin_physical_zhongli",
+        "name": "Yun Jin - Suporte para Zhongli DPS Físico",
+        "strategy": "Yun Jin buffa os Ataques Normais rápidos de Zhongli em uma build de DPS Físico. Um personagem Electro e um Cryo são usados para Supercondutor.",
+        "characters_in_team": [
+            {
+                "character_id": "yun_jin",
+                "role_in_team": "Suporte de Ataque Normal",
+                "build_key": "yun_jin_normal_attack_support_husk"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Main DPS Físico (Ataque Normal)",
+                "build_key": "zhongli_physical_dps_crescent_pike_pale_flame"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field/Superconduct Enabler)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Suporte Cryo (Aplicadora Cryo/CRIT Share)",
+                "build_key": "rosaria_cryo_support_favonius_noblesse"
+            }
+        ]
+    }
+]

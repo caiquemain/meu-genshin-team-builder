@@ -1,0 +1,495 @@
+{
+    "id": "varesa",
+    "name": "Varesa",
+    "title": "Ócio Vigoroso",
+    "element": "Electro",
+    "rarity": 5,
+    "weapon": "Catalyst",
+    "model_type": "Medium Female",
+    "role": [
+        "On-Field DPS",
+        "Plunge DPS",
+        "Burst DPS"
+    ],
+    "description_bio": "Uma guerreira resoluta e proprietária de pomar do Coletivo da Fartura em Natlan. Varesa combina força bruta com uma calma surpreendente, explodindo seus inimigos com Ataques Imersivos elétricos e um Supremo devastador.",
+    "birthday": "15 de Novembro",
+    "constellation_name_official": "Mascara Luctatori",
+    "region": "Natlan",
+    "affiliation": [
+        "Teteocan",
+        "Coletivo da Fartura"
+    ],
+    "special_dish": {
+        "name": "Monte Cogumelo (Para Um)",
+        "icon_url": "/assets/images/dishes/varesa_mt_mushroom_for_one.webp"
+    },
+    "namecard_url": "/assets/images/namecards/varesa_powerhouse.png",
+    "icon_url": "/assets/images/characters/varesa.png",
+    "element_icon_url": "/assets/images/elements/element_electro.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Varesa Quick Guide",
+                "url": "https://keqingmains.com/q/varesa-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Varesa",
+                "url": "https://genshin-impact.fandom.com/wiki/Varesa"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Varesa",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Varesa"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "varesa_plunge_dps_obsidian",
+            "name": "DPS de Ataque Imersivo Geral (Códice Obsidiano)",
+            "notes_build": "Focada em maximizar o dano de seus Ataques Imersivos elétricos e Supremo. O conjunto Códice Obsidiano é sua melhor opção para este estilo.",
+            "artifacts": [
+                {
+                    "set_id": "obsidian_codex",
+                    "set_name": "Códice Obsidiano (Obsidian Codex)",
+                    "pieces": 4,
+                    "notes": "Seu melhor conjunto (BiS). Oferece Bônus de DANO universal e um grande buff de Taxa CRIT. Detalhes completos deste conjunto precisam ser adicionados ao banco de dados.",
+                    "icon_url": "/assets/images/artifact_sets/obsidian_codex.png"
+                },
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras Marechaussee",
+                    "pieces": 4,
+                    "notes": "Excelente opção se jogada com Furina, devido ao buff de Taxa CRIT das flutuações de Vida.",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                },
+                {
+                    "set_id": "thundersoother",
+                    "set_name": "Trovão Furioso",
+                    "pieces": 4,
+                    "notes": "Aumenta o Dano contra inimigos afetados por Electro. Viável se a aplicação Electro for consistente.",
+                    "icon_url": "/assets/images/artifact_sets/thundersoother.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ%",
+                "goblet": "Bônus de Dano Electro%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATQ%",
+                "Recarga de Energia%",
+                "Proficiência Elemental (se relevante para reações)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "vivid_notions",
+                    "name": "Call of the Wild (Chamado da Selva)",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Sua melhor arma (BiS), focada em Dano CRIT e buff de Ataque Imersivo.",
+                    "icon_url": "/assets/images/weapons_detail/vivid_notions.png"
+                },
+                {
+                    "weapon_id": "kaguras_verity",
+                    "name": "Prova de Kagura",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Excelente opção com Dano CRIT e buff de Dano de Habilidade Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/kaguras_verity.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Ótima opção 4★ com Dano CRIT e buffs aleatórios poderosos.",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal (para Ataque Imersivo)",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)"
+            ]
+        },
+        {
+            "key": "varesa_overload_chevreuse",
+            "name": "DPS de Sobrecarga (com Chevreuse)",
+            "notes_build": "Utiliza Chevreuse para buffar times de Sobrecarga. Varesa causa dano com seus Ataques Imersivos e Supremo, desencadeando Sobrecarga com um personagem Pyro.",
+            "artifacts": [
+                {
+                    "set_id": "obsidian_codex",
+                    "set_name": "Códice Obsidiano (Obsidian Codex)",
+                    "pieces": 4,
+                    "notes": "Ainda uma ótima opção para dano pessoal. Detalhes completos deste conjunto precisam ser adicionados ao banco de dados.",
+                    "icon_url": "/assets/images/artifact_sets/obsidian_codex.png"
+                },
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "set_name": "Bruxa das Chamas Carmesim",
+                    "pieces": 4,
+                    "notes": "Se focada em maximizar o dano da Sobrecarga (embora Varesa foque mais em seu dano direto).",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                },
+                {
+                    "set_id": "gladiators_finale",
+                    "set_name": "Fim do Gladiador",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p Thundering Fury para ATQ% e Bônus Electro.",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
+                },
+                {
+                    "set_id": "thundering_fury",
+                    "set_name": "Fúria Trovejante",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p ATQ% para Bônus Electro e ATQ%.",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ%",
+                "goblet": "Bônus de Dano Electro% / ATQ%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATQ%",
+                "Recarga de Energia%",
+                "Proficiência Elemental"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "vivid_notions",
+                    "name": "Call of the Wild (Chamado da Selva)",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Continua sendo sua melhor arma.",
+                    "icon_url": "/assets/images/weapons_detail/vivid_notions.png"
+                },
+                {
+                    "weapon_id": "lost_prayer_to_the_sacred_winds",
+                    "name": "Oração Perdida aos Ventos Sagrados",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Padrão)",
+                    "notes": "Boa opção com Taxa CRIT e Bônus de Dano Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/lost_prayer_to_the_sacred_winds.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal (para Ataque Imersivo)",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)"
+            ]
+        },
+        {
+            "key": "varesa_aggravate_gilded",
+            "name": "DPS de Agravamento (Sonhos Dourados)",
+            "notes_build": "Focada na reação de Agravamento. Proficiência Elemental se torna mais valiosa, mas o ICD de Varesa pode limitar o benefício máximo.",
+            "artifacts": [
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Excelente para Agravamento, fornecendo Proficiência Elemental e ATQ%.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                },
+                {
+                    "set_id": "thundering_fury",
+                    "set_name": "Fúria Trovejante",
+                    "pieces": 4,
+                    "notes": "Aumenta o Dano de Agravamento e reduz o TdR da Habilidade Elemental.",
+                    "icon_url": "/assets/images/artifact_sets/thundering_fury.png"
+                },
+                {
+                    "set_id": "obsidian_codex",
+                    "set_name": "Códice Obsidiano (Obsidian Codex)",
+                    "pieces": 4,
+                    "notes": "Pode ser usado se os substats de PE forem bons. Detalhes completos deste conjunto precisam ser adicionados ao banco de dados.",
+                    "icon_url": "/assets/images/artifact_sets/obsidian_codex.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental / ATQ%",
+                "goblet": "Bônus de Dano Electro%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "Proficiência Elemental",
+                "ATQ%",
+                "Recarga de Energia%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "a_thousand_floating_dreams",
+                    "name": "Mil Sonhos Flutuantes",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Arma de assinatura da Nahida, excelente para PE e buffs para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/a_thousand_floating_dreams.png"
+                },
+                {
+                    "weapon_id": "sacrificial_jade",
+                    "name": "Sacrifício de Jade",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Passe de Batalha",
+                    "notes": "Taxa CRIT e buff de PE/Vida quando fora de campo.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_jade.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal (para Ataque Imersivo)",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2084,
+            "base_atk": 66,
+            "base_def": 116,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "50.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4032,
+            "base_atk": 128,
+            "base_def": 226,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "50.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5134,
+            "base_atk": 163,
+            "base_def": 288,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "59.6%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6526,
+            "base_atk": 207,
+            "base_def": 365,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "69.2%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7627,
+            "base_atk": 242,
+            "base_def": 427,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "69.2%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8736,
+            "base_atk": 277,
+            "base_def": 489,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "78.9%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10208,
+            "base_atk": 324,
+            "base_def": 571,
+            "bonus_stat_label": "Dano CRIT%",
+            "bonus_stat_value": "88.4%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Brasas do Lorde Cinzento",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/sparkless_statue_core.webp"
+        },
+        {
+            "name": "Lasca de Ametista Vajrada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ametista Vajrada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_chunk.webp"
+        },
+        {
+            "name": "Gema de Ametista Vajrada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vajrada_amethyst_gemstone.webp"
+        },
+        {
+            "name": "Flor Beijada Pelo Sol",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/skysplit_gembloom.webp"
+        },
+        {
+            "name": "Osso Resistente",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/juvenile_fang.webp"
+        },
+        {
+            "name": "Fragmento de Osso",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/seasoned_fang.webp"
+        },
+        {
+            "name": "Osso Fossilizado",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/tyrants_fang.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Golpe Trovejante do Pomar",
+            "icon_url": "/assets/images/talents/varesa/talent_normal_attack.webp",
+            "description": "Ataque Normal: Comanda espíritos do trovão, realizando até 4 ataques que causam Dano Electro.\nAtaque Carregado: Consome Stamina para causar Dano Electro em AdE após um curto tempo de canalização.\nAtaque Imersivo: Concentrando o poder do trovão, Varesa mergulha em direção ao solo, causando Dano Electro em todos os inimigos em seu caminho. Causa Dano Electro em AdE ao impactar o chão. Este Dano é significativamente aumentado pela Habilidade Elemental."
+        },
+        "elemental_skill": {
+            "name": "Ascensão Tempestuosa",
+            "icon_url": "/assets/images/talents/varesa/talent_elemental_skill.webp",
+            "description": "Varesa se impulsiona para o ar com o poder da tempestade, entrando em um estado que permite Ataques Imersivos aprimorados por um curto período. Usar a habilidade novamente ou realizar um Ataque Imersivo consome este estado. Seus Ataques Imersivos neste estado têm AdE aumentada e não consomem Stamina."
+        },
+        "elemental_burst": {
+            "name": "Fúria do Céu Cinzento / Despertar da Tempestade Interior",
+            "icon_url": "/assets/images/talents/varesa/talent_elemental_burst.webp",
+            "description": "Varesa possui duas posturas para seu Supremo:\nFúria do Céu Cinzento: Invoca uma tempestade devastadora que causa Dano Electro em AdE massivo em uma grande área.\nDespertar da Tempestade Interior: Varesa se imbui com o poder do Lorde Cinzento, aumentando seu Dano Electro e resistência à interrupção. Seus Ataques Normais, Carregados e Imersivos causam Dano Electro adicional em AdE. Trocar de postura redefine o TdR do Supremo."
+        },
+        "passives": [
+            {
+                "name": "Alma Indomável",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/varesa/talent_passive_a1.webp",
+                "description": "Após usar Ascensão Tempestuosa, o Dano do próximo Ataque Imersivo de Varesa é aumentado. Se o Ataque Imersivo atingir pelo menos um inimigo, Varesa recupera Energia Elemental."
+            },
+            {
+                "name": "Legado do Touro Trovejante",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/varesa/talent_passive_a4.webp",
+                "description": "Quando o Supremo de Varesa (qualquer postura) atinge um inimigo, todos os membros da equipe ganham Bônus de Dano Electro por um certo período."
+            },
+            {
+                "name": "Colheita Abundante",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/varesa/talent_passive_utility.webp",
+                "description": "Quando Varesa fabrica Materiais de Elevação de Arma e Talento, ela tem 10% de chance de dobrar o produto."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Osso Resistente",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/juvenile_fang.webp"
+        },
+        {
+            "name": "Fragmento de Osso",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/seasoned_fang.webp"
+        },
+        {
+            "name": "Osso Fossilizado",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/tyrants_fang.webp"
+        },
+        {
+            "name": "Ensinamentos das Conflito",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_conflict.webp"
+        },
+        {
+            "name": "Guia das Conflito",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_conflict.webp"
+        },
+        {
+            "name": "Filosofia das Conflito",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_conflict.webp"
+        },
+        {
+            "name": "Lágrima Obsidiana do Lorde Cinzento",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/eroded_horn.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Pomar Fortificado",
+            "icon_url": "/assets/images/constellations/varesa/constellation_1.webp",
+            "description": "Ascensão Tempestuosa ganha uma carga adicional."
+        },
+        {
+            "level": 2,
+            "name": "Fúria Implacável",
+            "icon_url": "/assets/images/constellations/varesa/constellation_2.webp",
+            "description": "Atingir um oponente com um Ataque Imersivo aprimorado por Ascensão Tempestuosa reduz a RES Electro do oponente em 20% por 10s."
+        },
+        {
+            "level": 3,
+            "name": "Tempestade Eterna",
+            "icon_url": "/assets/images/constellations/varesa/constellation_3.webp",
+            "description": "Aumenta o nível de Fúria do Céu Cinzento / Despertar da Tempestade Interior (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Olhar do Touro de Obsidiana",
+            "icon_url": "/assets/images/constellations/varesa/constellation_4.webp",
+            "description": "Quando a Vida de Varesa cai abaixo de 50%, ela ganha um escudo igual a 30% de sua Vida Máx. por 10s e sua RES à Interrupção é aumentada. Este efeito pode ocorrer uma vez a cada 20s."
+        },
+        {
+            "level": 5,
+            "name": "Despertar Imparável",
+            "icon_url": "/assets/images/constellations/varesa/constellation_5.webp",
+            "description": "Aumenta o nível de Ascensão Tempestuosa (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Lorde Cinzento Ascendente",
+            "icon_url": "/assets/images/constellations/varesa/constellation_6.webp",
+            "description": "Enquanto Despertar da Tempestade Interior (Supremo) estiver ativo, os Ataques Imersivos de Varesa restauram Energia Elemental para ela e aplicam uma marca nos inimigos atingidos. Quando inimigos marcados sofrem Dano Electro de outros membros da equipe, a marca explode, causando Dano Electro em AdE igual a 100% do ATQ de Varesa."
+        }
+    ]
+}

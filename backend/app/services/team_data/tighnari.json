@@ -1,0 +1,86 @@
+[
+    {
+        "id": "tighnari_spread_fischl_yae_zhongli",
+        "name": "Tighnari - Propagação (Fischl, Yae Miko, Zhongli)",
+        "strategy": "Time focado em maximizar o dano de Propagação (Spread) de Tighnari. Fischl e Yae Miko fornecem aplicação Electro off-field constante e dano pessoal. Zhongli oferece escudo robusto e redução de RES universal, além de poder usar 4p Memórias da Floresta se necessário.",
+        "characters_in_team": [
+            {
+                "character_id": "tighnari",
+                "role_in_team": "Main DPS Dendro (Spread)",
+                "build_key": "tighnari_spread_dps_deepwood"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field/Bateria)",
+                "build_key": "fischl_aggravate_golden_troupe_stringless"
+            },
+            {
+                "character_id": "yae_miko",
+                "role_in_team": "Sub-DPS Electro (Off-field)",
+                "build_key": "yae_miko_aggravate_gilded_dreams_kagura"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred/Deepwood Holder Opcional)",
+                "build_key": "zhongli_shield_support_tenacity_deepwood"
+            }
+        ],
+        "notes_team": "Kuki Shinobu pode substituir um dos Electro para cura e aplicação Electro de curto alcance, e pode usar Memórias da Floresta. Kazuha/Sucrose podem substituir Zhongli para mais buff de Dano/PE e controle de grupo, mas o time perde o escudo."
+    },
+    {
+        "id": "tighnari_spread_fischl_kazuha_baizhu",
+        "name": "Tighnari - Propagação (Fischl, Kazuha, Baizhu)",
+        "strategy": "Similar ao time anterior, mas com Kazuha para buff de Dano Elemental e Sombra Verde (se puder girar Electro) e Baizhu para cura, escudo leve, aplicação Dendro e buff de Propagação/Agravamento com sua passiva.",
+        "characters_in_team": [
+            {
+                "character_id": "tighnari",
+                "role_in_team": "Main DPS Dendro (Spread)",
+                "build_key": "tighnari_spread_dps_deepwood"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field/Bateria)",
+                "build_key": "fischl_aggravate_golden_troupe_stringless"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Suporte Dendro (Healer/Buffer/Deepwood Holder)",
+                "build_key": "baizhu_dendro_healer_deepwood_hp_protoamber"
+            }
+        ],
+        "notes_team": "Nahida pode ser usada no lugar de Baizhu para mais dano pessoal e buff de PE. Se Kazuha não conseguir girar Electro consistentemente, Zhongli pode ser mais valioso para redução de RES estável."
+    },
+    {
+        "id": "tighnari_double_dendro_spread_nahida_fischl_kuki",
+        "name": "Tighnari - Propagação Duplo Dendro (Nahida, Fischl, Kuki)",
+        "strategy": "Time com dois personagens Dendro para Ressonância Dendro (Proficiência Elemental) e aplicação Dendro consistente. Nahida buffa PE e causa dano off-field. Fischl para dano Electro e Kuki Shinobu para cura e aplicação Electro de curto alcance.",
+        "characters_in_team": [
+            {
+                "character_id": "tighnari",
+                "role_in_team": "Main DPS Dendro (Spread)",
+                "build_key": "tighnari_spread_dps_deepwood"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Sub-DPS Dendro (Off-field/Buffer EM)",
+                "build_key": "nahida_off_field_dendro_gilded_em"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field)",
+                "build_key": "fischl_aggravate_golden_troupe_stringless"
+            },
+            {
+                "character_id": "kuki_shinobu",
+                "role_in_team": "Suporte Electro (Healer/Aplicadora Electro)",
+                "build_key": "kuki_shinobu_support_tenacity_favonius_hp"
+            }
+        ],
+        "notes_team": "Tighnari ou Nahida podem usar Memórias da Floresta. Se Kuki usar 4p Instrutor, o time ganha mais PE."
+    }
+]

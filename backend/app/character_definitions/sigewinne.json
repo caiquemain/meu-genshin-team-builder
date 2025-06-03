@@ -1,0 +1,385 @@
+{
+    "id": "sigewinne",
+    "name": "Sigewinne",
+    "title": "A Filha Transmutada do Dragão",
+    "element": "Hydro",
+    "arkhe": "Ousia",
+    "rarity": 5,
+    "weapon": "Bow",
+    "model_type": "Short Female",
+    "role": [
+        "Healer",
+        "Buffer",
+        "Off-Field Support"
+    ],
+    "description_bio": "A Enfermeira-Chefe Melusine da Fortaleza Meropide. Sigewinne cuida de todos os seus pacientes com gentileza e dedicação, possuindo habilidades médicas únicas e uma natureza compassiva, apesar de sua aparência jovem.",
+    "birthday": "30 de Março",
+    "constellation_name_official": "Nereides",
+    "region": "Fontaine",
+    "affiliation": [
+        "Fortaleza Meropide"
+    ],
+    "special_dish": {
+        "name": "Refeição Balanceada",
+        "icon_url": "/assets/images/dishes/sigewinne_well_balanced_meal.webp"
+    },
+    "namecard_url": "/assets/images/namecards/sigewinne_treatment.png",
+    "icon_url": "/assets/images/characters/sigewinne.png",
+    "element_icon_url": "/assets/images/elements/element_hydro.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Sigewinne Quick Guide",
+                "url": "https://keqingmains.com/q/sigewinne-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Sigewinne",
+                "url": "https://genshin-impact.fandom.com/wiki/Sigewinne"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Sigewinne",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Sigewinne"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "sigewinne_off_field_healer_buffer",
+            "name": "Suporte Off-Field (Curandeira / Buffer)",
+            "notes_build": "Focada em fornecer cura para a equipe e buffs de Dano de Habilidade Elemental off-field através de sua passiva A1. Funciona bem com a mecânica de Contrato de Vida.",
+            "artifacts": [
+                {
+                    "set_id": "song_of_days_past",
+                    "set_name": "Canção dos Dias Passados",
+                    "pieces": 4,
+                    "notes": "Seu melhor conjunto (BiS), converte cura em um buff de Dano Adicional Base para o personagem ativo.",
+                    "icon_url": "/assets/images/artifact_sets/song_of_days_past.png"
+                },
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "set_name": "Tenacidade dos Millelith",
+                    "pieces": 4,
+                    "notes": "Fornece buff de ATQ para a equipe quando a Habilidade Elemental atinge inimigos.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                },
+                {
+                    "set_id": "ocean_hued_clam",
+                    "set_name": "Concha Tingida Pelo Mar",
+                    "pieces": 4,
+                    "notes": "Converte cura em Dano Físico, uma opção viável se o buff da Canção dos Dias Passados não for ideal.",
+                    "icon_url": "/assets/images/artifact_sets/ocean_hued_clam.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Opção de suporte padrão se nenhum outro personagem estiver usando e Sigewinne puder usar seu Supremo consistentemente.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia% / Vida%",
+                "goblet": "Vida%",
+                "circlet": "Bônus de Cura% / Vida% / Taxa CRIT% (para Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito)",
+                "Vida%",
+                "Taxa CRIT% (se usando Arco de Favonius)",
+                "Vida Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "silvershower_heartstrings",
+                    "name": "Silvershower Heartstrings (Cordas do Coração da Chuva Argêntea)",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Sua melhor arma (BiS). Fornece HP% e sinergia com Contrato de Vida. Detalhes completos desta arma precisam ser adicionados ao banco de dados.",
+                    "icon_url": "/assets/images/weapons_detail/silvershower_heartstrings.png"
+                },
+                {
+                    "weapon_id": "elegy_for_the_end",
+                    "name": "Elegia do Suspiro Final",
+                    "rarity": 5,
+                    "type": "Bow",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Excelente opção de suporte, fornece RE e buff de ATQ e PE para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/elegy_for_the_end.png"
+                },
+                {
+                    "weapon_id": "favonius_warbow",
+                    "name": "Arco de Guerra de Favonius",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Melhor opção 4★ para bateria da equipe, requer Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_warbow.png"
+                },
+                {
+                    "weapon_id": "sacrificial_bow",
+                    "name": "Arco do Sacrifício",
+                    "rarity": 4,
+                    "type": "Bow",
+                    "category": "Gacha",
+                    "notes": "Permite usos extras da Habilidade Elemental para mais cura e aplicação Hydro.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_bow.png"
+                },
+                {
+                    "weapon_id": "recurve_bow",
+                    "name": "Arco Recurvado",
+                    "rarity": 3,
+                    "type": "Bow",
+                    "category": "Gacha/Baús",
+                    "notes": "Opção 3★ acessível com substatus de HP%, bom para maximizar a cura de Sigewinne.",
+                    "icon_url": "/assets/images/weapons_detail/recurve_bow.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2694,
+            "base_atk": 40,
+            "base_def": 110,
+            "bonus_stat_label": "Vida%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 5208,
+            "base_atk": 77,
+            "base_def": 213,
+            "bonus_stat_label": "Vida%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 6631,
+            "base_atk": 98,
+            "base_def": 272,
+            "bonus_stat_label": "Vida%",
+            "bonus_stat_value": "7.2%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 8239,
+            "base_atk": 122,
+            "base_def": 339,
+            "bonus_stat_label": "Vida%",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 9660,
+            "base_atk": 143,
+            "base_def": 398,
+            "bonus_stat_label": "Vida%",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 11083,
+            "base_atk": 164,
+            "base_def": 457,
+            "bonus_stat_label": "Vida%",
+            "bonus_stat_value": "21.6%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 12858,
+            "base_atk": 190,
+            "base_def": 530,
+            "bonus_stat_label": "Vida%",
+            "bonus_stat_value": "28.8%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Água Que Não Superou a Si Mesma",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/water_that_failed_to_transcend.webp"
+        },
+        {
+            "name": "Lasca de Lazurita Varunada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/varunada_lazurite_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_chunk.webp"
+        },
+        {
+            "name": "Gema de Lazurita Varunada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/varunada_lazurite_gemstone.webp"
+        },
+        {
+            "name": "Flor Rociomarinha",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/romaritime_flower.webp"
+        },
+        {
+            "name": "Pérola Transoceânica",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/transoceanic_pearl.webp"
+        },
+        {
+            "name": "Pedaço Transoceânico",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/transoceanic_chunk.webp"
+        },
+        {
+            "name": "Cristal Xenocromático",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/xenochromatic_crystal.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Disparo Direcionado de Bolhas",
+            "icon_url": "/assets/images/talents/sigewinne/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 3 disparos consecutivos.\nAtaque Carregado: Realiza um Disparo com Mira mais preciso com Dano aumentado. Ao mirar, fluxos de água se acumularão na ponta da flecha antes de serem disparados. Dependendo de quanto tempo a energia foi carregada, diferentes efeitos serão produzidos: Carga Nv. 1: Dispara uma bolha que causa Dano Hydro. Carga Nv. 2: Dispara uma \"Bolha de Cuidado\" que ricocheteia após atingir. Ao ricochetear, prende inimigos menores e causa Dano Hydro. As Bolhas de Cuidado desaparecem após ricochetear 5 vezes ou após um certo tempo.\nAtaque Imersivo: Dispara uma chuva de flechas, causando Dano em AdE ao atingir o chão."
+        },
+        "elemental_skill": {
+            "name": "Terapia de Ricochete Hídrico",
+            "icon_url": "/assets/images/talents/sigewinne/talent_elemental_skill.webp",
+            "description": "Invoca uma Bolha Curativa Saltitante que ricocheteia entre inimigos próximos, causando Dano Hydro aos inimigos atingidos e curando todos os membros da equipe próximos, exceto Sigewinne. Após ricochetear 5 vezes ou se não houver inimigos, a Bolha Curativa Saltitante cura Sigewinne. A cura é baseada na Vida Máx. de Sigewinne. Quando desaparece, também concede a Sigewinne um Contrato de Vida. Pressionar Longo cria uma Bolha Curativa Saltitante maior que prende inimigos menores. Ao absorver Gotas d'Água Primordial, o Contrato de Vida de Sigewinne é limpo."
+        },
+        "elemental_burst": {
+            "name": "Injeção Super-Saturada",
+            "icon_url": "/assets/images/talents/sigewinne/talent_elemental_burst.webp",
+            "description": "Retira uma seringa especial e ataca a área à frente com torrentes de remédio, causando Dano Hydro em AdE continuamente. Ao mesmo tempo, Sigewinne absorve até 2 Gotas d'Água Primordial próximas."
+        },
+        "passives": [
+            {
+                "name": "Requer Repouso Adequado",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/sigewinne/talent_passive_a1.webp",
+                "description": "Enquanto Sigewinne está no estado \"Semi-Repouso Forçado\" de Terapia de Ricochete Hídrico (Habilidade Elemental), ela ganha 10% de Bônus de Dano Hydro e 8 acúmulos de \"Observação Clínica\". Quando o Dano de Habilidade Elemental de outros membros da equipe (exceto Sigewinne) atinge oponentes, consome 1 acúmulo de \"Observação Clínica\" para aumentar o Dano desta instância com base na Vida Máx. de Sigewinne."
+            },
+            {
+                "name": "Diagnóstico e Tratamento Detalhado",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/sigewinne/talent_passive_a4.webp",
+                "description": "Sigewinne ganha um Bônus de Cura com base na quantidade total de Contrato de Vida de todos os personagens da equipe: para cada 1.000 pontos de Contrato de Vida, Sigewinne ganha 3% de Bônus de Cura. O Bônus de Cura máximo que pode ser ganho desta forma é 30%."
+            },
+            {
+                "name": "Conhecimento Anatômico Detalhado",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/sigewinne/talent_passive_utility.webp",
+                "description": "Enquanto estiver debaixo d'água, quando a Vida de seus próprios personagens ativos na equipe cair abaixo de 50%, eles regenerarão continuamente Vida por um período e sua RES a Todos os Elementos e RES Física será grandemente aumentada. Este efeito é removido quando sua Vida atinge 50% ou acima."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Pérola Transoceânica",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/transoceanic_pearl.webp"
+        },
+        {
+            "name": "Pedaço Transoceânico",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/transoceanic_chunk.webp"
+        },
+        {
+            "name": "Cristal Xenocromático",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/xenochromatic_crystal.webp"
+        },
+        {
+            "name": "Ensinamentos da Igualdade",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_equity.webp"
+        },
+        {
+            "name": "Guia da Igualdade",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_equity.webp"
+        },
+        {
+            "name": "Filosofia da Igualdade",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_equity.webp"
+        },
+        {
+            "name": "Olho Devorador do Turbilhão de Luz",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/lightless_eye_of_the_maelstrom.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Será Que o Amor Mais Gentil Pode Curar Todas as Dores?",
+            "icon_url": "/assets/images/constellations/sigewinne/constellation_1.webp",
+            "description": "A Bolha Curativa Saltitante de Terapia de Ricochete Hídrico (Habilidade Elemental) pode ricochetear 3 vezes adicionais. Os primeiros 3 ricochetes não diminuirão o tamanho da bolha nem o DANO que ela causa."
+        },
+        {
+            "level": 2,
+            "name": "Será Que a Gentileza Pode Reduzir o Sofrimento?",
+            "icon_url": "/assets/images/constellations/sigewinne/constellation_2.webp",
+            "description": "Ao usar Terapia de Ricochete Hídrico (Habilidade Elemental) e Injeção Super-Saturada (Supremo), pode criar um Escudo Aquabolha que absorve Dano Hydro com 250% de eficácia e Dano Físico igual a 300% da Vida Máx. de Sigewinne. O Escudo Aquabolha será transferido para o próximo personagem ativo quando Sigewinne sair de campo."
+        },
+        {
+            "level": 3,
+            "name": "Será Que a Melhor Lembrança Pode Combater a Doença?",
+            "icon_url": "/assets/images/constellations/sigewinne/constellation_3.webp",
+            "description": "Aumenta o nível de Terapia de Ricochete Hídrico (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Será Que a Vida Mais Saudável Pode Evitar a Calamidade?",
+            "icon_url": "/assets/images/constellations/sigewinne/constellation_4.webp",
+            "description": "A duração de Injeção Super-Saturada (Supremo) é estendida em 3s."
+        },
+        {
+            "level": 5,
+            "name": "Será Que a Alegria Pode Prevenir a Infecção?",
+            "icon_url": "/assets/images/constellations/sigewinne/constellation_5.webp",
+            "description": "Aumenta o nível de Injeção Super-Saturada (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Será Que a Oração Mais Brilhante Pode Abençoar o Mundo?",
+            "icon_url": "/assets/images/constellations/sigewinne/constellation_6.webp",
+            "description": "Quando Sigewinne cura, ela registra a quantidade de Vida curada. Quando seus Ataques Normais, Carregados, Habilidades Elementais ou Supremos atingem oponentes, ela consome toda a Vida registrada para aumentar o DANO desta instância. A Vida Máx. de Sigewinne também aumenta a Taxa CRIT e o Dano CRIT deste dano adicional."
+        }
+    ]
+}

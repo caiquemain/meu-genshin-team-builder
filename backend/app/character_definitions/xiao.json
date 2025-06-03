@@ -1,0 +1,399 @@
+{
+    "id": "xiao",
+    "name": "Xiao",
+    "title": "Guardião Yaksha",
+    "element": "Anemo",
+    "rarity": 5,
+    "weapon": "Polearm",
+    "model_type": "Medium Male",
+    "role": [
+        "On-Field DPS",
+        "Hypercarry",
+        "Anemo DPS",
+        "Plunge DPS"
+    ],
+    "description_bio": "Um dos poderosos Yakshas, um Adeptus encarregado de subjugar espíritos demoníacos que atormentavam Liyue. Xiao é o único Yaksha remanescente de cinco, carregando o fardo de um imenso carma e dor, mas continua a proteger Liyue silenciosamente das sombras.",
+    "birthday": "17 de Abril",
+    "constellation_name_official": "Alatus Nemeseos",
+    "region": "Liyue",
+    "affiliation": [
+        "Adepti de Liyue",
+        "Yakshas"
+    ],
+    "special_dish": {
+        "name": "Sonhos Doces",
+        "icon_url": "/assets/images/dishes/xiao_sweet_dream.webp"
+    },
+    "namecard_url": "/assets/images/namecards/xiao_mask.png",
+    "icon_url": "/assets/images/characters/xiao.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Xiao Full Guide",
+                "url": "https://keqingmains.com/xiao/"
+            },
+            {
+                "name": "KQM Xiao Quick Guide",
+                "url": "https://keqingmains.com/q/xiao-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Xiao",
+                "url": "https://genshin-impact.fandom.com/wiki/Xiao"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Xiao",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Xiao"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "xiao_anemo_hypercarry_vermillion",
+            "name": "Hypercarry Anemo (Além-vida Vermillion)",
+            "notes_build": "Focado em maximizar o dano de Ataque Imersivo de Xiao durante seu Supremo. Requer alta Recarga de Energia e suportes que possam buffar seu dano e/ou fornecer energia.",
+            "artifacts": [
+                {
+                    "set_id": "vermillion_hereafter",
+                    "set_name": "Além-vida Vermillion",
+                    "pieces": 4,
+                    "notes": "Seu melhor conjunto (BiS) se puder manter o Supremo consistentemente, devido ao grande aumento de ATQ% após usar o Supremo e perder Vida.",
+                    "icon_url": "/assets/images/artifact_sets/vermillion_hereafter.png"
+                },
+                {
+                    "set_id": "desert_pavilion_chronicle",
+                    "set_name": "Crônicas do Pavilhão do Deserto",
+                    "pieces": 4,
+                    "notes": "Ótima alternativa, especialmente se farmar o domínio for mais eficiente. Buffa Dano Anemo, Vel. de ATQ e Dano de Ataque Normal/Carregado/Imersivo.",
+                    "icon_url": "/assets/images/artifact_sets/desert_pavilion_chronicle.png"
+                },
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p ATQ% (Gladiador/Shimenawa) para uma opção mais geral e fácil de obter com bons substatus.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "gladiators_finale",
+                    "set_name": "Fim do Gladiador",
+                    "pieces": 2,
+                    "notes": "+18% ATQ. Combinar com 2p Sombra Verde Esmeralda ou outro 2p ATQ%.",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ% / Recarga de Energia% (se necessário)",
+                "goblet": "Bônus de Dano Anemo%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATQ%",
+                "Recarga de Energia% (até o requisito, ~120-140% com bateria Anemo)",
+                "ATQ Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "primordial_jade_winged_spear",
+                    "name": "Lança de Jade Primitiva",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Padrão/Assinatura)",
+                    "notes": "Sua melhor arma (BiS) na maioria dos cenários. Oferece Taxa CRIT e ATQ%.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_winged_spear.png"
+                },
+                {
+                    "weapon_id": "staff_of_homa",
+                    "name": "Báculo de Homa",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Dano CRIT massivo e bônus de ATQ baseado na Vida. Competitiva com Jade, especialmente se abaixo de 50% HP.",
+                    "icon_url": "/assets/images/weapons_detail/staff_of_homa.png"
+                },
+                {
+                    "weapon_id": "calamity_queller",
+                    "name": "Pacificadora de Calamidades",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alto ATQ Base e ATQ%, com bônus de Dano Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/calamity_queller.png"
+                },
+                {
+                    "weapon_id": "deathmatch",
+                    "name": "Lança do Duelo",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Passe de Batalha",
+                    "notes": "Excelente opção 4★, fornece Taxa CRIT e ATQ%.",
+                    "icon_url": "/assets/images/weapons_detail/deathmatch.png"
+                },
+                {
+                    "weapon_id": "blackcliff_pole",
+                    "name": "Lança do Penhasco Obscuro",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Loja da Paimon",
+                    "notes": "Fornece Dano CRIT e ATQ% ao derrotar inimigos.",
+                    "icon_url": "/assets/images/weapons_detail/blackcliff_pole.png"
+                },
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Útil se Xiao precisar de muita Recarga de Energia e a equipe também.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2572,
+            "base_atk": 70,
+            "base_def": 160,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "5.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4973,
+            "base_atk": 135,
+            "base_def": 309,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "5.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 6331,
+            "base_atk": 172,
+            "base_def": 393,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "9.8%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 7965,
+            "base_atk": 217,
+            "base_def": 495,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "14.6%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 9291,
+            "base_atk": 253,
+            "base_def": 578,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "14.6%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 10625,
+            "base_atk": 290,
+            "base_def": 661,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "19.4%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 12736,
+            "base_atk": 349,
+            "base_def": 799,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "24.2%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Jade Juvenil",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/juvenile_jade.webp"
+        },
+        {
+            "name": "Lasca de Turquesa Vayuda",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_chunk.webp"
+        },
+        {
+            "name": "Gema de Turquesa Vayuda",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_gemstone.webp"
+        },
+        {
+            "name": "Qingxin",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/qingxin.webp"
+        },
+        {
+            "name": "Secreção de Slime",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/slime_condensate.webp"
+        },
+        {
+            "name": "Resina de Slime",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/slime_secretions.webp"
+        },
+        {
+            "name": "Essência de Slime",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/slime_concentrate.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Impulso do Redemoinho",
+            "icon_url": "/assets/images/talents/xiao/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 6 golpes rápidos com a lança.\nAtaque Carregado: Consome Stamina para realizar um golpe ascendente.\nAtaque Imersivo: Mergulha para atingir o chão, causando Dano em AdE. Xiao não sofre Dano de Queda ao realizar Ataques Imersivos."
+        },
+        "elemental_skill": {
+            "name": "Ciclo do Vento Lemniscático",
+            "icon_url": "/assets/images/talents/xiao/talent_elemental_skill.webp",
+            "description": "Xiao avança rapidamente, causando Dano Anemo aos inimigos em seu caminho. Pode ser usado no ar. Começa com 2 cargas."
+        },
+        "elemental_burst": {
+            "name": "Assolação de Todo o Mal",
+            "icon_url": "/assets/images/talents/xiao/talent_elemental_burst.webp",
+            "description": "Assume a forma do Guardião Yaksha. Aumenta grandemente a capacidade de salto de Xiao. Aumenta sua AdE de Ataque e Dano. Converte o Dano de Ataque para Dano Anemo, que não pode ser substituído. Nesta forma, Xiao perde Vida continuamente. O efeito termina quando Xiao sai de campo."
+        },
+        "passives": [
+            {
+                "name": "Conquistador de Demônios - Domador de Males",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/xiao/talent_passive_a1.webp",
+                "description": "Sob os efeitos de Assolação de Todo o Mal (Supremo), todo Dano causado por Xiao aumenta em 5%. O Dano aumenta em mais 5% a cada 3s que a habilidade persistir. O aumento máximo de Dano é 25%."
+            },
+            {
+                "name": "Era da Dissolução - Queda dos Céus",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/xiao/talent_passive_a4.webp",
+                "description": "Usar Ciclo do Vento Lemniscático (Habilidade Elemental) aumenta o Dano dos usos subsequentes de Ciclo do Vento Lemniscático em 15% por 7s. Este efeito pode acumular até 3 vezes. Ganhar um novo acúmulo reinicia a duração do efeito."
+            },
+            {
+                "name": "Transgressão - Desafixador da Gravidade",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/xiao/talent_passive_utility.webp",
+                "description": "Diminui o consumo de Stamina ao Escalar de todos os membros da equipe em 20%. Não acumulável com Talentos Passivos que fornecem exatamente os mesmos efeitos."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Secreção de Slime",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/slime_condensate.webp"
+        },
+        {
+            "name": "Resina de Slime",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/slime_secretions.webp"
+        },
+        {
+            "name": "Essência de Slime",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/slime_concentrate.webp"
+        },
+        {
+            "name": "Ensinamentos de Prosperidade",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_prosperity.webp"
+        },
+        {
+            "name": "Guia de Prosperidade",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_prosperity.webp"
+        },
+        {
+            "name": "Filosofia de Prosperidade",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_prosperity.webp"
+        },
+        {
+            "name": "Sombra do Guerreiro",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/shadow_of_the_warrior.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Era da Dissolução - Destruidor de Mundos",
+            "icon_url": "/assets/images/constellations/xiao/constellation_1.webp",
+            "description": "Aumenta as cargas de Ciclo do Vento Lemniscático (Habilidade Elemental) em 1."
+        },
+        {
+            "level": 2,
+            "name": "Era da Aniquilação - Florescer do Kaleidos",
+            "icon_url": "/assets/images/constellations/xiao/constellation_2.webp",
+            "description": "Quando Xiao está na equipe mas não em campo, sua Recarga de Energia é aumentada em 25%."
+        },
+        {
+            "level": 3,
+            "name": "Conquistador de Demônios - Punho da Ira Yaksha",
+            "icon_url": "/assets/images/constellations/xiao/constellation_3.webp",
+            "description": "Aumenta o nível de Ciclo do Vento Lemniscático (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Transcendência - Extinção do Sofrimento",
+            "icon_url": "/assets/images/constellations/xiao/constellation_4.webp",
+            "description": "Quando a Vida de Xiao cai abaixo de 50%, ele ganha 100% de Bônus de DEF."
+        },
+        {
+            "level": 5,
+            "name": "Era da Evolução - Origem da Ignorância",
+            "icon_url": "/assets/images/constellations/xiao/constellation_5.webp",
+            "description": "Aumenta o nível de Assolação de Todo o Mal (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Conquistador de Demônios - Guardião Yaksha",
+            "icon_url": "/assets/images/constellations/xiao/constellation_6.webp",
+            "description": "Enquanto sob os efeitos de Assolação de Todo o Mal (Supremo), atingir pelo menos 2 oponentes com o Ataque Imersivo de Xiao concederá imediatamente a ele 1 carga de Ciclo do Vento Lemniscático (Habilidade Elemental), e pelos próximos 1s, ele poderá usar Ciclo do Vento Lemniscático ignorando seu TdR."
+        }
+    ]
+}

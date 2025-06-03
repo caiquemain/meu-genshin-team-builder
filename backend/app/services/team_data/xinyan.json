@@ -1,0 +1,86 @@
+[
+    {
+        "id": "xinyan_physical_dps_superconduct",
+        "name": "Xinyan - DPS Físico (Supercondutor)",
+        "strategy": "Xinyan como DPS principal Físico, com um personagem Electro e um Cryo para ativar Supercondutor, reduzindo a RES Física dos inimigos. O quarto slot é flexível para buffs ou mais dano off-field.",
+        "characters_in_team": [
+            {
+                "character_id": "xinyan",
+                "role_in_team": "Main DPS Físico",
+                "build_key": "xinyan_physical_dps_pale_flame"
+            },
+            {
+                "character_id": "fischl",
+                "role_in_team": "Sub-DPS Electro (Off-field/Superconduct Enabler)",
+                "build_key": "fischl_subdps_golden_troupe_stringless"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Suporte Cryo (Aplicadora Cryo/Buff Taxa CRIT)",
+                "build_key": "rosaria_cryo_support_favonius_noblesse"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ],
+        "notes_team": "Outras opções Cryo: Diona (escudo/cura), Kaeya. Outras opções Flex: Zhongli (escudo/RES Shred), Yun Jin (buff Ataque Normal)."
+    },
+    {
+        "id": "xinyan_mono_pyro_burst",
+        "name": "Xinyan - Mono Pyro (Nuke de Supremo)",
+        "strategy": "Time focado em maximizar o dano Pyro do Supremo de Xinyan, especialmente com C2. Acompanhada por outros personagens Pyro para ressonância e buffs (Bennett, Xiangling) e um Anemo com Sombra Verde.",
+        "characters_in_team": [
+            {
+                "character_id": "xinyan",
+                "role_in_team": "Burst DPS Pyro",
+                "build_key": "xinyan_pyro_burst_nuke"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer/Pyro Battery)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro (Off-field)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ],
+        "notes_team": "Sucrose (TTDS/PE) ou Venti podem substituir Kazuha."
+    },
+    {
+        "id": "xinyan_shielder_support_flex",
+        "name": "Xinyan - Suporte de Escudo (Flex)",
+        "strategy": "Xinyan fornece um escudo baseado em sua DEF que também aplica Pyro. Útil para proteger o DPS principal e, com C4, buffar Dano Físico. Pode ser usada em diversas equipes que necessitam de um escudo e aplicação Pyro esporádica.",
+        "characters_in_team": [
+            {
+                "character_id": "xinyan",
+                "role_in_team": "Shielder Suporte / Aplicadora Pyro",
+                "build_key": "xinyan_shielder_support"
+            },
+            {
+                "character_id": "eula",
+                "role_in_team": "Main DPS Físico (Beneficiada pelo C4 de Xinyan)",
+                "build_key": "eula_physical_hypercarry_pines_pale_flame"
+            },
+            {
+                "character_id": "raiden_shogun",
+                "role_in_team": "Sub-DPS Electro (Superconduct Enabler/Bateria)",
+                "build_key": "raiden_burst_dps"
+            },
+            {
+                "character_id": "rosaria",
+                "role_in_team": "Suporte Cryo (Bateria/CRIT Share)",
+                "build_key": "rosaria_cryo_support_favonius_noblesse"
+            }
+        ],
+        "notes_team": "Pode ser usada com outros DPS que se beneficiam de escudo e/ou Dano Físico aumentado (C4). Xinyan com Favonius pode ajudar com energia."
+    }
+]

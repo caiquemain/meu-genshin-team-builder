@@ -1,0 +1,83 @@
+[
+    {
+        "id": "xilonen_mono_geo_navia_chiori_gorou",
+        "name": "Xilonen - Mono Geo (Navia, Chiori, Gorou)",
+        "strategy": "Xilonen como curandeira e buffer, ativando Pergaminho do Herói. Navia como DPS principal. Chiori como Sub-DPS Geo off-field. Gorou (C6 ideal) para buffs de DEF e Dano Geo.",
+        "characters_in_team": [
+            {
+                "character_id": "xilonen",
+                "role_in_team": "Suporte Geo (Healer/Buffer)",
+                "build_key": "xilonen_support_healer_scroll_petra"
+            },
+            {
+                "character_id": "navia",
+                "role_in_team": "Main DPS Geo",
+                "build_key": "navia_geo_dps_nighttime_whispers"
+            },
+            {
+                "character_id": "chiori",
+                "role_in_team": "Sub-DPS Geo (Off-field)",
+                "build_key": "chiori_geo_sub_dps_husk_uraku"
+            },
+            {
+                "character_id": "gorou",
+                "role_in_team": "Suporte Geo (Buffer DEF/Geo DMG)",
+                "build_key": "gorou_geo_support_favonius_exile_c6"
+            }
+        ]
+    },
+    {
+        "id": "xilonen_neuvillette_furina_kazuha",
+        "name": "Xilonen - Suporte para Neuvillette (Furina, Kazuha)",
+        "strategy": "Xilonen fornece cura para maximizar os buffs de Furina, além de buff de Dano Elemental com Pergaminho do Herói ou Pedra Arcaica (se conseguir coletar os cristais Hydro). Neuvillette é o DPS principal. Kazuha agrupa e reduz RES Hydro.",
+        "characters_in_team": [
+            {
+                "character_id": "xilonen",
+                "role_in_team": "Suporte Geo (Healer/Buffer)",
+                "build_key": "xilonen_support_healer_scroll_petra"
+            },
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro",
+                "build_key": "neuvillette_onfield_dps_marechaussee"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    },
+    {
+        "id": "xilonen_mavuika_melt_bennett_citlali",
+        "name": "Xilonen - Suporte para Mavuika Melt (Bennett, Citlali)",
+        "strategy": "Xilonen como curandeira e buffer com Pergaminho do Herói para Mavuika (DPS Pyro). Bennett fornece ATQ e ressonância Pyro. Citlali aplica Cryo para reações de Fusão.",
+        "characters_in_team": [
+            {
+                "character_id": "xilonen",
+                "role_in_team": "Suporte Geo (Healer/Buffer)",
+                "build_key": "xilonen_support_healer_scroll_petra"
+            },
+            {
+                "character_id": "mavuika",
+                "role_in_team": "Main DPS Pyro (Melt)",
+                "build_key": "mavuika_onfield_dps_obsidian_codex"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer/Pyro Resonance)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "citlali",
+                "role_in_team": "Suporte Cryo (Aplicadora Cryo/Escudeira)",
+                "build_key": "citlali_shield_support_scroll_em_er"
+            }
+        ]
+    }
+]

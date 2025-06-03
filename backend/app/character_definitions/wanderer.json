@@ -1,0 +1,393 @@
+{
+    "id": "wanderer",
+    "name": "Andarilho (Wanderer)",
+    "title": "Eras à Deriva (Eons Adrift)",
+    "element": "Anemo",
+    "rarity": 5,
+    "weapon": "Catalyst",
+    "model_type": "Medium Male",
+    "role": [
+        "On-Field DPS",
+        "Hypercarry"
+    ],
+    "description_bio": "Uma marionete errante que já foi conhecida como 'Scaramouche' ou 'Baladeiro', o sexto dos Onze Mensageiros Fatui. Após apagar seu passado do Irminsul, ele agora busca um novo propósito e identidade com a ajuda da Viajante e Nahida.",
+    "birthday": "3 de Janeiro",
+    "constellation_name_official": "Peregrinus (Peregrino)",
+    "region": "Sumeru",
+    "affiliation": [
+        "Nenhuma (no perfil)",
+        "Vahumana (como Garoto do Chapéu, anteriormente)",
+        "Fatui (anteriormente)"
+    ],
+    "special_dish": {
+        "name": "Shimi Chazuke",
+        "icon_url": "/assets/images/dishes/wanderer_shimi_chazuke.webp"
+    },
+    "namecard_url": "/assets/images/namecards/wanderer_drifters_ballad.png",
+    "icon_url": "/assets/images/characters/wanderer.png",
+    "element_icon_url": "/assets/images/elements/element_anemo.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Wanderer Full Guide",
+                "url": "https://keqingmains.com/wanderer/"
+            },
+            {
+                "name": "KQM Wanderer Quick Guide",
+                "url": "https://keqingmains.com/q/wanderer-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Wanderer",
+                "url": "https://genshin-impact.fandom.com/wiki/Wanderer"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "wanderer_anemo_hypercarry_dpc",
+            "name": "Hypercarry Anemo (Crônicas do Pavilhão do Deserto)",
+            "notes_build": "Focado em maximizar o dano Anemo pessoal do Andarilho, especialmente seus Ataques Normais e Carregados durante o estado de voo de sua Habilidade Elemental. Geralmente acompanhado por suportes que aumentam seu dano diretamente (Faruzan, Bennett).",
+            "artifacts": [
+                {
+                    "set_id": "desert_pavilion_chronicle",
+                    "set_name": "Crônicas do Pavilhão do Deserto",
+                    "pieces": 4,
+                    "notes": "Seu melhor conjunto (BiS), aumenta Dano Anemo, Vel. de ATQ e Dano de Ataque Normal/Carregado.",
+                    "icon_url": "/assets/images/artifact_sets/desert_pavilion_chronicle.png"
+                },
+                {
+                    "set_id": "shimenawas_reminiscence",
+                    "set_name": "Reminiscência Nostálgica",
+                    "pieces": 4,
+                    "notes": "Opção forte que aumenta o Dano de Ataque Normal/Carregado ao custo de Energia.",
+                    "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png"
+                },
+                {
+                    "set_id": "viridescent_venerer",
+                    "set_name": "Sombra Verde Esmeralda",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p ATQ% (Gladiador/Shimenawa) para uma opção mais geral.",
+                    "icon_url": "/assets/images/artifact_sets/viridescent_venerer.png"
+                },
+                {
+                    "set_id": "gladiators_finale",
+                    "set_name": "Fim do Gladiador",
+                    "pieces": 2,
+                    "notes": "+18% ATQ. Combinar com 2p Sombra Verde Esmeralda.",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ%",
+                "goblet": "Bônus de Dano Anemo%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATQ%",
+                "Recarga de Energia% (baixa prioridade)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "tulaytullahs_remembrance",
+                    "name": "Reminiscências de Tulaytullah",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Sua melhor arma (BiS). Alto Dano CRIT, aumenta Vel. de ATQ Normal e Dano de Ataque Normal.",
+                    "icon_url": "/assets/images/weapons_detail/tulaytullahs_remembrance.png"
+                },
+                {
+                    "weapon_id": "lost_prayer_to_the_sacred_winds",
+                    "name": "Oração Perdida aos Ventos Sagrados",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Taxa CRIT e Bônus de Dano Elemental com tempo em campo.",
+                    "icon_url": "/assets/images/weapons_detail/lost_prayer_to_the_sacred_winds.png"
+                },
+                {
+                    "weapon_id": "skyward_atlas",
+                    "name": "Atlas Celestial",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Alto ATQ base e ATQ%, passiva contribui com dano adicional.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_atlas.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Excelente opção 4★ com Dano CRIT e buffs aleatórios poderosos (ATQ% ou Dano Elemental são os melhores).",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                },
+                {
+                    "weapon_id": "solar_pearl",
+                    "name": "Pérola Solar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Passe de Batalha",
+                    "notes": "Taxa CRIT e passiva que buffa Ataques Normais e Habilidades/Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/solar_pearl.png"
+                },
+                {
+                    "weapon_id": "dodoco_tales",
+                    "name": "Contos de Dodoco",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Evento",
+                    "notes": "Boa opção F2P de evento, buffa Ataques Normais e Carregados.",
+                    "icon_url": "/assets/images/weapons_detail/dodoco_tales.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2084,
+            "base_atk": 66,
+            "base_def": 120,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "5.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4032,
+            "base_atk": 128,
+            "base_def": 233,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "5.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5134,
+            "base_atk": 163,
+            "base_def": 297,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "9.8%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6526,
+            "base_atk": 207,
+            "base_def": 377,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "14.6%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7627,
+            "base_atk": 242,
+            "base_def": 441,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "14.6%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8736,
+            "base_atk": 277,
+            "base_def": 505,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "19.4%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10208,
+            "base_atk": 324,
+            "base_def": 591,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "24.2%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Calibre Perpétuo",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/perpetual_caliber.webp"
+        },
+        {
+            "name": "Lasca de Turquesa Vayuda",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Turquesa Vayuda",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_chunk.webp"
+        },
+        {
+            "name": "Gema de Turquesa Vayuda",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/vayuda_turquoise_gemstone.webp"
+        },
+        {
+            "name": "Cogumelos Rukkhashava",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/rukkhashava_mushrooms.webp"
+        },
+        {
+            "name": "Protetor de Mão Velho",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/old_handguard.webp"
+        },
+        {
+            "name": "Protetor de Mão Kageuchi",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/kageuchi_handguard.webp"
+        },
+        {
+            "name": "Protetor de Mão Famoso",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/famed_handguard.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Arcos Ilustres Yuuban (Yuuban Meigen)",
+            "icon_url": "/assets/images/talents/wanderer/talent_normal_attack.webp",
+            "description": "Ataque Normal: Dispara lâminas de vento, realizando até 3 ataques que causam Dano Anemo.\nAtaque Carregado: Consome Stamina para acumular alta pressão de vento, causando Dano Anemo em AdE após um curto tempo de canalização.\nAtaque Imersivo: Mergulha do ar, causando Dano Anemo em AdE ao impactar o chão."
+        },
+        "elemental_skill": {
+            "name": "Hanega: Canção do Vento (Hanega: Song of the Wind)",
+            "icon_url": "/assets/images/talents/wanderer/talent_elemental_skill.webp",
+            "description": "Concentra o poder dos ventos para se libertar do chão, causando Dano Anemo em AdE aos inimigos próximos e saltando no ar, entrando no estado 'Graça do Vento'.\nGraça do Vento: O Andarilho não pode realizar Ataques Imersivos neste estado. Seus Ataques Normais e Carregados são convertidos para Kuugo: Fushoudan e Kuugo: Toufukai, respectivamente; o Dano e AdE deles são aumentados, e não consomem Stamina. O Andarilho paira continuamente neste estado, consumindo Pontos Kuugoryoku. Correr ou saltar enquanto paira consome mais Pontos Kuugoryoku para acelerar ou aumentar a altura. Manter pressionado o salto consome Pontos Kuugoryoku para pairar mais alto continuamente. O estado termina quando os Pontos Kuugoryoku se esgotam ou ao usar a Habilidade Elemental novamente."
+        },
+        "elemental_burst": {
+            "name": "Kyougen: Cinco Atos Cerimoniais (Kyougen: Five Ceremonial Plays)",
+            "icon_url": "/assets/images/talents/wanderer/talent_elemental_burst.webp",
+            "description": "Comprime a atmosfera em um vácuo singular, esmagando todos os problemas, causando múltiplas instâncias de Dano Anemo em AdE. Se o personagem estiver no estado Graça do Vento (Habilidade Elemental), o estado terminará após o uso."
+        },
+        "passives": [
+            {
+                "name": "Flores de Jade (Jade-Claimed Flower)",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/wanderer/talent_passive_a1.webp",
+                "description": "Se Hanega: Canção do Vento (Habilidade Elemental) entrar em contato com Hydro/Pyro/Cryo/Electro ao ser lançada, o estado Graça do Vento ganhará buffs correspondentes: Hydro: Limite de Pontos Kuugoryoku +20. Pyro: ATQ +30%. Cryo: Taxa CRIT +20%. Electro: Ao atingir oponentes com Ataques Normais ou Carregados, restaura 0.8 de Energia Elemental, uma vez a cada 0.2s. Você pode ter até 2 tipos de buffs desses simultaneamente."
+            },
+            {
+                "name": "Redemoinho de Sonhos (Gales of Reverie)",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/wanderer/talent_passive_a4.webp",
+                "description": "Quando o Andarilho atinge oponentes com Kuugo: Fushoudan ou Kuugo: Toufukai (Ataques no estado Graça do Vento), ele tem 16% de chance de obter o efeito 'Descida': Na próxima vez que o Andarilho acelerar no ar enquanto no estado Graça do Vento, este efeito será removido, esta aceleração aérea não consumirá Pontos Kuugoryoku, e ele disparará 4 flechas de vento que causam 35% de seu ATQ como Dano Anemo cada. Para cada Kuugo: Fushoudan ou Toufukai que não produzir este efeito, a chance de produzi-lo na próxima vez aumentará em 12%."
+            },
+            {
+                "name": "Asas Estreladas (Strum an Arrow's Swiftness)",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/wanderer/talent_passive_utility.webp",
+                "description": "A Mora gasta ao ascender Arcos e Catalisadores é reduzida em 50%."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Protetor de Mão Velho",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/old_handguard.webp"
+        },
+        {
+            "name": "Protetor de Mão Kageuchi",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/kageuchi_handguard.webp"
+        },
+        {
+            "name": "Protetor de Mão Famoso",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/famed_handguard.webp"
+        },
+        {
+            "name": "Ensinamentos da Práxis",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_praxis.webp"
+        },
+        {
+            "name": "Guia da Práxis",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_praxis.webp"
+        },
+        {
+            "name": "Filosofia da Práxis",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_praxis.webp"
+        },
+        {
+            "name": "Sino de Daka",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/dakas_bell.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Shoban: Plumas Oscilantes",
+            "icon_url": "/assets/images/constellations/wanderer/constellation_1.webp",
+            "description": "Quando no estado Graça do Vento, a Vel. de ATQ de Kuugo: Fushoudan e Kuugo: Toufukai do Andarilho é aumentada em 10%. Adicionalmente, as flechas de vento disparadas pela Passiva 'Redemoinho de Sonhos' causarão 25% de ATQ adicional como Dano. Você deve desbloquear a Passiva 'Redemoinho de Sonhos' primeiro."
+        },
+        {
+            "level": 2,
+            "name": "Niban: Ilha Enluarada em Ondas Brancas",
+            "icon_url": "/assets/images/constellations/wanderer/constellation_2.webp",
+            "description": "Quando no estado Graça do Vento, Kyougen: Cinco Atos Cerimoniais (Supremo) terá seu Dano aumentado em 4% por ponto de diferença entre o limite máximo de Pontos Kuugoryoku e a quantidade atual. Desta forma, você pode aumentar o Dano de Kyougen: Cinco Atos Cerimoniais em no máximo 200%."
+        },
+        {
+            "level": 3,
+            "name": "Sanban: Kusemai da Meia Lua Poente",
+            "icon_url": "/assets/images/constellations/wanderer/constellation_3.webp",
+            "description": "Aumenta o nível de Kyougen: Cinco Atos Cerimoniais (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Yonban: À Deriva como um Ganso Selvagem",
+            "icon_url": "/assets/images/constellations/wanderer/constellation_4.webp",
+            "description": "Quando lança Hanega: Canção do Vento (Habilidade Elemental), se o efeito de bônus do Tipo Elemental da Passiva 'Flores de Jade' não tiver sido ativado, Hanega: Canção do Vento irá aleatoriamente conceder 2 tipos desses bônus. Se já houver 1 ou 2 tipos desses bônus em efeito, ele concederá aleatoriamente 1 tipo de bônus adicional não ativo no momento. Você deve desbloquear a Passiva 'Flores de Jade' primeiro."
+        },
+        {
+            "level": 5,
+            "name": "Matsuban: Ilustrações do Passado Distante",
+            "icon_url": "/assets/images/constellations/wanderer/constellation_5.webp",
+            "description": "Aumenta o nível de Hanega: Canção do Vento (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Shugen: Cortina de Salgueiro Chorão",
+            "icon_url": "/assets/images/constellations/wanderer/constellation_6.webp",
+            "description": "Quando o Andarilho atinge ativamente um oponente com Kuugo: Fushoudan (Ataque Normal no estado Graça do Vento), os seguintes efeitos ocorrerão:\n- Causa um Kuugo: Fushoudan adicional na posição atingida, causando 40% do Dano original. Este Dano é considerado Dano de Ataque Normal.\n- Quando os Pontos Kuugoryoku do Andarilho estiverem abaixo de 40 pontos, ele restaurará 4 pontos para si. Pontos Kuugoryoku podem ser restaurados desta forma uma vez a cada 0.2s. Este efeito pode ser ativado 5 vezes dentro da duração de uma instância de Graça do Vento."
+        }
+    ]
+}

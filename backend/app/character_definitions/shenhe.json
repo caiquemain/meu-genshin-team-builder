@@ -1,0 +1,398 @@
+{
+    "id": "shenhe",
+    "name": "Shenhe",
+    "title": "Transcendência Solitária",
+    "element": "Cryo",
+    "rarity": 5,
+    "weapon": "Polearm",
+    "model_type": "Tall Female",
+    "role": [
+        "Cryo Support",
+        "Buffer",
+        "Sub-DPS"
+    ],
+    "description_bio": "Uma discípula Adepti com uma aura única. Tendo passado muito tempo isolada nas montanhas de Liyue, ela é tão enigmática e etérea quanto os próprios Adepti, mas possui um temperamento surpreendentemente gentil.",
+    "birthday": "10 de Março",
+    "constellation_name_official": "Crista Doloris",
+    "region": "Liyue",
+    "affiliation": [
+        "Morada da Retentora de Nuvem",
+        "Adepti (discípula)"
+    ],
+    "special_dish": {
+        "name": "Macarrão Fios do Coração",
+        "icon_url": "/assets/images/dishes/shenhe_heartstring_noodles.webp"
+    },
+    "namecard_url": "/assets/images/namecards/shenhe_comb.png",
+    "icon_url": "/assets/images/characters/shenhe.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "updated_date": "2025-06-03",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Shenhe Full Guide",
+                "url": "https://keqingmains.com/shenhe/"
+            },
+            {
+                "name": "KQM Shenhe Quick Guide",
+                "url": "https://keqingmains.com/q/shenhe-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Shenhe",
+                "url": "https://genshin-impact.fandom.com/wiki/Shenhe"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Shenhe",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Shenhe"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "shenhe_cryo_support_buffer",
+            "name": "Suporte Cryo (Buff de Dano Cryo)",
+            "notes_build": "Focada em maximizar o ATQ para aumentar o bônus de Dano Cryo concedido pela sua Habilidade Elemental (Pena Gelada) e fornecer utilidade com seu Supremo (redução de RES Cryo/Física). Recarga de Energia é crucial.",
+            "artifacts": [
+                {
+                    "set_id": "gladiators_finale",
+                    "set_name": "Fim do Gladiador",
+                    "pieces": 2,
+                    "notes": "Combinado com outro conjunto de 2p ATQ% (Shimenawa, etc.) para maximizar ATQ.",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
+                },
+                {
+                    "set_id": "shimenawas_reminiscence",
+                    "set_name": "Reminiscência Nostálgica",
+                    "pieces": 2,
+                    "notes": "Combinado com outro conjunto de 2p ATQ% (Gladiador, etc.) para maximizar ATQ.",
+                    "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Opção de suporte para buffar o ATQ de toda a equipe após usar o Supremo, se nenhum outro personagem estiver usando.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "emblem_of_severed_fate",
+                    "set_name": "Selo da Insulação",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p ATQ% se precisar de mais Recarga de Energia para o Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/emblem_of_severed_fate.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ% / Recarga de Energia%",
+                "goblet": "ATQ%",
+                "circlet": "ATQ% / Taxa CRIT% (para Lança de Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito)",
+                "ATQ%",
+                "Taxa CRIT% (para Lança de Favonius)",
+                "ATQ Flat"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "calamity_queller",
+                    "name": "Pacificadora de Calamidades",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Sua melhor arma (BiS). Alto ATQ Base e passiva que aumenta ATQ e Bônus de Dano Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/calamity_queller.png"
+                },
+                {
+                    "weapon_id": "engulfing_lightning",
+                    "name": "Luz do Cortador de Grama",
+                    "rarity": 5,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Excelente opção que fornece RE e converte RE em ATQ.",
+                    "icon_url": "/assets/images/weapons_detail/engulfing_lightning.png"
+                },
+                {
+                    "weapon_id": "favonius_lance",
+                    "name": "Lança de Favonius",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha",
+                    "notes": "Melhor opção 4★ para suporte geral, ajuda com a RE de Shenhe e da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_lance.png"
+                },
+                {
+                    "weapon_id": "lithic_spear",
+                    "name": "Lança Lítica",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Boa opção em times com personagens de Liyue, fornecendo ATQ% e Taxa CRIT.",
+                    "icon_url": "/assets/images/weapons_detail/lithic_spear.png"
+                },
+                {
+                    "weapon_id": "wavebreakers_fin",
+                    "name": "Nadadeira do Quebra-Mar",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Aumenta o Dano do Supremo com base no custo de energia total da equipe. Boa para dano pessoal de Shenhe.",
+                    "icon_url": "/assets/images/weapons_detail/wavebreakers_fin.png"
+                },
+                {
+                    "weapon_id": "the_catch",
+                    "name": "A Fisgada",
+                    "rarity": 4,
+                    "type": "Polearm",
+                    "category": "F2P (Pesca)",
+                    "notes": "Boa opção F2P se Lança de Favonius não estiver disponível, foca no dano do Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/the_catch.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2647,
+            "base_atk": 52,
+            "base_def": 173,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 5118,
+            "base_atk": 100,
+            "base_def": 334,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 6516,
+            "base_atk": 127,
+            "base_def": 425,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "7.2%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 8096,
+            "base_atk": 158,
+            "base_def": 530,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 9493,
+            "base_atk": 185,
+            "base_def": 620,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 10891,
+            "base_atk": 213,
+            "base_def": 711,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "21.6%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 12289,
+            "base_atk": 239,
+            "base_def": 800,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "28.8%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Barbatana Falsa do Herdeiro do Dragão",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/dragonheirs_false_fin.webp"
+        },
+        {
+            "name": "Lasca de Jade Shivada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/shivada_jade_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_chunk.webp"
+        },
+        {
+            "name": "Gema de Jade Shivada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/shivada_jade_gemstone.webp"
+        },
+        {
+            "name": "Qingxin",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/qingxin.webp"
+        },
+        {
+            "name": "Néctar da Flor Gigante",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/whopperflower_nectar.webp"
+        },
+        {
+            "name": "Néctar Brilhante",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/shimmering_nectar.webp"
+        },
+        {
+            "name": "Néctar Elemental",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/energy_nectar.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Perfuradora de Estrelas",
+            "icon_url": "/assets/images/talents/shenhe/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes rápidos com a lança.\nAtaque Carregado: Consome Stamina para avançar, infligindo Dano em seu trajeto.\nAtaque Imersivo: Mergulha para atingir o chão, causando Dano em AdE."
+        },
+        "elemental_skill": {
+            "name": "Evocação Espiritual da Primavera",
+            "icon_url": "/assets/images/talents/shenhe/talent_elemental_skill.webp",
+            "description": "Concede 'Pena Gelada' a todos os membros da equipe próximos e causa Dano Cryo de formas diferentes com base se a habilidade foi Pressionada ou Mantida Pressionada.\nPressionar: Avança junto com um Espírito Talismânico, causando Dano Cryo aos oponentes no caminho.\nManter Pressionado: Comanda o Espírito Talismânico, causando Dano Cryo em AdE.\nPena Gelada: Quando Ataques Normais, Carregados, Imersivos, Habilidades Elementais e Supremos Elementais causam Dano Cryo a oponentes, o Dano é aumentado com base no ATQ atual de Shenhe. O efeito da Pena Gelada será removido após sua duração expirar ou após um certo número de acúmulos ser ativado. Penas Geladas ativadas por Manter Pressionado duram mais e têm mais acúmulos que Pressionar."
+        },
+        "elemental_burst": {
+            "name": "Mistério da Libertação da Donzela Divina",
+            "icon_url": "/assets/images/talents/shenhe/talent_elemental_burst.webp",
+            "description": "Libera o poder do Espírito Talismânico, permitindo que ele vagueie livremente nesta forma, causando Dano Cryo em AdE. O Espírito Talismânico então cria um campo que diminui a RES Cryo e RES Física dos oponentes dentro dele. Ele também causa Dano Cryo periodicamente aos oponentes dentro do campo."
+        },
+        "passives": [
+            {
+                "name": "Alcance Celestial",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/shenhe/talent_passive_a1.webp",
+                "description": "Um personagem ativo dentro do campo criado por Mistério da Libertação da Donzela Divina (Supremo) ganha 15% de Bônus de Dano Cryo."
+            },
+            {
+                "name": "Selo da Comunhão Espiritual",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/shenhe/talent_passive_a4.webp",
+                "description": "Após Shenhe usar Evocação Espiritual da Primavera (Habilidade Elemental), ela concede a todos os membros da equipe próximos os seguintes efeitos:\n- Pressionar: Dano da Habilidade Elemental e Supremo Elemental aumentado em 15% por 10s.\n- Manter Pressionado: Dano do Ataque Normal, Carregado e Imersivo aumentado em 15% por 15s."
+            },
+            {
+                "name": "Chegada Oportuna",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/shenhe/talent_passive_utility.webp",
+                "description": "Ganha 25% mais recompensas quando despachada em Expedições de Liyue que duram 20 horas."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Néctar da Flor Gigante",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/whopperflower_nectar.webp"
+        },
+        {
+            "name": "Néctar Brilhante",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/shimmering_nectar.webp"
+        },
+        {
+            "name": "Néctar Elemental",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/energy_nectar.webp"
+        },
+        {
+            "name": "Ensinamentos de Prosperidade",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_prosperity.webp"
+        },
+        {
+            "name": "Guia de Prosperidade",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_prosperity.webp"
+        },
+        {
+            "name": "Filosofia de Prosperidade",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_prosperity.webp"
+        },
+        {
+            "name": "Borboleta da Chama Infernal",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/hellfire_butterfly.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Clarividência",
+            "icon_url": "/assets/images/constellations/shenhe/constellation_1.webp",
+            "description": "Evocação Espiritual da Primavera (Habilidade Elemental) pode ser usada mais 1 vez."
+        },
+        {
+            "level": 2,
+            "name": "Espírito Determinado",
+            "icon_url": "/assets/images/constellations/shenhe/constellation_2.webp",
+            "description": "A duração de Mistério da Libertação da Donzela Divina (Supremo) é estendida em 6s. O Dano CRIT Cryo dos personagens ativos dentro do campo da habilidade é aumentado em 15%."
+        },
+        {
+            "level": 3,
+            "name": "Isolamento",
+            "icon_url": "/assets/images/constellations/shenhe/constellation_3.webp",
+            "description": "Aumenta o nível de Evocação Espiritual da Primavera (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Introspecção",
+            "icon_url": "/assets/images/constellations/shenhe/constellation_4.webp",
+            "description": "Quando personagens sob o efeito de Pena Gelada de Shenhe ativam o bônus de Dano da Pena Gelada, Shenhe ganhará um acúmulo de 'Marca de Névoa Gélida'. Shenhe consumirá todos os acúmulos de 'Marca de Névoa Gélida' ao usar Evocação Espiritual da Primavera, aumentando o Dano daquela instância de Evocação Espiritual da Primavera em 5% para cada acúmulo consumido. Máximo de 50 acúmulos. Duração: 60s."
+        },
+        {
+            "level": 5,
+            "name": "Divinização",
+            "icon_url": "/assets/images/constellations/shenhe/constellation_5.webp",
+            "description": "Aumenta o nível de Mistério da Libertação da Donzela Divina (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Abandono Místico",
+            "icon_url": "/assets/images/constellations/shenhe/constellation_6.webp",
+            "description": "Quando personagens ativam os efeitos da Pena Gelada através de Dano de Ataque Normal ou Carregado, os acúmulos da Pena Gelada não são consumidos."
+        }
+    ]
+}
