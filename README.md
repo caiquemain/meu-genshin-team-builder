@@ -9,36 +9,36 @@ Bem-vindo ao Genshin Impact - Assistente de Times e Builds! Este projeto é uma 
 ## ✨ Funcionalidades Principais
 
 * **Perfis Detalhados de Personagens:**
-    * Informações gerais: título, elemento, raridade, arma, papel na equipe, biografia, aniversário, constelação, região, afiliação e prato especial[cite: 1].
-    * Opções de build recomendadas, incluindo artefatos, status principais/secundários e armas[cite: 1].
-    * Detalhes sobre talentos (ataque normal, habilidade elemental, supremo) e passivas[cite: 1].
-    * Lista de constelações com descrições[cite: 1].
-    * Materiais de ascensão e de talento[cite: 1].
-    * Links externos para guias e wikis (ex: KQM, Fandom Wiki)[cite: 1].
+    * Informações gerais: título, elemento, raridade, arma, papel na equipe, biografia, aniversário, constelação, região, afiliação e prato especial.
+    * Opções de build recomendadas, incluindo artefatos, status principais/secundários e armas.
+    * Detalhes sobre talentos (ataque normal, habilidade elemental, supremo) e passivas.
+    * Lista de constelações com descrições.
+    * Materiais de ascensão e de talento.
+    * Links externos para guias e wikis (ex: KQM, Fandom Wiki).
     * Referências das fontes de informação utilizadas.
 * **Sugestão de Times:**
     * Receba sugestões de times baseados nos personagens que você possui.
-    * Veja times pré-definidos e recomendados para personagens específicos[cite: 2].
+    * Veja times pré-definidos e recomendados para personagens específicos.
 * **Banco de Dados de Artefatos e Armas:**
-    * Informações sobre diversos conjuntos de artefatos e armas disponíveis no jogo[cite: 2].
+    * Informações sobre diversos conjuntos de artefatos e armas disponíveis no jogo.
 * **Interface Amigável:**
-    * Navegação intuitiva com um menu de acesso rápido nas páginas de perfil[cite: 3, 4].
+    * Navegação intuitiva com um menu de acesso rápido nas páginas de perfil.
     * Design responsivo (assumindo que está sendo trabalhado).
-    * Alternador de tema (claro/escuro)[cite: 1515].
+    * Alternador de tema (claro/escuro).
 
 ## 🛠️ Tecnologias Utilizadas
 
 * **Frontend:**
-    * React (com Vite) [cite: 1]
-    * JavaScript (JSX) [cite: 3]
-    * CSS [cite: 4]
-    * Axios (para chamadas API) [cite: 3]
-    * React Router (para navegação) [cite: 3]
+    * React (com Vite) 
+    * JavaScript (JSX) 
+    * CSS 
+    * Axios (para chamadas API) 
+    * React Router (para navegação) 
 * **Backend:**
-    * Python [cite: 1]
-    * Flask [cite: 1, 2]
+    * Python 
+    * Flask 
 * **Dados:**
-    * Arquivos JSON para armazenar informações de personagens, artefatos, armas e times[cite: 1].
+    * Arquivos JSON para armazenar informações de personagens, artefatos, armas e times.
 
 ## 📂 Estrutura do Projeto
 
