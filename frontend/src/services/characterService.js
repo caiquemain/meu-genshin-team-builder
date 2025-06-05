@@ -1,11 +1,11 @@
-// frontend/src/services/characterService.js
-import axios from 'axios';
+import api from './api'; // <-- Importe a instância 'api' que configuramos
 
-const API_URL = 'http://127.0.0.1:5000/api';
+
 
 export const getAllCharacters = async () => {
     try {
-        const response = await axios.get(`${API_URL}/characters`);
+        // Use a instância 'api' importada, que já tem a baseURL definida
+        const response = await api.get('/characters'); // <-- Use 'api' diretamente
         return response.data;
     } catch (error) {
         console.error("Erro ao buscar personagens:", error);
@@ -15,14 +15,13 @@ export const getAllCharacters = async () => {
 
 export const getTeamSuggestions = async (ownedCharacterIds) => {
     try {
-        // O backend espera um objeto com a chave 'owned_characters'
-        const response = await axios.post(`${API_URL}/suggest-team`, {
+        // Use a instância 'api' importada
+        const response = await api.post('/suggest-team', { // <-- Use 'api' diretamente
             owned_characters: ownedCharacterIds
         });
         return response.data;
     } catch (error) {
         console.error("Erro ao buscar sugestões de times:", error);
-        // Se o backend retornar um erro JSON (ex: 400), error.response.data pode contê-lo
         if (error.response && error.response.data) {
             throw error.response.data;
         }

@@ -1,0 +1,24 @@
+# Usa uma imagem oficial do Python como base
+FROM python:3.12-slim-bookworm
+
+# Define o diretório de trabalho dentro do contêiner
+WORKDIR /app
+
+# Copia o arquivo de requisitos e instala as dependências
+# Usamos --no-cache-dir para economizar espaço
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copia todo o restante do código da sua aplicação para o diretório de trabalho
+COPY . .
+
+# Expõe a porta que sua aplicação Flask usa (por padrão, Flask roda na 5000)
+# Se o seu run.py usa outra porta, ajuste aqui.
+EXPOSE 5000
+
+# Comando para iniciar a aplicação Flask com Gunicorn (recomendado para produção)
+# Supondo que `run.py` inicialize sua aplicação Flask.
+# Se sua aplicação Flask é chamada 'app' dentro de run.py ou app/__init__.py,
+# o comando pode ser ajustado para gunicorn -b 0.0.0.0:5000 app:app ou gunicorn -b 0.0.0.0:5000 run:app
+# Verifique como sua aplicação é instanciada e exportada em `run.py`.
+CMD ["gunicorn", "-b", "0.0.0.0:5000", "run:app"]

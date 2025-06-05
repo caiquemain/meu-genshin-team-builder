@@ -1,0 +1,32 @@
+services:
+  backend:
+    build: ./backend
+    # Remover mapeamento de porta direto do backend para o host,
+    # ele será acessado via a rede Docker interna pelo Nginx.
+    # ports:
+    #   - "5000:5000" # <-- REMOVA ESTA LINHA
+    volumes:
+      - db_data:/app/data
+      - ./backend:/app
+    environment:
+      FLASK_ENV: development
+      PYTHONUNBUFFERED: 1
+      SECRET_KEY: "SUA_CHAVE_SECRETA_MUITO_LONGA_E_ALEATORIA_DE_PRODUCAO_AQUI"
+    command: [ "gunicorn", "-b", "0.0.0.0:5000", "wsgi:app", "--log-level", "debug", "--access-logfile", "-", "--error-logfile", "-" ]
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:80"
+        # A porta 3000 do host agora vai para o Nginx.
+        # O Nginx irá rotear para o backend.
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      # Adicionar um arquivo de configuração Nginx personalizado
+      - ./frontend/nginx.conf:/etc/nginx/conf.d/default.conf # <-- NOVA LINHA
+    depends_on:
+      - backend
+
+volumes:
+  db_data:

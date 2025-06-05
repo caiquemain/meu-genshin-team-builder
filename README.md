@@ -153,10 +153,5 @@ As informações de personagens, builds e times são compiladas a partir de dive
 
 Nosso objetivo é fornecer dados precisos e úteis. As fontes específicas utilizadas para cada personagem e suas builds são (ou serão) listadas na seção "Referências" dentro da página de perfil de cada personagem.
 
-## 📝 Licença
-
-(Você pode adicionar uma licença aqui, por exemplo, MIT License. Se não tiver uma, pode remover esta seção ou indicar "Todos os direitos reservados").
-
----
 
 Feito com ❤️ para a comunidade Genshin Impact!
