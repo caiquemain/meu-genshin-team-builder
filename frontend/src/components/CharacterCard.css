@@ -1,25 +1,61 @@
 /* frontend/src/components/CharacterCard.css */
 .character-card {
-    border: 1px solid var(--border-color-light, #ccc);
+    background-color: var(--card-background-color);
+    border: 1px solid var(--border-color);
     border-radius: 8px;
-    padding: 10px;
-    margin: 8px;
-    width: 150px;
-    /* Largura do card */
+    padding: 15px;
+    margin: 10px;
     text-align: center;
-    cursor: pointer;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    background-color: var(--card-background-color, #f9f9f9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.3s ease;
+    /* Adiciona transição para background-color */
+    color: var(--text-color-primary);
     position: relative;
-    /* MUITO IMPORTANTE: Já estava, permite posicionar o ícone do elemento */
+    overflow: hidden;
+
+    /* NOVO: Ajuste para Tamanho Fixo dos Cards */
+    width: 140px;
+    /* Largura fixa para todos os cards */
+    height: 200px;
+    /* Altura fixa para todos os cards (ajuste conforme o conteúdo) */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* Distribui o espaço entre os itens */
+    align-items: center;
+    /* Centraliza itens horizontalmente */
+    box-sizing: border-box;
+    /* Inclui padding e border na largura/altura total */
+}
+
+.character-selection-checkbox {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+.character-selection-checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    /* Personalize o checkbox se desejar */
+    cursor: pointer;
+    /* Garante que o cursor mude ao passar sobre o checkbox */
 }
 
 .character-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    /*transform: translateY(-5px);*/
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.character-card.rarity-4-hover:hover {
+    background-color: var(--rarity-4-background-hover);
+    /* Ex: #9370db (roxo) */
+}
+
+.character-card.rarity-5-hover:hover {
+    background-color: var(--rarity-5-background-hover);
+    /* Ex: #ffd700 (dourado) */
 }
 
 .character-card.selected {
@@ -37,10 +73,42 @@
 }
 
 .character-icon {
-    width: 100%;
-    height: 100%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
     object-fit: cover;
-    border-radius: 6px;
+    margin: 10px auto;
+    border: 2px solid var(--border-color);
+    flex-shrink: 0;
+    /* Impede que o ícone encolha */
+}
+
+.character-card h3 {
+    margin-top: 10px;
+    font-size: 1.1em;
+    /* Ajuste para caber em espaços menores */
+    color: var(--text-color-primary);
+    text-align: center;
+    word-wrap: break-word;
+    /* Quebra palavras longas */
+    max-height: 2.5em;
+    /* Limita a altura para 2 linhas de texto */
+    overflow: hidden;
+    /* Oculta texto que transborda */
+    line-height: 1.2em;
+    /* Altura da linha para controle de quebra */
+    margin-bottom: 5px;
+}
+
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    /* Adaptação para cards fixos + margin */
+    gap: 10px;
+    /* Espaçamento entre os cards */
+    justify-items: center;
+    /* Centraliza os itens no grid */
+    padding: 20px;
 }
 
 /* Adicione estilos para raridade se quiser bordas coloridas etc. */
@@ -78,19 +146,18 @@
     object-fit: contain;
 }
 
-/* Classe antiga, que estava no seu CSS. Se não for mais usada, pode remover ou comentar.
-   No JSX, o ícone do elemento agora usa .character-element-adornment.
 .character-element-icon {
     position: absolute;
-    top: 5px;
-    right: 5px;
-    width: 25px;
-    height: 25px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 50%;
-    padding: 2px;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    /* Ajuste o tamanho conforme necessário */
+    height: 30px;
+    z-index: 5;
+    /* Fica acima do card, abaixo do checkbox */
 }
-*/
+
+
 
 /* Se você tinha a classe .character-element-icon-list (usada no CharacterCard.jsx antigo) e ela ainda existe no CSS,
    ela não afeta mais o ícone do elemento no card. */

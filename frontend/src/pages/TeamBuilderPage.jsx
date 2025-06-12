@@ -1,7 +1,7 @@
 // frontend/src/pages/TeamBuilderPage.jsx
 import React, { useState, useEffect } from 'react';
 import { getAllCharacters, getTeamSuggestions } from '../services/characterService';
-import CharacterCard from '../components/CharacterCard';
+import CharacterCard from '../components/CharacterCard'; // <-- Este componente será ajustado
 import SuggestedTeamCard from '../components/SuggestedTeamCard';
 import FilterBar from '../components/FilterBar';
 import { useSelectedCharacters } from '../contexts/SelectedCharactersContext'; // Importar o hook
@@ -9,7 +9,7 @@ import './TeamBuilderPage.css';
 
 const TeamBuilderPage = () => {
     const [allCharacters, setAllCharacters] = useState([]);
-    const { selectedCharacterIds, toggleCharacterSelection, clearSelectedCharacters } = useSelectedCharacters(); // USAR DO CONTEXTO
+    const { selectedCharacterIds, toggleCharacterSelection, clearSelectedCharacters } = useSelectedCharacters();
 
     const [isLoading, setIsLoading] = useState(true);
     const [isSuggesting, setIsSuggesting] = useState(false);
@@ -41,12 +41,14 @@ const TeamBuilderPage = () => {
         fetchCharacters();
     }, []);
 
+    // Esta função handleSelectCharacter é o que o CharacterCard vai chamar
+    // para alternar a seleção do personagem quando o checkbox for clicado.
     const handleSelectCharacter = (characterId) => {
         toggleCharacterSelection(characterId);
     };
 
     const handleSubmitSelectedCharacters = async () => {
-        if (selectedCharacterIds.size === 0) { // Usar selectedCharacterIds.size do contexto
+        if (selectedCharacterIds.size === 0) {
             setSuggestionError("Por favor, selecione ao menos um personagem.");
             setSuggestedTeams([]);
             return;
@@ -56,7 +58,7 @@ const TeamBuilderPage = () => {
         setSuggestedTeams([]);
 
         try {
-            const teams = await getTeamSuggestions(Array.from(selectedCharacterIds)); // Usar Array.from(selectedCharacterIds) do contexto
+            const teams = await getTeamSuggestions(Array.from(selectedCharacterIds));
             setSuggestedTeams(teams || []);
         } catch (err) {
             console.error("Erro ao obter sugestões de times:", err);
@@ -106,7 +108,7 @@ const TeamBuilderPage = () => {
 
             <p className="character-count-display">
                 Exibindo {filteredCharacters.length} de {allCharacters.length} personagens.
-                Selecionados: {selectedCharacterIds.size} {/* Usar selectedCharacterIds.size do contexto */}
+                Selecionados: {selectedCharacterIds.size}
             </p>
             <div className="character-grid">
                 {filteredCharacters.length > 0 ? (
@@ -115,8 +117,8 @@ const TeamBuilderPage = () => {
                             <CharacterCard
                                 key={character.id}
                                 character={character}
-                                onSelectCharacter={handleSelectCharacter}
-                                isSelected={selectedCharacterIds.has(character.id)} // Usar selectedCharacterIds.has do contexto
+                                onSelectCharacter={handleSelectCharacter} // <-- Prop para o checkbox
+                                isSelected={selectedCharacterIds.has(character.id)} // <-- Prop para o estado do checkbox
                             />
                         ) : null
                     ))
@@ -133,11 +135,11 @@ const TeamBuilderPage = () => {
                     <button
                         onClick={handleSubmitSelectedCharacters}
                         className="submit-button"
-                        disabled={isSuggesting || selectedCharacterIds.size === 0} // Usar selectedCharacterIds.size do contexto
+                        disabled={isSuggesting || selectedCharacterIds.size === 0}
                     >
                         {isSuggesting ? 'Sugerindo...' : 'Sugerir Times'}
                     </button>
-                    {selectedCharacterIds.size > 0 && ( // Usar selectedCharacterIds.size do contexto
+                    {selectedCharacterIds.size > 0 && (
                         <button onClick={clearSelectedCharacters} className="clear-button">
                             Limpar Seleção
                         </button>

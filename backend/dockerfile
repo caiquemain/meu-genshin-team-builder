@@ -1,24 +1,81 @@
 # Usa uma imagem oficial do Python como base
 FROM python:3.12-slim-bookworm
 
+# Instala dependências do sistema necessárias para Chrome e para o wget/curl
+RUN apt-get update && apt-get install -y \
+    wget \
+    gnupg \
+    unzip \
+    curl \
+    jq \
+    fonts-liberation \
+    libappindicator3-1 \
+    libasound2 \
+    libatk-bridge2.0-0 \
+    libcurl4 \
+    libdrm-dev \
+    libgdk-pixbuf2.0-0 \
+    libglib2.0-0 \
+    libgtk-3-0 \
+    libnspr4 \
+    libnss3 \
+    libu2f-udev \
+    libvulkan1 \
+    libxcomposite1 \
+    libxdamage1 \
+    libxext6 \
+    libxfixes3 \
+    libxkbcommon0 \
+    libxrandr2 \
+    xdg-utils \
+    zlib1g \
+    --no-install-recommends && \
+    rm -rf /var/lib/apt/lists/*
+
+# Instala o Google Chrome
+RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - && \
+    echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list && \
+    apt-get update && \
+    apt-get install -y google-chrome-stable
+
+# --- MÉTODO REVISADO PARA INSTALAR O CHROMEDRIVER ---
+RUN CHROME_VERSION=$(google-chrome --version | cut -d ' ' -f 3 | cut -d '.' -f 1) && \
+    echo "Chrome version detected: ${CHROME_VERSION}" && \
+    CHROMEDRIVER_DATA=$(curl -s "https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json") && \
+    CHROMEDRIVER_URL=$(echo "${CHROMEDRIVER_DATA}" | \
+    jq -r ".versions[] | select(.version | startswith(\"${CHROME_VERSION}.\")) | .downloads.chromedriver[] | select(.platform == \"linux64\") | .url" | head -n 1) && \
+    if [ -z "${CHROMEDRIVER_URL}" ]; then \
+    echo "Erro: Não foi encontrada URL para ChromeDriver para Chrome ${CHROME_VERSION}." && \
+    echo "JSON Data: ${CHROMEDRIVER_DATA}" && \
+    exit 1; \
+    fi && \
+    echo "ChromeDriver URL: ${CHROMEDRIVER_URL}" && \
+    wget -N "${CHROMEDRIVER_URL}" -O chromedriver.zip && \
+    mkdir -p /tmp/chromedriver_extract && \
+    unzip chromedriver.zip -d /tmp/chromedriver_extract && \
+    mv /tmp/chromedriver_extract/chromedriver-linux64/chromedriver /usr/local/bin/chromedriver && \
+    chmod +x /usr/local/bin/chromedriver && \
+    rm -rf chromedriver.zip /tmp/chromedriver_extract
+
 # Define o diretório de trabalho dentro do contêiner
 WORKDIR /app
 
 # Copia o arquivo de requisitos e instala as dependências
-# Usamos --no-cache-dir para economizar espaço
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copia todo o restante do código da sua aplicação para o diretório de trabalho
+# Copia todo o restante do código da sua aplicação
 COPY . .
 
-# Expõe a porta que sua aplicação Flask usa (por padrão, Flask roda na 5000)
-# Se o seu run.py usa outra porta, ajuste aqui.
+# --- NOVO COMANDO TEMPORÁRIO PARA DEBUG ---
+RUN ls -la /app/app/scrapers/ 
+
+
+# Garante que o script de entrypoint seja executável
+RUN chmod +x /app/entrypoint.sh
+
+# Expõe a porta que sua aplicação Flask usa
 EXPOSE 5000
 
-# Comando para iniciar a aplicação Flask com Gunicorn (recomendado para produção)
-# Supondo que `run.py` inicialize sua aplicação Flask.
-# Se sua aplicação Flask é chamada 'app' dentro de run.py ou app/__init__.py,
-# o comando pode ser ajustado para gunicorn -b 0.0.0.0:5000 app:app ou gunicorn -b 0.0.0.0:5000 run:app
-# Verifique como sua aplicação é instanciada e exportada em `run.py`.
-CMD ["gunicorn", "-b", "0.0.0.0:5000", "run:app"]
+# Define o entrypoint do contêiner.
+ENTRYPOINT ["/app/entrypoint.sh"]

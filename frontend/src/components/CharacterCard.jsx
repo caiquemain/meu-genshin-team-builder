@@ -1,56 +1,61 @@
 // frontend/src/components/CharacterCard.jsx
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './CharacterCard.css';
 
 const CharacterCard = ({ character, onSelectCharacter, isSelected }) => {
-    const imagePath = character.icon_url;
-    const elementIconPath = character.element_icon_url;
+    const navigate = useNavigate();
 
-    const handleCardClick = (e) => {
-        if (e.target.closest('.character-profile-link')) {
-            return;
+    const handleCardClick = () => {
+        if (character && character.id) {
+            navigate(`/character/${character.id}`);
         }
-        onSelectCharacter(character.id);
     };
 
+    const handleCheckboxChange = (e) => {
+        e.stopPropagation(); // Impede que o clique no checkbox acione a navegação do card
+        if (onSelectCharacter) {
+            onSelectCharacter(character.id);
+        }
+    };
+
+    const getElementIconPath = (elementName) => {
+        const formattedElementName = elementName ? elementName.toLowerCase() : 'unknown';
+        return `/assets/images/elements/element_${formattedElementName}.png`;
+    };
+
+    // Nao precisamos mais de getRarityIconPath aqui, pois a raridade sera via CSS no hover
+    // const getRarityIconPath = (rarityNumber) => {
+    //   const formattedRarityNumber = rarityNumber || 'unknown';
+    //   return `/assets/images/rarity/rarity_${formattedRarityNumber}.png`;
+    // };
+
+    // Adiciona uma classe CSS baseada na raridade para o efeito de hover
+    const rarityClass = character.rarity === 5 ? 'rarity-5-hover' : 'rarity-4-hover';
+
     return (
-        <div
-            className={`character-card ${isSelected ? 'selected' : ''}`}
-            onClick={handleCardClick}
-            title={`${character.name}\nElemento: ${character.element}\nRaridade: ${character.rarity} estrelas`}
-        >
-            {/* Container da imagem principal do personagem (sem o ícone do elemento aqui dentro) */}
-            <div className="character-image-container">
-                {imagePath && (
-                    <img
-                        src={imagePath}
-                        alt={character.name}
-                        className={`character-icon rarity-${character.rarity}`}
-                        onError={(e) => { e.target.style.display = 'none'; }}
-                    />
-                )}
+        <div className={`character-card ${rarityClass}`} onClick={handleCardClick}> {/* Adiciona a classe de raridade */}
+            {/* Checkbox para seleção múltipla (canto superior esquerdo) */}
+            <div className="character-selection-checkbox">
+                <input
+                    type="checkbox"
+                    checked={isSelected}
+                    onChange={handleCheckboxChange}
+                />
             </div>
 
-            {/* Ícone do elemento posicionado em relação ao card principal */}
-            {elementIconPath && (
+            {/* Ícone do Elemento (canto superior direito) */}
+            {character.element && (
                 <img
-                    src={elementIconPath}
+                    src={getElementIconPath(character.element)}
                     alt={character.element}
-                    className="character-element-adornment" // Usaremos esta classe para o posicionamento
-                    title={character.element}
-                    onError={(e) => { e.target.style.display = 'none'; }}
+                    className="character-element-icon"
                 />
             )}
 
-            <h3 className="character-name">{character.name}</h3>
+            <img src={character.icon_url} alt={character.name} className="character-icon" />
+            <h3>{character.name}</h3>
 
-            <Link
-                to={`/character/${character.id}`}
-                className="character-profile-link"
-            >
-                Ver Perfil
-            </Link>
         </div>
     );
 };

@@ -2,6 +2,8 @@
 import json
 import os
 import random
+import secrets
+import uuid
 
 # --- Variável Global e Função de Carregamento de COMPOSIÇÕES DE TIMES ---
 DEFINED_COMPOSITIONS = []
@@ -156,10 +158,10 @@ def generate_teams_from_owned(owned_character_ids_set, all_characters_info_list)
 
         if team_is_formable and len(current_team_populated_chars) == 4:
             suggested_teams_output.append({
-                "id": comp_template.get("id", comp_template.get("name", "team_") + str(random.randint(1000, 9999))),
+                # Substitua random.randint por uuid.uuid4() para gerar um ID único e seguro
+                "id": comp_template.get("id", comp_template.get("name", "team_") + str(uuid.uuid4())),
                 "name": comp_template.get("name", "Time Sugerido"),
                 "strategy": comp_template.get("strategy", "Estratégia não definida."),
-                # Lista rica com build_details populados
                 "characters_in_team": current_team_populated_chars
             })
 
@@ -181,7 +183,7 @@ def generate_teams_from_owned(owned_character_ids_set, all_characters_info_list)
             })
 
         suggested_teams_output.append({
-            "id": "random_team_" + str(random.randint(1000, 9999)),
+            "id": "random_team_" + str(secrets.randbelow(9000) + 1000),
             "name": "Time Aleatório Sugerido",
             "characters_in_team": team_for_random_display,
             "strategy": "Um time gerado aleatoriamente com seus personagens. As builds mostradas são as primeiras definidas para cada um (se disponíveis)."

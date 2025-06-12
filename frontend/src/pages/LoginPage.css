@@ -1,0 +1,78 @@
+/* frontend/src/pages/LoginPage.css */
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 20px;
+    background-color: var(--background-color-primary);
+    /* Exemplo de variável CSS */
+    color: var(--text-color-primary);
+    /* Exemplo de variável CSS */
+}
+
+.login-page h2 {
+    margin-bottom: 30px;
+    color: var(--header-color);
+    /* Exemplo de variável CSS */
+}
+
+.login-form {
+    background-color: var(--card-background-color);
+    /* Exemplo de variável CSS */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    /* Exemplo de variável CSS */
+    border-radius: 4px;
+    background-color: var(--input-background-color);
+    /* Exemplo de variável CSS */
+    color: var(--input-text-color);
+    /* Exemplo de variável CSS */
+    box-sizing: border-box;
+    /* Garante que padding não aumente a largura total */
+}
+
+.login-form button {
+    background-color: var(--button-primary-background);
+    /* Exemplo de variável CSS */
+    color: var(--button-primary-text);
+    /* Exemplo de variável CSS */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: var(--button-primary-hover);
+    /* Exemplo de variável CSS */
+}
+
+.error-message {
+    color: var(--error-color);
+    /* Exemplo de variável CSS */
+    margin-top: 10px;
+    text-align: center;
+}

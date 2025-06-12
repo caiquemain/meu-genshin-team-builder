@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import TeamBuilderPage from './pages/TeamBuilderPage';
 import TeamDetailPage from './pages/TeamDetailPage';
 import CharacterProfilePage from './pages/CharacterProfilePage';
+import LoginPage from './pages/LoginPage';
 import ThemeToggleButton from './components/ThemeToggleButton';
 import './App.css';
 import { fetchCsrfToken } from './services/api'; // <-- Importe fetchCsrfToken
@@ -34,6 +35,7 @@ function App() {
         <Route path="/" element={<TeamBuilderPage />} />
         <Route path="/team-detail" element={<TeamDetailPage />} />
         <Route path="/character/:characterId" element={<CharacterProfilePage />} />
+        <Route path="/login" element={<LoginPage />} /> {/* <-- NOVA ROTA PARA LOGIN */}
       </Routes>
     </div>
   );

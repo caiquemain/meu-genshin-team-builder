@@ -2,6 +2,7 @@
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
 from . import db
+from typing import Optional  # <-- Importe Optional para type hints
 
 
 class User(db.Model, UserMixin):
@@ -10,22 +11,16 @@ class User(db.Model, UserMixin):
     password_hash = db.Column(db.String(128), nullable=False)
     role = db.Column(db.String(10), default='user', nullable=False)
 
-    # Adiciona a relação com OwnedCharacter.
-    # 'backref' permite acessar o objeto User a partir de OwnedCharacter (owned_char.owner).
-    # 'lazy=True' significa que os dados de OwnedCharacter serão carregados apenas quando acessados.
     owned_characters_association = db.relationship(
-        # <-- NOVA RELAÇÃO
         'OwnedCharacter', backref='owner', lazy=True, cascade="all, delete-orphan")
 
     def __repr__(self):
         return f"User('{self.username}', '{self.id}', '{self.role}')"
 
     def set_password(self, password):
-        """Define a senha do usuário, gerando um hash seguro."""
         self.password_hash = generate_password_hash(password)
 
     def check_password(self, password):
-        """Verifica se a senha fornecida corresponde ao hash armazenado."""
         return check_password_hash(self.password_hash, password)
 
     def has_role(self, required_role):
@@ -35,13 +30,35 @@ class User(db.Model, UserMixin):
         return self.role == 'admin'
 
 
-# NOVO MODELO: Para armazenar personagens possuídos por um usuário
 class OwnedCharacter(db.Model):
-    # Chave primária composta para garantir a unicidade de (user_id, character_id)
-    # <-- Chave estrangeira para User
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), primary_key=True)
-    # <-- ID do personagem (deve corresponder aos IDs dos seus JSONs)
     character_id = db.Column(db.String(50), primary_key=True)
 
     def __repr__(self):
         return f"<OwnedCharacter UserID: {self.user_id}, CharID: {self.character_id}>"
+
+# TierListEntry para armazenar os dados raspados da Tier List
+
+
+class TierListEntry(db.Model):
+    character_id = db.Column(db.String(50), primary_key=True, unique=True)
+    # <-- NOVO: Nome do Personagem
+    character_name = db.Column(db.String(100), nullable=False)
+    tier_level = db.Column(db.String(10), nullable=False)
+    role = db.Column(db.String(50), nullable=False)
+    constellation = db.Column(db.String(10))
+    rarity = db.Column(db.Integer)
+    element = db.Column(db.String(20), nullable=False)
+
+    def __init__(self, character_id: str, character_name: str, tier_level: str, role: str,
+                 constellation: Optional[str] = None, rarity: Optional[int] = None, element: Optional[str] = None):
+        self.character_id = character_id
+        self.character_name = character_name  # Atribuir o nome
+        self.tier_level = tier_level
+        self.role = role
+        self.constellation = constellation
+        self.rarity = rarity
+        self.element = element
+
+    def __repr__(self):
+        return f"<TierListEntry {self.character_name} ({self.character_id}) - Tier: {self.tier_level} - Role: {self.role}>"
