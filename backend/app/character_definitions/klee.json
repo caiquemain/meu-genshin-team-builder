@@ -1,0 +1,392 @@
+{
+    "id": "klee",
+    "name": "Klee",
+    "title": "Sol Fugitivo",
+    "element": "Pyro",
+    "rarity": 5,
+    "weapon": "Catalyst",
+    "model_type": "Short Female",
+    "role": [
+        "On-Field DPS",
+        "Pyro DPS"
+    ],
+    "description_bio": "Uma especialista em explosivos e uma Cavaleira de Favonius muitas vezes vista no confinamento solitário. Klee tem uma paixão por criar 'tesouros' explosivos e, apesar de sua natureza destrutiva, ela possui um coração inocente e adora brincar com seus amigos em Mondstadt.",
+    "birthday": "27 de Julho",
+    "constellation_name_official": "Trifolium",
+    "region": "Mondstadt",
+    "affiliation": [
+        "Cavaleiros de Favonius"
+    ],
+    "special_dish": {
+        "name": "Torrada de Peixe",
+        "icon_url": "/assets/images/dishes/klee_fish_flavored_toast.webp"
+    },
+    "namecard_url": "/assets/images/namecards/klee_explosive.png",
+    "icon_url": "/assets/images/characters/klee.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "updated_date": "2025-06-17",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Klee Full Guide",
+                "url": "https://keqingmains.com/klee/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Klee",
+                "url": "https://genshin-impact.fandom.com/wiki/Klee"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Klee",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Klee"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "klee_onfield_pyro_dps",
+            "name": "DPS Pyro On-Field (Mono Pyro / Vaporizar)",
+            "notes_build": "Focada em maximizar o dano pessoal de Klee, que vem de uma combinação de Ataques Normais, Carregados e habilidades. A escolha do artefato depende da composição do time (Mono Pyro ou Vaporizar).",
+            "artifacts": [
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "set_name": "Bruxa das Chamas Carmesim",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para times de Vaporizar. Também é forte para Mono Pyro.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                },
+                {
+                    "set_id": "lavawalker",
+                    "set_name": "Atravessador de Fogo",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para times Mono Pyro se a aura Pyro puder ser mantida consistentemente nos inimigos.",
+                    "icon_url": "/assets/images/artifact_sets/lavawalker.png"
+                },
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras Marechaussee",
+                    "pieces": 4,
+                    "notes": "A melhor opção se jogada com Furina, devido ao alto bônus de Taxa CRIT das flutuações de Vida.",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                },
+                {
+                    "set_id": "shimenawas_reminiscence",
+                    "set_name": "Reminiscência Nostálgica",
+                    "pieces": 4,
+                    "notes": "Aumenta o Dano do Ataque Normal/Carregado, mas a perda de energia pode dificultar o uso do Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/shimenawas_reminiscence.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ%",
+                "goblet": "Bônus de Dano Pyro%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATQ%",
+                "Proficiência Elemental (para Vaporizar)",
+                "Recarga de Energia% (baixa prioridade)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "lost_prayer_to_the_sacred_winds",
+                    "name": "Oração Perdida aos Ventos Sagrados",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Excelente opção geral, fornece Taxa CRIT e Bônus de Dano Elemental com tempo em campo.",
+                    "icon_url": "/assets/images/weapons_detail/lost_prayer_to_the_sacred_winds.png"
+                },
+                {
+                    "weapon_id": "kaguras_verity",
+                    "name": "Prova de Kagura",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alto Dano CRIT e buff de Dano de Habilidade Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/kaguras_verity.png"
+                },
+                {
+                    "weapon_id": "skyward_atlas",
+                    "name": "Atlas Celestial",
+                    "rarity": 5,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Alto ATQ base e ATQ%, bom para dano geral.",
+                    "icon_url": "/assets/images/weapons_detail/skyward_atlas.png"
+                },
+                {
+                    "weapon_id": "the_widsith",
+                    "name": "Sinfonia dos Indolentes",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Gacha",
+                    "notes": "Melhor opção 4★, com Dano CRIT e buffs aleatórios poderosos. Ideal para quickswap.",
+                    "icon_url": "/assets/images/weapons_detail/the_widsith.png"
+                },
+                {
+                    "weapon_id": "solar_pearl",
+                    "name": "Pérola Solar",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Passe de Batalha",
+                    "notes": "Fornece Taxa CRIT e passiva que buffa a maior parte do kit de Klee.",
+                    "icon_url": "/assets/images/weapons_detail/solar_pearl.png"
+                },
+                {
+                    "weapon_id": "dodoco_tales",
+                    "name": "Contos de Dodoco",
+                    "rarity": 4,
+                    "type": "Catalyst",
+                    "category": "Evento",
+                    "notes": "Sua arma F2P de assinatura, ótima para Ataques Carregados.",
+                    "icon_url": "/assets/images/weapons_detail/dodoco_tales.png"
+                }
+            ],
+            "talent_priority": [
+                "Ataque Normal",
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2102,
+            "base_atk": 64,
+            "base_def": 128,
+            "bonus_stat_label": "Bônus de Dano Pyro%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4065,
+            "base_atk": 124,
+            "base_def": 248,
+            "bonus_stat_label": "Bônus de Dano Pyro%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5175,
+            "base_atk": 158,
+            "base_def": 315,
+            "bonus_stat_label": "Bônus de Dano Pyro%",
+            "bonus_stat_value": "7.2%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6581,
+            "base_atk": 201,
+            "base_def": 401,
+            "bonus_stat_label": "Bônus de Dano Pyro%",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 7692,
+            "base_atk": 235,
+            "base_def": 468,
+            "bonus_stat_label": "Bônus de Dano Pyro%",
+            "bonus_stat_value": "14.4%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 8810,
+            "base_atk": 269,
+            "base_def": 536,
+            "bonus_stat_label": "Bônus de Dano Pyro%",
+            "bonus_stat_value": "21.6%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10287,
+            "base_atk": 311,
+            "base_def": 615,
+            "bonus_stat_label": "Bônus de Dano Pyro%",
+            "bonus_stat_value": "28.8%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Semente de Fogo Eterno",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/everflame_seed.webp"
+        },
+        {
+            "name": "Lasca de Ágata Agnidus",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/agnidus_agate_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_chunk.webp"
+        },
+        {
+            "name": "Gema de Ágata Agnidus",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/agnidus_agate_gemstone.webp"
+        },
+        {
+            "name": "Cogumelo Philanemo",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/philanemo_mushroom.webp"
+        },
+        {
+            "name": "Pergaminho Guia",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/divining_scroll.webp"
+        },
+        {
+            "name": "Pergaminho do Encantamento",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/sealed_scroll.webp"
+        },
+        {
+            "name": "Pergaminho da Maldição",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/forbidden_curse_scroll.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Cabum!",
+            "icon_url": "/assets/images/talents/klee/talent_normal_attack.webp",
+            "description": "Ataque Normal: Arremessa coisas que explodem, causando Dano Pyro em AdE. Realiza até 3 ataques. Ganha um Selo de Explosão com 50% de chance.\nAtaque Carregado: Consome Stamina e um Selo de Explosão para não consumir Stamina e causar Dano Pyro aumentado.\nAtaque Imersivo: Mergulha para atingir o chão, causando Dano Pyro em AdE."
+        },
+        "elemental_skill": {
+            "name": "Bomba Saltitante",
+            "icon_url": "/assets/images/talents/klee/talent_elemental_skill.webp",
+            "description": "Lança uma Bomba Saltitante gigante que quica 3 vezes, causando Dano Pyro em AdE a cada quique. No terceiro quique, a bomba se divide em várias minas. As minas explodem ao contato com inimigos ou após um tempo, causando Dano Pyro em AdE. Começa com 2 cargas."
+        },
+        "elemental_burst": {
+            "name": "Faíscas Explosivas",
+            "icon_url": "/assets/images/talents/klee/talent_elemental_burst.webp",
+            "description": "Por 10s, invoca continuamente Faíscas Explosivas que atacam inimigos próximos, causando Dano Pyro em AdE. O efeito é cancelado se Klee sair de campo."
+        },
+        "passives": [
+            {
+                "name": "Presente Explosivo",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/klee/talent_passive_a1.webp",
+                "description": "Quando Bomba Saltitante e Ataques Normais causam Dano, Klee tem 50% de chance de obter um Selo de Explosão. O próximo Ataque Carregado de Klee não consumirá Stamina e causará 50% a mais de Dano."
+            },
+            {
+                "name": "Faíscas Inesgotáveis",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/klee/talent_passive_a4.webp",
+                "description": "Quando o Ataque Carregado de Klee resulta em um Acerto CRIT, todos os membros da equipe ganham 2 de Energia Elemental."
+            },
+            {
+                "name": "Tudo dos Meus Tesouros",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/klee/talent_passive_utility.webp",
+                "description": "Mostra a localização de especialidades de Mondstadt próximas no minimapa."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Pergaminho Guia",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/divining_scroll.webp"
+        },
+        {
+            "name": "Pergaminho do Encantamento",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/sealed_scroll.webp"
+        },
+        {
+            "name": "Pergaminho da Maldição",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/forbidden_curse_scroll.webp"
+        },
+        {
+            "name": "Ensinamentos de Liberdade",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_freedom.webp"
+        },
+        {
+            "name": "Guia de Liberdade",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_freedom.webp"
+        },
+        {
+            "name": "Filosofia de Liberdade",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_freedom.webp"
+        },
+        {
+            "name": "Cálice do Vento Norte",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/ring_of_boreas.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Bombardeio Contínuo",
+            "icon_url": "/assets/images/constellations/klee/constellation_1.webp",
+            "description": "Ataques e Habilidades têm uma chance de invocar uma faísca que bombardeia inimigos, causando Dano igual a 120% do Dano de Faíscas Explosivas."
+        },
+        {
+            "level": 2,
+            "name": "Estilhaços de Explosão",
+            "icon_url": "/assets/images/constellations/klee/constellation_2.webp",
+            "description": "As minas da Bomba Saltitante diminuem a DEF dos inimigos em 23% por 10s."
+        },
+        {
+            "level": 3,
+            "name": "Carga Especial da Klee",
+            "icon_url": "/assets/images/constellations/klee/constellation_3.webp",
+            "description": "Aumenta o nível de Bomba Saltitante (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Faísca e Explosão",
+            "icon_url": "/assets/images/constellations/klee/constellation_4.webp",
+            "description": "Se Klee sair de campo durante a duração de Faíscas Explosivas (Supremo), sua partida desencadeia uma explosão que causa 555% de seu ATQ como Dano Pyro em AdE."
+        },
+        {
+            "level": 5,
+            "name": "Bombardeio de Faíscas",
+            "icon_url": "/assets/images/constellations/klee/constellation_5.webp",
+            "description": "Aumenta o nível de Faíscas Explosivas (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Chama Ardente",
+            "icon_url": "/assets/images/constellations/klee/constellation_6.webp",
+            "description": "Enquanto Faíscas Explosivas (Supremo) estiver ativo, Klee regenera 3 de Energia para todos os membros da equipe (exceto Klee) a cada 3s. Ao usar o Supremo, todos os membros da equipe ganham 10% de Bônus de Dano Pyro por 25s."
+        }
+    ]
+}

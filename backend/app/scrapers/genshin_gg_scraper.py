@@ -51,7 +51,7 @@ def scrape_genshin_gg(all_backend_characters_map: Dict[str, Any]) -> Optional[Li
 
             for row_tag in tier_rows:
                 tier_title_element_raw: Optional[Union[Tag, NavigableString]] = row_tag.find(
-                    'div', class_='dropzone-title')
+                    'div', class_='dropzone-title') # type: ignore
                 tier_title_element: Optional[Tag] = cast(
                     Tag, tier_title_element_raw) if isinstance(tier_title_element_raw, Tag) else None
 
@@ -59,9 +59,9 @@ def scrape_genshin_gg(all_backend_characters_map: Dict[str, Any]) -> Optional[Li
                     strip=True) if tier_title_element else "Unknown Tier"
 
                 characters_in_tier_desktop_raw: Optional[Union[Tag, NavigableString]] = row_tag.find(
-                    'div', class_=['dropzone-characters'], attrs={'tier': tier_level})
+                    'div', class_=['dropzone-characters'], attrs={'tier': tier_level}) # type: ignore
                 characters_in_tier_mobile_raw: Optional[Union[Tag, NavigableString]] = row_tag.find(
-                    'div', class_=['dropzone-characters', '--mobile'], attrs={'tier': tier_level})
+                    'div', class_=['dropzone-characters', '--mobile'], attrs={'tier': tier_level}) # type: ignore # type: ignore
 
                 characters_in_tier_desktop: Optional[Tag] = cast(
                     Tag, characters_in_tier_desktop_raw) if isinstance(characters_in_tier_desktop_raw, Tag) else None
@@ -78,15 +78,15 @@ def scrape_genshin_gg(all_backend_characters_map: Dict[str, Any]) -> Optional[Li
 
                 for char_portrait_tag in all_character_portraits:
                     char_name_element: Optional[Tag] = char_portrait_tag.find(
-                        'h2', class_='tierlist-name')
+                        'h2', class_='tierlist-name') # type: ignore
                     char_role_element: Optional[Tag] = char_portrait_tag.find(
-                        'h3', class_='tierlist-role')
+                        'h3', class_='tierlist-role') # type: ignore
                     char_constellation_element: Optional[Tag] = char_portrait_tag.find(
-                        'div', class_='tierlist-constellation')
+                        'div', class_='tierlist-constellation') # type: ignore
                     char_rarity_class_element: Optional[Tag] = char_portrait_tag.find(
-                        'img', class_='tierlist-icon')
+                        'img', class_='tierlist-icon') # type: ignore
                     char_element_icon_element: Optional[Tag] = char_portrait_tag.find(
-                        'img', class_='tierlist-type')
+                        'img', class_='tierlist-type') # type: ignore
 
                     char_name: str = char_name_element.get_text(
                         strip=True) if char_name_element else "Unknown"
@@ -107,13 +107,13 @@ def scrape_genshin_gg(all_backend_characters_map: Dict[str, Any]) -> Optional[Li
                                 pass
 
                     element: Optional[str] = char_element_icon_element.get(
-                        'alt', 'Unknown') if char_element_icon_element else 'Unknown'
+                        'alt', 'Unknown') if char_element_icon_element else 'Unknown' # type: ignore
 
                     character_id_from_site: Optional[str] = char_portrait_tag.get(
-                        'characterid')
+                        'characterid') # type: ignore
 
                     if not character_id_from_site:
-                        href_val: Optional[str] = char_portrait_tag.get('href')
+                        href_val: Optional[str] = char_portrait_tag.get('href') # type: ignore
                         if href_val:
                             character_id_from_site = href_val.strip(
                                 '/').split('/')[-1]

@@ -1,0 +1,465 @@
+{
+    "id": "traveler_pyro",
+    "name": "Viajante (Pyro)",
+    "title": "Explorador(a) de Natlan",
+    "element": "Pyro",
+    "rarity": 5,
+    "weapon": "Sword",
+    "role": [
+        "Off-Field Enabler",
+        "Burgeon Trigger",
+        "On-Field DPS"
+    ],
+    "description_bio": "Após chegar em Natlan, a nação da guerra e do fogo, o(a) Viajante ressoou com a Estátua dos Sete local, ganhando o domínio sobre o elemento Pyro para continuar a busca por seu/sua irmão/irmã.",
+    "birthday": "Escolha do Jogador",
+    "constellation_name_official": "Viatrix / Viator",
+    "region": "Natlan",
+    "affiliation": [
+        "Guilda de Aventureiros"
+    ],
+    "special_dish": {
+        "name": "Nenhum",
+        "icon_url": null
+    },
+    "namecard_url": "/assets/images/namecards/traveler_pyro.png",
+    "icon_url": "/assets/images/characters/traveler_pyro.png",
+    "element_icon_url": "/assets/images/elements/element_pyro.png",
+    "updated_date": "2025-06-17",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Pyro Traveler Quick Guide",
+                "url": "https://keqingmains.com/q/pyro-traveler-quickguide/"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "traveler_pyro_off_field_enabler",
+            "name": "Habilitador Off-Field (Pergaminho do Herói)",
+            "notes_build": "Foco em fornecer aplicação Pyro off-field e buffs para a equipe com 4p Pergaminho do Herói da Cidade das Cinzas. Prioriza Recarga de Energia para manter o Supremo ativo.",
+            "artifacts": [
+                {
+                    "set_id": "scroll_of_the_hero_of_cinder_city",
+                    "set_name": "Pergaminho do Herói da Cidade das Cinzas",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para este papel, fornecendo um grande buff de Dano Elemental para a equipe.",
+                    "icon_url": "/assets/images/artifact_sets/scroll_of_the_hero_of_cinder_city.png"
+                },
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Opção sólida para buffar o ATQ da equipe.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "instructor",
+                    "set_name": "Instrutor",
+                    "pieces": 4,
+                    "notes": "Opção de 4 estrelas para buffar a Proficiência Elemental da equipe.",
+                    "icon_url": "/assets/images/artifact_sets/instructor.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia%",
+                "goblet": "ATQ%",
+                "circlet": "Taxa CRIT%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito)",
+                "Taxa CRIT%",
+                "ATQ%",
+                "Dano CRIT%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Melhor opção para suporte, ajuda com a energia da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "sacrificial_sword",
+                    "name": "Espada do Sacrifício",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Permite usos extras da Habilidade Elemental para mais aplicação Pyro.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_sword.png"
+                },
+                {
+                    "weapon_id": "fleuve_cendre_ferryman",
+                    "name": "Cruzamento de Fleuve Cendre",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "F2P (Pesca de Fontaine)",
+                    "notes": "Opção F2P com RE e aumento da Taxa CRIT da Habilidade Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/fleuve_cendre_ferryman.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        },
+        {
+            "key": "traveler_pyro_burgeon_trigger",
+            "name": "Ativador de Germinação (Full EM)",
+            "notes_build": "Maximiza o dano da reação de Germinação (Burgeon) construindo o máximo de Proficiência Elemental possível.",
+            "artifacts": [
+                {
+                    "set_id": "flower_of_paradise_lost",
+                    "set_name": "Flor do Paraíso Perdido",
+                    "pieces": 4,
+                    "notes": "Melhor conjunto para dano de Germinação.",
+                    "icon_url": "/assets/images/artifact_sets/flower_of_paradise_lost.png"
+                },
+                {
+                    "set_id": "gilded_dreams",
+                    "set_name": "Sonhos Dourados",
+                    "pieces": 4,
+                    "notes": "Fornece muita Proficiência Elemental.",
+                    "icon_url": "/assets/images/artifact_sets/gilded_dreams.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Proficiência Elemental / Recarga de Energia%",
+                "goblet": "Proficiência Elemental",
+                "circlet": "Proficiência Elemental"
+            },
+            "sub_stats_priority": [
+                "Proficiência Elemental",
+                "Recarga de Energia%"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "iron_sting",
+                    "name": "Espinho de Ferro",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja",
+                    "notes": "Opção F2P que fornece Proficiência Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/iron_sting.png"
+                },
+                {
+                    "weapon_id": "xiphos_moonlight",
+                    "name": "Luz Lunar de Xiphos",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Fornece PE e converte PE em RE para a equipe.",
+                    "icon_url": "/assets/images/weapons_detail/xiphos_moonlight.png"
+                }
+            ],
+            "talent_priority": [
+                "Habilidade Elemental (Skill)",
+                "Supremo (Burst)",
+                "Ataque Normal"
+            ]
+        },
+        {
+            "key": "traveler_pyro_on_field_dps",
+            "name": "DPS Pyro On-Field (Tradicional)",
+            "notes_build": "Foco no dano pessoal do Viajante, utilizando um build tradicional de ATQ/Dano Pyro/CRIT. Funciona em times de Vaporizar ou Mono Pyro.",
+            "artifacts": [
+                {
+                    "set_id": "crimson_witch_of_flames",
+                    "set_name": "Bruxa das Chamas Carmesim",
+                    "pieces": 4,
+                    "notes": "Melhor opção para times de Vaporizar.",
+                    "icon_url": "/assets/images/artifact_sets/crimson_witch_of_flames.png"
+                },
+                {
+                    "set_id": "lavawalker",
+                    "set_name": "Atravessador de Fogo",
+                    "pieces": 4,
+                    "notes": "Forte em times Mono Pyro.",
+                    "icon_url": "/assets/images/artifact_sets/lavawalker.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ%",
+                "goblet": "Bônus de Dano Pyro%",
+                "circlet": "Taxa CRIT% / Dano CRIT%"
+            },
+            "sub_stats_priority": [
+                "Taxa CRIT / Dano CRIT",
+                "ATQ%",
+                "Recarga de Energia%",
+                "Proficiência Elemental"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortadora de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alta Taxa CRIT e bônus de ATQ baseado na Vida.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Alto Dano CRIT e Bônus de Dano Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "the_black_sword",
+                    "name": "A Espada Negra",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Passe de Batalha",
+                    "notes": "Fornece Taxa CRIT e aumenta o dano de Ataques Normais/Carregados.",
+                    "icon_url": "/assets/images/weapons_detail/the_black_sword.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2252,
+            "base_atk": 44,
+            "base_def": 141,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4354,
+            "base_atk": 85,
+            "base_def": 272,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5544,
+            "base_atk": 108,
+            "base_def": 346,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 6963,
+            "base_atk": 135,
+            "base_def": 434,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8153,
+            "base_atk": 159,
+            "base_def": 508,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9349,
+            "base_atk": 182,
+            "base_def": 582,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 10899,
+            "base_atk": 212,
+            "base_def": 676,
+            "bonus_stat_label": "ATQ%",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Brasas do Lorde Cinzento (PLACEHOLDER)",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/embers_of_the_ashen_lord.webp"
+        },
+        {
+            "name": "Lasca de Ágata Agnidus",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/agnidus_agate_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Ágata Agnidus",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/agnidus_agate_chunk.webp"
+        },
+        {
+            "name": "Gema de Ágata Agnidus",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/agnidus_agate_gemstone.webp"
+        },
+        {
+            "name": "Flor Beijada Pelo Sol (PLACEHOLDER)",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/sunkissed_blossom.webp"
+        },
+        {
+            "name": "Cetim Vermelho Desbotado (PLACEHOLDER)",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/faded_red_satin.webp"
+        },
+        {
+            "name": "Seda Vermelha Bordada (PLACEHOLDER)",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/trimmed_red_silk.webp"
+        },
+        {
+            "name": "Brocado Vermelho Luxuoso (PLACEHOLDER)",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/rich_red_brocade.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Lâmina Estrangeira - Cinza (Foreign Thorns - Cinder)",
+            "icon_url": "/assets/images/talents/traveler_pyro/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes rápidos.\nAtaque Carregado: Consome Stamina para desferir 2 golpes rápidos com a espada.\nAtaque Imersivo: Mergulha para atingir o chão, causando Dano em AdE."
+        },
+        "elemental_skill": {
+            "name": "Cinzas (Cinder)",
+            "icon_url": "/assets/images/talents/traveler_pyro/talent_elemental_skill.webp",
+            "description": "Pressionar: Libera uma onda de chamas, causando Dano Pyro.\nManter Pressionado: Cria um escudo baseado na Vida Máx. do Viajante, que absorve Dano Pyro com 250% de eficácia. Ao terminar, causa Dano Pyro em AdE. Entra no estado 'Bênção da Alma da Noite' ao usar a Habilidade Elemental."
+        },
+        "elemental_burst": {
+            "name": "Explosão Solar Escaldante (Scorching Sunburst)",
+            "icon_url": "/assets/images/talents/traveler_pyro/talent_elemental_burst.webp",
+            "description": "Invoca um Tucano-Solar que causa Dano Pyro em AdE e ataca inimigos junto com o personagem ativo. Aumenta a maestria do Viajante e concede 'Alma da Noite'."
+        },
+        "passives": [
+            {
+                "name": "Prova de Fogo Ardente (Scorching-Hot Proof)",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/traveler_pyro/talent_passive_a1.webp",
+                "description": "O escudo criado pela versão Mantida da Habilidade Elemental aumenta a RES a Interrupção do personagem ativo."
+            },
+            {
+                "name": "Terra Ardente (Blazing Land)",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/traveler_pyro/talent_passive_a4.webp",
+                "description": "O Tucano-Solar do Supremo concede um buff de Proficiência Elemental ao personagem ativo."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Cetim Vermelho Desbotado (PLACEHOLDER)",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/faded_red_satin.webp"
+        },
+        {
+            "name": "Seda Vermelha Bordada (PLACEHOLDER)",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/trimmed_red_silk.webp"
+        },
+        {
+            "name": "Brocado Vermelho Luxuoso (PLACEHOLDER)",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/rich_red_brocade.webp"
+        },
+        {
+            "name": "Ensinamentos do Acendimento (PLACEHOLDER)",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_kindling.webp"
+        },
+        {
+            "name": "Guia do Acendimento (PLACEHOLDER)",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_kindling.webp"
+        },
+        {
+            "name": "Filosofia do Acendimento (PLACEHOLDER)",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_kindling.webp"
+        },
+        {
+            "name": "Negação e Julgamento (PLACEHOLDER)",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/denial_and_judgment.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Vontade da Chama Furiosa (Will of the Raging Flame)",
+            "icon_url": "/assets/images/constellations/traveler_pyro/constellation_1.webp",
+            "description": "O Tucano-Solar do Supremo concede um buff de Bônus de Dano Pyro ao personagem ativo."
+        },
+        {
+            "level": 2,
+            "name": "Chama Ascendente (Uprising Flame)",
+            "icon_url": "/assets/images/constellations/traveler_pyro/constellation_2.webp",
+            "description": "Inimigos atingidos pelo Supremo têm sua DEF reduzida."
+        },
+        {
+            "level": 3,
+            "name": "Calor Abrasador (Searing Heat)",
+            "icon_url": "/assets/images/constellations/traveler_pyro/constellation_3.webp",
+            "description": "Aumenta o nível de Cinzas (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Chamas do Vitorioso (Flames of the Victorious)",
+            "icon_url": "/assets/images/constellations/traveler_pyro/constellation_4.webp",
+            "description": "A versão Mantida da Habilidade Elemental cria um escudo para todos os membros da equipe."
+        },
+        {
+            "level": 5,
+            "name": "Tempestade de Fogo Solar (Solar Firestorm)",
+            "icon_url": "/assets/images/constellations/traveler_pyro/constellation_5.webp",
+            "description": "Aumenta o nível de Explosão Solar Escaldante (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Conflagração (Conflagration)",
+            "icon_url": "/assets/images/constellations/traveler_pyro/constellation_6.webp",
+            "description": "Quando o Supremo está ativo, o personagem ativo ganha um bônus de Dano Pyro adicional."
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+[
+    {
+        "id": "traveler_pyro_vaporize_support",
+        "name": "Viajante (Pyro) - Suporte de Vaporizar",
+        "strategy": "O Viajante Pyro fornece aplicação Pyro off-field para um DPS Hydro on-field (como Neuvillette ou Ayato) causar Vaporizar. Ele também pode usar 4p Pergaminho do Herói para buffar a equipe.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_pyro",
+                "role_in_team": "Suporte Pyro (Off-Field Enabler)",
+                "build_key": "traveler_pyro_off_field_enabler"
+            },
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro",
+                "build_key": "neuvillette_onfield_dps_marechaussee"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred)",
+                "build_key": "zhongli_shield_support_tenacity"
+            }
+        ]
+    },
+    {
+        "id": "traveler_pyro_burgeon_trigger",
+        "name": "Viajante (Pyro) - Ativador de Germinação (Burgeon)",
+        "strategy": "O Viajante Pyro aplica Pyro para ativar a reação de Germinação nas Sementes Dendro criadas por personagens Hydro e Dendro. Esta build foca totalmente em Proficiência Elemental.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_pyro",
+                "role_in_team": "Burgeon Trigger (Full EM)",
+                "build_key": "traveler_pyro_burgeon_trigger"
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Dendro Enabler (Off-field)",
+                "build_key": "nahida_off_field_dendro_deepwood_em"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Hydro Enabler (Off-field)",
+                "build_key": "xingqiu_off_field_hydro_support_sacrificial"
+            },
+            {
+                "character_id": "yaoyao",
+                "role_in_team": "Suporte Dendro (Healer/Ressonância)",
+                "build_key": "yaoyao_dendro_healer_deepwood_favonius"
+            }
+        ]
+    },
+    {
+        "id": "traveler_pyro_onfield_vape",
+        "name": "Viajante (Pyro) - DPS On-Field Vaporizar",
+        "strategy": "O Viajante Pyro como DPS principal, causando dano com seus ataques infundidos de Pyro e reagindo com aplicação Hydro off-field de suportes como Yelan e Xingqiu. Bennett fornece um grande buff de ATQ.",
+        "characters_in_team": [
+            {
+                "character_id": "traveler_pyro",
+                "role_in_team": "Main DPS Pyro (Vaporize)",
+                "build_key": "traveler_pyro_on_field_dps"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro (Off-field/DMG Buff)",
+                "build_key": "yelan_off_field_hydro_support_emblem_favonius"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro (Off-field/Redução de Dano)",
+                "build_key": "xingqiu_off_field_hydro_support_emblem_sacrificial"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    }
+]

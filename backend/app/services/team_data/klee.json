@@ -1,0 +1,111 @@
+[
+    {
+        "id": "klee_mono_pyro_kazuha_bennett_xiangling",
+        "name": "Klee - Mono Pyro (Kazuha, Bennett, Xiangling)",
+        "strategy": "Time focado em maximizar o Dano Pyro bruto. Klee como DPS on-field, Bennett para buff de ATQ massivo e cura, Xiangling para dano Pyro off-field, e Kazuha para agrupar e reduzir a RES Pyro dos inimigos com Sombra Verde.",
+        "characters_in_team": [
+            {
+                "character_id": "klee",
+                "role_in_team": "Main DPS Pyro",
+                "build_key": "klee_onfield_pyro_dps"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer/Pyro Battery)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "xiangling",
+                "role_in_team": "Sub-DPS Pyro (Off-field)",
+                "build_key": "xiangling_subdps_emblem_thecatch_er_focus"
+            }
+        ]
+    },
+    {
+        "id": "klee_vaporize_furina_bennett_kazuha",
+        "name": "Klee - Vaporizar com Furina (Bennett, Kazuha)",
+        "strategy": "Klee causa dano Pyro on-field para Vaporizar a aplicação Hydro de Furina. Furina fornece um enorme buff de Dano. Bennett para buff de ATQ e cura (para compensar o dreno de Vida de Furina). Kazuha agrupa e buffa Dano Elemental.",
+        "characters_in_team": [
+            {
+                "character_id": "klee",
+                "role_in_team": "Main DPS Pyro (Vaporize)",
+                "build_key": "klee_onfield_pyro_dps"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ],
+        "notes_team": "Este time tem um potencial de dano altíssimo, mas requer gerenciamento da cura e rotações precisas."
+    },
+    {
+        "id": "klee_vaporize_classic_xingqiu_bennett",
+        "name": "Klee - Vaporizar Clássico (Xingqiu, Bennett)",
+        "strategy": "Uma composição de Vaporizar tradicional e forte. Xingqiu fornece aplicação Hydro off-field consistente para Klee vaporizar seus ataques. Bennett para buff e cura. O quarto slot é flexível, geralmente um Anemo (Kazuha/Sucrose) ou um escudeiro (Zhongli).",
+        "characters_in_team": [
+            {
+                "character_id": "klee",
+                "role_in_team": "Main DPS Pyro (Vaporize)",
+                "build_key": "klee_onfield_pyro_dps"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Sub-DPS Hydro (Off-field Enabler)",
+                "build_key": "xingqiu_off_field_hydro_support_emblem_sacrificial"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            },
+            {
+                "character_id": "zhongli",
+                "role_in_team": "Suporte Geo (Escudo/RES Shred)",
+                "build_key": "zhongli_shield_support_tenacity"
+            }
+        ]
+    },
+    {
+        "id": "klee_burgeon_nahida_xingqiu_baizhu",
+        "name": "Klee - Germinação (Burgeon)",
+        "strategy": "Klee atua como ativadora da reação de Germinação, explodindo as Sementes Dendro criadas por Nahida e Xingqiu. A build de Klee foca em Proficiência Elemental. Baizhu fornece cura e ressonância Dendro.",
+        "characters_in_team": [
+            {
+                "character_id": "klee",
+                "role_in_team": "Burgeon Trigger (Full EM)",
+                "build_key": "klee_burgeon_trigger_full_em" 
+            },
+            {
+                "character_id": "nahida",
+                "role_in_team": "Dendro Enabler (Off-field)",
+                "build_key": "nahida_off_field_dendro_deepwood_em"
+            },
+            {
+                "character_id": "xingqiu",
+                "role_in_team": "Hydro Enabler (Off-field)",
+                "build_key": "xingqiu_off_field_hydro_support_sacrificial"
+            },
+            {
+                "character_id": "baizhu",
+                "role_in_team": "Suporte Dendro (Healer/Shielder)",
+                "build_key": "baizhu_dendro_healer_deepwood_hp"
+            }
+        ]
+    }
+]

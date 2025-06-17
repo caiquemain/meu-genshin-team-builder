@@ -12,18 +12,12 @@ import time
 import os
 from typing import List, Dict, Any, Optional, Union, cast, Set
 
-# Importar o mapa de personagens
 from app.data_loader import get_all_characters_map
 
 GENSHINLAB_URL = "https://genshinlab.com/tier-list/"
 
 
 def scrape_genshinlab_com(all_backend_characters_map: Dict[str, Any]) -> Optional[List[Dict[str, Any]]]:
-    """
-    Raspa os dados da Tier List do genshinlab.com.
-    Usa Selenium. Retorna uma lista de dicionários com os dados padronizados.
-    Recebe all_backend_characters_map para enriquecer dados.
-    """
     try:
         options = Options()
         options.add_argument("--headless")
@@ -37,10 +31,9 @@ def scrape_genshinlab_com(all_backend_characters_map: Dict[str, Any]) -> Optiona
             print(f"Scraping {GENSHINLAB_URL} (Site: genshinlab_com)...")
             driver.get(GENSHINLAB_URL)
 
-            # Esperar por um elemento que contenha a tier list principal
             WebDriverWait(driver, 30).until(
                 EC.presence_of_element_located(
-                    (By.CSS_SELECTOR, "div.elementor-column.elementor-col-50.elementor-inner-column"))
+                    (By.CSS_SELECTOR, "div.elementor-posts-container"))
             )
             print("Página carregada, extraindo HTML...")
 
@@ -49,60 +42,63 @@ def scrape_genshinlab_com(all_backend_characters_map: Dict[str, Any]) -> Optiona
             tier_list_data: List[Dict[str, Any]] = []
             processed_character_ids: Set[str] = set()
 
-            # Encontrar todas as seções de Tier (SS, S, A, etc.)
-            # Cada seção tem um h6 com o texto do tier
-            tier_sections = soup.find_all(
-                'section', class_='elementor-inner-section')
+            tier_sections: List[Tag] = cast(List[Tag], soup.find_all(
+                'section', class_=lambda val: val and 'elementor-inner-section' in val and 'elementor-section-boxed' in val))  # type: ignore
 
             for section_tag in tier_sections:
                 tier_level_header_raw: Optional[Union[Tag, NavigableString]] = section_tag.find(
-                    'h6', style=lambda value: value and 'text-align: center' in value)
+                    # type: ignore # type: ignore
+                    'h6', style=lambda value: value and 'text-align: center' in value) # type: ignore
                 tier_level_span: Optional[Tag] = cast(Tag, tier_level_header_raw).find(
+                    # type: ignore
                     'span') if isinstance(tier_level_header_raw, Tag) else None
 
                 tier_level: str = tier_level_span.get_text(
                     strip=True) if tier_level_span else "Unknown Tier"
-                tier_level = tier_level.replace(
-                    " Tier", "").strip()  # Limpa " Tier" se presente
+                tier_level = tier_level.replace(" Tier", "").strip()
 
-                # Encontrar o container de posts (personagens) para este tier
+                if tier_level in ["Unknown Tier", "Best Characters", "All Characters", "Filter by", "Genshin Impact Tier List"]:
+                    continue
+
                 characters_container: Optional[Tag] = section_tag.find(
-                    'div', class_=lambda value: value and 'elementor-posts-container' in value)
+                    'div', class_=lambda val: val and 'elementor-posts-container' in val)  # type: ignore
 
                 if characters_container:
-                    # Cada personagem é uma 'article' com classe 'elementor-post elementor-grid-item'
                     character_articles: List[Tag] = cast(
                         List[Tag], characters_container.find_all('article', class_='elementor-post'))
 
                     for char_article_tag in character_articles:
                         char_name_link_raw: Optional[Union[Tag, NavigableString]] = char_article_tag.find(
-                            'h3', class_='elementor-post__title')
+                            'h3', class_='elementor-post__title')  # type: ignore
                         char_name_link: Optional[Tag] = cast(Tag, char_name_link_raw).find(
+                            # type: ignore
                             'a') if isinstance(char_name_link_raw, Tag) else None
 
-                        char_name: str = char_name_link.get_text(strip=True).replace(
-                            " Build", "") if char_name_link else "Unknown"
+                        char_name_full: str = char_name_link.get_text(
+                            strip=True) if char_name_link else "Unknown"
+                        char_name: str = char_name_full.replace(
+                            " Build", "").strip()  # Limpa " Build" do nome
 
-                        # Extrair o ID do personagem do href (ex: /characters/arlecchino/ -> arlecchino)
                         href_val: Optional[str] = char_name_link.get(
-                            'href') if char_name_link else None
+                            'href') if char_name_link else None  # type: ignore
                         character_id_from_site: Optional[str] = None
                         if href_val:
                             segments = [s for s in href_val.strip(
                                 '/').split('/') if s]
                             if segments:
-                                # Pega o último segmento (ID)
-                                character_id_from_site = segments[-1].lower()
+                                # CORREÇÃO AQUI: Remover "-build" do ID extraído da URL
+                                character_id_from_site = segments[-1].lower().replace(
+                                    '-build', '')
 
                         if not character_id_from_site:
-                            character_id_from_site = char_name.lower().replace(' ', '_').replace('.', '')
+                            character_id_from_site = char_name.lower().replace(
+                                ' ', '_').replace('.', '').replace('-', '_')
 
-                        # Extrair raridade da classe da article (ex: rarity-rarity-5)
                         rarity: Optional[int] = None
                         article_classes: List[str] = char_article_tag.get(
-                            'class', [])
+                            'class', [])  # type: ignore
                         for cls in article_classes:
-                            if 'rarity-rarity-' in cls:
+                            if cls.startswith('rarity-rarity-'):
                                 try:
                                     rarity = int(cls.replace(
                                         'rarity-rarity-', ''))
@@ -110,28 +106,32 @@ def scrape_genshinlab_com(all_backend_characters_map: Dict[str, Any]) -> Optiona
                                 except ValueError:
                                     pass
 
-                        # Extrair constelação (não explicitamente visível por personagem no HTML fornecido, mas é C0 para a main TL)
-                        constellation: str = "C0"  # GenshinLab geralmente foca em C0 para a Tier List principal
+                        constellation: str = "C0"
 
-                        # Papel/Role: Não está direto no card do personagem.
-                        # Podemos inferir pelo contexto ou deixar Unknown.
-                        # Para GenshinLab, a role não está clara no snippet.
-                        # GenshinLab nao tem a role no card.
-                        role: str = "Unknown Role"
+                        # Papel/Role e Elemento: Inicializar e enriquecer do nosso backend
+                        role: str = "Unknown Role"  # Valor padrao inicial
+                        element: str = "Unknown"  # Valor padrao inicial
 
-                        # Elemento: Também não está no card. Precisaremos enriquecer.
-                        element: str = "Unknown"
-
-                        # --- Enriquecer dados com Elemento e Raridade (se não encontrado) do nosso backend ---
                         backend_char_data = all_backend_characters_map.get(
                             character_id_from_site)
                         if backend_char_data:
+                            # CORREÇÃO AQUI: Priorizar o role do backend, se disponivel e nao for lista/desconhecido no site
+                            if isinstance(backend_char_data.get('role'), str) and backend_char_data.get('role') != 'Unknown Role':
+                                # Prioriza role do backend se for string
+                                role = backend_char_data.get('role')
+
                             element = backend_char_data.get('element', element)
-                            # Usar a raridade do nosso backend se nao pegamos do site ou se for mais confiavel
                             rarity = backend_char_data.get('rarity', rarity)
-                            # Se a role nao foi pega, tentar do backend
-                            # Se tiver role no seu data_loader
-                            role = backend_char_data.get('role', role)
+
+                        # Se a role do site for uma lista (como nos exemplos), precisamos lidar com ela.
+                        # Nao extraimos a role do HTML do GenshinLab diretamente, entao ela sera Unknown Role
+                        # ou sera do backend_char_data.
+
+                        # Limpar character_name final
+                        # Remover qualquer indicacao de role que possa ter vindo de alt text ou similares
+                        # Embora ja limpamos " Build", podemos ter "DPS", "Support" etc.
+                        char_name = char_name.replace(' DPS', '').replace(
+                            ' Sub-DPS', '').replace(' Support', '').strip()
 
                         if character_id_from_site is None:
                             print(
@@ -147,7 +147,7 @@ def scrape_genshinlab_com(all_backend_characters_map: Dict[str, Any]) -> Optiona
                             "character_id": character_id_from_site,
                             "character_name": char_name,
                             "tier_level": tier_level,
-                            "role": role,
+                            "role": role,  # Agora sera single string do backend ou Unknown
                             "constellation": constellation,
                             "rarity": rarity,
                             "element": element,
@@ -169,5 +169,3 @@ def scrape_genshinlab_com(all_backend_characters_map: Dict[str, Any]) -> Optiona
     except Exception as e:
         print(f"Erro geral no scraper de genshinlab.com: {e}")
         return None
-
-# Nao ha bloco if __name__ == "__main__" aqui. O orquestrador chamará.
