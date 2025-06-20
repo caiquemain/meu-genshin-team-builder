@@ -2,9 +2,11 @@
 
 Bem-vindo ao Genshin Impact - Assistente de Times e Builds! Este projeto é uma ferramenta web desenvolvida para ajudar jogadores de Genshin Impact a descobrir informações detalhadas sobre personagens, suas builds recomendadas e sugestões de composições de time.
 
-![Badge Exemplo - Projeto em Desenvolvimento](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![Badge Exemplo - React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
-![Badge Exemplo - Flask](https://img.shields.io/badge/Backend-Flask-green?logo=flask)
+![Badge - Projeto em Desenvolvimento](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Badge - React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
+![Badge - Flask](https://img.shields.io/badge/Backend-Flask-green?logo=flask)
+![Badge - Docker](https://img.shields.io/badge/Containerization-Docker-blue?logo=docker)
+
 
 ## ✨ Funcionalidades Principais
 
@@ -25,105 +27,131 @@ Bem-vindo ao Genshin Impact - Assistente de Times e Builds! Este projeto é uma 
     * Navegação intuitiva com um menu de acesso rápido nas páginas de perfil.
     * Design responsivo (assumindo que está sendo trabalhado).
     * Alternador de tema (claro/escuro).
+* **Tier List Consolidada (NOVO!):**
+    * Uma Tier List dinâmica que agrega e calcula uma média de pontuações de personagens de múltiplos sites externos (genshin.gg, game8.co, genshinlab.com).
+    * Visualização clara por tiers (SS, S, A, B, C, D) com cores distintivas.
+    * Cards de personagem com ícones de elemento e um efeito visual de hover baseado na raridade (dourado para 5\*, roxo para 4\*).
+    * **Tooltip interativa** ao passar o mouse sobre o personagem, exibindo:
+        * Função (role), Elemento e Raridade.
+        * **Nota agregada** (calculada pela média das fontes) com a cor correspondente ao seu tier.
+        * Pontuações individuais e tiers de cada site que contribuiu para a consolidação.
 
 ## 🛠️ Tecnologias Utilizadas
 
 * **Frontend:**
-    * React (com Vite) 
-    * JavaScript (JSX) 
-    * CSS 
-    * Axios (para chamadas API) 
-    * React Router (para navegação) 
+    * React (com Vite)
+    * JavaScript (JSX)
+    * CSS (com variáveis CSS para temas)
+    * Axios (para chamadas API)
+    * React Router (para navegação)
 * **Backend:**
-    * Python 
-    * Flask 
+    * Python (Flask)
+    * Flask-SQLAlchemy (ORM para banco de dados)
+    * SQLite (Banco de dados de desenvolvimento/local)
+    * BeautifulSoup4 (para raspagem de dados)
+    * Selenium (para raspagem de sites dinâmicos)
+    * Gunicorn (servidor WSGI para produção)
+    * Flask-CORS (para gerenciar requisições cross-origin)
+    * Flask-Login (para gerenciamento de usuários)
+    * Flask-WTF (para proteção CSRF)
+* **Infraestrutura/Containerização:**
+    * Docker
+    * Docker Compose (para orquestração de múltiplos serviços)
+    * Nginx (como proxy reverso no contêiner frontend)
 * **Dados:**
-    * Arquivos JSON para armazenar informações de personagens, artefatos, armas e times.
+    * Arquivos JSON (`backend/app/character_definitions/`, `backend/app/game_data/`, `backend/app/services/team_data/`).
+    * Dados raspados de Tier Lists externas (`scraped_tier_lists/`).
 
 ## 📂 Estrutura do Projeto
 
 O projeto é organizado da seguinte forma:
 
-- `backend/`                # Aplicação Flask (Python)
-    - `app/`                # Núcleo da aplicação Flask
-        - `character_definitions/`  # Arquivos JSON com dados dos personagens
-        - `game_data/`          # JSONs de artefatos e armas
-        - `services/`           # Lógica de serviços (ex: sugestão de times)
-        - `team_data/`          # Arquivos JSON com dados de times
-        - `data_loader.py`    # Carrega dados dos JSONs
-        - `models.py`         # Modelos de dados (se houver)
-        - `routes.py`         # Definições das rotas da API
-    - `config.py`           # Configurações do Flask
-    - `requirements.txt`    # Dependências Python
-    - `run.py`              # Ponto de entrada para rodar o backend
-- `frontend/`               # Aplicação React (Vite)
-    - `public/`             # Arquivos públicos e assets (imagens)
-    - `src/`                # Código fonte do frontend
-        - `assets/`           # Assets específicos do src
-        - `components/`       # Componentes React reutilizáveis
-        - `contexts/`         # Contextos React (ex: Tema)
-        - `pages/`            # Componentes de página (ex: CharacterProfilePage)
-        - `services/`         # Serviços (ex: chamadas API)
-        - `App.jsx`           # Componente principal da aplicação
-        - `main.jsx`          # Ponto de entrada do React
-        - `index.css`         # Estilos globais
-    - `index.html`          # HTML principal do frontend
-    - `package.json`        # Dependências e scripts do Node.js
-    - `vite.config.js`      # Configuração do Vite
-- `.gitignore`
-- `README.md`               # Este arquivo!
-- `organizaoimagens.ps1`    # Script PowerShell para organização de imagens
-## 🚀 Como Rodar o Projeto
+-   `backend/`                    # Aplicação Flask (Python)
+    -   `app/`                    # Núcleo da aplicação Flask
+        -   `character_definitions/` # Arquivos JSON com dados detalhados dos personagens (inclui Skirk, Dahlia, etc.)
+        -   `game_data/`          # JSONs de artefatos e armas (inclui Finale of the Deep)
+        -   `scrapers/`           # Módulos para raspagem de dados de sites externos (genshin.gg, game8.co, genshinlab.com)
+        -   `services/`           # Lógica de serviços (ex: sugestão de times)
+            -   `team_data/`      # Arquivos JSON com templates de times
+        -   `data_loader.py`      # Carrega dados dos JSONs para memória
+        -   `models.py`           # Modelos de dados do SQLAlchemy (inclui `TierListEntry` com dados consolidados)
+        -   `routes.py`           # Definições das rotas da API (inclui `/api/tierlist`)
+        -   `tierlist_orchestrator.py` # Script para raspar, consolidar e popular o DB da Tier List
+        -   `__init__.py`         # Inicialização da aplicação Flask e extensões
+    -   `config.py`               # Configurações do Flask
+    -   `requirements.txt`        # Dependências Python
+    -   `run.py`                  # Ponto de entrada para rodar o backend Flask
+-   `frontend/`                   # Aplicação React (Vite)
+    -   `public/`                 # Arquivos públicos e assets (imagens: personagens, elementos, raridade, etc.)
+        -   `assets/`
+            -   `images/`
+                -   `characters/` # Imagens de personagens (inclui Skirk, Dahlia)
+                -   `elements/`   # Ícones de elementos
+                -   `rarity/`     # Ícones de raridade (se usados)
+                -   `weapons_detail/` # Imagens de armas (inclui Finale of the Deep)
+    -   `src/`                    # Código fonte do frontend
+        -   `components/`         # Componentes React reutilizáveis (CharacterTooltip, etc.)
+        -   `contexts/`           # Contextos React (Tema, SelectedCharacters)
+        -   `pages/`              # Componentes de página (TierListPage, TeamBuilderPage, CharacterProfilePage, LoginPage)
+        -   `services/`           # Serviços (ex: chamadas API: `tierListService.js`)
+        -   `App.jsx`             # Componente principal da aplicação (define rotas)
+        -   `main.jsx`            # Ponto de entrada do React (renderiza App, envolve com Providers)
+        -   `App.css`             # Estilos globais da aplicação (controle de tema claro/escuro)
+        -   `index.css`           # Estilos CSS de base
+    -   `index.html`              # HTML principal do frontend
+    -   `package.json`            # Dependências e scripts do Node.js
+    -   `vite.config.js`          # Configuração do Vite
+    -   `nginx.conf`              # Configuração do Nginx para proxy reverso (se usado no frontend)
+-   `docker-compose.yml`          # Configuração dos serviços Docker e orquestração
+-   `.gitignore`                  # Arquivos e pastas a serem ignorados pelo Git
+-   `README.md`                   # Este arquivo!
+-   `organizaoimagens.ps1`        # Script PowerShell para organização de imagens (se existir e for relevante)
 
-Para rodar este projeto localmente, siga os passos abaixo:
+## 🚀 Como Rodar o Projeto (Usando Docker Compose)
+
+Para rodar este projeto localmente utilizando Docker Compose (método recomendado), siga os passos abaixo:
 
 ### Pré-requisitos
 
-* Node.js e npm (ou Yarn) instalados
-* Python 3.x e pip instalados
+* Docker Desktop instalado (inclui Docker Engine e Docker Compose).
 
-### Backend
+### Passos de Inicialização
 
-1.  Navegue até a pasta `backend`:
-    ```bash
-    cd backend
-    ```
-2.  Crie e ative um ambiente virtual (recomendado):
-    ```bash
-    python -m venv venv
-    # Windows
-    .\venv\Scripts\activate
-    # macOS/Linux
-    source venv/bin/activate
-    ```
-3.  Instale as dependências Python:
-    ```bash
-    pip install -r requirements.txt
-    ```
-4.  Inicie o servidor Flask:
-    ```bash
-    flask run
-    # Ou python run.py (dependendo de como seu run.py está configurado)
-    ```
-    Por padrão, o backend deverá rodar em `http://127.0.0.1:5000`.
+1.  **Navegue até a raiz do projeto:**
+    Abra seu terminal (CMD, PowerShell, Git Bash) e navegue até o diretório `meu-genshin-team-builder`.
 
-### Frontend
+2.  **Construa as imagens Docker:**
+    Este comando irá construir as imagens Docker para o backend (Python/Flask) e o frontend (Node.js/React) com base nos Dockerfiles e dependências definidas. Pode levar alguns minutos na primeira vez.
+    ```bash
+    docker-compose build
+    ```
+    *Se você tiver problemas de cache ou precisar de uma reconstrução limpa, adicione `--no-cache` ao comando: `docker-compose build --no-cache`.*
 
-1.  Em um novo terminal, navegue até a pasta `frontend`:
+3.  **Inicie os serviços Docker:**
+    Este comando iniciará os contêineres do `backend` (servidor Flask) e do `frontend` (servidor Nginx/Vite para o React) em segundo plano.
     ```bash
-    cd frontend
+    docker-compose up -d
     ```
-2.  Instale as dependências Node.js:
+
+4.  **Popule o Banco de Dados com Dados Consolidados (Tier List):**
+    Após os serviços estarem rodando, execute o orquestrador. Este script irá raspar dados de Tier Lists externas, consolidá-los e salvá-los no banco de dados SQLite do backend. **Este passo é essencial para que a página de Tier List funcione.**
     ```bash
-    npm install
-    # ou yarn install
+    docker-compose exec backend python -m app.tierlist_orchestrator
     ```
-3.  Inicie o servidor de desenvolvimento Vite:
-    ```bash
-    npm run dev
-    # ou yarn dev
-    ```
-    Por padrão, o frontend deverá rodar em `http://localhost:5173` (ou outra porta indicada pelo Vite) e se conectará ao backend.
+    *Acompanhe os logs deste comando. Você verá o progresso da raspagem e da consolidação. Se houver erros como 'AttributeError' ou 'OperationalError' relacionados ao DB, você pode precisar limpar o volume do Docker (`docker-compose down --volumes`) e rodar o orquestrador novamente.*
+
+5.  **Acesse a Aplicação:**
+    Abra seu navegador e acesse:
+    * **Página Principal (Team Builder):** `http://localhost:3000/`
+    * **Página da Tier List:** `http://localhost:3000/tierlist`
+
+## 🐳 Comandos Docker Úteis
+
+* `docker-compose ps`               : Lista os contêineres em execução.
+* `docker-compose logs [service_name]` : Exibe os logs de um serviço (ex: `docker-compose logs backend`).
+* `docker-compose down`             : Para e remove os contêineres e redes.
+* `docker-compose down --volumes`   : Para e remove contêineres, redes E volumes (útil para limpar o banco de dados de desenvolvimento).
+* `docker-compose exec [service_name] [command]` : Executa um comando dentro de um contêiner em execução (ex: `docker-compose exec backend bash` para entrar no shell).
 
 ## 🤝 Como Contribuir
 
@@ -132,16 +160,17 @@ Contribuições são bem-vindas! Se você tem ideias para novas funcionalidades,
 1.  Fazer um Fork do projeto.
 2.  Criar uma nova Branch (`git checkout -b feature/NovaFuncionalidade`).
 3.  Realizar suas alterações.
-4.  Fazer o Commit (`git commit -m 'Adiciona NovaFuncionalidade'`).
+4.  Fazer o Commit (`git commit -m 'feat(nova-funcionalidade): Adiciona Nova Funcionalidade'`).
 5.  Enviar para a Branch (`git push origin feature/NovaFuncionalidade`).
 6.  Abrir um Pull Request.
 
 ### Adicionando/Atualizando Dados
 
-* **Informações de Personagens:** Edite os arquivos JSON correspondentes em `backend/app/character_definitions/`.
-* **Informações de Times:** Edite ou adicione arquivos JSON em `backend/app/team_data/`.
-* **Informações de Artefatos/Armas:** Atualize os arquivos em `backend/app/game_data/`.
-    Certifique-se de manter a estrutura JSON existente.
+* **Informações de Personagens:** Edite os arquivos JSON correspondentes em `backend/app/character_definitions/` (inclua novas imagens em `frontend/public/assets/images/characters/`).
+* **Informações de Times:** Edite ou adicione arquivos JSON em `backend/app/services/team_data/`.
+* **Informações de Artefatos/Armas:** Atualize os arquivos em `backend/app/game_data/` (inclua novas imagens em `frontend/public/assets/images/artifact_sets/` ou `frontend/public/assets/images/weapons_detail/`).
+* Certifique-se de manter a estrutura JSON existente.
+* Após adicionar ou atualizar dados de personagem, artefato ou arma, **lembre-se de rodar o orquestrador** (`docker-compose exec backend python -m app.tierlist_orchestrator`) para que a Tier List seja atualizada no banco de dados.
 
 ## 📜 Referências e Fontes de Dados
 
@@ -149,9 +178,12 @@ As informações de personagens, builds e times são compiladas a partir de dive
 
 * Genshin Impact Wiki (Fandom)
 * KeqingMains (KQM)
+* Genshin.gg (para dados da Tier List)
+* Game8.co (para dados da Tier List)
+* Genshinlab.com (para dados da Tier List)
 * Outras comunidades e guias de jogadores experientes.
 
-Nosso objetivo é fornecer dados precisos e úteis. As fontes específicas utilizadas para cada personagem e suas builds são (ou serão) listadas na seção "Referências" dentro da página de perfil de cada personagem.
+Nosso objetivo é fornecer dados precisos e úteis. As fontes específicas utilizadas para cada personagem e suas builds são listadas na seção "Referências" dentro da página de perfil de cada personagem.
 
 
 Feito com ❤️ para a comunidade Genshin Impact!
