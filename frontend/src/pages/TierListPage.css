@@ -1,0 +1,428 @@
+/* frontend/src/pages/TierListPage.css */
+
+:root {
+    /* Cores gerais do tema */
+    --background-color: #1a1a2e;
+    /* Azul escuro */
+    --card-background-color: #1f4068;
+    /* Azul um pouco mais claro para secções */
+    --character-card-background: #2a2a3e;
+    /* Fundo dos cards de personagem (roxo escuro) */
+    --text-color: #ffffff;
+    /* Cor de texto padrao: BRANCO */
+    --secondary-text-color: #a0a0a0;
+    /* Texto secundário */
+    --primary-color: #e45858;
+    /* Vermelho/rosa para destaque */
+    --primary-color-light: #ff6b6b;
+    /* Mais claro */
+    --border-color: #4a5d7c;
+    /* Cor da borda */
+    --rarity-5-color-border: gold;
+    /* Borda 5 estrelas */
+    --rarity-4-color-border: #8a2be2;
+    /* Borda 4 estrelas */
+
+    /* Cores Tooltip (REMOVIDAS DAQUI E MOVIDAS PARA APP.CSS) */
+    /* REMOVER: --tooltip-background: rgba(0, 0, 0, 0.9); */
+    /* REMOVER: --tooltip-border: #FFD700; */
+    --tooltip-text-color: #ffffff;
+    /* Esta ainda pode ficar, ou ser controlada globalmente */
+    --tooltip-source-color: #a0a0a0;
+    --tooltip-score-color-ss: #FFD700;
+    --tooltip-score-color-s: #FF4500;
+    --tooltip-score-color-a: #8A2BE2;
+    --tooltip-score-color-b: #1E90FF;
+    --tooltip-score-color-c: #3CB371;
+    --tooltip-score-color-d: #ff0080;
+
+    /* Cores de hover para raridades */
+    --card-hover-5star-background: #4f4100;
+    /* Dourado escuro para hover 5* */
+    --card-hover-4star-background: #5a3a8a;
+    /* Roxo escuro para hover 4* */
+    --card-hover-default-background: #3a6fa8;
+    /* Azul escuro para hover padrao, se necessário */
+}
+
+/* Base Container */
+.tierlist-page-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: var(--text-color);
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    min-height: 100vh;
+}
+
+.tierlist-page-container h1 {
+    text-align: center;
+    color: var(--text-color);
+    /* NOME DO PERSONAGEM: BRANCO */
+    margin-bottom: 30px;
+    font-size: 2.8em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.tierlist-description {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 40px;
+    color: var(--secondary-text-color);
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Tier Sections */
+.tier-section {
+    background-color: var(--card-background-color);
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 35px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--border-color);
+}
+
+.tier-level-title {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Cores específicas para cada Tier (ajustadas para o novo fundo) */
+.tier-ss .tier-level-title {
+    color: #FFD700;
+    border-color: #FFD700;
+}
+
+.tier-s .tier-level-title {
+    color: #FF4500;
+    border-color: #C0C0C0;
+}
+
+.tier-a .tier-level-title {
+    color: #8A2BE2;
+    border-color: #8A2BE2;
+}
+
+.tier-b .tier-level-title {
+    color: #1E90FF;
+    border-color: #1E90FF;
+}
+
+.tier-c .tier-level-title {
+    color: #3CB371;
+    border-color: #3CB371;
+}
+
+.tier-d .tier-level-title {
+    color: #FF4500;
+    border-color: #FF4500;
+}
+
+/* Grid de Personagens */
+.tier-characters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Card Individual do Personagem */
+.tier-character-card {
+    background-color: var(--character-card-background);
+    /* Fundo roxo escuro para card */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    position: relative;
+    /* CRÍTICO para a tooltip e ícones */
+    overflow: visible;
+    /* CRÍTICO para a tooltip não ser cortada */
+    border: 2px solid var(--border-color);
+    /* Borda padrão, sem cor de raridade aqui */
+}
+
+/* Efeito de Hover: Cor DOURADA para 5* e ROXA para 4* */
+.tier-character-card.rarity-5:hover {
+    background-color: var(--card-hover-5star-background);
+    /* Dourado escuro para hover 5* */
+}
+
+.tier-character-card.rarity-4:hover {
+    background-color: var(--card-hover-4star-background);
+    /* Roxo escuro para hover 4* */
+}
+
+/* Se não for 5* ou 4*, usa a cor padrão de hover (se houver, ou pode ser transparente) */
+.tier-character-card:not(.rarity-5):not(.rarity-4):hover {
+    background-color: var(--card-hover-default-background);
+    /* Azul escuro para hover padrao, se necessário */
+}
+
+
+.card-header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tier-character-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 8px;
+    border: 2px solid var(--border-color);
+    /* Borda ao redor da imagem */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Ícone de Raridade (Estrelas) - REMOVIDO DA PÁGINA JSX, ESTE CSS NÃO SERÁ USADO */
+.tier-character-rarity-icon {
+    display: none;
+    /* Garante que não apareça */
+}
+
+/* Ícone de Elemento */
+.tier-character-element-icon {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+.card-body {
+    width: 100%;
+    text-align: center;
+}
+
+.character-name {
+    font-size: 1.15em;
+    font-weight: bold;
+    color: var(--text-color);
+    /* Cor do texto do nome: BRANCO */
+    margin-bottom: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Estilos para a Role e Elemento (Visíveis, mas compactos) */
+.character-role {
+    display: none;
+    /* <-- AGORA APENAS A ROLE ESTÁ ESCONDIDA */
+}
+
+.character-element {
+    display: none;
+    font-size: 0.8em;
+    /* Fonte menor */
+    color: var(--secondary-text-color);
+    margin: 0;
+    /* Remove margem para compactar */
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    /* Limita a 1 linha para manter a compactação */
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    line-clamp: 1;
+}
+
+
+/* Mensagens de estado */
+.tierlist-loading,
+.tierlist-error,
+.no-data-message {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    color: var(--secondary-text-color);
+}
+
+.tierlist-error {
+    color: var(--error-color);
+    font-weight: bold;
+}
+
+.no-data-message {
+    font-style: italic;
+}
+
+/* --- ESTILOS TOOLTIP (Corrigidos para visibilidade e posicionamento) --- */
+.tier-character-card .custom-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background-color: var(--tooltip-background);
+    /* AGORA VEM DE APP.CSS */
+    border: 1px solid var(--tooltip-border-color);
+    /* AGORA VEM DE APP.CSS (use o nome correto da variavel) */
+    border-radius: 8px;
+    padding: 10px;
+    z-index: 100;
+    white-space: normal;
+    font-size: 0.9em;
+    color: var(--tooltip-text);
+    /* AGORA VEM DE APP.CSS (use o nome correto da variavel) */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    pointer-events: none;
+    width: 200px;
+    text-align: left;
+}
+
+.tier-character-card:hover .custom-tooltip {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+}
+
+/* Seta da Tooltip */
+.custom-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 8px;
+    border-style: solid;
+    border-color: var(--tooltip-background) transparent transparent transparent;
+    z-index: 101;
+}
+
+.custom-tooltip .tooltip-header {
+    font-weight: bold;
+    color: var(--primary-color-light);
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed var(--border-color);
+}
+
+.custom-tooltip .tooltip-info {
+    font-size: 0.85em;
+    margin-bottom: 5px;
+    white-space: normal;
+}
+
+
+.custom-tooltip .tooltip-section-title {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+.custom-tooltip .tooltip-site-score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0;
+}
+
+.custom-tooltip .tooltip-site-score span:first-child {
+    color: var(--tooltip-source-color);
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.custom-tooltip .tooltip-site-score span:last-child {
+    font-weight: bold;
+}
+
+/* Cores para o score na tooltip */
+.custom-tooltip .tooltip-site-score .score-SS {
+    color: var(--tooltip-score-color-ss);
+}
+
+.custom-tooltip .tooltip-site-score .score-S {
+    color: var(--tooltip-score-color-s);
+}
+
+.custom-tooltip .tooltip-site-score .score-A {
+    color: var(--tooltip-score-color-a);
+}
+
+.custom-tooltip .tooltip-site-score .score-B {
+    color: var(--tooltip-score-color-b);
+}
+
+.custom-tooltip .tooltip-site-score .score-C {
+    color: var(--tooltip-score-color-c);
+}
+
+.custom-tooltip .tooltip-site-score .score-D {
+    color: var(--tooltip-score-color-d);
+}
+
+.custom-tooltip .tooltip-site-score span:last-child,
+/* para scores individuais */
+.custom-tooltip .tooltip-info .score-SS,
+/* para a nota agregada */
+.custom-tooltip .tooltip-info .score-S,
+.custom-tooltip .tooltip-info .score-A,
+.custom-tooltip .tooltip-info .score-B,
+.custom-tooltip .tooltip-info .score-C,
+.custom-tooltip .tooltip-info .score-D {
+    font-weight: bold;
+    /* Adicionar !important para garantir que a cor seja aplicada */
+    color: var(--tooltip-text-color) !important;
+    /* Volta para a cor do texto padrão da tooltip */
+}
+
+.custom-tooltip .tooltip-site-score .score-SS,
+.custom-tooltip .tooltip-info .score-SS {
+    color: var(--tooltip-score-color-ss) !important;
+}
+
+.custom-tooltip .tooltip-site-score .score-S,
+.custom-tooltip .tooltip-info .score-S {
+    color: var(--tooltip-score-color-s) !important;
+}
+
+/* AGORA VERMELHO */
+.custom-tooltip .tooltip-site-score .score-A,
+.custom-tooltip .tooltip-info .score-A {
+    color: var(--tooltip-score-color-a) !important;
+}
+
+.custom-tooltip .tooltip-site-score .score-B,
+.custom-tooltip .tooltip-info .score-B {
+    color: var(--tooltip-score-color-b) !important;
+}
+
+.custom-tooltip .tooltip-site-score .score-C,
+.custom-tooltip .tooltip-info .score-C {
+    color: var(--tooltip-score-color-c) !important;
+}
+
+.custom-tooltip .tooltip-site-score .score-D,
+.custom-tooltip .tooltip-info .score-D {
+    color: var(--tooltip-score-color-d) !important;
+}

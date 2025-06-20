@@ -1,0 +1,375 @@
+{
+    "id": "skirk",
+    "name": "Skirk",
+    "title": "Astro do Vazio",
+    "element": "Cryo",
+    "rarity": 5,
+    "weapon": "Sword",
+    "model_type": "Medium Female",
+    "role": [
+        "On-Field DPS",
+        "Burst DPS"
+    ],
+    "description_bio": "Uma misteriosa espadachim vinda de além dos céus, Skirk foi a mestra de Tartaglia durante o tempo dele no Abismo. Ela é uma guerreira formidável que comanda tanto o poder do gelo quanto as energias enigmáticas do vazio. ",
+    "birthday": "5 de Novembro",
+    "constellation_name_official": "Crystallina",
+    "region": "Desconhecida (Abismo)",
+    "affiliation": [
+        "Calamidade Cósmica"
+    ],
+    "special_dish": {
+        "name": "Abyssal Bounty",
+        "icon_url": "/assets/images/dishes/skirk_abyssal_bounty.webp"
+    },
+    "namecard_url": "/assets/images/namecards/skirk_lone_shadow.png",
+    "icon_url": "/assets/images/characters/skirk.png",
+    "element_icon_url": "/assets/images/elements/element_cryo.png",
+    "updated_date": "2025-06-19",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Skirk Quick Guide",
+                "url": "https://keqingmains.com/q/skirk-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Skirk",
+                "url": "https://genshin-impact.fandom.com/wiki/Skirk"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Skirk",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Skirk"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "skirk_freeze_dps",
+            "name": "DPS de Congelamento (Herói Invernal)",
+            "notes_build": "Focada em maximizar o dano Cryo pessoal de Skirk em times de Congelamento. O conjunto Herói Invernal é a melhor opção para aumentar sua Taxa CRIT consistentemente.",
+            "artifacts": [
+                {
+                    "set_id": "blizzard_strayer",
+                    "set_name": "Herói Invernal",
+                    "pieces": 4,
+                    "notes": "Seu melhor conjunto (BiS) em times de Congelamento, fornecendo uma quantidade massiva de Taxa CRIT.",
+                    "icon_url": "/assets/images/artifact_sets/blizzard_strayer.png"
+                },
+                {
+                    "set_id": "marechaussee_hunter",
+                    "set_name": "Caçador das Sombras Marechaussee",
+                    "pieces": 4,
+                    "notes": "Uma alternativa forte, especialmente com Furina, mas pode resultar em excesso de Taxa CRIT se não balanceado.",
+                    "icon_url": "/assets/images/artifact_sets/marechaussee_hunter.png"
+                },
+                {
+                    "set_id": "gladiators_finale",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p Herói Invernal para uma opção mais geral e fácil de obter com bons substatus.",
+                    "icon_url": "/assets/images/artifact_sets/gladiators_finale.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "ATQ%",
+                "goblet": "Bônus de Dano Cryo%",
+                "circlet": "Dano CRIT% / ATQ%"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito, ~130-150%)",
+                "Dano CRIT%",
+                "ATQ%",
+                "Taxa CRIT% (até ~45%)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "absolution",
+                    "name": "Absolvição",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Assinatura)",
+                    "notes": "Sua melhor arma (BiS). Fornece alto Dano CRIT e aumenta o dano com base na mecânica de Contrato de Vida.",
+                    "icon_url": "/assets/images/weapons_detail/absolution.png"
+                },
+                {
+                    "weapon_id": "mistsplitter_reforged",
+                    "name": "Cortadora da Neblina Reforjada",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Opção forte com Dano CRIT e Bônus de Dano Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/mistsplitter_reforged.png"
+                },
+                {
+                    "weapon_id": "primordial_jade_cutter",
+                    "name": "Cortadora de Jade Primordial",
+                    "rarity": 5,
+                    "type": "Sword",
+                    "category": "Gacha (Limitado)",
+                    "notes": "Fornece alta Taxa CRIT e aumenta a Vida, que é convertida em ATQ.",
+                    "icon_url": "/assets/images/weapons_detail/primordial_jade_cutter.png"
+                },
+                {
+                    "weapon_id": "wolf_fang",
+                    "name": "Presa do Lobo",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Passe de Batalha",
+                    "notes": "Excelente opção 4★ do Passe de Batalha, com Taxa CRIT e aumento de dano para Habilidade e Supremo.",
+                    "icon_url": "/assets/images/weapons_detail/wolf_fang.png"
+                },
+                {
+                    "weapon_id": "finale_of_the_deep",
+                    "name": "Finale of the Deep (Final das Profundezas)",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Forja (Fontaine)",
+                    "notes": "Sua melhor arma F2P. Oferece ATQ% e um buff de ATQ adicional através da mecânica de Contrato de Vida. Detalhes completos desta arma precisam ser adicionados ao banco de dados.",
+                    "icon_url": "/assets/images/weapons_detail/finale_of_the_deep.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2381,
+            "base_atk": 68,
+            "base_def": 147,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "5.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4603,
+            "base_atk": 132,
+            "base_def": 285,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "5.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5862,
+            "base_atk": 168,
+            "base_def": 363,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "9.8%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 7280,
+            "base_atk": 209,
+            "base_def": 451,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "14.6%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8539,
+            "base_atk": 245,
+            "base_def": 529,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "14.6%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9799,
+            "base_atk": 281,
+            "base_def": 608,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "19.4%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 11394,
+            "base_atk": 327,
+            "base_def": 708,
+            "bonus_stat_label": "Taxa CRIT%",
+            "bonus_stat_value": "24.2%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Negação e Julgamento",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/denial_and_judgment.webp"
+        },
+        {
+            "name": "Lasca de Jade Shivada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/shivada_jade_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Jade Shivada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/shivada_jade_chunk.webp"
+        },
+        {
+            "name": "Gema de Jade Shivada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/shivada_jade_gemstone.webp"
+        },
+        {
+            "name": "Marca da Bênção Vinculante",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/mark_of_the_binding_blessing.webp"
+        },
+        {
+            "name": "Secreção de Slime",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/slime_condensate.webp"
+        },
+        {
+            "name": "Resina de Slime",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/slime_secretions.webp"
+        },
+        {
+            "name": "Essência de Slime",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/slime_concentrate.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Fulminação Estelar (Stellar Fulmination)",
+            "icon_url": "/assets/images/talents/skirk/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes de espada rápidos. No estado 'Augúrio Abissal', os Ataques Normais são convertidos em 'Golpes do Vazio', causando Dano Cryo.\nAtaque Carregado: Consome Stamina para desferir 2 golpes rápidos com a espada.\nAtaque Imersivo: Mergulha para atingir o chão, causando Dano Cryo em AdE no impacto."
+        },
+        "elemental_skill": {
+            "name": "Calamidade de Eshu (Calamity of Eshu)",
+            "icon_url": "/assets/images/talents/skirk/talent_elemental_skill.webp",
+            "description": "Pressionar: Skirk avança, causando Dano Cryo e entrando no estado 'Augúrio Abissal'.\nManter Pressionado: Skirk recua e cria uma 'Fenda do Vazio'.\nAugúrio Abissal: Os Ataques Normais são convertidos para Dano Cryo e aumentam sua AdE. A RES à Interrupção de Skirk é aumentada.\nFenda do Vazio: Causa Dano Cryo em AdE periodicamente e concede um escudo baseado na Vida Máx. de Skirk."
+        },
+        "elemental_burst": {
+            "name": "Aniquilação Abissal (Abyssal Annihilation)",
+            "icon_url": "/assets/images/talents/skirk/talent_elemental_burst.webp",
+            "description": "Skirk libera uma explosão devastadora de poder do vazio, causando Dano Cryo massivo em AdE. Após o golpe inicial, um campo de 'Gelo Estilhaçado' é deixado no chão, causando Dano Cryo periódico aos inimigos dentro dele."
+        },
+        "passives": [
+            {
+                "name": "Observadora do Vazio (Void Gazer)",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/skirk/talent_passive_a1.webp",
+                "description": "Quando Skirk está no estado 'Augúrio Abissal', o Dano de seus Ataques Normais aumenta com base em seu ATQ Máx. a cada segundo, até um limite."
+            },
+            {
+                "name": "Estilhaçadora de Estrelas (Star Shatterer)",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/skirk/talent_passive_a4.webp",
+                "description": "A 'Fenda do Vazio' da Habilidade Elemental (Manter Pressionado) também reduz a RES Cryo dos inimigos próximos."
+            },
+            {
+                "name": "Mestra do Abismo (Master of the Abyss)",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/skirk/talent_passive_utility.webp",
+                "description": "Quando despachada em uma Expedição em qualquer região, o tempo necessário é reduzido em 25%."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Secreção de Slime",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/slime_condensate.webp"
+        },
+        {
+            "name": "Resina de Slime",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/slime_secretions.webp"
+        },
+        {
+            "name": "Essência de Slime",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/slime_concentrate.webp"
+        },
+        {
+            "name": "Ensinamentos do Conflito",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_conflict.webp"
+        },
+        {
+            "name": "Guia do Conflito",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_conflict.webp"
+        },
+        {
+            "name": "Filosofia do Conflito",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_conflict.webp"
+        },
+        {
+            "name": "Olhar Envolvente",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/ensnaring_gaze.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Convergência Estelar (Stellar Convergence)",
+            "icon_url": "/assets/images/constellations/skirk/constellation_1.webp",
+            "description": "Quando Skirk ativa Calamidade de Eshu (Habilidade Elemental), ela ganha 1 carga adicional de seu avanço."
+        },
+        {
+            "level": 2,
+            "name": "Retribuição Celestial (Celestial Retribution)",
+            "icon_url": "/assets/images/constellations/skirk/constellation_2.webp",
+            "description": "Os Golpes do Vazio de Skirk (Ataques Normais no estado Augúrio Abissal) têm seu Dano CRIT aumentado em 30%."
+        },
+        {
+            "level": 3,
+            "name": "Devastação Cósmica (Cosmic Devastation)",
+            "icon_url": "/assets/images/constellations/skirk/constellation_3.webp",
+            "description": "Aumenta o nível de Aniquilação Abissal (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Domínio Abissal (Abyssal Dominion)",
+            "icon_url": "/assets/images/constellations/skirk/constellation_4.webp",
+            "description": "O campo de 'Gelo Estilhaçado' do Supremo dura 4s a mais e sua AdE é aumentada."
+        },
+        {
+            "level": 5,
+            "name": "Julgamento Galáctico (Galactic Judgment)",
+            "icon_url": "/assets/images/constellations/skirk/constellation_5.webp",
+            "description": "Aumenta o nível de Calamidade de Eshu (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Brilho da Estrela do Vazio (Void Star's Radiance)",
+            "icon_url": "/assets/images/constellations/skirk/constellation_6.webp",
+            "description": "Quando Aniquilação Abissal (Supremo) atinge um inimigo, o TdR de Calamidade de Eshu (Habilidade Elemental) é reduzido em 50%."
+        }
+    ]
+}

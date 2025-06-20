@@ -1,0 +1,83 @@
+[
+    {
+        "id": "dahlia_neuvillette_furina_xilonen",
+        "name": "Dahlia - Suporte para Neuvillette (Furina, Xilonen)",
+        "strategy": "Dahlia fornece um escudo e buff de Velocidade de ATQ para Neuvillette. Furina aumenta o dano geral da equipe. Xilonen fornece buffs adicionais e cura, ajudando a maximizar os acúmulos de Fanfarra de Furina. ",
+        "characters_in_team": [
+            {
+                "character_id": "dahlia",
+                "role_in_team": "Suporte (Escudo/Buffer Vel. ATQ)",
+                "build_key": "dahlia_support_shielder"
+            },
+            {
+                "character_id": "neuvillette",
+                "role_in_team": "Main DPS Hydro",
+                "build_key": "neuvillette_onfield_dps_marechaussee"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            },
+            {
+                "character_id": "xilonen",
+                "role_in_team": "Suporte Geo (Healer/Buffer)",
+                "build_key": "xilonen_support_healer_scroll_petra"
+            }
+        ]
+    },
+    {
+        "id": "dahlia_skirk_furina_escoffier",
+        "name": "Dahlia - Suporte para Skirk (Furina, Escoffier)",
+        "strategy": "O escudo de Dahlia permite que Skirk ative passivas de armas e evite interrupções. O buff de Velocidade de ATQ de Dahlia também permite que Skirk execute mais ataques. Furina e Escoffier completam o núcleo de suporte para maximizar o dano de Skirk. ",
+        "characters_in_team": [
+            {
+                "character_id": "dahlia",
+                "role_in_team": "Suporte (Escudo/Buffer Vel. ATQ)",
+                "build_key": "dahlia_support_shielder"
+            },
+            {
+                "character_id": "skirk",
+                "role_in_team": "Main DPS Cryo",
+                "build_key": "skirk_freeze_dps"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            },
+            {
+                "character_id": "escoffier",
+                "role_in_team": "Suporte Cryo (Healer/Buffer)",
+                "build_key": "escoffier_cryo_support_noblesse_favonius"
+            }
+        ]
+    },
+    {
+        "id": "dahlia_yoimiya_yelan_bennett",
+        "name": "Dahlia - Suporte para Yoimiya (Yelan, Bennett)",
+        "strategy": "Dahlia fornece um escudo crucial para Yoimiya, permitindo que ela complete sua sequência de Ataques Normais sem interrupção. O buff de Velocidade de ATQ também é bem-vindo. Yelan fornece dano Hydro off-field e Bennett buffa o ATQ. ",
+        "characters_in_team": [
+            {
+                "character_id": "dahlia",
+                "role_in_team": "Suporte (Escudo/Buffer Vel. ATQ)",
+                "build_key": "dahlia_support_shielder"
+            },
+            {
+                "character_id": "yoimiya",
+                "role_in_team": "Main DPS Pyro (Ataque Normal)",
+                "build_key": "yoimiya_pyro_dps_shimenawa_rust"
+            },
+            {
+                "character_id": "yelan",
+                "role_in_team": "Sub-DPS Hydro (Off-field/DMG Buff)",
+                "build_key": "yelan_off_field_hydro_support_emblem_favonius"
+            },
+            {
+                "character_id": "bennett",
+                "role_in_team": "Suporte (ATK Buffer/Healer)",
+                "build_key": "bennett_support_noblesse_er_highbaseatk"
+            }
+        ]
+    }
+]

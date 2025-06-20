@@ -2,16 +2,13 @@
 from flask import Blueprint, jsonify, request, abort
 from flask_login import login_user, logout_user, login_required, current_user
 from functools import wraps
-from flask import current_app
 
 from . import db
-from . import csrf_protect  # <-- IMPORTADO: A instância CSRF do Flask-WTF
-from flask_wtf.csrf import generate_csrf  # <-- NOVO IMPORT para gerar o token
+from . import csrf_protect
+from flask_wtf.csrf import generate_csrf
 
-# Importe os modelos User e OwnedCharacter
-from .models import User, OwnedCharacter
+from .models import User, OwnedCharacter, TierListEntry  # Importar TierListEntry
 
-# Importar as funções necessárias do data_loader
 from .data_loader import (
     get_all_characters_list,
     get_all_characters_map,
@@ -29,7 +26,7 @@ bp = Blueprint('api', __name__, url_prefix='/api')
 def role_required(role):
     def decorator(f):
         @wraps(f)
-        @login_required  # Garante que o usuário esteja logado primeiro
+        @login_required
         def decorated_function(*args, **kwargs):
             if not current_user.is_authenticated or not current_user.has_role(role):
                 return jsonify({"message": f"Acesso negado. Requer papel: {role}."}), 403
@@ -41,7 +38,7 @@ def role_required(role):
 
 
 @bp.route('/register', methods=['POST'])
-@csrf_protect.exempt  # Exclui esta rota da proteção CSRF, pois é pública
+@csrf_protect.exempt
 def register():
     data = request.get_json()
     username = data.get('username')
@@ -54,23 +51,17 @@ def register():
         return jsonify({"message": "O nome de usuário deve ter entre 3 e 20 caracteres."}), 400
     if len(password) < 8:
         return jsonify({"message": "A senha deve ter no mínimo 8 caracteres."}), 400
-    if not isinstance(data, dict):
-        current_app.logger.warning(
-            f"Tentativa de registro com formato de requisição inválido de IP: {request.remote_addr}")
-        return jsonify({"message": "Formato de requisição inválido. Esperado um objeto JSON."}), 400
 
     existing_user = User.query.filter_by(username=username).first()
     if existing_user:
         return jsonify({"message": "Usuário já existe"}), 409
 
-    new_user = User(username=username)
+    new_user = User(username=username)  # type: ignore
     new_user.set_password(password)
     new_user.role = 'user'
     db.session.add(new_user)
     db.session.commit()
 
-    current_app.logger.info(
-        f"Novo usuário registrado com sucesso: {username} (ID: {new_user.id}) de IP: {request.remote_addr}")
     return jsonify({"message": "Usuário registrado com sucesso!"}), 201
 
 
@@ -78,30 +69,15 @@ def register():
 @csrf_protect.exempt
 def login():
     data = request.get_json()
-
-    if not isinstance(data, dict):
-        current_app.logger.warning(
-            f"Tentativa de login com formato de requisição inválido de IP: {request.remote_addr}")
-        return jsonify({"message": "Formato de requisição inválido. Esperado um objeto JSON."}), 400
-
     username = data.get('username')
     password = data.get('password')
-
-    if not username or not password:
-        current_app.logger.warning(
-            f"Tentativa de login com credenciais incompletas de IP: {request.remote_addr}")
-        return jsonify({"message": "Usuário e senha são obrigatórios"}), 400
 
     user = User.query.filter_by(username=username).first()
 
     if user and user.check_password(password):
         login_user(user)
-        current_app.logger.info(
-            f"Login bem-sucedido: Usuário '{username}' (ID: {user.id}, Papel: {user.role}) de IP: {request.remote_addr}")
         return jsonify({"message": f"Login bem-sucedido! Bem-vindo, {user.username}.", "role": user.role}), 200
     else:
-        current_app.logger.warning(
-            f"Tentativa de login falha para usuário '{username}' de IP: {request.remote_addr}")
         return jsonify({"message": "Credenciais inválidas"}), 401
 
 
@@ -120,18 +96,14 @@ def admin_only_route():
 @bp.route('/logout', methods=['POST'])
 @login_required
 def logout():
-    user_id = current_user.id  # Capture o ID antes do logout
-    username = current_user.username
     logout_user()
-    current_app.logger.info(
-        f"Logout bem-sucedido: Usuário '{username}' (ID: {user_id}) de IP: {request.remote_addr}")
     return jsonify({"message": "Logout bem-sucedido!"})
 
 
 @bp.route('/csrf-token', methods=['GET'])
-# @login_required  # Esta rota pode ser acessível sem login se quiser proteger formulários públicos que não exigem login
+@login_required
 def get_csrf_token():
-    return jsonify({'csrf_token': generate_csrf()})  # Gera o token CSRF
+    return jsonify({'csrf_token': generate_csrf()})
 
 # --- ROTAS PARA GERENCIAMENTO DE PERSONAGENS POSSUÍDOS ---
 
@@ -150,10 +122,8 @@ def update_owned_characters():
     data = request.get_json()
     owned_character_ids_from_request = data.get('character_ids', [])
 
-    if not isinstance(data, dict):
-        current_app.logger.warning(
-            f"Usuário {current_user.username} (ID: {current_user.id}) tentou atualizar personagens com formato de requisição inválido de IP: {request.remote_addr}")
-        return jsonify({"error": "Formato de requisição inválido. Esperado um objeto JSON."}), 400
+    if not isinstance(owned_character_ids_from_request, list):
+        return jsonify({"error": "A entrada deve ser uma lista de IDs de personagens."}), 400
 
     all_valid_character_ids = set(get_all_characters_map().keys())
     for char_id in owned_character_ids_from_request:
@@ -164,16 +134,12 @@ def update_owned_characters():
 
     for oc in current_user.owned_characters_association:
         db.session.delete(oc)
-
     db.session.commit()
-    current_app.logger.info(
-        f"Usuário {current_user.username} (ID: {current_user.id}) atualizou {len(new_owned_characters)} personagens possuídos: {new_owned_characters} de IP: {request.remote_addr}")
-    return jsonify({"message": "Personagens possuídos atualizados com sucesso.", "owned_characters": new_owned_characters}), 200
 
     new_owned_characters = []
     for char_id in owned_character_ids_from_request:
         new_owned_char = OwnedCharacter(
-            user_id=current_user.id, character_id=char_id)
+            user_id=current_user.id, character_id=char_id)  # type: ignore
         db.session.add(new_owned_char)
         new_owned_characters.append(char_id)
 
@@ -311,3 +277,30 @@ def suggest_team_route():
         owned_character_ids_set, all_characters_info_list_for_suggester
     )
     return jsonify(suggested_teams)
+
+# --- ROTA PARA OBTER A TIER LIST CONSOLIDADA ---
+# Importe o modelo TierListEntry no topo do routes.py: from .models import User, OwnedCharacter, TierListEntry
+
+
+@bp.route('/tierlist', methods=['GET'])
+def get_tier_list_route():
+    try:
+        tier_list_entries = TierListEntry.query.all()
+        tier_list_data = []
+        for entry in tier_list_entries:
+            tier_list_data.append({
+                "character_id": entry.character_id,
+                "character_name": entry.character_name,
+                "tier_level": entry.tier_level,
+                "role": entry.role,
+                "constellation": entry.constellation,
+                "rarity": entry.rarity,
+                "element": entry.element,
+                "average_numeric_tier": entry.average_numeric_tier,  # <-- ADICIONADO
+                "sources_contributing": entry.sources_contributing,  # <-- ADICIONADO
+                "original_scores_by_site": entry.original_scores_by_site  # <-- ADICIONADO
+            })
+        return jsonify(tier_list_data), 200
+    except Exception as e:
+        print(f"ERRO ao buscar tierlist do DB: {e}")
+        return jsonify({"error": "Não foi possível carregar a Tier List no momento."}), 500

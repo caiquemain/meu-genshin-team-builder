@@ -2,7 +2,8 @@
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
 from . import db
-from typing import Optional  # <-- Importe Optional para type hints
+from typing import Dict, Optional  # <-- Importe Optional para type hints
+import json  # <-- Importar json para serializacao/deserializacao
 
 
 class User(db.Model, UserMixin):
@@ -40,25 +41,47 @@ class OwnedCharacter(db.Model):
 # TierListEntry para armazenar os dados raspados da Tier List
 
 
+# TierListEntry para armazenar os dados raspados da Tier List
 class TierListEntry(db.Model):
     character_id = db.Column(db.String(50), primary_key=True, unique=True)
-    # <-- NOVO: Nome do Personagem
     character_name = db.Column(db.String(100), nullable=False)
     tier_level = db.Column(db.String(10), nullable=False)
-    role = db.Column(db.String(50), nullable=False)
+    # Aumentar o tamanho para strings longas de roles
+    role = db.Column(db.String(255), nullable=False)
     constellation = db.Column(db.String(10))
     rarity = db.Column(db.Integer)
     element = db.Column(db.String(20), nullable=False)
+    # NOVO: Colunas para armazenar a nota agregada e a contagem de fontes
+    average_numeric_tier = db.Column(db.Float)  # Float para a media
+    sources_contributing = db.Column(db.Integer)  # Integer para a contagem
+    # Coluna para armazenar original_scores_by_site como JSON string
+    original_scores_by_site_json = db.Column(db.Text)
 
+    # MÉTODO __init__ explícito com Type Hints para satisfazer o Pylance
     def __init__(self, character_id: str, character_name: str, tier_level: str, role: str,
-                 constellation: Optional[str] = None, rarity: Optional[int] = None, element: Optional[str] = None):
+                 constellation: Optional[str] = None, rarity: Optional[int] = None, element: Optional[str] = None,
+                 # NOVO ARGUMENTO
+                 average_numeric_tier: Optional[float] = None,
+                 sources_contributing: Optional[int] = None,  # NOVO ARGUMENTO
+                 original_scores_by_site: Optional[Dict[str, str]] = None):
         self.character_id = character_id
-        self.character_name = character_name  # Atribuir o nome
+        self.character_name = character_name
         self.tier_level = tier_level
         self.role = role
         self.constellation = constellation
         self.rarity = rarity
         self.element = element
+        self.average_numeric_tier = average_numeric_tier  # ATRIBUIR
+        self.sources_contributing = sources_contributing  # ATRIBUIR
+        self.original_scores_by_site_json = json.dumps(
+            original_scores_by_site) if original_scores_by_site else "{}"
+
+    # Propriedade para acessar o dicionário de scores (deserializa o JSON)
+    @property
+    def original_scores_by_site(self) -> Dict[str, str]:
+        if self.original_scores_by_site_json:
+            return json.loads(self.original_scores_by_site_json)
+        return {}
 
     def __repr__(self):
         return f"<TierListEntry {self.character_name} ({self.character_id}) - Tier: {self.tier_level} - Role: {self.role}>"

@@ -1,0 +1,357 @@
+{
+    "id": "dahlia",
+    "name": "Dahlia",
+    "title": "Diácono da Ode Divina",
+    "element": "Hydro",
+    "rarity": 4,
+    "weapon": "Sword",
+    "model_type": "Medium Male",
+    "role": [
+        "Support",
+        "Shielder",
+        "Buffer"
+    ],
+    "description_bio": "Dahlia é um diácono da Igreja de Favonius, conhecido por sua devoção e por fornecer escudos e buffs para seus companheiros. Sua fé inabalável se manifesta como um escudo protetor e bênçãos que fortalecem seus aliados em batalha.",
+    "birthday": "25 de Maio",
+    "constellation_name_official": "Cantus Choralis",
+    "region": "Mondstadt",
+    "affiliation": [
+        "Igreja de Favonius"
+    ],
+    "special_dish": {
+        "name": "Chatter of Joyful Nights",
+        "icon_url": "/assets/images/dishes/dahlia_chatter_of_joyful_nights.webp"
+    },
+    "namecard_url": "/assets/images/namecards/dahlia_sacred_duty.png",
+    "icon_url": "/assets/images/characters/dahlia.png",
+    "element_icon_url": "/assets/images/elements/element_hydro.png",
+    "updated_date": "2025-06-19",
+    "info_references": {
+        "character_details_sources": [
+            {
+                "name": "KQM Dahlia Quick Guide",
+                "url": "https://keqingmains.com/q/dahlia-quickguide/"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom EN) - Dahlia",
+                "url": "https://genshin-impact.fandom.com/wiki/Dahlia"
+            },
+            {
+                "name": "Genshin Impact Wiki (Fandom PT-BR) - Dahlia",
+                "url": "https://genshin-impact.fandom.com/pt-br/wiki/Dahlia"
+            }
+        ]
+    },
+    "build_options": [
+        {
+            "key": "dahlia_support_shielder",
+            "name": "Suporte de Escudo / Buffer",
+            "notes_build": "Foco em maximizar a força de seu escudo (que escala com Vida) e manter seu Supremo ativo para fornecer buffs de Velocidade de ATQ para a equipe. Requer alta Recarga de Energia.",
+            "artifacts": [
+                {
+                    "set_id": "noblesse_oblige",
+                    "set_name": "Antigo Ritual Real",
+                    "pieces": 4,
+                    "notes": "Melhor opção para buffar o ATQ da equipe após usar o Supremo.",
+                    "icon_url": "/assets/images/artifact_sets/noblesse_oblige.png"
+                },
+                {
+                    "set_id": "instructor",
+                    "set_name": "Instrutor",
+                    "pieces": 4,
+                    "notes": "Opção de 4 estrelas para buffar a Proficiência Elemental da equipe, útil em times de reação.",
+                    "icon_url": "/assets/images/artifact_sets/instructor.png"
+                },
+                {
+                    "set_id": "tenacity_of_the_millelith",
+                    "pieces": 2,
+                    "notes": "Combinado com 2p de Vida% para maximizar a durabilidade do escudo e o buff da A4.",
+                    "icon_url": "/assets/images/artifact_sets/tenacity_of_the_millelith.png"
+                }
+            ],
+            "main_stats": {
+                "sands": "Recarga de Energia% / Vida%",
+                "goblet": "Vida%",
+                "circlet": "Vida% / Taxa CRIT% (para Favonius)"
+            },
+            "sub_stats_priority": [
+                "Recarga de Energia% (até o requisito)",
+                "Vida%",
+                "Taxa CRIT% (para Favonius)"
+            ],
+            "weapons": [
+                {
+                    "weapon_id": "favonius_sword",
+                    "name": "Espada de Favonius",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Melhor opção para suporte, ajuda com a energia da equipe.",
+                    "icon_url": "/assets/images/weapons_detail/favonius_sword.png"
+                },
+                {
+                    "weapon_id": "sacrificial_sword",
+                    "name": "Espada do Sacrifício",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "Gacha",
+                    "notes": "Permite usos extras da Habilidade Elemental para mais partículas e aplicação Hydro.",
+                    "icon_url": "/assets/images/weapons_detail/sacrificial_sword.png"
+                },
+                {
+                    "weapon_id": "fleuve_cendre_ferryman",
+                    "name": "Cruzamento de Fleuve Cendre",
+                    "rarity": 4,
+                    "type": "Sword",
+                    "category": "F2P (Pesca de Fontaine)",
+                    "notes": "Ótima opção F2P com Recarga de Energia e buff de Taxa CRIT para a Habilidade Elemental.",
+                    "icon_url": "/assets/images/weapons_detail/fleuve_cendre_ferryman.png"
+                }
+            ],
+            "talent_priority": [
+                "Supremo (Burst)",
+                "Habilidade Elemental (Skill)",
+                "Ataque Normal"
+            ]
+        }
+    ],
+    "ascension_stats_summary": [
+        {
+            "ascension_phase": 0,
+            "level_max": 20,
+            "base_hp": 2341,
+            "base_atk": 42,
+            "base_def": 147,
+            "bonus_stat_label": "Vida%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 1,
+            "level_max": 40,
+            "base_hp": 4526,
+            "base_atk": 81,
+            "base_def": 285,
+            "bonus_stat_label": "Vida%",
+            "bonus_stat_value": "0.0%"
+        },
+        {
+            "ascension_phase": 2,
+            "level_max": 50,
+            "base_hp": 5765,
+            "base_atk": 103,
+            "base_def": 363,
+            "bonus_stat_label": "Vida%",
+            "bonus_stat_value": "6.0%"
+        },
+        {
+            "ascension_phase": 3,
+            "level_max": 60,
+            "base_hp": 7244,
+            "base_atk": 130,
+            "base_def": 455,
+            "bonus_stat_label": "Vida%",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 4,
+            "level_max": 70,
+            "base_hp": 8483,
+            "base_atk": 152,
+            "base_def": 533,
+            "bonus_stat_label": "Vida%",
+            "bonus_stat_value": "12.0%"
+        },
+        {
+            "ascension_phase": 5,
+            "level_max": 80,
+            "base_hp": 9722,
+            "base_atk": 174,
+            "base_def": 611,
+            "bonus_stat_label": "Vida%",
+            "bonus_stat_value": "18.0%"
+        },
+        {
+            "ascension_phase": 6,
+            "level_max": 90,
+            "base_hp": 11181,
+            "base_atk": 200,
+            "base_def": 702,
+            "bonus_stat_label": "Vida%",
+            "bonus_stat_value": "24.0%"
+        }
+    ],
+    "total_ascension_materials": [
+        {
+            "name": "Mora",
+            "quantity": 420000,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Água Que Não Superou a Si Mesma",
+            "quantity": 46,
+            "icon_url": "/assets/images/materials/water_that_failed_to_transcend.webp"
+        },
+        {
+            "name": "Lasca de Lazurita Varunada",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/varunada_lazurite_sliver.webp"
+        },
+        {
+            "name": "Fragmento de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_fragment.webp"
+        },
+        {
+            "name": "Pedaço de Lazurita Varunada",
+            "quantity": 9,
+            "icon_url": "/assets/images/materials/varunada_lazurite_chunk.webp"
+        },
+        {
+            "name": "Gema de Lazurita Varunada",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/varunada_lazurite_gemstone.webp"
+        },
+        {
+            "name": "Rosa Arco-Íris",
+            "quantity": 168,
+            "icon_url": "/assets/images/materials/rainbow_rose.webp"
+        },
+        {
+            "name": "Pérola Transoceânica",
+            "quantity": 18,
+            "icon_url": "/assets/images/materials/transoceanic_pearl.webp"
+        },
+        {
+            "name": "Pedaço Transoceânico",
+            "quantity": 30,
+            "icon_url": "/assets/images/materials/transoceanic_chunk.webp"
+        },
+        {
+            "name": "Cristal Xenocromático",
+            "quantity": 36,
+            "icon_url": "/assets/images/materials/xenochromatic_crystal.webp"
+        }
+    ],
+    "talents": {
+        "normal_attack": {
+            "name": "Hino Favoniano (Favonian Hymn)",
+            "icon_url": "/assets/images/talents/dahlia/talent_normal_attack.webp",
+            "description": "Ataque Normal: Realiza até 5 golpes de espada.\nAtaque Carregado: Consome Stamina para desferir 2 golpes rápidos com a espada.\nAtaque Imersivo: Mergulha para atingir o chão, causando Dano em AdE."
+        },
+        "elemental_skill": {
+            "name": "Ablução Sagrada (Sacred Ablution)",
+            "icon_url": "/assets/images/talents/dahlia/talent_elemental_skill.webp",
+            "description": "Cria um 'Escudo de Fé' que absorve Dano baseado na Vida Máx. de Dahlia. Ao criar, causa Dano Hydro em AdE e concede um buff de Dano de Ataque Normal para o personagem ativo."
+        },
+        "elemental_burst": {
+            "name": "Ode Santificada (Hallowed Ode)",
+            "icon_url": "/assets/images/talents/dahlia/talent_elemental_burst.webp",
+            "description": "Causa Dano Hydro em AdE e aplica o efeito 'Santuário Aquático' no personagem ativo. Santuário Aquático: Concede um escudo que absorve Dano e, quando quebrado ou ao expirar, cura o personagem com base na Vida Máx. de Dahlia. Também concede um buff de Velocidade de ATQ."
+        },
+        "passives": [
+            {
+                "name": "Misericórdia Divina (Divine Mercy)",
+                "type": "Passiva de 1ª Ascensão",
+                "icon_url": "/assets/images/talents/dahlia/talent_passive_a1.webp",
+                "description": "Ao lançar Ode Santificada (Supremo), o TdR de Ablução Sagrada (Habilidade Elemental) é zerado."
+            },
+            {
+                "name": "Bênção Abençoada (Blessed Benediction)",
+                "type": "Passiva de 4ª Ascensão",
+                "icon_url": "/assets/images/talents/dahlia/talent_passive_a4.webp",
+                "description": "Quando o escudo de Ode Santificada (Supremo) está ativo, o personagem em campo ganha um bônus de Velocidade de ATQ que aumenta com base na Vida Máx. de Dahlia."
+            },
+            {
+                "name": "Dever do Diácono (Deacon's Duty)",
+                "type": "Passiva Utilitária",
+                "icon_url": "/assets/images/talents/dahlia/talent_passive_utility.webp",
+                "description": "Quando despachado em uma Expedição em Mondstadt, há 25% de chance de obter recompensas adicionais."
+            }
+        ]
+    },
+    "total_talent_materials_one_to_ten": [
+        {
+            "name": "Mora",
+            "quantity": 1652500,
+            "icon_url": "/assets/images/materials/mora.webp"
+        },
+        {
+            "name": "Pérola Transoceânica",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/transoceanic_pearl.webp"
+        },
+        {
+            "name": "Pedaço Transoceânico",
+            "quantity": 22,
+            "icon_url": "/assets/images/materials/transoceanic_chunk.webp"
+        },
+        {
+            "name": "Cristal Xenocromático",
+            "quantity": 31,
+            "icon_url": "/assets/images/materials/xenochromatic_crystal.webp"
+        },
+        {
+            "name": "Ensinamentos da Justiça",
+            "quantity": 3,
+            "icon_url": "/assets/images/materials/teachings_of_justice.webp"
+        },
+        {
+            "name": "Guia da Justiça",
+            "quantity": 21,
+            "icon_url": "/assets/images/materials/guide_to_justice.webp"
+        },
+        {
+            "name": "Filosofia da Justiça",
+            "quantity": 38,
+            "icon_url": "/assets/images/materials/philosophies_of_justice.webp"
+        },
+        {
+            "name": "Âmbar Eterno",
+            "quantity": 6,
+            "icon_url": "/assets/images/materials/everamber.webp"
+        },
+        {
+            "name": "Coroa da Sabedoria",
+            "quantity": 1,
+            "icon_url": "/assets/images/materials/crown_of_insight.webp"
+        }
+    ],
+    "constellations": [
+        {
+            "level": 1,
+            "name": "Rito de Purificação (Cleansing Rite)",
+            "icon_url": "/assets/images/constellations/dahlia/constellation_1.webp",
+            "description": "Quando o escudo de Ode Santificada (Supremo) quebra, a RES Hydro dos inimigos próximos é reduzida em 15% por 10s."
+        },
+        {
+            "level": 2,
+            "name": "Coro Alegre (Joyful Chorus)",
+            "icon_url": "/assets/images/constellations/dahlia/constellation_2.webp",
+            "description": "Quando Ablução Sagrada (Habilidade Elemental) atinge um oponente, Dahlia regenera Energia."
+        },
+        {
+            "level": 3,
+            "name": "Oferta Santificada (Sanctified Offering)",
+            "icon_url": "/assets/images/constellations/dahlia/constellation_3.webp",
+            "description": "Aumenta o nível de Ode Santificada (Supremo) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 4,
+            "name": "Bênção Harmoniosa (Harmonious Blessing)",
+            "icon_url": "/assets/images/constellations/dahlia/constellation_4.webp",
+            "description": "A duração do escudo de Ode Santificada (Supremo) é aumentada em 5s."
+        },
+        {
+            "level": 5,
+            "name": "Voto Solene (Solemn Vow)",
+            "icon_url": "/assets/images/constellations/dahlia/constellation_5.webp",
+            "description": "Aumenta o nível de Ablução Sagrada (Habilidade Elemental) em 3. O nível máximo de elevação é 15."
+        },
+        {
+            "level": 6,
+            "name": "Graça Eterna (Everlasting Grace)",
+            "icon_url": "/assets/images/constellations/dahlia/constellation_6.webp",
+            "description": "Quando o escudo de Ode Santificada (Supremo) estiver ativo, a Velocidade de ATQ de todos os membros da equipe próximos é aumentada em 15%."
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "id": "skirk_freeze_furina_escoffier",
+        "name": "Skirk - Congelamento (Furina, Escoffier)",
+        "strategy": "Skirk como DPS principal Cryo, causando dano com seus Ataques Normais infundidos. Furina oferece buff de Dano massivo e aplicação Hydro off-field. Escoffier fornece um buff de Dano de Ataque Normal e cura. Um quarto slot flexível pode ser Kazuha para Sombra Verde ou outro suporte.",
+        "characters_in_team": [
+            {
+                "character_id": "skirk",
+                "role_in_team": "Main DPS Cryo",
+                "build_key": "skirk_freeze_dps"
+            },
+            {
+                "character_id": "furina",
+                "role_in_team": "Sub-DPS Hydro / Buffer",
+                "build_key": "furina_hydro_sub_dps_golden_troupe"
+            },
+            {
+                "character_id": "escoffier",
+                "role_in_team": "Suporte Cryo (Buffer/Healer)",
+                "build_key": "escoffier_cryo_support_noblesse_favonius"
+            },
+            {
+                "character_id": "kazuha",
+                "role_in_team": "Suporte Anemo (VV Shred/DMG Buffer)",
+                "build_key": "kazuha_support_vv_em_freedomsworn"
+            }
+        ]
+    }
+]

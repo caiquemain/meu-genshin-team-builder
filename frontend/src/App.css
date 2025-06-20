@@ -27,14 +27,18 @@
   /* Botão de filtro ativo */
   --button-active-border-color: #007bff;
 
-  --tooltip-background: #333333;
-  /* Fundo do tooltip no tema claro */
-  --tooltip-text: #ffffff;
-  /* Texto do tooltip no tema claro */
-  --tooltip-border-color: #555555;
+  /* --- CORES TOOLTIP: Ajustado para MODO CLARO --- */
+  --tooltip-background: rgba(255, 255, 255, 0.95);
+  /* Fundo CLARO (quase branco) para tooltip */
+  --tooltip-text: #2c3e50;
+  /* Texto ESCURO para contraste */
+  --tooltip-border-color: #cccccc;
+  /* Borda clara */
 
-  --tooltip-header-text-color: #FFFFFF;
-  --tooltip-link-color: #87ceeb;
+  --tooltip-header-text-color: #000000;
+  /* Título escuro no modo claro */
+  --tooltip-link-color: #0056b3;
+  /* Links escuros no modo claro */
 
   --highlight-background: #e9f5ff;
   /* Fundo para seções de destaque como estratégia */
@@ -43,7 +47,9 @@
   --character-card-border-warm: #ccab80;
   /* Cor de borda quente para tema claro - um bege/dourado suave */
   --rarity-4-background-hover: #5d3f6a;
+  /* Mantido roxo escuro, pode ajustar se quiser mais claro para tema claro */
   --rarity-5-background-hover: #b8a24c;
+  /* Mantido dourado escuro, pode ajustar se quiser mais claro para tema claro */
 }
 
 /* Quando o body tiver a classe .dark-mode */
@@ -75,13 +81,18 @@ body.dark-mode {
   /* Botão de filtro ativo (azul destacado) */
   --button-active-border-color: #0056b3;
 
-  --tooltip-background: #ffffff;
-  /* Tooltip claro no modo escuro para contraste */
-  --tooltip-text: #2c2c44;
-  /* Texto escuro no tooltip claro */
-  --tooltip-border-color: #cccccc;
-  --tooltip-header-text-color: #000000;
-  --tooltip-link-color--tooltip-link-color: #0056b3;
+  /* --- CORES TOOLTIP: Ajustado para MODO ESCURO --- */
+  --tooltip-background: rgba(0, 0, 0, 0.95);
+  /* Fundo ESCURO (quase preto) para tooltip */
+  --tooltip-text: #ffffff;
+  /* Texto BRANCO para contraste */
+  --tooltip-border-color: #FFD700;
+  /* Borda dourada (pode mudar para uma cor mais escura se quiser) */
+
+  --tooltip-header-text-color: #FFD700;
+  /* Título dourado no modo escuro */
+  --tooltip-link-color: #87ceeb;
+  /* Links claros no modo escuro */
 
   --highlight-background: #2a2a4a;
   /* Fundo escuro para estratégia */
@@ -108,40 +119,30 @@ body {
 a {
   color: var(--link-color);
   text-decoration: none;
-  /* Remover sublinhado padrão de links */
 }
 
 a:hover {
   color: var(--link-hover-color);
   text-decoration: underline;
-  /* Adicionar sublinhado no hover */
 }
 
 body {
-  /* Para arquivos .cur (recomendado se disponível) */
   cursor: url('/cursors/genshin_default.cur'), auto;
 
   .tooltip-container-hover:hover {
     cursor: url('/cursors/genshin_help.cur'), help;
   }
 
-  /* Você também pode querer manter para tooltips nativos do navegador 
-   ou outros indicadores de ajuda, se aplicável em outras partes do site:
-*/
   [title]:hover {
-    /* Para elementos com o atributo 'title' nativo que mostra a dica do navegador */
     cursor: url('/cursors/genshin_help.cur'), help;
   }
 
-  /* Se você usar uma classe específica para ícones de ajuda em outros lugares: */
   .help-indicator:hover,
   .help-icon:hover {
     cursor: url('/cursors/genshin_help.cur'), help;
   }
 
-  /* Para abreviações que mostram o significado completo no tooltip nativo */
   abbr[title]:hover {
     cursor: url('/cursors/genshin_help.cur'), help;
-
   }
 }
