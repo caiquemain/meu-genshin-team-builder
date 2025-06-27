@@ -1,0 +1,3567 @@
+{
+  "id": "qiqi",
+  "wiki_id": "1",
+  "name": {
+    "pt-pt": "Qiqi",
+    "en-us": "Qiqi",
+    "ja-jp": "七七",
+    "zh-cn": "七七",
+    "ko-kr": "치치",
+    "ru-ru": "Ци Ци",
+    "de-de": "Qiqi",
+    "fr-fr": "Qiqi",
+    "es-es": "Qiqi",
+    "id-id": "Qiqi",
+    "th-th": "Qiqi",
+    "vi-vn": "Qiqi",
+    "zh-tw": "七七"
+  },
+  "title": {
+    "pt-pt": "Ressurreição Gélida",
+    "en-us": "Icy Resurrection",
+    "ja-jp": "冷たき黄泉帰り",
+    "zh-cn": "冻冻回魂夜",
+    "ko-kr": "차가운 환혼의 밤",
+    "ru-ru": "Ледяное воскрешение",
+    "de-de": "Eisige Nacht der Wiedergänger",
+    "fr-fr": "Renaissance gelée",
+    "es-es": "La Resurrección del Hielo",
+    "id-id": "Icy Resurrection",
+    "th-th": "ความหนาวเย็นคืนชีพ",
+    "vi-vn": "Đêm Hồn Về Lạnh Giá",
+    "zh-tw": "凍凍回魂夜"
+  },
+  "description": {
+    "pt-pt": "Uma aprendiz e colhedora de ervas no Chalé de Bubu. Uma morta-viva com pele branca como osso, ela raramente tem muitas palavras ou emoções.",
+    "en-us": "An apprentice and herb gatherer at Bubu Pharmacy. An undead with a bone-white complexion, she seldom has much in the way of words or emotion.",
+    "ja-jp": "薬舗「不卜廬」の薬採り兼弟子、紙のように白い顔色で不死身。口数が少なく、あまり表情がない。",
+    "zh-cn": "药庐「不卜庐」的采药姑娘兼学徒，面色苍白如纸的不死之人。话很少，也没有什么表情。",
+    "ko-kr": "약방 「불복려」의 약초꾼이자 제자. 안색이 종이처럼 창백하다. 말수가 적고 무표정하다.「아침엔 약재 분류, 오후엔 약재 달이기, 저녁엔 유연 체조」——이건 치치가 노트에 매일 해야 할 일을 적어둔 것이다.",
+    "ru-ru": "Ученица и сборщица трав из хижины «Бубу». Зомби с бледным лицом, разговаривает или проявляет эмоции очень редко...",
+    "de-de": "Schülerin in der Bubu-Hütte und Kräutersammlerin. Sie ist leichenblass und redet nur sehr wenig. Ihr Miene verzieht sie kein einziges Mal.",
+    "fr-fr": "Qiqi est une jeune apprentie du Cottage Bubu, en charge notamment de la récolte des herbes médicinales. C'est également un zombie au teint blafard et aux mots comptés.",
+    "es-es": "Una aprendiz y recolectora de hierbas en la Farmacia Bubu. Una zombi con una tez blanca como el hueso, de pocas palabras y emociones.",
+    "id-id": "Seorang murid di Bubu Pharmacy yang bertugas untuk memetik tanaman obat-obatan. Seorang zombie yang kulitnya teramat putih dan pucat, dia teramat pendiam, dan jarang menunjukkan ekspresi apa pun.",
+    "th-th": "คนเก็บสมุนไพรและเด็กฝึกงานของร้านยา Bubu Pharmacy ซอมบี้ผู้มีใบผิวขาวซีดราวกับกระดาษ ไม่ค่อยพูดไม่ค่อยจาและไม่ค่อยแสดงอารมณ์",
+    "vi-vn": "Một cô nương hái thuốc kiêm học đồ tại lò thuốc, sắc mặt trắng toát như cương thi. Rất ít nói chuyện, cũng không có biểu cảm gì.",
+    "zh-tw": "藥廬「不卜廬」的採藥姑娘兼學徒，面色蒼白如紙的不死之人。話很少，也沒有什麼表情。"
+  },
+  "rarity": 5,
+  "vision": {
+    "label": {
+      "pt-pt": "Tipo Elemental",
+      "en-us": "Elemental Type",
+      "ja-jp": "元素タイプ",
+      "zh-cn": "元素属性",
+      "ko-kr": "원소 속성",
+      "ru-ru": "Элемент",
+      "de-de": "Elementartyp",
+      "fr-fr": "Élément",
+      "es-es": "Tipo elemental",
+      "id-id": "Tipe Elemen",
+      "th-th": "ประเภทธาตุ",
+      "vi-vn": "Thuộc Tính Nguyên Tố",
+      "zh-tw": "元素屬性"
+    },
+    "value": {
+      "pt-pt": "Cryo",
+      "en-us": "Cryo",
+      "ja-jp": "氷元素",
+      "zh-cn": "冰元素",
+      "ko-kr": "얼음 원소",
+      "ru-ru": "Крио",
+      "de-de": "Kryo",
+      "fr-fr": "Cryo",
+      "es-es": "Cryo",
+      "id-id": "Cryo",
+      "th-th": "น้ำแข็ง",
+      "vi-vn": "Băng",
+      "zh-tw": "冰元素"
+    }
+  },
+  "weapon": {
+    "label": {
+      "pt-pt": "Arma",
+      "en-us": "Weapons",
+      "ja-jp": "武器種",
+      "zh-cn": "武器",
+      "ko-kr": "무기",
+      "ru-ru": "Тип",
+      "de-de": "Waffe",
+      "fr-fr": "Type d'arme",
+      "es-es": "Arma",
+      "id-id": "Senjata",
+      "th-th": "อาวุธ",
+      "vi-vn": "Vũ Khí",
+      "zh-tw": "武器"
+    },
+    "value": {
+      "pt-pt": "Espada",
+      "en-us": "Sword",
+      "ja-jp": "片手剣",
+      "zh-cn": "单手剑",
+      "ko-kr": "한손검",
+      "ru-ru": "Одноручное",
+      "de-de": "Einhänder",
+      "fr-fr": "Épée à une main",
+      "es-es": "Espada ligera",
+      "id-id": "Sword",
+      "th-th": "ดาบ",
+      "vi-vn": "Kiếm Đơn",
+      "zh-tw": "單手劍"
+    }
+  },
+  "characterIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/Qiqi_icon.png",
+  "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
+  "constellationNameOfficial": {
+    "pt-pt": "Pristina Nola",
+    "en-us": "Pristina Nola",
+    "ja-jp": "法鈴座",
+    "zh-cn": "三清铃座",
+    "ru-ru": "Звон Колокольчика",
+    "de-de": "Pristina Nola",
+    "fr-fr": "Pristina Nola",
+    "es-es": "Pristina Nola",
+    "id-id": "Pristina Nola",
+    "th-th": "Pristina Nola",
+    "zh-tw": "三清鈴座",
+    "ko-kr": "N/A",
+    "vi-vn": "N/A"
+  },
+  "specialDish": {
+    "id": 997,
+    "name": {
+      "pt-pt": "Sem Futuro",
+      "en-us": "No Tomorrow",
+      "ja-jp": "アシタナシ",
+      "zh-cn": "没有未来菜",
+      "ko-kr": "암울한 미래",
+      "ru-ru": "Блюдо без будущего",
+      "de-de": "Mahlzeit ohne Zukunft",
+      "fr-fr": "Sansespoir",
+      "es-es": "Sin futuro",
+      "id-id": "No Tomorrow",
+      "th-th": "No Tomorrow",
+      "vi-vn": "Món Không Tương Lai",
+      "zh-tw": "沒有未來菜"
+    },
+    "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/No%20Tomorrow_icon.png"
+  },
+  "namecard": {
+    "id": 6089,
+    "name": {
+      "pt-pt": "Qiqi - Armazém Gelado",
+      "en-us": "Qiqi: Cold Storage",
+      "ja-jp": "七七・冷蔵",
+      "zh-cn": "七七·冷藏",
+      "ko-kr": "치치·냉장",
+      "ru-ru": "Вестник стужи",
+      "de-de": "Qiqi – Kühlung",
+      "fr-fr": "Qiqi - Conservation",
+      "es-es": "Qiqi - Refrigeración",
+      "id-id": "Qiqi: Cold Storage",
+      "th-th": "Qiqi - Cold Storage",
+      "vi-vn": "Qiqi - Đông Lạnh",
+      "zh-tw": "七七·冷藏"
+    },
+    "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/15/55fb435f746157b653cd1f95051629b5_5671908055020407790.png"
+  },
+  "constellations": [
+    {
+      "id": "summaryList90816",
+      "constellationNumber": 1,
+      "name": {
+        "pt-pt": "Ascéticos do Gelo",
+        "en-us": "Ascetics of Frost",
+        "ja-jp": "寒苦回向",
+        "zh-cn": "寒苦回向",
+        "ko-kr": "한고의 회향",
+        "ru-ru": "Зима близко",
+        "de-de": "Winterliche Ernte",
+        "fr-fr": "Ascèse du givre",
+        "es-es": "Ascetismo de la escarcha",
+        "id-id": "Ascetics of Frost",
+        "th-th": "Ascetics of Frost",
+        "vi-vn": "Trở Lại Nghèo Khổ",
+        "zh-tw": "寒苦迴向"
+      },
+      "description": {
+        "pt-pt": "Quando o Arauto da Floresta atinge um inimigo marcado pelo Talismã da Preservação da Fortuna, Qiqi regenera 2 de Energia.",
+        "en-us": "When the Herald of Frost hits an opponent marked by a Fortune-Preserving Talisman, Qiqi regenerates 2 Energy.",
+        "ja-jp": "度厄のお札マークがついている敵に寒病鬼差が命中した時、七七の元素エネルギーを2回復する。",
+        "zh-cn": "寒病鬼差命中被度厄真符标记的敌人时，为七七恢复2点元素能量。",
+        "ko-kr": "한병의 귀차의 공격이 도액 부적 표식이 있는 적을 명중 시 치치의 원소 에너지를 2pt 회복한다",
+        "ru-ru": "Когда Вестник стужи попадает по цели, помеченной талисманом Фортуны, Ци Ци восстанавливает 2 ед. энергии.",
+        "de-de": "Stellt Qiqi beim Treffen von mit dem Leidbefreiungs-Talisman markierten Gegnern mit Frostbringer 2 Punkte Elementarenergie wieder her.",
+        "fr-fr": "Qiqi récupère 2 pts d'énergie élémentaire à chaque fois que son Héraut de givre touche un ennemi marqué par un talisman.",
+        "es-es": "Qiqi regenera 2 pts. de Energía Elemental cuando el Heraldo de la escarcha golpea a un enemigo marcado por un talismán de conservación de la fortuna.",
+        "id-id": "Saat Herald of Frost mengenai musuh yang ditandai oleh Fortune-Preserving Talisman, Qiqi mendapatkan 2 Energy.",
+        "th-th": "เมื่อ Herald of Frost โจมตีถูกศัตรูที่โดน Fortune-Preserving Talisman ทำสัญลักษณ์ จะเป็นการฟื้นฟูพลังงานธาตุให้แก่ Qiqi 2 หน่วย",
+        "vi-vn": "Khi Hàn Bệnh Quỷ Sai đánh trúng kẻ địch đang bị Bùa Độ Ách Chân đánh dấu, sẽ hồi 2 điểm năng lượng nguyên tố cho Qiqi.",
+        "zh-tw": "寒病鬼差命中被渡厄真符標記的敵人時，為七七恢復2點元素能量。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/七七/constellation_1.png"
+    },
+    {
+      "id": "summaryList62191",
+      "constellationNumber": 2,
+      "name": {
+        "pt-pt": "Congelando até os Ossos",
+        "en-us": "Frozen to the Bone",
+        "ja-jp": "氷寒蝕骨",
+        "zh-cn": "冰寒蚀骨",
+        "ko-kr": "뼛속까지 스며드는 한기",
+        "ru-ru": "Мороз до костей",
+        "de-de": "Fröstelnde Glieder",
+        "fr-fr": "Gelé jusqu'à l'os",
+        "es-es": "Frío polar",
+        "id-id": "Frozen to the Bone",
+        "th-th": "Frozen to the Bone",
+        "vi-vn": "Giá Rét Thấu Xương",
+        "zh-tw": "冰寒蝕骨"
+      },
+      "description": {
+        "pt-pt": "O Dano do Ataque Normal e Ataque Carregado de Qiqi contra os inimigos afetados por Cryo aumentam 15%.",
+        "en-us": "Qiqi's Normal and Charge Attack DMG against opponents affected by Cryo is increased by 15%.",
+        "ja-jp": "氷元素の影響を受けた敵に、七七の通常攻撃と重撃の与えるダメージ+15%。",
+        "zh-cn": "对受到冰元素影响的敌人，七七的普通攻击与重击造成的伤害提升15%。",
+        "ko-kr": "얼음 원소의 영향을 받은 적을 공격 시 치치가 일반 공격과 강공격으로 가하는 피해가 15% 증가한다",
+        "ru-ru": "Увеличивает урон обычной и заряженной атаки Ци Ци по противникам с эффектом Крио на 15%.",
+        "de-de": "Erhöht den von Kryo-Effekten betroffenen Gegnern mit Qiqis Standardangriffen und heftigen Schlägen zugefügten Schaden um 15 %.",
+        "fr-fr": "Les attaques normales et chargées de Qiqi infligent 15 % de DGT supplémentaires contre les ennemis affectés par Cryo.",
+        "es-es": "El daño del Ataque Normal y Cargado de Qiqi aumenta en un 15% contra enemigos afectados por Cryo.",
+        "id-id": "Meningkatkan 15% Normal dan Charged Attack Qiqi terhadap musuh yang terpengaruh Cryo.",
+        "th-th": "เมื่อเผชิญหน้ากับศัตรูที่ได้รับ ผลกระทบจาก ธาตุน้ำแข็ง ความเสียหายของ การโจมตีปกติและชาร์จโจมตี ของ Qiqi จะเพิ่มขึ้น 15%",
+        "vi-vn": "Đối với địch bị ảnh hưởng bởi Nguyên Tố Băng, sát thương tấn công thường và trọng kích mà Qiqi gây ra tăng 15%.",
+        "zh-tw": "對受到冰元素影響的敵人，七七的普通攻擊與重擊造成的傷害提升15%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/七七/constellation_2.png"
+    },
+    {
+      "id": "summaryList19778",
+      "constellationNumber": 3,
+      "name": {
+        "pt-pt": "Elogio Ascendente",
+        "en-us": "Ascendant Praise",
+        "ja-jp": "昇天宝誥",
+        "zh-cn": "升天宝诰",
+        "ko-kr": "승천 보고(宝诰)",
+        "ru-ru": "Хвала небесам",
+        "de-de": "Lobpreisung des Himmels",
+        "fr-fr": "Louange vers le ciel",
+        "es-es": "Mandato celestial",
+        "id-id": "Ascendant Praise",
+        "th-th": "Ascendant Praise",
+        "vi-vn": "Thăng Thiên Bảo Cáo",
+        "zh-tw": "升天寶誥"
+      },
+      "description": {
+        "pt-pt": "Aumenta o Nível de Arte do Adeptus: Preservador da Fortuna em 3.Pode ser elevado até Nv.15.",
+        "en-us": "Increases the Level of Adeptus Art: Preserver of Fortune by 3.Maximum upgrade level is 15.",
+        "ja-jp": "仙法・救苦度厄のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "仙法·救苦度厄的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "선법·구고도액의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Искусство Адепта: Хранитель Фортуны на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Adeptenkunst – Befreiung vom Leid um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Arcane d'Adepte : Talisman sacré +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Magia Adeptus: Preservadora de la fortuna +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Adeptus Art: Preserver of Fortune.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Adeptus Art: Preserver of Fortune ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Tiên Pháp - Cứu Khổ Độ Ách +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "仙法·救苦渡厄的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/七七/constellation_3.png"
+    },
+    {
+      "id": "summaryList24686",
+      "constellationNumber": 4,
+      "name": {
+        "pt-pt": "Supressão Divina",
+        "en-us": "Divine Suppression",
+        "ja-jp": "天威圧衆",
+        "zh-cn": "天威压众",
+        "ko-kr": "중생을 압도하는 천위",
+        "ru-ru": "Божественное подавление",
+        "de-de": "Stärke des Himmels",
+        "fr-fr": "Répression divine",
+        "es-es": "Supresión divina",
+        "id-id": "Divine Suppression",
+        "th-th": "Divine Suppression",
+        "vi-vn": "Thiên Uy Áp Chúng",
+        "zh-tw": "天威壓眾"
+      },
+      "description": {
+        "pt-pt": "Os alvos marcados com o Talismã da Preservação da Fortuna terão seu ATQ reduzidos em 20%.",
+        "en-us": "Targets marked by the Fortune-Preserving Talisman have their ATK decreased by 20%.",
+        "ja-jp": "度厄のお札マークがついている敵の攻撃力-20%。",
+        "zh-cn": "被度厄真符标记的目标，攻击力下降20%。",
+        "ko-kr": "도액 부적 표식이 있는 적은 공격력이 20% 감소한다",
+        "ru-ru": "Уменьшает силу атаки врагов, помеченных талисманом Фортуны, на 20%.",
+        "de-de": "Verringert den ANG von mit dem Leidbefreiungs-Talisman markierten Zielen um 20 %.",
+        "fr-fr": "L'ATQ des cibles marquées par un talisman est réduite de 20 %.",
+        "es-es": "Reduce en un 20% el ATQ de los objetivos marcados por el talismán de conservación de la fortuna.",
+        "id-id": "ATK dari musuh yang ditandai oleh Fortune-Preserving Talisman berkurang 20%.",
+        "th-th": "เป้าหมายที่ถูก Fortune-Preserving Talisman ทำสัญลักษณ์ที่แท้จริงไว้จะถูกลดพลังการโจมตีลง 20%",
+        "vi-vn": "Mục tiêu bị Bùa Độ Ách Chân đánh dấu, lực tấn công giảm 20%.",
+        "zh-tw": "被渡厄真符標記的目標，攻擊力下降20%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/七七/constellation_4.png"
+    },
+    {
+      "id": "summaryList97152",
+      "constellationNumber": 5,
+      "name": {
+        "pt-pt": "Flor de Lótus Carmesim",
+        "en-us": "Crimson Lotus Bloom",
+        "ja-jp": "紅蓮開花",
+        "zh-cn": "红莲开绽",
+        "ko-kr": "피어난 홍련",
+        "ru-ru": "Цветение красного лотоса",
+        "de-de": "Blüte des roten Lotos",
+        "fr-fr": "Éclosion du lotus rouge",
+        "es-es": "Flor de loto carmesí",
+        "id-id": "Crimson Lotus Bloom",
+        "th-th": "Crimson Lotus Bloom",
+        "vi-vn": "Sen Hồng Chớm Nở",
+        "zh-tw": "紅蓮開綻"
+      },
+      "description": {
+        "pt-pt": "Aumenta o Nível de Arauto da Floresta em 3.Pode ser elevado até Nv.15.",
+        "en-us": "Increases the Level of Adeptus Art: Herald of Frost by 3.Maximum upgrade level is 15.",
+        "ja-jp": "仙法・寒病鬼差のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "仙法·寒病鬼差的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "선법·한병의 귀차의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Искусство Адепта: Вестник стужи на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Adeptenkunst – Frostbringer um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Arcane d'Adepte : Héraut de givre +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Magia Adeptus: Heraldo de la escarcha +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Adeptus Art: Herald of Frost.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Adeptus Art: Herald of Frost ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Tiên Pháp - Hàn Bệnh Quỷ Sai +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "仙法·寒病鬼差的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/七七/constellation_5.png"
+    },
+    {
+      "id": "summaryList27996",
+      "constellationNumber": 6,
+      "name": {
+        "pt-pt": "Ritual de Ressurreição",
+        "en-us": "Rite of Resurrection",
+        "ja-jp": "起死回骸",
+        "zh-cn": "起死回骸",
+        "ko-kr": "기사회해",
+        "ru-ru": "Возвращение к жизни",
+        "de-de": "Auferstehung",
+        "fr-fr": "Symbole de la renaissance",
+        "es-es": "Rito de la resurrección",
+        "id-id": "Rite of Resurrection",
+        "th-th": "Rite of Resurrection",
+        "vi-vn": "Khởi Tử Hồi Sinh",
+        "zh-tw": "起死回骸"
+      },
+      "description": {
+        "pt-pt": "Ao usar a Arte do Adeptus: Preservador da Fortuna, revive todos os personagens de equipe caídos ao redor e regenera 50% da Vida deles.Este efeito pode ocorrer apenas uma vez a cada 15 min.",
+        "en-us": "Using Adeptus Art: Preserver of Fortune revives all fallen party members nearby and regenerates 50% of their HP.This effect can only occur once every 15 mins.",
+        "ja-jp": "仙法・救苦度厄を発動する時、近くにいるチーム内全ての戦闘不能状態のキャラクターを復活し、HPを50%まで回復させる。この効果は15分毎に1回のみ発動可能。",
+        "zh-cn": "施放仙法·救苦度厄时，复苏附近队伍中所有倒下的角色，并将其生命值恢复至50%。该效果每15分钟只能触发一次。",
+        "ko-kr": "선법·구고도액 발동 시 근처 파티 내 전투 불능이 된 모든 캐릭터를 부활시키고 HP를 50% 회복한다.해당 효과는 15분마다 1회만 발동한다",
+        "ru-ru": "Использование навыка Искусство Адепта: Хранитель Фортуны воскрешает ближайших павших персонажей вашего отряда и восстанавливает им 50% HP.Может возникнуть раз в 15 мин.",
+        "de-de": "Belebt alle besiegten Figuren der Truppe in der Nähe bei Anwendung von Adeptenkunst – Befreiung vom Leid wieder und stellt ihnen LP auf bis zu 50 % ihrer max. LP wieder her.15 min Abklingzeit.",
+        "fr-fr": "L'activation d'Arcane d'Adepte : Talisman sacré réanime tous les personnages de l'équipe à proximité et restaure 50 % de leurs PV.Cet effet peut être déclenché une fois toutes les 15 min.",
+        "es-es": "Al lanzar la habilidad Magia Adeptus: Preservadora de la fortuna, revive a todos los miembros del equipo cercanos que han sido derrotados y regenera un 50% de su Vida.Solo puede ocurrir una vez cada 15 min.",
+        "id-id": "Menggunakan Adeptus Art: Preserver of Fortune akan menghidupkan kembali Karakter yang gugur di sekitar dan memulihkan 50% HP mereka.Efek ini terpicu setiap 15 menit.",
+        "th-th": "เมื่อใช้ Adeptus Art: Preserver of Fortune จะทำการฟื้นชีวิต ตัวละครทั้งหมดในทีมที่ หมดสติในบริเวณใกล้เคียง และฟื้นฟูพลังชีวิตให้ตัวละครดังกล่าว 50%เอฟเฟกต์นี้จะใช้ได้หนึ่งครั้งในทุก 15 นาที",
+        "vi-vn": "Khi thi triển Tiên Pháp - Cứu Khổ Độ Ách hồi sinh và phục hồi 50% HP cho tất cả các nhân vật trong đội ngã xuống.Hiệu quả này mỗi 15 phút chỉ thi triển 1 lần.",
+        "zh-tw": "施放「仙法·救苦渡厄」時，復甦附近隊伍中所有倒下的角色，並恢復其生命值至50%。該效果每15分鐘只能觸發一次。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/七七/constellation_6.png"
+    }
+  ],
+  "talents": [
+    {
+      "type": "normal_attack",
+      "name": {
+        "pt-pt": "Ataque Normal: Arte da Espada Antiga",
+        "en-us": "Ancient Sword Art",
+        "ja-jp": "雲来古剣法",
+        "zh-cn": "普通攻击·云来古剑法",
+        "ko-kr": "일반 공격·운래의 고대 검법",
+        "ru-ru": "Облачный меч",
+        "de-de": "Standardangriff: Alte Schwertkunst aus den Wolken",
+        "fr-fr": "Attaque normale : Escrime ancienne des nuages",
+        "es-es": "Ataque Normal: Técnica de espada antigua",
+        "id-id": "Normal Attack: Ancient Sword Art",
+        "th-th": "โจมตีปกติ - Ancient Sword Art",
+        "vi-vn": "Tấn Công Thường - Vân Lai Cổ Kiếm Pháp",
+        "zh-tw": "普通攻擊·雲來古劍法"
+      },
+      "description": {
+        "pt-pt": "Ataque NormalRealiza até 5 golpes rápidos.Ataque CarregadoConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.Ataque ImersivoMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "en-us": "Normal AttackPerform up to 5 rapid strikes.Charged AttackConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.Plunging AttackPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+        "ja-jp": "通常攻撃剣による最大5段の連続攻撃を行う。重撃一定のスタミナを消費し、前方に斬撃を2回放つ。落下攻撃空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "zh-cn": "普通攻击进行至多五段的连续剑击。重击消耗一定体力，瞬间向前方挥出两剑。下落攻击从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+        "ko-kr": "일반 공격검으로 최대 5번 공격한다.강공격일정 스태미나를 소모해 순간적으로 전방을 향해 검을 2번 휘두른다.낙하 공격공중에서 땅을 내려찍어 경로상의 적을 공격하고, 착지 시 범위 피해를 준다",
+        "ru-ru": "Обычная атака:До пяти быстрых ударов мечом.Заряженная атака:Два быстрых взмаха мечом, для которых тратится определённое количество выносливости.Атака в падении:Стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+        "de-de": "StandardangriffFührt bis zu 5 Schwerthiebe hintereinander aus.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und schwingt das Schwert zweimal schnell nach vorn.Angriff aus dem FallSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "fr-fr": "Attaque normaleEnchaîne jusqu'à 5 coups d'épée.Attaque chargéeConsomme de l'endurance pour déclencher deux coups d'épée rapides.Attaque plongeantePlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "es-es": "Ataque NormalRealiza hasta 5 ataques rápidos.Ataque CargadoConsume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.Ataque DescendenteSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+        "id-id": "Normal AttackMelancarkan hingga 5 serangan berturut-turut.Charged AttackMengonsumsi sejumlah Stamina untuk melancarkan dua tebasan pedang.Plunging AttackMenerjang dari udara untuk menghantam tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+        "th-th": "โจมตีปกติโจมตีด้วยดาบต่อเนื่องมากสุดห้าครั้งชาร์จโจมตีใช้พลังกายส่วนหนึ่งเพื่อปลดปล่อยดาบ ออกไปข้างหน้าสองเล่มในช่วงเวลาสั้น ๆโจมตีพุ่งลงจากอากาศกระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+        "vi-vn": "Tấn Công ThườngThực hiện tối đa 5 lần đánh kiếm liên tiếp.Trọng KíchTiêu hao thể lực nhất định, đánh ra hai kiếm về phía trước trong chớp mắt.Tấn Công Khi ĐápĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.",
+        "zh-tw": "普通攻擊進行至多五段的連續劍擊。重擊消耗一定體力，瞬間向前方揮出兩劍。下落攻擊從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/七七/battle_talent_0/battle_talent_0.png"
+    },
+    {
+      "type": "elemental_skill",
+      "name": {
+        "pt-pt": "Arte do Adeptus: Arauto da Floresta",
+        "en-us": "Adeptus Art: Herald of Frost",
+        "ja-jp": "仙法・寒病鬼差",
+        "zh-cn": "仙法·寒病鬼差",
+        "ko-kr": "선법·한병의 귀차",
+        "ru-ru": "Искусство Адепта: Вестник стужи",
+        "de-de": "Adeptenkunst: Frostbringer",
+        "fr-fr": "Arcane d'Adepte : Héraut de givre",
+        "es-es": "Magia Adeptus: Heraldo de la escarcha",
+        "id-id": "Adeptus Art: Herald of Frost",
+        "th-th": "Adeptus Art: Herald of Frost",
+        "vi-vn": "Tiên pháp - Hàn Bệnh Quỷ Sai",
+        "zh-tw": "仙法·寒病鬼差"
+      },
+      "description": {
+        "pt-pt": "Ao usar o Talismã das Veias Congelantes, Qiqi invoca o Arauto da Floresta, causando Dano Cryo a todos os inimigos ao redor.Arauto da FlorestaQuando Qiqi atinge um alvo com seu Ataque Normal ou Ataque Carregado, ela regenera Vida para seu próprio personagem e aos personagens aliados ao redor. A Cura aumenta com base no ATQ de Qiqi.Regenera Vida ao seu próprio personagem em intervalos regulares.Segue o personagem ao redor, causando Dano Cryo aos inimigos em seu caminho.Eu uso isso para prevenir o aquecimento e a podridão... dos preciosos ingredientes do Dr. Bai.",
+        "en-us": "Using the Icevein Talisman, Qiqi brings forth the Herald of Frost, dealing Cryo DMG to surrounding opponents.Herald of Frost· On hit, Qiqi's Normal and Charged Attacks regenerate HP for your own party members and nearby teammates. Healing scales based on Qiqi's ATK.· Periodically regenerates your active character's HP.· Follows the character around, dealing Cryo DMG to opponents in their path.I use this to prevent warming and rot... of Dr. Bai's precious ingredients. Yes.",
+        "ja-jp": "氷血がお札となり、寒病鬼差を召喚し、周囲の敵に氷元素ダメージを与える。寒病鬼差・七七の通常攻撃と重撃が命中した時、チーム内の自身のキャラクター全員または付近の味方のHPを回復する。回復量は七七の攻撃力によって決まる。・一定時間の間隔で、出場している自身のキャラクターのHPを回復する。・キャラクターと共に行動し、経路上の敵に氷元素ダメージを与える。「こいつらは温度の上昇による腐敗を防止するためだよ…うん、白先生のあの高い薬剤のことを言ってるのだ。」",
+        "zh-cn": "冰血化符，召唤寒病鬼差，并对周围的敌人造成冰元素伤害。寒病鬼差·七七的普通攻击与重击命中时，为队伍中自己的角色，以及附近的友方角色恢复生命值，回复量受益于七七的攻击力；·每隔一段时间，为当前场上自己的角色恢复生命值；·跟随角色行动，对路径上的敌人造成冰元素伤害。「这家伙主要是用来防止升温腐烂的…嗯，我说的是白先生那些精贵药材。」",
+        "ko-kr": "얼음과 피로 만들어진 부적으로 한병의 귀차를 소환해 주변의 적에게 얼음 원소 피해를 준다.한병의 귀차·치치의 일반 공격과 강공격이 명중 시 자신의 파티 내 모든 캐릭터 및 근처 아군 캐릭터의 HP를 회복한다. 회복량은 치치의 공격력의 영향을 받는다.·일정 시간이 지날 때마다 현재 필드 위에 있는 자신의 캐릭터의 HP를 회복한다.·캐릭터를 따라다니며 경로상의 적에게 얼음 원소 피해를 준다.「얘는 주로 온도가 올라서 부패하는 걸 방지해줘요…. 음, 그러니까 백 선생님의 진귀한 약재들 말이에요」",
+        "ru-ru": "Ци Ци использует талисман Ледяной крови для того, чтобы призвать Вестника стужи, и наносит Крио урон окружающим врагам.Вестник стужи:· Попадания обычной или заряженной атакой восстанавливают определённое количество HP членам отряда и ближайшим союзникам. Количество HP зависит от силы атаки Ци Ци;· Регулярно восстанавливает HP вашему персонажу;· Следует за активным персонажем и наносит Крио урон врагам, которых касается.Я использую этот талисман, чтобы предотвратить нагревание и разложение... драгоценных ингредиентов господина Бай Чжу. Да.",
+        "de-de": "Beschwört den Frostbringer mithilfe des Frostader-Talismans und fügt den Gegnern in der Umgebung Kryo-Schaden zu.Frostbringer· Qiqi stellt bei Treffern mit Standardangriffen und heftigen Schlägen allen eigenen Truppenmitgliedern und befreundeten Einheiten in der Nähe LP basierend auf Qiqis ANG wieder her.· Stellt der aktuellen eigenen Figur in regelmäßigen Abständen LP wieder her.· Fügt den Gegnern in der Bahn gemäß den Bewegungen der Figur Kryo-Schaden zu.„Mein Freund hier dient größtenteils der Frischhaltung ... also für die kostbaren Wirkstoffe von Dr. Baizhu.“",
+        "fr-fr": "Utilise un talisman infusé de glace et de sang pour invoquer un Héraut de givre, infligeant des DGT Cryo aux ennemis à proximité.Héraut de givre· Les attaques normales et chargées de Qiqi restaurent les PV de vos personnages ainsi que des alliés proches lorsqu'elles touchent. La quantité de PV restaurée est proportionnelle à l'ATQ de Qiqi.· Régénère les PV du personnage déployé à intervalles réguliers.· Le héraut suit le personnage déployé et inflige des DGT Cryo aux ennemis sur sa route.« Je l'utilise pour empêcher le réchauffement et la pourriture... des précieux ingrédients de M. Baizhu, bien sûr. »",
+        "es-es": "Usando su talismán de sangre helada, Qiqi invoca al Heraldo de la escarcha, infligiendo Daño Cryo a todos los enemigos cercanos.Heraldo de la escarcha·Cuando Qiqi golpea a un objetivo con sus Ataques Normales o Cargados, regenera Vida para todos los miembros de tu equipo y todos los personajes aliados cercanos. La cantidad de Vida regenerada es proporcional al ATQ de Qiqi.·Regenera una cierta cantidad de Vida del personaje en uso a intervalos regulares.·Sigue al personaje en uso para infligir Daño Cryo a todos los enemigos que se encuentre a su paso.“Utilizo esto para evitar el aumento de la temperatura y la podredumbre de... las valiosas hierbas medicinales del Dr. Baizhu”.",
+        "id-id": "Qiqi memanggil Herald of Frost dengan menggunakan Icevein Talisman dan mengakibatkan Cryo DMG ke musuh di sekitarnya.Herald of Frost·Saat Normal Attack atau Charged Attack Qiqi mengenai musuh, Qiqi akan memulihkan HP anggota party dan karakter teman lainnya. Jumlah HP yang disembuhkan ditentukan berdasarkan ATK Qiqi;·Setiap beberapa saat, Herald of Frost juga akan memulihkan HP karakter yang sedang digunakan;·Mengikuti gerakan karakter dan mengakibatkan Cryo DMG kepada musuh yang dilewati.Aku menggunakan ini supaya tidak busuk... Eh, aku sedang bicara soal bahan-bahan Dr. Bai.",
+        "th-th": "ใช้เครื่องราง Icevein Talisman เพื่อเรียก Herald of Frost ออกมา และสร้าง ความเสียหายน้ำแข็งให้กับศัตรูโดยรอบHerald of Frost·เมื่อการโจมตีปกติหรือชาร์จโจมตีของ Qiqi โดนเป้าหมาย จะทำการฟื้นฟูพลังชีวิตให้แก่ตัวละครของคุณทั้งหมดในทีม รวมถึงตัวละครฝ่ายเดียวกันที่อยู่ใกล้ โดยปริมาณการฟื้นฟูจะขึ้นอยู่กับ พลังโจมตีของ Qiqi·จะทำการฟื้นฟูพลังชีวิตให้แก่ตัวละครของตนเองที่เข้าต่อสู้ในขณะนั้นเป็นช่วง ๆ·เคลื่อนที่ไปพร้อมกับตัวละคร เพื่อสร้างความเสียหายน้ำแข็ง แก่ศัตรูที่อยู่ในเส้นทาง.\"ฉันใช้สิ่งนี้เพื่อป้องกันอุณหภูมิสูงขึ้นและ ป้องกันการเน่าเปื่อย... อื้อ ใช่ ฉันพูดถึงวัตถุดิบยาแสนแพงของคุณ Bai\"",
+        "vi-vn": "Băng huyết hóa bùa chú, triệu hồi Hàn Bệnh Quỷ Sai, đồng thời gây sát thương Nguyên Tố Băng cho địch xung quanh.Hàn Bệnh Quỷ Sai·Khi tấn công thường và trọng kích của Qiqi đánh trúng địch, sẽ hồi HP cho tất cả nhân vật của bản thân trong đội và đồng đội ở gần, lượng hồi phục dựa trên sức tấn công của Qiqi;·Cứ cách một khoảng thời gian sẽ hồi HP cho nhân vật của bản thân trong đội trong trận hiện tại;·Khi nhân vật hành động, gây sát thương nguyên tố Băng cho kẻ địch trên đường đi.\"Cái này dùng để ngăn thối rữa khi nhiệt độ lên cao... Ừm, ý tôi là số thảo dược quý của ngài Bai đó.\"",
+        "zh-tw": "冰血化符，召喚寒病鬼差，並對周圍的敵人造成冰元素傷害。寒病鬼差·七七的普通攻擊與重擊命中時，為隊伍中自己的角色，以及附近的友方角色恢復生命值，回復量受益於七七的攻擊力；·每隔一段時間，為當前場上自己的角色恢復生命值；·跟隨角色行動，對路徑上的敵人造成冰元素傷害。「這傢伙主要是用來防止升溫腐爛的…嗯，我說的是白先生那些精貴藥材。」"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/七七/battle_talent_1/battle_talent_1.png"
+    },
+    {
+      "type": "elemental_burst",
+      "name": {
+        "pt-pt": "Arte do Adeptus: Preservador da Fortuna",
+        "en-us": "Adeptus Art: Preserver of Fortune",
+        "ja-jp": "仙法・救苦度厄",
+        "zh-cn": "仙法·救苦度厄",
+        "ko-kr": "선법·구고도액",
+        "ru-ru": "Искусство Адепта: Хранитель Фортуны",
+        "de-de": "Adeptenkunst: Befreiung vom Leid",
+        "fr-fr": "Arcane d'Adepte : Talisman sacré",
+        "es-es": "Magia Adeptus: Preservadora de la fortuna",
+        "id-id": "Adeptus Art: Preserver of Fortune",
+        "th-th": "Adeptus Art: Preserver of Fortune",
+        "vi-vn": "Tiên Pháp - Cứu Khổ Độ Ách",
+        "zh-tw": "仙法·救苦渡厄"
+      },
+      "description": {
+        "pt-pt": "Qiqi libera o poder do Adeptus selado dentro de si, marcando inimigos próximos com o Amuleto de Preservação da Fortuna que inflige Dano Cryo.Amuleto de Preservação da FortunaQuando inimigos afetados por esse Amuleto recebem Dano, o personagem que causou esse Dano regenera Vida.\"Eu sou a Preservadora da Fortuna, a Criada da Ressureição.\"— Qiqi não lembra destas palavras.",
+        "en-us": "Qiqi releases the adeptus power sealed within her body, marking nearby opponents with a Fortune-Preserving Talisman that deals Cryo DMG.Fortune-Preserving TalismanWhen opponents affected by this Talisman take DMG, the character that dealt this DMG regenerates HP.\"I am the Fortune Preserver, the Maiden of Resurrection.\"— Qiqi does not remember these words.",
+        "ja-jp": "体内に封印された仙力を解放し、度厄のお札で付近の敵にマークをつけ、氷元素ダメージを与える。度厄のお札度厄のお札に影響された敵にダメージを与えた時、そのキャラクター自身のHPを回復する。「本名、救苦度厄真君、起死回骸童子。」——だが七七はこの言葉を思い出せない。",
+        "zh-cn": "七七释放体内封印的仙力，以度厄真符标记附近的敌人，并造成冰元素伤害。度厄真符处于度厄真符影响下的敌人受到伤害时，为造成伤害的角色恢复生命值。「真名，救苦度厄真君，起死回骸童子。」——七七并不能记起这句话。",
+        "ko-kr": "치치가 체내에 봉인된 선력을 해방해 주변의 적에게 도액 부적 표식을 남기고 얼음 원소 피해를 준다.도액 부적도액 부적 표식이 있는 적에게 피해를 주면, 해당 피해를 가한 캐릭터의 HP가 회복된다.「본명, 구고도액진군. 죽다 살아난 해골 동자」——치치는 이 말을 기억하지 못한다",
+        "ru-ru": "Ци Ци выпускает на волю запечатанную в её теле мощь Адептов, помечая ближайших врагов талисманом Фортуны, который наносит им Крио урон.Талисман ФортуныПомеченные талисманом Фортуны враги при получении урона восстанавливают HP нанёсшего урон персонажа.«Я хранитель Фортуны, бессмертный ребёнок»Слова, давно позабытые Ци Ци.",
+        "de-de": "Qiqi lässt der adeptischen Kraft, die in ihrem Körper versiegelt ist, freien Lauf, markiert Gegner in der Nähe mit ihrem Leidbefreiungs-Talisman und verursacht Kryo-Schaden.Leidbefreiungs-TalismanStellt Figuren, die vom Effekt des Leidbefreiungs-Talismans betroffenen Gegnern Schaden zufügen, LP wieder her.„Ich bin die Fürstin der Befreiung von Leid und Elend“, das wiederauferstandene Kind.- An diese Worte erinnert sich Qiqi längst nicht mehr.",
+        "fr-fr": "Qiqi libère le pouvoir d'Adepte scellé en elle et marque les ennemis d'un talisman qui leur inflige des DGT Cryo.TalismanLes personnages récupèrent des PV équivalant aux DGT subis par les ennemis marqués.« Je suis l'envoyée de la Providence, le symbole de la renaissance. »— Qiqi est bien incapable de se rappeler de ces mots.",
+        "es-es": "Qiqi libera el poder Adeptus sellado dentro de su cuerpo, marcando a los enemigos cercanos con un talismán de conservación de la fortuna que inflige Daño Cryo.Talismán de conservación de la fortunaCuando los enemigos marcados con el talismán reciben daño, el personaje que infligió el daño regenera Vida para sí mismo.“Soy la Preservadora de la Fortuna, la Doncella de la Resurrección”.—Qiqi no recuerda cuándo dijo estas palabras.",
+        "id-id": "Qiqi mengerahkan kekuatan Adeptus yang disegel di dalam tubuhnya dan menandai musuh di sekitar dengan jimat keberuntungan yang mengakibatkan Cryo DMG.Fortune-Preserving TalismanSaat musuh yang telah ditandai menerima DMG, maka karakter yang mengakibatkan DMG tersebut akan menerima pemulihan HP.\"Aku adalah Penjaga Keberuntungan, sang Gadis Kebangkitan.\"—Qiqi tidak ingat kata-kata ini.",
+        "th-th": "Qiqi ปลดปล่อยพลังแห่งเซียนที่ผนึกไว้ ในร่างของเธอ ทำสัญลักษณ์ Fortune-Preserving Talisman บนศัตรูที่อยู่ใกล้เคียง และสร้าง ความเสียหายน้ำแข็งFortune-Preserving Talismanเมื่อศัตรูที่ได้รับผลกระทบของ Fortune-Preserving Talisman ได้รับความเสียหาย จะทำการฟื้นฟูพลังชีวิตให้แก่ตัวละคร ที่สร้างความเสียหาย.\"ชื่อจริงของฉันคือ ผู้พิทักษ์จากความชั่วร้าย เด็กผู้ไม่มีวันตาย\" - Qiqi จำคำพูดพวกนี้ไม่ได้แล้ว",
+        "vi-vn": "Tiên lực phong ấn bên trong người Qiqi, dùng Bùa Độ Ách Chân đánh dấu kẻ địch xung quanh và gây sát thương nguyên tố Băng.Bùa Độ Ách ChânKhi địch bị ảnh hưởng bởi Bùa Độ Ách Chân chịu sát thương, sẽ hồi HP cho nhân vật gây sát thương.\"Tên thật, cứu khổ độ ách chân quân, cải tử hoàn hài đồng tử\"Qiqi không tài nào nhớ nổi câu này.",
+        "zh-tw": "七七釋放體內封印的仙力，以渡厄真符標記附近的敵人，並造成冰元素傷害。渡厄真符處於渡厄真符影響下的敵人受到傷害時，為造成傷害的角色恢復生命值。「真名，救苦渡厄真君，起死回骸童子。」——七七並不能記起這句話。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/七七/battle_talent_2/battle_talent_2.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Métodos que Prolongam a Vida",
+        "en-us": "Life-Prolonging Methods",
+        "ja-jp": "延命妙法",
+        "zh-cn": "延命妙法",
+        "ko-kr": "생명 연장의 묘법",
+        "ru-ru": "Долголетие",
+        "de-de": "Technik der Langlebigkeit",
+        "fr-fr": "Survie en milieu hostile",
+        "es-es": "Elixir de vida",
+        "id-id": "Life-Prolonging Methods",
+        "th-th": "Life-Prolonging Methods",
+        "vi-vn": "Diệu Pháp Trường Thọ",
+        "zh-tw": "延命妙法"
+      },
+      "description": {
+        "pt-pt": "Quando um personagem está sob o efeito de Arte do Adeptus: Arauto da Floresta aciona uma Reação Elemental, seu Bônus de Cura Recebido é aumentado em 20% por 8 segundos.",
+        "en-us": "When a character under the effects of Adeptus Art: Herald of Frost triggers an Elemental Reaction, their Incoming Healing Bonus is increased by 20% for 8s.",
+        "ja-jp": "仙法·寒病鬼差状態時のキャラクターが元素反応を起こした時、受ける治療効果+20%、継続時間8秒。",
+        "zh-cn": "处于仙法·寒病鬼差状态下的角色触发元素反应时，受治疗加成提升20%，持续8秒。",
+        "ko-kr": "선법·한병의 귀차 상태의 캐릭터가 원소 반응을 일으키면 받는 치유 보너스가 20% 상승한다. 지속 시간: 8초",
+        "ru-ru": "Когда персонаж, находящийся под эффектами навыка Искусство Адепта: Вестник стужи, совершает элементальную реакцию, его бонус получаемого лечения увеличивается на 20% в течение 8 сек.",
+        "de-de": "Erhöht den passiven Heilungsbonus beim Auslösen von Elementarreaktionen durch Figuren im Zustand Adeptenkunst – Frostbringer 8 s lang um 20 %.",
+        "fr-fr": "Lorsqu'un personnage sous l'effet d'Arcane d'Adepte : Héraut de givre déclenche une réaction élémentaire, il gagne un bonus de soins reçus de 20 % pendant 8 s.",
+        "es-es": "Cuando un personaje bajo el efecto de Magia Adeptus: Heraldo de la escarcha provoca una Reacción Elemental, aumenta su Bono de Curación recibida en un 20% durante 8 s.",
+        "id-id": "Meningkatkan 20% Bonus Pemulihan karakter selama 8 detik saat karakter dalam efek Adeptus Art: Herald of Frost memicu reaksi elemental.",
+        "th-th": "เมื่อตัวละครที่อยู่ภายใต้สภาวะ Adeptus Art: Herald of Frost ทำให้เกิดปฏิกิริยาทางธาตุขึ้น โบนัสการถูกรักษาจะเพิ่มขึ้น 20% เป็นเวลา 8 วินาที",
+        "vi-vn": "Khi nhân vật kích hoạt phản ứng nguyên tố trong Tiên Pháp - Hàn Bệnh Quỷ Sai, tăng nhận trị liệu 20%, kéo dài 8s.",
+        "zh-tw": "處於仙法·寒病鬼差狀態下的角色觸發元素反應時，受治療加成提升20%，持續8秒。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/七七/const_talent_0.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Um Vislumbre do Arcano",
+        "en-us": "A Glimpse Into Arcanum",
+        "ja-jp": "玉籤偶開",
+        "zh-cn": "玉签偶开",
+        "ko-kr": "우연히 얻은 옥첨",
+        "ru-ru": "Созерцание тайн волшебства",
+        "de-de": "Blick ins Ungewisse",
+        "fr-fr": "Ouverture des arcanes",
+        "es-es": "Apertura arcana",
+        "id-id": "A Glimpse Into Arcanum",
+        "th-th": "A Glimpse into Arcanum",
+        "vi-vn": "Thăm Ngọc Ngẫu Nhiên",
+        "zh-tw": "玉籤偶開"
+      },
+      "description": {
+        "pt-pt": "Quando Qiqi atinge inimigos com seus Ataques normais e Carregados, ela tem 50% de chance de aplicar um Talismã de preservação de fortuna a eles por 6s. Este efeito pode ser ativado apenas uma vez a cada 30s.",
+        "en-us": "When Qiqi hits opponents with her Normal and Charged Attacks, she has a 50% chance to apply a Fortune-Preserving Talisman to them for 6s. This effect can only occur once every 30s.",
+        "ja-jp": "七七の通常攻撃と重撃が敵に命中した時、50%の確率で敵に度厄のお札を1枚付与する、継続時間6秒、30秒毎に1回のみ発動可能。",
+        "zh-cn": "七七的普通攻击与重击命中敌人时，有50%的几率为敌人添加一枚度厄真符，持续6秒。该效果每30秒只能触发一次。",
+        "ko-kr": "치치의 일반 공격과 강공격이 적을 명중 시 50%의 확률로 적에게 도액 부적을 한 장 부여한다. 지속 시간: 6초. 해당 효과는 30초마다 1회만 발동한다",
+        "ru-ru": "При попадании обычной и заряженной атакой у Ци Ци есть 50% шанс применить на них талисман Фортуны на 6 сек. Может возникнуть раз в 30 сек.",
+        "de-de": "Fügt mit Standardangriffen und heftigen Schlägen von Qiqi getroffenen Gegnern mit einer Wahrscheinlichkeit von 50 % einen Leidbefreiungs-Talisman hinzu, hält 6 s. 30 s Abklingzeit",
+        "fr-fr": "Les attaques normales et chargées de Qiqi ont 50 % de chances de marquer l'ennemi touché d'un talisman pendant 6 s. Cet effet peut être déclenché une fois toutes les 30 s.",
+        "es-es": "Cuando Qiqi golpea a sus enemigos con Ataque Normal o Ataque Cargado, tiene un 50% de probabilidad de ponerles un talismán de conservación de la fortuna durante 6 s. Este efecto solo puede activarse una vez cada 30 s.",
+        "id-id": "Saat Qiqi menyerang musuh dengan Normal dan Charged Attack, Qiqi memiliki 50% kemungkinan untuk memberikan Fortune-Preserving Talisman kepada musuh selama 6 detik. Efek ini dapat terpicu setiap 30 detik.",
+        "th-th": "เมื่อ Qiqi โจมตีปกติหรือชาร์จโจมตีถูกศัตรู มีโอกาส 50% ที่จะใช้ Fortune-Preserving Talisman กับศัตรูเป็นเวลา 6 วินาที เอฟเฟกต์นี้จะเกิดขึ้นได้หนึ่งครั้งในทุก 30 วินาที",
+        "vi-vn": "Khi tấn công thường và trọng kích của Qiqi đánh trúng địch, có 50% cơ hội để thêm cho mỗi kẻ địch một tấm Bùa Độ Ách Chân, kéo dài 6s. Hiệu quả này mỗi 30s chỉ kích hoạt 1 lần.",
+        "zh-tw": "七七的普通攻擊與重擊命中敵人時，有50%的機率對敵人施加一枚渡厄真符，持續6秒。該效果每30秒只能觸發一次。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/七七/const_talent_1.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Memórias da Vida Passada",
+        "en-us": "Former Life Memories",
+        "ja-jp": "往事記憶",
+        "zh-cn": "前尘旧忆",
+        "ko-kr": "지나간 기억",
+        "ru-ru": "Пыльные воспоминания",
+        "de-de": "Alte Zeiten",
+        "fr-fr": "Souvenir d'une vie lointaine",
+        "es-es": "Recuerdos de una vida pasada",
+        "id-id": "Former Life Memories",
+        "th-th": "Former Life Memories",
+        "vi-vn": "Chuyện Xưa Năm Cũ",
+        "zh-tw": "前塵舊憶"
+      },
+      "description": {
+        "pt-pt": "Mostra a localização de Especialidades de Liyue próximos no mapa.",
+        "en-us": "Displays the location of nearby resources unique to Liyue on the mini-map.",
+        "ja-jp": "ミニマップで周囲の璃月地域の特産の位置を表示する。",
+        "zh-cn": "在小地图上显示周围的璃月区域特产的位置。",
+        "ko-kr": "미니맵에 주위의 리월 지역 특산물 위치가 나타난다",
+        "ru-ru": "Отмечает диковины Ли Юэ на мини-карте.",
+        "de-de": "Zeigt alle Besonderheiten Liyues in der Nähe auf der Minikarte an.",
+        "fr-fr": "Affiche l'emplacement des produits de Liyue sur la mini-carte.",
+        "es-es": "Muestra la ubicación de los objetos típicos de Liyue cercanos en el minimapa.",
+        "id-id": "Memperlihatkan lokasi produk khas Liyue di sekitar pada mini-map.",
+        "th-th": "แสดงตำแหน่งของของพิเศษเฉพาะใน Liyue ในมินิแมป",
+        "vi-vn": "Hiển thị đặc sản khu vực Liyue trên bản đồ nhỏ.",
+        "zh-tw": "在小地圖上顯示週圍的璃月區域特產的位置。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/七七/const_talent_2.png"
+    }
+  ],
+  "talentAttributes": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Arte da Espada Antiga",
+        "en-us": "Ancient Sword Art",
+        "ja-jp": "雲来古剣法",
+        "zh-cn": "普通攻击·云来古剑法",
+        "ko-kr": "일반 공격·운래의 고대 검법",
+        "ru-ru": "Облачный меч",
+        "de-de": "Standardangriff: Alte Schwertkunst aus den Wolken",
+        "fr-fr": "Attaque normale : Escrime ancienne des nuages",
+        "es-es": "Ataque Normal: Técnica de espada antigua",
+        "id-id": "Normal Attack: Ancient Sword Art",
+        "th-th": "โจมตีปกติ - Ancient Sword Art",
+        "vi-vn": "Tấn Công Thường - Vân Lai Cổ Kiếm Pháp",
+        "zh-tw": "普通攻擊·雲來古劍法"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": ".Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 1° Golpe",
+            "en-us": "1-Hit DMG",
+            "ja-jp": "1段ダメージ",
+            "zh-cn": "一段伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон атаки 1",
+            "de-de": "SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tahap 1",
+            "th-th": "ความเสียหายขั้น 1",
+            "vi-vn": "Sát Thương Lần 1",
+            "zh-tw": "一段傷害"
+          },
+          "values": [
+            "37.8%",
+            "40.8%",
+            "43.9%",
+            "48.3%",
+            "51.4%",
+            "54.9%",
+            "59.7%",
+            "64.5%",
+            "69.4%",
+            "74.6%",
+            "79.9%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 2° Golpe",
+            "en-us": "2-Hit DMG",
+            "ja-jp": "2段ダメージ",
+            "zh-cn": "二段伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон атаки 2",
+            "de-de": "SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2.º golpe",
+            "id-id": "DMG Tahap 2",
+            "th-th": "ความเสียหายขั้น 2",
+            "vi-vn": "Sát Thương Lần 2",
+            "zh-tw": "二段傷害"
+          },
+          "values": [
+            "38.9%",
+            "42%",
+            "45.2%",
+            "49.7%",
+            "52.9%",
+            "56.5%",
+            "61.5%",
+            "66.4%",
+            "71.4%",
+            "76.8%",
+            "82.3%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 3° Golpe",
+            "en-us": "3-Hit DMG",
+            "ja-jp": "3段ダメージ",
+            "zh-cn": "三段伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон атаки 3",
+            "de-de": "SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tahap 3",
+            "th-th": "ความเสียหายขั้น 3",
+            "vi-vn": "Sát Thương Lần 3",
+            "zh-tw": "三段傷害"
+          },
+          "values": [
+            "24.2%+24.2%",
+            "26.1%+26.1%",
+            "28.1%+28.1%",
+            "30.9%+30.9%",
+            "32.9%+32.9%",
+            "35.1%+35.1%",
+            "38.2%+38.2%",
+            "41.3%+41.3%",
+            "44.4%+44.4%",
+            "47.8%+47.8%",
+            "51.1%+51.1%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 4° Golpe",
+            "en-us": "4-Hit DMG",
+            "ja-jp": "4段ダメージ",
+            "zh-cn": "四段伤害",
+            "ko-kr": "4단 공격 피해",
+            "ru-ru": "Урон атаки 4",
+            "de-de": "SCH Phase 4",
+            "fr-fr": "DGT 4e coup",
+            "es-es": "Daño de 4.º golpe",
+            "id-id": "DMG Tahap 4",
+            "th-th": "ความเสียหายขั้น 4",
+            "vi-vn": "Sát Thương Lần 4",
+            "zh-tw": "四段傷害"
+          },
+          "values": [
+            "24.7%+24.7%",
+            "26.7%+26.7%",
+            "28.7%+28.7%",
+            "31.6%+31.6%",
+            "33.6%+33.6%",
+            "35.9%+35.9%",
+            "39.0%+39.0%",
+            "42.2%+42.2%",
+            "45.3%+45.3%",
+            "48.8%+48.8%",
+            "52.2%+52.2%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 5° Golpe",
+            "en-us": "5-Hit DMG",
+            "ja-jp": "5段ダメージ",
+            "zh-cn": "五段伤害",
+            "ko-kr": "5단 공격 피해",
+            "ru-ru": "Урон атаки 5",
+            "de-de": "SCH Phase 5",
+            "fr-fr": "DGT 5e coup",
+            "es-es": "Daño de 5.º golpe",
+            "id-id": "DMG Tahap 5",
+            "th-th": "ความเสียหายขั้น 5",
+            "vi-vn": "Sát Thương Lần 5",
+            "zh-tw": "五段傷害"
+          },
+          "values": [
+            "63%",
+            "68.2%",
+            "73.3%",
+            "80.6%",
+            "85.8%",
+            "91.6%",
+            "99.7%",
+            "108%",
+            "116%",
+            "125%",
+            "133%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Ataque Carregado",
+            "en-us": "Charged Attack DMG",
+            "ja-jp": "重撃ダメージ",
+            "zh-cn": "重击伤害",
+            "ko-kr": "강공격 피해",
+            "ru-ru": "Урон заряженной атаки",
+            "de-de": "SCH heftiger Schläge",
+            "fr-fr": "DGT attaque chargée",
+            "es-es": "Daño de ATQ Cargado",
+            "id-id": "DMG Charged Attack",
+            "th-th": "ความเสียหายชาร์จโจมตี",
+            "vi-vn": "Sát Thương Trọng Kích",
+            "zh-tw": "重擊傷害"
+          },
+          "values": [
+            "64.3%+64.3%",
+            "69.6%+69.6%",
+            "74.8%+74.8%",
+            "82.3%+82.3%",
+            "87.5%+87.5%",
+            "93.5%+93.5%",
+            "102%+102%",
+            "110%+110%",
+            "118%+118%",
+            "127%+127%",
+            "136%+136%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Consumo de Stamina de Ataque Carregado",
+            "en-us": "Charged Attack Stamina Cost",
+            "ja-jp": "重撃スタミナ消費",
+            "zh-cn": "重击体力消耗",
+            "ko-kr": "강공격 스태미나 소모",
+            "ru-ru": "Потребление выносливости",
+            "de-de": "Ausdauerverbrauch heftiger Schläge",
+            "fr-fr": "Coût d'endurance attaque chargée",
+            "es-es": "Coste de Aguante de ATQ Cargado",
+            "id-id": "Konsumsi Stamina Charged Attack",
+            "th-th": "ชาร์จโจมตีใช้พลังกาย",
+            "vi-vn": "Thể lực Trọng Kích tiêu hao",
+            "zh-tw": "重擊體力消耗"
+          },
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Durante a Queda",
+            "en-us": "Plunge DMG",
+            "ja-jp": "落下期間のダメージ",
+            "zh-cn": "下坠期间伤害",
+            "ko-kr": "낙하 기간 피해",
+            "ru-ru": "Урон в падении",
+            "de-de": "SCH beim Fallen",
+            "fr-fr": "DGT durant la chute",
+            "es-es": "Daño de Caída",
+            "id-id": "DMG Selama Plunging",
+            "th-th": "ความเสียหายพุ่งลง",
+            "vi-vn": "Sát Thương Khi Rơi",
+            "zh-tw": "下墜期間傷害"
+          },
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101%",
+            "109%",
+            "117%",
+            "126%",
+            "135%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Queda de Baixa/Alta Altitude",
+            "en-us": "Low/High Plunge DMG",
+            "ja-jp": "低空/高空落下攻撃ダメージ",
+            "zh-cn": "低空/高空坠地冲击伤害",
+            "ko-kr": "저공/고공 추락 충격 피해",
+            "ru-ru": "Урон низкого/высокого удара",
+            "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
+            "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Daño de impacto de caída baja/alta",
+            "id-id": "DMG Plunging Attack Min./Maks.",
+            "th-th": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+            "vi-vn": "Sát Thương Khi Rơi Từ Độ Cao Thấp/Cao",
+            "zh-tw": "低空/高空墜地衝擊傷害"
+          },
+          "values": [
+            "128%/160%",
+            "138%/173%",
+            "149%/186%",
+            "164%/204%",
+            "174%/217%",
+            "186%/232%",
+            "202%/253%",
+            "219%/273%",
+            "235%/293%",
+            "253%/316%",
+            "271%/338%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_skill",
+      "talentName": {
+        "pt-pt": "Arte do Adeptus: Arauto da Floresta",
+        "en-us": "Adeptus Art: Herald of Frost",
+        "ja-jp": "仙法・寒病鬼差",
+        "zh-cn": "仙法·寒病鬼差",
+        "ko-kr": "선법·한병의 귀차",
+        "ru-ru": "Искусство Адепта: Вестник стужи",
+        "de-de": "Adeptenkunst: Frostbringer",
+        "fr-fr": "Arcane d'Adepte : Héraut de givre",
+        "es-es": "Magia Adeptus: Heraldo de la escarcha",
+        "id-id": "Adeptus Art: Herald of Frost",
+        "th-th": "Adeptus Art: Herald of Frost",
+        "vi-vn": "Tiên pháp - Hàn Bệnh Quỷ Sai",
+        "zh-tw": "仙法·寒病鬼差"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Habilidade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "96%",
+            "103%",
+            "110%",
+            "120%",
+            "127%",
+            "134%",
+            "144%",
+            "154%",
+            "163%",
+            "173%",
+            "182%",
+            "192%",
+            "204%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Regeneração de Vida por Acerto",
+            "en-us": "Regeneration on Hit",
+            "ja-jp": "命中による回復量",
+            "zh-cn": "命中治疗量",
+            "ko-kr": "명중 치유량",
+            "ru-ru": "Лечение/попадание",
+            "de-de": "Heilung bei Treffer",
+            "fr-fr": "Soins équipe",
+            "es-es": "Curación al atacar",
+            "id-id": "Pemulihan HP/Hit",
+            "th-th": "การรักษาเมื่อโจมตี",
+            "vi-vn": "Hồi HP khi đánh trúng địch",
+            "zh-tw": "命中治療量"
+          },
+          "values": [
+            "10.56% do ATQ +67",
+            "11.35% do ATQ +74",
+            "12.14% do ATQ +81",
+            "13.20% do ATQ +89",
+            "13.99% do ATQ +98",
+            "14.28% do ATQ +107",
+            "15.84% do ATQ +116",
+            "16.90% do ATQ +126",
+            "17.95% do ATQ +137",
+            "19.01% do ATQ +148",
+            "20.06% do ATQ +160",
+            "21.12% do ATQ +172",
+            "22.44% do ATQ +185"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Regeneração Contínua",
+            "en-us": "Continuous Regeneration",
+            "ja-jp": "継続回復量",
+            "zh-cn": "持续治疗量",
+            "ko-kr": "지속 치유량",
+            "ru-ru": "Регенерация",
+            "de-de": "Fortlaufende Heilung",
+            "fr-fr": "Soins continus",
+            "es-es": "Curación continua",
+            "id-id": "Regenerasi HP",
+            "th-th": "การรักษาต่อเนื่อง",
+            "vi-vn": "Kéo dài trị liệu",
+            "zh-tw": "持續治療量"
+          },
+          "values": [
+            "69.60% do ATQ +451",
+            "74.82% do ATQ +496",
+            "80.04% do ATQ +544",
+            "87.00% do ATQ +597",
+            "92.22% do ATQ +653",
+            "97.44% do ATQ +713",
+            "104.40% do ATQ +777",
+            "111.36% do ATQ +845",
+            "118.32% do ATQ +916",
+            "125.28% do ATQ +991",
+            "132.24% do ATQ +1070",
+            "139.20% do ATQ +1153",
+            "147.90% do ATQ +1239"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do Arauto da Floresta",
+            "en-us": "Herald of Frost DMG",
+            "ja-jp": "寒病鬼差ダメージ",
+            "zh-cn": "寒病鬼差伤害",
+            "ko-kr": "한병의 귀차 피해",
+            "ru-ru": "Урон Вестника стужи",
+            "de-de": "Frostbringer-SCH",
+            "fr-fr": "DGT Héraut de givre",
+            "es-es": "Daño de Heraldo de la escarcha",
+            "id-id": "DMG Herald of Frost",
+            "th-th": "ความเสียหาย Herald of Frost",
+            "vi-vn": "Sát thương Hàn Bệnh Quỷ Sai",
+            "zh-tw": "寒病鬼差傷害"
+          },
+          "values": [
+            "36%",
+            "38.7%",
+            "41.4%",
+            "45%",
+            "47.7%",
+            "50.4%",
+            "54%",
+            "57.6%",
+            "61.2%",
+            "64.8%",
+            "68%",
+            "72%",
+            "76.5%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração",
+            "en-us": "Duration",
+            "ja-jp": "継続時間",
+            "zh-cn": "持续时间",
+            "ko-kr": "지속 시간",
+            "ru-ru": "Длительность",
+            "de-de": "Dauer",
+            "fr-fr": "Durée",
+            "es-es": "Duración",
+            "id-id": "Durasi",
+            "th-th": "ระยะเวลาต่อเนื่อง",
+            "vi-vn": "Thời Gian Kéo Dài",
+            "zh-tw": "持續時間"
+          },
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s",
+            "30s"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_burst",
+      "talentName": {
+        "pt-pt": "Arte do Adeptus: Preservador da Fortuna",
+        "en-us": "Adeptus Art: Preserver of Fortune",
+        "ja-jp": "仙法・救苦度厄",
+        "zh-cn": "仙法·救苦度厄",
+        "ko-kr": "선법·구고도액",
+        "ru-ru": "Искусство Адепта: Хранитель Фортуны",
+        "de-de": "Adeptenkunst: Befreiung vom Leid",
+        "fr-fr": "Arcane d'Adepte : Talisman sacré",
+        "es-es": "Magia Adeptus: Preservadora de la fortuna",
+        "id-id": "Adeptus Art: Preserver of Fortune",
+        "th-th": "Adeptus Art: Preserver of Fortune",
+        "vi-vn": "Tiên Pháp - Cứu Khổ Độ Ách",
+        "zh-tw": "仙法·救苦渡厄"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Habilidade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "285%",
+            "306%",
+            "328%",
+            "356%",
+            "377%",
+            "399%",
+            "427%",
+            "456%",
+            "484%",
+            "513%",
+            "541%",
+            "570%",
+            "605%",
+            "641%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Cura",
+            "en-us": "Healing",
+            "ja-jp": "回復量",
+            "zh-cn": "治疗量",
+            "ko-kr": "치유량",
+            "ru-ru": "Лечение",
+            "de-de": "Heilung",
+            "fr-fr": "Soins",
+            "es-es": "Curación",
+            "id-id": "Pemulihan HP",
+            "th-th": "ปริมาณการรักษา",
+            "vi-vn": "Lượng trị liệu",
+            "zh-tw": "治療量"
+          },
+          "values": [
+            "90.0% ATQ+577",
+            "96.8% ATQ+635",
+            "104.0% ATQ+698",
+            "113.0% ATQ+765",
+            "119.0% ATQ+837",
+            "126.0% ATQ+914",
+            "135.0% ATQ+996",
+            "144.0% ATQ+1083",
+            "153.0% ATQ+1174",
+            "162.0% ATQ+1270",
+            "171.0% ATQ+1371",
+            "180.0% ATQ+1477",
+            "191.0% ATQ+1588",
+            "203.0% ATQ+1703"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração",
+            "en-us": "Duration",
+            "ja-jp": "継続時間",
+            "zh-cn": "持续时间",
+            "ko-kr": "지속 시간",
+            "ru-ru": "Длительность",
+            "de-de": "Dauer",
+            "fr-fr": "Durée",
+            "es-es": "Duración",
+            "id-id": "Durasi",
+            "th-th": "ระยะเวลาต่อเนื่อง",
+            "vi-vn": "Thời Gian Kéo Dài",
+            "zh-tw": "持續時間"
+          },
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "เวลาคูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Energia Elemental",
+            "en-us": "Energy Cost",
+            "ja-jp": "元素エネルギー",
+            "zh-cn": "元素能量",
+            "ko-kr": "원소 에너지",
+            "ru-ru": "Потребление энергии",
+            "de-de": "Elementarenergie",
+            "fr-fr": "Énergie élémentaire",
+            "es-es": "Energía Elemental",
+            "id-id": "Konsumsi Energy",
+            "th-th": "พลังงานธาตุ",
+            "vi-vn": "Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量"
+          },
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "talentMaterials": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Arte da Espada Antiga",
+        "en-us": "Ancient Sword Art",
+        "ja-jp": "雲来古剣法",
+        "zh-cn": "普通攻击·云来古剑法",
+        "ko-kr": "일반 공격·운래의 고대 검법",
+        "ru-ru": "Облачный меч",
+        "de-de": "Standardangriff: Alte Schwertkunst aus den Wolken",
+        "fr-fr": "Attaque normale : Escrime ancienne des nuages",
+        "es-es": "Ataque Normal: Técnica de espada antigua",
+        "id-id": "Normal Attack: Ancient Sword Art",
+        "th-th": "โจมตีปกติ - Ancient Sword Art",
+        "vi-vn": "Tấn Công Thường - Vân Lai Cổ Kiếm Pháp",
+        "zh-tw": "普通攻擊·雲來古劍法"
+      },
+      "materials": [
+        {
+          "level": 2,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 12500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "152",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Ensinamentos de Prosperidade",
+                "en-us": "Teachings of Prosperity",
+                "ja-jp": "繁栄の教え",
+                "zh-cn": "繁荣的教导",
+                "ko-kr": "번영의 가르침",
+                "ru-ru": "Учения о Процветании",
+                "de-de": "Lehren des Wohlstands",
+                "fr-fr": "Enseignement de la Prospérité",
+                "es-es": "Enseñanzas de la prosperidad",
+                "id-id": "Teachings of Prosperity",
+                "th-th": "Teachings of Prosperity",
+                "vi-vn": "Bài Giảng Của Phồn Vinh",
+                "zh-tw": "繁榮的教導"
+              }
+            },
+            {
+              "id": "630",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Pergaminho Guia",
+                "en-us": "Divining Scroll",
+                "ja-jp": "占いの絵巻",
+                "zh-cn": "导能绘卷",
+                "ko-kr": "이능 두루마리",
+                "ru-ru": "Свиток божественной магии",
+                "de-de": "Leitende Schriftrolle",
+                "fr-fr": "Parchemin divinatoire",
+                "es-es": "Pergamino guía",
+                "id-id": "Divining Scroll",
+                "th-th": "Divining Scroll",
+                "vi-vn": "Bản Vẽ Hướng Dẫn",
+                "zh-tw": "導能繪卷"
+              }
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 17500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "151",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Guia de Prosperidade",
+                "en-us": "Guide to Prosperity",
+                "ja-jp": "繁栄の導き",
+                "zh-cn": "繁荣的指引",
+                "ko-kr": "번영의 인도",
+                "ru-ru": "Указания о Процветании",
+                "de-de": "Anleitung zum Wohlstand",
+                "fr-fr": "Guide de la Prospérité",
+                "es-es": "Guía de la prosperidad",
+                "id-id": "Guide to Prosperity",
+                "th-th": "Guide to Prosperity",
+                "vi-vn": "Hướng Dẫn Của Phồn Vinh",
+                "zh-tw": "繁榮的指引"
+              }
+            },
+            {
+              "id": "634",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Pergaminho do Encantamento",
+                "en-us": "Sealed Scroll",
+                "ja-jp": "封魔の絵巻",
+                "zh-cn": "封魔绘卷",
+                "ko-kr": "봉마의 두루마리",
+                "ru-ru": "Свиток печати",
+                "de-de": "Zaubersiegel-Schriftrolle",
+                "fr-fr": "Parchemin sigillé",
+                "es-es": "Pergamino hechizado",
+                "id-id": "Sealed Scroll",
+                "th-th": "Seal Scroll",
+                "vi-vn": "Bản Vẽ Phong Ấn",
+                "zh-tw": "封魔繪卷"
+              }
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 25000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "151",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Guia de Prosperidade",
+                "en-us": "Guide to Prosperity",
+                "ja-jp": "繁栄の導き",
+                "zh-cn": "繁荣的指引",
+                "ko-kr": "번영의 인도",
+                "ru-ru": "Указания о Процветании",
+                "de-de": "Anleitung zum Wohlstand",
+                "fr-fr": "Guide de la Prospérité",
+                "es-es": "Guía de la prosperidad",
+                "id-id": "Guide to Prosperity",
+                "th-th": "Guide to Prosperity",
+                "vi-vn": "Hướng Dẫn Của Phồn Vinh",
+                "zh-tw": "繁榮的指引"
+              }
+            },
+            {
+              "id": "634",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Pergaminho do Encantamento",
+                "en-us": "Sealed Scroll",
+                "ja-jp": "封魔の絵巻",
+                "zh-cn": "封魔绘卷",
+                "ko-kr": "봉마의 두루마리",
+                "ru-ru": "Свиток печати",
+                "de-de": "Zaubersiegel-Schriftrolle",
+                "fr-fr": "Parchemin sigillé",
+                "es-es": "Pergamino hechizado",
+                "id-id": "Sealed Scroll",
+                "th-th": "Seal Scroll",
+                "vi-vn": "Bản Vẽ Phong Ấn",
+                "zh-tw": "封魔繪卷"
+              }
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 30000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "151",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Guia de Prosperidade",
+                "en-us": "Guide to Prosperity",
+                "ja-jp": "繁栄の導き",
+                "zh-cn": "繁荣的指引",
+                "ko-kr": "번영의 인도",
+                "ru-ru": "Указания о Процветании",
+                "de-de": "Anleitung zum Wohlstand",
+                "fr-fr": "Guide de la Prospérité",
+                "es-es": "Guía de la prosperidad",
+                "id-id": "Guide to Prosperity",
+                "th-th": "Guide to Prosperity",
+                "vi-vn": "Hướng Dẫn Của Phồn Vinh",
+                "zh-tw": "繁榮的指引"
+              }
+            },
+            {
+              "id": "634",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Pergaminho do Encantamento",
+                "en-us": "Sealed Scroll",
+                "ja-jp": "封魔の絵巻",
+                "zh-cn": "封魔绘卷",
+                "ko-kr": "봉마의 두루마리",
+                "ru-ru": "Свиток печати",
+                "de-de": "Zaubersiegel-Schriftrolle",
+                "fr-fr": "Parchemin sigillé",
+                "es-es": "Pergamino hechizado",
+                "id-id": "Sealed Scroll",
+                "th-th": "Seal Scroll",
+                "vi-vn": "Bản Vẽ Phong Ấn",
+                "zh-tw": "封魔繪卷"
+              }
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 37500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "151",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Guia de Prosperidade",
+                "en-us": "Guide to Prosperity",
+                "ja-jp": "繁栄の導き",
+                "zh-cn": "繁荣的指引",
+                "ko-kr": "번영의 인도",
+                "ru-ru": "Указания о Процветании",
+                "de-de": "Anleitung zum Wohlstand",
+                "fr-fr": "Guide de la Prospérité",
+                "es-es": "Guía de la prosperidad",
+                "id-id": "Guide to Prosperity",
+                "th-th": "Guide to Prosperity",
+                "vi-vn": "Hướng Dẫn Của Phồn Vinh",
+                "zh-tw": "繁榮的指引"
+              }
+            },
+            {
+              "id": "634",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Pergaminho do Encantamento",
+                "en-us": "Sealed Scroll",
+                "ja-jp": "封魔の絵巻",
+                "zh-cn": "封魔绘卷",
+                "ko-kr": "봉마의 두루마리",
+                "ru-ru": "Свиток печати",
+                "de-de": "Zaubersiegel-Schriftrolle",
+                "fr-fr": "Parchemin sigillé",
+                "es-es": "Pergamino hechizado",
+                "id-id": "Sealed Scroll",
+                "th-th": "Seal Scroll",
+                "vi-vn": "Bản Vẽ Phong Ấn",
+                "zh-tw": "封魔繪卷"
+              }
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 120000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "150",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Filosofia de Prosperidade",
+                "en-us": "Philosophies of Prosperity",
+                "ja-jp": "繁栄の哲学",
+                "zh-cn": "繁荣的哲学",
+                "ko-kr": "번영의 철학",
+                "ru-ru": "Философия о Процветании",
+                "de-de": "Philosophie des Wohlstands",
+                "fr-fr": "Philosophie de la Prospérité",
+                "es-es": "Filosofía de la prosperidad",
+                "id-id": "Philosophies of Prosperity",
+                "th-th": "Philosophies of Prosperity",
+                "vi-vn": "Triết Học Của Phồn Vinh",
+                "zh-tw": "繁榮的哲學"
+              }
+            },
+            {
+              "id": "1282",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Pergaminho da Maldição",
+                "en-us": "Forbidden Curse Scroll",
+                "ja-jp": "禁呪の絵巻",
+                "zh-cn": "禁咒绘卷",
+                "ko-kr": "금주의 두루마리",
+                "ru-ru": "Свиток запретного проклятья",
+                "de-de": "Fluchschriftrolle",
+                "fr-fr": "Parchemin maudit",
+                "es-es": "Pergamino maldito",
+                "id-id": "Forbidden Curse Scroll",
+                "th-th": "Forbidden Curse Scroll",
+                "vi-vn": "Bản Vẽ Cấm Chú",
+                "zh-tw": "禁咒繪卷"
+              }
+            },
+            {
+              "id": "355",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Cauda do Vento do Norte",
+                "en-us": "Tail of Boreas",
+                "ja-jp": "北風のしっぽ",
+                "zh-cn": "北风之尾",
+                "ko-kr": "북풍의 꼬리",
+                "ru-ru": "Хвост Борея",
+                "de-de": "Schwanz des Nordwinds",
+                "fr-fr": "Queue de Borée",
+                "es-es": "Cola de Boreas",
+                "id-id": "Tail of Boreas",
+                "th-th": "Tail of Boreas",
+                "vi-vn": "Lông Vũ Bắc Phong",
+                "zh-tw": "北風之尾"
+              }
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 260000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "150",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Filosofia de Prosperidade",
+                "en-us": "Philosophies of Prosperity",
+                "ja-jp": "繁栄の哲学",
+                "zh-cn": "繁荣的哲学",
+                "ko-kr": "번영의 철학",
+                "ru-ru": "Философия о Процветании",
+                "de-de": "Philosophie des Wohlstands",
+                "fr-fr": "Philosophie de la Prospérité",
+                "es-es": "Filosofía de la prosperidad",
+                "id-id": "Philosophies of Prosperity",
+                "th-th": "Philosophies of Prosperity",
+                "vi-vn": "Triết Học Của Phồn Vinh",
+                "zh-tw": "繁榮的哲學"
+              }
+            },
+            {
+              "id": "1282",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Pergaminho da Maldição",
+                "en-us": "Forbidden Curse Scroll",
+                "ja-jp": "禁呪の絵巻",
+                "zh-cn": "禁咒绘卷",
+                "ko-kr": "금주의 두루마리",
+                "ru-ru": "Свиток запретного проклятья",
+                "de-de": "Fluchschriftrolle",
+                "fr-fr": "Parchemin maudit",
+                "es-es": "Pergamino maldito",
+                "id-id": "Forbidden Curse Scroll",
+                "th-th": "Forbidden Curse Scroll",
+                "vi-vn": "Bản Vẽ Cấm Chú",
+                "zh-tw": "禁咒繪卷"
+              }
+            },
+            {
+              "id": "355",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Cauda do Vento do Norte",
+                "en-us": "Tail of Boreas",
+                "ja-jp": "北風のしっぽ",
+                "zh-cn": "北风之尾",
+                "ko-kr": "북풍의 꼬리",
+                "ru-ru": "Хвост Борея",
+                "de-de": "Schwanz des Nordwinds",
+                "fr-fr": "Queue de Borée",
+                "es-es": "Cola de Boreas",
+                "id-id": "Tail of Boreas",
+                "th-th": "Tail of Boreas",
+                "vi-vn": "Lông Vũ Bắc Phong",
+                "zh-tw": "北風之尾"
+              }
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 450000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "150",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Filosofia de Prosperidade",
+                "en-us": "Philosophies of Prosperity",
+                "ja-jp": "繁栄の哲学",
+                "zh-cn": "繁荣的哲学",
+                "ko-kr": "번영의 철학",
+                "ru-ru": "Философия о Процветании",
+                "de-de": "Philosophie des Wohlstands",
+                "fr-fr": "Philosophie de la Prospérité",
+                "es-es": "Filosofía de la prosperidad",
+                "id-id": "Philosophies of Prosperity",
+                "th-th": "Philosophies of Prosperity",
+                "vi-vn": "Triết Học Của Phồn Vinh",
+                "zh-tw": "繁榮的哲學"
+              }
+            },
+            {
+              "id": "1282",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Pergaminho da Maldição",
+                "en-us": "Forbidden Curse Scroll",
+                "ja-jp": "禁呪の絵巻",
+                "zh-cn": "禁咒绘卷",
+                "ko-kr": "금주의 두루마리",
+                "ru-ru": "Свиток запретного проклятья",
+                "de-de": "Fluchschriftrolle",
+                "fr-fr": "Parchemin maudit",
+                "es-es": "Pergamino maldito",
+                "id-id": "Forbidden Curse Scroll",
+                "th-th": "Forbidden Curse Scroll",
+                "vi-vn": "Bản Vẽ Cấm Chú",
+                "zh-tw": "禁咒繪卷"
+              }
+            },
+            {
+              "id": "355",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Cauda do Vento do Norte",
+                "en-us": "Tail of Boreas",
+                "ja-jp": "北風のしっぽ",
+                "zh-cn": "北风之尾",
+                "ko-kr": "북풍의 꼬리",
+                "ru-ru": "Хвост Борея",
+                "de-de": "Schwanz des Nordwinds",
+                "fr-fr": "Queue de Borée",
+                "es-es": "Cola de Boreas",
+                "id-id": "Tail of Boreas",
+                "th-th": "Tail of Boreas",
+                "vi-vn": "Lông Vũ Bắc Phong",
+                "zh-tw": "北風之尾"
+              }
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 700000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "150",
+              "iconUrl": null,
+              "amount": 16,
+              "name": {
+                "pt-pt": "Filosofia de Prosperidade",
+                "en-us": "Philosophies of Prosperity",
+                "ja-jp": "繁栄の哲学",
+                "zh-cn": "繁荣的哲学",
+                "ko-kr": "번영의 철학",
+                "ru-ru": "Философия о Процветании",
+                "de-de": "Philosophie des Wohlstands",
+                "fr-fr": "Philosophie de la Prospérité",
+                "es-es": "Filosofía de la prosperidad",
+                "id-id": "Philosophies of Prosperity",
+                "th-th": "Philosophies of Prosperity",
+                "vi-vn": "Triết Học Của Phồn Vinh",
+                "zh-tw": "繁榮的哲學"
+              }
+            },
+            {
+              "id": "1282",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Pergaminho da Maldição",
+                "en-us": "Forbidden Curse Scroll",
+                "ja-jp": "禁呪の絵巻",
+                "zh-cn": "禁咒绘卷",
+                "ko-kr": "금주의 두루마리",
+                "ru-ru": "Свиток запретного проклятья",
+                "de-de": "Fluchschriftrolle",
+                "fr-fr": "Parchemin maudit",
+                "es-es": "Pergamino maldito",
+                "id-id": "Forbidden Curse Scroll",
+                "th-th": "Forbidden Curse Scroll",
+                "vi-vn": "Bản Vẽ Cấm Chú",
+                "zh-tw": "禁咒繪卷"
+              }
+            },
+            {
+              "id": "355",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Cauda do Vento do Norte",
+                "en-us": "Tail of Boreas",
+                "ja-jp": "北風のしっぽ",
+                "zh-cn": "北风之尾",
+                "ko-kr": "북풍의 꼬리",
+                "ru-ru": "Хвост Борея",
+                "de-de": "Schwanz des Nordwinds",
+                "fr-fr": "Queue de Borée",
+                "es-es": "Cola de Boreas",
+                "id-id": "Tail of Boreas",
+                "th-th": "Tail of Boreas",
+                "vi-vn": "Lông Vũ Bắc Phong",
+                "zh-tw": "北風之尾"
+              }
+            },
+            {
+              "id": "900",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa da Sabedoria",
+                "en-us": "Crown of Insight",
+                "ja-jp": "知恵の冠",
+                "zh-cn": "智识之冕",
+                "ko-kr": "지식의 왕관",
+                "ru-ru": "Корона прозрения",
+                "de-de": "Krone der Weisheit",
+                "fr-fr": "Couronne de la sagesse",
+                "es-es": "Corona de la sabiduría",
+                "id-id": "Crown of Insight",
+                "th-th": "Crown of Insight",
+                "vi-vn": "Vương Miện Trí Thức",
+                "zh-tw": "智識之冕"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "affiliation": {
+    "pt-pt": "Chalé de Bubu",
+    "en-us": "Bubu Pharmacy",
+    "ja-jp": "不卜廬",
+    "zh-cn": "不卜庐",
+    "ko-kr": "불복려",
+    "ru-ru": "Хижина «Бубу»",
+    "de-de": "Bubu-Hütte",
+    "fr-fr": "Cottage Bubu",
+    "es-es": "Farmacia Bubu",
+    "id-id": "Bubu Pharmacy",
+    "th-th": "Bubu Pharmacy",
+    "vi-vn": "Nhà Thuốc Bubu",
+    "zh-tw": "不卜廬"
+  },
+  "birthday": {
+    "pt-pt": "3/3",
+    "en-us": "3/3",
+    "ja-jp": "3月3日",
+    "zh-cn": "3月3日",
+    "ko-kr": "3월 3일",
+    "ru-ru": "3 марта",
+    "de-de": "3.3",
+    "fr-fr": "3/3",
+    "es-es": "3/3",
+    "id-id": "3 Maret",
+    "th-th": "3/3",
+    "vi-vn": "Ngày 3 tháng 3",
+    "zh-tw": "3月3日"
+  },
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "411",
+          "iconUrl": null,
+          "amount": 1,
+          "name": {
+            "pt-pt": "Lasca de Jade Shivada",
+            "en-us": "Shivada Jade Sliver",
+            "ja-jp": "哀切なアイスクリスタル・砕屑",
+            "zh-cn": "哀叙冰玉碎屑",
+            "ko-kr": "서늘한 빙옥 가루",
+            "ru-ru": "Осколок нефрита Шивада",
+            "de-de": "Shivada-Jade-Splitter",
+            "fr-fr": "Éclat de jade shivada",
+            "es-es": "Pedacito de jade shivada",
+            "id-id": "Shivada Jade Sliver",
+            "th-th": "Shivada Jade Sliver",
+            "vi-vn": "Mảnh Ngọc Băng Vụn",
+            "zh-tw": "哀敘冰玉碎屑"
+          }
+        },
+        {
+          "id": "1184",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Violeta",
+            "en-us": "Violetgrass",
+            "ja-jp": "琉璃袋",
+            "zh-cn": "琉璃袋",
+            "ko-kr": "유리주머니",
+            "ru-ru": "Стеклянные колокольчики",
+            "de-de": "Glasglöckchen",
+            "fr-fr": "Muguet bleu",
+            "es-es": "Campanita de cristal",
+            "id-id": "Violetgrass",
+            "th-th": "Violetgrass",
+            "vi-vn": "Túi Lưu Ly",
+            "zh-tw": "琉璃袋"
+          }
+        },
+        {
+          "id": "630",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pergaminho Guia",
+            "en-us": "Divining Scroll",
+            "ja-jp": "占いの絵巻",
+            "zh-cn": "导能绘卷",
+            "ko-kr": "이능 두루마리",
+            "ru-ru": "Свиток божественной магии",
+            "de-de": "Leitende Schriftrolle",
+            "fr-fr": "Parchemin divinatoire",
+            "es-es": "Pergamino guía",
+            "id-id": "Divining Scroll",
+            "th-th": "Divining Scroll",
+            "vi-vn": "Bản Vẽ Hướng Dẫn",
+            "zh-tw": "導能繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 40000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "410",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Jade Shivada",
+            "en-us": "Shivada Jade Fragment",
+            "ja-jp": "哀切なアイスクリスタル・欠片",
+            "zh-cn": "哀叙冰玉断片",
+            "ko-kr": "서늘한 빙옥 조각",
+            "ru-ru": "Фрагмент нефрита Шивада",
+            "de-de": "Shivada-Jade-Bruchstück",
+            "fr-fr": "Fragment de jade shivada",
+            "es-es": "Fragmento de jade shivada",
+            "id-id": "Shivada Jade Fragment",
+            "th-th": "Shivada Jade Fragment",
+            "vi-vn": "Mảnh Ngọc Băng Vỡ",
+            "zh-tw": "哀敘冰玉斷片"
+          }
+        },
+        {
+          "id": "938",
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Núcleo de Geada",
+            "en-us": "Hoarfrost Core",
+            "ja-jp": "極寒のコア",
+            "zh-cn": "极寒之核",
+            "ko-kr": "서리의 핵",
+            "ru-ru": "Инеевое ядро",
+            "de-de": "Fluxeiskern",
+            "fr-fr": "Duramen de glace",
+            "es-es": "Núcleo de escarcha",
+            "id-id": "Hoarfrost Core",
+            "th-th": "Hoarfrost Core",
+            "vi-vn": "Hạt Nhân Cực Hàn",
+            "zh-tw": "極寒之核"
+          }
+        },
+        {
+          "id": "1184",
+          "iconUrl": null,
+          "amount": 10,
+          "name": {
+            "pt-pt": "Violeta",
+            "en-us": "Violetgrass",
+            "ja-jp": "琉璃袋",
+            "zh-cn": "琉璃袋",
+            "ko-kr": "유리주머니",
+            "ru-ru": "Стеклянные колокольчики",
+            "de-de": "Glasglöckchen",
+            "fr-fr": "Muguet bleu",
+            "es-es": "Campanita de cristal",
+            "id-id": "Violetgrass",
+            "th-th": "Violetgrass",
+            "vi-vn": "Túi Lưu Ly",
+            "zh-tw": "琉璃袋"
+          }
+        },
+        {
+          "id": "630",
+          "iconUrl": null,
+          "amount": 15,
+          "name": {
+            "pt-pt": "Pergaminho Guia",
+            "en-us": "Divining Scroll",
+            "ja-jp": "占いの絵巻",
+            "zh-cn": "导能绘卷",
+            "ko-kr": "이능 두루마리",
+            "ru-ru": "Свиток божественной магии",
+            "de-de": "Leitende Schriftrolle",
+            "fr-fr": "Parchemin divinatoire",
+            "es-es": "Pergamino guía",
+            "id-id": "Divining Scroll",
+            "th-th": "Divining Scroll",
+            "vi-vn": "Bản Vẽ Hướng Dẫn",
+            "zh-tw": "導能繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 60000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "410",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Jade Shivada",
+            "en-us": "Shivada Jade Fragment",
+            "ja-jp": "哀切なアイスクリスタル・欠片",
+            "zh-cn": "哀叙冰玉断片",
+            "ko-kr": "서늘한 빙옥 조각",
+            "ru-ru": "Фрагмент нефрита Шивада",
+            "de-de": "Shivada-Jade-Bruchstück",
+            "fr-fr": "Fragment de jade shivada",
+            "es-es": "Fragmento de jade shivada",
+            "id-id": "Shivada Jade Fragment",
+            "th-th": "Shivada Jade Fragment",
+            "vi-vn": "Mảnh Ngọc Băng Vỡ",
+            "zh-tw": "哀敘冰玉斷片"
+          }
+        },
+        {
+          "id": "938",
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Núcleo de Geada",
+            "en-us": "Hoarfrost Core",
+            "ja-jp": "極寒のコア",
+            "zh-cn": "极寒之核",
+            "ko-kr": "서리의 핵",
+            "ru-ru": "Инеевое ядро",
+            "de-de": "Fluxeiskern",
+            "fr-fr": "Duramen de glace",
+            "es-es": "Núcleo de escarcha",
+            "id-id": "Hoarfrost Core",
+            "th-th": "Hoarfrost Core",
+            "vi-vn": "Hạt Nhân Cực Hàn",
+            "zh-tw": "極寒之核"
+          }
+        },
+        {
+          "id": "1184",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Violeta",
+            "en-us": "Violetgrass",
+            "ja-jp": "琉璃袋",
+            "zh-cn": "琉璃袋",
+            "ko-kr": "유리주머니",
+            "ru-ru": "Стеклянные колокольчики",
+            "de-de": "Glasglöckchen",
+            "fr-fr": "Muguet bleu",
+            "es-es": "Campanita de cristal",
+            "id-id": "Violetgrass",
+            "th-th": "Violetgrass",
+            "vi-vn": "Túi Lưu Ly",
+            "zh-tw": "琉璃袋"
+          }
+        },
+        {
+          "id": "634",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Pergaminho do Encantamento",
+            "en-us": "Sealed Scroll",
+            "ja-jp": "封魔の絵巻",
+            "zh-cn": "封魔绘卷",
+            "ko-kr": "봉마의 두루마리",
+            "ru-ru": "Свиток печати",
+            "de-de": "Zaubersiegel-Schriftrolle",
+            "fr-fr": "Parchemin sigillé",
+            "es-es": "Pergamino hechizado",
+            "id-id": "Sealed Scroll",
+            "th-th": "Seal Scroll",
+            "vi-vn": "Bản Vẽ Phong Ấn",
+            "zh-tw": "封魔繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 80000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "409",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Jade Shivada",
+            "en-us": "Shivada Jade Chunk",
+            "ja-jp": "哀切なアイスクリスタル・塊",
+            "zh-cn": "哀叙冰玉块",
+            "ko-kr": "서늘한 빙옥 덩이",
+            "ru-ru": "Кусок нефрита Шивада",
+            "de-de": "Shivada-Jade-Brocken",
+            "fr-fr": "Morceau de jade shivada",
+            "es-es": "Trozo de jade shivada",
+            "id-id": "Shivada Jade Chunk",
+            "th-th": "Shivada Jade Chunk",
+            "vi-vn": "Miếng Ngọc Băng",
+            "zh-tw": "哀敘冰玉塊"
+          }
+        },
+        {
+          "id": "938",
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Núcleo de Geada",
+            "en-us": "Hoarfrost Core",
+            "ja-jp": "極寒のコア",
+            "zh-cn": "极寒之核",
+            "ko-kr": "서리의 핵",
+            "ru-ru": "Инеевое ядро",
+            "de-de": "Fluxeiskern",
+            "fr-fr": "Duramen de glace",
+            "es-es": "Núcleo de escarcha",
+            "id-id": "Hoarfrost Core",
+            "th-th": "Hoarfrost Core",
+            "vi-vn": "Hạt Nhân Cực Hàn",
+            "zh-tw": "極寒之核"
+          }
+        },
+        {
+          "id": "1184",
+          "iconUrl": null,
+          "amount": 30,
+          "name": {
+            "pt-pt": "Violeta",
+            "en-us": "Violetgrass",
+            "ja-jp": "琉璃袋",
+            "zh-cn": "琉璃袋",
+            "ko-kr": "유리주머니",
+            "ru-ru": "Стеклянные колокольчики",
+            "de-de": "Glasglöckchen",
+            "fr-fr": "Muguet bleu",
+            "es-es": "Campanita de cristal",
+            "id-id": "Violetgrass",
+            "th-th": "Violetgrass",
+            "vi-vn": "Túi Lưu Ly",
+            "zh-tw": "琉璃袋"
+          }
+        },
+        {
+          "id": "634",
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Pergaminho do Encantamento",
+            "en-us": "Sealed Scroll",
+            "ja-jp": "封魔の絵巻",
+            "zh-cn": "封魔绘卷",
+            "ko-kr": "봉마의 두루마리",
+            "ru-ru": "Свиток печати",
+            "de-de": "Zaubersiegel-Schriftrolle",
+            "fr-fr": "Parchemin sigillé",
+            "es-es": "Pergamino hechizado",
+            "id-id": "Sealed Scroll",
+            "th-th": "Seal Scroll",
+            "vi-vn": "Bản Vẽ Phong Ấn",
+            "zh-tw": "封魔繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 100000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "409",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Jade Shivada",
+            "en-us": "Shivada Jade Chunk",
+            "ja-jp": "哀切なアイスクリスタル・塊",
+            "zh-cn": "哀叙冰玉块",
+            "ko-kr": "서늘한 빙옥 덩이",
+            "ru-ru": "Кусок нефрита Шивада",
+            "de-de": "Shivada-Jade-Brocken",
+            "fr-fr": "Morceau de jade shivada",
+            "es-es": "Trozo de jade shivada",
+            "id-id": "Shivada Jade Chunk",
+            "th-th": "Shivada Jade Chunk",
+            "vi-vn": "Miếng Ngọc Băng",
+            "zh-tw": "哀敘冰玉塊"
+          }
+        },
+        {
+          "id": "938",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Núcleo de Geada",
+            "en-us": "Hoarfrost Core",
+            "ja-jp": "極寒のコア",
+            "zh-cn": "极寒之核",
+            "ko-kr": "서리의 핵",
+            "ru-ru": "Инеевое ядро",
+            "de-de": "Fluxeiskern",
+            "fr-fr": "Duramen de glace",
+            "es-es": "Núcleo de escarcha",
+            "id-id": "Hoarfrost Core",
+            "th-th": "Hoarfrost Core",
+            "vi-vn": "Hạt Nhân Cực Hàn",
+            "zh-tw": "極寒之核"
+          }
+        },
+        {
+          "id": "1184",
+          "iconUrl": null,
+          "amount": 45,
+          "name": {
+            "pt-pt": "Violeta",
+            "en-us": "Violetgrass",
+            "ja-jp": "琉璃袋",
+            "zh-cn": "琉璃袋",
+            "ko-kr": "유리주머니",
+            "ru-ru": "Стеклянные колокольчики",
+            "de-de": "Glasglöckchen",
+            "fr-fr": "Muguet bleu",
+            "es-es": "Campanita de cristal",
+            "id-id": "Violetgrass",
+            "th-th": "Violetgrass",
+            "vi-vn": "Túi Lưu Ly",
+            "zh-tw": "琉璃袋"
+          }
+        },
+        {
+          "id": "1282",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Pergaminho da Maldição",
+            "en-us": "Forbidden Curse Scroll",
+            "ja-jp": "禁呪の絵巻",
+            "zh-cn": "禁咒绘卷",
+            "ko-kr": "금주의 두루마리",
+            "ru-ru": "Свиток запретного проклятья",
+            "de-de": "Fluchschriftrolle",
+            "fr-fr": "Parchemin maudit",
+            "es-es": "Pergamino maldito",
+            "id-id": "Forbidden Curse Scroll",
+            "th-th": "Forbidden Curse Scroll",
+            "vi-vn": "Bản Vẽ Cấm Chú",
+            "zh-tw": "禁咒繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 120000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "408",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Gema de Jade Shivada",
+            "en-us": "Shivada Jade Gemstone",
+            "ja-jp": "哀切なアイスクリスタル",
+            "zh-cn": "哀叙冰玉",
+            "ko-kr": "서늘한 빙옥",
+            "ru-ru": "Драгоценный нефрит Шивада",
+            "de-de": "Shivada-Jade",
+            "fr-fr": "Pierre de jade shivada",
+            "es-es": "Jade shivada",
+            "id-id": "Shivada Jade Gemstone",
+            "th-th": "Shivada Jade Gemstone",
+            "vi-vn": "Ngọc Băng",
+            "zh-tw": "哀敘冰玉"
+          }
+        },
+        {
+          "id": "938",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Núcleo de Geada",
+            "en-us": "Hoarfrost Core",
+            "ja-jp": "極寒のコア",
+            "zh-cn": "极寒之核",
+            "ko-kr": "서리의 핵",
+            "ru-ru": "Инеевое ядро",
+            "de-de": "Fluxeiskern",
+            "fr-fr": "Duramen de glace",
+            "es-es": "Núcleo de escarcha",
+            "id-id": "Hoarfrost Core",
+            "th-th": "Hoarfrost Core",
+            "vi-vn": "Hạt Nhân Cực Hàn",
+            "zh-tw": "極寒之核"
+          }
+        },
+        {
+          "id": "1184",
+          "iconUrl": null,
+          "amount": 60,
+          "name": {
+            "pt-pt": "Violeta",
+            "en-us": "Violetgrass",
+            "ja-jp": "琉璃袋",
+            "zh-cn": "琉璃袋",
+            "ko-kr": "유리주머니",
+            "ru-ru": "Стеклянные колокольчики",
+            "de-de": "Glasglöckchen",
+            "fr-fr": "Muguet bleu",
+            "es-es": "Campanita de cristal",
+            "id-id": "Violetgrass",
+            "th-th": "Violetgrass",
+            "vi-vn": "Túi Lưu Ly",
+            "zh-tw": "琉璃袋"
+          }
+        },
+        {
+          "id": "1282",
+          "iconUrl": null,
+          "amount": 24,
+          "name": {
+            "pt-pt": "Pergaminho da Maldição",
+            "en-us": "Forbidden Curse Scroll",
+            "ja-jp": "禁呪の絵巻",
+            "zh-cn": "禁咒绘卷",
+            "ko-kr": "금주의 두루마리",
+            "ru-ru": "Свиток запретного проклятья",
+            "de-de": "Fluchschriftrolle",
+            "fr-fr": "Parchemin maudit",
+            "es-es": "Pergamino maldito",
+            "id-id": "Forbidden Curse Scroll",
+            "th-th": "Forbidden Curse Scroll",
+            "vi-vn": "Bản Vẽ Cấm Chú",
+            "zh-tw": "禁咒繪卷"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур.1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "963"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "22"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "72"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Cura",
+            "en-us": "Healing Bonus",
+            "ja-jp": "与える治療効果",
+            "zh-cn": "治疗加成",
+            "ko-kr": "치유 보너스",
+            "ru-ru": "Бонус лечения",
+            "de-de": "Heilungsbonus",
+            "fr-fr": "Bonus de soins",
+            "es-es": "Bono de Curación",
+            "id-id": "Healing Bonus",
+            "th-th": "โบนัสการรักษา",
+            "vi-vn": "Tăng Trị Liệu",
+            "zh-tw": "治療加成"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "2498",
+          "postAscensionValue": "3323"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "58",
+          "postAscensionValue": "77"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "186",
+          "postAscensionValue": "248"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Cura",
+            "en-us": "Healing Bonus",
+            "ja-jp": "与える治療効果",
+            "zh-cn": "治疗加成",
+            "ko-kr": "치유 보너스",
+            "ru-ru": "Бонус лечения",
+            "de-de": "Heilungsbonus",
+            "fr-fr": "Bonus de soins",
+            "es-es": "Bono de Curación",
+            "id-id": "Healing Bonus",
+            "th-th": "โบนัสการรักษา",
+            "vi-vn": "Tăng Trị Liệu",
+            "zh-tw": "治療加成"
+          },
+          "preAscensionValue": "0%",
+          "postAscensionValue": "0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "4973",
+          "postAscensionValue": "5559"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "115",
+          "postAscensionValue": "129"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "371",
+          "postAscensionValue": "415"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Cura",
+            "en-us": "Healing Bonus",
+            "ja-jp": "与える治療効果",
+            "zh-cn": "治疗加成",
+            "ko-kr": "치유 보너스",
+            "ru-ru": "Бонус лечения",
+            "de-de": "Heilungsbonus",
+            "fr-fr": "Bonus de soins",
+            "es-es": "Bono de Curación",
+            "id-id": "Healing Bonus",
+            "th-th": "โบนัสการรักษา",
+            "vi-vn": "Tăng Trị Liệu",
+            "zh-tw": "治療加成"
+          },
+          "preAscensionValue": "0%",
+          "postAscensionValue": "5.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "6396",
+          "postAscensionValue": "7178"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "148",
+          "postAscensionValue": "167"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "477",
+          "postAscensionValue": "535"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Cura",
+            "en-us": "Healing Bonus",
+            "ja-jp": "与える治療効果",
+            "zh-cn": "治疗加成",
+            "ko-kr": "치유 보너스",
+            "ru-ru": "Бонус лечения",
+            "de-de": "Heilungsbonus",
+            "fr-fr": "Bonus de soins",
+            "es-es": "Bono de Curación",
+            "id-id": "Healing Bonus",
+            "th-th": "โบนัสการรักษา",
+            "vi-vn": "Tăng Trị Liệu",
+            "zh-tw": "治療加成"
+          },
+          "preAscensionValue": "5.5%",
+          "postAscensionValue": "11.1%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "8023",
+          "postAscensionValue": "8610"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "186",
+          "postAscensionValue": "200"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "598",
+          "postAscensionValue": "642"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Cura",
+            "en-us": "Healing Bonus",
+            "ja-jp": "与える治療効果",
+            "zh-cn": "治疗加成",
+            "ko-kr": "치유 보너스",
+            "ru-ru": "Бонус лечения",
+            "de-de": "Heilungsbonus",
+            "fr-fr": "Bonus de soins",
+            "es-es": "Bono de Curación",
+            "id-id": "Healing Bonus",
+            "th-th": "โบนัสการรักษา",
+            "vi-vn": "Tăng Trị Liệu",
+            "zh-tw": "治療加成"
+          },
+          "preAscensionValue": "11.1%",
+          "postAscensionValue": "11.1%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "9463",
+          "postAscensionValue": "10050"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "220",
+          "postAscensionValue": "233"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "706",
+          "postAscensionValue": "749"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Cura",
+            "en-us": "Healing Bonus",
+            "ja-jp": "与える治療効果",
+            "zh-cn": "治疗加成",
+            "ko-kr": "치유 보너스",
+            "ru-ru": "Бонус лечения",
+            "de-de": "Heilungsbonus",
+            "fr-fr": "Bonus de soins",
+            "es-es": "Bono de Curación",
+            "id-id": "Healing Bonus",
+            "th-th": "โบนัสการรักษา",
+            "vi-vn": "Tăng Trị Liệu",
+            "zh-tw": "治療加成"
+          },
+          "preAscensionValue": "11.1%",
+          "postAscensionValue": "16.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "10912",
+          "postAscensionValue": "11499"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "253",
+          "postAscensionValue": "267"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "814",
+          "postAscensionValue": "857"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Cura",
+            "en-us": "Healing Bonus",
+            "ja-jp": "与える治療効果",
+            "zh-cn": "治疗加成",
+            "ko-kr": "치유 보너스",
+            "ru-ru": "Бонус лечения",
+            "de-de": "Heilungsbonus",
+            "fr-fr": "Bonus de soins",
+            "es-es": "Bono de Curación",
+            "id-id": "Healing Bonus",
+            "th-th": "โบนัสการรักษา",
+            "vi-vn": "Tăng Trị Liệu",
+            "zh-tw": "治療加成"
+          },
+          "preAscensionValue": "16.6%",
+          "postAscensionValue": "22.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур.90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "12368",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "287",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "922",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Cura",
+            "en-us": "Healing Bonus",
+            "ja-jp": "与える治療効果",
+            "zh-cn": "治疗加成",
+            "ko-kr": "치유 보너스",
+            "ru-ru": "Бонус лечения",
+            "de-de": "Heilungsbonus",
+            "fr-fr": "Bonus de soins",
+            "es-es": "Bono de Curación",
+            "id-id": "Healing Bonus",
+            "th-th": "โบนัสการรักษา",
+            "vi-vn": "Tăng Trị Liệu",
+            "zh-tw": "治療加成"
+          },
+          "preAscensionValue": "22.2%",
+          "postAscensionValue": ""
+        }
+      ]
+    }
+  ]
+}

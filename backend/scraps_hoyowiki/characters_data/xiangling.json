@@ -1,0 +1,3505 @@
+{
+  "id": "xiangling",
+  "wiki_id": "50",
+  "name": {
+    "pt-pt": "Xiangling",
+    "en-us": "Xiangling",
+    "ja-jp": "香菱",
+    "zh-cn": "香菱",
+    "ko-kr": "향릉",
+    "ru-ru": "Сян Лин",
+    "de-de": "Xiangling",
+    "fr-fr": "Xiangling",
+    "es-es": "Xiangling",
+    "id-id": "Xiangling",
+    "th-th": "Xiangling",
+    "vi-vn": "Xiangling",
+    "zh-tw": "香菱"
+  },
+  "title": {
+    "pt-pt": "Mestre de Culinária de Liyue",
+    "en-us": "Exquisite Delicacy",
+    "ja-jp": "万民百味",
+    "zh-cn": "万民百味",
+    "ko-kr": "만민백미",
+    "ru-ru": "Миллион вкусов",
+    "de-de": "Küchenfee des Volkes",
+    "fr-fr": "Cordon-bleu du peuple",
+    "es-es": "La Maestra Culinaria de Liyue",
+    "id-id": "Exquisite Delicacy",
+    "th-th": "สุดยอดนักทำอาหาร",
+    "vi-vn": "Vạn Dân Bách Vị",
+    "zh-tw": "萬民百味"
+  },
+  "description": {
+    "pt-pt": "Uma renomada chef de Liyue. Ela é extremamente apaixonada por cozinhar e se destaca em fazer seus pratos quentes e picantes.",
+    "en-us": "A renowned chef from Liyue. She's extremely passionate about cooking and excels at making her signature hot and spicy dishes.",
+    "ja-jp": "璃月出身で少し有名な料理人。料理に対して情熱があり、激辛料理が大の得意。",
+    "zh-cn": "来自璃月，名声在外的少女厨师，对料理之道极具热情，拿手麻辣菜肴堪称一绝。",
+    "ko-kr": "리월에서 온 유명한 소녀 요리사. 요리에 아주 열정적이며, 마라 요리는 가히 일품이라 할 수 있다.「예상꽃과 달콤달콤꽃을 같이 끓이면 매우 달아서 3일 동안 치통이 생긴다」——향릉의 노트에 있는 기록 중 하나이다.",
+    "ru-ru": "Знаменитый шеф-повар Ли Юэ. Она со всей страстью относится к приготовлению еды, а её острые блюда известны на весь Тейват.",
+    "de-de": "Eine recht bekannte Köchin aus Liyue, die Gerichte mit Leidenschaft zubereitet. Ihre Techniken sind feurig genug, um ihren Gegnern den Appetit zu verderben.",
+    "fr-fr": "Une célèbre cheffe cuisinière originaire de Liyue, connue pour ses plats épicés.",
+    "es-es": "Una reconocida chef de Liyue. Le apasiona la cocina y sobresale al hacer sus platos calientes y picantes.",
+    "id-id": "Seorang koki ternama dari Liyue. Memiliki cinta yang mendalam akan seni masak-memasak, sangat pandai memasak masakan andalannya dengan rasa yang pedas dan gurih.",
+    "th-th": "เชฟชื่อดังจาก Liyue ผู้หลงใหล ในการปรุงอาหารเป็นอย่างมากซึ่งอาหารรสเผ็ดของเธอนั้น ช่างโดดเด่นไม่เป็นสองรองใคร",
+    "vi-vn": "Thiếu nữ đầu bếp đến từ Liyue, rất nổi tiếng, có sự nhiệt tình vô hạn với việc nấu nướng, đặc biệt là những món tê cay.",
+    "zh-tw": "來自璃月，名聲在外的少女廚師，對料理之道極具熱情，拿手麻辣菜餚堪稱一絕。"
+  },
+  "rarity": 4,
+  "vision": {
+    "label": {
+      "pt-pt": "Tipo Elemental",
+      "en-us": "Elemental Type",
+      "ja-jp": "元素タイプ",
+      "zh-cn": "元素属性",
+      "ko-kr": "원소 속성",
+      "ru-ru": "Элемент",
+      "de-de": "Elementartyp",
+      "fr-fr": "Élément",
+      "es-es": "Tipo elemental",
+      "id-id": "Tipe Elemen",
+      "th-th": "ประเภทธาตุ",
+      "vi-vn": "Thuộc Tính Nguyên Tố",
+      "zh-tw": "元素屬性"
+    },
+    "value": {
+      "pt-pt": "Pyro",
+      "en-us": "Pyro",
+      "ja-jp": "炎元素",
+      "zh-cn": "火元素",
+      "ko-kr": "불 원소",
+      "ru-ru": "Пиро",
+      "de-de": "Pyro",
+      "fr-fr": "Pyro",
+      "es-es": "Pyro",
+      "id-id": "Pyro",
+      "th-th": "ไฟ",
+      "vi-vn": "Hỏa",
+      "zh-tw": "火元素"
+    }
+  },
+  "weapon": {
+    "label": {
+      "pt-pt": "Arma",
+      "en-us": "Weapons",
+      "ja-jp": "武器種",
+      "zh-cn": "武器",
+      "ko-kr": "무기",
+      "ru-ru": "Тип",
+      "de-de": "Waffe",
+      "fr-fr": "Type d'arme",
+      "es-es": "Arma",
+      "id-id": "Senjata",
+      "th-th": "อาวุธ",
+      "vi-vn": "Vũ Khí",
+      "zh-tw": "武器"
+    },
+    "value": {
+      "pt-pt": "Lança",
+      "en-us": "Polearm",
+      "ja-jp": "長柄武器",
+      "zh-cn": "长柄武器",
+      "ko-kr": "장병기",
+      "ru-ru": "Древковое",
+      "de-de": "Stangenwaffe",
+      "fr-fr": "Arme d'hast",
+      "es-es": "Lanza",
+      "id-id": "Polearm",
+      "th-th": "หอก",
+      "vi-vn": "Vũ Khí Cán Dài",
+      "zh-tw": "長柄武器"
+    }
+  },
+  "characterIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xiangling_icon.png",
+  "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
+  "constellationNameOfficial": {
+    "pt-pt": "Trulla",
+    "en-us": "Trulla",
+    "ja-jp": "長杓座",
+    "zh-cn": "长杓座",
+    "ru-ru": "Поварской Черпак",
+    "de-de": "Trulla",
+    "fr-fr": "Trulla",
+    "es-es": "Trullae",
+    "id-id": "Trulla",
+    "th-th": "Ladle",
+    "zh-tw": "長杓座",
+    "ko-kr": "N/A",
+    "vi-vn": "N/A"
+  },
+  "specialDish": {
+    "id": 216,
+    "name": {
+      "pt-pt": "Peixe Fervido do Restaurante de Wanmin",
+      "en-us": "Wanmin Restaurant's Boiled Fish",
+      "ja-jp": "万民堂水煮魚",
+      "zh-cn": "万民堂水煮鱼",
+      "ko-kr": "만민당 생선전골",
+      "ru-ru": "Фирменная отварная рыба",
+      "de-de": "Fischsuppe nach Art des Hauses Wanmin",
+      "fr-fr": "Poisson bouilli du Restaurant Wanmin",
+      "es-es": "Pescado hervido del Restaurante Wanmin",
+      "id-id": "Wanmin Restaurant's Boiled Fish",
+      "th-th": "Wanmin Restaurant's Boiled Fish",
+      "vi-vn": "Cá Luộc Vạn Dân Đường",
+      "zh-tw": "萬民堂水煮魚"
+    },
+    "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Wanmin%20Restaurant's%20Boiled%20Fish_icon.png"
+  },
+  "namecard": {
+    "id": 6087,
+    "name": {
+      "pt-pt": "Xiangling - Comida Recém Pronta",
+      "en-us": "Xiangling: Fresh from the Pan",
+      "ja-jp": "香菱・出来上がり",
+      "zh-cn": "香菱·出锅",
+      "ko-kr": "향릉·완성",
+      "ru-ru": "Горячий Гоба",
+      "de-de": "Xiangling – Frisch aus dem Topf",
+      "fr-fr": "Xiangling - Gooba",
+      "es-es": "Xiangling - Recién hecho",
+      "id-id": "Xiangling: Fresh from the Pan",
+      "th-th": "Xiangling - Fresh from the Pan",
+      "vi-vn": "Xiangling - Nấu Xong",
+      "zh-tw": "香菱·出鍋"
+    },
+    "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/15/ef79d782e0661312bec3993b712e5a35_2068231927058439743.png"
+  },
+  "constellations": [
+    {
+      "id": "summaryList29940",
+      "constellationNumber": 1,
+      "name": {
+        "pt-pt": "Crocante por Fora, Macio por Dentro",
+        "en-us": "Crispy Outside, Tender Inside",
+        "ja-jp": "外カリ中フワ",
+        "zh-cn": "外酥里嫩",
+        "ko-kr": "겉은 바삭, 속은 촉촉",
+        "ru-ru": "Внешность обманчива",
+        "de-de": "Außen knusprig, innen zart",
+        "fr-fr": "Croustillant à l'extérieur, tendre à l'intérieur",
+        "es-es": "Crujiente por fuera, tierno por dentro",
+        "id-id": "Crispy Outside, Tender Inside",
+        "th-th": "Crispy Outside, Tender Inside",
+        "vi-vn": "Ngoài Giòn Trong Mềm",
+        "zh-tw": "外酥裡嫩"
+      },
+      "description": {
+        "pt-pt": "Inimigos atingidos pelos ataques de Guoba têm sua RES Pyro reduzida em 15% por 6s.",
+        "en-us": "Opponents hit by Guoba's attacks have their Pyro RES reduced by 15% for 6s.",
+        "ja-jp": "グゥオパァーに攻撃された敵の炎元素耐性-15%、継続時間6秒。",
+        "zh-cn": "受到锅巴攻击的敌人，火元素抗性降低15%，持续6秒。",
+        "ko-kr": "누룽지의 공격에 피격된 적은 불 원소 내성이 15% 감소한다. 지속 시간: 6초",
+        "ru-ru": "Попадания атакой Гобы понижают Пиро сопротивление врагов на 15% в течение 6 сек.",
+        "de-de": "Verringert den Pyro-WDS der von Guoba getroffenen Gegner 6 s lang um 15 %.",
+        "fr-fr": "La RÉS Pyro des ennemis touchés par Gooba est réduite de 15 % pendant 6 s.",
+        "es-es": "Reduce la RES Pyro de los enemigos atacados por Guoba en un 15% durante 6 s.",
+        "id-id": "Saat Guoba Attack mengenai musuh, akan mengurangi 15% Pyro RES mereka selama 6 detik.",
+        "th-th": "ศัตรูที่ถูก Guoba โจมตีจะถูกลดต้านทานไฟลง 15% เป็นเวลา 6 วินาที",
+        "vi-vn": "Địch bị Guoba tấn công kháng Nguyên Tố Hỏa giảm 15%, kéo dài 6s.",
+        "zh-tw": "受到鍋巴攻擊的敵人，火元素抗性降低15%，持續6秒。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/香菱/constellation_1.png"
+    },
+    {
+      "id": "summaryList69607",
+      "constellationNumber": 2,
+      "name": {
+        "pt-pt": "Esquentar o Óleo",
+        "en-us": "Oil Meets Fire",
+        "ja-jp": "強火と油",
+        "zh-cn": "大火宽油",
+        "ko-kr": "큰불에 기름 붓기",
+        "ru-ru": "Масло в огонь",
+        "de-de": "Öl auf Feuer",
+        "fr-fr": "L'huile sur le feu",
+        "es-es": "Aceite y fuego",
+        "id-id": "Oil Meets Fire",
+        "th-th": "Oil Meets Fire",
+        "vi-vn": "Thêm Dầu Vào Lửa",
+        "zh-tw": "大火寬油"
+      },
+      "description": {
+        "pt-pt": "O golpe final de um combo de Ataque Normal aplica o efeito Implosão nos inimigos por 2 segundos. Uma explosão irá ocorrer quando essa duração acabar, causando 75% do ATQ de Xiangling como Dano Pyro em uma AdE.",
+        "en-us": "The last attack in a Normal Attack sequence applies the Implode status onto the opponent for 2s. An explosion will occur once this duration ends, dealing 75% of Xiangling's ATK as AoE Pyro DMG.",
+        "ja-jp": "通常攻撃の最後の1撃で敵に2秒継続する爆縮効果を与える。効果終了時に爆発し、敵に攻撃力75%分の炎元素範囲ダメージを与える。",
+        "zh-cn": "普通攻击的最后一击会对敌人施加持续2秒的内爆效果，持续时间结束时会发生爆炸，造成75%攻击力的火元素范围伤害。",
+        "ko-kr": "일반 공격의 최후의 일격은 적에게 2초 동안 지속적인 내폭 효과를 부여한다. 효과 종료 시 폭발하여 주변의 적에게 공격력 75%의 불 원소 범위 피해를 준다",
+        "ru-ru": "Последний удар обычной атаки накладывает на врага статус Возгорание на 2 сек. По истечении этого времени происходит взрыв, который наносит Пиро урон по площади, равный 75% от силы атаки Сян Лин.",
+        "de-de": "Fügt Gegnern mit dem letzten Schlag des Standardangriffs 2 s lang den Effekt „Implosion“ zu. Die Implosion tritt am Ende der Wirkungsdauer in Kraft und verursacht Pyro-Flächenschaden in Höhe von 75 % ANG.",
+        "fr-fr": "Le dernier coup d'attaque normale inflige pendant 2 s un effet d'implosion aux ennemis. Au bout de ce délai, ils explosent, infligeant des DGT Pyro de zone équivalant à 75 % de l'ATQ.",
+        "es-es": "El último golpe del Ataque Normal aplica sobre el enemigo un estado de implosión durante 2 s. Tras ese tiempo, el enemigo explotará, infligiendo un 75% de Daño Pyro en el AdE.",
+        "id-id": "Serangan terakhir dari Normal Attack mengakibatkan Implode pada musuh selama 2 detik. Saat durasi Implode selesai, menimbulkan ledakan yang mengakibatkan 75% dari ATK Xiangling sebagai Pyro DMG area.",
+        "th-th": "การโจมตีครั้งสุดท้ายของ โจมตีปกติจะทำให้เกิดเอฟเฟกต์ ระเบิดภายในใส่ศัตรูเป็นเวลา 2 วินาที โดยหลังจากช่วงเวลาต่อเนื่อง สิ้นสุดลงจะเกิดการระเบิด สร้างความเสียหายไฟวงกว้าง เป็น 75% ของพลังโจมตี",
+        "vi-vn": "Đòn tấn công thường cuối cùng có hiệu quả khiến kẻ địch nổ tung trong vòng 2s, khi kết thúc sẽ gây ra vụ nổ, tạo thành 75% sát thương phạm vi Nguyên Tố Hoả .",
+        "zh-tw": "普通攻擊的最後一擊會對敵人施加持續2秒的內爆效果，持續時間結束時會發生爆炸，造成75%攻擊力的火元素範圍傷害。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/香菱/constellation_2.png"
+    },
+    {
+      "id": "summaryList98975",
+      "constellationNumber": 3,
+      "name": {
+        "pt-pt": "Bem Passado",
+        "en-us": "Deepfry",
+        "ja-jp": "武火調理",
+        "zh-cn": "武火急烹",
+        "ko-kr": "센 불로 조리하기",
+        "ru-ru": "Жарка в масле",
+        "de-de": "Scharf angebraten",
+        "fr-fr": "Sauté profond",
+        "es-es": "Que quede bien frito",
+        "id-id": "Deepfry",
+        "th-th": "Deepfry",
+        "vi-vn": "Nấu Ăn Cấp Bách",
+        "zh-tw": "武火急烹"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível do Pyronado em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Pyronado by 3.Maximum upgrade level is 15.",
+        "ja-jp": "旋火輪のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "旋火轮的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "화륜의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Огневихрь на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Feuerrad um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Pyrotation +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Pyronado +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Pyronado.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Pyronado ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Bánh Xe Lửa +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "旋火輪的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/香菱/constellation_3.png"
+    },
+    {
+      "id": "summaryList52203",
+      "constellationNumber": 4,
+      "name": {
+        "pt-pt": "Assando Devagar",
+        "en-us": "Slowbake",
+        "ja-jp": "弱火でじっくり",
+        "zh-cn": "文火慢煨",
+        "ko-kr": "약불로 천천히 삶기",
+        "ru-ru": "На маленьком огне",
+        "de-de": "Langsam gegart",
+        "fr-fr": "Douce cuisine",
+        "es-es": "A fuego lento",
+        "id-id": "Slowbake",
+        "th-th": "Slowbake",
+        "vi-vn": "Hầm Lửa Nhỏ",
+        "zh-tw": "文火慢煨"
+      },
+      "description": {
+        "pt-pt": "Aumenta a duração do Pyronado em 40%.",
+        "en-us": "Pyronado's duration is increased by 40%.",
+        "ja-jp": "旋火輪の継続時間+40%。",
+        "zh-cn": "旋火轮的持续时间延长40%。",
+        "ko-kr": "화륜의 지속 시간을 40% 연장한다",
+        "ru-ru": "Увеличивает длительность навыка Огневихрь на 40%.",
+        "de-de": "Verlängert die Dauer von Feuerrad um 40 %.",
+        "fr-fr": "Prolonge la durée de Pyrotation de 40 %.",
+        "es-es": "Aumenta en un 40% la duración de Pyronado.",
+        "id-id": "Meningkatkan 40% durasi Pyronado.",
+        "th-th": "เพิ่มระยะเวลาต่อเนื่องของ Pyronado 40%",
+        "vi-vn": "Thời gian kéo dài Bánh Xe Lửa tăng 40%.",
+        "zh-tw": "旋火輪的持續時間延長40%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/香菱/constellation_4.png"
+    },
+    {
+      "id": "summaryList43691",
+      "constellationNumber": 5,
+      "name": {
+        "pt-pt": "Guoba Furioso",
+        "en-us": "Guoba Mad",
+        "ja-jp": "凶猛なグゥオパァー",
+        "zh-cn": "锅巴凶猛",
+        "ko-kr": "흉폭한 누룽지",
+        "ru-ru": "Гоба зол",
+        "de-de": "Guoba sauer",
+        "fr-fr": "Colère de Gooba",
+        "es-es": "Guoba furioso",
+        "id-id": "Guoba Mad",
+        "th-th": "Guoba Mad",
+        "vi-vn": "Guoba Hung Dữ",
+        "zh-tw": "鍋巴兇猛"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível do Ataque de Guoba em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Guoba Attack by 3.Maximum upgrade level is 15.",
+        "ja-jp": "グゥオパァー出撃のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "锅巴出击的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "누룽지 출격의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Атака Гобы на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Guoba, erscheine! um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Attaque Gooba +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Ataque de Guoba +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Guoba Attack.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Guoba Attack ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Guoba Xuất Kích +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "鍋巴出擊的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/香菱/constellation_5.png"
+    },
+    {
+      "id": "summaryList72063",
+      "constellationNumber": 6,
+      "name": {
+        "pt-pt": "Pyronado Condensado",
+        "en-us": "Condensed Pyronado",
+        "ja-jp": "竜巻旋火輪",
+        "zh-cn": "大龙卷旋火轮",
+        "ko-kr": "토네이도 화륜",
+        "ru-ru": "Усиленный огневихрь",
+        "de-de": "Feuertornado",
+        "fr-fr": "Pyrotation condensée",
+        "es-es": "Pyronado condensado",
+        "id-id": "Condensed Pyronado",
+        "th-th": "Condensed Pyronado",
+        "vi-vn": "Bánh Xe Lửa Rồng Cuộn",
+        "zh-tw": "大龍捲旋火輪"
+      },
+      "description": {
+        "pt-pt": "Durante a duração do Pyronado, todos os membros da equipe recebem 15% de Bônus de Dano Pyro.",
+        "en-us": "For the duration of Pyronado, all party members receive a 15% Pyro DMG Bonus.",
+        "ja-jp": "旋火輪継続中、チーム全員の炎元素ダメージ+15%。",
+        "zh-cn": "旋火轮持续期间，队伍中所有角色获得15%火元素伤害加成。",
+        "ko-kr": "화륜이 지속되는 동안 파티 내 모든 캐릭터는 불 원소 피해 보너스를 15% 획득한다",
+        "ru-ru": "При активном Огневихре все члены отряда получают 15% бонус Пиро урона.",
+        "de-de": "Erhöht den Pyro-Schaden aller Truppenmitglieder während der Wirkungsdauer von Feuerrad um 15 %.",
+        "fr-fr": "Les DGT Pyro de tous les personnages de l'équipe augmentent de 15 % tant que Pyrotation est active.",
+        "es-es": "Mientras Pyronado esté activo, todos los miembros del equipo obtienen un 15% de Bono de Daño Pyro.",
+        "id-id": "Saat Pyronado aktif, seluruh anggota party menerima peningkatan 15% Pyro DMG Bonus.",
+        "th-th": "ตลอดช่วงเวลาต่อเนื่องของ Pyronado ตัวละครทั้งทีม จะได้รับโบนัสความเสียหายไฟ เพิ่ม 15%",
+        "vi-vn": "Trong thời gian Bánh Xe Lửa tồn tại, tất cả thành viên trong đội tăng 15% sát thương Nguyên Tố Hoả.",
+        "zh-tw": "旋火輪持續期間，隊伍中所有角色獲得15%火元素傷害加成。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/香菱/constellation_6.png"
+    }
+  ],
+  "talents": [
+    {
+      "type": "normal_attack",
+      "name": {
+        "pt-pt": "Ataque Normal: Pastelaria Kung Fu",
+        "en-us": "Dough-Fu",
+        "ja-jp": "料理技法",
+        "zh-cn": "普通攻击·白案功夫",
+        "ko-kr": "일반 공격·밀가루 음식 솜씨",
+        "ru-ru": "Кунг-Тесто",
+        "de-de": "Standardangriff: Gebäckgefecht",
+        "fr-fr": "Attaque normale : Cuisine-fu",
+        "es-es": "Ataque Normal: Kung-Fu pasta",
+        "id-id": "Pastry Kung Fu",
+        "th-th": "โจมตีปกติ - Dough-Fu",
+        "vi-vn": "Tấn Công Thường: Tài Nghệ Làm Bánh",
+        "zh-tw": "普通攻擊·白案功夫"
+      },
+      "description": {
+        "pt-pt": "Ataque NormalRealiza até 5 golpes com a lança.Ataque CarregadoConsome uma certa quantidade de Stamina para se lançar para frente, infligindo Dano em seu trajeto.Ataque ImersivoMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "en-us": "Normal AttackPerforms up to five consecutive spear strikes.Charged AttackConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.Plunging AttackPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+        "ja-jp": "通常攻撃槍による最大5段の連続攻撃を行う。重撃一定のスタミナを消費して前方に突進し、経路上の敵にダメージを与える。落下攻撃空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "zh-cn": "普通攻击进行至多五段的连续枪击。重击消耗一定体力，向前方突进，对路径上的敌人造成伤害。下落攻击从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+        "ko-kr": "일반 공격창으로 최대 5번 공격한다.강공격일정 스태미나를 소모해 전방으로 돌진하며 경로상의 적에게 피해를 준다.낙하 공격공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 범위 피해를 준다",
+        "ru-ru": "Обычная атака:До пяти ударов копьём.Заряженная атака:Выпад, наносящий урон противникам на пути, на который тратится определённое количество выносливости.Атака в падении:Стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+        "de-de": "StandardangriffFührt bis zu 5 Lanzenstiche hintereinander aus.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer, sticht geschwind nach vorn und fügt den Gegnern in der Bahn Schaden zu.Angriff aus dem FallSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "fr-fr": "Attaque normaleEnchaîne jusqu'à 5 coups de lance.Attaque chargéeConsomme de l'endurance pour charger en ligne droite et infliger des DGT aux ennemis sur la route.Attaque plongeantePlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis sur la route et des DGT de zone à l'impact.",
+        "es-es": "Ataque NormalRealiza hasta 5 ataques rápidos con lanza.Ataque CargadoConsume una cierta cantidad de Aguante para lanzarse al frente, infligiendo daño a los enemigos en el camino.Ataque DescendenteSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+        "id-id": "Normal AttackMelancarkan hingga 5 serangan berturut-turut.Charged AttackMengonsumsi sejumlah Stamina untuk menerjang ke depan, mengakibatkan DMG pada musuh di jalurnya.Plunging AttackMenerjang dari udara untuk menghantam tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+        "th-th": "โจมตีปกติโจมตีต่อเนื่องมากสุดห้าครั้งชาร์จโจมตีกินพลังกายปริมาณหนึ่งเพื่อ พุ่งไปข้างหน้าและสร้างความเสียหาย แก่ศัตรูที่อยู่ในเส้นทางโจมตีพุ่งลงจากอากาศกระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+        "vi-vn": "Tấn Công ThườngThực hiện tối đa 5 lần đánh liên tiếp.Trọng KíchTiêu hao thể lực nhất định, xông về phía trước, gây sát thương cho địch trên đường đi.Tấn Công Khi ĐápĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.",
+        "zh-tw": "普通攻擊進行至多五段的連續槍擊。重擊消耗一定體力，向前方突進，對路徑上的敵人造成傷害。下落攻擊從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/香菱/battle_talent_0/battle_talent_0.png"
+    },
+    {
+      "type": "elemental_skill",
+      "name": {
+        "pt-pt": "Ataque de Guoba",
+        "en-us": "Guoba Attack",
+        "ja-jp": "グゥオパァー出撃",
+        "zh-cn": "锅巴出击",
+        "ko-kr": "누룽지 출격",
+        "ru-ru": "Атака Гобы",
+        "de-de": "Guoba, erscheine!",
+        "fr-fr": "Attaque Gooba",
+        "es-es": "Ataque de Guoba",
+        "id-id": "Guoba Attack",
+        "th-th": "Guoba Attack",
+        "vi-vn": "Guoba Xuất Kích",
+        "zh-tw": "鍋巴出擊"
+      },
+      "description": {
+        "pt-pt": "Invoca Guoba, o Panda. Guoba continua exalando fogo contra o inimigo, causando Dano Pyro de AdE.Guoba ama comidas picantes. O problema é que seu estômago não suporta comida tão picante.",
+        "en-us": "Summons Guoba, who will continuously breathe fire at opponents, dealing AoE Pyro DMG.Guoba loves to eat spicy food. Problem is, his stomach can't handle something this spicy.",
+        "ja-jp": "火を噴くグゥオパァーを召喚し、継続期間中に敵に火を噴き続け、炎元素範囲ダメージを与える。グゥオパァーは辛い食べ物が好き。でもこんなに辛いものはさすがに耐えられない。",
+        "zh-cn": "唤出喷火的锅巴，存在期间内，不断对敌人喷火，造成火元素范围伤害。锅巴喜欢吃火辣的食物。但锅巴承受不了如此火辣的食物。",
+        "ko-kr": "불을 뿜는 누룽지를 소환해 전방의 적을 향해 끊임없이 불을 뿜어 불 원소 범위 피해를 준다.누룽지는 매운 음식을 좋아하지만 이토록 매운 음식은 감당해낼 수 없다",
+        "ru-ru": "Призывает панду по имени Гоба, который длительное время дышит огнём, нанося Пиро урон по площади.Гоба любит острую еду, но есть одна проблема... Его желудок с ней не очень хорошо справляется.",
+        "de-de": "Ruft den Feuer spuckenden Guoba herbei, der Gegner vor ihm während der Wirkungsdauer immer wieder mit Feuer bespuckt und Pyro-Flächenschaden verursacht.Guoba mag sein Essen scharf. Ob er sein Essen so scharf verträgt, ist allerdings eine andere Sache.",
+        "fr-fr": "Xiangling invoque le panda Gooba. Tant que Gooba est actif, il crache du feu sur les ennemis, leur infligeant des DGT Pyro de zone.Gooba raffole des produits épicés ; mais même ça, c'est un peu trop pour lui.",
+        "es-es": "Invoca al panda Guoba. Guoba escupe fuego continuamente contra los enemigos, infligiendo Daño Pyro en el AdE.A Guoba le encanta el picante. El problema es que su estómago no aguanta la comida tan picante.",
+        "id-id": "Memanggil Guoba si Panda. Guoba terus menghembuskan api ke musuh, mengakibatkan Pyro DMG area.Guoba suka makan yang pedas-pedas. Masalahnya, perutnya tidak tahan.",
+        "th-th": "เรียก Guoba จอมพ่นไฟออกมา โดยระหว่างช่วงเวลาที่คงอยู่จะพ่นไฟ ใส่ศัตรูอย่างต่อเนื่องและสร้าง ความเสียหายไฟวงกว้าง.Guoba นั้นชอบกินของเผ็ดเป็นอย่างมาก แต่ท้องของเขาดันรับไม่ไหวสักเท่าไหร่",
+        "vi-vn": "Triệu hồi Guoba phun lửa, trong thời gian tồn tại, không ngừng phun lửa vào địch, gây Sát Thương Phạm Vi Nguyên Tố Hỏa.Guoba thích ăn thực phẩm cay. Nhưng lại chịu không nổi thực phẩm cay như vậy.",
+        "zh-tw": "喚出噴火的鍋巴，存在期間內，不斷對敵人噴火，造成火元素範圍傷害。鍋巴喜歡吃火辣的食物。但鍋巴承受不了如此火辣的食物。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/香菱/battle_talent_1/battle_talent_1.png"
+    },
+    {
+      "type": "elemental_burst",
+      "name": {
+        "pt-pt": "Pyronado",
+        "en-us": "Pyronado",
+        "ja-jp": "旋火輪",
+        "zh-cn": "旋火轮",
+        "ko-kr": "화륜",
+        "ru-ru": "Огневихрь",
+        "de-de": "Feuerrad",
+        "fr-fr": "Pyrotation",
+        "es-es": "Pyronado",
+        "id-id": "Pyronado",
+        "th-th": "Pyronado",
+        "vi-vn": "Bánh Xe Lửa",
+        "zh-tw": "旋火輪"
+      },
+      "description": {
+        "pt-pt": "Exibindo seu domínio sobre o fogo e as armas de fogo, Xiangling envia um Pyronado girando ao seu redor.O Pyronado se moverá com o seu personagem enquanto a habilidade persistir, causando Dano Pyro a todos os inimigos em seu caminho.O calor nunca será suficiente. Nunca!",
+        "en-us": "Displaying her mastery over both fire and polearms, Xiangling sends a Pyronado whirling around her.The Pyronado will move with your character for the ability's duration, dealing Pyro DMG to all opponents in its path.There will never be enough heat. Never.",
+        "ja-jp": "炎と槍をコントロールするコツで、自身を中心に素早く回転する旋火輪を投げ出す。旋火輪はキャラクターと共に移動し、経路上の敵に炎元素ダメージを与える。火力が足りない、全然足りないよ。",
+        "zh-cn": "以控制火候与枪术的精湛技巧，甩出围绕自己快速旋转的旋火轮。存在期间内，旋火轮会跟随角色运动，对路径上的敌人造成火元素伤害。火力永远不够。远远不够。",
+        "ko-kr": "불의 세기와 창술을 컨트롤하는 뛰어난 기교로 자신을 둘러싸고 빠른 속도로 회전하는 화륜을 만들어낸다.지속 기간 동안 화륜은 캐릭터를 따라다니며 경로상의 적에게 불 원소 피해를 준다.화력은 언제나 부족하다",
+        "ru-ru": "Используя свои умения Пиро и древкового оружия, Сян Лин закручивает вокруг себя огненный вихрь.Он следует за активным персонажем и наносит Пиро урон врагам, которых касается.Огня много не бывает.",
+        "de-de": "Erschafft aufgrund ihrer Fähigkeit, Feuer zu kontrollieren, und ihrer Fertigkeit im Umgang mit dem Speer ein Feuerrad, das mit hoher Geschwindigkeit um sie kreist.Das Feuerrad bewegt sich während der Wirkungsdauer mit Xiangling und fügt allen Gegnern in seiner Bahn Pyro-Schaden zu.Das soll ein Feuer sein? Das ist höchstens ein Feuerchen!",
+        "fr-fr": "Démontrant à nouveau sa maîtrise du feu et des armes, Xiangling libère une tornade de feu qui tournoie autour d'elle.La tornade suit le personnage tant qu'elle est active, infligeant des DGT Pyro aux ennemis sur sa route.On n'a jamais assez d'explosif. JAMAIS.",
+        "es-es": "Haciendo muestra de su dominio del fuego y las lanzas, Xiangling provoca un tornado de llamas a su alrededor.Mientras dure la habilidad, el tornado se moverá junto a tu personaje, infligiendo Daño Pyro a todos los enemigos en su camino.Nunca hay suficiente fuego. Nunca.",
+        "id-id": "Xiangling menunjukkan keahilannya dengan api dan tombak, dia membuat Pyronado yang berputar di sekitarnya.Pyronado akan bergerak mengikuti karaktermu selama durasinya dan mengakibatkan Pyro DMG ke semua musuh di jalurnya.Tidak akan pernah ada panas yang cukup. Tidak pernah.",
+        "th-th": "อาศัยทักษะหอกชั้นยอดเพื่อหมุนรอบตัว อย่างรวดเร็วจนเกิดเป็นวงล้อเพลิง Pyronadoภายในช่วงเวลาต่อเนื่อง Pyronado จะเคลื่อนที่ไปพร้อมกับตัวละคร โดยจะทำให้เกิดความเสียหายไฟแก่ศัตรูที่อยู่ในเส้นทาง.พลังไฟนั้นไม่เคยพอ ไม่เคยพอเลยจริง ๆ",
+        "vi-vn": "Với kỹ năng tinh tế điều khiển lửa và thương, vung ra Bánh Xe Lửa xoay tròn quanh mình.Trong thời gian tồn tại, Bánh Xe Lửa sẽ đi theo nhân vật, gây cho địch trên đường Sát Thương Nguyên Tố Hỏa.Hỏa lực vĩnh viễn không đủ. Vĩnh viễn không đủ.",
+        "zh-tw": "以控制火候與槍術的精湛技巧，甩出圍繞自己快速旋轉的旋火輪。存在期間內，旋火輪會跟隨角色行動，對路徑上的敵人造成火元素傷害。火力永遠不夠。遠遠不夠。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/香菱/battle_talent_2/battle_talent_2.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Fogo Cruzado",
+        "en-us": "Crossfire",
+        "ja-jp": "交差する炎",
+        "zh-cn": "交叉火力",
+        "ko-kr": "교차 화력",
+        "ru-ru": "Перекрёстный огонь",
+        "de-de": "Kreuzfeuer",
+        "fr-fr": "Feux croisés",
+        "es-es": "Fuego cruzado",
+        "id-id": "Crossfire",
+        "th-th": "Crossfire",
+        "vi-vn": "Hỏa Lực Đan Chéo",
+        "zh-tw": "交叉火力"
+      },
+      "description": {
+        "pt-pt": "A distância do lança-chamas de Guoba aumenta 20%.",
+        "en-us": "Increases the flame range of Guoba by 20%.",
+        "ja-jp": "グゥオパァーの噴火距離+20%。",
+        "zh-cn": "锅巴的喷火距离提高20%。",
+        "ko-kr": "누룽지가 불을 뿜는 거리가 20% 증가한다",
+        "ru-ru": "Дистанция огненного дыхания Гобы увеличивается на 20%.",
+        "de-de": "Erhöht die Reichweite des Feuers von Guoba um 20 %.",
+        "fr-fr": "Augmente la portée des crachats de feu de Gooba de 20 %.",
+        "es-es": "El alcance del lanzallamas de Guoba aumenta en un 20%.",
+        "id-id": "Meningkatkan 20% jarak semburan api Guoba.",
+        "th-th": "เพิ่มระยะการพ่นไฟของ Guoba ขึ้น 20%",
+        "vi-vn": "Cự ly Guoba phun lửa tăng 20%.",
+        "zh-tw": "鍋巴的噴火距離提高20%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/香菱/const_talent_0.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Cuidado, Está Muito Quente!",
+        "en-us": "Beware, It's Super Hot!",
+        "ja-jp": "激辛唐辛子",
+        "zh-cn": "绝云朝天椒",
+        "ko-kr": "절운차오톈자오",
+        "ru-ru": "Острота!!!",
+        "de-de": "Scharfes Teil!",
+        "fr-fr": "Attention, ça pique",
+        "es-es": "¡Cuidado, que pica!",
+        "id-id": "Beware, It's Super Hot!",
+        "th-th": "Beware, It's Super Hot!",
+        "vi-vn": "Ớt Chỉ Thiên Cay Xè",
+        "zh-tw": "絕雲朝天椒"
+      },
+      "description": {
+        "pt-pt": "Quando o efeito do Ataque de Guoba terminar, Guoba deixa uma pimenta no ponto onde desapareceu. Ao pegar a pimenta, aumenta o ATQ em 10% por 10s.",
+        "en-us": "When Guoba Attack's effect ends, Guoba leaves a chili pepper on the spot where it disappeared. Picking up a chili pepper increases ATK by 10% for 10s.",
+        "ja-jp": "グゥオパァー出撃効果終了時、グゥオパァーは消えた位置に唐辛子を残す。唐辛子を拾うと、攻撃力+10%。継続時間10秒。",
+        "zh-cn": "锅巴出击效果结束时，锅巴会在消失的位置留下辣椒。拾取辣椒会提高10%攻击力，持续10秒。",
+        "ko-kr": "누룽지 출격 효과 종료 후 누룽지는 사라진 위치에 고추를 하나 남긴다. 고추를 주우면 공격력이 10% 증가한다. 지속 시간: 10초",
+        "ru-ru": "После окончания навыка Атака Гобы на месте его исчезновения остаётся перец. Этот перец увеличивает силу атаки на 10% в течение 10 сек.",
+        "de-de": "Guoba hinterlässt nach dem Ende des Effekts von Guoba, erscheine! eine Peperoni, die den ANG beim Einsammeln 10 s lang um 10 % erhöht.",
+        "fr-fr": "À la fin d'Attaque Gooba, le gentil petit Gooba laisse un piment à son emplacement avant de disparaître. Ce piment confère un bonus de 10 % d'ATQ pendant 10 s à celui qui le ramasse.",
+        "es-es": "Cuando termina el Ataque de Guoba, Guoba deja chiles en el lugar donde desaparece. Obtén los chiles para aumentar el ATQ en un 10% durante 10 s.",
+        "id-id": "Saat durasi skill Guoba Attack selesai, Guoba akan meninggalkan sebuah cabai di lantai. Mengambil cabai tersebut meningkatkan 10% ATK selama 10 detik.",
+        "th-th": "เมื่อผลของ Guoba Attack จบลง Guoba จะทิ้งพริกไว้ตรงจุดที่หายตัว การเก็บพริกขึ้นมาจะเพิ่มพลังโจมตีขึ้น 10% เป็นเวลา 10 วิ",
+        "vi-vn": "Khi hiệu quả của Guoba Xuất Kích kết thúc, nơi Guoba biến mất sẽ bỏ lại quả ớt. Thu thập ớt sẽ tăng 10% tấn công, kéo dài 10s.",
+        "zh-tw": "鍋巴出擊效果結束時，鍋巴會在消失的位置留下辣椒。拾取辣椒會提高10%攻擊力，持續10秒。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/香菱/const_talent_1.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Chefe de Cozinha",
+        "en-us": "Chef de Cuisine",
+        "ja-jp": "万民堂のシェフ",
+        "zh-cn": "万民堂大厨",
+        "ko-kr": "만민당 주방장",
+        "ru-ru": "Народный выбор",
+        "de-de": "Chefköchin des Restaurants Wanmin",
+        "fr-fr": "Cheffe cuisinière",
+        "es-es": "Chef de cocina",
+        "id-id": "Chef de Cuisine",
+        "th-th": "Chef de Cuisine",
+        "vi-vn": "Đầu Bếp Vạn Dân Đường",
+        "zh-tw": "萬民堂大廚"
+      },
+      "description": {
+        "pt-pt": "Quando uma Culinária Perfeita é feita em uma comida de aumento de ATQ, Xiangling tem uma chance de 12% de receber o dobro de produção.",
+        "en-us": "When Xiangling cooks an ATK-boosting dish perfectly, she has a 12% chance to receive double the product.",
+        "ja-jp": "攻撃系料理を完璧調理した時、12%の確率で料理を2倍獲得する。",
+        "zh-cn": "完美烹饪攻击类食物时，有12%概率获得2倍产出。",
+        "ko-kr": "공격류 요리를 완벽 조리하면 12% 확률로 요리량의 2배를 획득한다",
+        "ru-ru": "При приготовлении идеального блюда, повышающего силу атаки, имеет 12% шанс приготовить дополнительное блюдо.",
+        "de-de": "Stellt bei der perfekten Zubereitung eines Gerichts mit offensiver Funktion mit einer Wahrscheinlichkeit von 12 % den 2-fachen Ertrag her.",
+        "fr-fr": "12 % de chances d'obtenir un plat supplémentaire lorsque vous cuisinez un plat parfait qui renforce l'ATQ.",
+        "es-es": "Al lograr un “Perfecto” en un plato con efectos de ataque, hay una probabilidad del 12% de obtener el doble.",
+        "id-id": "Saat masakan jenis penyerangan dimasak dengan sempurna, terdapat 12% kemungkinan mendapatkan hasil 2 kali lipat.",
+        "th-th": "เมื่อปรุงอาหารประเภทโจมตีได้ ระดับสมบูรณ์ จะมีโอกาส 12% ที่จะได้รับผลผลิตเพิ่มเป็น 2 เท่า",
+        "vi-vn": "Nấu hoàn mỹ món ăn thuộc loại tấn công, có tỷ lệ 12% x2 sản lượng.",
+        "zh-tw": "完美烹飪攻擊類食物時，有12%的機率獲得兩倍產出。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/香菱/const_talent_2.png"
+    }
+  ],
+  "talentAttributes": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Pastelaria Kung Fu",
+        "en-us": "Dough-Fu",
+        "ja-jp": "料理技法",
+        "zh-cn": "普通攻击·白案功夫",
+        "ko-kr": "일반 공격·밀가루 음식 솜씨",
+        "ru-ru": "Кунг-Тесто",
+        "de-de": "Standardangriff: Gebäckgefecht",
+        "fr-fr": "Attaque normale : Cuisine-fu",
+        "es-es": "Ataque Normal: Kung-Fu pasta",
+        "id-id": "Pastry Kung Fu",
+        "th-th": "โจมตีปกติ - Dough-Fu",
+        "vi-vn": "Tấn Công Thường: Tài Nghệ Làm Bánh",
+        "zh-tw": "普通攻擊·白案功夫"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 1° Golpe",
+            "en-us": "1-Hit DMG",
+            "ja-jp": "1段ダメージ",
+            "zh-cn": "一段伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон атаки 1",
+            "de-de": "SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tahap 1",
+            "th-th": "ความเสียหายขั้น 1",
+            "vi-vn": "Sát Thương Lần 1",
+            "zh-tw": "一段傷害"
+          },
+          "values": [
+            "42.1%",
+            "45.5%",
+            "48.9%",
+            "53.8%",
+            "57.2%",
+            "61.1%",
+            "66.5%",
+            "71.9%",
+            "77.3%",
+            "83.1%",
+            "89.9%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 2° Golpe",
+            "en-us": "2-Hit DMG",
+            "ja-jp": "2段ダメージ",
+            "zh-cn": "二段伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон атаки 2",
+            "de-de": "SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2.º golpe",
+            "id-id": "DMG Tahap 2",
+            "th-th": "ความเสียหายขั้น 2",
+            "vi-vn": "Sát Thương Lần 2",
+            "zh-tw": "二段傷害"
+          },
+          "values": [
+            "42.1%",
+            "45.6%",
+            "49%",
+            "53.9%",
+            "57.3%",
+            "61.3%",
+            "66.6%",
+            "72%",
+            "77.4%",
+            "83.3%",
+            "90%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 3° Golpe",
+            "en-us": "3-Hit DMG",
+            "ja-jp": "3段ダメージ",
+            "zh-cn": "三段伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон атаки 3",
+            "de-de": "SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tahap 3",
+            "th-th": "ความเสียหายขั้น 3",
+            "vi-vn": "Sát Thương Lần 3",
+            "zh-tw": "三段傷害"
+          },
+          "values": [
+            "26.1%+26.1%",
+            "28.2%+28.2%",
+            "30.3%+30.3%",
+            "33.3%+33.3%",
+            "35.5%+35.5%",
+            "37.9%+37.9%",
+            "41.2%+41.2%",
+            "44.5%+44.5%",
+            "47.9%+47.9%",
+            "51.5%+51.5%",
+            "55.7%+55.7%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 4° Golpe",
+            "en-us": "4-Hit DMG",
+            "ja-jp": "4段ダメージ",
+            "zh-cn": "四段伤害",
+            "ko-kr": "4단 공격 피해",
+            "ru-ru": "Урон атаки 4",
+            "de-de": "SCH Phase 4",
+            "fr-fr": "DGT 4e coup",
+            "es-es": "Daño de 4.º golpe",
+            "id-id": "DMG Tahap 4",
+            "th-th": "ความเสียหายขั้น 4",
+            "vi-vn": "Sát Thương Lần 4",
+            "zh-tw": "四段傷害"
+          },
+          "values": [
+            "14.1%*4",
+            "15.3%*4",
+            "16.4%*4",
+            "18.0%*4",
+            "19.2%*4",
+            "20.5%*4",
+            "22.3%*4",
+            "24.1%*4",
+            "25.9%*4",
+            "27.9%*4",
+            "30.1%*4"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 5° Golpe",
+            "en-us": "5-Hit DMG",
+            "ja-jp": "5段ダメージ",
+            "zh-cn": "五段伤害",
+            "ko-kr": "5단 공격 피해",
+            "ru-ru": "Урон атаки 5",
+            "de-de": "SCH Phase 5",
+            "fr-fr": "DGT 5e coup",
+            "es-es": "Daño de 5.º golpe",
+            "id-id": "DMG Tahap 5",
+            "th-th": "ความเสียหายขั้น 5",
+            "vi-vn": "Sát Thương Lần 5",
+            "zh-tw": "五段傷害"
+          },
+          "values": [
+            "71%",
+            "76.8%",
+            "82.6%",
+            "90.9%",
+            "96.6%",
+            "103%",
+            "112%",
+            "121%",
+            "131%",
+            "140%",
+            "152%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Ataque Carregado",
+            "en-us": "Charged Attack DMG",
+            "ja-jp": "重撃ダメージ",
+            "zh-cn": "重击伤害",
+            "ko-kr": "강공격 피해",
+            "ru-ru": "Урон заряженной атаки",
+            "de-de": "SCH heftiger Schläge",
+            "fr-fr": "DGT attaque chargée",
+            "es-es": "Daño de ATQ Cargado",
+            "id-id": "DMG Charged Attack",
+            "th-th": "ความเสียหายชาร์จโจมตี",
+            "vi-vn": "Sát Thương Trọng Kích",
+            "zh-tw": "重擊傷害"
+          },
+          "values": [
+            "122%",
+            "132%",
+            "142%",
+            "156%",
+            "166%",
+            "177%",
+            "192%",
+            "208%",
+            "224%",
+            "241%",
+            "260%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Consumo de Stamina de Ataque Carregado",
+            "en-us": "Charged Attack Stamina Cost",
+            "ja-jp": "重撃スタミナ消費",
+            "zh-cn": "重击体力消耗",
+            "ko-kr": "강공격 스태미나 소모",
+            "ru-ru": "Потребление выносливости",
+            "de-de": "Ausdauerverbrauch heftiger Schläge",
+            "fr-fr": "Coût d'endurance attaque chargée",
+            "es-es": "Coste de Aguante de ATQ Cargado",
+            "id-id": "Konsumsi Stamina Charged Attack",
+            "th-th": "ชาร์จโจมตีใช้พลังกาย",
+            "vi-vn": "Thể lực Trọng Kích tiêu hao",
+            "zh-tw": "重擊體力消耗"
+          },
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Durante a Queda",
+            "en-us": "Plunge DMG",
+            "ja-jp": "落下期間のダメージ",
+            "zh-cn": "下坠期间伤害",
+            "ko-kr": "낙하 기간 피해",
+            "ru-ru": "Урон в падении",
+            "de-de": "SCH beim Fallen",
+            "fr-fr": "DGT durant la chute",
+            "es-es": "Daño de Caída",
+            "id-id": "DMG Selama Plunging",
+            "th-th": "ความเสียหายพุ่งลง",
+            "vi-vn": "Sát Thương Khi Rơi",
+            "zh-tw": "下墜期間傷害"
+          },
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101%",
+            "109%",
+            "117.5%",
+            "126.4%",
+            "135.3%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Queda de Baixa/Alta Altitude",
+            "en-us": "Low/High Plunge DMG",
+            "ja-jp": "低空/高空落下攻撃ダメージ",
+            "zh-cn": "低空/高空坠地冲击伤害",
+            "ko-kr": "저공/고공 추락 충격 피해",
+            "ru-ru": "Урон низкого/высокого удара",
+            "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
+            "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Daño de impacto de caída baja/alta",
+            "id-id": "DMG Plunging Attack Min./Maks.",
+            "th-th": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+            "vi-vn": "Sát Thương Khi Rơi Từ Độ Cao Thấp/Cao",
+            "zh-tw": "低空/高空墜地衝擊傷害"
+          },
+          "values": [
+            "128%/160%",
+            "138%/173%",
+            "149%/186%",
+            "164%/204%",
+            "174%/217%",
+            "186%/232%",
+            "202%/253%",
+            "219%/273%",
+            "235%/293%",
+            "253%/316%",
+            "271%/338%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_skill",
+      "talentName": {
+        "pt-pt": "Ataque de Guoba",
+        "en-us": "Guoba Attack",
+        "ja-jp": "グゥオパァー出撃",
+        "zh-cn": "锅巴出击",
+        "ko-kr": "누룽지 출격",
+        "ru-ru": "Атака Гобы",
+        "de-de": "Guoba, erscheine!",
+        "fr-fr": "Attaque Gooba",
+        "es-es": "Ataque de Guoba",
+        "id-id": "Guoba Attack",
+        "th-th": "Guoba Attack",
+        "vi-vn": "Guoba Xuất Kích",
+        "zh-tw": "鍋巴出擊"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Lança-Chamas",
+            "en-us": "Flame DMG",
+            "ja-jp": "噴火ダメージ",
+            "zh-cn": "喷火伤害",
+            "ko-kr": "불 뿜기 피해",
+            "ru-ru": "Урон от огня",
+            "de-de": "Feuer-SCH",
+            "fr-fr": "DGT crachats de feu",
+            "es-es": "Daño de lanzallamas",
+            "id-id": "DMG Flamethrower",
+            "th-th": "ความเสียหายการพ่นไฟ",
+            "vi-vn": "Sát Thương Phun Lửa",
+            "zh-tw": "噴火傷害"
+          },
+          "values": [
+            "111%",
+            "120%",
+            "128%",
+            "139%",
+            "147%",
+            "156%",
+            "167%",
+            "178%",
+            "189%",
+            "200%",
+            "211%",
+            "223%",
+            "236%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_burst",
+      "talentName": {
+        "pt-pt": "Pyronado",
+        "en-us": "Pyronado",
+        "ja-jp": "旋火輪",
+        "zh-cn": "旋火轮",
+        "ko-kr": "화륜",
+        "ru-ru": "Огневихрь",
+        "de-de": "Feuerrad",
+        "fr-fr": "Pyrotation",
+        "es-es": "Pyronado",
+        "id-id": "Pyronado",
+        "th-th": "Pyronado",
+        "vi-vn": "Bánh Xe Lửa",
+        "zh-tw": "旋火輪"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Balanço do 1° Golpe",
+            "en-us": "1-Hit Swing DMG",
+            "ja-jp": "振り回しによる1段ダメージ",
+            "zh-cn": "一段挥舞伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон взмаха 1",
+            "de-de": "Wirbel-SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tebasan Tahap 1",
+            "th-th": "ความเสียหายจากการแกว่งขั้น1",
+            "vi-vn": "Sát Thương Chém Lần 1",
+            "zh-tw": "一段揮舞傷害"
+          },
+          "values": [
+            "72%",
+            "77.4%",
+            "82.8%",
+            "90%",
+            "95.4%",
+            "101%",
+            "108%",
+            "115%",
+            "122%",
+            "130%",
+            "137%",
+            "144%",
+            "153%",
+            "162%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Balanço do 2° Golpe",
+            "en-us": "2-Hit Swing DMG",
+            "ja-jp": "振り回しによる2段ダメージ",
+            "zh-cn": "二段挥舞伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон взмаха 2",
+            "de-de": "Wirbel-SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2° golpe",
+            "id-id": "DMG Tebasan Tahap 2",
+            "th-th": "ความเสียหายจากการแกว่งขั้น 2",
+            "vi-vn": "Sát Thương Chém Lần 2",
+            "zh-tw": "二段揮舞傷害"
+          },
+          "values": [
+            "88%",
+            "94.6%",
+            "101%",
+            "110%",
+            "117%",
+            "123%",
+            "132%",
+            "141%",
+            "150%",
+            "158%",
+            "167%",
+            "176%",
+            "187%",
+            "198%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Balanço do 3° Golpe",
+            "en-us": "3-Hit Swing DMG",
+            "ja-jp": "振り回しによる3段ダメージ",
+            "zh-cn": "三段挥舞伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон взмаха 3",
+            "de-de": "Wirbel-SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tebasan Tahap 3",
+            "th-th": "ความเสียหายจากการแกว่งขั้น 3",
+            "vi-vn": "Sát Thương Chém Lần 3",
+            "zh-tw": "三段揮舞傷害"
+          },
+          "values": [
+            "110%",
+            "118%",
+            "126%",
+            "137%",
+            "145%",
+            "153%",
+            "164%",
+            "175%",
+            "186%",
+            "197%",
+            "208%",
+            "219%",
+            "233%",
+            "247%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do Pyronado",
+            "en-us": "Pyronado DMG",
+            "ja-jp": "旋火輪ダメージ",
+            "zh-cn": "旋火轮伤害",
+            "ko-kr": "화륜 피해",
+            "ru-ru": "Урон огненного вихря",
+            "de-de": "Feuerrad-SCH",
+            "fr-fr": "DGT tornade de feu",
+            "es-es": "Daño de Pyronado",
+            "id-id": "DMG Pyronado",
+            "th-th": "ความเสียหาย Pyronado",
+            "vi-vn": "Sát Thương Bánh Xe Lửa",
+            "zh-tw": "旋火輪傷害"
+          },
+          "values": [
+            "112%",
+            "120%",
+            "129%",
+            "140%",
+            "148%",
+            "157%",
+            "168%",
+            "179%",
+            "190%",
+            "202%",
+            "213%",
+            "224%",
+            "238%",
+            "252%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração",
+            "en-us": "Duration",
+            "ja-jp": "継続時間",
+            "zh-cn": "持续时间",
+            "ko-kr": "지속 시간",
+            "ru-ru": "Длительность",
+            "de-de": "Dauer",
+            "fr-fr": "Durée",
+            "es-es": "Duración",
+            "id-id": "Durasi",
+            "th-th": "ระยะเวลาต่อเนื่อง",
+            "vi-vn": "Thời Gian Kéo Dài",
+            "zh-tw": "持續時間"
+          },
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Energia Elemental",
+            "en-us": "Energy Cost",
+            "ja-jp": "元素エネルギー",
+            "zh-cn": "元素能量",
+            "ko-kr": "원소 에너지",
+            "ru-ru": "Потребление энергии",
+            "de-de": "Elementarenergie",
+            "fr-fr": "Énergie élémentaire",
+            "es-es": "Energía Elemental",
+            "id-id": "Konsumsi Energy",
+            "th-th": "พลังงานธาตุ",
+            "vi-vn": "Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量"
+          },
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "talentMaterials": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Pastelaria Kung Fu",
+        "en-us": "Dough-Fu",
+        "ja-jp": "料理技法",
+        "zh-cn": "普通攻击·白案功夫",
+        "ko-kr": "일반 공격·밀가루 음식 솜씨",
+        "ru-ru": "Кунг-Тесто",
+        "de-de": "Standardangriff: Gebäckgefecht",
+        "fr-fr": "Attaque normale : Cuisine-fu",
+        "es-es": "Ataque Normal: Kung-Fu pasta",
+        "id-id": "Pastry Kung Fu",
+        "th-th": "โจมตีปกติ - Dough-Fu",
+        "vi-vn": "Tấn Công Thường: Tài Nghệ Làm Bánh",
+        "zh-tw": "普通攻擊·白案功夫"
+      },
+      "materials": [
+        {
+          "level": 2,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 12500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "76",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Ensinamentos de Esforço",
+                "en-us": "Teachings of Diligence",
+                "ja-jp": "勤労の教え",
+                "zh-cn": "勤劳的教导",
+                "ko-kr": "근면의 가르침",
+                "ru-ru": "Учения об Усердии",
+                "de-de": "Lehren des Fleißes",
+                "fr-fr": "Enseignement de la Diligence",
+                "es-es": "Enseñanzas del esfuerzo",
+                "id-id": "Teachings of Diligence",
+                "th-th": "Teachings of Diligence",
+                "vi-vn": "Bài Giảng Của Chăm Chỉ",
+                "zh-tw": "勤勞的教導"
+              }
+            },
+            {
+              "id": "396",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Condensado de Slime",
+                "en-us": "Slime Condensate",
+                "ja-jp": "スライムの液体",
+                "zh-cn": "史莱姆凝液",
+                "ko-kr": "슬라임 응축액",
+                "ru-ru": "Слизь слайма",
+                "de-de": "Schleimabsonderung",
+                "fr-fr": "Bave de Blob",
+                "es-es": "Condensado de Slime",
+                "id-id": "Slime Condensate",
+                "th-th": "Slime Condensate",
+                "vi-vn": "Dịch Slime",
+                "zh-tw": "史萊姆凝液"
+              }
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 17500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "75",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Guia de Esforço",
+                "en-us": "Guide to Diligence",
+                "ja-jp": "勤労の導き",
+                "zh-cn": "勤劳的指引",
+                "ko-kr": "근면의 인도",
+                "ru-ru": "Указания об Усердии",
+                "de-de": "Anleitung zum Fleiß",
+                "fr-fr": "Guide de la Diligence",
+                "es-es": "Guía del esfuerzo",
+                "id-id": "Guide to Diligence",
+                "th-th": "Guide to Diligence",
+                "vi-vn": "Hướng Dẫn Của Chăm Chỉ",
+                "zh-tw": "勤勞的指引"
+              }
+            },
+            {
+              "id": "398",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Secreção de Slime",
+                "en-us": "Slime Secretions",
+                "ja-jp": "スライムの分泌物",
+                "zh-cn": "史莱姆清",
+                "ko-kr": "슬라임청",
+                "ru-ru": "Выделения слайма",
+                "de-de": "Schleimkondensat",
+                "fr-fr": "Mucus de Blob",
+                "es-es": "Babas de Slime",
+                "id-id": "Slime Secretions",
+                "th-th": "Slime Secretions",
+                "vi-vn": "Tinh Slime",
+                "zh-tw": "史萊姆清"
+              }
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 25000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "75",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Guia de Esforço",
+                "en-us": "Guide to Diligence",
+                "ja-jp": "勤労の導き",
+                "zh-cn": "勤劳的指引",
+                "ko-kr": "근면의 인도",
+                "ru-ru": "Указания об Усердии",
+                "de-de": "Anleitung zum Fleiß",
+                "fr-fr": "Guide de la Diligence",
+                "es-es": "Guía del esfuerzo",
+                "id-id": "Guide to Diligence",
+                "th-th": "Guide to Diligence",
+                "vi-vn": "Hướng Dẫn Của Chăm Chỉ",
+                "zh-tw": "勤勞的指引"
+              }
+            },
+            {
+              "id": "398",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Secreção de Slime",
+                "en-us": "Slime Secretions",
+                "ja-jp": "スライムの分泌物",
+                "zh-cn": "史莱姆清",
+                "ko-kr": "슬라임청",
+                "ru-ru": "Выделения слайма",
+                "de-de": "Schleimkondensat",
+                "fr-fr": "Mucus de Blob",
+                "es-es": "Babas de Slime",
+                "id-id": "Slime Secretions",
+                "th-th": "Slime Secretions",
+                "vi-vn": "Tinh Slime",
+                "zh-tw": "史萊姆清"
+              }
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 30000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "75",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Guia de Esforço",
+                "en-us": "Guide to Diligence",
+                "ja-jp": "勤労の導き",
+                "zh-cn": "勤劳的指引",
+                "ko-kr": "근면의 인도",
+                "ru-ru": "Указания об Усердии",
+                "de-de": "Anleitung zum Fleiß",
+                "fr-fr": "Guide de la Diligence",
+                "es-es": "Guía del esfuerzo",
+                "id-id": "Guide to Diligence",
+                "th-th": "Guide to Diligence",
+                "vi-vn": "Hướng Dẫn Của Chăm Chỉ",
+                "zh-tw": "勤勞的指引"
+              }
+            },
+            {
+              "id": "398",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Secreção de Slime",
+                "en-us": "Slime Secretions",
+                "ja-jp": "スライムの分泌物",
+                "zh-cn": "史莱姆清",
+                "ko-kr": "슬라임청",
+                "ru-ru": "Выделения слайма",
+                "de-de": "Schleimkondensat",
+                "fr-fr": "Mucus de Blob",
+                "es-es": "Babas de Slime",
+                "id-id": "Slime Secretions",
+                "th-th": "Slime Secretions",
+                "vi-vn": "Tinh Slime",
+                "zh-tw": "史萊姆清"
+              }
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 37500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "75",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Guia de Esforço",
+                "en-us": "Guide to Diligence",
+                "ja-jp": "勤労の導き",
+                "zh-cn": "勤劳的指引",
+                "ko-kr": "근면의 인도",
+                "ru-ru": "Указания об Усердии",
+                "de-de": "Anleitung zum Fleiß",
+                "fr-fr": "Guide de la Diligence",
+                "es-es": "Guía del esfuerzo",
+                "id-id": "Guide to Diligence",
+                "th-th": "Guide to Diligence",
+                "vi-vn": "Hướng Dẫn Của Chăm Chỉ",
+                "zh-tw": "勤勞的指引"
+              }
+            },
+            {
+              "id": "398",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Secreção de Slime",
+                "en-us": "Slime Secretions",
+                "ja-jp": "スライムの分泌物",
+                "zh-cn": "史莱姆清",
+                "ko-kr": "슬라임청",
+                "ru-ru": "Выделения слайма",
+                "de-de": "Schleimkondensat",
+                "fr-fr": "Mucus de Blob",
+                "es-es": "Babas de Slime",
+                "id-id": "Slime Secretions",
+                "th-th": "Slime Secretions",
+                "vi-vn": "Tinh Slime",
+                "zh-tw": "史萊姆清"
+              }
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 120000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "74",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Filosofia de Esforço",
+                "en-us": "Philosophies of Diligence",
+                "ja-jp": "勤労の哲学",
+                "zh-cn": "勤劳的哲学",
+                "ko-kr": "근면의 철학",
+                "ru-ru": "Философия об Усердии",
+                "de-de": "Philosophie des Fleißes",
+                "fr-fr": "Philosophie de la Diligence",
+                "es-es": "Filosofía del esfuerzo",
+                "id-id": "Philosophies of Diligence",
+                "th-th": "Philosophies of Diligence",
+                "vi-vn": "Triết Học Của Chăm Chỉ",
+                "zh-tw": "勤勞的哲學"
+              }
+            },
+            {
+              "id": "397",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Essência de Slime",
+                "en-us": "Slime Concentrate",
+                "ja-jp": "スライムのピュレ",
+                "zh-cn": "史莱姆原浆",
+                "ko-kr": "슬라임 원액",
+                "ru-ru": "Концентрат слайма",
+                "de-de": "Schleimkonzentrat",
+                "fr-fr": "Essence de Blob",
+                "es-es": "Esencia de Slime",
+                "id-id": "Slime Concentrate",
+                "th-th": "Slime Concentrate",
+                "vi-vn": "Bột Slime",
+                "zh-tw": "史萊姆原漿"
+              }
+            },
+            {
+              "id": "237",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Garra do Vento Oriental",
+                "en-us": "Dvalin's Claw",
+                "ja-jp": "東風の爪",
+                "zh-cn": "东风之爪",
+                "ko-kr": "동풍의 발톱",
+                "ru-ru": "Коготь Двалина",
+                "de-de": "Klaue des Ostwinds",
+                "fr-fr": "Griffe de Stormterror",
+                "es-es": "Garra de Stormterror",
+                "id-id": "Dvalin's Claw",
+                "th-th": "Dvalin's Claw",
+                "vi-vn": "Móng Vuốt Đông Phong",
+                "zh-tw": "東風之爪"
+              }
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 260000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "74",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Filosofia de Esforço",
+                "en-us": "Philosophies of Diligence",
+                "ja-jp": "勤労の哲学",
+                "zh-cn": "勤劳的哲学",
+                "ko-kr": "근면의 철학",
+                "ru-ru": "Философия об Усердии",
+                "de-de": "Philosophie des Fleißes",
+                "fr-fr": "Philosophie de la Diligence",
+                "es-es": "Filosofía del esfuerzo",
+                "id-id": "Philosophies of Diligence",
+                "th-th": "Philosophies of Diligence",
+                "vi-vn": "Triết Học Của Chăm Chỉ",
+                "zh-tw": "勤勞的哲學"
+              }
+            },
+            {
+              "id": "397",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Essência de Slime",
+                "en-us": "Slime Concentrate",
+                "ja-jp": "スライムのピュレ",
+                "zh-cn": "史莱姆原浆",
+                "ko-kr": "슬라임 원액",
+                "ru-ru": "Концентрат слайма",
+                "de-de": "Schleimkonzentrat",
+                "fr-fr": "Essence de Blob",
+                "es-es": "Esencia de Slime",
+                "id-id": "Slime Concentrate",
+                "th-th": "Slime Concentrate",
+                "vi-vn": "Bột Slime",
+                "zh-tw": "史萊姆原漿"
+              }
+            },
+            {
+              "id": "237",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Garra do Vento Oriental",
+                "en-us": "Dvalin's Claw",
+                "ja-jp": "東風の爪",
+                "zh-cn": "东风之爪",
+                "ko-kr": "동풍의 발톱",
+                "ru-ru": "Коготь Двалина",
+                "de-de": "Klaue des Ostwinds",
+                "fr-fr": "Griffe de Stormterror",
+                "es-es": "Garra de Stormterror",
+                "id-id": "Dvalin's Claw",
+                "th-th": "Dvalin's Claw",
+                "vi-vn": "Móng Vuốt Đông Phong",
+                "zh-tw": "東風之爪"
+              }
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 450000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "74",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Filosofia de Esforço",
+                "en-us": "Philosophies of Diligence",
+                "ja-jp": "勤労の哲学",
+                "zh-cn": "勤劳的哲学",
+                "ko-kr": "근면의 철학",
+                "ru-ru": "Философия об Усердии",
+                "de-de": "Philosophie des Fleißes",
+                "fr-fr": "Philosophie de la Diligence",
+                "es-es": "Filosofía del esfuerzo",
+                "id-id": "Philosophies of Diligence",
+                "th-th": "Philosophies of Diligence",
+                "vi-vn": "Triết Học Của Chăm Chỉ",
+                "zh-tw": "勤勞的哲學"
+              }
+            },
+            {
+              "id": "397",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Essência de Slime",
+                "en-us": "Slime Concentrate",
+                "ja-jp": "スライムのピュレ",
+                "zh-cn": "史莱姆原浆",
+                "ko-kr": "슬라임 원액",
+                "ru-ru": "Концентрат слайма",
+                "de-de": "Schleimkonzentrat",
+                "fr-fr": "Essence de Blob",
+                "es-es": "Esencia de Slime",
+                "id-id": "Slime Concentrate",
+                "th-th": "Slime Concentrate",
+                "vi-vn": "Bột Slime",
+                "zh-tw": "史萊姆原漿"
+              }
+            },
+            {
+              "id": "237",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Garra do Vento Oriental",
+                "en-us": "Dvalin's Claw",
+                "ja-jp": "東風の爪",
+                "zh-cn": "东风之爪",
+                "ko-kr": "동풍의 발톱",
+                "ru-ru": "Коготь Двалина",
+                "de-de": "Klaue des Ostwinds",
+                "fr-fr": "Griffe de Stormterror",
+                "es-es": "Garra de Stormterror",
+                "id-id": "Dvalin's Claw",
+                "th-th": "Dvalin's Claw",
+                "vi-vn": "Móng Vuốt Đông Phong",
+                "zh-tw": "東風之爪"
+              }
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 700000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "74",
+              "iconUrl": null,
+              "amount": 16,
+              "name": {
+                "pt-pt": "Filosofia de Esforço",
+                "en-us": "Philosophies of Diligence",
+                "ja-jp": "勤労の哲学",
+                "zh-cn": "勤劳的哲学",
+                "ko-kr": "근면의 철학",
+                "ru-ru": "Философия об Усердии",
+                "de-de": "Philosophie des Fleißes",
+                "fr-fr": "Philosophie de la Diligence",
+                "es-es": "Filosofía del esfuerzo",
+                "id-id": "Philosophies of Diligence",
+                "th-th": "Philosophies of Diligence",
+                "vi-vn": "Triết Học Của Chăm Chỉ",
+                "zh-tw": "勤勞的哲學"
+              }
+            },
+            {
+              "id": "397",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Essência de Slime",
+                "en-us": "Slime Concentrate",
+                "ja-jp": "スライムのピュレ",
+                "zh-cn": "史莱姆原浆",
+                "ko-kr": "슬라임 원액",
+                "ru-ru": "Концентрат слайма",
+                "de-de": "Schleimkonzentrat",
+                "fr-fr": "Essence de Blob",
+                "es-es": "Esencia de Slime",
+                "id-id": "Slime Concentrate",
+                "th-th": "Slime Concentrate",
+                "vi-vn": "Bột Slime",
+                "zh-tw": "史萊姆原漿"
+              }
+            },
+            {
+              "id": "237",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Garra do Vento Oriental",
+                "en-us": "Dvalin's Claw",
+                "ja-jp": "東風の爪",
+                "zh-cn": "东风之爪",
+                "ko-kr": "동풍의 발톱",
+                "ru-ru": "Коготь Двалина",
+                "de-de": "Klaue des Ostwinds",
+                "fr-fr": "Griffe de Stormterror",
+                "es-es": "Garra de Stormterror",
+                "id-id": "Dvalin's Claw",
+                "th-th": "Dvalin's Claw",
+                "vi-vn": "Móng Vuốt Đông Phong",
+                "zh-tw": "東風之爪"
+              }
+            },
+            {
+              "id": "900",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa da Sabedoria",
+                "en-us": "Crown of Insight",
+                "ja-jp": "知恵の冠",
+                "zh-cn": "智识之冕",
+                "ko-kr": "지식의 왕관",
+                "ru-ru": "Корона прозрения",
+                "de-de": "Krone der Weisheit",
+                "fr-fr": "Couronne de la sagesse",
+                "es-es": "Corona de la sabiduría",
+                "id-id": "Crown of Insight",
+                "th-th": "Crown of Insight",
+                "vi-vn": "Vương Miện Trí Thức",
+                "zh-tw": "智識之冕"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "affiliation": {
+    "pt-pt": "Restaurante Wanmin",
+    "en-us": "Wanmin Restaurant",
+    "ja-jp": "万民堂",
+    "zh-cn": "万民堂",
+    "ko-kr": "만민당",
+    "ru-ru": "Ресторан «Народный выбор»",
+    "de-de": "Restaurant Wanmin",
+    "fr-fr": "Restaurant Wanmin",
+    "es-es": "Restaurante Wanmin",
+    "id-id": "Wanmin Restaurant",
+    "th-th": "ภัตตาคาร Wanmin",
+    "vi-vn": "Vạn Dân Đường",
+    "zh-tw": "萬民堂"
+  },
+  "birthday": {
+    "pt-pt": "2/11",
+    "en-us": "11/2",
+    "ja-jp": "11月2日",
+    "zh-cn": "11月2日",
+    "ko-kr": "11월 2일",
+    "ru-ru": "2 ноября",
+    "de-de": "2. November",
+    "fr-fr": "2/11",
+    "es-es": "2/11",
+    "id-id": "2 November",
+    "th-th": "2/11",
+    "vi-vn": "Ngày 2 tháng 11",
+    "zh-tw": "11月2日"
+  },
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1100",
+          "iconUrl": null,
+          "amount": 1,
+          "name": {
+            "pt-pt": "Lasca de Ágata Agnidus",
+            "en-us": "Agnidus Agate Sliver",
+            "ja-jp": "炎願のアゲート・砕屑",
+            "zh-cn": "燃愿玛瑙碎屑",
+            "ko-kr": "불타오르는 마노 가루",
+            "ru-ru": "Осколок агата Агнидус",
+            "de-de": "Agnidus-Achat-Splitter",
+            "fr-fr": "Éclat d'agate agnidus",
+            "es-es": "Pedacito de ágata agnidus",
+            "id-id": "Agnidus Agate Sliver",
+            "th-th": "Agnidus Agate Sliver",
+            "vi-vn": "Vụn Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙碎屑"
+          }
+        },
+        {
+          "id": "1349",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pimenta de Jueyun",
+            "en-us": "Jueyun Chili",
+            "ja-jp": "絶雲の唐辛子",
+            "zh-cn": "绝云椒椒",
+            "ko-kr": "절운고추",
+            "ru-ru": "Заоблачный перчик",
+            "de-de": "Jueyun-Peperoni",
+            "fr-fr": "Piment de Jueyun",
+            "es-es": "Chile de Jueyun",
+            "id-id": "Jueyun Chili",
+            "th-th": "Jueyun Chili",
+            "vi-vn": "Ớt Tuyệt Vân",
+            "zh-tw": "絕雲椒椒"
+          }
+        },
+        {
+          "id": "396",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Condensado de Slime",
+            "en-us": "Slime Condensate",
+            "ja-jp": "スライムの液体",
+            "zh-cn": "史莱姆凝液",
+            "ko-kr": "슬라임 응축액",
+            "ru-ru": "Слизь слайма",
+            "de-de": "Schleimabsonderung",
+            "fr-fr": "Bave de Blob",
+            "es-es": "Condensado de Slime",
+            "id-id": "Slime Condensate",
+            "th-th": "Slime Condensate",
+            "vi-vn": "Dịch Slime",
+            "zh-tw": "史萊姆凝液"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 40000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1099",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Ágata Agnidus",
+            "en-us": "Agnidus Agate Fragment",
+            "ja-jp": "炎願のアゲート・欠片",
+            "zh-cn": "燃愿玛瑙断片",
+            "ko-kr": "불타오르는 마노 조각",
+            "ru-ru": "Фрагмент агата Агнидус",
+            "de-de": "Agnidus-Achat-Bruchstück",
+            "fr-fr": "Fragment d'agate agnidus",
+            "es-es": "Fragmento de ágata agnidus",
+            "id-id": "Agnidus Agate Fragment",
+            "th-th": "Agnidus Agate Fragment",
+            "vi-vn": "Mảnh Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙斷片"
+          }
+        },
+        {
+          "id": "689",
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Semente de Fogo Eterno",
+            "en-us": "Everflame Seed",
+            "ja-jp": "常燃の火種",
+            "zh-cn": "常燃火种",
+            "ko-kr": "꺼지지 않는 불씨",
+            "ru-ru": "Пылающее семя",
+            "de-de": "Fluxfeuersamen",
+            "fr-fr": "Graine de feu",
+            "es-es": "Semilla de fuego eterno",
+            "id-id": "Everflame Seed",
+            "th-th": "Everflame Seed",
+            "vi-vn": "Ngọn Lửa Vĩnh Hằng",
+            "zh-tw": "常燃火種"
+          }
+        },
+        {
+          "id": "1349",
+          "iconUrl": null,
+          "amount": 10,
+          "name": {
+            "pt-pt": "Pimenta de Jueyun",
+            "en-us": "Jueyun Chili",
+            "ja-jp": "絶雲の唐辛子",
+            "zh-cn": "绝云椒椒",
+            "ko-kr": "절운고추",
+            "ru-ru": "Заоблачный перчик",
+            "de-de": "Jueyun-Peperoni",
+            "fr-fr": "Piment de Jueyun",
+            "es-es": "Chile de Jueyun",
+            "id-id": "Jueyun Chili",
+            "th-th": "Jueyun Chili",
+            "vi-vn": "Ớt Tuyệt Vân",
+            "zh-tw": "絕雲椒椒"
+          }
+        },
+        {
+          "id": "396",
+          "iconUrl": null,
+          "amount": 15,
+          "name": {
+            "pt-pt": "Condensado de Slime",
+            "en-us": "Slime Condensate",
+            "ja-jp": "スライムの液体",
+            "zh-cn": "史莱姆凝液",
+            "ko-kr": "슬라임 응축액",
+            "ru-ru": "Слизь слайма",
+            "de-de": "Schleimabsonderung",
+            "fr-fr": "Bave de Blob",
+            "es-es": "Condensado de Slime",
+            "id-id": "Slime Condensate",
+            "th-th": "Slime Condensate",
+            "vi-vn": "Dịch Slime",
+            "zh-tw": "史萊姆凝液"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 60000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1099",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Ágata Agnidus",
+            "en-us": "Agnidus Agate Fragment",
+            "ja-jp": "炎願のアゲート・欠片",
+            "zh-cn": "燃愿玛瑙断片",
+            "ko-kr": "불타오르는 마노 조각",
+            "ru-ru": "Фрагмент агата Агнидус",
+            "de-de": "Agnidus-Achat-Bruchstück",
+            "fr-fr": "Fragment d'agate agnidus",
+            "es-es": "Fragmento de ágata agnidus",
+            "id-id": "Agnidus Agate Fragment",
+            "th-th": "Agnidus Agate Fragment",
+            "vi-vn": "Mảnh Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙斷片"
+          }
+        },
+        {
+          "id": "689",
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Semente de Fogo Eterno",
+            "en-us": "Everflame Seed",
+            "ja-jp": "常燃の火種",
+            "zh-cn": "常燃火种",
+            "ko-kr": "꺼지지 않는 불씨",
+            "ru-ru": "Пылающее семя",
+            "de-de": "Fluxfeuersamen",
+            "fr-fr": "Graine de feu",
+            "es-es": "Semilla de fuego eterno",
+            "id-id": "Everflame Seed",
+            "th-th": "Everflame Seed",
+            "vi-vn": "Ngọn Lửa Vĩnh Hằng",
+            "zh-tw": "常燃火種"
+          }
+        },
+        {
+          "id": "1349",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Pimenta de Jueyun",
+            "en-us": "Jueyun Chili",
+            "ja-jp": "絶雲の唐辛子",
+            "zh-cn": "绝云椒椒",
+            "ko-kr": "절운고추",
+            "ru-ru": "Заоблачный перчик",
+            "de-de": "Jueyun-Peperoni",
+            "fr-fr": "Piment de Jueyun",
+            "es-es": "Chile de Jueyun",
+            "id-id": "Jueyun Chili",
+            "th-th": "Jueyun Chili",
+            "vi-vn": "Ớt Tuyệt Vân",
+            "zh-tw": "絕雲椒椒"
+          }
+        },
+        {
+          "id": "398",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Secreção de Slime",
+            "en-us": "Slime Secretions",
+            "ja-jp": "スライムの分泌物",
+            "zh-cn": "史莱姆清",
+            "ko-kr": "슬라임청",
+            "ru-ru": "Выделения слайма",
+            "de-de": "Schleimkondensat",
+            "fr-fr": "Mucus de Blob",
+            "es-es": "Babas de Slime",
+            "id-id": "Slime Secretions",
+            "th-th": "Slime Secretions",
+            "vi-vn": "Tinh Slime",
+            "zh-tw": "史萊姆清"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 80000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1098",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Ágata Agnidus",
+            "en-us": "Agnidus Agate Chunk",
+            "ja-jp": "炎願のアゲート・塊",
+            "zh-cn": "燃愿玛瑙块",
+            "ko-kr": "불타오르는 마노 덩이",
+            "ru-ru": "Кусок агата Агнидус",
+            "de-de": "Agnidus-Achat-Brocken",
+            "fr-fr": "Morceau d'agate agnidus",
+            "es-es": "Trozo de ágata agnidus",
+            "id-id": "Agnidus Agate Chunk",
+            "th-th": "Agnidus Agate Chunk",
+            "vi-vn": "Miếng Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙塊"
+          }
+        },
+        {
+          "id": "689",
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Semente de Fogo Eterno",
+            "en-us": "Everflame Seed",
+            "ja-jp": "常燃の火種",
+            "zh-cn": "常燃火种",
+            "ko-kr": "꺼지지 않는 불씨",
+            "ru-ru": "Пылающее семя",
+            "de-de": "Fluxfeuersamen",
+            "fr-fr": "Graine de feu",
+            "es-es": "Semilla de fuego eterno",
+            "id-id": "Everflame Seed",
+            "th-th": "Everflame Seed",
+            "vi-vn": "Ngọn Lửa Vĩnh Hằng",
+            "zh-tw": "常燃火種"
+          }
+        },
+        {
+          "id": "1349",
+          "iconUrl": null,
+          "amount": 30,
+          "name": {
+            "pt-pt": "Pimenta de Jueyun",
+            "en-us": "Jueyun Chili",
+            "ja-jp": "絶雲の唐辛子",
+            "zh-cn": "绝云椒椒",
+            "ko-kr": "절운고추",
+            "ru-ru": "Заоблачный перчик",
+            "de-de": "Jueyun-Peperoni",
+            "fr-fr": "Piment de Jueyun",
+            "es-es": "Chile de Jueyun",
+            "id-id": "Jueyun Chili",
+            "th-th": "Jueyun Chili",
+            "vi-vn": "Ớt Tuyệt Vân",
+            "zh-tw": "絕雲椒椒"
+          }
+        },
+        {
+          "id": "398",
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Secreção de Slime",
+            "en-us": "Slime Secretions",
+            "ja-jp": "スライムの分泌物",
+            "zh-cn": "史莱姆清",
+            "ko-kr": "슬라임청",
+            "ru-ru": "Выделения слайма",
+            "de-de": "Schleimkondensat",
+            "fr-fr": "Mucus de Blob",
+            "es-es": "Babas de Slime",
+            "id-id": "Slime Secretions",
+            "th-th": "Slime Secretions",
+            "vi-vn": "Tinh Slime",
+            "zh-tw": "史萊姆清"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 100000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1098",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Ágata Agnidus",
+            "en-us": "Agnidus Agate Chunk",
+            "ja-jp": "炎願のアゲート・塊",
+            "zh-cn": "燃愿玛瑙块",
+            "ko-kr": "불타오르는 마노 덩이",
+            "ru-ru": "Кусок агата Агнидус",
+            "de-de": "Agnidus-Achat-Brocken",
+            "fr-fr": "Morceau d'agate agnidus",
+            "es-es": "Trozo de ágata agnidus",
+            "id-id": "Agnidus Agate Chunk",
+            "th-th": "Agnidus Agate Chunk",
+            "vi-vn": "Miếng Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙塊"
+          }
+        },
+        {
+          "id": "689",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Semente de Fogo Eterno",
+            "en-us": "Everflame Seed",
+            "ja-jp": "常燃の火種",
+            "zh-cn": "常燃火种",
+            "ko-kr": "꺼지지 않는 불씨",
+            "ru-ru": "Пылающее семя",
+            "de-de": "Fluxfeuersamen",
+            "fr-fr": "Graine de feu",
+            "es-es": "Semilla de fuego eterno",
+            "id-id": "Everflame Seed",
+            "th-th": "Everflame Seed",
+            "vi-vn": "Ngọn Lửa Vĩnh Hằng",
+            "zh-tw": "常燃火種"
+          }
+        },
+        {
+          "id": "1349",
+          "iconUrl": null,
+          "amount": 45,
+          "name": {
+            "pt-pt": "Pimenta de Jueyun",
+            "en-us": "Jueyun Chili",
+            "ja-jp": "絶雲の唐辛子",
+            "zh-cn": "绝云椒椒",
+            "ko-kr": "절운고추",
+            "ru-ru": "Заоблачный перчик",
+            "de-de": "Jueyun-Peperoni",
+            "fr-fr": "Piment de Jueyun",
+            "es-es": "Chile de Jueyun",
+            "id-id": "Jueyun Chili",
+            "th-th": "Jueyun Chili",
+            "vi-vn": "Ớt Tuyệt Vân",
+            "zh-tw": "絕雲椒椒"
+          }
+        },
+        {
+          "id": "397",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Essência de Slime",
+            "en-us": "Slime Concentrate",
+            "ja-jp": "スライムのピュレ",
+            "zh-cn": "史莱姆原浆",
+            "ko-kr": "슬라임 원액",
+            "ru-ru": "Концентрат слайма",
+            "de-de": "Schleimkonzentrat",
+            "fr-fr": "Essence de Blob",
+            "es-es": "Esencia de Slime",
+            "id-id": "Slime Concentrate",
+            "th-th": "Slime Concentrate",
+            "vi-vn": "Bột Slime",
+            "zh-tw": "史萊姆原漿"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 120000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1097",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Gema de Ágata Agnidus",
+            "en-us": "Agnidus Agate Gemstone",
+            "ja-jp": "炎願のアゲート",
+            "zh-cn": "燃愿玛瑙",
+            "ko-kr": "불타오르는 마노",
+            "ru-ru": "Драгоценный агат Агнидус",
+            "de-de": "Agnidus-Achat",
+            "fr-fr": "Pierre d'agate agnidus",
+            "es-es": "Ágata agnidus",
+            "id-id": "Agnidus Agate Gemstone",
+            "th-th": "Agnidus Agate Gemstone",
+            "vi-vn": "Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙"
+          }
+        },
+        {
+          "id": "689",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Semente de Fogo Eterno",
+            "en-us": "Everflame Seed",
+            "ja-jp": "常燃の火種",
+            "zh-cn": "常燃火种",
+            "ko-kr": "꺼지지 않는 불씨",
+            "ru-ru": "Пылающее семя",
+            "de-de": "Fluxfeuersamen",
+            "fr-fr": "Graine de feu",
+            "es-es": "Semilla de fuego eterno",
+            "id-id": "Everflame Seed",
+            "th-th": "Everflame Seed",
+            "vi-vn": "Ngọn Lửa Vĩnh Hằng",
+            "zh-tw": "常燃火種"
+          }
+        },
+        {
+          "id": "1349",
+          "iconUrl": null,
+          "amount": 60,
+          "name": {
+            "pt-pt": "Pimenta de Jueyun",
+            "en-us": "Jueyun Chili",
+            "ja-jp": "絶雲の唐辛子",
+            "zh-cn": "绝云椒椒",
+            "ko-kr": "절운고추",
+            "ru-ru": "Заоблачный перчик",
+            "de-de": "Jueyun-Peperoni",
+            "fr-fr": "Piment de Jueyun",
+            "es-es": "Chile de Jueyun",
+            "id-id": "Jueyun Chili",
+            "th-th": "Jueyun Chili",
+            "vi-vn": "Ớt Tuyệt Vân",
+            "zh-tw": "絕雲椒椒"
+          }
+        },
+        {
+          "id": "397",
+          "iconUrl": null,
+          "amount": 24,
+          "name": {
+            "pt-pt": "Essência de Slime",
+            "en-us": "Slime Concentrate",
+            "ja-jp": "スライムのピュレ",
+            "zh-cn": "史莱姆原浆",
+            "ko-kr": "슬라임 원액",
+            "ru-ru": "Концентрат слайма",
+            "de-de": "Schleimkonzentrat",
+            "fr-fr": "Essence de Blob",
+            "es-es": "Esencia de Slime",
+            "id-id": "Slime Concentrate",
+            "th-th": "Slime Concentrate",
+            "vi-vn": "Bột Slime",
+            "zh-tw": "史萊姆原漿"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "912"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "19"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "56"
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "0"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "2342",
+          "postAscensionValue": "3024"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "48",
+          "postAscensionValue": "63"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "144",
+          "postAscensionValue": "186"
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "preAscensionValue": "0",
+          "postAscensionValue": "0"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "4529",
+          "postAscensionValue": "5013"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "94",
+          "postAscensionValue": "104"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "279",
+          "postAscensionValue": "308"
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "preAscensionValue": "0",
+          "postAscensionValue": "24"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "5766",
+          "postAscensionValue": "6411"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "119",
+          "postAscensionValue": "133"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "355",
+          "postAscensionValue": "394"
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "preAscensionValue": "24",
+          "postAscensionValue": "48"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "7164",
+          "postAscensionValue": "7648"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "148",
+          "postAscensionValue": "158"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "441",
+          "postAscensionValue": "470"
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "preAscensionValue": "48",
+          "postAscensionValue": "48"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "8401",
+          "postAscensionValue": "8885"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "174",
+          "postAscensionValue": "184"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "517",
+          "postAscensionValue": "546"
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "preAscensionValue": "48",
+          "postAscensionValue": "72"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "9638",
+          "postAscensionValue": "10122"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "200",
+          "postAscensionValue": "210"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "593",
+          "postAscensionValue": "623"
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "preAscensionValue": "72",
+          "postAscensionValue": "96"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "10875",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "225",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "669",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "preAscensionValue": "96",
+          "postAscensionValue": ""
+        }
+      ]
+    }
+  ]
+}

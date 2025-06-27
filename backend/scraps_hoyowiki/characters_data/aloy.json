@@ -1,0 +1,3510 @@
+{
+  "id": "aloy",
+  "wiki_id": "13",
+  "name": {
+    "pt-pt": "Aloy",
+    "en-us": "Aloy",
+    "ja-jp": "アーロイ",
+    "zh-cn": "埃洛伊",
+    "ko-kr": "에일로이",
+    "ru-ru": "Элой",
+    "de-de": "Aloy",
+    "fr-fr": "Aloy",
+    "es-es": "Aloy",
+    "id-id": "Aloy",
+    "th-th": "Aloy",
+    "vi-vn": "Aloy",
+    "zh-tw": "亞蘿伊"
+  },
+  "title": {
+    "pt-pt": "Salvadora de Outro Mundo",
+    "en-us": "Savior From Another World",
+    "ja-jp": "「異世界の救世主」",
+    "zh-cn": "「异界的救世主」",
+    "ko-kr": "「이세계의 구세주」",
+    "ru-ru": "Спасительница из другого мира",
+    "de-de": "„Retterin aus einer anderen Welt“",
+    "fr-fr": "Salvatrice d'un autre monde",
+    "es-es": "La Salvadora de Otro Mundo",
+    "id-id": "Savior From Another World",
+    "th-th": "\"ผู้ปลดปล่อยจากต่างโลก\"",
+    "vi-vn": "Vị Cứu Tinh Dị Giới",
+    "zh-tw": "「異界的救世主」"
+  },
+  "description": {
+    "pt-pt": "Era uma pária, agora uma caçadora de uma avidez inigualável. Pronta para fazer a coisa certa com seu arco, a qualquer momento.",
+    "en-us": "Formerly an outcast, now a hunter of unparalleled skill. Ready to do the right thing at any time.",
+    "ja-jp": "かつては異端者であったが、今は機敏で腕の立つ狩人。いついかなる時も、正確無比な矢を放つことができる。",
+    "zh-cn": "曾经是流放者，如今则是无比机敏的猎手。随时准备着为了正当之事而挽弓放箭。",
+    "ko-kr": "과거에는 추방자였으나 현재는 영민한 사냥꾼이다. 무고한 사람을 지키기 위해서라면 언제라도 활을 쏠 준비가 되어있다.내가 하는 모든 일은 죽음을 위해서가 아닌 삶을 위한 거야. 그래서 내가 지금 너와 여기 있는 거고",
+    "ru-ru": "В прошлом изгой, а теперь охотник с непревзойденным чутьём. Её лук всегда наготове ради правого дела.",
+    "de-de": "Sie war früher eine Ausgestoßene. Jetzt ist sie eine Jägerin mit durchdringendem Scharfsinn. Jederzeit ist sie bereit, mit Pfeil und Bogen das Richtige zu tun.",
+    "fr-fr": "Autrefois une paria, maintenant une chasseuse d'une acuité sans précédent. Toujours prête à utiliser son arc pour la bonne cause.",
+    "es-es": "Antes era una paria, pero hoy en día es una cazadora excepcionalmente ágil. Siempre está preparada para hacer uso de su arco y sus flechas cuando es necesario.",
+    "id-id": "Dulunya dikucilkan oleh sukunya, kini menjadi pemburu dengan kemampuan tak tertandingi. Selalu siap membela yang benar dengan busurnya.",
+    "th-th": "อดีตเคยเป็นผู้ถูกเนรเทศ ปัจจุบันเป็นนักล่ายอดฝีมือที่หาตัวจับได้ยาก เธอพร้อมที่จะใช้คันธนูและลูกธนูของเธอทำสิ่งที่ถูกต้องทุกเมื่อ",
+    "vi-vn": "Từng là kẻ lưu đày, nay đã trở thành một thợ săn vô cùng nhạy bén. Luôn trong tư thế sẵn sàng giương cung vì chính nghĩa.",
+    "zh-tw": "曾經是被逐者，如今則是無比機敏的獵人。隨時準備著為了正當之事而挽弓放箭。"
+  },
+  "rarity": 5,
+  "vision": {
+    "label": {
+      "pt-pt": "Tipo Elemental",
+      "en-us": "Elemental Type",
+      "ja-jp": "元素タイプ",
+      "zh-cn": "元素属性",
+      "ko-kr": "원소 속성",
+      "ru-ru": "Элемент",
+      "de-de": "Elementartyp",
+      "fr-fr": "Élément",
+      "es-es": "Tipo elemental",
+      "id-id": "Tipe Elemen",
+      "th-th": "ประเภทธาตุ",
+      "vi-vn": "Thuộc Tính Nguyên Tố",
+      "zh-tw": "元素屬性"
+    },
+    "value": {
+      "pt-pt": "Cryo",
+      "en-us": "Cryo",
+      "ja-jp": "氷元素",
+      "zh-cn": "冰元素",
+      "ko-kr": "얼음 원소",
+      "ru-ru": "Крио",
+      "de-de": "Kryo",
+      "fr-fr": "Cryo",
+      "es-es": "Cryo",
+      "id-id": "Cryo",
+      "th-th": "น้ำแข็ง",
+      "vi-vn": "Băng",
+      "zh-tw": "冰元素"
+    }
+  },
+  "weapon": {
+    "label": {
+      "pt-pt": "Arma",
+      "en-us": "Weapons",
+      "ja-jp": "武器種",
+      "zh-cn": "武器",
+      "ko-kr": "무기",
+      "ru-ru": "Тип",
+      "de-de": "Waffe",
+      "fr-fr": "Type d'arme",
+      "es-es": "Arma",
+      "id-id": "Senjata",
+      "th-th": "อาวุธ",
+      "vi-vn": "Vũ Khí",
+      "zh-tw": "武器"
+    },
+    "value": {
+      "pt-pt": "Arco",
+      "en-us": "Bow",
+      "ja-jp": "弓",
+      "zh-cn": "弓",
+      "ko-kr": "활",
+      "ru-ru": "Стрелковое",
+      "de-de": "Bogen",
+      "fr-fr": "Arc",
+      "es-es": "Arco",
+      "id-id": "Bow",
+      "th-th": "ธนู",
+      "vi-vn": "Cung",
+      "zh-tw": "弓"
+    }
+  },
+  "characterIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/01/169177528/92f6eddaf09e71b259bf80534ff8b640_3975109830708874484.png",
+  "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
+  "constellationNameOfficial": {
+    "pt-pt": "Norta Fortis",
+    "en-us": "Nora Fortis",
+    "ja-jp": "ノラの義勇兵座",
+    "zh-cn": "诺拉勇者座",
+    "ru-ru": "Нора Фортис",
+    "de-de": "Nora Fortis",
+    "fr-fr": "Nora Fortis",
+    "es-es": "Nora Fortis",
+    "id-id": "Nora Fortis",
+    "th-th": "Nora Fortis",
+    "zh-tw": "諾拉族勇者座",
+    "ko-kr": "N/A",
+    "vi-vn": "N/A"
+  },
+  "specialDish": {
+    "id": 1868,
+    "name": {
+      "pt-pt": "Gel Saciador",
+      "en-us": "Satiety Gel",
+      "ja-jp": "満腹感ゼリー",
+      "zh-cn": "饱腹感凝胶",
+      "ko-kr": "포만감 젤",
+      "ru-ru": "Сытный студень",
+      "de-de": "Sättigungsgel",
+      "fr-fr": "Gelée rassasiante",
+      "es-es": "Gel saciante",
+      "id-id": "Satiety Gel",
+      "th-th": "Satiety Gel",
+      "vi-vn": "Gel No Bụng",
+      "zh-tw": "飽腹感凝膠"
+    },
+    "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Satiety%20Gel_icon.png"
+  },
+  "namecard": {
+    "id": 6161,
+    "name": {
+      "pt-pt": "Aloy: Despertar",
+      "en-us": "Aloy: Dawn",
+      "ja-jp": "アーロイ·ドーン",
+      "zh-cn": "埃洛伊·曙光记",
+      "ko-kr": "에일로이·서광",
+      "ru-ru": "Рассвет",
+      "de-de": "Aloy – Horizont",
+      "fr-fr": "Aloy - Aube",
+      "es-es": "Aloy - Amanecer",
+      "id-id": "Aloy: Dawn",
+      "th-th": "Aloy - Dawn",
+      "vi-vn": "Aloy - Nhật Ký Bình Minh",
+      "zh-tw": "亞蘿伊·黎明記"
+    },
+    "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/15/6083dfc61a46ac190d52ec1cdf63e690_900550357039569471.png"
+  },
+  "constellations": [
+    {
+      "id": "summaryList20610",
+      "constellationNumber": 1,
+      "name": {
+        "pt-pt": "Estrela de Outro Mundo",
+        "en-us": "Star of Another World",
+        "ja-jp": "異界の星",
+        "zh-cn": "异界之星",
+        "ko-kr": "이세계의 별",
+        "ru-ru": "Чужеземная звезда",
+        "de-de": "Stern einer anderen Welt",
+        "fr-fr": "Étoile d'un autre monde",
+        "es-es": "Estrella de otro mundo",
+        "id-id": "Star of Another World",
+        "th-th": "Star of Another World",
+        "vi-vn": "Ngôi Sao Dị Giới",
+        "zh-tw": "異界之星"
+      },
+      "description": {
+        "pt-pt": "Ainda não chegou a hora de iluminar o recanto do céu noturno desta pessoa.",
+        "en-us": "The time has not yet come for this person's corner of the night sky to light up.",
+        "ja-jp": "この者の星空を灯す時は、まだ訪れていない。",
+        "zh-cn": "点亮此人一方星空之刻尚未到来。",
+        "ko-kr": "이 자의 밤하늘을 밝힐 순간은 아직 오지 않았다",
+        "ru-ru": "Момент осветить звёздное небо этого человека ещё не настал.",
+        "de-de": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
+        "fr-fr": "Le moment d'éclairer le coin du ciel nocturne de cette personne n'est pas encore venu.",
+        "es-es": "Aún no es el momento de que el cielo de esta persona se ilumine.",
+        "id-id": "Belum tiba saatnya bagi orang ini untuk menerangi sudut langit malam yang gelap.",
+        "th-th": "ยังไม่ถึงเวลาที่บุคคลผู้นี้ จะฉายแสงท่ามกลางหมู่ดาวบนท้องฟ้าในยามค่ำคืน",
+        "vi-vn": "Thời khắc thắp sáng bầu trời của người này chưa đến.",
+        "zh-tw": "點亮此人一方星空之刻尚未到來。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/埃洛伊/constellation_1.png"
+    },
+    {
+      "id": "summaryList33980",
+      "constellationNumber": 2,
+      "name": {
+        "pt-pt": "Estrela de Outro Mundo",
+        "en-us": "Star of Another World",
+        "ja-jp": "異界の星",
+        "zh-cn": "异界之星",
+        "ko-kr": "이세계의 별",
+        "ru-ru": "Чужеземная звезда",
+        "de-de": "Stern einer anderen Welt",
+        "fr-fr": "Étoile d'un autre monde",
+        "es-es": "Estrella de otro mundo",
+        "id-id": "Star of Another World",
+        "th-th": "Star of Another World",
+        "vi-vn": "Ngôi Sao Dị Giới",
+        "zh-tw": "異界之星"
+      },
+      "description": {
+        "pt-pt": "Ainda não chegou a hora de iluminar o recanto do céu noturno desta pessoa.",
+        "en-us": "The time has not yet come for this person's corner of the night sky to light up.",
+        "ja-jp": "この者の星空を灯す時は、まだ訪れていない。",
+        "zh-cn": "点亮此人一方星空之刻尚未到来。",
+        "ko-kr": "이 자의 밤하늘을 밝힐 순간은 아직 오지 않았다",
+        "ru-ru": "Момент осветить звёздное небо этого человека ещё не настал.",
+        "de-de": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
+        "fr-fr": "Le moment d'éclairer le coin du ciel nocturne de cette personne n'est pas encore venu.",
+        "es-es": "Aún no es el momento de que el cielo de esta persona se ilumine.",
+        "id-id": "Belum tiba saatnya bagi orang ini untuk menerangi sudut langit malam yang gelap.",
+        "th-th": "ยังไม่ถึงเวลาที่บุคคลผู้นี้ จะฉายแสงท่ามกลางหมู่ดาวบนท้องฟ้าในยามค่ำคืน",
+        "vi-vn": "Thời khắc thắp sáng bầu trời của người này chưa đến.",
+        "zh-tw": "點亮此人一方星空之刻尚未到來。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/埃洛伊/constellation_2.png"
+    },
+    {
+      "id": "summaryList89962",
+      "constellationNumber": 3,
+      "name": {
+        "pt-pt": "Estrela de Outro Mundo",
+        "en-us": "Star of Another World",
+        "ja-jp": "異界の星",
+        "zh-cn": "异界之星",
+        "ko-kr": "이세계의 별",
+        "ru-ru": "Чужеземная звезда",
+        "de-de": "Stern einer anderen Welt",
+        "fr-fr": "Étoile d'un autre monde",
+        "es-es": "Estrella de otro mundo",
+        "id-id": "Star of Another World",
+        "th-th": "Star of Another World",
+        "vi-vn": "Ngôi Sao Dị Giới",
+        "zh-tw": "異界之星"
+      },
+      "description": {
+        "pt-pt": "Ainda não chegou a hora de iluminar o recanto do céu noturno desta pessoa.",
+        "en-us": "The time has not yet come for this person's corner of the night sky to light up.",
+        "ja-jp": "この者の星空を灯す時は、まだ訪れていない。",
+        "zh-cn": "点亮此人一方星空之刻尚未到来。",
+        "ko-kr": "이 자의 밤하늘을 밝힐 순간은 아직 오지 않았다",
+        "ru-ru": "Момент осветить звёздное небо этого человека ещё не настал.",
+        "de-de": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
+        "fr-fr": "Le moment d'éclairer le coin du ciel nocturne de cette personne n'est pas encore venu.",
+        "es-es": "Aún no es el momento de que el cielo de esta persona se ilumine.",
+        "id-id": "Belum tiba saatnya bagi orang ini untuk menerangi sudut langit malam yang gelap.",
+        "th-th": "ยังไม่ถึงเวลาที่บุคคลผู้นี้ จะฉายแสงท่ามกลางหมู่ดาวบนท้องฟ้าในยามค่ำคืน",
+        "vi-vn": "Thời khắc thắp sáng bầu trời của người này chưa đến.",
+        "zh-tw": "點亮此人一方星空之刻尚未到來。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/埃洛伊/constellation_3.png"
+    },
+    {
+      "id": "summaryList24037",
+      "constellationNumber": 4,
+      "name": {
+        "pt-pt": "Estrela de Outro Mundo",
+        "en-us": "Star of Another World",
+        "ja-jp": "異界の星",
+        "zh-cn": "异界之星",
+        "ko-kr": "이세계의 별",
+        "ru-ru": "Чужеземная звезда",
+        "de-de": "Stern einer anderen Welt",
+        "fr-fr": "Étoile d'un autre monde",
+        "es-es": "Estrella de otro mundo",
+        "id-id": "Star of Another World",
+        "th-th": "Star of Another World",
+        "vi-vn": "Ngôi Sao Dị Giới",
+        "zh-tw": "異界之星"
+      },
+      "description": {
+        "pt-pt": "Ainda não chegou a hora de iluminar o recanto do céu noturno desta pessoa.",
+        "en-us": "The time has not yet come for this person's corner of the night sky to light up.",
+        "ja-jp": "この者の星空を灯す時は、まだ訪れていない。",
+        "zh-cn": "点亮此人一方星空之刻尚未到来。",
+        "ko-kr": "이 자의 밤하늘을 밝힐 순간은 아직 오지 않았다",
+        "ru-ru": "Момент осветить звёздное небо этого человека ещё не настал.",
+        "de-de": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
+        "fr-fr": "Le moment d'éclairer le coin du ciel nocturne de cette personne n'est pas encore venu.",
+        "es-es": "Aún no es el momento de que el cielo de esta persona se ilumine.",
+        "id-id": "Belum tiba saatnya bagi orang ini untuk menerangi sudut langit malam yang gelap.",
+        "th-th": "ยังไม่ถึงเวลาที่บุคคลผู้นี้ จะฉายแสงท่ามกลางหมู่ดาวบนท้องฟ้าในยามค่ำคืน",
+        "vi-vn": "Thời khắc thắp sáng bầu trời của người này chưa đến.",
+        "zh-tw": "點亮此人一方星空之刻尚未到來。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/埃洛伊/constellation_4.png"
+    },
+    {
+      "id": "summaryList34398",
+      "constellationNumber": 5,
+      "name": {
+        "pt-pt": "Estrela de Outro Mundo",
+        "en-us": "Star of Another World",
+        "ja-jp": "異界の星",
+        "zh-cn": "异界之星",
+        "ko-kr": "이세계의 별",
+        "ru-ru": "Чужеземная звезда",
+        "de-de": "Stern einer anderen Welt",
+        "fr-fr": "Étoile d'un autre monde",
+        "es-es": "Estrella de otro mundo",
+        "id-id": "Star of Another World",
+        "th-th": "Star of Another World",
+        "vi-vn": "Ngôi Sao Dị Giới",
+        "zh-tw": "異界之星"
+      },
+      "description": {
+        "pt-pt": "Ainda não chegou a hora de iluminar o recanto do céu noturno desta pessoa.",
+        "en-us": "The time has not yet come for this person's corner of the night sky to light up.",
+        "ja-jp": "この者の星空を灯す時は、まだ訪れていない。",
+        "zh-cn": "点亮此人一方星空之刻尚未到来。",
+        "ko-kr": "이 자의 밤하늘을 밝힐 순간은 아직 오지 않았다",
+        "ru-ru": "Момент осветить звёздное небо этого человека ещё не настал.",
+        "de-de": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
+        "fr-fr": "Le moment d'éclairer le coin du ciel nocturne de cette personne n'est pas encore venu.",
+        "es-es": "Aún no es el momento de que el cielo de esta persona se ilumine.",
+        "id-id": "Belum tiba saatnya bagi orang ini untuk menerangi sudut langit malam yang gelap.",
+        "th-th": "ยังไม่ถึงเวลาที่บุคคลผู้นี้ จะฉายแสงท่ามกลางหมู่ดาวบนท้องฟ้าในยามค่ำคืน",
+        "vi-vn": "Thời khắc thắp sáng bầu trời của người này chưa đến.",
+        "zh-tw": "點亮此人一方星空之刻尚未到來。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/埃洛伊/constellation_5.png"
+    },
+    {
+      "id": "summaryList26057",
+      "constellationNumber": 6,
+      "name": {
+        "pt-pt": "Estrela de Outro Mundo",
+        "en-us": "Star of Another World",
+        "ja-jp": "異界の星",
+        "zh-cn": "异界之星",
+        "ko-kr": "이세계의 별",
+        "ru-ru": "Чужеземная звезда",
+        "de-de": "Stern einer anderen Welt",
+        "fr-fr": "Étoile d'un autre monde",
+        "es-es": "Estrella de otro mundo",
+        "id-id": "Star of Another World",
+        "th-th": "Star of Another World",
+        "vi-vn": "Ngôi Sao Dị Giới",
+        "zh-tw": "異界之星"
+      },
+      "description": {
+        "pt-pt": "Ainda não chegou a hora de iluminar o recanto do céu noturno desta pessoa.",
+        "en-us": "The time has not yet come for this person's corner of the night sky to light up.",
+        "ja-jp": "この者の星空を灯す時は、まだ訪れていない。",
+        "zh-cn": "点亮此人一方星空之刻尚未到来。",
+        "ko-kr": "이 자의 밤하늘을 밝힐 순간은 아직 오지 않았다",
+        "ru-ru": "Момент осветить звёздное небо этого человека ещё не настал.",
+        "de-de": "Der Moment, den Sternenhimmel dieser Person zu erleuchten, ist noch nicht gekommen.",
+        "fr-fr": "Le moment d'éclairer le coin du ciel nocturne de cette personne n'est pas encore venu.",
+        "es-es": "Aún no es el momento de que el cielo de esta persona se ilumine.",
+        "id-id": "Belum tiba saatnya bagi orang ini untuk menerangi sudut langit malam yang gelap.",
+        "th-th": "ยังไม่ถึงเวลาที่บุคคลผู้นี้ จะฉายแสงท่ามกลางหมู่ดาวบนท้องฟ้าในยามค่ำคืน",
+        "vi-vn": "Thời khắc thắp sáng bầu trời của người này chưa đến.",
+        "zh-tw": "點亮此人一方星空之刻尚未到來。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/埃洛伊/constellation_6.png"
+    }
+  ],
+  "talents": [
+    {
+      "type": "normal_attack",
+      "name": {
+        "pt-pt": "Ataque Normal: Disparos Rápidos",
+        "en-us": "Rapid Fire",
+        "ja-jp": "ラピッドファイア",
+        "zh-cn": "普通攻击·快速射击",
+        "ko-kr": "일반 공격·고속 사격",
+        "ru-ru": "Скоростная стрельба",
+        "de-de": "Standardangriff: Schnellfeuer",
+        "fr-fr": "Attaque normale : Tir rapide",
+        "es-es": "Ataque Normal: Fuego rápido",
+        "id-id": "Normal Attack: Rapid Fire",
+        "th-th": "โจมตีปกติ: Rapid Fire",
+        "vi-vn": "Tấn Công Thường - Bắn Chớp Nhoáng",
+        "zh-tw": "普通攻擊·快速射擊"
+      },
+      "description": {
+        "pt-pt": "Ataque NormalRealiza até 4 disparos consecutivos com o arco.Ataque CarregadoRealiza um ataque Disparo com Mira mais preciso e com mais dano.Enquanto mira, gelo será acumulado na flecha. Uma flecha totalmente carregada causará Dano Cryo.Ataque ImersivoDispara uma chuva de flechas no ar antes de cair e impactar o chão, causando Dano AdE no impacto.",
+        "en-us": "Normal AttackPerform up to 4 consecutive shots with a bow.Charged AttackPerform a more precise Aimed Shot with increased DMG.While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal Cryo DMG.Plunging AttackFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+        "ja-jp": "通常攻撃最大4段の連続射撃を行う。重撃ダメージがより高く、より精確な狙い撃ちを発動する。照準時、氷霜の寒気が矢先に付着する。寒気に満ちた矢は敵に氷元素ダメージを与える。落下攻撃空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
+        "zh-cn": "普通攻击进行至多四段的连续弓箭射击。重击进行伤害更高、更为精准的瞄准射击。瞄准时，冰霜散发的寒气会凭附在箭矢上。聚满了寒气的箭矢会造成冰元素伤害。下落攻击从空中射出箭雨，并迅速下坠冲击地面，在落地时造成范围伤害。",
+        "ko-kr": "일반 공격활로 최대 4번 공격한다.강공격피해가 더 크고 정확한 조준 사격을 한다.조준 시 얼음 서리가 내뿜는 한기가 화살 촉에 모이고, 한기가 가득 찬 화살은 얼음 원소 피해를 준다.낙하 공격공중에서 화살비를 쏜 후 빠른 속도로 땅에 착지한다. 착지 시 범위 피해를 준다",
+        "ru-ru": "Обычная атака:До четырёх выстрелов из лука.Заряженная атака:Более меткий прицельный выстрел с увеличенным уроном.Во время прицеливания наконечник стрелы заряжается холодом. Полностью заряженная холодом стрела наносит Крио урон.Атака в падении:Выпускает град стрел в воздухе, которые при приземлении персонажа наносят урон по площади.",
+        "de-de": "StandardangriffFührt bis zu 4 Pfeilschüsse aus.Heftiger SchlagFührt einen gezielten Schuss mit höherem Schaden und höherer Genauigkeit aus.Konzentriert die eisige Kälte während des Zielens an der Pfeilspitze, die voll aufgeladen Kryo-Schaden verursacht.Angriff aus dem FallSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
+        "fr-fr": "Attaque normaleEnchaîne jusqu'à 4 tirs consécutifs.Attaque chargéeEffectue un tir visé plus précis infligeant davantage de DGT.Lors de la visée, la flèche se charge en élément Cryo, infligeant d'importants DGT Cryo quand elle est complètement chargée.Attaque plongeanteTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.",
+        "es-es": "Ataque NormalRealiza hasta 4 disparos consecutivos con arco.Ataque CargadoRealiza un Disparo Preciso que inflige mayor daño y tiene mayor precisión.Al apuntar, crea una escarcha que acumula frío en la punta de la flecha. Cuando el frío se acumula por completo, la flecha inflige Daño Cryo al impactar contra el enemigo.Ataque DescendenteDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
+        "id-id": "Normal AttackMelancarkan hingga 4 serangan berturut-turut menggunakan busur.Charged AttackMengerahkan sebuah Serangan Membidik yang lebih akurat untuk mengakibatkan DMG lebih besar.Saat membidik, es akan berkumpul di ujung anak panah. Panah dengan energi es yang terkumpul penuh akan mengakibatkan Cryo DMG.Plunging AttackMelancarkan hujan panah dari udara dan menerjang tanah dengan kecepatan tinggi, mengakibatkan DMG area saat mendarat.",
+        "th-th": "โจมตีปกติยิงธนูโจมตีอย่างต่อเนื่องมากสุดสี่ครั้งชาร์จโจมตีการเล็งโจมตีสร้างความเสียหายเพิ่มขึ้น และแม่นยำยิ่งขึ้นเมื่อเล็งโจมตี จะทำการรวบรวมไอเย็นสุดขั้วไว้ตรงหัวลูกศร โดยลูกธนูที่ชาร์จไอเย็นเต็มแล้วจะทำให้เกิดความเสียหายน้ำแข็งโจมตีพุ่งลงจากอากาศปล่อยฝนธนูจากกลางอากาศ และพุ่งลงมายังพื้นดินอย่างรวดเร็ว โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+        "vi-vn": "Tấn Công ThườngThực hiện tối đa 4 lần bắn tên liên tiếp.Trọng KíchNgắm bắn chuẩn hơn, sát thương cao hơn.Khi ngắm bắn, hơi lạnh sẽ tích tụ trên mũi tên. Mũi tên mang đầy hơi lạnh sẽ gây Sát Thương Nguyên Tố Băng.Tấn Công Khi ĐápBắn mưa tên liên tiếp xuống mặt đất, đồng thời lao nhanh xuống đất và gây sát thương phạm vi khi chạm đất.",
+        "zh-tw": "普通攻擊進行至多四段的連續弓箭射擊。重擊進行傷害更高、更為精準的瞄準射擊。瞄準時，冰霜散發的寒氣會憑附在箭矢上。聚滿了寒氣的箭矢會造成冰元素傷害。下落攻擊從空中射出箭雨，並迅速下墜衝擊地面，在落地時造成範圍傷害。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/埃洛伊/battle_talent_0/battle_talent_0.png"
+    },
+    {
+      "type": "elemental_skill",
+      "name": {
+        "pt-pt": "Natureza Gélida",
+        "en-us": "Frozen Wilds",
+        "ja-jp": "凍てついた大地",
+        "zh-cn": "冰尘雪野",
+        "ko-kr": "빙결의 설야",
+        "ru-ru": "Ледяная пустошь",
+        "de-de": "Frostüberzogene Felder",
+        "fr-fr": "Frozen Wilds",
+        "es-es": "Campo gélido",
+        "id-id": "Frozen Wilds",
+        "th-th": "Frozen Wilds",
+        "vi-vn": "Băng Giá Hoang Dã",
+        "zh-tw": "冰塵雪野"
+      },
+      "description": {
+        "pt-pt": "Aloy lança uma Bomba Congelante na direção desejada que explode no impacto, causando Dano Cryo. Depois de explodir, a Bomba Congelante se dividirá em muitas Bombinhas Congelantes que explodirão ao entrar em contato com os oponentes ou após um curto período de tempo, causando Dano Cryo.Quando a Bomba Congelante ou suas bombinhas atingem os oponentes, elas diminuirão o ATQ dos oponentes e concederão 1 acúmulo de Bobina a Aloy.Aloy pode ganhar 1 acúmulo de Bobinas a cada 0,1s.BobinaCada acúmulo aumentará o Dano do Ataque Normal de Aloy.Quando ela tiver 4 acúmulos, Aloy elimina todos os efeitos de Bobina e ganha Gelo Rápido, aumentando o Dano causado pelo Ataque Normal e convertendo seus Ataques Normais para causar Dano Cryo.Enquanto sob o estado do Gelo Rápido, Aloy não pode obter efeitos de Bobina.O efeito de Bobina é excluído 30 segundos após sair da batalha.Você acha que isso é frio? Acho que você nunca esteve no Corte.",
+        "en-us": "Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing Cryo DMG. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing Cryo DMG.When a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.Aloy can gain up to 1 Coil stack every 0.1s.Coil· Each stack increases Aloy's Normal Attack DMG.· When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to Cryo DMG.While in the Rushing Ice state, Aloy cannot obtain new Coil stacks.Coil effects will be cleared 30s after Aloy leaves the field.You think that's cold? Guess you've never been to The Cut.",
+        "ja-jp": "目標方向へ氷の爆弾を投げる、命中後に爆発し氷元素ダメージを与える。爆発後、氷の爆弾は複数の冷凍爆弾に分裂する。冷凍爆弾は敵に触れる、または一定時間後に爆発し、氷元素ダメージを与える。氷の爆弾または冷凍爆弾が敵に命中すると、敵の攻撃力がダウンし、アーロイに「コイル」効果を1層与える。コイル効果は0.1秒毎に最大1層獲得可能。コイル・層数を基準に、アーロイの通常攻撃ダメージをアップさせる。・コイルを4層所有する時、アーロイのコイル効果は全てクリアされ、「アイスラッシュ」を獲得する。通常攻撃ダメージをさらにアップさせ、通常攻撃が氷元素ダメージに変化する。アイスラッシュ状態継続時間中、アーロイはコイル効果を獲得できなくなる。戦闘状態が解除されてから30秒後、コイル効果はクリアされる。採石場の方がずっと寒いぞ。",
+        "zh-cn": "向目标方向投掷一枚冰尘弹，在命中后引发爆炸，造成冰元素伤害。爆炸后，冰尘弹将分裂成许多冷冻炸弹，在接触到敌人或一段时间后爆炸，造成冰元素伤害。冰尘弹或冷冻炸弹命中敌人后，会使敌人的攻击力降低，并为埃洛伊赋予1层「线圈」效果。每0.1秒至多获得1层线圈效果。线圈·依据层数，提高埃洛伊的普通攻击造成的伤害；·拥有4层线圈时，埃洛伊清除所有的线圈效果，并获得「冰驰」，进一步提高普通攻击造成的伤害，并将普通攻击造成的伤害转为冰元素伤害。处于冰驰状态下时，埃洛伊无法获得线圈效果。线圈效果会在脱离战斗30秒后清除。挥刀断崖那里的温度可要冷得多。",
+        "ko-kr": "목표를 향해 빙결탄을 1개 던진다. 명중 후 폭발하며 얼음 원소 피해를 준다. 폭발 후 빙결탄은 수많은 냉각 폭탄으로 분열되어 적에게 닿거나 일정 시간이 지난 후 폭발해 얼음 원소 피해를 준다.빙결탄 또는 냉각 폭탄으로 적을 명중하면 적의 공격력이 감소하고 에일로이에게 「코일」 효과를 1스택 부여한다.코일 효과는 0.1초마다 최대 1스택 획득할 수 있다.코일·스택에 따라 에일로이의 일반 공격 피해가 증가한다.·코일 4스택 보유 시, 에일로이는 코일 효과를 모두 지우고 「얼음 질주」 효과를 획득한다. 이때 일반 공격 피해가 한층 더 향상되며 일반 공격으로 가하는 피해 역시 얼음 원소 피해로 전환된다.얼음 질주 상태에서 에일로이는 코일 효과를 획득할 수 없다.코일 효과는 전투 이탈 30초 후에 사라진다.예리한 절벽은 이곳보다 훨씬 추웠지",
+        "ru-ru": "Элой бросает в цель Морозильную бомбу, которая взрывается при столкновении и наносит Крио урон. После взрыва Морозильная бомба делится на множество Ледяных бомбочек, которые взрываются при контакте с противником или после небольшой задержки и наносят Крио урон.Когда Морозильная бомба или Ледяная бомбочка поражают противника, его сила атаки понижается и Элой получает один уровень Спирали.Элой может получить до 1 уровня Спирали каждые 0,1 сек.Спирали· Каждый уровень Спирали повышает урон обычной атаки Элой.· Когда Элой набирает 4 уровня Спирали, все уровни Спирали сбрасываются, а она входит в состояние Стремительного льда, которое повышает урон её обычной атаки и конвертирует его в Крио урон.Находясь в состоянии Стремительного льда, Элой не может накапливать уровни Спирали.Эффекты Спирали сбросятся через 30 сек. после того, как Элой покинет бой.Разве это холодно? Значит, вы никогда не были в Зарубке.",
+        "de-de": "Wirft eine Eisbombe in die Richtung des Ziels, die beim Aufkommen explodiert und Kryo-Schaden verursacht, sich nach der Explosion aber in viele Kälteminen aufteilt, die bei Berührung mit Gegnern oder nach einer gewissen Zeit explodieren und dabei Kryo-Schaden verursachen.Verringert den ANG mit Eisbomben oder Kälteminen getroffener Gegner und verleiht Aloy eine Stapelung des Effekts „Spule“.Erhält alle 0,1 s höchstens 1 Stapelung des Effekts Spule.Spule· Erhöht den mit Aloys Standardangriffen verursachten Schaden gemäß der Menge an Stapelungen.· Beseitigt bei 4 Stapelungen Spule den gesamten Effekt von Spule und verleiht Aloy „Eisige Eile“, die den mit Standardangriffen verursachten Schaden zusätzlich erhöht und den mit Standardangriffen verursachten Schaden in Kryo-Schaden umwandelt.Aloy kann während des Zustands Eisige Eile nicht den Effekt Spule erhalten.Der Effekt Spule wird 30 s nach dem Verlassen des Kampfs entfernt.Glaub mir, am Schnitt ist es noch viel kälter.",
+        "fr-fr": "Aloy lance une bombe à gel qui explose à l'impact dans la direction ciblée, infligeant des DGT Cryo. Après avoir explosé, la bombe à gel se divise en de nombreuses petites bombes glacées qui explosent au contact des ennemis ou après un court délai, infligeant des DGT Cryo.Lorsqu'une bombe à gel ou une petite bombe glacée touche un ennemi, l'ATQ de ce dernier est réduite et Aloy obtient 1 cumul de bobine.Une charge de bobine peut être obtenue toutes les 0,1 s max.Bobine· Chaque charge augmente les DGT des attaques normales d'Aloy ;· Avec 4 charges de bobine, Aloy consomme toutes les charges de bobine pour entrer dans un état de Glace précipitée, ce qui augmente davantage les DGT infligés par ses attaques normales et les convertit en DGT Cryo.Quand Aloy est en état de Glace précipitée, elle ne peut pas recevoir de nouvelles charges de bobine.Les effets de la bobine seront annulés après 30 s si Aloy quitte le combat.Vous trouvez ça froid ? On voit bien que vous n'avez jamais mis les pieds à la Plaie !",
+        "es-es": "Lanza una bomba helada hacia la dirección en la que apunta y, al impactar, produce una explosión que inflige Daño Cryo. Al explotar, la bomba se divide en varias minibombas ultracongelantes que explotan al entrar en contacto con un enemigo o tras cierto tiempo, infligiendo Daño Cryo.Al golpear a un enemigo, la bomba helada o las minibombas ultracongelantes reducen el ATQ de dicho enemigo y otorgan a Aloy una carga del efecto de inducción.Solo se puede obtener una carga de inducción cada 0.1 s.Inducción·Aumenta el daño que inflige Aloy con su Ataque Normal en función del número de cargas de inducción.·Cuando tiene 4 cargas, Aloy las consume todas y obtiene “hielo galopante”, el cual aumenta aún más el daño de su Ataque Normal y transforma en Daño Cryo todo el daño infligido con dicho ataque.En el estado de hielo galopante, Aloy no podrá beneficiarse de inducción.Los efectos de inducción se perderán 30 s después de que Aloy sea retirada de combate.¿Crees que eso está frío? Eso es porque nunca has estado en El Corte.",
+        "id-id": "Aloy melemparkan sebuah Freeze Bomb ke arah target. Freeze Bomb ini akan meledak dan mengakibatkan Cryo DMG saat mengenai target. Setelah meledak, Freeze Bomb akan pecah menjadi beberapa Chillwater Bomblet yang akan meledak dan mengakibatkan Cryo DMG saat tersentuh musuh atau setelah jeda beberapa saat.Saat Freeze Bomb atau Chillwater Bomblet mengenai musuh, ATK musuh akan berkurang dan Aloy mendapatkan 1 lapisan Coil.Aloy hanya bisa mendapatkan 1 lapisan Coil setiap 0,1 detik.Coil·Setiap lapisan Coil akan meningkatkan DMG Normal Attack Aloy.·Saat 4 lapisan Coil terkumpul, Aloy akan menghapus semua efek Coil lalu memasuki kondisi Rushing Ice yang meningkatkan DMG Normal Attack lebih besar lagi, serta mengubah DMG Normal Attack menjadi Cryo DMG.Aloy tidak bisa mendapatkan lapisan Coil baru saat berada dalam kondisi Rushing Ice.Efek Coil akan hilang dalam 30 detik setelah Aloy meninggalkan medan pertempuran.Sudah kedinginan? Berarti kamu belum pernah pergi ke The Cut.",
+        "th-th": "โยน Freeze Bomb ไปทางเป้าหมายหนึ่งลูก โดยจะเกิดการระเบิดเมื่อถูกเป้าหมาย และสร้างความเสียหายน้ำแข็ง ซึ่งหลังจากที่ระเบิดแล้ว Freeze Bomb จะแตกออกเป็น Chillwater Bomblet จำนวนมาก และจะระเบิดเมื่อถูกตัวศัตรูหรือผ่านไปชั่วระยะเวลาหนึ่งเพื่อสร้างความเสียหายน้ำแข็งหลังจากที่ Freeze Bomb หรือ Chillwater Bomblet ถูกศัตรู จะทำให้พลังการโจมตีของศัตรูลดลง และมอบเอฟเฟกต์ Coil ให้แก่ Aloy 1 ชั้นในทุก 0.1 วินาที จะได้รับเอฟเฟกต์ Coil มากสุด 1 ชั้นCoil·ความเสียหายของการโจมตีปกติของ Aloy จะเพิ่มขึ้นโดยขึ้นกับจำนวนชั้นที่มี;·เมื่อมี Coil 4 ชั้น Aloy จะลบเอฟเฟกต์ของ Coil ทั้งหมดที่มีและได้รับ Rushing Ice ซึ่งจะเพิ่มความเสียหายของการโจมตีปกติให้สูงขึ้นไปอีกขั้น และเปลี่ยนความเสียหายของการโจมตีปกติเป็นความเสียหายน้ำแข็งเมื่ออยู่ภายใต้สภาวะของ Rushing Ice แล้ว Aloy จะไม่สามารถรับเอฟเฟกต์ Coil ได้อีกเอฟเฟกต์ Coil จะหายไปหลังออกจากการต่อสู้ 30 วินาที.ที่ The Cut น่ะ เย็นกว่านี้อีกเยอะเลยล่ะ",
+        "vi-vn": "Ném một quả Bom Băng Giá về hướng mục tiêu, khi trúng sẽ kích nổ, gây Sát Thương Nguyên Tố Băng. Bom Băng Giá khi nổ sẽ phân thành rất nhiều Bom Lạnh, kẻ địch dẫm phải hoặc sau một thời gian sẽ phát nổ, gây Sát Thương Nguyên Tố Băng.Bom Băng Giá hoặc Bom Lạnh khi trúng địch sẽ giảm sức tấn công của kẻ địch và cung cấp 1 tầng hiệu quả \"Dây Móc\" cho Aloy.Mỗi 0.1s tối đa nhận 1 tầng hiệu quả Dây Móc.Dây Móc·Dựa theo số tầng để tăng sát thương tấn công thường của Aloy;·Khi có 4 tầng Dây Móc, Aloy sẽ xóa tất cả hiệu quả Dây Móc và nhận \"Hồ Băng\", tăng thêm sát thương tấn công thường, đồng thời chuyển sát thương tấn công thường thành Sát Thương Nguyên Tố Băng.Khi trong trạng thái Hồ Băng, Aloy sẽ không thể nhận hiệu quả Dây Móc nữa.Hiệu quả Dây Móc sẽ mất sau 30s thoát chiến đấu.Đây mà là lạnh sao, vậy là chưa thấy qua The Cut rồi.",
+        "zh-tw": "向目標方向投擲一枚急凍炸彈，在命中後引發爆炸，造成冰元素傷害。爆炸後，急凍炸彈將分裂成許多冷凍炸彈，在接觸到敵人或一段時間後爆炸，造成冰元素傷害。急凍炸彈或冷凍炸彈命中敵人後，會使敵人的攻擊力降低，並為亞蘿伊賦予1層「線圈」效果。每0.1秒至多獲得1層線圈效果。線圈·依據層數，提高亞蘿伊的普通攻擊造成的傷害；·擁有4層線圈時，亞蘿伊清除所有的線圈效果，並獲得「冰馳」，進一步提高普通攻擊造成的傷害，並將普通攻擊造成的傷害轉為冰元素傷害。處於冰馳狀態下時，亞蘿伊無法獲得線圈效果。線圈效果會在脫離戰鬥30秒後清除。揮刀斷崖那裡的溫度可要冷得多。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/埃洛伊/battle_talent_1/battle_talent_1.png"
+    },
+    {
+      "type": "elemental_burst",
+      "name": {
+        "pt-pt": "Profecias do Alvorecer",
+        "en-us": "Prophecies of Dawn",
+        "ja-jp": "ドーンプロフェシー",
+        "zh-cn": "曙光预言",
+        "ko-kr": "서광의 예언",
+        "ru-ru": "Пророчества рассвета",
+        "de-de": "Weissagung des Morgenlichts",
+        "fr-fr": "Prophéties de l'aube",
+        "es-es": "Profecía del amanecer",
+        "id-id": "Prophecies of Dawn",
+        "th-th": "Prophecies of Dawn",
+        "vi-vn": "Lời Tiên Tri Ánh Sáng",
+        "zh-tw": "黎明預言"
+      },
+      "description": {
+        "pt-pt": "Arremessa uma Bateria cheia com Cryo na direção do alvo antes de ligá-la com uma flecha, causando Dano Cryo em uma AdE.Seja \"Zero Dawn\" refira-se à esperança ou à extinção, não importa mais. Aloy já salvou seu mundo... E este também tem seus próprios heróis que se preocuparão com seu destino.",
+        "en-us": "Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing AoE Cryo DMG.Whether \"Zero Dawn\" referred to hope or extinction no longer matters. Aloy has already saved her world, and the fate of this one is still being forged by its own heroes.",
+        "ja-jp": "目標方向へ氷元素に満ちた動力源を投げ、弓矢で爆発させることにより氷元素範囲ダメージを与える。ゼロドーンの本質は希望なのか、絶滅への道なのかはもはや重要ではなくなった。アーロイは既に自分の世界を救っている。この世界の運命は、他の強者に任せよう。",
+        "zh-cn": "向目标方向投掷冰元素满溢的蓄能容器，并用弓箭引爆，造成冰元素范围伤害。零之曙光的本质究竟是希望还是灭绝已经并不重要了。埃洛伊已经拯救了她自己的那个世界。这个世界的命运有它自己的勇者去操心。",
+        "ko-kr": "목표를 향해 얼음 원소가 가득 담긴 에너지 셀을 던진 후 화살을 사용해 폭발 시켜 얼음 원소 범위 피해를 준다.제로 던의 본질이 희망인지 파멸인지는 이제 중요하지 않다. 에일로이는 이미 그녀 자신의 세계를 구원했기 때문이다. 이 세계의 운명은 이 세계의 용자가 신경 쓸 것이다",
+        "ru-ru": "Элой бросает в цель Топливный элемент, наполненный элементом Крио, затем детонирует его стрелой, нанося Крио урон по площади.Означал ли «Новый рассвет» надежду или вымирание - больше не имеет значения. Элой уже спасла свой мир, а у этого мира есть свои герои.",
+        "de-de": "Wirft eine Energiezelle voller Kryo-Energie und lässt sie mit einem Pfeil explodieren, um Kryo-Flächenschaden zu verursachen.Ob „Zero Dawn“ nun Hoffnung oder Auslöschung bedeutet, ist mittlerweile unwichtig. Aloy hat bereits ihre eigene Welt gerettet, um deren Schicksal sich die Helden darin sorgen.",
+        "fr-fr": "Aloy lance une batterie Cryo dans la direction ciblée, puis la fait exploser avec une flèche, infligeant des DGT Cryo de zone.Que l'Aube zéro fasse référence à l'espoir ou à l'extinction n'a plus d'importance. Aloy a déjà sauvé son monde, et celui-ci a ses propres héros pour s'inquiéter de son sort.",
+        "es-es": "Lanza una batería rebosante de Cryo hacia la dirección en la que apunta y la detona con una flecha, infligiendo Daño Cryo en el AdE.Ya no importa si la naturaleza de “Amanecer Cero” es la esperanza o la extinción, pues Aloy ya ha salvado a su mundo, mientras que el destino de este mundo es cosa de sus propios héroes.",
+        "id-id": "Aloy melemparkan sebuah Power Cell yang berisi elemen Cryo ke arah target dan meledakkannya dengan anak panah, mengakibatkan Cryo DMG Area.Apakah \"Zero Dawn\" berarti harapan atau kepunahan sudah tidak penting lagi. Aloy sudah berhasil menyelamatkan dunianya, dan dunia ini sendiri memiliki para pahlawan yang akan melindunginya.",
+        "th-th": "โยน Power Cell ที่อัดแน่นไปด้วยธาตุน้ำแข็งไปยังเป้าหมาย และใช้ลูกธนูในการทำให้ระเบิด เกิดเป็นความเสียหายน้ำแข็งวงกว้าง.แท้จริงแล้วเศษเสี้ยวแห่งรุ่งอรุณ คือความหวังหรือการดับสูญนั้นไม่ใช่เรื่องสำคัญอีกต่อไป Aloy ได้ช่วยเหลือโลกใบนั้นของเธอไว้เรียบร้อยแล้ว ซึ่งโชคชะตาของโลกใบนั้น ก็มีผู้กล้าที่คอยเป็นห่วงเป็นใยของตัวมันเอง",
+        "vi-vn": "Ném một Lõi Năng Lượng mang Nguyên Tố Băng vào hướng mục tiêu và dùng cung dẫn nổ, gây Sát Thương Phạm Vi Nguyên Tố Băng.Bản chất của \"Zero Dawn\" là hy vọng hay tuyệt vọng cũng không còn quan trọng nữa, Aloy đã giải cứu thế giới của mình. Còn vận mệnh của thế giới này sẽ có những anh hùng nơi đây lo toan.",
+        "zh-tw": "向目標方向投擲冰元素滿溢的蓄能容器，並用弓箭引爆，造成冰元素範圍傷害。「黎明」的本質究竟是希望還是滅絕已經並不重要了。亞蘿伊已經拯救了她自己的那個世界。這個世界的命運有它自己的勇者去操心。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/埃洛伊/battle_talent_2/battle_talent_2.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Percepção de Combate",
+        "en-us": "Combat Override",
+        "ja-jp": "戦闘オーバーライド",
+        "zh-cn": "战斗覆盖",
+        "ko-kr": "전투 오버라이드",
+        "ru-ru": "Боевой перехват",
+        "de-de": "Kampf-Überbrückung",
+        "fr-fr": "Surcharge offensive",
+        "es-es": "Superposición bélica",
+        "id-id": "Combat Override",
+        "th-th": "Combat Override",
+        "vi-vn": "Chiến Đấu Dồn Dập",
+        "zh-tw": "戰鬥覆蓋"
+      },
+      "description": {
+        "pt-pt": "Quando Aloy recebe o efeito de Natureza Gélida da Bobina, seu ATQ é aumentado em 16%, enquanto o ATQ de outros membros da equipe ao redor é aumentado em 8%. Este efeito dura 10s.",
+        "en-us": "When Aloy receives the Coil effect from Frozen Wilds, her ATK is increased by 16%, while nearby party members' ATK is increased by 8%. This effect lasts 10s.",
+        "ja-jp": "アーロイが凍てついた大地のコイル効果を獲得した時、アーロイの攻撃力+16%、周囲にいるチーム内他のキャラクターの攻撃力+8%、持続時間10秒。",
+        "zh-cn": "埃洛伊获得冰尘雪野的线圈效果时，埃洛伊的攻击力提升16%，队伍中附近的其他角色的攻击力提升8%，持续10秒。",
+        "ko-kr": "에일로이가 빙결의 설야의 코일 효과를 획득하면 에일로이의 공격력이 16% 증가하고, 근처에 있는 파티 내 다른 캐릭터의 공격력이 8% 증가한다. 지속 시간: 10초",
+        "ru-ru": "Когда Элой получает эффект Спирали навыка Ледяная пустошь, её сила атаки повышается на 16%, а сила атаки других окружающих членов отряда повышается на 8%. Этот эффект длится 10 сек.",
+        "de-de": "Erhöht beim Erhalten des Effekts Spule von Frostüberzogene Felder durch Aloy 10 s lang ihren eigenen ANG um 16 % und den ANG aller anderen Truppenmitglieder in der Nähe um 8 %.",
+        "fr-fr": "Lorsqu'Aloy est sous l'effet d'une bobine de Frozen Wilds, son ATQ augmente de 16 %, tandis que celle des personnages de l'équipe à proximité augmente de 8 %. Cet effet dure 10 s.",
+        "es-es": "Cuando Aloy está bajo los efectos de inducción de Campo gélido, su ATQ aumenta en un 16% y el ATQ de los miembros cercanos del equipo aumenta en un 8% durante 10 s.",
+        "id-id": "Saat Aloy mendapatkan efek Coil dari skill Frozen Wilds, ATK Aloy akan meningkat 16%, sedangkan ATK anggota party lainnya yang berada di sekitar akan meningkat 8%. Efek ini bertahan selama 10 detik.",
+        "th-th": "เมื่อ Aloy ได้รับเอฟเฟกต์ Coil ของ Frozen Wilds พลังโจมตีของเธอจะเพิ่มขึ้น 16% และพลังโจมตีของตัวละครอื่น ๆ ในทีมที่อยู่ใกล้เคียงจะเพิ่มขึ้น 8% เป็นเวลา 10 วินาที",
+        "vi-vn": "Khi Aloy nhận được hiệu quả Dây Móc của Băng Giá Hoang Dã, sức tấn công của Aloy tăng 16%, sức tấn công của các nhân vật trong đội ở gần đó tăng 8%, duy trì 10s.",
+        "zh-tw": "亞蘿伊獲得冰塵雪野的線圈效果時，亞蘿伊的攻擊力提升16%，隊伍中附近的其他角色的攻擊力提升8%，持續10秒。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/埃洛伊/const_talent_0.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Ataque Poderoso",
+        "en-us": "Strong Strike",
+        "ja-jp": "強打",
+        "zh-cn": "强力攻击",
+        "ko-kr": "강력한 공격",
+        "ru-ru": "Сильная атака",
+        "de-de": "Wuchtangriff",
+        "fr-fr": "Frappe puissante",
+        "es-es": "Golpe contundente",
+        "id-id": "Strong Strike",
+        "th-th": "Strong Strike",
+        "vi-vn": "Tấn Công Mạnh Mẽ",
+        "zh-tw": "強力攻擊"
+      },
+      "description": {
+        "pt-pt": "Quando Aloy está sob o efeito de Gelo Rápido proporcionado pela Natureza Gélida, seu Bônus de Dano Cryo aumenta em 3.5% a cada 1s. O máximo de aumento de Bônus de Dano Cryo ganho desta forma é de 35%.",
+        "en-us": "When Aloy is in the Rushing Ice state conferred by Frozen Wilds, her Cryo DMG Bonus increases by 3.5% every 1s. A maximum Cryo DMG Bonus increase of 35% can be gained in this way.",
+        "ja-jp": "アーロイは凍てついた大地のアイスラッシュ状態にある時、1秒毎に氷元素ダメージ+3.5%、この方式での氷元素ダメージアップ効果は35%まで。",
+        "zh-cn": "埃洛伊处于冰尘雪野的冰驰状态下时，每1秒提升3.5%冰元素伤害加成，通过这种方式至多获得35%冰元素伤害加成。",
+        "ko-kr": "에일로이가 빙결의 설야의 얼음 질주 상태일 때, 1초마다 얼음 원소 피해 보너스가 3.5% 증가한다. 해당 방식으로 얼음 원소 피해 보너스가 최대 35%까지 증가한다",
+        "ru-ru": "Когда Элой находится в состоянии Стремительного льда навыка Ледяная пустошь, её бонус Крио урона увеличивается на 3,5% каждую секунду. Подобным способом можно получить до 35% бонуса Крио урона.",
+        "de-de": "Erhöht Aloys Kryo-SCH-Bonus im Zustand Eisige Eile von Frostüberzogene Felder pro s um 3,5 %. Bis zu 35 % Kryo-SCH-Bonus auf diese Weise möglich.",
+        "fr-fr": "Lorsqu'Aloy est dans l'état de Glace précipitée accordé par Frozen Wilds, son bonus de DGT Cryo augmente de 3,5 % toutes les secondes. Son bonus de DGT Cryo peut augmenter de cette manière jusqu'à 35 %.",
+        "es-es": "Cuando Aloy está bajo los efectos de hielo galopante de Campo gélido, obtiene un 3.5% de Bono de Daño Cryo por segundo. Solo se puede alcanzar un máximo de 35% de Bono de Daño Cryo de esta manera.",
+        "id-id": "Saat Aloy berada dalam status Rushing Ice dari skill Frozen Wilds, Cryo DMG Bonus Aloy akan meningkat 3,5% setiap detik. Aloy bisa mendapatkan hingga 35% Cryo DMG Bonus dengan cara ini.",
+        "th-th": "เมื่อ Aloy อยู่ในสภาวะ Rushing Ice ของ Frozen Wilds ในทุก 1 วินาที โบนัสความเสียหายน้ำแข็งของเธอจะเพิ่มขึ้น 3.5% โดยจะรับโบนัสความเสียหายน้ำแข็งด้วยวิธีนี้ได้มากสุดถึง 35%",
+        "vi-vn": "Khi Aloy trong trạng thái Hồ Băng của Băng Giá Hoang Dã, mỗi giây tăng 3.5% hiệu quả Tăng Sát Thương Nguyên Tố Băng, tối đa tăng đến 35% Sát Thương Nguyên Tố Băng bằng cách này.",
+        "zh-tw": "亞蘿伊處於冰塵雪野的冰馳狀態下時，每1秒提升3.5%冰元素傷害加成，依此方式至多獲得35%冰元素傷害加成。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/埃洛伊/const_talent_1.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Devagarinho",
+        "en-us": "Easy Does It",
+        "ja-jp": "まあまあ落ち着け",
+        "zh-cn": "荒野猎手",
+        "ko-kr": "황야의 사냥꾼",
+        "ru-ru": "Охотник пустоши",
+        "de-de": "Jäger der Wildnis",
+        "fr-fr": "Doucement mais sûrement",
+        "es-es": "Cazadora de lo salvaje",
+        "id-id": "Easy Does It",
+        "th-th": "Easy Does It",
+        "vi-vn": "Thợ Săn Hoang Dã",
+        "zh-tw": "荒野獵人"
+      },
+      "description": {
+        "pt-pt": "Quando Aloy está na equipe, os membros da equipe que se aproximarem de pequenos animais que possam produzir Carne de Ave, Carne crua ou Carne Fresca Fria, não se assustarão facilmente.",
+        "en-us": "When Aloy is in the party, animals who produce Fowl, Raw Meat, or Chilled Meat will not be startled when party members approach them.",
+        "ja-jp": "アーロイがチーム内にいる時、チーム内の自身のキャラクターが鳥肉、獣肉、冷製鮮肉をドロップする動物に近づいても気付かれなくなる。",
+        "zh-cn": "埃洛伊在队伍中时，队伍中自己的角色接近产出禽肉、兽肉与冷鲜肉的小动物时，不会轻易惊动它们。",
+        "ko-kr": "에일로이가 파티에 합류하면, 파티 내 자신의 캐릭터가 새고기, 짐승고기, 냉동 생고기를 드랍하는 동물에게 접근해도 동물들이 놀라지 않는다",
+        "ru-ru": "Когда Элой в отряде, мелкие животные, у которых можно добыть мясо птицы, сырое мясо и цельномороженое мясо, больше вас не пугаются.",
+        "de-de": "Führt dazu, dass eigene Figuren in der Truppe kleine Tiere in der Nähe, die rohes Geflügel, rohes Fleisch oder kaltes Gourmetfleisch als Beute abgeben, nicht leicht aufscheuchen, wenn Aloy in der Truppe ist.",
+        "fr-fr": "Quand Aloy fait partie de l'équipe, vos personnages n'effraient pas les petits animaux en s'approchant, et peuvent ainsi obtenir de la volaille, de la viande crue et de la viande congelée.",
+        "es-es": "Cuando Aloy está en el equipo, tus personajes no asustarán a los animales de los que se puede obtener carne de ave, carne cruda y carne congelada.",
+        "id-id": "Saat Aloy berada dalam party, binatang kecil yang bisa menghasilkan Fowl, Raw Meat, atau Chilled Meat tidak mudah terkejut saat didekati anggota party.",
+        "th-th": "ในขณะที่มี Aloy อยู่ในทีม เมื่อตัวละครในทีมของตนเองเข้าใกล้สิ่งมีชีวิตที่ให้ผลผลิตของ Fowl, Raw Meat, หรือ Chilled Meat จะทำให้พวกมันไหวตัวได้ยากขึ้น",
+        "vi-vn": "Khi có Aloy trong đội, nhân vật khi tiếp cận các động vật nhỏ tạo Thịt Rừng, Thịt Gia Cầm và Thịt Tươi Lạnh sẽ không làm kinh động đến chúng.",
+        "zh-tw": "亞蘿伊在隊伍中時，隊伍中自己的角色接近生產禽肉、獸肉與冷鮮肉的小動物時，不會輕易驚動牠們。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/埃洛伊/const_talent_2.png"
+    }
+  ],
+  "talentAttributes": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Disparos Rápidos",
+        "en-us": "Rapid Fire",
+        "ja-jp": "ラピッドファイア",
+        "zh-cn": "普通攻击·快速射击",
+        "ko-kr": "일반 공격·고속 사격",
+        "ru-ru": "Скоростная стрельба",
+        "de-de": "Standardangriff: Schnellfeuer",
+        "fr-fr": "Attaque normale : Tir rapide",
+        "es-es": "Ataque Normal: Fuego rápido",
+        "id-id": "Normal Attack: Rapid Fire",
+        "th-th": "โจมตีปกติ: Rapid Fire",
+        "vi-vn": "Tấn Công Thường - Bắn Chớp Nhoáng",
+        "zh-tw": "普通攻擊·快速射擊"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 1° Golpe",
+            "en-us": "1-Hit DMG",
+            "ja-jp": "1段ダメージ",
+            "zh-cn": "一段伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон атаки 1",
+            "de-de": "SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tahap 1",
+            "th-th": "ความเสียหายขั้น 1",
+            "vi-vn": "Sát Thương Lần 1",
+            "zh-tw": "一段傷害"
+          },
+          "values": [
+            "21.12%+23.76%",
+            "22.56%+25.38%",
+            "24%+27%",
+            "25.92%+29.16%",
+            "27.36%+30.78%",
+            "29.04%+32.67%",
+            "31.2%+35.1%",
+            "33.36%+37.53%",
+            "35.52%+39.96%",
+            "37.68%+42.39%",
+            "39.84%+44.82%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 2° Golpe",
+            "en-us": "2-Hit DMG",
+            "ja-jp": "2段ダメージ",
+            "zh-cn": "二段伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон атаки 2",
+            "de-de": "SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2º golpe",
+            "id-id": "DMG Tahap 2",
+            "th-th": "ความเสียหายขั้น 2",
+            "vi-vn": "Sát Thương Lần 2",
+            "zh-tw": "二段傷害"
+          },
+          "values": [
+            "43.12%",
+            "46.06%",
+            "49%",
+            "52.92%",
+            "55.86%",
+            "59.29%",
+            "63.7%",
+            "68.11%",
+            "72.52%",
+            "76.93%",
+            "81.34%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 3° Golpe",
+            "en-us": "3-Hit DMG",
+            "ja-jp": "3段ダメージ",
+            "zh-cn": "三段伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон атаки 3",
+            "de-de": "SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tahap 3",
+            "th-th": "ความเสียหายขั้น 3",
+            "vi-vn": "Sát Thương Lần 3",
+            "zh-tw": "三段傷害"
+          },
+          "values": [
+            "52.8%",
+            "56.4%",
+            "60%",
+            "64.8%",
+            "68.4%",
+            "72.6%",
+            "78%",
+            "83.4%",
+            "88.8%",
+            "94.2%",
+            "99.6%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 4° Golpe",
+            "en-us": "4-Hit DMG",
+            "ja-jp": "4段ダメージ",
+            "zh-cn": "四段伤害",
+            "ko-kr": "4단 공격 피해",
+            "ru-ru": "Урон атаки 4",
+            "de-de": "SCH Phase 4",
+            "fr-fr": "DGT 4e coup",
+            "es-es": "Daño de 4.º golpe",
+            "id-id": "DMG Tahap 4",
+            "th-th": "ความเสียหายขั้น 4",
+            "vi-vn": "Sát Thương Lần 4",
+            "zh-tw": "四段傷害"
+          },
+          "values": [
+            "65.65%",
+            "70.12%",
+            "74.6%",
+            "80.57%",
+            "85.04%",
+            "90.27%",
+            "96.98%",
+            "103.69%",
+            "110.41%",
+            "117.12%",
+            "123.84%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Disparo com Mira",
+            "en-us": "Aimed Shot",
+            "ja-jp": "狙い撃ち",
+            "zh-cn": "瞄准射击",
+            "ko-kr": "조준 사격",
+            "ru-ru": "Прицельный выстрел",
+            "de-de": "Gezielte Schüsse",
+            "fr-fr": "DGT tir visé",
+            "es-es": "Disparo Preciso",
+            "id-id": "DMG Membidik",
+            "th-th": "เล็งโจมตี",
+            "vi-vn": "Ngắm Bắn",
+            "zh-tw": "瞄準射擊"
+          },
+          "values": [
+            "43.86%",
+            "47.43%",
+            "51%",
+            "56.1%",
+            "59.67%",
+            "63.75%",
+            "69.36%",
+            "74.97%",
+            "80.58%",
+            "86.7%",
+            "92.82%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Disparo com Mira com Energização Completa",
+            "en-us": "Fully-Charged Aimed Shot",
+            "ja-jp": "フルチャージ狙い撃ち",
+            "zh-cn": "满蓄力瞄准射击",
+            "ko-kr": "풀차지 조준 사격",
+            "ru-ru": "Заряженный выстрел",
+            "de-de": "Voll aufgeladene gezielte Schüsse",
+            "fr-fr": "DGT tir visé (pleine charge)",
+            "es-es": "Disparo Preciso (carga completa)",
+            "id-id": "DMG Membidik Penuh",
+            "th-th": "เล็งโจมตีเมื่อชาร์จเต็ม",
+            "vi-vn": "Tụ Lực Ngắm Bắn",
+            "zh-tw": "滿蓄力瞄準射擊"
+          },
+          "values": [
+            "124%",
+            "133.3%",
+            "142.6%",
+            "155%",
+            "164.3%",
+            "173.6%",
+            "186%",
+            "198.4%",
+            "210.8%",
+            "223.2%",
+            "235.6%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Durante a Queda",
+            "en-us": "Plunge DMG",
+            "ja-jp": "落下期間のダメージ",
+            "zh-cn": "下坠期间伤害",
+            "ko-kr": "낙하 기간 피해",
+            "ru-ru": "Урон в падении",
+            "de-de": "SCH beim Fallen",
+            "fr-fr": "DGT durant la chute",
+            "es-es": "Daño de Caída",
+            "id-id": "DMG Selama Plunging",
+            "th-th": "ความเสียหายพุ่งลง",
+            "vi-vn": "Sát Thương Khi Rơi",
+            "zh-tw": "下墜期間傷害"
+          },
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.6%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Queda de Alta/Baixa Altitude",
+            "en-us": "Low/High Plunge DMG",
+            "ja-jp": "低空/高空落下攻撃ダメージ",
+            "zh-cn": "低空/高空坠地冲击伤害",
+            "ko-kr": "저공/고공 추락 충격 피해",
+            "ru-ru": "Урон низкого/высокого удара",
+            "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
+            "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Daño de impacto de caída baja/alta",
+            "id-id": "DMG Plunging Attack Min./Maks.",
+            "th-th": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+            "vi-vn": "Sát Thương Khi Rơi Từ Độ Cao Thấp/Cao",
+            "zh-tw": "低空/高空墜地衝擊傷害"
+          },
+          "values": [
+            "113.63%/141.93%",
+            "122.88%/153.49%",
+            "132.13%/165.04%",
+            "145.35%/181.54%",
+            "154.59%/193.1%",
+            "165.17%/206.3%",
+            "179.7%/224.45%",
+            "194.23%/242.61%",
+            "208.77%/260.76%",
+            "224.62%/280.57%",
+            "240.48%/300.37%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_skill",
+      "talentName": {
+        "pt-pt": "Natureza Gélida",
+        "en-us": "Frozen Wilds",
+        "ja-jp": "凍てついた大地",
+        "zh-cn": "冰尘雪野",
+        "ko-kr": "빙결의 설야",
+        "ru-ru": "Ледяная пустошь",
+        "de-de": "Frostüberzogene Felder",
+        "fr-fr": "Frozen Wilds",
+        "es-es": "Campo gélido",
+        "id-id": "Frozen Wilds",
+        "th-th": "Frozen Wilds",
+        "vi-vn": "Băng Giá Hoang Dã",
+        "zh-tw": "冰塵雪野"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano da Bomba Congelante",
+            "en-us": "Freeze Bomb DMG",
+            "ja-jp": "氷の爆弾ダメージ",
+            "zh-cn": "冰尘弹伤害",
+            "ko-kr": "빙결탄 피해",
+            "ru-ru": "Урон Морозильной бомбы",
+            "de-de": "Eisbomben-SCH",
+            "fr-fr": "DGT bombe à gel",
+            "es-es": "Daño de bomba helada",
+            "id-id": "DMG Freeze Bomb",
+            "th-th": "ความเสียหาย Freeze Bomb",
+            "vi-vn": "Sát Thương Bom Băng Giá",
+            "zh-tw": "急凍炸彈傷害"
+          },
+          "values": [
+            "177.6%",
+            "190.92%",
+            "204.24%",
+            "222%",
+            "235.32%",
+            "248.64%",
+            "266.4%",
+            "284.16%",
+            "301.92%",
+            "319.68%",
+            "337.44%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Bomba de Congelamento",
+            "en-us": "Chillwater Bomblets",
+            "ja-jp": "冷凍爆弾ダメージ",
+            "zh-cn": "冷冻炸弹伤害",
+            "ko-kr": "냉각 폭탄 피해",
+            "ru-ru": "Урон Ледяной бомбочки",
+            "de-de": "Kälteminen-SCH",
+            "fr-fr": "DGT petite bombe glacée",
+            "es-es": "Daño de minibomba ultracongelante",
+            "id-id": "DMG Chillwater Bomblet",
+            "th-th": "ความเสียหาย Chillwater Bomblet",
+            "vi-vn": "Sát Thương Lựu Đạn Băng Giá",
+            "zh-tw": "冷凍炸彈傷害"
+          },
+          "values": [
+            "40%",
+            "43%",
+            "46%",
+            "50%",
+            "53%",
+            "56%",
+            "60%",
+            "64%",
+            "68%",
+            "72%",
+            "76%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Redução de ATQ",
+            "en-us": "ATK Decrease",
+            "ja-jp": "攻撃力ダウン",
+            "zh-cn": "攻击力降低",
+            "ko-kr": "공격력 감소",
+            "ru-ru": "Понижение силы атаки",
+            "de-de": "ANG-Malus",
+            "fr-fr": "Réduction d'ATQ",
+            "es-es": "Reducción de ATQ",
+            "id-id": "Penurunan ATK",
+            "th-th": "พลังโจมตีลดลง",
+            "vi-vn": "Giảm Tấn Công",
+            "zh-tw": "攻擊力降低"
+          },
+          "values": [
+            "12%",
+            "12%",
+            "12%",
+            "13%",
+            "13%",
+            "13%",
+            "14%",
+            "14%",
+            "14%",
+            "15%",
+            "15%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração da Redução de ATQ",
+            "en-us": "ATK Decrease Duration",
+            "ja-jp": "攻撃力ダウン継続時間",
+            "zh-cn": "攻击力降低持续时间",
+            "ko-kr": "공격력 감소 지속 시간",
+            "ru-ru": "Длительность понижения силы атаки",
+            "de-de": "ANG-Malus-Dauer",
+            "fr-fr": "Durée réduction d'ATQ",
+            "es-es": "Duración de reducción de ATQ",
+            "id-id": "Durasi Penurunan ATK",
+            "th-th": "ระยะเวลาที่พลังโจมตีลดลง",
+            "vi-vn": "Kéo Dài Thời Gian Giảm Tấn Công",
+            "zh-tw": "攻擊力降低持續時間"
+          },
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano do Ataque Normal de Bobina",
+            "en-us": "Coil Normal Attack DMG Bonus",
+            "ja-jp": "コイル通常攻撃ダメージアップ",
+            "zh-cn": "线圈普通攻击伤害提升",
+            "ko-kr": "코일 일반 공격 피해 증가",
+            "ru-ru": "Бонус обычной атаки от Спирали",
+            "de-de": "SCH-Bonus für Standardangriffe durch Spule",
+            "fr-fr": "Bonus ATQ normale (Bobine)",
+            "es-es": "Aumento de daño de ATQ Normal con inducción",
+            "id-id": "Bonus DMG Normal Attack dari Coil",
+            "th-th": "โบนัสความเสียหายการโจมตีปกติของ Coil",
+            "vi-vn": "Tăng Sát Thương Tấn Công Thường Dây Móc",
+            "zh-tw": "線圈普通攻擊傷害提升"
+          },
+          "values": [
+            "5.85%/11.69%/17.54%",
+            "6.2%/12.39%/18.58%",
+            "6.54%/13.09%/19.64%",
+            "7%/14%/21%",
+            "7.35%/14.7%/22.05%",
+            "7.7%/15.4%/23.1%",
+            "8.16%/16.31%/24.47%",
+            "8.61%/17.22%/25.83%",
+            "9.07%/18.13%/27.2%",
+            "9.52%/19.04%/28.56%",
+            "9.98%/19.95%/29.93%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano do Ataque Normal de Gelo Rápido",
+            "en-us": "Rushing Ice Normal Attack DMG Bonus",
+            "ja-jp": "アイスラッシュ通常攻撃ダメージアップ",
+            "zh-cn": "冰驰普通攻击伤害提升",
+            "ko-kr": "얼음 질주 일반 공격 피해 증가",
+            "ru-ru": "Бонус обычной атаки от Стремительного льда",
+            "de-de": "SCH-Bonus für Standardangriffe durch Eisige Eile",
+            "fr-fr": "Bonus ATQ normale (Glace précipitée)",
+            "es-es": "Aumento de daño de ATQ normal con hielo galopante",
+            "id-id": "Bonus DMG Normal Attack dari Rushing Ice",
+            "th-th": "โบนัสความเสียหายการโจมตีปกติของ Rushing Ice",
+            "vi-vn": "Tăng Sát Thương Tấn Công Thường Hồ Băng",
+            "zh-tw": "冰馳普通攻擊傷害提升"
+          },
+          "values": [
+            "29.23%",
+            "30.98%",
+            "32.73%",
+            "35%",
+            "36.75%",
+            "38.5%",
+            "40.78%",
+            "43.05%",
+            "45.33%",
+            "47.6%",
+            "49.88%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração do Gelo Rápido",
+            "en-us": "Rushing Ice Duration",
+            "ja-jp": "アイスラッシュ継続時間",
+            "zh-cn": "冰驰持续时间",
+            "ko-kr": "얼음 질주 지속 시간",
+            "ru-ru": "Длительность Стремительного льда",
+            "de-de": "Dauer von Eisige Eile",
+            "fr-fr": "Durée Glace précipitée",
+            "es-es": "Duración de hielo galopante",
+            "id-id": "Durasi Rushing Ice",
+            "th-th": "ระยะเวลาของ Rushing Ice",
+            "vi-vn": "Thời Gian Kéo Dài Hồ Băng",
+            "zh-tw": "冰馳持續時間"
+          },
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "เวลาคูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_burst",
+      "talentName": {
+        "pt-pt": "Profecias do Alvorecer",
+        "en-us": "Prophecies of Dawn",
+        "ja-jp": "ドーンプロフェシー",
+        "zh-cn": "曙光预言",
+        "ko-kr": "서광의 예언",
+        "ru-ru": "Пророчества рассвета",
+        "de-de": "Weissagung des Morgenlichts",
+        "fr-fr": "Prophéties de l'aube",
+        "es-es": "Profecía del amanecer",
+        "id-id": "Prophecies of Dawn",
+        "th-th": "Prophecies of Dawn",
+        "vi-vn": "Lời Tiên Tri Ánh Sáng",
+        "zh-tw": "黎明預言"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Habilidade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "359.2%",
+            "386.14%",
+            "413.08%",
+            "449%",
+            "475.94%",
+            "502.88%",
+            "538.8%",
+            "574.72%",
+            "610.64%",
+            "646.56%",
+            "682.48%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Energia Elemental",
+            "en-us": "Energy Cost",
+            "ja-jp": "元素エネルギー",
+            "zh-cn": "元素能量",
+            "ko-kr": "원소 에너지",
+            "ru-ru": "Потребление энергии",
+            "de-de": "Elementarenergie",
+            "fr-fr": "Énergie élémentaire",
+            "es-es": "Energía Elemental",
+            "id-id": "Konsumsi Energy",
+            "th-th": "พลังงานธาตุ",
+            "vi-vn": "Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量"
+          },
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    }
+  ],
+  "talentMaterials": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Disparos Rápidos",
+        "en-us": "Rapid Fire",
+        "ja-jp": "ラピッドファイア",
+        "zh-cn": "普通攻击·快速射击",
+        "ko-kr": "일반 공격·고속 사격",
+        "ru-ru": "Скоростная стрельба",
+        "de-de": "Standardangriff: Schnellfeuer",
+        "fr-fr": "Attaque normale : Tir rapide",
+        "es-es": "Ataque Normal: Fuego rápido",
+        "id-id": "Normal Attack: Rapid Fire",
+        "th-th": "โจมตีปกติ: Rapid Fire",
+        "vi-vn": "Tấn Công Thường - Bắn Chớp Nhoáng",
+        "zh-tw": "普通攻擊·快速射擊"
+      },
+      "materials": [
+        {
+          "level": 2,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 12500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "164",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Ensinamentos de Liberdade",
+                "en-us": "Teachings of Freedom",
+                "ja-jp": "自由の教え",
+                "zh-cn": "自由的教导",
+                "ko-kr": "자유의 가르침",
+                "ru-ru": "Учения о Свободе",
+                "de-de": "Lehren der Freiheit",
+                "fr-fr": "Enseignement de la Liberté",
+                "es-es": "Enseñanzas de la libertad",
+                "id-id": "Teachings of Freedom",
+                "th-th": "Teachings of Freedom",
+                "vi-vn": "Bài Giảng Của Tự Do",
+                "zh-tw": "自由的教導"
+              }
+            },
+            {
+              "id": "1018",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Casca Espectral",
+                "en-us": "Spectral Husk",
+                "ja-jp": "フライムの乾核",
+                "zh-cn": "浮游干核",
+                "ko-kr": "떠도는 정령 코어 껍데기",
+                "ru-ru": "Призрачная оболочка",
+                "de-de": "Geisterhülle",
+                "fr-fr": "Coquille spectrale",
+                "es-es": "Caparazón espectral",
+                "id-id": "Spectral Husk",
+                "th-th": "Spectral Husk",
+                "vi-vn": "Hạt Bay Lượn Khô Héo",
+                "zh-tw": "浮游乾核"
+              }
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 17500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "163",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Guia da Liberdade",
+                "en-us": "Guide to Freedom",
+                "ja-jp": "自由の導き",
+                "zh-cn": "自由的指引",
+                "ko-kr": "자유의 인도",
+                "ru-ru": "Указания о Свободе",
+                "de-de": "Anleitung zur Freiheit",
+                "fr-fr": "Guide de la Liberté",
+                "es-es": "Guía de la libertad",
+                "id-id": "Guide to Freedom",
+                "th-th": "Guide to Freedom",
+                "vi-vn": "Hướng Dẫn Của Tự Do",
+                "zh-tw": "自由的指引"
+              }
+            },
+            {
+              "id": "1019",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Coração Espectral",
+                "en-us": "Spectral Heart",
+                "ja-jp": "フライムの幽核",
+                "zh-cn": "浮游幽核",
+                "ko-kr": "떠도는 정령 코어",
+                "ru-ru": "Призрачное сердце",
+                "de-de": "Gespensterherz",
+                "fr-fr": "Cœur spectral",
+                "es-es": "Corazón espectral",
+                "id-id": "Spectral Heart",
+                "th-th": "Spectral Heart",
+                "vi-vn": "Hạt Bay Lượn U Ám",
+                "zh-tw": "浮游幽核"
+              }
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 25000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "163",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Guia da Liberdade",
+                "en-us": "Guide to Freedom",
+                "ja-jp": "自由の導き",
+                "zh-cn": "自由的指引",
+                "ko-kr": "자유의 인도",
+                "ru-ru": "Указания о Свободе",
+                "de-de": "Anleitung zur Freiheit",
+                "fr-fr": "Guide de la Liberté",
+                "es-es": "Guía de la libertad",
+                "id-id": "Guide to Freedom",
+                "th-th": "Guide to Freedom",
+                "vi-vn": "Hướng Dẫn Của Tự Do",
+                "zh-tw": "自由的指引"
+              }
+            },
+            {
+              "id": "1019",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Coração Espectral",
+                "en-us": "Spectral Heart",
+                "ja-jp": "フライムの幽核",
+                "zh-cn": "浮游幽核",
+                "ko-kr": "떠도는 정령 코어",
+                "ru-ru": "Призрачное сердце",
+                "de-de": "Gespensterherz",
+                "fr-fr": "Cœur spectral",
+                "es-es": "Corazón espectral",
+                "id-id": "Spectral Heart",
+                "th-th": "Spectral Heart",
+                "vi-vn": "Hạt Bay Lượn U Ám",
+                "zh-tw": "浮游幽核"
+              }
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 30000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "163",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Guia da Liberdade",
+                "en-us": "Guide to Freedom",
+                "ja-jp": "自由の導き",
+                "zh-cn": "自由的指引",
+                "ko-kr": "자유의 인도",
+                "ru-ru": "Указания о Свободе",
+                "de-de": "Anleitung zur Freiheit",
+                "fr-fr": "Guide de la Liberté",
+                "es-es": "Guía de la libertad",
+                "id-id": "Guide to Freedom",
+                "th-th": "Guide to Freedom",
+                "vi-vn": "Hướng Dẫn Của Tự Do",
+                "zh-tw": "自由的指引"
+              }
+            },
+            {
+              "id": "1019",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Coração Espectral",
+                "en-us": "Spectral Heart",
+                "ja-jp": "フライムの幽核",
+                "zh-cn": "浮游幽核",
+                "ko-kr": "떠도는 정령 코어",
+                "ru-ru": "Призрачное сердце",
+                "de-de": "Gespensterherz",
+                "fr-fr": "Cœur spectral",
+                "es-es": "Corazón espectral",
+                "id-id": "Spectral Heart",
+                "th-th": "Spectral Heart",
+                "vi-vn": "Hạt Bay Lượn U Ám",
+                "zh-tw": "浮游幽核"
+              }
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 37500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "163",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Guia da Liberdade",
+                "en-us": "Guide to Freedom",
+                "ja-jp": "自由の導き",
+                "zh-cn": "自由的指引",
+                "ko-kr": "자유의 인도",
+                "ru-ru": "Указания о Свободе",
+                "de-de": "Anleitung zur Freiheit",
+                "fr-fr": "Guide de la Liberté",
+                "es-es": "Guía de la libertad",
+                "id-id": "Guide to Freedom",
+                "th-th": "Guide to Freedom",
+                "vi-vn": "Hướng Dẫn Của Tự Do",
+                "zh-tw": "自由的指引"
+              }
+            },
+            {
+              "id": "1019",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Coração Espectral",
+                "en-us": "Spectral Heart",
+                "ja-jp": "フライムの幽核",
+                "zh-cn": "浮游幽核",
+                "ko-kr": "떠도는 정령 코어",
+                "ru-ru": "Призрачное сердце",
+                "de-de": "Gespensterherz",
+                "fr-fr": "Cœur spectral",
+                "es-es": "Corazón espectral",
+                "id-id": "Spectral Heart",
+                "th-th": "Spectral Heart",
+                "vi-vn": "Hạt Bay Lượn U Ám",
+                "zh-tw": "浮游幽核"
+              }
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 120000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "162",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Filosofia da Liberdade",
+                "en-us": "Philosophies of Freedom",
+                "ja-jp": "自由の哲学",
+                "zh-cn": "自由的哲学",
+                "ko-kr": "자유의 철학",
+                "ru-ru": "Философия о Свободе",
+                "de-de": "Philosophie der Freiheit",
+                "fr-fr": "Philosophie de la Liberté",
+                "es-es": "Filosofía de la libertad",
+                "id-id": "Philosophies of Freedom",
+                "th-th": "Philosophies of Freedom",
+                "vi-vn": "Triết Học Của Tự Do",
+                "zh-tw": "自由的哲學"
+              }
+            },
+            {
+              "id": "1020",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Núcleo Espectral",
+                "en-us": "Spectral Nucleus",
+                "ja-jp": "フライムの晶化核",
+                "zh-cn": "浮游晶化核",
+                "ko-kr": "떠도는 정령 결정화 코어",
+                "ru-ru": "Призрачное ядро",
+                "de-de": "Gespensterkern",
+                "fr-fr": "Noyau spectral",
+                "es-es": "Núcleo espectral",
+                "id-id": "Specter Nucleus",
+                "th-th": "Spectral Nucleus",
+                "vi-vn": "Hạt Bay Lượn Kết Tinh",
+                "zh-tw": "浮游晶化核"
+              }
+            },
+            {
+              "id": "1096",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Momento Derretido",
+                "en-us": "Molten Moment",
+                "ja-jp": "溶滅の刻",
+                "zh-cn": "熔毁之刻",
+                "ko-kr": "용해의 순간",
+                "ru-ru": "Расплавленный миг",
+                "de-de": "Moment der Kernschmelze",
+                "fr-fr": "Moment en fusion",
+                "es-es": "Momento del derretimiento",
+                "id-id": "Molten Moment",
+                "th-th": "Molten Moment",
+                "vi-vn": "Thời Khắc Tan Chảy",
+                "zh-tw": "熔毀之刻"
+              }
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 260000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "162",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Filosofia da Liberdade",
+                "en-us": "Philosophies of Freedom",
+                "ja-jp": "自由の哲学",
+                "zh-cn": "自由的哲学",
+                "ko-kr": "자유의 철학",
+                "ru-ru": "Философия о Свободе",
+                "de-de": "Philosophie der Freiheit",
+                "fr-fr": "Philosophie de la Liberté",
+                "es-es": "Filosofía de la libertad",
+                "id-id": "Philosophies of Freedom",
+                "th-th": "Philosophies of Freedom",
+                "vi-vn": "Triết Học Của Tự Do",
+                "zh-tw": "自由的哲學"
+              }
+            },
+            {
+              "id": "1020",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Núcleo Espectral",
+                "en-us": "Spectral Nucleus",
+                "ja-jp": "フライムの晶化核",
+                "zh-cn": "浮游晶化核",
+                "ko-kr": "떠도는 정령 결정화 코어",
+                "ru-ru": "Призрачное ядро",
+                "de-de": "Gespensterkern",
+                "fr-fr": "Noyau spectral",
+                "es-es": "Núcleo espectral",
+                "id-id": "Specter Nucleus",
+                "th-th": "Spectral Nucleus",
+                "vi-vn": "Hạt Bay Lượn Kết Tinh",
+                "zh-tw": "浮游晶化核"
+              }
+            },
+            {
+              "id": "1096",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Momento Derretido",
+                "en-us": "Molten Moment",
+                "ja-jp": "溶滅の刻",
+                "zh-cn": "熔毁之刻",
+                "ko-kr": "용해의 순간",
+                "ru-ru": "Расплавленный миг",
+                "de-de": "Moment der Kernschmelze",
+                "fr-fr": "Moment en fusion",
+                "es-es": "Momento del derretimiento",
+                "id-id": "Molten Moment",
+                "th-th": "Molten Moment",
+                "vi-vn": "Thời Khắc Tan Chảy",
+                "zh-tw": "熔毀之刻"
+              }
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 450000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "162",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Filosofia da Liberdade",
+                "en-us": "Philosophies of Freedom",
+                "ja-jp": "自由の哲学",
+                "zh-cn": "自由的哲学",
+                "ko-kr": "자유의 철학",
+                "ru-ru": "Философия о Свободе",
+                "de-de": "Philosophie der Freiheit",
+                "fr-fr": "Philosophie de la Liberté",
+                "es-es": "Filosofía de la libertad",
+                "id-id": "Philosophies of Freedom",
+                "th-th": "Philosophies of Freedom",
+                "vi-vn": "Triết Học Của Tự Do",
+                "zh-tw": "自由的哲學"
+              }
+            },
+            {
+              "id": "1020",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Núcleo Espectral",
+                "en-us": "Spectral Nucleus",
+                "ja-jp": "フライムの晶化核",
+                "zh-cn": "浮游晶化核",
+                "ko-kr": "떠도는 정령 결정화 코어",
+                "ru-ru": "Призрачное ядро",
+                "de-de": "Gespensterkern",
+                "fr-fr": "Noyau spectral",
+                "es-es": "Núcleo espectral",
+                "id-id": "Specter Nucleus",
+                "th-th": "Spectral Nucleus",
+                "vi-vn": "Hạt Bay Lượn Kết Tinh",
+                "zh-tw": "浮游晶化核"
+              }
+            },
+            {
+              "id": "1096",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Momento Derretido",
+                "en-us": "Molten Moment",
+                "ja-jp": "溶滅の刻",
+                "zh-cn": "熔毁之刻",
+                "ko-kr": "용해의 순간",
+                "ru-ru": "Расплавленный миг",
+                "de-de": "Moment der Kernschmelze",
+                "fr-fr": "Moment en fusion",
+                "es-es": "Momento del derretimiento",
+                "id-id": "Molten Moment",
+                "th-th": "Molten Moment",
+                "vi-vn": "Thời Khắc Tan Chảy",
+                "zh-tw": "熔毀之刻"
+              }
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 700000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "162",
+              "iconUrl": null,
+              "amount": 16,
+              "name": {
+                "pt-pt": "Filosofia da Liberdade",
+                "en-us": "Philosophies of Freedom",
+                "ja-jp": "自由の哲学",
+                "zh-cn": "自由的哲学",
+                "ko-kr": "자유의 철학",
+                "ru-ru": "Философия о Свободе",
+                "de-de": "Philosophie der Freiheit",
+                "fr-fr": "Philosophie de la Liberté",
+                "es-es": "Filosofía de la libertad",
+                "id-id": "Philosophies of Freedom",
+                "th-th": "Philosophies of Freedom",
+                "vi-vn": "Triết Học Của Tự Do",
+                "zh-tw": "自由的哲學"
+              }
+            },
+            {
+              "id": "1020",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Núcleo Espectral",
+                "en-us": "Spectral Nucleus",
+                "ja-jp": "フライムの晶化核",
+                "zh-cn": "浮游晶化核",
+                "ko-kr": "떠도는 정령 결정화 코어",
+                "ru-ru": "Призрачное ядро",
+                "de-de": "Gespensterkern",
+                "fr-fr": "Noyau spectral",
+                "es-es": "Núcleo espectral",
+                "id-id": "Specter Nucleus",
+                "th-th": "Spectral Nucleus",
+                "vi-vn": "Hạt Bay Lượn Kết Tinh",
+                "zh-tw": "浮游晶化核"
+              }
+            },
+            {
+              "id": "1096",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Momento Derretido",
+                "en-us": "Molten Moment",
+                "ja-jp": "溶滅の刻",
+                "zh-cn": "熔毁之刻",
+                "ko-kr": "용해의 순간",
+                "ru-ru": "Расплавленный миг",
+                "de-de": "Moment der Kernschmelze",
+                "fr-fr": "Moment en fusion",
+                "es-es": "Momento del derretimiento",
+                "id-id": "Molten Moment",
+                "th-th": "Molten Moment",
+                "vi-vn": "Thời Khắc Tan Chảy",
+                "zh-tw": "熔毀之刻"
+              }
+            },
+            {
+              "id": "900",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa da Sabedoria",
+                "en-us": "Crown of Insight",
+                "ja-jp": "知恵の冠",
+                "zh-cn": "智识之冕",
+                "ko-kr": "지식의 왕관",
+                "ru-ru": "Корона прозрения",
+                "de-de": "Krone der Weisheit",
+                "fr-fr": "Couronne de la sagesse",
+                "es-es": "Corona de la sabiduría",
+                "id-id": "Crown of Insight",
+                "th-th": "Crown of Insight",
+                "vi-vn": "Vương Miện Trí Thức",
+                "zh-tw": "智識之冕"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "affiliation": {
+    "pt-pt": "Cavaleiro Errante",
+    "en-us": "Wandering Heroine",
+    "ja-jp": "さすらいの女傑",
+    "zh-cn": "游侠",
+    "ko-kr": "방랑하는 여걸",
+    "ru-ru": "Мятежник",
+    "de-de": "Wandernde Heldin",
+    "fr-fr": "Héroïne vagabonde",
+    "es-es": "Heroína errante",
+    "id-id": "Pahlawan yang Mengembara",
+    "th-th": "ฮีโร่พเนจร",
+    "vi-vn": "Thợ Săn",
+    "zh-tw": "遊俠"
+  },
+  "birthday": {
+    "pt-pt": "4/4",
+    "en-us": "4/4",
+    "ja-jp": "4月4日",
+    "zh-cn": "4月4日",
+    "ko-kr": "4월 4일",
+    "ru-ru": "4 апреля",
+    "de-de": "4. April",
+    "fr-fr": "4/4",
+    "es-es": "4/4",
+    "id-id": "4 April",
+    "th-th": "4/4",
+    "vi-vn": "Ngày 4 tháng 4",
+    "zh-tw": "4月4日"
+  },
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "411",
+          "iconUrl": null,
+          "amount": 1,
+          "name": {
+            "pt-pt": "Lasca de Jade Shivada",
+            "en-us": "Shivada Jade Sliver",
+            "ja-jp": "哀切なアイスクリスタル・砕屑",
+            "zh-cn": "哀叙冰玉碎屑",
+            "ko-kr": "서늘한 빙옥 가루",
+            "ru-ru": "Осколок нефрита Шивада",
+            "de-de": "Shivada-Jade-Splitter",
+            "fr-fr": "Éclat de jade shivada",
+            "es-es": "Pedacito de jade shivada",
+            "id-id": "Shivada Jade Sliver",
+            "th-th": "Shivada Jade Sliver",
+            "vi-vn": "Mảnh Ngọc Băng Vụn",
+            "zh-tw": "哀敘冰玉碎屑"
+          }
+        },
+        {
+          "id": "898",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Medula de Cristal",
+            "en-us": "Crystal Marrow",
+            "ja-jp": "晶化骨髄",
+            "zh-cn": "晶化骨髓",
+            "ko-kr": "수정 골수",
+            "ru-ru": "Кристальный костный мозг",
+            "de-de": "Kristallmark",
+            "fr-fr": "Moelle cristalline",
+            "es-es": "Médula cristalizada",
+            "id-id": "Crystal Marrow",
+            "th-th": "Crystal Marrow",
+            "vi-vn": "Tủy Pha Lê",
+            "zh-tw": "晶化骨髓"
+          }
+        },
+        {
+          "id": "1018",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Casca Espectral",
+            "en-us": "Spectral Husk",
+            "ja-jp": "フライムの乾核",
+            "zh-cn": "浮游干核",
+            "ko-kr": "떠도는 정령 코어 껍데기",
+            "ru-ru": "Призрачная оболочка",
+            "de-de": "Geisterhülle",
+            "fr-fr": "Coquille spectrale",
+            "es-es": "Caparazón espectral",
+            "id-id": "Spectral Husk",
+            "th-th": "Spectral Husk",
+            "vi-vn": "Hạt Bay Lượn Khô Héo",
+            "zh-tw": "浮游乾核"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 40000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "410",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Jade Shivada",
+            "en-us": "Shivada Jade Fragment",
+            "ja-jp": "哀切なアイスクリスタル・欠片",
+            "zh-cn": "哀叙冰玉断片",
+            "ko-kr": "서늘한 빙옥 조각",
+            "ru-ru": "Фрагмент нефрита Шивада",
+            "de-de": "Shivada-Jade-Bruchstück",
+            "fr-fr": "Fragment de jade shivada",
+            "es-es": "Fragmento de jade shivada",
+            "id-id": "Shivada Jade Fragment",
+            "th-th": "Shivada Jade Fragment",
+            "vi-vn": "Mảnh Ngọc Băng Vỡ",
+            "zh-tw": "哀敘冰玉斷片"
+          }
+        },
+        {
+          "id": "897",
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Florescimento Cristalino",
+            "en-us": "Crystalline Bloom",
+            "ja-jp": "凝結の華",
+            "zh-cn": "晶凝之华",
+            "ko-kr": "응결의 꽃",
+            "ru-ru": "Цветение кристалла",
+            "de-de": "Ewige Eisblume",
+            "fr-fr": "Fleur cristalline",
+            "es-es": "Flor cristalina",
+            "id-id": "Crystalline Bloom",
+            "th-th": "Crystalline Bloom",
+            "vi-vn": "Tinh Hoa Ngưng Kết",
+            "zh-tw": "晶凝之華"
+          }
+        },
+        {
+          "id": "898",
+          "iconUrl": null,
+          "amount": 10,
+          "name": {
+            "pt-pt": "Medula de Cristal",
+            "en-us": "Crystal Marrow",
+            "ja-jp": "晶化骨髄",
+            "zh-cn": "晶化骨髓",
+            "ko-kr": "수정 골수",
+            "ru-ru": "Кристальный костный мозг",
+            "de-de": "Kristallmark",
+            "fr-fr": "Moelle cristalline",
+            "es-es": "Médula cristalizada",
+            "id-id": "Crystal Marrow",
+            "th-th": "Crystal Marrow",
+            "vi-vn": "Tủy Pha Lê",
+            "zh-tw": "晶化骨髓"
+          }
+        },
+        {
+          "id": "1018",
+          "iconUrl": null,
+          "amount": 15,
+          "name": {
+            "pt-pt": "Casca Espectral",
+            "en-us": "Spectral Husk",
+            "ja-jp": "フライムの乾核",
+            "zh-cn": "浮游干核",
+            "ko-kr": "떠도는 정령 코어 껍데기",
+            "ru-ru": "Призрачная оболочка",
+            "de-de": "Geisterhülle",
+            "fr-fr": "Coquille spectrale",
+            "es-es": "Caparazón espectral",
+            "id-id": "Spectral Husk",
+            "th-th": "Spectral Husk",
+            "vi-vn": "Hạt Bay Lượn Khô Héo",
+            "zh-tw": "浮游乾核"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 60000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "410",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Jade Shivada",
+            "en-us": "Shivada Jade Fragment",
+            "ja-jp": "哀切なアイスクリスタル・欠片",
+            "zh-cn": "哀叙冰玉断片",
+            "ko-kr": "서늘한 빙옥 조각",
+            "ru-ru": "Фрагмент нефрита Шивада",
+            "de-de": "Shivada-Jade-Bruchstück",
+            "fr-fr": "Fragment de jade shivada",
+            "es-es": "Fragmento de jade shivada",
+            "id-id": "Shivada Jade Fragment",
+            "th-th": "Shivada Jade Fragment",
+            "vi-vn": "Mảnh Ngọc Băng Vỡ",
+            "zh-tw": "哀敘冰玉斷片"
+          }
+        },
+        {
+          "id": "897",
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Florescimento Cristalino",
+            "en-us": "Crystalline Bloom",
+            "ja-jp": "凝結の華",
+            "zh-cn": "晶凝之华",
+            "ko-kr": "응결의 꽃",
+            "ru-ru": "Цветение кристалла",
+            "de-de": "Ewige Eisblume",
+            "fr-fr": "Fleur cristalline",
+            "es-es": "Flor cristalina",
+            "id-id": "Crystalline Bloom",
+            "th-th": "Crystalline Bloom",
+            "vi-vn": "Tinh Hoa Ngưng Kết",
+            "zh-tw": "晶凝之華"
+          }
+        },
+        {
+          "id": "898",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Medula de Cristal",
+            "en-us": "Crystal Marrow",
+            "ja-jp": "晶化骨髄",
+            "zh-cn": "晶化骨髓",
+            "ko-kr": "수정 골수",
+            "ru-ru": "Кристальный костный мозг",
+            "de-de": "Kristallmark",
+            "fr-fr": "Moelle cristalline",
+            "es-es": "Médula cristalizada",
+            "id-id": "Crystal Marrow",
+            "th-th": "Crystal Marrow",
+            "vi-vn": "Tủy Pha Lê",
+            "zh-tw": "晶化骨髓"
+          }
+        },
+        {
+          "id": "1019",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Coração Espectral",
+            "en-us": "Spectral Heart",
+            "ja-jp": "フライムの幽核",
+            "zh-cn": "浮游幽核",
+            "ko-kr": "떠도는 정령 코어",
+            "ru-ru": "Призрачное сердце",
+            "de-de": "Gespensterherz",
+            "fr-fr": "Cœur spectral",
+            "es-es": "Corazón espectral",
+            "id-id": "Spectral Heart",
+            "th-th": "Spectral Heart",
+            "vi-vn": "Hạt Bay Lượn U Ám",
+            "zh-tw": "浮游幽核"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 80000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "409",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Jade Shivada",
+            "en-us": "Shivada Jade Chunk",
+            "ja-jp": "哀切なアイスクリスタル・塊",
+            "zh-cn": "哀叙冰玉块",
+            "ko-kr": "서늘한 빙옥 덩이",
+            "ru-ru": "Кусок нефрита Шивада",
+            "de-de": "Shivada-Jade-Brocken",
+            "fr-fr": "Morceau de jade shivada",
+            "es-es": "Trozo de jade shivada",
+            "id-id": "Shivada Jade Chunk",
+            "th-th": "Shivada Jade Chunk",
+            "vi-vn": "Miếng Ngọc Băng",
+            "zh-tw": "哀敘冰玉塊"
+          }
+        },
+        {
+          "id": "897",
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Florescimento Cristalino",
+            "en-us": "Crystalline Bloom",
+            "ja-jp": "凝結の華",
+            "zh-cn": "晶凝之华",
+            "ko-kr": "응결의 꽃",
+            "ru-ru": "Цветение кристалла",
+            "de-de": "Ewige Eisblume",
+            "fr-fr": "Fleur cristalline",
+            "es-es": "Flor cristalina",
+            "id-id": "Crystalline Bloom",
+            "th-th": "Crystalline Bloom",
+            "vi-vn": "Tinh Hoa Ngưng Kết",
+            "zh-tw": "晶凝之華"
+          }
+        },
+        {
+          "id": "898",
+          "iconUrl": null,
+          "amount": 30,
+          "name": {
+            "pt-pt": "Medula de Cristal",
+            "en-us": "Crystal Marrow",
+            "ja-jp": "晶化骨髄",
+            "zh-cn": "晶化骨髓",
+            "ko-kr": "수정 골수",
+            "ru-ru": "Кристальный костный мозг",
+            "de-de": "Kristallmark",
+            "fr-fr": "Moelle cristalline",
+            "es-es": "Médula cristalizada",
+            "id-id": "Crystal Marrow",
+            "th-th": "Crystal Marrow",
+            "vi-vn": "Tủy Pha Lê",
+            "zh-tw": "晶化骨髓"
+          }
+        },
+        {
+          "id": "1019",
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Coração Espectral",
+            "en-us": "Spectral Heart",
+            "ja-jp": "フライムの幽核",
+            "zh-cn": "浮游幽核",
+            "ko-kr": "떠도는 정령 코어",
+            "ru-ru": "Призрачное сердце",
+            "de-de": "Gespensterherz",
+            "fr-fr": "Cœur spectral",
+            "es-es": "Corazón espectral",
+            "id-id": "Spectral Heart",
+            "th-th": "Spectral Heart",
+            "vi-vn": "Hạt Bay Lượn U Ám",
+            "zh-tw": "浮游幽核"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 100000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "409",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Jade Shivada",
+            "en-us": "Shivada Jade Chunk",
+            "ja-jp": "哀切なアイスクリスタル・塊",
+            "zh-cn": "哀叙冰玉块",
+            "ko-kr": "서늘한 빙옥 덩이",
+            "ru-ru": "Кусок нефрита Шивада",
+            "de-de": "Shivada-Jade-Brocken",
+            "fr-fr": "Morceau de jade shivada",
+            "es-es": "Trozo de jade shivada",
+            "id-id": "Shivada Jade Chunk",
+            "th-th": "Shivada Jade Chunk",
+            "vi-vn": "Miếng Ngọc Băng",
+            "zh-tw": "哀敘冰玉塊"
+          }
+        },
+        {
+          "id": "897",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Florescimento Cristalino",
+            "en-us": "Crystalline Bloom",
+            "ja-jp": "凝結の華",
+            "zh-cn": "晶凝之华",
+            "ko-kr": "응결의 꽃",
+            "ru-ru": "Цветение кристалла",
+            "de-de": "Ewige Eisblume",
+            "fr-fr": "Fleur cristalline",
+            "es-es": "Flor cristalina",
+            "id-id": "Crystalline Bloom",
+            "th-th": "Crystalline Bloom",
+            "vi-vn": "Tinh Hoa Ngưng Kết",
+            "zh-tw": "晶凝之華"
+          }
+        },
+        {
+          "id": "898",
+          "iconUrl": null,
+          "amount": 45,
+          "name": {
+            "pt-pt": "Medula de Cristal",
+            "en-us": "Crystal Marrow",
+            "ja-jp": "晶化骨髄",
+            "zh-cn": "晶化骨髓",
+            "ko-kr": "수정 골수",
+            "ru-ru": "Кристальный костный мозг",
+            "de-de": "Kristallmark",
+            "fr-fr": "Moelle cristalline",
+            "es-es": "Médula cristalizada",
+            "id-id": "Crystal Marrow",
+            "th-th": "Crystal Marrow",
+            "vi-vn": "Tủy Pha Lê",
+            "zh-tw": "晶化骨髓"
+          }
+        },
+        {
+          "id": "1020",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Núcleo Espectral",
+            "en-us": "Spectral Nucleus",
+            "ja-jp": "フライムの晶化核",
+            "zh-cn": "浮游晶化核",
+            "ko-kr": "떠도는 정령 결정화 코어",
+            "ru-ru": "Призрачное ядро",
+            "de-de": "Gespensterkern",
+            "fr-fr": "Noyau spectral",
+            "es-es": "Núcleo espectral",
+            "id-id": "Specter Nucleus",
+            "th-th": "Spectral Nucleus",
+            "vi-vn": "Hạt Bay Lượn Kết Tinh",
+            "zh-tw": "浮游晶化核"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 120000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "408",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Gema de Jade Shivada",
+            "en-us": "Shivada Jade Gemstone",
+            "ja-jp": "哀切なアイスクリスタル",
+            "zh-cn": "哀叙冰玉",
+            "ko-kr": "서늘한 빙옥",
+            "ru-ru": "Драгоценный нефрит Шивада",
+            "de-de": "Shivada-Jade",
+            "fr-fr": "Pierre de jade shivada",
+            "es-es": "Jade shivada",
+            "id-id": "Shivada Jade Gemstone",
+            "th-th": "Shivada Jade Gemstone",
+            "vi-vn": "Ngọc Băng",
+            "zh-tw": "哀敘冰玉"
+          }
+        },
+        {
+          "id": "897",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Florescimento Cristalino",
+            "en-us": "Crystalline Bloom",
+            "ja-jp": "凝結の華",
+            "zh-cn": "晶凝之华",
+            "ko-kr": "응결의 꽃",
+            "ru-ru": "Цветение кристалла",
+            "de-de": "Ewige Eisblume",
+            "fr-fr": "Fleur cristalline",
+            "es-es": "Flor cristalina",
+            "id-id": "Crystalline Bloom",
+            "th-th": "Crystalline Bloom",
+            "vi-vn": "Tinh Hoa Ngưng Kết",
+            "zh-tw": "晶凝之華"
+          }
+        },
+        {
+          "id": "898",
+          "iconUrl": null,
+          "amount": 60,
+          "name": {
+            "pt-pt": "Medula de Cristal",
+            "en-us": "Crystal Marrow",
+            "ja-jp": "晶化骨髄",
+            "zh-cn": "晶化骨髓",
+            "ko-kr": "수정 골수",
+            "ru-ru": "Кристальный костный мозг",
+            "de-de": "Kristallmark",
+            "fr-fr": "Moelle cristalline",
+            "es-es": "Médula cristalizada",
+            "id-id": "Crystal Marrow",
+            "th-th": "Crystal Marrow",
+            "vi-vn": "Tủy Pha Lê",
+            "zh-tw": "晶化骨髓"
+          }
+        },
+        {
+          "id": "1020",
+          "iconUrl": null,
+          "amount": 24,
+          "name": {
+            "pt-pt": "Núcleo Espectral",
+            "en-us": "Spectral Nucleus",
+            "ja-jp": "フライムの晶化核",
+            "zh-cn": "浮游晶化核",
+            "ko-kr": "떠도는 정령 결정화 코어",
+            "ru-ru": "Призрачное ядро",
+            "de-de": "Gespensterkern",
+            "fr-fr": "Noyau spectral",
+            "es-es": "Núcleo espectral",
+            "id-id": "Specter Nucleus",
+            "th-th": "Spectral Nucleus",
+            "vi-vn": "Hạt Bay Lượn Kết Tinh",
+            "zh-tw": "浮游晶化核"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур.1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "848"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "18"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "53"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Cryo",
+            "en-us": "Cryo DMG Bonus",
+            "ja-jp": "氷元素ダメージ",
+            "zh-cn": "冰元素伤害加成",
+            "ko-kr": "얼음 원소 피해 보너스",
+            "ru-ru": "Бонус Крио урона",
+            "de-de": "Kryo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Cryo",
+            "es-es": "Bono de Daño Cryo",
+            "id-id": "Cryo DMG Bonus",
+            "th-th": "โบนัสความเสียหายน้ำแข็ง",
+            "vi-vn": "Tăng ST Nguyên Tố Băng",
+            "zh-tw": "冰元素傷害加成"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "0"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "2201",
+          "postAscensionValue": "2928"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "47",
+          "postAscensionValue": "63"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "137",
+          "postAscensionValue": "182"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Cryo",
+            "en-us": "Cryo DMG Bonus",
+            "ja-jp": "氷元素ダメージ",
+            "zh-cn": "冰元素伤害加成",
+            "ko-kr": "얼음 원소 피해 보너스",
+            "ru-ru": "Бонус Крио урона",
+            "de-de": "Kryo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Cryo",
+            "es-es": "Bono de Daño Cryo",
+            "id-id": "Cryo DMG Bonus",
+            "th-th": "โบนัสความเสียหายน้ำแข็ง",
+            "vi-vn": "Tăng ST Nguyên Tố Băng",
+            "zh-tw": "冰元素傷害加成"
+          },
+          "preAscensionValue": "0",
+          "postAscensionValue": "0"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "4382",
+          "postAscensionValue": "4899"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "94",
+          "postAscensionValue": "105"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "272",
+          "postAscensionValue": "304"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Cryo",
+            "en-us": "Cryo DMG Bonus",
+            "ja-jp": "氷元素ダメージ",
+            "zh-cn": "冰元素伤害加成",
+            "ko-kr": "얼음 원소 피해 보너스",
+            "ru-ru": "Бонус Крио урона",
+            "de-de": "Kryo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Cryo",
+            "es-es": "Bono de Daño Cryo",
+            "id-id": "Cryo DMG Bonus",
+            "th-th": "โบนัสความเสียหายน้ำแข็ง",
+            "vi-vn": "Tăng ST Nguyên Tố Băng",
+            "zh-tw": "冰元素傷害加成"
+          },
+          "preAscensionValue": "0",
+          "postAscensionValue": "7.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "5636",
+          "postAscensionValue": "6325"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "121",
+          "postAscensionValue": "136"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "350",
+          "postAscensionValue": "393"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Cryo",
+            "en-us": "Cryo DMG Bonus",
+            "ja-jp": "氷元素ダメージ",
+            "zh-cn": "冰元素伤害加成",
+            "ko-kr": "얼음 원소 피해 보너스",
+            "ru-ru": "Бонус Крио урона",
+            "de-de": "Kryo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Cryo",
+            "es-es": "Bono de Daño Cryo",
+            "id-id": "Cryo DMG Bonus",
+            "th-th": "โบนัสความเสียหายน้ำแข็ง",
+            "vi-vn": "Tăng ST Nguyên Tố Băng",
+            "zh-tw": "冰元素傷害加成"
+          },
+          "preAscensionValue": "7.2%",
+          "postAscensionValue": "14.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "7070",
+          "postAscensionValue": "7587"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "152",
+          "postAscensionValue": "163"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "439",
+          "postAscensionValue": "471"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Cryo",
+            "en-us": "Cryo DMG Bonus",
+            "ja-jp": "氷元素ダメージ",
+            "zh-cn": "冰元素伤害加成",
+            "ko-kr": "얼음 원소 피해 보너스",
+            "ru-ru": "Бонус Крио урона",
+            "de-de": "Kryo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Cryo",
+            "es-es": "Bono de Daño Cryo",
+            "id-id": "Cryo DMG Bonus",
+            "th-th": "โบนัสความเสียหายน้ำแข็ง",
+            "vi-vn": "Tăng ST Nguyên Tố Băng",
+            "zh-tw": "冰元素傷害加成"
+          },
+          "preAscensionValue": "14.4%",
+          "postAscensionValue": "14.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "8339",
+          "postAscensionValue": "8856"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "179",
+          "postAscensionValue": "190"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "517",
+          "postAscensionValue": "550"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Cryo",
+            "en-us": "Cryo DMG Bonus",
+            "ja-jp": "氷元素ダメージ",
+            "zh-cn": "冰元素伤害加成",
+            "ko-kr": "얼음 원소 피해 보너스",
+            "ru-ru": "Бонус Крио урона",
+            "de-de": "Kryo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Cryo",
+            "es-es": "Bono de Daño Cryo",
+            "id-id": "Cryo DMG Bonus",
+            "th-th": "โบนัสความเสียหายน้ำแข็ง",
+            "vi-vn": "Tăng ST Nguyên Tố Băng",
+            "zh-tw": "冰元素傷害加成"
+          },
+          "preAscensionValue": "14.4%",
+          "postAscensionValue": "21.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "9616",
+          "postAscensionValue": "10133"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "206",
+          "postAscensionValue": "217"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "597",
+          "postAscensionValue": "629"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Cryo",
+            "en-us": "Cryo DMG Bonus",
+            "ja-jp": "氷元素ダメージ",
+            "zh-cn": "冰元素伤害加成",
+            "ko-kr": "얼음 원소 피해 보너스",
+            "ru-ru": "Бонус Крио урона",
+            "de-de": "Kryo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Cryo",
+            "es-es": "Bono de Daño Cryo",
+            "id-id": "Cryo DMG Bonus",
+            "th-th": "โบนัสความเสียหายน้ำแข็ง",
+            "vi-vn": "Tăng ST Nguyên Tố Băng",
+            "zh-tw": "冰元素傷害加成"
+          },
+          "preAscensionValue": "21.6%",
+          "postAscensionValue": "28.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур.90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "10899",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "234",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "676",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Cryo",
+            "en-us": "Cryo DMG Bonus",
+            "ja-jp": "氷元素ダメージ",
+            "zh-cn": "冰元素伤害加成",
+            "ko-kr": "얼음 원소 피해 보너스",
+            "ru-ru": "Бонус Крио урона",
+            "de-de": "Kryo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Cryo",
+            "es-es": "Bono de Daño Cryo",
+            "id-id": "Cryo DMG Bonus",
+            "th-th": "โบนัสความเสียหายน้ำแข็ง",
+            "vi-vn": "Tăng ST Nguyên Tố Băng",
+            "zh-tw": "冰元素傷害加成"
+          },
+          "preAscensionValue": "28.8%",
+          "postAscensionValue": ""
+        }
+      ]
+    }
+  ]
+}

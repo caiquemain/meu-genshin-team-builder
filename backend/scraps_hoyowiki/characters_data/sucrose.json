@@ -1,0 +1,3409 @@
+{
+  "id": "sucrose",
+  "wiki_id": "30",
+  "name": {
+    "pt-pt": "Sucrose",
+    "en-us": "Sucrose",
+    "ja-jp": "スクロース",
+    "zh-cn": "砂糖",
+    "ko-kr": "설탕",
+    "ru-ru": "Сахароза",
+    "de-de": "Saccharose",
+    "fr-fr": "Sucrose",
+    "es-es": "Sacarosa",
+    "id-id": "Sucrose",
+    "th-th": "Sucrose",
+    "vi-vn": "Sucrose",
+    "zh-tw": "砂糖"
+  },
+  "title": {
+    "pt-pt": "Doçura Inofensiva",
+    "en-us": "Harmless Sweetie",
+    "ja-jp": "無害の甘味",
+    "zh-cn": "无害甜度",
+    "ko-kr": "무해한 달콤함",
+    "ru-ru": "Безобидная карамелька",
+    "de-de": "Harmlos und süß",
+    "fr-fr": "Alchimiste 100 % naturelle",
+    "es-es": "La Dulzura Inofensiva",
+    "id-id": "Harmless Sweetie",
+    "th-th": "ความหวานที่ไร้พิษสง",
+    "vi-vn": "Độ Ngọt Vô Hại",
+    "zh-tw": "無害甜度"
+  },
+  "description": {
+    "pt-pt": "Uma alquimista cheia de curiosidade sobre todas as coisas e que pesquisa Bioalquimia.",
+    "en-us": "An alchemist filled with curiosity about all things. She researches bio-alchemy.",
+    "ja-jp": "この世界のありとあらゆるものに強い好奇心を抱く錬金術師。研究分野は「生物錬金」。",
+    "zh-cn": "对万物充满好奇的炼金术士，「生物炼金」学派的研究者。",
+    "ko-kr": "모든 게 신기한 연금술사. 「생물 연금술」 학파의 학자.「실험이 없는 삶은 필요 없어!」—알베도에 의해 강제로 휴가가 주어진 설탕은 뾰로통하게 항의했다",
+    "ru-ru": "Алхимик, преисполненная любопытством по отношению ко всему на свете. Она занимается исследованием биоалхимии.",
+    "de-de": "Eine Alchimistin, die sich für regelrecht alles um sie herum interessiert. Darüber hinaus erforscht sie die sogenannte Bio-Alchimie.",
+    "fr-fr": "Une alchimiste très curieuse du monde qui l'entoure. Elle se spécialise dans la bio-alchimie.",
+    "es-es": "Una alquimista e investigadora de la escuela de bioalquimia que siente curiosidad por todo.",
+    "id-id": "Seorang alkemis dipenuhi dengan rasa ingin tahu tentang semua hal. Dia meneliti bio-alkimia.",
+    "th-th": "นักเล่นแร่แปรธาตุผู้เต็มไปด้วยความอยากรู้อยากเห็นในทุกสิ่งทุกอย่าง เป็นนักวิจัยด้าน &#34;การแปรธาตุชีวภาพ&#34;",
+    "vi-vn": "Thuật sĩ giả kim với lòng hiếu kỳ mọi sự vật xung quanh. Là nhà nghiên cứu của học phái Giả Kim Sinh Vật.",
+    "zh-tw": "對萬物充滿好奇的煉金術士，「生物煉金」學派的研究者。"
+  },
+  "rarity": 4,
+  "vision": {
+    "label": {
+      "pt-pt": "Tipo Elemental",
+      "en-us": "Elemental Type",
+      "ja-jp": "元素タイプ",
+      "zh-cn": "元素属性",
+      "ko-kr": "원소 속성",
+      "ru-ru": "Элемент",
+      "de-de": "Elementartyp",
+      "fr-fr": "Élément",
+      "es-es": "Tipo elemental",
+      "id-id": "Tipe Elemen",
+      "th-th": "ประเภทธาตุ",
+      "vi-vn": "Thuộc Tính Nguyên Tố",
+      "zh-tw": "元素屬性"
+    },
+    "value": {
+      "pt-pt": "Anemo",
+      "en-us": "Anemo",
+      "ja-jp": "風元素",
+      "zh-cn": "风元素",
+      "ko-kr": "바람 원소",
+      "ru-ru": "Анемо",
+      "de-de": "Anemo",
+      "fr-fr": "Anémo",
+      "es-es": "Anemo",
+      "id-id": "Anemo",
+      "th-th": "ลม",
+      "vi-vn": "Phong",
+      "zh-tw": "風元素"
+    }
+  },
+  "weapon": {
+    "label": {
+      "pt-pt": "Arma",
+      "en-us": "Weapons",
+      "ja-jp": "武器種",
+      "zh-cn": "武器",
+      "ko-kr": "무기",
+      "ru-ru": "Тип",
+      "de-de": "Waffe",
+      "fr-fr": "Type d'arme",
+      "es-es": "Arma",
+      "id-id": "Senjata",
+      "th-th": "อาวุธ",
+      "vi-vn": "Vũ Khí",
+      "zh-tw": "武器"
+    },
+    "value": {
+      "pt-pt": "Catalisador",
+      "en-us": "Catalyst",
+      "ja-jp": "法器",
+      "zh-cn": "法器",
+      "ko-kr": "법구",
+      "ru-ru": "Катализатор",
+      "de-de": "Katalysator",
+      "fr-fr": "Catalyseur",
+      "es-es": "Catalizador",
+      "id-id": "Catalyst",
+      "th-th": "สื่อเวท",
+      "vi-vn": "Pháp Khí",
+      "zh-tw": "法器"
+    }
+  },
+  "characterIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/Sucrose_icon.png",
+  "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/6b5c0d861fd1b4791bd602d3e7296598_8700657350379813969.png",
+  "constellationNameOfficial": {
+    "pt-pt": "Ampulla",
+    "en-us": "Ampulla",
+    "ja-jp": "フラスコ座",
+    "zh-cn": "烧瓶座",
+    "ru-ru": "Горячая Колба",
+    "de-de": "Ampulla",
+    "fr-fr": "Ampulla",
+    "es-es": "Ampulla",
+    "id-id": "Ampulla",
+    "th-th": "Ampulla",
+    "zh-tw": "燒瓶座",
+    "ko-kr": "N/A",
+    "vi-vn": "N/A"
+  },
+  "specialDish": {
+    "id": 274,
+    "name": {
+      "pt-pt": "Refeição Nutritiva (V.593)",
+      "en-us": "Nutritious Meal (V.593)",
+      "ja-jp": "五九三式栄養食",
+      "zh-cn": "伍玖叁式营养餐",
+      "ko-kr": "오구삼식 보양식",
+      "ru-ru": "Питательное разнообразие",
+      "de-de": "Nahrhafte Kost Nr. 593",
+      "fr-fr": "Repas nº593",
+      "es-es": "Comida nutritiva (versión n.º 593)",
+      "id-id": "Nutritious Meal (V. 593)",
+      "th-th": "Nutritious Meal (V. 593)",
+      "vi-vn": "Cơm Dinh Dưỡng 593",
+      "zh-tw": "伍玖三式營養餐"
+    },
+    "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Nutritious%20Meal%20(V.593)_icon.png"
+  },
+  "namecard": {
+    "id": 6082,
+    "name": {
+      "pt-pt": "Sucrose - Bioalquimia",
+      "en-us": "Sucrose: Bio-Alchemy",
+      "ja-jp": "スクロース・創生",
+      "zh-cn": "砂糖·创生",
+      "ko-kr": "설탕·창생",
+      "ru-ru": "Воздушный дух",
+      "de-de": "Saccharose – Schaffung von Leben",
+      "fr-fr": "Sucrose - Bio-alchimie",
+      "es-es": "Sacarosa - Bioalquimia",
+      "id-id": "Sucrose: Bio-Alchemy",
+      "th-th": "Sucrose - Bio-Alchemy",
+      "vi-vn": "Sucrose - Sáng Tạo",
+      "zh-tw": "砂糖·創生"
+    },
+    "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/15/e6f35acc6b7711e9c5630c16871fc30e_7879666458087102989.png"
+  },
+  "constellations": [
+    {
+      "id": "summaryList37911",
+      "constellationNumber": 1,
+      "name": {
+        "pt-pt": "Campo de Vácuo Acumulado",
+        "en-us": "Clustered Vacuum Field",
+        "ja-jp": "積み上げ真空域",
+        "zh-cn": "堆叠真空域",
+        "ko-kr": "쌓아 올린 진공 영역",
+        "ru-ru": "Кластерное вакуумное поле",
+        "de-de": "Gebündeltes Vakuumfeld",
+        "fr-fr": "Champ du néant",
+        "es-es": "Cúmulo de campo de vacío",
+        "id-id": "Clustered Vacuum Field",
+        "th-th": "Clustered Vacuum Field",
+        "vi-vn": "Vùng Chân Không",
+        "zh-tw": "堆疊真空域"
+      },
+      "description": {
+        "pt-pt": "Criação do Espírito do Vento: Experimento 6308 ganha 1 carga adicional.",
+        "en-us": "Astable Anemohypostasis Creation - 6308 gains 1 additional charge.",
+        "ja-jp": "風霊作成・六三〇八の使用可能回数+1。",
+        "zh-cn": "风灵作成·陆叁零捌的可使用次数增加1次。",
+        "ko-kr": "풍령 작성·육삼공팔의 사용 가능 횟수가 1회 증가한다",
+        "ru-ru": "Увеличивает количество зарядов навыка Эксперимент №6308 на 1.",
+        "de-de": "Ermöglicht 1 weitere Anwendung von Windseelenschaffung – Experiment 6308.",
+        "fr-fr": "Confère une charge supplémentaire à Esprit du vent : Sujet 6308.",
+        "es-es": "Aumenta en 1 las cargas de Creación del espíritu del viento: Experimento 6308.",
+        "id-id": "Meningkatkan 1 charge Astable Anemohypostasis Creation - 6308.",
+        "th-th": "เพิ่มจำนวนการใช้ Astable Anemohypostasis Creation - 6308 ขึ้น 1 ครั้ง",
+        "vi-vn": "Số lần sử dụng Gió Thần Sáng Tạo 6308 tăng thêm 1.",
+        "zh-tw": "風靈作成·陸參零捌的可使用次數增加一次。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/砂糖/constellation_1.png"
+    },
+    {
+      "id": "summaryList59922",
+      "constellationNumber": 2,
+      "name": {
+        "pt-pt": "Beth - Forma Não-Consolidada",
+        "en-us": "Beth: Unbound Form",
+        "ja-jp": "不羈型ベト",
+        "zh-cn": "不羁型贝特",
+        "ko-kr": "불속박형 베트",
+        "ru-ru": "Бет: Свободная форма",
+        "de-de": "Beth – Ungezügelt",
+        "fr-fr": "Bett : Forme éthérée",
+        "es-es": "Bett: Forma no consolidada",
+        "id-id": "Beth: Unbound Form",
+        "th-th": "Beth - Unbound Form",
+        "vi-vn": "Beth Ngỗ Ngược",
+        "zh-tw": "不羈型貝特"
+      },
+      "description": {
+        "pt-pt": "A duração da Criação Proibida do Espírito do Vento: Isomórfico-75 Tipo II é aumentada em 2 segundos.",
+        "en-us": "The duration of Forbidden Creation - Isomer 75 / Type II is increased by 2s.",
+        "ja-jp": "禁・風霊作成・七五同構弐型のスキル継続時間+2秒。",
+        "zh-cn": "禁·风灵作成·柒伍同构贰型的技能持续时间延长2秒。",
+        "ko-kr": "금기·풍령 작성·칠오 동구 이형의 스킬 지속 시간을 2초 연장한다",
+        "ru-ru": "Увеличивает длительность навыка Запретно! Изомер 75 / Тип II на 2 сек.",
+        "de-de": "Verlängert die Wirkungsdauer von Verbotene Windseelenschaffung – Isomorpher Typ 75-II um 2 s.",
+        "fr-fr": "Prolonge la durée d'Esprit du vent : Isomorphe 75 Type II de 2 s.",
+        "es-es": "Aumenta en 2 s la duración de Creación prohibida del espíritu del viento: Isomorfo 75 tipo II.",
+        "id-id": "Durasi Forbidden Creation - Isomer 75 / Type II bertambah 2 detik.",
+        "th-th": "เพิ่มระยะเวลา Forbidden Creation - Isomer 75 / Type II ขึ้น 2 วินาที",
+        "vi-vn": "Thời gian kéo dài Cấm-Gió Thần Sáng Tạo-75 Loại 2 tăng 2s.",
+        "zh-tw": "禁·風靈作成·柒伍同構貳型的技能持續時間延長2秒。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/砂糖/constellation_2.png"
+    },
+    {
+      "id": "summaryList76799",
+      "constellationNumber": 3,
+      "name": {
+        "pt-pt": "Alquimista Perfeita",
+        "en-us": "Flawless Alchemistress",
+        "ja-jp": "ゼロミス少女",
+        "zh-cn": "零失误少女",
+        "ko-kr": "실수하지 않는 소녀",
+        "ru-ru": "Безупречный алхимик",
+        "de-de": "Bestnote",
+        "fr-fr": "Zéro défaut",
+        "es-es": "Alquimista infalible",
+        "id-id": "Flawless Alchemistress",
+        "th-th": "Flawless Achemistress",
+        "vi-vn": "Thiếu Nữ Hoàn Hảo",
+        "zh-tw": "零失誤少女"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível da Criação do Espírito do Vento: Experimento 6308 em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Astable Anemohypostasis Creation - 6308 by 3.Maximum upgrade level is 15.",
+        "ja-jp": "風霊作成・六三〇八のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "风灵作成·陆叁零捌的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "풍령 작성·육삼공팔의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Эксперимент №6308 на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Windseelenschaffung – Experiment 6308 um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Esprit du vent : Sujet 6308 +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Creación del espíritu del viento: Experimento 6308 +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Astable Anemohypostasis Creation - 6308.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลของสกิล Astable Anemohypostasis Creation - 6308 ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Gió Thần Sáng Tạo 6308 +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "風靈作成·陸參零捌的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/砂糖/constellation_3.png"
+    },
+    {
+      "id": "summaryList2893",
+      "constellationNumber": 4,
+      "name": {
+        "pt-pt": "Alquimania",
+        "en-us": "Alchemania",
+        "ja-jp": "錬金の偏執",
+        "zh-cn": "炼金的偏执",
+        "ko-kr": "연금의 편집증",
+        "ru-ru": "Мания алхимии",
+        "de-de": "Besessenheit",
+        "fr-fr": "Alchémania",
+        "es-es": "Alquemanía",
+        "id-id": "Alchemania",
+        "th-th": "Alchemania",
+        "vi-vn": "Ảo Tưởng Giả Kim",
+        "zh-tw": "煉金的偏執"
+      },
+      "description": {
+        "pt-pt": "Quando os Ataques Normais e Ataques Carregados de Sucrose atingirem o inimigo cumulativamente sete vezes, o Tempo de Recarga de Criação do Espírito do Vento: Experimento 6308 será reduzido entre 1-7s.É possível acumular uma vez a cada 0.1s.",
+        "en-us": "Sucrose will reduce the CD of Astable Anemohypostasis Creation - 6308 by 1-7s for every 7 Normal or Charged Attack hits she scores against opponents.One hit may be counted every 0.1s.",
+        "ja-jp": "スクロースの通常攻撃または重撃が敵に累計7回命中すると、風霊作成・六三〇八のクールタイムがランダムに1~7秒減少する。0.1秒毎に1回のみカウント可能。",
+        "zh-cn": "砂糖的普通攻击或者重击累计命中敌人7次，风灵作成·陆叁零捌的冷却时间就会随机减少1-7秒。每0.1秒至多计数一次。",
+        "ko-kr": "설탕의 일반 공격 혹은 강공격이 적에게 누적 7회 명중하면, 풍령 작성·육삼공팔의 재사용 대기시간이 랜덤으로 1~7초 감소한다.0.1초마다 최대 1회 카운트된다",
+        "ru-ru": "Сахароза уменьшает время отката навыка Эксперимент №6308 на 1-7 сек. за каждые 7 попаданий обычной или заряженной атакой по противникам.Одно попадание может засчитываться каждые 0,1 сек.",
+        "de-de": "Verkürzt die Abklingzeit von Windseelenschaffung – Experiment 6308 alle 7 Standardangriffe oder heftige Schläge, die Saccharose bei Gegnern erzielt, zufällig um 1 bis 7 s.Ein Treffer kann alle 0,1 s gezählt werden.",
+        "fr-fr": "Sucrose réduit le TdR d'Esprit du vent : Sujet 6308 de 1 à 7 s tous les 7 coups d'attaque normale ou chargée qu'elle inflige à un ennemi.Un coup peut être compté toutes les 0,1 s.",
+        "es-es": "Por cada 7 veces consecutivas que Sacarosa golpee a un enemigo con sus Ataques Normales o Cargados, el TdE de Creación del espíritu del viento: Experimento 6308 se reduce entre 1 y 7 s.Como máximo, cada golpe solo puede ocurrir una vez cada 0.1 s.",
+        "id-id": "Saat Normal Attack atau Charged Attack Sucrose mengenai musuh 7 kali, maka CD skill Astable Anemohypostasis Creation - 6308 akan berkurang 1-7 detik secara acak.Serangan Sucrose dapat dihitung sebagai 1 kali setiap 0,1 detik.",
+        "th-th": "เมื่อการโจมตีปกติหรือชาร์จโจมตีของ Sucrose ถูกศัตรูทุก ๆ 7 ครั้ง จะสุ่มลดเวลาคูลดาวน์ของ Astable Anemohypostasis Creation - 6308 ลง 1-7 วินาทีซึ่งเอฟเฟกต์นี้จะเกิดขึ้นมากสุดหนึ่งครั้ง ในทุก 0.1 วินาที",
+        "vi-vn": "Tấn công thường hoặc trọng kích của Sucrose tích lũy đánh trúng kẻ địch 7 lần, CD của Gió Thần Sáng Tạo 6308 sẽ giảm ngẫu nhiên 1-7s.Mỗi 0.1s tối đa tính 1 lần.",
+        "zh-tw": "砂糖的普通攻擊或者重擊累計命中敵人7次，風靈作成·陸參零捌的冷卻時間就會隨機減少1-7秒。每0.1秒至多計數一次。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/砂糖/constellation_4.png"
+    },
+    {
+      "id": "summaryList18025",
+      "constellationNumber": 5,
+      "name": {
+        "pt-pt": "Atenção: Frasco Comum",
+        "en-us": "Caution: Standard Flask",
+        "ja-jp": "真面目な普通瓶",
+        "zh-cn": "认真普通瓶",
+        "ko-kr": "진지한 보통병",
+        "ru-ru": "Внимание: обычная колба",
+        "de-de": "Gewissenhaftes Handwerk",
+        "fr-fr": "Flasque standard",
+        "es-es": "Precaución: Frasco ordinario",
+        "id-id": "Caution: Standard Flask",
+        "th-th": "Caution: Standard Flask",
+        "vi-vn": "Bình Chăm Chỉ",
+        "zh-tw": "認真普通瓶"
+      },
+      "description": {
+        "pt-pt": "Aumenta o Nível da Criação Proibida do Espírito do Vento: Isomórfico-75 Tipo II em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Forbidden Creation - Isomer 75 / Type II by 3.Maximum upgrade level is 15.",
+        "ja-jp": "禁・風霊作成・七五同構弐型のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "禁·风灵作成·柒伍同构贰型的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "금기·풍령 작성·칠오 동구 이형의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Запретно! Изомер 75 / Тип II на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Verbotene Windseelenschaffung – Isomorpher Typ 75-II um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Esprit du vent : Isomorphe 75 Type II +3Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Creación prohibida del espíritu del viento: Isomorfo 75 tipo II +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Forbidden Creation - Isomer 75 / Type II.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลของสกิล Forbidden Creation - Isomer 75 / Type II ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Cấm-Gió Thần Sáng Tạo-75 Loại 2 +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "禁·風靈作成·柒伍同構貳型的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/砂糖/constellation_5.png"
+    },
+    {
+      "id": "summaryList95339",
+      "constellationNumber": 6,
+      "name": {
+        "pt-pt": "Entropia Caótica",
+        "en-us": "Chaotic Entropy",
+        "ja-jp": "混元熵增論",
+        "zh-cn": "混元熵增论",
+        "ko-kr": "혼돈의 엔트로피",
+        "ru-ru": "Энтропия хаоса",
+        "de-de": "Chaotische Entropie",
+        "fr-fr": "Théorie de l'entropie",
+        "es-es": "Entropía caótica",
+        "id-id": "Chaotic Entropy",
+        "th-th": "Chaotic Entropy",
+        "vi-vn": "Thuyết Hỗn Loạn",
+        "zh-tw": "混元熵增論"
+      },
+      "description": {
+        "pt-pt": "Se Criação Proibida do Espírito do Vento: Isomórfico-75 Tipo II aciona uma Absorção Elemental, todos os membros de equipe ganham 20% de Bônus de Dano Elemental para o elemento correspondente absorvido enquanto a habilidade estiver em duração.",
+        "en-us": "If Forbidden Creation - Isomer 75 / Type II triggers an Elemental Absorption, all party members gain a 20% Elemental DMG Bonus for the corresponding absorbed element during its duration.",
+        "ja-jp": "禁・風霊作成・七五同構弐型に元素変化が起きた時、スキル継続中チーム全員の該当元素ダメージ+20%。",
+        "zh-cn": "禁·风灵作成·柒伍同构贰型如果发生了元素转化，则使队伍中所有角色在技能持续时间内获得20%的对应元素伤害加成。",
+        "ko-kr": "금기·풍령 작성·칠오 동구 이형이 원소 전환이 발생하면 파티 내 모든 캐릭터는 스킬이 지속하는 동안 대응하는 원소 피해 보너스를 20% 획득한다",
+        "ru-ru": "Если навык Запретно! Изомер 75 / Тип II активировал поглощение стихий, все члены отряда получают 20% бонус урона соответствующего элемента на время действия навыка.",
+        "de-de": "Erhöht den jeweiligen Elementar-SCH aller Truppenmitglieder bei einer Elementarumwandlung von Verbotene Windseelenschaffung – Isomorpher Typ 75-II während der Wirkungsdauer der Fähigkeit um 20 %.",
+        "fr-fr": "En cas d'absorption élémentaire, Esprit du vent : Isomorphe 75 Type II confère à tous les personnages de l'équipe un bonus de DGT élémentaires de 20 % pour l'élément absorbé tant que la compétence est active.",
+        "es-es": "Si Creación prohibida del espíritu del viento: Isomorfo 75 tipo II desencadena un cambio elemental, todos los miembros del equipo obtienen un 20% de Bono de Daño Elemental del elemento al que se cambió mientras dure la habilidad.",
+        "id-id": "Jika Forbidden Creation - Isomer 75 / Type II memicu Elemental Absorption, seluruh anggota party mendapatkan 20% Elemental DMG Bonus untuk elemen sesuai yang diserap selama durasinya.",
+        "th-th": "หาก Forbidden Creation - Isomer 75 / Type II ทำให้เกิดการเปลี่ยนแปลงธาตุ ในช่วงระยะเวลาต่อเนื่องของ สกิล ตัวละครทั้งหมดในทีม จะได้รับโบนัสความเสียหายของธาตุที่เกี่ยวข้อง 20%",
+        "vi-vn": "Nếu Cấm-Gió Thần Sáng Tạo-75 Loại 2 xảy ra chuyển hóa nguyên tố thì tất cả đội sẽ nhận buff sát thương nguyên tố 20% trong khoảng thời gian kĩ năng duy trì.",
+        "zh-tw": "禁·風靈作成·柒伍同構貳型如果發生了元素轉化，則使隊伍中所有角色在技能持續時間內獲得20%的對應元素傷害加成。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/砂糖/constellation_6.png"
+    }
+  ],
+  "talents": [
+    {
+      "type": "normal_attack",
+      "name": {
+        "pt-pt": "Ataque Normal: Criação do Espírito do Vento",
+        "en-us": "Wind Spirit Creation",
+        "ja-jp": "簡式風霊作成",
+        "zh-cn": "普通攻击·简式风灵作成",
+        "ko-kr": "일반 공격·약식 풍령 작성",
+        "ru-ru": "Базовая эссенция ветра",
+        "de-de": "Standardangriff: Vereinfachte Windseelenschaffung",
+        "fr-fr": "Attaque normale : Esprit du vent",
+        "es-es": "Ataque Normal: Creación del espíritu del viento",
+        "id-id": "Normal Attack: Wind Spirit Creation",
+        "th-th": "โจมตีปกติ - Wind Spirit Creation",
+        "vi-vn": "Tấn Công Thường - Gió Thần Sáng Tạo",
+        "zh-tw": "普通攻擊·簡式風靈作成"
+      },
+      "description": {
+        "pt-pt": "Ataque NormalRealiza até 4 ataques usando os Espíritos dos Ventos, infligindo Dano Anemo.Ataque CarregadoConsome uma certa quantidade de Stamina que inflige Dano Anemo em uma AdE após um curto período de canalização.Ataque ImersivoConvocando os poderes dos Espíritos do Vento para si, Sucrose mergulha ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Inflige Dano Anemo em uma AdE durante o impacto com o chão.",
+        "en-us": "Normal AttackPerforms up to 4 attacks using Wind Spirits, dealing Anemo DMG.Charged AttackConsumes a certain amount of Stamina and deals AoE Anemo DMG after a short casting time.Plunging AttackCalling upon the power of her Wind Spirits, Sucrose plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Anemo DMG upon impact with the ground.",
+        "ja-jp": "通常攻撃最大4段の連続攻撃を行い、風元素ダメージを与える。重撃一定のスタミナを消費し、短い詠唱をした後、敵に風元素範囲ダメージを与える。落下攻撃空中から風霊の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に風元素範囲ダメージを与える。",
+        "zh-cn": "普通攻击进行至多四段的风灵攻击，造成风元素伤害。重击消耗一定体力，短暂咏唱后，造成风元素范围伤害。下落攻击凝聚风灵的力量，从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成风元素范围伤害。",
+        "ko-kr": "일반 공격풍령으로 최대 4번 공격해 바람 원소 피해를 준다.강공격일정 스태미나를 소모해 짧은 영창 후 바람 원소 범위 피해를 준다.낙하 공격풍령의 힘을 모은 후 지면을 강타해 경로상의 적을 공격하고 착지 시 바람 원소 범위 피해를 준다",
+        "ru-ru": "Обычная атака:До четырёх ударов эссенцией ветра, наносящих Анемо урон.Заряженная атака:Короткое заклинание, наносящее Анемо урон по площади, на которое тратится определённое количество выносливости.Атака в падении:Накопив энергию ветра, стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит Анемо урон по площади.",
+        "de-de": "StandardangriffFührt bis zu 4 Windseelen-Angriffe aus und verursacht Anemo-Schaden.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und verursacht nach kurzer Aufladezeit Anemo-Flächenschaden.Angriff aus dem FallKonzentriert die Kraft der Windseelen, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Anemo-Flächenschaden.",
+        "fr-fr": "Attaque normaleEnchaîne jusqu'à 4 attaques de vent qui infligent des DGT Anémo.Attaque chargéeConsomme de l'endurance pour infliger des DGT Anémo de zone après un court délai.Attaque plongeantePlonge depuis les airs en concentrant ses pouvoirs Anémo, infligeant des DGT aux ennemis en chemin et des DGT Anémo de zone à l'impact.",
+        "es-es": "Ataque NormalRealiza hasta 4 ataques usando espíritus del viento, los cuales infligen Daño Anemo.Ataque CargadoConsume una cierta cantidad de Aguante e inflige Daño Anemo en el AdE después de un corto tiempo de lanzamiento.Ataque DescendenteAl llamar a los espíritus del viento, Sacarosa se lanza desde el aire para golpear el suelo, dañando a todos los enemigos cercanos e infligiendo Daño Anemo en el AdE en el momento del impacto.",
+        "id-id": "Normal AttackMelancarkan hingga 4 serangan angin yang mengakibatkan Anemo DMG.Charged AttackMengonsumsi sejumlah Stamina untuk mengakibatkan Anemo DMG area setelah jeda singkat.Plunging AttackMengumpulkan kekuatan Anemo dan menerjang tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan Anemo DMG area saat mendarat.",
+        "th-th": "โจมตีปกติทำการโจมตีด้วย Wind Spirit ต่อเนื่องมากสุดสี่ครั้ง เกิดเป็นความเสียหายลมชาร์จโจมตีใช้พลังกายบางส่วน หลังจากร่ายเสร็จ จะสร้างความเสียหายลมวงกว้างโจมตีพุ่งลงจากอากาศรวบรวมพลังของจิตวิญญาณแห่ง สายลม กระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายลมวงกว้างเมื่อลงถึงพื้น",
+        "vi-vn": "Tấn Công ThườngThực hiện tối đa 4 lần tấn công phong linh, gây Sát Thương Nguyên Tố Phong.Trọng KíchTiêu hao thể lực nhất định, sau khi tụ lực, gây Sát Thương Phạm Vi Nguyên Tố Phong.Tấn Công Khi ĐápNgưng tụ sức mạnh nguyên tố Phong, từ trên trời tấn công xuống mặt đất, tấn công kẻ địch trên đường, gây sát thương phạm vi nguyên tố Phong khi chạm đất.",
+        "zh-tw": "普通攻擊進行至多四段的風靈攻擊，造成風元素傷害。重擊消耗一定體力，短暫詠唱後，造成風元素範圍傷害。下落攻擊凝聚風靈的力量，從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成風元素範圍傷害。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/砂糖/battle_talent_0/battle_talent_0.png"
+    },
+    {
+      "type": "elemental_skill",
+      "name": {
+        "pt-pt": "Criação do Espírito do Vento: Experimento 6308",
+        "en-us": "Astable Anemohypostasis Creation - 6308",
+        "ja-jp": "風霊作成・六三〇八",
+        "zh-cn": "风灵作成·陆叁零捌",
+        "ko-kr": "풍령 작성·육삼공팔",
+        "ru-ru": "Эксперимент №6308",
+        "de-de": "Windseelenschaffung – Experiment 6308",
+        "fr-fr": "Esprit du vent : Sujet 6308",
+        "es-es": "Creación del espíritu del viento: Experimento 6308",
+        "id-id": "Astable Anemohypostasis Creation - 6308",
+        "th-th": "Astable Anemohypostasis Creation - 6308",
+        "vi-vn": "Gió Thần Sáng Tạo 6308",
+        "zh-tw": "風靈作成·陸參零捌"
+      },
+      "description": {
+        "pt-pt": "Cria um pequeno Espírito de Vento que puxa inimigos e objetos em direção a sua localização, lançando os inimigos em AdE e causando Dano Anemo neles.Isso é um pouco vergonhoso, mas apesar de as formas de vida elementais nascidas através desse procedimento se dissiparem muito rapidamente, elas são incrivelmente úteis durante aventuras. Até mesmo experimentos falhos podem ter aplicações práticas.",
+        "en-us": "Creates a small Wind Spirit that pulls opponents and objects towards its location, launches opponents within its AoE, and deals Anemo DMG.This is a little embarrassing, but though the elemental lifeforms birthed through this procedure dissipate very rapidly, they are incredibly useful when adventuring. Even failed experiments can have practical applications.",
+        "ja-jp": "小型風霊を召喚し、敵と物体を風霊の位置に吸い寄せ、範囲内の敵をノックバックし、風元素ダメージを与える。術によって誕生した元素生命はすぐに消えていくけど、冒険に凄く役立つの。自分で言うのもちょっと恥ずかしいけど、失敗した実験からも新しい技術が生まれることもあるんだ。",
+        "zh-cn": "召唤出小型风灵，将敌人与物体牵引至风灵所在位置，击飞范围内的敌人，并造成风元素伤害。说来很不好意思，虽然术式里诞生的元素生命迅速就消散了，但是在冒险里真的很好用。失败的实验也会诞生实用技术。",
+        "ko-kr": "소형 풍령을 소환해 적과 물체를 풍령이 있는 위치로 끌어당긴 후 공중으로 띄우고 바람 원소 피해를 입힌다.말하기 쑥스럽지만 실패한 실험에서도 실용적인 기술이 탄생해요. 저의 손에서 탄생한 원소 생명은 쉽게 꺼진다고 하지만 모험에서 분명 도움이 될 거예요",
+        "ru-ru": "Создаёт маленького Воздушного духа, который притягивает к себе врагов и предметы, а затем подбрасывает врагов поблизости и наносит им Анемо урон.Немного неловко говорить об этом, но хоть элементарные формы жизни, рождённые в результате этого эксперимента, и рассеиваются очень быстро, они невероятно полезны в приключениях. Даже неудачные эксперименты могут иметь практическое применение.",
+        "de-de": "Beschwört eine kleine Windseele, die Gegner sowie Objekte anzieht und dann wegschleudert, und fügt den Gegnern im Wirkungsbereich Anemo-Schaden zu.Es ist mir schon ein bisschen peinlich. Die bei diesem Verfahren entstehenden elementaren Lebensformen schwinden zwar nach kurzer Zeit, sind auf Abenteuern aber höchst nützlich. Fehlgeschlagene Experimente haben also auch ihren praktischen Nutzen.",
+        "fr-fr": "Sucrose invoque un Esprit du vent de taille réduite, qui attire les ennemis et les objets proches à lui, projetant les ennemis dans les airs et leur infligeant des DGT Anémo.C'est un peu embarrassant, mais il faut bien reconnaître que malgré leur courte durée de vie, les Esprits créés via ce procédé sont particulièrement utiles pour l'aventure. Comme quoi, même les expériences ratées peuvent servir.",
+        "es-es": "Invoca un pequeño espíritu del viento que atrae a enemigos y objetos al lugar de su ubicación, los lanza por los aires e inflige Daño Anemo.Esto es un poco vergonzoso, pero aunque las formas de vida elementales que nacieron a través de este procedimiento se disipan muy rápidamente, son increíblemente útiles cuando vas de aventura. Incluso los experimentos fallidos pueden tener aplicaciones prácticas.",
+        "id-id": "Menciptakan Wind Spirit kecil yang menarik musuh dan obyek ke lokasi Wind Spirit sebelum menghempas musuh di area tersebut; juga mengakibatkan Anemo DMG.Ini sedikit memalukan, tetapi meskipun elemen kehidupan yang dilahirkan melalui prosedur ini menghilang dengan sangat cepat, mereka cukup berguna saat bertualang. Bahkan percobaan yang gagal pun dapat memiliki penggunaan yang praktis.",
+        "th-th": "เรียก Wind Spirit ขนาดเล็กออกมา โดยจะดึงดูดศัตรูและวัตถุให้เข้ามายังตำแหน่งของ Wind Spirit จากนั้นโจมตีศัตรูที่อยู่ในพื้นที่ให้ลอยขึ้น เพื่อสร้างความเสียหายลม.พูดไปก็น่าอาย แม้ว่าสิ่งมีชีวิตซึ่งมีรูปแบบของธาตุที่เกิดขึ้นระหว่างการใช้สกิลจะสลายไปอย่าง รวดเร็ว แต่มันกลับมีประโยชน์มากเมื่อ ออกไปผจญภัย การทดลองที่ล้มเหลวก็สามารถทำให้เกิดสกิลที่มีประโยชน์ได้เหมือนกันนะ",
+        "vi-vn": "Triệu hồi phong linh cỡ nhỏ, thu hút kẻ địch và các vật thể đến gần vị trí của phong linh, đánh bay kẻ địch trong phạm vi đồng thời tạo ra sát thương nguyên tố Phong. Nói ra thật ngại, tuy nguyên tố tan biến rất nhanh, nhưng kỹ năng này lại rất tiện lợi trong thám hiểm. Đây là một thí nghiệm thất bại nhưng lại thành công ở mặt khác",
+        "zh-tw": "召喚出小型風靈，將敵人與物體牽引至風靈所在位置，擊飛範圍內的敵人，並造成風元素傷害。說來很不好意思，雖然術式裡誕生的元素生命迅速就消散了，但是在冒險裡真的很好用。失敗的實驗也會誕生實用技術。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/砂糖/battle_talent_1/battle_talent_1.png"
+    },
+    {
+      "type": "elemental_burst",
+      "name": {
+        "pt-pt": "Criação Proibida do Espírito do Vento: Isomórfico-75 Tipo II",
+        "en-us": "Forbidden Creation - Isomer 75 / Type II",
+        "ja-jp": "禁・風霊作成・七五同構弐型",
+        "zh-cn": "禁·风灵作成·柒伍同构贰型",
+        "ko-kr": "금기·풍령 작성·칠오 동구 이형",
+        "ru-ru": "Запретно! Изомер 75 / Тип II",
+        "de-de": "Verbotene Windseelenschaffung – Isomorpher Typ 75-II",
+        "fr-fr": "Esprit du vent : Isomorphe 75 Type II",
+        "es-es": "Creación prohibida del espíritu del viento: Isomorfo 75 tipo II",
+        "id-id": "Forbidden Creation - Isomer 75 / Type II",
+        "th-th": "Forbidden Creation - Isomer 75 / Type II",
+        "vi-vn": "Cấm-Gió Thần Sáng Tạo-75 Loại 2",
+        "zh-tw": "禁·風靈作成·柒伍同構貳型"
+      },
+      "description": {
+        "pt-pt": "Sucrose libera uma mistura instável que cria um Grande Espírito do Vento.Enquanto ela persistir, o Grande Espírito do Vento irá continuamente puxar e lançar inimigos e objetos próximos, causando Dano de Anemo em AdE.Absorção ElementalSe o Espírito do Vento entrar em contato com os elementos Hydro/Pyro/Cryo/Electro, ele irá causar Dano elemental adicional baseado naquele tipo.Absorção Elemental pode ocorrer apenas uma vez por uso.Sucrose costumava dar nomes ao seu volátil Anemo Hypostases. Mas a sua linha de herdeiros cresceu rapidamente até ultrapassar o Barão Coelho n° 893.",
+        "en-us": "Sucrose hurls an unstable concoction that creates a Large Wind Spirit.While it persists, the Large Wind Spirit will continuously pull in surrounding opponents and objects, launch nearby opponents, and deal Anemo DMG.Elemental AbsorptionIf the Wind Spirit comes into contact with Hydro/Pyro/Cryo/Electro energy, it will deal additional elemental DMG of that type.Elemental Absorption may only occur once per use.Sucrose used to give names to her volatile Anemo Hypostases, but their line of heirs quickly grew to surpass Baron Bunny the 893rd.",
+        "ja-jp": "不安定なフラスコを投げ出し、大型風霊を生成する。風霊が存在している間、持続的に付近の敵と物体を吸い寄せてノックバックし、風元素ダメージを持続的に与える。元素変化風霊がスキル継続中に水元素/炎元素/氷元素/雷元素に接触すると、接触した元素の属性を獲得し、該当元素の付加ダメージを追加で与える。元素変化はスキル継続中に1回のみ発生する。スクロースは全ての不安定な無相の風に名前をつけようと思っていたが、その数は893もあるウサギ伯爵を軽く超えていたため、その考えを諦めた。",
+        "zh-cn": "砂糖抛出不稳定的烧瓶，生成大型风灵。存在期间，大型风灵会持续牵引附近的敌人与物体，击飞附近的敌人，并造成风元素伤害。元素转化若风灵在技能持续期间接触了水元素/火元素/冰元素/雷元素，则会获得对应元素属性，额外造成该元素的附加伤害。元素转化在技能持续期间仅会发生一次。砂糖也曾经想给每一个不稳态无相之风取名字。但是其世系迅速超过了兔兔伯爵的八百九十三世。",
+        "ko-kr": "설탕이 불안정한 플라스크를 던져 대형의 바람 정령을 생성한다.존재하는 동안 대형의 바람 정령은 주변의 적과 물체를 지속해서 끌어당긴 후 공중으로 띄우고 바람 원소 피해를 준다.원소 전환바람 정령 스킬을 시전하는 동안 물 원소/불 원소/얼음 원소/번개 원소에 닿으면 상응하는 원소 속성을 획득하고 추가로 해당 속성 피해를 준다.원소 전환은 스킬을 시전하는 동안 1회만 발생한다.설탕은 예전에 불안정 상태의 무상의 바람마다 이름을 붙여주고 싶었다. 그러나 얼마 안 지나 무상의 바람의 대대로 이어져 온 계보가 토끼 백작의 893세를 초과하면서 그 생각을 접었다",
+        "ru-ru": "Сахароза бросает колбу с нестабильным реагентом, который создаёт большого Воздушного духа.Он непрерывно притягивает предметы и врагов поблизости, подбрасывает врагов в воздух, нанося им Анемо урон.Поглощение стихии:При контакте с элементами Гидро, Пиро, Крио или Электро большой Воздушный дух наносит дополнительный урон этим элементом.За каждое использование навык может поглотить только один элемент.Сахароза давала имена каждому из своих нестабильных Анемо Гипостазисов, но их семейное древо выросло намного крупнее 893-х Баронов Зайчиков.",
+        "de-de": "Saccharose wirft einen Glaskolben mit leicht reagierenden Stoffen und erschafft so eine große Windseele.Zieht während der Wirkungsdauer fortlaufend Gegner und Objekte in der Nähe an, schleudert die angezogenen Genger weg und verursacht Anemo-Schaden.ElementarumwandlungVerleiht der Windseele beim Treffen auf Hydro-, Pyro-, Kryo- oder Elektro-Effekte während der Wirkungsdauer das jeweilige Element und verursacht dementsprechend zusätzlichen Schaden.Elementarumwandlung nur einmal während der Wirkungsdauer möglich.Saccharose wollte ursprünglich jeder instabilen Anemo-Hypostase einen Namen geben. Dieses Vorhaben musste sie jedoch aufgeben, da bald mehr Hypostasen als Generationen von Graf von Hoppel zusammenkamen.",
+        "fr-fr": "Sucrose jette une concoction instable qui libère un Esprit du vent de grande taille.L'Esprit attire les ennemis et les objets proches à lui, projetant les ennemis dans les airs et leur infligeant des DGT Anémo.Absorption élémentaireL'Esprit du vent absorbe les éléments Hydro, Pyro, Cryo et Électro avec lesquels il entre en contact ; ceux-ci lui confèrent leurs attributs, et infligent un bonus de DGT de l'élément correspondant.Un seul élément peut être absorbé à la fois.Sucrose aime à donner des noms à ses Hypostases Anémo instables ; leur lignée est encore plus longue que celle du Baron Lapinou 893e du nom.",
+        "es-es": "Sacarosa arroja un brebaje inestable que crea un gran espíritu del viento.Mientras dure, el espíritu del viento atrae a los enemigos y objetos cercanos, lanzándolos por los aires e infligiendo Daño Anemo.Cambio elementalSi el espíritu del viento entra en contacto con Hydro/Pyro /Cryo /Electro , infligirá Daño Elemental adicional de ese tipo.Solo puede ocurrir un cambio elemental en toda la duración de esta habilidad.Sacarosa solía dar nombres a sus volátiles Hipostasis Anemo. Pero el linaje de Hipostasis creció tan rápido que acabó superando al Barón Bunny n.º 893.",
+        "id-id": "Sucrose melemparkan sebuah ramuan yang menciptakan Large Wind Spirit.Selama ramuan itu ada, Large Wind Spirit akan terus-menerus menarik musuh dan obyek yang ada di sekitar, menghasilkan Anemo DMG.Elemental AbsorptionKetika Wind Spirit bersentuhan dengan elemen Hydro/Pyro/Cryo/Electro, maka akan mengakibatkan elemental DMG tambahan dari tipe tersebut.Elemental Absorption hanya dapat muncul satu kali dalam sekali penggunaan.Sucrose dulunya selalu memberikan nama kepada Anemo Hypostases miliknya. Namun mereka berkembang biak dengan cepat sampai melampaui Baron Bunny ke-893.",
+        "th-th": "Sucrose ขว้างส่วนผสมที่ไม่คงที่ออกมาซึ่งทำให้ เกิด Large Wind Spiritระหว่างช่วงเวลาที่คงอยู่ Large Wind Spirit จะดึงดูดศัตรูและวัตถุ ที่อยู่ในบริเวณใกล้เคียงให้เข้ามาอย่างต่อเนื่อง จากนั้นโจมตีศัตรูที่อยู่ในบริเวณใกล้เคียงให้ลอยขึ้น เพื่อสร้างความเสียหายลมการเปลี่ยนแปลงธาตุหาก Wind Spirit สัมผัสเข้ากับธาตุน้ำ/ธาตุไฟ/ธาตุน้ำแข็ง/ธาตุไฟฟ้าในระหว่างช่วงเวลาคงอยู่ของ สกิลจะทำให้ได้รับคุณลักษณะของธาตุนั้น ๆ ไปด้วยและสร้างความเสียหายของธาตุ ดังกล่าวเพิ่มเติมการเปลี่ยนแปลงธาตุในระหว่างช่วงเวลาต่อเนื่องของสกิลนั้นจะเกิดขึ้นได้เพียง ครั้งเดียว.ครั้งหนึ่ง Sucrose นั้นเคยอยากที่จะตั้งชื่อให้แก่ Anemo Hypostase ที่แปรปรวนทุกตัว แต่ว่าวงศ์ของพวกมันได้ก้าวข้าม Baron Bunny อันดับที่ 893 ไปแล้วอย่างรวดเร็ว",
+        "vi-vn": "Sucrose ném một chiếc bình tạo ra một phong linh cỡ lớn.Trong thời gian tồn tại, phong linh cỡ lớn sẽ hút và đánh bay kẻ địch lẫn vật thể xung quanh, gâysát thương nguyên tố Phong.Chuyển hóa nguyên tốNếu trong thời gian duy trì kỹ năng lốc xoáy có tiếp xúc Nguyên Tố Thủy/Nguyên Tố Hỏa/Nguyên Tố Băng/Nguyên Tố Lôi, sẽ nhận được thuộc tính nguyên tố tương ứng, gây thêm sát thương kèm theo của nguyên tố đó.Loại chuyển hóa này chỉ phát sinh một lần trong thời gian duy trì kỹ năng.Sucrose đôi khi cũng muốn đặt tên cho Phong Nguyên Bản. Nhưng số đời của chúng còn cao hơn Bá Tước Thỏ đến 893 đời.",
+        "zh-tw": "砂糖拋出不穩定的燒瓶，生成大型風靈。存在期間，大型風靈會持續牽引附近的敵人與物體，擊飛附近的敵人，並造成風元素傷害。元素轉化若風靈在技能持續期間接觸了水元素/火元素/冰元素/雷元素，則會獲得對應元素屬性，額外造成該元素的附加傷害。元素轉化在技能持續期間僅會發生一次。砂糖也曾經想給每一個不穩態無相之風取名字。但是其世系迅速超過了兔兔伯爵的八百九十三世。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/砂糖/battle_talent_2/battle_talent_2.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Conversão de Catalisador",
+        "en-us": "Catalyst Conversion",
+        "ja-jp": "触媒置換術",
+        "zh-cn": "触媒置换术",
+        "ko-kr": "촉매 치환술",
+        "ru-ru": "Замещение катализатора",
+        "de-de": "Katalysatorenkonversion",
+        "fr-fr": "Permutation de catalyste",
+        "es-es": "Conversión de catalizador",
+        "id-id": "Catalyst Conversion",
+        "th-th": "Catalyst Conversion",
+        "vi-vn": "Thay Thế Xúc Tác",
+        "zh-tw": "觸媒置換術"
+      },
+      "description": {
+        "pt-pt": "Quando Sucrose ativa um efeito de Redemoinho, todos os personagens na equipe com o elemento correspondente (exceto Sucrose) possuem sua Proficiência Elemental aumentada em 50 por 8s.",
+        "en-us": "When Sucrose triggers a Swirl reaction, all characters in the party with the matching element (excluding Sucrose) have their Elemental Mastery increased by 50 for 8s.",
+        "ja-jp": "スクロースが拡散反応を起こした時、該当元素のチームメンバー全員（スクロース自身を除く）の元素熟知+50、継続時間8秒。",
+        "zh-cn": "砂糖触发扩散反应时，使队伍中所有对应元素类型的角色（不包括砂糖自己）元素精通提升50，持续8秒。",
+        "ko-kr": "설탕이 원소 확산 반응 발동 후 파티 내 모든 대응하는 원소 유형 캐릭터(설탕 자신을 포함하지 않음)의 원소 마스터리가 50pt 증가한다. 지속 시간: 8초",
+        "ru-ru": "Вызванная Сахарозой реакция Рассеивание увеличивает мастерство соответствующего элемента остальных членов отряда (но не у Сахарозы) на 50 ед. в течение 8 сек.",
+        "de-de": "Erhöht die Elementarkunde aller Figuren in der Truppe des jeweiligen Elements (außer sich selbst) 8 s lang um 50 Punkte, wenn Saccharose eine Verwirbelung auslöst.",
+        "fr-fr": "Tous les personnages de l'équipe du type élémentaire concerné (à l'exception de Sucrose) obtiennent un bonus de 50 pts de maîtrise élémentaire pendant 8 s lorsque Sucrose déclenche une Dispersion.",
+        "es-es": "Cuando Sacarosa cause una reacción de Torbellino, aumentará en 50 pts. la Maestría Elemental de todos los miembros del equipo (a excepción de Sacarosa) cuyo tipo elemental coincida con el elemento contra el que provocó dicho Torbellino. Este efecto tiene una duración de 8 s.",
+        "id-id": "Ketika Sucrose memicu Swirl, akan meningkatkan Elemental Mastery anggota party dengan tipe elemen yang sama (tidak termasuk Sucrose sendiri) sebesar 50, berlangsung selama 8 detik.",
+        "th-th": "เมื่อ Sucrose ทำให้เกิดปฏิกิริยาการกระจาย จะทำให้ตัวละครในทีมทั้งหมดที่เป็นธาตุเดียวกับธาตุที่ผสมกันจนเกิดการกระจายนั้น (ยกเว้น Sucrose) มีความชำนาญธาตุเพิ่มขึ้น 50 เป็นเวลา 8 วินาที",
+        "vi-vn": "Khi Sucrose kích hoạt phản ứng khuếch tán sẽ tăng 50 tinh thông nguyên tố của tất cả nhân vật trong đội có loại nguyên tố tương ứng (không bao gồm bản thân Sucrose), duy trì 8s.",
+        "zh-tw": "砂糖觸發擴散反應時，使隊伍中所有對應元素類型的（不包括砂糖自身）角色元素精通提升50，持續8秒。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/砂糖/const_talent_0.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Mollis Favonius",
+        "en-us": "Mollis Favonius",
+        "ja-jp": "小さな恵風",
+        "zh-cn": "小小的慧风",
+        "ko-kr": "작은 혜풍",
+        "ru-ru": "Сообразительный ветерок",
+        "de-de": "Favonius Mollis",
+        "fr-fr": "Mollis Favonius",
+        "es-es": "Mollis Favonius",
+        "id-id": "Mollis Favonius",
+        "th-th": "Mollis Favonius",
+        "vi-vn": "Gió Thổi Nhẹ Nhàng",
+        "zh-tw": "小小的慧風"
+      },
+      "description": {
+        "pt-pt": "Quando a Criação do Espírito do Vento: Experimento 6308 ou a Criação Proibida do Espírito do Vento: Isomórfico-75 Tipo II acerta um inimigo, aumenta a Proficiência Elemental de todos os membros de equipe (exceto Sucrose) em 20% baseada na Proficiência de Sucrose por 8 segundos.",
+        "en-us": "When Astable Anemohypostasis Creation - 6308 or Forbidden Creation - Isomer 75 / Type II hits an opponent, increases all party members' (excluding Sucrose) Elemental Mastery by an amount equal to 20% of Sucrose's Elemental Mastery for 8s.",
+        "ja-jp": "風霊作成・六三〇八又は禁・風霊作成・七五同構弐型が敵に命中した時、スクロースの元素熟知の20%を基準に、チーム全員（スクロース自身を除く）の元素熟知を強化する、継続時間8秒。",
+        "zh-cn": "风灵作成·陆叁零捌或禁·风灵作成·柒伍同构贰型命中敌人时，基于砂糖元素精通的20%，为队伍中所有角色（不包括砂糖自己）提供元素精通加成，持续8秒。",
+        "ko-kr": "풍령 작성·육삼공팔 혹은 금기·풍령 작성·칠오 동구 이형이 적을 명중하면 설탕의 원소 마스터리의 20%를 기반으로 파티 내 모든 캐릭터(설탕 자신을 포함하지 않음)에게 원소 마스터리 보너스를 제공한다. 지속 시간: 8초",
+        "ru-ru": "При попадании навыками «Эксперимент №6308» или «Запретно! Изомер 75 / Тип II» увеличивает мастерство стихий остальных членов отряда (но не у Сахарозы) на 20% от мастерства стихий Сахарозы в течение 8 сек.",
+        "de-de": "Erhöht die Elementarkunde aller Figuren in der Truppe (außer sich selbst) beim Treffen von Gegnern mit Windseelenschaffung – Experiment 6308 oder Verbotene Windseelenschaffung – Isomorpher Typ 75-II 8 s lang in Höhe von 20 % von Saccharoses Elementarkunde.",
+        "fr-fr": "Lorsque Esprit du vent : Sujet 6308 ou Esprit du vent : Isomorphe 75 Type II touche un ennemi, tous les personnages de l'équipe (à l'exception de Sucrose) bénéficient pendant 8 s d'un bonus de maîtrise élémentaire équivalant à 20 % de la maîtrise élémentaire de Sucrose.",
+        "es-es": "Cuando Sacarosa ataca a un enemigo con Creación del espíritu del viento: Experimento 6308 o Creación prohibida del espíritu del viento: Isomorfo 75 tipo II, aumenta durante 8 s la Maestría Elemental de todos los miembros del equipo (a excepción de Sacarosa) en proporción al 20% de la Maestría Elemental de Sacarosa.",
+        "id-id": "Ketika skill Astable Anemohypostasis Creation - 6308 atau Forbidden Creation - Isomer 75 / Type II mengenai musuh, akan meningkatkan Elemental Mastery seluruh anggota party (tidak termasuk Sucrose sendiri) sebanyak 20% dari Elemental Mastery Sucrose selama 8 detik.",
+        "th-th": "เมื่อ Astable Anemohypostasis Creation - 6308 หรือ Forbidden Creation - Isomer 75 / Type II โจมตีโดนศัตรู ความชำนาญธาตุของตัวละครในทีมทั้งหมด (ยกเว้น Sucrose) จะเพิ่มขึ้นอีก 20% ของความชำนาญธาตุของ Sucrose เป็นเวลา 8 วินาที",
+        "vi-vn": "Khi Gió Thần Sáng Tạo 6308 hoặc Cấm-Gió Thần Sáng Tạo-75 Loại 2 đánh trúng địch, tăng 20% tinh thông nguyên tố của Sucrose cho tất cả nhân vật trong đội (không bao gồm bản thân Sucrose), duy trì 8s.",
+        "zh-tw": "風靈作成·陸參零捌或禁·風靈作成·柒伍同構貳型命中敵人時，基於砂糖元素精通的20%，為隊伍中所有角色（不包括砂糖自身）提供元素精通加成，持續8秒。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/砂糖/const_talent_1.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Invenção Instável",
+        "en-us": "Astable Invention",
+        "ja-jp": "不安定な発見",
+        "zh-cn": "不稳定发现",
+        "ko-kr": "불안정한 발견",
+        "ru-ru": "Нестабильное изобретение",
+        "de-de": "Instabile Entdeckung",
+        "fr-fr": "Fragile découverte",
+        "es-es": "Invención inestable",
+        "id-id": "Astable Invention",
+        "th-th": "Astable Invention",
+        "vi-vn": "Phát Hiện Không Ổn Định",
+        "zh-tw": "不穩定發現"
+      },
+      "description": {
+        "pt-pt": "Quando Sucrose cria Materiais de Elevação de Personagens e de Armas, ela tem 10% de chance de receber o dobro de produção.",
+        "en-us": "When Sucrose crafts Character and Weapon Enhancement Materials, she has a 10% to obtain double the product.",
+        "ja-jp": "キャラクターと武器の育成素材を合成する時、10%の確率でアイテムを2倍獲得する。",
+        "zh-cn": "合成角色与武器培养素材时，有10%概率获得2倍产出。",
+        "ko-kr": "캐릭터와 무기 육성 소재를 합성 시 10%의 확률로 생산량의 2배를 획득한다",
+        "ru-ru": "При создании материалов улучшения персонажей и оружия имеет 10% шанс создать дополнительный предмет.",
+        "de-de": "Stellt beim Zusammensetzen von Material zur Verbesserung von Figuren und Waffen mit einer Wahrscheinlichkeit von 10 % den 2-fachen Ertrag her.",
+        "fr-fr": "10 % de chances d'obtenir le double de produits lors de la synthèse de matériaux d'amélioration de personnage ou d'arme.",
+        "es-es": "Al crear materiales para personaje y armas, hay una probabilidad del 10% de recibir el doble.",
+        "id-id": "Saat Sucrose membuat Material Penguatan Senjata dan Karakter, memiliki 10% kemungkinan untuk mendapatkan hasil 2 kali lipat.",
+        "th-th": "เมื่อสร้างวัสดุพัฒนาตัวละครและอาวุธ จะมีโอกาส 10% ที่จะได้รับผลผลิตเพิ่มเป็น 2 เท่า",
+        "vi-vn": "Khi ghép nguyên liệu bồi dưỡng nhân vật và vũ khí, có 10% tỷ lệ nhận x2 thành phẩm.",
+        "zh-tw": "合成角色與武器培養素材時，有10%的機率獲得兩倍產出。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/砂糖/const_talent_2.png"
+    }
+  ],
+  "talentAttributes": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Criação do Espírito do Vento",
+        "en-us": "Wind Spirit Creation",
+        "ja-jp": "簡式風霊作成",
+        "zh-cn": "普通攻击·简式风灵作成",
+        "ko-kr": "일반 공격·약식 풍령 작성",
+        "ru-ru": "Базовая эссенция ветра",
+        "de-de": "Standardangriff: Vereinfachte Windseelenschaffung",
+        "fr-fr": "Attaque normale : Esprit du vent",
+        "es-es": "Ataque Normal: Creación del espíritu del viento",
+        "id-id": "Normal Attack: Wind Spirit Creation",
+        "th-th": "โจมตีปกติ - Wind Spirit Creation",
+        "vi-vn": "Tấn Công Thường - Gió Thần Sáng Tạo",
+        "zh-tw": "普通攻擊·簡式風靈作成"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 1° Golpe",
+            "en-us": "1-Hit DMG",
+            "ja-jp": "1段ダメージ",
+            "zh-cn": "一段伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон атаки 1",
+            "de-de": "SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tahap 1",
+            "th-th": "ความเสียหายขั้น 1",
+            "vi-vn": "Sát Thương Lần 1",
+            "zh-tw": "一段傷害"
+          },
+          "values": [
+            "33.5%",
+            "36%",
+            "38.5%",
+            "41.8%",
+            "44.3%",
+            "46.8%",
+            "50.2%",
+            "53.5%",
+            "56.9%",
+            "60.2%",
+            "63.6%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 2° Golpe",
+            "en-us": "2-Hit DMG",
+            "ja-jp": "2段ダメージ",
+            "zh-cn": "二段伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон атаки 2",
+            "de-de": "SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2.º golpe",
+            "id-id": "DMG Tahap 2",
+            "th-th": "ความเสียหายขั้น 2",
+            "vi-vn": "Sát Thương Lần 2",
+            "zh-tw": "二段傷害"
+          },
+          "values": [
+            "30.6%",
+            "32.9%",
+            "35.2%",
+            "38.3%",
+            "40.6%",
+            "42.9%",
+            "45.9%",
+            "49%",
+            "52.1%",
+            "55.1%",
+            "58.2%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 3° Golpe",
+            "en-us": "3-Hit DMG",
+            "ja-jp": "3段ダメージ",
+            "zh-cn": "三段伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон атаки 3",
+            "de-de": "SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tahap 3",
+            "th-th": "ความเสียหายขั้น 3",
+            "vi-vn": "Sát Thương Lần 3",
+            "zh-tw": "三段傷害"
+          },
+          "values": [
+            "38.4%",
+            "41.3%",
+            "44.2%",
+            "48.1%",
+            "50.9%",
+            "53.8%",
+            "57.7%",
+            "61.5%",
+            "65.4%",
+            "69.2%",
+            "73.1%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 4° Golpe",
+            "en-us": "4-Hit DMG",
+            "ja-jp": "4段ダメージ",
+            "zh-cn": "四段伤害",
+            "ko-kr": "4단 공격 피해",
+            "ru-ru": "Урон атаки 4",
+            "de-de": "SCH Phase 4",
+            "fr-fr": "DGT 4e coup",
+            "es-es": "Daño de 4.º golpe",
+            "id-id": "DMG Tahap 4",
+            "th-th": "ความเสียหายขั้น 4",
+            "vi-vn": "Sát Thương Lần 4",
+            "zh-tw": "四段傷害"
+          },
+          "values": [
+            "47.9%",
+            "51.5%",
+            "55.1%",
+            "59.9%",
+            "63.5%",
+            "67.1%",
+            "71.9%",
+            "76.7%",
+            "81.5%",
+            "86.3%",
+            "91%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Ataque Carregado",
+            "en-us": "Charged Attack DMG",
+            "ja-jp": "重撃ダメージ",
+            "zh-cn": "重击伤害",
+            "ko-kr": "강공격 피해",
+            "ru-ru": "Урон заряженной атаки",
+            "de-de": "SCH heftiger Schläge",
+            "fr-fr": "DGT attaque chargée",
+            "es-es": "Daño de ATQ Cargado",
+            "id-id": "DMG Charged Attack",
+            "th-th": "ความเสียหายชาร์จโจมตี",
+            "vi-vn": "Sát Thương Trọng Kích",
+            "zh-tw": "重擊傷害"
+          },
+          "values": [
+            "120%",
+            "129%",
+            "138%",
+            "150%",
+            "159%",
+            "168%",
+            "180%",
+            "192%",
+            "204%",
+            "216%",
+            "228%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Consumo de Stamina de Ataque Carregado",
+            "en-us": "Charged Attack Stamina Cost",
+            "ja-jp": "重撃スタミナ消費",
+            "zh-cn": "重击体力消耗",
+            "ko-kr": "강공격 스태미나 소모",
+            "ru-ru": "Потребление выносливости",
+            "de-de": "Ausdauerverbrauch heftiger Schläge",
+            "fr-fr": "Coût d'endurance attaque chargée",
+            "es-es": "Coste de Aguante de ATQ Cargado",
+            "id-id": "Konsumsi Stamina Charged Attack",
+            "th-th": "ชาร์จโจมตีใช้พลังกาย",
+            "vi-vn": "Thể lực Trọng Kích tiêu hao",
+            "zh-tw": "重擊體力消耗"
+          },
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Durante a Queda",
+            "en-us": "Plunge DMG",
+            "ja-jp": "落下期間のダメージ",
+            "zh-cn": "下坠期间伤害",
+            "ko-kr": "낙하 기간 피해",
+            "ru-ru": "Урон в падении",
+            "de-de": "SCH beim Fallen",
+            "fr-fr": "DGT durant la chute",
+            "es-es": "Daño de Caída",
+            "id-id": "DMG Selama Plunging",
+            "th-th": "ความเสียหายพุ่งลง",
+            "vi-vn": "Sát Thương Khi Rơi",
+            "zh-tw": "下墜期間傷害"
+          },
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Queda de Baixa/Alta Altitude",
+            "en-us": "Low/High Plunge DMG",
+            "ja-jp": "低空/高空落下攻撃ダメージ",
+            "zh-cn": "低空/高空坠地冲击伤害",
+            "ko-kr": "저공/고공 추락 충격 피해",
+            "ru-ru": "Урон низкого/высокого удара",
+            "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
+            "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Daño de impacto de caída baja/alta",
+            "id-id": "DMG Plunging Attack Min./Maks.",
+            "th-th": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+            "vi-vn": "Sát Thương Khi Rơi Từ Độ Cao Thấp/Cao",
+            "zh-tw": "低空/高空墜地衝擊傷害"
+          },
+          "values": [
+            "114%/142%",
+            "123%/153%",
+            "132%/165%",
+            "145%/182%",
+            "155%/193%",
+            "165%/206%",
+            "180%/224%",
+            "194%/243%",
+            "209%/261%",
+            "225%/281%",
+            "241%/300%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_skill",
+      "talentName": {
+        "pt-pt": "Criação do Espírito do Vento: Experimento 6308",
+        "en-us": "Astable Anemohypostasis Creation - 6308",
+        "ja-jp": "風霊作成・六三〇八",
+        "zh-cn": "风灵作成·陆叁零捌",
+        "ko-kr": "풍령 작성·육삼공팔",
+        "ru-ru": "Эксперимент №6308",
+        "de-de": "Windseelenschaffung – Experiment 6308",
+        "fr-fr": "Esprit du vent : Sujet 6308",
+        "es-es": "Creación del espíritu del viento: Experimento 6308",
+        "id-id": "Astable Anemohypostasis Creation - 6308",
+        "th-th": "Astable Anemohypostasis Creation - 6308",
+        "vi-vn": "Gió Thần Sáng Tạo 6308",
+        "zh-tw": "風靈作成·陸參零捌"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Habilidade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "211%",
+            "227%",
+            "243%",
+            "264%",
+            "280%",
+            "296%",
+            "317%",
+            "338%",
+            "359%",
+            "380%",
+            "401%",
+            "422%",
+            "449%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_burst",
+      "talentName": {
+        "pt-pt": "Criação Proibida do Espírito do Vento: Isomórfico-75 Tipo II",
+        "en-us": "Forbidden Creation - Isomer 75 / Type II",
+        "ja-jp": "禁・風霊作成・七五同構弐型",
+        "zh-cn": "禁·风灵作成·柒伍同构贰型",
+        "ko-kr": "금기·풍령 작성·칠오 동구 이형",
+        "ru-ru": "Запретно! Изомер 75 / Тип II",
+        "de-de": "Verbotene Windseelenschaffung – Isomorpher Typ 75-II",
+        "fr-fr": "Esprit du vent : Isomorphe 75 Type II",
+        "es-es": "Creación prohibida del espíritu del viento: Isomorfo 75 tipo II",
+        "id-id": "Forbidden Creation - Isomer 75 / Type II",
+        "th-th": "Forbidden Creation - Isomer 75 / Type II",
+        "vi-vn": "Cấm-Gió Thần Sáng Tạo-75 Loại 2",
+        "zh-tw": "禁·風靈作成·柒伍同構貳型"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Contínuo",
+            "en-us": "DoT",
+            "ja-jp": "継続ダメージ",
+            "zh-cn": "持续伤害",
+            "ko-kr": "지속 피해",
+            "ru-ru": "Периодический урон",
+            "de-de": "Fortlaufender SCH",
+            "fr-fr": "DGT continus",
+            "es-es": "Daño continuo",
+            "id-id": "DMG Berkelanjutan",
+            "th-th": "ความเสียหายต่อเนื่อง",
+            "vi-vn": "Sát Thương Kéo Dài",
+            "zh-tw": "持續傷害"
+          },
+          "values": [
+            "148%",
+            "159%",
+            "170%",
+            "185%",
+            "196%",
+            "207%",
+            "222%",
+            "237%",
+            "252%",
+            "266%",
+            "281%",
+            "296%",
+            "315%",
+            "333%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Adição de Dano Elemental",
+            "en-us": "Additional Elemental DMG",
+            "ja-jp": "付加元素ダメージ",
+            "zh-cn": "附加元素伤害",
+            "ko-kr": "부가 원소 피해",
+            "ru-ru": "Доп. элементальный урон",
+            "de-de": "Zusätzlicher Elementar-SCH",
+            "fr-fr": "Bonus DGT élémentaires",
+            "es-es": "Daño Elemental adicional",
+            "id-id": "Tambahan Elemental DMG",
+            "th-th": "ความเสียหายธาตุเพิ่มเติม",
+            "vi-vn": "Sát Thương Nguyên Tố Kèm Theo",
+            "zh-tw": "附加元素傷害"
+          },
+          "values": [
+            "44%",
+            "47.3%",
+            "50.6%",
+            "55%",
+            "58.3%",
+            "61.6%",
+            "66%",
+            "70%",
+            "74.8%",
+            "79.2%",
+            "83.6%",
+            "88%",
+            "93.5%",
+            "99%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração",
+            "en-us": "Duration",
+            "ja-jp": "継続時間",
+            "zh-cn": "持续时间",
+            "ko-kr": "지속 시간",
+            "ru-ru": "Длительность",
+            "de-de": "Dauer",
+            "fr-fr": "Durée",
+            "es-es": "Duración",
+            "id-id": "Durasi",
+            "th-th": "ระยะเวลาต่อเนื่อง",
+            "vi-vn": "Thời Gian Kéo Dài",
+            "zh-tw": "持續時間"
+          },
+          "values": [
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6",
+            "6"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Energia Elemental",
+            "en-us": "Energy Cost",
+            "ja-jp": "元素エネルギー",
+            "zh-cn": "元素能量",
+            "ko-kr": "원소 에너지",
+            "ru-ru": "Потребление энергии",
+            "de-de": "Elementarenergie",
+            "fr-fr": "Énergie élémentaire",
+            "es-es": "Energía Elemental",
+            "id-id": "Konsumsi Energy",
+            "th-th": "พลังงานธาตุ",
+            "vi-vn": "Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量"
+          },
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "talentMaterials": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Criação do Espírito do Vento",
+        "en-us": "Wind Spirit Creation",
+        "ja-jp": "簡式風霊作成",
+        "zh-cn": "普通攻击·简式风灵作成",
+        "ko-kr": "일반 공격·약식 풍령 작성",
+        "ru-ru": "Базовая эссенция ветра",
+        "de-de": "Standardangriff: Vereinfachte Windseelenschaffung",
+        "fr-fr": "Attaque normale : Esprit du vent",
+        "es-es": "Ataque Normal: Creación del espíritu del viento",
+        "id-id": "Normal Attack: Wind Spirit Creation",
+        "th-th": "โจมตีปกติ - Wind Spirit Creation",
+        "vi-vn": "Tấn Công Thường - Gió Thần Sáng Tạo",
+        "zh-tw": "普通攻擊·簡式風靈作成"
+      },
+      "materials": [
+        {
+          "level": 2,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 12500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "164",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Ensinamentos de Liberdade",
+                "en-us": "Teachings of Freedom",
+                "ja-jp": "自由の教え",
+                "zh-cn": "自由的教导",
+                "ko-kr": "자유의 가르침",
+                "ru-ru": "Учения о Свободе",
+                "de-de": "Lehren der Freiheit",
+                "fr-fr": "Enseignement de la Liberté",
+                "es-es": "Enseñanzas de la libertad",
+                "id-id": "Teachings of Freedom",
+                "th-th": "Teachings of Freedom",
+                "vi-vn": "Bài Giảng Của Tự Do",
+                "zh-tw": "自由的教導"
+              }
+            },
+            {
+              "id": "1876",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Néctar da Flor Gigante",
+                "en-us": "Whopperflower Nectar",
+                "ja-jp": "トリックフラワーの蜜",
+                "zh-cn": "骗骗花蜜",
+                "ko-kr": "구라구라 꽃꿀",
+                "ru-ru": "Нектар попрыгуньи",
+                "de-de": "Vaniloqua-Nektar",
+                "fr-fr": "Nectar de Fleur mensongère",
+                "es-es": "Néctar de Megaflora",
+                "id-id": "Whopperflower Nectar",
+                "th-th": "Whopperflower Nectar",
+                "vi-vn": "Mật Hoa Lừa Dối",
+                "zh-tw": "騙騙花蜜"
+              }
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 17500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "163",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Guia da Liberdade",
+                "en-us": "Guide to Freedom",
+                "ja-jp": "自由の導き",
+                "zh-cn": "自由的指引",
+                "ko-kr": "자유의 인도",
+                "ru-ru": "Указания о Свободе",
+                "de-de": "Anleitung zur Freiheit",
+                "fr-fr": "Guide de la Liberté",
+                "es-es": "Guía de la libertad",
+                "id-id": "Guide to Freedom",
+                "th-th": "Guide to Freedom",
+                "vi-vn": "Hướng Dẫn Của Tự Do",
+                "zh-tw": "自由的指引"
+              }
+            },
+            {
+              "id": "722",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Néctar Brilhante",
+                "en-us": "Shimmering Nectar",
+                "ja-jp": "微光花の蜜",
+                "zh-cn": "微光花蜜",
+                "ko-kr": "반짝반짝 꽃꿀",
+                "ru-ru": "Мерцающий нектар",
+                "de-de": "Leuchtender Nektar",
+                "fr-fr": "Nectar miroitant",
+                "es-es": "Néctar brillante",
+                "id-id": "Shimmering Nectar",
+                "th-th": "Shimmering Nectar",
+                "vi-vn": "Mật Hoa Lấp Lánh",
+                "zh-tw": "微光花蜜"
+              }
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 25000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "163",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Guia da Liberdade",
+                "en-us": "Guide to Freedom",
+                "ja-jp": "自由の導き",
+                "zh-cn": "自由的指引",
+                "ko-kr": "자유의 인도",
+                "ru-ru": "Указания о Свободе",
+                "de-de": "Anleitung zur Freiheit",
+                "fr-fr": "Guide de la Liberté",
+                "es-es": "Guía de la libertad",
+                "id-id": "Guide to Freedom",
+                "th-th": "Guide to Freedom",
+                "vi-vn": "Hướng Dẫn Của Tự Do",
+                "zh-tw": "自由的指引"
+              }
+            },
+            {
+              "id": "722",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Néctar Brilhante",
+                "en-us": "Shimmering Nectar",
+                "ja-jp": "微光花の蜜",
+                "zh-cn": "微光花蜜",
+                "ko-kr": "반짝반짝 꽃꿀",
+                "ru-ru": "Мерцающий нектар",
+                "de-de": "Leuchtender Nektar",
+                "fr-fr": "Nectar miroitant",
+                "es-es": "Néctar brillante",
+                "id-id": "Shimmering Nectar",
+                "th-th": "Shimmering Nectar",
+                "vi-vn": "Mật Hoa Lấp Lánh",
+                "zh-tw": "微光花蜜"
+              }
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 30000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "163",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Guia da Liberdade",
+                "en-us": "Guide to Freedom",
+                "ja-jp": "自由の導き",
+                "zh-cn": "自由的指引",
+                "ko-kr": "자유의 인도",
+                "ru-ru": "Указания о Свободе",
+                "de-de": "Anleitung zur Freiheit",
+                "fr-fr": "Guide de la Liberté",
+                "es-es": "Guía de la libertad",
+                "id-id": "Guide to Freedom",
+                "th-th": "Guide to Freedom",
+                "vi-vn": "Hướng Dẫn Của Tự Do",
+                "zh-tw": "自由的指引"
+              }
+            },
+            {
+              "id": "722",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Néctar Brilhante",
+                "en-us": "Shimmering Nectar",
+                "ja-jp": "微光花の蜜",
+                "zh-cn": "微光花蜜",
+                "ko-kr": "반짝반짝 꽃꿀",
+                "ru-ru": "Мерцающий нектар",
+                "de-de": "Leuchtender Nektar",
+                "fr-fr": "Nectar miroitant",
+                "es-es": "Néctar brillante",
+                "id-id": "Shimmering Nectar",
+                "th-th": "Shimmering Nectar",
+                "vi-vn": "Mật Hoa Lấp Lánh",
+                "zh-tw": "微光花蜜"
+              }
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 37500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "163",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Guia da Liberdade",
+                "en-us": "Guide to Freedom",
+                "ja-jp": "自由の導き",
+                "zh-cn": "自由的指引",
+                "ko-kr": "자유의 인도",
+                "ru-ru": "Указания о Свободе",
+                "de-de": "Anleitung zur Freiheit",
+                "fr-fr": "Guide de la Liberté",
+                "es-es": "Guía de la libertad",
+                "id-id": "Guide to Freedom",
+                "th-th": "Guide to Freedom",
+                "vi-vn": "Hướng Dẫn Của Tự Do",
+                "zh-tw": "自由的指引"
+              }
+            },
+            {
+              "id": "722",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Néctar Brilhante",
+                "en-us": "Shimmering Nectar",
+                "ja-jp": "微光花の蜜",
+                "zh-cn": "微光花蜜",
+                "ko-kr": "반짝반짝 꽃꿀",
+                "ru-ru": "Мерцающий нектар",
+                "de-de": "Leuchtender Nektar",
+                "fr-fr": "Nectar miroitant",
+                "es-es": "Néctar brillante",
+                "id-id": "Shimmering Nectar",
+                "th-th": "Shimmering Nectar",
+                "vi-vn": "Mật Hoa Lấp Lánh",
+                "zh-tw": "微光花蜜"
+              }
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 120000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "162",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Filosofia da Liberdade",
+                "en-us": "Philosophies of Freedom",
+                "ja-jp": "自由の哲学",
+                "zh-cn": "自由的哲学",
+                "ko-kr": "자유의 철학",
+                "ru-ru": "Философия о Свободе",
+                "de-de": "Philosophie der Freiheit",
+                "fr-fr": "Philosophie de la Liberté",
+                "es-es": "Filosofía de la libertad",
+                "id-id": "Philosophies of Freedom",
+                "th-th": "Philosophies of Freedom",
+                "vi-vn": "Triết Học Của Tự Do",
+                "zh-tw": "自由的哲學"
+              }
+            },
+            {
+              "id": "372",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Néctar Elemental",
+                "en-us": "Energy Nectar",
+                "ja-jp": "原素花の蜜",
+                "zh-cn": "原素花蜜",
+                "ko-kr": "원소 꽃꿀",
+                "ru-ru": "Элементальный нектар",
+                "de-de": "Elementarnektar",
+                "fr-fr": "Nectar élémentaire",
+                "es-es": "Néctar energético",
+                "id-id": "Energy Nectar",
+                "th-th": "Elemental Nectar",
+                "vi-vn": "Mật Hoa Nguyên Tố",
+                "zh-tw": "原素花蜜"
+              }
+            },
+            {
+              "id": "357",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Alma do Vento do Norte",
+                "en-us": "Spirit Locket of Boreas",
+                "ja-jp": "北風の魂箱",
+                "zh-cn": "北风的魂匣",
+                "ko-kr": "북풍의 영혼상자",
+                "ru-ru": "Шкатулка с духом Борея",
+                "de-de": "Seele des Nordwinds",
+                "fr-fr": "Esprit de Borée",
+                "es-es": "Alma de Boreas",
+                "id-id": "Spirit Locket of Boreas",
+                "th-th": "Spirit Locket of Boreas",
+                "vi-vn": "Linh Hồn Bắc Phong",
+                "zh-tw": "北風的魂匣"
+              }
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 260000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "162",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Filosofia da Liberdade",
+                "en-us": "Philosophies of Freedom",
+                "ja-jp": "自由の哲学",
+                "zh-cn": "自由的哲学",
+                "ko-kr": "자유의 철학",
+                "ru-ru": "Философия о Свободе",
+                "de-de": "Philosophie der Freiheit",
+                "fr-fr": "Philosophie de la Liberté",
+                "es-es": "Filosofía de la libertad",
+                "id-id": "Philosophies of Freedom",
+                "th-th": "Philosophies of Freedom",
+                "vi-vn": "Triết Học Của Tự Do",
+                "zh-tw": "自由的哲學"
+              }
+            },
+            {
+              "id": "372",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Néctar Elemental",
+                "en-us": "Energy Nectar",
+                "ja-jp": "原素花の蜜",
+                "zh-cn": "原素花蜜",
+                "ko-kr": "원소 꽃꿀",
+                "ru-ru": "Элементальный нектар",
+                "de-de": "Elementarnektar",
+                "fr-fr": "Nectar élémentaire",
+                "es-es": "Néctar energético",
+                "id-id": "Energy Nectar",
+                "th-th": "Elemental Nectar",
+                "vi-vn": "Mật Hoa Nguyên Tố",
+                "zh-tw": "原素花蜜"
+              }
+            },
+            {
+              "id": "357",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Alma do Vento do Norte",
+                "en-us": "Spirit Locket of Boreas",
+                "ja-jp": "北風の魂箱",
+                "zh-cn": "北风的魂匣",
+                "ko-kr": "북풍의 영혼상자",
+                "ru-ru": "Шкатулка с духом Борея",
+                "de-de": "Seele des Nordwinds",
+                "fr-fr": "Esprit de Borée",
+                "es-es": "Alma de Boreas",
+                "id-id": "Spirit Locket of Boreas",
+                "th-th": "Spirit Locket of Boreas",
+                "vi-vn": "Linh Hồn Bắc Phong",
+                "zh-tw": "北風的魂匣"
+              }
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 450000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "162",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Filosofia da Liberdade",
+                "en-us": "Philosophies of Freedom",
+                "ja-jp": "自由の哲学",
+                "zh-cn": "自由的哲学",
+                "ko-kr": "자유의 철학",
+                "ru-ru": "Философия о Свободе",
+                "de-de": "Philosophie der Freiheit",
+                "fr-fr": "Philosophie de la Liberté",
+                "es-es": "Filosofía de la libertad",
+                "id-id": "Philosophies of Freedom",
+                "th-th": "Philosophies of Freedom",
+                "vi-vn": "Triết Học Của Tự Do",
+                "zh-tw": "自由的哲學"
+              }
+            },
+            {
+              "id": "372",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Néctar Elemental",
+                "en-us": "Energy Nectar",
+                "ja-jp": "原素花の蜜",
+                "zh-cn": "原素花蜜",
+                "ko-kr": "원소 꽃꿀",
+                "ru-ru": "Элементальный нектар",
+                "de-de": "Elementarnektar",
+                "fr-fr": "Nectar élémentaire",
+                "es-es": "Néctar energético",
+                "id-id": "Energy Nectar",
+                "th-th": "Elemental Nectar",
+                "vi-vn": "Mật Hoa Nguyên Tố",
+                "zh-tw": "原素花蜜"
+              }
+            },
+            {
+              "id": "357",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Alma do Vento do Norte",
+                "en-us": "Spirit Locket of Boreas",
+                "ja-jp": "北風の魂箱",
+                "zh-cn": "北风的魂匣",
+                "ko-kr": "북풍의 영혼상자",
+                "ru-ru": "Шкатулка с духом Борея",
+                "de-de": "Seele des Nordwinds",
+                "fr-fr": "Esprit de Borée",
+                "es-es": "Alma de Boreas",
+                "id-id": "Spirit Locket of Boreas",
+                "th-th": "Spirit Locket of Boreas",
+                "vi-vn": "Linh Hồn Bắc Phong",
+                "zh-tw": "北風的魂匣"
+              }
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 700000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "162",
+              "iconUrl": null,
+              "amount": 16,
+              "name": {
+                "pt-pt": "Filosofia da Liberdade",
+                "en-us": "Philosophies of Freedom",
+                "ja-jp": "自由の哲学",
+                "zh-cn": "自由的哲学",
+                "ko-kr": "자유의 철학",
+                "ru-ru": "Философия о Свободе",
+                "de-de": "Philosophie der Freiheit",
+                "fr-fr": "Philosophie de la Liberté",
+                "es-es": "Filosofía de la libertad",
+                "id-id": "Philosophies of Freedom",
+                "th-th": "Philosophies of Freedom",
+                "vi-vn": "Triết Học Của Tự Do",
+                "zh-tw": "自由的哲學"
+              }
+            },
+            {
+              "id": "372",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Néctar Elemental",
+                "en-us": "Energy Nectar",
+                "ja-jp": "原素花の蜜",
+                "zh-cn": "原素花蜜",
+                "ko-kr": "원소 꽃꿀",
+                "ru-ru": "Элементальный нектар",
+                "de-de": "Elementarnektar",
+                "fr-fr": "Nectar élémentaire",
+                "es-es": "Néctar energético",
+                "id-id": "Energy Nectar",
+                "th-th": "Elemental Nectar",
+                "vi-vn": "Mật Hoa Nguyên Tố",
+                "zh-tw": "原素花蜜"
+              }
+            },
+            {
+              "id": "357",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Alma do Vento do Norte",
+                "en-us": "Spirit Locket of Boreas",
+                "ja-jp": "北風の魂箱",
+                "zh-cn": "北风的魂匣",
+                "ko-kr": "북풍의 영혼상자",
+                "ru-ru": "Шкатулка с духом Борея",
+                "de-de": "Seele des Nordwinds",
+                "fr-fr": "Esprit de Borée",
+                "es-es": "Alma de Boreas",
+                "id-id": "Spirit Locket of Boreas",
+                "th-th": "Spirit Locket of Boreas",
+                "vi-vn": "Linh Hồn Bắc Phong",
+                "zh-tw": "北風的魂匣"
+              }
+            },
+            {
+              "id": "900",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa da Sabedoria",
+                "en-us": "Crown of Insight",
+                "ja-jp": "知恵の冠",
+                "zh-cn": "智识之冕",
+                "ko-kr": "지식의 왕관",
+                "ru-ru": "Корона прозрения",
+                "de-de": "Krone der Weisheit",
+                "fr-fr": "Couronne de la sagesse",
+                "es-es": "Corona de la sabiduría",
+                "id-id": "Crown of Insight",
+                "th-th": "Crown of Insight",
+                "vi-vn": "Vương Miện Trí Thức",
+                "zh-tw": "智識之冕"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "affiliation": {
+    "pt-pt": "Cavaleiros de Favonius",
+    "en-us": "Knights of Favonius",
+    "ja-jp": "西風騎士団",
+    "zh-cn": "西风骑士团",
+    "ko-kr": "페보니우스 기사단",
+    "ru-ru": "Ордо Фавониус",
+    "de-de": "Ordo Favonius",
+    "fr-fr": "Ordre de Favonius",
+    "es-es": "Caballeros de Favonius",
+    "id-id": "Knights of Favonius",
+    "th-th": "กองอัศวินแห่ง Favonius",
+    "vi-vn": "Đội Kỵ Sĩ Tây Phong",
+    "zh-tw": "西風騎士團"
+  },
+  "birthday": {
+    "pt-pt": "26/11",
+    "en-us": "11/26",
+    "ja-jp": "11月26日",
+    "zh-cn": "11月26日",
+    "ko-kr": "11월 26일",
+    "ru-ru": "26 ноября",
+    "de-de": "26. November",
+    "fr-fr": "26/11",
+    "es-es": "26/11",
+    "id-id": "26 November",
+    "th-th": "26/11",
+    "vi-vn": "Ngày 26 tháng 11",
+    "zh-tw": "11月26日"
+  },
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1496",
+          "iconUrl": null,
+          "amount": 1,
+          "name": {
+            "pt-pt": "Lasca de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Sliver",
+            "ja-jp": "自由のターコイズ・砕屑",
+            "zh-cn": "自在松石碎屑",
+            "ko-kr": "자유로운 터키석 가루",
+            "ru-ru": "Осколок бирюзы Вайюда",
+            "de-de": "Vayuda-Türkis-Splitter",
+            "fr-fr": "Éclat de turquoise vayuda",
+            "es-es": "Pedacito de turquesa vayuda",
+            "id-id": "Vayuda Turquoise Sliver",
+            "th-th": "Vayuda Turquoise Sliver",
+            "vi-vn": "Vụn Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石碎屑"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "1876",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Néctar da Flor Gigante",
+            "en-us": "Whopperflower Nectar",
+            "ja-jp": "トリックフラワーの蜜",
+            "zh-cn": "骗骗花蜜",
+            "ko-kr": "구라구라 꽃꿀",
+            "ru-ru": "Нектар попрыгуньи",
+            "de-de": "Vaniloqua-Nektar",
+            "fr-fr": "Nectar de Fleur mensongère",
+            "es-es": "Néctar de Megaflora",
+            "id-id": "Whopperflower Nectar",
+            "th-th": "Whopperflower Nectar",
+            "vi-vn": "Mật Hoa Lừa Dối",
+            "zh-tw": "騙騙花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 40000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1495",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Fragment",
+            "ja-jp": "自由のターコイズ・欠片",
+            "zh-cn": "自在松石断片",
+            "ko-kr": "자유로운 터키석 조각",
+            "ru-ru": "Фрагмент бирюзы Вайюда",
+            "de-de": "Vayuda-Türkis-Bruchstück",
+            "fr-fr": "Fragment de turquoise vayuda",
+            "es-es": "Fragmento de turquesa vayuda",
+            "id-id": "Vayuda Turquoise Fragment",
+            "th-th": "Vayuda Turquoise Fragment",
+            "vi-vn": "Mảnh Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石斷片"
+          }
+        },
+        {
+          "id": "1751",
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Semente de Furacão",
+            "en-us": "Hurricane Seed",
+            "ja-jp": "暴風の種",
+            "zh-cn": "飓风之种",
+            "ko-kr": "폭풍의 씨앗",
+            "ru-ru": "Семя урагана",
+            "de-de": "Orkansamen",
+            "fr-fr": "Graine d'ouragan",
+            "es-es": "Semilla de huracán",
+            "id-id": "Hurricane Seed",
+            "th-th": "Hurricane Seed",
+            "vi-vn": "Hạt Giống Bão",
+            "zh-tw": "颶風之種"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 10,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "1876",
+          "iconUrl": null,
+          "amount": 15,
+          "name": {
+            "pt-pt": "Néctar da Flor Gigante",
+            "en-us": "Whopperflower Nectar",
+            "ja-jp": "トリックフラワーの蜜",
+            "zh-cn": "骗骗花蜜",
+            "ko-kr": "구라구라 꽃꿀",
+            "ru-ru": "Нектар попрыгуньи",
+            "de-de": "Vaniloqua-Nektar",
+            "fr-fr": "Nectar de Fleur mensongère",
+            "es-es": "Néctar de Megaflora",
+            "id-id": "Whopperflower Nectar",
+            "th-th": "Whopperflower Nectar",
+            "vi-vn": "Mật Hoa Lừa Dối",
+            "zh-tw": "騙騙花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 60000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1495",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Fragment",
+            "ja-jp": "自由のターコイズ・欠片",
+            "zh-cn": "自在松石断片",
+            "ko-kr": "자유로운 터키석 조각",
+            "ru-ru": "Фрагмент бирюзы Вайюда",
+            "de-de": "Vayuda-Türkis-Bruchstück",
+            "fr-fr": "Fragment de turquoise vayuda",
+            "es-es": "Fragmento de turquesa vayuda",
+            "id-id": "Vayuda Turquoise Fragment",
+            "th-th": "Vayuda Turquoise Fragment",
+            "vi-vn": "Mảnh Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石斷片"
+          }
+        },
+        {
+          "id": "1751",
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Semente de Furacão",
+            "en-us": "Hurricane Seed",
+            "ja-jp": "暴風の種",
+            "zh-cn": "飓风之种",
+            "ko-kr": "폭풍의 씨앗",
+            "ru-ru": "Семя урагана",
+            "de-de": "Orkansamen",
+            "fr-fr": "Graine d'ouragan",
+            "es-es": "Semilla de huracán",
+            "id-id": "Hurricane Seed",
+            "th-th": "Hurricane Seed",
+            "vi-vn": "Hạt Giống Bão",
+            "zh-tw": "颶風之種"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "722",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Néctar Brilhante",
+            "en-us": "Shimmering Nectar",
+            "ja-jp": "微光花の蜜",
+            "zh-cn": "微光花蜜",
+            "ko-kr": "반짝반짝 꽃꿀",
+            "ru-ru": "Мерцающий нектар",
+            "de-de": "Leuchtender Nektar",
+            "fr-fr": "Nectar miroitant",
+            "es-es": "Néctar brillante",
+            "id-id": "Shimmering Nectar",
+            "th-th": "Shimmering Nectar",
+            "vi-vn": "Mật Hoa Lấp Lánh",
+            "zh-tw": "微光花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 80000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1494",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Chunk",
+            "ja-jp": "自由のターコイズ・塊",
+            "zh-cn": "自在松石块",
+            "ko-kr": "자유로운 터키석 덩이",
+            "ru-ru": "Кусок бирюзы Вайюда",
+            "de-de": "Vayuda-Türkis-Brocken",
+            "fr-fr": "Morceau de turquoise vayuda",
+            "es-es": "Trozo de turquesa vayuda",
+            "id-id": "Vayuda Turquoise Chunk",
+            "th-th": "Vayuda Turquoise Chunk",
+            "vi-vn": "Miếng Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石塊"
+          }
+        },
+        {
+          "id": "1751",
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Semente de Furacão",
+            "en-us": "Hurricane Seed",
+            "ja-jp": "暴風の種",
+            "zh-cn": "飓风之种",
+            "ko-kr": "폭풍의 씨앗",
+            "ru-ru": "Семя урагана",
+            "de-de": "Orkansamen",
+            "fr-fr": "Graine d'ouragan",
+            "es-es": "Semilla de huracán",
+            "id-id": "Hurricane Seed",
+            "th-th": "Hurricane Seed",
+            "vi-vn": "Hạt Giống Bão",
+            "zh-tw": "颶風之種"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 30,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "722",
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Néctar Brilhante",
+            "en-us": "Shimmering Nectar",
+            "ja-jp": "微光花の蜜",
+            "zh-cn": "微光花蜜",
+            "ko-kr": "반짝반짝 꽃꿀",
+            "ru-ru": "Мерцающий нектар",
+            "de-de": "Leuchtender Nektar",
+            "fr-fr": "Nectar miroitant",
+            "es-es": "Néctar brillante",
+            "id-id": "Shimmering Nectar",
+            "th-th": "Shimmering Nectar",
+            "vi-vn": "Mật Hoa Lấp Lánh",
+            "zh-tw": "微光花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 100000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1494",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Chunk",
+            "ja-jp": "自由のターコイズ・塊",
+            "zh-cn": "自在松石块",
+            "ko-kr": "자유로운 터키석 덩이",
+            "ru-ru": "Кусок бирюзы Вайюда",
+            "de-de": "Vayuda-Türkis-Brocken",
+            "fr-fr": "Morceau de turquoise vayuda",
+            "es-es": "Trozo de turquesa vayuda",
+            "id-id": "Vayuda Turquoise Chunk",
+            "th-th": "Vayuda Turquoise Chunk",
+            "vi-vn": "Miếng Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石塊"
+          }
+        },
+        {
+          "id": "1751",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Semente de Furacão",
+            "en-us": "Hurricane Seed",
+            "ja-jp": "暴風の種",
+            "zh-cn": "飓风之种",
+            "ko-kr": "폭풍의 씨앗",
+            "ru-ru": "Семя урагана",
+            "de-de": "Orkansamen",
+            "fr-fr": "Graine d'ouragan",
+            "es-es": "Semilla de huracán",
+            "id-id": "Hurricane Seed",
+            "th-th": "Hurricane Seed",
+            "vi-vn": "Hạt Giống Bão",
+            "zh-tw": "颶風之種"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 45,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "372",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Néctar Elemental",
+            "en-us": "Energy Nectar",
+            "ja-jp": "原素花の蜜",
+            "zh-cn": "原素花蜜",
+            "ko-kr": "원소 꽃꿀",
+            "ru-ru": "Элементальный нектар",
+            "de-de": "Elementarnektar",
+            "fr-fr": "Nectar élémentaire",
+            "es-es": "Néctar energético",
+            "id-id": "Energy Nectar",
+            "th-th": "Elemental Nectar",
+            "vi-vn": "Mật Hoa Nguyên Tố",
+            "zh-tw": "原素花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 120000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1493",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Gema de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Gemstone",
+            "ja-jp": "自由のターコイズ",
+            "zh-cn": "自在松石",
+            "ko-kr": "자유로운 터키석",
+            "ru-ru": "Драгоценная бирюза Вайюда",
+            "de-de": "Vayuda-Türkis",
+            "fr-fr": "Pierre de turquoise vayuda",
+            "es-es": "Turquesa vayuda",
+            "id-id": "Vayuda Turquoise Gemstone",
+            "th-th": "Vayuda Turquoise Gemstone",
+            "vi-vn": "Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石"
+          }
+        },
+        {
+          "id": "1751",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Semente de Furacão",
+            "en-us": "Hurricane Seed",
+            "ja-jp": "暴風の種",
+            "zh-cn": "飓风之种",
+            "ko-kr": "폭풍의 씨앗",
+            "ru-ru": "Семя урагана",
+            "de-de": "Orkansamen",
+            "fr-fr": "Graine d'ouragan",
+            "es-es": "Semilla de huracán",
+            "id-id": "Hurricane Seed",
+            "th-th": "Hurricane Seed",
+            "vi-vn": "Hạt Giống Bão",
+            "zh-tw": "颶風之種"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 60,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "372",
+          "iconUrl": null,
+          "amount": 24,
+          "name": {
+            "pt-pt": "Néctar Elemental",
+            "en-us": "Energy Nectar",
+            "ja-jp": "原素花の蜜",
+            "zh-cn": "原素花蜜",
+            "ko-kr": "원소 꽃꿀",
+            "ru-ru": "Элементальный нектар",
+            "de-de": "Elementarnektar",
+            "fr-fr": "Nectar élémentaire",
+            "es-es": "Néctar energético",
+            "id-id": "Energy Nectar",
+            "th-th": "Elemental Nectar",
+            "vi-vn": "Mật Hoa Nguyên Tố",
+            "zh-tw": "原素花蜜"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур.1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "775"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "14"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "59"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Anemo",
+            "en-us": "Anemo DMG Bonus",
+            "ja-jp": "風元素ダメージ",
+            "zh-cn": "风元素伤害加成",
+            "ko-kr": "바람 원소 피해 보너스",
+            "ru-ru": "Бонус Анемо урона",
+            "de-de": "Anemo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Anémo",
+            "es-es": "Bono de Daño Anemo",
+            "id-id": "Anemo DMG Bonus",
+            "th-th": "โบนัสความเสียหายลม",
+            "vi-vn": "Tăng ST Nguyên Tố Phong",
+            "zh-tw": "風元素傷害加成"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "1991",
+          "postAscensionValue": "2570"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "37",
+          "postAscensionValue": "47"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "151",
+          "postAscensionValue": "195"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Anemo",
+            "en-us": "Anemo DMG Bonus",
+            "ja-jp": "風元素ダメージ",
+            "zh-cn": "风元素伤害加成",
+            "ko-kr": "바람 원소 피해 보너스",
+            "ru-ru": "Бонус Анемо урона",
+            "de-de": "Anemo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Anémo",
+            "es-es": "Bono de Daño Anemo",
+            "id-id": "Anemo DMG Bonus",
+            "th-th": "โบนัสความเสียหายลม",
+            "vi-vn": "Tăng ST Nguyên Tố Phong",
+            "zh-tw": "風元素傷害加成"
+          },
+          "preAscensionValue": "0%",
+          "postAscensionValue": "0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "3850",
+          "postAscensionValue": "4261"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "71",
+          "postAscensionValue": "78"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "293",
+          "postAscensionValue": "324"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Anemo",
+            "en-us": "Anemo DMG Bonus",
+            "ja-jp": "風元素ダメージ",
+            "zh-cn": "风元素伤害加成",
+            "ko-kr": "바람 원소 피해 보너스",
+            "ru-ru": "Бонус Анемо урона",
+            "de-de": "Anemo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Anémo",
+            "es-es": "Bono de Daño Anemo",
+            "id-id": "Anemo DMG Bonus",
+            "th-th": "โบนัสความเสียหายลม",
+            "vi-vn": "Tăng ST Nguyên Tố Phong",
+            "zh-tw": "風元素傷害加成"
+          },
+          "preAscensionValue": "0%",
+          "postAscensionValue": "6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "4901",
+          "postAscensionValue": "5450"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "90",
+          "postAscensionValue": "100"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "373",
+          "postAscensionValue": "414"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Anemo",
+            "en-us": "Anemo DMG Bonus",
+            "ja-jp": "風元素ダメージ",
+            "zh-cn": "风元素伤害加成",
+            "ko-kr": "바람 원소 피해 보너스",
+            "ru-ru": "Бонус Анемо урона",
+            "de-de": "Anemo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Anémo",
+            "es-es": "Bono de Daño Anemo",
+            "id-id": "Anemo DMG Bonus",
+            "th-th": "โบนัสความเสียหายลม",
+            "vi-vn": "Tăng ST Nguyên Tố Phong",
+            "zh-tw": "風元素傷害加成"
+          },
+          "preAscensionValue": "6%",
+          "postAscensionValue": "12%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "6090",
+          "postAscensionValue": "6501"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "112",
+          "postAscensionValue": "120"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "463",
+          "postAscensionValue": "494"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Anemo",
+            "en-us": "Anemo DMG Bonus",
+            "ja-jp": "風元素ダメージ",
+            "zh-cn": "风元素伤害加成",
+            "ko-kr": "바람 원소 피해 보너스",
+            "ru-ru": "Бонус Анемо урона",
+            "de-de": "Anemo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Anémo",
+            "es-es": "Bono de Daño Anemo",
+            "id-id": "Anemo DMG Bonus",
+            "th-th": "โบนัสความเสียหายลม",
+            "vi-vn": "Tăng ST Nguyên Tố Phong",
+            "zh-tw": "風元素傷害加成"
+          },
+          "preAscensionValue": "12%",
+          "postAscensionValue": "12%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "7141",
+          "postAscensionValue": "7552"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "131",
+          "postAscensionValue": "139"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "543",
+          "postAscensionValue": "574"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Anemo",
+            "en-us": "Anemo DMG Bonus",
+            "ja-jp": "風元素ダメージ",
+            "zh-cn": "风元素伤害加成",
+            "ko-kr": "바람 원소 피해 보너스",
+            "ru-ru": "Бонус Анемо урона",
+            "de-de": "Anemo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Anémo",
+            "es-es": "Bono de Daño Anemo",
+            "id-id": "Anemo DMG Bonus",
+            "th-th": "โบนัสความเสียหายลม",
+            "vi-vn": "Tăng ST Nguyên Tố Phong",
+            "zh-tw": "風元素傷害加成"
+          },
+          "preAscensionValue": "12%",
+          "postAscensionValue": "18%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "8192",
+          "postAscensionValue": "8604"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "151",
+          "postAscensionValue": "158"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "623",
+          "postAscensionValue": "654"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Anemo",
+            "en-us": "Anemo DMG Bonus",
+            "ja-jp": "風元素ダメージ",
+            "zh-cn": "风元素伤害加成",
+            "ko-kr": "바람 원소 피해 보너스",
+            "ru-ru": "Бонус Анемо урона",
+            "de-de": "Anemo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Anémo",
+            "es-es": "Bono de Daño Anemo",
+            "id-id": "Anemo DMG Bonus",
+            "th-th": "โบนัสความเสียหายลม",
+            "vi-vn": "Tăng ST Nguyên Tố Phong",
+            "zh-tw": "風元素傷害加成"
+          },
+          "preAscensionValue": "18%",
+          "postAscensionValue": "24%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур.90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "9244",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "170",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "703",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Anemo",
+            "en-us": "Anemo DMG Bonus",
+            "ja-jp": "風元素ダメージ",
+            "zh-cn": "风元素伤害加成",
+            "ko-kr": "바람 원소 피해 보너스",
+            "ru-ru": "Бонус Анемо урона",
+            "de-de": "Anemo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Anémo",
+            "es-es": "Bono de Daño Anemo",
+            "id-id": "Anemo DMG Bonus",
+            "th-th": "โบนัสความเสียหายลม",
+            "vi-vn": "Tăng ST Nguyên Tố Phong",
+            "zh-tw": "風元素傷害加成"
+          },
+          "preAscensionValue": "24%",
+          "postAscensionValue": ""
+        }
+      ]
+    }
+  ]
+}

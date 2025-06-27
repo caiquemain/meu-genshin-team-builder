@@ -1,0 +1,3410 @@
+{
+  "id": "klee",
+  "wiki_id": "12",
+  "name": {
+    "pt-pt": "Klee",
+    "en-us": "Klee",
+    "ja-jp": "クレー",
+    "zh-cn": "可莉",
+    "ko-kr": "클레",
+    "ru-ru": "Кли",
+    "de-de": "Klee",
+    "fr-fr": "Klee",
+    "es-es": "Klee",
+    "id-id": "Klee",
+    "th-th": "Klee",
+    "vi-vn": "Klee",
+    "zh-tw": "可莉"
+  },
+  "title": {
+    "pt-pt": "Sol Fugitivo",
+    "en-us": "Fleeing Sunlight",
+    "ja-jp": "逃げ回る太陽",
+    "zh-cn": "逃跑的太阳",
+    "ko-kr": "도망치는 태양",
+    "ru-ru": "Ускользающее солнце",
+    "de-de": "Fliehende Sonne",
+    "fr-fr": "Soleil fuyant",
+    "es-es": "El Sol Fugitivo",
+    "id-id": "Fleeing Sunlight",
+    "th-th": "ดวงอาทิตย์ที่หลบหนี",
+    "vi-vn": "Mặt Trời Chạy Trốn",
+    "zh-tw": "逃跑的太陽"
+  },
+  "description": {
+    "pt-pt": "Uma visitante frequente da sala de confinamento dos Cavaleiros de Favonius, também conhecida como \"Sol Fugitivo\".",
+    "en-us": "An explosives expert and a regular at the Knights of Favonius's confinement room. Also known as Fleeing Sunlight.",
+    "ja-jp": "西風騎士団反省室の常連で、モンドの爆破スペシャリスト。人呼んで「逃げ回る太陽」。",
+    "zh-cn": "西风骑士团禁闭室的常客，蒙德的爆破大师。人称「逃跑的太阳」。",
+    "ko-kr": "페보니우스 기사단 감금실의 단골손님이자 몬드의 폭파 마스터. 「도망치는 태양」이라고 불린다.",
+    "ru-ru": "Эксперт по взрывчатке и частый гость темницы Ордо Фавониус. Также известна как «Ускользающее солнце».",
+    "de-de": "Ein häufiger Gast der Arrestzelle des Ordo Favonius und ein wahrer Meister der Zerstörung. Man nennt sie auch die „Fliehende Sonne“.",
+    "fr-fr": "Une invitée régulière des cellules de l'Ordre de Favonius, et également la maîtresse des explosions à Mondstadt, où on la surnomme « le soleil fuyant ».",
+    "es-es": "Una visitante frecuente de los calabozos de los Caballeros de Favonius, la maestra de explosiones de Mondstadt. La llaman “el Sol Fugitivo”.",
+    "id-id": "Seorang ahli peledak yang sudah menjadi langganan di ruang tahanan Knights of Favonius. Juga dikenal dengan nama Fleeing Sunlight.",
+    "th-th": "แขกประจำห้องขังของกองอัศวินแห่ง Favonius ผู้เชี่ยวชาญด้านการระเบิดแห่ง Mondstadt ผู้คนเรียกเธอว่า &#34;ดวงอาทิตย์ที่หลบหนี&#34;",
+    "vi-vn": "Khách quen của phòng giam Đội Kỵ Sĩ Tây Phong, bậc thầy thuốc nổ tại Mondstadt. Mọi người gọi là \"Mặt Trời Chạy Trốn\".",
+    "zh-tw": "西風騎士團禁閉室的常客，蒙德的爆破大師。人稱「逃跑的太陽」。"
+  },
+  "rarity": 5,
+  "vision": {
+    "label": {
+      "pt-pt": "Tipo Elemental",
+      "en-us": "Elemental Type",
+      "ja-jp": "元素タイプ",
+      "zh-cn": "元素属性",
+      "ko-kr": "원소 속성",
+      "ru-ru": "Элемент",
+      "de-de": "Elementartyp",
+      "fr-fr": "Élément",
+      "es-es": "Tipo elemental",
+      "id-id": "Tipe Elemen",
+      "th-th": "ประเภทธาตุ",
+      "vi-vn": "Thuộc Tính Nguyên Tố",
+      "zh-tw": "元素屬性"
+    },
+    "value": {
+      "pt-pt": "Pyro",
+      "en-us": "Pyro",
+      "ja-jp": "炎元素",
+      "zh-cn": "火元素",
+      "ko-kr": "불 원소",
+      "ru-ru": "Пиро",
+      "de-de": "Pyro",
+      "fr-fr": "Pyro",
+      "es-es": "Pyro",
+      "id-id": "Pyro",
+      "th-th": "ไฟ",
+      "vi-vn": "Hỏa",
+      "zh-tw": "火元素"
+    }
+  },
+  "weapon": {
+    "label": {
+      "pt-pt": "Arma",
+      "en-us": "Weapons",
+      "ja-jp": "武器種",
+      "zh-cn": "武器",
+      "ko-kr": "무기",
+      "ru-ru": "Тип",
+      "de-de": "Waffe",
+      "fr-fr": "Type d'arme",
+      "es-es": "Arma",
+      "id-id": "Senjata",
+      "th-th": "อาวุธ",
+      "vi-vn": "Vũ Khí",
+      "zh-tw": "武器"
+    },
+    "value": {
+      "pt-pt": "Catalisador",
+      "en-us": "Catalyst",
+      "ja-jp": "法器",
+      "zh-cn": "法器",
+      "ko-kr": "법구",
+      "ru-ru": "Катализатор",
+      "de-de": "Katalysator",
+      "fr-fr": "Catalyseur",
+      "es-es": "Catalizador",
+      "id-id": "Catalyst",
+      "th-th": "สื่อเวท",
+      "vi-vn": "Pháp Khí",
+      "zh-tw": "法器"
+    }
+  },
+  "characterIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/Klee_icon.png",
+  "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
+  "constellationNameOfficial": {
+    "pt-pt": "Trifolium",
+    "en-us": "Trifolium",
+    "ja-jp": "四つ葉座",
+    "zh-cn": "四叶草座",
+    "ru-ru": "Четырёхлистный Клевер",
+    "de-de": "Trifolium",
+    "fr-fr": "Trifolium",
+    "es-es": "Trifolium",
+    "id-id": "Trifolium",
+    "th-th": "Trifolium",
+    "zh-tw": "四葉草座",
+    "ko-kr": "N/A",
+    "vi-vn": "N/A"
+  },
+  "specialDish": {
+    "id": 1891,
+    "name": {
+      "pt-pt": "Torrada de Peixe",
+      "en-us": "Fish-Flavored Toast",
+      "ja-jp": "魚香トースト",
+      "zh-cn": "鱼香吐司",
+      "ko-kr": "어향 토스트",
+      "ru-ru": "Рыбный бутерброд",
+      "de-de": "Fischhäppchen auf Brot",
+      "fr-fr": "Toast au poisson",
+      "es-es": "Tostada de mariscos",
+      "id-id": "Fish-Flavored Toast",
+      "th-th": "Fish-Flavored Toast",
+      "vi-vn": "Bánh Cá Thơm Ngon",
+      "zh-tw": "魚香吐司"
+    },
+    "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Fish-Flavored%20Toast_icon.png"
+  },
+  "namecard": {
+    "id": 6074,
+    "name": {
+      "pt-pt": "Klee - Explosivo",
+      "en-us": "Klee: Explosive",
+      "ja-jp": "クレー・爆弾",
+      "zh-cn": "可莉·爆弹",
+      "ko-kr": "클레·폭탄",
+      "ru-ru": "Бомбочка",
+      "de-de": "Klee – Bombe",
+      "fr-fr": "Klee - Chaud devant !",
+      "es-es": "Klee - Bomba",
+      "id-id": "Klee: Explosive",
+      "th-th": "Klee - Explosive",
+      "vi-vn": "Klee - Thuốc Nổ",
+      "zh-tw": "可莉·爆彈"
+    },
+    "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/15/911a237581b8a0ba0c2879453226e974_9211487783354108464.png"
+  },
+  "constellations": [
+    {
+      "id": "summaryList48583",
+      "constellationNumber": 1,
+      "name": {
+        "pt-pt": "Explosão em Cadeia",
+        "en-us": "Chained Reactions",
+        "ja-jp": "ゴロゴロコンボ",
+        "zh-cn": "连环轰隆",
+        "ko-kr": "연쇄 폭발",
+        "ru-ru": "Цепные реакции",
+        "de-de": "Kettenreaktion",
+        "fr-fr": "Bombardement continu",
+        "es-es": "Explosión en cadena",
+        "id-id": "Chained Reaction",
+        "th-th": "Chained Reactions",
+        "vi-vn": "Vụ Nổ Liên Hoàn",
+        "zh-tw": "連環轟隆"
+      },
+      "description": {
+        "pt-pt": "Ataques e Habilidades possuem certa chance de invocar faíscas que bombardeiam o inimigo, causando Dano igual a 120% das Faíscas Explosivas.",
+        "en-us": "Attacks and Skills have a certain chance to summon sparks that bombard opponents, dealing DMG equal to 120% of Sparks 'n' Splash's DMG.",
+        "ja-jp": "攻撃やスキル発動時、一定の確率で花火を召喚して敵を攻撃し、ドッカン花火の攻撃力120%分のダメージを与える。",
+        "zh-cn": "攻击与施放技能时，有几率召唤火花轰击敌人，造成相当于轰轰火花攻击伤害120%的伤害。",
+        "ko-kr": "공격과 스킬 발동 시 일정 확률로 불꽃을 소환해 적을 폭격하여 쾅쾅 불꽃으로 가하는 피해의 120%만큼 피해를 준다.",
+        "ru-ru": "Исполнение атак и навыков имеет шанс забросать врагов искрами, нанося урон, равный 120% от урона навыка Грохот и искры.",
+        "de-de": "Erschafft beim Angriff und beim Einsetzen von Fähigkeiten mit gewisser Wahrscheinlichkeit Funken, die Gegner angreifen und Schaden in Höhe von 120 % des Schadens von Funkelfunken verursachen.",
+        "fr-fr": "Les attaques et compétences ont une chance de générer des étincelles qui bombardent les ennemis, infligeant 120 % des DGT de Fleur bombardier.",
+        "es-es": "Al atacar o usar una habilidad, hay una probabilidad de invocar chispas que atacan al enemigo, las cuales infligen daño equivalente al 120% del daño de Chispas explosivas.",
+        "id-id": "Saat melancarkan serangan atau skill, Klee memiliki kemungkinan untuk menimbulkan percikan api yang mengakibatkan DMG sebesar 120% dari DMG Sparks 'n' Splash pada musuh.",
+        "th-th": "เมื่อโจมตีและใช้สกิล จะมีโอกาสที่จะเรียกประกายไฟ เพื่อระดมโจมตีใส่ศัตรู สร้างความเสียหายเทียบเท่ากับ 120% ของความเสียหายของ Sparks 'n' Splash",
+        "vi-vn": "Khi tấn công và thi triển kỹ năng, có tỷ lệ triệu hồi tia lửa tấn công kẻ địch, gây sát thương tương đương với 120% sát thương của Tia Lửa Mãnh Liệt.",
+        "zh-tw": "攻擊與施放技能時，有機率召喚火花轟擊敵人，造成相當於轟轟火花攻擊傷害120%的傷害。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/可莉/constellation_1.png"
+    },
+    {
+      "id": "summaryList50652",
+      "constellationNumber": 2,
+      "name": {
+        "pt-pt": "Fragmentos Explosivos",
+        "en-us": "Explosive Frags",
+        "ja-jp": "弾丸の破片",
+        "zh-cn": "破破弹片",
+        "ko-kr": "퍄퍄 포탄 파편",
+        "ru-ru": "Осколочные мины",
+        "de-de": "Splitterbombe",
+        "fr-fr": "Éclats de bombe",
+        "es-es": "Fragmentos de metralla",
+        "id-id": "Explosive Frags",
+        "th-th": "Explosive Frags",
+        "vi-vn": "Mảnh Đạn Vỡ Vụn",
+        "zh-tw": "破破彈片"
+      },
+      "description": {
+        "pt-pt": "Ao ser atingido pelas minas da Bomba Saltitante, diminui a DEF do inimigo em 23% por 10s.",
+        "en-us": "Being hit by Jumpy Dumpty's mines decreases opponents' DEF by 23% for 10s.",
+        "ja-jp": "ボンボン爆弾のブービートラップのダメージを受けた敵の防御力-23%、継続時間10秒。",
+        "zh-cn": "蹦蹦炸弹的诡雷会使敌人的防御力降低23%，持续10秒。",
+        "ko-kr": "통통 폭탄의 부비트랩은 적의 방어력을 23% 감소시킨다. 지속 시간: 10초",
+        "ru-ru": "Мины навыка Прыг-скок бомба уменьшают защиту коснувшихся их врагов на 23% в течение 10 сек.",
+        "de-de": "Die Sprengfallen von Bimm-Bamm-Bombe verringern die VTD von Gegnern 10 s lang um 23 %.",
+        "fr-fr": "Les mines de Bombe rebondissante réduisent la DÉF des ennemis de 23 % pendant 10 s.",
+        "es-es": "Las minas de Bomba saltarina reducen la DEF de los enemigos en un 23% durante 10 s.",
+        "id-id": "DEF musuh berkurang 23% selama 10 detik saat terkena ranjau dari Jumpy Dumpty.",
+        "th-th": "กับระเบิดของ Jumpy Dumpty จะทำให้พลังป้องกันของศัตรู ลดลง 23% เป็นเวลา 10 วินาที",
+        "vi-vn": "Quỷ Lôi của Bom Nảy sẽ làm giảm 23% phòng ngự của kẻ địch, kéo dài 10s.",
+        "zh-tw": "蹦蹦炸彈的詭雷會使敵人的防禦力降低23%，持續10秒。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/可莉/constellation_2.png"
+    },
+    {
+      "id": "summaryList12681",
+      "constellationNumber": 3,
+      "name": {
+        "pt-pt": "Coquetel Especial de Klee",
+        "en-us": "Exquisite Compound",
+        "ja-jp": "クレー特製",
+        "zh-cn": "可莉特调",
+        "ko-kr": "클레 특제",
+        "ru-ru": "Фирменный ингредиент",
+        "de-de": "Klees Sonderanfertigung",
+        "fr-fr": "Réglage spécial de Klee",
+        "es-es": "Mezcla especial de Klee",
+        "id-id": "Exquisite Compound",
+        "th-th": "Exquisite Compound",
+        "vi-vn": "Đặc Chế Klee",
+        "zh-tw": "可莉特調"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível da Bomba Saltitante em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Jumpy Dumpty by 3.Maximum upgrade level is 15.",
+        "ja-jp": "ボンボン爆弾のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "蹦蹦炸弹的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "통통 폭탄의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Прыг-скок бомба на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Bimm-Bamm-Bombe um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Bombe rebondissante +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Bomba saltarina +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Jumpy Dumpty.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Jumpy Dumpty ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Bom Nảy +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "蹦蹦炸彈的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/可莉/constellation_3.png"
+    },
+    {
+      "id": "summaryList47413",
+      "constellationNumber": 4,
+      "name": {
+        "pt-pt": "Coelho Ativado",
+        "en-us": "Sparkly Explosion",
+        "ja-jp": "一触即発",
+        "zh-cn": "一触即发",
+        "ko-kr": "일촉즉발",
+        "ru-ru": "Взрывоопасно",
+        "de-de": "Manuelle Explosion",
+        "fr-fr": "Tout est prêt",
+        "es-es": "¡Bomba va!",
+        "id-id": "Sparkly Explosion",
+        "th-th": "Sparkly Explosion",
+        "vi-vn": "Thỏ Xông Lên",
+        "zh-tw": "一觸即發"
+      },
+      "description": {
+        "pt-pt": "Se Klee deixa o campo de batalha durante as Faíscas Explosivas, a sua partida ativa uma explosão que causa 555% do seu ATQ como Dano Pyro em uma AdE.",
+        "en-us": "If Klee leaves the field during the duration of Sparks 'n' Splash, her departure triggers an explosion that deals 555% of her ATK as AoE Pyro DMG.",
+        "ja-jp": "ドッカン花火継続中にキャラクターを切り替えると、爆発が発生し、攻撃力555%分の炎元素範囲ダメージを与える。",
+        "zh-cn": "如果在轰轰火花持续期间内退场，会引发爆炸，造成555%攻击力的火元素范围伤害。",
+        "ko-kr": "쾅쾅 불꽃이 지속되는 동안 퇴장하면 폭발을 일으켜 공격력 555%의 불 원소 범위 피해를 준다.",
+        "ru-ru": "Если Кли покидает поле боя во время навыка Грохот и искры, активируется взрыв, который наносит 555% её силы атаки в качестве Пиро урона по площади.",
+        "de-de": "Löst beim Auswechseln der Figur während der Wirkungsdauer von Funkelfunken eine Explosion aus, die Pyro-Flächenschaden in Höhe von 555 % ANG verursacht.",
+        "fr-fr": "Une explosion se produit lorsque Klee quitte le champ de bataille tant que Fleur bombardier est active. Cette explosion inflige 555 % de l'ATQ en DGT Pyro de zone.",
+        "es-es": "Si Klee se retira de combate mientras la habilidad Chispas explosivas está activa, creará una explosión que inflige un 555% de Daño Pyro en el AdE.",
+        "id-id": "Jika Klee meninggalkan medan pertempuran saat Sparks 'n' Splash sedang berlangsung, kepergian Klee akan memicu ledakan yang mengakibatkan Pyro DMG Area sebesar 555% ATK.",
+        "th-th": "หากออกจากการต่อสู้ระหว่าง ช่วงเวลาต่อเนื่องของ Sparks 'n' Splash จะทำให้เกิดการระเบิดสร้าง ความเสียหายไฟวงกว้าง เป็น 555% ของพลังโจมตี",
+        "vi-vn": "Nếu rời khỏi trận trong thời gian Tia Lửa Mãnh Liệt đang tồn tại, sẽ tạo ra vụ nổ, gây Sát Thương Phạm Vi Nguyên Tố Hỏa với 555% lực tấn công.",
+        "zh-tw": "如果在轟轟火花持續期間內退場，會引發爆炸，造成555%攻擊力的火元素範圍傷害。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/可莉/constellation_4.png"
+    },
+    {
+      "id": "summaryList98972",
+      "constellationNumber": 5,
+      "name": {
+        "pt-pt": "Estrela dos Bombardeios",
+        "en-us": "Nova Burst",
+        "ja-jp": "轟撃の星",
+        "zh-cn": "轰击之星",
+        "ko-kr": "포격 천재",
+        "ru-ru": "Сверхновая звезда",
+        "de-de": "Explodierender Stern",
+        "fr-fr": "Bombardement d'étoiles",
+        "es-es": "Estrella de los bombardeos",
+        "id-id": "Nova Burst",
+        "th-th": "Nova Burst",
+        "vi-vn": "Ngôi Sao Ném Bom",
+        "zh-tw": "轟擊之星"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível das Faíscas Explosivas em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Sparks 'n' Splash by 3.Maximum upgrade level is 15.",
+        "ja-jp": "ドッカン花火のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "轰轰火花的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "쾅쾅 불꽃의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Грохот и искры на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Funkelfunken um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Fleur bombardier +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Chispas explosivas +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Sparks 'n' Splash.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Sparks 'n' Splash ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Tia Lửa Mãnh Liệt +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "轟轟火花的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/可莉/constellation_5.png"
+    },
+    {
+      "id": "summaryList42297",
+      "constellationNumber": 6,
+      "name": {
+        "pt-pt": "Fogo Aberto",
+        "en-us": "Blazing Delight",
+        "ja-jp": "火力全開",
+        "zh-cn": "火力全开",
+        "ko-kr": "화력 전개",
+        "ru-ru": "Пламенный восторг",
+        "de-de": "Feuer frei!",
+        "fr-fr": "À tout feu",
+        "es-es": "¡Klee a la carga!",
+        "id-id": "Blazing Delight",
+        "th-th": "Blazing Delight",
+        "vi-vn": "Toàn Bộ Hỏa Lực",
+        "zh-tw": "火力全開"
+      },
+      "description": {
+        "pt-pt": "Enquanto sob o efeito de Faíscas Explosivas, Klee regenera 3 de Energia para todos os membros da equipe (exceto Klee) a cada 3s.Quando Faíscas Explosivas for usado, todos os membros do grupo ganharão 10% de Bônus de Dano Pyro por 25s.",
+        "en-us": "While under the effects of Sparks 'n' Splash, Klee will regenerate 3 Energy for all members of the party (excluding Klee) every 3s.When Sparks 'n' Splash is used, all party members will gain a 10% Pyro DMG Bonus for 25s.",
+        "ja-jp": "ドッカン花火状態中、クレーは3秒毎にチーム全員（クレー自身を除く）の元素エネルギーを3回復する。ドッカン花火発動後25秒間、チーム全員の炎元素ダメージ+10%。",
+        "zh-cn": "在轰轰火花的状态下，可莉每3秒会为队伍中所有角色（不包括可莉自己）恢复3点元素能量；施放轰轰火花后的25秒内，队伍中所有角色获得10%火元素伤害加成。",
+        "ko-kr": "쾅쾅 불꽃 상태에서 클레는 3초마다 파티 내 모든 캐릭터(클레 자신을 포함하지 않음)의 원소 에너지 3pt를 지속해서 회복시킨다.쾅쾅 불꽃 발동 후 25초 동안 파티 내 모든 캐릭터는 불 원소 피해 보너스를 10% 획득한다.",
+        "ru-ru": "Когда навык Грохот и искры активен, Кли каждые 3 сек. восстанавливает 3 ед. элементальной энергии другим членам отряда.Активация навыка Грохот и искры даёт всем членам отряда 10% бонус Пиро урона на 25 сек.",
+        "de-de": "Klee stellt allen Truppenmitgliedern (außer sich selbst) während der Wirkungsdauer von Funkelfunken alle 3 s 3 Punkte Elementarenergie wieder her.Erhöht den Pyro-Schaden aller Truppenmitglieder nach Anwenden von Funkelfunken 25 s lang um 10 %.",
+        "fr-fr": "Klee restaure 3 pts d'énergie élémentaire à tous les membres de l'équipe (à l'exception de Klee) toutes les 3 s tant que Fleur bombardier est active.L'activation de Fleur bombardier confère un bonus de DGT Pyro de 10 % pendant 25 s à tous les membres de l'équipe.",
+        "es-es": "Mientras las Chispas explosivas estén activas, Klee hará que todos los miembros del equipo (a excepción de Klee) recuperen 3 pts. de Energía Elemental cada 3 s.Después de activar Chispas explosivas, todos los miembros del equipo reciben un 10% de Bono de Daño Pyro durante 25 s.",
+        "id-id": "Saat Sparks 'n' Splash aktif, Klee akan memulihkan 3 Energy setiap 3 detik untuk semua anggota party (tidak termasuk Klee sendiri).Setelah melancarkan Sparks 'n' Splash, seluruh anggota party mendapatkan 10% Pyro DMG Bonus selama 25 detik.",
+        "th-th": "ภายใต้สภาวะของ Sparks 'n' Splash ในทุก 3 วินาที Klee จะฟื้นฟูพลังงานธาตุ 3 หน่วย ให้แก่ตัวละครทั้งหมดในทีม (ไม่รวมตัวของ Klee เอง);หลังจากใช้ Sparks 'n' Splash ตัวละครทั้งหมดในทีมจะได้รับ โบนัสความเสียหายไฟ 10% เป็นเวลา 25 วินาที",
+        "vi-vn": "Trong trạng thái Tia Lửa Mãnh Liệt, cứ mỗi 3s Klee sẽ hồi phục 3 điểm Năng Lượng Nguyên Tố cho tất cả nhân vật trong đội (Không bao gồm bản thân Klee);Trong 25s sau khi phóng Tia Lửa Mãnh Liệt, tất cả nhân vật trong đội nhận được 10% Buff Sát Thương Nguyên Tố Hỏa.",
+        "zh-tw": "在轟轟火花的狀態下，可莉每3秒會為隊伍中所有角色（不包括可莉自身）恢復3點元素能量；施放轟轟火花後的25秒內，隊伍中所有角色獲得10%火元素傷害加成。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/可莉/constellation_6.png"
+    }
+  ],
+  "talents": [
+    {
+      "type": "normal_attack",
+      "name": {
+        "pt-pt": "Ataque Normal: Kaboom!",
+        "en-us": "Kaboom!",
+        "ja-jp": "バンバン",
+        "zh-cn": "普通攻击·砰砰",
+        "ko-kr": "일반 공격·펑펑",
+        "ru-ru": "Бабах!",
+        "de-de": "Standardangriff: Bumm-Bumm",
+        "fr-fr": "Attaque normale : Boum ! Boum !",
+        "es-es": "Ataque Normal: ¡Buuum!",
+        "id-id": "Normal Attack: Kaboom!",
+        "th-th": "โจมตีปกติ - Kaboom!",
+        "vi-vn": "Tấn Công Thường - Bằng Bằng",
+        "zh-tw": "普通攻擊·砰砰"
+      },
+      "description": {
+        "pt-pt": "Ataque normalAtira coisas que fazem boom quando acertam coisas! Realiza até 3 ataques explosivos, infligindo Dano Pyro em uma AdE.Ataque CarregadoConsome uma certa quantidade de Stamina que inflige Dano Pyro em uma AdE em inimigos após um curto tempo de canalização.Ataque ImersivoReunindo o poder do Pyro, Klee mergulha em direção ao chão em pleno ar, causando dano a todos os inimigos em seu caminho. Inflige Dano Pyro em uma AdE ao entrar em contato com o chão.",
+        "en-us": "Normal AttackThrows things that go boom when they hit things! Perform up to 3 explosive attacks, dealing AoE Pyro DMG.Charged AttackConsumes a certain amount of Stamina and deals AoE Pyro DMG to opponents after a short casting time.Plunging AttackGathering the power of Pyro, Klee plunges towards the ground from mid-air, damaging all opponents in her path. Deals AoE Pyro DMG upon impact with the ground.",
+        "ja-jp": "通常攻撃ぶつかると爆発するものを投げ出す！最大3段の爆弾攻撃を行い、炎元素範囲ダメージを与える。重撃一定のスタミナを消費し、短い詠唱をした後、敵に炎元素範囲ダメージを与える。落下攻撃空中から烈焔の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に炎元素範囲ダメージを与える。",
+        "zh-cn": "普通攻击投掷在碰撞后会爆炸的好东西！进行至多三段的炸弹攻击，造成火元素范围伤害。重击消耗一定体力，短暂咏唱后，轰击敌人，造成火元素范围伤害。下落攻击凝聚烈焰的力量，从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成火元素范围伤害。",
+        "ko-kr": "일반 공격무언가에 부딪히면 펑하고 폭발하는 물건을 던진다! 폭발 공격을 최대 3회까지 발동해 불 원소 범위 피해를 준다.강공격일정 스태미나를 소모해 짧은 영창 후 적을 폭격하여 불 원소 범위 피해를 준다.낙하 공격공중에서 열염의 힘을 모은 후 지면을 강타해 경로상의 적을 공격하고 착지 시 불 원소 범위 피해를 준다.",
+        "ru-ru": "Обычная атака:Кли любит взрывать всё вокруг! Она бросает до трёх бомб, наносящих Пиро урон по площади.Заряженная атака:Короткое заклинание, наносящее Пиро урон по площади, на которое тратится определённое количество выносливости.Атака в падении:Накопив энергию огня, стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит Пиро урон по площади.",
+        "de-de": "StandardangriffWirft eine nette, effektvolle Bombe! Führt bis zu 3 Bombenangriffe aus und verursacht Pyro-Flächenschaden.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer, bombardiert Gegner nach kurzer Aufladezeit und verursacht Pyro-Flächenschaden.Angriff aus dem FallKonzentriert die Kraft der Flammen, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Pyro-Flächenschaden.",
+        "fr-fr": "Attaque normaleUne bombe qui explose au contact, ça c'est un bel objet ! Klee jette jusqu'à 3 bombes consécutives, qui infligent des DGT Pyro de zone.Attaque chargéeConsomme de l'endurance pour bombarder les ennemis après un court délai et leur infliger des DGT Pyro de zone.Attaque plongeantePlonge depuis les airs en concentrant ses pouvoirs Pyro, infligeant des DGT aux ennemis en chemin et des DGT Pyro de zone à l'impact.",
+        "es-es": "Ataque NormalRealiza hasta 3 ataques explosivos que infligen Daño Pyro en el AdE.Ataque CargadoConsume una cierta cantidad de Aguante para infligir Daño Pyro en el AdE después de un corto tiempo de lanzamiento.Ataque DescendenteAl acumular poder Pyro, Klee se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño Pyro en el AdE en el momento del impacto.",
+        "id-id": "Normal AttackMelempar benda yang akan meledak saat mengenai sesuatu! Melancarkan hingga 3 serangan ledakan yang mengakibatkan Pyro DMG Area.Charged AttackMengonsumsi sejumlah Stamina dan mengakibatkan Pyro DMG Area kepada musuh setelah jeda singkat.Plunging AttackMengumpulkan kekuatan Pyro dan menerjang tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan Pyro DMG Area saat mendarat.",
+        "th-th": "โจมตีปกติโยนของดีที่จะระเบิดเมื่อมีสิ่งอื่น มากระแทกออกไป! ทำการระเบิดโจมตีมากสุดถึงสามครั้ง เกิดเป็นความเสียหายไฟวงกว้างชาร์จโจมตีใช้พลังกายส่วนหนึ่ง โดยช่วงเวลาสั้น ๆ หลังจากร่ายเวทเสร็จ จะโจมตีศัตรูเพื่อสร้างความเสียหายไฟวงกว้างโจมตีพุ่งลงจากอากาศรวบรวมพลังไฟอันร้อนแรงและกระโจน จากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรู ที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายไฟวงกว้าง เมื่อลงถึงพื้น",
+        "vi-vn": "Tấn Công ThườngNém ra những thứ phát nổ khi va chạm! Tấn công nổ tối đa 3 lần, gây Sát Thương Phạm Vi Nguyên Tố Hỏa.Trọng KíchTiêu hao thể lực nhất định, sau khi tụ lực sẽ bắn phá kẻ địch, gây Sát Thương Phạm Vi Nguyên Tố Hỏa.Tấn Công Khi ĐápNgưng tụ sức mạnh của lửa, lao xuống mặt đất từ trên không, tấn công kẻ địch trên đường và gây Sát Thương Phạm Vi Nguyên Tố Hỏa khi chạm đất.",
+        "zh-tw": "普通攻擊投擲在碰撞後會爆炸的好東西！進行至多三段的炸彈攻擊，造成火元素範圍傷害。重擊消耗一定體力，短暫詠唱後，轟擊敵人，造成火元素範圍傷害。下落攻擊凝聚烈焰的力量，從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成火元素範圍傷害。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/可莉/battle_talent_0/battle_talent_0.png"
+    },
+    {
+      "type": "elemental_skill",
+      "name": {
+        "pt-pt": "Bomba Saltitante",
+        "en-us": "Jumpy Dumpty",
+        "ja-jp": "ボンボン爆弾",
+        "zh-cn": "蹦蹦炸弹",
+        "ko-kr": "통통 폭탄",
+        "ru-ru": "Прыг-скок бомба",
+        "de-de": "Bimm-Bamm-Bombe",
+        "fr-fr": "Bombe rebondissante",
+        "es-es": "Bomba saltarina",
+        "id-id": "Jumpy Dumpty",
+        "th-th": "Jumpy Dumpty",
+        "vi-vn": "Bom Nảy",
+        "zh-tw": "蹦蹦炸彈"
+      },
+      "description": {
+        "pt-pt": "A Bomba Saltitante é uma explosão de diversão!Quando lançada, Bomba Saltitante quica três vezes, incendiando e infligindo Dano Pyro em uma AdE a cada salto.No terceiro salto, a bomba se divide em várias minas.As minas irão explodir ao entrar em contato com os inimigos, ou após um curto período de tempo, infligindo Dano Pyro em uma AdE.Começa com 2 cargas.A Bomba Saltitante é a melhor amiga de Klee! Ela não consegue deixar de apresentá-la a todos.",
+        "en-us": "Jumpy Dumpty is tons of boom-bang-fun! When thrown, Jumpy Dumpty bounces thrice, igniting and dealing AoE Pyro DMG with every bounce.On the third bounce, the bomb splits into many mines.The mines will explode upon contact with opponents, or after a short period of time, dealing AoE Pyro DMG.Starts with 2 charges.Jumpy Dumpty is Klee's good friend! She can't help but introduce him to everyone.",
+        "ja-jp": "巨大な威力を持つボンボン爆弾を投げ出す！ボンボン爆弾は連続で3回跳ね、1回毎に爆発を起こし、炎元素範囲ダメージを与える。3回跳ねた後、爆弾は複数のブービートラップに分裂する。ブービートラップは敵に触れる、または一定時間後に爆発し、炎元素範囲ダメージを与える。初期使用可能回数2回。ボンボンはクレーの「友達」…クレーはいつも人々にそう紹介している。",
+        "zh-cn": "投出带来无限快乐的蹦蹦炸弹！蹦蹦炸弹会连续弹跳三次，每次弹跳都会引发爆炸，造成火元素范围伤害。第三次弹跳后，将分裂成许多诡雷。诡雷会在接触到敌人或一段时间后爆炸，造成火元素范围伤害。初始拥有2次可使用次数。蹦蹦是可莉的「好朋友」…可莉总是忍不住向人介绍他们。",
+        "ko-kr": "끝없는 즐거움을 가져다주는 통통 폭탄을 던진다!통통 폭탄은 연속으로 3회 튕기며 튕길 때마다 폭발을 일으켜 불 원소 범위 피해를 준다.3번 튕긴 후 폭탄은 수많은 부비트랩으로 분열된다.적이 밟거나 일정 시간이 지나면 부비트랩은 폭발하여 불 원소 범위 피해를 준다.초기 사용 가능 횟수: 2회통통은 클레의 「친한 친구」이다… 클레는 항상 참지 못하고 모두에게 이 친구를 소개하곤 한다.",
+        "ru-ru": "Прыг-скок бомбы - сплошное взрывное веселье!Бросает мощную Прыг-скок бомбу, которая три раза отскакивает от поверхностей и взрывается, нанося Пиро урон по площади при каждом отскоке.После третьего отскока бомба взрывается и распадается на мины.Мины взрываются через некоторое время, либо при касании врагов. Взрыв наносит Пиро урон по площади.Изначально имеет два заряда.Прыг-скок - это хороший друг Кли! Она не может не представить его всем присутствующим.",
+        "de-de": "Wirft eine Bombe, die dazu bestimmt ist, große Freude zu bringen!Die Bimm-Bamm-Bombe kommt dreimal auf dem Boden auf und verursacht jedes Mal eine Explosion sowie Pyro-Flächenschaden.Spaltet sich beim dritten Mal zu vielen kleinen Sprengfallen auf.Bei Berührung mit einem Gegner oder nach einer gewissen Zeit explodieren die Sprengfallen und verursachen Pyro-Flächenschaden.Kann anfänglich 2-mal angewendet werden.Diese Bombe ist ein „Freund“ von Klee, den sie anderen gern vorstellt.",
+        "fr-fr": "Boiing, boiing ! Klee lance une bombe qui pète de joie !La bombe rebondit 3 fois et explose à chaque rebond, infligeant des DGT Pyro de zone.Après le 3e rebond, la bombe se divise en plusieurs mines.Les mines explosent après un court délai ou au contact de l'ennemi, infligeant des DGT Pyro de zone.Klee commence avec 2 charges.La Bombe rebondissante est l'amie fidèle de Klee... Elle veut toujours la présenter à tout le monde.",
+        "es-es": "¡La bomba saltarina es superdivertida!Arroja una poderosa Bomba saltarina que rebota hasta tres veces. Cada vez que rebota genera una explosión que inflige Daño Pyro en el AdE.Después de rebotar tres veces, se dividirá en varias minas.Al entrar en contacto con el enemigo, las minas explotarán, infligiendo Daño Pyro en el AdE.Puede ser usado 2 veces consecutivas.La bomba saltarina es la nueva amiga de Klee... ¡Todos mueren por conocerla!",
+        "id-id": "Melemparkan bom Jumpy Dumpty yang membawa kesenangan tidak terbatas!Saat dilempar, Jumpy Dumpty dapat memantul tiga kali, setiap pantulannya akan meledak dan mengakibatkan Pyro DMG Area.Pada pantulan ke-3, bomnya akan terbagi menjadi banyak ranjau.Ranjau-ranjau ini akan meledak saat menyentuh musuh, atau setelah jeda waktu yang singkat, kemudian mengakibatkan Pyro DMG Area.Dimulai dengan 2 kali jumlah penggunaan.Jumpy Dumpty adalah teman baik Klee! Klee selalu tidak sabar untuk memperkenalkannya ke semua orang.",
+        "th-th": "โยน Jumpy Dumpty ที่จะนำพามาซึ่ง ความสนุกสุดเหวี่ยงออกไป!Jumpy Dumpty จะเด้งติดต่อกันสามครั้ง โดยแต่ละครั้งล้วนสามารถทำให้เกิด การระเบิดได้ ซึ่งจะสร้างความเสียหายไฟวงกว้างหลังจากการเด้งครั้งที่สาม จะแบ่งกลายเป็นกับระเบิดจำนวนมากกับระเบิดจะระเบิดเมื่อมีศัตรูไปแตะโดน หรือเมื่อเวลาผ่านไปช่วงหนึ่ง และทำให้เกิดความเสียหายไฟวงกว้างในตอนเริ่มจะสามารถใช้ได้ 2 ครั้ง.Jumpy Dumpty คือ \"เพื่อนสนิท\" ของ Klee... ซึ่ง Klee นั้นมักจะอดใจไม่ไหว ที่จะแนะนำพวกเขาให้แก่คนอื่น ๆ เสมอ",
+        "vi-vn": "Ném Bom Nảy mang đến niềm vui bất tận!Bom Nảy sẽ nảy liên tiếp 3 lần, mỗi lần đều sẽ kích hoạt nổ, gây Sát Thương Phạm Vi Nguyên Tố Hỏa.Sau khi nảy lần 3, sẽ tách thành nhiều Quỷ Lôi.Quỷ Lôi sẽ nổ sau một khoảng thời gian hoặc sau khi tiếp xúc kẻ địch, gây Sát Thương Phạm Vi Nguyên Tố Hỏa.Ban đầu có 2 lần sử dụng.Bom nảy là \"người bạn thân\" của Klee... Klee luôn muốn giới thiệu chúng với mọi người xung quanh.",
+        "zh-tw": "投出帶來無限快樂的蹦蹦炸彈！蹦蹦炸彈會連續彈跳三次，每次彈跳都會引發爆炸，造成火元素範圍傷害。第三次彈跳後，將分裂成許多詭雷。詭雷會在接觸到敵人或一段時間後爆炸，造成火元素範圍傷害。初始擁有兩次可使用次數。蹦蹦是可莉的「好朋友」…可莉總是忍不住向人介紹他們。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/可莉/battle_talent_1/battle_talent_1.png"
+    },
+    {
+      "type": "elemental_burst",
+      "name": {
+        "pt-pt": "Faíscas Explosivas",
+        "en-us": "Sparks 'n' Splash",
+        "ja-jp": "ドッカン花火",
+        "zh-cn": "轰轰火花",
+        "ko-kr": "쾅쾅 불꽃",
+        "ru-ru": "Грохот и искры",
+        "de-de": "Funkelfunken",
+        "fr-fr": "Fleur bombardier",
+        "es-es": "Chispas explosivas",
+        "id-id": "Sparks 'n' Splash",
+        "th-th": "Sparks 'n' Splash",
+        "vi-vn": "Tia Lửa Mãnh Liệt",
+        "zh-tw": "轟轟火花"
+      },
+      "description": {
+        "pt-pt": "Delícia Ardente de Klee! Ao longo da duração dessa habilidade, evoca continuamente os ataques de Faíscas Explosivas para atacar inimigos próximos, infligindo Dano Pyro em uma AdE.Todos os cavaleiros acreditam que Klee deve ser uma estrela da sorte, tendo cuidado para nunca se machucarem com suas próprias bombas...",
+        "en-us": "Klee's Blazing Delight! For the duration of this ability, continuously summons Sparks 'n' Splash to attack nearby opponents, dealing AoE Pyro DMG.The knights all believe that Klee must have a lucky star watching over her to have never been hurt by any of her own bombs...",
+        "ja-jp": "クレー火力全開！スキル継続中、ドッカン花火を立て続けに召喚して周囲の敵を攻撃し、炎元素範囲ダメージを与える。クレーが自分の爆弾で怪我をしないのは、きっと幸運の神に恵まれているからだと、騎士団のみんなはそう信じている。",
+        "zh-cn": "可莉火力全开！在技能持续时间内，不停召唤轰轰火花攻击附近的敌人，造成火元素范围伤害。骑士团的人相信，可莉从来不被自己的炸弹所伤，一定有幸运星眷顾着她吧…",
+        "ko-kr": "클레 최대 화력! 스킬을 발동하는 동안 쾅쾅 불꽃을 끊임없이 소환해 주변의 적에게 불 원소 범위 피해를 준다.기사단 사람들은 클레가 한 번도 자신의 폭탄에 휘말려 들지 않는 건 행운의 별이 그녀를 지켜주고 있기 때문이라고 믿는다…",
+        "ru-ru": "Кли жжёт по-полной! На время действия навыка Кли призывает Грохот и искры, которые наносят окружающим врагам Пиро урон по площади.Рыцари Ордо Фавониус считают, что, должно быть, за Кли присматривает счастливая звезда, ведь ни одна из её собственных бомб никогда не нанесла ей вреда...",
+        "de-de": "Und Feuer! Beschwört während der Wirkungsdauer ununterbrochen Funkelfunken, die Gegner in der Nähe angreifen und Pyro-Flächenschaden verursachen.Die Ritter glauben, dass Klee einen Schutzengel haben muss, weil sie sich noch nie mit einer ihrer Bomben selbst verletzt hat.",
+        "fr-fr": "Klee s'enflamme ! Invoque une Fleur bombardier qui harcèle les ennemis, infligeant des DGT Pyro de zone.Les membres de l'Ordre de Favonius sont convaincus qu'une bonne étoile veille sur Klee ; sinon, comment expliquer qu'elle ne se blesse jamais ?",
+        "es-es": "¡Klee a la carga! Mientras dure la habilidad, invoca constantemente Chispas explosivas que hacen daño a los enemigos cercanos, infligiendo Daño Pyro en el AdE.Los Caballeros de Favonius creen que si Klee nunca se ha hecho daño con sus propias bombas es porque debe tener una buena estrella que la protege...",
+        "id-id": "Kegembiraan Klee yang membara! Selama durasi skill, Sparks 'n' Splash yang muncul akan terus menyerang musuh-musuh di sekitar dan mengakibatkan Pyro DMG Area.Para Knight meyakini kalau Klee pasti dilindungi sebuah bintang keberuntungan karena dia tidak pernah terluka karena bomnya sendiri ...",
+        "th-th": "Klee พร้อมลุย! ภายในช่วงเวลาต่อเนื่อง จะเรียก Sparks 'n' Splash ออกมา เพื่อโจมตีศัตรูที่อยู่ในบริเวณใกล้เคียงอย่างต่อเนื่อง และทำให้เกิดความเสียหายไฟวงกว้าง.เหล่าคนในกองอัศวินนั้นเชื่อซะเหลือเกิน ว่าการที่ Klee ไม่เคยโดนระเบิด ของตัวเองเล่นงานเลยนั้น คงเป็นเพราะมีดวงดาวนำโชค คอยปกป้องเธออยู่แน่ ๆ...",
+        "vi-vn": "Klee phát huy toàn bộ hỏa lực! Trong thời gian duy trì, liên tục triệu hồi Tia Lửa Mãnh Liệt tấn công kẻ địch lân cận, gây Sát Thương Phạm Vi Nguyên Tố Hỏa.Người trong Đội Kỵ Sĩ tin rằng, Klee xưa nay chưa từng bị thương bởi thuốc nổ của mình nhất định là do ngôi sao may mắn nào đó luôn chiếu cố cô bé...",
+        "zh-tw": "可莉火力全開！在技能持續時間內，不停召喚轟轟火花攻擊附近的敵人，造成火元素範圍傷害。騎士團的人相信，可莉從來不被自己的炸彈所傷，一定有幸運星眷顧著她吧…"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/可莉/battle_talent_2/battle_talent_2.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Presente Explosivo",
+        "en-us": "Pounding Surprise",
+        "ja-jp": "こんこんプレゼント",
+        "zh-cn": "砰砰礼物",
+        "ko-kr": "펑펑 선물",
+        "ru-ru": "Тук-тук, кто там?",
+        "de-de": "Explosives Geschenk",
+        "fr-fr": "Cadeau explosif",
+        "es-es": "Regalo explosivo",
+        "id-id": "Pounding Surprise",
+        "th-th": "Pounding Surprise",
+        "vi-vn": "Món Quà Bằng Bằng",
+        "zh-tw": "砰砰禮物"
+      },
+      "description": {
+        "pt-pt": "Quando a Bomba Saltitante e os Ataques Normais causam Dano, Klee possui 50% de chance de obter um Lampejo Explosivo.O Lampejo Explosivo será consumido pelo próximo Ataque Carregado sem consumo de Stamina e causa 50% de Dano adicional.",
+        "en-us": "When Jumpy Dumpty and Normal Attacks deal DMG, Klee has a 50% chance to obtain an Explosive Spark.This Explosive Spark is consumed by the next Charged Attack, which costs no Stamina and deals 50% increased DMG.",
+        "ja-jp": "ボンボン爆弾と通常攻撃が敵にダメージを与えた時、50%の確率でクレーは爆裂花火を獲得する。重撃を発動する時、スタミナの代わりに爆裂花火を優先的に消費し、与えるダメージ+50%。",
+        "zh-cn": "蹦蹦炸弹与普通攻击造成伤害时，有50%的几率赋予可莉一朵爆裂火花。施放重击时将消耗爆裂火花，使本次重击不消耗体力，造成的伤害提升50%。",
+        "ko-kr": "통통 폭탄과 일반 공격으로 피해를 줄 때 50%의 확률로 클레에게 폭렬 불꽃을 1송이 부여한다.강공격 발동 시 소모되는 스태미나를 대신해 폭렬 불꽃을 소모하며 가하는 피해가 50% 증가한다.",
+        "ru-ru": "При нанесении урона навыком Прыг-скок бомба или обычной атакой, Кли имеет 50% шанс получить Взрывную искру.Взрывная искра тратится при следующей заряженной атаке, которая наносит на 50% больше урона и не потребляет выносливость.",
+        "de-de": "Erschafft beim Verursachen von Schaden mit Bimm-Bamm-Bombe oder Standardangriffen mit einer Wahrscheinlichkeit von 50 % einen explosiven Funken.Verbraucht beim nächsten heftigen Schlag den Funken statt Ausdauer und erhöht den damit verursachten Schaden um 50 %.",
+        "fr-fr": "Les attaques normales ainsi que Bombe rebondissante ont 50 % de chances de conférer à Klee une étincelle explosive lorsqu'elles infligent des DGT.Cette dernière est consommée lors de la prochaine attaque chargée, qui inflige 50 % de DGT supplémentaires sans consommer d'endurance.",
+        "es-es": "Cuando se inflige daño con Bomba saltarina y Ataque Normal, hay una probabilidad del 50% de que Klee obtenga una flor explosiva.El siguiente Ataque Cargado consumirá esta flor explosiva sin ningún coste de Aguante y tendrá un aumento de daño del 50%.",
+        "id-id": "Saat Jumpy Dumpty atau Normal Attack Klee mengakibatkan DMG, Klee memiliki 50% kemungkinan untuk mendapatkan Explosive Spark.Explosive Spark akan terkonsumsi saat Klee melancarkan Charged Attack dan membuatnya tidak mengonsumsi Stamina serta mengakibatkan 50% DMG lebih besar.",
+        "th-th": "เมื่อ Jumpy Dumpty และการโจมตีปกติสร้างความเสียหาย จะมีโอกาส 50% ที่จะมอบ Explosive Spark ให้แก่ Klee หนึ่งดอกเมื่อชาร์จโจมตี Explosive Spark จะถูกใช้ ซึ่งทำให้การชาร์จโจมตีในครั้งนี้ไม่ใช้พลังกาย และสร้างความเสียหายเพิ่มขึ้น 50%",
+        "vi-vn": "Khi Bom Nảy và tấn công thường tạo thành sát thương, có tỷ lệ 50% tạo thành một đoá Hoa Tia Lửa cho Klee.Thi triển trọng kích sẽ tiêu hao Hoa Tia Lửa, khiến lần trọng kích này không tiêu hao thể lực, đồng thời tăng 50% sát thương gây ra.",
+        "zh-tw": "蹦蹦炸彈與普通攻擊造成傷害時，有50%的機率賦予可莉一朵爆裂火花。施放重擊時將消耗爆裂火花，使本次重擊不消耗體力，造成的傷害提升50%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/可莉/const_talent_0.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Faíscas Ilimitadas",
+        "en-us": "Sparkling Burst",
+        "ja-jp": "無限花火",
+        "zh-cn": "火花无限",
+        "ko-kr": "무한 스파크",
+        "ru-ru": "Искры без границ",
+        "de-de": "Unzählige Funken",
+        "fr-fr": "Étincelle infinie",
+        "es-es": "Estallido incesante",
+        "id-id": "Sparkling Burst",
+        "th-th": "Sparkling Burst",
+        "vi-vn": "Tia Lửa Vô Hạn",
+        "zh-tw": "火花無限"
+      },
+      "description": {
+        "pt-pt": "Quando o Ataque Carregado de Klee resultar em um Crítico, todos os membros da equipe ganham 2 pontos de Energia Elemental.",
+        "en-us": "When Klee's Charged Attack results in a CRIT Hit, all party members gain 2 Elemental Energy.",
+        "ja-jp": "クレーの重撃が会心を発生すると、チーム全員の元素エネルギーが2回復する。",
+        "zh-cn": "可莉的重击造成暴击后，为队伍中所有角色恢复2点元素能量。",
+        "ko-kr": "클레가 강공격 시 치명타가 발생하면 파티 내 모든 캐릭터의 원소 에너지를 2pt 회복한다.",
+        "ru-ru": "При критическом попадании заряженной атакой Кли все члены отряда получают 2 ед. элементальной энергии.",
+        "de-de": "Stellt allen Truppenmitgliedern beim Verursachen von KT mit Klees heftigen Schlägen 2 Punkte Elementarenergie wieder her.",
+        "fr-fr": "Lorsque Klee inflige des DGT CRIT avec des attaques chargées, l'énergie élémentaire de tous les membres de l'équipe est restaurée de 2 pts.",
+        "es-es": "Cuando Klee asesta un golpe CRIT con su Ataque Cargado, todos los miembros del equipo recuperan 2 pts. de Energía Elemental.",
+        "id-id": "Seluruh anggota party akan mendapatkan 2 Energy saat Charged Attack Klee mengakibatkan CRIT.",
+        "th-th": "เมื่อชาร์จโจมตีของ Klee ติดคริติคอล จะฟื้นฟูพลังงานธาตุ 2 หน่วย ให้แก่ตัวละครทั้งหมดในทีม",
+        "vi-vn": "Trọng Kích của Klee sau khi gây ra bạo kích, hồi phục 2 điểm Năng Lượng Nguyên Tố cho tất cả các nhân vật trong đội.",
+        "zh-tw": "可莉的重擊造成暴擊後，為隊伍中所有角色恢復2點元素能量。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/可莉/const_talent_1.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Tem tesouros por toda parte",
+        "en-us": "All Of My Treasures!",
+        "ja-jp": "宝物揃い",
+        "zh-cn": "全是宝藏",
+        "ko-kr": "전부 보물이야",
+        "ru-ru": "Всюду сокровища!",
+        "de-de": "Alles voller Schätze",
+        "fr-fr": "Des trésors partout !",
+        "es-es": "Todos mis tesoros",
+        "id-id": "All Of My Treasures!",
+        "th-th": "All Of My Treasures!",
+        "vi-vn": "Toàn Là Báu Vật",
+        "zh-tw": "全是寶藏"
+      },
+      "description": {
+        "pt-pt": "Mostra a localização de Especialidades de Mondstadt próximos no mapa.",
+        "en-us": "Displays the location of nearby resources unique to Mondstadt on the mini-map.",
+        "ja-jp": "ミニマップで周囲のモンド地域の特産の位置を表示する。",
+        "zh-cn": "在小地图上显示周围的蒙德区域特产的位置。",
+        "ko-kr": "미니맵에 주위의 몬드 지역 특산물 위치가 나타난다.",
+        "ru-ru": "Отмечает диковины Мондштадта на мини-карте.",
+        "de-de": "Zeigt alle Besonderheiten Mondstadts in der Nähe auf der Minikarte an.",
+        "fr-fr": "Affiche l'emplacement des produits de Mondstadt sur la mini-carte.",
+        "es-es": "Muestra la ubicación de los objetos típicos de Mondstadt cercanos en el minimapa.",
+        "id-id": "Memperlihatkan lokasi produk khas Mondstadt di sekitar pada mini-map.",
+        "th-th": "แสดงตำแหน่งของของพิเศษเฉพาะใน Mondstadt ในมินิแมป",
+        "vi-vn": "Hiển thị vị trí đặc sản khu vực Mondstadt ở xung quanh trên bản đồ nhỏ.",
+        "zh-tw": "在小地圖上顯示周圍的蒙德區域特產的位置。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/可莉/const_talent_2.png"
+    }
+  ],
+  "talentAttributes": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Kaboom!",
+        "en-us": "Kaboom!",
+        "ja-jp": "バンバン",
+        "zh-cn": "普通攻击·砰砰",
+        "ko-kr": "일반 공격·펑펑",
+        "ru-ru": "Бабах!",
+        "de-de": "Standardangriff: Bumm-Bumm",
+        "fr-fr": "Attaque normale : Boum ! Boum !",
+        "es-es": "Ataque Normal: ¡Buuum!",
+        "id-id": "Normal Attack: Kaboom!",
+        "th-th": "โจมตีปกติ - Kaboom!",
+        "vi-vn": "Tấn Công Thường - Bằng Bằng",
+        "zh-tw": "普通攻擊·砰砰"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 1° Golpe",
+            "en-us": "1-Hit DMG",
+            "ja-jp": "1段ダメージ",
+            "zh-cn": "一段伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон атаки 1",
+            "de-de": "SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tahap 1",
+            "th-th": "ความเสียหายขั้น 1",
+            "vi-vn": "Sát Thương Lần 1",
+            "zh-tw": "一段傷害"
+          },
+          "values": [
+            "72.2%",
+            "77.6%",
+            "83%",
+            "90.2%",
+            "95.6%",
+            "101%",
+            "108%",
+            "115%",
+            "123%",
+            "130%",
+            "137%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 2° Golpe",
+            "en-us": "2-Hit DMG",
+            "ja-jp": "2段ダメージ",
+            "zh-cn": "二段伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон атаки 2",
+            "de-de": "SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2.º golpe",
+            "id-id": "DMG Tahap 2",
+            "th-th": "ความเสียหายขั้น 2",
+            "vi-vn": "Sát Thương Lần 2",
+            "zh-tw": "二段傷害"
+          },
+          "values": [
+            "62.4%",
+            "67.1%",
+            "71.8%",
+            "78%",
+            "82.7%",
+            "87.4%",
+            "93.6%",
+            "99.8%",
+            "106%",
+            "112%",
+            "119%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 3° Golpe",
+            "en-us": "3-Hit DMG",
+            "ja-jp": "3段ダメージ",
+            "zh-cn": "三段伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон атаки 3",
+            "de-de": "SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tahap 3",
+            "th-th": "ความเสียหายขั้น 3",
+            "vi-vn": "Sát Thương Lần 3",
+            "zh-tw": "三段傷害"
+          },
+          "values": [
+            "89.9%",
+            "96.7%",
+            "103%",
+            "112%",
+            "119%",
+            "126%",
+            "135%",
+            "144%",
+            "153%",
+            "162%",
+            "171%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Ataque Carregado",
+            "en-us": "Charged Attack DMG",
+            "ja-jp": "重撃ダメージ",
+            "zh-cn": "重击伤害",
+            "ko-kr": "강공격 피해",
+            "ru-ru": "Урон заряженной атаки",
+            "de-de": "SCH heftiger Schläge",
+            "fr-fr": "DGT attaque chargée",
+            "es-es": "Daño de ATQ Cargado",
+            "id-id": "DMG Charged Attack",
+            "th-th": "ความเสียหายชาร์จโจมตี",
+            "vi-vn": "Sát Thương Trọng Kích",
+            "zh-tw": "重擊傷害"
+          },
+          "values": [
+            "157%",
+            "169%",
+            "181%",
+            "197%",
+            "209%",
+            "220%",
+            "236%",
+            "252%",
+            "268%",
+            "283%",
+            "300%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Consumo de Stamina de Ataque Carregado",
+            "en-us": "Charged Attack Stamina Cost",
+            "ja-jp": "重撃スタミナ消費",
+            "zh-cn": "重击体力消耗",
+            "ko-kr": "강공격 스태미나 소모",
+            "ru-ru": "Потребление выносливости",
+            "de-de": "Ausdauerverbrauch heftiger Schläge",
+            "fr-fr": "Coût d'endurance attaque chargée",
+            "es-es": "Coste de Aguante de ATQ Cargado",
+            "id-id": "Konsumsi Stamina Charged Attack",
+            "th-th": "ชาร์จโจมตีใช้พลังกาย",
+            "vi-vn": "Thể lực Trọng Kích tiêu hao",
+            "zh-tw": "重擊體力消耗"
+          },
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Durante a Queda",
+            "en-us": "Plunge DMG",
+            "ja-jp": "落下期間のダメージ",
+            "zh-cn": "下坠期间伤害",
+            "ko-kr": "낙하 기간 피해",
+            "ru-ru": "Урон в падении",
+            "de-de": "SCH beim Fallen",
+            "fr-fr": "DGT durant la chute",
+            "es-es": "Daño de Caída",
+            "id-id": "DMG Selama Plunging",
+            "th-th": "ความเสียหายพุ่งลง",
+            "vi-vn": "Sát Thương Khi Rơi",
+            "zh-tw": "下墜期間傷害"
+          },
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104%",
+            "112%",
+            "120%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Queda de Baixa/Alta Altitude",
+            "en-us": "Low/High Plunge DMG",
+            "ja-jp": "低空/高空落下攻撃ダメージ",
+            "zh-cn": "低空/高空坠地冲击伤害",
+            "ko-kr": "저공/고공 추락 충격 피해",
+            "ru-ru": "Урон низкого/высокого удара",
+            "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
+            "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Daño de impacto de caída baja/alta",
+            "id-id": "DMG Plunging Attack Min./Maks.",
+            "th-th": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+            "vi-vn": "Sát Thương Khi Rơi Từ Độ Cao Thấp/Cao",
+            "zh-tw": "低空/高空墜地衝擊傷害"
+          },
+          "values": [
+            "114%/142%",
+            "123%/153%",
+            "132%/165%",
+            "145%/182%",
+            "155%/193%",
+            "165%/206%",
+            "180%/224%",
+            "194%/243%",
+            "209%/261%",
+            "225%/281%",
+            "240%/300%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_skill",
+      "talentName": {
+        "pt-pt": "Bomba Saltitante",
+        "en-us": "Jumpy Dumpty",
+        "ja-jp": "ボンボン爆弾",
+        "zh-cn": "蹦蹦炸弹",
+        "ko-kr": "통통 폭탄",
+        "ru-ru": "Прыг-скок бомба",
+        "de-de": "Bimm-Bamm-Bombe",
+        "fr-fr": "Bombe rebondissante",
+        "es-es": "Bomba saltarina",
+        "id-id": "Jumpy Dumpty",
+        "th-th": "Jumpy Dumpty",
+        "vi-vn": "Bom Nảy",
+        "zh-tw": "蹦蹦炸彈"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Bomba Saltitante",
+            "en-us": "Jumpy Dumpty DMG",
+            "ja-jp": "ボンボン爆弾ダメージ",
+            "zh-cn": "蹦蹦炸弹伤害",
+            "ko-kr": "통통 폭탄 피해",
+            "ru-ru": "Урон от бомбы",
+            "de-de": "SCH der Bimm-Bamm-Bombe",
+            "fr-fr": "DGT Bombe rebondissante",
+            "es-es": "Daño de Bomba saltarina",
+            "id-id": "DMG Jumpy Dumpty",
+            "th-th": "ความเสียหาย Jumpy Dumpty",
+            "vi-vn": "Sát Thương Bom Nảy",
+            "zh-tw": "蹦蹦炸彈傷害"
+          },
+          "values": [
+            "95.2%",
+            "102%",
+            "109%",
+            "119%",
+            "126%",
+            "133%",
+            "143%",
+            "152%",
+            "162%",
+            "171%",
+            "181%",
+            "190%",
+            "204%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano da Mina",
+            "en-us": "Mine DMG",
+            "ja-jp": "ブービートラップダメージ",
+            "zh-cn": "诡雷伤害",
+            "ko-kr": "부비트랩 피해",
+            "ru-ru": "Урон от мины",
+            "de-de": "SCH der Sprengfallen",
+            "fr-fr": "DGT mine",
+            "es-es": "Daño de mina",
+            "id-id": "DMG Ranjau",
+            "th-th": "ความเสียหายกับระเบิด",
+            "vi-vn": "Sát Thương Quỷ Lôi",
+            "zh-tw": "詭雷傷害"
+          },
+          "values": [
+            "32.8%",
+            "35.3%",
+            "37.7%",
+            "41%",
+            "43.5%",
+            "45.9%",
+            "49.2%",
+            "52.5%",
+            "55.8%",
+            "59%",
+            "62.3%",
+            "65.6%",
+            "69.7%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração da Mina",
+            "en-us": "Mine Duration",
+            "ja-jp": "ブービートラップ継続時間",
+            "zh-cn": "诡雷持续时间",
+            "ko-kr": "부비트랩 지속 시간",
+            "ru-ru": "Длительность мины",
+            "de-de": "Dauer der Sprengfallen",
+            "fr-fr": "Durée mine",
+            "es-es": "Duración de minas",
+            "id-id": "Durasi Ranjau",
+            "th-th": "ระยะเวลาของกับระเบิด",
+            "vi-vn": "Thời Gian Quỷ Lôi Kéo Dài",
+            "zh-tw": "詭雷持續時間"
+          },
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_burst",
+      "talentName": {
+        "pt-pt": "Faíscas Explosivas",
+        "en-us": "Sparks 'n' Splash",
+        "ja-jp": "ドッカン花火",
+        "zh-cn": "轰轰火花",
+        "ko-kr": "쾅쾅 불꽃",
+        "ru-ru": "Грохот и искры",
+        "de-de": "Funkelfunken",
+        "fr-fr": "Fleur bombardier",
+        "es-es": "Chispas explosivas",
+        "id-id": "Sparks 'n' Splash",
+        "th-th": "Sparks 'n' Splash",
+        "vi-vn": "Tia Lửa Mãnh Liệt",
+        "zh-tw": "轟轟火花"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano das Faíscas Explosivas",
+            "en-us": "Sparks 'n' Splash DMG",
+            "ja-jp": "ドッカン花火ダメージ",
+            "zh-cn": "轰轰火花伤害",
+            "ko-kr": "쾅쾅 불꽃 피해",
+            "ru-ru": "Урон от искр",
+            "de-de": "Funkelfunken-SCH",
+            "fr-fr": "DGT Fleur bombardier",
+            "es-es": "Daño de Chispas explosivas",
+            "id-id": "DMG Sparks 'n' Splash",
+            "th-th": "ความเสียหาย Sparks 'n' Splash",
+            "vi-vn": "Sát thương Tia Lửa Mãnh Liệt",
+            "zh-tw": "轟轟火花傷害"
+          },
+          "values": [
+            "42.6%",
+            "45.8%",
+            "49%",
+            "53.3%",
+            "56.5%",
+            "59.7%",
+            "64%",
+            "68.2%",
+            "72.5%",
+            "76.8%",
+            "81%",
+            "85.2%",
+            "90.6%",
+            "95.9%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração",
+            "en-us": "Duration",
+            "ja-jp": "継続時間",
+            "zh-cn": "持续时间",
+            "ko-kr": "지속 시간",
+            "ru-ru": "Длительность",
+            "de-de": "Dauer",
+            "fr-fr": "Durée",
+            "es-es": "Duración",
+            "id-id": "Durasi",
+            "th-th": "ระยะเวลาต่อเนื่อง",
+            "vi-vn": "Thời Gian Kéo Dài",
+            "zh-tw": "持續時間"
+          },
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Energia Elemental",
+            "en-us": "Energy Cost",
+            "ja-jp": "元素エネルギー",
+            "zh-cn": "元素能量",
+            "ko-kr": "원소 에너지",
+            "ru-ru": "Потребление энергии",
+            "de-de": "Elementarenergie",
+            "fr-fr": "Énergie élémentaire",
+            "es-es": "Energía Elemental",
+            "id-id": "Konsumsi Energy",
+            "th-th": "พลังงานธาตุ",
+            "vi-vn": "Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量"
+          },
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "talentMaterials": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Kaboom!",
+        "en-us": "Kaboom!",
+        "ja-jp": "バンバン",
+        "zh-cn": "普通攻击·砰砰",
+        "ko-kr": "일반 공격·펑펑",
+        "ru-ru": "Бабах!",
+        "de-de": "Standardangriff: Bumm-Bumm",
+        "fr-fr": "Attaque normale : Boum ! Boum !",
+        "es-es": "Ataque Normal: ¡Buuum!",
+        "id-id": "Normal Attack: Kaboom!",
+        "th-th": "โจมตีปกติ - Kaboom!",
+        "vi-vn": "Tấn Công Thường - Bằng Bằng",
+        "zh-tw": "普通攻擊·砰砰"
+      },
+      "materials": [
+        {
+          "level": 2,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 12500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "164",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Ensinamentos de Liberdade",
+                "en-us": "Teachings of Freedom",
+                "ja-jp": "自由の教え",
+                "zh-cn": "自由的教导",
+                "ko-kr": "자유의 가르침",
+                "ru-ru": "Учения о Свободе",
+                "de-de": "Lehren der Freiheit",
+                "fr-fr": "Enseignement de la Liberté",
+                "es-es": "Enseñanzas de la libertad",
+                "id-id": "Teachings of Freedom",
+                "th-th": "Teachings of Freedom",
+                "vi-vn": "Bài Giảng Của Tự Do",
+                "zh-tw": "自由的教導"
+              }
+            },
+            {
+              "id": "630",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Pergaminho Guia",
+                "en-us": "Divining Scroll",
+                "ja-jp": "占いの絵巻",
+                "zh-cn": "导能绘卷",
+                "ko-kr": "이능 두루마리",
+                "ru-ru": "Свиток божественной магии",
+                "de-de": "Leitende Schriftrolle",
+                "fr-fr": "Parchemin divinatoire",
+                "es-es": "Pergamino guía",
+                "id-id": "Divining Scroll",
+                "th-th": "Divining Scroll",
+                "vi-vn": "Bản Vẽ Hướng Dẫn",
+                "zh-tw": "導能繪卷"
+              }
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 17500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "163",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Guia da Liberdade",
+                "en-us": "Guide to Freedom",
+                "ja-jp": "自由の導き",
+                "zh-cn": "自由的指引",
+                "ko-kr": "자유의 인도",
+                "ru-ru": "Указания о Свободе",
+                "de-de": "Anleitung zur Freiheit",
+                "fr-fr": "Guide de la Liberté",
+                "es-es": "Guía de la libertad",
+                "id-id": "Guide to Freedom",
+                "th-th": "Guide to Freedom",
+                "vi-vn": "Hướng Dẫn Của Tự Do",
+                "zh-tw": "自由的指引"
+              }
+            },
+            {
+              "id": "634",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Pergaminho do Encantamento",
+                "en-us": "Sealed Scroll",
+                "ja-jp": "封魔の絵巻",
+                "zh-cn": "封魔绘卷",
+                "ko-kr": "봉마의 두루마리",
+                "ru-ru": "Свиток печати",
+                "de-de": "Zaubersiegel-Schriftrolle",
+                "fr-fr": "Parchemin sigillé",
+                "es-es": "Pergamino hechizado",
+                "id-id": "Sealed Scroll",
+                "th-th": "Seal Scroll",
+                "vi-vn": "Bản Vẽ Phong Ấn",
+                "zh-tw": "封魔繪卷"
+              }
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 25000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "163",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Guia da Liberdade",
+                "en-us": "Guide to Freedom",
+                "ja-jp": "自由の導き",
+                "zh-cn": "自由的指引",
+                "ko-kr": "자유의 인도",
+                "ru-ru": "Указания о Свободе",
+                "de-de": "Anleitung zur Freiheit",
+                "fr-fr": "Guide de la Liberté",
+                "es-es": "Guía de la libertad",
+                "id-id": "Guide to Freedom",
+                "th-th": "Guide to Freedom",
+                "vi-vn": "Hướng Dẫn Của Tự Do",
+                "zh-tw": "自由的指引"
+              }
+            },
+            {
+              "id": "634",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Pergaminho do Encantamento",
+                "en-us": "Sealed Scroll",
+                "ja-jp": "封魔の絵巻",
+                "zh-cn": "封魔绘卷",
+                "ko-kr": "봉마의 두루마리",
+                "ru-ru": "Свиток печати",
+                "de-de": "Zaubersiegel-Schriftrolle",
+                "fr-fr": "Parchemin sigillé",
+                "es-es": "Pergamino hechizado",
+                "id-id": "Sealed Scroll",
+                "th-th": "Seal Scroll",
+                "vi-vn": "Bản Vẽ Phong Ấn",
+                "zh-tw": "封魔繪卷"
+              }
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 30000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "163",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Guia da Liberdade",
+                "en-us": "Guide to Freedom",
+                "ja-jp": "自由の導き",
+                "zh-cn": "自由的指引",
+                "ko-kr": "자유의 인도",
+                "ru-ru": "Указания о Свободе",
+                "de-de": "Anleitung zur Freiheit",
+                "fr-fr": "Guide de la Liberté",
+                "es-es": "Guía de la libertad",
+                "id-id": "Guide to Freedom",
+                "th-th": "Guide to Freedom",
+                "vi-vn": "Hướng Dẫn Của Tự Do",
+                "zh-tw": "自由的指引"
+              }
+            },
+            {
+              "id": "634",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Pergaminho do Encantamento",
+                "en-us": "Sealed Scroll",
+                "ja-jp": "封魔の絵巻",
+                "zh-cn": "封魔绘卷",
+                "ko-kr": "봉마의 두루마리",
+                "ru-ru": "Свиток печати",
+                "de-de": "Zaubersiegel-Schriftrolle",
+                "fr-fr": "Parchemin sigillé",
+                "es-es": "Pergamino hechizado",
+                "id-id": "Sealed Scroll",
+                "th-th": "Seal Scroll",
+                "vi-vn": "Bản Vẽ Phong Ấn",
+                "zh-tw": "封魔繪卷"
+              }
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 37500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "163",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Guia da Liberdade",
+                "en-us": "Guide to Freedom",
+                "ja-jp": "自由の導き",
+                "zh-cn": "自由的指引",
+                "ko-kr": "자유의 인도",
+                "ru-ru": "Указания о Свободе",
+                "de-de": "Anleitung zur Freiheit",
+                "fr-fr": "Guide de la Liberté",
+                "es-es": "Guía de la libertad",
+                "id-id": "Guide to Freedom",
+                "th-th": "Guide to Freedom",
+                "vi-vn": "Hướng Dẫn Của Tự Do",
+                "zh-tw": "自由的指引"
+              }
+            },
+            {
+              "id": "634",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Pergaminho do Encantamento",
+                "en-us": "Sealed Scroll",
+                "ja-jp": "封魔の絵巻",
+                "zh-cn": "封魔绘卷",
+                "ko-kr": "봉마의 두루마리",
+                "ru-ru": "Свиток печати",
+                "de-de": "Zaubersiegel-Schriftrolle",
+                "fr-fr": "Parchemin sigillé",
+                "es-es": "Pergamino hechizado",
+                "id-id": "Sealed Scroll",
+                "th-th": "Seal Scroll",
+                "vi-vn": "Bản Vẽ Phong Ấn",
+                "zh-tw": "封魔繪卷"
+              }
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 120000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "162",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Filosofia da Liberdade",
+                "en-us": "Philosophies of Freedom",
+                "ja-jp": "自由の哲学",
+                "zh-cn": "自由的哲学",
+                "ko-kr": "자유의 철학",
+                "ru-ru": "Философия о Свободе",
+                "de-de": "Philosophie der Freiheit",
+                "fr-fr": "Philosophie de la Liberté",
+                "es-es": "Filosofía de la libertad",
+                "id-id": "Philosophies of Freedom",
+                "th-th": "Philosophies of Freedom",
+                "vi-vn": "Triết Học Của Tự Do",
+                "zh-tw": "自由的哲學"
+              }
+            },
+            {
+              "id": "1282",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Pergaminho da Maldição",
+                "en-us": "Forbidden Curse Scroll",
+                "ja-jp": "禁呪の絵巻",
+                "zh-cn": "禁咒绘卷",
+                "ko-kr": "금주의 두루마리",
+                "ru-ru": "Свиток запретного проклятья",
+                "de-de": "Fluchschriftrolle",
+                "fr-fr": "Parchemin maudit",
+                "es-es": "Pergamino maldito",
+                "id-id": "Forbidden Curse Scroll",
+                "th-th": "Forbidden Curse Scroll",
+                "vi-vn": "Bản Vẽ Cấm Chú",
+                "zh-tw": "禁咒繪卷"
+              }
+            },
+            {
+              "id": "356",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Cálice do Vento Norte",
+                "en-us": "Ring of Boreas",
+                "ja-jp": "北風のリング",
+                "zh-cn": "北风之环",
+                "ko-kr": "북풍의 고리",
+                "ru-ru": "Кольцо Борея",
+                "de-de": "Ring des Nordwinds",
+                "fr-fr": "Vertèbre de Borée",
+                "es-es": "Anillo de Boreas",
+                "id-id": "Ring of Boreas",
+                "th-th": "Ring of Boreas",
+                "vi-vn": "Móng Vuốt Bắc Phong",
+                "zh-tw": "北風之環"
+              }
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 260000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "162",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Filosofia da Liberdade",
+                "en-us": "Philosophies of Freedom",
+                "ja-jp": "自由の哲学",
+                "zh-cn": "自由的哲学",
+                "ko-kr": "자유의 철학",
+                "ru-ru": "Философия о Свободе",
+                "de-de": "Philosophie der Freiheit",
+                "fr-fr": "Philosophie de la Liberté",
+                "es-es": "Filosofía de la libertad",
+                "id-id": "Philosophies of Freedom",
+                "th-th": "Philosophies of Freedom",
+                "vi-vn": "Triết Học Của Tự Do",
+                "zh-tw": "自由的哲學"
+              }
+            },
+            {
+              "id": "1282",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Pergaminho da Maldição",
+                "en-us": "Forbidden Curse Scroll",
+                "ja-jp": "禁呪の絵巻",
+                "zh-cn": "禁咒绘卷",
+                "ko-kr": "금주의 두루마리",
+                "ru-ru": "Свиток запретного проклятья",
+                "de-de": "Fluchschriftrolle",
+                "fr-fr": "Parchemin maudit",
+                "es-es": "Pergamino maldito",
+                "id-id": "Forbidden Curse Scroll",
+                "th-th": "Forbidden Curse Scroll",
+                "vi-vn": "Bản Vẽ Cấm Chú",
+                "zh-tw": "禁咒繪卷"
+              }
+            },
+            {
+              "id": "356",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Cálice do Vento Norte",
+                "en-us": "Ring of Boreas",
+                "ja-jp": "北風のリング",
+                "zh-cn": "北风之环",
+                "ko-kr": "북풍의 고리",
+                "ru-ru": "Кольцо Борея",
+                "de-de": "Ring des Nordwinds",
+                "fr-fr": "Vertèbre de Borée",
+                "es-es": "Anillo de Boreas",
+                "id-id": "Ring of Boreas",
+                "th-th": "Ring of Boreas",
+                "vi-vn": "Móng Vuốt Bắc Phong",
+                "zh-tw": "北風之環"
+              }
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 450000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "162",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Filosofia da Liberdade",
+                "en-us": "Philosophies of Freedom",
+                "ja-jp": "自由の哲学",
+                "zh-cn": "自由的哲学",
+                "ko-kr": "자유의 철학",
+                "ru-ru": "Философия о Свободе",
+                "de-de": "Philosophie der Freiheit",
+                "fr-fr": "Philosophie de la Liberté",
+                "es-es": "Filosofía de la libertad",
+                "id-id": "Philosophies of Freedom",
+                "th-th": "Philosophies of Freedom",
+                "vi-vn": "Triết Học Của Tự Do",
+                "zh-tw": "自由的哲學"
+              }
+            },
+            {
+              "id": "1282",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Pergaminho da Maldição",
+                "en-us": "Forbidden Curse Scroll",
+                "ja-jp": "禁呪の絵巻",
+                "zh-cn": "禁咒绘卷",
+                "ko-kr": "금주의 두루마리",
+                "ru-ru": "Свиток запретного проклятья",
+                "de-de": "Fluchschriftrolle",
+                "fr-fr": "Parchemin maudit",
+                "es-es": "Pergamino maldito",
+                "id-id": "Forbidden Curse Scroll",
+                "th-th": "Forbidden Curse Scroll",
+                "vi-vn": "Bản Vẽ Cấm Chú",
+                "zh-tw": "禁咒繪卷"
+              }
+            },
+            {
+              "id": "356",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Cálice do Vento Norte",
+                "en-us": "Ring of Boreas",
+                "ja-jp": "北風のリング",
+                "zh-cn": "北风之环",
+                "ko-kr": "북풍의 고리",
+                "ru-ru": "Кольцо Борея",
+                "de-de": "Ring des Nordwinds",
+                "fr-fr": "Vertèbre de Borée",
+                "es-es": "Anillo de Boreas",
+                "id-id": "Ring of Boreas",
+                "th-th": "Ring of Boreas",
+                "vi-vn": "Móng Vuốt Bắc Phong",
+                "zh-tw": "北風之環"
+              }
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 700000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "162",
+              "iconUrl": null,
+              "amount": 16,
+              "name": {
+                "pt-pt": "Filosofia da Liberdade",
+                "en-us": "Philosophies of Freedom",
+                "ja-jp": "自由の哲学",
+                "zh-cn": "自由的哲学",
+                "ko-kr": "자유의 철학",
+                "ru-ru": "Философия о Свободе",
+                "de-de": "Philosophie der Freiheit",
+                "fr-fr": "Philosophie de la Liberté",
+                "es-es": "Filosofía de la libertad",
+                "id-id": "Philosophies of Freedom",
+                "th-th": "Philosophies of Freedom",
+                "vi-vn": "Triết Học Của Tự Do",
+                "zh-tw": "自由的哲學"
+              }
+            },
+            {
+              "id": "1282",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Pergaminho da Maldição",
+                "en-us": "Forbidden Curse Scroll",
+                "ja-jp": "禁呪の絵巻",
+                "zh-cn": "禁咒绘卷",
+                "ko-kr": "금주의 두루마리",
+                "ru-ru": "Свиток запретного проклятья",
+                "de-de": "Fluchschriftrolle",
+                "fr-fr": "Parchemin maudit",
+                "es-es": "Pergamino maldito",
+                "id-id": "Forbidden Curse Scroll",
+                "th-th": "Forbidden Curse Scroll",
+                "vi-vn": "Bản Vẽ Cấm Chú",
+                "zh-tw": "禁咒繪卷"
+              }
+            },
+            {
+              "id": "356",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Cálice do Vento Norte",
+                "en-us": "Ring of Boreas",
+                "ja-jp": "北風のリング",
+                "zh-cn": "北风之环",
+                "ko-kr": "북풍의 고리",
+                "ru-ru": "Кольцо Борея",
+                "de-de": "Ring des Nordwinds",
+                "fr-fr": "Vertèbre de Borée",
+                "es-es": "Anillo de Boreas",
+                "id-id": "Ring of Boreas",
+                "th-th": "Ring of Boreas",
+                "vi-vn": "Móng Vuốt Bắc Phong",
+                "zh-tw": "北風之環"
+              }
+            },
+            {
+              "id": "900",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa da Sabedoria",
+                "en-us": "Crown of Insight",
+                "ja-jp": "知恵の冠",
+                "zh-cn": "智识之冕",
+                "ko-kr": "지식의 왕관",
+                "ru-ru": "Корона прозрения",
+                "de-de": "Krone der Weisheit",
+                "fr-fr": "Couronne de la sagesse",
+                "es-es": "Corona de la sabiduría",
+                "id-id": "Crown of Insight",
+                "th-th": "Crown of Insight",
+                "vi-vn": "Vương Miện Trí Thức",
+                "zh-tw": "智識之冕"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "affiliation": {
+    "pt-pt": "Cavaleiros de Favonius",
+    "en-us": "Knights of Favonius",
+    "ja-jp": "西風騎士団",
+    "zh-cn": "西风骑士团",
+    "ko-kr": "페보니우스 기사단",
+    "ru-ru": "Ордо Фавониус",
+    "de-de": "Ordo Favonius",
+    "fr-fr": "Ordre de Favonius",
+    "es-es": "Caballeros de Favonius",
+    "id-id": "Knights of Favonius",
+    "th-th": "กองอัศวินแห่ง Favonius",
+    "vi-vn": "Đội Kỵ Sĩ Tây Phong",
+    "zh-tw": "西風騎士團"
+  },
+  "birthday": {
+    "pt-pt": "27/7",
+    "en-us": "7/27",
+    "ja-jp": "7月27日",
+    "zh-cn": "7月27日",
+    "ko-kr": "7월 27일",
+    "ru-ru": "27 июля",
+    "de-de": "27. Juli",
+    "fr-fr": "27/7",
+    "es-es": "27/7",
+    "id-id": "27 Juli",
+    "th-th": "27/7",
+    "vi-vn": "Ngày 27 tháng 7",
+    "zh-tw": "7月27日"
+  },
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1100",
+          "iconUrl": null,
+          "amount": 1,
+          "name": {
+            "pt-pt": "Lasca de Ágata Agnidus",
+            "en-us": "Agnidus Agate Sliver",
+            "ja-jp": "炎願のアゲート・砕屑",
+            "zh-cn": "燃愿玛瑙碎屑",
+            "ko-kr": "불타오르는 마노 가루",
+            "ru-ru": "Осколок агата Агнидус",
+            "de-de": "Agnidus-Achat-Splitter",
+            "fr-fr": "Éclat d'agate agnidus",
+            "es-es": "Pedacito de ágata agnidus",
+            "id-id": "Agnidus Agate Sliver",
+            "th-th": "Agnidus Agate Sliver",
+            "vi-vn": "Vụn Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙碎屑"
+          }
+        },
+        {
+          "id": "735",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Cogumelo Philanemo",
+            "en-us": "Philanemo Mushroom",
+            "ja-jp": "慕風のマッシュルーム",
+            "zh-cn": "慕风蘑菇",
+            "ko-kr": "바람버섯",
+            "ru-ru": "Гриб филанемо",
+            "de-de": "Philanemo-Pilz",
+            "fr-fr": "Champignon anémophile",
+            "es-es": "Seta filanemo",
+            "id-id": "Philanemo Mushroom",
+            "th-th": "Philanemo Mushroom",
+            "vi-vn": "Nấm Rơm Gió",
+            "zh-tw": "慕風蘑菇"
+          }
+        },
+        {
+          "id": "630",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pergaminho Guia",
+            "en-us": "Divining Scroll",
+            "ja-jp": "占いの絵巻",
+            "zh-cn": "导能绘卷",
+            "ko-kr": "이능 두루마리",
+            "ru-ru": "Свиток божественной магии",
+            "de-de": "Leitende Schriftrolle",
+            "fr-fr": "Parchemin divinatoire",
+            "es-es": "Pergamino guía",
+            "id-id": "Divining Scroll",
+            "th-th": "Divining Scroll",
+            "vi-vn": "Bản Vẽ Hướng Dẫn",
+            "zh-tw": "導能繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 40000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1099",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Ágata Agnidus",
+            "en-us": "Agnidus Agate Fragment",
+            "ja-jp": "炎願のアゲート・欠片",
+            "zh-cn": "燃愿玛瑙断片",
+            "ko-kr": "불타오르는 마노 조각",
+            "ru-ru": "Фрагмент агата Агнидус",
+            "de-de": "Agnidus-Achat-Bruchstück",
+            "fr-fr": "Fragment d'agate agnidus",
+            "es-es": "Fragmento de ágata agnidus",
+            "id-id": "Agnidus Agate Fragment",
+            "th-th": "Agnidus Agate Fragment",
+            "vi-vn": "Mảnh Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙斷片"
+          }
+        },
+        {
+          "id": "689",
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Semente de Fogo Eterno",
+            "en-us": "Everflame Seed",
+            "ja-jp": "常燃の火種",
+            "zh-cn": "常燃火种",
+            "ko-kr": "꺼지지 않는 불씨",
+            "ru-ru": "Пылающее семя",
+            "de-de": "Fluxfeuersamen",
+            "fr-fr": "Graine de feu",
+            "es-es": "Semilla de fuego eterno",
+            "id-id": "Everflame Seed",
+            "th-th": "Everflame Seed",
+            "vi-vn": "Ngọn Lửa Vĩnh Hằng",
+            "zh-tw": "常燃火種"
+          }
+        },
+        {
+          "id": "735",
+          "iconUrl": null,
+          "amount": 10,
+          "name": {
+            "pt-pt": "Cogumelo Philanemo",
+            "en-us": "Philanemo Mushroom",
+            "ja-jp": "慕風のマッシュルーム",
+            "zh-cn": "慕风蘑菇",
+            "ko-kr": "바람버섯",
+            "ru-ru": "Гриб филанемо",
+            "de-de": "Philanemo-Pilz",
+            "fr-fr": "Champignon anémophile",
+            "es-es": "Seta filanemo",
+            "id-id": "Philanemo Mushroom",
+            "th-th": "Philanemo Mushroom",
+            "vi-vn": "Nấm Rơm Gió",
+            "zh-tw": "慕風蘑菇"
+          }
+        },
+        {
+          "id": "630",
+          "iconUrl": null,
+          "amount": 15,
+          "name": {
+            "pt-pt": "Pergaminho Guia",
+            "en-us": "Divining Scroll",
+            "ja-jp": "占いの絵巻",
+            "zh-cn": "导能绘卷",
+            "ko-kr": "이능 두루마리",
+            "ru-ru": "Свиток божественной магии",
+            "de-de": "Leitende Schriftrolle",
+            "fr-fr": "Parchemin divinatoire",
+            "es-es": "Pergamino guía",
+            "id-id": "Divining Scroll",
+            "th-th": "Divining Scroll",
+            "vi-vn": "Bản Vẽ Hướng Dẫn",
+            "zh-tw": "導能繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 60000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1099",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Ágata Agnidus",
+            "en-us": "Agnidus Agate Fragment",
+            "ja-jp": "炎願のアゲート・欠片",
+            "zh-cn": "燃愿玛瑙断片",
+            "ko-kr": "불타오르는 마노 조각",
+            "ru-ru": "Фрагмент агата Агнидус",
+            "de-de": "Agnidus-Achat-Bruchstück",
+            "fr-fr": "Fragment d'agate agnidus",
+            "es-es": "Fragmento de ágata agnidus",
+            "id-id": "Agnidus Agate Fragment",
+            "th-th": "Agnidus Agate Fragment",
+            "vi-vn": "Mảnh Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙斷片"
+          }
+        },
+        {
+          "id": "689",
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Semente de Fogo Eterno",
+            "en-us": "Everflame Seed",
+            "ja-jp": "常燃の火種",
+            "zh-cn": "常燃火种",
+            "ko-kr": "꺼지지 않는 불씨",
+            "ru-ru": "Пылающее семя",
+            "de-de": "Fluxfeuersamen",
+            "fr-fr": "Graine de feu",
+            "es-es": "Semilla de fuego eterno",
+            "id-id": "Everflame Seed",
+            "th-th": "Everflame Seed",
+            "vi-vn": "Ngọn Lửa Vĩnh Hằng",
+            "zh-tw": "常燃火種"
+          }
+        },
+        {
+          "id": "735",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Cogumelo Philanemo",
+            "en-us": "Philanemo Mushroom",
+            "ja-jp": "慕風のマッシュルーム",
+            "zh-cn": "慕风蘑菇",
+            "ko-kr": "바람버섯",
+            "ru-ru": "Гриб филанемо",
+            "de-de": "Philanemo-Pilz",
+            "fr-fr": "Champignon anémophile",
+            "es-es": "Seta filanemo",
+            "id-id": "Philanemo Mushroom",
+            "th-th": "Philanemo Mushroom",
+            "vi-vn": "Nấm Rơm Gió",
+            "zh-tw": "慕風蘑菇"
+          }
+        },
+        {
+          "id": "634",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Pergaminho do Encantamento",
+            "en-us": "Sealed Scroll",
+            "ja-jp": "封魔の絵巻",
+            "zh-cn": "封魔绘卷",
+            "ko-kr": "봉마의 두루마리",
+            "ru-ru": "Свиток печати",
+            "de-de": "Zaubersiegel-Schriftrolle",
+            "fr-fr": "Parchemin sigillé",
+            "es-es": "Pergamino hechizado",
+            "id-id": "Sealed Scroll",
+            "th-th": "Seal Scroll",
+            "vi-vn": "Bản Vẽ Phong Ấn",
+            "zh-tw": "封魔繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 80000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1098",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Ágata Agnidus",
+            "en-us": "Agnidus Agate Chunk",
+            "ja-jp": "炎願のアゲート・塊",
+            "zh-cn": "燃愿玛瑙块",
+            "ko-kr": "불타오르는 마노 덩이",
+            "ru-ru": "Кусок агата Агнидус",
+            "de-de": "Agnidus-Achat-Brocken",
+            "fr-fr": "Morceau d'agate agnidus",
+            "es-es": "Trozo de ágata agnidus",
+            "id-id": "Agnidus Agate Chunk",
+            "th-th": "Agnidus Agate Chunk",
+            "vi-vn": "Miếng Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙塊"
+          }
+        },
+        {
+          "id": "689",
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Semente de Fogo Eterno",
+            "en-us": "Everflame Seed",
+            "ja-jp": "常燃の火種",
+            "zh-cn": "常燃火种",
+            "ko-kr": "꺼지지 않는 불씨",
+            "ru-ru": "Пылающее семя",
+            "de-de": "Fluxfeuersamen",
+            "fr-fr": "Graine de feu",
+            "es-es": "Semilla de fuego eterno",
+            "id-id": "Everflame Seed",
+            "th-th": "Everflame Seed",
+            "vi-vn": "Ngọn Lửa Vĩnh Hằng",
+            "zh-tw": "常燃火種"
+          }
+        },
+        {
+          "id": "735",
+          "iconUrl": null,
+          "amount": 30,
+          "name": {
+            "pt-pt": "Cogumelo Philanemo",
+            "en-us": "Philanemo Mushroom",
+            "ja-jp": "慕風のマッシュルーム",
+            "zh-cn": "慕风蘑菇",
+            "ko-kr": "바람버섯",
+            "ru-ru": "Гриб филанемо",
+            "de-de": "Philanemo-Pilz",
+            "fr-fr": "Champignon anémophile",
+            "es-es": "Seta filanemo",
+            "id-id": "Philanemo Mushroom",
+            "th-th": "Philanemo Mushroom",
+            "vi-vn": "Nấm Rơm Gió",
+            "zh-tw": "慕風蘑菇"
+          }
+        },
+        {
+          "id": "634",
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Pergaminho do Encantamento",
+            "en-us": "Sealed Scroll",
+            "ja-jp": "封魔の絵巻",
+            "zh-cn": "封魔绘卷",
+            "ko-kr": "봉마의 두루마리",
+            "ru-ru": "Свиток печати",
+            "de-de": "Zaubersiegel-Schriftrolle",
+            "fr-fr": "Parchemin sigillé",
+            "es-es": "Pergamino hechizado",
+            "id-id": "Sealed Scroll",
+            "th-th": "Seal Scroll",
+            "vi-vn": "Bản Vẽ Phong Ấn",
+            "zh-tw": "封魔繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 100000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1098",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Ágata Agnidus",
+            "en-us": "Agnidus Agate Chunk",
+            "ja-jp": "炎願のアゲート・塊",
+            "zh-cn": "燃愿玛瑙块",
+            "ko-kr": "불타오르는 마노 덩이",
+            "ru-ru": "Кусок агата Агнидус",
+            "de-de": "Agnidus-Achat-Brocken",
+            "fr-fr": "Morceau d'agate agnidus",
+            "es-es": "Trozo de ágata agnidus",
+            "id-id": "Agnidus Agate Chunk",
+            "th-th": "Agnidus Agate Chunk",
+            "vi-vn": "Miếng Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙塊"
+          }
+        },
+        {
+          "id": "689",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Semente de Fogo Eterno",
+            "en-us": "Everflame Seed",
+            "ja-jp": "常燃の火種",
+            "zh-cn": "常燃火种",
+            "ko-kr": "꺼지지 않는 불씨",
+            "ru-ru": "Пылающее семя",
+            "de-de": "Fluxfeuersamen",
+            "fr-fr": "Graine de feu",
+            "es-es": "Semilla de fuego eterno",
+            "id-id": "Everflame Seed",
+            "th-th": "Everflame Seed",
+            "vi-vn": "Ngọn Lửa Vĩnh Hằng",
+            "zh-tw": "常燃火種"
+          }
+        },
+        {
+          "id": "735",
+          "iconUrl": null,
+          "amount": 45,
+          "name": {
+            "pt-pt": "Cogumelo Philanemo",
+            "en-us": "Philanemo Mushroom",
+            "ja-jp": "慕風のマッシュルーム",
+            "zh-cn": "慕风蘑菇",
+            "ko-kr": "바람버섯",
+            "ru-ru": "Гриб филанемо",
+            "de-de": "Philanemo-Pilz",
+            "fr-fr": "Champignon anémophile",
+            "es-es": "Seta filanemo",
+            "id-id": "Philanemo Mushroom",
+            "th-th": "Philanemo Mushroom",
+            "vi-vn": "Nấm Rơm Gió",
+            "zh-tw": "慕風蘑菇"
+          }
+        },
+        {
+          "id": "1282",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Pergaminho da Maldição",
+            "en-us": "Forbidden Curse Scroll",
+            "ja-jp": "禁呪の絵巻",
+            "zh-cn": "禁咒绘卷",
+            "ko-kr": "금주의 두루마리",
+            "ru-ru": "Свиток запретного проклятья",
+            "de-de": "Fluchschriftrolle",
+            "fr-fr": "Parchemin maudit",
+            "es-es": "Pergamino maldito",
+            "id-id": "Forbidden Curse Scroll",
+            "th-th": "Forbidden Curse Scroll",
+            "vi-vn": "Bản Vẽ Cấm Chú",
+            "zh-tw": "禁咒繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 120000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1097",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Gema de Ágata Agnidus",
+            "en-us": "Agnidus Agate Gemstone",
+            "ja-jp": "炎願のアゲート",
+            "zh-cn": "燃愿玛瑙",
+            "ko-kr": "불타오르는 마노",
+            "ru-ru": "Драгоценный агат Агнидус",
+            "de-de": "Agnidus-Achat",
+            "fr-fr": "Pierre d'agate agnidus",
+            "es-es": "Ágata agnidus",
+            "id-id": "Agnidus Agate Gemstone",
+            "th-th": "Agnidus Agate Gemstone",
+            "vi-vn": "Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙"
+          }
+        },
+        {
+          "id": "689",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Semente de Fogo Eterno",
+            "en-us": "Everflame Seed",
+            "ja-jp": "常燃の火種",
+            "zh-cn": "常燃火种",
+            "ko-kr": "꺼지지 않는 불씨",
+            "ru-ru": "Пылающее семя",
+            "de-de": "Fluxfeuersamen",
+            "fr-fr": "Graine de feu",
+            "es-es": "Semilla de fuego eterno",
+            "id-id": "Everflame Seed",
+            "th-th": "Everflame Seed",
+            "vi-vn": "Ngọn Lửa Vĩnh Hằng",
+            "zh-tw": "常燃火種"
+          }
+        },
+        {
+          "id": "735",
+          "iconUrl": null,
+          "amount": 60,
+          "name": {
+            "pt-pt": "Cogumelo Philanemo",
+            "en-us": "Philanemo Mushroom",
+            "ja-jp": "慕風のマッシュルーム",
+            "zh-cn": "慕风蘑菇",
+            "ko-kr": "바람버섯",
+            "ru-ru": "Гриб филанемо",
+            "de-de": "Philanemo-Pilz",
+            "fr-fr": "Champignon anémophile",
+            "es-es": "Seta filanemo",
+            "id-id": "Philanemo Mushroom",
+            "th-th": "Philanemo Mushroom",
+            "vi-vn": "Nấm Rơm Gió",
+            "zh-tw": "慕風蘑菇"
+          }
+        },
+        {
+          "id": "1282",
+          "iconUrl": null,
+          "amount": 24,
+          "name": {
+            "pt-pt": "Pergaminho da Maldição",
+            "en-us": "Forbidden Curse Scroll",
+            "ja-jp": "禁呪の絵巻",
+            "zh-cn": "禁咒绘卷",
+            "ko-kr": "금주의 두루마리",
+            "ru-ru": "Свиток запретного проклятья",
+            "de-de": "Fluchschriftrolle",
+            "fr-fr": "Parchemin maudit",
+            "es-es": "Pergamino maldito",
+            "id-id": "Forbidden Curse Scroll",
+            "th-th": "Forbidden Curse Scroll",
+            "vi-vn": "Bản Vẽ Cấm Chú",
+            "zh-tw": "禁咒繪卷"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "801"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "24"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "48"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Pyro",
+            "en-us": "Pyro DMG Bonus",
+            "ja-jp": "炎元素ダメージ",
+            "zh-cn": "火元素伤害加成",
+            "ko-kr": "불 원소 피해 보너스",
+            "ru-ru": "Бонус Пиро урона",
+            "de-de": "Pyro-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Pyro",
+            "es-es": "Bono de Daño Pyro",
+            "id-id": "Pyro DMG Bonus",
+            "th-th": "โบนัสความเสียหายไฟ",
+            "vi-vn": "Tăng ST Nguyên Tố Hỏa",
+            "zh-tw": "火元素傷害加成"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "2077",
+          "postAscensionValue": "2764"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "63",
+          "postAscensionValue": "84"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "124",
+          "postAscensionValue": "165"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Pyro",
+            "en-us": "Pyro DMG Bonus",
+            "ja-jp": "炎元素ダメージ",
+            "zh-cn": "火元素伤害加成",
+            "ko-kr": "불 원소 피해 보너스",
+            "ru-ru": "Бонус Пиро урона",
+            "de-de": "Pyro-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Pyro",
+            "es-es": "Bono de Daño Pyro",
+            "id-id": "Pyro DMG Bonus",
+            "th-th": "โบนัสความเสียหายไฟ",
+            "vi-vn": "Tăng ST Nguyên Tố Hỏa",
+            "zh-tw": "火元素傷害加成"
+          },
+          "preAscensionValue": "0%",
+          "postAscensionValue": "0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "4136",
+          "postAscensionValue": "4623"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "125",
+          "postAscensionValue": "140"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "247",
+          "postAscensionValue": "276"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Pyro",
+            "en-us": "Pyro DMG Bonus",
+            "ja-jp": "炎元素ダメージ",
+            "zh-cn": "火元素伤害加成",
+            "ko-kr": "불 원소 피해 보너스",
+            "ru-ru": "Бонус Пиро урона",
+            "de-de": "Pyro-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Pyro",
+            "es-es": "Bono de Daño Pyro",
+            "id-id": "Pyro DMG Bonus",
+            "th-th": "โบนัสความเสียหายไฟ",
+            "vi-vn": "Tăng ST Nguyên Tố Hỏa",
+            "zh-tw": "火元素傷害加成"
+          },
+          "preAscensionValue": "0%",
+          "postAscensionValue": "7.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "5319",
+          "postAscensionValue": "5970"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "161",
+          "postAscensionValue": "180"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "318",
+          "postAscensionValue": "357"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Pyro",
+            "en-us": "Pyro DMG Bonus",
+            "ja-jp": "炎元素ダメージ",
+            "zh-cn": "火元素伤害加成",
+            "ko-kr": "불 원소 피해 보너스",
+            "ru-ru": "Бонус Пиро урона",
+            "de-de": "Pyro-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Pyro",
+            "es-es": "Bono de Daño Pyro",
+            "id-id": "Pyro DMG Bonus",
+            "th-th": "โบนัสความเสียหายไฟ",
+            "vi-vn": "Tăng ST Nguyên Tố Hỏa",
+            "zh-tw": "火元素傷害加成"
+          },
+          "preAscensionValue": "7.2%",
+          "postAscensionValue": "14.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "6673",
+          "postAscensionValue": "7161"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "202",
+          "postAscensionValue": "216"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "399",
+          "postAscensionValue": "428"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Pyro",
+            "en-us": "Pyro DMG Bonus",
+            "ja-jp": "炎元素ダメージ",
+            "zh-cn": "火元素伤害加成",
+            "ko-kr": "불 원소 피해 보너스",
+            "ru-ru": "Бонус Пиро урона",
+            "de-de": "Pyro-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Pyro",
+            "es-es": "Bono de Daño Pyro",
+            "id-id": "Pyro DMG Bonus",
+            "th-th": "โบนัสความเสียหายไฟ",
+            "vi-vn": "Tăng ST Nguyên Tố Hỏa",
+            "zh-tw": "火元素傷害加成"
+          },
+          "preAscensionValue": "14.4%",
+          "postAscensionValue": "14.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "7870",
+          "postAscensionValue": "8358"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "238",
+          "postAscensionValue": "253"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "470",
+          "postAscensionValue": "500"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Pyro",
+            "en-us": "Pyro DMG Bonus",
+            "ja-jp": "炎元素ダメージ",
+            "zh-cn": "火元素伤害加成",
+            "ko-kr": "불 원소 피해 보너스",
+            "ru-ru": "Бонус Пиро урона",
+            "de-de": "Pyro-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Pyro",
+            "es-es": "Bono de Daño Pyro",
+            "id-id": "Pyro DMG Bonus",
+            "th-th": "โบนัสความเสียหายไฟ",
+            "vi-vn": "Tăng ST Nguyên Tố Hỏa",
+            "zh-tw": "火元素傷害加成"
+          },
+          "preAscensionValue": "14.4%",
+          "postAscensionValue": "21.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "9076",
+          "postAscensionValue": "9563"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "274",
+          "postAscensionValue": "289"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "542",
+          "postAscensionValue": "572"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Pyro",
+            "en-us": "Pyro DMG Bonus",
+            "ja-jp": "炎元素ダメージ",
+            "zh-cn": "火元素伤害加成",
+            "ko-kr": "불 원소 피해 보너스",
+            "ru-ru": "Бонус Пиро урона",
+            "de-de": "Pyro-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Pyro",
+            "es-es": "Bono de Daño Pyro",
+            "id-id": "Pyro DMG Bonus",
+            "th-th": "โบนัสความเสียหายไฟ",
+            "vi-vn": "Tăng ST Nguyên Tố Hỏa",
+            "zh-tw": "火元素傷害加成"
+          },
+          "preAscensionValue": "21.6%",
+          "postAscensionValue": "28.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "10287",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "311",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "615",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Pyro",
+            "en-us": "Pyro DMG Bonus",
+            "ja-jp": "炎元素ダメージ",
+            "zh-cn": "火元素伤害加成",
+            "ko-kr": "불 원소 피해 보너스",
+            "ru-ru": "Бонус Пиро урона",
+            "de-de": "Pyro-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Pyro",
+            "es-es": "Bono de Daño Pyro",
+            "id-id": "Pyro DMG Bonus",
+            "th-th": "โบนัสความเสียหายไฟ",
+            "vi-vn": "Tăng ST Nguyên Tố Hỏa",
+            "zh-tw": "火元素傷害加成"
+          },
+          "preAscensionValue": "28.8%",
+          "postAscensionValue": ""
+        }
+      ]
+    }
+  ]
+}

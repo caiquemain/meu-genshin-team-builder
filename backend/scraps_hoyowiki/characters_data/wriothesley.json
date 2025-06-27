@@ -1,0 +1,3432 @@
+{
+  "id": "wriothesley",
+  "wiki_id": "4022",
+  "name": {
+    "pt-pt": "Wriothesley",
+    "en-us": "Wriothesley",
+    "ja-jp": "リオセスリ",
+    "zh-cn": "莱欧斯利",
+    "ko-kr": "라이오슬리",
+    "ru-ru": "Ризли",
+    "de-de": "Wriothesley",
+    "fr-fr": "Wriothesley",
+    "es-es": "Wriothesley",
+    "id-id": "Wriothesley",
+    "th-th": "Wriothesley",
+    "vi-vn": "Wriothesley",
+    "zh-tw": "萊歐斯利"
+  },
+  "title": {
+    "pt-pt": "Emissário da Culpa Incógnita",
+    "en-us": "Emissary of Solitary Iniquity",
+    "ja-jp": "寂罪の密使",
+    "zh-cn": "寂罪的密使",
+    "ko-kr": "고요한 죄의 밀사",
+    "ru-ru": "Эмиссар заточённых злодеяний",
+    "de-de": "Gesandter der einsamen Sünde",
+    "fr-fr": "Émissaire de l'iniquité solitaire",
+    "es-es": "El&nbsp;Emisario de los Culpables",
+    "id-id": "Emissary of Solitary Iniquity",
+    "th-th": "ทูตแห่งบาปเร้นคณา",
+    "vi-vn": "Sứ Giả Tội Danh Ẩn Mật",
+    "zh-tw": "寂罪的密使"
+  },
+  "description": {
+    "pt-pt": "Duque da Fortaleza Meropide, Lorde Incógnito das profundezas obscuras.",
+    "en-us": "Duke of the Fortress of Meropide, Lord Incognito of the murky depths.",
+    "ja-jp": "メロピデ要塞の公爵。漆黒の海底に潜む領主。",
+    "zh-cn": "梅洛彼得堡的公爵，隐于漆黑海底的领主。",
+    "ko-kr": "「나비아, 몇 년 전에 내가 멜모니아궁에서 수여한 『백작』 칭호를 거절했던 일을 기억하니? 아, 그건 중요한 게 아니니까 괜찮단다. 오늘 드디어 메로피드 요새의 관리인을 만났어. 줄곧 『공작』이란 칭호는 그저 그럴듯한 장신구일 뿐이라 생각해왔는데… 그 라이오슬리라는 사람은 보기보다 훨씬 실속 있고 노련하더구나」——가시 장미회 전대 보스 칼라스",
+    "ru-ru": "Герцог крепости Меропид, повелитель тёмных глубин.«Навия, помнишь, несколько лет назад я отказался от титула барона, который мне предложили во Дворце Мермония? Неважно. Сегодня я наконец-то познакомился с управляющим крепости Меропид. До этого я думал, что титул герцога пустой звук. Но оказалось, что Ризли гораздо старше, чем кажется», - Каллас, бывший глава Спина-ди-Росула.",
+    "de-de": "Herzog vom Fort Méropide. Ein Herrscher, der sich in den finsteren Tiefen des Ozeans verborgen hält.",
+    "fr-fr": "Le duc de la Forteresse de Méropide est dans l'ombre le seigneur des profondeurs troubles.",
+    "es-es": "El duque del Fuerte Merópide y gobernante oculto del oscuro fondo marino.",
+    "id-id": "Pemimpin Fortress of Meropide yang bergelar Duke. Penguasa di perairan keruh.",
+    "th-th": "ดยุกแห่งป้อมปราการ Meropide ผู้ปกครองใต้ท้องทะเลอันมืดมิด",
+    "vi-vn": "Công tước của Pháo Đài Meropide, là vị chúa tể ẩn mình trong biển tối.",
+    "zh-tw": "梅洛彼得堡的公爵，隱於漆黑海底的領主。"
+  },
+  "rarity": 5,
+  "vision": {
+    "label": {
+      "pt-pt": "Tipo Elemental",
+      "en-us": "Elemental Type",
+      "ja-jp": "元素タイプ",
+      "zh-cn": "元素属性",
+      "ko-kr": "원소 속성",
+      "ru-ru": "Элемент",
+      "de-de": "Elementartyp",
+      "fr-fr": "Élément",
+      "es-es": "Tipo elemental",
+      "id-id": "Tipe Elemen",
+      "th-th": "ประเภทธาตุ",
+      "vi-vn": "Thuộc Tính Nguyên Tố",
+      "zh-tw": "元素屬性"
+    },
+    "value": {
+      "pt-pt": "Cryo",
+      "en-us": "Cryo",
+      "ja-jp": "氷元素",
+      "zh-cn": "冰元素",
+      "ko-kr": "얼음 원소",
+      "ru-ru": "Крио",
+      "de-de": "Kryo",
+      "fr-fr": "Cryo",
+      "es-es": "Cryo",
+      "id-id": "Cryo",
+      "th-th": "น้ำแข็ง",
+      "vi-vn": "Băng",
+      "zh-tw": "冰元素"
+    }
+  },
+  "weapon": {
+    "label": {
+      "pt-pt": "Arma",
+      "en-us": "Weapons",
+      "ja-jp": "武器種",
+      "zh-cn": "武器",
+      "ko-kr": "무기",
+      "ru-ru": "Тип",
+      "de-de": "Waffe",
+      "fr-fr": "Type d'arme",
+      "es-es": "Arma",
+      "id-id": "Senjata",
+      "th-th": "อาวุธ",
+      "vi-vn": "Vũ Khí",
+      "zh-tw": "武器"
+    },
+    "value": {
+      "pt-pt": "Catalisador",
+      "en-us": "Catalyst",
+      "ja-jp": "法器",
+      "zh-cn": "法器",
+      "ko-kr": "법구",
+      "ru-ru": "Катализатор",
+      "de-de": "Katalysator",
+      "fr-fr": "Catalyseur",
+      "es-es": "Catalizador",
+      "id-id": "Catalyst",
+      "th-th": "สื่อเวท",
+      "vi-vn": "Pháp Khí",
+      "zh-tw": "法器"
+    }
+  },
+  "characterIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/18/59559639/31a0eb2dec5d69ca8dd7616572136b8b_8832196977977678933.png",
+  "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
+  "constellationNameOfficial": {
+    "pt-pt": "Cerberus",
+    "en-us": "Cerberus",
+    "ja-jp": "獄守犬座",
+    "zh-cn": "守狱犬座",
+    "ru-ru": "Сторожевой Пёс",
+    "de-de": "Cerberus",
+    "fr-fr": "Cerberus",
+    "es-es": "Cerberus",
+    "id-id": "Cerberus",
+    "th-th": "Cerberus",
+    "zh-tw": "守獄犬座",
+    "ko-kr": "N/A",
+    "vi-vn": "N/A"
+  },
+  "specialDish": {
+    "id": 4392,
+    "name": {
+      "pt-pt": "Churrasco de Costela com Molho Secreto",
+      "en-us": "Secret Sauce BBQ Ribs",
+      "ja-jp": "秘伝のローストリブ",
+      "zh-cn": "秘烤肋排",
+      "ko-kr": "특제 소스 등갈비 바비큐",
+      "ru-ru": "Рёбра на гриле по секретному рецепту",
+      "de-de": "Gegrillte Rippchen mit geheimer Sauce",
+      "fr-fr": "Côtes spéciales au barbecue",
+      "es-es": "Costillas con salsa secreta",
+      "id-id": "Secret Sauce BBQ Ribs",
+      "th-th": "Secret Sauce BBQ Ribs",
+      "vi-vn": "Sườn Que Nướng Bí Truyền",
+      "zh-tw": "秘烤肋排"
+    },
+    "iconUrl": null
+  },
+  "namecard": {
+    "id": 6241,
+    "name": {
+      "pt-pt": "Wriothesley: Detenção",
+      "en-us": "Wriothesley: Detention",
+      "ja-jp": "リオセスリ·封鎖",
+      "zh-cn": "莱欧斯利·缄锁",
+      "ko-kr": "라이오슬리·쇠사슬",
+      "ru-ru": "Удержание",
+      "de-de": "Wriothesley – Eingesperrt",
+      "fr-fr": "Wriothesley - Détention",
+      "es-es": "Wriothesley - Encarcelamiento",
+      "id-id": "Wriothesley: Detention",
+      "th-th": "Wriothesley - กักขัง",
+      "vi-vn": "Wriothesley - Khóa Chặt",
+      "zh-tw": "萊歐斯利·緘鎖"
+    },
+    "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/15/b2fc5c1cc95aa74455137e99bdea9752_5979966505025401582.png"
+  },
+  "constellations": [
+    {
+      "id": "summaryList83615",
+      "constellationNumber": 1,
+      "name": {
+        "pt-pt": "Aterrorizando Criminosos",
+        "en-us": "Terror for the Evildoers",
+        "ja-jp": "悪を為す者に恐れを",
+        "zh-cn": "予行恶者以惩惧",
+        "ko-kr": "악행자에게 징벌을",
+        "ru-ru": "Держать злодеев в страхе",
+        "de-de": "Angst den Übeltätern",
+        "fr-fr": "Terreur pour les malfaiteurs",
+        "es-es": "Aterrorizar a los facinerosos",
+        "id-id": "Terror for the Evildoers",
+        "th-th": "Terror for the Evildoers",
+        "vi-vn": "Trừng Trị Kẻ Hành Ác",
+        "zh-tw": "予行惡者以懲懼"
+      },
+      "description": {
+        "pt-pt": "Muda a \"Ordem da Graça\" do Talento Passivo \"Haverá Arguição Pela Justiça\":Quando a Vida de Wriothesley for inferior a 60%, ou quando estiver no estado Julgamento do Gelo Feroz de Corrida da Presa Gelada e o quinto golpe de Soco Repulsor atingir um inimigo, obtém \"Ordem da Graça\". É possível obter uma \"Ordem da Graça\" a cada 2.5s.Além disso, Disciplina: Soco do Salto Gelado recebe os seguintes bônus:· Aumenta o Dano causado ainda mais, chegando a 200%.· Ao atingir um inimigo, se estiver no estado Julgamento do Gelo Feroz, a duração desse estado é prolongada em 4s. É possível prolongar a duração de uma instância do estado Julgamento do Gelo Feroz uma vez dessa forma.É necessário ter desbloqueado o Talento Passivo \"Haverá Arguição Pela Justiça\".",
+        "en-us": "The Gracious Rebuke from the Passive Talent \"There Shall Be a Plea for Justice\" is changed to this:When Wriothesley's HP is less than 60% or while he is in the Chilling Penalty state caused by Icefang Rush, when the fifth attack of Repelling Fists hits, it will create a Gracious Rebuke. 1 Gracious Rebuke effect can be obtained every 2.5s.Additionally, Rebuke: Vaulting Fist will obtain the following enhancement:· The DMG Bonus gained will be further increased to 200%.· When it hits while Wriothesley is in the Chilling Penalty state, that state's duration is extended by 4s. 1 such extension can occur per 1 Chilling Penalty duration.You must first unlock the Passive Talent \"There Shall Be a Plea for Justice.\"",
+        "ja-jp": "固有天賦「やがて公義は弁ぜらる」の「恩典の戒め」は以下のように変化する。リオセスリのHPが60%未満、またはアイスファング・ラッシュによる烈霜の懲戒状態を継続中に、リペルブローの5段目が命中すると「恩典の戒め」を獲得する。「恩典の戒め」は2.5秒毎に1回のみ獲得可能。また、誅罰・ヴォールティングアッパーは以下のように強化される。・ダメージアップ効果が200%になる。・命中した時に烈霜の懲戒状態だった場合、烈霜の懲戒状態が4秒延長される。烈霜の懲戒状態中、この方法による継続時間の延長は1回のみ。固有天賦「やがて公義は弁ぜらる」を解放する必要がある。",
+        "zh-cn": "固有天赋「公理终有辩诉之日」的「恩典之诫」转变为： 莱欧斯利的生命值低于60％，或在冰牙突驰的寒烈的惩裁状态持续期间，斥逐拳的第五段攻击命中时，将获得「恩典之诫 」，每2.5秒至多获得一次「恩典之诫」效果。 此外，惩戒·凌跃拳获得以下强化： ·造成的伤害提升进一步提升至200％； ·命中时，若处于寒烈的惩裁状态下，该状态的持续时间延长4秒，在一次寒烈的惩裁状态持续期间，至多通过这种方式延长一次。 需要解锁固有天赋「公理终有辩诉之日」",
+        "ko-kr": "고유 특성 「정의는 밝혀지기 마련」의 「은혜로운 훈계」가 다음으로 변경된다:라이오슬리의 HP가 60% 미만이거나 얼음송곳니 돌진의 혹한의 징벌 상태 지속 시간 동안 격퇴권의 다섯 번째 공격이 명중하면 「은혜로운 훈계」를 획득한다. 2.5초마다 「은혜로운 훈계」 효과를 최대 1회 획득할 수 있다.또한, 징벌 • 도약권이 다음과 같이 강화된다:• 주는 피해 증가가 200%로 한층 더 증가한다.• 명중 시 혹한의 징벌 상태라면 해당 상태의 지속 시간이 4초 연장된다. 해당 방식으로 한 번의 혹한의 징벌 상태 지속 시간 동안, 지속 시간을 최대 1회 연장할 수 있다.고유 특성 「정의는 밝혀지기 마련」을 해금해야 한다",
+        "ru-ru": "Благодатное взыскание пассивного таланта Да восторжествует справедливость меняется:Пока HP Ризли меньше 60% или он пребывает в состоянии Леденящего наказания Стремительного ледяного клыка, когда по противнику попадает пятый удар Кулаков изгнания, Ризли получает Благодатное взыскание. Один эффект Благодатного взыскания можно получить 1 раз в 2,5 сек.Кроме того, Взыскание: Морозный кулак в прыжке получает следующие усиления:· Увеличение урона повышается до 200%.· Попадания по врагу в состоянии Леденящего наказания продлевают его на 4 сек. Каждое Леденящее наказание можно продлить таким способом только один раз.Требуется разблокировать пассивный талант «Да восторжествует справедливость».",
+        "de-de": "Ändert den Effekt „Gebot der Gnade“ von dem passiven Talent „Tag des Plädoyers der Gerechtigkeit“ wie folgt:Wriothesley erhält „Gebot der Gnade“, sobald der fünfte Angriff einer Kombo seiner Sturmfäuste trifft, während seine LP unter 60% liegen oder er sich im Zustand „Eiskalte Bestrafung“ von Eiszahn-Ansturm befindet. 2,5s Abklingzeit.Außerdem wird Rüge – Gefrierende Sprungfaust wie folgt verstärkt:· Verursachter Schaden wird weiter auf bis zu 200% erhöht.· Verlängert die Dauer von „Eiskalter Bestrafung“ um 4s, wenn in diesem Zustand ein Treffer gelandet wird. Die Dauer von „Eiskalter Bestrafung“ kann während der Dauer eines Zustands nur einmal auf diese Weise verlängert werden.Das passive Talent „Tag des Plädoyers der Gerechtigkeit“ muss zuerst freigeschaltet werden.",
+        "fr-fr": "La réprimande miséricordieuse de l'aptitude passive « Plaidoirie pour la justice » est modifiée :Si les PV de Wriothesley sont inférieurs à 60 % ou s'il est sous l'effet du châtiment algide de Ruée glaciale du croc, il obtient une réprimande miséricordieuse lorsque la 5e attaque du poing de réprimande touche. Une réprimande miséricordieuse peut être obtenue une fois toutes les 2,5 s.De plus, le poing bondissant de réprimande obtient les renforcements suivants :· Le bonus de DGT infligés augmente davantage jusqu'à 200 %.· En touchant alors que Wriothesley est sous l'effet d'un châtiment algide, la durée du châtiment se prolonge de 4 s. Une seule prolongation de durée peut avoir lieu par châtiment algide.L'aptitude passive « Plaidoirie pour la justice » doit être déjà débloquée.",
+        "es-es": "Cambia el efecto merced reprensora del talento pasivo “Refutación del dogma”:Cuando la Vida de Wriothesley está por debajo del 60% o cuando se encuentra en el estado de sentencia gélida de Envite ateridor, golpear al enemigo con el quinto puñetazo expeledor otorga a Wriothesley el efecto de merced reprensora. Solo podrá obtener este efecto una vez cada 2.5 s.Además, el gancho alto disciplinario obtiene los siguientes fortalecimientos:·El aumento de daño puede llegar hasta un 200%.·Si Wriothesley se encuentra en el estado de sentencia gélida al golpear a un enemigo con el gancho alto, la duración de dicho estado se prolonga en 4 s. Esto solo puede ocurrir una vez por cada vez que se active sentencia gélida.Es necesario desbloquear el talento pasivo “Refutación del dogma”.",
+        "id-id": "Gracious Rebuke dari \"There Shall be a Plea for Justice\" akan dikonversi menjadi: Saat HP Wriothesley kurang dari 60% atau saat status Chilling Penalty dari Icefang Rush sedang berlangsung, akan mendapatkan \"Gracious Rebuke\" saat serangan Repelling fists tahap ke-lima mengenasi musuh. Efek \"Gracious Rebuke\" dapat diperoleh dengan cara ini satu kali setiap 2,5 detik. Selain itu, Rebuke: Vaulting fists akan mendapatkan penguatan sebagai berikut:· Damage yang diakibatkan ditingkatkan menjadi 200%:· Saat mengenai musuh, jika sedang berada dalam status Chilling Penalty, durasi status ini akan bertambah 4 detik. Selama satu kali durasi Chilling Penalty berlangsung, hanya dapat menerima perpanjangan durasi satu kali.Harus membuka Talenta Pasif \"There Shall be a Plea for Justice\" terlebih dahulu.",
+        "th-th": "\"Gracious Rebuke\" ของพรสวรรค์ติดตัว \"There Shall Be a Plea for Justice\" จะเปลี่ยนเป็น:ขณะที่ค่าพลังชีวิตของ Wriothesley ต่ำกว่า 60% หรือในระหว่างช่วงเวลาคงอยู่ของ Chilling Penalty ที่เกิดจาก Icefang Rush นั้นเมื่อ Repelling Fist ขั้นที่ห้าโจมตีโดนเป้าหมาย จะได้รับ \"Gracious Rebuke\" และจะได้รับเอฟเฟกต์ของ \"Gracious Rebuke\" มากสุดหนึ่งครั้งในทุก 2.5 วินาทีนอกจากนี้ Rebuke: Vaulting Fist จะได้รับการเสริมพลังต่อไปนี้:· ความเสียหายที่สร้างจะเพิ่มขึ้นอีกขั้นเป็น 200%· เมื่อโจมตีโดนเป้าหมาย หากอยู่ในสถานะ Chilling Penalty ระยะเวลาของสถานะนี้ จะเพิ่มขึ้น 4 วินาที ระหว่างช่วงเวลาคงอยู่หนึ่งครั้งของ Chilling Penalty จะสามารถยืดเวลาด้วยวิธีนี้ได้มากสุดหนึ่งครั้งต้องปลดล็อกพรสวรรค์ติดตัว \"There Shall Be a Plea for Justice\" ก่อน",
+        "vi-vn": "\"Ân Điển Trách Phạt\" của thiên phú \"Ngày Biện Hộ Cho Công Lý\" chuyển thành:Khi HP của Wriothesley thấp hơn 60% hoặc đang trong thời gian duy trì trạng thái Hàn Băng Phán Quyết của kỹ năng Nanh Băng Càn Quét, khi đòn tấn công thứ năm của Cú Đấm Bài Xích trúng đích, sẽ nhận được \"Ân Điển Trách Phạt\", mỗi 2.5s tối đa nhận một lần hiệu ứng \"Ân Điển Trách Phạt\".Ngoài ra, Cú Đấm Trừng Phạt sẽ được cường hóa sau:·Mức tăng sát thương gây ra sẽ tăng thêm tới 200%;·Khi trúng đích, nếu đang ở trong trạng thái Hàn Băng Phán Quyết, thời gian duy trì của trạng thái này kéo dài thêm 4s. Trong một lần duy trì Hàn Băng Phán Quyết tối đa chỉ kéo dài thêm một lần thông qua phương thức này.Cần mở khóa thiên phú cố định \"Ngày Biện Hộ Cho Công Lý\".",
+        "zh-tw": "固有天賦「公理終有辯訴之日」的「恩典之誡」轉變為：萊歐斯利的生命值低於60%，或在冰牙突馳的寒烈的懲裁狀態持續期間，斥逐拳的第五段攻擊命中時，將獲得「恩典之誡」，每2.5秒至多獲得一次「恩典之誡」效果。此外，懲戒·凌躍拳獲得以下強化：·造成的傷害提升進一步提升至200%；·命中時，若處於寒烈的懲裁狀態下，該狀態的持續時間延長4秒，在一次寒烈的懲裁狀態持續期間，至多依此方式延長一次。需要解鎖固有天賦「公理終有辯訴之日」。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/19/59559639/461e49acc204aed240f5fc2018532360_1564565842000749142.png"
+    },
+    {
+      "id": "summaryList32534",
+      "constellationNumber": 2,
+      "name": {
+        "pt-pt": "Prendendo os Arrogantes",
+        "en-us": "Shackles for the Arrogant",
+        "ja-jp": "力に驕る者に鎖を",
+        "zh-cn": "予骄暴者以镣锁",
+        "ko-kr": "횡포자에게 족쇄를",
+        "ru-ru": "Заковать высокомерных в кандалы",
+        "de-de": "Fesseln den Hochmütigen",
+        "fr-fr": "Entrave pour les arrogants",
+        "es-es": "Engrilletar a los arrogantes",
+        "id-id": "Shackles for the Arrogant",
+        "th-th": "Shackles for the Arrogant",
+        "vi-vn": "Bắt Trói Kẻ Hung Bạo",
+        "zh-tw": "予驕暴者以鐐鎖"
+      },
+      "description": {
+        "pt-pt": "Ao lançar Mordida do Lobo de Ouro Escuro, cada acúmulo do efeito \"Édito do Processo\" do Talento Passivo \"Retribuição do Pecado\" aumentará o Dano causado em 40%.É preciso ter desbloqueado o Talento Passivo \"Retribuição do Pecado\".",
+        "en-us": "When using Darkgold Wolfbite, each Prosecution Edict stack from the Passive Talent \"There Shall Be a Reckoning for Sin\" will increase said ability's DMG dealt by 40%.You must first unlock the Passive Talent \"There Shall Be a Reckoning for Sin.\"",
+        "ja-jp": "ガンメタル・ウルフバイトの発動時、固有天賦「いずれ罪業は贖わる」による「抵罪の赦免」1層につき、与えるダメージ+40%。固有天賦「いずれ罪業は贖わる」を解放する必要がある。",
+        "zh-cn": "施放黑金狼噬时，固有天赋「罪业终有报偿之时」的每层「检偿之敕」效果都将使造成的伤害提升40%。需要解锁固有天赋「罪业终有报偿之时」",
+        "ko-kr": "짓씹는 흑금늑대 발동 시 고유 특성 「죗값은 치르기 마련」의 「처벌 칙령」 효과 스택마다 주는 피해가 40% 증가한다.고유 특성 「죗값은 치르기 마련」을 해금해야 한다",
+        "ru-ru": "Во время использования Укуса чернозлатого волка каждый уровень Указа об обвинении пассивного таланта Да придёт час расплаты за грехи увеличивает урон этого навыка на 40%.Требуется разблокировать пассивный талант «Да придёт час расплаты за грехи».",
+        "de-de": "Erhöht beim Auslösen von Schwarzgoldener Wolfsbiss den verursachten Schaden für jede Stapelung von „Erlass der Anklage“ des passiven Talents „Stunde der Vergeltung der Sünde“ um 40%.Das passive Talent „Stunde der Vergeltung der Sünde“ muss zuerst freigeschaltet werden.",
+        "fr-fr": "En utilisant Morsure lupine de l'or, chaque cumul d'édit d'accusation de l'aptitude passive « Rétribution pour le péché » augmente les DGT infligés de 40 %.L'aptitude passive « Rétribution pour le péché » doit être déjà débloquée.",
+        "es-es": "Al usar Devoración aureosombría, cada carga del efecto decreto punitivo del talento pasivo “Redención del pecado” aumenta el daño infligido en un 40%.Es necesario desbloquear el talento pasivo “Redención del pecado”.",
+        "id-id": "Saat melancarkan Darkgold Wolfbite, setiap lapis Prosecution Edict dari Talenta Pasif \"There Shall be a Reckoning for Sin\" akan memberikan peningkatan DMG sebesar 40%. Harus membuka Talenta Pasif \"There Shall be a Reckoning for Sin\" terlebih dahulu.",
+        "th-th": "เมื่อปล่อย Darkgold Wolfbite เอฟเฟกต์ \"Prosecution Edict\" แต่ละชั้นของพรสวรรค์ติดตัว \"There Shall Be a Reckoning for Sin\"จะทำให้ความเสียหายที่สร้างเพิ่มขึ้น 40%ต้องปลดล็อกพรสวรรค์ติดตัว \"There Shall Be a Reckoning for Sin\" ก่อน",
+        "vi-vn": "Khi thi triển Hắc Kim Lang Cắn Xé, mỗi tầng \"Sắc Lệnh Truy Tố\" của thiên phú cố định \"Giờ Đền Đáp Cho Tội Lỗi\" sẽ khiến sát thương gây ra tăng 40%.Cần mở khóa thiên phú cố định \"Giờ Đền Đáp Cho Tội Lỗi\".",
+        "zh-tw": "施放黑金狼噬時，固有天賦「罪業終有報償之時」的每層「檢償之敕」效果都將使造成的傷害提升40%。需要解鎖固有天賦「罪業終有報償之時」。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/19/59559639/3cba9c22b5de3fd0ac75b968daf1f754_8007343594061584731.png"
+    },
+    {
+      "id": "summaryList79598",
+      "constellationNumber": 3,
+      "name": {
+        "pt-pt": "Punindo as Fraudes",
+        "en-us": "Punishment for the Frauds",
+        "ja-jp": "騙し盗る者に罰を",
+        "zh-cn": "予婪诈者以谴罚",
+        "ko-kr": "기만자에게 처벌을",
+        "ru-ru": "Наказать алчных и бесчестных",
+        "de-de": "Bestrafung den Betrügern",
+        "fr-fr": "Punition pour les frauduleux",
+        "es-es": "Condenar a los embaucadores",
+        "id-id": "Punishment for the Frauds",
+        "th-th": "Shackles for the Arrogant",
+        "vi-vn": "Khiển Trách Kẻ Dối Gian",
+        "zh-tw": "予婪詐者以譴罰"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível do Ataque Normal: Punho Gelado Destruidor em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Normal Attack: Forceful Fists of Frost by 3.Maximum upgrade level is 15.",
+        "ja-jp": "通常攻撃・フロストコンビネーションのスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "普通攻击·迅烈倾霜拳的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "일반 공격 · 된서리 연타의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Свирепые кулаки стужи на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Standardangriff – Flinke Frostfaust um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Attaque normale : Poing vigoureux du givre +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Ataque Normal: Combo glaciodemoledor +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 Level Normal Attack: Forceful fists of Frost.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของโจมตีปกติ: Forceful Fists of Frost ขึ้น 3 ระดับเพิ่มได้สูงสุดถึงระดับ 15",
+        "vi-vn": "Cấp kỹ năng Tấn Công Thường - Liệt Sương Quyền +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "普通攻擊·迅烈傾霜拳的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/19/59559639/464df75643b85d808ea7457d333c2520_3257249338246653912.png"
+    },
+    {
+      "id": "summaryList77863",
+      "constellationNumber": 4,
+      "name": {
+        "pt-pt": "Redimindo Aqueles Que Sofrem",
+        "en-us": "Redemption for the Suffering",
+        "ja-jp": "苦に喘ぐ者に救いを",
+        "zh-cn": "予贞苦者以拯赎",
+        "ko-kr": "수난자에게 구원을",
+        "ru-ru": "Принести спасение страждущим",
+        "de-de": "Erlösung den Leidenden",
+        "fr-fr": "Rédemption pour les nécessiteux",
+        "es-es": "Redimir a los diligentes",
+        "id-id": "Redemption for the Suffering",
+        "th-th": "Redemption for the Suffering",
+        "vi-vn": "Cứu Rỗi Người Khốn Khổ",
+        "zh-tw": "予貞苦者以拯贖"
+      },
+      "description": {
+        "pt-pt": "Aumenta a Vida que Wriothesley regenera com Disciplina: Soco do Salto Gelado para 50% de sua Vida Máxima. É necessário ter desbloqueado o Talento Passivo \"Haverá Arguição Pela Justiça\".Além disso, quando Wriothesley é curado, caso haja sobrecura, gerará efeitos diferentes dependendo de Wriothesley estar ou não no campo de batalha. Quando ele está no campo de batalha, aumenta sua Vel. de ATQ em 20% por 4s. Quando ele não está no campo de batalha, aumenta a Vel. de ATQ de todos os membros da própria equipe em 10% por 6s. Os dois efeitos de Vel. de ATQ não acumulam.",
+        "en-us": "The HP restored to Wriothesley through Rebuke: Vaulting Fist will be increased to 50% of his Max HP. You must first unlock the Passive Talent \"There Shall Be a Plea for Justice.\"Additionally, when Wriothesley is healed, if the amount of healing overflows, the following effects will occur depending on whether he is on the field or not. If he is on the field, his ATK SPD will be increased by 20% for 4s. If he is off-field, all of your own party members' ATK SPD will be increased by 10% for 6s. These two methods of increasing ATK SPD cannot stack.",
+        "ja-jp": "誅罰・ヴォールティングアッパーの回復量が、リオセスリのHP上限の50%までアップする。固有天賦「やがて公義は弁ぜらる」を解放する必要がある。さらに、リオセスリが治療効果を受けた時、それがHP上限を超える回復だった場合、リオセスリがフィールド上にいるかによって異なる効果を発動する。リオセスリがフィールド上にいる場合、リオセスリの攻撃速度+20%、継続時間4秒。待機中の場合、チーム内の自身キャラクター全員の攻撃速度+10%、継続時間6秒。この2種類の攻撃速度アップ効果は重ね掛けできない。",
+        "zh-cn": "惩戒·凌跃拳为莱欧斯利恢复生命值的回复量提升为50％生命值上限，需要解锁固有天赋「公理终有辩诉之日」。此外，莱欧斯利受到治疗时，若此次治疗回复量溢出，将根据莱欧斯利是否处于当前场上产生不同的效果：处于当前场上时，莱欧斯利的攻击速度提升20％，持续4秒；处于队伍后台时，队伍中所有自己的角色攻击速度提升10％，持续6秒。上述这两种攻击速度提升效果无法叠加。",
+        "ko-kr": "징벌 • 도약권으로 회복하는 라이오슬리의 HP 회복량이 HP 최대치의 50%로 증가한다. 고유 특성 「정의는 밝혀지기 마련」을 해금해야 한다.또한, 라이오슬리가 치유를 받을 때 이번 회복량이 초과된 경우, 라이오슬리의 필드 존재 여부에 따라 다음 효과가 적용된다:현재 필드에 있을 경우, 라이오슬리의 공격 속도가 20% 증가한다. 지속 시간: 4초. 대기 상태일 경우, 파티 내 모든 자신의 캐릭터의 공격 속도가 10% 증가한다. 지속 시간: 6초. 이 두 가지 공격 속도 증가 효과는 중첩되지 않는다",
+        "ru-ru": "HP, восстанавливаемое Ризли Взысканием: Морозный кулак в прыжке увеличивается до 50% от его макс. HP. Требуется разблокировать пассивный талант «Да восторжествует справедливость».Кроме того, когда Ризли получает лечение с избытком, активируются разные эффекты в зависимости от того, на поле боя Ризли или нет. Если он на поле боя, его скорость атаки увеличивается на 20% на 4 сек. Если он не на поле, скорость атаки всех ваших персонажей увеличивается на 10% на 6 сек. Эти два эффекта увеличения скорости атаки не суммируются.",
+        "de-de": "Erhöht die Menge an LP, die Wriothesley durch Rüge – Gefrierende Sprungfaust wiederherstellt, auf 50% seiner max. LP. Das passive Talent „Tag des Plädoyers der Gerechtigkeit“ muss zuerst freigeschaltet werden.Außerdem treten unterschiedliche Effekte in Kraft, wenn die so wiederhergestellten LP einen Überschuss aufweisen, abhängig davon, ob Wriothesley die aktuelle Figur ist oder nicht: Ist Wriothesley die aktuelle Figur, erhöht sich seine Angriffs-GSW 4s lang um 20%; befindet er sich inaktiv in der Truppe, erhöht sich die Angriffs-GSW aller eigenen Truppenmitglieder 6s lang um 10%. Die beiden Boni der Angriffs-GSW können nicht gestapelt werden.",
+        "fr-fr": "Les PV que le poing bondissant de réprimande restaure à Wriothesley augmentent à une valeur équivalant à 50 % de ses PV max. L'aptitude passive « Plaidoirie pour la justice » doit être déjà débloquée.De plus, lorsque Wriothesley reçoit un soin et si la quantité du soin dépasse la quantité maximum que Wriothesley peut recevoir, les effets suivants se produisent selon si Wriothesley est déployé ou non : s'il est déployé, sa VIT d'attaque augmente de 20 % pendant 4 s ; s'il fait partie de l'équipe mais n'est pas déployé, la VIT d'attaque de tous vos personnages dans l'équipe augmente de 10 % pendant 6 s. Ces deux effets d'augmentation de VIT d'attaque ne peuvent pas se cumuler.",
+        "es-es": "La Vida que el gancho alto disciplinario restaura a Wriothesley aumenta hasta un 50% de su Vida Máx. (es necesario desbloquear el talento pasivo “Refutación del dogma”).Además, cuando Wriothesley recibe curación, si su Vida está al máximo, obtendrá distintos efectos dependiendo de si es el personaje en uso o no al recibir dicha curación. Si estaba en uso, su Vel. de Ataque aumenta en un 20% durante 4 s; si estaba en tu equipo pero no en uso, la Vel. de Ataque de todos tus personajes del equipo aumenta en un 10% durante 6 s. Estos dos aumentos de Vel. de Ataque no se pueden acumular.",
+        "id-id": "Batas pemulihan yang diberikan Rebuke: Vaulting Fist kepada Wriothesley akan meningkat menjadi 50% Max HP-nya. Harus membukan Talenta \"There Shall be a Plea for Justice\" terlebih dahulu. Selain itu, saat Wriothesley menerima pemulihan, jika pemulihan kali ini ada yang berlebihan, maka akan menghasilkan efek berdasarkan ada atau tidaknya Wriothesley di medan pertempuran, maka ATK SPD Wriothesley meningkat 20% selama 4 detik; Jika Wriothesley ada di dalam party namun tidak berada di medan pertempuran, maka ATK SPD seluruh anggota party meningkat 10% selama 6 detik. Kedua efek peningkatan ATK SPD tersebut tidak dapat ditumpuk.",
+        "th-th": "Rebuke: Vaulting Fist จะฟื้นฟูพลังชีวิตให้ Wriothesley เพิ่มขึ้นเป็น 50% ของพลังชีวิตสูงสุดต้องปลดล็อกพรสวรรค์ติดตัว \"There Shall Be a Plea for Justice\" ก่อนนอกจากนี้ เมื่อ Wriothesley ได้รับการรักษา หากปริมาณการรักษามากเกินไป การรักษาที่เอ่อล้นจะทำให้เกิดเอฟเฟกต์ที่แตกต่างกันโดยขึ้นอยู่กับว่า Wriothesley อยู่ในการต่อสู้หรือไม่: หากอยู่ในการต่อสู้ ความเร็วในการโจมตีของ Wriothesley จะเพิ่มขึ้น 20% เป็นเวลา 4 วินาทีหากอยู่ในทีมแต่ไม่ได้เข้าร่วมการต่อสู้ ความเร็วในการโจมตีของสมาชิกทั้งหมดในทีมตัวเองจะเพิ่มขึ้น 10% เป็นเวลา 6 วินาทีเอฟเฟกต์เพิ่มความเร็วในการโจมตีทั้งสองประเภทข้างต้นไม่สามารถซ้อนทับกันได้",
+        "vi-vn": "Lượng HP hồi phục của Cú Đấm Trừng Phạt sẽ tăng thành 50% giới hạn HP, cần mở khóa thiên phú cố định \"Ngày Biện Hộ Cho Công Lý\".Ngoài ra, khi Wriothesley nhận được trị liệu, nếu lượng trị liệu hồi phục lần đó bị dư ra, thì sẽ căn cứ vào trạng thái của Wriothesley để sản sinh hiệu ứng khác nhau: Nếu Wriothesley ở trong trận, tốc độ tấn công của anh ấy tăng 20% trong 4s; Nếu Wriothesley không ở trong trận, tốc độ tấn công của tất cả nhân vật trong đội bản thân tăng 10% trong 6s. Hai loại hiệu quả tăng tốc độ tấn công kể trên sẽ không thể cộng dồn.",
+        "zh-tw": "懲戒·凌躍拳為萊歐斯利恢復生命值的回復量提升為50%生命值上限，需要解鎖固有天賦「公理終有辯訴之日」。此外，萊歐斯利受到治療時，若此次治療回復量溢出，將根據萊歐斯利是否處於目前場上產生不同的效果：處於目前場上時，萊歐斯利的攻擊速度提升20%，持續4秒；處於隊伍後臺時，隊伍中所有自己的角色攻擊速度提升10%，持續6秒。上述這兩種攻擊速度提升效果無法疊加。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/19/59559639/103e7cb80b310e2038154659832a4d88_7579463312806393660.png"
+    },
+    {
+      "id": "summaryList96995",
+      "constellationNumber": 5,
+      "name": {
+        "pt-pt": "Misericórdia aos Caluniados",
+        "en-us": "Mercy for the Wronged",
+        "ja-jp": "冤を蒙る者に赦しを",
+        "zh-cn": "予冤诉者以怜恕",
+        "ko-kr": "호소자에게 연민을",
+        "ru-ru": "Помиловать несправедливо обвинённых",
+        "de-de": "Vergebung den zu Unrecht Beschuldigten",
+        "fr-fr": "Indulgence pour les innocents",
+        "es-es": "Exculpar a los inculpados",
+        "id-id": "Mercy for the Wronged",
+        "th-th": "Mercy for the Wronged",
+        "vi-vn": "Thương Xót Người Oan Ức",
+        "zh-tw": "予冤訴者以憐恕"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível de Mordida do Lobo de Ouro Escuro em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Darkgold Wolfbite by 3.Maximum upgrade level is 15.",
+        "ja-jp": "ガンメタル・ウルフバイトのスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "黑金狼噬的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "짓씹는 흑금늑대의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Укус чернозлатого волка на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Schwarzgoldener Wolfsbiss um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Morsure lupine de l'or +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Devoración aureosombría +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 Level Darkgold Wolfbite.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Darkgold Wolfbite ขึ้น 3 ระดับเพิ่มได้สูงสุดถึงระดับ 15",
+        "vi-vn": "Cấp kỹ năng Hắc Kim Lang Cắn Xé +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "黑金狼噬的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/19/59559639/744b418d2b2f15a9b4776a68089ffc28_4707166956529782034.png"
+    },
+    {
+      "id": "summaryList307",
+      "constellationNumber": 6,
+      "name": {
+        "pt-pt": "Valorizando os Inocentes",
+        "en-us": "Esteem for the Innocent",
+        "ja-jp": "罪の無い者に慰めを",
+        "zh-cn": "予无罪者以念抚",
+        "ko-kr": "무죄자에게 위로를",
+        "ru-ru": "Лелеять невинных",
+        "de-de": "Trost den Unschuldigen",
+        "fr-fr": "Estime pour les irréprochables",
+        "es-es": "Confortar a los inocentes",
+        "id-id": "Esteem for the Innocent",
+        "th-th": "Mercy for the Wronged",
+        "vi-vn": "Trân Trọng Người Vô Tội",
+        "zh-tw": "予無罪者以念撫"
+      },
+      "description": {
+        "pt-pt": "Aumenta a Taxa CRIT de Disciplina: Soco do Salto Gelado em 10%, o Dano CRIT em 80% e dispara uma Estalactite Cryo adicional que causa 100% do Dano Base de Disciplina: Soco do Salto Gelado como Dano Cryo. O Dano causado dessa forma é considerado Dano de Ataque Carregado.É necessário ter desbloqueado o Talento Passivo \"Haverá Arguição Pela Justiça\".",
+        "en-us": "The CRIT Rate of Rebuke: Vaulting Fist will be increased by 10%, and its CRIT DMG by 80%. When unleashed, it will also create an additional icicle that deals 100% of Rebuke: Vaulting Fist's Base DMG as Cryo DMG. DMG dealt this way is regarded as Charged Attack DMG.You must first unlock the Passive Talent \"There Shall Be a Plea for Justice.\"",
+        "ja-jp": "誅罰・ヴォールティングアッパーの会心率+10%、会心ダメージ+80%。また、発動時に氷柱を生成し、誅罰・ヴォールティングアッパー100%分の氷元素ダメージを与える。このダメージは重撃ダメージと見なされる。固有天賦「やがて公義は弁ぜらる」を解放する必要がある。",
+        "zh-cn": "惩戒·凌跃拳的暴击率提升10％，暴击伤害提升80％，并能够额外生成冰锥，造成原本100％的冰元素伤害，通过这种方式造成的伤害视为重击伤害。 需要解锁固有天赋「公理终有辩诉之日」",
+        "ko-kr": "징벌 • 도약권의 치명타 확률이 10%, 치명타 피해가 80% 증가한다. 또한 추가로 얼음송곳을 생성해 기존의 100%에 해당하는 얼음 원소 피해를 준다. 해당 방식으로 주는 피해는 강공격 피해로 간주한다.고유 특성 「정의는 밝혀지기 마련」을 해금해야 한다",
+        "ru-ru": "Увеличивает шанс крит. попадания Взыскания: Морозный кулак в прыжке на 10%, а его крит. урон - на 80%. Кроме того, дополнительно выпускает сосульку, которая наносит 100% первоначального Крио урона. Этот урон считается уроном заряженной атаки.Требуется разблокировать пассивный талант «Да восторжествует справедливость».",
+        "de-de": "Erhöht die KT von Rüge – Gefrierende Sprungfaust um 10%, den kritischen Schaden davon um 80% und kann zusätzlich Eiszapfen erschaffen, die 100% des ursprünglichen Schadens als Kryo-Schaden verursachen. Der auf diese Weise verursachte Schaden wird als Schaden des heftigen Schlags betrachtet.Das passive Talent „Tag des Plädoyers der Gerechtigkeit“ muss zuerst freigeschaltet werden.",
+        "fr-fr": "Le taux CRIT du poing bondissant de réprimande augmente de 10 % et ses DGT CRIT de 80 %, et son déclenchement permet de libérer un pic de glace supplémentaire infligeant des DGT Cryo d'une valeur équivalant à 100 % des DGT d'origine. Les DGT infligés de cette manière sont considérés comme des DGT d'attaque chargée.L'aptitude passive « Plaidoirie pour la justice » doit être déjà débloquée.",
+        "es-es": "La Prob. CRIT del gancho alto disciplinario aumenta en un 10%, su Daño CRIT aumenta en un 80% y crea un carámbano adicional que inflige un 100% del Daño Cryo del carámbano original. El daño infligido de esta manera se considera daño de Ataque Cargado.Es necesario desbloquear el talento pasivo “Refutación del dogma”.",
+        "id-id": "CRIT Rate Rebuke: Vaulting Fist meningkat 10%, CRIT DMG Vaulting Fist meningkat 80%. Saat dilancarkan, akan menghasilkan untaian es tambahan yang mengakibatkan Cryo DMG sebesar 100% DMG awal. DMG yang diakibatkan dengan cara ini akan dianggap sebagai DMG Charged Attack. Harus membuka Talenta Pasif \"There Shall be a Plea for Justice\" terlebih dahulu.",
+        "th-th": "Rebuke: Vaulting Fist จะมีอัตราคริเพิ่มขึ้น 10% และมีความแรงคริเพิ่มขึ้น 80% และสามารถสร้างแท่งน้ำแข็งเพิ่มเติมโดยจะสร้างความเสียหายน้ำแข็ง 100% ของความเสียหายพื้นฐานของ Rebuke: Vaulting Fist ความเสียหายที่สร้างด้วยวิธีนี้ จะถือว่าเป็นความเสียหายชาร์จโจมตีต้องปลดล็อกพรสวรรค์ติดตัว \"There Shall Be a Plea for Justice\" ก่อน",
+        "vi-vn": "Tỉ lệ bạo kích của Cú Đấm Trừng Phạt tăng 10%, sát thương bạo kích tăng 80%, đồng thời sản sinh thêm nhũ băng, gây Sát Thương Nguyên Tố Băng bằng 100% sát thương vốn có của Cú Đấm Trừng Phạt. Sát thương gây ra bằng phương thức này sẽ được tính là sát thương trọng kích.Cần mở khóa thiên phú cố định \"Ngày Biện Hộ Cho Công Lý\".",
+        "zh-tw": "懲戒·凌躍拳的暴擊率提升10%，暴擊傷害提升80%，並能夠額外生成冰錐，造成原本100%的冰元素傷害，依此方式造成的傷害視為重擊傷害。需要解鎖固有天賦「公理終有辯訴之日」。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/19/59559639/e393938e83ba595dae66abea5fd282b2_3205664897494742432.png"
+    }
+  ],
+  "talents": [
+    {
+      "type": "normal_attack",
+      "name": {
+        "pt-pt": "Ataque Normal: Punho Gelado Destruidor",
+        "en-us": "Forceful Fists of Frost",
+        "ja-jp": "フロストコンビネーション",
+        "zh-cn": "普通攻击·迅烈倾霜拳",
+        "ko-kr": "일반 공격·된서리 연타",
+        "ru-ru": "Свирепые кулаки стужи",
+        "de-de": "Standardangriff: Flinke Frostfaust",
+        "fr-fr": "Attaque normale : Poing vigoureux du givre",
+        "es-es": "Ataque Normal: Combo glaciodemoledor",
+        "id-id": "Normal Attack: Forceful First of Frost",
+        "th-th": "โจมตีปกติ: Forceful Fists of Frost",
+        "vi-vn": "Tấn Công Thường - Liệt Sương Quyền",
+        "zh-tw": "普通攻擊·迅烈傾霜拳"
+      },
+      "description": {
+        "pt-pt": "Ataque NormalConcentra gelo nos punhos, desferindo poderosos Socos Repulsores, dando até cinco golpes rápidos e causando Dano Cryo.Além disso, o Combo de Ataques Normais não será redefinido por um curto tempo após correr ou após lançar a Habilidade Elemental \"Corrida da Presa Gelada\".Ataque CarregadoConsome uma certa quantidade de Stamina para saltar e desferir o Soco do Salto Gelado, causando Dano Cryo em AdE.Ataque ImersivoMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano Cryo em AdE durante o impacto.",
+        "en-us": "Normal AttackCoalescing frost about his fist, Wriothesley will unleash powerful Repelling Fists, performing up to 5 rapid attacks that deal Cryo DMG.Apart from this, Normal Attack combo count will not reset for a short time after using Icefang Rush or sprinting.Charged AttackConsumes a fixed amount of Stamina to leap and unleash a Vaulting Fist, dealing AoE Cryo DMG.Plunging AttackPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE Cryo DMG upon impact.",
+        "ja-jp": "通常攻撃堅氷を拳に纏い、迅く強烈なリペルブローを繰り出す。最大5段の連続攻撃を行い、氷元素ダメージを与える。元素スキル「アイスファング・ラッシュ」を発動、またはダッシュした後の一定時間、通常攻撃の連撃段数がリセットされない。重撃一定のスタミナを消費し、跳び上がりながらヴォールティングアッパーを繰り出して氷元素範囲ダメージを与える。落下攻撃空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に氷元素範囲ダメージを与える。",
+        "zh-cn": "普通攻击将坚冰凝聚于拳锋，挥出迅猛的斥逐拳，进行至多五段的快速打击，造成冰元素伤害。此外，施放元素战技「冰牙突驰」或进行冲刺后的一小段时间内，普通攻击连击段数不会重置。重击消耗一定体力，腾跃而起，打出凌跃拳，造成冰元素范围伤害。下落攻击从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成冰元素范围伤害。",
+        "ko-kr": "일반 공격서리의 힘을 건틀릿에 모아 맹렬한 격퇴권으로 최대 5번 빠르게 공격해 얼음 원소 피해를 준다. 또한, 원소전투 스킬 「얼음송곳니 돌진」 발동 또는 대시 후 짧은 시간 동안 일반 공격의 콤보수가 초기화되지 않는다.강공격일정 스태미나를 소모하고 도약권으로 뛰어올라 얼음 원소 범위 피해를 준다.낙하 공격공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 얼음 원소 범위 피해를 준다",
+        "ru-ru": "Обычная атакаСобрав в руках мороз, Ризли даёт волю Кулакам изгнания и выполняет до 5 быстрых ударов, которые наносят Крио урон.Кроме того, счётчик серии обычных ударов не сбрасывается в течение короткого времени после активации Стремительного ледяного клыка или завершения спринта.Заряженная атакаРасходует определённое количество выносливости, подпрыгивает и выполняет удар Морозного кулака в прыжке, который наносит Крио урон по площади.Атака в паденииСтремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит Крио урон по площади.",
+        "de-de": "StandardangriffWriothesley kondensiert Eis in seinen Fäusten und führt bis zu 5 blitzschnelle Angriffe mit seinen „Sturmfäusten“ aus, die Kryo-Schaden verursachen.Außerdem wird die Angriffsphase des Standardangriffs nach dem Auslösen der Elementarfähigkeit „Eiszahn-Ansturm“ oder dem Rennen für kurze Zeit nicht zurückgesetzt.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer, springt in die Luft und führt eine „Gefrierende Sprungfaust“ aus, die Kryo-Flächenschaden verursacht.Angriff aus dem FallSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Kryo-Flächenschaden.",
+        "fr-fr": "Attaque normaleCondense du givre sur son poing et déclenche un puissant poing de réprimande, enchaînant jusqu'à 5 attaques rapides qui infligent des DGT Cryo.De plus, l'enchaînement d'attaques normales ne sera pas réinitialisé pendant une courte période après la compétence élémentaire « Ruée glaciale du croc » ou l'initiation d'un sprint.Attaque chargéeConsomme de l'endurance pour sauter et déclencher un poing bondissant qui inflige des DGT Cryo de zone.Attaque plongeantePlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT Cryo de zone à l'impact.",
+        "es-es": "Ataque NormalAcumula hielo en los puños para ejecutar hasta 5 potentes puñetazos expeledores que infligen Daño Cryo.Además, al usar la Habilidad Elemental, “Envite ateridor”, o durante un breve periodo de tiempo después de esprintar, la secuencia de los Ataques Normales no se reiniciará.Ataque CargadoConsume cierta cantidad de Aguante para dar un salto y ejecutar un gancho alto que inflige Daño Cryo en el AdE.Ataque DescendenteSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño Cryo en el AdE en el momento del impacto.",
+        "id-id": "Normal AttackMengumpulkan es di ujung kepalan tangannya, melancarkan Repelling fists yang kuat dan cepat, melancarkan maksimum 5 pukulan berturut-turut dan mengakibatkan Cryo DMG. Selain itu, jumlah kombo Normal Attack tidak akan diulang untuk waktu yang singkat setelah belari atau setelah melancarkan Elemental Skill \"Icefang Rush\".Charged AttackMengonsumsi sejumlah Stamina untuk melompat dan melancarkan Vaulting fists yang mengakibatkan Cryo DMG Area.Plungging AttackMenerjang dari udara untuk menghantam tanah di bawahnya, menyerang musuh di jalur terjangan dan mengakibatkan Cryo DMG Area saat mendarat.",
+        "th-th": "โจมตีปกติรวบรวมน้ำแข็งมาไว้ที่กำปั้น และปล่อย Repelling Fist อันทรงพลัง โดยจะออกหมัดโจมตีต่อเนื่องอย่างรวดเร็วมากสุด 5 ครั้ง เพื่อสร้างความเสียหายน้ำแข็งนอกจากนั้น ภายในระยะเวลาสั้น ๆ หลังจากปล่อยสกิลธาตุ Icefang Rush หรือหลังจากวิ่ง จำนวนคอมโบการโจมตีปกติจะไม่ถูกรีเซ็ตชาร์จโจมตีใช้พลังกายส่วนหนึ่งในการกระโดดขึ้น และปล่อย Vaulting Fist เพื่อสร้างความเสียหายน้ำแข็งวงกว้างโจมตีพุ่งลงจากอากาศกระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายน้ำแข็งวงกว้างเมื่อลงถึงพื้น",
+        "vi-vn": "Tấn Công ThườngTích tụ băng giá vào nắm đấm để tung ra Cú Đấm Bài Xích mạnh mẽ, tiến hành tối đa 5 lần tấn công nhanh, gây Sát Thương Nguyên Tố Băng.Ngoài ra, thi triển kỹ năng \"Nanh Băng Càn Quét\" hoặc trong một thời gian ngắn sau khi xung kích, số lần liên kích tấn công thường sẽ không bị tái lập.Trọng KíchTiêu hao một lượng thể lực để nhảy lên và tung ra Cú Đấm Vòm Cung, gây Sát Thương Phạm Vi Nguyên Tố Băng.Tấn Công Khi ĐápĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây Sát Thương Phạm Vi Nguyên Tố Băng.",
+        "zh-tw": "普通攻擊將堅冰凝聚於拳鋒，揮出迅猛的斥逐拳，進行至多五段的快速打擊，造成冰元素傷害。 此外，施放元素戰技「冰牙突馳」或進行衝刺後的一小段時間內，普通攻擊連擊段數不會重置。重擊消耗一定體力，騰躍而起，打出凌躍拳，造成冰元素範圍傷害。下落攻擊從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成冰元素範圍傷害。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/19/59559639/464df75643b85d808ea7457d333c2520_2379943768799524649.png"
+    },
+    {
+      "type": "elemental_skill",
+      "name": {
+        "pt-pt": "Corrida da Presa Gelada",
+        "en-us": "Icefang Rush",
+        "ja-jp": "アイスファング・ラッシュ",
+        "zh-cn": "冰牙突驰",
+        "ko-kr": "얼음송곳니 돌진",
+        "ru-ru": "Стремительный ледяной клык",
+        "de-de": "Eiszahn-Ansturm",
+        "fr-fr": "Ruée glaciale du croc",
+        "es-es": "Envite ateridor",
+        "id-id": "Icefang Rush",
+        "th-th": "Icefang Rush",
+        "vi-vn": "Nanh Băng Càn Quét",
+        "zh-tw": "冰牙突馳"
+      },
+      "description": {
+        "pt-pt": "Ajustando sua respiração e ritmo com agilidade, Wriothesley dá um passo à frente e entra no estado Julgamento do Gelo Feroz para executar ataques ainda mais poderosos.Julgamento do Gelo Feroz· Aumenta a Resistência contra Interrupção de Wriothesley.· Quando sua Vida é maior que 50%, o Soco Repulsor de Ataque Normal: Punho Gelado Destruidor tem seu Dano aumentado. Ao atingir seu alvo, Wriothesley perderá uma certa quandade de Vida. É possível perder Vida dessa forma uma vez a cada 0.1s.Esse efeito será eliminado quando Wriosthesley sair do campo de batalha.\"Os julgamentos do passado já foram resolvidos, mas as escolhas do futuro ainda estão em nossas mãos.\"\"Se você não quer que seus momentos de fraqueza determinem seu destino, aprenda a apreciar o presente.\"",
+        "en-us": "Adjusting his breathing, rhythm, and pace, Wriothesley sprints forward a short distance, entering the Chilling Penalty state and unleashing more powerful attacks than before.Chilling Penalty· Increases Wriothesley's interruption resistance· When his HP is above 50%, it will enhance the Repelling Fists of Normal Attack: Forceful Fists of Frost and increase its DMG. When such an attack hits, it will consume a fixed amount of Wriothesley's HP. HP can be lost this way once every 0.1s.This effect will be canceled should Wriothesley leave the field.\"Past convictions are past. It is our future choices that we must grasp.\"\"Defy your fate, or else this glutton be, to pay your fate's due, by the crime and thee.\"",
+        "ja-jp": "呼吸、リズム、ステップを素早く整え、前方へと短距離のダッシュを行う。烈霜の懲戒状態に入り、より激しい攻勢を仕掛ける。烈霜の懲戒・リオセスリの中断耐性がアップする。・HPが50%を超えている場合、「通常攻撃・フロストコンビネーション」のリペルブローが強化され、与えるダメージをアップする。リペルブローが命中すると、リオセスリは一定のHPを消費する。この効果は0.1秒毎に最大1回のみ発動。この効果はリオセスリが退場する時に解除される。「過去の懲罰には、もう決着がついている。未来の選択肢はまだこの手中に…」「己の運命を一時の罪に呑まれたくなければ、今この瞬間を大事にしろ。」",
+        "zh-cn": "迅速调整呼吸、节奏与步伐，向前短距离冲刺，进入寒烈的惩裁状态，以发起更为猛烈的进攻。寒烈的惩裁· 提高莱欧斯利的抗打断能力；· 生命值高于50％时，强化「普通攻击·迅烈倾霜拳」的斥逐拳，使其造成的伤害提升；命中时莱欧斯利将损失一定的生命值，每0.1秒至多因此损失一次生命值；效果将在莱欧斯利退场时解除。「过去的裁罚已成定局，未来的选择犹在掌握。」「若是不愿命运被一时的罪恶吞尽，还请珍重此刻的光阴。」",
+        "ko-kr": "빠르게 호흡과 리듬을 조절한 후 앞으로 짧게 대시하며 혹한의 징벌 상태에 진입해 더욱 맹렬한 공격을 펼친다.혹한의 징벌·라이오슬리의 경직 저항력이 증가한다.·HP 50% 초과 시 「일반 공격 · 된서리 연타」의 격퇴권이 강화되어 주는 피해가 증가한다. 명중 시, 라이오슬리는 일정 HP를 잃고, 이런 방식으로 HP를 0.1초마다 최대 1회 잃는다.해당 효과는 라이오슬리가 퇴장 시 사라진다.「과거의 처벌은 이미 정해진 결말. 하지만 미래의 선택은 내 손안에 있지」「운명이 내린 순간의 죄악에 집어삼켜지고 싶지 않다면, 지금의 빛과 어둠을 소중히 여겨라」",
+        "ru-ru": "Быстро подстроив дыхание, темп и ритм, Ризли совершает рывок на короткое расстояние вперёд, входит в состояние Леденящего наказания и наносит ещё более мощные и яростные атаки.Леденящее наказание· Повышает сопротивление прерыванию Ризли.· Когда HP Ризли выше 50%, Кулаки изгнания Свирепых кулаков стужи наносят больше урона, а при попадании Ризли теряет определённое количество HP. HP таким образом теряется не чаще одного раза каждые 0,1 сек.Этот эффект перестаёт действовать, когда Ризли покидает поле боя.«Былого не изменить, но будущее в наших руках».«Если не желаешь, чтобы мимолётные злодеяния поглотили твою судьбу, дорожи этим мгновением».",
+        "de-de": "Wriothesley reguliert seine Atmung, Rhythmus und Tempo, legt einen kurzen Sprint nach vorn hin, wechselt in den Zustand „Eiskalte Bestrafung“ und wendet einen ungestümen Angriff an.Eiskalte Bestrafung· Erhöht Wriothesleys Unterbrechungs-WDS.· Verstärkt Wriothesleys Sturmfäuste von Standardangriff: Flinke Frostfaust bei mehr als 50 % LP, wodurch sich der durch die Sturmfäuste verursachte Schaden erhöht. Bei Treffern wird eine bestimmte Menge an LP von Wriothesley verbraucht. Auf diese Weise können höchstens einmal alle 0,1s LP verbraucht werden.Dieser Effekt wird aufgehoben, wenn Wriothesley ausgewechselt wird.„Die Vergangenheit ward besiegelt, die Zukunft jedoch liegt in unserer Hand.“„Wenn du nicht willst, dass dein Schicksal von den Sünden des Moments verschlungen wird, dann solltest du das Licht eben jenes gegenwärtigen Moments wertschätzen.“",
+        "fr-fr": "En ajustant sa respiration, son rythme et sa cadence, Wriothesley sprinte vers l'avant sur une courte distance, entrant dans l'état Châtiment algide qui lui permet de déclencher des attaques encore plus puissantes.Châtiment algide· Augmente la RÉS à l'interruption de Wriothesley.· Lorsque les PV de Wriothesley sont supérieurs à 50 % : le poing de réprimande de l'attaque normale « Poing vigoureux du givre » est renforcé et ses DGT augmentés, et toucher avec ce poing consomme une quantité fixe des PV de Wriothesley, les PV pouvant être perdus une fois toutes les 0,1 s de cette manière.Cet effet cesse lorsque Wriothesley quitte le champ de bataille.« Les condamnations passées sont passées. Ce sont nos choix futurs que nous devons appréhender.Si vous ne voulez pas vous faire consumer par les péchés du moment, alors s'il vous plaît, chérissez cet instant. »",
+        "es-es": "Regula la respiración y el ritmo, avanza ligeramente hacia delante y entra en el estado de “sentencia gélida” para ejecutar ataques más potentes.Sentencia gélida·Aumenta la RES a interrupción de Wriothesley.·Cuando la Vida de Wriothesley está por encima del 50%, los puñetazos expeledores de su Ataque Normal: Combo glaciodemoledor se fortalecen, de modo que infligen más daño y, al golpear al objetivo, Wriothesley pierde cierta cantidad de Vida. Solo podrá perder Vida una vez cada 0.1 s de esta manera.Este efecto se anula cuando Wriothesley se retira del campo de batalla.Las sentencias del pasado pertenecen al pasado, pero en nuestras manos está decidir el futuro.Si no deseas que las ofensas acaben con tu destino, será mejor que aprecies el presente.",
+        "id-id": "Mengatur napas, ritme, dan langkah kakinya dengan cepat, lalu berlari ke depan dalam jarak pendek, dan memasuki status Chilling Penalty untuk melancarkan serangan yang lebih kuat.Chilling Penalty· Meningkatkan ketahanan Wriothesly terhadap interupsi;· Saat HP Wriothesly lebih dari 50%, memperkuat Repelling fists dari Normal Attack: Forceful fists of Frost dan meningkatkan DMG-nya; Saat mengenai target, serangan ini akan mengonsumsi HP Wriothesly dalam jumlah tertentu setiap 0,1 detik; Efek akan hilang saat Wriothesly meninggalkan medan pertempuran.\"Keyakinan masa lalu adalah masa lalu. Keputusan masa depan lah yang harus kita genggam erat.\"\"Kalau kamu tidak ingin dilahap dosa yang kamu lakukan sekarang, harap hargai momen saat ini.\"",
+        "th-th": "ปรับการหายใจ จังหวะ และการเดินอย่างรวดเร็ว พุ่งตัววิ่งไปข้างหน้าเป็นระยะสั้น ๆและเข้าสู่สถานะ Chilling Penalty (ทัณฑ์ยะเยือก) เพื่อทำการโจมตีที่รุนแรงขึ้นChilling Penalty· เพิ่มความสามารถในการต้านทานการหยุดชะงักของ Wriothesley· เมื่อค่าพลังชีวิตสูงกว่า 50% จะเสริมพลังให้กับ Repelling Fist ของ \"โจมตีปกติ: Forceful Fists of Frost\" ทำให้ความเสียหายที่สร้างเพิ่มขึ้น และเมื่อโจมตีโดนเป้าหมาย Wriothesley จะสูญเสียพลังชีวิตส่วนหนึ่ง โดยจะสูญเสียพลังชีวิตได้มากสุดหนึ่งครั้ง ในทุก 0.1 วินาทีเอฟเฟกต์นี้จะหายไปเมื่อ Wriothesley ออกจากการต่อสู้.\"โทษทัณฑ์ในอดีตเป็นสิ่งที่ถูกตัดสินไปแล้ว แต่ทางเลือกในอนาคตยังอยู่ในกำมือเรา\"\"ถ้าไม่อยากให้ชะตาถูกบาปชั่วขณะกลืนกิน ก็จงรักษาช่วงเวลานี้ไว้ให้ดี\"",
+        "vi-vn": "Nhanh chóng điều chỉnh hơi thở, tiết tấu và bước chân. Xung kích một đoạn ngắn về phía trước, vào trạng thái Hàn Băng Phán Quyết để phát động cuộc tiến công mạnh mẽ.Hàn Băng Phán Quyết·Tăng khả năng kháng gián đoạn của Wriothesley;·Khi HP cao hơn 50% sẽ cường hóa Cú Đấm Bài Xích từ Tấn Công Thường - Liệt Sương Quyền, tăng sát thương gây ra; Khi đánh trúng, Wriothesley sẽ tiêu hao một lượng HP nhất định, mỗi 0.1s tối đa tiêu hao HP một lần bằng phương thức này.Hiệu quả này sẽ bị hủy khi Wriothesley rời trận.\"Phán quyết trong quá khứ đã qua, lựa chọn của tương lai nằm trong lòng bàn tay.\"\"Nếu không muốn vận mệnh bị tội ác nhất thời hủy diệt, thì hãy trân trọng khoảnh khắc của hiện tại.\"",
+        "zh-tw": "迅速調整呼吸、節奏與步伐，向前短距離衝刺，進入寒烈的懲裁狀態，以發起更為猛烈的進攻。寒烈的懲裁·提高萊歐斯利的抗打斷能力。·生命值高於50%時，強化「普通攻擊·迅烈傾霜拳」的斥逐拳，使其造成的傷害提升；命中時萊歐斯利將損失一定的生命值，每0.1秒至多因此損失一次生命值。效果將在萊歐斯利退場時解除。「過去的裁罰已成定局，未來的選擇猶在掌握。」「若是不願命運被一時的罪惡吞盡，還請珍重此刻的光陰。」"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/19/59559639/d16aaeb6e3d7c751f1ac36d875668e80_2880908364425798852.png"
+    },
+    {
+      "type": "elemental_burst",
+      "name": {
+        "pt-pt": "Mordida do Lobo de Ouro Escuro",
+        "en-us": "Darkgold Wolfbite",
+        "ja-jp": "ガンメタル・ウルフバイト",
+        "zh-cn": "黑金狼噬",
+        "ko-kr": "짓씹는 흑금늑대",
+        "ru-ru": "Укус чернозлатого волка",
+        "de-de": "Schwarzgoldener Wolfsbiss",
+        "fr-fr": "Morsure lupine de l'or",
+        "es-es": "Devoración aureosombría",
+        "id-id": "Darkgold Wolfbite",
+        "th-th": "Darkgold Wolfbite",
+        "vi-vn": "Hắc Kim Lang Cắn Xé",
+        "zh-tw": "黑金狼噬"
+      },
+      "description": {
+        "pt-pt": "Empunhando as luvas, desfere um soco concentrado de geada, fazendo com que Estalactites Cryo sejam disparadas numa área à frente e causando várias instâncias de Dano Cryo em AdE.Arkhe: OusiaQuando o ataque de Estalactites Cryo terminar, fará uma Lâmina da Fluidez cair na posição do inimigo, causando Dano Cryo carregado de energia Ousia.Às vezes, até mesmo o Duque da Fortaleza Meropide pode se sentir impotente diante de certas situações — como a papelada interminável, a supervisão chata ou até... a insistência de certas criaturas de baixa estatura em colar vários adesivos fofos e difíceis de tirar em suas luvas.",
+        "en-us": "Activating his boxing gloves, Wriothesley strikes out with an icy straight, then uses Icicle Impact to cause multiple instances of AoE Cryo DMG in a frontal area.Arkhe: OusiaAfter Icicle Impact ends, a Surging Blade will descend upon the opponent's position, dealing Ousia-aligned Cryo DMG.There are some things that even the Duke of the Fortress of Meropide can do little about — for example, complicated paperwork, the trivialities of a supervisor, or even... little kids pasting a whole host of cute but difficult-to-remove stickers on his boxing gloves.",
+        "ja-jp": "ナックルを駆動させ、凍てつくストレートパンチを繰り出す。氷柱で前方の敵に攻撃を与え続け、複数回の氷元素範囲ダメージを与える。アルケー：ウーシア氷柱による攻撃が終了した後、敵の位置に迸発の刃を召喚し、ウーシアを帯びた氷元素ダメージを与える。メロピデ要塞の公爵でさえ、どうしようもないことがある——煩わしい文書の仕事、細かい管理の責務、あるいは…どうしても自分のナックルに、剥がしにくく可愛らしいステッカーを貼ろうとする小さな友人たちの執着心だ。",
+        "zh-cn": "驱动拳套，打出凝聚寒霜的直拳，持续以冰锥冲击前方区域，造成多次冰元素范围伤害。 始基力：荒性 冰锥冲击结束后，将在敌人的位置降下流涌之刃，造成具有荒性的冰元素伤害。 总有一些事情，就算是梅洛彼得堡的公爵也会感到无可奈何——例如繁冗的文书工作，琐细的监管职责，或是…小小的友人们在自己拳套上偷偷贴一堆难撕的可爱贴纸的执着。",
+        "ko-kr": "건틀릿을 가동해 서리의 힘이 응집된 일격을 날린다. 전방에 얼음송곳들이 지속적으로 쇄도하여 여러 차례 얼음 원소 범위 피해를 준다.아르케의 힘: 우시아얼음송곳 쇄도가 끝난 후 적의 위치에 솟구치는 칼날을 날려 우시아 성질의 얼음 원소 피해를 준다.어떤 일들은 메로피드 요새의 공작이라도 곤란함을 느끼게 만든다. 번잡한 문서 작업이라든가, 귀찮은 감독 업무라든가, 혹은⋯ 작은 꼬마 친구들이 자신의 건틀릿에 잘 안 떼어지는 귀여운 스티커를 몰래 붙여 놓는 집착 같은 것 말이다",
+        "ru-ru": "Активирует свои боксёрские перчатки и выполняет Удар наледи, нанося перед собой многократный Крио урон по площади.Архэ: УсияПосле завершения Удара наледи на позицию противника нисходит Клинок бурных вод и наносит Крио урон усии.Есть вещи, перед которыми даже герцог крепости Меропид бессилен. Это, например, запутанная бумажная работа, пустяковые обязанности надзирателя, или даже... дети, которые обклеивают его боксёрские перчатки симпатичными, но трудноудаляемыми наклейками.",
+        "de-de": "Wriothesley aktiviert seine Handschuhe und schlägt eine Gerade, die kontinuierlich den Bereich vor ihm mit Eiszapfen eindeckt, und mehrfach Kryo-Flächenschaden verursacht.Arkhe: OusiaNachdem die Eiszapfen-Angriffe beendet wurden, geht eine Wogenklinge auf die Position des Gegners nieder, die mit Ousia versehenen Kryo-Schaden verursacht.Es gibt ein paar Dinge, gegen die selbst der Herzog des Forts Méropide nichts auszurichten vermag ... zum Beispiel lästiger Papierkram, behördliche Pflichten, oder ... die Kleinen, die heimlich süße, aber schwer zu entfernende Sticker auf seine Handschuhe kleben.",
+        "fr-fr": "Activant ses gants de boxe, Wriothesley déclenche un coup droit condensé de givre, puis utilise un impact de stalactite pour infliger plusieurs fois des DGT Cryo de zone.Arkhe : OusiaAprès la fin de l'impact de stalactite, une lame fluide descend à l'emplacement de l'ennemi pour infliger des DGT Cryo chargés d'énergie ousia.Il y a des choses contre lesquelles même le duc de la Forteresse de Méropide ne peut pas faire grand-chose : par exemple, la paperasserie compliquée, les futilités d'un superviseur ou bien... les petits enfants qui collent toute une série d'autocollants mignons mais difficiles à enlever sur ses gants de boxe...",
+        "es-es": "Ejecuta un puñetazo de escarcha directo y, después, crea un carámbano apisonador enfrente de sí mismo, el cual inflige varias veces Daño Cryo en el AdE.Arjé: ousíaTras liberar el carámbano apisonador, en la ubicación del enemigo caerá un filo fluyente que inflige Daño Cryo cargado de energía ousía.Hay cosas que sacan de quicio hasta al mismísimo duque del Fuerte Merópide, como por ejemplo, la tediosa burocracia, el trabajo de vigilancia o... la insistencia de ciertas criaturas de baja estatura en pegar en los guantes de combate del duque unas calcomanías muy difíciles de despegar.",
+        "id-id": "Mengaktifkan sarung tinjunya, menyerang dengan pukulan tinju embun beku, dan terus-menerus melancarkan Icicle Impact ke area depan dan mengakibatkan Cryo DMG Area berkali-kali.Arkhe: OusiaSetelah Icicle Impact berakhir, Surging Blade berada dan mengakibatkan Ousia-aligned Cryo DMG.Ada beberapa hal yang bahkan Duke dari Benteng Meropide merasa tidak berdaya. Contohnya, pekerjaan dokumen yang rumit, hal-hal sepele atau bahkan ... anak kecil yang menempelkan berbagai stiker yang lucu tapi sulit dilepas di sarung tinjunya.",
+        "th-th": "เรียกนวมขึ้นมา ชกโจมตีตรงไปข้างหน้าด้วยหมัดที่สะสมพลังน้ำแข็ง และปล่อย Icicle Impact ใส่พื้นที่ด้านหน้าอย่างต่อเนื่อง เพื่อสร้างความเสียหายน้ำแข็งวงกว้างหลายครั้งพลังปฐมภูมิ: สสารหลังจาก Icicle Impact สิ้นสุดลง จะทำการปล่อย Surging Blade ในตำแหน่งศัตรู และสร้างความเสียหายน้ำแข็งที่มีพลังสสารอยู่.มีหลายเรื่องที่แม้แต่ดยุกแห่งป้อมปราการ Meropide ก็ทำอะไรไม่ได้... เช่น งานเอกสารที่ซับซ้อน การกำกับดูแลเรื่องยิบย่อย หรือ... ความดื้อรั้นของเหล่าเพื่อนตัวน้อย ที่ชอบแอบแปะสติกเกอร์แสนน่ารักแต่ลอกยากไว้บนนวมของเขาก็ตาม",
+        "vi-vn": "Tung cú đấm trực diện tích tụ hàn băng, đồng thời triệu hồi Nhũ Băng Xung Kích về phía trước, gây nhiều lần Sát Thương Phạm Vi Nguyên Tố Băng.Sức Mạnh Nền Tảng: OusiaNhũ Băng Xung Kích sau khi kết thúc, sẽ giáng xuống Lưỡi Dao Nổi Sóng ở vị trí kẻ địch, gây Sát Thương Nguyên Tố Băng thuộc tính Ousia.Luôn có vài chuyện khiến công tước của Pháo Đài Meropide phải bó tay, như công việc giấy tờ phức tạp, nhiệm vụ giám sát nhỏ nhặt, hay những đứa trẻ dán cả đống nhãn dán dễ thương nhưng khó gỡ trên găng tay của mình.",
+        "zh-tw": "驅動拳套，打出凝聚寒霜的直拳，持續以冰錐衝擊前方區域，造成多次冰元素範圍傷害。始基力：荒性冰錐衝擊結束後，將在敵人的位置降下流湧之刃，造成具有荒性的冰元素傷害。總有一些事情，就算是梅洛彼得堡的公爵也會感到無可奈何——例如繁冗的文書工作，細瑣的監管職責，或是…小小的友人們在自己拳套上偷偷貼一堆難撕的可愛貼紙的執著。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/19/59559639/744b418d2b2f15a9b4776a68089ffc28_7419622719867747310.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Haverá Arguição Pela Justiça",
+        "en-us": "There Shall Be a Plea for Justice",
+        "ja-jp": "やがて公義は弁ぜらる",
+        "zh-cn": "公理终有辩诉之日",
+        "ko-kr": "정의는 밝혀지기 마련",
+        "ru-ru": "Да восторжествует справедливость",
+        "de-de": "Tag des Plädoyers der Gerechtigkeit",
+        "fr-fr": "Plaidoirie pour la justice",
+        "es-es": "Refutación del dogma",
+        "id-id": "There Shall be a Plea for Justice",
+        "th-th": "There Shall Be a Plea for Justice",
+        "vi-vn": "Ngày Biện Hộ Cho Công Lý",
+        "zh-tw": "公理終有辯訴之日"
+      },
+      "description": {
+        "pt-pt": "Quando a Vida de Wriothesley for inferior a 60%, ele obtém \"Ordem da Graça\", fazendo com que seu próximo Ataque Carregado de Ataque Normal: Punho Gelado Destruidor fique mais forte e se torne Disciplina: Soco do Salto Gelado. O ataque não consumirá Stamina, terá seu Dano aumentado em 50% e, ao atingir um inimigo, regenerará Vida para Wriothesley. A quantidade de Vida regenerada é equivalente a 30% da Vida Máxima de Wriothesley.É possível obter um acúmulo do efeito \"Ordem da Graça\" a cada 5s dessa forma.",
+        "en-us": "When Wriothesley's HP is less than 60%, he will obtain a Gracious Rebuke. The next Charged Attack of his Normal Attack: Forceful Fists of Frost will be enhanced to become Rebuke: Vaulting Fist. It will not consume Stamina, will deal 50% increased DMG, and after hitting will restore HP for Wriothesley equal to 30% of his Max HP.You can gain a Gracious Rebuke this way once every 5s.",
+        "ja-jp": "リオセスリのHPが60%未満の場合、「恩典の戒め」を獲得し、次の通常攻撃・フロストコンビネーションの重撃が誅罰・ヴォールティングアッパーに強化される。誅罰・ヴォールティングアッパー：スタミナを消費せず、与えるダメージ+50%。また、命中後にリオセスリのHPをHP上限の30%分回復する。この方法で獲得できる「恩典の戒め」は、5秒毎に1回のみ。",
+        "zh-cn": "莱欧斯利的生命值低于60％时，将获得「恩典之诫」，使下次普通攻击·迅烈倾霜拳的重击强化为惩戒·凌跃拳：不消耗体力，造成的伤害提升50％，并在命中后为莱欧斯利恢复生命值，回复量相当于莱欧斯利生命值上限的30％。每5秒至多通过这种方式获得一次「恩典之诫」效果。",
+        "ko-kr": "라이오슬리의 HP가 60% 미만일 때 「은혜로운 훈계」를 획득하고, 다음번 일반 공격·된서리 연타의 강공격이 징벌·도약권으로 강화된다: 스태미나를 소모하지 않고, 주는 피해가 50% 증가하며, 명중 후 라이오슬리의 HP를 라이오슬리 HP 최대치의 30%만큼 회복한다.해당 방식으로 「은혜로운 훈계」를 5초마다 최대 1회 획득할 수 있다",
+        "ru-ru": "Когда HP Ризли ниже 60%, он получает Благодатное взыскание. Его следующая заряженная атака Свирепыми кулаками стужи усиливается до Взыскания: Морозный кулак в прыжке. Она не потребляет выносливость, наносит увеличенный на 50% урон, а попадания по противнику восстанавливают HP Ризли в размере 30% от его макс. HP.Благодатное взыскание можно получить таким способом не более 1 раза каждые 5 сек.",
+        "de-de": "Wriothesley erhält bei weniger als 60% LP „Gebot der Gnade“, wodurch sein nächster heftiger Schlag von Standardangriff: Flinke Frostfaust zu „Rüge – Gefrierende Sprungfaust“ verstärkt wird. Es wird keine Ausdauer verbraucht, erhöht den Schaden um 50% und stellt Wriothesley bei Treffern 30% der max. LP wieder her.5s Abklingzeit.",
+        "fr-fr": "Lorsque les PV de Wriothesley sont inférieurs à 60 %, il obtient une réprimande miséricordieuse qui convertit la prochaine attaque chargée de son attaque normale « Poing vigoureux du givre » en poing bondissant de réprimande : ne consomme pas d'endurance, augmente les DGT infligés de 50 %, et restaure les PV de Wriothesley d'une valeur équivalant à 30 % de ses PV max en touchant.Une réprimande miséricordieuse peut être obtenue une fois toutes les 5 s de cette manière.",
+        "es-es": "Cuando la Vida de Wriothesley está por debajo del 60%, obtiene el efecto de “merced reprensora”, el cual fortalece su siguiente Ataque Cargado de Ataque Normal: Combo glaciodemoledor para convertirlo en un gancho alto disciplinario que no consume Aguante, inflige un 50% más de daño y, al golpear al enemigo, restaura Vida a Wriothesley en una cantidad equivalente al 30% de su propia Vida Máx.Como máximo, el efecto de merced reprensora solo se puede obtener una vez cada 5 s de esta forma.",
+        "id-id": "Saat HP Wriothesly berada di bawah 60%, akan mendapatkan Gracious Rebuke. Charged Attack dari Normal Attack: Forceful fists of Frost berikutnya akan diperkuat menjadi Rebuke: Vaulting fists yang tidak mengomsumsi Stamina, meningkatkan DMG yang diakibatkan sebesar 50%, dan memulihkan HP Wriothesly setelah serangan mengenai musuh. Jumlah pemulihan adalah sebesar 30% Max HP Wriothesly. Efek Gracious Rebuke yang dapat diperoleh dengan cara ini adalah sekali setiap 5 detik.",
+        "th-th": "เมื่อค่าพลังชีวิตของ Wriothesley ต่ำกว่า 60% จะได้รับ \"Gracious Rebuke\" (บัญญัติแห่งเมตตา)ที่ทำให้การชาร์จโจมตีครั้งต่อไปของ โจมตีปกติ: Forceful Fists of Frostได้รับการเสริมพลังเป็น Rebuke: Vaulting Fist โดยไม่เสียพลังกาย และสร้างความเสียหายเพิ่มขึ้น 50%และเมื่อโจมตีโดนเป้าหมายจะฟื้นฟูพลังชีวิตให้แก่ Wriothesley โดยที่ปริมาณการฟื้นฟูจะเท่ากับ 30% ของพลังชีวิตสูงสุดของ Wriothesleyสามารถรับ Gracious Rebuke ด้วยวิธีนี้ได้มากสุดหนึ่งครั้งในทุก 5 วินาที",
+        "vi-vn": "Khi HP của Wriothesley thấp hơn 60% sẽ nhận được \"Ân Điển Trách Phạt\", cường hóa đòn Trọng Kích của Tấn Công Thường - Liệt Sương Quyền lần sau thành Cú Đấm Trừng Phạt: Không tiêu hao thể lực, sát thương gây ra tăng 50%. Sau khi đánh trúng sẽ hồi phục một lượng HP tương đương 30% HP tối đa cho Wriothesley.Mỗi 5s tối đa nhận được một lần \"Ân Điển Trách Phạt\" thông qua cách này.",
+        "zh-tw": "萊歐斯利的生命值低於60%時，將獲得「恩典之誡」，使下次普通攻擊·迅烈傾霜拳的重擊強化為懲戒·凌躍拳：不消耗體力，造成的傷害提升50%，並在命中後為萊歐斯利恢復生命值，回復量相當於萊歐斯利生命值上限的30%。每5秒至多依此方式獲得一次「恩典之誡」效果。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/19/59559639/9f6df7e23edb63596a576f4e01c97e44_1720311816446923344.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Retribuição do Pecado",
+        "en-us": "There Shall Be a Reckoning for Sin",
+        "ja-jp": "いずれ罪業は贖わる",
+        "zh-cn": "罪业终有报偿之时",
+        "ko-kr": "죗값은 치르기 마련",
+        "ru-ru": "Да придёт час расплаты за грехи",
+        "de-de": "Stunde der Vergeltung der Sünde",
+        "fr-fr": "Rétribution pour le péché",
+        "es-es": "Redención del pecado",
+        "id-id": "There Shall be a Reckoning for Sin",
+        "th-th": "There Shall Be a Reckoning for Sin",
+        "vi-vn": "Giờ Đền Đáp Cho Tội Lỗi",
+        "zh-tw": "罪業終有報償之時"
+      },
+      "description": {
+        "pt-pt": "Quando a Vida de Wriothesley aumentar ou diminuir, se ele estiver no estado Julgamento do Gelo Feroz de Corrida da Presa Gelada, o estado Julgamento do Gelo Feroz ganhará um acúmulo do efeito \"Édito do Processo\", podendo ser acumulado até 5 vezes. Cada acúmulo aumenta o ATQ de Wriothesley em 6%.",
+        "en-us": "When Wriothesley's current HP increases or decreases, if he is in the Chilling Penalty state conferred by Icefang Rush, Chilling Penalty will gain one stack of Prosecution Edict. Max 5 stacks. Each stack will increase Wriothesley's ATK by 6%.",
+        "ja-jp": "リオセスリの現在HPが増減する時、リオセスリがアイスファング・ラッシュによる烈霜の懲戒状態にある場合、「抵罪の赦免」効果を1層獲得する。この効果は最大5層まで重ね掛けでき、1層につきリオセスリの攻撃力+6%。",
+        "zh-cn": "莱欧斯利的当前生命值提升或降低时，若莱欧斯利处于冰牙突驰的寒烈的惩裁状态下，寒烈的惩裁将获得一层「检偿之敕」效果，该效果至多叠加至5层，每层使莱欧斯利的攻击力提升6%。",
+        "ko-kr": "라이오슬리가 얼음송곳니 돌진의 혹한의 징벌 상태일 때 라이오슬리의 현재 HP가 증가 또는 감소하면 혹한의 징벌이 「처벌 칙령」 효과를 1스택 획득한다. 최대 중첩수: 5스택. 스택당 라이오슬리의 공격력이 6% 증가한다",
+        "ru-ru": "Когда текущее HP Ризли увеличивается или снижается, пока он находится в состоянии Леденящего наказания Стремительного ледяного клыка, Леденящее наказание получает один уровень Указа об обвинении. Эффект складывается до 5 раз. Каждый уровень эффекта повышает силу атаки Ризли на 6%.",
+        "de-de": "Befindet sich Wriothesley beim Erhöhen oder Verringern seiner aktuellen LP im Zustand „Eiskalte Bestrafung“ von Eiszahn-Ansturm, erhält „Eiskalte Bestrafung“ einen Stapel „Erlass der Anklage“. 5-fach stapelbar, jeder Stapel erhöht Wriothesleys ANG um 6%.",
+        "fr-fr": "Lorsque les PV actuels de Wriothesley augmentent ou diminuent et s'il est sous l'effet du châtiment algide accordé par Ruée glaciale du croc, le châtiment algide obtient un cumul d'édit d'accusation. Cet effet peut être cumulé 5 fois maximum, chaque cumul permettant d'augmenter l'ATQ de Wriothesley de 6 %.",
+        "es-es": "Cuando la Vida de Wriothesley aumenta o disminuye, si se encuentra en el estado de sentencia gélida de Envite ateridor, dicho estado obtiene el efecto de “decreto punitivo”. Este puede acumularse hasta 5 veces y cada acumulación aumenta el ATQ de Wriothesley en un 6%.",
+        "id-id": "Saat HP Wriothesly meningkat atau berkurang, jika Wriothelsy sedanag berada dalam status Chilling Penalty dari Icefang Rush, Chilling Penaltya akan mendapatkan satu lapis efek prosecution Edict. Edek ini dapat ditumpuk sampai 5 lapis. Setiap lapisnya akan meingkatkan 6% ATK Wriothesly.",
+        "th-th": "เมื่อพลังชีวิตปัจจุบันของ Wriothesley เพิ่มขึ้นหรือลดลง หาก Wriothesley อยู่ภายใต้สถานะ Chilling Penalty ที่เกิดจาก Icefang Rush จะทำให้ Chilling Penalty ได้รับเอฟเฟกต์ Prosecution Edict 1 ชั้น เอฟเฟกต์นี้จะซ้อนทับได้มากสุด 5 ชั้น แต่ละชั้นจะทำให้ Wriothesley มีพลังโจมตีเพิ่มขึ้น 6%",
+        "vi-vn": "Khi HP hiện tại của Wriothesley tăng lên hay giảm xuống, nếu anh ta ở trong trạng thái Hàn Băng Phán Quyết của kỹ năng Nanh Băng Càn Quét, thì Hàn Băng Phán Quyết sẽ nhận được một tầng \"Sắc Lệnh Truy Tố\". Hiệu quả này tối đa cộng dồn 5 tầng, mỗi tầng tăng cho Wriothesley 6% tấn công.",
+        "zh-tw": "萊歐斯利的目前生命值提升或降低時，若萊歐斯利處於冰牙突馳的寒烈的懲裁狀態下，寒烈的懲裁將獲得一層「檢償之敕」效果，該效果至多疊加至5層，每層使萊歐斯利的攻擊力提升6%。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/19/59559639/7f1c1327485bb0bc0c9deff4d2480c2d_5464350815714039236.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Graça do Duque",
+        "en-us": "The Duke's Grace",
+        "ja-jp": "公爵の恩赦",
+        "zh-cn": "公爵的恩馈",
+        "ko-kr": "공작의 은혜",
+        "ru-ru": "Милость герцога",
+        "de-de": "Die Gunst des Herzogs",
+        "fr-fr": "Clémence du duc",
+        "es-es": "Dádiva ducal",
+        "id-id": "The Duke's Grace",
+        "th-th": "The Duke's Grace",
+        "vi-vn": "Ẩn Điển Của Công Tước",
+        "zh-tw": "公爵的恩饋"
+      },
+      "description": {
+        "pt-pt": "Quando fabrica Materiais de Ascensão de Armas, tem 10% de chance de receber o dobro do produto.",
+        "en-us": "When Wriothesley crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.",
+        "ja-jp": "武器突破素材を合成する時、10%の確率でアイテムを2倍獲得する。",
+        "zh-cn": "合成武器突破素材时，有10%概率获得2倍产出。",
+        "ko-kr": "무기 돌파 소재 합성 시 10%의 확률로 생산량의 2배를 획득한다",
+        "ru-ru": "При создании материалов возвышения оружия имеет 10% шанс создать дополнительный предмет.",
+        "de-de": "Stellt beim Zusammensetzen von Material zum Aufstieg von Waffen mit einer Wahrscheinlichkeit von 10% den 2-fachen Ertrag her.",
+        "fr-fr": "10 % de chances d'obtenir le double de produits lors de la synthèse de matériaux d'élévation d'arme.",
+        "es-es": "Al crear materiales de ascensión de arma, hay una probabilidad del 10% de recibir el doble.",
+        "id-id": "Saat membuat Material Ascension Senjata, memiliki 10% kemungkinan untuk mendapatkan hasil 2 kali lipat.",
+        "th-th": "เมื่อสร้างวัสดุเลื่อนขั้นอาวุธ จะมีโอกาส 10% ที่จะได้รับผลผลิตเพิ่มเป็น 2 เท่า",
+        "vi-vn": "Khi ghép nguyên liệu đột phá vũ khí sẽ có 10% tỷ lệ nhận x2 thành phẩm.",
+        "zh-tw": "合成武器突破素材時，有10%機率獲得2倍產出。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/19/59559639/ad2d56164eb6da72d5b0b0ed8ba9d178_8002188639935325585.png"
+    }
+  ],
+  "talentAttributes": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Punho Gelado Destruidor",
+        "en-us": "Forceful Fists of Frost",
+        "ja-jp": "フロストコンビネーション",
+        "zh-cn": "普通攻击·迅烈倾霜拳",
+        "ko-kr": "일반 공격·된서리 연타",
+        "ru-ru": "Свирепые кулаки стужи",
+        "de-de": "Standardangriff: Flinke Frostfaust",
+        "fr-fr": "Attaque normale : Poing vigoureux du givre",
+        "es-es": "Ataque Normal: Combo glaciodemoledor",
+        "id-id": "Normal Attack: Forceful First of Frost",
+        "th-th": "โจมตีปกติ: Forceful Fists of Frost",
+        "vi-vn": "Tấn Công Thường - Liệt Sương Quyền",
+        "zh-tw": "普通攻擊·迅烈傾霜拳"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv. 1",
+            "Nv. 2",
+            "Nv. 3",
+            "Nv. 4",
+            "Nv. 5",
+            "Nv. 6",
+            "Nv. 7",
+            "Nv. 8",
+            "Nv. 9",
+            "Nv. 10",
+            "Nv. 11",
+            "Nv. 12",
+            "Nv. 13",
+            "Nv. 14",
+            "Nv. 15"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 1º Golpe",
+            "en-us": "1-Hit DMG",
+            "ja-jp": "1段ダメージ",
+            "zh-cn": "一段伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон атаки 1",
+            "de-de": "SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tahap 1",
+            "th-th": "ความเสียหายขั้น 1",
+            "vi-vn": "Sát Thương Lần 1",
+            "zh-tw": "一段傷害"
+          },
+          "values": [
+            "53.4%",
+            "57.7%",
+            "62.0%",
+            "68.3%",
+            "72.6%",
+            "77.6%",
+            "84.4%",
+            "91.2%",
+            "98.0%",
+            "105.5%",
+            "112.9%",
+            "120.4%",
+            "127.8%",
+            "135.3%",
+            "142.71%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 2º Golpe",
+            "en-us": "2-Hit DMG",
+            "ja-jp": "2段ダメージ",
+            "zh-cn": "二段伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон атаки 2",
+            "de-de": "SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2.º golpe",
+            "id-id": "DMG Tahap 2",
+            "th-th": "ความเสียหายขั้น 2",
+            "vi-vn": "Sát Thương Lần 2",
+            "zh-tw": "二段傷害"
+          },
+          "values": [
+            "51.8%",
+            "56.0%",
+            "60.2%",
+            "66.3%",
+            "70.5%",
+            "75.3%",
+            "81.9%",
+            "88.5%",
+            "95.2%",
+            "102.4%",
+            "109.6%",
+            "116.8%",
+            "124.1%",
+            "131.3%",
+            "138.53%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 3º Golpe",
+            "en-us": "3-Hit DMG",
+            "ja-jp": "3段ダメージ",
+            "zh-cn": "三段伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон атаки 3",
+            "de-de": "SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tahap 3",
+            "th-th": "ความเสียหายขั้น 3",
+            "vi-vn": "Sát Thương Lần 3",
+            "zh-tw": "三段傷害"
+          },
+          "values": [
+            "67.2%",
+            "72.7%",
+            "78.2%",
+            "86.0%",
+            "91.5%",
+            "97.7%",
+            "106.3%",
+            "114.9%",
+            "123.5%",
+            "132.9%",
+            "142.3%",
+            "151.6%",
+            "161.0%",
+            "170.4%",
+            "179.78%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 4º Golpe",
+            "en-us": "4-Hit DMG",
+            "ja-jp": "4段ダメージ",
+            "zh-cn": "四段伤害",
+            "ko-kr": "4단 공격 피해",
+            "ru-ru": "Урон атаки 4",
+            "de-de": "SCH Phase 4",
+            "fr-fr": "DGT 4e coup",
+            "es-es": "Daño de 4.º golpe",
+            "id-id": "DMG Tahap 4",
+            "th-th": "ความเสียหายขั้น 4",
+            "vi-vn": "Sát Thương Lần 4",
+            "zh-tw": "四段傷害"
+          },
+          "values": [
+            "37.9%+37.9%",
+            "41.0%+41.0%",
+            "44.1%+44.1%",
+            "48.5%+48.5%",
+            "51.6%+51.6%",
+            "55.1%+55.1%",
+            "59.9%+59.9%",
+            "64.8%+64.8%",
+            "69.6%+69.6%",
+            "74.9%+74.9%",
+            "80.2%+80.2%",
+            "85.5%+85.5%",
+            "90.8%+90.8%",
+            "96.1%+96.1%",
+            "101.37% + 101.37%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 5º Golpe",
+            "en-us": "5-Hit DMG",
+            "ja-jp": "5段ダメージ",
+            "zh-cn": "五段伤害",
+            "ko-kr": "5단 공격 피해",
+            "ru-ru": "Урон атаки 5",
+            "de-de": "SCH Phase 5",
+            "fr-fr": "DGT 5e coup",
+            "es-es": "Daño de 5.º golpe",
+            "id-id": "DMG Tahap 5",
+            "th-th": "ความเสียหายขั้น 5",
+            "vi-vn": "Sát Thương Lần 5",
+            "zh-tw": "五段傷害"
+          },
+          "values": [
+            "90.7%",
+            "98.1%",
+            "105.5%",
+            "116.1%",
+            "123.5%",
+            "131.9%",
+            "143.5%",
+            "155.1%",
+            "166.7%",
+            "179.4%",
+            "192.0%",
+            "204.7%",
+            "217.4%",
+            "230.0%",
+            "242.64%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Ataque Carregado",
+            "en-us": "Charged Attack DMG",
+            "ja-jp": "重撃ダメージ",
+            "zh-cn": "重击伤害",
+            "ko-kr": "강공격 피해",
+            "ru-ru": "Урон заряженной атаки",
+            "de-de": "SCH heftiger Schläge",
+            "fr-fr": "DGT attaque chargée",
+            "es-es": "Daño de ATQ Cargado",
+            "id-id": "DMG Charged Attack",
+            "th-th": "ความเสียหายชาร์จโจมตี",
+            "vi-vn": "Sát Thương Trọng Kích",
+            "zh-tw": "重擊傷害"
+          },
+          "values": [
+            "153.0%",
+            "164.4%",
+            "175.9%",
+            "191.2%",
+            "202.7%",
+            "214.1%",
+            "229.4%",
+            "244.7%",
+            "260.0%",
+            "275.3%",
+            "290.6%",
+            "305.9%",
+            "325.0%",
+            "344.2%",
+            "363.28%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Consumo de Stamina de Ataque Carregado",
+            "en-us": "Charged Attack Stamina Cost",
+            "ja-jp": "重撃スタミナ消費",
+            "zh-cn": "重击体力消耗",
+            "ko-kr": "강공격 스태미나 소모",
+            "ru-ru": "Потребление выносливости",
+            "de-de": "Ausdauerverbrauch heftiger Schläge",
+            "fr-fr": "Coût d'endurance attaque chargée",
+            "es-es": "Coste de Aguante de ATQ Cargado",
+            "id-id": "Konsumsi Stamina Charged Attack",
+            "th-th": "ชาร์จโจมตีใช้พลังกาย",
+            "vi-vn": "Thể lực Trọng Kích tiêu hao",
+            "zh-tw": "重擊體力消耗"
+          },
+          "values": [
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Durante a Queda",
+            "en-us": "Plunge DMG",
+            "ja-jp": "落下期間のダメージ",
+            "zh-cn": "下坠期间伤害",
+            "ko-kr": "낙하 공격 피해",
+            "ru-ru": "Урон в падении",
+            "de-de": "SCH beim Fallen",
+            "fr-fr": "DGT durant la chute",
+            "es-es": "Daño de Caída",
+            "id-id": "DMG Selama Plunging",
+            "th-th": "ความเสียหายพุ่งลง",
+            "vi-vn": "Sát Thương Khi Đáp",
+            "zh-tw": "下墜期間傷害"
+          },
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Queda de Baixa/Alta Altitude",
+            "en-us": "Low/High Plunge DMG",
+            "ja-jp": "低空/高空落下攻撃ダメージ",
+            "zh-cn": "低空/高空坠地冲击伤害",
+            "ko-kr": "저공/고공 추락 충격 피해",
+            "ru-ru": "Урон низкого/высокого удара",
+            "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
+            "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Daño de impacto de caída baja/alta",
+            "id-id": "DMG Plunging Attack Min./Maks.",
+            "th-th": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+            "vi-vn": "ST Khi Rơi Từ Độ Cao Thấp/Cao",
+            "zh-tw": "低空/高空墜地衝擊傷害"
+          },
+          "values": [
+            "114%/142%",
+            "123%/153%",
+            "132%/165%",
+            "145%/182%",
+            "155%/193%",
+            "165%/206%",
+            "180%/224%",
+            "194%/243%",
+            "209%/261%",
+            "225%/281%",
+            "240%/300%",
+            "256%/320%",
+            "272%/340%",
+            "288%/360%",
+            "303.9%/379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_skill",
+      "talentName": {
+        "pt-pt": "Corrida da Presa Gelada",
+        "en-us": "Icefang Rush",
+        "ja-jp": "アイスファング・ラッシュ",
+        "zh-cn": "冰牙突驰",
+        "ko-kr": "얼음송곳니 돌진",
+        "ru-ru": "Стремительный ледяной клык",
+        "de-de": "Eiszahn-Ansturm",
+        "fr-fr": "Ruée glaciale du croc",
+        "es-es": "Envite ateridor",
+        "id-id": "Icefang Rush",
+        "th-th": "Icefang Rush",
+        "vi-vn": "Nanh Băng Càn Quét",
+        "zh-tw": "冰牙突馳"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv. 1",
+            "Nv. 2",
+            "Nv. 3",
+            "Nv. 4",
+            "Nv. 5",
+            "Nv. 6",
+            "Nv. 7",
+            "Nv. 8",
+            "Nv. 9",
+            "Nv. 10"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Soco Repulsor Fortalecido",
+            "en-us": "Enhanced Repelling Fist DMG",
+            "ja-jp": "強化リペルブローのダメージ",
+            "zh-cn": "强化斥拳伤害",
+            "ko-kr": "강화 격퇴권 피해",
+            "ru-ru": "Урон усиленных Кулаков изгнания",
+            "de-de": "SCH der verstärkten Sturmfäuste",
+            "fr-fr": "DGT poing de réprimande renforcé",
+            "es-es": "Daño de puñetazo expeledor fortalecido",
+            "id-id": "Peningkatan DMG Repelling fists",
+            "th-th": "ความเสียหาย Repelling Fist ที่เสริมพลัง",
+            "vi-vn": "Sát Thương Cú Đấm Bài Xích Cường Hóa",
+            "zh-tw": "強化斥逐拳傷害"
+          },
+          "values": [
+            "143.17% do Dano de Ataque Normal",
+            "145.75% do Dano de Ataque Normal",
+            "148.34% do Dano de Ataque Normal",
+            "151.7% do Dano de Ataque Normal",
+            "154.29% do Dano de Ataque Normal",
+            "156.87% do Dano de Ataque Normal",
+            "160.23% do Dano de Ataque Normal",
+            "163.59% do Dano de Ataque Normal",
+            "166.95% do Dano de Ataque Normal",
+            "170.31% do Dano de Ataque Normal"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Consumo de Vida",
+            "en-us": "HP Cost",
+            "ja-jp": "HP消費",
+            "zh-cn": "消耗生命值",
+            "ko-kr": "HP 소모",
+            "ru-ru": "Потребление HP",
+            "de-de": "LP-Verbrauch",
+            "fr-fr": "Coût de PV",
+            "es-es": "Consumo de Vida",
+            "id-id": "Konsumsi HP",
+            "th-th": "ระยะเวลาต่อเนื่อง",
+            "vi-vn": "HP Tiêu Hao",
+            "zh-tw": "消耗生命值"
+          },
+          "values": [
+            "4.5% da Vida Máxima",
+            "4.5% da Vida Máxima",
+            "4.5% da Vida Máxima",
+            "4.5% da Vida Máxima",
+            "4.5% da Vida Máxima",
+            "4.5% da Vida Máxima",
+            "4.5% da Vida Máxima",
+            "4.5% da Vida Máxima",
+            "4.5% da Vida Máxima",
+            "4.5% da Vida Máxima"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração",
+            "en-us": "Duration",
+            "ja-jp": "継続時間",
+            "zh-cn": "持续时间",
+            "ko-kr": "지속 시간",
+            "ru-ru": "Длительность",
+            "de-de": "Dauer",
+            "fr-fr": "Durée",
+            "es-es": "Duración",
+            "id-id": "Durasi",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "Thời Gian Kéo Dài",
+            "zh-tw": "持續時間"
+          },
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s",
+            "16s"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_burst",
+      "talentName": {
+        "pt-pt": "Mordida do Lobo de Ouro Escuro",
+        "en-us": "Darkgold Wolfbite",
+        "ja-jp": "ガンメタル・ウルフバイト",
+        "zh-cn": "黑金狼噬",
+        "ko-kr": "짓씹는 흑금늑대",
+        "ru-ru": "Укус чернозлатого волка",
+        "de-de": "Schwarzgoldener Wolfsbiss",
+        "fr-fr": "Morsure lupine de l'or",
+        "es-es": "Devoración aureosombría",
+        "id-id": "Darkgold Wolfbite",
+        "th-th": "Darkgold Wolfbite",
+        "vi-vn": "Hắc Kim Lang Cắn Xé",
+        "zh-tw": "黑金狼噬"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv. 1",
+            "Nv. 2",
+            "Nv. 3",
+            "Nv. 4",
+            "Nv. 5",
+            "Nv. 6",
+            "Nv. 7",
+            "Nv. 8",
+            "Nv. 9",
+            "Nv. 10",
+            "Nv. 11",
+            "Nv. 12",
+            "Nv. 13",
+            "Nv. 14",
+            "Nv. 15"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Habilidade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "127.2% ×5",
+            "136.74% ×5",
+            "146.28% ×5",
+            "159% ×5",
+            "168.54% ×5",
+            "178.08% ×5",
+            "190.8% ×5",
+            "203.52% ×5",
+            "216.24% ×5",
+            "228.96% ×5",
+            "241.68% ×5",
+            "254.4% ×5",
+            "270.3% ×5",
+            "286.2% ×5",
+            "302.1% ×5"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano da Lâmina da Fluidez",
+            "en-us": "Surging Blade DMG",
+            "ja-jp": "迸発の刃のダメージ",
+            "zh-cn": "流涌之刃伤害",
+            "ko-kr": "솟구치는 칼날 피해",
+            "ru-ru": "Урон Клинка бурных вод",
+            "de-de": "Wogenklingen-SCH",
+            "fr-fr": "DGT lame fluide",
+            "es-es": "Daño de filo fluyente",
+            "id-id": "DMG Surging Blade",
+            "th-th": "ความเสียหาย Surging Blade",
+            "vi-vn": "Sát Thương Lưỡi Dao Nổi Sóng",
+            "zh-tw": "流湧之刃傷害"
+          },
+          "values": [
+            "42.4%",
+            "45.58%",
+            "48.76%",
+            "53%",
+            "56.18%",
+            "59.36%",
+            "63.6%",
+            "67.84%",
+            "72.08%",
+            "76.32%",
+            "80.56%",
+            "84.8%",
+            "90.1%",
+            "95.4%",
+            "100.7%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga da Lâmina da Fluidez",
+            "en-us": "Surging Blade CD",
+            "ja-jp": "迸発の刃のクールタイム",
+            "zh-cn": "流涌之刃冷却时间",
+            "ko-kr": "솟구치는 칼날 재사용 대기시간",
+            "ru-ru": "Откат Клинка бурных вод",
+            "de-de": "Wogenklingen-Abklingzeit",
+            "fr-fr": "TdR lame fluide",
+            "es-es": "TdE de filo fluyente",
+            "id-id": "Cooldown Surging Blade",
+            "th-th": "คูลดาวน์ Surging Blade",
+            "vi-vn": "CD Lưỡi Dao Nổi Sóng",
+            "zh-tw": "流湧之刃冷卻時間"
+          },
+          "values": [
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10s",
+            "10s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Energia Elemental",
+            "en-us": "Energy Cost",
+            "ja-jp": "元素エネルギー",
+            "zh-cn": "元素能量",
+            "ko-kr": "원소 에너지",
+            "ru-ru": "Потребление энергии",
+            "de-de": "Elementarenergie",
+            "fr-fr": "Énergie élémentaire",
+            "es-es": "Energía Elemental",
+            "id-id": "Konsumsi Energy",
+            "th-th": "พลังงานธาตุ",
+            "vi-vn": "Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量"
+          },
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "talentMaterials": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Punho Gelado Destruidor",
+        "en-us": "Forceful Fists of Frost",
+        "ja-jp": "フロストコンビネーション",
+        "zh-cn": "普通攻击·迅烈倾霜拳",
+        "ko-kr": "일반 공격·된서리 연타",
+        "ru-ru": "Свирепые кулаки стужи",
+        "de-de": "Standardangriff: Flinke Frostfaust",
+        "fr-fr": "Attaque normale : Poing vigoureux du givre",
+        "es-es": "Ataque Normal: Combo glaciodemoledor",
+        "id-id": "Normal Attack: Forceful First of Frost",
+        "th-th": "โจมตีปกติ: Forceful Fists of Frost",
+        "vi-vn": "Tấn Công Thường - Liệt Sương Quyền",
+        "zh-tw": "普通攻擊·迅烈傾霜拳"
+      },
+      "materials": [
+        {
+          "level": 2,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 12500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4088",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/548ba6cff0815c3226574092ddbd69d7_8918320891410830893.png",
+              "amount": 3,
+              "name": {
+                "pt-pt": "Ensinamentos da Ordem",
+                "en-us": "Teachings of Order",
+                "ja-jp": "秩序の教え",
+                "zh-cn": "秩序的教导",
+                "ko-kr": "질서의 가르침",
+                "ru-ru": "Учения о Порядке",
+                "de-de": "Lehren der Ordnung",
+                "fr-fr": "Enseignement de l'Ordre",
+                "es-es": "Enseñanzas del orden",
+                "id-id": "Teachings of Order",
+                "th-th": "Teachings of Order",
+                "vi-vn": "Bài Giảng Của Trật Tự",
+                "zh-tw": "秩序的教導"
+              }
+            },
+            {
+              "id": "4072",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/0d15f8ce2c281306fbc8e0c3a6315437_4299511963351466807.png",
+              "amount": 6,
+              "name": {
+                "pt-pt": "Engrenagem Transmissora",
+                "en-us": "Meshing Gear",
+                "ja-jp": "整合の歯車",
+                "zh-cn": "啮合齿轮",
+                "ko-kr": "맞물림 톱니바퀴",
+                "ru-ru": "Сцепляющаяся шестерня",
+                "de-de": "Greifendes Zahnrad",
+                "fr-fr": "Engrenage de maillage",
+                "es-es": "Engranaje de malla",
+                "id-id": "Meshing Gear",
+                "th-th": "Meshing Gear",
+                "vi-vn": "Bánh Răng Liên Kết",
+                "zh-tw": "齧合齒輪"
+              }
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 17500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4086",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/03f646a9ac1384bf4e4cf14b5fda2800_4977309170188499549.png",
+              "amount": 2,
+              "name": {
+                "pt-pt": "Guia da Ordem",
+                "en-us": "Guide to Order",
+                "ja-jp": "秩序の導き",
+                "zh-cn": "秩序的指引",
+                "ko-kr": "질서의 인도",
+                "ru-ru": "Указания о Порядке",
+                "de-de": "Anleitung zur Ordnung",
+                "fr-fr": "Guide de l'Ordre",
+                "es-es": "Guía del orden",
+                "id-id": "Guide to Order",
+                "th-th": "Guide to Order",
+                "vi-vn": "Hướng Dẫn Của Trật Tự",
+                "zh-tw": "秩序的指引"
+              }
+            },
+            {
+              "id": "4071",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/8023d5d16d579656f82fd4378358a11b_7184624168607597305.png",
+              "amount": 3,
+              "name": {
+                "pt-pt": "Engrenagem Reta",
+                "en-us": "Mechanical Spur Gear",
+                "ja-jp": "機構の平歯車",
+                "zh-cn": "机关正齿轮",
+                "ko-kr": "평톱니바퀴",
+                "ru-ru": "Шестерня механизма",
+                "de-de": "Mechanisches Stirnrad",
+                "fr-fr": "Engrenage à coupe droite",
+                "es-es": "Mecaengranaje recto",
+                "id-id": "Mechanical Spur Gear",
+                "th-th": "Mechanical Spur Gear",
+                "vi-vn": "Bánh Răng Chính",
+                "zh-tw": "機關正齒輪"
+              }
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 25000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4086",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/03f646a9ac1384bf4e4cf14b5fda2800_4977309170188499549.png",
+              "amount": 4,
+              "name": {
+                "pt-pt": "Guia da Ordem",
+                "en-us": "Guide to Order",
+                "ja-jp": "秩序の導き",
+                "zh-cn": "秩序的指引",
+                "ko-kr": "질서의 인도",
+                "ru-ru": "Указания о Порядке",
+                "de-de": "Anleitung zur Ordnung",
+                "fr-fr": "Guide de l'Ordre",
+                "es-es": "Guía del orden",
+                "id-id": "Guide to Order",
+                "th-th": "Guide to Order",
+                "vi-vn": "Hướng Dẫn Của Trật Tự",
+                "zh-tw": "秩序的指引"
+              }
+            },
+            {
+              "id": "4071",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/8023d5d16d579656f82fd4378358a11b_7184624168607597305.png",
+              "amount": 4,
+              "name": {
+                "pt-pt": "Engrenagem Reta",
+                "en-us": "Mechanical Spur Gear",
+                "ja-jp": "機構の平歯車",
+                "zh-cn": "机关正齿轮",
+                "ko-kr": "평톱니바퀴",
+                "ru-ru": "Шестерня механизма",
+                "de-de": "Mechanisches Stirnrad",
+                "fr-fr": "Engrenage à coupe droite",
+                "es-es": "Mecaengranaje recto",
+                "id-id": "Mechanical Spur Gear",
+                "th-th": "Mechanical Spur Gear",
+                "vi-vn": "Bánh Răng Chính",
+                "zh-tw": "機關正齒輪"
+              }
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 30000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4086",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/03f646a9ac1384bf4e4cf14b5fda2800_4977309170188499549.png",
+              "amount": 6,
+              "name": {
+                "pt-pt": "Guia da Ordem",
+                "en-us": "Guide to Order",
+                "ja-jp": "秩序の導き",
+                "zh-cn": "秩序的指引",
+                "ko-kr": "질서의 인도",
+                "ru-ru": "Указания о Порядке",
+                "de-de": "Anleitung zur Ordnung",
+                "fr-fr": "Guide de l'Ordre",
+                "es-es": "Guía del orden",
+                "id-id": "Guide to Order",
+                "th-th": "Guide to Order",
+                "vi-vn": "Hướng Dẫn Của Trật Tự",
+                "zh-tw": "秩序的指引"
+              }
+            },
+            {
+              "id": "4071",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/8023d5d16d579656f82fd4378358a11b_7184624168607597305.png",
+              "amount": 6,
+              "name": {
+                "pt-pt": "Engrenagem Reta",
+                "en-us": "Mechanical Spur Gear",
+                "ja-jp": "機構の平歯車",
+                "zh-cn": "机关正齿轮",
+                "ko-kr": "평톱니바퀴",
+                "ru-ru": "Шестерня механизма",
+                "de-de": "Mechanisches Stirnrad",
+                "fr-fr": "Engrenage à coupe droite",
+                "es-es": "Mecaengranaje recto",
+                "id-id": "Mechanical Spur Gear",
+                "th-th": "Mechanical Spur Gear",
+                "vi-vn": "Bánh Răng Chính",
+                "zh-tw": "機關正齒輪"
+              }
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 37500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4086",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/03f646a9ac1384bf4e4cf14b5fda2800_4977309170188499549.png",
+              "amount": 9,
+              "name": {
+                "pt-pt": "Guia da Ordem",
+                "en-us": "Guide to Order",
+                "ja-jp": "秩序の導き",
+                "zh-cn": "秩序的指引",
+                "ko-kr": "질서의 인도",
+                "ru-ru": "Указания о Порядке",
+                "de-de": "Anleitung zur Ordnung",
+                "fr-fr": "Guide de l'Ordre",
+                "es-es": "Guía del orden",
+                "id-id": "Guide to Order",
+                "th-th": "Guide to Order",
+                "vi-vn": "Hướng Dẫn Của Trật Tự",
+                "zh-tw": "秩序的指引"
+              }
+            },
+            {
+              "id": "4071",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/8023d5d16d579656f82fd4378358a11b_7184624168607597305.png",
+              "amount": 9,
+              "name": {
+                "pt-pt": "Engrenagem Reta",
+                "en-us": "Mechanical Spur Gear",
+                "ja-jp": "機構の平歯車",
+                "zh-cn": "机关正齿轮",
+                "ko-kr": "평톱니바퀴",
+                "ru-ru": "Шестерня механизма",
+                "de-de": "Mechanisches Stirnrad",
+                "fr-fr": "Engrenage à coupe droite",
+                "es-es": "Mecaengranaje recto",
+                "id-id": "Mechanical Spur Gear",
+                "th-th": "Mechanical Spur Gear",
+                "vi-vn": "Bánh Răng Chính",
+                "zh-tw": "機關正齒輪"
+              }
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 120000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4085",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/4cf2189c44d090136af34ce1613ac1fc_7772364672433485664.png",
+              "amount": 4,
+              "name": {
+                "pt-pt": "Filosofia da Ordem",
+                "en-us": "Philosophies of Order",
+                "ja-jp": "秩序の哲学",
+                "zh-cn": "秩序的哲学",
+                "ko-kr": "질서의 철학",
+                "ru-ru": "Философия о Порядке",
+                "de-de": "Philosophie der Ordnung",
+                "fr-fr": "Philosophie de l'Ordre",
+                "es-es": "Filosofía del orden",
+                "id-id": "Philosophies of Order",
+                "th-th": "Philosophies of Order",
+                "vi-vn": "Triết Học Của Trật Tự",
+                "zh-tw": "秩序的哲學"
+              }
+            },
+            {
+              "id": "4070",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/4b604ff986feeaf150418ca94355a65a_7723312305957730574.png",
+              "amount": 4,
+              "name": {
+                "pt-pt": "Engrenagem Dinâmica",
+                "en-us": "Artificed Dynamic Gear",
+                "ja-jp": "奇械のコア歯車",
+                "zh-cn": "奇械机芯齿轮",
+                "ko-kr": "오토마톤 코어 톱니바퀴",
+                "ru-ru": "Изощрённая динамическая шестерня",
+                "de-de": "Neuartiges Uhrwerk-Zahnrad",
+                "fr-fr": "Engrenage dynamique artificié",
+                "es-es": "Engranaje mecadinámico",
+                "id-id": "Artificed Dynamic Gear",
+                "th-th": "Artificed Dynamic Gear",
+                "vi-vn": "Bánh Răng Lõi Trung Tâm",
+                "zh-tw": "奇械機芯齒輪"
+              }
+            },
+            {
+              "id": "3722",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/17/89220822/6a5efc1f62c02dc8649e970846ea28aa_3295847396716155075.png",
+              "amount": 1,
+              "name": {
+                "pt-pt": "Florescência Primogênita do Oásis",
+                "en-us": "Primordial Greenbloom",
+                "ja-jp": "原初のオアシスの初咲き",
+                "zh-cn": "原初绿洲之初绽",
+                "ko-kr": "태초 오아시스의 첫 개화",
+                "ru-ru": "Первозданный цветок оазиса",
+                "de-de": "Urblüte der ersten Oase",
+                "fr-fr": "Floraison première de l'oasis",
+                "es-es": "Floración primigenia del oasis",
+                "id-id": "Primordial Greenbloom",
+                "th-th": "Primordial Greenbloom",
+                "vi-vn": "Hoa Tươi Ban Sơ",
+                "zh-tw": "原初綠洲之初綻"
+              }
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 260000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4085",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/4cf2189c44d090136af34ce1613ac1fc_7772364672433485664.png",
+              "amount": 6,
+              "name": {
+                "pt-pt": "Filosofia da Ordem",
+                "en-us": "Philosophies of Order",
+                "ja-jp": "秩序の哲学",
+                "zh-cn": "秩序的哲学",
+                "ko-kr": "질서의 철학",
+                "ru-ru": "Философия о Порядке",
+                "de-de": "Philosophie der Ordnung",
+                "fr-fr": "Philosophie de l'Ordre",
+                "es-es": "Filosofía del orden",
+                "id-id": "Philosophies of Order",
+                "th-th": "Philosophies of Order",
+                "vi-vn": "Triết Học Của Trật Tự",
+                "zh-tw": "秩序的哲學"
+              }
+            },
+            {
+              "id": "4070",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/4b604ff986feeaf150418ca94355a65a_7723312305957730574.png",
+              "amount": 6,
+              "name": {
+                "pt-pt": "Engrenagem Dinâmica",
+                "en-us": "Artificed Dynamic Gear",
+                "ja-jp": "奇械のコア歯車",
+                "zh-cn": "奇械机芯齿轮",
+                "ko-kr": "오토마톤 코어 톱니바퀴",
+                "ru-ru": "Изощрённая динамическая шестерня",
+                "de-de": "Neuartiges Uhrwerk-Zahnrad",
+                "fr-fr": "Engrenage dynamique artificié",
+                "es-es": "Engranaje mecadinámico",
+                "id-id": "Artificed Dynamic Gear",
+                "th-th": "Artificed Dynamic Gear",
+                "vi-vn": "Bánh Răng Lõi Trung Tâm",
+                "zh-tw": "奇械機芯齒輪"
+              }
+            },
+            {
+              "id": "3722",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/17/89220822/6a5efc1f62c02dc8649e970846ea28aa_3295847396716155075.png",
+              "amount": 1,
+              "name": {
+                "pt-pt": "Florescência Primogênita do Oásis",
+                "en-us": "Primordial Greenbloom",
+                "ja-jp": "原初のオアシスの初咲き",
+                "zh-cn": "原初绿洲之初绽",
+                "ko-kr": "태초 오아시스의 첫 개화",
+                "ru-ru": "Первозданный цветок оазиса",
+                "de-de": "Urblüte der ersten Oase",
+                "fr-fr": "Floraison première de l'oasis",
+                "es-es": "Floración primigenia del oasis",
+                "id-id": "Primordial Greenbloom",
+                "th-th": "Primordial Greenbloom",
+                "vi-vn": "Hoa Tươi Ban Sơ",
+                "zh-tw": "原初綠洲之初綻"
+              }
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 450000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4085",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/4cf2189c44d090136af34ce1613ac1fc_7772364672433485664.png",
+              "amount": 12,
+              "name": {
+                "pt-pt": "Filosofia da Ordem",
+                "en-us": "Philosophies of Order",
+                "ja-jp": "秩序の哲学",
+                "zh-cn": "秩序的哲学",
+                "ko-kr": "질서의 철학",
+                "ru-ru": "Философия о Порядке",
+                "de-de": "Philosophie der Ordnung",
+                "fr-fr": "Philosophie de l'Ordre",
+                "es-es": "Filosofía del orden",
+                "id-id": "Philosophies of Order",
+                "th-th": "Philosophies of Order",
+                "vi-vn": "Triết Học Của Trật Tự",
+                "zh-tw": "秩序的哲學"
+              }
+            },
+            {
+              "id": "4070",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/4b604ff986feeaf150418ca94355a65a_7723312305957730574.png",
+              "amount": 9,
+              "name": {
+                "pt-pt": "Engrenagem Dinâmica",
+                "en-us": "Artificed Dynamic Gear",
+                "ja-jp": "奇械のコア歯車",
+                "zh-cn": "奇械机芯齿轮",
+                "ko-kr": "오토마톤 코어 톱니바퀴",
+                "ru-ru": "Изощрённая динамическая шестерня",
+                "de-de": "Neuartiges Uhrwerk-Zahnrad",
+                "fr-fr": "Engrenage dynamique artificié",
+                "es-es": "Engranaje mecadinámico",
+                "id-id": "Artificed Dynamic Gear",
+                "th-th": "Artificed Dynamic Gear",
+                "vi-vn": "Bánh Răng Lõi Trung Tâm",
+                "zh-tw": "奇械機芯齒輪"
+              }
+            },
+            {
+              "id": "3722",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/17/89220822/6a5efc1f62c02dc8649e970846ea28aa_3295847396716155075.png",
+              "amount": 2,
+              "name": {
+                "pt-pt": "Florescência Primogênita do Oásis",
+                "en-us": "Primordial Greenbloom",
+                "ja-jp": "原初のオアシスの初咲き",
+                "zh-cn": "原初绿洲之初绽",
+                "ko-kr": "태초 오아시스의 첫 개화",
+                "ru-ru": "Первозданный цветок оазиса",
+                "de-de": "Urblüte der ersten Oase",
+                "fr-fr": "Floraison première de l'oasis",
+                "es-es": "Floración primigenia del oasis",
+                "id-id": "Primordial Greenbloom",
+                "th-th": "Primordial Greenbloom",
+                "vi-vn": "Hoa Tươi Ban Sơ",
+                "zh-tw": "原初綠洲之初綻"
+              }
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 700000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4085",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/4cf2189c44d090136af34ce1613ac1fc_7772364672433485664.png",
+              "amount": 16,
+              "name": {
+                "pt-pt": "Filosofia da Ordem",
+                "en-us": "Philosophies of Order",
+                "ja-jp": "秩序の哲学",
+                "zh-cn": "秩序的哲学",
+                "ko-kr": "질서의 철학",
+                "ru-ru": "Философия о Порядке",
+                "de-de": "Philosophie der Ordnung",
+                "fr-fr": "Philosophie de l'Ordre",
+                "es-es": "Filosofía del orden",
+                "id-id": "Philosophies of Order",
+                "th-th": "Philosophies of Order",
+                "vi-vn": "Triết Học Của Trật Tự",
+                "zh-tw": "秩序的哲學"
+              }
+            },
+            {
+              "id": "4070",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/4b604ff986feeaf150418ca94355a65a_7723312305957730574.png",
+              "amount": 12,
+              "name": {
+                "pt-pt": "Engrenagem Dinâmica",
+                "en-us": "Artificed Dynamic Gear",
+                "ja-jp": "奇械のコア歯車",
+                "zh-cn": "奇械机芯齿轮",
+                "ko-kr": "오토마톤 코어 톱니바퀴",
+                "ru-ru": "Изощрённая динамическая шестерня",
+                "de-de": "Neuartiges Uhrwerk-Zahnrad",
+                "fr-fr": "Engrenage dynamique artificié",
+                "es-es": "Engranaje mecadinámico",
+                "id-id": "Artificed Dynamic Gear",
+                "th-th": "Artificed Dynamic Gear",
+                "vi-vn": "Bánh Răng Lõi Trung Tâm",
+                "zh-tw": "奇械機芯齒輪"
+              }
+            },
+            {
+              "id": "3722",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/17/89220822/6a5efc1f62c02dc8649e970846ea28aa_3295847396716155075.png",
+              "amount": 2,
+              "name": {
+                "pt-pt": "Florescência Primogênita do Oásis",
+                "en-us": "Primordial Greenbloom",
+                "ja-jp": "原初のオアシスの初咲き",
+                "zh-cn": "原初绿洲之初绽",
+                "ko-kr": "태초 오아시스의 첫 개화",
+                "ru-ru": "Первозданный цветок оазиса",
+                "de-de": "Urblüte der ersten Oase",
+                "fr-fr": "Floraison première de l'oasis",
+                "es-es": "Floración primigenia del oasis",
+                "id-id": "Primordial Greenbloom",
+                "th-th": "Primordial Greenbloom",
+                "vi-vn": "Hoa Tươi Ban Sơ",
+                "zh-tw": "原初綠洲之初綻"
+              }
+            },
+            {
+              "id": "900",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Crown%20of%20Insight_icon.png",
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa da Sabedoria",
+                "en-us": "Crown of Insight",
+                "ja-jp": "知恵の冠",
+                "zh-cn": "智识之冕",
+                "ko-kr": "지식의 왕관",
+                "ru-ru": "Корона прозрения",
+                "de-de": "Krone der Weisheit",
+                "fr-fr": "Couronne de la sagesse",
+                "es-es": "Corona de la sabiduría",
+                "id-id": "Crown of Insight",
+                "th-th": "Crown of Insight",
+                "vi-vn": "Vương Miện Trí Thức",
+                "zh-tw": "智識之冕"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "affiliation": {
+    "pt-pt": "Fortaleza Meropide",
+    "en-us": "Fortress of Meropide",
+    "ja-jp": "メロピデ要塞",
+    "zh-cn": "梅洛彼得堡",
+    "ko-kr": "메로피드 요새",
+    "ru-ru": "Крепость Меропид",
+    "de-de": "Fort Méropide",
+    "fr-fr": "Directeur de la Forteresse de Méropide",
+    "es-es": "Fuerte Merópide",
+    "id-id": "Fortress of Meropide",
+    "th-th": "ป้อมปราการ Meropide",
+    "vi-vn": "Pháo Đài Meropide",
+    "zh-tw": "梅洛彼得堡"
+  },
+  "birthday": {
+    "pt-pt": "23 de novembro",
+    "en-us": "11/23",
+    "ja-jp": "11月23日",
+    "zh-cn": "11月23日",
+    "ko-kr": "11월 23일",
+    "ru-ru": "23 ноября",
+    "de-de": "23. November",
+    "fr-fr": "23/11",
+    "es-es": "23 11",
+    "id-id": "23 November",
+    "th-th": "11/23",
+    "vi-vn": "23 Tháng 11",
+    "zh-tw": "11月23日"
+  },
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv. 20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv. 20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv. 20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "411",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Shivada%20Jade%20Sliver_icon.png",
+          "amount": 1,
+          "name": {
+            "pt-pt": "Lasca de Jade Shivada",
+            "en-us": "Shivada Jade Sliver",
+            "ja-jp": "哀切なアイスクリスタル・砕屑",
+            "zh-cn": "哀叙冰玉碎屑",
+            "ko-kr": "서늘한 빙옥 가루",
+            "ru-ru": "Осколок нефрита Шивада",
+            "de-de": "Shivada-Jade-Splitter",
+            "fr-fr": "Éclat de jade shivada",
+            "es-es": "Pedacito de jade shivada",
+            "id-id": "Shivada Jade Sliver",
+            "th-th": "Shivada Jade Sliver",
+            "vi-vn": "Mảnh Ngọc Băng Vụn",
+            "zh-tw": "哀敘冰玉碎屑"
+          }
+        },
+        {
+          "id": "4341",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Unidade de Subdetecção",
+            "en-us": "Subdetection Unit",
+            "ja-jp": "探測ユニット・子機",
+            "zh-cn": "子探测单元",
+            "ko-kr": "서브 탐측 유닛",
+            "ru-ru": "Миниатюрный детектор",
+            "de-de": "Subdetektionseinheit",
+            "fr-fr": "Unité de sous-détection",
+            "es-es": "Unidad de subdetección",
+            "id-id": "Subdetection Unit",
+            "th-th": "Subdetection Unit",
+            "vi-vn": "Đơn Vị Thăm Dò Phụ Trợ",
+            "zh-tw": "子探測單元"
+          }
+        },
+        {
+          "id": "4072",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/0d15f8ce2c281306fbc8e0c3a6315437_4299511963351466807.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Engrenagem Transmissora",
+            "en-us": "Meshing Gear",
+            "ja-jp": "整合の歯車",
+            "zh-cn": "啮合齿轮",
+            "ko-kr": "맞물림 톱니바퀴",
+            "ru-ru": "Сцепляющаяся шестерня",
+            "de-de": "Greifendes Zahnrad",
+            "fr-fr": "Engrenage de maillage",
+            "es-es": "Engranaje de malla",
+            "id-id": "Meshing Gear",
+            "th-th": "Meshing Gear",
+            "vi-vn": "Bánh Răng Liên Kết",
+            "zh-tw": "齧合齒輪"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv. 40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv. 40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 40000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "410",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Shivada%20Jade%20Fragment_icon.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Jade Shivada",
+            "en-us": "Shivada Jade Fragment",
+            "ja-jp": "哀切なアイスクリスタル・欠片",
+            "zh-cn": "哀叙冰玉断片",
+            "ko-kr": "서늘한 빙옥 조각",
+            "ru-ru": "Фрагмент нефрита Шивада",
+            "de-de": "Shivada-Jade-Bruchstück",
+            "fr-fr": "Fragment de jade shivada",
+            "es-es": "Fragmento de jade shivada",
+            "id-id": "Shivada Jade Fragment",
+            "th-th": "Shivada Jade Fragment",
+            "vi-vn": "Mảnh Ngọc Băng Vỡ",
+            "zh-tw": "哀敘冰玉斷片"
+          }
+        },
+        {
+          "id": "4341",
+          "iconUrl": null,
+          "amount": 10,
+          "name": {
+            "pt-pt": "Unidade de Subdetecção",
+            "en-us": "Subdetection Unit",
+            "ja-jp": "探測ユニット・子機",
+            "zh-cn": "子探测单元",
+            "ko-kr": "서브 탐측 유닛",
+            "ru-ru": "Миниатюрный детектор",
+            "de-de": "Subdetektionseinheit",
+            "fr-fr": "Unité de sous-détection",
+            "es-es": "Unidad de subdetección",
+            "id-id": "Subdetection Unit",
+            "th-th": "Subdetection Unit",
+            "vi-vn": "Đơn Vị Thăm Dò Phụ Trợ",
+            "zh-tw": "子探測單元"
+          }
+        },
+        {
+          "id": "4072",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/0d15f8ce2c281306fbc8e0c3a6315437_4299511963351466807.png",
+          "amount": 15,
+          "name": {
+            "pt-pt": "Engrenagem Transmissora",
+            "en-us": "Meshing Gear",
+            "ja-jp": "整合の歯車",
+            "zh-cn": "啮合齿轮",
+            "ko-kr": "맞물림 톱니바퀴",
+            "ru-ru": "Сцепляющаяся шестерня",
+            "de-de": "Greifendes Zahnrad",
+            "fr-fr": "Engrenage de maillage",
+            "es-es": "Engranaje de malla",
+            "id-id": "Meshing Gear",
+            "th-th": "Meshing Gear",
+            "vi-vn": "Bánh Răng Liên Kết",
+            "zh-tw": "齧合齒輪"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv. 50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv. 50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 60000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "410",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Shivada%20Jade%20Fragment_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Jade Shivada",
+            "en-us": "Shivada Jade Fragment",
+            "ja-jp": "哀切なアイスクリスタル・欠片",
+            "zh-cn": "哀叙冰玉断片",
+            "ko-kr": "서늘한 빙옥 조각",
+            "ru-ru": "Фрагмент нефрита Шивада",
+            "de-de": "Shivada-Jade-Bruchstück",
+            "fr-fr": "Fragment de jade shivada",
+            "es-es": "Fragmento de jade shivada",
+            "id-id": "Shivada Jade Fragment",
+            "th-th": "Shivada Jade Fragment",
+            "vi-vn": "Mảnh Ngọc Băng Vỡ",
+            "zh-tw": "哀敘冰玉斷片"
+          }
+        },
+        {
+          "id": "4341",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Unidade de Subdetecção",
+            "en-us": "Subdetection Unit",
+            "ja-jp": "探測ユニット・子機",
+            "zh-cn": "子探测单元",
+            "ko-kr": "서브 탐측 유닛",
+            "ru-ru": "Миниатюрный детектор",
+            "de-de": "Subdetektionseinheit",
+            "fr-fr": "Unité de sous-détection",
+            "es-es": "Unidad de subdetección",
+            "id-id": "Subdetection Unit",
+            "th-th": "Subdetection Unit",
+            "vi-vn": "Đơn Vị Thăm Dò Phụ Trợ",
+            "zh-tw": "子探測單元"
+          }
+        },
+        {
+          "id": "4071",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/8023d5d16d579656f82fd4378358a11b_7184624168607597305.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Engrenagem Reta",
+            "en-us": "Mechanical Spur Gear",
+            "ja-jp": "機構の平歯車",
+            "zh-cn": "机关正齿轮",
+            "ko-kr": "평톱니바퀴",
+            "ru-ru": "Шестерня механизма",
+            "de-de": "Mechanisches Stirnrad",
+            "fr-fr": "Engrenage à coupe droite",
+            "es-es": "Mecaengranaje recto",
+            "id-id": "Mechanical Spur Gear",
+            "th-th": "Mechanical Spur Gear",
+            "vi-vn": "Bánh Răng Chính",
+            "zh-tw": "機關正齒輪"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv. 60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv. 60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 80000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "409",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Shivada%20Jade%20Chunk_icon.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Jade Shivada",
+            "en-us": "Shivada Jade Chunk",
+            "ja-jp": "哀切なアイスクリスタル・塊",
+            "zh-cn": "哀叙冰玉块",
+            "ko-kr": "서늘한 빙옥 덩이",
+            "ru-ru": "Кусок нефрита Шивада",
+            "de-de": "Shivada-Jade-Brocken",
+            "fr-fr": "Morceau de jade shivada",
+            "es-es": "Trozo de jade shivada",
+            "id-id": "Shivada Jade Chunk",
+            "th-th": "Shivada Jade Chunk",
+            "vi-vn": "Miếng Ngọc Băng",
+            "zh-tw": "哀敘冰玉塊"
+          }
+        },
+        {
+          "id": "4341",
+          "iconUrl": null,
+          "amount": 30,
+          "name": {
+            "pt-pt": "Unidade de Subdetecção",
+            "en-us": "Subdetection Unit",
+            "ja-jp": "探測ユニット・子機",
+            "zh-cn": "子探测单元",
+            "ko-kr": "서브 탐측 유닛",
+            "ru-ru": "Миниатюрный детектор",
+            "de-de": "Subdetektionseinheit",
+            "fr-fr": "Unité de sous-détection",
+            "es-es": "Unidad de subdetección",
+            "id-id": "Subdetection Unit",
+            "th-th": "Subdetection Unit",
+            "vi-vn": "Đơn Vị Thăm Dò Phụ Trợ",
+            "zh-tw": "子探測單元"
+          }
+        },
+        {
+          "id": "4071",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/8023d5d16d579656f82fd4378358a11b_7184624168607597305.png",
+          "amount": 18,
+          "name": {
+            "pt-pt": "Engrenagem Reta",
+            "en-us": "Mechanical Spur Gear",
+            "ja-jp": "機構の平歯車",
+            "zh-cn": "机关正齿轮",
+            "ko-kr": "평톱니바퀴",
+            "ru-ru": "Шестерня механизма",
+            "de-de": "Mechanisches Stirnrad",
+            "fr-fr": "Engrenage à coupe droite",
+            "es-es": "Mecaengranaje recto",
+            "id-id": "Mechanical Spur Gear",
+            "th-th": "Mechanical Spur Gear",
+            "vi-vn": "Bánh Răng Chính",
+            "zh-tw": "機關正齒輪"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv. 70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv. 70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 100000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "409",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Shivada%20Jade%20Chunk_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Jade Shivada",
+            "en-us": "Shivada Jade Chunk",
+            "ja-jp": "哀切なアイスクリスタル・塊",
+            "zh-cn": "哀叙冰玉块",
+            "ko-kr": "서늘한 빙옥 덩이",
+            "ru-ru": "Кусок нефрита Шивада",
+            "de-de": "Shivada-Jade-Brocken",
+            "fr-fr": "Morceau de jade shivada",
+            "es-es": "Trozo de jade shivada",
+            "id-id": "Shivada Jade Chunk",
+            "th-th": "Shivada Jade Chunk",
+            "vi-vn": "Miếng Ngọc Băng",
+            "zh-tw": "哀敘冰玉塊"
+          }
+        },
+        {
+          "id": "4341",
+          "iconUrl": null,
+          "amount": 45,
+          "name": {
+            "pt-pt": "Unidade de Subdetecção",
+            "en-us": "Subdetection Unit",
+            "ja-jp": "探測ユニット・子機",
+            "zh-cn": "子探测单元",
+            "ko-kr": "서브 탐측 유닛",
+            "ru-ru": "Миниатюрный детектор",
+            "de-de": "Subdetektionseinheit",
+            "fr-fr": "Unité de sous-détection",
+            "es-es": "Unidad de subdetección",
+            "id-id": "Subdetection Unit",
+            "th-th": "Subdetection Unit",
+            "vi-vn": "Đơn Vị Thăm Dò Phụ Trợ",
+            "zh-tw": "子探測單元"
+          }
+        },
+        {
+          "id": "4070",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/4b604ff986feeaf150418ca94355a65a_7723312305957730574.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Engrenagem Dinâmica",
+            "en-us": "Artificed Dynamic Gear",
+            "ja-jp": "奇械のコア歯車",
+            "zh-cn": "奇械机芯齿轮",
+            "ko-kr": "오토마톤 코어 톱니바퀴",
+            "ru-ru": "Изощрённая динамическая шестерня",
+            "de-de": "Neuartiges Uhrwerk-Zahnrad",
+            "fr-fr": "Engrenage dynamique artificié",
+            "es-es": "Engranaje mecadinámico",
+            "id-id": "Artificed Dynamic Gear",
+            "th-th": "Artificed Dynamic Gear",
+            "vi-vn": "Bánh Răng Lõi Trung Tâm",
+            "zh-tw": "奇械機芯齒輪"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv. 80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv. 80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 120000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "408",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Shivada%20Jade%20Gemstone_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Gema de Jade Shivada",
+            "en-us": "Shivada Jade Gemstone",
+            "ja-jp": "哀切なアイスクリスタル",
+            "zh-cn": "哀叙冰玉",
+            "ko-kr": "서늘한 빙옥",
+            "ru-ru": "Драгоценный нефрит Шивада",
+            "de-de": "Shivada-Jade",
+            "fr-fr": "Pierre de jade shivada",
+            "es-es": "Jade shivada",
+            "id-id": "Shivada Jade Gemstone",
+            "th-th": "Shivada Jade Gemstone",
+            "vi-vn": "Ngọc Băng",
+            "zh-tw": "哀敘冰玉"
+          }
+        },
+        {
+          "id": "4341",
+          "iconUrl": null,
+          "amount": 60,
+          "name": {
+            "pt-pt": "Unidade de Subdetecção",
+            "en-us": "Subdetection Unit",
+            "ja-jp": "探測ユニット・子機",
+            "zh-cn": "子探测单元",
+            "ko-kr": "서브 탐측 유닛",
+            "ru-ru": "Миниатюрный детектор",
+            "de-de": "Subdetektionseinheit",
+            "fr-fr": "Unité de sous-détection",
+            "es-es": "Unidad de subdetección",
+            "id-id": "Subdetection Unit",
+            "th-th": "Subdetection Unit",
+            "vi-vn": "Đơn Vị Thăm Dò Phụ Trợ",
+            "zh-tw": "子探測單元"
+          }
+        },
+        {
+          "id": "4070",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/4b604ff986feeaf150418ca94355a65a_7723312305957730574.png",
+          "amount": 24,
+          "name": {
+            "pt-pt": "Engrenagem Dinâmica",
+            "en-us": "Artificed Dynamic Gear",
+            "ja-jp": "奇械のコア歯車",
+            "zh-cn": "奇械机芯齿轮",
+            "ko-kr": "오토마톤 코어 톱니바퀴",
+            "ru-ru": "Изощрённая динамическая шестерня",
+            "de-de": "Neuartiges Uhrwerk-Zahnrad",
+            "fr-fr": "Engrenage dynamique artificié",
+            "es-es": "Engranaje mecadinámico",
+            "id-id": "Artificed Dynamic Gear",
+            "th-th": "Artificed Dynamic Gear",
+            "vi-vn": "Bánh Răng Lõi Trung Tâm",
+            "zh-tw": "奇械機芯齒輪"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv. 1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv. 1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур.1",
+        "de-de": "St. 1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv. 1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv. 1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "1058"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "24"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "59"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "0.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv. 20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv. 20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "2745",
+          "postAscensionValue": "3652"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "63",
+          "postAscensionValue": "84"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "154",
+          "postAscensionValue": "205"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "0.0%",
+          "postAscensionValue": "0.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv. 40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv. 40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "5465",
+          "postAscensionValue": "6110"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "125",
+          "postAscensionValue": "140"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "307",
+          "postAscensionValue": "343"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "0.0%",
+          "postAscensionValue": "9.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv. 50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv. 50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "7029",
+          "postAscensionValue": "7889"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "161",
+          "postAscensionValue": "180"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "395",
+          "postAscensionValue": "143"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "9.6%",
+          "postAscensionValue": "19.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv. 60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv. 60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "8818",
+          "postAscensionValue": "9462"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "202",
+          "postAscensionValue": "216"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "495",
+          "postAscensionValue": "531"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "19.2%",
+          "postAscensionValue": "19.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv. 70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv. 70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "10400",
+          "postAscensionValue": "11045"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "238",
+          "postAscensionValue": "253"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "584",
+          "postAscensionValue": "620"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "28.8%",
+          "postAscensionValue": "28.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv. 80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv. 80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "11993",
+          "postAscensionValue": "12637"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "274",
+          "postAscensionValue": "289"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "673",
+          "postAscensionValue": "710"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "28.8%",
+          "postAscensionValue": "38.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv. 90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур.90",
+        "de-de": "St. 90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv. 90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv. 90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "13593",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "311",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "763",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "38.4%",
+          "postAscensionValue": ""
+        }
+      ]
+    }
+  ]
+}

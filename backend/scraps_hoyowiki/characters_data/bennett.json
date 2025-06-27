@@ -1,0 +1,3568 @@
+{
+  "id": "bennett",
+  "wiki_id": "26",
+  "name": {
+    "pt-pt": "Bennett",
+    "en-us": "Bennett",
+    "ja-jp": "ベネット",
+    "zh-cn": "班尼特",
+    "ko-kr": "베넷",
+    "ru-ru": "Беннет",
+    "de-de": "Bennett",
+    "fr-fr": "Bennett",
+    "es-es": "Bennett",
+    "id-id": "Bennett",
+    "th-th": "Bennett",
+    "vi-vn": "Bennett",
+    "zh-tw": "班尼特"
+  },
+  "title": {
+    "pt-pt": "Julgamento por Fogo",
+    "en-us": "Trial by Fire",
+    "ja-jp": "運命の試金石",
+    "zh-cn": "命运试金石",
+    "ko-kr": "운명의 시금석",
+    "ru-ru": "Испытание огнём",
+    "de-de": "Prüfling des Schicksals",
+    "fr-fr": "Prince de la guigne",
+    "es-es": "El Tentador del Destino",
+    "id-id": "Trial by Fire",
+    "th-th": "ไฟแห่งโชคชะตา",
+    "vi-vn": "Thử Thách Của Vận Mệnh",
+    "zh-tw": "命運試金石"
+  },
+  "description": {
+    "pt-pt": "Um aventureiro de Mondstadt justo e bondoso, mas muito azarado.",
+    "en-us": "A good-natured adventurer from Mondstadt who's unfortunately extremely unlucky.",
+    "ja-jp": "モンドの少年冒険者。その優しさにそぐわない不運の持ち主。",
+    "zh-cn": "蒙德的冒险家少年，拥有与他的善良毫不相称的霉运。",
+    "ko-kr": "몬드의 모험가 소년, 선량하지만 항상 운이 나쁘다.「베넷과 반대로만 한다면 모험이 아주 순조로울 거야」——몬드성의 전임 모험가 허먼의 「모험 경험」 중 하나다.",
+    "ru-ru": "Добросердечный и порядочный искатель приключений из Мондштадта, который, к несчастью, сказочно невезуч.",
+    "de-de": "Ein junger Abenteurer aus Mondstadt, der trotz seiner ungewöhnlichen Güte vom Pech verfolgt wird.",
+    "fr-fr": "Un jeune aventurier originaire de Mondstadt. Sa gentillesse n'a d'égale que sa guigne.",
+    "es-es": "El chico aventurero de Mondstadt. Su naturaleza amable no va acorde con su mala suerte.",
+    "id-id": "Seorang petualang yang berhati baik, tetapi kerap dihantui oleh nasib yang tidak mujur.",
+    "th-th": "เด็กหนุ่มนักผจญภัยแห่ง Mondstadt มีความซวยซึ่งไม่เข้ากันกับ ความใจดีมีเมตตาของเขาเลย",
+    "vi-vn": "Nhà mạo hiểm trẻ tuổi của Mondstadt, có vận đen luôn đi cùng sự lương thiện của anh ấy.",
+    "zh-tw": "蒙德的冒險家少年，擁有與他的善良毫不相稱的霉運。"
+  },
+  "rarity": 4,
+  "vision": {
+    "label": {
+      "pt-pt": "Tipo Elemental",
+      "en-us": "Elemental Type",
+      "ja-jp": "元素タイプ",
+      "zh-cn": "元素属性",
+      "ko-kr": "원소 속성",
+      "ru-ru": "Элемент",
+      "de-de": "Elementartyp",
+      "fr-fr": "Élément",
+      "es-es": "Tipo elemental",
+      "id-id": "Tipe Elemen",
+      "th-th": "ประเภทธาตุ",
+      "vi-vn": "Thuộc Tính Nguyên Tố",
+      "zh-tw": "元素屬性"
+    },
+    "value": {
+      "pt-pt": "Pyro",
+      "en-us": "Pyro",
+      "ja-jp": "炎元素",
+      "zh-cn": "火元素",
+      "ko-kr": "불 원소",
+      "ru-ru": "Пиро",
+      "de-de": "Pyro",
+      "fr-fr": "Pyro",
+      "es-es": "Pyro",
+      "id-id": "Pyro",
+      "th-th": "ไฟ",
+      "vi-vn": "Hỏa",
+      "zh-tw": "火元素"
+    }
+  },
+  "weapon": {
+    "label": {
+      "pt-pt": "Arma",
+      "en-us": "Weapons",
+      "ja-jp": "武器種",
+      "zh-cn": "武器",
+      "ko-kr": "무기",
+      "ru-ru": "Тип",
+      "de-de": "Waffe",
+      "fr-fr": "Type d'arme",
+      "es-es": "Arma",
+      "id-id": "Senjata",
+      "th-th": "อาวุธ",
+      "vi-vn": "Vũ Khí",
+      "zh-tw": "武器"
+    },
+    "value": {
+      "pt-pt": "Espada",
+      "en-us": "Sword",
+      "ja-jp": "片手剣",
+      "zh-cn": "单手剑",
+      "ko-kr": "한손검",
+      "ru-ru": "Одноручное",
+      "de-de": "Einhänder",
+      "fr-fr": "Épée à une main",
+      "es-es": "Espada ligera",
+      "id-id": "Sword",
+      "th-th": "ดาบ",
+      "vi-vn": "Kiếm Đơn",
+      "zh-tw": "單手劍"
+    }
+  },
+  "characterIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/Bennett_icon.png",
+  "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
+  "constellationNameOfficial": {
+    "pt-pt": "Rota Calamitas",
+    "en-us": "Rota Calamitas",
+    "ja-jp": "岐路座",
+    "zh-cn": "险路座",
+    "ru-ru": "Дорога Опасностей",
+    "de-de": "Rota Calamitas",
+    "fr-fr": "Rota Calamitas",
+    "es-es": "Rota Calamitas",
+    "id-id": "Rota Calamitas",
+    "th-th": "Rota Calamitas",
+    "zh-tw": "險路座",
+    "ko-kr": "N/A",
+    "vi-vn": "N/A"
+  },
+  "specialDish": {
+    "id": 750,
+    "name": {
+      "pt-pt": "Ovo de Teyvat Crocante",
+      "en-us": "Teyvat Charred Egg",
+      "ja-jp": "テイワット風焦げ卵",
+      "zh-cn": "提瓦特焦蛋",
+      "ko-kr": "티바트 바삭 프라이",
+      "ru-ru": "Тейватская хрустящая яичница",
+      "de-de": "Angebranntes Teyvat-Spiegelei",
+      "fr-fr": "Œuf brûlé de Teyvat",
+      "es-es": "Huevo frito crujiente de Teyvat",
+      "id-id": "Crispy Teyvat Egg",
+      "th-th": "Crispy Teyvat Egg",
+      "vi-vn": "Trứng Chiên Teyvat Cháy",
+      "zh-tw": "提瓦特焦蛋"
+    },
+    "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Teyvat%20Charred%20Egg_icon.png"
+  },
+  "namecard": {
+    "id": 6086,
+    "name": {
+      "pt-pt": "Bennett - Reconhecimento",
+      "en-us": "Bennett: Recognition",
+      "ja-jp": "ベネット・認可",
+      "zh-cn": "班尼特·认可",
+      "ko-kr": "베넷·인정",
+      "ru-ru": "Одобрение",
+      "de-de": "Bennett – Anerkennung",
+      "fr-fr": "Bennett - Gratitude",
+      "es-es": "Bennett - Reconocimiento",
+      "id-id": "Bennett: Recognition",
+      "th-th": "Bennett - Recognition",
+      "vi-vn": "Bennett - Chấp Nhận",
+      "zh-tw": "班尼特·認可"
+    },
+    "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/15/f37e522e27eb35cee787a72c300b9d5e_1541431883807887284.png"
+  },
+  "constellations": [
+    {
+      "id": "summaryList62932",
+      "constellationNumber": 1,
+      "name": {
+        "pt-pt": "Grande Expectativa",
+        "en-us": "Grand Expectation",
+        "ja-jp": "冒険の憧れ",
+        "zh-cn": "冒险憧憬",
+        "ko-kr": "모험 동경",
+        "ru-ru": "Мечты о приключениях",
+        "de-de": "Lust auf Abenteuer",
+        "fr-fr": "Perspective de voyage",
+        "es-es": "Visión de aventura",
+        "id-id": "Grand Expectation",
+        "th-th": "Grand Expectation",
+        "vi-vn": "Tầm Nhìn Phiêu Lưu",
+        "zh-tw": "冒險憧憬"
+      },
+      "description": {
+        "pt-pt": "O aumento do ATQ da Viagem Fantástica não possui mais restrição de Vida, e aumenta numericamente 20% do ATQ Básico de Bennett.",
+        "en-us": "Fantastic Voyage's ATK increase no longer has an HP restriction, and gains an additional 20% of Bennett's Base ATK.",
+        "ja-jp": "素晴らしい旅の攻撃力アップ効果のHPによる制限がなくなり、更にベネットの基礎攻撃力の20%に当たる数値を追加する。",
+        "zh-cn": "美妙旅程的攻击力提升效果不再有生命值限制，数值上追加班尼特基础攻击力的20%。",
+        "ko-kr": "아름다운 여정의 공격력 증가 효과는 더이상 HP의 제한을 받지 않고 공격력 수치에 베넷 기초 공격력의 20%가 추가된다",
+        "ru-ru": "Увеличение силы атаки навыка Волнительное приключение больше не имеет ограничений по HP, также навык получает дополнительные 20% базовой атаки Беннета.",
+        "de-de": "Hebt die LP-Beschränkung für die ANG-Erhöhung von Fantastische Reise auf und erhöht den Wert um 20 % von Bennetts Basis-ANG.",
+        "fr-fr": "Le bonus d'ATQ conféré par Merveilleux voyage n'est plus soumis à la restriction de PV, et augmente numériquement l'ATQ de base de Bennett de 20 %.",
+        "es-es": "El aumento de ATQ de Aventura maravillosa ya no se ve restringido por la cantidad de Vida, y aumenta en un 20% adicional en proporción al ATQ Básico de Bennett.",
+        "id-id": "Efek peningkatan ATK dari Fantastic Voyage tidak lagi dibatasi HP, dan memiliki 20% ATK lebih besar.",
+        "th-th": "ผลของพลังโจมตีของ Fantastic Voyage ที่เพิ่มขึ้นจะไม่ถูกจำกัดโดย ปริมาณพลังชีวิตอีกต่อไป และจะเพิ่มขึ้นอีก 20% จากพลังโจมตีพื้นฐานของ Bennett",
+        "vi-vn": "Buff hiệu quả tấn công của Hành Trình Kỳ Diệu sẽ không bị giới hạn bởi HP, tăng thêm 20% tấn công cơ bản của Bennett vào chỉ số.",
+        "zh-tw": "「美妙旅程」的攻擊力提升效果不再有生命值限制，並且該效果在數值上追加班尼特基礎攻擊力的20%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/班尼特/constellation_1.png"
+    },
+    {
+      "id": "summaryList14902",
+      "constellationNumber": 2,
+      "name": {
+        "pt-pt": "Escape da Desolação",
+        "en-us": "Impasse Conqueror",
+        "ja-jp": "絶境踏破",
+        "zh-cn": "踏破绝境",
+        "ko-kr": "궁지 돌파",
+        "ru-ru": "Тупиковая ситуация",
+        "de-de": "Flucht aus der Trostlosigkeit",
+        "fr-fr": "Brise-désespoir",
+        "es-es": "Huida desesperada",
+        "id-id": "Impasse Conqueror",
+        "th-th": "Impasse Conqueror",
+        "vi-vn": "Vượt Qua Nghịch Cảnh",
+        "zh-tw": "踏破絕境"
+      },
+      "description": {
+        "pt-pt": "Quando a Vida de Bennett cair abaixo de 70%, a Recarga da sua Energia é aumentada em 30%.",
+        "en-us": "When Bennett's HP falls below 70%, his Energy Recharge is increased by 30%.",
+        "ja-jp": "ベネットのHPが70%以下になると、元素チャージ効率+30%。",
+        "zh-cn": "班尼特的生命值低于70%时，元素充能效率提高30%。",
+        "ko-kr": "베넷의 HP가 70% 미만일 때 원소 충전 효율이 30% 상승한다",
+        "ru-ru": "Увеличивает восстановление энергии Беннета на 30%, когда его HP падает ниже 70%.",
+        "de-de": "Erhöht die Aufladerate, wenn Bennett weniger als 70 % LP hat, um 30 %.",
+        "fr-fr": "La recharge d'énergie de Bennett augmente de 30 % lorsque ses PV sont inférieurs à 70 %.",
+        "es-es": "Aumenta la Recarga de Energía de Bennett en un 30% cuando su Vida es inferior al 70%.",
+        "id-id": "Saat HP Bennett kurang dari 70%, meningkatkan 30% Energy Recharge.",
+        "th-th": "เมื่อพลังชีวิตของ Bennett ต่ำกว่า 70% จะเพิ่มประสิทธิภาพการฟื้นฟูพลังงานขึ้น 30%",
+        "vi-vn": "Khi HP của Bennett dưới 70%, tăng 30% hiệu quả nạp Nguyên Tố.",
+        "zh-tw": "班尼特的生命值低於70%時，元素充能效率提高30%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/班尼特/constellation_2.png"
+    },
+    {
+      "id": "summaryList16061",
+      "constellationNumber": 3,
+      "name": {
+        "pt-pt": "Paixão Ardente",
+        "en-us": "Unstoppable Fervor",
+        "ja-jp": "炎のような情熱",
+        "zh-cn": "火热激情",
+        "ko-kr": "타오르는 열정",
+        "ru-ru": "Горячая страсть",
+        "de-de": "Inbrunst",
+        "fr-fr": "Passion ardente",
+        "es-es": "Pasión ardiente",
+        "id-id": "Unstoppable Fervor",
+        "th-th": "Unstoppable Fervor",
+        "vi-vn": "Đam Mê Rực Cháy",
+        "zh-tw": "火熱激情"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível da Sobrecarga de Paixão em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Passion Overload by 3.Maximum upgrade level is 15.",
+        "ja-jp": "溢れる情熱のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "热情过载的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "열정 과부하의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Чрезмерные стремления на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Überschwänglichkeit um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Surpassion +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Sobrecarga de pasión +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Passion Overload.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Passion Overload ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Nhiệt Tình Quá Độ +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "熱情超載的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/班尼特/constellation_3.png"
+    },
+    {
+      "id": "summaryList32919",
+      "constellationNumber": 4,
+      "name": {
+        "pt-pt": "Odisseia Inesperada",
+        "en-us": "Unexpected Odyssey",
+        "ja-jp": "消えない情熱",
+        "zh-cn": "热情不灭",
+        "ko-kr": "사그러들지 않는 열정",
+        "ru-ru": "Несгораемая решительность",
+        "de-de": "Unerschütterlichkeit",
+        "fr-fr": "Enthousiasme éternel",
+        "es-es": "Calidez inagotable",
+        "id-id": "Unexpected Odyssey",
+        "th-th": "Unexpected Odyssey",
+        "vi-vn": "Nhiệt Huyết Bất Diệt",
+        "zh-tw": "熱情不滅"
+      },
+      "description": {
+        "pt-pt": "Usar um Ataque Normal ao executar um segundo ataque de Carga Nível 1 da Sobrecarga da Paixão permite realizar um ataque adicional.Esse ataque adicional causa 135% do Dano do segundo ataque.",
+        "en-us": "Using a Normal Attack when executing the second attack of Passion Overload's Charge Level 1 allows an additional attack to be performed.This additional attack does 135% of the second attack's DMG.",
+        "ja-jp": "1段チャージ溢れる情熱を発動する時、二段目攻撃中に通常攻撃をすると追加攻撃を発動できる。二段目攻撃の135%の追加ダメージを与える。",
+        "zh-cn": "施放一段蓄力的热情过载时，在技能第二段攻击中进行普通攻击，可以施放额外的追击。追击的伤害等同于第二段攻击的135%。",
+        "ko-kr": "1단 차지로 열정 과부하 발동 시 스킬의 2단 공격 중 일반 공격을 발동하면 추가 공격을 할 수 있다.추가 공격 피해는 2단 공격의 135%이다",
+        "ru-ru": "Использование обычной атаки во время второго удара уровня заряда 1 навыка Чрезмерные стремления позволяет совершить дополнительную атаку.Эта атака наносит урон, равный 135% урона второго удара.",
+        "de-de": "Startet einen zusätzlichen Angriff, wenn nach Aufladephase 1 von Überschwänglichkeit bei Aufladephase 2 ein Standardangriff angewendet wird.Der Schaden dieses Angriffs entspricht 135 % ANG von Phase 2.",
+        "fr-fr": "L'utilisation d'une attaque normale lors de l'exécution de la deuxième attaque du niveau 1 de charge de Surpassion permet d'effectuer une attaque supplémentaire.Celle-ci inflige 135 % des DGT de la deuxième attaque.",
+        "es-es": "Usar un Ataque Normal al ejecutar el segundo ataque de Sobrecarga de pasión: Carga 1 permite realizar un ataque adicional.Este ataque adicional es equivalente al 135% del daño del segundo ataque.",
+        "id-id": "Mendapatkan serangan tambahan dengan menggunakan Normal Attack saat Bennett melakukan serangan kedua dari skill Passion Overload Charge Level 1.Serangan tambahan menghasilkan 135% dari DMG serangan kedua.",
+        "th-th": "เมื่อปล่อยการชาร์จโจมตี ขั้นหนึ่งของ Passion Overload การโจมตีขั้นสองของสกิล จะเป็นการโจมตีปกติ และสามารถทำการโจมตี ต่อเนื่องได้ ความเสียหายจาก การโจมตีต่อเนื่องเป็น 135% ของการโจมตีขั้นสอง",
+        "vi-vn": "Khi thi triển Nhiệt Tình Quá Độ tụ lực lần 1, sẽ tấn công thường trong lúc tấn công kỹ năng lần 2, kèm theo truy kích.Sát thương truy kích bằng 135% của tấn công lần 2.",
+        "zh-tw": "施放一段蓄力的熱情超載時，在技能第二段攻擊中進行普通攻擊，可以施放額外的追擊。追擊的傷害等同於第二段攻擊的135%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/班尼特/constellation_4.png"
+    },
+    {
+      "id": "summaryList9948",
+      "constellationNumber": 5,
+      "name": {
+        "pt-pt": "O Verdadeiro Explorador",
+        "en-us": "True Explorer",
+        "ja-jp": "開拓の心意気",
+        "zh-cn": "开拓的心魂",
+        "ko-kr": "넓어진 마음",
+        "ru-ru": "Душа первооткрывателя",
+        "de-de": "Entdeckergeist",
+        "fr-fr": "Ouverture d'âme",
+        "es-es": "Explorador verdadero",
+        "id-id": "True Explorer",
+        "th-th": "True Explorer",
+        "vi-vn": "Mở Rộng Tâm Hồn",
+        "zh-tw": "開拓的心魂"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível da Viagem Fantástica em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Fantastic Voyage by 3.Maximum upgrade level is 15.",
+        "ja-jp": "素晴らしい旅のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "美妙旅程的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "아름다운 여정의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Волнительное приключение на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Fantastische Reise um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Merveilleux voyage +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Aventura maravillosa +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Fantastic Voyage.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Fantastic Voyage ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Hành Trình Kỳ Diệu +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "美妙旅程的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/班尼特/constellation_5.png"
+    },
+    {
+      "id": "summaryList64257",
+      "constellationNumber": 6,
+      "name": {
+        "pt-pt": "Fogo e Coragem",
+        "en-us": "Fire Ventures with Me",
+        "ja-jp": "烈火と勇気",
+        "zh-cn": "烈火与勇气",
+        "ko-kr": "열화와 용기",
+        "ru-ru": "Пылкая храбрость",
+        "de-de": "Feuer in meiner Brust",
+        "fr-fr": "Feu et courage",
+        "es-es": "Fuego y coraje",
+        "id-id": "Fire Ventures with Me",
+        "th-th": "Fire Ventures with Me",
+        "vi-vn": "Lửa Và Can Đảm",
+        "zh-tw": "烈火與勇氣"
+      },
+      "description": {
+        "pt-pt": "Viagem Fantástica concede 15% de Bônus de Dano Pyro aos membros do grupo dentro da AdE. Além disso, personagens que usam Espadas, Espadões e Lanças recebem um Encantamento Pyro.",
+        "en-us": "Sword, Claymore, or Polearm-wielding characters inside Fantastic Voyage's radius gain a 15% Pyro DMG Bonus and their weapons are infused with Pyro.",
+        "ja-jp": "素晴らしい旅エリア内にいる片手剣、両手剣、長柄武器キャラクターの炎元素ダメージ+15%、さらに炎元素付与状態を獲得する。",
+        "zh-cn": "处在美妙旅程领域内的队伍中当前场上单手剑、双手剑、长柄武器角色获得15%火元素伤害加成，并获得火元素附魔。",
+        "ko-kr": "아름다운 여정 영역 내에 있는 한손검, 양손검, 장병기 무기 캐릭터는 불 원소 피해 보너스를 15% 획득하고 불 원소 부여 효과를 얻는다",
+        "ru-ru": "Активные члены отряда в области навыка Волнительное приключение, экипированные одноручным мечом, двуручным мечом или древковым оружием, получают 15% бонус Пиро урона, а их оружие наделяется инфузией Пиро.",
+        "de-de": "Erhöht den Pyro-Schaden der aktuellen Figuren in der Truppe mit Einhändern, Zweihändern und Stangenwaffen im Wirkungsbereich von Fantastische Reise um 15 % und verleiht ihnen die Pyro-Kraft.",
+        "fr-fr": "Le champ de Merveilleux voyage confère à tous les personnages de l'équipe déployés et maniant une épée à une ou deux mains ou une arme d'hast qui s'y trouvent un bonus de DGT Pyro de 15 %, ainsi qu'un enchantement Pyro.",
+        "es-es": "Si los personajes en uso utilizan espada ligera, mandoble o lanza y se encuentran en el AdE de Aventura maravillosa, dichos personajes obtendrán un 15% de Bono de Daño Pyro. Además, serán imbuidos del elemento Pyro.",
+        "id-id": "Memberikan 15% Pyro DMG Bonus dan Pyro Infusion pada karakter yang menggunakan Sword, Claymore dan Polearm di dalam radius Fantastic Voyage.",
+        "th-th": "ตัวละครในทีมที่เข้าสู่การต่อสู้ในขณะนั้นที่ใช้อาวุธดาบ, ดาบใหญ่, หอก ที่อยู่ในพื้นที่ของ Fantastic Voyage จะได้รับ โบนัสความเสียหายไฟ 15% และจะได้รับพลังแห่งไฟ",
+        "vi-vn": "Nhân vật sử dụng kiếm đơn, trọng kiếm, vũ khí cán dài trong đội hiện đang trong trận ở khu vực Hành Trình Kỳ Diệu được nhận 15% tăng sát thương Nguyên Tố Hỏa và nhận Nguyên Tố Hỏa đính kèm.",
+        "zh-tw": "處於美妙旅程領域內，且持單手劍、雙手劍、長柄武器的隊伍中的場上角色獲得15%火元素傷害加成，並獲得火元素附魔。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/班尼特/constellation_6.png"
+    }
+  ],
+  "talents": [
+    {
+      "type": "normal_attack",
+      "name": {
+        "pt-pt": "Ataque Normal: Espada da Sorte",
+        "en-us": "Strike of Fortune",
+        "ja-jp": "好運の剣",
+        "zh-cn": "普通攻击·好运剑",
+        "ko-kr": "일반 공격·행운의 검",
+        "ru-ru": "Счастливый меч",
+        "de-de": "Standardangriff: Glücksbringer",
+        "fr-fr": "Attaque normale : Épée chanceuse",
+        "es-es": "Ataque Normal: Espada de la suerte",
+        "id-id": "Normal Attack: Strike of Fortune",
+        "th-th": "โจมตีปกติ - Strike of Fortune",
+        "vi-vn": "Tấn Công Thường: Kiếm May Mắn",
+        "zh-tw": "普通攻擊·好運劍"
+      },
+      "description": {
+        "pt-pt": "Ataque NormalRealiza até 5 golpes rápidos.Ataque CarregadoConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.Ataque ImersivoMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "en-us": "Normal AttackPerform up to 5 rapid strikes.Charged AttackConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.Plunging AttackPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+        "ja-jp": "通常攻撃剣による最大5段の連続攻撃を行う。重撃一定のスタミナを消費し、前方に斬撃を2回放つ。落下攻撃空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "zh-cn": "普通攻击进行至多五段的连续剑击。重击消耗一定体力，瞬间向前方挥出两剑。下落攻击从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+        "ko-kr": "일반 공격검으로 최대 5번 공격한다.강공격일정 스태미나를 소모해 순간적으로 전방을 향해 검을 2번 휘두른다.낙하 공격공중에서 땅을 내려찍어 경로상의 적을 공격하고, 착지 시 범위 피해를 준다",
+        "ru-ru": "Обычная атака:До пяти быстрых ударов мечом.Заряженная атака:Два быстрых взмаха мечом, для которых тратится определённое количество выносливости.Атака в падении:Стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+        "de-de": "StandardangriffFührt bis zu 5 Schwerthiebe aus.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und schwingt das Schwert zweimal schnell nach vorn.Angriff aus dem FallSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "fr-fr": "Attaque normaleEnchaîne jusqu'à 5 coups d'épée.Attaque chargéeConsomme de l'endurance pour déclencher deux coups d'épée rapides.Attaque plongeantePlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "es-es": "Ataque NormalRealiza hasta 5 ataques rápidos.Ataque CargadoConsume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.Ataque DescendenteSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+        "id-id": "Normal AttackMelancarkan hingga 5 serangan berturut-turut.Charged AttackMengonsumsi sejumlah Stamina untuk melancarkan dua tebasan pedang.Plunging AttackMenerjang dari udara untuk menghantam tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+        "th-th": "โจมตีปกติโจมตีด้วยดาบต่อเนื่องมากสุดห้าครั้งชาร์จโจมตีใช้พลังกายส่วนหนึ่งเพื่อปลดปล่อยดาบ ออกไปข้างหน้าสองเล่มในช่วงเวลาสั้น ๆโจมตีพุ่งลงจากอากาศกระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+        "vi-vn": "Tấn Công ThườngThực hiện tối đa 5 lần đánh kiếm liên tiếp.Trọng KíchTiêu hao thể lực nhất định, đánh ra hai kiếm về phía trước trong chớp mắt.Tấn Công Khi ĐápĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.",
+        "zh-tw": "普通攻擊進行至多五段的連續劍擊。重擊消耗一定體力，瞬間向前方揮出兩劍。下落攻擊從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/班尼特/battle_talent_0/battle_talent_0.png"
+    },
+    {
+      "type": "elemental_skill",
+      "name": {
+        "pt-pt": "Sobrecarga de Paixão",
+        "en-us": "Passion Overload",
+        "ja-jp": "溢れる情熱",
+        "zh-cn": "热情过载",
+        "ko-kr": "열정 과부하",
+        "ru-ru": "Чрезмерные стремления",
+        "de-de": "Überschwänglichkeit",
+        "fr-fr": "Surpassion",
+        "es-es": "Sobrecarga de pasión",
+        "id-id": "Passion Overload",
+        "th-th": "Passion Overload",
+        "vi-vn": "Nhiệt Tình Quá Độ",
+        "zh-tw": "熱情超載"
+      },
+      "description": {
+        "pt-pt": "Bennett coloca todo seu fogo e sua paixão por aventura em sua espada. Os resultados podem variar baseados no quão fervente ele está...PressionarUm único e rápido ataque de chamas que causa Dano Pyro.Manter pressionado (Brevemente)Sobrecarrega, resultando em diferentes efeitos quando liberado baseado no Nível de Carga. Nível 1: Ataca duas vezes, causando Dano Pyro e lançando inimigos. Nível 2: Desfere 3 ataques consecutivos que causam um incrível Dano Pyro, mas o último ataque desencadeia uma explosão que lança Bennett e seu inimigo.Bennett não leva nenhum dano ao ser lançado.Um ataque que combina os sonhos do Bennett e sua paixão por Pyro. Mas a paixão às vezes é muito ardente e Pyro acaba explodindo.",
+        "en-us": "Bennett puts all his fire and passion for adventuring into his sword. Results may vary based on how fired up he is...Tap/PressA single, swift flame strike that deals Pyro DMG.Hold (Short)Charges up, resulting in different effects when unleashed based on the Charge Level.· Level 1: Strikes twice, dealing Pyro DMG and launching opponents.· Level 2: Unleashes 3 consecutive attacks that deal impressive Pyro DMG, but the last attack triggers an explosion that launches both Bennett and the enemy.Bennett takes no damage from being launched.An attack that combines Bennett's dreams and passion with Pyro. But passion is sometimes overblown, and Pyro sometimes blows over.",
+        "ja-jp": "炎元素と冒険への情熱を剣に込める。込めた情熱の強さによって、違う効果が現れることがある…一回押し前方に素早く炎の一撃を仕掛け、炎元素ダメージを与える。長押し長押しでチャージし、チャージ段数により効果が変わる。・1段チャージ：二段攻撃を仕掛け、炎元素ダメージを与え、敵をノックバックする。・2段チャージ：三段攻撃を発動し、大量の炎元素ダメージを与え、最後の一撃に爆発が発生し、自身と敵を同時にノックバックする。ベネットがノックバックされた時に、ダメージを受けることはない。ベネットの情熱と夢と炎を込めた一撃。しかし情熱があふれすぎて、炎元素が爆発することもある。",
+        "zh-cn": "班尼特将火元素与冒险的热情凝聚在剑上。根据热情凝聚的程度，可能会发生不同的事情…点按快速向前挥出火焰一击，造成火元素伤害。长按根据长按时间进行蓄力，释放时依照蓄力段数造成不同的效果。·一段蓄力：发动二段攻击，造成火元素伤害并将敌人击飞；·二段蓄力：发动三段连续攻击，造成可观的火元素伤害。最后一击会发生爆炸，将班尼特与敌人同时击飞。被击飞时，班尼特不会受到伤害。聚集热情与梦想与火元素的一击。但热情有时会过头，而火元素有时会爆炸。",
+        "ko-kr": "베넷이 불 원소와 모험의 열정을 검의 끝에 모은다. 열정이 모인 정도에 따라 다른 일이 발생할지도 모른다…짧은 터치빠른 속도로 전방을 향해 화염의 일격을 가해 불 원소 피해를 준다.홀드길게 차지하며 차지 단수에 시간에 따라 다른 효과가 발동된다.·1단 차지: 2단 공격을 발동해 불 원소 피해를 가하고 적을 공중에 띄운다.·2단 차지: 3단 공격을 발동해 대량의 불 원소 피해를 준다. 최후의 일격은 폭발을 일으키며 베넷과 적을 동시에 공중에 띄운다. 이때 베넷은 피해를 받지 않는다.베넷이 열정과 꿈, 그리고 불 원소를 담을 일격을 가한다. 하지만 열정이 너무 과할 때가 있듯, 불 원소도 폭발할 때가 있다",
+        "ru-ru": "Беннет концентрирует на своём клинке весь свой пыл и страсть к приключениям. Результат зависит от уровня его пылающей страсти...Быстрое нажатие:Быстрый взмах пылающим мечом, наносящий Пиро урон.Долгое нажатие:Эффект зависит от уровня заряда навыка.· Уровень заряда 1: Совершает два удара пылающим мечом, которые наносят Пиро урон и подбрасывают врагов в воздух;· Уровень заряда 2: Совершает три удара пылающим мечом, которые наносят внушительный Пиро урон. Последний удар создаёт взрыв, который одновременно подбрасывает в воздух врагов и самого Беннета.Беннет не получает урон от взрыва.Страсть и мечты Беннета смешиваются с огненной стихией. Но иногда страсти слишком много, а огонь слишком горяч.",
+        "de-de": "Bennett konzentriert die Pyro-Kraft und seine Leidenschaft für Abenteuer in seinem Schwert. Je nach Stärke der Konzentration werden verschiedene Effekte erzielt.DrückenSchwingt sein mit Flammen überzogenes Schwert einmal nach vorn und verursacht Pyro-Schaden.Gedrückt haltenVerursacht je nach Dauer des Gedrückthaltens unterschiedliche Effekte.· Phase 1: Startet einen zweistufigen Angriff, der Pyro-Schaden verursacht und Gegner wegschleudert.· Phase 2: Startet einen dreistufigen Angriff, der beachtlichen Pyro-Schaden und am Ende eine Explosion verursacht, bei der Bennett und seine Gegner weggeschleudert werden. Dabei erleidet Bennett jedoch keinen Schaden.Bennett steckt seine ganze Leidenschaft und Träume in diesen Pyro-Angriff. Manchmal übertreibt er es aber damit und verursacht eine Explosion.",
+        "fr-fr": "Bennett concentre l'élément Pyro et sa passion pour l'aventure sur son épée. Différentes choses se produisent selon le niveau de passion atteint...Appui simpleBennett exécute un coup rapide de sa lame enflammée, infligeant des DGT Pyro aux ennemis en face.Appui longBennett effectue une charge qui donne des résultats différents selon le niveau de charge.· Niveau 1 : Bennett exécute une seconde attaque, qui inflige des DGT Pyro et projette les ennemis en l'air.Niveau 2 : Une troisième attaque complète l'enchaînement ; celle-ci inflige d'importants DGT Pyro. L'attaque se termine par une explosion, qui projette simultanément Bennett et les ennemis dans les airs.Bennett ne subit pas de DGT lorsqu'il est projeté.Une attaque Pyro emplie de la passion et des espoirs de Bennett, mais passion débordante signifie surcharge, et qui dit surcharge dit explosion.",
+        "es-es": "Bennett concentra el espíritu aventurero y la energía Pyro en su espada. Dependiendo del tiempo de carga, se producen diferentes efectos.Un toque/Pulsar una vez: Realiza un rápido y ardiente movimiento con su espada, infligiendo Daño Pyro.Mantener pulsadoDependiendo de la duración, lanza una habilidad distinta basada en el nivel de carga.·Carga 1: asesta dos golpes, infligiendo Daño Pyro y lanzando a los enemigos por los aires.·Carga 2: lanza 3 ataques consecutivos que infligen una cantidad significativa de Daño Pyro. El último ataque causa una explosión que lanza tanto a los enemigos como a Bennett por los aires. Sin embargo, Bennett no resulta herido por esta explosión.Un ataque que combina los sueños y la pasión de Bennett con el elemento Pyro. A veces se le va la mano con la pasión y la fuerza Pyro, por lo que termina explotando.",
+        "id-id": "Bennett memusatkan seluruh gairah dan impiannya bertualang ke dalam pedang miliknya. Hasilnya berbeda-beda tergantung dari seberapa bersemangatnya dia...TekanSebuah ayunan berapi yang cepat, mengakibatkan Pyro DMG.Tahan (Sesaat)Saat ditahan, menghasilkan efek berbeda saat dilepaskan berdasarkan Level Charge.·Charge Tahap 1: Mengayun dua kali, mengakibatkan Pyro DMG dan menghempas musuh.·Charge Tahap 2: Mengayunkan pedang 3 kali untuk mengakibatkan Pyro DMG yang besar, tapi serangan terakhir akan memicu ledakan yang menghempas musuh dan Bennett.Bennett tidak menerima DMG dari hempasan.Serangan yang mengombinasikan impian dan gairah Bennett. Tapi gairah terkadang terlalu berlebihan, dan Pyro terkadang meledak.",
+        "th-th": "Bennett รวบรวมธาตุไฟและ ความคลั่งไคล้ในการผจญภัยไว้บนดาบ โดยสิ่งที่จะเกิดขึ้นได้นั้นจะขึ้นอยู่กับระดับ ของการรวบรวมความคลั่งไคล้ ของเขาเอง...แตะ/กดฟาดฟันดาบไฟไปข้างหน้าอย่างรวดเร็ว ทำให้เกิดความเสียหายไฟแตะค้าง/กดค้างอ้างอิงจากระยะเวลาในการแตะค้าง/กดค้าง เพื่อชาร์จพลัง การปลดปล่อยออกไปจะทำให้เกิด เอฟเฟกต์ที่แตกต่างกันโดยขึ้นอยู่กับ ระดับของการชาร์จพลัง·ชาร์จระดับ 1: ทำการโจมตีสองครั้ง เกิดเป็นความเสียหายไฟ และซัดศัตรูให้กระเด็น;·ชาร์จระดับ 2: ทำการโจมตีต่อเนื่องสามครั้ง เกิดเป็นความเสียหายไฟอย่างรุนแรง ซึ่งการโจมตีครั้งสุดท้ายจะเกิดการระเบิด และจะซัด Bennett กับศัตรู ให้กระเด็นลอยออกไปพร้อมกัน โดยที่ Bennett จะไม่ได้รับความเสียหาย เมื่อถูกซัดกระเด็น.รวบรวมความคลั่งไคล้และความฝันเอาไว้ กับธาตุไฟในการโจมตีแต่ละครั้ง แต่บางครั้งดูเหมือนว่าความคลั่งไคล้นั้น จะมากเกินไปหน่อย ทำให้ธาตุไฟระเบิดออกมาเป็นบางที",
+        "vi-vn": "Bennett ngưng tụ Nguyên Tố Hỏa và nhiệt huyết mạo hiểm trên kiếm. Dựa vào mức độ nhiệt tình ngưng tụ, sẽ gây ra hiệu quả khác nhau...NhấnNhanh chóng vung ra đòn đánh rực lửa về phía trước, gây Sát Thương Nguyên Tố Hỏa.Nhấn giữNhấn giữ để thực hiện tụ lực, khi thi triển sẽ gây ra hiệu quả khác nhau tùy theo số lần tụ lực.·Tụ lực lần 1: Tấn công 2 lần, gây Sát Thương Nguyên Tố Hỏa và đánh bay địch;·Tụ lực lần 2: Tấn công liên tiếp 3 lần, gây Sát Thương Nguyên Tố Hỏa. Chiêu cuối sẽ gây nổ, đánh bay Bennett và kẻ địch. Khi bị đánh bay, Bennett sẽ không chịu sát thương.Tụ hợp nhiệt huyết và đam mê vào đòn đánh Nguyên Tố Hỏa. Thế nhưng có lúc nhiệt huyết quá mức, Nguyên Tố Hỏa sẽ bùng nổ.",
+        "zh-tw": "班尼特將火元素與冒險的熱情凝聚在劍上。根據熱情凝聚的程度，可能會發生不同的事情…點按快速向前揮出火焰一擊，造成火元素傷害。長按根據長按時間進行蓄力，釋放時依照蓄力段數造成不同的效果。·一段蓄力：發動二段攻擊，造成火元素傷害並將敵人擊飛；·二段蓄力：發動三段連續攻擊，造成可觀的火元素傷害。最後一擊會發生爆炸，將班尼特與敵人同時擊飛。被擊飛時，班尼特不會受到傷害。聚集熱情與夢想與火元素的一擊。但熱情有時會過頭，而火元素有時會爆炸。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/班尼特/battle_talent_1/battle_talent_1.png"
+    },
+    {
+      "type": "elemental_burst",
+      "name": {
+        "pt-pt": "Viagem Fantástica",
+        "en-us": "Fantastic Voyage",
+        "ja-jp": "素晴らしい旅",
+        "zh-cn": "美妙旅程",
+        "ko-kr": "아름다운 여정",
+        "ru-ru": "Волнительное приключение",
+        "de-de": "Fantastische Reise",
+        "fr-fr": "Merveilleux voyage",
+        "es-es": "Aventura maravillosa",
+        "id-id": "Fantastic Voyage",
+        "th-th": "Fantastic Voyage",
+        "vi-vn": "Hành Trình Kỳ Diệu",
+        "zh-tw": "美妙旅程"
+      },
+      "description": {
+        "pt-pt": "Bennett pula, causando Dano Pyro, e cria um Campo de Inspiração.Campo de Inspiração·Se a Vida dos personagens dentro da AdE for igual ou cair para menos de 70%, regenerará Vida continuamente. A regeneração de Vida se baseia na Vida Máxima de Bennett.·Se a Vida dos personagens dentro da AdE for maior que 70%, receberão um Bônus de ATQ proporcional ao Ataque Básico de Bennett.·Aplica-se aos personagens dentro da AdE Elemento Pyro.A Equipe de Aventura de Benny sempre encontra perigos e acidentes quando parte para explorar. Apesar disso, Bennett prefere dizer que isso é \"uma jornada cheia de maravilhas, beleza e excitação\".",
+        "en-us": "Bennett performs a jumping attack that deals Pyro DMG, creating an Inspiration Field.Inspiration Field· If the health of a character within the AoE is equal to or falls below 70%, their health will continuously regenerate. The amount of HP restored scales off Bennett's Max HP.· If the health of a character within the AoE is higher than 70%, they gain an ATK Bonus that is based on Bennett's Base ATK.· Imbues characters within the AoE with Pyro.Benny's Adventure Team's adventures are always fraught with unexpected danger. However, Bennett is more inclined to call them \"journeys full of wonder, excitement, and beauty.\"",
+        "ja-jp": "ジャンプして地面を叩き、炎元素ダメージを与え、鼓舞エリアを生成する。鼓舞エリア・エリア内のキャラクターのHPが70%以下の場合、HPが持続的に回復する。回復量はベネットのHP上限によって決まる。・エリア内のキャラクターのHPが70%を超えている場合、ベネットの基礎攻撃力を基準に、一定割合の攻撃力がアップする。・エリア内のキャラクターに炎元素付着効果を付与する。ベニー冒険団の探険の旅はいつも予想外の危険でいっぱいだ。しかし唯一のメンバーであるベネットはそれを「刺激的で素晴らしい旅」だと思っている。",
+        "zh-cn": "班尼特进行腾跃轰击，造成火元素伤害，并生成鼓舞领域。鼓舞领域·领域内的角色如果生命值低于或等于70%，会持续恢复生命值，回复量受益于班尼特的最大生命值；·领域内的角色如果生命值高于70%，会基于班尼特的基础攻击力，以一定比例获得攻击力加成；·为其中的角色施加火元素附着。班尼冒险团每一次探险之旅都充满意外风险。尽管唯一的成员班尼特更倾向于说这是「精彩、刺激又美妙的旅程」。",
+        "ko-kr": "베넷이 도약 공격을 가하며 불 원소 피해를 주고 격려의 영역을 만들어낸다.격려의 영역·영역 내 캐릭터의 HP가 70% 이하일 때 HP를 지속해서 회복한다. 회복량은 베넷 HP 최대치의 영향을 받는다.·영역 내 캐릭터의 HP가 70%를 초과할 때 베넷의 기초 공격력에 기반하여 일정 비율의 공격력 보너스를 획득한다.·영역 내의 캐릭터에게 불 원소를 부착한다.베니 모험단은 탐험할 때마다 예상외의 위험에 봉착한다. 비록 유일한 단원인 베넷은 이걸 「재미있고, 흥분되며 아름다운 여정」이라고 말하지만 말이다",
+        "ru-ru": "Беннет проводит атаку в прыжке, которая наносит Пиро урон и создаёт Круг вдохновения.Круг вдохновения:· Восстанавливает персонажам в области, HP которых равно или ниже 70%, определённое количество HP, которое зависит от макс. HP Беннета;· Если HP персонажа в области выше 70%, то он получает бонус атаки, который зависит от базовой атаки Беннета;· Накладывает на персонажей в области эффект Пиро.Искать приключения с Беннетом - весьма опасное занятие, хоть Беннет и любит называть это «приключением, полным красот и волнительных сюрпризов».",
+        "de-de": "Bennett springt auf seine Gegner zu, greift sie aus der Luft an, verursacht dabei Pyro-Schaden und erstellt ein Feld der Aufmunterung.Feld der Aufmunterung· Heilt Figuren mit 70 % oder weniger LP auf diesem Feld fortlaufend basierend auf Bennetts max. LP.· Erhöht den ANG der Figuren mit mehr als 70 % LP auf diesem Feld basierend auf Bennetts Basis-ANG.· Verleiht den Figuren auf dem Feld das Pyro-Attribut.Bennys Abenteurergruppe gerät jedes Mal aufs Neue in Gefahr. Als einziges Mitglied findet Bennett aber, dass die Abenteuer dadurch überhaupt erst an Spaß und Spannung gewinnen.",
+        "fr-fr": "Bennett exécute une attaque sautée qui inflige des DGT Pyro et génère un champ vertueux.Champ vertueux· Les personnages se trouvant dans le champ et ayant moins de 70 % de PV sont soignés d'une quantité de PV proportionnelle aux PV max de Bennett.· Les personnages se trouvant dans le champ et dont les PV sont supérieurs à 70 % obtiennent un bonus d'ATQ proportionnel à l'ATQ de base de Bennett.· Le champ vertueux applique l'élément Pyro à tous les personnages qui s'y trouvent.Malgré tous les dangers qui ne manquent jamais de venir ponctuer chaque périple de la Bande à Benny, Bennett, son unique membre, préfère continuer à dire qu'il n'y a rien de tel qu'un peu d'inattendu pour pimenter une aventure, bien sûr.",
+        "es-es": "Bennett salta hacia el enemigo y crea una explosión, infligiendo Daño Pyro y creando un círculo de apoyo moral.Círculo de apoyo moral:·Si la Vida de un personaje dentro del círculo es igual o inferior al 70%, su vida se regenerará continuamente. La cantidad de vida regenerada aumenta en proporción a la Vida Máx. de Bennett.·Si la Vida de un personaje dentro del círculo es superior al 70%, obtendrá un Bono de ATQ en proporción al ATQ Básico de Bennett.·Los personajes dentro del círculo serán afectados por Pyro.Ir de aventuras con la Brigada de Benny es peligroso. Aunque Bennett se inclina más por llamarlo “aventuras llenas de maravillas, emoción y belleza”...",
+        "id-id": "Bennett melakukan serangan melompat, mengakibatkan Pyro DMG dan menciptakan sebuah Inspiration Field.Inspiration Field·Jika HP karakter di dalam lingkaran kurang dari 70%, maka HP mereka akan terus pulih. Jumlah pemulihan tergantung dari Max HP Bennett.·Jika HP karakter di dalam lingkaran di atas 70%, dia akan mendapat Bonus ATK berdasarkan Base ATK Bennett.·Memberikan elemen Pyro kepada karakter di dalam Inspiration Field.Regu Petualangan Benny selalu menemui bahaya yang tidak diduga saat bertualang. Bennett selalu berusaha meyakini para anggotanya bahwa itu adalah tanda \"petualangan seru yang penuh tantangan dan kejutan\".",
+        "th-th": "Bennett ทำการกระโดดโจมตี โดยจะเกิดเป็นความเสียหายไฟ และสร้างพื้นที่ให้กำลังใจขึ้นมาพื้นที่ให้กำลังใจ·หากตัวละครที่อยู่ในพื้นที่มีพลังชีวิต ต่ำกว่าหรือเท่ากับ 70% จะได้รับการฟื้นฟูพลังชีวิตอย่างต่อเนื่อง โดยปริมาณการฟื้นฟูจะขึ้นอยู่กับ พลังชีวิตสูงสุดของ Bennett;·หากตัวละครที่อยู่ในพื้นที่มีพลังชีวิต สูงกว่า 70% จะได้รับโบนัสโจมตีโดยจะขึ้นอยู่กับ พื้นฐานพลังโจมตีของ Bennett;·ทำให้ตัวละครที่อยู่ในนั้น ติดสถานะธาตุไฟ.การเดินทางสำรวจทุกครั้งของ กลุ่มนักผจญภัยของ Benny นั้น ล้วนเต็มไปด้วยความเสี่ยงที่คาดไม่ถึง มีเพียง Bennett ซึ่งเป็นสมาชิกคนเดียว เท่านั้นที่พูดว่า มันช่างเป็น \"การเดินทางที่สุดยอด, ตื่นเต้นแล้วก็สวยงาม\"",
+        "vi-vn": "Bennett lao nhanh nã đạn, gây sát thương nguyên tố hỏa và tạo thành vùng đất cổ vũ.Vùng Đất Cổ Vũ·Nhân vật đứng trong vùng đất này, nếu HP dưới hoặc bằng 70%, HP tối đa sẽ liên tục được hồi, lượng hồi phụ thuộc vào giới hạn HP của Bennett.·Nếu nhân vật trong vùng đất có HP cao hơn 70% HP tối đa, nhân vật ở trong đó sẽ nhận buff tấn công, giá trị bằng với tấn công cơ bản của Bennett, tăng tấn công với tỷ lệ nhất định.·Thêm nguyên tố hỏa kèm theo cho nhân vật trong đó.Đoàn mạo hiểm Benny mỗi lần bắt đầu hành trình mạo hiểm đều đầy sự rủi ro. Chỉ duy nhất Bennett lại cho rằng đây là \"hành trình tuyệt vời, kịch tính và kì diệu\".",
+        "zh-tw": "班尼特進行騰躍轟擊，造成火元素傷害，並生成鼓舞領域。鼓舞領域·領域內的角色如果生命值低於或等於70%，會持續恢復生命值，回復量受益於班尼特的最大生命值；·領域內的角色如果生命值高於70%，會基於班尼特的基礎攻擊力，以一定比例獲得攻擊力加成；·為其中的角色施加火元素附著。班尼冒險團每一次探險之旅都充滿意外風險。儘管唯一的成員班尼特更傾向於說這是「精彩、刺激又美妙的旅程」。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/班尼特/battle_talent_2/battle_talent_2.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Ressurgimento da Paixão",
+        "en-us": "Rekindle",
+        "ja-jp": "情熱復活",
+        "zh-cn": "热情复燃",
+        "ko-kr": "되살아난 열정",
+        "ru-ru": "Вспышка страсти",
+        "de-de": "Aufflammen",
+        "fr-fr": "Renouveau de la passion",
+        "es-es": "Resurgimiento de la pasión",
+        "id-id": "Rekindle",
+        "th-th": "Rekindle",
+        "vi-vn": "Nhiệt Tình Rực Lửa",
+        "zh-tw": "熱情復燃"
+      },
+      "description": {
+        "pt-pt": "Diminui o Tempo de Recarga da Sobrecarga da Paixão em 20%.",
+        "en-us": "Decreases Passion Overload's CD by 20%.",
+        "ja-jp": "溢れる情熱のクールタイム-20%。",
+        "zh-cn": "热情过载的冷却时间减少20%。",
+        "ko-kr": "열정 과부하의 재사용 대기시간이 20% 감소한다",
+        "ru-ru": "Уменьшает время отката навыка Чрезмерные стремления на 20%.",
+        "de-de": "Verkürzt die Abklingzeit von Überschwänglichkeit um 20 %.",
+        "fr-fr": "Réduit le TdR de Surpassion de 20 %.",
+        "es-es": "Reduce en un 20% el TdE de Sobrecarga de pasión.",
+        "id-id": "Mengurangi 20% CD Passion Overload.",
+        "th-th": "ลดเวลาคูลดาวน์ของ Passion Overload ลง 20%",
+        "vi-vn": "Giảm CD Nhiệt Tình Quá Độ 20%",
+        "zh-tw": "熱情超載的冷卻時間減少20%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/班尼特/const_talent_0.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Fervor Intrépido",
+        "en-us": "Fearnaught",
+        "ja-jp": "恐れなき熱血",
+        "zh-cn": "无畏的热血",
+        "ko-kr": "두려움 없는 뜨거운 피",
+        "ru-ru": "Храбрая кровь",
+        "de-de": "Unerschrockenheit",
+        "fr-fr": "Enthousiasme intrépide",
+        "es-es": "Fervor intrépido",
+        "id-id": "Fearnaught",
+        "th-th": "Fearnaught",
+        "vi-vn": "Nhiệt Huyết Can Đảm",
+        "zh-tw": "無畏的熱血"
+      },
+      "description": {
+        "pt-pt": "Dentro da área criada pela Viagem Fantástica, a Sobrecarga da Paixão recebe os seguintes efeitos:A Recarga é reduzida em 50%.Bennett não será lançado pelos efeitos da Carga Nível 2.",
+        "en-us": "Within the area created by Fantastic Voyage, Passion Overload takes on the following effects:· CD is reduced by 50%.· Bennett will not be launched by the effects of Charge Level 2.",
+        "ja-jp": "素晴らしい旅エリア内にいると、溢れる情熱が以下の効果を持つ。・クールタイム-50%。・2段チャージによるベネット自身のノックバックが発生しない。",
+        "zh-cn": "在美妙旅程领域内，热情过载具有如下效果：·冷却时间减少50%；·二段蓄力不会将班尼特自身击飞。",
+        "ko-kr": "아름다운 여정의 영역 내에서 열정 과부하는 아래의 효과가 발동한다:·재사용 대기시간이 50% 감소한다.·2단 차지로 인해 자신이 날려지지 않는다",
+        "ru-ru": "Находясь в области навыка Волнительное приключение, навык Чрезмерные стремления получает следующие свойства:· Уменьшается время отката навыка на 50%;· Уровень заряда 2 не подбрасывает Беннета в воздух.",
+        "de-de": "Effekte von Überschwänglichkeit im Wirkungsbereich von Fantastische Reise:· Verringert die Abklingzeit um 50 %.· Schleudert Bennett beim Aufladen Phase 2 nicht mehr weg.",
+        "fr-fr": "Dans le champ de Merveilleux voyage, Surpassion bénéficie des effets suivants :· TdR réduit de 50 %.· ne projette pas Bennett en l'air en niveau 2 de charge.",
+        "es-es": "Dentro del área de Aventura maravillosa, Sobrecarga de pasión tiene los siguientes efectos:·Su TdE se reduce en un 50%.·Bennett no será lanzado por los aires con la Carga 2.",
+        "id-id": "Saat berada di dalam area Fantastic Voyage, Passion Overload mempunyai efek berikut:·CD berkurang 50%.·Bennet tidak akan terlempar karena efek Charge Level 2.",
+        "th-th": "ภายในพื้นที่ของ Fantastic Voyage เอฟเฟกต์ของ Passion Overload จะมีดังนี้:·ลดเวลาคูลดาวน์ลง 50%;·การชาร์จระดับ 2 จะไม่ซัด Bennett ให้กระเด็น",
+        "vi-vn": "Ở trong khu vực Hành Trình Kỳ Diệu, Nhiệt Tình Quá Độ có hiệu quả như sau:·CD giảm 50%;·Tụ lực lần 2 sẽ không tự đánh bay Bennett.",
+        "zh-tw": "在美妙旅程領域內，熱情超載具有如下效果：·冷卻時間減少50%；·二段蓄力不會將班尼特自身擊飛。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/班尼特/const_talent_1.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Deve Ser Seguro...",
+        "en-us": "It Should Be Safe...",
+        "ja-jp": "多分安全",
+        "zh-cn": "应该安全",
+        "ko-kr": "안전하겠지",
+        "ru-ru": "Ступайте осторожно",
+        "de-de": "Vermutlich sicher",
+        "fr-fr": "R.A.S.",
+        "es-es": "Supuestamente seguro",
+        "id-id": "It Should Be Safe...",
+        "th-th": "It Should Be Safe...",
+        "vi-vn": "Có Thể An Toàn",
+        "zh-tw": "應該安全"
+      },
+      "description": {
+        "pt-pt": "Quando despachado em uma expedição em Mondstadt, o tempo consumido é reduzido em 25%",
+        "en-us": "When dispatched on an expedition in Mondstadt, time consumed is reduced by 25%.",
+        "ja-jp": "モンドの探索任務の所要時間-25%。",
+        "zh-cn": "在蒙德执行探索派遣任务时，消耗的时间缩短25%。",
+        "ko-kr": "몬드에서 탐색 임무 수행 시 소모하는 시간이 25% 감소한다",
+        "ru-ru": "Уменьшает длительность экспедиций в Мондштадте на 25%.",
+        "de-de": "Verkürzt die bei Erkundungen innerhalb des Einflussbereichs von Mondstadt verbrauchte Zeit um 25 %.",
+        "fr-fr": "Réduit la durée d'une expédition de 25 % lorsqu'elle se déroule à Mondstadt.",
+        "es-es": "Reduce en un 25% el tiempo necesario para completar una expedición en Mondstadt.",
+        "id-id": "Ketika dikirim untuk melakukan ekspedisi di Mondstadt, waktu yang dibutuhkan berkurang 25%.",
+        "th-th": "เมื่อทำคำขอการออกสำรวจของ Mondstadt เวลาที่ใช้จะลดลง 25%",
+        "vi-vn": "Khi làm nhiệm vụ Phái Đi thám Hiểm ở Mondstadt, thời gian tiêu hao rút ngắn 25%.",
+        "zh-tw": "在蒙德執行探索派遣任務時，消耗的時間縮短25%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/班尼特/const_talent_2.png"
+    }
+  ],
+  "talentAttributes": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Espada da Sorte",
+        "en-us": "Strike of Fortune",
+        "ja-jp": "好運の剣",
+        "zh-cn": "普通攻击·好运剑",
+        "ko-kr": "일반 공격·행운의 검",
+        "ru-ru": "Счастливый меч",
+        "de-de": "Standardangriff: Glücksbringer",
+        "fr-fr": "Attaque normale : Épée chanceuse",
+        "es-es": "Ataque Normal: Espada de la suerte",
+        "id-id": "Normal Attack: Strike of Fortune",
+        "th-th": "โจมตีปกติ - Strike of Fortune",
+        "vi-vn": "Tấn Công Thường: Kiếm May Mắn",
+        "zh-tw": "普通攻擊·好運劍"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 1° Golpe",
+            "en-us": "1-Hit DMG",
+            "ja-jp": "1段ダメージ",
+            "zh-cn": "一段伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон атаки 1",
+            "de-de": "SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tahap 1",
+            "th-th": "ความเสียหายขั้น 1",
+            "vi-vn": "Sát Thương Lần 1",
+            "zh-tw": "一段傷害"
+          },
+          "values": [
+            "44.5%",
+            "48.2%",
+            "51.8%",
+            "57%",
+            "60.6%",
+            "64.8%",
+            "70.4%",
+            "76.2%",
+            "81.9%",
+            "88.1%",
+            "94.3%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 2° Golpe",
+            "en-us": "2-Hit DMG",
+            "ja-jp": "2段ダメージ",
+            "zh-cn": "二段伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон атаки 2",
+            "de-de": "SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2.º golpe",
+            "id-id": "DMG Tahap 2",
+            "th-th": "ความเสียหายขั้น 2",
+            "vi-vn": "Sát Thương Lần 2",
+            "zh-tw": "二段傷害"
+          },
+          "values": [
+            "42.7%",
+            "46.2%",
+            "49.7%",
+            "54.7%",
+            "58.1%",
+            "62.1%",
+            "67.6%",
+            "73.1%",
+            "78.5%",
+            "84.5%",
+            "90.5%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 3° Golpe",
+            "en-us": "3-Hit DMG",
+            "ja-jp": "3段ダメージ",
+            "zh-cn": "三段伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон атаки 3",
+            "de-de": "SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tahap 3",
+            "th-th": "ความเสียหายขั้น 3",
+            "vi-vn": "Sát Thương Lần 3",
+            "zh-tw": "三段傷害"
+          },
+          "values": [
+            "54.6%",
+            "59.1%",
+            "63.5%",
+            "69.9%",
+            "74.3%",
+            "79.4%",
+            "86.4%",
+            "93.4%",
+            "100.3%",
+            "108%",
+            "115.6%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 4° Golpe",
+            "en-us": "4-Hit DMG",
+            "ja-jp": "4段ダメージ",
+            "zh-cn": "四段伤害",
+            "ko-kr": "4단 공격 피해",
+            "ru-ru": "Урон атаки 4",
+            "de-de": "SCH Phase 4",
+            "fr-fr": "DGT 4e coup",
+            "es-es": "Daño de 4.º golpe",
+            "id-id": "DMG Tahap 4",
+            "th-th": "ความเสียหายขั้น 4",
+            "vi-vn": "Sát Thương Lần 4",
+            "zh-tw": "四段傷害"
+          },
+          "values": [
+            "59.7%",
+            "64.5%",
+            "69.4%",
+            "76.3%",
+            "81.2%",
+            "86.8%",
+            "94.4%",
+            "102%",
+            "109.7%",
+            "118%",
+            "126.3%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 5° Golpe",
+            "en-us": "5-Hit DMG",
+            "ja-jp": "5段ダメージ",
+            "zh-cn": "五段伤害",
+            "ko-kr": "5단 공격 피해",
+            "ru-ru": "Урон атаки 5",
+            "de-de": "SCH Phase 5",
+            "fr-fr": "DGT 5e coup",
+            "es-es": "Daño de 5.º golpe",
+            "id-id": "DMG Tahap 5",
+            "th-th": "ความเสียหายขั้น 5",
+            "vi-vn": "Sát Thương Lần 5",
+            "zh-tw": "五段傷害"
+          },
+          "values": [
+            "71.9%",
+            "77.7%",
+            "83.6%",
+            "92%",
+            "97.8%",
+            "105%",
+            "114%",
+            "123%",
+            "132%",
+            "142%",
+            "152%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Ataque Carregado",
+            "en-us": "Charged Attack DMG",
+            "ja-jp": "重撃ダメージ",
+            "zh-cn": "重击伤害",
+            "ko-kr": "강공격 피해",
+            "ru-ru": "Урон заряженной атаки",
+            "de-de": "SCH heftiger Schläge",
+            "fr-fr": "DGT attaque chargée",
+            "es-es": "Daño de ATQ Cargado",
+            "id-id": "DMG Charged Attack",
+            "th-th": "ความเสียหายชาร์จโจมตี",
+            "vi-vn": "Sát Thương Trọng Kích",
+            "zh-tw": "重擊傷害"
+          },
+          "values": [
+            "55.9%+60.7%",
+            "60.5%+65.7%",
+            "65.0%+70.6%",
+            "71.5%+77.7%",
+            "76.1%+82.6%",
+            "81.3%+88.3%",
+            "88.4%+96.0%",
+            "95.6%+103.8%",
+            "102.7%+111.6%",
+            "110.5%+120.0%",
+            "118.3%+128.5%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Consumo de Stamina de Ataque Carregado",
+            "en-us": "Charged Attack Stamina Cost",
+            "ja-jp": "重撃スタミナ消費",
+            "zh-cn": "重击体力消耗",
+            "ko-kr": "강공격 스태미나 소모",
+            "ru-ru": "Потребление выносливости",
+            "de-de": "Ausdauerverbrauch heftiger Schläge",
+            "fr-fr": "Coût d'endurance attaque chargée",
+            "es-es": "Coste de Aguante de ATQ Cargado",
+            "id-id": "Konsumsi Stamina Charged Attack",
+            "th-th": "ชาร์จโจมตีใช้พลังกาย",
+            "vi-vn": "Thể lực Trọng Kích tiêu hao",
+            "zh-tw": "重擊體力消耗"
+          },
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Durante a Queda",
+            "en-us": "Plunge DMG",
+            "ja-jp": "落下期間のダメージ",
+            "zh-cn": "下坠期间伤害",
+            "ko-kr": "낙하 기간 피해",
+            "ru-ru": "Урон в падении",
+            "de-de": "SCH beim Fallen",
+            "fr-fr": "DGT durant la chute",
+            "es-es": "Daño de Caída",
+            "id-id": "DMG Selama Plunging",
+            "th-th": "ความเสียหายพุ่งลง",
+            "vi-vn": "Sát Thương Khi Đáp",
+            "zh-tw": "下墜期間傷害"
+          },
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Queda de Baixa/Alta Altitude",
+            "en-us": "Low/High Plunge DMG",
+            "ja-jp": "低空/高空落下攻撃ダメージ",
+            "zh-cn": "低空/高空坠地冲击伤害",
+            "ko-kr": "저공/고공 추락 충격 피해",
+            "ru-ru": "Урон низкого/высокого удара",
+            "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
+            "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Daño de impacto de caída baja/alta",
+            "id-id": "DMG Plunging Attack Min./Maks.",
+            "th-th": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+            "vi-vn": "ST Khi Rơi Từ Độ Cao Thấp/Cao",
+            "zh-tw": "低空/高空墜地衝擊傷害"
+          },
+          "values": [
+            "128%/160%",
+            "138%/173%",
+            "149%/186%",
+            "164%/204%",
+            "174%/217%",
+            "186%/232%",
+            "202%/253%",
+            "219%/273%",
+            "235%/293%",
+            "253%/316%",
+            "271%/338%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_skill",
+      "talentName": {
+        "pt-pt": "Sobrecarga de Paixão",
+        "en-us": "Passion Overload",
+        "ja-jp": "溢れる情熱",
+        "zh-cn": "热情过载",
+        "ko-kr": "열정 과부하",
+        "ru-ru": "Чрезмерные стремления",
+        "de-de": "Überschwänglichkeit",
+        "fr-fr": "Surpassion",
+        "es-es": "Sobrecarga de pasión",
+        "id-id": "Passion Overload",
+        "th-th": "Passion Overload",
+        "vi-vn": "Nhiệt Tình Quá Độ",
+        "zh-tw": "熱情超載"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Toque",
+            "en-us": "Tapping/Press DMG",
+            "ja-jp": "一回押しダメージ",
+            "zh-cn": "点按伤害",
+            "ko-kr": "짧은 터치 피해",
+            "ru-ru": "Урон быстрого нажатия",
+            "de-de": "SCH bei Drücken",
+            "fr-fr": "DGT appui simple",
+            "es-es": "Daño por toque/al pulsar una vez",
+            "id-id": "DMG Tekan",
+            "th-th": "ความเสียหายเมื่อแตะ/กด",
+            "vi-vn": "Sát Thương Nhấn",
+            "zh-tw": "點按傷害"
+          },
+          "values": [
+            "138%",
+            "148%",
+            "158%",
+            "172%",
+            "182%",
+            "193%",
+            "206%",
+            "220%",
+            "234%",
+            "248%",
+            "261%",
+            "275%",
+            "292%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano da 1ª Energização",
+            "en-us": "Charge Level 1 DMG",
+            "ja-jp": "1段チャージダメージ",
+            "zh-cn": "一段蓄力伤害",
+            "ko-kr": "1단 차지 피해",
+            "ru-ru": "Урон заряда 1",
+            "de-de": "SCH bei Aufladung (Phase 1)",
+            "fr-fr": "DGT après 1 charge",
+            "es-es": "Daño de Carga 1",
+            "id-id": "DMG Charge Tahap 1",
+            "th-th": "ความเสียหายชาร์จระดับ 1",
+            "vi-vn": "Sát Thương Tụ Lực Lần 1",
+            "zh-tw": "一段蓄力傷害"
+          },
+          "values": [
+            "84%+92%",
+            "90.3%+98.9%",
+            "96.6%+106%",
+            "105%+115%",
+            "111%+122%",
+            "118%+129%",
+            "126%+138%",
+            "134%+147%",
+            "143%+156%",
+            "151%+166%",
+            "160%+175%",
+            "168%+184%",
+            "179%+196%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano da 2ª Energização",
+            "en-us": "Charge Level 2 DMG",
+            "ja-jp": "2段チャージダメージ",
+            "zh-cn": "二段蓄力伤害",
+            "ko-kr": "2단 차지 피해",
+            "ru-ru": "Урон заряда 2",
+            "de-de": "SCH bei Aufladung (Phase 2)",
+            "fr-fr": "DGT après 2e charge",
+            "es-es": "Daño de Carga 2",
+            "id-id": "DMG Charge Tahap 2",
+            "th-th": "ความเสียหายชาร์จขั้น 2",
+            "vi-vn": "Sát Thương Tụ Lực Lần 2",
+            "zh-tw": "二段蓄力傷害"
+          },
+          "values": [
+            "88%+96%",
+            "94.6%+103%",
+            "101%+110%",
+            "110%+120%",
+            "117%+127%",
+            "123%+134%",
+            "132%+144%",
+            "141%+154%",
+            "150%+163%",
+            "158%+173%",
+            "167%+182%",
+            "176%+192%",
+            "187%+204%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Explosão",
+            "en-us": "Explosion DMG",
+            "ja-jp": "爆発ダメージ",
+            "zh-cn": "爆炸伤害",
+            "ko-kr": "폭발 피해",
+            "ru-ru": "Урон взрыва",
+            "de-de": "Explosions-SCH",
+            "fr-fr": "DGT explosion",
+            "es-es": "Daño de explosión",
+            "id-id": "DMG Ledakan",
+            "th-th": "ความเสียหายการระเบิด",
+            "vi-vn": "Sát Thương Nổ",
+            "zh-tw": "爆炸傷害"
+          },
+          "values": [
+            "132%",
+            "142%",
+            "152%",
+            "165%",
+            "175%",
+            "185%",
+            "198%",
+            "211%",
+            "224%",
+            "238%",
+            "251%",
+            "264%",
+            "281%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "5.0/7.5/10.0s",
+            "5.0/7.5/10.0s",
+            "5.0/7.5/10.0s",
+            "5.0/7.5/10.0s",
+            "5.0/7.5/10.0s",
+            "5.0/7.5/10.0s",
+            "5.0/7.5/10.0s",
+            "5.0/7.5/10.0s",
+            "5.0/7.5/10.0s",
+            "5.0/7.5/10.0s",
+            "5.0/7.5/10.0s",
+            "5.0/7.5/10.0s",
+            "5.0/7.5/10.0s"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_burst",
+      "talentName": {
+        "pt-pt": "Viagem Fantástica",
+        "en-us": "Fantastic Voyage",
+        "ja-jp": "素晴らしい旅",
+        "zh-cn": "美妙旅程",
+        "ko-kr": "아름다운 여정",
+        "ru-ru": "Волнительное приключение",
+        "de-de": "Fantastische Reise",
+        "fr-fr": "Merveilleux voyage",
+        "es-es": "Aventura maravillosa",
+        "id-id": "Fantastic Voyage",
+        "th-th": "Fantastic Voyage",
+        "vi-vn": "Hành Trình Kỳ Diệu",
+        "zh-tw": "美妙旅程"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Habilidade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "233%",
+            "250%",
+            "268%",
+            "291%",
+            "308%",
+            "326%",
+            "349%",
+            "372%",
+            "396%",
+            "419%",
+            "442%",
+            "466%",
+            "495%",
+            "524%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Regeneração Contínua",
+            "en-us": "Continuous Regeneration Per Sec",
+            "ja-jp": "継続回復",
+            "zh-cn": "持续治疗",
+            "ko-kr": "지속 치유",
+            "ru-ru": "Регенерация",
+            "de-de": "Fortlaufende Heilung",
+            "fr-fr": "Soins continus",
+            "es-es": "Curación continua",
+            "id-id": "Regenerasi HP/dtk",
+            "th-th": "รักษาต่อเนื่อง",
+            "vi-vn": "Trị liệu kéo dài",
+            "zh-tw": "持續治療"
+          },
+          "values": [
+            "6.0% da Vida Máxima +577/s",
+            "6.4% da Vida Máxima +635/s",
+            "6.9% da Vida Máxima +698/s",
+            "7.5% da Vida Máxima +765/s",
+            "8.0% da Vida Máxima +837/s",
+            "8.4% da Vida Máxima +914/s",
+            "9.0% da Vida Máxima +996/s",
+            "9.6% da Vida Máxima +1083/s",
+            "10.2% da Vida Máxima +1174/s",
+            "10.8% da Vida Máxima +1270/s",
+            "11.4% da Vida Máxima +1371/s",
+            "12.0% da Vida Máxima +1477/s",
+            "12.8% da Vida Máxima +1588/s",
+            "13.5% da Vida Máxima +1703/s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa de Bônus de ATQ",
+            "en-us": "ATK Bonus Ratio",
+            "ja-jp": "攻撃力上昇率",
+            "zh-cn": "攻击力加成比例",
+            "ko-kr": "공격 보너스 비율",
+            "ru-ru": "Отношение бонуса атаки",
+            "de-de": "ANG-Bonus-Rate",
+            "fr-fr": "Bonus d'ATQ",
+            "es-es": "Porcentaje de Bono de ATQ",
+            "id-id": "Rasio Bonus ATK",
+            "th-th": "อัตราส่วนโบนัสโจมตี",
+            "vi-vn": "Tỷ Lệ Tăng Tấn Công",
+            "zh-tw": "攻擊力加成比例"
+          },
+          "values": [
+            "56%",
+            "60%",
+            "64%",
+            "70%",
+            "74%",
+            "78%",
+            "84%",
+            "90%",
+            "95%",
+            "101%",
+            "106%",
+            "112%",
+            "119%",
+            "126%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração",
+            "en-us": "Duration",
+            "ja-jp": "継続時間",
+            "zh-cn": "持续时间",
+            "ko-kr": "지속 시간",
+            "ru-ru": "Длительность",
+            "de-de": "Dauer",
+            "fr-fr": "Durée",
+            "es-es": "Duración",
+            "id-id": "Durasi",
+            "th-th": "ระยะเวลาต่อเนื่อง",
+            "vi-vn": "Thời Gian Kéo Dài",
+            "zh-tw": "持續時間"
+          },
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Energia Elemental",
+            "en-us": "Energy Cost",
+            "ja-jp": "元素エネルギー",
+            "zh-cn": "元素能量",
+            "ko-kr": "원소 에너지",
+            "ru-ru": "Потребление энергии",
+            "de-de": "Elementarenergie",
+            "fr-fr": "Énergie élémentaire",
+            "es-es": "Energía Elemental",
+            "id-id": "Konsumsi Energy",
+            "th-th": "พลังงานธาตุ",
+            "vi-vn": "Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量"
+          },
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "talentMaterials": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Espada da Sorte",
+        "en-us": "Strike of Fortune",
+        "ja-jp": "好運の剣",
+        "zh-cn": "普通攻击·好运剑",
+        "ko-kr": "일반 공격·행운의 검",
+        "ru-ru": "Счастливый меч",
+        "de-de": "Standardangriff: Glücksbringer",
+        "fr-fr": "Attaque normale : Épée chanceuse",
+        "es-es": "Ataque Normal: Espada de la suerte",
+        "id-id": "Normal Attack: Strike of Fortune",
+        "th-th": "โจมตีปกติ - Strike of Fortune",
+        "vi-vn": "Tấn Công Thường: Kiếm May Mắn",
+        "zh-tw": "普通攻擊·好運劍"
+      },
+      "materials": [
+        {
+          "level": 2,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 12500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "111",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Ensinamentos de Resistência",
+                "en-us": "Teachings of Resistance",
+                "ja-jp": "抗争の教え",
+                "zh-cn": "抗争的教导",
+                "ko-kr": "투쟁의 가르침",
+                "ru-ru": "Учения о Борьбе",
+                "de-de": "Lehren des Widerstands",
+                "fr-fr": "Enseignement de la Résistance",
+                "es-es": "Enseñanzas de la resistencia",
+                "id-id": "Teachings of Resistance",
+                "th-th": "Teachings of Resistance",
+                "vi-vn": "Bài Giảng Của Kháng Chiến",
+                "zh-tw": "抗爭的教導"
+              }
+            },
+            {
+              "id": "629",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Insígnia dos Ladrões de Tesouro",
+                "en-us": "Treasure Hoarder Insignia",
+                "ja-jp": "宝探しの鴉マーク",
+                "zh-cn": "寻宝鸦印",
+                "ko-kr": "보물찾기 까마귀 휘장",
+                "ru-ru": "Печать Похитителей сокровищ",
+                "de-de": "Krähenwappen der Schatzsuche",
+                "fr-fr": "Insigne des Pilleurs",
+                "es-es": "Insignia de cuervo de bronce",
+                "id-id": "Treasure Hoarder Insignia",
+                "th-th": "Treasure Hoarders Insignia",
+                "vi-vn": "Ấn Quạ Tầm Bảo",
+                "zh-tw": "尋寶鴉印"
+              }
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 17500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "110",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Guia de Resistência",
+                "en-us": "Guide to Resistance",
+                "ja-jp": "抗争の導き",
+                "zh-cn": "抗争的指引",
+                "ko-kr": "투쟁의 인도",
+                "ru-ru": "Указания о Борьбе",
+                "de-de": "Anleitung zum Widerstand",
+                "fr-fr": "Guide de la Résistance",
+                "es-es": "Guía de la resistencia",
+                "id-id": "Guide to Resistance",
+                "th-th": "Guide to Resistance",
+                "vi-vn": "Hướng Dẫn Của Kháng Chiến",
+                "zh-tw": "抗爭的指引"
+              }
+            },
+            {
+              "id": "1553",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Insígnia do Corvo Prateado",
+                "en-us": "Silver Raven Insignia",
+                "ja-jp": "シルバーの鴉マーク",
+                "zh-cn": "藏银鸦印",
+                "ko-kr": "실버 까마귀 휘장",
+                "ru-ru": "Печать серебряного ворона",
+                "de-de": "Krähenwappen der Silberschätze",
+                "fr-fr": "Insigne de corbeau en argent",
+                "es-es": "Insignia de cuervo plateada",
+                "id-id": "Silver Raven Insignia",
+                "th-th": "Silver Raven Insignia",
+                "vi-vn": "Ấn Quạ Bạc Ẩn",
+                "zh-tw": "藏銀鴉印"
+              }
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 25000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "110",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Guia de Resistência",
+                "en-us": "Guide to Resistance",
+                "ja-jp": "抗争の導き",
+                "zh-cn": "抗争的指引",
+                "ko-kr": "투쟁의 인도",
+                "ru-ru": "Указания о Борьбе",
+                "de-de": "Anleitung zum Widerstand",
+                "fr-fr": "Guide de la Résistance",
+                "es-es": "Guía de la resistencia",
+                "id-id": "Guide to Resistance",
+                "th-th": "Guide to Resistance",
+                "vi-vn": "Hướng Dẫn Của Kháng Chiến",
+                "zh-tw": "抗爭的指引"
+              }
+            },
+            {
+              "id": "1553",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Insígnia do Corvo Prateado",
+                "en-us": "Silver Raven Insignia",
+                "ja-jp": "シルバーの鴉マーク",
+                "zh-cn": "藏银鸦印",
+                "ko-kr": "실버 까마귀 휘장",
+                "ru-ru": "Печать серебряного ворона",
+                "de-de": "Krähenwappen der Silberschätze",
+                "fr-fr": "Insigne de corbeau en argent",
+                "es-es": "Insignia de cuervo plateada",
+                "id-id": "Silver Raven Insignia",
+                "th-th": "Silver Raven Insignia",
+                "vi-vn": "Ấn Quạ Bạc Ẩn",
+                "zh-tw": "藏銀鴉印"
+              }
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 30000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "110",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Guia de Resistência",
+                "en-us": "Guide to Resistance",
+                "ja-jp": "抗争の導き",
+                "zh-cn": "抗争的指引",
+                "ko-kr": "투쟁의 인도",
+                "ru-ru": "Указания о Борьбе",
+                "de-de": "Anleitung zum Widerstand",
+                "fr-fr": "Guide de la Résistance",
+                "es-es": "Guía de la resistencia",
+                "id-id": "Guide to Resistance",
+                "th-th": "Guide to Resistance",
+                "vi-vn": "Hướng Dẫn Của Kháng Chiến",
+                "zh-tw": "抗爭的指引"
+              }
+            },
+            {
+              "id": "1553",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Insígnia do Corvo Prateado",
+                "en-us": "Silver Raven Insignia",
+                "ja-jp": "シルバーの鴉マーク",
+                "zh-cn": "藏银鸦印",
+                "ko-kr": "실버 까마귀 휘장",
+                "ru-ru": "Печать серебряного ворона",
+                "de-de": "Krähenwappen der Silberschätze",
+                "fr-fr": "Insigne de corbeau en argent",
+                "es-es": "Insignia de cuervo plateada",
+                "id-id": "Silver Raven Insignia",
+                "th-th": "Silver Raven Insignia",
+                "vi-vn": "Ấn Quạ Bạc Ẩn",
+                "zh-tw": "藏銀鴉印"
+              }
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 37500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "110",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Guia de Resistência",
+                "en-us": "Guide to Resistance",
+                "ja-jp": "抗争の導き",
+                "zh-cn": "抗争的指引",
+                "ko-kr": "투쟁의 인도",
+                "ru-ru": "Указания о Борьбе",
+                "de-de": "Anleitung zum Widerstand",
+                "fr-fr": "Guide de la Résistance",
+                "es-es": "Guía de la resistencia",
+                "id-id": "Guide to Resistance",
+                "th-th": "Guide to Resistance",
+                "vi-vn": "Hướng Dẫn Của Kháng Chiến",
+                "zh-tw": "抗爭的指引"
+              }
+            },
+            {
+              "id": "1553",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Insígnia do Corvo Prateado",
+                "en-us": "Silver Raven Insignia",
+                "ja-jp": "シルバーの鴉マーク",
+                "zh-cn": "藏银鸦印",
+                "ko-kr": "실버 까마귀 휘장",
+                "ru-ru": "Печать серебряного ворона",
+                "de-de": "Krähenwappen der Silberschätze",
+                "fr-fr": "Insigne de corbeau en argent",
+                "es-es": "Insignia de cuervo plateada",
+                "id-id": "Silver Raven Insignia",
+                "th-th": "Silver Raven Insignia",
+                "vi-vn": "Ấn Quạ Bạc Ẩn",
+                "zh-tw": "藏銀鴉印"
+              }
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 120000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "109",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Filosofia de Resistência",
+                "en-us": "Philosophies of Resistance",
+                "ja-jp": "抗争の哲学",
+                "zh-cn": "抗争的哲学",
+                "ko-kr": "투쟁의 철학",
+                "ru-ru": "Философия о Борьбе",
+                "de-de": "Philosophie des Widerstands",
+                "fr-fr": "Philosophie de la Résistance",
+                "es-es": "Filosofía de la resistencia",
+                "id-id": "Philosophies of Resistance",
+                "th-th": "Philosophies of Resistance",
+                "vi-vn": "Triết Học Của Kháng Chiến",
+                "zh-tw": "抗爭的哲學"
+              }
+            },
+            {
+              "id": "760",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Insígnia de Corvo Dourado",
+                "en-us": "Golden Raven Insignia",
+                "ja-jp": "ゴールドの鴉マーク",
+                "zh-cn": "攫金鸦印",
+                "ko-kr": "골드 까마귀 휘장",
+                "ru-ru": "Печать золотого ворона",
+                "de-de": "Krähenwappen der Goldschätze",
+                "fr-fr": "Insigne de corbeau en or",
+                "es-es": "Insignia de cuervo dorada",
+                "id-id": "Golden Raven Insignia",
+                "th-th": "Golden Raven Insignia",
+                "vi-vn": "Ấn Quạ Trộm Vàng",
+                "zh-tw": "攫金鴉印"
+              }
+            },
+            {
+              "id": "238",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Plumas do Vento Oriental",
+                "en-us": "Dvalin's Plume",
+                "ja-jp": "東風の羽根",
+                "zh-cn": "东风之翎",
+                "ko-kr": "동풍의 깃털",
+                "ru-ru": "Перо из хвоста Двалина",
+                "de-de": "Schwanzfeder des Ostwinds",
+                "fr-fr": "Plume de Stormterror",
+                "es-es": "Pluma de Stormterror",
+                "id-id": "Dvalin's Plume",
+                "th-th": "Stormterror Tail Feather",
+                "vi-vn": "Lông Vũ Đông Phong",
+                "zh-tw": "東風之翎"
+              }
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 260000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "109",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Filosofia de Resistência",
+                "en-us": "Philosophies of Resistance",
+                "ja-jp": "抗争の哲学",
+                "zh-cn": "抗争的哲学",
+                "ko-kr": "투쟁의 철학",
+                "ru-ru": "Философия о Борьбе",
+                "de-de": "Philosophie des Widerstands",
+                "fr-fr": "Philosophie de la Résistance",
+                "es-es": "Filosofía de la resistencia",
+                "id-id": "Philosophies of Resistance",
+                "th-th": "Philosophies of Resistance",
+                "vi-vn": "Triết Học Của Kháng Chiến",
+                "zh-tw": "抗爭的哲學"
+              }
+            },
+            {
+              "id": "760",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Insígnia de Corvo Dourado",
+                "en-us": "Golden Raven Insignia",
+                "ja-jp": "ゴールドの鴉マーク",
+                "zh-cn": "攫金鸦印",
+                "ko-kr": "골드 까마귀 휘장",
+                "ru-ru": "Печать золотого ворона",
+                "de-de": "Krähenwappen der Goldschätze",
+                "fr-fr": "Insigne de corbeau en or",
+                "es-es": "Insignia de cuervo dorada",
+                "id-id": "Golden Raven Insignia",
+                "th-th": "Golden Raven Insignia",
+                "vi-vn": "Ấn Quạ Trộm Vàng",
+                "zh-tw": "攫金鴉印"
+              }
+            },
+            {
+              "id": "238",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Plumas do Vento Oriental",
+                "en-us": "Dvalin's Plume",
+                "ja-jp": "東風の羽根",
+                "zh-cn": "东风之翎",
+                "ko-kr": "동풍의 깃털",
+                "ru-ru": "Перо из хвоста Двалина",
+                "de-de": "Schwanzfeder des Ostwinds",
+                "fr-fr": "Plume de Stormterror",
+                "es-es": "Pluma de Stormterror",
+                "id-id": "Dvalin's Plume",
+                "th-th": "Stormterror Tail Feather",
+                "vi-vn": "Lông Vũ Đông Phong",
+                "zh-tw": "東風之翎"
+              }
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 450000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "109",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Filosofia de Resistência",
+                "en-us": "Philosophies of Resistance",
+                "ja-jp": "抗争の哲学",
+                "zh-cn": "抗争的哲学",
+                "ko-kr": "투쟁의 철학",
+                "ru-ru": "Философия о Борьбе",
+                "de-de": "Philosophie des Widerstands",
+                "fr-fr": "Philosophie de la Résistance",
+                "es-es": "Filosofía de la resistencia",
+                "id-id": "Philosophies of Resistance",
+                "th-th": "Philosophies of Resistance",
+                "vi-vn": "Triết Học Của Kháng Chiến",
+                "zh-tw": "抗爭的哲學"
+              }
+            },
+            {
+              "id": "760",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Insígnia de Corvo Dourado",
+                "en-us": "Golden Raven Insignia",
+                "ja-jp": "ゴールドの鴉マーク",
+                "zh-cn": "攫金鸦印",
+                "ko-kr": "골드 까마귀 휘장",
+                "ru-ru": "Печать золотого ворона",
+                "de-de": "Krähenwappen der Goldschätze",
+                "fr-fr": "Insigne de corbeau en or",
+                "es-es": "Insignia de cuervo dorada",
+                "id-id": "Golden Raven Insignia",
+                "th-th": "Golden Raven Insignia",
+                "vi-vn": "Ấn Quạ Trộm Vàng",
+                "zh-tw": "攫金鴉印"
+              }
+            },
+            {
+              "id": "238",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Plumas do Vento Oriental",
+                "en-us": "Dvalin's Plume",
+                "ja-jp": "東風の羽根",
+                "zh-cn": "东风之翎",
+                "ko-kr": "동풍의 깃털",
+                "ru-ru": "Перо из хвоста Двалина",
+                "de-de": "Schwanzfeder des Ostwinds",
+                "fr-fr": "Plume de Stormterror",
+                "es-es": "Pluma de Stormterror",
+                "id-id": "Dvalin's Plume",
+                "th-th": "Stormterror Tail Feather",
+                "vi-vn": "Lông Vũ Đông Phong",
+                "zh-tw": "東風之翎"
+              }
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 700000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "109",
+              "iconUrl": null,
+              "amount": 16,
+              "name": {
+                "pt-pt": "Filosofia de Resistência",
+                "en-us": "Philosophies of Resistance",
+                "ja-jp": "抗争の哲学",
+                "zh-cn": "抗争的哲学",
+                "ko-kr": "투쟁의 철학",
+                "ru-ru": "Философия о Борьбе",
+                "de-de": "Philosophie des Widerstands",
+                "fr-fr": "Philosophie de la Résistance",
+                "es-es": "Filosofía de la resistencia",
+                "id-id": "Philosophies of Resistance",
+                "th-th": "Philosophies of Resistance",
+                "vi-vn": "Triết Học Của Kháng Chiến",
+                "zh-tw": "抗爭的哲學"
+              }
+            },
+            {
+              "id": "760",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Insígnia de Corvo Dourado",
+                "en-us": "Golden Raven Insignia",
+                "ja-jp": "ゴールドの鴉マーク",
+                "zh-cn": "攫金鸦印",
+                "ko-kr": "골드 까마귀 휘장",
+                "ru-ru": "Печать золотого ворона",
+                "de-de": "Krähenwappen der Goldschätze",
+                "fr-fr": "Insigne de corbeau en or",
+                "es-es": "Insignia de cuervo dorada",
+                "id-id": "Golden Raven Insignia",
+                "th-th": "Golden Raven Insignia",
+                "vi-vn": "Ấn Quạ Trộm Vàng",
+                "zh-tw": "攫金鴉印"
+              }
+            },
+            {
+              "id": "238",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Plumas do Vento Oriental",
+                "en-us": "Dvalin's Plume",
+                "ja-jp": "東風の羽根",
+                "zh-cn": "东风之翎",
+                "ko-kr": "동풍의 깃털",
+                "ru-ru": "Перо из хвоста Двалина",
+                "de-de": "Schwanzfeder des Ostwinds",
+                "fr-fr": "Plume de Stormterror",
+                "es-es": "Pluma de Stormterror",
+                "id-id": "Dvalin's Plume",
+                "th-th": "Stormterror Tail Feather",
+                "vi-vn": "Lông Vũ Đông Phong",
+                "zh-tw": "東風之翎"
+              }
+            },
+            {
+              "id": "900",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa da Sabedoria",
+                "en-us": "Crown of Insight",
+                "ja-jp": "知恵の冠",
+                "zh-cn": "智识之冕",
+                "ko-kr": "지식의 왕관",
+                "ru-ru": "Корона прозрения",
+                "de-de": "Krone der Weisheit",
+                "fr-fr": "Couronne de la sagesse",
+                "es-es": "Corona de la sabiduría",
+                "id-id": "Crown of Insight",
+                "th-th": "Crown of Insight",
+                "vi-vn": "Vương Miện Trí Thức",
+                "zh-tw": "智識之冕"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "affiliation": {
+    "pt-pt": "Guilda de Aventureiros",
+    "en-us": "Adventurers' Guild",
+    "ja-jp": "冒険者協会",
+    "zh-cn": "冒险家协会",
+    "ko-kr": "모험가 길드",
+    "ru-ru": "Искатели приключений",
+    "de-de": "Abenteurergilde",
+    "fr-fr": "Guilde des aventuriers",
+    "es-es": "Gremio de Aventureros",
+    "id-id": "Adventurers' Guild",
+    "th-th": "กิลด์นักผจญภัย",
+    "vi-vn": "Hiệp Hội Nhà Mạo Hiểm",
+    "zh-tw": "冒險家協會"
+  },
+  "birthday": {
+    "pt-pt": "29/2",
+    "en-us": "2/29",
+    "ja-jp": "2月29日",
+    "zh-cn": "2月29日",
+    "ko-kr": "2월 29일",
+    "ru-ru": "29 февраля",
+    "de-de": "29. Februar",
+    "fr-fr": "29/2",
+    "es-es": "29/2",
+    "id-id": "29 Februari",
+    "th-th": "29/2",
+    "vi-vn": "Ngày 29 tháng 2",
+    "zh-tw": "2月29日"
+  },
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1100",
+          "iconUrl": null,
+          "amount": 1,
+          "name": {
+            "pt-pt": "Lasca de Ágata Agnidus",
+            "en-us": "Agnidus Agate Sliver",
+            "ja-jp": "炎願のアゲート・砕屑",
+            "zh-cn": "燃愿玛瑙碎屑",
+            "ko-kr": "불타오르는 마노 가루",
+            "ru-ru": "Осколок агата Агнидус",
+            "de-de": "Agnidus-Achat-Splitter",
+            "fr-fr": "Éclat d'agate agnidus",
+            "es-es": "Pedacito de ágata agnidus",
+            "id-id": "Agnidus Agate Sliver",
+            "th-th": "Agnidus Agate Sliver",
+            "vi-vn": "Vụn Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙碎屑"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "629",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Insígnia dos Ladrões de Tesouro",
+            "en-us": "Treasure Hoarder Insignia",
+            "ja-jp": "宝探しの鴉マーク",
+            "zh-cn": "寻宝鸦印",
+            "ko-kr": "보물찾기 까마귀 휘장",
+            "ru-ru": "Печать Похитителей сокровищ",
+            "de-de": "Krähenwappen der Schatzsuche",
+            "fr-fr": "Insigne des Pilleurs",
+            "es-es": "Insignia de cuervo de bronce",
+            "id-id": "Treasure Hoarder Insignia",
+            "th-th": "Treasure Hoarders Insignia",
+            "vi-vn": "Ấn Quạ Tầm Bảo",
+            "zh-tw": "尋寶鴉印"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 40000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1099",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Ágata Agnidus",
+            "en-us": "Agnidus Agate Fragment",
+            "ja-jp": "炎願のアゲート・欠片",
+            "zh-cn": "燃愿玛瑙断片",
+            "ko-kr": "불타오르는 마노 조각",
+            "ru-ru": "Фрагмент агата Агнидус",
+            "de-de": "Agnidus-Achat-Bruchstück",
+            "fr-fr": "Fragment d'agate agnidus",
+            "es-es": "Fragmento de ágata agnidus",
+            "id-id": "Agnidus Agate Fragment",
+            "th-th": "Agnidus Agate Fragment",
+            "vi-vn": "Mảnh Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙斷片"
+          }
+        },
+        {
+          "id": "689",
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Semente de Fogo Eterno",
+            "en-us": "Everflame Seed",
+            "ja-jp": "常燃の火種",
+            "zh-cn": "常燃火种",
+            "ko-kr": "꺼지지 않는 불씨",
+            "ru-ru": "Пылающее семя",
+            "de-de": "Fluxfeuersamen",
+            "fr-fr": "Graine de feu",
+            "es-es": "Semilla de fuego eterno",
+            "id-id": "Everflame Seed",
+            "th-th": "Everflame Seed",
+            "vi-vn": "Ngọn Lửa Vĩnh Hằng",
+            "zh-tw": "常燃火種"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 10,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "629",
+          "iconUrl": null,
+          "amount": 15,
+          "name": {
+            "pt-pt": "Insígnia dos Ladrões de Tesouro",
+            "en-us": "Treasure Hoarder Insignia",
+            "ja-jp": "宝探しの鴉マーク",
+            "zh-cn": "寻宝鸦印",
+            "ko-kr": "보물찾기 까마귀 휘장",
+            "ru-ru": "Печать Похитителей сокровищ",
+            "de-de": "Krähenwappen der Schatzsuche",
+            "fr-fr": "Insigne des Pilleurs",
+            "es-es": "Insignia de cuervo de bronce",
+            "id-id": "Treasure Hoarder Insignia",
+            "th-th": "Treasure Hoarders Insignia",
+            "vi-vn": "Ấn Quạ Tầm Bảo",
+            "zh-tw": "尋寶鴉印"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 60000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1099",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Ágata Agnidus",
+            "en-us": "Agnidus Agate Fragment",
+            "ja-jp": "炎願のアゲート・欠片",
+            "zh-cn": "燃愿玛瑙断片",
+            "ko-kr": "불타오르는 마노 조각",
+            "ru-ru": "Фрагмент агата Агнидус",
+            "de-de": "Agnidus-Achat-Bruchstück",
+            "fr-fr": "Fragment d'agate agnidus",
+            "es-es": "Fragmento de ágata agnidus",
+            "id-id": "Agnidus Agate Fragment",
+            "th-th": "Agnidus Agate Fragment",
+            "vi-vn": "Mảnh Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙斷片"
+          }
+        },
+        {
+          "id": "689",
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Semente de Fogo Eterno",
+            "en-us": "Everflame Seed",
+            "ja-jp": "常燃の火種",
+            "zh-cn": "常燃火种",
+            "ko-kr": "꺼지지 않는 불씨",
+            "ru-ru": "Пылающее семя",
+            "de-de": "Fluxfeuersamen",
+            "fr-fr": "Graine de feu",
+            "es-es": "Semilla de fuego eterno",
+            "id-id": "Everflame Seed",
+            "th-th": "Everflame Seed",
+            "vi-vn": "Ngọn Lửa Vĩnh Hằng",
+            "zh-tw": "常燃火種"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "1553",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Insígnia do Corvo Prateado",
+            "en-us": "Silver Raven Insignia",
+            "ja-jp": "シルバーの鴉マーク",
+            "zh-cn": "藏银鸦印",
+            "ko-kr": "실버 까마귀 휘장",
+            "ru-ru": "Печать серебряного ворона",
+            "de-de": "Krähenwappen der Silberschätze",
+            "fr-fr": "Insigne de corbeau en argent",
+            "es-es": "Insignia de cuervo plateada",
+            "id-id": "Silver Raven Insignia",
+            "th-th": "Silver Raven Insignia",
+            "vi-vn": "Ấn Quạ Bạc Ẩn",
+            "zh-tw": "藏銀鴉印"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 80000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1098",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Ágata Agnidus",
+            "en-us": "Agnidus Agate Chunk",
+            "ja-jp": "炎願のアゲート・塊",
+            "zh-cn": "燃愿玛瑙块",
+            "ko-kr": "불타오르는 마노 덩이",
+            "ru-ru": "Кусок агата Агнидус",
+            "de-de": "Agnidus-Achat-Brocken",
+            "fr-fr": "Morceau d'agate agnidus",
+            "es-es": "Trozo de ágata agnidus",
+            "id-id": "Agnidus Agate Chunk",
+            "th-th": "Agnidus Agate Chunk",
+            "vi-vn": "Miếng Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙塊"
+          }
+        },
+        {
+          "id": "689",
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Semente de Fogo Eterno",
+            "en-us": "Everflame Seed",
+            "ja-jp": "常燃の火種",
+            "zh-cn": "常燃火种",
+            "ko-kr": "꺼지지 않는 불씨",
+            "ru-ru": "Пылающее семя",
+            "de-de": "Fluxfeuersamen",
+            "fr-fr": "Graine de feu",
+            "es-es": "Semilla de fuego eterno",
+            "id-id": "Everflame Seed",
+            "th-th": "Everflame Seed",
+            "vi-vn": "Ngọn Lửa Vĩnh Hằng",
+            "zh-tw": "常燃火種"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 30,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "1553",
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Insígnia do Corvo Prateado",
+            "en-us": "Silver Raven Insignia",
+            "ja-jp": "シルバーの鴉マーク",
+            "zh-cn": "藏银鸦印",
+            "ko-kr": "실버 까마귀 휘장",
+            "ru-ru": "Печать серебряного ворона",
+            "de-de": "Krähenwappen der Silberschätze",
+            "fr-fr": "Insigne de corbeau en argent",
+            "es-es": "Insignia de cuervo plateada",
+            "id-id": "Silver Raven Insignia",
+            "th-th": "Silver Raven Insignia",
+            "vi-vn": "Ấn Quạ Bạc Ẩn",
+            "zh-tw": "藏銀鴉印"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 100000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1098",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Ágata Agnidus",
+            "en-us": "Agnidus Agate Chunk",
+            "ja-jp": "炎願のアゲート・塊",
+            "zh-cn": "燃愿玛瑙块",
+            "ko-kr": "불타오르는 마노 덩이",
+            "ru-ru": "Кусок агата Агнидус",
+            "de-de": "Agnidus-Achat-Brocken",
+            "fr-fr": "Morceau d'agate agnidus",
+            "es-es": "Trozo de ágata agnidus",
+            "id-id": "Agnidus Agate Chunk",
+            "th-th": "Agnidus Agate Chunk",
+            "vi-vn": "Miếng Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙塊"
+          }
+        },
+        {
+          "id": "689",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Semente de Fogo Eterno",
+            "en-us": "Everflame Seed",
+            "ja-jp": "常燃の火種",
+            "zh-cn": "常燃火种",
+            "ko-kr": "꺼지지 않는 불씨",
+            "ru-ru": "Пылающее семя",
+            "de-de": "Fluxfeuersamen",
+            "fr-fr": "Graine de feu",
+            "es-es": "Semilla de fuego eterno",
+            "id-id": "Everflame Seed",
+            "th-th": "Everflame Seed",
+            "vi-vn": "Ngọn Lửa Vĩnh Hằng",
+            "zh-tw": "常燃火種"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 45,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "760",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Insígnia de Corvo Dourado",
+            "en-us": "Golden Raven Insignia",
+            "ja-jp": "ゴールドの鴉マーク",
+            "zh-cn": "攫金鸦印",
+            "ko-kr": "골드 까마귀 휘장",
+            "ru-ru": "Печать золотого ворона",
+            "de-de": "Krähenwappen der Goldschätze",
+            "fr-fr": "Insigne de corbeau en or",
+            "es-es": "Insignia de cuervo dorada",
+            "id-id": "Golden Raven Insignia",
+            "th-th": "Golden Raven Insignia",
+            "vi-vn": "Ấn Quạ Trộm Vàng",
+            "zh-tw": "攫金鴉印"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 120000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1097",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Gema de Ágata Agnidus",
+            "en-us": "Agnidus Agate Gemstone",
+            "ja-jp": "炎願のアゲート",
+            "zh-cn": "燃愿玛瑙",
+            "ko-kr": "불타오르는 마노",
+            "ru-ru": "Драгоценный агат Агнидус",
+            "de-de": "Agnidus-Achat",
+            "fr-fr": "Pierre d'agate agnidus",
+            "es-es": "Ágata agnidus",
+            "id-id": "Agnidus Agate Gemstone",
+            "th-th": "Agnidus Agate Gemstone",
+            "vi-vn": "Mã Não Cháy",
+            "zh-tw": "燃願瑪瑙"
+          }
+        },
+        {
+          "id": "689",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Semente de Fogo Eterno",
+            "en-us": "Everflame Seed",
+            "ja-jp": "常燃の火種",
+            "zh-cn": "常燃火种",
+            "ko-kr": "꺼지지 않는 불씨",
+            "ru-ru": "Пылающее семя",
+            "de-de": "Fluxfeuersamen",
+            "fr-fr": "Graine de feu",
+            "es-es": "Semilla de fuego eterno",
+            "id-id": "Everflame Seed",
+            "th-th": "Everflame Seed",
+            "vi-vn": "Ngọn Lửa Vĩnh Hằng",
+            "zh-tw": "常燃火種"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 60,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "760",
+          "iconUrl": null,
+          "amount": 24,
+          "name": {
+            "pt-pt": "Insígnia de Corvo Dourado",
+            "en-us": "Golden Raven Insignia",
+            "ja-jp": "ゴールドの鴉マーク",
+            "zh-cn": "攫金鸦印",
+            "ko-kr": "골드 까마귀 휘장",
+            "ru-ru": "Печать золотого ворона",
+            "de-de": "Krähenwappen der Goldschätze",
+            "fr-fr": "Insigne de corbeau en or",
+            "es-es": "Insignia de cuervo dorada",
+            "id-id": "Golden Raven Insignia",
+            "th-th": "Golden Raven Insignia",
+            "vi-vn": "Ấn Quạ Trộm Vàng",
+            "zh-tw": "攫金鴉印"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "1039"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "16"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "65"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "2670",
+          "postAscensionValue": "3447"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "41",
+          "postAscensionValue": "53"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "166",
+          "postAscensionValue": "214"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "0%",
+          "postAscensionValue": "0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "5163",
+          "postAscensionValue": "5715"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "80",
+          "postAscensionValue": "88"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "321",
+          "postAscensionValue": "356"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "0%",
+          "postAscensionValue": "6.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "6573",
+          "postAscensionValue": "7309"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "101",
+          "postAscensionValue": "113"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "409",
+          "postAscensionValue": "455"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "6.7%",
+          "postAscensionValue": "13.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "8168",
+          "postAscensionValue": "8719"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "126",
+          "postAscensionValue": "134"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "508",
+          "postAscensionValue": "542"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "13.3%",
+          "postAscensionValue": "13.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "9577",
+          "postAscensionValue": "10129"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "148",
+          "postAscensionValue": "156"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "596",
+          "postAscensionValue": "630"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "13.3%",
+          "postAscensionValue": "20%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "10987",
+          "postAscensionValue": "11539"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "169",
+          "postAscensionValue": "178"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "684",
+          "postAscensionValue": "718"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "20%",
+          "postAscensionValue": "26.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "12397",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "191",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "771",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "26.7%",
+          "postAscensionValue": ""
+        }
+      ]
+    }
+  ]
+}

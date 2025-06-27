@@ -1,0 +1,3470 @@
+{
+  "id": "albedo",
+  "wiki_id": "47",
+  "name": {
+    "pt-pt": "Albedo",
+    "en-us": "Albedo",
+    "ja-jp": "アルベド",
+    "zh-cn": "阿贝多",
+    "ko-kr": "알베도",
+    "ru-ru": "Альбедо",
+    "de-de": "Albedo",
+    "fr-fr": "Albedo",
+    "es-es": "Albedo",
+    "id-id": "Albedo",
+    "th-th": "Albedo",
+    "vi-vn": "Albedo",
+    "zh-tw": "阿貝多"
+  },
+  "title": {
+    "pt-pt": "Príncipe do Giz",
+    "en-us": "Kreideprinz",
+    "ja-jp": "白亜の申し子",
+    "zh-cn": "白垩之子",
+    "ko-kr": "백악의 아이",
+    "ru-ru": "Принц мела",
+    "de-de": "Kreideprinz",
+    "fr-fr": "Kreideprinz",
+    "es-es": "El Príncipe de la Roca Caliza",
+    "id-id": "Kreideprinz",
+    "th-th": "องค์ชายชอล์กขาว",
+    "vi-vn": "Kreideprinz",
+    "zh-tw": "白堊之子"
+  },
+  "description": {
+    "pt-pt": "Um gênio conhecido como Príncipe do Giz, ele é o Chefe Alquimista e Capitão da Equipe de Investigação dos Cavaleiros de Favonius.",
+    "en-us": "A genius known as the Kreideprinz, he is the Chief Alchemist and Captain of the Investigation Team of the Knights of Favonius.",
+    "ja-jp": "西風騎士団の首席錬金術師兼調査小隊隊長。「白亜の申し子」と呼ばれる天才。",
+    "zh-cn": "西风骑士团首席炼金术士兼调查小队队长，被称做「白垩之子」的天才。",
+    "ko-kr": "페보니우스 기사단 수석 연금술사이자 수사대 대장, 「백악의 아이」라 불리는 천재이다.「알베도 오빠는 똑똑하고 엄청 상냥해! 클레한테 엄청 잘해줘! 클레는 알베도 오빠만 따라다니면 이상한 것들을 많이 볼 수 있어서 엄청 재밌어!」—클레",
+    "ru-ru": "Гений, именуемый Принцем мела. Главный алхимик и глава исследовательской команды Ордо Фавониус.",
+    "de-de": "Der Hauptalchimist des Ordo Favonius und gleichzeitig der Anführer der Ermittlungstruppe. Er ist wahrhaft ein Genie und wird als der „Kreideprinz“ bezeichnet.",
+    "fr-fr": "Génie connu sous le surnom de « Kreideprinz », Albedo est l'alchimiste en chef et le capitaine des enquêteurs de l'Ordre de Favonius.",
+    "es-es": "Alquimista en Jefe de los Caballeros de Favonius y Capitán del equipo de investigación. Lo llaman el “Príncipe de la Roca Caliza”.",
+    "id-id": "Seorang jenius yang dikenal dengan julukan Kreideprinz, dia adalah Kepala Alkemis dan Kapten Tim Investigasi Knights of Favonius.",
+    "th-th": "อัจฉริยะที่ถูกขนานนามว่า &#34;Kreideprinz&#34; (องค์ชายชอล์กขาว) นั้นเป็นหัวหน้านักเล่นแร่แปรธาตุ และหัวหน้าทีมสืบสวนแห่งกองอัศวิน Favonius",
+    "vi-vn": "Người đứng đầu trong các Giả Kim Thuật Sĩ kiêm đội trưởng tiểu đội điều tra của Đội Kỵ Sĩ Tây Phong, được gọi là thiên tài \"Kreideprinz\".",
+    "zh-tw": "西風騎士團首席煉金術士兼調查小隊隊長，被稱做「白堊之子」的天才。"
+  },
+  "rarity": 5,
+  "vision": {
+    "label": {
+      "pt-pt": "Tipo Elemental",
+      "en-us": "Elemental Type",
+      "ja-jp": "元素タイプ",
+      "zh-cn": "元素属性",
+      "ko-kr": "원소 속성",
+      "ru-ru": "Элемент",
+      "de-de": "Elementartyp",
+      "fr-fr": "Élément",
+      "es-es": "Tipo elemental",
+      "id-id": "Tipe Elemen",
+      "th-th": "ประเภทธาตุ",
+      "vi-vn": "Thuộc Tính Nguyên Tố",
+      "zh-tw": "元素屬性"
+    },
+    "value": {
+      "pt-pt": "Geo",
+      "en-us": "Geo",
+      "ja-jp": "岩元素",
+      "zh-cn": "岩元素",
+      "ko-kr": "바위 원소",
+      "ru-ru": "Гео",
+      "de-de": "Geo",
+      "fr-fr": "Géo",
+      "es-es": "Geo",
+      "id-id": "Geo",
+      "th-th": "หิน",
+      "vi-vn": "Nham",
+      "zh-tw": "岩元素"
+    }
+  },
+  "weapon": {
+    "label": {
+      "pt-pt": "Arma",
+      "en-us": "Weapons",
+      "ja-jp": "武器種",
+      "zh-cn": "武器",
+      "ko-kr": "무기",
+      "ru-ru": "Тип",
+      "de-de": "Waffe",
+      "fr-fr": "Type d'arme",
+      "es-es": "Arma",
+      "id-id": "Senjata",
+      "th-th": "อาวุธ",
+      "vi-vn": "Vũ Khí",
+      "zh-tw": "武器"
+    },
+    "value": {
+      "pt-pt": "Espada",
+      "en-us": "Sword",
+      "ja-jp": "片手剣",
+      "zh-cn": "单手剑",
+      "ko-kr": "한손검",
+      "ru-ru": "Одноручное",
+      "de-de": "Einhänder",
+      "fr-fr": "Épée à une main",
+      "es-es": "Espada ligera",
+      "id-id": "Sword",
+      "th-th": "ดาบ",
+      "vi-vn": "Kiếm Đơn",
+      "zh-tw": "單手劍"
+    }
+  },
+  "characterIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/Albedo_icon.png",
+  "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c4cd6e14b87fc262cca36e6d0e9bdb0_1526899214861833594.png",
+  "constellationNameOfficial": {
+    "pt-pt": "Princeps Cretaceous",
+    "en-us": "Princeps Cretaceus",
+    "ja-jp": "白亜の申し子座",
+    "zh-cn": "白垩之子座",
+    "ru-ru": "Меловой Принцепс",
+    "de-de": "Princeps Cretaceus",
+    "fr-fr": "Princeps Cretaceus",
+    "es-es": "Princeps Cretaceus",
+    "id-id": "Princeps Cretaceus",
+    "th-th": "Princeps Cretaceus",
+    "zh-tw": "白堊之子座",
+    "ko-kr": "N/A",
+    "vi-vn": "N/A"
+  },
+  "specialDish": {
+    "id": 118,
+    "name": {
+      "pt-pt": "Sonho da Floresta",
+      "en-us": "Woodland Dream",
+      "ja-jp": "林の夢",
+      "zh-cn": "林之梦",
+      "ko-kr": "숲의 꿈",
+      "ru-ru": "Лесной сон",
+      "de-de": "Waldtraum",
+      "fr-fr": "Songe sylvestre",
+      "es-es": "Sueño silvano",
+      "id-id": "Woodland Dream",
+      "th-th": "Woodland Dream",
+      "vi-vn": "Giấc Mơ Của Rừng",
+      "zh-tw": "林之夢"
+    },
+    "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Woodland%20Dream_icon.png"
+  },
+  "namecard": {
+    "id": 6120,
+    "name": {
+      "pt-pt": "Albedo - Radiação Solar",
+      "en-us": "Albedo: Sun Blossom",
+      "ja-jp": "アルベド・陽華",
+      "zh-cn": "阿贝多·阳花",
+      "ko-kr": "알베도·태양꽃",
+      "ru-ru": "Цветок солнца",
+      "de-de": "Albedo – Sonneneruption",
+      "fr-fr": "Albedo - Radiance solaire",
+      "es-es": "Albedo - Flor solar",
+      "id-id": "Albedo: Sun Blossom",
+      "th-th": "Albedo - ดอกไม้แห่งตะวัน",
+      "vi-vn": "Albedo - Hướng Dương",
+      "zh-tw": "阿貝多·陽花"
+    },
+    "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/15/ba010215ba050cd6fa1dae21762446b9_5684843745519271027.png"
+  },
+  "constellations": [
+    {
+      "id": "summaryList8110",
+      "constellationNumber": 1,
+      "name": {
+        "pt-pt": "Flor de Éden",
+        "en-us": "Flower of Eden",
+        "ja-jp": "エデンの花",
+        "zh-cn": "伊甸之花",
+        "ko-kr": "에덴의 꽃",
+        "ru-ru": "Цветок Эдема",
+        "de-de": "Blume von Eden",
+        "fr-fr": "Fleur d'Éden",
+        "es-es": "Flor del Edén",
+        "id-id": "Flower of Eden",
+        "th-th": "Flower of Eden",
+        "vi-vn": "Hoa Địa Đàng",
+        "zh-tw": "伊甸之花"
+      },
+      "description": {
+        "pt-pt": "Flores Transitórias geradas pela Abiogênese - Radiação Solar de Albedo regeneram 1.2 de Energia para Albedo.",
+        "en-us": "Transient Blossoms generated by Albedo's Abiogenesis: Solar Isotoma regenerate 1.2 Energy for Albedo.",
+        "ja-jp": "アルベドの創生術・擬似陽華の刹那の花が放たれた時、アルベド自身の元素エネルギーが1.2回復する。",
+        "zh-cn": "阿贝多的创生法·拟造阳华生成的刹那之花绽放时，为阿贝多自己回复1.2点元素能量。",
+        "ko-kr": "알베도의 창생법·모조 태양꽃으로 생성된 찰나의 꽃이 피어날 때, 알베도 자신의 원소 에너지가 1.2pt 회복된다",
+        "ru-ru": "Цветки мимолётности, сгенерированные навыком Альбедо Абиогенез: Цветок солнца, восстанавливают 1,2 ед. энергии Альбедо.",
+        "de-de": "Stellt Albedo beim Erblühen der Blüte der Vergänglichkeit von Chemische Evolution – Sonnennachbildung 1,2 Punkte Elementarenergie wieder her.",
+        "fr-fr": "Albedo récupère 1,2 pts d'énergie élémentaire lorsqu'un Germe éphémère généré par Genèse : Aura solaire éclot.",
+        "es-es": "Cuando explota una flor fugaz de Abiogénesis: Isotoma solar creada por Albedo, este recupera 1.2 pts. de Energía Elemental.",
+        "id-id": "Transient Blossom yang muncul dari skill Abiogenesis: Solar Isotoma akan memulihkan 1,2 Energy Albedo.",
+        "th-th": "เมื่อ Transient Blossom ที่เกิดขึ้นจาก Abiogenesis: Solar Isotoma ของ Albedo เบ่งบาน จะฟื้นฟูพลังงานธาตุ 1.2 หน่วย ให้แก่ตัวของ Albedo เอง",
+        "vi-vn": "Khi Hoa Khoảnh Khắc được tạo ra từ Thuật Sáng Thế - Chế Tạo Mặt Trời của Albedo bung nở, sẽ hồi 1,2 điểm Năng Lượng Nguyên Tố cho Albedo.",
+        "zh-tw": "阿貝多的創生法·擬造陽華生成的刹那之花綻放時，為阿貝多自身回復1.2點元素能量。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/阿贝多/constellation_1.png"
+    },
+    {
+      "id": "summaryList61753",
+      "constellationNumber": 2,
+      "name": {
+        "pt-pt": "Éon da Vida",
+        "en-us": "Opening of Phanerozoic",
+        "ja-jp": "顕生の宇宙",
+        "zh-cn": "显生之宙",
+        "ko-kr": "현생의 누대",
+        "ru-ru": "Открытие фанерозоя",
+        "de-de": "Zeit des Lebens",
+        "fr-fr": "Éon de l'avènement",
+        "es-es": "Eón Fanerozoico",
+        "id-id": "Opening of Phanerozoic",
+        "th-th": "Opening of Phanerozoic",
+        "vi-vn": "Liên Đại Hiển Sinh",
+        "zh-tw": "顯生之宙"
+      },
+      "description": {
+        "pt-pt": "Flores Transitórias geradas pela Abiogênese - Radiação Solar concedem ao Albedo Julgamento Fatal por 30s:Desencadeando o Ritual da Progenitura - Maré Tectônica consome todos os acúmulos do Julgamento Fatal. Cada acúmulo do Julgamento Fatal consumido aumenta o Dano causado pelas Flores Fatais e o Dano de Explosão do Ritual da Progenitura: Maré Tectônica em 30% da DEF de Albedo.Este efeito pode ser acumulado até 4x.",
+        "en-us": "Transient Blossoms generated by Abiogenesis: Solar Isotoma grant Albedo Fatal Reckoning for 30s:·Unleashing Rite of Progeniture: Tectonic Tide consumes all stacks of Fatal Reckoning. Each stack of Fatal Reckoning consumed increases the DMG dealt by Fatal Blossoms and Rite of Progeniture: Tectonic Tide's burst DMG by 30% of Albedo's DEF.·This effect stacks up to 4 times.",
+        "ja-jp": "創生術・擬似陽華の刹那の花が放たれた時、アルベドに生滅カウントを付与する。継続時間30秒。・誕生式・大地の潮を発動する時、全ての生滅カウントを取り除く。取り除かれた数によって、誕生式·大地の潮の爆発ダメージと生滅の花のダメージがアップする。・生滅カウント1つにつき、アルベドの防御力30%分のダメージがアップする。生滅カウントは最大4重まで。",
+        "zh-cn": "创生法·拟造阳华的刹那之花绽放时，会为阿贝多赋予生灭计数效果，持续30秒：·施放诞生式·大地之潮时，清除所有生灭计数效果，并根据清除的层数，提高诞生式·大地之潮的爆发伤害与生灭之花造成的伤害；·每层生灭计数，会提高等同于阿贝多防御力的30%的伤害；·该效果至多叠加4次。",
+        "ko-kr": "창생법·모조 태양꽃의 찰나의 꽃이 피어날 때 알베도에게 생멸 카운트 효과를 부여한다. 지속 시간: 30초·탄생식·대지의 파동을 발동하면 모든 생멸 카운트 효과를 지우고, 지운 스택이 많을수록 탄생식·대지의 파동의 버스트 피해와 생멸의 꽃으로 가하는 피해가 증가한다.·생멸 카운트가 1스택 쌓일 때마다 피해가 알베도 방어력의 30%만큼 증가한다.·최대 중첩수: 4회",
+        "ru-ru": "Цветки мимолётности, сгенерированные навыком Абиогенез: Цветок солнца, на 30 сек. наделяют Альбедо Роковым расчётом:· Активация навыка Ритуал рождения: Тектоническая волна снимает эффект Рокового расчёта и, в зависимости от снятых уровней эффекта, увеличивает урон от взрыва навыка Ритуал рождения: Тектоническая волна и урон Цветков неизбежности.· Каждый уровень Рокового расчёта увеличивает урон на 30% от защиты Альбедо.· Этот эффект может складываться до 4 раз.",
+        "de-de": "Verleiht Albedo beim Erblühen der Blüte der Vergänglichkeit von Chemische Evolution – Sonnennachbildung 30 s lang den Effekt Tödliche Abrechnung:· Beendet den Effekt von Tödliche Abrechnung bei Anwendung von Fortpflanzung – Tektonische Welle und erhöht den Explosionsschaden von Fortpflanzung – Tektonische Welle sowie den von Blüten der Sterblichkeit gemäß den Stapelungen des beendeten Effekts.· Erhöht den Schaden in Höhe von 30 % von Albedos VTD pro Stapelung von Tödliche Abrechnung.· 4-fach stapelbar.",
+        "fr-fr": "Genèse : Aura solaire confère pendant 30 s l'effet Jugement fatal à Albedo lorsque des Germes éphémères sont générés :· Tous les cumuls de Jugement dernier sont consommés lors du lancement de Transformation : Reflux Géo, conférant aux Germes fatals et aux DGT d'explosion de cette aptitude un bonus de DGT proportionnel au nombre de cumuls.· Chaque cumul de Jugement dernier confère un bonus de DGT équivalant à 30 % de la DÉF d'Albedo.· Cet effet peut être cumulé 4 fois maximum.",
+        "es-es": "Al explotar, las flores fugaces de Abiogénesis: Isotoma solar otorgan a Albedo aritmética fatídica durante 30 s:·Al utilizar Creación: Marea tectónica, se consumen todas las acumulaciones de aritmética fatídica y el daño infligido por las explosiones de Creación: Marea tectónica y de las flores de la muerte aumenta en una cantidad equivalente al 30% de la DEF de Albedo por cada acumulación.·Este efecto puede acumularse un máximo de 4 veces.",
+        "id-id": "Transient Blossom yang dihasilkan oleh Abiogenesis: Solar Isotoma memberikan Albedo Fatal Reckoning selama 30 detik:·Melancarkan skill Rite of Progeniture: Tectonic Tide akan mengonsumsi seluruh lapisan Fatal Reckoning, meningkatkan DMG yang diakibatkan oleh Tectonic Tide dan Fatal Blossom berdasarkan jumlah lapisan yang dikonsumsi.·Setiap lapis Fatal Reckoning akan meningkatkan DMG sebesar 30% DEF Albedo.Efek ini dapat ditumpuk hingga 4 kali.",
+        "th-th": "เมื่อ Transient Blossom ที่เกิดจาก Abiogenesis: Solar Isotoma เบ่งบาน จะมอบเอฟเฟกต์ Fatal Reckoning ให้แก่ Albedo เป็นเวลา 30 วินาที:·เมื่อปล่อย Rite of Progeniture: Tectonic Tide จะเป็นการล้างเอฟเฟกต์ทั้งหมดของ Fatal Reckoning และเพิ่มความเสียหายของ Rite of Progeniture: Tectonic Tide และ Fatal Blossom ตามจำนวนชั้นของเอฟเฟกต์ที่ถูกล้าง;·Fatal Reckoning แต่ละชั้นที่ถูกใช้ จะเพิ่มความเสียหายเท่ากับ 30% ของพลังป้องกันของ Albedo ให้กับ Rite of Progeniture: Tectonic Tide และ Fatal Blossom;·เอฟเฟกต์ดังกล่าวสามารถซ้อนทับได้มากสุด 4 ครั้ง",
+        "vi-vn": "Khi Hoa Khoảnh Khắc từ Thuật Sáng Thế - Chế Tạo Mặt Trời nở, sẽ ban hiệu quả Sinh Tử cho Albedo, kéo dài 30s:·Khi thi triển Chiêu Giáng Sinh - Sóng Vỗ Đại Lục sẽ xóa tất cả hiệu quả Sinh Tử và tăng sát thương nổ của Chiêu Giáng Sinh - Sóng Vỗ Đại Lục cũng như sát thương do Hoa Sinh Tử gây ra theo số tầng bị xóa.·Mỗi tầng Sinh Tử sẽ tăng sát thương bằng 30% phòng ngự của Albedo.·Hiệu quả này tối đa cộng dồn 4 lần.",
+        "zh-tw": "創生法·擬造陽華的刹那之花綻放時，會為阿貝多賦予生滅計數效果，持續30秒。·施放誕生式·大地之潮時，清除所有生滅計數效果，並根據清除的層數提高誕生式·大地之潮的爆發傷害與生滅之花的傷害。·每層生滅計數提高等同於阿貝多防禦力30%的傷害。·該效果至多疊加四層。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/阿贝多/constellation_2.png"
+    },
+    {
+      "id": "summaryList35400",
+      "constellationNumber": 3,
+      "name": {
+        "pt-pt": "Esplendor Solar",
+        "en-us": "Grace of Helios",
+        "ja-jp": "太陽の華",
+        "zh-cn": "太阳之华",
+        "ko-kr": "태양의 꽃",
+        "ru-ru": "Милость Гелиоса",
+        "de-de": "Sonnenkranz",
+        "fr-fr": "Fleur solaire",
+        "es-es": "Gracia de Helios",
+        "id-id": "Grace of Helios",
+        "th-th": "Grace of Helios",
+        "vi-vn": "Ánh Sáng Mặt Trời",
+        "zh-tw": "太陽之華"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível da Abiogênese - Radiação Solar em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Abiogenesis: Solar Isotoma by 3.Maximum upgrade level is 15.",
+        "ja-jp": "創生術・擬似陽華のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "创生法·拟造阳华的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "창생법·모조 태양꽃의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Абиогенез: Цветок солнца на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Chemische Evolution – Sonnennachbildung um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Genèse : Aura solaire +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Abiogénesis: Isotoma solar +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Abiogenesis: Solar Isotoma.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Abiogenesis: Solar Isotoma ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Thuật Sáng Thế - Chế Tạo Mặt Trời +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "創生法·擬造陽華的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/阿贝多/constellation_3.png"
+    },
+    {
+      "id": "summaryList76166",
+      "constellationNumber": 4,
+      "name": {
+        "pt-pt": "Queda Divina",
+        "en-us": "Descent of Divinity",
+        "ja-jp": "聖なる堕落",
+        "zh-cn": "神性之陨",
+        "ko-kr": "신성의 추락",
+        "ru-ru": "Сошествие духовности",
+        "de-de": "Gefallene Gottheit",
+        "fr-fr": "Chute divine",
+        "es-es": "Caída divina",
+        "id-id": "Descent of Divinity",
+        "th-th": "Descent of Divinity",
+        "vi-vn": "Sự Giáng Thế Của Thần",
+        "zh-tw": "神性之隕"
+      },
+      "description": {
+        "pt-pt": "Membros ativos da equipe que estiverem dentro do campo de Radiação Solar têm seu Dano de Ataque Imersivo aumentado em 30%",
+        "en-us": "Active party members within the Solar Isotoma field have their Plunging Attack DMG increased by 30%.",
+        "ja-jp": "陽華のエリア内にいるキャラクターの落下攻撃ダメージ+30%。",
+        "zh-cn": "处于阳华的领域中的队伍中当前场上角色，造成的下落攻击伤害提高30%。",
+        "ko-kr": "태양꽃 범위 안에 있는 현재 필드 위 캐릭터의 낙하 공격 피해가 30% 증가한다",
+        "ru-ru": "Увеличивает урон атаки в падении активных членов отряда в области Цветка солнца на 30%.",
+        "de-de": "Erhöht den Schaden von Angriffen aus dem Fall von aktuellen Figuren in der Truppe innerhalb des Wirkungsbereichs der Sonnennachbildung um 30 %.",
+        "fr-fr": "Les personnages déployés se trouvant dans la zone de l'Aura solaire infligent 30 % de DGT d'attaque plongeante supplémentaires.",
+        "es-es": "Si los personajes en uso están en el área de la isotoma solar, aumenta en un 30% el daño de sus Ataques Descendentes.",
+        "id-id": "Solar Isotoma meningkatkan 30% DMG Plunging Attack untuk Karakter yang berada di dalam area Solar Isotoma.",
+        "th-th": "ตัวละครในทีมที่เข้าร่วมการต่อสู้ในขณะนั้น และอยู่ในพื้นที่ของ Solar Isotoma จะสร้างความเสียหายจากการโจมตีพุ่งลงจากอากาศเพิ่มขึ้น 30%",
+        "vi-vn": "Nhân vật trong đội trên trận ở khu vực Hoa Mặt Trời sẽ tăng 30% sát thương tấn công khi đáp tạo ra.",
+        "zh-tw": "處於陽華的領域中的隊伍中目前場上角色，造成的下落攻擊傷害提高30%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/阿贝多/constellation_4.png"
+    },
+    {
+      "id": "summaryList25531",
+      "constellationNumber": 5,
+      "name": {
+        "pt-pt": "Maré de Hadeano",
+        "en-us": "Tide of Hadean",
+        "ja-jp": "太古の潮",
+        "zh-cn": "冥古之潮",
+        "ko-kr": "명왕누대의 파동",
+        "ru-ru": "Прилив катархея",
+        "de-de": "Gezeiten der Unterwelt",
+        "fr-fr": "Flux antique",
+        "es-es": "Marea del Hádico",
+        "id-id": "Tide of Hadean",
+        "th-th": "Tide of Hadean",
+        "vi-vn": "Thủy Triều Cổ Đại",
+        "zh-tw": "冥古之潮"
+      },
+      "description": {
+        "pt-pt": "Aumenta o Nível do Ritual da Progenitura - Maré Tectônica em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Rite of Progeniture: Tectonic Tide by 3.Maximum upgrade level is 15.",
+        "ja-jp": "誕生式・大地の潮のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "诞生式·大地之潮的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "탄생식·대지의 파동의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Ритуал рождения: Тектоническая волна на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Fortpflanzung – Tektonische Welle um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Transformation : Reflux Géo +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Creación: Marea tectónica +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Rite of Progeniture: Tectonic Tide.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Rite of Progeniture - Tectonic Tide ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Chiêu Giáng Sinh - Sóng Vỗ Đại Lục +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "誕生式·大地之潮的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/阿贝多/constellation_5.png"
+    },
+    {
+      "id": "summaryList22244",
+      "constellationNumber": 6,
+      "name": {
+        "pt-pt": "Poeira da Purificação",
+        "en-us": "Dust of Purification",
+        "ja-jp": "無垢なる土",
+        "zh-cn": "无垢之土",
+        "ko-kr": "무구의 흙",
+        "ru-ru": "Пыль очищения",
+        "de-de": "Reine Erde",
+        "fr-fr": "Pureté de la terre",
+        "es-es": "Tierra purificadora",
+        "id-id": "Dust of Purification",
+        "th-th": "Dust of Purification",
+        "vi-vn": "Đất Tinh Khiết",
+        "zh-tw": "無垢之土"
+      },
+      "description": {
+        "pt-pt": "Membros ativos da equipe que estiverem dentro do campo de Radiação Solar forem protegidos por um escudo criado pela Cristalização, tem seu Dano aumentado em 17%.",
+        "en-us": "Active party members within the Solar Isotoma field who are protected by a shield created by Crystallize have their DMG increased by 17%.",
+        "ja-jp": "陽華のエリア内にいるフィールド上のキャラクターが、結晶反応で生成されたシールド状態にある時、与えるダメージ+17%。",
+        "zh-cn": "处在阳华的领域中的队伍中当前场上角色，若处于结晶反应产生的护盾庇护下，造成的伤害提高17%。",
+        "ko-kr": "태양꽃 범위 안에 있는 현재 필드 위 캐릭터가 결정 반응으로 생성된 보호막의 보호를 받고 있을 경우 가하는 피해가 17% 증가한다",
+        "ru-ru": "Увеличивает урон активных членов отряда в области Цветка солнца, находящихся под эффектом щита реакции Кристалл, на 17%.",
+        "de-de": "Erhöht den Schaden von aktuellen Figuren in der Truppe im Schutz von durch Kristallisation entstandenen Schilden innerhalb des Wirkungsbereichs der Sonnennachbildung um 17 %.",
+        "fr-fr": "Les personnages déployés se trouvant dans la zone de l'Aura solaire infligent 17 % de DGT supplémentaires lorsqu'ils sont sous la protection d'un bouclier généré par une Cristallisation.",
+        "es-es": "Aumenta en un 17% el daño de los personajes en uso si estos están en el área de la isotoma solar y bajo la protección de un escudo creado mediante Cristalización.",
+        "id-id": "Solar Isotoma akan meningkatkan 17% DMG Karakter aktif yang berada dalam lingkup areanya dan dilindungi oleh perisai yang terbuat dari Crystallize.",
+        "th-th": "เมื่อตัวละครในทีมที่เข้าร่วมการต่อสู้ในขณะนั้น และอยู่ในพื้นที่ของ Solar Isotoma ได้รับการปกป้องโดยโล่ที่เกิดจากปฏิกิริยาตกผลึก ความเสียหายที่สร้างจะเพิ่มขึ้น 17%",
+        "vi-vn": "Nhân vật trong đội trên trận ở khu vực Hoa Mặt Trời, nếu đang được bảo vệ bởi khiên sinh ra từ phản ứng kết tinh, thì sát thương tạo thành sẽ tăng 17%.",
+        "zh-tw": "處在陽華的領域中的隊伍中目前場上角色，若處於結晶反應產生的護盾庇護下，造成的傷害提高17%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/阿贝多/constellation_6.png"
+    }
+  ],
+  "talents": [
+    {
+      "type": "normal_attack",
+      "name": {
+        "pt-pt": "Ataque Normal: Técnica da Espada de Favonius - Branco",
+        "en-us": "Favonius Bladework - Weiss",
+        "ja-jp": "西風剣術・白",
+        "zh-cn": "普通攻击·西风剑术·白",
+        "ko-kr": "일반 공격·페보니우스 검술·백",
+        "ru-ru": "Фехтовальный стиль Фавония: Мел",
+        "de-de": "Standardangriff: Favonius-Schwertkunst – Weiß",
+        "fr-fr": "Attaque normale : Escrime de Favonius - Blanche",
+        "es-es": "Ataque Normal: Técnica de espada Favonius - Albor",
+        "id-id": "Normal Attack: Favonius Bladework - Weiss",
+        "th-th": "โจมตีปกติ: Favonius Bladework - Weiss",
+        "vi-vn": "Tấn Công Thường - Tây Phong Kiếm Thuật - Bạch",
+        "zh-tw": "普通攻擊·西風劍術·白"
+      },
+      "description": {
+        "pt-pt": "Ataque NormalRealiza até 5 golpes rápidos.Ataque CarregadoConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.Ataque ImersivoMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "en-us": "Normal AttackPerform up to 5 rapid strikes.Charged AttackConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.Plunging AttackPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+        "ja-jp": "通常攻撃剣による最大5段の連続攻撃を行う。重撃一定のスタミナを消費し、前方に斬撃を2回放つ。落下攻撃空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "zh-cn": "普通攻击进行至多五段的连续剑击。重击消耗一定体力，瞬间向前方挥出两剑。下落攻击从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+        "ko-kr": "일반 공격검으로 최대 5번 공격한다.강공격일정 스태미나를 소모해 순간적으로 전방을 향해 검을 2번 휘두른다.낙하 공격공중에서 땅을 내려찍어 경로상의 적을 공격하고, 착지 시 범위 피해를 준다",
+        "ru-ru": "Обычная атака:До пяти быстрых ударов мечом.Заряженная атака:Два быстрых взмаха мечом, для которых тратится определённое количество выносливости.Атака в падении:Стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+        "de-de": "StandardangriffFührt bis zu 5 Schwerthiebe hintereinander aus.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und schwingt das Schwert zweimal schnell nach vorn.Angriff aus dem FallSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "fr-fr": "Attaque normaleEnchaîne jusqu'à 5 coups d'épée.Attaque chargéeConsomme de l'endurance pour déclencher deux coups d'épée rapides.Attaque plongeantePlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "es-es": "Ataque NormalRealiza hasta 5 ataques rápidos.Ataque CargadoConsume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.Ataque DescendenteSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+        "id-id": "Normal AttackMelancarkan hingga 5 tebasan pedang berturut-turut.Charged AttackMengonsumsi sejumlah Stamina untuk melancarkan dua tebasan pedang ke depan.Plunging AttackMenerjang dari udara untuk menghantam tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+        "th-th": "โจมตีปกติโจมตีด้วยดาบต่อเนื่องมากสุดห้าครั้งชาร์จโจมตีใช้พลังกายส่วนหนึ่ง เพื่อปลดปล่อยการโจมตีด้วยดาบ ออกไปข้างหน้าสองครั้งอย่างรวดเร็วโจมตีพุ่งลงจากอากาศกระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+        "vi-vn": "Tấn Công ThườngThực hiện tối đa 5 lần đánh kiếm liên tiếp.Trọng KíchTiêu hao thể lực nhất định, đánh ra hai kiếm về phía trước trong chớp mắt.Tấn Công Khi ĐápĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.",
+        "zh-tw": "普通攻擊進行至多五段的連續劍擊。重擊消耗一定體力，瞬間向前方揮出兩劍。下落攻擊從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/阿贝多/battle_talent_0/battle_talent_0.png"
+    },
+    {
+      "type": "elemental_skill",
+      "name": {
+        "pt-pt": "Abiogênese - Radiação Solar",
+        "en-us": "Abiogenesis: Solar Isotoma",
+        "ja-jp": "創生術・擬似陽華",
+        "zh-cn": "创生法·拟造阳华",
+        "ko-kr": "창생법·모조 태양꽃",
+        "ru-ru": "Абиогенез: Цветок солнца",
+        "de-de": "Chemische Evolution – Sonnennachbildung",
+        "fr-fr": "Genèse : Aura solaire",
+        "es-es": "Abiogénesis: Isotoma solar",
+        "id-id": "Abiogenesis: Solar Isotoma",
+        "th-th": "Abiogenesis: Solar Isotoma",
+        "vi-vn": "Thuật Sáng Thế - Chế Tạo Mặt Trời",
+        "zh-tw": "創生法·擬造陽華"
+      },
+      "description": {
+        "pt-pt": "A criação da Radiação Solar causa Dano Geo em uma AdERadiação SolarTem as seguintes propriedades:Quando inimigos dentro da área da Radiação Solar são atingidos, a Radiação Solar gerará Flores Transitórias que causam Dano Geo em uma AdE. Dano causado escala conforme a DEF de Albedo.Flores Transitórias só podem ser gerada uma vez a cada 2s.Quando um personagem está localizado no local da Radiação Solar, a Radiação Solar irá acumular o poder Geo, erguendo-os em um pódio cristalizado. Apenas um pódio cristalizado pode existir por vez.Somente é possível existir uma Radiação Solar por vez feita por Albedo, e é considerada como uma Construção Geo.Manter pressionado para designar a localização da habilidade.Esta espécie de flor Geo tem uma propriedade incomum espelhada na mesma da alquimia. Para levantar-se da terra, elevar-se para o céu e tornar-se o sol.",
+        "en-us": "Albedo creates a Solar Isotoma using alchemy, which deals AoE Geo DMG on appearance.Solar Isotomahas the following properties:· When opponents within the Solar Isotoma field take DMG, the Solar Isotoma will generate Transient Blossoms which deal AoE Geo DMG. DMG dealt scales off Albedo's DEF. · Transient Blossoms can only be generated once every 2s.· When a character is located at the locus of the Solar Isotoma, the Solar Isotoma will accumulate Geo power to form a crystallized platform that lifts the character up to a certain height. Only one crystallized platform can exist at a time.· Solar Isotoma is considered a Geo construct. Only one Solar Isotoma created by Albedo himself can exist at a time. Hold to designate the location of the skill.This Geo bloom has an unusual property mirrored in the aim of alchemy. To rise from the earth, soar into the sky, and become the sun.",
+        "ja-jp": "陽華を錬成し、岩元素範囲ダメージを与える。陽華陽華は以下の特性を持つ。・陽華を中心とするエリア内にいる敵がダメージを受けた時、陽華は刹那の花を生成し、敵に岩元素範囲ダメージを与えるダメージ量はアルベドの防御力によって決まる。・刹那の花は2秒毎に1回のみ生成できる。・キャラクターが陽華の上にいる時、陽華は岩元素の力を凝結し、キャラクターを一定の高さまで持ち上げる晶台を生成する。晶台は同時に最大1つまで存在可能。・アルベドによって創造された陽華は同時に最大1つまで存在可能。また、陽華は岩元素創造物とみなされる。長押しスキルの発動位置を調整できる。この岩の花には奇妙な習性がある。大地から生まれ、天高く登り太陽になることを望む。それは、錬金術の目指す物と一致している。",
+        "zh-cn": "炼成阳华，造成岩元素范围伤害。阳华具有如下特性：·以阳华为中心的领域中的敌人受到伤害时，阳华将会生成刹那之花，绽放造成岩元素范围伤害，伤害基于阿贝多的防御力。·每2秒只能生成一次刹那之花。·角色处在阳华上时，阳华将会凝聚岩元素的力量，形成将角色托起至一定高度的晶台。同时只能存在一个晶台。·同时只能存在一个由阿贝多自己创造的阳华，视为岩元素创造物。长按可以调整技能生效位置。这种岩花有着奇异的特性，和炼金术的目的一致。诞生自大地，却一直希望上升至高天，化作太阳。",
+        "ko-kr": "태양꽃을 생성해 바위 원소 범위 피해를 준다.태양꽃태양꽃은 아래의 특성을 가진다:·태양꽃을 중심으로 한 영역에서 적이 피해를 받으면 태양꽃은 찰나의 꽃을 피워내 바위 원소 범위 피해를 주며, 해당 피해는 알베도 방어력의 영향을 받는다.·찰나의 꽃은 2초마다 1회만 생성된다.·캐릭터가 태양꽃 위에 있으면, 태양꽃은 바위 원소의 힘을 모아 캐릭터를 일정 높이까지 들어 올리는 크리스탈 플랫폼을 만든다. 크리스탈 플랫폼은 동시에 1개만 존재할 수 있다.·알베도가 만들어 낸 동시에 1개만 존재할 수 있는 태양꽃은 바위 원소 창조물로 간주한다.홀드태양꽃이 생성되는 위치를 조정할 수 있다.이러한 바위 꽃은 연금술의 목적과 일치하는 독특한 특징을 가지고 있다. 대지에서 태어났지만, 하늘 높이 올라가서 태양이 되고 싶어 한다",
+        "ru-ru": "С помощью алхимии Альбедо создаёт Цветок солнца, который наносит Гео урон по площади.Цветок солнца имеет следующие свойства:· Когда противники в зоне с центром на Цветке солнца получают урон, Цветок солнца генерирует Цветки мимолётности, наносящие Гео урон по площади. Наносимый урон зависит от защиты Альбедо.· Цветки мимолётности могут генерироваться не чаще чем раз в 2 сек.· Когда персонаж встаёт на Цветок солнца, он испускает энергию Гео, чтобы создать кристаллическую платформу, которая поднимает персонажа на определённую высоту. Одновременно может существовать только одна кристаллическая платформа.· Одновременно может существовать только один созданный самим Альбедо Цветок солнца, и он считается Гео конструкцией.Долгое нажатие позволяет выбрать место эффекта навыка.Необычные свойства этого Гео цветка хорошо отражают цели алхимии. Родиться в земле, стремиться ввысь к небесам и стать солнцем.",
+        "de-de": "Schafft eine nachgebildete Sonne und verursacht Geo-Flächenschaden.SonnennachbildungMerkmale:· Erschafft eine Blüte der Vergänglichkeit, wenn Gegner im Wirkungsbereich der Sonnennachbildung Schaden erleiden, die beim Erblühen Geo-Flächenschaden verursacht. Der Schaden basiert auf Albedos VTD.· 2 s Abklingzeit für Blüte der Vergänglichkeit.· Konzentriert die Geo-Kraft, wenn sich die Figur auf der Sonnennachbildung befindet, und erstellt eine Kristallplattform, die die Figur in die Höhe hebt. Zu einem Zeitpunkt kann es nur eine Kristallplattform geben.· Zu einem Zeitpunkt kann nur eine von Albedo selbst erschaffene Sonnennachbildung existieren. Sie gilt als Geo-Objekt.Gedrückt haltenWirkungsbereich der Fähigkeit kann angepasst werden.Diese steinerne Blume hat ganz besondere Eigenschaften, die dem Zweck der Alchimie entsprechen. Sie entsteht in der Erde und strebt dennoch nach oben, um schließlich im Himmel zu einer Sonne zu werden.",
+        "fr-fr": "Génère une Aura solaire, infligeant des DGT Géo de zone.Aura solaire· Un Germe éphémère est créé lorsque les ennemis se trouvant dans la zone subissent des DGT, infligeant des DGT Géo de zone proportionnels à la DÉF d'Albedo.· Un Germe éphémère peut être généré toutes les 2 s.· Lorsqu'un personnage rejoint le centre de l'Aura solaire, l'énergie Géo présente se concentre pour générer un podium ascendant lui permettant de dominer le champ de bataille. Il ne peut exister qu'un seul podium à la fois.· L'Aura solaire est considérée comme une construction Géo.Appui longAjuste la zone où la compétence sera lancée.Cette étrange dispositif rocheux est semblable à l'art même de l'alchimie : né de la terre et aspirant au ciel.",
+        "es-es": "Crea una isotoma solar que inflige Daño Geo en el AdE.Isotoma solarCaracterísticas:·Cuando los enemigos situados en el centro del área de la isotoma solar reciben daño, esta se convertirá en una flor fugaz, abriéndose e infligiendo Daño Geo en el AdE proporcional a la DEF de Albedo.·Solo puede crearse una flor fugaz cada 2 s.·Cuando un personaje se sitúa sobre la isotoma solar, el poder de Geo se concentrará para formar una plataforma cristalizada de cierta altura sobre la que se podrán mantener los personajes.·Solamente puede existir al mismo tiempo una isotoma solar creada por Albedo, y esta se considera una creación Geo.Mantener pulsadoControla la ubicación sobre la que tiene lugar la habilidad.Esta especie de flor Geo, cuya meta es la misma que la de la alquimia, tiene una naturaleza muy particular. Brota de la tierra con miras a ascender a los cielos, donde se convertirá en un Sol.",
+        "id-id": "Albedo menciptakan Solar Isotoma yang mengakibatkan Geo DMG area.Solar IsotomaMempunyai efek sebagai berikut:·Saat musuh yang berada dalam area Solar Isotoma menerima DMG, Solar Isotoma akan menghasilkan Transient Blossom yang mengakibatkan Geo DMG area. DMG yang diakibatkan akan berdasarkan pada DEF Albedo.·Transient Blossom hanya dapat muncul setiap 2 detik.·Saat Karakter berada di atas Solar Isotoma, Solar Isotoma akan mengakumulasi kekuatan Geo dan mengangkat Karakter ke atas platform kristal. Hanya bisa terdapat satu platform kristal dalam waktu bersamaan.·Hanya bisa terdapat satu Solar Isotoma yang diciptakan Albedo di waktu yang bersamaan. Solar Isotoma dianggap sebagai Geo Construct.TahanUntuk mengatur lokasi skill.Bunga Geo ini mempunyai ciri khas yang mencerminkan tujuan utama ilmu alkimia: Lahir dari bumi dan naik ke langit, untuk menjadi matahari.",
+        "th-th": "ใช้วิชาแปรธาตุสร้าง Solar Isotoma เพื่อทำให้เกิดความเสียหายหินเป็นวงกว้างSolar Isotomaมีคุณสมบัติพิเศษดังต่อไปนี้:·เมื่อศัตรูได้รับความเสียหายภายในพื้นที่ที่มี Solar Isotoma เป็นศูนย์กลาง จากนั้น Solar Isotoma จะสร้าง Transient Blossom ที่จะทำให้เกิดความเสียหายหินวงกว้าง โดยความเสียหายที่สร้าง จะขึ้นอยู่กับพลังป้องกันของ Albedo·ในทุก 2 วินาที จะสามารถทำให้เกิด Transient Blossom ได้เพียงครั้งเดียวเท่านั้น·เมื่อตัวละครอยู่ในพื้นที่ของ Solar Isotoma แล้ว Solar Isotoma จะรวบรวมพลังธาตุหินและทำให้เกิดเป็นแท่นคริสตัลที่ยกตัวละครให้สูงขึ้น โดยจะสามารถมีแท่นคริสตัลพร้อมกันได้เพียงแท่นเดียวเท่านั้น·ในช่วงเวลาเดียวกัน จะสามารถมี Solar Isotoma ที่ถูกสร้างขึ้นโดยตัวของ Albedo เองได้เพียงอันเดียวเท่านั้น และจะถูกมองว่าเป็นวัตถุธาตุหินแตะค้าง/กดค้างสามารถปรับตำแหน่งการเกิดเอฟเฟกต์ของสกิลได้.ดอกไม้หินชนิดนี้มีคุณลักษณะพิเศษที่ไม่ธรรมดา ซึ่งสอดคล้องกับจุดประสงค์ของการเล่นแร่แปรธาตุ ถือกำเนิดขึ้นมาจากพื้นดิน แต่หวังเสมอว่าจะได้ขึ้นไปบนท้องฟ้า และกลายเป็นดวงตะวัน",
+        "vi-vn": "Luyện thành Hoa Mặt Trời, gây sát thương phạm vi Nguyên Tố Nham.Hoa Mặt TrờiCó những đặc tính sau:·Lấy Hoa Mặt Trời làm tâm, khi địch nằm trong khu vực nhận sát thương, Hoa Mặt Trời sẽ sinh ra Hoa Khoảnh Khắc, bung nở gây sát thương phạm vi Nguyên Tố Nham, sát thương tính theo phòng ngự của Albedo.·Mỗi 2 giây chỉ có thể sinh ra 1 Hoa Khoảnh Khắc.·Khi nhân vật đứng trên Hoa Mặt Trời sẽ ngưng tụ sức mạnh Nguyên Tố Nham, hình thành đài thủy tinh nâng nhân vật lên. Cùng lúc chỉ tồn tại 1 đài thủy tinh.·Cùng lúc chỉ có thể tồn tại 1 Hoa Mặt Trời do Albedo tạo ra, Hoa Mặt Trời được coi như vật tạo Nguyên Tố Nham.Nhấn giữCó thể điều chỉnh vị trí hiệu lực của kỹ năng.Loại Nham hoa này có đặc tính kỳ lạ, cũng giống như thuật giả kim, sinh ra từ mặt đất nhưng lại luôn hy vọng vươn cao lên trời, hóa thành vầng thái dương.",
+        "zh-tw": "煉成陽華，造成岩元素範圍傷害。陽華具有如下特性：·以陽華為中心的領域中的敵人受到傷害時，陽華將會生成刹那之花，綻放造成岩元素範圍傷害，傷害基於阿貝多的防禦力。·每2秒只能生成一次刹那之花。·角色處在陽華上時，陽華將會凝聚岩元素的力量，形成將角色托起至一定高度的晶台。同時只能存在一個晶台。·同時只能存在一個由阿貝多自己創造的陽華，視為岩元素創造物。長按可以調整技能生效位置。這種岩花有著奇異的特性，和煉金術的目的一致。誕生自大地，卻一直希望上昇至高天，化作太陽。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/阿贝多/battle_talent_1/battle_talent_1.png"
+    },
+    {
+      "type": "elemental_burst",
+      "name": {
+        "pt-pt": "Ritual da Progenitura - Maré Tectônica",
+        "en-us": "Rite of Progeniture: Tectonic Tide",
+        "ja-jp": "誕生式・大地の潮",
+        "zh-cn": "诞生式·大地之潮",
+        "ko-kr": "탄생식·대지의 파동",
+        "ru-ru": "Ритуал рождения: Тектоническая волна",
+        "de-de": "Fortpflanzung – Tektonische Welle",
+        "fr-fr": "Transformation : Reflux Géo",
+        "es-es": "Creación: Marea tectónica",
+        "id-id": "Rite of Progeniture: Tectonic Tide",
+        "th-th": "Rite of Progeniture: Tectonic Tide",
+        "vi-vn": "Chiêu Giáng Sinh - Sóng Vỗ Đại Lục",
+        "zh-tw": "誕生式·大地之潮"
+      },
+      "description": {
+        "pt-pt": "Sob o comando de Albedo, os cristais Geo surgem e explodem, causando Dano Geo em uma AdE na frente dele.Se houver Radiação Solar no campo criado pelo próprio Albedo, 7 Flores Fatais serão geradas na zona da Radiação Solar, florescendo violentamente e causando Dano Geo em uma AdE.O Dano causado pela explosão e da Flor Fatal não gerará Flores Transitórias.Sob o comando do Príncipe do Giz, a maré tectônica da criação se infiltra na vida.",
+        "en-us": "Under Albedo's command, Geo crystals surge and burst forth, dealing AoE Geo DMG in front of him.If a Solar Isotoma created by Albedo himself is on the field, 7 Fatal Blossoms will be generated in the Solar Isotoma field, bursting violently into bloom and dealing AoE Geo DMG.Tectonic Tide DMG and Fatal Blossom DMG will not generate Transient Blossoms.Under the Kreideprinz's command, the tectonic tide of creation seethes into life.",
+        "ja-jp": "アルベドの指示の下、岩晶が激しく爆発しアルベドの前方に岩元素範囲ダメージを与える。フィールド上にアルベドが創造した陽華が存在している場合、陽華のエリア内に7本の生滅の花を生成し、岩元素範囲ダメージを与える。爆発と生滅の花によるダメージによって刹那の花が作られることはない。白亜色の王子の命令の下、大地の創造物たちは激しく鼓動する。",
+        "zh-cn": "岩晶在阿贝多的指示下涌动爆发，在阿贝多前方造成岩元素范围伤害。场上存在阿贝多自己创造的阳华时，会在阳华的领域内生成7朵生灭之花，猛烈绽放并造成岩元素范围伤害。爆发伤害与生灭之花的伤害不会生成刹那之花。在白垩色王子的命令之下，大地的造物之潮翻涌了起来。",
+        "ko-kr": "바위 수정은 알베도의 지시에 따라 폭발해 알베도 전방에 바위 원소 범위 피해를 준다.필드 위에 알베도가 만든 태양꽃이 존재할 경우, 태양꽃 영역 안에 생멸의 꽃 7송이가 맹렬하게 피어나면서 바위 원소 범위 피해를 준다.버스트 피해와 생멸의 꽃 피해는 찰나의 꽃을 만들어 낼 수 없다.백악색 왕자의 명령에 따라, 대지의 창조물이 용솟음친다",
+        "ru-ru": "Альбедо выпускает перед собой Гео кристаллы, которые взрываются и наносят Гео урон по площади.Если на поле боя существует созданный самим Альбедо Цветок солнца, то в его зоне генерируются 7 Цветков неизбежности, которые мгновенно расцветают и наносят Гео урон по площади.Урон от Тектонической волны и Цветков неизбежности не генерирует Цветки мимолётности.По команде Принца мела тектоническая волна созидания переливается в жизнь.",
+        "de-de": "Geo-Kristalle rasen auf Albedos Befehl nach vorn und verursachen vor Albedo Geo-Flächenschaden.Erschafft, wenn eine Sonnennachbildung von Albedo existiert, 7 Blüten der Sterblichkeit im Wirkungsbereich der Sonnennachbildung, die wild erblühen und Geo-Flächenschaden verursachen.Der vor Albedo entstehende Schaden sowie der Schaden der Blüten der Sterblichkeit führen nicht zur Schaffung von Blüten der Vergänglichkeit.Unter Führung des Kreideprinzen bewegt sich die Erde nach seinem Willen.",
+        "fr-fr": "L'énergie Géo contenue dans le sol explose en émergeant sous les ordres d'Albedo, infligeant des DGT Géo de zone devant lui.Lorsqu'une Aura solaire générée par Albedo est présente sur le champ de bataille, 7 Germes fatals sont générés, qui fleurissent en explosant, infligeant des DGT Géo de zone.Les DGT d'explosion et les DGT des Germes fatals ne génèrent pas de Germes éphémères.Sous les commandes du Kreideprinz, les forces habitant le sol émergent en une marée implacable.",
+        "es-es": "Albedo ordena a sus cristales Geo que exploten, lanzándolos al frente e infligiendo Daño Geo en el AdE.Si en el campo de batalla ya hay una isotoma solar creada por Albedo, creará 7 flores de la muerte dentro del área de la isotoma, provocando una violenta explosión que inflige Daño Geo en el AdE.El daño causado por la explosión y las flores de la muerte no creará una flor fugaz.Bajo las órdenes del Príncipe de la Roca Caliza, el mundo entero puede temblar.",
+        "id-id": "Di bawah perintah Albedo, kristal Geo melonjak dan meledak, mengakibatkan Geo DMG area di hadapan Albedo.Jika Solar Isotoma yang dibuat oleh Albedo sendiri ada di sekitarnya, maka 7 Fatal Blossom akan muncul di area sekitar Solar Isotoma dan menyebabkan ledakan yang mengakibatkan Geo DMG area.DMG Tectonic Tide dan DMG Fatal Blossom tidak akan menghasilkan Transient Blossom.Di bawah perintah Kreideprinz, gelombang tektonik penciptaan akan menghasilkan kehidupan.",
+        "th-th": "คริสตัลหินที่ปะทุขึ้นภายใต้คำสั่งของ Albedo จะทำให้เกิด ความเสียหายหินเป็นวงกว้าง ขึ้นที่ด้านหน้าของ Albedoหากมี Solar Isotoma ที่สร้างขึ้นโดยตัวของ Albedo อยู่ จะสร้าง Fatal Blossoms ขึ้น 7 ดอก ภายในพื้นที่ของ Solar Isotoma โดยจะเบ่งบานขึ้นมาอย่างรุนแรงและทำให้เกิดความเสียหายหินวงกว้างความเสียหายท่าไม้ตายและความเสียหายของ Fatal Blossom จะไม่ทำให้เกิด Transient Blossoms.ด้วยคำสั่งของ Kreideprinz คลื่นแห่งวัตถุของพื้นโลกจะปะทุขึ้นมา",
+        "vi-vn": "Dưới chỉ huy của Albedo, nham tinh bùng nổ, gây sát thương phạm vi Nguyên Tố Nham về phía trước.Khi trong trận có tồn tại Hoa Mặt Trời do Albedo tạo ra, sẽ nở bung 7 đóa Hoa Sinh Tử trong khu vực của Hoa Mặt Trời, nở rộ rực rỡ đồng thời gây sát thương phạm vi Nguyên Tố Nham.Sát thương bạo phát và sát thương của Hoa Sinh Tử sẽ không tạo thành Hoa Khoảnh Khắc.Dưới mệnh lệnh của Kreideprinz, dòng thủy triều của địa chất cuồn cuộn dâng trào.",
+        "zh-tw": "岩晶在阿貝多的命令下湧動爆發，在阿貝多前方造成岩元素範圍傷害。場上存在阿貝多自己創造的陽華時，會在陽華的領域內生成七朵生滅之花，猛烈綻放並造成岩元素範圍傷害。爆發傷害與生滅之花的傷害不會生成刹那之花。在白堊色王子的命令之下，大地的造物之潮翻湧了起來。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/阿贝多/battle_talent_2/battle_talent_2.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Pressão Calcária",
+        "en-us": "Calcite Might",
+        "ja-jp": "白亜色の気迫",
+        "zh-cn": "白垩色的威压",
+        "ko-kr": "백악색의 위압",
+        "ru-ru": "Превосходство кальцита",
+        "de-de": "Kreideweiße Macht",
+        "fr-fr": "Menace calcaire",
+        "es-es": "Fuerza caliza",
+        "id-id": "Calcite Might",
+        "th-th": "Calcite Might",
+        "vi-vn": "Uy Lực Màu Vôi Trắng",
+        "zh-tw": "白堊色的威壓"
+      },
+      "description": {
+        "pt-pt": "Flores transitórias geradas por Abiogênese - Radiação Solar causam mais 25% de Dano aos inimigos cuja Vida esteja abaixo de 50%.",
+        "en-us": "Transient Blossoms generated by Abiogenesis: Solar Isotoma deal 25% more DMG to opponents whose HP is below 50%.",
+        "ja-jp": "創生術·擬似陽華の刹那の花がHP50%未満の敵にダメージを与えた場合、ダメージ量+25%。",
+        "zh-cn": "创生法·拟造阳华的刹那之花对生命值低于50%的敌人造成的伤害提高25%。",
+        "ko-kr": "창생법·모조 태양꽃의 찰나의 꽃이 HP가 50% 미만인 적에게 가하는 피해가 25% 증가한다",
+        "ru-ru": "Увеличивает урон Цветков мимолётности навыка Абиогенез: Цветок солнца по противникам с HP ниже 50% на 25%.",
+        "de-de": "Erhöht den Gegnern mit weniger als 50 % LP mit Blüten der Vergänglichkeit von Chemische Evolution – Sonnennachbildung zugefügten Schaden um 25 %.",
+        "fr-fr": "Les Germes éphémères générés par Genèse : Aura solaire infligent 25 % de DGT supplémentaires aux ennemis dont les PV sont inférieurs à 50 %.",
+        "es-es": "Aumenta en un 25% el daño infligido por la flor fugaz de Abiogénesis: Isotoma solar contra enemigos con menos del 50% de Vida.",
+        "id-id": "Transient Blossom yang muncul karena Abiogenesis: Solar Isotoma mengakibatkan 25% DMG lebih besar kepada musuh dengan HP kurang dari 50%.",
+        "th-th": "Transient Blossom ที่เกิดจาก Abiogenesis: Solar Isotoma จะสร้างความเสียหายแก่ศัตรูที่มีพลังชีวิตต่ำกว่า 50% เพิ่มขึ้น 25%",
+        "vi-vn": "Hoa Khoảnh Khắc sinh ra từ Thuật Sáng Thế - Chế Tạo Mặt Trời sát thương gây cho kẻ địch có HP dưới 50% sẽ tăng 25%.",
+        "zh-tw": "創生法·擬造陽華的刹那之花對生命值低於50%的敵人造成的傷害提高25%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/阿贝多/const_talent_0.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Sabedoria em Uma Garrafa",
+        "en-us": "Homuncular Nature",
+        "ja-jp": "ホムンクルスの天智",
+        "zh-cn": "瓶中人的天慧",
+        "ko-kr": "병 속 인간의 지혜",
+        "ru-ru": "Гомункулярная природа",
+        "de-de": "Weisheit aus der Flasche",
+        "fr-fr": "Sagesse en bouteille",
+        "es-es": "Sabiduría del homúnculo",
+        "id-id": "Homuncular Nature",
+        "th-th": "Homuncular Nature",
+        "vi-vn": "Trí Tuệ Người Trong Bình",
+        "zh-tw": "瓶中人的天慧"
+      },
+      "description": {
+        "pt-pt": "Ritual da Progenitura - Maré Tectônica aumenta a Proficiência Elemental dos membros próximos do grupo em 125 por 10s.",
+        "en-us": "Using Rite of Progeniture: Tectonic Tide increases the Elemental Mastery of nearby party members by 125 for 10s.",
+        "ja-jp": "誕生式・大地の潮を発動した時、周囲のチーム全員の元素熟知を+125、継続時間10秒。",
+        "zh-cn": "施放诞生式·大地之潮时，使附近的队伍中角色的元素精通提高125点，持续10秒。",
+        "ko-kr": "탄생식·대지의 파동 발동 시 주변의 파티 내 캐릭터의 원소 마스터리가 125pt 증가한다. 지속 시간: 10초",
+        "ru-ru": "Активация навыка Ритуал рождения: Тектоническая волна увеличивает мастерство стихий ближайших членов отряда на 125 ед. в течение 10 сек.",
+        "de-de": "Erhöht die Elementarkunde der Truppenmitglieder in der Nähe bei Anwendung von Fortpflanzung – Tektonische Welle 10 s lang um 125 Punkte.",
+        "fr-fr": "L'activation de Transformation : Reflux Géo confère à tous les personnages de l'équipe à proximité un bonus de 125 pts de maîtrise élémentaire pendant 10 s.",
+        "es-es": "Creación: Marea tectónica aumenta en 125 pts. la Maestría Elemental de los personajes del equipo cercanos durante 10 s.",
+        "id-id": "Rite of Progeniture: Tectonic Tide akan meningkatkan 125 Elemental Mastery bagi anggota party di sekitarnya selama 10 detik.",
+        "th-th": "เมื่อใช้ Rite of Progeniture: Tectonic Tide จะเพิ่มความชำนาญธาตุให้แก่ตัวละครในทีมที่อยู่ใกล้ขึ้น 125 หน่วย เป็นเวลา 10 วินาที",
+        "vi-vn": "Khi thi triển Chiêu Giáng Sinh - Sóng Vỗ Đại Lục sẽ tăng 125 điểm Tinh Thông Nguyên Tố cho thành viên trong đội ở gần, kéo dài 10s.",
+        "zh-tw": "施放誕生式·大地之潮時，使附近的隊伍中角色的元素精通提高125點，持續10秒。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/阿贝多/const_talent_1.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Gênio Despertado",
+        "en-us": "Flash of Genius",
+        "ja-jp": "天才の気付き",
+        "zh-cn": "天才的发现",
+        "ko-kr": "천재의 발견",
+        "ru-ru": "Вспышка гениальности",
+        "de-de": "Geburt eines Genies",
+        "fr-fr": "Découverte de génie",
+        "es-es": "Genio de la alquimia",
+        "id-id": "Flash of Genius",
+        "th-th": "Flash of Genius",
+        "vi-vn": "Phát Hiện Của Thiên Tài",
+        "zh-tw": "天才的發現"
+      },
+      "description": {
+        "pt-pt": "Quando Albedo fabrica Materiais de Ascensão de Armas, ele tem 10% de chance de receber o dobro do produto.",
+        "en-us": "When Albedo crafts Weapon Ascension Materials, he has a 10% chance to receive double the product.",
+        "ja-jp": "武器突破素材を合成する時、10%の確率でアイテムを2倍獲得する。",
+        "zh-cn": "合成武器突破素材时，有10%概率获得2倍产出。",
+        "ko-kr": "무기 돌파 소재를 합성 시 10%의 확률로 생산량의 2배를 획득한다",
+        "ru-ru": "При создании материалов возвышения оружия имеет 10% шанс создать дополнительный предмет.",
+        "de-de": "Stellt beim Zusammensetzen von Material zum Aufstieg von Waffen mit einer Wahrscheinlichkeit von 10 % den 2-fachen Ertrag her.",
+        "fr-fr": "10 % de chances d'obtenir le double de produits lors de la synthèse de matériaux d'élévation d'arme.",
+        "es-es": "Al crear materiales de ascensión de arma, hay una probabilidad del 10% de recibir el doble.",
+        "id-id": "Saat membuat Material Ascension Senjata, memiliki 10% kemungkinan untuk mendapatkan hasil 2 kali lipat.",
+        "th-th": "เมื่อสร้างวัสดุเลื่อนขั้นอาวุธ จะมีโอกาส 10% ที่จะได้รับผลผลิตเพิ่มเป็น 2 เท่า",
+        "vi-vn": "Khi ghép nguyên liệu đột phá vũ khí sẽ có 10% tỷ lệ nhận x2 thành phẩm.",
+        "zh-tw": "合成武器突破素材時，有10%機率獲得兩倍產出。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/阿贝多/const_talent_2.png"
+    }
+  ],
+  "talentAttributes": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Técnica da Espada de Favonius - Branco",
+        "en-us": "Favonius Bladework - Weiss",
+        "ja-jp": "西風剣術・白",
+        "zh-cn": "普通攻击·西风剑术·白",
+        "ko-kr": "일반 공격·페보니우스 검술·백",
+        "ru-ru": "Фехтовальный стиль Фавония: Мел",
+        "de-de": "Standardangriff: Favonius-Schwertkunst – Weiß",
+        "fr-fr": "Attaque normale : Escrime de Favonius - Blanche",
+        "es-es": "Ataque Normal: Técnica de espada Favonius - Albor",
+        "id-id": "Normal Attack: Favonius Bladework - Weiss",
+        "th-th": "โจมตีปกติ: Favonius Bladework - Weiss",
+        "vi-vn": "Tấn Công Thường - Tây Phong Kiếm Thuật - Bạch",
+        "zh-tw": "普通攻擊·西風劍術·白"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 1° Golpe",
+            "en-us": "1-Hit DMG",
+            "ja-jp": "1段ダメージ",
+            "zh-cn": "一段伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон атаки 1",
+            "de-de": "SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tahap 1",
+            "th-th": "ความเสียหายขั้น 1",
+            "vi-vn": "Sát Thương Lần 1",
+            "zh-tw": "一段傷害"
+          },
+          "values": [
+            "36.7%",
+            "39.73%",
+            "42.72%",
+            "46.99%",
+            "49.98%",
+            "53.4%",
+            "58.1%",
+            "62.8%",
+            "67.5%",
+            "72.62%",
+            "78.5%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 2° Golpe",
+            "en-us": "2-Hit DMG",
+            "ja-jp": "2段ダメージ",
+            "zh-cn": "二段伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон атаки 2",
+            "de-de": "SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2.º golpe",
+            "id-id": "DMG Tahap 2",
+            "th-th": "ความเสียหายขั้น 2",
+            "vi-vn": "Sát Thương Lần 2",
+            "zh-tw": "二段傷害"
+          },
+          "values": [
+            "36.7%",
+            "39.73%",
+            "42.72%",
+            "46.99%",
+            "49.98%",
+            "53.4%",
+            "58.1%",
+            "62.8%",
+            "67.5%",
+            "72.62%",
+            "78.5%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 3° Golpe",
+            "en-us": "3-Hit DMG",
+            "ja-jp": "3段ダメージ",
+            "zh-cn": "三段伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон атаки 3",
+            "de-de": "SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tahap 3",
+            "th-th": "ความเสียหายขั้น 3",
+            "vi-vn": "Sát Thương Lần 3",
+            "zh-tw": "三段傷害"
+          },
+          "values": [
+            "47.5%",
+            "51.3%",
+            "55.1%",
+            "60.7%",
+            "64.5%",
+            "68.9%",
+            "75%",
+            "81.1%",
+            "87.2%",
+            "93.8%",
+            "101.4%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 4° Golpe",
+            "en-us": "4-Hit DMG",
+            "ja-jp": "4段ダメージ",
+            "zh-cn": "四段伤害",
+            "ko-kr": "4단 공격 피해",
+            "ru-ru": "Урон атаки 4",
+            "de-de": "SCH Phase 4",
+            "fr-fr": "DGT 4e coup",
+            "es-es": "Daño de 4.º golpe",
+            "id-id": "DMG Tahap 4",
+            "th-th": "ความเสียหายขั้น 4",
+            "vi-vn": "Sát Thương Lần 4",
+            "zh-tw": "四段傷害"
+          },
+          "values": [
+            "49.8%",
+            "53.8%",
+            "57.9%",
+            "63.6%",
+            "67.7%",
+            "72.3%",
+            "78.7%",
+            "85%",
+            "91.4%",
+            "98.4%",
+            "106.3%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 5° Golpe",
+            "en-us": "5-Hit DMG",
+            "ja-jp": "5段ダメージ",
+            "zh-cn": "五段伤害",
+            "ko-kr": "5단 공격 피해",
+            "ru-ru": "Урон атаки 5",
+            "de-de": "SCH Phase 5",
+            "fr-fr": "DGT 5e coup",
+            "es-es": "Daño de 5.º golpe",
+            "id-id": "DMG Tahap 5",
+            "th-th": "ความเสียหายขั้น 5",
+            "vi-vn": "Sát Thương Lần 5",
+            "zh-tw": "五段傷害"
+          },
+          "values": [
+            "62.1%",
+            "67.1%",
+            "72.2%",
+            "79.4%",
+            "84.5%",
+            "90.2%",
+            "98.1%",
+            "106.1%",
+            "114%",
+            "122.7%",
+            "132.6%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Ataque Carregado",
+            "en-us": "Charged Attack DMG",
+            "ja-jp": "重撃ダメージ",
+            "zh-cn": "重击伤害",
+            "ko-kr": "강공격 피해",
+            "ru-ru": "Урон заряженной атаки",
+            "de-de": "SCH heftiger Schläge",
+            "fr-fr": "DGT attaque chargée",
+            "es-es": "Daño de ATQ Cargado",
+            "id-id": "DMG Charged Attack",
+            "th-th": "ความเสียหายชาร์จโจมตี",
+            "vi-vn": "Sát Thương Trọng Kích",
+            "zh-tw": "重擊傷害"
+          },
+          "values": [
+            "47.3%+60.2%",
+            "51.1%+65.1%",
+            "55.0%+70.0%",
+            "60.5%+77.0%",
+            "64.4%+81.9%",
+            "68.8%+87.5%",
+            "74.8%+95.2%",
+            "80.9%+102.9%",
+            "86.9%+110.6%",
+            "93.5%+119%",
+            "101.1%+128.6%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Consumo de Stamina de Ataque Carregado",
+            "en-us": "Charged Attack Stamina Cost",
+            "ja-jp": "重撃スタミナ消費",
+            "zh-cn": "重击体力消耗",
+            "ko-kr": "강공격 스태미나 소모",
+            "ru-ru": "Потребление выносливости",
+            "de-de": "Ausdauerverbrauch heftiger Schläge",
+            "fr-fr": "Coût d'endurance attaque chargée",
+            "es-es": "Coste de Aguante de ATQ Cargado",
+            "id-id": "Konsumsi Stamina Charged Attack",
+            "th-th": "ชาร์จโจมตีใช้พลังกาย",
+            "vi-vn": "Thể lực Trọng Kích tiêu hao",
+            "zh-tw": "重擊體力消耗"
+          },
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Durante a Queda",
+            "en-us": "Plunge DMG",
+            "ja-jp": "落下期間のダメージ",
+            "zh-cn": "下坠期间伤害",
+            "ko-kr": "낙하 기간 피해",
+            "ru-ru": "Урон в падении",
+            "de-de": "SCH beim Fallen",
+            "fr-fr": "DGT durant la chute",
+            "es-es": "Daño de Caída",
+            "id-id": "DMG Selama Plunging",
+            "th-th": "ความเสียหายพุ่งลง",
+            "vi-vn": "Sát Thương Khi Đáp",
+            "zh-tw": "下墜期間傷害"
+          },
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.4%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Queda de Baixa/Alta Altitude",
+            "en-us": "Low/High Plunge DMG",
+            "ja-jp": "低空/高空落下攻撃ダメージ",
+            "zh-cn": "低空/高空坠地冲击伤害",
+            "ko-kr": "저공/고공 추락 충격 피해",
+            "ru-ru": "Урон низкого/высокого удара",
+            "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
+            "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Daño de impacto de caída baja/alta",
+            "id-id": "DMG Plunging Attack Min./Maks.",
+            "th-th": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+            "vi-vn": "ST Khi Rơi Từ Độ Cao Thấp/Cao",
+            "zh-tw": "低空/高空墜地衝擊傷害"
+          },
+          "values": [
+            "128%/160%",
+            "138%/183%",
+            "149%/186%",
+            "164%/204%",
+            "174%/217%",
+            "174%/217%",
+            "186%/232%",
+            "219%/273%",
+            "235%/293%",
+            "253%/316%",
+            "271%/338%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_skill",
+      "talentName": {
+        "pt-pt": "Abiogênese - Radiação Solar",
+        "en-us": "Abiogenesis: Solar Isotoma",
+        "ja-jp": "創生術・擬似陽華",
+        "zh-cn": "创生法·拟造阳华",
+        "ko-kr": "창생법·모조 태양꽃",
+        "ru-ru": "Абиогенез: Цветок солнца",
+        "de-de": "Chemische Evolution – Sonnennachbildung",
+        "fr-fr": "Genèse : Aura solaire",
+        "es-es": "Abiogénesis: Isotoma solar",
+        "id-id": "Abiogenesis: Solar Isotoma",
+        "th-th": "Abiogenesis: Solar Isotoma",
+        "vi-vn": "Thuật Sáng Thế - Chế Tạo Mặt Trời",
+        "zh-tw": "創生法·擬造陽華"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Habilidade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "130.4%",
+            "140.18%",
+            "149.96%",
+            "163%",
+            "172.78%",
+            "182.56%",
+            "195.6%",
+            "208.64%",
+            "221.68%",
+            "234.72%",
+            "247.76%",
+            "260.8%",
+            "277.1%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano das Flores Transitórias",
+            "en-us": "Transient Blossom DMG",
+            "ja-jp": "刹那の花ダメージ",
+            "zh-cn": "刹那之花伤害",
+            "ko-kr": "찰나의 꽃 피해",
+            "ru-ru": "Урон Цветка мимолётности",
+            "de-de": "SCH der Blüte der Vergänglichkeit",
+            "fr-fr": "DGT Germe éphémère",
+            "es-es": "Daño de flor fugaz",
+            "id-id": "DMG Transient Blossom",
+            "th-th": "ความเสียหาย Transient Blossom",
+            "vi-vn": "ST Hoa Khoảnh Khắc",
+            "zh-tw": "剎那之花傷害"
+          },
+          "values": [
+            "134% da DEF",
+            "143.62% da DEF",
+            "153.64% da DEF",
+            "167% da DEF",
+            "177.02% da DEF",
+            "187.04% da DEF",
+            "200.4% da DEF",
+            "213.76% da DEF",
+            "227.12% da DEF",
+            "240.48% da DEF",
+            "253.84% da DEF",
+            "267.2% da DEF",
+            "283.9% da DEF"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração",
+            "en-us": "Duration",
+            "ja-jp": "継続時間",
+            "zh-cn": "持续时间",
+            "ko-kr": "지속 시간",
+            "ru-ru": "Длительность",
+            "de-de": "Dauer",
+            "fr-fr": "Durée",
+            "es-es": "Duración",
+            "id-id": "Durasi",
+            "th-th": "ระยะเวลาต่อเนื่อง",
+            "vi-vn": "Thời Gian Kéo Dài",
+            "zh-tw": "持續時間"
+          },
+          "values": [
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga da Habilidade",
+            "en-us": "Skill CD",
+            "ja-jp": "スキルクールタイム",
+            "zh-cn": "技能冷却",
+            "ko-kr": "스킬 재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit der Fähigkeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE de habilidad",
+            "id-id": "Cooldown Skill",
+            "th-th": "คูลดาวน์สกิล",
+            "vi-vn": "CD Kỹ Năng",
+            "zh-tw": "技能冷卻"
+          },
+          "values": [
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_burst",
+      "talentName": {
+        "pt-pt": "Ritual da Progenitura - Maré Tectônica",
+        "en-us": "Rite of Progeniture: Tectonic Tide",
+        "ja-jp": "誕生式・大地の潮",
+        "zh-cn": "诞生式·大地之潮",
+        "ko-kr": "탄생식·대지의 파동",
+        "ru-ru": "Ритуал рождения: Тектоническая волна",
+        "de-de": "Fortpflanzung – Tektonische Welle",
+        "fr-fr": "Transformation : Reflux Géo",
+        "es-es": "Creación: Marea tectónica",
+        "id-id": "Rite of Progeniture: Tectonic Tide",
+        "th-th": "Rite of Progeniture: Tectonic Tide",
+        "vi-vn": "Chiêu Giáng Sinh - Sóng Vỗ Đại Lục",
+        "zh-tw": "誕生式·大地之潮"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do Supremo",
+            "en-us": "Elemental Burst DMG",
+            "ja-jp": "爆発ダメージ",
+            "zh-cn": "爆发伤害",
+            "ko-kr": "버스트 피해",
+            "ru-ru": "Урон от взрыва",
+            "de-de": "Spezialfähigkeits-SCH",
+            "fr-fr": "DGT explosion",
+            "es-es": "Daño de explosión",
+            "id-id": "DMG Elemental Burst",
+            "th-th": "ความเสียหายท่าไม้ตาย",
+            "vi-vn": "ST Bạo Phát",
+            "zh-tw": "爆發傷害"
+          },
+          "values": [
+            "367.2%",
+            "394.74%",
+            "422.28%",
+            "459%",
+            "486.54%",
+            "514.08%",
+            "550.8%",
+            "587.52%",
+            "624.24%",
+            "660.96%",
+            "697.68%",
+            "734.4%",
+            "780.3%",
+            "826.2%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do Florescer Fatal",
+            "en-us": "Fatal Blossom DMG",
+            "ja-jp": "生滅の花ダメージ",
+            "zh-cn": "生灭之花伤害",
+            "ko-kr": "생멸의 꽃 피해",
+            "ru-ru": "Урон Цветка неизбежности",
+            "de-de": "SCH von Blüten der Sterblichkeit",
+            "fr-fr": "DGT Germe fatal",
+            "es-es": "Daño de flor de la muerte",
+            "id-id": "DMG Fatal Blossom",
+            "th-th": "ความเสียหาย Fatal Blossom",
+            "vi-vn": "ST Hoa Sinh Tử",
+            "zh-tw": "生滅之花傷害"
+          },
+          "values": [
+            "72% por flor",
+            "77.4% por flor",
+            "82.8% por flor",
+            "90% por flor",
+            "95.4% por flor",
+            "100.8% por flor",
+            "108% por flor",
+            "115.2% por flor",
+            "122.4% por flor",
+            "129.6% por flor",
+            "136.8% por flor",
+            "144% por flor",
+            "153% por flor",
+            "162% por flor"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Energia Elemental",
+            "en-us": "Energy Cost",
+            "ja-jp": "元素エネルギー",
+            "zh-cn": "元素能量",
+            "ko-kr": "원소 에너지",
+            "ru-ru": "Потребление энергии",
+            "de-de": "Elementarenergie",
+            "fr-fr": "Énergie élémentaire",
+            "es-es": "Energía Elemental",
+            "id-id": "Konsumsi Energy",
+            "th-th": "พลังงานธาตุ",
+            "vi-vn": "Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量"
+          },
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    }
+  ],
+  "talentMaterials": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Técnica da Espada de Favonius - Branco",
+        "en-us": "Favonius Bladework - Weiss",
+        "ja-jp": "西風剣術・白",
+        "zh-cn": "普通攻击·西风剑术·白",
+        "ko-kr": "일반 공격·페보니우스 검술·백",
+        "ru-ru": "Фехтовальный стиль Фавония: Мел",
+        "de-de": "Standardangriff: Favonius-Schwertkunst – Weiß",
+        "fr-fr": "Attaque normale : Escrime de Favonius - Blanche",
+        "es-es": "Ataque Normal: Técnica de espada Favonius - Albor",
+        "id-id": "Normal Attack: Favonius Bladework - Weiss",
+        "th-th": "โจมตีปกติ: Favonius Bladework - Weiss",
+        "vi-vn": "Tấn Công Thường - Tây Phong Kiếm Thuật - Bạch",
+        "zh-tw": "普通攻擊·西風劍術·白"
+      },
+      "materials": [
+        {
+          "level": 2,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 12500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "179",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Ensinamentos de Poemas",
+                "en-us": "Teachings of Ballad",
+                "ja-jp": "詩文の教え",
+                "zh-cn": "诗文的教导",
+                "ko-kr": "시문의 가르침",
+                "ru-ru": "Учения о Поэзии",
+                "de-de": "Lehren der Poesie",
+                "fr-fr": "Enseignement de la Poésie",
+                "es-es": "Enseñanzas de la poesía",
+                "id-id": "Teachings of Ballad",
+                "th-th": "Teachings of Ballad",
+                "vi-vn": "Bài Giảng Của Thơ Văn",
+                "zh-tw": "詩文的教導"
+              }
+            },
+            {
+              "id": "630",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Pergaminho Guia",
+                "en-us": "Divining Scroll",
+                "ja-jp": "占いの絵巻",
+                "zh-cn": "导能绘卷",
+                "ko-kr": "이능 두루마리",
+                "ru-ru": "Свиток божественной магии",
+                "de-de": "Leitende Schriftrolle",
+                "fr-fr": "Parchemin divinatoire",
+                "es-es": "Pergamino guía",
+                "id-id": "Divining Scroll",
+                "th-th": "Divining Scroll",
+                "vi-vn": "Bản Vẽ Hướng Dẫn",
+                "zh-tw": "導能繪卷"
+              }
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 17500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "178",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Guia de Poemas",
+                "en-us": "Guide to Ballad",
+                "ja-jp": "詩文の導き",
+                "zh-cn": "诗文的指引",
+                "ko-kr": "시문의 인도",
+                "ru-ru": "Указания о Поэзии",
+                "de-de": "Anleitung zur Poesie",
+                "fr-fr": "Guide de la Poésie",
+                "es-es": "Guía de la poesía",
+                "id-id": "Guide to Ballad",
+                "th-th": "Guide to Ballad",
+                "vi-vn": "Hướng Dẫn Của Thơ Văn",
+                "zh-tw": "詩文的指引"
+              }
+            },
+            {
+              "id": "634",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Pergaminho do Encantamento",
+                "en-us": "Sealed Scroll",
+                "ja-jp": "封魔の絵巻",
+                "zh-cn": "封魔绘卷",
+                "ko-kr": "봉마의 두루마리",
+                "ru-ru": "Свиток печати",
+                "de-de": "Zaubersiegel-Schriftrolle",
+                "fr-fr": "Parchemin sigillé",
+                "es-es": "Pergamino hechizado",
+                "id-id": "Sealed Scroll",
+                "th-th": "Seal Scroll",
+                "vi-vn": "Bản Vẽ Phong Ấn",
+                "zh-tw": "封魔繪卷"
+              }
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 25000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "178",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Guia de Poemas",
+                "en-us": "Guide to Ballad",
+                "ja-jp": "詩文の導き",
+                "zh-cn": "诗文的指引",
+                "ko-kr": "시문의 인도",
+                "ru-ru": "Указания о Поэзии",
+                "de-de": "Anleitung zur Poesie",
+                "fr-fr": "Guide de la Poésie",
+                "es-es": "Guía de la poesía",
+                "id-id": "Guide to Ballad",
+                "th-th": "Guide to Ballad",
+                "vi-vn": "Hướng Dẫn Của Thơ Văn",
+                "zh-tw": "詩文的指引"
+              }
+            },
+            {
+              "id": "634",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Pergaminho do Encantamento",
+                "en-us": "Sealed Scroll",
+                "ja-jp": "封魔の絵巻",
+                "zh-cn": "封魔绘卷",
+                "ko-kr": "봉마의 두루마리",
+                "ru-ru": "Свиток печати",
+                "de-de": "Zaubersiegel-Schriftrolle",
+                "fr-fr": "Parchemin sigillé",
+                "es-es": "Pergamino hechizado",
+                "id-id": "Sealed Scroll",
+                "th-th": "Seal Scroll",
+                "vi-vn": "Bản Vẽ Phong Ấn",
+                "zh-tw": "封魔繪卷"
+              }
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 30000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "178",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Guia de Poemas",
+                "en-us": "Guide to Ballad",
+                "ja-jp": "詩文の導き",
+                "zh-cn": "诗文的指引",
+                "ko-kr": "시문의 인도",
+                "ru-ru": "Указания о Поэзии",
+                "de-de": "Anleitung zur Poesie",
+                "fr-fr": "Guide de la Poésie",
+                "es-es": "Guía de la poesía",
+                "id-id": "Guide to Ballad",
+                "th-th": "Guide to Ballad",
+                "vi-vn": "Hướng Dẫn Của Thơ Văn",
+                "zh-tw": "詩文的指引"
+              }
+            },
+            {
+              "id": "634",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Pergaminho do Encantamento",
+                "en-us": "Sealed Scroll",
+                "ja-jp": "封魔の絵巻",
+                "zh-cn": "封魔绘卷",
+                "ko-kr": "봉마의 두루마리",
+                "ru-ru": "Свиток печати",
+                "de-de": "Zaubersiegel-Schriftrolle",
+                "fr-fr": "Parchemin sigillé",
+                "es-es": "Pergamino hechizado",
+                "id-id": "Sealed Scroll",
+                "th-th": "Seal Scroll",
+                "vi-vn": "Bản Vẽ Phong Ấn",
+                "zh-tw": "封魔繪卷"
+              }
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 37500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "178",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Guia de Poemas",
+                "en-us": "Guide to Ballad",
+                "ja-jp": "詩文の導き",
+                "zh-cn": "诗文的指引",
+                "ko-kr": "시문의 인도",
+                "ru-ru": "Указания о Поэзии",
+                "de-de": "Anleitung zur Poesie",
+                "fr-fr": "Guide de la Poésie",
+                "es-es": "Guía de la poesía",
+                "id-id": "Guide to Ballad",
+                "th-th": "Guide to Ballad",
+                "vi-vn": "Hướng Dẫn Của Thơ Văn",
+                "zh-tw": "詩文的指引"
+              }
+            },
+            {
+              "id": "634",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Pergaminho do Encantamento",
+                "en-us": "Sealed Scroll",
+                "ja-jp": "封魔の絵巻",
+                "zh-cn": "封魔绘卷",
+                "ko-kr": "봉마의 두루마리",
+                "ru-ru": "Свиток печати",
+                "de-de": "Zaubersiegel-Schriftrolle",
+                "fr-fr": "Parchemin sigillé",
+                "es-es": "Pergamino hechizado",
+                "id-id": "Sealed Scroll",
+                "th-th": "Seal Scroll",
+                "vi-vn": "Bản Vẽ Phong Ấn",
+                "zh-tw": "封魔繪卷"
+              }
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 120000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "177",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Filosofia de Poemas",
+                "en-us": "Philosophies of Ballad",
+                "ja-jp": "詩文の哲学",
+                "zh-cn": "诗文的哲学",
+                "ko-kr": "시문의 철학",
+                "ru-ru": "Философия о Поэзии",
+                "de-de": "Philosophie der Poesie",
+                "fr-fr": "Philosophie de la Poésie",
+                "es-es": "Filosofía de la poesía",
+                "id-id": "Philosophies of Ballad",
+                "th-th": "Philosophies of Ballad",
+                "vi-vn": "Triết Học Của Thơ Văn",
+                "zh-tw": "詩文的哲學"
+              }
+            },
+            {
+              "id": "1282",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Pergaminho da Maldição",
+                "en-us": "Forbidden Curse Scroll",
+                "ja-jp": "禁呪の絵巻",
+                "zh-cn": "禁咒绘卷",
+                "ko-kr": "금주의 두루마리",
+                "ru-ru": "Свиток запретного проклятья",
+                "de-de": "Fluchschriftrolle",
+                "fr-fr": "Parchemin maudit",
+                "es-es": "Pergamino maldito",
+                "id-id": "Forbidden Curse Scroll",
+                "th-th": "Forbidden Curse Scroll",
+                "vi-vn": "Bản Vẽ Cấm Chú",
+                "zh-tw": "禁咒繪卷"
+              }
+            },
+            {
+              "id": "401",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Chifre de Baleia Come-Céu",
+                "en-us": "Tusk of Monoceros Caeli",
+                "ja-jp": "呑天の鯨・只角",
+                "zh-cn": "吞天之鲸·只角",
+                "ko-kr": "하늘을 삼킨 고래·뿔",
+                "ru-ru": "Рог небесного кита",
+                "de-de": "Hauer des Monoceros Caeli",
+                "fr-fr": "Corne de Monoceros Caeli",
+                "es-es": "Cuerno de Monoceros Caeli",
+                "id-id": "Tusk of Monoceros Caeli",
+                "th-th": "Tusk of Monoceros Caeli",
+                "vi-vn": "Thôn Thiên Kình - Sừng",
+                "zh-tw": "吞天之鯨·隻角"
+              }
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 260000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "177",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Filosofia de Poemas",
+                "en-us": "Philosophies of Ballad",
+                "ja-jp": "詩文の哲学",
+                "zh-cn": "诗文的哲学",
+                "ko-kr": "시문의 철학",
+                "ru-ru": "Философия о Поэзии",
+                "de-de": "Philosophie der Poesie",
+                "fr-fr": "Philosophie de la Poésie",
+                "es-es": "Filosofía de la poesía",
+                "id-id": "Philosophies of Ballad",
+                "th-th": "Philosophies of Ballad",
+                "vi-vn": "Triết Học Của Thơ Văn",
+                "zh-tw": "詩文的哲學"
+              }
+            },
+            {
+              "id": "1282",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Pergaminho da Maldição",
+                "en-us": "Forbidden Curse Scroll",
+                "ja-jp": "禁呪の絵巻",
+                "zh-cn": "禁咒绘卷",
+                "ko-kr": "금주의 두루마리",
+                "ru-ru": "Свиток запретного проклятья",
+                "de-de": "Fluchschriftrolle",
+                "fr-fr": "Parchemin maudit",
+                "es-es": "Pergamino maldito",
+                "id-id": "Forbidden Curse Scroll",
+                "th-th": "Forbidden Curse Scroll",
+                "vi-vn": "Bản Vẽ Cấm Chú",
+                "zh-tw": "禁咒繪卷"
+              }
+            },
+            {
+              "id": "401",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Chifre de Baleia Come-Céu",
+                "en-us": "Tusk of Monoceros Caeli",
+                "ja-jp": "呑天の鯨・只角",
+                "zh-cn": "吞天之鲸·只角",
+                "ko-kr": "하늘을 삼킨 고래·뿔",
+                "ru-ru": "Рог небесного кита",
+                "de-de": "Hauer des Monoceros Caeli",
+                "fr-fr": "Corne de Monoceros Caeli",
+                "es-es": "Cuerno de Monoceros Caeli",
+                "id-id": "Tusk of Monoceros Caeli",
+                "th-th": "Tusk of Monoceros Caeli",
+                "vi-vn": "Thôn Thiên Kình - Sừng",
+                "zh-tw": "吞天之鯨·隻角"
+              }
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 450000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "177",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Filosofia de Poemas",
+                "en-us": "Philosophies of Ballad",
+                "ja-jp": "詩文の哲学",
+                "zh-cn": "诗文的哲学",
+                "ko-kr": "시문의 철학",
+                "ru-ru": "Философия о Поэзии",
+                "de-de": "Philosophie der Poesie",
+                "fr-fr": "Philosophie de la Poésie",
+                "es-es": "Filosofía de la poesía",
+                "id-id": "Philosophies of Ballad",
+                "th-th": "Philosophies of Ballad",
+                "vi-vn": "Triết Học Của Thơ Văn",
+                "zh-tw": "詩文的哲學"
+              }
+            },
+            {
+              "id": "1282",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Pergaminho da Maldição",
+                "en-us": "Forbidden Curse Scroll",
+                "ja-jp": "禁呪の絵巻",
+                "zh-cn": "禁咒绘卷",
+                "ko-kr": "금주의 두루마리",
+                "ru-ru": "Свиток запретного проклятья",
+                "de-de": "Fluchschriftrolle",
+                "fr-fr": "Parchemin maudit",
+                "es-es": "Pergamino maldito",
+                "id-id": "Forbidden Curse Scroll",
+                "th-th": "Forbidden Curse Scroll",
+                "vi-vn": "Bản Vẽ Cấm Chú",
+                "zh-tw": "禁咒繪卷"
+              }
+            },
+            {
+              "id": "401",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Chifre de Baleia Come-Céu",
+                "en-us": "Tusk of Monoceros Caeli",
+                "ja-jp": "呑天の鯨・只角",
+                "zh-cn": "吞天之鲸·只角",
+                "ko-kr": "하늘을 삼킨 고래·뿔",
+                "ru-ru": "Рог небесного кита",
+                "de-de": "Hauer des Monoceros Caeli",
+                "fr-fr": "Corne de Monoceros Caeli",
+                "es-es": "Cuerno de Monoceros Caeli",
+                "id-id": "Tusk of Monoceros Caeli",
+                "th-th": "Tusk of Monoceros Caeli",
+                "vi-vn": "Thôn Thiên Kình - Sừng",
+                "zh-tw": "吞天之鯨·隻角"
+              }
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 700000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "177",
+              "iconUrl": null,
+              "amount": 16,
+              "name": {
+                "pt-pt": "Filosofia de Poemas",
+                "en-us": "Philosophies of Ballad",
+                "ja-jp": "詩文の哲学",
+                "zh-cn": "诗文的哲学",
+                "ko-kr": "시문의 철학",
+                "ru-ru": "Философия о Поэзии",
+                "de-de": "Philosophie der Poesie",
+                "fr-fr": "Philosophie de la Poésie",
+                "es-es": "Filosofía de la poesía",
+                "id-id": "Philosophies of Ballad",
+                "th-th": "Philosophies of Ballad",
+                "vi-vn": "Triết Học Của Thơ Văn",
+                "zh-tw": "詩文的哲學"
+              }
+            },
+            {
+              "id": "1282",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Pergaminho da Maldição",
+                "en-us": "Forbidden Curse Scroll",
+                "ja-jp": "禁呪の絵巻",
+                "zh-cn": "禁咒绘卷",
+                "ko-kr": "금주의 두루마리",
+                "ru-ru": "Свиток запретного проклятья",
+                "de-de": "Fluchschriftrolle",
+                "fr-fr": "Parchemin maudit",
+                "es-es": "Pergamino maldito",
+                "id-id": "Forbidden Curse Scroll",
+                "th-th": "Forbidden Curse Scroll",
+                "vi-vn": "Bản Vẽ Cấm Chú",
+                "zh-tw": "禁咒繪卷"
+              }
+            },
+            {
+              "id": "401",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Chifre de Baleia Come-Céu",
+                "en-us": "Tusk of Monoceros Caeli",
+                "ja-jp": "呑天の鯨・只角",
+                "zh-cn": "吞天之鲸·只角",
+                "ko-kr": "하늘을 삼킨 고래·뿔",
+                "ru-ru": "Рог небесного кита",
+                "de-de": "Hauer des Monoceros Caeli",
+                "fr-fr": "Corne de Monoceros Caeli",
+                "es-es": "Cuerno de Monoceros Caeli",
+                "id-id": "Tusk of Monoceros Caeli",
+                "th-th": "Tusk of Monoceros Caeli",
+                "vi-vn": "Thôn Thiên Kình - Sừng",
+                "zh-tw": "吞天之鯨·隻角"
+              }
+            },
+            {
+              "id": "900",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa da Sabedoria",
+                "en-us": "Crown of Insight",
+                "ja-jp": "知恵の冠",
+                "zh-cn": "智识之冕",
+                "ko-kr": "지식의 왕관",
+                "ru-ru": "Корона прозрения",
+                "de-de": "Krone der Weisheit",
+                "fr-fr": "Couronne de la sagesse",
+                "es-es": "Corona de la sabiduría",
+                "id-id": "Crown of Insight",
+                "th-th": "Crown of Insight",
+                "vi-vn": "Vương Miện Trí Thức",
+                "zh-tw": "智識之冕"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "affiliation": {
+    "pt-pt": "Cavaleiros de Favonius",
+    "en-us": "Knights of Favonius",
+    "ja-jp": "西風騎士団",
+    "zh-cn": "西风骑士团",
+    "ko-kr": "페보니우스 기사단",
+    "ru-ru": "Ордо Фавониус",
+    "de-de": "Ordo Favonius",
+    "fr-fr": "Ordre de Favonius",
+    "es-es": "Caballeros de Favonius",
+    "id-id": "Knights of Favonius",
+    "th-th": "กองอัศวินแห่ง Favonius",
+    "vi-vn": "Đội Kỵ Sĩ Tây Phong",
+    "zh-tw": "西風騎士團"
+  },
+  "birthday": {
+    "pt-pt": "13/9",
+    "en-us": "9/13",
+    "ja-jp": "9月13日",
+    "zh-cn": "9月13日",
+    "ko-kr": "9월 13일",
+    "ru-ru": "13 сентября",
+    "de-de": "13. September",
+    "fr-fr": "13/9",
+    "es-es": "13/9",
+    "id-id": "13 September",
+    "th-th": "13/9",
+    "vi-vn": "Ngày 13 tháng 9",
+    "zh-tw": "9月13日"
+  },
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "447",
+          "iconUrl": null,
+          "amount": 1,
+          "name": {
+            "pt-pt": "Lasca de Topázio Prithiva",
+            "en-us": "Prithiva Topaz Sliver",
+            "ja-jp": "堅牢なトパーズ・砕屑",
+            "zh-cn": "坚牢黄玉碎屑",
+            "ko-kr": "단단한 황옥 가루",
+            "ru-ru": "Осколок топаза Притхива",
+            "de-de": "Prithiva-Topas-Splitter",
+            "fr-fr": "Éclat de topaze prithiva",
+            "es-es": "Pedacito de topacio prithiva",
+            "id-id": "Prithiva Topaz Sliver",
+            "th-th": "Prithiva Topaz Silver",
+            "vi-vn": "Vụn Hoàng Ngọc Cứng",
+            "zh-tw": "堅牢黃玉碎屑"
+          }
+        },
+        {
+          "id": "464",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Cecília",
+            "en-us": "Cecilia",
+            "ja-jp": "セシリアの花",
+            "zh-cn": "塞西莉亚花",
+            "ko-kr": "세실리아꽃",
+            "ru-ru": "Сесилия",
+            "de-de": "Cecilia",
+            "fr-fr": "Cécilia",
+            "es-es": "Cecilia",
+            "id-id": "Cecilia",
+            "th-th": "Cecilia",
+            "vi-vn": "Hoa Cecilia",
+            "zh-tw": "塞西莉亞花"
+          }
+        },
+        {
+          "id": "630",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pergaminho Guia",
+            "en-us": "Divining Scroll",
+            "ja-jp": "占いの絵巻",
+            "zh-cn": "导能绘卷",
+            "ko-kr": "이능 두루마리",
+            "ru-ru": "Свиток божественной магии",
+            "de-de": "Leitende Schriftrolle",
+            "fr-fr": "Parchemin divinatoire",
+            "es-es": "Pergamino guía",
+            "id-id": "Divining Scroll",
+            "th-th": "Divining Scroll",
+            "vi-vn": "Bản Vẽ Hướng Dẫn",
+            "zh-tw": "導能繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 40000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "446",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Topázio Prithiva",
+            "en-us": "Prithiva Topaz Fragment",
+            "ja-jp": "堅牢なトパーズ・欠片",
+            "zh-cn": "坚牢黄玉断片",
+            "ko-kr": "단단한 황옥 조각",
+            "ru-ru": "Фрагмент топаза Притхива",
+            "de-de": "Prithiva-Topas-Bruchstück",
+            "fr-fr": "Fragment de topaze prithiva",
+            "es-es": "Fragmento de topacio prithiva",
+            "id-id": "Prithiva Topaz Fragment",
+            "th-th": "Prithiva Topaz Fragment",
+            "vi-vn": "Mảnh Hoàng Ngọc Cứng",
+            "zh-tw": "堅牢黃玉斷片"
+          }
+        },
+        {
+          "id": "1169",
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Torre da Terra",
+            "en-us": "Basalt Pillar",
+            "ja-jp": "玄岩の塔",
+            "zh-cn": "玄岩之塔",
+            "ko-kr": "현암의 탑",
+            "ru-ru": "Базальтовая колонна",
+            "de-de": "Steinturm",
+            "fr-fr": "Pilier de basalte",
+            "es-es": "Pilar de basalto",
+            "id-id": "Basalt Pillar",
+            "th-th": "Basalt Pillar",
+            "vi-vn": "Tháp Huyền Nham",
+            "zh-tw": "玄岩之塔"
+          }
+        },
+        {
+          "id": "464",
+          "iconUrl": null,
+          "amount": 10,
+          "name": {
+            "pt-pt": "Cecília",
+            "en-us": "Cecilia",
+            "ja-jp": "セシリアの花",
+            "zh-cn": "塞西莉亚花",
+            "ko-kr": "세실리아꽃",
+            "ru-ru": "Сесилия",
+            "de-de": "Cecilia",
+            "fr-fr": "Cécilia",
+            "es-es": "Cecilia",
+            "id-id": "Cecilia",
+            "th-th": "Cecilia",
+            "vi-vn": "Hoa Cecilia",
+            "zh-tw": "塞西莉亞花"
+          }
+        },
+        {
+          "id": "630",
+          "iconUrl": null,
+          "amount": 15,
+          "name": {
+            "pt-pt": "Pergaminho Guia",
+            "en-us": "Divining Scroll",
+            "ja-jp": "占いの絵巻",
+            "zh-cn": "导能绘卷",
+            "ko-kr": "이능 두루마리",
+            "ru-ru": "Свиток божественной магии",
+            "de-de": "Leitende Schriftrolle",
+            "fr-fr": "Parchemin divinatoire",
+            "es-es": "Pergamino guía",
+            "id-id": "Divining Scroll",
+            "th-th": "Divining Scroll",
+            "vi-vn": "Bản Vẽ Hướng Dẫn",
+            "zh-tw": "導能繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 60000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "446",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Topázio Prithiva",
+            "en-us": "Prithiva Topaz Fragment",
+            "ja-jp": "堅牢なトパーズ・欠片",
+            "zh-cn": "坚牢黄玉断片",
+            "ko-kr": "단단한 황옥 조각",
+            "ru-ru": "Фрагмент топаза Притхива",
+            "de-de": "Prithiva-Topas-Bruchstück",
+            "fr-fr": "Fragment de topaze prithiva",
+            "es-es": "Fragmento de topacio prithiva",
+            "id-id": "Prithiva Topaz Fragment",
+            "th-th": "Prithiva Topaz Fragment",
+            "vi-vn": "Mảnh Hoàng Ngọc Cứng",
+            "zh-tw": "堅牢黃玉斷片"
+          }
+        },
+        {
+          "id": "1169",
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Torre da Terra",
+            "en-us": "Basalt Pillar",
+            "ja-jp": "玄岩の塔",
+            "zh-cn": "玄岩之塔",
+            "ko-kr": "현암의 탑",
+            "ru-ru": "Базальтовая колонна",
+            "de-de": "Steinturm",
+            "fr-fr": "Pilier de basalte",
+            "es-es": "Pilar de basalto",
+            "id-id": "Basalt Pillar",
+            "th-th": "Basalt Pillar",
+            "vi-vn": "Tháp Huyền Nham",
+            "zh-tw": "玄岩之塔"
+          }
+        },
+        {
+          "id": "464",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Cecília",
+            "en-us": "Cecilia",
+            "ja-jp": "セシリアの花",
+            "zh-cn": "塞西莉亚花",
+            "ko-kr": "세실리아꽃",
+            "ru-ru": "Сесилия",
+            "de-de": "Cecilia",
+            "fr-fr": "Cécilia",
+            "es-es": "Cecilia",
+            "id-id": "Cecilia",
+            "th-th": "Cecilia",
+            "vi-vn": "Hoa Cecilia",
+            "zh-tw": "塞西莉亞花"
+          }
+        },
+        {
+          "id": "634",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Pergaminho do Encantamento",
+            "en-us": "Sealed Scroll",
+            "ja-jp": "封魔の絵巻",
+            "zh-cn": "封魔绘卷",
+            "ko-kr": "봉마의 두루마리",
+            "ru-ru": "Свиток печати",
+            "de-de": "Zaubersiegel-Schriftrolle",
+            "fr-fr": "Parchemin sigillé",
+            "es-es": "Pergamino hechizado",
+            "id-id": "Sealed Scroll",
+            "th-th": "Seal Scroll",
+            "vi-vn": "Bản Vẽ Phong Ấn",
+            "zh-tw": "封魔繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 80000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "445",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Topázio Prithiva",
+            "en-us": "Prithiva Topaz Chunk",
+            "ja-jp": "堅牢なトパーズ・塊",
+            "zh-cn": "坚牢黄玉块",
+            "ko-kr": "단단한 황옥 덩이",
+            "ru-ru": "Кусок топаза Притхива",
+            "de-de": "Prithiva-Topas-Brocken",
+            "fr-fr": "Morceau de topaze prithiva",
+            "es-es": "Trozo de topacio prithiva",
+            "id-id": "Prithiva Topaz Chunk",
+            "th-th": "Prithiva Topaz Chunk",
+            "vi-vn": "Miếng Hoàng Ngọc Cứng",
+            "zh-tw": "堅牢黃玉塊"
+          }
+        },
+        {
+          "id": "1169",
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Torre da Terra",
+            "en-us": "Basalt Pillar",
+            "ja-jp": "玄岩の塔",
+            "zh-cn": "玄岩之塔",
+            "ko-kr": "현암의 탑",
+            "ru-ru": "Базальтовая колонна",
+            "de-de": "Steinturm",
+            "fr-fr": "Pilier de basalte",
+            "es-es": "Pilar de basalto",
+            "id-id": "Basalt Pillar",
+            "th-th": "Basalt Pillar",
+            "vi-vn": "Tháp Huyền Nham",
+            "zh-tw": "玄岩之塔"
+          }
+        },
+        {
+          "id": "464",
+          "iconUrl": null,
+          "amount": 30,
+          "name": {
+            "pt-pt": "Cecília",
+            "en-us": "Cecilia",
+            "ja-jp": "セシリアの花",
+            "zh-cn": "塞西莉亚花",
+            "ko-kr": "세실리아꽃",
+            "ru-ru": "Сесилия",
+            "de-de": "Cecilia",
+            "fr-fr": "Cécilia",
+            "es-es": "Cecilia",
+            "id-id": "Cecilia",
+            "th-th": "Cecilia",
+            "vi-vn": "Hoa Cecilia",
+            "zh-tw": "塞西莉亞花"
+          }
+        },
+        {
+          "id": "634",
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Pergaminho do Encantamento",
+            "en-us": "Sealed Scroll",
+            "ja-jp": "封魔の絵巻",
+            "zh-cn": "封魔绘卷",
+            "ko-kr": "봉마의 두루마리",
+            "ru-ru": "Свиток печати",
+            "de-de": "Zaubersiegel-Schriftrolle",
+            "fr-fr": "Parchemin sigillé",
+            "es-es": "Pergamino hechizado",
+            "id-id": "Sealed Scroll",
+            "th-th": "Seal Scroll",
+            "vi-vn": "Bản Vẽ Phong Ấn",
+            "zh-tw": "封魔繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 100000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "445",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Topázio Prithiva",
+            "en-us": "Prithiva Topaz Chunk",
+            "ja-jp": "堅牢なトパーズ・塊",
+            "zh-cn": "坚牢黄玉块",
+            "ko-kr": "단단한 황옥 덩이",
+            "ru-ru": "Кусок топаза Притхива",
+            "de-de": "Prithiva-Topas-Brocken",
+            "fr-fr": "Morceau de topaze prithiva",
+            "es-es": "Trozo de topacio prithiva",
+            "id-id": "Prithiva Topaz Chunk",
+            "th-th": "Prithiva Topaz Chunk",
+            "vi-vn": "Miếng Hoàng Ngọc Cứng",
+            "zh-tw": "堅牢黃玉塊"
+          }
+        },
+        {
+          "id": "1169",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Torre da Terra",
+            "en-us": "Basalt Pillar",
+            "ja-jp": "玄岩の塔",
+            "zh-cn": "玄岩之塔",
+            "ko-kr": "현암의 탑",
+            "ru-ru": "Базальтовая колонна",
+            "de-de": "Steinturm",
+            "fr-fr": "Pilier de basalte",
+            "es-es": "Pilar de basalto",
+            "id-id": "Basalt Pillar",
+            "th-th": "Basalt Pillar",
+            "vi-vn": "Tháp Huyền Nham",
+            "zh-tw": "玄岩之塔"
+          }
+        },
+        {
+          "id": "464",
+          "iconUrl": null,
+          "amount": 45,
+          "name": {
+            "pt-pt": "Cecília",
+            "en-us": "Cecilia",
+            "ja-jp": "セシリアの花",
+            "zh-cn": "塞西莉亚花",
+            "ko-kr": "세실리아꽃",
+            "ru-ru": "Сесилия",
+            "de-de": "Cecilia",
+            "fr-fr": "Cécilia",
+            "es-es": "Cecilia",
+            "id-id": "Cecilia",
+            "th-th": "Cecilia",
+            "vi-vn": "Hoa Cecilia",
+            "zh-tw": "塞西莉亞花"
+          }
+        },
+        {
+          "id": "1282",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Pergaminho da Maldição",
+            "en-us": "Forbidden Curse Scroll",
+            "ja-jp": "禁呪の絵巻",
+            "zh-cn": "禁咒绘卷",
+            "ko-kr": "금주의 두루마리",
+            "ru-ru": "Свиток запретного проклятья",
+            "de-de": "Fluchschriftrolle",
+            "fr-fr": "Parchemin maudit",
+            "es-es": "Pergamino maldito",
+            "id-id": "Forbidden Curse Scroll",
+            "th-th": "Forbidden Curse Scroll",
+            "vi-vn": "Bản Vẽ Cấm Chú",
+            "zh-tw": "禁咒繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 120000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "444",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Gema de Topázio Prithiva",
+            "en-us": "Prithiva Topaz Gemstone",
+            "ja-jp": "堅牢なトパーズ",
+            "zh-cn": "坚牢黄玉",
+            "ko-kr": "단단한 황옥",
+            "ru-ru": "Драгоценный топаз Притхива",
+            "de-de": "Prithiva-Topas",
+            "fr-fr": "Pierre de topaze prithiva",
+            "es-es": "Topacio prithiva",
+            "id-id": "Prithiva Topaz Gemstone",
+            "th-th": "Prithiva Topaz Gemstone",
+            "vi-vn": "Hoàng Ngọc Cứng",
+            "zh-tw": "堅牢黃玉"
+          }
+        },
+        {
+          "id": "1169",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Torre da Terra",
+            "en-us": "Basalt Pillar",
+            "ja-jp": "玄岩の塔",
+            "zh-cn": "玄岩之塔",
+            "ko-kr": "현암의 탑",
+            "ru-ru": "Базальтовая колонна",
+            "de-de": "Steinturm",
+            "fr-fr": "Pilier de basalte",
+            "es-es": "Pilar de basalto",
+            "id-id": "Basalt Pillar",
+            "th-th": "Basalt Pillar",
+            "vi-vn": "Tháp Huyền Nham",
+            "zh-tw": "玄岩之塔"
+          }
+        },
+        {
+          "id": "464",
+          "iconUrl": null,
+          "amount": 60,
+          "name": {
+            "pt-pt": "Cecília",
+            "en-us": "Cecilia",
+            "ja-jp": "セシリアの花",
+            "zh-cn": "塞西莉亚花",
+            "ko-kr": "세실리아꽃",
+            "ru-ru": "Сесилия",
+            "de-de": "Cecilia",
+            "fr-fr": "Cécilia",
+            "es-es": "Cecilia",
+            "id-id": "Cecilia",
+            "th-th": "Cecilia",
+            "vi-vn": "Hoa Cecilia",
+            "zh-tw": "塞西莉亞花"
+          }
+        },
+        {
+          "id": "1282",
+          "iconUrl": null,
+          "amount": 24,
+          "name": {
+            "pt-pt": "Pergaminho da Maldição",
+            "en-us": "Forbidden Curse Scroll",
+            "ja-jp": "禁呪の絵巻",
+            "zh-cn": "禁咒绘卷",
+            "ko-kr": "금주의 두루마리",
+            "ru-ru": "Свиток запретного проклятья",
+            "de-de": "Fluchschriftrolle",
+            "fr-fr": "Parchemin maudit",
+            "es-es": "Pergamino maldito",
+            "id-id": "Forbidden Curse Scroll",
+            "th-th": "Forbidden Curse Scroll",
+            "vi-vn": "Bản Vẽ Cấm Chú",
+            "zh-tw": "禁咒繪卷"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "1030"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "20"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "68"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "0"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "2671",
+          "postAscensionValue": "3554"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "51",
+          "postAscensionValue": "67"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "177",
+          "postAscensionValue": "235"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "0",
+          "postAscensionValue": "0"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "5317",
+          "postAscensionValue": "5944"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "101",
+          "postAscensionValue": "113"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "352",
+          "postAscensionValue": "394"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "0",
+          "postAscensionValue": "7.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "6839",
+          "postAscensionValue": "7675"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "130",
+          "postAscensionValue": "146"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "453",
+          "postAscensionValue": "508"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "7.2%",
+          "postAscensionValue": "14.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "8579",
+          "postAscensionValue": "9207"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "163",
+          "postAscensionValue": "175"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "568",
+          "postAscensionValue": "610"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "14.4%",
+          "postAscensionValue": "14.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "10119",
+          "postAscensionValue": "10746"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "192",
+          "postAscensionValue": "204"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "670",
+          "postAscensionValue": "712"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "14.4%",
+          "postAscensionValue": "21.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "11669",
+          "postAscensionValue": "12296"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "222",
+          "postAscensionValue": "233"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "773",
+          "postAscensionValue": "815"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "21.6%",
+          "postAscensionValue": "28.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "13226",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "251",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "876",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "28.8%",
+          "postAscensionValue": ""
+        }
+      ]
+    }
+  ]
+}

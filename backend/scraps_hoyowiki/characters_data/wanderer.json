@@ -1,0 +1,3540 @@
+{
+  "id": "wanderer",
+  "wiki_id": "2968",
+  "name": {
+    "pt-pt": "Andarilho",
+    "en-us": "Wanderer",
+    "ja-jp": "放浪者",
+    "zh-cn": "流浪者",
+    "ko-kr": "방랑자",
+    "ru-ru": "Странник",
+    "de-de": "Wanderer",
+    "fr-fr": "Nomade",
+    "es-es": "Trotamundos",
+    "id-id": "Wanderer",
+    "th-th": "ผู้พเนจร",
+    "vi-vn": "Kẻ Lang Thang",
+    "zh-tw": "流浪者"
+  },
+  "title": {
+    "pt-pt": "Caminhante Eterno",
+    "en-us": "Eons Adrift",
+    "ja-jp": "久世浮傾",
+    "zh-cn": "久世浮倾",
+    "ko-kr": "기나긴 방황",
+    "ru-ru": "Затерявшийся в вечности",
+    "de-de": "Bis in die Ewigkeit driften",
+    "fr-fr": "L'éternellement égaré",
+    "es-es": "El Caminante Eterno",
+    "id-id": "Eons Adrift",
+    "th-th": "กัปกัลป์อสงไขย",
+    "vi-vn": "Đoạn Tuyệt Thế Gian",
+    "zh-tw": "久世浮傾"
+  },
+  "description": {
+    "pt-pt": "Um jovem andarilho de identidade misteriosa. Se veste como um shugenja, mas com certeza não age como um.",
+    "en-us": "A wayfaring figure whose identity is a mystery. He dresses like a mountain ascetic, but he certainly does not act the part.",
+    "ja-jp": "正体が謎に包まれた放浪者。のような身なりをしているが、それらしき言動は見られない。",
+    "zh-cn": "身份成谜的流浪人士。衣着打扮像是修验者，言行却并不是修验者应有的模样。",
+    "ko-kr": "방랑하는 정체불명의 인물. 옷차림만 보면 수행자 같지만, 언행은 전혀 수행자답지 않다.「신자는 신의 영광을 이룩하고, 불신자는 신의 교화를 지켜보지. 그러나 나는 그를 어느 한쪽으로 정의하지 않을 거야. 모든 불확실성은 그의 미래를 닦는 초석이나 다름없으니까.」——위대한 쿠살라 다르마, 쿠사나리 지혜의 주인 부에르",
+    "ru-ru": "Скиталец, личность которого остаётся загадкой. Носит одежды горного отшельника, но высказываниями и действиями на ищущих просветления совсем не похож.«Верующие творят славу своих богов, а отступники становятся свидетелями их преображения. Я не буду загонять его ни в какие рамки. Неопределённость - краеугольный камень его будущего», - Буер, Благословенный Мудрец, Махакусаладхарма.",
+    "de-de": "Ein Wanderer, dessen Identität ein Geheimnis ist. Er kleidet sich wie ein Shugenja, spielt aber nicht die Rolle eines solchen.",
+    "fr-fr": "Une silhouette itinérante dont l’identité est un mystère. S’habillant comme un ascète des montagnes, il n’en joue cependant pas le rôle.",
+    "es-es": "Un joven errante de identidad enigmática. Viste como un asceta, pero no actúa como tal.",
+    "id-id": "Seorang pengelana dengan identitas misterius. Berpakaian seperti \"shugenja\", tapi tutur kata dan perbuatannya malah tidak seperti \"shugenja\".",
+    "th-th": "ผู้พเนจรที่มีตัวตนเป็นปริศนา เขาแต่งตัวเหมือนผู้ฝึกตน แต่คำพูด และการกระทำของเขาไม่ใช่สิ่งที่ผู้ฝึกตนควรกระทำ",
+    "vi-vn": "Một kẻ lang thang thân phận huyền bí. Trang phục trông như người khổ hạnh, nhưng cách nói chuyện thì lại không giống như vậy.",
+    "zh-tw": "身分成謎的流浪人士。衣著打扮像是修驗者，言行卻並不是修驗者應有的模樣。"
+  },
+  "rarity": 5,
+  "vision": {
+    "label": {
+      "pt-pt": "Tipo Elemental",
+      "en-us": "Elemental Type",
+      "ja-jp": "元素タイプ",
+      "zh-cn": "元素属性",
+      "ko-kr": "원소 속성",
+      "ru-ru": "Элемент",
+      "de-de": "Elementartyp",
+      "fr-fr": "Élément",
+      "es-es": "Tipo elemental",
+      "id-id": "Tipe Elemen",
+      "th-th": "ประเภทธาตุ",
+      "vi-vn": "Thuộc Tính Nguyên Tố",
+      "zh-tw": "元素屬性"
+    },
+    "value": {
+      "pt-pt": "Anemo",
+      "en-us": "Anemo",
+      "ja-jp": "風元素",
+      "zh-cn": "风元素",
+      "ko-kr": "바람 원소",
+      "ru-ru": "Анемо",
+      "de-de": "Anemo",
+      "fr-fr": "Anémo",
+      "es-es": "Anemo",
+      "id-id": "Anemo",
+      "th-th": "ลม",
+      "vi-vn": "Phong",
+      "zh-tw": "風元素"
+    }
+  },
+  "weapon": {
+    "label": {
+      "pt-pt": "Arma",
+      "en-us": "Weapons",
+      "ja-jp": "武器種",
+      "zh-cn": "武器",
+      "ko-kr": "무기",
+      "ru-ru": "Тип",
+      "de-de": "Waffe",
+      "fr-fr": "Type d'arme",
+      "es-es": "Arma",
+      "id-id": "Senjata",
+      "th-th": "อาวุธ",
+      "vi-vn": "Vũ Khí",
+      "zh-tw": "武器"
+    },
+    "value": {
+      "pt-pt": "Catalisador",
+      "en-us": "Catalyst",
+      "ja-jp": "法器",
+      "zh-cn": "法器",
+      "ko-kr": "법구",
+      "ru-ru": "Катализатор",
+      "de-de": "Katalysator",
+      "fr-fr": "Catalyseur",
+      "es-es": "Catalizador",
+      "id-id": "Catalyst",
+      "th-th": "สื่อเวท",
+      "vi-vn": "Pháp Khí",
+      "zh-tw": "法器"
+    }
+  },
+  "characterIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/06/16791688/24d97a22be742fb732ea96f625d1faac_6179643747821580209.png",
+  "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/6b5c0d861fd1b4791bd602d3e7296598_8700657350379813969.png",
+  "constellationNameOfficial": {
+    "pt-pt": "Peregrinus",
+    "en-us": "Peregrinus",
+    "ja-jp": "浪客座",
+    "zh-cn": "浪客座",
+    "ru-ru": "Пилигрим",
+    "de-de": "Peregrinus",
+    "fr-fr": "Peregrinus",
+    "es-es": "Peregrinus",
+    "id-id": "Peregrinus",
+    "th-th": "Peregrinus",
+    "zh-tw": "浪客座",
+    "ko-kr": "N/A",
+    "vi-vn": "N/A"
+  },
+  "specialDish": {
+    "id": 3328,
+    "name": {
+      "pt-pt": "Chazuke Autêntico",
+      "en-us": "Shimi Chazuke",
+      "ja-jp": "真味茶漬け",
+      "zh-cn": "真味茶泡饭",
+      "ko-kr": "진미 오차즈케",
+      "ru-ru": "Сими тядзукэ",
+      "de-de": "Shinmi-Chazuke",
+      "fr-fr": "Chazuke authentique",
+      "es-es": "Chazuke auténtico",
+      "id-id": "Shimi Chazuke",
+      "th-th": "Shimi Chazuke",
+      "vi-vn": "Shimi Chazuke",
+      "zh-tw": "真味茶泡飯"
+    },
+    "iconUrl": null
+  },
+  "namecard": {
+    "id": 6209,
+    "name": {
+      "pt-pt": "Andarilho: Balada Transitória",
+      "en-us": "Wanderer: Drifter's Ballad",
+      "ja-jp": "放浪者·憂き世の歌",
+      "zh-cn": "流浪者·浮歌",
+      "ko-kr": "방랑자·떠도는 자의 노래",
+      "ru-ru": "Баллада скитальца",
+      "de-de": "Wanderer – Ballade des Herumtreibers",
+      "fr-fr": "Nomade - Ballade d'errance",
+      "es-es": "Trotamundos - Balada a la deriva",
+      "id-id": "Wanderer: Drifter's Ballad",
+      "th-th": "ผู้พเนจร - บทเพลงลอยล่อง",
+      "vi-vn": "Kẻ Lang Thang - Phù Ca",
+      "zh-tw": "流浪者·浮歌"
+    },
+    "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/15/21ca9ea9c21190a63bba48d6c4f55e39_4361862362660442472.png"
+  },
+  "constellations": [
+    {
+      "id": "summaryList38572",
+      "constellationNumber": 1,
+      "name": {
+        "pt-pt": "Primeiro Ato: Asas do Vento da Sorte",
+        "en-us": "Shoban: Ostentatious Plumage",
+        "ja-jp": "初番・茂風流羽行",
+        "zh-cn": "初番·茂风流羽行",
+        "ko-kr": "1번 악극·바람을 타는 깃",
+        "ru-ru": "Сёбан: Пышный плюмаж",
+        "de-de": "Shoban – Pompöses Gefieder",
+        "fr-fr": "Shoban : Pennage ostentatoire",
+        "es-es": "Primer acto: Plumaje ostentoso",
+        "id-id": "Shoban: Ostentatious Plumage",
+        "th-th": "Shoban: Ostentatious Plumage",
+        "vi-vn": "Chương Đầu – Sải Bước Theo Gió Bão",
+        "zh-tw": "初番·茂風流羽行"
+      },
+      "description": {
+        "pt-pt": "Quando estiver no estado Postura do Vento, aumenta a Vel. de ATQ de Vazio: Obliteração e Vazio: Lâmina de Vento do Andarilho em 10%.Além disso, as flechas de vento adicionais lançadas pelo Talento Passivo \"Brisa dos Sonhos Remanescentes\" causam 25% a mais de Dano com base em seu ATQ. É necessário desbloquear o Talento Passivo \"Brisa dos Sonhos Remanescentes\" para ativar este efeito.",
+        "en-us": "When in the Windfavored state, the Attack SPD of the Wanderer's Kuugo: Fushoudan and Kuugo: Toufukai is increased by 10%.Additionally, the wind arrows fired by the Passive Talent \"Gales of Reverie\" will deal an additional 25% of his ATK as DMG. You must unlock the Passive Talent \"Gales of Reverie\" first.",
+        "ja-jp": "児姿優風状況時、放浪者の空居・不生断および空居・風刀界の攻撃速度+10%。また、固有天賦「夢跡一風」により発射された風の矢は追加で攻撃力25%のダメージを与えられる。この効果は固有天賦「夢跡一風」を開放する必要がある。",
+        "zh-cn": "在优风倾姿状态下，流浪者进行空居·不生断与空居·刀风界的攻击速度提升10%。此外，固有天赋「梦迹一风」发射的风矢能额外造成25%攻击力的伤害，该效果需要解锁固有天赋「梦迹一风」。",
+        "ko-kr": "바람의 자태 상태일 때 방랑자의 부유·단절과 부유·칼바람 영역의 공격 속도가 10% 증가한다.고유 특성 「몽상의 바람」이 발사한 바람 화살이 추가로 공격력의 25%만큼 피해를 가한다. 해당 효과는 고유 특성 「몽상의 바람」을 해금해야 한다",
+        "ru-ru": "У Странника в состоянии Избранника ветра скорость атак Куго: Фусёдан и Куго: Тофукай увеличивается на 10%.Кроме того, стрелы ветра пассивного таланта Бури грёз наносят дополнительные 25% урона от силы атаки. Требуется разблокировать пассивный талант Бури грёз.",
+        "de-de": "Erhöht die Angriffs-GSW des Wanderers mit Kuugo – Fushoudan und Kuugo – Toufukai im Zustand Haltung des eleganten Windes um 10 %.Die Windpfeile vom passiven Talent „Brise der Träumerei“ verursachen zusätzlich Schaden in Höhe von 25 % ANG, dafür muss zuerst das passive Talent „Brise der Träumerei“ freigeschaltet werden.",
+        "fr-fr": "Pendant l’état Bienfait venteux, la VIT d’attaque des attaques normales et chargées du Nomade augmente de 10 %.De plus, les flèches de vent tirées par l’aptitude passive « Rafales de rêverie » infligent des DGT supplémentaires équivalant à 25 % de l’ATQ. L’aptitude passive « Rafales de rêverie » doit être déjà débloquée pour cet effet.",
+        "es-es": "En el estado de gracia del viento, la Vel. de Ataque de Obliteración celeste y Ráfaga celeste del Trotamundos aumenta en un 10%.Además, los proyectiles ventosos del talento pasivo \"Céfiro de la ensoñación\" infligen un daño adicional equivalente al 25% del ATQ. Para activar este efecto, es necesario desbloquear el talento pasivo \"Céfiro de la ensoñación\".",
+        "id-id": "Saat dalam status Windfavored, ATK SPD Kuugo: Fushoudan dan Kuugo: Toufukai Wanderer meningkat 10%.Selain itu, panah angin yang diciptakan oleh Talenta Pasif “Gales of Reverie” milik Wanderer mengakibatkan tambahan DMG sebesar 25% ATK. Kamu harus membuka Talenta Pasif “Gales of Reverie” terlebih dahulu.",
+        "th-th": "เมื่ออยู่ในสถานะ Windfavored ความเร็วในการโจมตีของ Kuugo: Fushoudan และ Kuugo: Toufukai ของผู้พเนจร จะเพิ่มขึ้น 10%นอกจากนี้ ธนูลมที่พรสวรรค์ติดตัว \"Gales of Reverie\" ยิงออกมา จะสามารถทำให้เกิดความเสียหายเพิ่มเติมอีก 25% ของพลังโจมตี โดยที่เอฟเฟกต์นี้ จะต้องปลดล็อกพรสวรรค์ติดตัว \"Gales of Reverie\" ก่อน",
+        "vi-vn": "Trong trạng thái Tựa Gió Bay Cao, tốc độ tấn công của Ngự Không – Bất Sinh Đoạn và Ngự Không – Phong Nhẫn Giới của Kẻ Lang Thang tăng 10%.Lúc này, mũi tên gió bắn ra từ thiên phú “Gió Lốc Hão Huyền” gây thêm sát thương bằng 25% tấn công. Hiệu quả này cần mở khóa thiên phú “Gió Lốc Hão Huyền”.",
+        "zh-tw": "在優風傾姿狀態下，流浪者施放空居·不生斷與空居·刀風界的攻擊速度提升10%。此外，固有天賦「夢跡一風」發射的風矢能額外造成25%攻擊力的傷害，該效果需要解鎖固有天賦「夢跡一風」。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/07/16791688/42f79c2b7f1476f40651e147b672f8b4_9064628800202796399.png"
+    },
+    {
+      "id": "summaryList32452",
+      "constellationNumber": 2,
+      "name": {
+        "pt-pt": "Segundo Ato: Ilha em meio a Ondas Brancas",
+        "en-us": "Niban: Moonlit Isle Amidst White Waves",
+        "ja-jp": "弐番・箙島月白浪",
+        "zh-cn": "二番·箙岛廓白浪",
+        "ko-kr": "2번 악극·흰 파도가 치는 섬",
+        "ru-ru": "Нибан: Лунный остров среди белых волн",
+        "de-de": "Niban – Insel inmitten weißer Wellen",
+        "fr-fr": "Niban : Île de lune dans les vagues blanches",
+        "es-es": "Segundo acto: La luna en el mar riela",
+        "id-id": "Niban: Isle Amidst White Waves",
+        "th-th": "Niban: Isle Amidst White Waves",
+        "vi-vn": "Chương Hai – Đảo Rộng Cùng Sóng Xanh",
+        "zh-tw": "二番·箙島廓白浪"
+      },
+      "description": {
+        "pt-pt": "Enquanto estiver no estado Postura do Vento, aumentará o Dano de Kyogen: Cinco Atos em 4% para cada ponto de diferença entre a quantidade máxima e atual de Poder Vazio quando usar Kyogen: Cinco Atos.É possível aumentar o Dano de Kyogen: Cinco Atos em até 200% dessa forma.",
+        "en-us": "When in the Windfavored state, Kyougen: Five Ceremonial Plays will see its DMG increased by 4% per point of difference between the max amount of Kuugoryoku Points contrasted with Kuugoryoku's present capacity when using this skill.Through this method, you can increase Kyougen: Five Ceremonial Plays's DMG by a maximum of 200%.",
+        "ja-jp": "児姿優風状態時、空居力の上限値と現在の空居力の差が1あるごとに狂言・式楽伍番の与えるダメージが4%アップする。この方式でアップできる狂言・式楽伍番のダメージは最大200%までとなる。",
+        "zh-cn": "在优风倾姿状态下，狂言·式乐五番将依据空居力上限与当前的空居力的差值，每1点使此次狂言·式乐五番造成的伤害提升4%。通过这种方式，至多使狂言·式乐五番造成的伤害提升200%。",
+        "ko-kr": "바람의 자태 상태일 때 최대 부유력과 현재 부유력 차이 값의 1pt마다 교겐·악극 제5번의 피해가 4% 증가한다.해당 방식으로 교겐·악극 제5번이 가하는 피해는 최대 200%까지 증가한다",
+        "ru-ru": "Когда Странник находится в состоянии Избранника ветра, урон навыка Кёгэн: Пять церемониальных актов при его использовании увеличится на 4% за каждую единицу разницы между текущим и максимальным показателем куго-рёку.Увеличить урон навыка Кёгэн: Пять церемониальных актов таким способом можно максимум на 200%.",
+        "de-de": "Erhöht im Zustand Haltung des eleganten Windes den Schaden von Kyougen – Fünf rituelle Stücke für jeden Punkt anhand des Unterschiedes zwischen dem Maximum an möglichen Punkten von Kuugoryoku und der gegenwärtigen Punktzahl von Kuugoryoku um 4%.Auf diese Weise kann der Schaden von Kyougen – Fünf rituelle Stücke höchstens um 200 % erhöht werden.",
+        "fr-fr": "Pendant l’état Bienfait venteux, les DGT infligés par Kyougen : Gobandate en cinq actes augmentent de 4 % pour chaque pt de différence entre la quantité actuelle et maximale de Kuugoryoku.Les DGT infligés par Kyougen : Gobandate en cinq actes peuvent être augmentés d’un maximum de 200 % de cette manière.",
+        "es-es": "En el estado de gracia del viento, el daño infligido con Kyougen: Cinco actos aumenta en un 4% por cada punto de diferencia que haya entre el límite máximo de persistencia celeste y la cantidad actual.El daño de Kyougen: Cinco actos solo puede aumentar hasta un 200% de esta manera.",
+        "id-id": "Saat dalam status Windfavored, DMG yang diakibatkan Kyougen: Five Ceremonial Plays saat menggunakan skill ini akan meningkat sebesar 4% untuk setiap poin perbedaan antara jumlah maksimum Kuugoryoku Point dikurangi dengan jumlah Kuugoryoku Point yang dimilliki sekarang.Peningkatan DMG yang diakibatkan Kyougen: Five Ceremonial Plays yang bisa diperoleh dengan cara ini adalah sebesar maksimum 200%.",
+        "th-th": "ภายใต้สถานะ Windfavored ความเสียหายของ Kyougen: Five Ceremonial Plays จะขึ้นกับค่าความต่างของขีดจำกัดสูงสุด และจำนวนในขณะนั้นของแต้ม Kuugoryoku โดยทุก 1 หน่วย จะทำให้ Kyougen: Five Ceremonial Plays ในครั้งนี้ สร้างความเสียหายเพิ่มขึ้น 4%ด้วยวิธีนี้ จะทำให้ Kyougen: Five Ceremonial Plays สร้างความเสียหายเพิ่มขึ้นได้มากสุด 200%",
+        "vi-vn": "Trong trạng thái Tựa Gió Bay Cao, Kyougen – Thức Lạc Ngũ Phiên sẽ so sánh Ngự Không Lực tối đa và hiện tại, mỗi 1 điểm chênh lệch sẽ khiến sát thương gây ra của Kyougen – Thức Lạc Ngũ Phiên lần này tăng 4%.Thông qua cách này, tối đa khiến sát thương của Kyougen – Thức Lạc Ngũ Phiên tăng 200%.",
+        "zh-tw": "在優風傾姿狀態下，狂言·式樂五番將依據空居力上限與目前的空居力的差值，每1點使此次狂言·式樂五番造成的傷害提升4%。依此方式，至多使狂言·式樂五番造成的傷害提升200%。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/07/16791688/58fec9532ff43cf44ccea7255ae621c7_3349410252754583509.png"
+    },
+    {
+      "id": "summaryList45258",
+      "constellationNumber": 3,
+      "name": {
+        "pt-pt": "Terceiro Ato: Duelo no Crepúsculo",
+        "en-us": "Sanban: Moonflower Kusemai",
+        "ja-jp": "参番・久世舞夕顔",
+        "zh-cn": "三番·久世舞夕颜",
+        "ko-kr": "3번 악극·월광화 쿠세마이",
+        "ru-ru": "Самбан: Кусэмай лунного цветка",
+        "de-de": "Sanban – Mondblumen-Kusemai",
+        "fr-fr": "Sanban : Kusemai de belle-de-jour",
+        "es-es": "Tercer acto: Kusemai del ocaso",
+        "id-id": "Sanban: Moonflower Kusemai",
+        "th-th": "Sanban: Moonflower Kusemai",
+        "vi-vn": "Chương Ba – Khúc Hoàng Hôn Vĩnh Hằng",
+        "zh-tw": "三番·久世舞夕顏"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível da Pluma Ilustrada: Canção Graciosa em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Kyougen: Five Ceremonial Plays by 3.Maximum upgrade level is 15.",
+        "ja-jp": "狂言・式楽伍番のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "狂言·式乐五番的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "교겐·악극 제5번의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Кёгэн: Пять церемониальных актов на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Kyougen – Fünf rituelle Stücke um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Hanega : Lyrisme des vents +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Kyougen: Cinco actos +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Kyougen: Five Ceremonial Plays.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Kyougen: Five Ceremonial Plays ขึ้น 3 ระดับเพิ่มได้สูงสุดถึงระดับ 15",
+        "vi-vn": "Cấp kỹ năng Kyougen – Thức Lạc Ngũ Phiên +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "狂言·式樂五番的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/07/16791688/052cd901b44cef8359f0bebb98404194_7202837732638819440.png"
+    },
+    {
+      "id": "summaryList94505",
+      "constellationNumber": 4,
+      "name": {
+        "pt-pt": "Quarto Ato: Flutuar das Flores da Lua",
+        "en-us": "Yonban: Set Adrift into Spring",
+        "ja-jp": "肆番・花月歌浮舟",
+        "zh-cn": "四番·花月歌浮舟",
+        "ko-kr": "4번 악극·부유하는 달과 꽃의 노래",
+        "ru-ru": "Ёмбан: По течению к весне",
+        "de-de": "Yonban – Aufbruch ins Frühjahr",
+        "fr-fr": "Yoban : Dérive vers le printemps",
+        "es-es": "Cuarto acto: Barco a la deriva",
+        "id-id": "Yonban: Set Adrift into Spring",
+        "th-th": "Yonban: Set Adrift Into Spring",
+        "vi-vn": "Chương Bốn – Trôi Dạt Khúc Nguyệt Hoa",
+        "zh-tw": "四番·花月歌浮舟"
+      },
+      "description": {
+        "pt-pt": "Ao lançar Pluma Ilustrada: Canção Graciosa, se tiver desencadeado o efeito de Fortalecimento de Tipo Elemental do Talento Passivo \"Flores de Jade\", obterá aleatoriamente um dos tipos de efeito de Fortalecimento não desencadeado. É possível obter até três tipos de efeito de Fortalecimento Elemental.É necessário ter desbloqueado o Talento Passivo \"Flores de Jade\".",
+        "en-us": "When casting Hanega: Song of the Wind, should the Passive Talent \"Jade-Claimed Flower\" be triggered, the character will gain buffs in correspondence to the contacted Elemental Type(s), and also obtain a random untriggered buff. A maximum of 3 such corresponding elemental buffs can exist simultaneously.You must unlock the Passive Talent \"Jade-Claimed Flower\" first.",
+        "ja-jp": "羽画・風姿華歌発動時、固有天賦「拾玉得花」で元素タイプと対応する強化効果を得ると、今回の発動で未獲得の強化効果をランダムで1つ獲得する。同時に獲得できる元素タイプと対応する強化効果は最大3種類まで。固有天賦「拾玉得花」を解放する必要がある。",
+        "zh-cn": "施放羽画·风姿华歌时，若触发了固有天赋「拾玉得花」依据元素类型强化的效果，还将随机获得1种本次施放未触发的强化效果。同时至多获得3种元素对应的强化效果。需要解锁固有天赋「拾玉得花」。",
+        "ko-kr": "우화·바람이 전하는 노래를 발동 시, 고유 특성 「꽃이 된 옥」의 원소 타입에 따른 강화 효과를 발동했을 경우, 발동 안 된 랜덤 강화 효과 1가지를 추가로 획득한다. 또한 강화 효과를 동시에 최대 3가지까지 획득할 수 있다.고유 특성 「꽃이 된 옥」을 해금해야 한다",
+        "ru-ru": "Если во время применения навыка Ханэга: Песнь ветра активируется пассивный талант Цветок нефрита, кроме усилений соответствующих элементов персонаж получит 1 случайное неактивированное усиление. Одновременно может существовать 3 соответствующих элементальных усиления.Требуется разблокировать пассивный талант Цветок нефрита.",
+        "de-de": "Erhält die Figur durch das passive Talent „Jadeblume“ beim Auslösen von Hanega – Gesang des Windes den entsprechenden Verstärkungseffekt in Abhängigkeit von dem Elementartyp, mit dem sie in Kontakt gekommen ist, wird ihr ein zufälliger weiterer noch nicht vergebener Verstärkungseffekt verliehen. Es können höchstens drei Elementen entsprechende Verstärkungseffekte gleichzeitig aktiv sein.Das passive Talent „Jadeblume“ muss zuerst freigeschaltet werden.",
+        "fr-fr": "Si l’effet de renforcement selon le type élémentaire de l’aptitude passive « Fleur de jade » est déclenché en utilisant Hanega : Lyrisme des vents, un effet de renforcement n’ayant pas été déclenché cette fois-ci est aléatoirement accordé. Un maximum de 3 types différents de ces effets de renforcement peut être obtenu simultanément.L’aptitude passive « Fleur de jade » doit être déjà débloquée.",
+        "es-es": "Si al usar Ilustración emplumada: Balada del viento se activa el fortalecimiento de un tipo elemental mediante el talento pasivo \"Flor de jade\", se obtiene aleatoriamente un fortalecimiento más que no se haya activado al usar dicha habilidad. Solo se pueden obtener 3 fortalecimientos elementales al mismo tiempoSe necesita desbloquear el talento pasivo \"Flor de jade\".",
+        "id-id": "Saat melancarkan Hanega: Song of the Wind, jika memicu Talenta Pasif “Jade-Claimed Flower”, Karakter akan mendapatkan efek peningkatan berdasarkan jenis Elemennya, dan akan mendapatkan 1 jenis efek peningkatan acak yang belum terpicu kali ini. Maksimum efek peningkatan elemen yang bisa diperoleh bersamaan adalah 3 jenis elemen.Harus sudah membuka Talenta Pasif “Jade-Claimed Flower” lebih dulu.",
+        "th-th": "เมื่อใช้ Hanega: Song of the Wind หากทำให้เกิดพรสวรรค์ติดตัว \"Jade-Claimed Flower\" จะได้รับเอฟเฟกต์เสริมพลังโดยขึ้นกับชนิดของธาตุที่สัมผัส และจะสุ่มได้รับเอฟเฟกต์เสริมพลัง 1 ชนิด ที่ยังไม่ได้รับในครั้งนี้อีกด้วย โดยในช่วงเวลาเดียวกัน จะได้รับเอฟเฟกต์เสริมพลัง จากธาตุที่เกี่ยวข้องได้มากสุด 3 ชนิดต้องปลดล็อกพรสวรรค์ติดตัว \"Jade-Claimed Flower\" ก่อน",
+        "vi-vn": "Khi thi triển Hanega – Hùng Ca Gió Thoảng, nếu kích hoạt hiệu quả cường hóa theo loại hình nguyên tố của thiên phú \"Lượm Ngọc Được Hoa\", sẽ ngẫu nhiên nhận thêm một hiệu quả cường hóa chưa kích hoạt của lần đó. Cùng lúc chỉ nhận được tối đa 3 loại hiệu quả cường hóa của nguyên tố tương ứng.Cần mở khóa thiên phú \"Lượm Ngọc Được Hoa\".",
+        "zh-tw": "施放羽畫·風姿華歌時，若觸發了固有天賦「拾玉得花」依據元素類型強化的效果，還將隨機獲得1種本次施放未觸發的強化效果。同時至多獲得3種元素對應的強化效果。需要解鎖固有天賦「拾玉得花」。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/07/16791688/cd8a73aabe8d6aeca714d37655ea21db_5411382794804149161.png"
+    },
+    {
+      "id": "summaryList70520",
+      "constellationNumber": 5,
+      "name": {
+        "pt-pt": "Quinto Ato: Passado Sobre o Presente",
+        "en-us": "Matsuban: Ancient Illuminator From Abroad",
+        "ja-jp": "末番・今昔渡来殿",
+        "zh-cn": "末番·今昔渡来殿",
+        "ko-kr": "최종 악극·현재와 과거에서 온 깨달음",
+        "ru-ru": "Мацубан: Древний свет из другого края",
+        "de-de": "Matsuban – Erleuchtung aus der Ferne",
+        "fr-fr": "Matsuban : Illustre du lointain",
+        "es-es": "Acto final: Ilustrado en el pasado",
+        "id-id": "Matsuban: Ancient Illuminator From Abroad",
+        "th-th": "Matsuban: Ancient Illuminator From Abroad",
+        "vi-vn": "Chương Cuối – Hiện Tại Trong Quá Khứ",
+        "zh-tw": "末番·今昔渡來殿"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível do Kyogen: Cinco Atos em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Hanega: Song of the Wind by 3.Maximum upgrade level is 15.",
+        "ja-jp": "羽画・風姿華歌のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "羽画·风姿华歌的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "우화·바람이 전하는 노래의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Ханэга: Песнь ветра на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Hanega – Gesang des Windes um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Kyougen : Gobandate en cinq actes +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Ilustración emplumada: Balada del viento +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Hanega: Song of the Wind.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Hanega: Song of the Wind ขึ้น 3 ระดับเพิ่มได้สูงสุดถึงระดับ 15",
+        "vi-vn": "Cấp kỹ năng Hanega – Hùng Ca Gió Thoảng +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "羽畫·風姿華歌的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/07/16791688/5a55e705974f27b8bb86c628019d5ad9_8269202318348493958.png"
+    },
+    {
+      "id": "summaryList42953",
+      "constellationNumber": 6,
+      "name": {
+        "pt-pt": "Agradecimentos: Ventos Neblinosos Entre os Pinheiros",
+        "en-us": "Shugen: The Curtains' Melancholic Sway",
+        "ja-jp": "言祝・霞幕傾松風",
+        "zh-cn": "祝言·霞幕倾松风",
+        "ko-kr": "축언·안개막을 흔드는 솔바람",
+        "ru-ru": "Сюгэн: Печальное колыхание занавеса",
+        "de-de": "Shugen – Traurig schwingender Vorhang",
+        "fr-fr": "Shugen : Mélancolie de la brume",
+        "es-es": "Agradecimientos: Telón de la melancolía",
+        "id-id": "Shugen: The Curtains Melancholic Sway",
+        "th-th": "Shugen: The Curtains' Melancholic Sway",
+        "vi-vn": "Lời Chúc – Màn Sương Nghiêng Gió Rừng",
+        "zh-tw": "祝言·霞幕傾松風"
+      },
+      "description": {
+        "pt-pt": "Quando o Andarilho estiver no estado Postura do Vento e seu Vazio: Obliteração atingir o inimigo, gerará os seguintes efeitos:· Realiza um Vazio: Obliteração adicional na posição atingida, causando 40% do Dano original, esse Dano é considerado Dano de Ataque Normal;· Quando o Poder Vazio do Andarilho é inferior a 40, regenera 4 de Poder Vazio para ele. É possível regenerar Poder Vazio dessa forma uma vez a cada 0.2s, e pode ser desencadeado até 5 vezes na duração de Postura do Vento.",
+        "en-us": "When the Wanderer actively hits an opponent with Kuugo: Fushoudan while in the Windfavored state, the following effects will occur:· Deals an additional instance of Kuugo: Fushoudan at the position hit, dealing 40% of the attack's original DMG. This DMG will be considered Normal Attack DMG.· When the Wanderer falls below 40 Kuugoryoku Points, restores 4 Points to him. Kuugoryoku Points can be restored in this manner once every 0.2s. This restoration can occur up to 5 times within one Windfavored duration.",
+        "ja-jp": "児姿優風状態時、放浪者が自ら発動した空居・不生断が敵に命中すると、下記の効果を発動する。・命中した位置に空居・不生断を追加で1回発動し、本来の40%分のダメージを与える。このダメージは通常攻撃ダメージとみなされる。・放浪者の空居力が40ポイント未満の時、空居力を4ポイント回復する。この方式による空居力の回復は、0.2秒毎に1回のみ可能。また、1回の児姿優風の継続時間中に最大5回まで発動可能。",
+        "zh-cn": "在优风倾姿状态下，流浪者主动施放的空居·不生断命中敌人时，将产生如下效果：·在命中的位置额外进行一次空居·不生断，造成原本40%的伤害，该伤害视为普通攻击伤害；·当流浪者的空居力低于40点时，为流浪者恢复4点空居力。每0.2秒至多通过这种方式恢复1次空居力，在一次优风倾姿的持续期间，至多触发5次。",
+        "ko-kr": "바람의 자태 상태일 때 방랑자가 직접 발동한 부유·단절이 적을 명중 시, 아래 효과가 생성된다:·명중한 위치에 추가로 부유·단절을 1회 발동하여 기존의 40%만큼 피해를 가한다. 해당 피해는 일반 공격 피해로 간주한다.·방랑자의 부유력이 40pt보다 적을 시, 방랑자는 부유력을 4pt 회복한다. 해당 효과는 0.2초마다 최대 1회 발동되며 한 번의 바람의 자태 지속 시간 동안 최대 5회까지 발동된다",
+        "ru-ru": "Попадание Странника атакой Куго: Фусёдан по врагу, когда он находится в состоянии Избранника ветра, производит следующие эффекты:· В месте попадания совершает дополнительный удар Куго: Фусёдан, который наносит 40% от изначального урона. Этот урон считается уроном обычной атаки.· Если куго-рёку меньше 40 ед., восстанавливает 4 ед. куго-рёку Странника. Подобным образом можно восстановить 1 ед. куго-рёку в 0,2 сек. Эффект активируется до 5 раз во время действия одного и того же состояния Избранника ветра.",
+        "de-de": "Im Zustand Haltung des eleganten Windes ruft Kuugo – Fushoudan des Wanderers beim Treffen von Gegnern folgende Effekte hervor:· Verursacht an der getroffenen Stelle ein zusätzliches Kuugo – Fushoudan, welches Schaden in Höhe von 40 % des ursprünglichen Schadens verursacht. Dieser Schaden wird als Schaden von Standardangriffen betrachtet.· Stellt dem Wanderer 4 Punkte Kuugoryoku wieder her, wenn sein Kuugoryoku unter 40 Punkte sinkt. Auf diese Weise kann alle 0,2 s einmal Kuugoryoku wiederhergestellt werden. Dieser Effekt kann innerhalb der Dauer von Haltung des eleganten Windes bis zu fünfmal ausgelöst werden.",
+        "fr-fr": "Lorsque le Nomade touche un ennemi en utilisant une attaque normale pendant l'état Bienfait venteux, les effets suivants se produisent :• Il déclenche Kuugo : Fushoudan une fois de plus à l’emplacement touché, infligeant 40 % des DGT d’origine, ces DGT étant considérés comme des DGT d’attaque normale.• Si son Kuugoryoku est inférieur à 40 pts, il restaure 4 pts. Les pts de Kuugoryoku peuvent être restaurés une fois toutes les 0,2 s de cette manière, et un maximum de 5 fois pour chaque durée de l’état Bienfait venteux.",
+        "es-es": "En el estado de gracia del viento, cuando el Trotamundos golpea a un enemigo con Obliteración celeste, se producen los siguientes efectos:· En la ubicación golpeada, se ejecuta una Obliteración celeste adicional que inflige un 40% del daño original. Este daño se considera daño de Ataque Normal.· Cuando el Trotamundos tiene menos de 40 pts. de persistencia celeste, recupera un máximo de 4 pts. una vez cada 0.2 s de esta manera. Este efecto solo se puede activar 5 veces a lo largo de la duración de una gracia del viento.",
+        "id-id": "Saat berada dalam status Windfavored, saat Kuugo: Fushoudan Wanderer mengenai musuh, akan menghasilkan efek sebagai berikut:·Melancarkan satu kali Kuugo: Fushoudan tambahan di posisi awal, mengakibatkan DMG sebesar 40% DMG awal. DMG ini akan dianggap sebagai DMG Normal Attack;·Saat Kuugoryoku Point Wanderer berada di bawah 40 poin, Wanderer akan memulihkan 4 Kuugoryoku Point. Kuugoryoku Point yang bisa dipulihkan dengan cara ini adalah satu kali setiap 0,2 detik, maksimum 5 kali dalam satu kali durasi Windfavored.",
+        "th-th": "ภายใต้สถานะ Windfavored เมื่อ Kuugo: Fushoudan ที่ผู้พเนจรเป็นคนสร้างขึ้นเองถูกศัตรู จะทำให้เกิดเอฟเฟกต์ดังต่อไปนี้:· ใช้ Kuugo: Fushoudan เพิ่มอีกหนึ่งครั้ง ตรงตำแหน่งที่โจมตีถูกเป้าหมาย ซึ่งจะทำให้เกิดความเสียหาย 40% ของความเสียหายเดิม โดยที่ความเสียหายนี้ จะถูกมองว่าเป็นความเสียหายของการโจมตีปกติ;· เมื่อแต้ม Kuugoryoku ของผู้พเนจรต่ำกว่า 40 หน่วย จะฟื้นฟูแต้ม Kuugoryoku ให้แก่ผู้พเนจร 4 หน่วย โดยที่ทุก 0.2 วินาที จะฟื้นฟูแต้ม Kuugoryoku ด้วยวิธีนี้ได้มากสุด 1 ครั้ง และตลอดช่วงระยะเวลาต่อเนื่องในหนึ่งครั้งของ Windfavored เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุด 5 ครั้ง",
+        "vi-vn": "Trong trạng thái Tựa Gió Bay Cao, khi Kẻ Lang Thang chủ động thi triển Ngự Không – Bất Sinh Đoạn đánh trúng kẻ địch, sẽ sản sinh hiệu quả sau:·Tiến hành thêm một lần Ngự Không – Bất Sinh Đoạn ở vị trí trúng đòn, gây lượng sát thương bằng 40% sát thương gốc và được tính là sát thương tấn công thường;·Khi Ngự Không Lực của Kẻ Lang Thang thấp hơn 40 điểm sẽ hồi cho Kẻ Lang Thang 4 điểm Ngự Không Lực. Mỗi 0.2s tối đa hồi phục 1 lần Ngự Không Lực bằng cách này. Trong một lần Tựa Gió Bay Cao tối đa kích hoạt 5 lần.",
+        "zh-tw": "在優風傾姿狀態下，流浪者主動施放的空居·不生斷命中敵人時，將產生如下效果：·在命中的位置額外施放一次空居·不生斷，造成原本40%的傷害，該傷害視為普通攻擊傷害；·當流浪者的空居力低於40點時，為流浪者恢復4點空居力。每0.2秒至多依此方式恢復1次空居力，在一次優風傾姿的持續期間，至多觸發5次。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/07/16791688/4f93b53472b5a0a29abc2cc366e6bfa2_8999047074743882515.png"
+    }
+  ],
+  "talents": [
+    {
+      "type": "normal_attack",
+      "name": {
+        "pt-pt": "Ataque Normal: Tocar da Bandeira Trêmula",
+        "en-us": "Yuuban Meigen",
+        "ja-jp": "幡舞鳴弦",
+        "zh-cn": "普通攻击·行幡鸣弦",
+        "ko-kr": "일반 공격·깃발과 메이겐",
+        "ru-ru": "Юбан мэйгэн",
+        "de-de": "Standardangriff: Yuuban Meigen",
+        "fr-fr": "Attaque normale : Battement flottant",
+        "es-es": "Ataque Normal: Ondeo de estandartes",
+        "id-id": "Normal Attack: Yuuban Meigen",
+        "th-th": "โจมตีปกติ: Yuuban Meigen",
+        "vi-vn": "Tấn Công Thường – Cung Đàn Lay Chiến Kỳ",
+        "zh-tw": "普通攻擊·行幡鳴弦"
+      },
+      "description": {
+        "pt-pt": "Ataque NormalRealiza até 3 ataques lançando Lâminas de Vento, infligindo Dano Anemo.Ataque CarregadoConsome uma certa quantidade de Stamina criando um campo de alta pressão, infligindo Dano Anemo em uma AdE após um curto período de canalização.Ataque ImersivoConvocando os poderes do Anemo para si, mergulha em direção ao chão a partir do ar, causando dano a todos os inimigos em seu caminho. Inflige Dano Anemo em uma AdE quando atinge o chão.",
+        "en-us": "Normal AttackPerforms up to 3 attacks using wind blades, dealing Anemo DMG.Charged AttackConsumes a certain amount of Stamina, gathers a build up of high wind pressure, and deals AoE Anemo DMG after a short casting time.Plunging AttackCalling upon the power of Anemo, the Wanderer plunges towards the ground from mid-air, damaging all opponents in his path. Deals AoE Anemo DMG upon impact with the ground.",
+        "ja-jp": "通常攻撃風刃を放ち、最大3段の連続攻撃を行い、風元素ダメージを与える。重撃一定のスタミナを消費し、短い詠唱をした後、前方に高圧気流を凝集して風元素範囲ダメージを与える。落下攻撃空中から風元素の力を凝集させながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に風元素範囲ダメージを与える。",
+        "zh-cn": "普通攻击释放风刃，进行至多三段的攻击，造成风元素伤害。重击消耗一定体力，短暂咏唱后，在前方凝聚高压气场，造成风元素范围伤害。下落攻击凝聚风元素的力量，从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成风元素范围伤害。",
+        "ko-kr": "일반 공격바람의 칼날로 3단 공격을 날려서 바람 원소 피해를 준다.강공격일정 스태미나를 소모해, 짧은 영창 후 전방에 고압 필드를 생성하여 바람 원소 범위 피해를 준다.낙하 공격바람 원소의 힘을 하나로 모은 다음 공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 바람 원소 범위 피해를 준다",
+        "ru-ru": "Обычная атака:До трёх выстрелов клинками ветра, наносящих Анемо урон.Заряженная атака:Короткое заклинание,  на которое тратится определённое количество выносливости. Накапливает давление ветра перед собой и наносит Анемо урон по площади.Атака в падении:Накопив энергию ветра, стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит Анемо урон по площади.",
+        "de-de": "StandardangriffEntfesselt Windklingen, um bis zu 3 Angriffe auszuführen und verursacht Anemo-Schaden.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und konzentriert nach kurzer Aufladezeit vor sich ein Hochdruckfeld, das Anemo-Flächenschaden verursacht.Angriff aus dem FallKonzentriert die Anemo-Kraft, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Anemo-Flächenschaden.",
+        "fr-fr": "Attaque normaleUtilise des lames de vent pour enchaîner jusqu'à 3 attaques qui infligent des DGT Anémo.Attaque chargéeConsomme de l'endurance pour concentrer un champ à haute pression en avant et infliger des DGT Anémo de zone après un court délai.Attaque plongeantePlonge depuis les airs en concentrant ses pouvoirs Anémo, infligeant des DGT aux ennemis en chemin et des DGT Anémo de zone à l'impact.",
+        "es-es": "Ataque NormalLibera ráfagas de viento cortante para realizar hasta 3 ataques que infligen Daño Anemo.Ataque CargadoConsume una cierta cantidad de Aguante, crea una acumulación de aire a presión e inflige Daño Anemo en el AdE después de un corto tiempo de canalización.Ataque DescendenteConcentra el poder del viento, se lanza desde el aire para golpear el suelo y daña a los enemigos a su paso, infligiendo Daño Anemo en el AdE en el momento del impacto.",
+        "id-id": "Normal AttackMelancarkan hingga 3 serangan dengan Wind Blade yang mengakibatkan Anemo DMG.Charged AttackMengonsumsi sejumlah Stamina untuk mengumpulkan arus angin bertekanan tinggi di hadapan dan mengakibatkan Anemo DMG Area setelah jeda singkat.Plunging AttackMengumpulkan kekuatan Anemo dan menerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan Anemo DMG area saat mendarat.",
+        "th-th": "โจมตีปกติทำการโจมตีด้วยดาบลม มากสุด 3 ครั้ง เพื่อสร้างความเสียหายลมชาร์จโจมตีใช้พลังกายบางส่วน โดยหลังจากร่ายเสร็จ จะสร้างกระแสลมแรงดันสูงขึ้นตรงหน้า และสร้างความเสียหายลมวงกว้างโจมตีพุ่งลงจากอากาศรวบรวมพลังของธาตุลม กระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายลมวงกว้างเมื่อลงถึงพื้น",
+        "vi-vn": "Tấn Công ThườngDùng kiếm gió tấn công 3 lần, gây Sát Thương Nguyên Tố Phong.Trọng KíchTiêu hao thể lực nhất định, sau khi tụ lực, tạo ra luồng gió áp suất cao ở phía trước, gây Sát Thương Phạm Vi Nguyên Tố Phong.Tấn Công Khi ĐápNgưng tụ sức mạnh nguyên tố Phong, từ trên trời tấn công xuống mặt đất, tấn công kẻ địch trên đường, gây Sát Thương Phạm Vi Nguyên Tố Phong khi chạm đất.",
+        "zh-tw": "普通攻擊釋放風刃，進行至多三段的攻擊，造成風元素傷害。重擊消耗一定體力，短暫詠唱後，在前方凝聚高壓氣場，造成風元素範圍傷害。下落攻擊凝聚風元素的力量，從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成風元素範圍傷害。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/07/16791688/95142c2955e1896817dc3d6ff9639ac5_7954839234521363110.png"
+    },
+    {
+      "type": "elemental_skill",
+      "name": {
+        "pt-pt": "Pluma Ilustrada: Canção Graciosa",
+        "en-us": "Hanega: Song of the Wind",
+        "ja-jp": "羽画・風姿華歌",
+        "zh-cn": "羽画·风姿华歌",
+        "ko-kr": "우화·바람이 전하는 노래",
+        "ru-ru": "Ханэга: Песнь ветра",
+        "de-de": "Hanega – Gesang des Windes",
+        "fr-fr": "Hanega : Lyrisme des vents",
+        "es-es": "Ilustración emplumada: Balada del viento",
+        "id-id": "Hanega: Song of the Wind",
+        "th-th": "Hanega: Song of the Wind",
+        "vi-vn": "Hanega – Hùng Ca Gió Thoảng",
+        "zh-tw": "羽畫·風姿華歌"
+      },
+      "description": {
+        "pt-pt": "Condensa uma atmosfera poderosa para quebrar as correntes da terra. Inflige Dano Anemo contra os inimigos próximos e salta no ar, entrando no estado \"Postura do Vento\".Postura do VentoQuando o Andarilho está nesse estado, não consegue realizar Ataques Imersivos, e ao realizar Ataques Normais ou Carregados, eles serão convertidos em Vazio: Obliteração e Vazio: Lâmina de Vento respectivamente, aumentando o Dano causado e a AdE. Esses Danos são considerados Dano de Ataque Normal e Dano de Ataque Carregado respectivamente. Ao realizar Vazio: Lâmina de Vento, não consumirá Stamina.Quando o Andarilho estiver nesse estado, flutuará continuamente no ar, e seus movimentos possuirão as seguintes características:· Enquanto estiver flutuando, consumirá continuamente \"Poder Vazio\";· Ao correr, consumirá Poder Vazio adicional para acelerar no ar; ao Manter Pressionado para correr, consumirá continuamente Poder Vazio para se mover rapidamente. Esse efeito substituirá a corrida;· Ao saltar, consumirá Poder do Vazio adicional para flutuar mais alto; ao Manter Pressionado para saltar, consumirá continuamente Poder Vazio para aumentar sua altitude.Quando Poder Vazio for exaurido, esse estado terminará.Lançar a habilidade novamente durante a duração da Postura do Vento também encerrará esse estado.\"O mundo dança enquanto os segredos desabrocham como flores.\"",
+        "en-us": "Concentrates the power of the winds to break free from the shackles of the earth, dealing AoE Anemo DMG before leaping into the air and entering the Windfavored state.WindfavoredThe Wanderer cannot perform Plunging Attacks in this state. When he uses Normal and Charged Attacks, they will be converted into Kuugo: Fushoudan and Kuugo: Toufukai respectively; the DMG they deal and their AoE will be increased, and their DMG will be considered Normal and Charged Attack DMG respectively. Kuugo: Toufukai will not consume Stamina.The Wanderer will hover persistently during this time. While this state is active, the Wanderer's movements gain the following properties:· Persistently consumes Kuugoryoku Points to maintain this hovering state.· When sprinting, additional Kuugoryoku Points will be consumed for the Wanderer to accelerate mid-air. Holding sprint will cause persistent Kuugoryoku Point consumption to maintain speed. This effect will replace his default sprint.· Jumping expends extra Kuugoryoku Points to increase hovering height. Holding jump will cause persistent Kuugoryoku Point consumption to keep increasing hovering height.Running out of Kuugoryoku Points will end the Windfavored state.A second cast during the duration of Windfavored will also end it.\"The world dances in a weightless whirl, presenting a secret that can only be found in the flowers.\"",
+        "ja-jp": "大気の力を凝集し、その力を借りて大地の束縛を振り払う。周囲に風元素ダメージを与え、空中に飛び上がり「児姿優風」状態に入る。児姿優風この状態の時、放浪者は落下攻撃を行うことができない。また、通常攻撃と重撃はそれぞれ空居・不生断と空居・風刀界へと変わり、与えるダメージおよび影響範囲がアップする。これらのダメージは、それぞれ通常攻撃ダメージと重撃ダメージに見なされる。なお、空居・風刀界を行う際にスタミナは消費されない。この状態の時、放浪者は空中を浮遊し続け、行動は以下の特性を持つ。・持続的に「空居力」を消費し、浮遊状態を維持する。・ダッシュすると、追加で空居力を消費して空中を素早く移動する。長押しによるダッシュは持続的に空居力を消費し、高速移動を維持する。この効果はダッシュに取って代わる。・ジャンプすると、追加で空居力を消費して浮遊する高度を上げる。長押しによるジャンプは持続的に空居力を消費し、高度を上げ続ける。空居力が尽きると、この状態は解除される。児姿優風の継続時間中に再び元素スキルを発動すると、この状態は解除される。「浮世傾舞、秘すれば花。」",
+        "zh-cn": "凝聚大气的力量，借此摆脱大地的桎梏。对周围造成风元素伤害并跃升至空中，进入「优风倾姿」状态。优风倾姿流浪者在这种状态下，无法进行下落攻击，进行普通攻击与重击时，将转为进行空居·不生断与空居·刀风界，造成的伤害与影响范围提高，伤害分别视为普通攻击伤害与重击伤害。进行空居·刀风界将不消耗体力。流浪者在这种状态下将持续悬浮在空中。此时，流浪者的行动具有如下特性：·将持续消耗「空居力」，维持悬浮状态；·进行冲刺时，将额外消耗空居力在空中加速；长按冲刺时，将持续消耗空居力以维持快速移动。该效果将替代冲刺；·进行跳跃时，将额外消耗空居力抬升悬浮高度；长按跳跃时，将持续消耗空居力以持续抬升高度。空居力耗竭后将结束该状态。在优风倾姿持续期间再次施放将结束该状态。「浮世倾舞，秘则为花。」",
+        "ko-kr": "대기의 힘을 응축해서 대지의 속박으로부터 벗어난다. 주변에 바람 원소 피해를 주고, 공중으로 날아올라 「바람의 자태」 상태에 진입한다.바람의 자태해당 상태에서 방랑자는 낙하 공격을 할 수 없으며, 일반 공격과 강공격이 부유·단절과 부유·칼바람 영역으로 전환되어 가하는 피해와 영향 범위가 증가한다. 해당 피해는 일반 공격과 강공격 피해로 간주하며, 부유·칼바람 영역 시전 시 스태미나를 소모하지 않는다.방랑자는 해당 상태에서 계속 공중에 부유하며, 아래와 같은 특징을 보유한다:·지속적으로 「부유력」을 소모해 부유 상태를 유지한다.·대시 시, 부유력을 추가로 소모해 공중 가속을 한다. 대시 키를 홀드 할 경우, 부유력을 지속적으로 소모해 빠른 이동을 유지한다. 해당 효과는 기존 대시를 대체한다.·점프 시, 부유력을 추가로 소모해 더 높이 상승한다. 점프 키를 홀드할 경우, 부유력을 지속적으로 소모해 계속 상승한다.부유력을 모두 소모하면 해당 상태가 종료된다. 바람의 자태 지속 시간 동안 다시 스킬을 발동할 경우 바람의 자태 상태가 종료된다.「뜬세상의 춤, 그 비밀은 꽃 속에 숨어 있나니」",
+        "ru-ru": "Сосредотачивает силу ветров, чтобы освободиться от оков земли. Наносит Анемо урон по площади и подпрыгивает, переходя в состояние Избранника ветра.Избранник ветраВ этом состоянии Странник не может совершать атаки в падении. Обычные и заряженные атаки превращаются в Куго: Фусёдан и Куго: Тофукай, их урон и зона поражения увеличиваются. Их урон считается уроном обычной и заряженной атаки соответственно. Куго: Тофукай не расходует выносливость.В этом состоянии Странник парит, а его передвижение приобретает следующие характеристики:· Для поддержания парения потребляется куго-рёку.· При выполнении ускорения он расходует дополнительную куго-рёку и совершает ускорение в воздухе. При удержании ускорения постоянно расходуется куго-рёку, поддерживая быстрое перемещение. Этот эффект заменяет обычное ускорение· Выполняя прыжок, он дополнительно расходует куго-рёку и увеличивает высоту парения. При удержании прыжка постоянно расходуется куго-рёку и увеличивается высота парения.Когда куго-рёку заканчивается, это состояние прерывается.Повторная активация во время действия Избранника ветра также завершает это состояние.«Невесомыми кругами танцует мир, являя секреты, которые существуют только в цветах».",
+        "de-de": "Konzentriert die Kraft einer großen Luftmenge, um damit die Fesseln der Erde abzuwerfen. Verursacht in der Umgebung Anemo-Schaden und steigt in die Höhe, um in den Zustand „Haltung des eleganten Windes“ einzutreten.Haltung des eleganten WindesIn diesem Zustand kann der Wanderer keinen Angriff aus dem Fall ausführen. Sein Standardangriff und heftiger Schlag werden zu Kuugo – Fushoudan und Kuugo – Toufukai, deren Schaden als Schaden von Standardangriffen bzw. Schaden heftiger Schläge betrachtet werden. Beide Fähigkeiten erhalten einen erhöhten Wirkungsbereich und verursachen mehr Schaden. Kuugo – Toufukai verbraucht keine Ausdauer.In diesem Zustand kann der Wanderer fortlaufend in der Luft schweben und seine Aktionen haben die folgenden Eigenschaften:· Verbraucht fortlaufend „Kuugoryoku“ und bleibt im Schwebezustand.· Beim Rennen in der Luft wird zusätzlich Kuugoryoku verbraucht. Beim Gedrückthalten zum Beschleunigen wird fortlaufend Kuugoryoku verbraucht, um die schnelle Fortbewegung aufrechtzuerhalten, dieser Effekt ersetzt das Rennen.· Beim Springen wird zusätzlich Kuugoryoku verbraucht, um die Schwebehöhe zu erhöhen. Beim Gedrückthalten zum Springen wird fortlaufend Kuugoryoku verbraucht, um die Schwebehöhe fortlaufend zu erhöhen.Wird Kuugoryoku aufgebraucht, endet dieser Schwebezustand.Wird diese Fähigkeit innerhalb der Dauer von „Haltung des eleganten Windes“ erneut ausgelöst, endet dieser Zustand.„Die profane Welt tanzt ausgelassen und das Geheimnis schwebt wie eine Blüte, selbstvergessen.“",
+        "fr-fr": "Concentre la puissance des vents pour déjouer les contraintes de la terre, infligeant des DGT Anémo dans la zone avant de bondir dans les airs pour entrer dans l'état Bienfait venteux.Bienfait venteuxDans cet état, le Nomade ne peut pas effectuer d'attaques plongeantes, mais ses attaques normales et chargées sont respectivement converties en Kuugo : Fushoudan et Kuugo : Toufukai, dont les DGT et la zone d'effet sont augmentés. De plus, Kuugo : Toufukai ne consomme pas d'endurance.Pendant cette période, le Nomade flotte de façon continue dans les airs et ses mouvements bénéficient des caractéristiques suivantes :• Il consomme de façon continue du Kuugoryoku pour maintenir l'état de flottaison.• Son sprint consomme une quantité de Kuugoryoku supplémentaire pour qu'il puisse sprinter dans les airs.Maintenir le sprint consomme du Kuugoryoku de façon continue afin de maintenir la vitesse.• Sauter consomme une quantité de Kuugoryoku supplémentaire pour augmenter la hauteur de flottaison.Maintenir le saut consomme du Kuugoryoku de façon continue afin de continuer à monter.L'état prend fin une fois le Kuugoryoku épuisé.Utiliser à nouveau la compétence pendant la durée de Bienfait venteux met fin à l'état.« Le monde danse dans un tourbillon d'apesanteur, présentant un secret qui ne peut être décelé que dans les fleurs. »",
+        "es-es": "Concentra el poder del viento para liberarse de las cadenas terrenales. Inflige Daño Anemo alrededor de sí mismo y da un salto con el que entra en el estado de \"gracia del viento\".Gracia del vientoEl Trotamundos no puede ejecutar Ataques Descendentes, y sus Ataques Normales y Cargados se transforman respectivamente en \"Obliteración celeste\" y \"Ráfaga celeste\", los cuales infligen mayor daño y tienen una mayor AdE. El daño de estos dos ataques se considera, respectivamente, daño de Ataque Normal y de Ataque Cargado. Además, Ráfaga celeste no consume Aguante.En el estado de gracia del viento, el Trotamundos queda suspendido en el aire de manera continua, lo que otorga a sus movimientos las siguientes características:· Consume continuamente \"persistencia celeste\" para mantenerse en el aire.· Al esprintar, consume una cantidad de persistencia celeste adicional para acelerar mientras está suspendido en el aire. Al mantener pulsado para esprintar, consume continuamente esta persistencia para mantener la velocidad a la que se mueve. Este efecto sustituye al esprint.· Cuando salta, vuelve a gastar persistencia celeste para elevarse aún más. Al mantener pulsado para saltar, la persistencia celeste se consume de forma continua para seguir elevándose en el aire.Este estado terminará al agotar por completo la persistencia celeste o si se vuelve a usar esta habilidad mientras la gracia del viento está activa.El mundo efectúa una sutil danza para revelar un secreto que se oculta en las flores.",
+        "id-id": "Mengumpulkan kekuatan angin dan memanfaatkannya untuk terlepas dari cengkeraman tanah, mengakibatkan Anemo DMG di sekitarnya, melompat ke udara, dan memasuki status Windfavored.WindfavoredSaat berada dalam status ini, Wanderer tidak akan bisa melancarkan Plunging Attack. Normal Attack dan Charged Attack akan berubah menjadi Kuugo: Fushoudan dan Kuugo: Toufukai, meningkatkan DMG dan efek serangan area yang diakibatkan, DMG yang diakibatkan akan dianggap sebagai DMG Normal Attack dan DMG Charged Attack untuk masing-masingnya. Melancarkan Kuugo: Toufukai, tidak akan lagi mengonsumsi Stamina.Saat berada dalam status ini, Wanderer akan terus-menerus melayang di udara. Pada saat ini, gerakan Wanderer akan memiliki karakteristik sebagai berikut:· Akan terus-menerus mengonsumsi Kuugoryoku Point dan mempertahankan status melayang;· Saat berlari, akan mengonsumsi Kuugoryoku Point tambahan untuk akselerasi di udara; Pada saat menahan tombol berlari, akan terus-menerus mengonsumsi Kuugoryoku Point untuk mempertahankan kecepatan pergerakannya. Efek ini akan menggantikan mode Berlari bawaannya;· Saat melompat, akan mengonsumsi Kuugoryoku Point tambahan untuk meningkatkan ketinggian posisi melayang. Pada saat menahan tombol melompat, akan terus-menerus mengonsumsi Kuugoryoku Point untuk terus meningkatkan ketinggiannya.Status akan berakhir setelah Kuugoryoku Point habis dikonsumsi. Status Windfavored akan berakhir jika dilancarkan lagi selama durasinya masih aktif.\"Dunia menari dalam pusaran tanpa beban, mengungkapkan rahasia yang hanya dapat ditemukan di dalam bunga.\"",
+        "th-th": "รวบรวมพลังของสายลม เพื่อปลดเปลื้องพันธนาการจากผืนดิน และสร้างความเสียหายลมไปยังบริเวณรอบ ๆ จากนั้นจึงกระโจนขึ้นไปกลางอากาศ และเข้าสู่สถานะ \"Windfavored\"Windfavoredเมื่อผู้พเนจรอยู่ในสถานะนี้ จะไม่สามารถใช้การโจมตีพุ่งลงจากอากาศได้ และเมื่อใช้การโจมตีปกติ หรือการชาร์จโจมตี จะเปลี่ยนเป็นการใช้ Kuugo: Fushoudan หรือ Kuugo: Toufukai ซึ่งจะทำให้ความเสียหายที่สร้าง และพื้นที่ผลกระทบเพิ่มมากขึ้น โดยความเสียหายที่สร้าง จะถูกมองว่าเป็นความเสียหายของการโจมตีปกติ และความเสียหายของการชาร์จโจมตีตามลำดับ และการใช้ Kuugo: Toufukai จะไม่ใช้พลังกายเมื่ออยู่ในสถานะนี้ ผู้พเนจรจะลอยอยู่กลางอากาศอย่างต่อเนื่อง ซึ่งในช่วงเวลานี้ การเคลื่อนไหวของผู้",
+        "vi-vn": "Ngưng tụ sức mạnh, thoát ly sức ảnh hưởng của trọng lực, gây Sát Thương Nguyên Tố Phong cho xung quanh và bay lên, tiến vào trạng thái “Tựa Gió Bay Cao”.Tựa Gió Bay CaoKẻ Lang Thang trong trạng thái này sẽ không thể tấn công khi đáp. Khi tiến hành tấn công thường và trọng kích sẽ chuyển hóa thành Ngự Không – Bất Sinh Đoạn và Ngự Không – Phong Nhẫn Giới, tăng sát thương và phạm vi ảnh hưởng, sát thương lần lượt được tính thành sát thương tấn công thường và sát thương trọng kích. Khi thi triển Ngự Không – Phong Nhẫn Giới sẽ không tiêu hao thể lực.Kẻ Lang Thang trong trạng thái này sẽ liên tục lơ lửng trên không trung và hành động sẽ mang những đặc tính sau:·Liên tục tiêu hao “Ngự Không Lực” để duy trì trạng thái bay cao;·Khi xung kích, sẽ tiêu hao thêm Ngự Không Lực để tăng tốc trên không; Khi nhấn giữ xung kích, sẽ liên tục tiêu hao Ngự Không Lực để duy trì di chuyển nhanh. Hiệu quả này sẽ thay thế xung kích;·Khi nhảy sẽ tiêu hao thêm Ngự Không Lực để bay cao hơn; Khi nhấn giữ nhảy sẽ liên tục tiêu hao Ngự Không Lực để liên tục bay cao hơn.Ngự Không Lực khi tiêu hao hết sẽ kết thúc trạng thái này.Khi kích hoạt lần nữa Tựa Gió Bay Cao trong thời gian duy trì sẽ kết thúc trạng thái này.\"Thế gian vốn quay cuồng, bí mật giấu trong hoa.\"",
+        "zh-tw": "凝聚大氣的力量，藉此擺脫大地的桎梏。對周圍造成風元素傷害並躍升至空中，進入「優風傾姿」狀態。優風傾姿流浪者在這種狀態下，無法進行下落攻擊，進行普通攻擊與重擊時，將轉為進行空居·不生斷與空居·刀風界，造成的傷害與影響範圍提高，傷害分別視為普通攻擊傷害與重擊傷害。進行空居·刀風界將不消耗體力。流浪者在這種狀態下將持續懸浮在空中。此時，流浪者的行動具有如下特性：·將持續消耗「空居力」，維持懸浮狀態；·進行衝刺時，將額外消耗空居力在空中加速；長按衝刺時，將持續消耗空居力以維持快速移動。該效果將替代衝刺；·進行跳躍時，將額外消耗空居力抬升懸浮高度；長按跳躍時，將持續消耗空居力以持續抬升高度。空居力耗竭後將結束該狀態。在優風傾姿持續期間再次施放將結束該狀態。「浮世傾舞，秘則為花。」"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/07/16791688/052cd901b44cef8359f0bebb98404194_1164185889989446319.png"
+    },
+    {
+      "type": "elemental_burst",
+      "name": {
+        "pt-pt": "Kyogen: Cinco Atos",
+        "en-us": "Kyougen: Five Ceremonial Plays",
+        "ja-jp": "狂言・式楽伍番",
+        "zh-cn": "狂言·式乐五番",
+        "ko-kr": "교겐·악극 제5번",
+        "ru-ru": "Кёгэн: Пять церемониальных актов",
+        "de-de": "Kyougen – Fünf rituelle Stücke",
+        "fr-fr": "Kyougen : Gobandate en cinq actes",
+        "es-es": "Kyougen: Cinco actos",
+        "id-id": "Kyougen: Five Ceremonial Plays",
+        "th-th": "Kyougen: Five Ceremonial Plays",
+        "vi-vn": "Kyougen – Thức Lạc Ngũ Phiên",
+        "zh-tw": "狂言·式樂五番"
+      },
+      "description": {
+        "pt-pt": "Comprime o ar, criando um vácuo para esmagar todas as suas preocupações, infligindo Dano Anemo em uma AdE várias vezes.Se for lançado durante o estado Postura do Vento da Habilidade Elemental \"Pluma Ilustrada: Canção Graciosa\", encerrará esse estado.\"O céu lentamente se iluminará, os sonhos do presente e do passado serão como o pó a flutuar no ar.\"",
+        "en-us": "Compresses the atmosphere into a singular vacuum that grinds all troubles away, dealing multiple instances of AoE Anemo DMG.If the character is in the Windfavored state due to the skill \"Hanega: Song of the Wind,\" Windfavored state will end after casting.\"Bright be the narrowed gaze of the sky, casting its sight on dreams both past and present, like radiance washing over dust on the winds.\"",
+        "ja-jp": "大気を圧縮し、あらゆる煩悩を塵とする空洞を生み出し風元素範囲ダメージを複数回与える。元素スキル「羽画・風姿華歌」の児姿優風状態時、元素爆発を発動した後、児姿優風状態は解除される。「仄仄と　光そそぎし　朝焼けに　萩の風吹き　旧夢は沈みて」",
+        "zh-cn": "将大气压缩，化变为粉碎一切烦恼的空洞，造成多次风元素范围伤害。处于元素战技「羽画·风姿华歌」的优风倾姿状态下时，将在施放后结束优风倾姿状态。「仄仄天将明，今昔旧梦如尘影，浮沉萩风中。」",
+        "ko-kr": "대기를 압축해서 모든 번뇌를 분쇄하는 공동을 생성한다. 여러 번에 걸쳐 바람 원소 범위 피해를 준다.원소전투 스킬 「우화·바람이 전하는 노래」의 바람의 자태 상태 시, 해당 스킬 발동 후 바람의 자태 상태가 종료된다.「어슴푸레 날이 밝아오면 옛꿈은 마치 그림자처럼 바람 속에서 흩날리네」",
+        "ru-ru": "Сжимает атмосферу в одной точке и создаёт вакуум, уничтожающий все страдания, и наносит многократный Анемо урон по площади.Если персонаж находится в состоянии Избранника ветра навыка Ханэга: Песнь ветра, активация этого навыка завершит его.«Станет ясным небо, в котором, покачиваясь на ветру, плывут теням подобные грёзы о прошлом и настоящем».",
+        "de-de": "Komprimiert die Luft zu einem alle Sorgen zerschmetternden Vakuum und verursacht dabei mehrfach Anemo-Flächenschaden.Im Zustand Haltung des eleganten Windes der Elementarfähigkeit „Hanega – Gesang des Windes“ wird dieser Zustand nach dem Auslösen beendet.„Stück für Stück klart der Himmel auf, Träume, die waren und Träume, die sind, schweben im Wind.“",
+        "fr-fr": "Compresse l'atmosphère en une faille capable de mettre fin à tous les soucis, infligeant plusieurs fois des DGT Anémo de zone.Si le personnage est dans l'état Bienfait venteux accordé par « Hanega : lyrisme des vents », l'état prend fin après l'utilisation de cette compétence.« Brillant est le regard rétréci du ciel, jetant son regard sur les rêves passés et présents, comme l'éclat qui lave la poussière sous les vents. »",
+        "es-es": "Comprime el aire y lo transforma en una cavidad vacua capaz de acabar con todas las preocupaciones, y que inflige varias veces Daño Anemo en el AdE.Si se usa esta habilidad en el estado de gracia del viento de la Habilidad Elemental, Ilustración emplumada: Balada del viento, dicho estado se terminará.Poco a poco, el cielo se vuelve a iluminar, mientras los sueños de ayer y hoy flotan en el aire dejando una sombra que se difumina.",
+        "id-id": "Mengkompresi atmosfer di sekitar dan merubahnya menjadi sebuah lubang yang bisa memusnahkan seluruh kegelisahan, mengakibatkan beberapa kali Anemo DMG Area.Saat Karakter berada dalam status Windfavored dari skill \"Hanega: Song of the Wind\", status Windfavored akan berakhir setelah dilancarkan.\"Jadilah terang tatapan langit yang sempit, mengarahkan pandangannya pada mimpi, baik dulu dan sekarang, seperti pancaran cahaya yang menyapu debu di atas angin.\"",
+        "th-th": "บีบอัดอากาศให้กลายเป็นโพรงอากาศ ที่จะทำให้ทุกปัญหาแหลกเป็นผุยผง โดยจะทำให้เกิดความเสียหายลมวงกว้างหลายครั้งเมื่ออยู่ในสถานะ Windfavored ของสกิลธาตุ \"Hanega: Song of the Wind\" สถานะ Windfavored จะสิ้นสุดลงหลังจากที่ใช้\"ท้องฟ้าใกล้อรุณย่ำ ความฝันครั้งวันวานราวฝุ่นเงาที่ปลิดปลิว แล้วเลือนหายตามสายลม\"",
+        "vi-vn": "Nén khí và tạo ra hố đen nghiền nát tất cả phiền não, gây nhiều lần Sát Thương Phạm Vi Nguyên Tố Phong.Sau khi thi triển ở trong trạng thái Tựa Gió Bay Cao của Kỹ Năng Nguyên Tố “Hanega – Hùng Ca Gió Thoảng”, sẽ kết thúc trạng thái Tựa Gió Bay Cao.\"Trời âm u rồi sẽ rạng, quá khứ hôm nay như bụi trần, chôn vùi trong gió xưa.\"",
+        "zh-tw": "將大氣壓縮，化變為粉碎一切煩惱的空洞，造成多次風元素範圍傷害。處於元素戰技「羽畫·風姿華歌」的優風傾姿狀態下時，將在施放後結束優風傾姿狀態。「仄仄天將明，今昔舊夢如塵影，浮沉萩風中。」"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/07/16791688/5a55e705974f27b8bb86c628019d5ad9_1276049740483460388.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Flores de Jade",
+        "en-us": "Jade-Claimed Flower",
+        "ja-jp": "拾玉得花",
+        "zh-cn": "拾玉得花",
+        "ko-kr": "꽃이 된 옥",
+        "ru-ru": "Цветок нефрита",
+        "de-de": "Jadeblume",
+        "fr-fr": "Fleur de jade",
+        "es-es": "Flor de jade",
+        "id-id": "Jade-Claimed Flower",
+        "th-th": "Jade-Claimed Flower",
+        "vi-vn": "Lượm Ngọc Được Hoa",
+        "zh-tw": "拾玉得花"
+      },
+      "description": {
+        "pt-pt": "Ao lançar Pluma Ilustrada: Canção Graciosa e entrar em contato com Hydro/Pyro/Cryo/Electro, o estado atual de Postura do Vento obterá os seguintes bônus, de acordo com o elemento interagido:· Hydro: aumenta 20 de limite do Poder Vazio;· Pyro: aumenta o ATQ em 30%;· Cryo: aumenta a Taxa CRIT em 20%;· Electro: após atingir o inimigo com Ataque Normal e Carregado, recupera 0.8 de Energia Elemental. É possível restaurar Energia Elemental até 1 vez a cada 0.2s desta maneira.É possível obter até 2 tipos de bônus de diferentes elementos simultaneamente.",
+        "en-us": "If Hanega: Song of the Wind comes into contact with Hydro/Pyro/Cryo/Electro when it is unleashed, this instance of the Windfavored state will obtain buffs according to the contacted element(s):· Hydro: Kuugoryoku Point cap increases by 20.· Pyro: ATK increases by 30%.· Cryo: CRIT Rate increases by 20%.· Electro: When Normal and Charged Attacks hit an opponent, 0.8 Energy will be restored. Energy can be restored this way once every 0.2s.You can have up to 2 different kinds of these buffs simultaneously.",
+        "ja-jp": "羽画・風姿華歌を発動時、水元素/炎元素/氷元素/雷元素に触れると、触れた元素を基に現在の児姿優風状態に各種強化効果を与える。・水元素：空居力上限+20ポイント。・炎元素：攻撃力+30%。・氷元素：会心率+20%。・雷元素：通常攻撃および重撃が敵に命中した後、元素エネルギーが0.8ポイント回復する。この方式による元素エネルギー回復は、0.2秒毎に1回のみ可能。同時に獲得できる元素タイプと対応する強化効果は最大2種類まで。",
+        "zh-cn": "施放羽画·风姿华歌时，若接触了水元素/火元素/冰元素/雷元素，则会依据触及的元素，在此次优风倾姿状态下获得对应的强化效果：·水元素：空居力上限提升20点；·火元素：攻击力提升30%；·冰元素：暴击率提升20%；·雷元素：普通攻击与重击命中敌人后，恢复0.8点元素能量，每0.2秒至多通过上述方式恢复一次元素能量。同时至多获得2种元素对应的强化效果。",
+        "ko-kr": "우화·바람이 전하는 노래 발동 시 물 원소/불 원소/얼음 원소/번개 원소와 접촉하면 원소의 종류에 따라 이번 바람의 자태 상태에서 상응하는 강화 효과를 받는다.·물 원소: 최대 부유력 20pt 증가·불 원소: 공격력 30% 증가·얼음 원소: 치명타 확률 20% 증가·번개 원소: 일반 공격과 강공격이 적을 명중 후 원소 에너지를 0.8pt 회복한다. 해당 효과는 0.2초마다 최대 1회 발동한다.강화 효과는 동시에 최대 2개까지만 받을 수 있다",
+        "ru-ru": "Если Ханэга: Песнь ветра входит в контакт с Гидро, Пиро, Крио или Электро, в зависимости от элемента текущее состояние Избранника ветра получает соответствующие усиления:· Гидро: максимум куго-рёку повышается на 20 ед.· Пиро: сила атаки повышается на 30%.· Крио: шанс крит. попадания повышается на 20%.· Электро: попадания обычной и заряженной атакой восстанавливают 0,8 ед. энергии. Восстанавливать энергию таким образом можно раз в 0,2 сек..Одновременно может существовать 2 таких усиления.",
+        "de-de": "Verleiht dem diesmaligen Zustand „Haltung des eleganten Windes“ der Figur bei der Anwendung von Hanega – Gesang des Windes nach Kontakt mit dem Hydro-, Pyro-, Kryo- oder Elektro-Element die entsprechenden Verstärkungseffekte, je nachdem, mit welchem Element interagiert wurde:· Hydro: Erhöht das max. Kuugoryoku um 20 Punkte.· Pyro: Erhöht den ANG um 30%.· Kryo: Erhöht die KT um 20%.· Elektro: Stellt beim Treffen von Gegnern mit Standardangriffen und heftigen Schlägen 0,8 Punkt Elementarenergie wieder her, Abklingzeit 0,2 s.Es können gleichzeitig höchstens 2 unterschiedliche Verstärkungseffekte der entsprechenden Elemente verliehen werden.",
+        "fr-fr": "Si Hanega : Lyrisme des vents entre au contact de l'élémentHydro/Pyro/Cryo/Électro, l'état Bienfait venteux qui en résulte obtient l'un des effets de renforcement suivants selon l'élément concerné :• Hydro : la limite de Kuugoryoku augmente de 20 pts.• Pyro : l'ATQ augmente de 30%.• Cryo : le taux CRIT augmente de 20%.• Électro : les attaques normales et chargées restaurent 0,8 pt d'énergie élémentaire après avoir touché un ennemi. L'énergie élémentaire peut être restaurée une fois toutes les 0,2 s de cette manière.Un maximum de 2 types différents de ces effets de renforcement peut être obtenu simultanément.",
+        "es-es": "Al usar Ilustración emplumada: Balada del viento, si esta entra en contacto con Hydro, Pyro, Cryo o Electro, el actual estado de \"gracia del viento\" obtendrá los siguientes fortalecimientos dependiendo del elemento con el que entró en contacto la habilidad:· Hydro: el límite máximo de persistencia celeste aumenta en 20 pts.· Pyro: el ATQ aumenta en un 30%.· Cryo: la Prob. CRIT aumenta en un 20%.· Electro: recupera 0.8 pts. de Energía Elemental cuando golpea a un enemigo con un Ataque Normal o Cargado. Solo se puede recuperar Energía Elemental una vez cada 0.2 s de esta manera.Solo pueden obtenerse los fortalecimientos de hasta 2 elementos distintos al mismo tiempo.",
+        "id-id": "Saat Hanega: Song of the Wind dilancarkan dan berinteraksi dengan Hydro/Pyro/Cryo/Electro, akan memperoleh efek peningkatan untuk status Windfavored kali ini:· Hydro: Batas maksimum Kuugoryoku Point meningkat 20 point;· Pyro: ATK meningkat 30%;· Cryo: CRIT Rate meningkat 20%;· Electro: Setelah Normal Attack dan Charged Attack mengenai musuh, akan memulihkan 0,8 point Energy, Energy yang bisa dipulihkan dengan cara ini maksimum adalah setiap 0,2 detik sekali.Selain itu, efek peningkatan maksimum yang bisa didapatkan adalah dari 2 jenis elemen.",
+        "th-th": "เมื่อใช้ Hanega: Song of the Wind หากไปสัมผัสถูก ธาตุน้ำ/ธาตุไฟ/ธาตุน้ำแข็ง/ธาตุไฟฟ้า จะทำให้ Windfavored ในครั้งนี้ ได้รับการเสริมเอฟเฟกต์ที่เกี่ยวข้อง โดยขึ้นกับชนิดของธาตุที่สัมผัสโดน:· ธาตุน้ำ: ขีดจำกัดของแต้ม Kuugoryoku เพิ่มขึ้น 20 หน่วย;· ธาตุไฟ: พลังโจมตีเพิ่มขึ้น 30%;· ธาตุน้ำแข็ง: อัตราคริเพิ่มขึ้น 20%;· ธาตุไฟฟ้า: หลังจากที่การโจมตีปกติ และการชาร์จโจมตีถูกศัตรู จะฟื้นฟูพลังงานธาตุ 0.8 หน่วย โดยที่ทุก 0.2 วินาที จะสามารถฟื้นฟูพลังงานธาตุ ด้วยวิธีที่กล่าวข้างต้นนี้ได้มากสุดหนึ่งครั้งในช่วงเวลาเดียวกัน จะสามารถรับการเสริมเอฟเฟกต์ที่เกี่ยวข้องนี้ ด้วยธาตุได้มากสุด 2 ชนิด",
+        "vi-vn": "Khi thi triển Hanega – Hùng Ca Gió Thoảng, nếu tiếp xúc với Nguyên Tố Thủy/Nguyên Tố Hỏa/Nguyên Tố Băng/Nguyên Tố Lôi, sẽ căn cứ vào loại nguyên tố tiếp xúc để nhận được hiệu quả cường hóa tương ứng trong trạng thái Tựa Gió Bay Cao lần này:·Nguyên Tố Thủy: Giới hạn Ngự Không Lực tăng 20 điểm;·Nguyên Tố Hỏa: Tấn công tăng 30%;·Nguyên Tố Băng: Tỉ lệ bạo kích tăng 20%;·Nguyên Tố Lôi: Tấn công thường và trọng kích khi trúng kẻ địch sẽ hồi phục 0.8 điểm Năng Lượng Nguyên Tố, mỗi 0.2s tối đa hồi phục một lần bằng cách này.Cùng lúc tối đa nhận được 2 loại hiệu quả cường hóa nguyên tố tương ứng.",
+        "zh-tw": "施放羽畫·風姿華歌時，若接觸了水元素/火元素/冰元素/雷元素，則會依據觸及的元素，在此次優風傾姿狀態下獲得對應的強化效果：·水元素：空居力上限提升20點；·火元素：攻擊力提升30%；·冰元素：暴擊率提升20%；·雷元素：普通攻擊與重擊命中敵人後，恢復0.8點元素能量，每0.2秒至多透過上述方式恢復一次元素能量。同時至多獲得2種元素對應的強化效果。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/07/16791688/72b1a26293dab233b9196f9ee68a2d07_108645957165850559.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Brisa dos Sonhos Remanescentes",
+        "en-us": "Gales of Reverie",
+        "ja-jp": "夢跡一風",
+        "zh-cn": "梦迹一风",
+        "ko-kr": "몽상의 바람",
+        "ru-ru": "Бури грёз",
+        "de-de": "Brise der Träumerei",
+        "fr-fr": "Rafales de rêverie",
+        "es-es": "Céfiro de la ensoñación",
+        "id-id": "Gales of Reverie",
+        "th-th": "Gales of Reverie",
+        "vi-vn": "Gió Lốc Hão Huyền",
+        "zh-tw": "夢跡一風"
+      },
+      "description": {
+        "pt-pt": "Quando o Andarilho atinge o inimigo com Vazio: Obliteração ou Vazio: Lâmina de Vento no estado Postura do Vento, há 16% de chance de se obter o efeito \"Descida\": ao acelerar no ar sob o estado Postura do Vento, o efeito \"Descida\" será eliminado, não consumindo Poder Vazio para essa aceleração no ar, disparando também 4 Flechas de Vento que causarão Dano Anemo com base em 35% de seu ATQ.Para cada Vazio: Obliteração e Vazio: Lâmina de Vento que não gerarem \"Descida\", a probabilidade de produção do efeito durante o próximo ataque será aumentada em 12%. O cálculo da produção do efeito é feito 1 vez a cada 0.1s.",
+        "en-us": "When the Wanderer hits opponents with Kuugo: Fushoudan or Kuugo: Toufukai in his Windfavored state, he has a 16% chance to obtain the Descent effect: The next time the Wanderer accelerates in mid-air while in this instance of the Windfavored state, this effect will be removed, this acceleration instance will not consume any Kuugoryoku Points, and he will fire off 4 wind arrows that deal 35% of his ATK as Anemo DMG each.For each Kuugo: Fushoudan and Kuugo: Toufukai that does not produce this effect, the next attack of those types will have a 12% increased chance of producing it. The calculation of the effect production is done once every 0.1s.",
+        "ja-jp": "児姿優風状態時、放浪者の空居・不生断または空居・風刀界が敵に命中すると、16%の確率で「傾落」効果を獲得できる。「傾落」効果：放浪者は現在の児姿優風状態で空中ダッシュをすると空居力を消費せず、代わりに傾落効果を解除する。また同時に風の矢を4本放ち、それぞれ攻撃力の35%に相当する風元素ダメージを与える。空居・不生断および空居・風刀界で傾落効果が発動しなかった場合、次回の発動確率+12%。発動判定は0.1秒毎に1回のみ行われる。",
+        "zh-cn": "在优风倾姿状态下，流浪者的空居·不生断或空居·刀风界命中敌人时，有16%几率获得「倾落」效果：流浪者在本次优风倾姿的状态下进行空中加速时，将移除倾落效果，使此次空中加速不消耗空居力，并发射4枚风矢，分别造成35%攻击力的风元素伤害。空居·不生断与空居·刀风界未产生倾落效果时，会使下次产生概率提升12%；0.1秒内至多判定1次是否产生倾落效果。",
+        "ko-kr": "바람의 자태 상태일 때 방랑자의 부유·단절 또는 부유·칼바람 영역이 적을 명중 시 16% 확률로 「내리꽂기」 효과를 획득한다.「내리꽂기」 효과: 방랑자가 바람의 자태 상태에서 공중 가속 시, 내리꽂기 효과가 사라진다. 대신 이번 가속은 부유력을 소모하지 않으며, 바람 화살 4개를 발사해 각각 공격력의 35%만큼 바람 원소 피해를 준다.부유·단절과 부유·칼바람 영역으로 내리꽂기 효과를 획득하지 못할 경우 다음에 효과를 획득할 확률이 12% 증가한다. 0.1초 내 최대 1회 발동 여부를 판정한다",
+        "ru-ru": "Когда Странник в состоянии Избранника попадает по врагу Куго: Фусёдан или Куго: Тофукай, есть 16% шанс получить эффект Сошествие: ускорение в воздухе во время действия этого же состояния Избранника ветра прервёт этот эффект, данное ускорение не будет расходовать куго-рёку и Странник произведёт залп выстрелов из 4 стрел ветра, каждая из которых наносит Анемо урон, равный 35% силы атаки.Если Куго: Фусёдан или Куго: Тофукай не активировали этот эффект, шанс его активации следующим попаданием возрастает на 12%. Шанс активации возникает не чаще одного раза в 0,1 сек.",
+        "de-de": "Erhält beim Treffen von Gegnern mit Kuugo – Fushoudan oder Kuugo – Toufukai des Wanderers im Zustand „Haltung des eleganten Windes“ mit einer Wahrscheinlichkeit von 16% den Effekt „Anmut des Windes“: Beschleunigt der Wanderer im diesmaligen Zustand „Haltung des eleganten Windes“ in der Luft, wird dieser Effekt entfernt, sodass diese Beschleunigung in der Luft kein Kuugoryoku verbraucht und 4 Windpfeile abgeschossen werden, die jeweils Anemo-Schaden in Höhe von 35% ANG verursachen.Erzeugt ein Kuugo – Fushoudan oder Kuugo – Toufukai nicht den Effekt „Anmut des Windes“, wird die Wahrscheinlichkeit des Auslösens beim nächsten Treffer um 12% erhöht. 0,1 s Abklingzeit für die Beurteilung der Effekterzeugung.",
+        "fr-fr": "Lorsque le Nomade touche un ennemi avec une attaque normale ou chargée pendant l'état Bienfait venteux, il a 16% de chance d'obtenir l'effet Descente : lors de son prochain sprint pendant cet état de Bienfait venteux, l'effet est annulé, le sprint ne consomme aucun pt de Kuugoryoku et il tire 4 flèches de vent qui infligent chacune des DGT Anémo d'une valeur équivalente à 35% de son ATQ.Si son attaque normale ou chargée ne déclenche pas l'effet Descente, les chances de le déclencher la fois suivante passent à 12%. Le calcul du déclenchement de l'effet se fait une fois toutes les 0,1 s maximum.",
+        "es-es": "Cuando el Trotamundos golpea a un enemigo con Obliteración celeste o Ráfaga celeste mientras está en el estado de gracia del viento, tiene un 16% de probabilidad de obtener el efecto de \"precipitación\". Este efecto se eliminará cuando el Trotamundos acelere en el aire mientrás esté en el estado de gracia del viento, y hará que dicho acelerón no consuma persistencia celeste y dispare 4 proyectiles ventosos que infligen cada uno Daño Anemo basado en el 35% del ATQ.Si Obliteración celeste o Ráfaga celeste no generan el efecto de precipitación, la próxima vez que se ejecuten tendrán un 12% más de probabilidad de generarlo. El cálculo de la generación del efecto de precipitación solo puede ocurrir una vez cada 0.1 s.",
+        "id-id": "Saat berada dalam status Windfavored, saat Kuugo: Fushoudan atau Kuugo: Toufukai Wanderer mengenai musuh, memiliki 16% kesempatan untuk mendapatkan efek Descent: Saat Wanderer melakukan akselerasi di udara dalam status Windfavored kali ini, efek ini akan hilang, namun akselerasi kali ini tidak akan mengonsumsi Kuugoryoku Point dan akan menembakkan 4 buah panah angin, masing-masingnya akan mengakibatkan Anemo DMG sebesar 35% ATK.Saat Kuugo: Fushoudan atau Kuugo: Toufukai tidak menghasilkan efek Descent, kemungkinan efek untuk dihasilkan kali selanjutnya akan meningkat 12%; Perhitungan berhasil atau tidaknya efek ini terpicu akan dilakukan setiap 0,1 detik sekali.",
+        "th-th": "ภายใต้สถานะ Windfavored เมื่อ Kuugo: Fushoudan หรือ Kuugo: Toufukai ของผู้พเนจรถูกศัตรู จะมีโอกาส 16% ที่จะได้รับเอฟเฟกต์ \"Descent\": เมื่อผู้พเนจรทำการเร่งความเร็วกลางอากาศ ระหว่างที่อยู่ในสถานะ Windfavored ครั้งนี้ จะลบล้างเอฟเฟกต์ Descent ซึ่งจะทำให้การเร่งความเร็วครั้งนี้ไม่ใช้ \"แต้ม Kuugoryoku\" และยิงธนูลมออกไป 4 ลูก โดยที่แต่ละลูกจะสร้างความเสียหายลม เป็น 35% ของพลังโจมตีในตอนที่ใช้ Kuugo: Fushoudan และ Kuugo: Toufukai หากไม่เกิดเอฟเฟกต์ Descent จะทำให้โอกาสการเกิดในครั้งต่อไปเพิ่มขึ้น 12%; ในทุก 0.1 วินาที จะตัดสินมากสุด 1 ครั้ง ว่าจะเกิดเอฟเฟกต์ Descent หรือไม่",
+        "vi-vn": "Trong trạng thái Tựa Gió Bay Cao, khi Ngự Không – Bất Sinh Đoạn hoặc Ngự Không – Phong Nhẫn Giới của Kẻ Lang Thang đánh trúng kẻ địch, có tỷ lệ 16% nhận được hiệu ứng “Hạ Màn”: Khi Kẻ Lang Thang tăng tốc trên không trong trạng thái Tựa Gió Bay Cao lần này, sẽ xóa bỏ hiệu ứng Hạ Màn, khiến lần tăng tốc trên không này không tiêu hao Ngự Không Lực, đồng thời bắn ra 4 mũi tên gió, lần lượt gây Sát Thương Nguyên Tố Phong bằng 35% tấn công.Khi Ngự Không – Bất Sinh Đoạn và Ngự Không – Phong Nhẫn Giới chưa gây hiệu ứng Hạ Màn sẽ khiến tỉ lệ kích hoạt lần sau tăng 12%; Trong 0.1s tối đa phán đoán 1 lần xem có kích hoạt hiệu ứng Hạ Màn hay không.",
+        "zh-tw": "在優風傾姿狀態下，流浪者的空居·不生斷或空居·刀風界命中敵人時，有16%機率獲得「傾落」效果：流浪者在本次優風傾姿的狀態下進行空中加速時，將移除傾落效果，使此次空中加速不消耗空居力，並發射4枚風矢，分別造成35%攻擊力的風元素傷害。空居·不生斷與空居·刀風界未產生傾落效果時，會使下次產生機率提升12%；0.1秒內至多判定1次是否產生傾落效果。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/07/16791688/73ab113323b78f97952f31af88fce348_8329907474618384142.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Tocar dos Ventos Rodopiantes",
+        "en-us": "Strum the Swirling Winds",
+        "ja-jp": "廻色雲弦",
+        "zh-cn": "廻色云弦",
+        "ko-kr": "몰아치는 바람의 현",
+        "ru-ru": "Струны кружащих ветров",
+        "de-de": "Saiten der wirbelnden Wolken",
+        "fr-fr": "Accord des vents tourbillonnants",
+        "es-es": "Acordes nubosos",
+        "id-id": "Strum the Swirling Winds",
+        "th-th": "Strum the Swirling Winds",
+        "vi-vn": "Cung Đàn Gió Xoáy",
+        "zh-tw": "廻色雲弦"
+      },
+      "description": {
+        "pt-pt": "Reduz o consumo de Mora necessário para ascender Arcos e Catalisadores em 50%.",
+        "en-us": "Mora expended when ascending Bows and Catalysts is decreased by 50%.",
+        "ja-jp": "弓と法器を突破する時、消費するモラ-50%。",
+        "zh-cn": "突破弓与法器时，消耗的摩拉数量减少50%。",
+        "ko-kr": "활과 법구 무기 돌파 시 소모하는 모라가 50% 감소한다",
+        "ru-ru": "При возвышении стрелкового оружия и катализаторов тратится на 50% меньше моры.",
+        "de-de": "Verringert die für den Aufstieg von Katalysatoren oder Bögen verbrauchte Menge an Mora um 50%.",
+        "fr-fr": "Les moras utilisés lors de l'élévation de catalyseurs et d'arcs sont réduits de 50 %.",
+        "es-es": "Reduce en un 50% los Moras necesarios para ascender arcos y catalizadores.",
+        "id-id": "Mora yang terkonsumsi untuk melakukan Ascend Senjata Bow dan Catalyst berkurang 50%.",
+        "th-th": "เมื่อเลื่อนขั้นธนูและสื่อเวท จำนวน Mora ที่ต้องใช้จะลดลง 50%",
+        "vi-vn": "Khi đột phá cung và pháp khí, lượng Mora tiêu hao giảm 50%.",
+        "zh-tw": "突破弓與法器時，消耗的摩拉數量減少50%。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/07/16791688/59984b47896ee9f03f1b54d3104b1c87_6628598925877767449.png"
+    }
+  ],
+  "talentAttributes": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Tocar da Bandeira Trêmula",
+        "en-us": "Yuuban Meigen",
+        "ja-jp": "幡舞鳴弦",
+        "zh-cn": "普通攻击·行幡鸣弦",
+        "ko-kr": "일반 공격·깃발과 메이겐",
+        "ru-ru": "Юбан мэйгэн",
+        "de-de": "Standardangriff: Yuuban Meigen",
+        "fr-fr": "Attaque normale : Battement flottant",
+        "es-es": "Ataque Normal: Ondeo de estandartes",
+        "id-id": "Normal Attack: Yuuban Meigen",
+        "th-th": "โจมตีปกติ: Yuuban Meigen",
+        "vi-vn": "Tấn Công Thường – Cung Đàn Lay Chiến Kỳ",
+        "zh-tw": "普通攻擊·行幡鳴弦"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Dano do 1° Golpe",
+            "en-us": "1-Hit DMG",
+            "ja-jp": "1段ダメージ",
+            "zh-cn": "一段伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон атаки 1",
+            "de-de": "SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tahap 1",
+            "th-th": "ความเสียหายขั้น 1",
+            "vi-vn": "Sát Thương Lần 1",
+            "zh-tw": "一段傷害"
+          },
+          "values": [
+            "68.71%",
+            "74.31%",
+            "79.90%",
+            "87.89%",
+            "93.48%",
+            "99.87%",
+            "108.66%",
+            "117.45%",
+            "126.24%",
+            "135.83%",
+            "145.42%",
+            "155.01%",
+            "164.59%",
+            "174.18%",
+            "183.77%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 2° Golpe",
+            "en-us": "2-Hit DMG",
+            "ja-jp": "2段ダメージ",
+            "zh-cn": "二段伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон атаки 2",
+            "de-de": "SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2.º golpe",
+            "id-id": "DMG Tahap 2",
+            "th-th": "ความเสียหายขั้น 2",
+            "vi-vn": "Sát Thương Lần 2",
+            "zh-tw": "二段傷害"
+          },
+          "values": [
+            "65.02%",
+            "70.31%",
+            "75.60%",
+            "83.16%",
+            "88.45%",
+            "94.50%",
+            "102.82%",
+            "111.13%",
+            "119.45%",
+            "128.52%",
+            "137.59%",
+            "146.66%",
+            "155.74%",
+            "164.81%",
+            "173.88%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 3° Golpe",
+            "en-us": "3-Hit DMG",
+            "ja-jp": "3段ダメージ",
+            "zh-cn": "三段伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон атаки 3",
+            "de-de": "SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tahap 3",
+            "th-th": "ความเสียหายขั้น 3",
+            "vi-vn": "Sát Thương Lần 3",
+            "zh-tw": "三段傷害"
+          },
+          "values": [
+            "47.64% + 47.64%",
+            "51.52% + 51.52%",
+            "55.4% + 55.4%",
+            "60.94% + 60.94%",
+            "64.82% + 64.82%",
+            "69.25% + 69.25%",
+            "75.34% + 75.34%",
+            "81.44% + 81.44%",
+            "87.53% + 87.53%",
+            "94.18% + 94.18%",
+            "100.83% + 100.83%",
+            "107.48% + 107.48%",
+            "114.12% + 114.12%",
+            "120.77% + 120.77%",
+            "127.42% + 127.42%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Ataque Carregado",
+            "en-us": "Charged Attack DMG",
+            "ja-jp": "重撃ダメージ",
+            "zh-cn": "重击伤害",
+            "ko-kr": "강공격 피해",
+            "ru-ru": "Урон заряженной атаки",
+            "de-de": "SCH heftiger Schläge",
+            "fr-fr": "DGT attaque chargée",
+            "es-es": "Daño de ATQ Cargado",
+            "id-id": "DMG Charged Attack",
+            "th-th": "ความเสียหายชาร์จโจมตี",
+            "vi-vn": "Sát Thương Trọng Kích",
+            "zh-tw": "重擊傷害"
+          },
+          "values": [
+            "132.08%",
+            "141.99%",
+            "151.89%",
+            "165.10%",
+            "175.01%",
+            "184.91%",
+            "198.12%",
+            "211.33%",
+            "224.54%",
+            "237.74%",
+            "250.95%",
+            "264.16%",
+            "280.67%",
+            "297.18%",
+            "313.69%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Consumo de Stamina de Ataque Carregado",
+            "en-us": "Charged Attack Stamina Cost",
+            "ja-jp": "重撃スタミナ消費",
+            "zh-cn": "重击体力消耗",
+            "ko-kr": "강공격 스태미나 소모",
+            "ru-ru": "Потребление выносливости",
+            "de-de": "Ausdauerverbrauch heftiger Schläge",
+            "fr-fr": "Coût d'endurance attaque chargée",
+            "es-es": "Coste de Aguante de ATQ Cargado",
+            "id-id": "Konsumsi Stamina Charged Attack",
+            "th-th": "ชาร์จโจมตีใช้พลังกาย",
+            "vi-vn": "Thể Lực Trọng Kích Tiêu Hao",
+            "zh-tw": "重擊體力消耗"
+          },
+          "values": [
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50",
+            "50"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Durante a Queda",
+            "en-us": "Plunge DMG",
+            "ja-jp": "落下期間のダメージ",
+            "zh-cn": "下坠期间伤害",
+            "ko-kr": "낙하 기간 피해",
+            "ru-ru": "Урон в падении",
+            "de-de": "SCH beim Fallen",
+            "fr-fr": "DGT durant la chute",
+            "es-es": "Daño de Caída",
+            "id-id": "DMG Selama Plunge",
+            "th-th": "ความเสียหายพุ่งลง",
+            "vi-vn": "Sát Thương Khi Rơi",
+            "zh-tw": "下墜期間傷害"
+          },
+          "values": [
+            "56.83%",
+            "61.45%",
+            "66.08%",
+            "72.69%",
+            "77.31%",
+            "82.60%",
+            "89.87%",
+            "97.14%",
+            "104.41%",
+            "112.34%",
+            "120.27%",
+            "128.20%",
+            "136.12%",
+            "144.05%",
+            "151.98%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Queda de Baixa/Alta Altitude",
+            "en-us": "Low/High Plunge DMG",
+            "ja-jp": "低空/高空落下攻撃ダメージ",
+            "zh-cn": "低空/高空坠地冲击伤害",
+            "ko-kr": "저공/고공 추락 충격 피해",
+            "ru-ru": "Урон низкого/высокого удара",
+            "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
+            "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Daño de impacto de caída baja/alta",
+            "id-id": "DMG Plunge attack Min./Maks.",
+            "th-th": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+            "vi-vn": "Sát Thương Khi Rơi Từ Độ Cao Thấp/Cao",
+            "zh-tw": "低空/高空墜地衝擊傷害"
+          },
+          "values": [
+            "113.63% / 141.93%",
+            "122.88% / 153.49%",
+            "132.13% / 165.04%",
+            "145.35% / 181.54%",
+            "154.59% / 193.1%",
+            "165.16% / 206.3%",
+            "179.7% / 224.45%",
+            "194.23% / 242.61%",
+            "208.77% / 260.76%",
+            "224.62% / 280.57%",
+            "240.48% / 300.37%",
+            "256.34% / 320.18%",
+            "272.19% / 339.98%",
+            "288.05% / 359.79%",
+            "303.9% / 379.59%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_skill",
+      "talentName": {
+        "pt-pt": "Pluma Ilustrada: Canção Graciosa",
+        "en-us": "Hanega: Song of the Wind",
+        "ja-jp": "羽画・風姿華歌",
+        "zh-cn": "羽画·风姿华歌",
+        "ko-kr": "우화·바람이 전하는 노래",
+        "ru-ru": "Ханэга: Песнь ветра",
+        "de-de": "Hanega – Gesang des Windes",
+        "fr-fr": "Hanega : Lyrisme des vents",
+        "es-es": "Ilustración emplumada: Balada del viento",
+        "id-id": "Hanega: Song of the Wind",
+        "th-th": "Hanega: Song of the Wind",
+        "vi-vn": "Hanega – Hùng Ca Gió Thoảng",
+        "zh-tw": "羽畫·風姿華歌"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv1",
+            "Nv2",
+            "Nv3",
+            "Nv4",
+            "Nv5",
+            "Nv6",
+            "Nv7",
+            "Nv8",
+            "Nv9",
+            "Nv10",
+            "Nv11",
+            "Nv12",
+            "Nv13",
+            "Nv14",
+            "Nv15"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Habilidade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "95.20%",
+            "102.34%",
+            "109.48%",
+            "119%",
+            "126.14%",
+            "133.28%",
+            "142.80%",
+            "152.32%",
+            "161.84%",
+            "171.36%",
+            "180.88%",
+            "190.40%",
+            "202.30%",
+            "214.20%",
+            "226.10%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Vazio: Obliteração",
+            "en-us": "Kuugo: Fushoudan DMG",
+            "ja-jp": "空居・不生断のダメージ",
+            "zh-cn": "空居·不生断",
+            "ko-kr": "부유·단절 피해",
+            "ru-ru": "Урон Куго: Фусёдан",
+            "de-de": "SCH von Kuugo – Fushoudan",
+            "fr-fr": "DGT Kuugo : Fushoudan",
+            "es-es": "Daño de Obliteración celeste",
+            "id-id": "DMG Kuugo: Fushoudan",
+            "th-th": "ความเสียหาย Kuugo: Fushoudan",
+            "vi-vn": "Sát Thương Ngự Không – Bất Sinh Đoạn",
+            "zh-tw": "空居·不生斷傷害"
+          },
+          "values": [
+            "132.98% do Dano de Ataque Normal",
+            "134.96% do Dano de Ataque Normal",
+            "136.93% do Dano de Ataque Normal",
+            "139.5% do Dano de Ataque Normal",
+            "141.47% do Dano de Ataque Normal",
+            "143.45% do Dano de Ataque Normal",
+            "146.02% do Dano de Ataque Normal",
+            "148.58% do Dano de Ataque Normal",
+            "151.15% do Dano de Ataque Normal",
+            "153.72% do Dano de Ataque Normal",
+            "156.29% do Dano de Ataque Normal",
+            "158.85% do Dano de Ataque Normal",
+            "161.42% do Dano de Ataque Normal",
+            "163.99% do Dano de Ataque Normal",
+            "166.56% do Dano de Ataque Normal"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Vazio: Lâmina de Vento",
+            "en-us": "Kuugo: Toufukai DMG",
+            "ja-jp": "空居・風刀界のダメージ",
+            "zh-cn": "空居·刀风界",
+            "ko-kr": "부유·칼바람 영역 피해",
+            "ru-ru": "Урон Куго: Тофукай",
+            "de-de": "SCH von Kuugo – Toufukai",
+            "fr-fr": "DGT Kuugo : Toufukai",
+            "es-es": "Daño de Ráfaga celeste",
+            "id-id": "DMG Kuugo: Toufukai",
+            "th-th": "ความเสียหาย Kuugo: Toufukai",
+            "vi-vn": "Sát Thương Ngự Không – Phong Nhẫn Giới",
+            "zh-tw": "空居·刀風界傷害"
+          },
+          "values": [
+            "126.39% do Dano de Ataque Carregado",
+            "127.97% do Dano de Ataque Carregado",
+            "129.55% do Dano de Ataque Carregado",
+            "131.6% do Dano de Ataque Carregado",
+            "133.18% do Dano de Ataque Carregado",
+            "134.76% do Dano de Ataque Carregado",
+            "136.81% do Dano de Ataque Carregado",
+            "138.87% do Dano de Ataque Carregado",
+            "140.92% do Dano de Ataque Carregado",
+            "142.98% do Dano de Ataque Carregado",
+            "145.03% do Dano de Ataque Carregado",
+            "147.08% do Dano de Ataque Carregado",
+            "149.14% do Dano de Ataque Carregado",
+            "151.19% do Dano de Ataque Carregado",
+            "153.25% do Dano de Ataque Carregado"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Poder Vazio Inicial",
+            "en-us": "Initial Kuugoryoku Points",
+            "ja-jp": "初期空居力",
+            "zh-cn": "初始空居力",
+            "ko-kr": "초기 부유력",
+            "ru-ru": "Исходная куго-рёку",
+            "de-de": "Anfängliches Kuugoryoku",
+            "fr-fr": "Kuugoryoku de départ",
+            "es-es": "Persistencia celeste inicial",
+            "id-id": "Initial Kuugoryouku Point",
+            "th-th": "แต้ม Kuugoryoku ในตอนเริ่ม",
+            "vi-vn": "Ngự Không Lực Ban Đầu",
+            "zh-tw": "初始空居力"
+          },
+          "values": [
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos",
+            "100 pontos"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_burst",
+      "talentName": {
+        "pt-pt": "Kyogen: Cinco Atos",
+        "en-us": "Kyougen: Five Ceremonial Plays",
+        "ja-jp": "狂言・式楽伍番",
+        "zh-cn": "狂言·式乐五番",
+        "ko-kr": "교겐·악극 제5번",
+        "ru-ru": "Кёгэн: Пять церемониальных актов",
+        "de-de": "Kyougen – Fünf rituelle Stücke",
+        "fr-fr": "Kyougen : Gobandate en cinq actes",
+        "es-es": "Kyougen: Cinco actos",
+        "id-id": "Kyougen: Five Ceremonial Plays",
+        "th-th": "Kyougen: Five Ceremonial Plays",
+        "vi-vn": "Kyougen – Thức Lạc Ngũ Phiên",
+        "zh-tw": "狂言·式樂五番"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Dano de Habilidade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "147.2% x5",
+            "158.24% x5",
+            "169.28% x5",
+            "184% x5",
+            "195.04% x5",
+            "206.08% x5",
+            "220.8% x5",
+            "235.52% x5",
+            "250.24% x5",
+            "264.96% x5",
+            "279.68% x5",
+            "294.4% x5",
+            "312.8% x5",
+            "331.2% x5",
+            "349.6% x5"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Energia Elemental",
+            "en-us": "Energy Cost",
+            "ja-jp": "元素エネルギー",
+            "zh-cn": "元素能量",
+            "ko-kr": "원소 에너지",
+            "ru-ru": "Потребление энергии",
+            "de-de": "Elementarenergie",
+            "fr-fr": "Énergie élémentaire",
+            "es-es": "Energía Elemental",
+            "id-id": "Konsumsi Energy",
+            "th-th": "พลังงานธาตุ",
+            "vi-vn": "Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量"
+          },
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "talentMaterials": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Tocar da Bandeira Trêmula",
+        "en-us": "Yuuban Meigen",
+        "ja-jp": "幡舞鳴弦",
+        "zh-cn": "普通攻击·行幡鸣弦",
+        "ko-kr": "일반 공격·깃발과 메이겐",
+        "ru-ru": "Юбан мэйгэн",
+        "de-de": "Standardangriff: Yuuban Meigen",
+        "fr-fr": "Attaque normale : Battement flottant",
+        "es-es": "Ataque Normal: Ondeo de estandartes",
+        "id-id": "Normal Attack: Yuuban Meigen",
+        "th-th": "โจมตีปกติ: Yuuban Meigen",
+        "vi-vn": "Tấn Công Thường – Cung Đàn Lay Chiến Kỳ",
+        "zh-tw": "普通攻擊·行幡鳴弦"
+      },
+      "materials": [
+        {
+          "level": 2,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 12500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "2689",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/440a7f5e5373800912aa0b3c77c59dbc_8134620576781785423.png",
+              "amount": 3,
+              "name": {
+                "pt-pt": "Ensinamentos de Práxis",
+                "en-us": "Teachings of Praxis",
+                "ja-jp": "篤行の教え",
+                "zh-cn": "笃行的教导",
+                "ko-kr": "실천의 가르침",
+                "ru-ru": "Учения о Честности",
+                "de-de": "Lehren der Praxis",
+                "fr-fr": "Enseignement de l'Usage",
+                "es-es": "Enseñanzas de la praxis",
+                "id-id": "Teachings of Praxis",
+                "th-th": "Teachings of Praxis",
+                "vi-vn": "Bài Giảng Của Thực Hành",
+                "zh-tw": "篤行的教導"
+              }
+            },
+            {
+              "id": "1248",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Old%20Handguard_icon.png",
+              "amount": 6,
+              "name": {
+                "pt-pt": "Protetor de Mão Velho",
+                "en-us": "Old Handguard",
+                "ja-jp": "古びた鍔",
+                "zh-cn": "破旧的刀镡",
+                "ko-kr": "오래된 코등이",
+                "ru-ru": "Старая гарда",
+                "de-de": "Alter Handschutz",
+                "fr-fr": "Garde-main ancien",
+                "es-es": "Guardamano viejo",
+                "id-id": "Old Handguard",
+                "th-th": "Old Handguard",
+                "vi-vn": "Kiếm Cách Cũ Nát",
+                "zh-tw": "破舊的刀鐔"
+              }
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 17500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "2690",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/d6fcbf4c3300ba70aa974510a93518c4_2665149939312087059.png",
+              "amount": 2,
+              "name": {
+                "pt-pt": "Guia da Práxis",
+                "en-us": "Guide to Praxis",
+                "ja-jp": "篤行の導き",
+                "zh-cn": "笃行的指引",
+                "ko-kr": "실천의 인도",
+                "ru-ru": "Указания о Честности",
+                "de-de": "Anleitung zur Praxis",
+                "fr-fr": "Guide de l'Usage",
+                "es-es": "Guía de la praxis",
+                "id-id": "Guide to Praxis",
+                "th-th": "Guide to Praxis",
+                "vi-vn": "Hướng Dẫn Của Thực Hành",
+                "zh-tw": "篤行的指引"
+              }
+            },
+            {
+              "id": "711",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Kageuchi%20Handguard_icon.png",
+              "amount": 3,
+              "name": {
+                "pt-pt": "Protetor de Mão Kageuchi",
+                "en-us": "Kageuchi Handguard",
+                "ja-jp": "影打の鍔",
+                "zh-cn": "影打刀镡",
+                "ko-kr": "카게우치 코등이",
+                "ru-ru": "Гарда кагэути",
+                "de-de": "Kageuchi-Handschutz",
+                "fr-fr": "Garde-main kageuchi",
+                "es-es": "Guardamano gemelo",
+                "id-id": "Kageuchi Handguard",
+                "th-th": "Kageuchi Handguard",
+                "vi-vn": "Kiếm Cách Bản Sao",
+                "zh-tw": "影打刀鐔"
+              }
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 25000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "2690",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/d6fcbf4c3300ba70aa974510a93518c4_2665149939312087059.png",
+              "amount": 4,
+              "name": {
+                "pt-pt": "Guia da Práxis",
+                "en-us": "Guide to Praxis",
+                "ja-jp": "篤行の導き",
+                "zh-cn": "笃行的指引",
+                "ko-kr": "실천의 인도",
+                "ru-ru": "Указания о Честности",
+                "de-de": "Anleitung zur Praxis",
+                "fr-fr": "Guide de l'Usage",
+                "es-es": "Guía de la praxis",
+                "id-id": "Guide to Praxis",
+                "th-th": "Guide to Praxis",
+                "vi-vn": "Hướng Dẫn Của Thực Hành",
+                "zh-tw": "篤行的指引"
+              }
+            },
+            {
+              "id": "711",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Kageuchi%20Handguard_icon.png",
+              "amount": 4,
+              "name": {
+                "pt-pt": "Protetor de Mão Kageuchi",
+                "en-us": "Kageuchi Handguard",
+                "ja-jp": "影打の鍔",
+                "zh-cn": "影打刀镡",
+                "ko-kr": "카게우치 코등이",
+                "ru-ru": "Гарда кагэути",
+                "de-de": "Kageuchi-Handschutz",
+                "fr-fr": "Garde-main kageuchi",
+                "es-es": "Guardamano gemelo",
+                "id-id": "Kageuchi Handguard",
+                "th-th": "Kageuchi Handguard",
+                "vi-vn": "Kiếm Cách Bản Sao",
+                "zh-tw": "影打刀鐔"
+              }
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 30000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "2690",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/d6fcbf4c3300ba70aa974510a93518c4_2665149939312087059.png",
+              "amount": 6,
+              "name": {
+                "pt-pt": "Guia da Práxis",
+                "en-us": "Guide to Praxis",
+                "ja-jp": "篤行の導き",
+                "zh-cn": "笃行的指引",
+                "ko-kr": "실천의 인도",
+                "ru-ru": "Указания о Честности",
+                "de-de": "Anleitung zur Praxis",
+                "fr-fr": "Guide de l'Usage",
+                "es-es": "Guía de la praxis",
+                "id-id": "Guide to Praxis",
+                "th-th": "Guide to Praxis",
+                "vi-vn": "Hướng Dẫn Của Thực Hành",
+                "zh-tw": "篤行的指引"
+              }
+            },
+            {
+              "id": "711",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Kageuchi%20Handguard_icon.png",
+              "amount": 6,
+              "name": {
+                "pt-pt": "Protetor de Mão Kageuchi",
+                "en-us": "Kageuchi Handguard",
+                "ja-jp": "影打の鍔",
+                "zh-cn": "影打刀镡",
+                "ko-kr": "카게우치 코등이",
+                "ru-ru": "Гарда кагэути",
+                "de-de": "Kageuchi-Handschutz",
+                "fr-fr": "Garde-main kageuchi",
+                "es-es": "Guardamano gemelo",
+                "id-id": "Kageuchi Handguard",
+                "th-th": "Kageuchi Handguard",
+                "vi-vn": "Kiếm Cách Bản Sao",
+                "zh-tw": "影打刀鐔"
+              }
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 37500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "2690",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/d6fcbf4c3300ba70aa974510a93518c4_2665149939312087059.png",
+              "amount": 9,
+              "name": {
+                "pt-pt": "Guia da Práxis",
+                "en-us": "Guide to Praxis",
+                "ja-jp": "篤行の導き",
+                "zh-cn": "笃行的指引",
+                "ko-kr": "실천의 인도",
+                "ru-ru": "Указания о Честности",
+                "de-de": "Anleitung zur Praxis",
+                "fr-fr": "Guide de l'Usage",
+                "es-es": "Guía de la praxis",
+                "id-id": "Guide to Praxis",
+                "th-th": "Guide to Praxis",
+                "vi-vn": "Hướng Dẫn Của Thực Hành",
+                "zh-tw": "篤行的指引"
+              }
+            },
+            {
+              "id": "711",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Kageuchi%20Handguard_icon.png",
+              "amount": 9,
+              "name": {
+                "pt-pt": "Protetor de Mão Kageuchi",
+                "en-us": "Kageuchi Handguard",
+                "ja-jp": "影打の鍔",
+                "zh-cn": "影打刀镡",
+                "ko-kr": "카게우치 코등이",
+                "ru-ru": "Гарда кагэути",
+                "de-de": "Kageuchi-Handschutz",
+                "fr-fr": "Garde-main kageuchi",
+                "es-es": "Guardamano gemelo",
+                "id-id": "Kageuchi Handguard",
+                "th-th": "Kageuchi Handguard",
+                "vi-vn": "Kiếm Cách Bản Sao",
+                "zh-tw": "影打刀鐔"
+              }
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 120000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "2691",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/86e35c3c41261373e2231fd1e8facb34_4246349666250259295.png",
+              "amount": 4,
+              "name": {
+                "pt-pt": "Filosofia da Práxis",
+                "en-us": "Philosophies of Praxis",
+                "ja-jp": "篤行の哲学",
+                "zh-cn": "笃行的哲学",
+                "ko-kr": "실천의 철학",
+                "ru-ru": "Философия о Честности",
+                "de-de": "Philosophie der Praxis",
+                "fr-fr": "Philosophie de l'Usage",
+                "es-es": "Filosofía de la praxis",
+                "id-id": "Philosophies of Praxis",
+                "th-th": "Philosophies of Praxis",
+                "vi-vn": "Triết Học Của Thực Hành",
+                "zh-tw": "篤行的哲學"
+              }
+            },
+            {
+              "id": "400",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Famed%20Handguard_icon.png",
+              "amount": 4,
+              "name": {
+                "pt-pt": "Protetor de Mão Famoso",
+                "en-us": "Famed Handguard",
+                "ja-jp": "名刀の鍔",
+                "zh-cn": "名刀镡",
+                "ko-kr": "명검 코등이",
+                "ru-ru": "Прославленная гарда",
+                "de-de": "Berühmter Handschutz",
+                "fr-fr": "Garde-main célèbre",
+                "es-es": "Guardamano célebre",
+                "id-id": "Famed Handguard",
+                "th-th": "Famed Handguard",
+                "vi-vn": "Kiếm Cách Trứ Danh",
+                "zh-tw": "名刀鐔"
+              }
+            },
+            {
+              "id": "2971",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/08/16791688/a57ebf003ade6f968039f004549a00b5_2306274164952656183.png",
+              "amount": 1,
+              "name": {
+                "pt-pt": "Sino do Vazio",
+                "en-us": "Daka's Bell",
+                "ja-jp": "空行の虚鈴",
+                "zh-cn": "空行的虚铃",
+                "ko-kr": "공행의 방울",
+                "ru-ru": "Пустой колокольчик",
+                "de-de": "Schelle der Leere",
+                "fr-fr": "Cloche de daka",
+                "es-es": "Cascabel de anulación",
+                "id-id": "Daka's Bell",
+                "th-th": "Daka's Bell",
+                "vi-vn": "Chuông Daka",
+                "zh-tw": "空行的虛鈴"
+              }
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 260000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "2691",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/86e35c3c41261373e2231fd1e8facb34_4246349666250259295.png",
+              "amount": 6,
+              "name": {
+                "pt-pt": "Filosofia da Práxis",
+                "en-us": "Philosophies of Praxis",
+                "ja-jp": "篤行の哲学",
+                "zh-cn": "笃行的哲学",
+                "ko-kr": "실천의 철학",
+                "ru-ru": "Философия о Честности",
+                "de-de": "Philosophie der Praxis",
+                "fr-fr": "Philosophie de l'Usage",
+                "es-es": "Filosofía de la praxis",
+                "id-id": "Philosophies of Praxis",
+                "th-th": "Philosophies of Praxis",
+                "vi-vn": "Triết Học Của Thực Hành",
+                "zh-tw": "篤行的哲學"
+              }
+            },
+            {
+              "id": "400",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Famed%20Handguard_icon.png",
+              "amount": 6,
+              "name": {
+                "pt-pt": "Protetor de Mão Famoso",
+                "en-us": "Famed Handguard",
+                "ja-jp": "名刀の鍔",
+                "zh-cn": "名刀镡",
+                "ko-kr": "명검 코등이",
+                "ru-ru": "Прославленная гарда",
+                "de-de": "Berühmter Handschutz",
+                "fr-fr": "Garde-main célèbre",
+                "es-es": "Guardamano célebre",
+                "id-id": "Famed Handguard",
+                "th-th": "Famed Handguard",
+                "vi-vn": "Kiếm Cách Trứ Danh",
+                "zh-tw": "名刀鐔"
+              }
+            },
+            {
+              "id": "2971",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/08/16791688/a57ebf003ade6f968039f004549a00b5_2306274164952656183.png",
+              "amount": 1,
+              "name": {
+                "pt-pt": "Sino do Vazio",
+                "en-us": "Daka's Bell",
+                "ja-jp": "空行の虚鈴",
+                "zh-cn": "空行的虚铃",
+                "ko-kr": "공행의 방울",
+                "ru-ru": "Пустой колокольчик",
+                "de-de": "Schelle der Leere",
+                "fr-fr": "Cloche de daka",
+                "es-es": "Cascabel de anulación",
+                "id-id": "Daka's Bell",
+                "th-th": "Daka's Bell",
+                "vi-vn": "Chuông Daka",
+                "zh-tw": "空行的虛鈴"
+              }
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 450000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "2691",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/86e35c3c41261373e2231fd1e8facb34_4246349666250259295.png",
+              "amount": 12,
+              "name": {
+                "pt-pt": "Filosofia da Práxis",
+                "en-us": "Philosophies of Praxis",
+                "ja-jp": "篤行の哲学",
+                "zh-cn": "笃行的哲学",
+                "ko-kr": "실천의 철학",
+                "ru-ru": "Философия о Честности",
+                "de-de": "Philosophie der Praxis",
+                "fr-fr": "Philosophie de l'Usage",
+                "es-es": "Filosofía de la praxis",
+                "id-id": "Philosophies of Praxis",
+                "th-th": "Philosophies of Praxis",
+                "vi-vn": "Triết Học Của Thực Hành",
+                "zh-tw": "篤行的哲學"
+              }
+            },
+            {
+              "id": "400",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Famed%20Handguard_icon.png",
+              "amount": 9,
+              "name": {
+                "pt-pt": "Protetor de Mão Famoso",
+                "en-us": "Famed Handguard",
+                "ja-jp": "名刀の鍔",
+                "zh-cn": "名刀镡",
+                "ko-kr": "명검 코등이",
+                "ru-ru": "Прославленная гарда",
+                "de-de": "Berühmter Handschutz",
+                "fr-fr": "Garde-main célèbre",
+                "es-es": "Guardamano célebre",
+                "id-id": "Famed Handguard",
+                "th-th": "Famed Handguard",
+                "vi-vn": "Kiếm Cách Trứ Danh",
+                "zh-tw": "名刀鐔"
+              }
+            },
+            {
+              "id": "2971",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/08/16791688/a57ebf003ade6f968039f004549a00b5_2306274164952656183.png",
+              "amount": 2,
+              "name": {
+                "pt-pt": "Sino do Vazio",
+                "en-us": "Daka's Bell",
+                "ja-jp": "空行の虚鈴",
+                "zh-cn": "空行的虚铃",
+                "ko-kr": "공행의 방울",
+                "ru-ru": "Пустой колокольчик",
+                "de-de": "Schelle der Leere",
+                "fr-fr": "Cloche de daka",
+                "es-es": "Cascabel de anulación",
+                "id-id": "Daka's Bell",
+                "th-th": "Daka's Bell",
+                "vi-vn": "Chuông Daka",
+                "zh-tw": "空行的虛鈴"
+              }
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 700000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "2691",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/86e35c3c41261373e2231fd1e8facb34_4246349666250259295.png",
+              "amount": 16,
+              "name": {
+                "pt-pt": "Filosofia da Práxis",
+                "en-us": "Philosophies of Praxis",
+                "ja-jp": "篤行の哲学",
+                "zh-cn": "笃行的哲学",
+                "ko-kr": "실천의 철학",
+                "ru-ru": "Философия о Честности",
+                "de-de": "Philosophie der Praxis",
+                "fr-fr": "Philosophie de l'Usage",
+                "es-es": "Filosofía de la praxis",
+                "id-id": "Philosophies of Praxis",
+                "th-th": "Philosophies of Praxis",
+                "vi-vn": "Triết Học Của Thực Hành",
+                "zh-tw": "篤行的哲學"
+              }
+            },
+            {
+              "id": "400",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Famed%20Handguard_icon.png",
+              "amount": 12,
+              "name": {
+                "pt-pt": "Protetor de Mão Famoso",
+                "en-us": "Famed Handguard",
+                "ja-jp": "名刀の鍔",
+                "zh-cn": "名刀镡",
+                "ko-kr": "명검 코등이",
+                "ru-ru": "Прославленная гарда",
+                "de-de": "Berühmter Handschutz",
+                "fr-fr": "Garde-main célèbre",
+                "es-es": "Guardamano célebre",
+                "id-id": "Famed Handguard",
+                "th-th": "Famed Handguard",
+                "vi-vn": "Kiếm Cách Trứ Danh",
+                "zh-tw": "名刀鐔"
+              }
+            },
+            {
+              "id": "2971",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/08/16791688/a57ebf003ade6f968039f004549a00b5_2306274164952656183.png",
+              "amount": 2,
+              "name": {
+                "pt-pt": "Sino do Vazio",
+                "en-us": "Daka's Bell",
+                "ja-jp": "空行の虚鈴",
+                "zh-cn": "空行的虚铃",
+                "ko-kr": "공행의 방울",
+                "ru-ru": "Пустой колокольчик",
+                "de-de": "Schelle der Leere",
+                "fr-fr": "Cloche de daka",
+                "es-es": "Cascabel de anulación",
+                "id-id": "Daka's Bell",
+                "th-th": "Daka's Bell",
+                "vi-vn": "Chuông Daka",
+                "zh-tw": "空行的虛鈴"
+              }
+            },
+            {
+              "id": "900",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Crown%20of%20Insight_icon.png",
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa da Sabedoria",
+                "en-us": "Crown of Insight",
+                "ja-jp": "知恵の冠",
+                "zh-cn": "智识之冕",
+                "ko-kr": "지식의 왕관",
+                "ru-ru": "Корона прозрения",
+                "de-de": "Krone der Weisheit",
+                "fr-fr": "Couronne de la sagesse",
+                "es-es": "Corona de la sabiduría",
+                "id-id": "Crown of Insight",
+                "th-th": "Crown of Insight",
+                "vi-vn": "Vương Miện Trí Thức",
+                "zh-tw": "智識之冕"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "affiliation": {
+    "pt-pt": "Nenhuma",
+    "en-us": "None",
+    "ja-jp": "なし",
+    "zh-cn": "无",
+    "ko-kr": "없음",
+    "ru-ru": "-",
+    "de-de": "-",
+    "fr-fr": "Aucune",
+    "es-es": "",
+    "id-id": "Tidak ada",
+    "th-th": "ไม่มี",
+    "vi-vn": "Khác",
+    "zh-tw": "無"
+  },
+  "birthday": {
+    "pt-pt": "3 de janeiro",
+    "en-us": "1/3",
+    "ja-jp": "1月3日",
+    "zh-cn": "1月3日",
+    "ko-kr": "1월 3일",
+    "ru-ru": "3 января",
+    "de-de": "3. Januar",
+    "fr-fr": "3/1",
+    "es-es": "3/1",
+    "id-id": "3 Januari",
+    "th-th": "1/3",
+    "vi-vn": "Ngày 3 Tháng 1",
+    "zh-tw": "1月3日"
+  },
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv. 20",
+        "zh-tw": "Lv. 20"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1496",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vayuda%20Turquoise%20Sliver_icon.png",
+          "amount": 1,
+          "name": {
+            "pt-pt": "Lasca de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Sliver",
+            "ja-jp": "自由のターコイズ・砕屑",
+            "zh-cn": "自在松石碎屑",
+            "ko-kr": "자유로운 터키석 가루",
+            "ru-ru": "Осколок бирюзы Вайюда",
+            "de-de": "Vayuda-Türkis-Splitter",
+            "fr-fr": "Éclat de turquoise vayuda",
+            "es-es": "Pedacito de turquesa vayuda",
+            "id-id": "Vayuda Turquoise Sliver",
+            "th-th": "Vayuda Turquoise Sliver",
+            "vi-vn": "Vụn Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石碎屑"
+          }
+        },
+        {
+          "id": "1248",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Old%20Handguard_icon.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Protetor de Mão Velho",
+            "en-us": "Old Handguard",
+            "ja-jp": "古びた鍔",
+            "zh-cn": "破旧的刀镡",
+            "ko-kr": "오래된 코등이",
+            "ru-ru": "Старая гарда",
+            "de-de": "Alter Handschutz",
+            "fr-fr": "Garde-main ancien",
+            "es-es": "Guardamano viejo",
+            "id-id": "Old Handguard",
+            "th-th": "Old Handguard",
+            "vi-vn": "Kiếm Cách Cũ Nát",
+            "zh-tw": "破舊的刀鐔"
+          }
+        },
+        {
+          "id": "2681",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/fbfb9632c9668ce46422fa5b2acb9f0d_2830746585118701992.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Cogumelo Rukkhashava",
+            "en-us": "Rukkhashava Mushrooms",
+            "ja-jp": "ルッカデヴァータダケ",
+            "zh-cn": "树王圣体菇",
+            "ko-kr": "룩카데바타 성체 버섯",
+            "ru-ru": "Грибы руккхашава",
+            "de-de": "Rukkhashava-Pilz",
+            "fr-fr": "Champignon sacramental",
+            "es-es": "Champiñón rukkhashava",
+            "id-id": "Rukkhashava Mushroom",
+            "th-th": "Rukkhashava Mushroom",
+            "vi-vn": "Nấm Thánh Rukkhashava",
+            "zh-tw": "樹王聖體菇"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv. 40",
+        "zh-tw": "Lv. 40"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 40000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1495",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vayuda%20Turquoise%20Fragment_icon.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Fragment",
+            "ja-jp": "自由のターコイズ・欠片",
+            "zh-cn": "自在松石断片",
+            "ko-kr": "자유로운 터키석 조각",
+            "ru-ru": "Фрагмент бирюзы Вайюда",
+            "de-de": "Vayuda-Türkis-Bruchstück",
+            "fr-fr": "Fragment de turquoise vayuda",
+            "es-es": "Fragmento de turquesa vayuda",
+            "id-id": "Vayuda Turquoise Fragment",
+            "th-th": "Vayuda Turquoise Fragment",
+            "vi-vn": "Mảnh Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石斷片"
+          }
+        },
+        {
+          "id": "1248",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Old%20Handguard_icon.png",
+          "amount": 15,
+          "name": {
+            "pt-pt": "Protetor de Mão Velho",
+            "en-us": "Old Handguard",
+            "ja-jp": "古びた鍔",
+            "zh-cn": "破旧的刀镡",
+            "ko-kr": "오래된 코등이",
+            "ru-ru": "Старая гарда",
+            "de-de": "Alter Handschutz",
+            "fr-fr": "Garde-main ancien",
+            "es-es": "Guardamano viejo",
+            "id-id": "Old Handguard",
+            "th-th": "Old Handguard",
+            "vi-vn": "Kiếm Cách Cũ Nát",
+            "zh-tw": "破舊的刀鐔"
+          }
+        },
+        {
+          "id": "2681",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/fbfb9632c9668ce46422fa5b2acb9f0d_2830746585118701992.png",
+          "amount": 10,
+          "name": {
+            "pt-pt": "Cogumelo Rukkhashava",
+            "en-us": "Rukkhashava Mushrooms",
+            "ja-jp": "ルッカデヴァータダケ",
+            "zh-cn": "树王圣体菇",
+            "ko-kr": "룩카데바타 성체 버섯",
+            "ru-ru": "Грибы руккхашава",
+            "de-de": "Rukkhashava-Pilz",
+            "fr-fr": "Champignon sacramental",
+            "es-es": "Champiñón rukkhashava",
+            "id-id": "Rukkhashava Mushroom",
+            "th-th": "Rukkhashava Mushroom",
+            "vi-vn": "Nấm Thánh Rukkhashava",
+            "zh-tw": "樹王聖體菇"
+          }
+        },
+        {
+          "id": "2858",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/16791688/36fe81c5e5b02c8201c9f464deaecbae_1550952043714646663.png",
+          "amount": 2,
+          "name": {
+            "pt-pt": "Calibre Perpétuo",
+            "en-us": "Perpetual Caliber",
+            "ja-jp": "永続コア",
+            "zh-cn": "永续机芯",
+            "ko-kr": "영구동력 코어",
+            "ru-ru": "Вечный механизм",
+            "de-de": "Ewiges Uhrwerk",
+            "fr-fr": "Calibre perpétuel",
+            "es-es": "Resorte perpetuo",
+            "id-id": "Perpetual Caliber",
+            "th-th": "Perpetual Caliber",
+            "vi-vn": "Lõi Chuyển Động Vĩnh Viễn",
+            "zh-tw": "永續機芯"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv. 50",
+        "zh-tw": "Lv. 50"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 60000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1495",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vayuda%20Turquoise%20Fragment_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Fragment",
+            "ja-jp": "自由のターコイズ・欠片",
+            "zh-cn": "自在松石断片",
+            "ko-kr": "자유로운 터키석 조각",
+            "ru-ru": "Фрагмент бирюзы Вайюда",
+            "de-de": "Vayuda-Türkis-Bruchstück",
+            "fr-fr": "Fragment de turquoise vayuda",
+            "es-es": "Fragmento de turquesa vayuda",
+            "id-id": "Vayuda Turquoise Fragment",
+            "th-th": "Vayuda Turquoise Fragment",
+            "vi-vn": "Mảnh Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石斷片"
+          }
+        },
+        {
+          "id": "711",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Kageuchi%20Handguard_icon.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Protetor de Mão Kageuchi",
+            "en-us": "Kageuchi Handguard",
+            "ja-jp": "影打の鍔",
+            "zh-cn": "影打刀镡",
+            "ko-kr": "카게우치 코등이",
+            "ru-ru": "Гарда кагэути",
+            "de-de": "Kageuchi-Handschutz",
+            "fr-fr": "Garde-main kageuchi",
+            "es-es": "Guardamano gemelo",
+            "id-id": "Kageuchi Handguard",
+            "th-th": "Kageuchi Handguard",
+            "vi-vn": "Kiếm Cách Bản Sao",
+            "zh-tw": "影打刀鐔"
+          }
+        },
+        {
+          "id": "2681",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/fbfb9632c9668ce46422fa5b2acb9f0d_2830746585118701992.png",
+          "amount": 20,
+          "name": {
+            "pt-pt": "Cogumelo Rukkhashava",
+            "en-us": "Rukkhashava Mushrooms",
+            "ja-jp": "ルッカデヴァータダケ",
+            "zh-cn": "树王圣体菇",
+            "ko-kr": "룩카데바타 성체 버섯",
+            "ru-ru": "Грибы руккхашава",
+            "de-de": "Rukkhashava-Pilz",
+            "fr-fr": "Champignon sacramental",
+            "es-es": "Champiñón rukkhashava",
+            "id-id": "Rukkhashava Mushroom",
+            "th-th": "Rukkhashava Mushroom",
+            "vi-vn": "Nấm Thánh Rukkhashava",
+            "zh-tw": "樹王聖體菇"
+          }
+        },
+        {
+          "id": "2858",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/16791688/36fe81c5e5b02c8201c9f464deaecbae_1550952043714646663.png",
+          "amount": 4,
+          "name": {
+            "pt-pt": "Calibre Perpétuo",
+            "en-us": "Perpetual Caliber",
+            "ja-jp": "永続コア",
+            "zh-cn": "永续机芯",
+            "ko-kr": "영구동력 코어",
+            "ru-ru": "Вечный механизм",
+            "de-de": "Ewiges Uhrwerk",
+            "fr-fr": "Calibre perpétuel",
+            "es-es": "Resorte perpetuo",
+            "id-id": "Perpetual Caliber",
+            "th-th": "Perpetual Caliber",
+            "vi-vn": "Lõi Chuyển Động Vĩnh Viễn",
+            "zh-tw": "永續機芯"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv. 60"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 80000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1494",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vayuda%20Turquoise%20Chunk_icon.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Chunk",
+            "ja-jp": "自由のターコイズ・塊",
+            "zh-cn": "自在松石块",
+            "ko-kr": "자유로운 터키석 덩이",
+            "ru-ru": "Кусок бирюзы Вайюда",
+            "de-de": "Vayuda-Türkis-Brocken",
+            "fr-fr": "Morceau de turquoise vayuda",
+            "es-es": "Trozo de turquesa vayuda",
+            "id-id": "Vayuda Turquoise Chunk",
+            "th-th": "Vayuda Turquoise Chunk",
+            "vi-vn": "Miếng Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石塊"
+          }
+        },
+        {
+          "id": "711",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Kageuchi%20Handguard_icon.png",
+          "amount": 18,
+          "name": {
+            "pt-pt": "Protetor de Mão Kageuchi",
+            "en-us": "Kageuchi Handguard",
+            "ja-jp": "影打の鍔",
+            "zh-cn": "影打刀镡",
+            "ko-kr": "카게우치 코등이",
+            "ru-ru": "Гарда кагэути",
+            "de-de": "Kageuchi-Handschutz",
+            "fr-fr": "Garde-main kageuchi",
+            "es-es": "Guardamano gemelo",
+            "id-id": "Kageuchi Handguard",
+            "th-th": "Kageuchi Handguard",
+            "vi-vn": "Kiếm Cách Bản Sao",
+            "zh-tw": "影打刀鐔"
+          }
+        },
+        {
+          "id": "2681",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/fbfb9632c9668ce46422fa5b2acb9f0d_2830746585118701992.png",
+          "amount": 30,
+          "name": {
+            "pt-pt": "Cogumelo Rukkhashava",
+            "en-us": "Rukkhashava Mushrooms",
+            "ja-jp": "ルッカデヴァータダケ",
+            "zh-cn": "树王圣体菇",
+            "ko-kr": "룩카데바타 성체 버섯",
+            "ru-ru": "Грибы руккхашава",
+            "de-de": "Rukkhashava-Pilz",
+            "fr-fr": "Champignon sacramental",
+            "es-es": "Champiñón rukkhashava",
+            "id-id": "Rukkhashava Mushroom",
+            "th-th": "Rukkhashava Mushroom",
+            "vi-vn": "Nấm Thánh Rukkhashava",
+            "zh-tw": "樹王聖體菇"
+          }
+        },
+        {
+          "id": "2858",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/16791688/36fe81c5e5b02c8201c9f464deaecbae_1550952043714646663.png",
+          "amount": 8,
+          "name": {
+            "pt-pt": "Calibre Perpétuo",
+            "en-us": "Perpetual Caliber",
+            "ja-jp": "永続コア",
+            "zh-cn": "永续机芯",
+            "ko-kr": "영구동력 코어",
+            "ru-ru": "Вечный механизм",
+            "de-de": "Ewiges Uhrwerk",
+            "fr-fr": "Calibre perpétuel",
+            "es-es": "Resorte perpetuo",
+            "id-id": "Perpetual Caliber",
+            "th-th": "Perpetual Caliber",
+            "vi-vn": "Lõi Chuyển Động Vĩnh Viễn",
+            "zh-tw": "永續機芯"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv. 70",
+        "zh-tw": "Lv. 70"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 100000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1494",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vayuda%20Turquoise%20Chunk_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Chunk",
+            "ja-jp": "自由のターコイズ・塊",
+            "zh-cn": "自在松石块",
+            "ko-kr": "자유로운 터키석 덩이",
+            "ru-ru": "Кусок бирюзы Вайюда",
+            "de-de": "Vayuda-Türkis-Brocken",
+            "fr-fr": "Morceau de turquoise vayuda",
+            "es-es": "Trozo de turquesa vayuda",
+            "id-id": "Vayuda Turquoise Chunk",
+            "th-th": "Vayuda Turquoise Chunk",
+            "vi-vn": "Miếng Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石塊"
+          }
+        },
+        {
+          "id": "400",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Famed%20Handguard_icon.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Protetor de Mão Famoso",
+            "en-us": "Famed Handguard",
+            "ja-jp": "名刀の鍔",
+            "zh-cn": "名刀镡",
+            "ko-kr": "명검 코등이",
+            "ru-ru": "Прославленная гарда",
+            "de-de": "Berühmter Handschutz",
+            "fr-fr": "Garde-main célèbre",
+            "es-es": "Guardamano célebre",
+            "id-id": "Famed Handguard",
+            "th-th": "Famed Handguard",
+            "vi-vn": "Kiếm Cách Trứ Danh",
+            "zh-tw": "名刀鐔"
+          }
+        },
+        {
+          "id": "2681",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/fbfb9632c9668ce46422fa5b2acb9f0d_2830746585118701992.png",
+          "amount": 45,
+          "name": {
+            "pt-pt": "Cogumelo Rukkhashava",
+            "en-us": "Rukkhashava Mushrooms",
+            "ja-jp": "ルッカデヴァータダケ",
+            "zh-cn": "树王圣体菇",
+            "ko-kr": "룩카데바타 성체 버섯",
+            "ru-ru": "Грибы руккхашава",
+            "de-de": "Rukkhashava-Pilz",
+            "fr-fr": "Champignon sacramental",
+            "es-es": "Champiñón rukkhashava",
+            "id-id": "Rukkhashava Mushroom",
+            "th-th": "Rukkhashava Mushroom",
+            "vi-vn": "Nấm Thánh Rukkhashava",
+            "zh-tw": "樹王聖體菇"
+          }
+        },
+        {
+          "id": "2858",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/16791688/36fe81c5e5b02c8201c9f464deaecbae_1550952043714646663.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Calibre Perpétuo",
+            "en-us": "Perpetual Caliber",
+            "ja-jp": "永続コア",
+            "zh-cn": "永续机芯",
+            "ko-kr": "영구동력 코어",
+            "ru-ru": "Вечный механизм",
+            "de-de": "Ewiges Uhrwerk",
+            "fr-fr": "Calibre perpétuel",
+            "es-es": "Resorte perpetuo",
+            "id-id": "Perpetual Caliber",
+            "th-th": "Perpetual Caliber",
+            "vi-vn": "Lõi Chuyển Động Vĩnh Viễn",
+            "zh-tw": "永續機芯"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv. 80",
+        "zh-tw": "Lv. 80"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 120000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1493",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vayuda%20Turquoise%20Gemstone_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Gema de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Gemstone",
+            "ja-jp": "自由のターコイズ",
+            "zh-cn": "自在松石",
+            "ko-kr": "자유로운 터키석",
+            "ru-ru": "Драгоценная бирюза Вайюда",
+            "de-de": "Vayuda-Türkis",
+            "fr-fr": "Pierre de turquoise vayuda",
+            "es-es": "Turquesa vayuda",
+            "id-id": "Vayuda Turquoise Gemstone",
+            "th-th": "Vayuda Turquoise Gemstone",
+            "vi-vn": "Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石"
+          }
+        },
+        {
+          "id": "400",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Famed%20Handguard_icon.png",
+          "amount": 24,
+          "name": {
+            "pt-pt": "Protetor de Mão Famoso",
+            "en-us": "Famed Handguard",
+            "ja-jp": "名刀の鍔",
+            "zh-cn": "名刀镡",
+            "ko-kr": "명검 코등이",
+            "ru-ru": "Прославленная гарда",
+            "de-de": "Berühmter Handschutz",
+            "fr-fr": "Garde-main célèbre",
+            "es-es": "Guardamano célebre",
+            "id-id": "Famed Handguard",
+            "th-th": "Famed Handguard",
+            "vi-vn": "Kiếm Cách Trứ Danh",
+            "zh-tw": "名刀鐔"
+          }
+        },
+        {
+          "id": "2681",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/fbfb9632c9668ce46422fa5b2acb9f0d_2830746585118701992.png",
+          "amount": 60,
+          "name": {
+            "pt-pt": "Cogumelo Rukkhashava",
+            "en-us": "Rukkhashava Mushrooms",
+            "ja-jp": "ルッカデヴァータダケ",
+            "zh-cn": "树王圣体菇",
+            "ko-kr": "룩카데바타 성체 버섯",
+            "ru-ru": "Грибы руккхашава",
+            "de-de": "Rukkhashava-Pilz",
+            "fr-fr": "Champignon sacramental",
+            "es-es": "Champiñón rukkhashava",
+            "id-id": "Rukkhashava Mushroom",
+            "th-th": "Rukkhashava Mushroom",
+            "vi-vn": "Nấm Thánh Rukkhashava",
+            "zh-tw": "樹王聖體菇"
+          }
+        },
+        {
+          "id": "2858",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/16791688/36fe81c5e5b02c8201c9f464deaecbae_1550952043714646663.png",
+          "amount": 20,
+          "name": {
+            "pt-pt": "Calibre Perpétuo",
+            "en-us": "Perpetual Caliber",
+            "ja-jp": "永続コア",
+            "zh-cn": "永续机芯",
+            "ko-kr": "영구동력 코어",
+            "ru-ru": "Вечный механизм",
+            "de-de": "Ewiges Uhrwerk",
+            "fr-fr": "Calibre perpétuel",
+            "es-es": "Resorte perpetuo",
+            "id-id": "Perpetual Caliber",
+            "th-th": "Perpetual Caliber",
+            "vi-vn": "Lõi Chuyển Động Vĩnh Viễn",
+            "zh-tw": "永續機芯"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St. 1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv. 1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv. 1",
+        "zh-tw": "Lv. 1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "",
+            "en-us": "",
+            "ja-jp": "",
+            "zh-cn": "",
+            "ko-kr": "",
+            "ru-ru": "",
+            "de-de": "",
+            "fr-fr": "",
+            "es-es": "",
+            "id-id": "",
+            "th-th": "",
+            "vi-vn": "",
+            "zh-tw": ""
+          },
+          "preAscensionValue": "Antes do avanço",
+          "postAscensionValue": "Após o avanço"
+        },
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "791"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "26"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "47"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate Bonus",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "0.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv. 20",
+        "zh-tw": "Lv. 20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "",
+            "en-us": "",
+            "ja-jp": "",
+            "zh-cn": "",
+            "ko-kr": "",
+            "ru-ru": "",
+            "de-de": "",
+            "fr-fr": "",
+            "es-es": "",
+            "id-id": "",
+            "th-th": "",
+            "vi-vn": "",
+            "zh-tw": ""
+          },
+          "preAscensionValue": "Antes do avanço",
+          "postAscensionValue": "Após o avanço"
+        },
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "2053",
+          "postAscensionValue": "2731"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "66",
+          "postAscensionValue": "88"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "123",
+          "postAscensionValue": "163"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate Bonus",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "preAscensionValue": "0.0%",
+          "postAscensionValue": "0.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv. 40",
+        "zh-tw": "Lv. 40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "",
+            "en-us": "",
+            "ja-jp": "",
+            "zh-cn": "",
+            "ko-kr": "",
+            "ru-ru": "",
+            "de-de": "",
+            "fr-fr": "",
+            "es-es": "",
+            "id-id": "",
+            "th-th": "",
+            "vi-vn": "",
+            "zh-tw": ""
+          },
+          "preAscensionValue": "Antes do avanço",
+          "postAscensionValue": "Após o avanço"
+        },
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "4086",
+          "postAscensionValue": "4568"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "132",
+          "postAscensionValue": "148"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "244",
+          "postAscensionValue": "273"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate Bonus",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "preAscensionValue": "0.0%",
+          "postAscensionValue": "4.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv. 50",
+        "zh-tw": "Lv. 50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "",
+            "en-us": "",
+            "ja-jp": "",
+            "zh-cn": "",
+            "ko-kr": "",
+            "ru-ru": "",
+            "de-de": "",
+            "fr-fr": "",
+            "es-es": "",
+            "id-id": "",
+            "th-th": "",
+            "vi-vn": "",
+            "zh-tw": ""
+          },
+          "preAscensionValue": "Antes do avanço",
+          "postAscensionValue": "Após o avanço"
+        },
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "5256",
+          "postAscensionValue": "5899"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "170",
+          "postAscensionValue": "190"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "314",
+          "postAscensionValue": "352"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate Bonus",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "preAscensionValue": "4.8%",
+          "postAscensionValue": "9.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv. 60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "",
+            "en-us": "",
+            "ja-jp": "",
+            "zh-cn": "",
+            "ko-kr": "",
+            "ru-ru": "",
+            "de-de": "",
+            "fr-fr": "",
+            "es-es": "",
+            "id-id": "",
+            "th-th": "",
+            "vi-vn": "",
+            "zh-tw": ""
+          },
+          "preAscensionValue": "Antes do avanço",
+          "postAscensionValue": "Após o avanço"
+        },
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "6593",
+          "postAscensionValue": "7076"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "213",
+          "postAscensionValue": "228"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "394",
+          "postAscensionValue": "423"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate Bonus",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "preAscensionValue": "9.6%",
+          "postAscensionValue": "9.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv. 70",
+        "zh-tw": "Lv. 70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "",
+            "en-us": "",
+            "ja-jp": "",
+            "zh-cn": "",
+            "ko-kr": "",
+            "ru-ru": "",
+            "de-de": "",
+            "fr-fr": "",
+            "es-es": "",
+            "id-id": "",
+            "th-th": "",
+            "vi-vn": "",
+            "zh-tw": ""
+          },
+          "preAscensionValue": "Antes do avanço",
+          "postAscensionValue": "Após o avanço"
+        },
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "7777",
+          "postAscensionValue": "8259"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "251",
+          "postAscensionValue": "266"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "465",
+          "postAscensionValue": "493"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate Bonus",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "preAscensionValue": "9.6%",
+          "postAscensionValue": "14.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv. 80",
+        "zh-tw": "Lv. 80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "",
+            "en-us": "",
+            "ja-jp": "",
+            "zh-cn": "",
+            "ko-kr": "",
+            "ru-ru": "",
+            "de-de": "",
+            "fr-fr": "",
+            "es-es": "",
+            "id-id": "",
+            "th-th": "",
+            "vi-vn": "",
+            "zh-tw": ""
+          },
+          "preAscensionValue": "Antes do avanço",
+          "postAscensionValue": "Após o avanço"
+        },
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "8968",
+          "postAscensionValue": "9450"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "289",
+          "postAscensionValue": "305"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "536",
+          "postAscensionValue": "564"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate Bonus",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "preAscensionValue": "14.4%",
+          "postAscensionValue": "19.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St. 90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv. 90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv. 90",
+        "zh-tw": "Lv. 90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "",
+            "en-us": "",
+            "ja-jp": "",
+            "zh-cn": "",
+            "ko-kr": "",
+            "ru-ru": "",
+            "de-de": "",
+            "fr-fr": "",
+            "es-es": "",
+            "id-id": "",
+            "th-th": "",
+            "vi-vn": "",
+            "zh-tw": ""
+          },
+          "preAscensionValue": "Antes do avanço",
+          "postAscensionValue": "Após o avanço"
+        },
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "10164",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "328",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "607",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate Bonus",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "preAscensionValue": "19.2%",
+          "postAscensionValue": ""
+        }
+      ]
+    }
+  ]
+}

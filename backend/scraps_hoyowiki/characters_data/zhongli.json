@@ -1,0 +1,3596 @@
+{
+  "id": "zhongli",
+  "wiki_id": "46",
+  "name": {
+    "pt-pt": "Zhongli",
+    "en-us": "Zhongli",
+    "ja-jp": "鍾離",
+    "zh-cn": "钟离",
+    "ko-kr": "종려",
+    "ru-ru": "Чжун Ли",
+    "de-de": "Zhongli",
+    "fr-fr": "Zhongli",
+    "es-es": "Zhongli",
+    "id-id": "Zhongli",
+    "th-th": "Zhongli",
+    "vi-vn": "Zhongli",
+    "zh-tw": "鍾離"
+  },
+  "title": {
+    "pt-pt": "Andarilho do Reino Mortal",
+    "en-us": "Vago Mundo",
+    "ja-jp": "浮世閑歩",
+    "zh-cn": "尘世闲游",
+    "ko-kr": "속세 한유",
+    "ru-ru": "Бренный скиталец",
+    "de-de": "Besucher bei den Sterblichen",
+    "fr-fr": "Vagabond du monde mortel",
+    "es-es": "El Vagabundo del Reino Mortal",
+    "id-id": "Vago Mundo",
+    "th-th": "ผู้พเนจรแห่งแดนมนุษย์",
+    "vi-vn": "Du Ngoạn Trần Thế",
+    "zh-tw": "塵世閒遊"
+  },
+  "description": {
+    "pt-pt": "Um convidado misterioso da Funerária de Wangsheng. É um erudito que tem um profundo conhecimento sobre todos os tipos de coisa.",
+    "en-us": "A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.",
+    "ja-jp": "「」に招かれた謎の。博識であり、あらゆることに精通している。",
+    "zh-cn": "被「往生堂」请来的神秘客人，知识渊博，对各种事物都颇有见地。",
+    "ko-kr": "「왕생당」에서 초대한 신비한 손님. 지식이 풍부하며 여러 사물에 대해 상당한 식견을 가지고 있다.「기나긴 세월 동안 그는 수많은 사람을 만났고, 앞으로도 수많은 사람을 만나게 될 거야」「마치 흐르는 물은 쉽게 변하지만, 산과 돌은 변하지 않는 것처럼」——라이덴 쇼군은 야에 궁사에게 이웃 국가의 과거에 대해 이렇게 얘기했다.",
+    "ru-ru": "Приглашённый специалист ритуального бюро «Ваншэн». Необычайно загадочен и сведущ во всех делах.«Уже не сосчитать, скольких людей он повидал за долгие годы, и сколько ещё встреч принесёт будущее...»«Как говорится, вода утечёт, но скалы останутся», - сёгун Райдэн, говоря с Гудзи Яэ о прошлом соседних регионов.",
+    "de-de": "Ein geheimnisvoller Gast beim Bestattungsunternehmen Wangsheng, der eine unglaubliche Menge Wissen angehäuft hat.",
+    "fr-fr": "Une mystérieuse relation du Funérarium Wangsheng, aux connaissances aussi variées qu'étendues.",
+    "es-es": "Misterioso asesor de la Funeraria El Camino. Erudito y con información sobre todo tipo de cosas.",
+    "id-id": "Seorang konsultan misterius yang terikat kontrak dengan Wangsheng Funeral Parlor. Dia memiliki pengetahuan yang mendalam tentang segala sesuatu.",
+    "th-th": "แขกลึกลับผู้ถูกเชิญโดย &#34;โถงแห่งการเกิดใหม่ Wangsheng&#34;มีความรู้แตกฉานในทุก ๆ เรื่อง",
+    "vi-vn": "Là vị khách thần bí được \"Vãng Sinh Đường\" mời đến, kiến thức uyên bác, có sự hiểu biết sâu rộng đối với nhiều sự vật sự việc.",
+    "zh-tw": "被「往生堂」請來的神祕客人，知識淵博，對各種事物都頗有見地。"
+  },
+  "rarity": 5,
+  "vision": {
+    "label": {
+      "pt-pt": "Tipo Elemental",
+      "en-us": "Elemental Type",
+      "ja-jp": "元素タイプ",
+      "zh-cn": "元素属性",
+      "ko-kr": "원소 속성",
+      "ru-ru": "Элемент",
+      "de-de": "Elementartyp",
+      "fr-fr": "Élément",
+      "es-es": "Tipo elemental",
+      "id-id": "Tipe Elemen",
+      "th-th": "ประเภทธาตุ",
+      "vi-vn": "Thuộc Tính Nguyên Tố",
+      "zh-tw": "元素屬性"
+    },
+    "value": {
+      "pt-pt": "Geo",
+      "en-us": "Geo",
+      "ja-jp": "岩元素",
+      "zh-cn": "岩元素",
+      "ko-kr": "바위 원소",
+      "ru-ru": "Гео",
+      "de-de": "Geo",
+      "fr-fr": "Géo",
+      "es-es": "Geo",
+      "id-id": "Geo",
+      "th-th": "หิน",
+      "vi-vn": "Nham",
+      "zh-tw": "岩元素"
+    }
+  },
+  "weapon": {
+    "label": {
+      "pt-pt": "Arma",
+      "en-us": "Weapons",
+      "ja-jp": "武器種",
+      "zh-cn": "武器",
+      "ko-kr": "무기",
+      "ru-ru": "Тип",
+      "de-de": "Waffe",
+      "fr-fr": "Type d'arme",
+      "es-es": "Arma",
+      "id-id": "Senjata",
+      "th-th": "อาวุธ",
+      "vi-vn": "Vũ Khí",
+      "zh-tw": "武器"
+    },
+    "value": {
+      "pt-pt": "Lança",
+      "en-us": "Polearm",
+      "ja-jp": "長柄武器",
+      "zh-cn": "长柄武器",
+      "ko-kr": "장병기",
+      "ru-ru": "Древковое",
+      "de-de": "Stangenwaffe",
+      "fr-fr": "Arme d'hast",
+      "es-es": "Lanza",
+      "id-id": "Polearm",
+      "th-th": "หอก",
+      "vi-vn": "Vũ Khí Cán Dài",
+      "zh-tw": "長柄武器"
+    }
+  },
+  "characterIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/Zhongli_icon.png",
+  "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c4cd6e14b87fc262cca36e6d0e9bdb0_1526899214861833594.png",
+  "constellationNameOfficial": {
+    "pt-pt": "Lapis Dei",
+    "en-us": "Lapis Dei",
+    "ja-jp": "？？？岩王帝君座",
+    "zh-cn": "岩王帝君座",
+    "ru-ru": "Властелин Камня",
+    "de-de": "Lapis Dei",
+    "fr-fr": "Lapis Dei",
+    "es-es": "Lapis Dei",
+    "id-id": "Lapis Dei",
+    "th-th": "Lapis Dei",
+    "zh-tw": "岩王帝君座",
+    "ko-kr": "N/A",
+    "vi-vn": "N/A"
+  },
+  "specialDish": {
+    "id": 770,
+    "name": {
+      "pt-pt": "Sopa de Bambu Cozinhada Lentamente",
+      "en-us": "Slow-Cooked Bamboo Shoot Soup",
+      "ja-jp": "とろ火で煮込んだ腌篤鮮",
+      "zh-cn": "文火慢炖腌笃鲜",
+      "ko-kr": "약불로 천천히 끓인 죽순 수프",
+      "ru-ru": "Томлёный свиной суп с бамбуком",
+      "de-de": "Langsam gegarte Bambussuppe mit Fleischeinlage",
+      "fr-fr": "Soupe mijotée au bambou",
+      "es-es": "Sopa de brotes de bambú a fuego lento",
+      "id-id": "Slow-Cooked Bamboo Shoot Soup",
+      "th-th": "Slow-Cooked Bamboo Shoot Soup",
+      "vi-vn": "Măng Chua Tươi Lửa Nhỏ",
+      "zh-tw": "文火慢燉醃篤鮮"
+    },
+    "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Slow-Cooked%20Bamboo%20Shoot%20Soup_icon.png"
+  },
+  "namecard": {
+    "id": 6110,
+    "name": {
+      "pt-pt": "Zhongli - Chuva Estelar",
+      "en-us": "Zhongli: Planet Befall",
+      "ja-jp": "鍾離・天星",
+      "zh-cn": "钟离·天星",
+      "ko-kr": "종려·천성",
+      "ru-ru": "Падение кометы",
+      "de-de": "Zhongli – Einstürzender Himmel",
+      "fr-fr": "Zhongli - Chute de météore",
+      "es-es": "Zhongli - Lluvia estelar",
+      "id-id": "Zhongli: Planet Befall",
+      "th-th": "Zhongli - Planet Befall",
+      "vi-vn": "Zhongli - Thiên Tinh",
+      "zh-tw": "鍾離·天星"
+    },
+    "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/15/246c50f31f135cf86c50fc3b97e6e0cf_8824070921991545325.png"
+  },
+  "constellations": [
+    {
+      "id": "summaryList34964",
+      "constellationNumber": 1,
+      "name": {
+        "pt-pt": "Pedra, a Espinha Vertebral da Terra",
+        "en-us": "Rock, the Backbone of Earth",
+        "ja-jp": "岩、天下の骨なり",
+        "zh-cn": "岩者，六合引之为骨",
+        "ko-kr": "암석·천지의 기반",
+        "ru-ru": "На чём держится земля",
+        "de-de": "Skelett der Erde",
+        "fr-fr": "Roche, le squelette de la terre",
+        "es-es": "Roca, el núcleo de la Tierra",
+        "id-id": "Rock, the Backbone of Earth",
+        "th-th": "Rock, the Backbone of Earth",
+        "vi-vn": "Nham, Lục Hợp Dẫn Thành Cốt",
+        "zh-tw": "岩者，六合引之為骨"
+      },
+      "description": {
+        "pt-pt": "Aumenta o número máximo de Estelas de Pedra criadas pelo Dominus Lapidis que podem existir simultaneamente para 2.",
+        "en-us": "Increases the maximum number of Stone Steles created by Dominus Lapidis that may exist simultaneously to 2.",
+        "ja-jp": "地心の岩柱が同時に最大2つまで存在可能になる。",
+        "zh-cn": "地心创造的岩脊至多可以同时存在2个。",
+        "ko-kr": "지핵으로 만든 암주는 동시에 최대 2개 존재할 수 있다",
+        "ru-ru": "Допускает одновременное существование двух Каменных стел навыка Власть над камнем.",
+        "de-de": "Bis zu 2 Hügelkämme von Dominus Lapidis können gleichzeitig existieren.",
+        "fr-fr": "2 Dorsales de Dominus Lapidis peuvent exister en même temps.",
+        "es-es": "Dominus lapidis puede crear un máximo de 2 crestas de piedra al mismo tiempo.",
+        "id-id": "Jumlah Stone Stele yang dapat diciptakan oleh Dominus Lapidis meningkat menjadi 2.",
+        "th-th": "Stone Stele ที่ Dominus Lapidis สร้างขึ้น จะสามารถคงอยู่ได้มากสุด 2 แท่ง ในเวลาเดียวกัน",
+        "vi-vn": "Vách đá tạo thành từ Tâm Trái Đất có thể tồn tại cùng lúc 2 cái.",
+        "zh-tw": "地心創造的岩脊至多可以同時存在2個。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/钟离/constellation_1.png"
+    },
+    {
+      "id": "summaryList91329",
+      "constellationNumber": 2,
+      "name": {
+        "pt-pt": "Pedra, a Vela de Jade",
+        "en-us": "Stone, the Cradle of Jade",
+        "ja-jp": "石、玉の揺りかご",
+        "zh-cn": "石者，八荒韫玉而明",
+        "ko-kr": "돌·옥으로 인해 빛나는 세상",
+        "ru-ru": "Колыбель нефрита",
+        "de-de": "Heimat der Jade",
+        "fr-fr": "Pierre, le berceau du jade",
+        "es-es": "Piedra, el origen del jade",
+        "id-id": "Stone, the Cradle of Jade",
+        "th-th": "Stone, the Cradle of Jade",
+        "vi-vn": "Thạch, Bát Hoang Ngọc Minh",
+        "zh-tw": "石者，八荒韞玉而明"
+      },
+      "description": {
+        "pt-pt": "Quando a Chuva Estelar cair, dará um Escudo de Jade para os personagens ao redor em campo próximos.",
+        "en-us": "Planet Befall grants nearby characters on the field a Jade Shield when it descends.",
+        "ja-jp": "天星落下時、近くにいる出場中のキャラクターに玉璋シールドを付与する。",
+        "zh-cn": "天星陨落时，会为附近的当前场上角色赋予玉璋护盾。",
+        "ko-kr": "천성이 떨어질 때 근처에 있는 현재 캐릭터에게 옥홀 방패를 부여한다",
+        "ru-ru": "Навык Падение кометы накладывает Яшмовый щит на окружающих персонажей.",
+        "de-de": "Einstürzender Himmel gibt aktuellen Figuren in der Nähe des Sturzes einen Jadeblock zum Schutz.",
+        "fr-fr": "Les personnages déployés à proximité sont protégés par un bouclier de jade lors de Chute de météore.",
+        "es-es": "Al caer Lluvia estelar, otorga un escudo de jade a los personajes en uso cercanos.",
+        "id-id": "Saat Planet Befall dilancarkan, sebuah Jade Shield akan tercipta untuk Karakter yang berada di dekatnya.",
+        "th-th": "เมื่อ Planet Befall ตกลงมา จะมอบ Jade Shield ให้กับตัวละครที่เข้าร่วมการต่อสู้ และอยู่ในบริเวณใกล้เคียงในขณะนั้น",
+        "vi-vn": "Khi Thiên Tinh rơi xuống, các nhân vật trong trận hiện tại ở lân cận sẽ nhận được Khiên Ngọc bảo vệ.",
+        "zh-tw": "天星隕落時，會為附近當前場上的角色賦予玉璋護盾。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/钟离/constellation_2.png"
+    },
+    {
+      "id": "summaryList66112",
+      "constellationNumber": 3,
+      "name": {
+        "pt-pt": "Jade, Cintilando na Escuridão",
+        "en-us": "Jade, Shimmering through Darkness",
+        "ja-jp": "圭璋、闇の中で輝く",
+        "zh-cn": "圭璋，暝仍不移其晖",
+        "ko-kr": "옥그릇·저물어도 사라지지 않는 광채",
+        "ru-ru": "Яшмовый блеск",
+        "de-de": "Funkelnd und doch dunkel",
+        "fr-fr": "Jade, brillant à travers les ténèbres",
+        "es-es": "Jade, el brillo del crepúsculo",
+        "id-id": "Jade, Shimmering through Darkness",
+        "th-th": "Jade, Shimmering through Darkness",
+        "vi-vn": "Khuê Chương, Khó Khăn Không Lùi Bước",
+        "zh-tw": "圭璋，暝仍不移其暉"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível do Dominus Lapidis em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Dominus Lapidis by 3.Maximum upgrade level is 15.",
+        "ja-jp": "地心のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "地心的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "지핵의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Власть над камнем на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Dominus Lapidis um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Dominus Lapidis +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Dominus lapidis +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Dominus Lapidis.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Dominus Lapidis ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Tâm Trái Đất +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "地心的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/钟离/constellation_3.png"
+    },
+    {
+      "id": "summaryList24160",
+      "constellationNumber": 4,
+      "name": {
+        "pt-pt": "Topázio, Inquebrável e Destemido",
+        "en-us": "Topaz, Unbreakable and Fearless",
+        "ja-jp": "黄玉、破れぬ堅さ",
+        "zh-cn": "黄琮，破而不夺其坚",
+        "ko-kr": "옥홀·부서져도 건재한 견고함",
+        "ru-ru": "Топаз, несломленный и бесстрашный",
+        "de-de": "Gebrochen und doch hart",
+        "fr-fr": "Topaze, incassable et intrépide",
+        "es-es": "Topacio, indestructible e intrépido",
+        "id-id": "Topaz, Unbreakable and Fearless",
+        "th-th": "Topaz, Unbreakable and Fearless",
+        "vi-vn": "Hoàng Tông, Phá Nhưng Không Mất Kiên Cường",
+        "zh-tw": "黃琮，破而不奪其堅"
+      },
+      "description": {
+        "pt-pt": "Aumenta a AdE da Chuva Estelar em 20%.Além disso, o efeito de Petrificação da Chuva Estelar é prolongado em 2s.",
+        "en-us": "Increases Planet Befall's AoE by 20% and increases the duration of Planet Befall's Petrification effect by 2s.",
+        "ja-jp": "天星の影響範囲+20%。さらに天星の石化効果の継続時間+2秒。",
+        "zh-cn": "天星的影响范围扩大20%。此外，天星的石化效果持续时间延长2秒。",
+        "ko-kr": "천성의 영향 범위가 20% 증가한다.또한, 천성의 석화 효과 지속 시간이 2초 증가한다",
+        "ru-ru": "Увеличивает зону поражения навыка Падение кометы на 20%, также увеличивает длительность окаменения на 2 сек.",
+        "de-de": "Vergrößert den Wirkungsbereich von Einstürzender Himmel um 20 %.Verlängert den Effekt der Versteinerung von Einstürzender Himmel um 2 s.",
+        "fr-fr": "Augmente la zone d'effet de Chute de météore de 20 %.Prolonge de plus la durée de la pétrification de 2 s.",
+        "es-es": "Aumenta el AdE de Lluvia estelar en un 20%.Además, aumenta en 2 s la duración de Petrificación de Lluvia estelar.",
+        "id-id": "Meningkatkan radius Planet Befall sebesar 20% dan meningkatkan durasi dari efek Petrification Planet Befall sebanyak 2 detik.",
+        "th-th": "พื้นที่ผลกระทบของ Planet Befall ขยายขึ้น 20%นอกจากนี้ เอฟเฟกต์กลายเป็นหินของ Planet Befall จะนานขึ้น 2 วินาที",
+        "vi-vn": "Tăng 20% phạm vi ảnh hưởng của Thiên Tinh.Đồng thời hiệu quả Hóa Thạch của Thiên Tinh sẽ kéo dài thêm 2s.",
+        "zh-tw": "天星的影響範圍擴大20%。此外，天星的石化效果持續時間延長2秒。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/钟离/constellation_4.png"
+    },
+    {
+      "id": "summaryList70689",
+      "constellationNumber": 5,
+      "name": {
+        "pt-pt": "Lazuli, Heraldo da Ordem",
+        "en-us": "Lazuli, Herald of the Order",
+        "ja-jp": "璧、天理を守る",
+        "zh-cn": "苍璧，驱之长昭天理",
+        "ko-kr": "푸른 규벽·천지의 이치",
+        "ru-ru": "Лазурит, вестник порядка",
+        "de-de": "Verkünder der Ordnung",
+        "fr-fr": "Lazulite, le héraut de l'ordre divin",
+        "es-es": "Lapislázuli, el heraldo del orden",
+        "id-id": "Lazuli, Herald of the Order!",
+        "th-th": "Lazuli, Herald of the Order",
+        "vi-vn": "Thương Bích, Kiên Cường Như Lẽ Trời",
+        "zh-tw": "蒼璧，驅之長昭天理"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível da Chuva Estelar em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Planet Befall by 3.Maximum upgrade level is 15.",
+        "ja-jp": "天星のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "天星的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "천성의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Падение кометы на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Einstürzender Himmel um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Chute de météore +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Lluvia estelar +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Planet Befall.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Planet Befall ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Thiên Tinh +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "天星的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/钟离/constellation_5.png"
+    },
+    {
+      "id": "summaryList14584",
+      "constellationNumber": 6,
+      "name": {
+        "pt-pt": "Chrysos, Recompensa do Dominador",
+        "en-us": "Chrysos, Bounty of Dominator",
+        "ja-jp": "金、天地の恵み",
+        "zh-cn": "金玉，礼予天地四方",
+        "ko-kr": "금옥·천하에 주는 선물",
+        "ru-ru": "Кризос, награда деспота",
+        "de-de": "Geschenk des Bodens",
+        "fr-fr": "Or, la générosité du dominateur",
+        "es-es": "Chrysos, la generosidad del dominador",
+        "id-id": "Chrysos, Bounty of Dominator",
+        "th-th": "Chrysos, Bounty of Dominator",
+        "vi-vn": "Thiên Ngọc, Lễ Thiên Địa Tứ Phương",
+        "zh-tw": "金玉，禮予天地四方"
+      },
+      "description": {
+        "pt-pt": "Quando o Escudo de Jade recebe dano, 40% do Dano recebido é convertido em Vida para o personagem atual.A regeneração não pode exceder 8% da Vida Máxima do personagem por vez.",
+        "en-us": "When the Jade Shield takes DMG, 40% of that incoming DMG is converted to HP for the current character.A single instance of regeneration cannot exceed 8% of that character's Max HP.",
+        "ja-jp": "玉璋シールドがダメージを受けた時、そのダメージ量の40%分のHPを回復する。一回の回復上限はキャラクターのHP上限の8%。",
+        "zh-cn": "玉璋护盾受到伤害时，将为当前角色恢复生命值，回复量为伤害的40%。单次回复量不超过当前角色最大生命值的8%。",
+        "ko-kr": "옥홀 방패가 피해를 받을 경우, 받은 피해의 40%만큼 현재 캐릭터의 HP를 회복한다.단일 회복량은 현재 캐릭터 HP 최대치의 8%를 초과할 수 없다",
+        "ru-ru": "Когда Яшмовый щит получает урон, 40% этого урона конвертируется в HP для активного персонажа.Одно восстановление не может превышать 8% от макс. HP персонажа.",
+        "de-de": "Stellt der aktuellen Figur LP in Höhe von 40 % des Schadens wieder her, wenn der Jadeblock Schaden erleidet.Die bei jeder Heilung wiederhergestellten LP können 8 % der max. LP der Figur nicht übersteigen.",
+        "fr-fr": "40 % des DGT subis par le bouclier de jade sont convertis en PV pour le personnage déployé.La quantité de PV restaurés en une fois ne peut pas dépasser 8 % des PV max du personnage.",
+        "es-es": "Cuando el escudo de jade recibe daño, el 40% del daño recibido se convierte en Vida para el personaje en uso.No se puede recuperar más del 8% de la Vida Máx. del personaje cada vez que se activa el efecto.",
+        "id-id": "Saat Jade Shield aktif, 40% DMG yang diterima akan dikonversi menjadi pemulihan HP.Jumlah pemulihan yang diterima dalam satu kali konversi tidak dapat melebihi 8% dari Max HP karakter tersebut.",
+        "th-th": "เมื่อ Jade Shield ได้รับความเสียหาย ตัวละครในขณะนั้นจะได้รับการฟื้นฟูพลังชีวิตเท่ากับ 40% ของความเสียหายซึ่งปริมาณการฟื้นฟูในหนึ่งครั้ง จะไม่เกิน 8% ของพลังชีวิตสูงสุดของตัวละครในขณะนั้น",
+        "vi-vn": "Khi Khiên Ngọc chịu sát thương, sẽ hồi HP cho nhân vật hiện tại, lượng hồi phục bằng 40% sát thương.Lượng hồi phục của 1 lần không vượt quá 8% HP tối đa của nhân vật.",
+        "zh-tw": "玉璋護盾受到傷害時，將為當前角色恢復生命值，回復量為傷害的40%。單次回復量不超過該角色最大生命值的8%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/钟离/constellation_6.png"
+    }
+  ],
+  "talents": [
+    {
+      "type": "normal_attack",
+      "name": {
+        "pt-pt": "Ataque Normal: Chuva de Pedras",
+        "en-us": "Rain of Stone",
+        "ja-jp": "岩雨",
+        "zh-cn": "普通攻击·岩雨",
+        "ko-kr": "일반 공격·바위 비",
+        "ru-ru": "Каменный дождь",
+        "de-de": "Standardangriff: Steinhagel",
+        "fr-fr": "Attaque normale : Pluie de pierres",
+        "es-es": "Ataque Normal: Lluvia pétrea",
+        "id-id": "Rain of Stone",
+        "th-th": "โจมตีปกติ - Rain of Stone",
+        "vi-vn": "Tấn Công Thường - Mưa Đá",
+        "zh-tw": "普通攻擊·岩雨"
+      },
+      "description": {
+        "pt-pt": "Ataque NormalRealiza até 6 golpes consecutivos com a lança.Ataque CarregadoConsome uma certa quantidade de Stamina para se lançar para frente, fazendo com que lanças de pedras caiam em seu trajeto.Ataque ImersivoMergulha em pleno ar para golpear o chão, causando dano a inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
+        "en-us": "Normal AttackPerforms up to 6 consecutive spear strikes.Charged AttackConsumes a certain amount of Stamina to lunge forward, causing stone spears to fall along his path.Plunging AttackPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+        "ja-jp": "通常攻撃槍による最大6段の連続攻撃を行う。重撃一定のスタミナを消費して前方に疾行し、行動経路上と終着点に雨のような岩槍を投下する。落下攻撃空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "zh-cn": "普通攻击进行至多六段的连续枪击。重击消耗一定体力，向前方疾行，在行动路径上和终点投下如雨的岩枪。下落攻击从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+        "ko-kr": "일반 공격창으로 최대 6번 공격한다.강공격일정 스태미나를 소모해 전방으로 질주한다. 경로 및 종착점에 비 같은 바위창을 내린다.낙하 공격공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 범위 피해를 준다",
+        "ru-ru": "Обычная атака:До шести ударов копьём.Заряженная атака:Выпад, вызывающий дождь из каменных копий, на который тратится определённое количество выносливости.Атака в падении:Стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+        "de-de": "StandardangriffFührt bis zu 6 Lanzenstiche hintereinander aus.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer, läuft geschwind nach vorn und lässt steinerne Lanzen von Anfang bis Ende auf die Bahn der Bewegung fallen.Angriff aus dem FallSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "fr-fr": "Attaque normaleEnchaîne jusqu'à 6 coups de lance.Attaque chargéeConsomme de l'endurance pour charger vers l'avant, faisant pleuvoir des lances de roche sur la route.Attaque plongeantePlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "es-es": "Ataque NormalRealiza hasta 6 ataques rápidos con lanza.Ataque CargadoConsume una cierta cantidad de Aguante para lanzarse al frente, haciendo que caigan lanzas de piedra en su camino.Ataque DescendenteSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+        "id-id": "Normal AttackMelancarkan hingga 6 serangan tombak beruntun.Charged AttackMengonsumsi sejumlah Stamina untuk menyerang maju, dan menyebabkan tombak batu berjatuhan di sepanjang jalur serangan.Plunging AttackMenerjang dari udara untuk menghantam tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+        "th-th": "โจมตีปกติใช้หอกโจมตีต่อเนื่องมากสุดถึงหกครั้งชาร์จโจมตีใช้พลังกายส่วนหนึ่งเพื่อพุ่งไปข้างหน้า อย่างรวดเร็ว จากนั้นจะทิ้งหอกหินลงมา ยังเส้นทางที่เคลื่อนที่ และจุดสุดท้ายราวกับฝนกระหน่ำโจมตีพุ่งลงจากอากาศกระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+        "vi-vn": "Tấn Công ThườngThực hiện tối đa 6 lần đánh liên tiếp.Trọng KíchTiêu hao thể lực nhất định, lao nhanh về phía trước, ném thương đá trên đường đi và điểm cuối.Tấn Công Khi ĐápĐáp xuống đất từ trên không, tấn công kẻ địch trên đường, đồng thời gây sát thương phạm vi khi chạm đất.",
+        "zh-tw": "普通攻擊進行至多六段的連續槍擊。重擊消耗一定體力，向前方疾行，在行動路徑上和終點投下如雨的岩槍。下落攻擊從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/钟离/battle_talent_0/battle_talent_0.png"
+    },
+    {
+      "type": "elemental_skill",
+      "name": {
+        "pt-pt": "Dominus Lapidis",
+        "en-us": "Dominus Lapidis",
+        "ja-jp": "地心",
+        "zh-cn": "地心",
+        "ko-kr": "지핵",
+        "ru-ru": "Власть над камнем",
+        "de-de": "Dominus Lapidis",
+        "fr-fr": "Dominus Lapidis",
+        "es-es": "Dominus lapidis",
+        "id-id": "Dominus Lapidis",
+        "th-th": "Dominus Lapidis",
+        "vi-vn": "Tâm Trái Đất",
+        "zh-tw": "地心"
+      },
+      "description": {
+        "pt-pt": "O Poder Geo cobre todas as montanhas, terras e rochas. Mas poucas são as pessoas que o podem usar livremente.PressionarOrdena que o elemento Geo na terra se una em Estela de Pedra.Manter PressionadoOrdena que elementos Geo ao redor explodam, causando o seguinte efeito:·Se o número de Estelas de Pedra não alcançou o máximo, cria outra Estela de Pedra;·Forma um Escudo de Jade, que absorve o Dano com base na Vida Máxima de Zhongli;·Causa Dano Geo em uma AdE;·Se houver alvos com Elemento Geo nas proximidades, absorverá o Elemento Geo de até dois alvos. Esse efeito não causa dano.Estela de PedraAo ser criada, causa Dano Geo em uma AdE.Além disso, enquanto existir, ressoará com Construções Geo próximas, causando Dano Geo aos inimigos próximos.A Estela de Pedra é considerada uma Construção Geo, pode parar ataques, e pode ser escalada.Inicialmente só é possível existir uma Estela de Pedra, criada pelo próprio Zhongli, ao mesmo tempo.Escudo de JadeAbsorve 150% de todos os Danos Elementais e Danos Físicos.Os personagens sob a proteção do Escudo de Jade, diminuem a RES Elemental e RES Física de todos os inimigos em 20% numa pequena AdE.Um verdadeiro mestre da pedra pode entalhar jade e dar forma ao ouro.",
+        "en-us": "Every mountain, rock and inch of land is filled with the power of Geo, but those who can wield such powers freely are few and far between.Tap/PressCommands the power of earth to create a Stone Stele.HoldCauses nearby Geo energy to explode, causing the following effects:· If their maximum number hasn't been reached, creates a Stone Stele.· Creates a shield of jade. The shield's DMG Absorption scales based on Zhongli's Max HP.· Deals AoE Geo DMG.· If there are nearby targets with the Geo element, it will drain a large amount of Geo element from a maximum of 2 such targets. This effect does not cause DMG.Stone SteleWhen created, deals AoE Geo DMG.Additionally, it will intermittently resonate with other nearby Geo constructs, dealing Geo DMG to nearby opponents.The Stone Stele is considered a Geo construct that can both be climbed and used to block attacks.Only one Stele created by Zhongli himself may initially exist at any one time.Jade ShieldPossesses 150% DMG Absorption against all Elemental and Physical DMG.Characters protected by the Jade Shield will decrease the Elemental RES and Physical RES of opponents in a small AoE by 20%. This effect cannot be stacked.A true master of stone may carve jade and shape gold.",
+        "ja-jp": "山脈の中、大地の上、盤石の間に岩の力が宿っている。しかしこの力を自由に扱える者は少ない。一回押し大地の至るところにある岩元素を積み上げ、岩柱を生成する。長押し付近の岩元素を爆発させ、下記の効果を発動する。・岩柱が数の上限に達していない場合、岩柱を生成する。・玉璋シールドを生成する。シールドのダメージ吸収量は鍾離のHP上限によって決まる。・岩元素範囲ダメージを与える。・周りに岩元素を持つターゲットがいる場合、最大2つのターゲットの岩元素を大量に消耗させる。この効果によるダメージは発生しない。岩柱岩柱が生成された時、岩元素範囲ダメージを与える。また、岩柱が存在している間、周囲の他の岩元素創造物と一定時間の間隔で原岩共鳴をし、持続的に周囲の敵に岩元素ダメージを与える。岩柱は岩元素創造物と見なされ、攻撃を防ぐことができ、登ることもできる。同時に最大1つまで存在可能。玉璋シールド全元素ダメージと物理ダメージに150%の吸収効果がある。玉璋シールドに守られたキャラクターは、付近範囲内の敵の全元素耐性と物理耐性-20%。この効果は重ねがけ不可。岩の堅きこと、物に於いて陥さざる無きなり。",
+        "zh-cn": "山脉中、大地上、磐石间，都遍布着岩之力。能自如驱动这股力量的人却少之又少。点按命令大地上岩元素积聚而起，创造岩脊。长按令附近的岩元素爆发，造成以下效果：·如果岩脊数量没有达到上限，则创造岩脊；·形成玉璋护盾，伤害吸收量受益于钟离的生命值上限；·造成岩元素范围伤害；·身边如果有附带有岩元素的目标，则大量消耗至多两个目标的岩元素。这个效果不会造成伤害。岩脊创造时，造成岩元素范围伤害。此外，存在期间会与周围的其他岩元素创造物间歇进行原岩共鸣，对周围的敌人造成岩元素伤害。岩脊视为岩元素创造物，可以阻拦攻击，可以攀爬。由钟离自己创造的岩脊，初始同时只能存在一个。玉璋护盾对所有元素伤害与物理伤害有150%的吸收效果。处于玉璋护盾庇护下的角色，会使附近小范围内敌人的所有元素抗性与物理抗性降低20%，该效果不可叠加。岩者坚也，可攻玉雕金。",
+        "ko-kr": "대지 위, 산맥, 반석 사이엔 바위의 힘이 널리 퍼져있다. 그러나 이 힘을 자유자재로 사용할 수 있는 이는 거의 없다.짧은 터치대지에 퍼져있는 바위 원소를 소환해 암주를 생성한다.홀드근처의 바위 원소를 폭발시켜 아래 효과를 생성한다:·암주의 수량이 최대 수량에 미치지 못하면 암주를 생성해 낸다:·옥홀 방패를 생성한다. 피해 흡수량은 종려 HP 최대치의 영향을 받는다.·바위 원소 범위 피해를 준다.·근처에 바위 원소를 보유한 타깃이 있다면, 최대 2개 타깃의 바위 원소를 대량 소모한다. 해당 효과로 피해를 줄 수 없다.암주생성 시,바위 원소 범위 피해를 준다.또한 암주는 주변의 다른 바위 원소 창조물과 간헐적으로 원암 공명을 일으켜 주변의 적에게 바위 원소 피해를 준다.암주는 바위 원소 창조물로 간주되며, 공격을 막거나 등반할 수 있다.종려가 만들어낸 암주는 초기에 동시에 1개만 존재 할 수 있다.옥홀 방패모든 원소 피해와 물리 피해에 대해 150%의 흡수 효과가 있다옥홀 방패로 보호를 받고 있는 캐릭터는, 주변의 작은 범위 내의 적들의 원소 내성과 물리 내성을 20% 감소시킨다, 이 효과는 중첩되지 않는다.바위는 옥을 갈고 금에 모양을 새길 수도 있을 만큼 단단하다",
+        "ru-ru": "Каждая гора, каждый камень и вся земля пронизаны энергией Гео, но только единицы могут ею управлять.Быстрое нажатие:Приказывает силам земли создать Каменную стелу.Долгое нажатие:Заставляет окружающую Гео энергию взорваться, что вызывает следующие эффекты:· Создаёт Каменную стелу, если не было достигнуто их максимально допустимое количество.· Создаёт Яшмовый щит. Поглощение урона щита зависит от макс. HP Чжун Ли.· Наносит Гео урон по площади.· Если поблизости есть цели с элементом Гео, вытягивает большое количество Гео элемента из максимум 2 таких целей. Этот эффект не наносит урона.Каменная стела:При создании наносит Гео урон по площади.Также Каменная стела входит в резонанс с окружающими её другими Гео конструкциями, нанося Гео урон окружающим врагам.Каменная стела считается Гео конструкцией, на неё можно взобраться или использовать её для блокирования атак.Первоначально может существовать только одна Каменная стела, созданная самим Чжун Ли.Яшмовый щит:Весь элементальный и физический урон поглощается на 150% эффективнее.Персонажи, защищённые Яшмовым щитом, будут понижать элементальное и физическое сопротивление врагов в небольшом радиусе на 20%. Этот эффект не может складываться.Настоящий мастер может вырезать нефрит и придать форму золоту одной лишь мыслью.",
+        "de-de": "In den Bergen, auf und unter der Erde sowie in den Steinen, die überall herumliegen, steckt die Geo-Kraft. Nur äußerst wenige sind dazu in der Lage, diese Kraft aktiv zu nutzen.DrückenKonzentriert die überall auf der Erde vorhandene Geo-Kraft zu einem Hügelkamm.Gedrückt haltenLässt Geo-Objekte in der Nähe explodieren und verursacht folgende Effekte:· Erstellt, solange die Höchstmenge nicht erreicht ist, einen Hügelkamm.· Erstellt einen Jadeblock, der Schaden basierend auf Zhonglis max. LP abhält.· Verursacht Geo-Flächenschaden.· Verbraucht bei Anwesenheit von Zielen mit Geo-Kraft die Geo-Kraft von bis zu zwei dieser Ziele. Dieser Effekt verursacht keinen Schaden.HügelkammVerursacht beim Entstehen Geo-Flächenschaden.Verursacht während der Wirkungsdauer eine Schwingung in Einklang mit anderen Geo-Objekten in der Umgebung, die Gegnern in der Umgebung Geo-Schaden zufügt.Der Hügelkamm gilt als Geo-Objekt, blockiert Angriffe und kann erklommen werden.Standardmäßig kann zu einem Zeitpunkt nur ein von Zhongli selbst erstellter Hügelkamm existieren.Jadeblock-SchildHält bei elementarem sowie physischem Schaden 150 % ab.Verringert den WDS gegen alle Elemente sowie den physischen WDS von Gegnern in der Nähe von Jadeblöcken geschützer Figuren mit geringer Reichweite um 20 %, nicht stapelbar.Der Fels ist hart und schleift rohe Jade zu wertvollen Edelsteinen.",
+        "fr-fr": "Le pouvoir Géo est présent dans les montagnes, sur la terre comme dans les profondeurs, et jusque dans les fissures rocailleuses. Mais rares sont ceux capables de maîtriser une telle puissance.Appui simpleZhongli matérialise une Dorsale rocheuse.Appui longZhongli fait exploser l'élément Géo contenu dans les environs, entraînant les effets suivants :· Une Dorsale rocheuse est créée si le nombre maximum de Dorsales rocheuses sur le terrain n'est pas atteint.· Un bouclier de jade capable d'absorber une quantité de DGT proportionnelle aux PV max de Zhongli est généré.· Inflige des DGT Géo de zone.· Absorbe l'élément Géo des cibles proches affectées par l'élément Géo (jusqu'à 2 cibles max). Cet effet n'inflige pas de DGT.Dorsale rocheuseUne Dorsale rocheuse inflige des DGT Géo de zone lorsqu'elle est matérialisée.La Dorsale entre en résonance avec les autres constructions Géo présentes.L'amas rocheux libère l'écho de la pierre originelle de façon intermittente, infligeant des DGT Géo aux ennemis à proximité.La Dorsale rocheuse est une construction Géo qui bloque les attaques et peut être escaladée. Il ne peut exister qu'une seule dorsale à la fois.Bouclier de jadeLe bouclier de jade est efficaces à 150 % contre les DGT élémentaires et physiques.Lorsqu'un bouclier de jade protège un personnage, les RÉS élémentaires et physique des ennemis proches sont réduites de 20 %. Cet effet n'est pas cumulable.Un vrai maître de la roche doit savoir sculpter le jade et l'or.",
+        "es-es": "Cada montaña, roca y centímetro de la tierra contiene poder Geo, pero solo unos pocos pueden usar libremente tal poder.Un toque/Pulsar una vezOrdena al poder Geo de la tierra que se solidifique en una cresta de piedra.Mantener pulsadoHace que los elementos Geo cercanos exploten, provocando los siguientes efectos:·Si aún no se ha alcanzado la cantidad máxima de crestas de piedra, invocará una cresta de piedra.·Crea un escudo de jade. La cantidad de absorción de daño del escudo es proporcional a la Vida Máx. de Zhongli.·Inflige Daño Geo en el AdE.·Si hay enemigos cercanos afectados por el elemento Geo, absorberá una gran cantidad de dicho elemento de un máximo de dos objetivos afectados por él. Este efecto no causa daño.Cresta de piedraAl ser creada, inflige Daño Geo en el AdE.La cresta de piedra resonará con las creaciones Geo cercanas, infligiendo Daño Geo a los enemigos cercanos.La cresta de piedra es considerada una creación Geo, y puede escalarse y usarse para bloquear ataques. Solo puede existir una al mismo tiempo.Escudo de jadeTiene un 150% de eficiencia de absorción contra todo el Daño Elemental y el Daño Físico.Cuando un personaje se encuentra protegido por este escudo, todas las RES Elementales y la RES Física de los enemigos cercanos a él en una pequeña AdE se reducen en un 20%. Este efecto no puede acumularse.Un verdadero maestro de la piedra puede tallar jade y dar forma al oro.",
+        "id-id": "Gunung, tanah, batu, semuanya mengandung kekuatan Geo. Namun, cuma sedikit saja yang bisa mengerahkan kekuatan itu sesuai kehendaknya.TekanMemerintahkan elemen Geo di permukaan tanah untuk berkumpul dan membentuk sebuah Stone Stele.TahanMengakibatkan elemen Geo di sekitar meledak, menyebabkan efek berikut:·Bila jumlah Stone Stele yang terbentuk belum mencapai batas maksimum, Stone Stele akan terbentuk.·Menciptakan sebuah Jade Shield yang dapat menyerap DMG sesuai dengan Max HP Zhongli.·Mengakibatkan Geo DMG Area.·Bila di sekeliling karakter terdapat musuh dengan elemen Geo, maka Zhongli dapat mengonsumsi sejumlah besar elemen Geo, maksimum dari 2 musuh. Efek ini tidak mengakibatkan DMG.Stone SteleKetika terbentuk, pilar ini akan mengakibatkan Geo DMG Area.Selain itu, Stone Stele akan beresonansi dengan Geo Construct di sekitarnya, mengakibatkan Geo DMG ke musuh di sekitar.Stone Stele terhitung sebagai Geo Construct, yang dapat digunakan untuk menghalangi serangan dan juga dapat dipanjat.Awalnya, Stone Stele yang diciptakan oleh Zhongli, hanya bisa ada satu dalam satu waktu.Jade ShieldMemiliki bonus 150% efek penyerapan terhadap semua Elemental DMG dan Physical DMG.Karakter yang berada dalam perlindungan Jade Shield akan menyebabkan semua Elemental RES dan Physical RES musuh di area kecil sekitarnya berkurang 20%. Efek tersebut tidak dapat ditumpuk.Seorang ahli batu sejati akan mampu mengukir giok dan membentuk emas.",
+        "th-th": "แนวเทือกเขา, บนพื้นดิน, ช่องระหว่างหินขนาดใหญ่ ทั้งหมดนี้ล้วนเต็มไปด้วยพลังแห่งหิน แต่คนที่สามารถขับเคลื่อนพลังเหล่านี้ได้นั้นกลับมีน้อยและหาได้ยากมากแตะ/กดเรียกธาตุหินที่อยู่บนพื้นโลกให้มารวมกันเพื่อสร้าง Stone Steleแตะค้าง/กดค้างเรียกพลังแห่งธาตุหินที่อยู่รอบตัวให้ปะทุขึ้นมา เกิดเป็นเอฟเฟกต์ดังต่อไปนี้:·สร้าง Stone Stele หากจำนวนยังไม่ถึงขีดจำกัดสูงสุด;·สร้าง Jade Shield ขึ้นมา โดยจะมีปริมาณการดูดซับความเสียหายขึ้นกับพลังชีวิตสูงสุดของ Zhongli;·ทำให้เกิดความเสียหายหินวงกว้าง;·หากมีเป้าหมายที่เป็นธาตุหินอยู่ในบริเวณใกล้ตัว จะดูดธาตุหินปริมาณมากออกมาจากเป้าหมายมากสุด 2 เป้าหมาย ซึ่งเอฟเฟกต์นี้จะไม่ทำให้เกิดความเสียหายStone Steleทำให้เกิดความเสียหายหินวงกว้างในตอนที่สร้างนอกจากนี้ระหว่างช่วงเวลาที่คงอยู่ จะทำการปล่อยคลื่นประสานกับวัตถุธาตุหินที่อยู่โดยรอบเป็นระยะ ๆ เพื่อสร้างความเสียหายหินแก่ศัตรูที่อยู่โดยรอบStone Stele นั้นถูกนับว่าเป็นวัตถุธาตุหิน ซึ่งใช้ป้องกันการโจมตีและใช้เพื่อปีนป่ายได้ในตอนเริ่มแรก Stone Stele ที่สร้างขึ้นโดยตัวของ Zhongli เองนั้น สามารถมีได้เพียงอันเดียวในช่วงเวลาเดียวกันเท่านั้นJade Shieldมีเอฟเฟกต์การดูดซับความเสียหายธาตุทุกประเภทและความเสียหายกายภาพ 150%ตัวละครที่ได้รับการป้องกันจาก Jade Shield จะลดความต้านทานธาตุทั้งหมด และความต้านทานกายภาพของศัตรูที่อยู่ใกล้เคียงในพื้นที่วงแคบลง 20% โดยที่เอฟเฟกต์นี้ จะไม่สามารถซ้อนทับได้.ถึงจะเป็นหินแต่ก็สามารถสลักหยกหรือขึ้นรูปทองคำได้ หากทำอย่างต่อเนื่อง",
+        "vi-vn": "Trong rặng núi, trên mặt đất, giữa những tảng đá đều chất chứa sức mạnh của nham. Nhưng rất ít người có thể điều khiển được sức mạnh này.NhấnRa lệnh cho các nguyên tố Nham trên mặt đất tụ hợp lại, kết thành vách đá.Nhấn GiữLệnh cho nguyên tố Nham xung quanh phát nổ, gây hiệu quả như sau:·Nếu số lượng vách đá chưa đạt giới hạn, thì sẽ tạo ra vách đá;·Tạo ra Khiên Ngọc, lượng hấp thu sát thương phụ thuộc vào giới hạn HP của Zhongli;·Gây Sát Thương Phạm Vi Nguyên Tố Nham;·Nếu bên cạnh có mục tiêu Nguyên Tố Nham, sẽ tiêu hao lượng lớn Nguyên Tố Nham của tối đa 2 mục tiêu. Hiệu quả này sẽ không gây sát thương.Vách ĐáKhi tạo vách đá sẽ gây Sát Thương Phạm Vi Nguyên Tố Nham.Ngoài ra, trong thời gian vách đá tồn tại, thỉnh thoảng sẽ tạo thành cộng hưởng với tạo vật Nguyên Tố Nham khác ở xung quanh, gây sát thương Nguyên Tố Nham cho kẻ địch xung quanh.Vách đá được xem là tạo vật Nguyên Tố Nham, có thể ngăn chặn tấn công, có thể leo trèo.Ban đầu chỉ được tồn tại đồng thời 1 vách đá duy nhất do Zhongli tạo ra.Khiên NgọcCó hiệu quả hấp thu 150% tất cả sát thương nguyên tố và sát thương vật lý.Nhân vật đang được Khiên Ngọc bảo vệ, sẽ khiến cho kẻ địch trong phạm vi nhỏ bị giảm 20% tất cả kháng nguyên tố và kháng vật lý, hiệu quả này không được cộng dồn.Đá kiên cố có thể đánh ngọc khắc vàng.",
+        "zh-tw": "山脈中、大地上、磐石間，都遍布著岩之力。能自如驅動這股力量的人卻少之又少。 點按命令大地上岩元素積聚而起，創造岩脊。 長按令附近的岩元素爆發，造成以下效果：·如果岩脊數量沒有達到上限，則創造岩脊。·形成玉璋護盾，傷害吸收量受益於鍾離的生命值上限。·造成岩元素範圍傷害。·身邊如果有附帶有岩元素的目標，則大量消耗至多兩個目標的岩元素。這個效果不會造成傷害。 岩脊創造時，造成岩元素範圍傷害。 此外，存在期間會與周圍的其他岩元素創造物間歇進行原岩共鳴，對周圍的敵人造成岩元素傷害。 岩脊視為岩元素創造物，可以阻攔攻擊，可以攀爬。 由鍾離自己創造的岩脊，初始同時只能存在一個。 玉璋護盾對所有元素傷害與物理傷害有150%的吸收效果。 處於玉璋護盾庇護下的角色，會使附近小範圍內敵人的所有元素抗性與物理抗性降低20%，該效果不可疊加。 岩者堅也，可攻玉雕金。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/钟离/battle_talent_1/battle_talent_1.png"
+    },
+    {
+      "type": "elemental_burst",
+      "name": {
+        "pt-pt": "Chuva Estelar",
+        "en-us": "Planet Befall",
+        "ja-jp": "天星",
+        "zh-cn": "天星",
+        "ko-kr": "천성",
+        "ru-ru": "Падение кометы",
+        "de-de": "Einstürzender Himmel",
+        "fr-fr": "Chute de météore",
+        "es-es": "Lluvia estelar",
+        "id-id": "Planet Befall",
+        "th-th": "Planet Befall",
+        "vi-vn": "Thiên Tinh",
+        "zh-tw": "天星"
+      },
+      "description": {
+        "pt-pt": "Traz uma estrela cadente em direção à terra, infligindo Dano Geo massivo nos inimigos pegos em sua AdE e aplicando o efeito Petrificante PetrificaçãoInimigos afetados pelo efeito Petrificante não podem se mover.O meteorito caído pune os injustos.",
+        "en-us": "Brings a falling meteor down to earth, dealing massive Geo DMG to opponents caught in its AoE and applying the Petrification status to them.PetrificationOpponents affected by the Petrification status cannot move.The falling meteor punishes the unjust.",
+        "ja-jp": "巨大な星岩を落下させ、落下範囲内の敵に大量の岩元素ダメージを与え、石化状態にする。石化石化状態の敵は行動不能になる。蒼天の星岩を落とし、暗闇の運命を照らす。",
+        "zh-cn": "降下巨大的星岩，对坠落范围内的敌人造成巨额岩元素伤害，并使其石化。石化处于石化状态下的敌人无法行动。以陨天苍岩星，昭命理昏暝者。",
+        "ko-kr": "거대한 운석을 떨어뜨려 추락 범위 내의 적에게 대량의 바위 원소 피해를 주고 석화 상태로 만든다.석화석화 상태가 된 적은 움직일 수 없다하늘의 운석을 떨어뜨려 운명의 어둠을 밝게 비춘다",
+        "ru-ru": "Призывает гигантский метеорит, который наносит огромный Гео урон врагам в радиусе поражения, а также накладывает на них статус Окаменение.Окаменение:Враги со статусом Окаменение не могут двигаться.Падающая комета карает несправедливость.",
+        "de-de": "Ein riesiger Meteorit fällt aus dem Himmel und fügt den Gegnern im Wirkungsbereich des Einschlags enormen Geo-Schaden sowie Versteinert zu.VersteinertGegner im Zustand Versteinert können sich nicht bewegen.Ein aus dem Himmel fallender Meteorit hilft den Gerechten und bestraft die Unholde.",
+        "fr-fr": "Zhongli fait tomber des cieux un gigantesque météore, infligeant d'importants DGT Géo à l'impact et pétrifie les ennemis.PétrificationLes ennemis pétrifiés sont immobilisés.Que le météore qui transperce la voûte illumine les ténèbres de ce monde.",
+        "es-es": "Atrae un meteorito a la tierra, causando Daño Geo masivo a los enemigos dentro de su AdE y aplicando el efecto de Petrificación.PetrificaciónLos enemigos bajo el efecto de Petrificación no pueden moverse.El meteorito que cae castiga a los injustos.",
+        "id-id": "Menjatuhkan sebuah meteor ke bumi, mengakibatkan Geo DMG yang besar serta menyebabkan efek Petrification kepada musuh di dalam area skill.PetrificationMusuh yang terkena efek Petrification tidak dapat bergerak.Bintang jatuh menghukum para pelaku yang berbuat curang dan tidak adil.",
+        "th-th": "เรียกดาวตกขนาดใหญ่ให้ร่วงลงมาเพื่อ สร้างความเสียหายหินอย่างรุนแรง แก่ศัตรูที่อยู่ในบริเวณที่ตกใส่ และทำให้เกิดการกลายเป็นหินการกลายเป็นหินศัตรูที่อยู่ภายใต้สภาวะการกลายเป็นหินจะไม่สามารถขยับตัวได้.อุกกาบาตร่วงหล่นลงมาลงโทษ ความอยุติธรรม",
+        "vi-vn": "Thiên thạch cực lớn rơi xuống, gây Sát Thương Nguyên Tố Nham cực lớn cho kẻ địch trong phạm vi rơi, và khiến địch Hóa Thạch.Hóa ThạchKẻ địch trong trạng thái Hóa Thạch không thể chuyển động.Dùng ngôi sao trên cao soi sáng cho người đang mê muội.",
+        "zh-tw": "降下巨大的星岩，對墜落範圍內的敵人造成巨額岩元素傷害，並使其石化。石化處於石化狀態下的敵人無法行動。以隕天蒼岩星，昭命理昏暝者。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/钟离/battle_talent_2/battle_talent_2.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Ondas de Ressonância",
+        "en-us": "Resonant Waves",
+        "ja-jp": "岩の宸断",
+        "zh-cn": "悬岩宸断",
+        "ko-kr": "낭떠러지의 재결",
+        "ru-ru": "Каменная воля",
+        "de-de": "Wellenartige Ausbreitung",
+        "fr-fr": "Ondes résonnantes",
+        "es-es": "Ondas resonantes",
+        "id-id": "Resonant Waves",
+        "th-th": "Resonant Waves",
+        "vi-vn": "Huyền Nham Thần Đoạn",
+        "zh-tw": "懸岩宸斷"
+      },
+      "description": {
+        "pt-pt": "Quando o Escudo de Jade receber dano, terá os seguintes efeitos de fortificação:·Os Personagens que estiverem sendo protegidos pelo Escudo de Jade terão um aumento de Força do Escudo de 5%;·Esse efeito pode ser acumulado até 5 vezes, e dura até o Escudo de Jade se dissipar.",
+        "en-us": "When the Jade Shield takes DMG, it will Fortify:· Fortified characters have 5% increased Shield Strength.Can stack up to 5 times, and lasts until the Jade Shield disappears.",
+        "ja-jp": "玉璋シールドはダメージを受けた際に防御効果を発動する。玉璋シールドに守られたキャラクターのシールド強化+5%。シールドが消えるまで、最大5回強度を上げることができる。",
+        "zh-cn": "玉璋护盾受到伤害时，会产生坚璧效果：·处于玉璋护盾庇护下的角色，护盾强效提升5%；·该效果至多叠加5次，持续直到玉璋护盾消失。",
+        "ko-kr": "옥홀 방패가 피해를 받으면 철벽 효과가 발동한다:·옥홀 방패의 보호를 받는 캐릭터의 보호막 강화 효과가 5% 증가한다；·해당 효과 최대 중첩 수: 5회. 효과는 옥홀 방패가 사라지기 전까지 지속된다",
+        "ru-ru": "Полученный при активном Яшмовом щите урон накладывает статус Укрепление:· Увеличивает прочность щита персонажа, защищённого Яшмовым щитом, на 5%.· Может складываться до 5 раз, и длится до тех пор, пока не исчезнет Яшмовый щит.",
+        "de-de": "Löst den Effekt beständige Wand aus, wenn ein Jadeblock Schaden erleidet:· Erhöht die Schildeffizienz der Figuren im Schutz eines Jadeblocks um 5 %.· 5-fach stapelbar, hält bis zum Verschwinden des Jadeblocks.",
+        "fr-fr": "Chaque attaque touchant le bouclier de jade génère les effets suivants :· Augmente la force du bouclier de 5 %.· Cet effet peut être cumulé 5 fois maximum et dure jusqu'à la fin du bouclier.",
+        "es-es": "Cuando el escudo de jade recibe daño, se fortalece.·Cuando un personaje que está protegido por el escudo de jade recibe daño, su Protección de Escudo aumenta en un 5%.·Este efecto puede acumularse hasta 5 veces y dura hasta que desaparezca el escudo de jade.",
+        "id-id": "Jade Shield akan menjadi lebih kuat setelah menerima DMG:·Meningkatkan 5% kekuatan perisai milik karakter yang dilindungi Jade Shield.·Efek ini dapat ditumpuk sebanyak 5 kali dan akan bertahan sampai Jade Shield hilang.",
+        "th-th": "เมื่อ Jade Shield ได้รับความเสียหาย จะทำให้เกิดเอฟเฟกต์เสริมความแข็งแกร่ง:·ตัวละครที่ได้รับการป้องกันจาก Jade Shield จะเพิ่มประสิทธิภาพโล่ป้องกันขึ้น 5%;·เอฟเฟกต์นี้ซ้อนทับกันได้สูงสุด 5 ครั้ง และจะคงอยู่ไปจนกว่า Jade Shield จะหายไป",
+        "vi-vn": "Khi Khiên Ngọc chịu sát thương sẽ tạo ra hiệu quả kiên cố:·Nhân vật khi đang được Khiên Ngọc bảo vệ, hiệu quả khiên +5%.·Hiệu quả này tối đa cộng dồn 5 lần, duy trì đến khi Khiên Ngọc mất đi.",
+        "zh-tw": "玉璋護盾受到傷害時，會產生堅璧效果：·處於玉璋護盾庇護下的角色，護盾強效提升5%；·該效果至多疊加五次，持續直到玉璋護盾消失。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/钟离/const_talent_0.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Domínio da Terra",
+        "en-us": "Dominance of Earth",
+        "ja-jp": "贅沢な食饌",
+        "zh-cn": "炊金馔玉",
+        "ko-kr": "호의호식",
+        "ru-ru": "Господство земли",
+        "de-de": "Hungrige Erde",
+        "fr-fr": "Domination de la Terre",
+        "es-es": "Dominio de la Tierra",
+        "id-id": "Dominance of Earth",
+        "th-th": "Dominance of Earth",
+        "vi-vn": "Xuy Kim Soạn Ngọc",
+        "zh-tw": "炊金饌玉"
+      },
+      "description": {
+        "pt-pt": "Os ataques de Zhongli terão os seguintes aumentos de Dano de acordo com sua Vida Máxima:·Ataque Normal, Ataque Carregado e Ataque Imersivo terão seu dano aumentado em 1,39% da Vida Máxima·O Dano da Estela de Pedra, Dano de ressonância Geo e Dano de Manter Pressionado de Dominus Lapidis aumentarão para 1.9% da Vida Máxima·O Dano de Chuva Estelar aumentará para 33% da Vida Máxima",
+        "en-us": "Zhongli deals bonus DMG based on his Max HP:· Normal Attack, Charged Attack, and Plunging Attack DMG is increased by 1.39% of Max HP.· Dominus Lapidis' Stone Stele, resonance, and hold DMG is increased by 1.9% of Max HP.· Planet Befall's DMG is increased by 33% of Max HP.",
+        "ja-jp": "HP上限を基準に、鍾離の下記攻撃のダメージが増加する。・通常攻撃、重撃と落下攻撃のダメージ増加量：HP上限の1.39%・地心の岩柱、共鳴と長押しダメージ増加量：HP上限の1.9%・天星ダメージ増加量：HP上限の33%",
+        "zh-cn": "基于生命值上限，钟离的以下攻击造成的伤害提高：·普通攻击、重击与下落攻击伤害提高值：生命值上限的1.39%·地心的岩脊、共鸣伤害与长按伤害提高值：生命值上限的1.9%·天星伤害提高值：生命值上限的33%",
+        "ko-kr": "HP 최대치에 기반하여 종려가 가하는 아래 공격의 피해가 증가한다: ·일반 공격, 강공격, 낙하 공격으로 가하는 피해가 HP 최대치의 1.39%만큼 증가·지핵의 암주, 공명 피해와 홀드 피해 증가량: HP 최대치의 1.9%·천성 피해 증가량: HP 최대치의 33%",
+        "ru-ru": "Чжун Ли наносит дополнительный урон, который зависит от его макс. HP:· Урон обычной атаки, заряженной атаки и атаки в падении увеличен на 1,39% от макс. HP.· Урон Каменной стелы навыка Власть над камнем, её резонанса и долгого нажатия увеличен на 1,9% от макс. HP.· Урон навыка Падение кометы увеличен на 33% от макс. HP.",
+        "de-de": "Erhöht den mit den folgenden Angriffen von Zhongli verursachten Schaden basierend auf seinen max. LP:· Erhöht den Schaden von Standardangriffen, heftigen Schlägen und Angriffen aus dem Fall um 1,39 % der max. LP.· Erhöht den Schaden des Hügelkamms von Dominus Lapidis, den des Einklangs und den beim Gedrückthalten um 1,9 % der max. LP.· Erhöht den Schaden von Einstürzender Himmel um 33 % der max. LP.",
+        "fr-fr": "Augmente les DGT infligés par les attaques de Zhongli citées ci-dessous en fonction de ses PV max :· Augmentation de DGT des attaques normales, chargées et plongeantes : 1,39 % des PV max.· Augmentation de DGT de dorsale rocheuse, de DGT de résonance et de DGT de l'appui long de Dominus Lapidis : 1,9 % des PV max.·Augmentation de DGT de Chute de météore : 33 % des PV max.",
+        "es-es": "El daño infligido por los siguientes ataques de Zhongli aumenta en proporción a su Vida Máx.:·Aumenta el daño de Ataque Normal, Ataque Cargado y Ataque Descendente en un 1.39% de su Vida Máx.·Aumenta en un 1.9% de su Vida Máx. el daño de resonancia de la cresta de piedra de Dominus lapidis, así como el daño de mantener pulsado.·Aumenta el daño de Lluvia estelar en un 33% de la Vida Máx. de Zhongli.",
+        "id-id": "Zhongli menghasilkan bonus DMG berdasarkan Max HP miliknya:·Meningkatkan DMG Normal Attack, Charged Attack, dan Plunging Attack sebesar 1,39% dari Max HP Zhongli.·Meningkatkan DMG Dominus Lapidis Stone Stele, resonansi, dan DMG tekan sebesar 1,9% Max HP Zhongli.·Meningkatkan DMG Planet Befall sebesar 33% Max HP Zhongli.",
+        "th-th": "การโจมตีของ Zhongli ต่อไปนี้ จะสร้างความเสียหายเพิ่มขึ้นตามพลังชีวิตสูงสุด:·เพิ่มความเสียหายของการโจมตีปกติ การชาร์จโจมตี และการโจมตีพุ่งลงจากอากาศขึ้น 1.39% ของพลังชีวิตสูงสุด·เพิ่มความเสียหายของ Stone Stele ของ Dominus Lapidis, ความเสียหายของการสอดประสาน และความเสียหายเมื่อ{LAYOUT_MOBILE#แตะค้าง}{LAYOUT_PC#กดค้าง}{LAYOUT_PS#กดค้าง}ขึ้น 1.9% ของพลังชีวิตสูงสุด·เพิ่มความเสียหายของ Planet Befall ขึ้น 33% ของพลังชีวิตสูงสุด",
+        "vi-vn": "Sát thương gây ra bởi những đòn tấn công dưới đây của Zhongli sẽ tăng tùy theo giới hạn HP:·Lượng tăng sát thương của tấn công thường, trọng kích và tấn công khi đáp: 1.39% giới hạn HP·Lượng tăng sát thương của nhấn giữ, sát thương cộng hưởng và Vách Đá của Tâm Trái Đất: 1.9% giới hạn HP·Lượng tăng sát thương của Thiên Tinh: 33% giới hạn HP",
+        "zh-tw": "基於生命值上限，鍾離的以下攻擊造成的傷害提高：·普通攻擊、重擊與下落攻擊傷害提高值：生命值上限的1.39%·地心的岩脊、共鳴傷害與長按傷害提高值：生命值上限的1.9%·天星傷害提高值：生命值上限的33%"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/钟离/const_talent_1.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Cristal do Destino",
+        "en-us": "Arcanum of Crystal",
+        "ja-jp": "結晶推命",
+        "zh-cn": "晶石命理",
+        "ko-kr": "수정석의 이치",
+        "ru-ru": "Кристальная судьба",
+        "de-de": "Verhängnis der Kristalle",
+        "fr-fr": "Cristal du destin",
+        "es-es": "Cristal del destino",
+        "id-id": "Arcanum of Crystal",
+        "th-th": "Arcanum of Crystal",
+        "vi-vn": "Mệnh Lý Tinh Thạch",
+        "zh-tw": "晶石命理"
+      },
+      "description": {
+        "pt-pt": "Retorna 15% dos Minérios usados ao criar armas de tipo Lança.",
+        "en-us": "Refunds 15% of the ore used when crafting Polearm-type weapons.",
+        "ja-jp": "長柄武器を鍛造する時、消費した鉱石の15%が返還される。",
+        "zh-cn": "锻造长柄武器时，返还15%消耗的矿石。",
+        "ko-kr": "장병기 무기 단조 시 소모한 광석을 15% 반환한다",
+        "ru-ru": "При ковке древкового оружия возвращает 15% затраченной руды.",
+        "de-de": "Gibt beim Schmieden von Stangenwaffen 15 % des verbrauchten Erzes zurück.",
+        "fr-fr": "Lorsque vous forgez une arme d'hast, 15 % du minerai utilisé vous sera rendu.",
+        "es-es": "Recupera el 15% de los minerales utilizados en la fabricación de lanzas.",
+        "id-id": "Mengembalikan 15% jumlah Ore yang digunakan saat membuat senjata tipe Polearm.",
+        "th-th": "เมื่อสร้างอาวุธประเภทหอก จะได้รับแร่ที่ใช้ในการหลอมคืน 15%",
+        "vi-vn": "Khi rèn vũ khí cán dài, hoàn trả 15% Khoáng Thạch tiêu hao.",
+        "zh-tw": "鍛造長柄武器時，歸還15%消耗的礦石。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/钟离/const_talent_2.png"
+    }
+  ],
+  "talentAttributes": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Chuva de Pedras",
+        "en-us": "Rain of Stone",
+        "ja-jp": "岩雨",
+        "zh-cn": "普通攻击·岩雨",
+        "ko-kr": "일반 공격·바위 비",
+        "ru-ru": "Каменный дождь",
+        "de-de": "Standardangriff: Steinhagel",
+        "fr-fr": "Attaque normale : Pluie de pierres",
+        "es-es": "Ataque Normal: Lluvia pétrea",
+        "id-id": "Rain of Stone",
+        "th-th": "โจมตีปกติ - Rain of Stone",
+        "vi-vn": "Tấn Công Thường - Mưa Đá",
+        "zh-tw": "普通攻擊·岩雨"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 1° Golpe",
+            "en-us": "1-Hit DMG",
+            "ja-jp": "1段ダメージ",
+            "zh-cn": "一段伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон атаки 1",
+            "de-de": "SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tahap 1",
+            "th-th": "ความเสียหายขั้น 1",
+            "vi-vn": "Sát Thương Lần 1",
+            "zh-tw": "一段傷害"
+          },
+          "values": [
+            "30.8%",
+            "33.3%",
+            "35.8%",
+            "39.4%",
+            "41.9%",
+            "44.8%",
+            "48.7%",
+            "52.6%",
+            "56.5%",
+            "60.8%",
+            "65.7%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 2° Golpe",
+            "en-us": "2-Hit DMG",
+            "ja-jp": "2段ダメージ",
+            "zh-cn": "二段伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон атаки 2",
+            "de-de": "SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2.º golpe",
+            "id-id": "DMG Tahap 2",
+            "th-th": "ความเสียหายขั้น 2",
+            "vi-vn": "Sát Thương Lần 2",
+            "zh-tw": "二段傷害"
+          },
+          "values": [
+            "31.4%",
+            "33.7%",
+            "36.2%",
+            "39.9%",
+            "42.4%",
+            "45.3%",
+            "49.3%",
+            "53.3%",
+            "57.2%",
+            "61.6%",
+            "66.6%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 3° Golpe",
+            "en-us": "3-Hit DMG",
+            "ja-jp": "3段ダメージ",
+            "zh-cn": "三段伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон атаки 3",
+            "de-de": "SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tahap 3",
+            "th-th": "ความเสียหายขั้น 3",
+            "vi-vn": "Sát Thương Lần 3",
+            "zh-tw": "三段傷害"
+          },
+          "values": [
+            "38.6%",
+            "41.7%",
+            "44.9%",
+            "49.3%",
+            "52.5%",
+            "56.1%",
+            "61%",
+            "65.9%",
+            "70.9%",
+            "76.3%",
+            "82.4%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 4° Golpe",
+            "en-us": "4-Hit DMG",
+            "ja-jp": "4段ダメージ",
+            "zh-cn": "四段伤害",
+            "ko-kr": "4단 공격 피해",
+            "ru-ru": "Урон атаки 4",
+            "de-de": "SCH Phase 4",
+            "fr-fr": "DGT 4e coup",
+            "es-es": "Daño de 4.º golpe",
+            "id-id": "DMG Tahap 4",
+            "th-th": "ความเสียหายขั้น 4",
+            "vi-vn": "Sát Thương Lần 4",
+            "zh-tw": "四段傷害"
+          },
+          "values": [
+            "42.9%",
+            "46.4%",
+            "49.9%",
+            "54.9%",
+            "58.4%",
+            "62.4%",
+            "67.9%",
+            "73.4%",
+            "78.9%",
+            "84.9%",
+            "91.7%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 5° Golpe",
+            "en-us": "5-Hit DMG",
+            "ja-jp": "5段ダメージ",
+            "zh-cn": "五段伤害",
+            "ko-kr": "5단 공격 피해",
+            "ru-ru": "Урон атаки 5",
+            "de-de": "SCH Phase 5",
+            "fr-fr": "DGT 5e coup",
+            "es-es": "Daño de 5.º golpe",
+            "id-id": "DMG Tahap 5",
+            "th-th": "ความเสียหายขั้น 5",
+            "vi-vn": "Sát Thương Lần 5",
+            "zh-tw": "五段傷害"
+          },
+          "values": [
+            "10.8% x4",
+            "11.6% x4",
+            "12.5% x4",
+            "13.8% x4",
+            "14.6% x4",
+            "15.6% x4",
+            "17% x4",
+            "18.4% x4",
+            "19.8% x4",
+            "21.3% x4",
+            "23% x4"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 6° Golpe",
+            "en-us": "6-Hit DMG",
+            "ja-jp": "6段ダメージ",
+            "zh-cn": "六段伤害",
+            "ko-kr": "6단 공격 피해",
+            "ru-ru": "Урон атаки 6",
+            "de-de": "SCH Phase 6",
+            "fr-fr": "DGT 6e coup",
+            "es-es": "Daño de 6.º golpe",
+            "id-id": "DMG Tahap 6",
+            "th-th": "ความเสียหายขั้น 6",
+            "vi-vn": "Sát Thương Lần 6",
+            "zh-tw": "六段傷害"
+          },
+          "values": [
+            "54.5%",
+            "58.9%",
+            "63.4%",
+            "69.7%",
+            "74.1%",
+            "79.2%",
+            "86.2%",
+            "93.2%",
+            "100.1%",
+            "107.7%",
+            "116.4%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Ataque Carregado",
+            "en-us": "Charged Attack DMG",
+            "ja-jp": "重撃ダメージ",
+            "zh-cn": "重击伤害",
+            "ko-kr": "강공격 피해",
+            "ru-ru": "Урон заряженной атаки",
+            "de-de": "SCH heftiger Schläge",
+            "fr-fr": "DGT attaque chargée",
+            "es-es": "Daño de ATQ Cargado",
+            "id-id": "DMG Charged Attack",
+            "th-th": "ความเสียหายชาร์จโจมตี",
+            "vi-vn": "Sát Thương Trọng Kích",
+            "zh-tw": "重擊傷害"
+          },
+          "values": [
+            "111%",
+            "120%",
+            "129%",
+            "142%",
+            "151%",
+            "161%",
+            "176%",
+            "190%",
+            "204%",
+            "220%",
+            "237%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Consumo de Stamina de Ataque Carregado",
+            "en-us": "Charged Attack Stamina Cost",
+            "ja-jp": "重撃スタミナ消費",
+            "zh-cn": "重击体力消耗",
+            "ko-kr": "강공격 스태미나 소모",
+            "ru-ru": "Потребление выносливости",
+            "de-de": "Ausdauerverbrauch heftiger Schläge",
+            "fr-fr": "Coût d'endurance attaque chargée",
+            "es-es": "Coste de Aguante de ATQ Cargado",
+            "id-id": "Konsumsi Stamina Charged Attack",
+            "th-th": "ชาร์จโจมตีใช้พลังกาย",
+            "vi-vn": "Thể lực Trọng Kích tiêu hao",
+            "zh-tw": "重擊體力消耗"
+          },
+          "values": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Durante a Queda",
+            "en-us": "Plunge DMG",
+            "ja-jp": "落下期間のダメージ",
+            "zh-cn": "下坠期间伤害",
+            "ko-kr": "낙하 기간 피해",
+            "ru-ru": "Урон в падении",
+            "de-de": "SCH beim Fallen",
+            "fr-fr": "DGT durant la chute",
+            "es-es": "Daño de Caída",
+            "id-id": "DMG Selama Plunging",
+            "th-th": "ความเสียหายพุ่งลง",
+            "vi-vn": "Sát Thương Khi Đáp",
+            "zh-tw": "下墜期間傷害"
+          },
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Queda de Baixa/Alta Altitude",
+            "en-us": "Low/High Plunge DMG",
+            "ja-jp": "低空/高空落下攻撃ダメージ",
+            "zh-cn": "低空/高空坠地冲击伤害",
+            "ko-kr": "저공/고공 추락 충격 피해",
+            "ru-ru": "Урон низкого/высокого удара",
+            "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
+            "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Daño de impacto de caída baja/alta",
+            "id-id": "DMG Plunging Attack Min./Maks.",
+            "th-th": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+            "vi-vn": "ST Khi Rơi Từ Độ Cao Thấp/Cao",
+            "zh-tw": "低空/高空墜地衝擊傷害"
+          },
+          "values": [
+            "128%/160%",
+            "138%/173%",
+            "149%/186%",
+            "164%/204%",
+            "174%/217%",
+            "186%/232%",
+            "202%/253%",
+            "219%/273%",
+            "235%/293%",
+            "253%/316%",
+            "271%/338%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_skill",
+      "talentName": {
+        "pt-pt": "Dominus Lapidis",
+        "en-us": "Dominus Lapidis",
+        "ja-jp": "地心",
+        "zh-cn": "地心",
+        "ko-kr": "지핵",
+        "ru-ru": "Власть над камнем",
+        "de-de": "Dominus Lapidis",
+        "fr-fr": "Dominus Lapidis",
+        "es-es": "Dominus lapidis",
+        "id-id": "Dominus Lapidis",
+        "th-th": "Dominus Lapidis",
+        "vi-vn": "Tâm Trái Đất",
+        "zh-tw": "地心"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano da Estela de Pedra/Ressonância",
+            "en-us": "Stone Stele/Resonance DMG",
+            "ja-jp": "岩柱ダメージ/共鳴ダメージ",
+            "zh-cn": "岩脊伤害/共鸣伤害",
+            "ko-kr": "암주 피해/공명 피해",
+            "ru-ru": "Урон Каменной стелы / резонанса",
+            "de-de": "Hügelkamm-SCH/Resonanz-SCH",
+            "fr-fr": "DGT Dorsale/résonance",
+            "es-es": "Daño de cresta de piedra/Daño de resonancia",
+            "id-id": "DMG Batu/DMG Resonansi",
+            "th-th": "ความเสียหาย Stone Stele/สอดประสาน",
+            "vi-vn": "ST Vách Đá/ST Cộng Hưởng",
+            "zh-tw": "岩脊傷害/共鳴傷害"
+          },
+          "values": [
+            "16.0%/32.0%",
+            "17.2%/34.4%",
+            "18.4%/36.8%",
+            "20.0%/40.0%",
+            "21.2%/42.4%",
+            "22.4%/44.8%",
+            "24.0%/48.0%",
+            "25.6%/51.2%",
+            "27.2%/54.4%",
+            "28.8%/57.6%",
+            "30.4%/60.8%",
+            "32.0%/64.0%",
+            "34.0%/68.0%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Pressionar",
+            "en-us": "Tapping/Press CD",
+            "ja-jp": "一回押しクールタイム",
+            "zh-cn": "点按冷却时间",
+            "ko-kr": "짧은 터치 재사용 대기시간",
+            "ru-ru": "Откат быстрого нажатия",
+            "de-de": "Abklingzeit für Drücken",
+            "fr-fr": "TdR appui simple",
+            "es-es": "TdE por toque/al pulsar una vez",
+            "id-id": "Cooldown Tekan",
+            "th-th": "เวลาคูลดาวน์เมื่อแตะ/กด",
+            "vi-vn": "CD Nhấn",
+            "zh-tw": "點按冷卻時間"
+          },
+          "values": [
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano ao Manter Pressionado",
+            "en-us": "Hold DMG",
+            "ja-jp": "長押しダメージ",
+            "zh-cn": "长按伤害",
+            "ko-kr": "홀드 피해",
+            "ru-ru": "Урон долгого нажатия",
+            "de-de": "SCH bei Gedrückthalten",
+            "fr-fr": "DGT appui long",
+            "es-es": "Daño al mantener pulsado",
+            "id-id": "DMG Menahan",
+            "th-th": "ความเสียหายแตะค้าง/กดค้าง",
+            "vi-vn": "Sát Thương Nhấn Giữ",
+            "zh-tw": "長按傷害"
+          },
+          "values": [
+            "80%",
+            "86%",
+            "92%",
+            "100%",
+            "106%",
+            "112%",
+            "120%",
+            "128%",
+            "136%",
+            "144%",
+            "152%",
+            "160%",
+            "170%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Absorção Básica do Escudo",
+            "en-us": "Shield Base Absorption",
+            "ja-jp": "シールド基礎吸収量",
+            "zh-cn": "护盾基础吸收量",
+            "ko-kr": "보호막 기본 흡수량",
+            "ru-ru": "Базовое поглощение щита",
+            "de-de": "Basisschildstärke",
+            "fr-fr": "PV de base du bouclier",
+            "es-es": "Absorción base de escudo",
+            "id-id": "Ketahanan Dasar Perisai",
+            "th-th": "ปริมาณการดูดซับพื้นฐานของโล่",
+            "vi-vn": "Lượng hấp thu cơ bản của khiên",
+            "zh-tw": "護盾基礎吸收量"
+          },
+          "values": [
+            "1232",
+            "1356",
+            "1489",
+            "1633",
+            "1787",
+            "1951",
+            "2126",
+            "2311",
+            "2506",
+            "2712",
+            "2927",
+            "3153",
+            "3389"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Absorção Adicional de Escudo",
+            "en-us": "Additional Shield Absorption",
+            "ja-jp": "シールド追加吸収量",
+            "zh-cn": "护盾附加吸收量",
+            "ko-kr": "보호막 추가 흡수량",
+            "ru-ru": "Доп. поглощение щита",
+            "de-de": "Zusätzliche Schildstärke",
+            "fr-fr": "Bonus de PV du bouclier",
+            "es-es": "Absorción adicional del escudo",
+            "id-id": "Bonus Ketahanan Perisai",
+            "th-th": "ปริมาณการดูดซับเพิ่มเติมของโล่",
+            "vi-vn": "Khiên hấp thụ thêm",
+            "zh-tw": "護盾附加吸收量"
+          },
+          "values": [
+            "12.8% da Vida Máxima",
+            "13.8% da Vida Máxima",
+            "14.7% da Vida Máxima",
+            "16% da Vida Máxima",
+            "17% da Vida Máxima",
+            "17.9% da Vida Máxima",
+            "19.2% da Vida Máxima",
+            "20.5% da Vida Máxima",
+            "21.8% da Vida Máxima",
+            "23% da Vida Máxima",
+            "24.3% da Vida Máxima",
+            "25.6% da Vida Máxima",
+            "27.2% da Vida Máxima"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração do Escudo",
+            "en-us": "Shield Duration",
+            "ja-jp": "シールド継続時間",
+            "zh-cn": "护盾持续时间",
+            "ko-kr": "보호막 지속 시간",
+            "ru-ru": "Длительность щита",
+            "de-de": "Schilddauer",
+            "fr-fr": "Durée du bouclier",
+            "es-es": "Duración del escudo",
+            "id-id": "Durasi Perisai",
+            "th-th": "ระยะเวลาต่อเนื่องของโล่",
+            "vi-vn": "Thời Gian Khiên Kéo Dài",
+            "zh-tw": "護盾持續時間"
+          },
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga de Manter Pressionado",
+            "en-us": "CD (hold)",
+            "ja-jp": "長押しクールタイム",
+            "zh-cn": "长按冷却时间",
+            "ko-kr": "홀드 재사용 대기시간",
+            "ru-ru": "Откат долгого нажатия",
+            "de-de": "Abklingzeit für Gedrückthalten",
+            "fr-fr": "TdR appui long",
+            "es-es": "TdE de mantener pulsado",
+            "id-id": "Cooldown (Mode Tahan)",
+            "th-th": "เวลาคูลดาวน์เมื่อแตะค้าง/กดค้าง",
+            "vi-vn": "CD Nhấn Giữ",
+            "zh-tw": "長按冷卻時間"
+          },
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_burst",
+      "talentName": {
+        "pt-pt": "Chuva Estelar",
+        "en-us": "Planet Befall",
+        "ja-jp": "天星",
+        "zh-cn": "天星",
+        "ko-kr": "천성",
+        "ru-ru": "Падение кометы",
+        "de-de": "Einstürzender Himmel",
+        "fr-fr": "Chute de météore",
+        "es-es": "Lluvia estelar",
+        "id-id": "Planet Befall",
+        "th-th": "Planet Befall",
+        "vi-vn": "Thiên Tinh",
+        "zh-tw": "天星"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Habilidade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "401%",
+            "444%",
+            "488%",
+            "542%",
+            "591%",
+            "640%",
+            "705%",
+            "770%",
+            "835%",
+            "900%",
+            "965%",
+            "1030%",
+            "1084%",
+            "1138%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração de Petrificação",
+            "en-us": "Petrification Duration",
+            "ja-jp": "石化時間",
+            "zh-cn": "石化时间",
+            "ko-kr": "석화 시간",
+            "ru-ru": "Длительность окаменения",
+            "de-de": "Dauer der Versteinerung",
+            "fr-fr": "Durée pétrification",
+            "es-es": "Tiempo de petrificación",
+            "id-id": "Durasi Petrification",
+            "th-th": "ระยะเวลากลายเป็นหิน",
+            "vi-vn": "Thời Gian Hóa Thạch",
+            "zh-tw": "石化時間"
+          },
+          "values": [
+            "3.1s",
+            "3.2s",
+            "3.3s",
+            "3.4s",
+            "3.5s",
+            "3.6s",
+            "3.7s",
+            "3.8s",
+            "3.9s",
+            "4s",
+            "4s",
+            "4s",
+            "4s",
+            "4s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Energia Elemental",
+            "en-us": "Energy Cost",
+            "ja-jp": "元素エネルギー",
+            "zh-cn": "元素能量",
+            "ko-kr": "원소 에너지",
+            "ru-ru": "Потребление энергии",
+            "de-de": "Elementarenergie",
+            "fr-fr": "Énergie élémentaire",
+            "es-es": "Energía Elemental",
+            "id-id": "Konsumsi Energy",
+            "th-th": "พลังงานธาตุ",
+            "vi-vn": "Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量"
+          },
+          "values": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+          ]
+        }
+      ]
+    }
+  ],
+  "talentMaterials": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Chuva de Pedras",
+        "en-us": "Rain of Stone",
+        "ja-jp": "岩雨",
+        "zh-cn": "普通攻击·岩雨",
+        "ko-kr": "일반 공격·바위 비",
+        "ru-ru": "Каменный дождь",
+        "de-de": "Standardangriff: Steinhagel",
+        "fr-fr": "Attaque normale : Pluie de pierres",
+        "es-es": "Ataque Normal: Lluvia pétrea",
+        "id-id": "Rain of Stone",
+        "th-th": "โจมตีปกติ - Rain of Stone",
+        "vi-vn": "Tấn Công Thường - Mưa Đá",
+        "zh-tw": "普通攻擊·岩雨"
+      },
+      "materials": [
+        {
+          "level": 2,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 12500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "200",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Ensinamentos de Ouro",
+                "en-us": "Teachings of Gold",
+                "ja-jp": "黄金の教え",
+                "zh-cn": "黄金的教导",
+                "ko-kr": "황금의 가르침",
+                "ru-ru": "Учения о Золоте",
+                "de-de": "Lehren des Golds",
+                "fr-fr": "Enseignement de l'Or",
+                "es-es": "Enseñanzas del oro",
+                "id-id": "Teachings of Gold",
+                "th-th": "Teachings of Gold",
+                "vi-vn": "Bài Giảng Của Hoàng Kim",
+                "zh-tw": "黃金的教導"
+              }
+            },
+            {
+              "id": "396",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Condensado de Slime",
+                "en-us": "Slime Condensate",
+                "ja-jp": "スライムの液体",
+                "zh-cn": "史莱姆凝液",
+                "ko-kr": "슬라임 응축액",
+                "ru-ru": "Слизь слайма",
+                "de-de": "Schleimabsonderung",
+                "fr-fr": "Bave de Blob",
+                "es-es": "Condensado de Slime",
+                "id-id": "Slime Condensate",
+                "th-th": "Slime Condensate",
+                "vi-vn": "Dịch Slime",
+                "zh-tw": "史萊姆凝液"
+              }
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 17500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "199",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Guia de Ouro",
+                "en-us": "Guide to Gold",
+                "ja-jp": "黄金の導き",
+                "zh-cn": "黄金的指引",
+                "ko-kr": "황금의 인도",
+                "ru-ru": "Указания о Золоте",
+                "de-de": "Anleitung zum Gold",
+                "fr-fr": "Guide de l'Or",
+                "es-es": "Guía del oro",
+                "id-id": "Guide to Gold",
+                "th-th": "Guide to Gold",
+                "vi-vn": "Hướng Dẫn Của Hoàng Kim",
+                "zh-tw": "黃金的指引"
+              }
+            },
+            {
+              "id": "398",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Secreção de Slime",
+                "en-us": "Slime Secretions",
+                "ja-jp": "スライムの分泌物",
+                "zh-cn": "史莱姆清",
+                "ko-kr": "슬라임청",
+                "ru-ru": "Выделения слайма",
+                "de-de": "Schleimkondensat",
+                "fr-fr": "Mucus de Blob",
+                "es-es": "Babas de Slime",
+                "id-id": "Slime Secretions",
+                "th-th": "Slime Secretions",
+                "vi-vn": "Tinh Slime",
+                "zh-tw": "史萊姆清"
+              }
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 25000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "199",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Guia de Ouro",
+                "en-us": "Guide to Gold",
+                "ja-jp": "黄金の導き",
+                "zh-cn": "黄金的指引",
+                "ko-kr": "황금의 인도",
+                "ru-ru": "Указания о Золоте",
+                "de-de": "Anleitung zum Gold",
+                "fr-fr": "Guide de l'Or",
+                "es-es": "Guía del oro",
+                "id-id": "Guide to Gold",
+                "th-th": "Guide to Gold",
+                "vi-vn": "Hướng Dẫn Của Hoàng Kim",
+                "zh-tw": "黃金的指引"
+              }
+            },
+            {
+              "id": "398",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Secreção de Slime",
+                "en-us": "Slime Secretions",
+                "ja-jp": "スライムの分泌物",
+                "zh-cn": "史莱姆清",
+                "ko-kr": "슬라임청",
+                "ru-ru": "Выделения слайма",
+                "de-de": "Schleimkondensat",
+                "fr-fr": "Mucus de Blob",
+                "es-es": "Babas de Slime",
+                "id-id": "Slime Secretions",
+                "th-th": "Slime Secretions",
+                "vi-vn": "Tinh Slime",
+                "zh-tw": "史萊姆清"
+              }
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 30000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "199",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Guia de Ouro",
+                "en-us": "Guide to Gold",
+                "ja-jp": "黄金の導き",
+                "zh-cn": "黄金的指引",
+                "ko-kr": "황금의 인도",
+                "ru-ru": "Указания о Золоте",
+                "de-de": "Anleitung zum Gold",
+                "fr-fr": "Guide de l'Or",
+                "es-es": "Guía del oro",
+                "id-id": "Guide to Gold",
+                "th-th": "Guide to Gold",
+                "vi-vn": "Hướng Dẫn Của Hoàng Kim",
+                "zh-tw": "黃金的指引"
+              }
+            },
+            {
+              "id": "398",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Secreção de Slime",
+                "en-us": "Slime Secretions",
+                "ja-jp": "スライムの分泌物",
+                "zh-cn": "史莱姆清",
+                "ko-kr": "슬라임청",
+                "ru-ru": "Выделения слайма",
+                "de-de": "Schleimkondensat",
+                "fr-fr": "Mucus de Blob",
+                "es-es": "Babas de Slime",
+                "id-id": "Slime Secretions",
+                "th-th": "Slime Secretions",
+                "vi-vn": "Tinh Slime",
+                "zh-tw": "史萊姆清"
+              }
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 37500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "199",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Guia de Ouro",
+                "en-us": "Guide to Gold",
+                "ja-jp": "黄金の導き",
+                "zh-cn": "黄金的指引",
+                "ko-kr": "황금의 인도",
+                "ru-ru": "Указания о Золоте",
+                "de-de": "Anleitung zum Gold",
+                "fr-fr": "Guide de l'Or",
+                "es-es": "Guía del oro",
+                "id-id": "Guide to Gold",
+                "th-th": "Guide to Gold",
+                "vi-vn": "Hướng Dẫn Của Hoàng Kim",
+                "zh-tw": "黃金的指引"
+              }
+            },
+            {
+              "id": "398",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Secreção de Slime",
+                "en-us": "Slime Secretions",
+                "ja-jp": "スライムの分泌物",
+                "zh-cn": "史莱姆清",
+                "ko-kr": "슬라임청",
+                "ru-ru": "Выделения слайма",
+                "de-de": "Schleimkondensat",
+                "fr-fr": "Mucus de Blob",
+                "es-es": "Babas de Slime",
+                "id-id": "Slime Secretions",
+                "th-th": "Slime Secretions",
+                "vi-vn": "Tinh Slime",
+                "zh-tw": "史萊姆清"
+              }
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 120000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "198",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Filosofia de Ouro",
+                "en-us": "Philosophies of Gold",
+                "ja-jp": "黄金の哲学",
+                "zh-cn": "黄金的哲学",
+                "ko-kr": "황금의 철학",
+                "ru-ru": "Философия о Золоте",
+                "de-de": "Philosophie des Golds",
+                "fr-fr": "Philosophie de l'Or",
+                "es-es": "Filosofía del oro",
+                "id-id": "Philosophies of Gold",
+                "th-th": "Philosophies of Gold",
+                "vi-vn": "Triết Học Của Hoàng Kim",
+                "zh-tw": "黃金的哲學"
+              }
+            },
+            {
+              "id": "397",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Essência de Slime",
+                "en-us": "Slime Concentrate",
+                "ja-jp": "スライムのピュレ",
+                "zh-cn": "史莱姆原浆",
+                "ko-kr": "슬라임 원액",
+                "ru-ru": "Концентрат слайма",
+                "de-de": "Schleimkonzentrat",
+                "fr-fr": "Essence de Blob",
+                "es-es": "Esencia de Slime",
+                "id-id": "Slime Concentrate",
+                "th-th": "Slime Concentrate",
+                "vi-vn": "Bột Slime",
+                "zh-tw": "史萊姆原漿"
+              }
+            },
+            {
+              "id": "401",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Chifre de Baleia Come-Céu",
+                "en-us": "Tusk of Monoceros Caeli",
+                "ja-jp": "呑天の鯨・只角",
+                "zh-cn": "吞天之鲸·只角",
+                "ko-kr": "하늘을 삼킨 고래·뿔",
+                "ru-ru": "Рог небесного кита",
+                "de-de": "Hauer des Monoceros Caeli",
+                "fr-fr": "Corne de Monoceros Caeli",
+                "es-es": "Cuerno de Monoceros Caeli",
+                "id-id": "Tusk of Monoceros Caeli",
+                "th-th": "Tusk of Monoceros Caeli",
+                "vi-vn": "Thôn Thiên Kình - Sừng",
+                "zh-tw": "吞天之鯨·隻角"
+              }
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 260000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "198",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Filosofia de Ouro",
+                "en-us": "Philosophies of Gold",
+                "ja-jp": "黄金の哲学",
+                "zh-cn": "黄金的哲学",
+                "ko-kr": "황금의 철학",
+                "ru-ru": "Философия о Золоте",
+                "de-de": "Philosophie des Golds",
+                "fr-fr": "Philosophie de l'Or",
+                "es-es": "Filosofía del oro",
+                "id-id": "Philosophies of Gold",
+                "th-th": "Philosophies of Gold",
+                "vi-vn": "Triết Học Của Hoàng Kim",
+                "zh-tw": "黃金的哲學"
+              }
+            },
+            {
+              "id": "397",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Essência de Slime",
+                "en-us": "Slime Concentrate",
+                "ja-jp": "スライムのピュレ",
+                "zh-cn": "史莱姆原浆",
+                "ko-kr": "슬라임 원액",
+                "ru-ru": "Концентрат слайма",
+                "de-de": "Schleimkonzentrat",
+                "fr-fr": "Essence de Blob",
+                "es-es": "Esencia de Slime",
+                "id-id": "Slime Concentrate",
+                "th-th": "Slime Concentrate",
+                "vi-vn": "Bột Slime",
+                "zh-tw": "史萊姆原漿"
+              }
+            },
+            {
+              "id": "401",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Chifre de Baleia Come-Céu",
+                "en-us": "Tusk of Monoceros Caeli",
+                "ja-jp": "呑天の鯨・只角",
+                "zh-cn": "吞天之鲸·只角",
+                "ko-kr": "하늘을 삼킨 고래·뿔",
+                "ru-ru": "Рог небесного кита",
+                "de-de": "Hauer des Monoceros Caeli",
+                "fr-fr": "Corne de Monoceros Caeli",
+                "es-es": "Cuerno de Monoceros Caeli",
+                "id-id": "Tusk of Monoceros Caeli",
+                "th-th": "Tusk of Monoceros Caeli",
+                "vi-vn": "Thôn Thiên Kình - Sừng",
+                "zh-tw": "吞天之鯨·隻角"
+              }
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 450000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "198",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Filosofia de Ouro",
+                "en-us": "Philosophies of Gold",
+                "ja-jp": "黄金の哲学",
+                "zh-cn": "黄金的哲学",
+                "ko-kr": "황금의 철학",
+                "ru-ru": "Философия о Золоте",
+                "de-de": "Philosophie des Golds",
+                "fr-fr": "Philosophie de l'Or",
+                "es-es": "Filosofía del oro",
+                "id-id": "Philosophies of Gold",
+                "th-th": "Philosophies of Gold",
+                "vi-vn": "Triết Học Của Hoàng Kim",
+                "zh-tw": "黃金的哲學"
+              }
+            },
+            {
+              "id": "397",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Essência de Slime",
+                "en-us": "Slime Concentrate",
+                "ja-jp": "スライムのピュレ",
+                "zh-cn": "史莱姆原浆",
+                "ko-kr": "슬라임 원액",
+                "ru-ru": "Концентрат слайма",
+                "de-de": "Schleimkonzentrat",
+                "fr-fr": "Essence de Blob",
+                "es-es": "Esencia de Slime",
+                "id-id": "Slime Concentrate",
+                "th-th": "Slime Concentrate",
+                "vi-vn": "Bột Slime",
+                "zh-tw": "史萊姆原漿"
+              }
+            },
+            {
+              "id": "401",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Chifre de Baleia Come-Céu",
+                "en-us": "Tusk of Monoceros Caeli",
+                "ja-jp": "呑天の鯨・只角",
+                "zh-cn": "吞天之鲸·只角",
+                "ko-kr": "하늘을 삼킨 고래·뿔",
+                "ru-ru": "Рог небесного кита",
+                "de-de": "Hauer des Monoceros Caeli",
+                "fr-fr": "Corne de Monoceros Caeli",
+                "es-es": "Cuerno de Monoceros Caeli",
+                "id-id": "Tusk of Monoceros Caeli",
+                "th-th": "Tusk of Monoceros Caeli",
+                "vi-vn": "Thôn Thiên Kình - Sừng",
+                "zh-tw": "吞天之鯨·隻角"
+              }
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 700000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "198",
+              "iconUrl": null,
+              "amount": 16,
+              "name": {
+                "pt-pt": "Filosofia de Ouro",
+                "en-us": "Philosophies of Gold",
+                "ja-jp": "黄金の哲学",
+                "zh-cn": "黄金的哲学",
+                "ko-kr": "황금의 철학",
+                "ru-ru": "Философия о Золоте",
+                "de-de": "Philosophie des Golds",
+                "fr-fr": "Philosophie de l'Or",
+                "es-es": "Filosofía del oro",
+                "id-id": "Philosophies of Gold",
+                "th-th": "Philosophies of Gold",
+                "vi-vn": "Triết Học Của Hoàng Kim",
+                "zh-tw": "黃金的哲學"
+              }
+            },
+            {
+              "id": "397",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Essência de Slime",
+                "en-us": "Slime Concentrate",
+                "ja-jp": "スライムのピュレ",
+                "zh-cn": "史莱姆原浆",
+                "ko-kr": "슬라임 원액",
+                "ru-ru": "Концентрат слайма",
+                "de-de": "Schleimkonzentrat",
+                "fr-fr": "Essence de Blob",
+                "es-es": "Esencia de Slime",
+                "id-id": "Slime Concentrate",
+                "th-th": "Slime Concentrate",
+                "vi-vn": "Bột Slime",
+                "zh-tw": "史萊姆原漿"
+              }
+            },
+            {
+              "id": "401",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Chifre de Baleia Come-Céu",
+                "en-us": "Tusk of Monoceros Caeli",
+                "ja-jp": "呑天の鯨・只角",
+                "zh-cn": "吞天之鲸·只角",
+                "ko-kr": "하늘을 삼킨 고래·뿔",
+                "ru-ru": "Рог небесного кита",
+                "de-de": "Hauer des Monoceros Caeli",
+                "fr-fr": "Corne de Monoceros Caeli",
+                "es-es": "Cuerno de Monoceros Caeli",
+                "id-id": "Tusk of Monoceros Caeli",
+                "th-th": "Tusk of Monoceros Caeli",
+                "vi-vn": "Thôn Thiên Kình - Sừng",
+                "zh-tw": "吞天之鯨·隻角"
+              }
+            },
+            {
+              "id": "900",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa da Sabedoria",
+                "en-us": "Crown of Insight",
+                "ja-jp": "知恵の冠",
+                "zh-cn": "智识之冕",
+                "ko-kr": "지식의 왕관",
+                "ru-ru": "Корона прозрения",
+                "de-de": "Krone der Weisheit",
+                "fr-fr": "Couronne de la sagesse",
+                "es-es": "Corona de la sabiduría",
+                "id-id": "Crown of Insight",
+                "th-th": "Crown of Insight",
+                "vi-vn": "Vương Miện Trí Thức",
+                "zh-tw": "智識之冕"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "affiliation": {
+    "pt-pt": "Porto de Liyue",
+    "en-us": "Liyue Harbor",
+    "ja-jp": "璃月港",
+    "zh-cn": "璃月港",
+    "ko-kr": "리월항",
+    "ru-ru": "Ли Юэ",
+    "de-de": "Liyue",
+    "fr-fr": "Port de Liyue",
+    "es-es": "Liyue",
+    "id-id": "Liyue Harbor",
+    "th-th": "Liyue",
+    "vi-vn": "Cảng Liyue",
+    "zh-tw": "璃月港"
+  },
+  "birthday": {
+    "pt-pt": "31/12",
+    "en-us": "12/31",
+    "ja-jp": "12月31日",
+    "zh-cn": "12月31日",
+    "ko-kr": "12월 31일",
+    "ru-ru": "31 декабря",
+    "de-de": "31.12",
+    "fr-fr": "31/12",
+    "es-es": "31/12",
+    "id-id": "31 Desember",
+    "th-th": "31/12",
+    "vi-vn": "Ngày 31 tháng 12",
+    "zh-tw": "12月31日"
+  },
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "447",
+          "iconUrl": null,
+          "amount": 1,
+          "name": {
+            "pt-pt": "Lasca de Topázio Prithiva",
+            "en-us": "Prithiva Topaz Sliver",
+            "ja-jp": "堅牢なトパーズ・砕屑",
+            "zh-cn": "坚牢黄玉碎屑",
+            "ko-kr": "단단한 황옥 가루",
+            "ru-ru": "Осколок топаза Притхива",
+            "de-de": "Prithiva-Topas-Splitter",
+            "fr-fr": "Éclat de topaze prithiva",
+            "es-es": "Pedacito de topacio prithiva",
+            "id-id": "Prithiva Topaz Sliver",
+            "th-th": "Prithiva Topaz Silver",
+            "vi-vn": "Vụn Hoàng Ngọc Cứng",
+            "zh-tw": "堅牢黃玉碎屑"
+          }
+        },
+        {
+          "id": "1242",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Cor Lapis",
+            "en-us": "Cor Lapis",
+            "ja-jp": "石珀",
+            "zh-cn": "石珀",
+            "ko-kr": "콜 라피스",
+            "ru-ru": "Кор ляпис",
+            "de-de": "Cor Lapis",
+            "fr-fr": "Cœur de lapis",
+            "es-es": "Cor lapis",
+            "id-id": "Cor Lapis",
+            "th-th": "Cor Lapis",
+            "vi-vn": "Thạch Phách",
+            "zh-tw": "石珀"
+          }
+        },
+        {
+          "id": "396",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Condensado de Slime",
+            "en-us": "Slime Condensate",
+            "ja-jp": "スライムの液体",
+            "zh-cn": "史莱姆凝液",
+            "ko-kr": "슬라임 응축액",
+            "ru-ru": "Слизь слайма",
+            "de-de": "Schleimabsonderung",
+            "fr-fr": "Bave de Blob",
+            "es-es": "Condensado de Slime",
+            "id-id": "Slime Condensate",
+            "th-th": "Slime Condensate",
+            "vi-vn": "Dịch Slime",
+            "zh-tw": "史萊姆凝液"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 40000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "446",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Topázio Prithiva",
+            "en-us": "Prithiva Topaz Fragment",
+            "ja-jp": "堅牢なトパーズ・欠片",
+            "zh-cn": "坚牢黄玉断片",
+            "ko-kr": "단단한 황옥 조각",
+            "ru-ru": "Фрагмент топаза Притхива",
+            "de-de": "Prithiva-Topas-Bruchstück",
+            "fr-fr": "Fragment de topaze prithiva",
+            "es-es": "Fragmento de topacio prithiva",
+            "id-id": "Prithiva Topaz Fragment",
+            "th-th": "Prithiva Topaz Fragment",
+            "vi-vn": "Mảnh Hoàng Ngọc Cứng",
+            "zh-tw": "堅牢黃玉斷片"
+          }
+        },
+        {
+          "id": "1169",
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Torre da Terra",
+            "en-us": "Basalt Pillar",
+            "ja-jp": "玄岩の塔",
+            "zh-cn": "玄岩之塔",
+            "ko-kr": "현암의 탑",
+            "ru-ru": "Базальтовая колонна",
+            "de-de": "Steinturm",
+            "fr-fr": "Pilier de basalte",
+            "es-es": "Pilar de basalto",
+            "id-id": "Basalt Pillar",
+            "th-th": "Basalt Pillar",
+            "vi-vn": "Tháp Huyền Nham",
+            "zh-tw": "玄岩之塔"
+          }
+        },
+        {
+          "id": "1242",
+          "iconUrl": null,
+          "amount": 10,
+          "name": {
+            "pt-pt": "Cor Lapis",
+            "en-us": "Cor Lapis",
+            "ja-jp": "石珀",
+            "zh-cn": "石珀",
+            "ko-kr": "콜 라피스",
+            "ru-ru": "Кор ляпис",
+            "de-de": "Cor Lapis",
+            "fr-fr": "Cœur de lapis",
+            "es-es": "Cor lapis",
+            "id-id": "Cor Lapis",
+            "th-th": "Cor Lapis",
+            "vi-vn": "Thạch Phách",
+            "zh-tw": "石珀"
+          }
+        },
+        {
+          "id": "396",
+          "iconUrl": null,
+          "amount": 15,
+          "name": {
+            "pt-pt": "Condensado de Slime",
+            "en-us": "Slime Condensate",
+            "ja-jp": "スライムの液体",
+            "zh-cn": "史莱姆凝液",
+            "ko-kr": "슬라임 응축액",
+            "ru-ru": "Слизь слайма",
+            "de-de": "Schleimabsonderung",
+            "fr-fr": "Bave de Blob",
+            "es-es": "Condensado de Slime",
+            "id-id": "Slime Condensate",
+            "th-th": "Slime Condensate",
+            "vi-vn": "Dịch Slime",
+            "zh-tw": "史萊姆凝液"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 60000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "446",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Topázio Prithiva",
+            "en-us": "Prithiva Topaz Fragment",
+            "ja-jp": "堅牢なトパーズ・欠片",
+            "zh-cn": "坚牢黄玉断片",
+            "ko-kr": "단단한 황옥 조각",
+            "ru-ru": "Фрагмент топаза Притхива",
+            "de-de": "Prithiva-Topas-Bruchstück",
+            "fr-fr": "Fragment de topaze prithiva",
+            "es-es": "Fragmento de topacio prithiva",
+            "id-id": "Prithiva Topaz Fragment",
+            "th-th": "Prithiva Topaz Fragment",
+            "vi-vn": "Mảnh Hoàng Ngọc Cứng",
+            "zh-tw": "堅牢黃玉斷片"
+          }
+        },
+        {
+          "id": "1169",
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Torre da Terra",
+            "en-us": "Basalt Pillar",
+            "ja-jp": "玄岩の塔",
+            "zh-cn": "玄岩之塔",
+            "ko-kr": "현암의 탑",
+            "ru-ru": "Базальтовая колонна",
+            "de-de": "Steinturm",
+            "fr-fr": "Pilier de basalte",
+            "es-es": "Pilar de basalto",
+            "id-id": "Basalt Pillar",
+            "th-th": "Basalt Pillar",
+            "vi-vn": "Tháp Huyền Nham",
+            "zh-tw": "玄岩之塔"
+          }
+        },
+        {
+          "id": "1242",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Cor Lapis",
+            "en-us": "Cor Lapis",
+            "ja-jp": "石珀",
+            "zh-cn": "石珀",
+            "ko-kr": "콜 라피스",
+            "ru-ru": "Кор ляпис",
+            "de-de": "Cor Lapis",
+            "fr-fr": "Cœur de lapis",
+            "es-es": "Cor lapis",
+            "id-id": "Cor Lapis",
+            "th-th": "Cor Lapis",
+            "vi-vn": "Thạch Phách",
+            "zh-tw": "石珀"
+          }
+        },
+        {
+          "id": "398",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Secreção de Slime",
+            "en-us": "Slime Secretions",
+            "ja-jp": "スライムの分泌物",
+            "zh-cn": "史莱姆清",
+            "ko-kr": "슬라임청",
+            "ru-ru": "Выделения слайма",
+            "de-de": "Schleimkondensat",
+            "fr-fr": "Mucus de Blob",
+            "es-es": "Babas de Slime",
+            "id-id": "Slime Secretions",
+            "th-th": "Slime Secretions",
+            "vi-vn": "Tinh Slime",
+            "zh-tw": "史萊姆清"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 80000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "445",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Topázio Prithiva",
+            "en-us": "Prithiva Topaz Chunk",
+            "ja-jp": "堅牢なトパーズ・塊",
+            "zh-cn": "坚牢黄玉块",
+            "ko-kr": "단단한 황옥 덩이",
+            "ru-ru": "Кусок топаза Притхива",
+            "de-de": "Prithiva-Topas-Brocken",
+            "fr-fr": "Morceau de topaze prithiva",
+            "es-es": "Trozo de topacio prithiva",
+            "id-id": "Prithiva Topaz Chunk",
+            "th-th": "Prithiva Topaz Chunk",
+            "vi-vn": "Miếng Hoàng Ngọc Cứng",
+            "zh-tw": "堅牢黃玉塊"
+          }
+        },
+        {
+          "id": "1169",
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Torre da Terra",
+            "en-us": "Basalt Pillar",
+            "ja-jp": "玄岩の塔",
+            "zh-cn": "玄岩之塔",
+            "ko-kr": "현암의 탑",
+            "ru-ru": "Базальтовая колонна",
+            "de-de": "Steinturm",
+            "fr-fr": "Pilier de basalte",
+            "es-es": "Pilar de basalto",
+            "id-id": "Basalt Pillar",
+            "th-th": "Basalt Pillar",
+            "vi-vn": "Tháp Huyền Nham",
+            "zh-tw": "玄岩之塔"
+          }
+        },
+        {
+          "id": "1242",
+          "iconUrl": null,
+          "amount": 30,
+          "name": {
+            "pt-pt": "Cor Lapis",
+            "en-us": "Cor Lapis",
+            "ja-jp": "石珀",
+            "zh-cn": "石珀",
+            "ko-kr": "콜 라피스",
+            "ru-ru": "Кор ляпис",
+            "de-de": "Cor Lapis",
+            "fr-fr": "Cœur de lapis",
+            "es-es": "Cor lapis",
+            "id-id": "Cor Lapis",
+            "th-th": "Cor Lapis",
+            "vi-vn": "Thạch Phách",
+            "zh-tw": "石珀"
+          }
+        },
+        {
+          "id": "398",
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Secreção de Slime",
+            "en-us": "Slime Secretions",
+            "ja-jp": "スライムの分泌物",
+            "zh-cn": "史莱姆清",
+            "ko-kr": "슬라임청",
+            "ru-ru": "Выделения слайма",
+            "de-de": "Schleimkondensat",
+            "fr-fr": "Mucus de Blob",
+            "es-es": "Babas de Slime",
+            "id-id": "Slime Secretions",
+            "th-th": "Slime Secretions",
+            "vi-vn": "Tinh Slime",
+            "zh-tw": "史萊姆清"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 100000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "445",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Topázio Prithiva",
+            "en-us": "Prithiva Topaz Chunk",
+            "ja-jp": "堅牢なトパーズ・塊",
+            "zh-cn": "坚牢黄玉块",
+            "ko-kr": "단단한 황옥 덩이",
+            "ru-ru": "Кусок топаза Притхива",
+            "de-de": "Prithiva-Topas-Brocken",
+            "fr-fr": "Morceau de topaze prithiva",
+            "es-es": "Trozo de topacio prithiva",
+            "id-id": "Prithiva Topaz Chunk",
+            "th-th": "Prithiva Topaz Chunk",
+            "vi-vn": "Miếng Hoàng Ngọc Cứng",
+            "zh-tw": "堅牢黃玉塊"
+          }
+        },
+        {
+          "id": "1169",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Torre da Terra",
+            "en-us": "Basalt Pillar",
+            "ja-jp": "玄岩の塔",
+            "zh-cn": "玄岩之塔",
+            "ko-kr": "현암의 탑",
+            "ru-ru": "Базальтовая колонна",
+            "de-de": "Steinturm",
+            "fr-fr": "Pilier de basalte",
+            "es-es": "Pilar de basalto",
+            "id-id": "Basalt Pillar",
+            "th-th": "Basalt Pillar",
+            "vi-vn": "Tháp Huyền Nham",
+            "zh-tw": "玄岩之塔"
+          }
+        },
+        {
+          "id": "1242",
+          "iconUrl": null,
+          "amount": 45,
+          "name": {
+            "pt-pt": "Cor Lapis",
+            "en-us": "Cor Lapis",
+            "ja-jp": "石珀",
+            "zh-cn": "石珀",
+            "ko-kr": "콜 라피스",
+            "ru-ru": "Кор ляпис",
+            "de-de": "Cor Lapis",
+            "fr-fr": "Cœur de lapis",
+            "es-es": "Cor lapis",
+            "id-id": "Cor Lapis",
+            "th-th": "Cor Lapis",
+            "vi-vn": "Thạch Phách",
+            "zh-tw": "石珀"
+          }
+        },
+        {
+          "id": "397",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Essência de Slime",
+            "en-us": "Slime Concentrate",
+            "ja-jp": "スライムのピュレ",
+            "zh-cn": "史莱姆原浆",
+            "ko-kr": "슬라임 원액",
+            "ru-ru": "Концентрат слайма",
+            "de-de": "Schleimkonzentrat",
+            "fr-fr": "Essence de Blob",
+            "es-es": "Esencia de Slime",
+            "id-id": "Slime Concentrate",
+            "th-th": "Slime Concentrate",
+            "vi-vn": "Bột Slime",
+            "zh-tw": "史萊姆原漿"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 120000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "444",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Gema de Topázio Prithiva",
+            "en-us": "Prithiva Topaz Gemstone",
+            "ja-jp": "堅牢なトパーズ",
+            "zh-cn": "坚牢黄玉",
+            "ko-kr": "단단한 황옥",
+            "ru-ru": "Драгоценный топаз Притхива",
+            "de-de": "Prithiva-Topas",
+            "fr-fr": "Pierre de topaze prithiva",
+            "es-es": "Topacio prithiva",
+            "id-id": "Prithiva Topaz Gemstone",
+            "th-th": "Prithiva Topaz Gemstone",
+            "vi-vn": "Hoàng Ngọc Cứng",
+            "zh-tw": "堅牢黃玉"
+          }
+        },
+        {
+          "id": "1169",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Torre da Terra",
+            "en-us": "Basalt Pillar",
+            "ja-jp": "玄岩の塔",
+            "zh-cn": "玄岩之塔",
+            "ko-kr": "현암의 탑",
+            "ru-ru": "Базальтовая колонна",
+            "de-de": "Steinturm",
+            "fr-fr": "Pilier de basalte",
+            "es-es": "Pilar de basalto",
+            "id-id": "Basalt Pillar",
+            "th-th": "Basalt Pillar",
+            "vi-vn": "Tháp Huyền Nham",
+            "zh-tw": "玄岩之塔"
+          }
+        },
+        {
+          "id": "1242",
+          "iconUrl": null,
+          "amount": 60,
+          "name": {
+            "pt-pt": "Cor Lapis",
+            "en-us": "Cor Lapis",
+            "ja-jp": "石珀",
+            "zh-cn": "石珀",
+            "ko-kr": "콜 라피스",
+            "ru-ru": "Кор ляпис",
+            "de-de": "Cor Lapis",
+            "fr-fr": "Cœur de lapis",
+            "es-es": "Cor lapis",
+            "id-id": "Cor Lapis",
+            "th-th": "Cor Lapis",
+            "vi-vn": "Thạch Phách",
+            "zh-tw": "石珀"
+          }
+        },
+        {
+          "id": "397",
+          "iconUrl": null,
+          "amount": 24,
+          "name": {
+            "pt-pt": "Essência de Slime",
+            "en-us": "Slime Concentrate",
+            "ja-jp": "スライムのピュレ",
+            "zh-cn": "史莱姆原浆",
+            "ko-kr": "슬라임 원액",
+            "ru-ru": "Концентрат слайма",
+            "de-de": "Schleimkonzentrat",
+            "fr-fr": "Essence de Blob",
+            "es-es": "Esencia de Slime",
+            "id-id": "Slime Concentrate",
+            "th-th": "Slime Concentrate",
+            "vi-vn": "Bột Slime",
+            "zh-tw": "史萊姆原漿"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "1144"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "20"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "57"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "2967",
+          "postAscensionValue": "3948"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "51",
+          "postAscensionValue": "67"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "149",
+          "postAscensionValue": "198"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "0%",
+          "postAscensionValue": "0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "5908",
+          "postAscensionValue": "6605"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "101",
+          "postAscensionValue": "113"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "297",
+          "postAscensionValue": "332"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "0%",
+          "postAscensionValue": "7.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "7599",
+          "postAscensionValue": "8528"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "130",
+          "postAscensionValue": "146"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "382",
+          "postAscensionValue": "428"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "7.2%",
+          "postAscensionValue": "14.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "9533",
+          "postAscensionValue": "10230"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "163",
+          "postAscensionValue": "175"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "479",
+          "postAscensionValue": "514"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "14.4%",
+          "postAscensionValue": "14.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "11243",
+          "postAscensionValue": "11940"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "192",
+          "postAscensionValue": "204"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "564",
+          "postAscensionValue": "599"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "14.4%",
+          "postAscensionValue": "21.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "12965",
+          "postAscensionValue": "13662"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "222",
+          "postAscensionValue": "233"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "651",
+          "postAscensionValue": "686"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "21.6%",
+          "postAscensionValue": "28.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "14695",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "251",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "738",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Geo",
+            "en-us": "Geo DMG Bonus",
+            "ja-jp": "岩元素ダメージ",
+            "zh-cn": "岩元素伤害加成",
+            "ko-kr": "바위 원소 피해 보너스",
+            "ru-ru": "Бонус Гео урона",
+            "de-de": "Geo-SCH-Bonus",
+            "fr-fr": "Bonus de DGT Géo",
+            "es-es": "Bono de Daño Geo",
+            "id-id": "Geo DMG Bonus",
+            "th-th": "โบนัสความเสียหายหิน",
+            "vi-vn": "Tăng ST Nguyên Tố Nham",
+            "zh-tw": "岩元素傷害加成"
+          },
+          "preAscensionValue": "28.8%",
+          "postAscensionValue": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3435 @@
+{
+  "id": "traveler_electro",
+  "wiki_id": "18",
+  "name": {
+    "pt-pt": "Viajante (Electro)",
+    "en-us": "Traveler (Electro)",
+    "ja-jp": "旅人(雷)",
+    "zh-cn": "旅行者（雷）",
+    "ko-kr": "여행자(번개)",
+    "ru-ru": "Путешественник (Электро)",
+    "de-de": "Reisender (Elektro)",
+    "fr-fr": "Voyageur (Électro)",
+    "es-es": "Viajero (Electro)",
+    "id-id": "Pengembara (Electro)",
+    "th-th": "นักเดินทาง (ไฟฟ้า)",
+    "vi-vn": "Nhà Lữ Hành (Lôi)",
+    "zh-tw": "旅行者（雷）"
+  },
+  "title": {
+    "en-us": "-",
+    "ja-jp": "運命を超える星",
+    "ru-ru": "-",
+    "de-de": "-",
+    "vi-vn": "-",
+    "pt-pt": "N/A",
+    "zh-cn": "N/A",
+    "ko-kr": "N/A",
+    "fr-fr": "N/A",
+    "es-es": "N/A",
+    "id-id": "N/A",
+    "th-th": "N/A",
+    "zh-tw": "N/A"
+  },
+  "description": {
+    "pt-pt": "Uma/Um Viajante de outro mundo que teve seu ente querido levado e foi forçada/o a embarcar em uma jornada em busca dos Sete.",
+    "en-us": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+    "ja-jp": "世界の外から漂流してきた旅人。肉親が見知らぬ神に連れ去られたため、七神を探す旅に出た。",
+    "zh-cn": "从世界之外漂流而来的旅行者，被神带走血亲，自此踏上寻找七神之路。",
+    "ko-kr": "다른 세계에서 건너온 여행자, 신에 의해 가족을 빼앗긴 뒤 일곱 신을 찾는 여정에 오른다.「…네가 가진 고결함과 선량함이 변하지 않는다면 새로운 세계에서도 가장 좋은 친구가 너와 함께할 거야. 이곳의 전방, 그리고 미래 모두 너의 세상이야」「세계에 온걸 환영해」——K·K",
+    "ru-ru": "Путешественник/ца из другого мира, разлучённый/ая со своей сестрой/своим братом. Он/а отправляется в долгое путешествие, чтобы найти всех семерых Архонтов и вернуть родного человека.",
+    "de-de": "Ein Reisender weit entfernt von der Heimat auf der Suche nach den Sieben, um seine Schwester wiederzufinden.",
+    "fr-fr": "Un voyageur/Une voyageuse venant d'un autre monde qui a été séparé/séparée de sa sœur/son frère. Il/Elle débute son périple à la recherche des Sept Archons de Teyvat dans l'espoir de la/le retrouver.",
+    "es-es": "Una viajera/Un viajero de otro mundo a la/al que arrebataron su única familia, y que se vio obligada/o a embarcarse en un viaje en busca de Los Siete.",
+    "id-id": "Seorang pengembara yang berasal dari dunia lain, saudara satu-satunya yang ia miliki dirampas dari hadapannya oleh sesosok dewa, dan kini ia mengembara untuk mencari The Seven.",
+    "th-th": "นักเดินทางจากต่างโลกผู้ถูกเทพปริศนาพรากพี่น้องร่วมสายเลือดเพียงหนึ่งเดียวไปจึงจำใจต้องออกเดินทางเพื่อตามหาเทพทั้ง 7",
+    "vi-vn": "Nhà Lữ Hành lưu lạc đến đây từ thế giới khác, bị Thần cướp mất người thân, từ đó bước vào con đường đi tìm 7 vị Thần.",
+    "zh-tw": "從世界之外漂流而來的旅行者，被神帶走血親，自此踏上尋找七神之路。"
+  },
+  "rarity": 5,
+  "vision": {
+    "label": {
+      "pt-pt": "Tipo Elemental",
+      "en-us": "Elemental Type",
+      "ja-jp": "元素タイプ",
+      "zh-cn": "元素属性",
+      "ko-kr": "원소 속성",
+      "ru-ru": "Элемент",
+      "de-de": "Elementartyp",
+      "fr-fr": "Élément",
+      "es-es": "Tipo elemental",
+      "id-id": "Tipe Elemen",
+      "th-th": "ประเภทธาตุ",
+      "vi-vn": "Thuộc Tính Nguyên Tố",
+      "zh-tw": "元素屬性"
+    },
+    "value": {
+      "pt-pt": "Electro",
+      "en-us": "Electro",
+      "ja-jp": "雷元素",
+      "zh-cn": "雷元素",
+      "ko-kr": "번개 원소",
+      "ru-ru": "Электро",
+      "de-de": "Elektro",
+      "fr-fr": "Électro",
+      "es-es": "Electro",
+      "id-id": "Electro",
+      "th-th": "ไฟฟ้า",
+      "vi-vn": "Lôi",
+      "zh-tw": "雷元素"
+    }
+  },
+  "weapon": {
+    "label": {
+      "pt-pt": "Arma",
+      "en-us": "Weapons",
+      "ja-jp": "武器種",
+      "zh-cn": "武器",
+      "ko-kr": "무기",
+      "ru-ru": "Тип",
+      "de-de": "Waffe",
+      "fr-fr": "Type d'arme",
+      "es-es": "Arma",
+      "id-id": "Senjata",
+      "th-th": "อาวุธ",
+      "vi-vn": "Vũ Khí",
+      "zh-tw": "武器"
+    },
+    "value": {
+      "pt-pt": "Espada",
+      "en-us": "Sword",
+      "ja-jp": "片手剣",
+      "zh-cn": "单手剑",
+      "ko-kr": "한손검",
+      "ru-ru": "Одноручное",
+      "de-de": "Einhänder",
+      "fr-fr": "Épée à une main",
+      "es-es": "Espada ligera",
+      "id-id": "Sword",
+      "th-th": "ดาบ",
+      "vi-vn": "Kiếm Đơn",
+      "zh-tw": "單手劍"
+    }
+  },
+  "characterIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/Traveler_icon.png",
+  "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/16d344b6abbc369a2db9d46d6f31305b_7144738962629629573.png",
+  "constellationNameOfficial": {
+    "pt-pt": "Viator",
+    "en-us": "Viator &amp; Viatrix",
+    "ja-jp": "旅人座",
+    "zh-cn": "旅人座",
+    "ru-ru": "Звёздный Путник",
+    "de-de": "Viator &amp; Viatrix",
+    "fr-fr": "Viator &amp; Viatrix",
+    "es-es": "Viator",
+    "id-id": "Viator",
+    "th-th": "Viator",
+    "zh-tw": "旅人座",
+    "ko-kr": "N/A",
+    "vi-vn": "N/A"
+  },
+  "specialDish": {
+    "id": null,
+    "name": {},
+    "iconUrl": null
+  },
+  "namecard": {
+    "id": null,
+    "name": {},
+    "iconUrl": null
+  },
+  "constellations": [
+    {
+      "id": null,
+      "constellationNumber": 1,
+      "name": {
+        "pt-pt": "Trovão Primaveril da Fertilidade",
+        "en-us": "Spring Thunder of Fertility",
+        "ja-jp": "豊穰の春雷",
+        "zh-cn": "丰穰的春雷",
+        "ko-kr": "풍요의 봄우레",
+        "ru-ru": "Гром весеннего урожая",
+        "de-de": "Frühlingsgewitter bei der Ernte",
+        "fr-fr": "Orage de récolte printanière",
+        "es-es": "Trueno de la cosecha primaveral",
+        "id-id": "Spring Thunder of Fertility",
+        "th-th": "Spring Thunder of Fertility",
+        "vi-vn": "Sấm Sét Bội Thu",
+        "zh-tw": "豐穰的春雷"
+      },
+      "description": {
+        "pt-pt": "Aumenta o número de Amuletos da Abundância que podem ser gerados usando a Lâmina Raikage para 3.",
+        "en-us": "The number of Abundance Amulets that can be generated using Lightning Blade is increased to 3.",
+        "ja-jp": "雷影剣発動時に生成する豊穰の勾玉の数を3つにアップ。",
+        "zh-cn": "施放雷影剑能产生的丰穰勾玉数量提升至3枚。",
+        "ko-kr": "뇌영검 발동 시 생성되는 풍요의 곡옥 수량이 3개까지 증가한다",
+        "ru-ru": "Количество Амулетов изобилия, которые создаёт навык Клинок молнии, увеличено до 3.",
+        "de-de": "Erhöht die mit Blitzschattenschwert zu erschaffende Menge an Amuletten des Überflusses auf 3.",
+        "fr-fr": "Augmente le nombre d'amulettes d'abondance pouvant être générées avec Lame d'éclair à 3.",
+        "es-es": "Aumenta a 3 la cantidad de abalorios de la profusión que se pueden crear mediante Espada electrosombría.",
+        "id-id": "Jumlah Abundance Amulet yang bisa diciptakan dengan Lightning Blade bertambah menjadi 3 buah.",
+        "th-th": "จำนวนของ Abundance Amulet ที่สร้างขึ้นโดย Lightning Blade เพิ่มขึ้นเป็น 3 อัน",
+        "vi-vn": "Số lượng Khuyết Ngọc Dậy Sóng có thể sinh ra khi thi triển Lôi Ảnh Kiếm tăng đến 3.",
+        "zh-tw": "施放雷影劍能產生的豐穰勾玉數量提升至3枚。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/旅行者(雷)/constellation_1.png"
+    },
+    {
+      "id": null,
+      "constellationNumber": 2,
+      "name": {
+        "pt-pt": "Veemência Violeta",
+        "en-us": "Violet Vehemence",
+        "ja-jp": "激怒の蒼雷",
+        "zh-cn": "震怒的苍雷",
+        "ko-kr": "진노의 창뢰",
+        "ru-ru": "Пурпурная ярость",
+        "de-de": "Wucht des Wetters",
+        "fr-fr": "Véhémence pourpre",
+        "es-es": "Rayo vehemente",
+        "id-id": "Violet Vehemence",
+        "th-th": "Violet Vehemence",
+        "vi-vn": "Như Sấm Thịnh Nộ",
+        "zh-tw": "震怒的蒼雷"
+      },
+      "description": {
+        "pt-pt": "Após o Relâmpago Poderoso do Rugido do Trovão acertar em um inimigo, a RES Electro do inimigo é diminuída em 15% por 8s.",
+        "en-us": "When Falling Thunder created by Bellowing Thunder hits an opponent, it will decrease their Electro RES by 15% for 8s.",
+        "ja-jp": "電光雷轟の威光の落雷が敵に命中すると、敵の雷元素耐性-15%、継続時間8秒。",
+        "zh-cn": "雷轰电转的威光落雷命中敌人后，会使敌人的雷元素抗性降低15%，持续8秒。",
+        "ko-kr": "요동치는 우렛소리의 위광의 낙뢰가 적을 명중하면, 적의 번개 원소 내성이 15% 감소한다. 지속 시간: 8초",
+        "ru-ru": "Попадание Нисходящим громом, созданным навыком Раскаты грома, понижает Электро сопротивление на 15% в течение 8 сек.",
+        "de-de": "Verringert beim Treffen von Gegnern mit dem grellen Blitzschlag von Rollender Donner den Elektro-WDS dieser Gegner 8 s lang um 15 %.",
+        "fr-fr": "Réduit de 15 % pendant 8 s la RÉS Électro des ennemis ayant été touchés par la Foudre majestueuse de Tonnerre hurlant.",
+        "es-es": "Cuando un enemigo es golpeado por el rayo temible de Estallido atronador, su RES Electro se reduce en un 15% durante 8 s.",
+        "id-id": "Falling Thunder dari Bellowing Thunder yang mengenai musuh akan mengurangi 15% Electro RES musuh selama 8 detik.",
+        "th-th": "หลังจาก Falling Thunder ของ Bellowing Thunder โจมตีถูกศัตรู จะทำให้ความต้านทานไฟฟ้า ของศัตรูลดลง 15% เป็นเวลา 8 วินาที",
+        "vi-vn": "Sau khi Sấm Sét Uy Vũ của Xung Điện Sấm Rền đánh trúng địch, sẽ làm giảm 15% Kháng Nguyên Tố Lôi của địch, duy trì 8s.",
+        "zh-tw": "雷轟電轉的威光落雷命中敵人後，會使敵人的雷元素抗性降低15%，持續8秒。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/旅行者(雷)/constellation_2.png"
+    },
+    {
+      "id": null,
+      "constellationNumber": 3,
+      "name": {
+        "pt-pt": "Trovoada Distante",
+        "en-us": "Distant Crackling",
+        "ja-jp": "連延の遠雷",
+        "zh-cn": "连延的远雷",
+        "ko-kr": "뻗어나가는 원뢰",
+        "ru-ru": "Далёкие раскаты",
+        "de-de": "Entfernter Donner",
+        "fr-fr": "Grondement lointain",
+        "es-es": "Restallido lejano",
+        "id-id": "Distant Crackling",
+        "th-th": "Distant Crackling",
+        "vi-vn": "Sấm Chớp Liên Miên",
+        "zh-tw": "連延的遠雷"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível do Rugido do Trovão em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Bellowing Thunder by 3.Maximum upgrade level is 15.",
+        "ja-jp": "電光雷轟のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "雷轰电转的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "요동치는 우렛소리의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Раскаты грома на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Rollender Donner um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Tonnerre hurlant +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Estallido atronador +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Bellowing Thunder.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Bellowing Thunder ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Xung Điện Sấm Rền +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "雷轟電轉的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/旅行者(雷)/constellation_3.png"
+    },
+    {
+      "id": null,
+      "constellationNumber": 4,
+      "name": {
+        "pt-pt": "Relâmpago Repentino",
+        "en-us": "Fickle Cloudstrike",
+        "ja-jp": "予測不能な雷雲",
+        "zh-cn": "难测的云雷",
+        "ko-kr": "예측불가한 운뢰",
+        "ru-ru": "Переменчивые тучи",
+        "de-de": "Unberechenbares Unwetter",
+        "fr-fr": "Cumulonimbus imprévisible",
+        "es-es": "Relámpago súbito",
+        "id-id": "Fickle Cloudstrike",
+        "th-th": "Fickle Cloudstrike",
+        "vi-vn": "Mây Sét Khó Lường",
+        "zh-tw": "難測的雲雷"
+      },
+      "description": {
+        "pt-pt": "Quando um personagem obtém Amuleto da Abundância gerado por Lâmina Raikage, se a Energia Elemental do personagem for inferior a 35%, a Energia Elemental recuperada por Amuleto da Abundância aumenta em 100%.",
+        "en-us": "When a character obtains Abundance Amulets generated by Lightning Blade, if this character's Energy is less than 35%, the Energy restored by the Abundance Amulets is increased by 100%.",
+        "ja-jp": "キャラクターが雷影剣で生成した豊穰の勾玉を獲得した時、該当キャラクターの元素エネルギーが35%未満の場合、豊穰の勾玉で回復できる元素エネルギー+100%。",
+        "zh-cn": "角色获取雷影剑产生的丰穰勾玉时，若该角色的当前元素能量低于35%，丰穰勾玉恢复的元素能量提高100%。",
+        "ko-kr": "캐릭터가 뇌영검으로 생성된 풍요의 곡옥 획득 시, 해당 캐릭터의 원소 에너지가 35% 미만일 경우 풍요의 곡옥으로 회복되는 원소 에너지가 100% 증가한다",
+        "ru-ru": "Когда персонаж получает Амулеты изобилия, создаваемые навыком Клинок молнии, если его энергия ниже 35%, то количество энергии, восстанавливаемое Амулетами изобилия, увеличивается на 100%.",
+        "de-de": "Stellt beim Einfangen von Amuletten des Überflusses von Blitzschattenschwert der einfangenden Figur 100 % mehr Elementarenergie wieder her, wenn die Figur weniger als 35 % Elementarenergie hat.",
+        "fr-fr": "Si l'énergie élémentaire d'un personnage obtenant une amulette d'abondance générée par Lame d'éclair est inférieure à 35 %, l'énergie restaurée par l'amulette d'abondance augmente de 100 %.",
+        "es-es": "Si la Energía Elemental de un personaje está por debajo del 35% cuando absorbe un abalorio de la profusión creado con Espada electrosombría, la cantidad de Energía recuperada por medio del abalorio aumenta en un 100%.",
+        "id-id": "Saat Karakter menyerap Abundance Amulet yang tercipta dari Lightning Blade dan Energy karakter kurang dari 35%, maka Energy yang dipulihkan Abundance Amulet akan meningkat 100%.",
+        "th-th": "เมื่อตัวละครได้รับ Abundance Amulet ที่สร้างขึ้นโดย Lightning Blade หากพลังงานธาตุของตัวละครในขณะนั้นต่ำกว่า 35% ปริมาณการฟื้นฟูพลังงานธาตุของ Abundance Amulet จะเพิ่มขึ้น 100%",
+        "vi-vn": "Khi nhân vật nhận được Khuyết Ngọc Dậy Sóng sinh ra từ Lôi Ảnh Kiếm, nếu Năng Lượng Nguyên Tố hiện tại của nhân vật này dưới 35%, thì Năng Lượng Nguyên Tố mà Khuyết Ngọc Dậy Sóng hồi phục sẽ tăng 100%.",
+        "zh-tw": "角色獲得雷影劍產生的豐穰勾玉時，若該角色現有的元素能量低於35%，豐穰勾玉恢復的元素能量提高100%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/旅行者(雷)/constellation_4.png"
+    },
+    {
+      "id": null,
+      "constellationNumber": 5,
+      "name": {
+        "pt-pt": "Clamor na Natureza",
+        "en-us": "Clamor in the Wilds",
+        "ja-jp": "荒野の雷鳴",
+        "zh-cn": "荒野的霆雷",
+        "ko-kr": "황야의 뇌정",
+        "ru-ru": "Грохот на просторах",
+        "de-de": "Getöne in der Wildnis",
+        "fr-fr": "Clameurs de la nature",
+        "es-es": "Naturaleza eléctrica",
+        "id-id": "Clamor in the Wilds",
+        "th-th": "Clamour in the Wilds",
+        "vi-vn": "Tiếng Sấm Giữa Đồng Hoang",
+        "zh-tw": "荒野的霆雷"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível de habilidade da Lâmina Raikage em 3 níveis. O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Lightning Blade by 3.Maximum upgrade level is 15.",
+        "ja-jp": "雷影剣のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "雷影剑的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "뇌영검의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Клинок молнии на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Blitzschattenschwert um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Lame d'éclair +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Espada electrosombría +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Lightning Blade.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Lightning Blade ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Lôi Ảnh Kiếm +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "雷影劍的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/旅行者(雷)/constellation_5.png"
+    },
+    {
+      "id": null,
+      "constellationNumber": 6,
+      "name": {
+        "pt-pt": "Agitador de Mundos",
+        "en-us": "World-Shaker",
+        "ja-jp": "世を揺るがす神雷",
+        "zh-cn": "撼世的神雷",
+        "ko-kr": "세상을 뒤흔드는 신뢰(神雷)",
+        "ru-ru": "Сотрясение мира",
+        "de-de": "Erschütternde Blitze",
+        "fr-fr": "Secousse céleste",
+        "es-es": "Sacudida celestial",
+        "id-id": "World-Shaker",
+        "th-th": "World-Shaker",
+        "vi-vn": "Thần Lôi Chấn Thế",
+        "zh-tw": "撼世的神雷"
+      },
+      "description": {
+        "pt-pt": "A cada 2 Relâmpagos Poderosos desencadeados pelo Rugido do Trovão, o Dano do próximo Relâmpago Poderoso será aumentado consideravelmente, fazendo com que cause 200% do seu Dano original, e restaurará 1 ponto de Energia Elemental adicional para o personagem atual.",
+        "en-us": "Every 2 Falling Thunder attacks triggered by Bellowing Thunder will greatly increase the DMG dealt by the next Falling Thunder, which will deal 200% of its original DMG and will restore an additional 1 Energy to the current character.",
+        "ja-jp": "電光雷轟が威光の落雷を2回引き起こすたび、次の威光の落雷を大幅に強化し、本来の200%分のダメージを与え、さらに現在のキャラクターの元素エネルギーを1ポイント回復する。",
+        "zh-cn": "雷轰电转每引发2次威光落雷，则大幅增强下一次威光落雷，造成原本200%的伤害，并为当前角色额外恢复1点元素能量。",
+        "ko-kr": "요동치는 우렛소리가 위광의 낙뢰를 2회 유발할 때마다 다음번 위광의 낙뢰가 대폭 강화되어 기존 피해의 200%에 해당하는 피해를 가하고, 현재 캐릭터의 원소 에너지를 추가로 1pt 회복한다",
+        "ru-ru": "Каждые 2 атаки Нисходящего грома, вызванные навыком Раскаты грома, значительно повышают урон, наносимый следующей атакой Нисходящего грома, который становится равен 200% от первоначального урона, и восстанавливают дополнительную единицу энергии персонажу.",
+        "de-de": "Erhöht den mit jedem dritten grellen Blitzschlag von Rollender Donner verursachten Schaden enorm, verursacht damit 200 % des ursprünglichen Schadens und stellt der aktuellen Figur zusätzlich 1 Punkt Elementarenergie wieder her.",
+        "fr-fr": "Toutes les 2 Foudres majestueuses déclenchées par Tonnerre hurlant, la Foudre majestueuse suivante inflige 200 % de ses DGT d'origine et le personnage actuel récupère 1 pt d'énergie élémentaire supplémentaire.",
+        "es-es": "Tras provocar dos rayos temibles con Estallido atronador, el daño del siguiente rayo temible aumentará considerablemente para infligir un 200% del daño original y, además, regenerará 1 pt. adicional de Energía Elemental para el personaje en uso.",
+        "id-id": "Setiap 2 serangan Falling Thunder yang terpicu dari Bellowing Thunder akan meningkatkan DMG Falling Thunder selanjutnya secara drastis, mengakibatkan DMG sebesar 200% dari DMG aslinya dan memulihkan 1 Energy tambahan untuk Karakter saat ini.",
+        "th-th": "ทุกครั้งที่ Bellowing Thunder ทำให้เกิด Falling Thunder ครบ 2 ครั้ง จะเสริมความรุนแรงของ Falling Thunder ครั้งต่อไป โดยจะสร้างความเสียหายเป็น 200% ของความเสียหายเดิม และฟื้นฟูพลังงานธาตุให้แก่ตัวละครในขณะนั้นเพิ่มอีก 1 หน่วย",
+        "vi-vn": "Mỗi khi Xung Điện Sấm Rền tạo ra 2 lần Sấm Sét Uy Vũ, thì Sấm Sét Uy Vũ lần sau sẽ gây 200% sát thương so với ban đầu, đồng thời hồi thêm 1 điểm Năng Lượng Nguyên Tố cho nhân vật hiện tại.",
+        "zh-tw": "雷轟電轉每引發2次威光落雷，則大幅增強下一次威光落雷，造成原本200%的傷害，並為目前角色額外恢復1點元素能量。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/旅行者(雷)/constellation_6.png"
+    }
+  ],
+  "talents": [
+    {
+      "type": "normal_attack",
+      "name": {
+        "pt-pt": "Ataque Normal: Choque do Trovão Estrangeiro",
+        "en-us": "Foreign Thundershock",
+        "ja-jp": "通常攻撃・異邦の驚雷",
+        "zh-cn": "普通攻击·异邦惊雷",
+        "ko-kr": "일반 공격·이방의 번개",
+        "ru-ru": "Иноземный гром",
+        "de-de": "Standardangriff: Gewitter aus der Fremde",
+        "fr-fr": "Attaque normale : Tonnerre venu d'ailleurs",
+        "es-es": "Ataque Normal: Relámpago extranjero",
+        "id-id": "Normal Attack: Foreign Thundershock",
+        "th-th": "โจมตีปกติ - Foreign Thundershock",
+        "vi-vn": "Tấn Công Thường - Tiếng Sấm Dị Bang",
+        "zh-tw": "普通攻擊·異邦驚雷"
+      },
+      "description": {
+        "pt-pt": "Ataque NormalRealiza até 5 golpes rápidos.Ataque CarregadoConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.Ataque ImersivoMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto.",
+        "en-us": "Normal AttackPerforms up to 5 rapid strikes.Charged AttackConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.Plunging AttackPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+        "ja-jp": "通常攻撃剣による最大5段の連続攻撃を行う。重撃一定のスタミナを消費し、前方に斬撃を2回放つ。落下攻撃空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "zh-cn": "普通攻击进行至多五段的连续剑击。重击消耗一定体力，瞬间向前方挥出两剑。下落攻击从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+        "ko-kr": "일반 공격검으로 최대 5번 공격한다.강공격일정 스태미나를 소모해 순간적으로 전방을 향해 검을 2번 휘두른다.낙하 공격공중에서 땅을 내려찍어 경로상의 적을 공격하고, 착지 시 범위 피해를 준다",
+        "ru-ru": "Обычная атака:До пяти быстрых ударов мечом.Заряженная атака:Два быстрых взмаха мечом, для которых тратится определённое количество выносливости.Атака в падении:Стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+        "de-de": "StandardangriffFührt bis zu 5 Schwerthiebe hintereinander aus.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und schwingt das Schwert zweimal schnell nach vorn.Angriff aus dem FallSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "fr-fr": "Attaque normaleEnchaîne jusqu'à 5 coups d'épée.Attaque chargéeConsomme de l'endurance pour déclencher deux coups d'épée rapides.Attaque plongeantePlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "es-es": "Ataque NormalRealiza hasta 5 ataques rápidos.Ataque CargadoConsume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.Ataque DescendenteSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+        "id-id": "Normal AttackMelancarkan hingga 5 serangan pedang berturut-turut.Charged AttackMengonsumsi sejumlah Stamina untuk melancarkan dua tebasan pedang.Plunging AttackMenerjang dari udara untuk menghantam tanah di bawahnya, mengakibatkan DMG pada musuh di jalurnya dan mengakibatkan DMG area saat mendarat.",
+        "th-th": "โจมตีปกติโจมตีด้วยดาบต่อเนื่องมากสุดห้าครั้งชาร์จโจมตีใช้พลังกายส่วนหนึ่งเพื่อปลดปล่อยดาบ ออกไปข้างหน้าสองเล่มในช่วงเวลาสั้น ๆโจมตีพุ่งลงจากอากาศกระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+        "vi-vn": "Tấn Công ThườngThực hiện tối đa 5 lần đánh kiếm liên tiếp.Trọng KíchTiêu hao thể lực nhất định, đánh ra hai kiếm về phía trước trong chớp mắt.Tấn Công Khi ĐápĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.",
+        "zh-tw": "普通攻擊進行至多五段的連續劍擊。重擊消耗一定體力，瞬間向前方揮出兩劍。下落攻擊從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/旅行者(雷)/battle_talent_0/battle_talent_0.png"
+    },
+    {
+      "type": "elemental_skill",
+      "name": {
+        "pt-pt": "Lâmina Raikage",
+        "en-us": "Lightning Blade",
+        "ja-jp": "雷影剣",
+        "zh-cn": "雷影剑",
+        "ko-kr": "뇌영검",
+        "ru-ru": "Клинок молнии",
+        "de-de": "Blitzschattenschwert",
+        "fr-fr": "Lame d'éclair",
+        "es-es": "Espada electrosombría",
+        "id-id": "Lightning Blade",
+        "th-th": "Lightning Blade",
+        "vi-vn": "Lôi Ảnh Kiếm",
+        "zh-tw": "雷影劍"
+      },
+      "description": {
+        "pt-pt": "Libera três sombras de raio ágil, causando Dano Electro. Quando atinge o inimigo, deixa um Amuleto da Abundância.No início, podem ser criados até 2 Amuletos da Abundância. Ao lançar a Habilidade, os Amuletos da Abundância criados por você serão eliminados.Amuleto da AbundânciaQuando o personagem se aproxima, ele irá absorver Amuleto da Abundância, obtendo os seguintes efeitos:·Regenera Energia Elemental;·Durante a duração, aumentará a Recarga de Energia Elemental.Você e Paimon falam sobre os caminhos pelos quais a energia flui.",
+        "en-us": "Unleashes three swift thunder shadows that deal Electro DMG to opponents and leave an Abundance Amulet behind after hitting an opponent.2 Abundance Amulets can be created initially. Using this skill will reset any Abundance Amulets that were generated.Abundance AmuletsWhen a character is near an Abundance Amulet, they will absorb it and obtain the following effects:· Restores Elemental Energy· Increases Energy Recharge during the Abundance Amulet's duration.You and Paimon discuss the paths by which electricity might flow.",
+        "ja-jp": "迅速の雷影を3つ放つ。雷影は敵に雷元素ダメージを与え、命中時に豊穰の勾玉を残す。初期状態では豊穰の勾玉を最大2つ生成できる。スキルを発動すると、自身が生成した豊穰の勾玉がクリアされる。豊穰の勾玉キャラクターが近寄ると、豊穰の勾玉を吸収し、下記効果を獲得する。・元素エネルギーが回復する。・継続時間内、元素チャージ効率がアップする。電気が通る全ての道筋について、パイモンと話し合った。",
+        "zh-cn": "斩出三道迅捷的雷影。雷影会对敌人造成雷元素伤害，并在命中敌人时，留下丰穰勾玉。初始至多产生2枚丰穰勾玉。施放技能时，会清除自己产生的丰穰勾玉。丰穰勾玉角色接近时，会吸收丰穰勾玉，获得以下效果：·恢复元素能量；·在持续时间内，提高元素充能效率。和派蒙讨论过电的所有可能路径。",
+        "ko-kr": "신속한 뇌영 세 갈래를 방출한다. 뇌영은 적에게 번개 원소 피해를 주고, 적을 명중하면 풍요의 곡옥을 남긴다.풍요의 곡옥은 초기에 최대 2개까지 생성된다. 스킬 발동 시 자신이 생성한 풍요의 곡옥이 사라진다.풍요의 곡옥캐릭터가 접근하면 풍요의 곡옥을 흡수하고 아래의 효과를 획득한다:·원소 에너지 회복·지속 시간 동안 원소 충전 효율 향상페이몬과 전기가 통하는 모든 경로에 관해 토론한 적이 있다",
+        "ru-ru": "Выпускает три стремительные громовые тени, которые наносят Электро урон противникам и при успешном ударе оставляют после себя Амулеты изобилия.Изначально можно создать только два Амулета изобилия. Использование навыка сбросит все созданные Амулеты изобилия.Амулеты изобилияКогда персонаж находится рядом с Амулетом изобилия, он поглощает его и получает следующие эффекты:· Восстанавливает элементальную энергию.· Повышает восстановление энергии.Вы с Паймон обсуждаете пути, по которым может течь электричество.",
+        "de-de": "Führt drei schnelle Blitzschattenhiebe aus, die Gegnern Elektro-Schaden zufügen und Amulette des Überflusses bei getroffenen Gegnern hinterlassen.Kann anfänglich bis zu 2 Amulette des Überflusses erschaffen. Entfernt bei Anwendung dieser Fähigkeit alle bereits selbst erschaffenen Amulette des Überflusses.Amulette des ÜberflussesNähert sich eine Figur den Amuletten des Überflusses, werden folgende Effekte ausgelöst:· Stellt Elementarenergie wieder her.· Erhöht die Aufladerate während der Wirkungsdauer.Du hast mit Paimon darüber gesprochen, wie sich Elektrizität ausbreitet.",
+        "fr-fr": "Libère trois ombres de foudre rapides, qui infligent des DGT Électro aux ennemis, et laissent une amulette d'abondance lorsqu'elles touchent un ennemi.Jusqu'à 2 amulettes d'abondance peuvent être ainsi générées. Réutiliser la compétence annule les amulettes d'abondance générées.Amulettes d'abondanceLorsqu'un personnage s'approche d'une amulette d'abondance, il l'absorbe et obtient les effets suivants :Son énergie élémentaire se régénère ;Sa recharge d'énergie élémentaire augmente.Vous discutez des différents chemins que peut prendre l'électricité avec Paimon.",
+        "es-es": "Libera tres rápidos relámpagos sombríos, los cuales infligen Daño Electro contra los enemigos y, al golpearlos, colocan un abalorio de la profusión.Originalmente solo se pueden crear un máximo de 2 abalorios de la profusión. Al usar esta habilidad se reiniciarán todos los abalorios ya creados.Abalorio de la profusiónCuando un personaje esté cerca de un abalorio de la profusión, lo absorberá y obtendrá los siguientes efectos:·Recuperará Energía Elemental.·Aumentará la Recarga de Energía.Hablaste con Paimon sobre los canales por los que circula la electricidad.",
+        "id-id": "Melancarkan 3 tebasan secepat kilat yang mengakibatkan Electro DMG pada musuh, dan meninggalkan Abundance Amulet pada musuh yang terkena.Awal-awal, maksimal 2 Abundance Amulet dapat dihasilkan. Dan saat skill dilancarkan, semua Abundance Amulet yang ada akan terkonsumsi.Abundance AmuletKarakter yang berada di sekitar Abundance Amulet akan menyerap Abundance Amulet dan memperoleh efek berikut:·Memulihkan Energy;·Meningkatkan Energy Recharge.Kamu dan Paimon sempat mendiskusikan semua jalur yang mungkin dialiri listrik.",
+        "th-th": "ปล่อยเงาสายฟ้าที่รวดเร็วออกมาสามเงา โดยเงาสายฟ้าจะสร้าง ความเสียหายไฟฟ้า แก่ศัตรู และทิ้ง Abundance Amulet ไว้หลังจากโจมตีถูกเป้าหมายในตอนแรกเริ่มจะสามารถทำให้เกิด Abundance Amulet ขึ้นได้มากสุด 2 อัน โดยหากใช้สกิลนี้อีกครั้ง จะเป็นการลบล้าง Abundance Amulet ที่ตนเองสร้างขึ้นมาก่อนหน้าAbundance Amuletเมื่อตัวละครเข้าใกล้ จะดูดซับ Abundance Amulet เพื่อรับเอฟเฟกต์ดังนี้:·ฟื้นฟูพลังงานธาตุ;·ภายในช่วงเวลาต่อเนื่อง จะเพิ่มประสิทธิภาพการฟื้นฟูพลังงาน.ครั้งหนึ่งเคยปรึกษากับ Paimon ถึงความเป็นไปได้ถึงเส้นทางการไหลของไฟฟ้า",
+        "vi-vn": "Chém ra ba đường lôi ảnh chớp nhoáng. Lôi ảnh sẽ gây cho địch sát thương Nguyên Tố Lôi, đồng thời khi đánh trúng địch sẽ để lại Khuyết Ngọc Dậy Sóng.Ban đầu sẽ sinh ra tối đa 2 Khuyết Ngọc Dậy Sóng. Khi thi triển kỹ năng sẽ xóa bỏ Khuyết Ngọc Dậy Sóng của bản thân.Khuyết Ngọc Dậy SóngKhi nhân vật đến gần sẽ hấp thụ Khuyết Ngọc Dậy Sóng, nhận hiệu quả sau đây:·Hồi Năng Lượng Nguyên Tố;·Trong thời gian duy trì, tăng hiệu suất Nạp Nguyên Tố.Thảo luận với Paimon về tất cả những con đường mà dòng điện có thể đi qua.",
+        "zh-tw": "斬出三道迅捷的雷影。雷影會對敵人造成雷元素傷害，並在命中敵人時留下豐穰勾玉。初始至多產生2枚豐穰勾玉。施放技能時，會清除自己產生的豐穰勾玉。豐穰勾玉角色接近時會吸收豐穰勾玉，獲得以下效果：·恢復元素能量。·在持續時間內，提高元素充能效率。和派蒙討論通電的所有可能路徑。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/旅行者(雷)/battle_talent_1/battle_talent_1.png"
+    },
+    {
+      "type": "elemental_burst",
+      "name": {
+        "pt-pt": "Rugido do Trovão",
+        "en-us": "Bellowing Thunder",
+        "ja-jp": "電光雷轟",
+        "zh-cn": "雷轰电转",
+        "ko-kr": "요동치는 우렛소리",
+        "ru-ru": "Раскаты грома",
+        "de-de": "Rollender Donner",
+        "fr-fr": "Tonnerre hurlant",
+        "es-es": "Estallido atronador",
+        "id-id": "Bellowing Thunder",
+        "th-th": "Bellowing Thunder",
+        "vi-vn": "Xung Điện Sấm Rền",
+        "zh-tw": "雷轟電轉"
+      },
+      "description": {
+        "pt-pt": "Você pode invocar a proteção do Revestimento de Relâmpago, afastando os inimigos ao redor e causando Dano Electro.Revestimento de RelâmpagoQuando o Ataque Normal ou Ataque Carregado do seu personagem em campo atinge o inimigo, irá ser invocado um Relâmpago Poderoso, causando Dano Electro ao inimigo.Quando o Relâmpago Poderoso atinge um inimigo, irá restaurar Energia Elemental para esse personagem.Um Relâmpago Poderoso pode ser ativado uma vez a cada 0.5s.Você e Paimon estudaram a luz que ilumina por entre as nuvens.",
+        "en-us": "You call upon the protection of lightning, knocking nearby opponents back and dealing Electro DMG to them.Lightning ShroudWhen your active character's Normal or Charged Attacks hit opponents, they will call Falling Thunder forth, dealing Electro DMG.When Falling Thunder hits opponents, it will regenerate Energy for that character.One instance of Falling Thunder can be generated every 0.5s.You and Paimon studied the light that flashes through the clouds.",
+        "ja-jp": "身に纏う雷霆を召喚し、加護を得る。周囲の敵をノックバックし、雷元素ダメージを与える。身に纏う雷霆出場している自身のキャラクターの通常攻撃または重撃が敵に命中すると、威光の落雷が発動し、敵に雷元素ダメージを与える。威光の落雷が敵に命中すると、該当キャラクターの元素エネルギーを回復する。威光の落雷の発生は0.5秒毎に1回のみ可能。パイモンと一緒に雲間に閃く光を研究した。",
+        "zh-cn": "唤来雷霆绕身的加护，击退周围的敌人并造成雷元素伤害。雷霆绕身当前场上自己角色的普通攻击或重击命中敌人时，会召唤威光落雷，对敌人造成雷元素伤害。威光落雷命中敌人时，会为该角色恢复元素能量。每0.5秒至多产生一次威光落雷。和派蒙一起研究过丛云间忽闪的光。",
+        "ko-kr": "휘감는 뇌정의 가호를 받아 주변의 적을 넉백시키고 번개 원소 피해를 준다.휘감는 뇌정현재 필드 위 자신의 캐릭터의 일반 공격 혹은 강공격이 적을 명중 하면, 위광의 낙뢰를 소환해 적에게 번개 원소 피해를 준다.위광의 낙뢰가 적을 명중하면, 해당 캐릭터의 원소 에너지가 회복된다.위광의 낙뢰는 0.5초마다 최대 1회 생성된다.페이몬과 함께 구름 사이로 번쩍이는 빛을 연구한 적이 있다",
+        "ru-ru": "Вы взываете к защите молнии, которая отбрасывает окружающих врагов и наносит им Электро урон.Завеса молнииКогда обычная или заряженная атака активного персонажа попадает по врагу, генерируется Нисходящий гром, который наносит Электро урон.Когда Нисходящий гром попадает по врагу, он восстанавливает энергию этого персонажа.Только один удар Нисходящего грома может генерироваться каждые 0,5 сек.Вы с Паймон изучали свет, что сверкает за тучами.",
+        "de-de": "Du beschwörst den Schutz der Blitze an deine Seite, stößt Gegner in der Umgebung zurück und verursachst Elektro-Schaden.BlitzgewandBeschwört beim Treffen von Gegnern mit Standardangriffen oder heftigen Schlägen der aktuellen eigenen Figur einen grellen Blitzschlag und fügt Gegnern Elektro-Schaden zu.Stellt beim Treffen von Gegnern mit grellen Blitzschlägen der jeweiligen Figur Elementarenergie wieder her.0,5 s Abklingzeit für grelle Blitzschläge.Du hast mit Paimon die Lichter untersucht, die durch die Wolken zischen.",
+        "fr-fr": "Vous invoquez la protection de la foudre, qui repousse les ennemis proches et leur inflige des DGT Électro.Voile de foudreLes attaques chargées ou normales du personnage déployé font pleuvoir la Foudre majestueuse lorsqu'elles touchent, qui inflige des DGT Électro.Lorsque la Foudre majestueuse touche un ennemi, elle fait récupérer de l'énergie élémentaire à ce personnage.Jusqu'à 1 Foudre majestueuse peut être déclenchée toutes les 0,5 s.Paimon et vous avez étudié la lumière qui traverse les nuages.",
+        "es-es": "Invocas el velo del relámpago para empujar e infligir Daño Electro a los enemigos a tu alrededor.Velo del relámpagoCuando tu personaje en uso golpea a un enemigo con sus Ataques Normales o Cargados, caerá un rayo temible que inflige Daño Electro.Al golpear al enemigo, el rayo hará que dicho personaje recupere Energía Elemental.Solo puede caer un rayo temible cada 0.5 s.Investigaste con Paimon los destellos de luz que se crean entre las nubes.",
+        "id-id": "Memanggil perlindungan petir, menghempas musuh di sekitar dan menyebabkan Electro DMG.Lightning ShroudJika Normal atau Charged Attack Karakter yang sedang aktif mengenai musuh, Falling Thunder akan terpicu dan mengakibatkan Electro DMG.Falling Thunder yang mengenai musuh akan memulihkan Energy Karakter yang bersangkutan.Satu Falling Thunder dapat terpicu setiap 0,5 detik.Kamu dan Paimon pernah mempelajari kilatan cahaya yang tiba-tiba menembus awan.",
+        "th-th": "เรียกการปกป้องของสายฟ้าออกมา เพื่อโจมตีศัตรูที่อยู่โดยรอบ สร้างความเสียหายไฟฟ้าLightning Shroudเมื่อตัวละครของตัวเองที่เข้าร่วมการต่อสู้ในขณะนั้นโจมตีปกติหรือชาร์จโจมตีถูกศัตรู จะเรียก Falling Thunder ออกมาสร้าง ความเสียหายไฟฟ้าแก่ศัตรูเมื่อ Falling Thunder ถูกศัตรู จะฟื้นฟูพลังงานธาตุ ให้แก่ตัวละครดังกล่าวสามารถเกิด Falling Thunder ได้มากสุดหนึ่งครั้ง ในทุก 0.5 วินาที.ครั้งหนึ่งเคยศึกษาร่วมกับ Paimon เกี่ยวกับประกายแสงท่ามกลางหมู่เมฆ",
+        "vi-vn": "Kêu gọi sự bảo vệ của sấm sét, đánh lui kẻ địch xung quanh và gây sát thương Nguyên Tố Lôi.Sấm Sét Bao VâyKhi tấn công thường hoặc trọng kích của nhân vật trong trận đánh trúng địch sẽ triệu hồi Sấm Sét Uy Vũ gây sát thương Nguyên Tố Lôi cho địch.Khi Sấm Sét Uy Vũ đánh trúng địch sẽ hồi Năng Lượng Nguyên Tố cho nhân vật này.Mỗi 0.5s tối đa sinh ra Sấm Sét Uy Vũ 1 lần.Cùng Paimon nghiên cứu về ánh sáng xuyên qua những đám mây.",
+        "zh-tw": "喚來雷霆繞身的加護，擊退周圍的敵人並造成雷元素傷害。雷霆繞身場上自己角色的普通攻擊或重擊命中敵人時，會召喚威光落雷，對敵人造成雷元素傷害。威光落雷命中敵人時，會為該角色恢復元素能量。每0.5秒至多產生一次威光落雷。和派蒙一起研究過叢雲間忽閃的光。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/旅行者(雷)/battle_talent_2/battle_talent_2.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Trovão Repentino",
+        "en-us": "Thunderflash",
+        "ja-jp": "転瞬の迅雷",
+        "zh-cn": "转瞬的迅雷",
+        "ko-kr": "찰나의 계뢰",
+        "ru-ru": "Вспышка молнии",
+        "de-de": "Aufleuchten des Donners",
+        "fr-fr": "Éclair soudain",
+        "es-es": "Trueno centelleante",
+        "id-id": "Thunderflash",
+        "th-th": "Thunderflash",
+        "vi-vn": "Tia Chớp",
+        "zh-tw": "轉瞬的迅雷"
+      },
+      "description": {
+        "pt-pt": "Quando um personagem próximo da equipe obtém um Amuleto da Abundância criado pela Lâmina Raikage, o tempo de recarga da Lâmina Raikage diminui 1,5s.",
+        "en-us": "When another nearby character in the party obtains an Abundance Amulet created by Lightning Blade, Lightning Blade's CD is decreased by 1.5s.",
+        "ja-jp": "周囲のチームメンバー（旅人自身を除く）が雷影剣で生成された豊穰の勾玉を拾うと、雷影剣のクールタイム-1.5秒。",
+        "zh-cn": "队伍中附近的其他角色获取雷影剑产生的丰穰勾玉时，雷影剑的冷却时间减少1.5秒。",
+        "ko-kr": "근처에 있는 파티 내 다른 캐릭터가 뇌영검으로 생성된 풍요의 곡옥을 획득하면, 뇌영검의 재사용 대기시간이 1.5초 감소한다",
+        "ru-ru": "Когда другой ближайший персонаж в отряде получает Амулет изобилия, созданный навыком Клинок молнии, время отката этого навыка уменьшается на 1,5 сек.",
+        "de-de": "Verkürzt beim Aufnehmen von Amuletten des Überflusses, die durch Blitzschattenschwert entstanden sind, durch andere Truppenmitglieder in der Nähe die Abklingzeit von Blitzschattenschwert um 1,5 s.",
+        "fr-fr": "Réduit de 1,5 s le TdR de Lame d'éclair lorsqu'un autre personnage proche absorbe l'amulette d'abondance générée par Lame d'éclair.",
+        "es-es": "Cuando otro personaje cercano del equipo absorbe un abalorio de la profusión creado mediante Espada electrosombría, el TdE de esta habilidad se reduce en 1.5 s.",
+        "id-id": "Saat Karakter party yang berada di sekitar menyerap Abundance Amulet yang tercipta dari Lightning Blade, maka CD Lightning Blade akan berkurang 1,5 detik.",
+        "th-th": "เมื่อตัวละครอื่นในทีมที่อยู่ในบริเวณใกล้เคียงได้รับ Abundance Amulet ที่สร้างขึ้นโดย Lightning Blade จะทำให้ช่วงเวลาคูลดาวน์ของ Lightning Blade ลดลง 1.5 วินาที",
+        "vi-vn": "Khi các nhân vật khác trong đội nhận Khuyết Ngọc Dậy Sóng do Lôi Ảnh Kiếm sinh ra, CD của Lôi Ảnh Kiếm sẽ giảm 1.5s.",
+        "zh-tw": "隊伍中附近的其他角色獲得雷影劍產生的豐穰勾玉時，雷影劍的冷卻時間減少1.5秒。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/旅行者(雷)/const_talent_0.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Rugido Estrondoso",
+        "en-us": "Resounding Roar",
+        "ja-jp": "轟く雷鳴",
+        "zh-cn": "回响的轰雷",
+        "ko-kr": "울려퍼지는 천둥",
+        "ru-ru": "Сокрушительный рокот",
+        "de-de": "Widerhallender Donner",
+        "fr-fr": "Tonnerre retentissant",
+        "es-es": "Relámpago resonante",
+        "id-id": "Resounding Roar",
+        "th-th": "Resounding Roar",
+        "vi-vn": "Sấm Rền",
+        "zh-tw": "迴響的轟雷"
+      },
+      "description": {
+        "pt-pt": "Aumenta a Recarga de Energia da Lâmina Raikage do Amuleto da Abundância em 10% com base na Recarga de Energia da/o Viajante.",
+        "en-us": "Increases the Energy Recharge effect granted by Lightning Blade's Abundance Amulet by 10% of the Traveler's Energy Recharge.",
+        "ja-jp": "旅人自身の元素チャージ効率の10%を基準に、雷影剣が生成した豊穰の勾玉による元素チャージ効率をアップする。",
+        "zh-cn": "基于旅行者自己元素充能效率的10%，提升雷影剑的丰穰勾玉提供的元素充能效率。",
+        "ko-kr": "뇌영검의 풍요의 곡옥이 제공하는 원소 충전 효율이 여행자 자신의 원소 충전 효율의 10%만큼 증가한다",
+        "ru-ru": "Увеличивает эффект восстановления энергии, даруемый Амулетом изобилия навыка Клинок молнии, на 10% от восстановления энергии путешественницы/ка.",
+        "de-de": "Erhöht den Aufladerateneffekt der Amulette des Überflusses von Blitzschattenschwert um 10 % der Aufladerate der/des Reisenden selbst.",
+        "fr-fr": "Confère un bonus supplémentaire de recharge d'énergie à l'amulette d'abondance générée par Lame d'éclair équivalant à 10 % de la recharge d'énergie du voyageur/de la voyageuse.",
+        "es-es": "Aumenta la Energía recargada por el abalorio de la profusión creado mediante Espada electrosombría en una cantidad proporcional al 10% de la Recarga de Energía de la viajera/del viajero.",
+        "id-id": "Bonus Energy Recharge dari Abundance Amulet yang dihasilkan Lightning Blade akan meningkat sebesar 10% dari Energy Recharge Pengembara.",
+        "th-th": "เพิ่มประสิทธิภาพการฟื้นฟูพลังงานที่ได้รับจาก Abundance Amulet ของ Lightning Blade โดยมีปริมาณเป็น 10% ของประสิทธิภาพการฟื้นฟูพลังงานของตัวนักเดินทางเอง",
+        "vi-vn": "Tăng hiệu quả Nạp Nguyên Tố do Khuyết Ngọc Dậy Sóng của Lôi Ảnh Kiếm cung cấp theo 10% hiệu quả Nạp Nguyên Tố của Nhà Lữ Hành.",
+        "zh-tw": "基於旅行者自己元素充能效率的10%，提升雷影劍的豐穰勾玉提供的元素充能效率。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/旅行者(雷)/const_talent_1.png"
+    }
+  ],
+  "talentAttributes": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Choque do Trovão Estrangeiro",
+        "en-us": "Foreign Thundershock",
+        "ja-jp": "通常攻撃・異邦の驚雷",
+        "zh-cn": "普通攻击·异邦惊雷",
+        "ko-kr": "일반 공격·이방의 번개",
+        "ru-ru": "Иноземный гром",
+        "de-de": "Standardangriff: Gewitter aus der Fremde",
+        "fr-fr": "Attaque normale : Tonnerre venu d'ailleurs",
+        "es-es": "Ataque Normal: Relámpago extranjero",
+        "id-id": "Normal Attack: Foreign Thundershock",
+        "th-th": "โจมตีปกติ - Foreign Thundershock",
+        "vi-vn": "Tấn Công Thường - Tiếng Sấm Dị Bang",
+        "zh-tw": "普通攻擊·異邦驚雷"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 1° Golpe",
+            "en-us": "1-Hit DMG",
+            "ja-jp": "1段ダメージ",
+            "zh-cn": "一段伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон атаки 1",
+            "de-de": "SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tahap 1",
+            "th-th": "ความเสียหายขั้น 1",
+            "vi-vn": "Sát Thương Lần 1",
+            "zh-tw": "一段傷害"
+          },
+          "values": [
+            "44.5%",
+            "48.1%",
+            "51.7%",
+            "56.9%",
+            "60.5%",
+            "64.6%",
+            "70.3%",
+            "76%",
+            "81.7%",
+            "87.9%",
+            "94.1%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 2° Golpe",
+            "en-us": "2-Hit DMG",
+            "ja-jp": "2段ダメージ",
+            "zh-cn": "二段伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон атаки 2",
+            "de-de": "SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2.º golpe",
+            "id-id": "DMG Tahap 2",
+            "th-th": "ความเสียหายขั้น 2",
+            "vi-vn": "Sát Thương Lần 2",
+            "zh-tw": "二段傷害"
+          },
+          "values": [
+            "43.4%",
+            "47%",
+            "50.5%",
+            "55.6%",
+            "59.1%",
+            "63.1%",
+            "68.7%",
+            "74.2%",
+            "79.8%",
+            "85.9%",
+            "91.9%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 3° Golpe",
+            "en-us": "3-Hit DMG",
+            "ja-jp": "3段ダメージ",
+            "zh-cn": "三段伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон атаки 3",
+            "de-de": "SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tahap 3",
+            "th-th": "ความเสียหายขั้น 3",
+            "vi-vn": "Sát Thương Lần 3",
+            "zh-tw": "三段傷害"
+          },
+          "values": [
+            "53%",
+            "57.3%",
+            "61.6%",
+            "67.8%",
+            "72.1%",
+            "77%",
+            "83.8%",
+            "90.6%",
+            "97.3%",
+            "104.7%",
+            "112.1%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 4° Golpe",
+            "en-us": "4-Hit DMG",
+            "ja-jp": "4段ダメージ",
+            "zh-cn": "四段伤害",
+            "ko-kr": "4단 공격 피해",
+            "ru-ru": "Урон атаки 4",
+            "de-de": "SCH Phase 4",
+            "fr-fr": "DGT 4e coup",
+            "es-es": "Daño de 4.º golpe",
+            "id-id": "DMG Tahap 4",
+            "th-th": "ความเสียหายขั้น 4",
+            "vi-vn": "Sát Thương Lần 4",
+            "zh-tw": "四段傷害"
+          },
+          "values": [
+            "58.3%",
+            "63.1%",
+            "67.8%",
+            "74.6%",
+            "79.3%",
+            "84.8%",
+            "92.2%",
+            "100%",
+            "107%",
+            "115%",
+            "123%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 5° Golpe",
+            "en-us": "5-Hit DMG",
+            "ja-jp": "5段ダメージ",
+            "zh-cn": "五段伤害",
+            "ko-kr": "5단 공격 피해",
+            "ru-ru": "Урон атаки 5",
+            "de-de": "SCH Phase 5",
+            "fr-fr": "DGT 5e coup",
+            "es-es": "Daño de 5.º golpe",
+            "id-id": "DMG Tahap 5",
+            "th-th": "ความเสียหายขั้น 5",
+            "vi-vn": "Sát Thương Lần 5",
+            "zh-tw": "五段傷害"
+          },
+          "values": [
+            "70.8%",
+            "76.5%",
+            "82.3%",
+            "90.5%",
+            "96.3%",
+            "106%",
+            "112%",
+            "121%",
+            "130%",
+            "140%",
+            "150%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Ataque Carregado",
+            "en-us": "Charged Attack DMG",
+            "ja-jp": "重撃ダメージ",
+            "zh-cn": "重击伤害",
+            "ko-kr": "강공격 피해",
+            "ru-ru": "Урон заряженной атаки",
+            "de-de": "SCH heftiger Schläge",
+            "fr-fr": "DGT attaque chargée",
+            "es-es": "Daño de ATQ Cargado",
+            "id-id": "DMG Charged Attack",
+            "th-th": "ความเสียหายชาร์จโจมตี",
+            "vi-vn": "Sát Thương Trọng Kích",
+            "zh-tw": "重擊傷害"
+          },
+          "values": [
+            "♀:  55.9%+72.2%<br/>♂:  55.9%+60.7%<br/>",
+            "♀: 60.5%+78.1%<br/>♂:  60.5%+65.7%<br/>",
+            "♀: 65.0%+84.0%<br/>♂:  65.0%+70.6%<br/>",
+            "♀: 71.5%+92.4%<br/>♂:  71.5%+77.7%<br/>",
+            "♀: 76.1%+98.3%<br/>♂:  76.1%+82.6%<br/>",
+            "♀: 81.3%+105%<br/>♂:  81.3%+88.3%<br/>",
+            "♀: 88.4%+114%<br/>♂:  88.4%+96.0%<br/>",
+            "♀: 96%+123%<br/>♂:  96%+104%<br/>",
+            "♀: 103%+133%<br/>♂:  103%+112%<br/>",
+            "♀: 111%+143%<br/>♂:  111%+120%<br/>",
+            "♀: 118%+153%<br/>♂:  118%+128%<br/>"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Consumo de Stamina de Ataque Carregado",
+            "en-us": "",
+            "ja-jp": "重撃スタミナ消費",
+            "zh-cn": "重击体力消耗",
+            "ko-kr": "강공격 스태미나 소모",
+            "ru-ru": "Потребление выносливости",
+            "de-de": "Ausdauerverbrauch heftiger Schläge",
+            "fr-fr": "Coût d'endurance attaque chargée",
+            "es-es": "Coste de Aguante de ATQ Cargado",
+            "id-id": "Konsumsi Stamina Charged Attack",
+            "th-th": "ชาร์จโจมตีใช้พลังกาย",
+            "vi-vn": "Thể lực Trọng Kích tiêu hao",
+            "zh-tw": "重擊體力消耗"
+          },
+          "values": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Durante a Queda",
+            "en-us": "Charged Attack Stamina Cost",
+            "ja-jp": "落下期間のダメージ",
+            "zh-cn": "下坠期间伤害",
+            "ko-kr": "낙하 기간 피해",
+            "ru-ru": "Урон в падении",
+            "de-de": "SCH beim Fallen",
+            "fr-fr": "DGT durant la chute",
+            "es-es": "Daño de Caída",
+            "id-id": "DMG Selama Plunging",
+            "th-th": "ความเสียหายพุ่งลง",
+            "vi-vn": "Sát Thương Khi Đáp",
+            "zh-tw": "下墜期間傷害"
+          },
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87%",
+            "92.9%",
+            "101%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Queda de Baixa/Alta Altitude",
+            "en-us": "Plunge DMG",
+            "ja-jp": "低空/高空落下攻撃ダメージ",
+            "zh-cn": "低空/高空坠地冲击伤害",
+            "ko-kr": "저공/고공 추락 충격 피해",
+            "ru-ru": "Урон низкого/высокого удара",
+            "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
+            "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Daño de impacto de caída baja/alta",
+            "id-id": "DMG Plunging Attack Min./Maks.",
+            "th-th": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+            "vi-vn": "ST Khi Rơi Từ Độ Cao Thấp/Cao",
+            "zh-tw": "低空/高空墜地衝擊傷害"
+          },
+          "values": [
+            "128%/160%",
+            "138%/173%",
+            "149%/186%",
+            "164%/204%",
+            "174%/217%",
+            "186%/232%",
+            "202%/253%",
+            "219%/273%",
+            "235%/293%",
+            "253%/316%",
+            "271%/338%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_skill",
+      "talentName": {
+        "pt-pt": "Lâmina Raikage",
+        "en-us": "Lightning Blade",
+        "ja-jp": "雷影剣",
+        "zh-cn": "雷影剑",
+        "ko-kr": "뇌영검",
+        "ru-ru": "Клинок молнии",
+        "de-de": "Blitzschattenschwert",
+        "fr-fr": "Lame d'éclair",
+        "es-es": "Espada electrosombría",
+        "id-id": "Lightning Blade",
+        "th-th": "Lightning Blade",
+        "vi-vn": "Lôi Ảnh Kiếm",
+        "zh-tw": "雷影劍"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Habilidade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "78.7%",
+            "84.6%",
+            "90.5%",
+            "98.3%",
+            "104.2%",
+            "110.1%",
+            "118%",
+            "125.9%",
+            "133.7%",
+            "141.6%",
+            "149.5%",
+            "157%",
+            "167%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Regeneração de Energia Elemental",
+            "en-us": "Energy Regeneration",
+            "ja-jp": "元素エネルギー回復",
+            "zh-cn": "元素能量恢复",
+            "ko-kr": "원소 에너지 회복",
+            "ru-ru": "Восстановление энергии",
+            "de-de": "Elementarenergie-Wiederherstellung",
+            "fr-fr": "Restauration énergie élémentaire",
+            "es-es": "Energía Elemental regenerada",
+            "id-id": "Pemulihan Energy",
+            "th-th": "ฟื้นฟูพลังงานธาตุ",
+            "vi-vn": "Hồi Phục Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量恢復"
+          },
+          "values": [
+            "Por 3 Amuleto",
+            "Por 3 Amuleto",
+            "Por 3 Amuleto",
+            "Por 3 Amuleto",
+            "Por 3 Amuleto",
+            "Por 3 Amuleto",
+            "Por 3 Amuleto",
+            "Por 3 Amuleto",
+            "Por 3 Amuleto",
+            "Por 3 Amuleto",
+            "Por 3 Amuleto",
+            "Por 3 Amuleto",
+            "Por 3 Amuleto"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Aumento de Recarga de Energia",
+            "en-us": "Energy Recharge Increase",
+            "ja-jp": "元素チャージ効率アップ",
+            "zh-cn": "元素充能效率提升",
+            "ko-kr": "원소 충전 효율 증가",
+            "ru-ru": "Увеличение восст. энергии",
+            "de-de": "Aufladeratenbonus",
+            "fr-fr": "Bonus recharge d'énergie",
+            "es-es": "Aumento de Rec. de Energía",
+            "id-id": "Peningkatan Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงานเพิ่มขึ้น",
+            "vi-vn": "Tăng Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率提升"
+          },
+          "values": [
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%",
+            "20%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração",
+            "en-us": "Duration",
+            "ja-jp": "継続時間",
+            "zh-cn": "持续时间",
+            "ko-kr": "지속 시간",
+            "ru-ru": "Длительность",
+            "de-de": "Dauer",
+            "fr-fr": "Durée",
+            "es-es": "Duración",
+            "id-id": "Durasi",
+            "th-th": "ระยะเวลาต่อเนื่อง",
+            "vi-vn": "Thời Gian Kéo Dài",
+            "zh-tw": "持續時間"
+          },
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração de Amuleto da Abundância",
+            "en-us": "Abundance Amulet Duration",
+            "ja-jp": "豊穰の勾玉の存在時間",
+            "zh-cn": "丰穰勾玉存在时间",
+            "ko-kr": "풍요의 곡옥 유지 시간",
+            "ru-ru": "Длительность Амулета изобилия",
+            "de-de": "Vorhandensein von Amuletten des Überflusses",
+            "fr-fr": "Durée d'amulette d'abondance",
+            "es-es": "Duración del abalorio de la profusión",
+            "id-id": "Durasi Abundance Amulet",
+            "th-th": "ระยะเวลาของ Abundance Amulet",
+            "vi-vn": "Thời Gian Khuyết Ngọc Dậy Sóng Tồn Tại",
+            "zh-tw": "豐穰勾玉存續時間"
+          },
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s",
+            "13.5s"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_burst",
+      "talentName": {
+        "pt-pt": "Rugido do Trovão",
+        "en-us": "Bellowing Thunder",
+        "ja-jp": "電光雷轟",
+        "zh-cn": "雷轰电转",
+        "ko-kr": "요동치는 우렛소리",
+        "ru-ru": "Раскаты грома",
+        "de-de": "Rollender Donner",
+        "fr-fr": "Tonnerre hurlant",
+        "es-es": "Estallido atronador",
+        "id-id": "Bellowing Thunder",
+        "th-th": "Bellowing Thunder",
+        "vi-vn": "Xung Điện Sấm Rền",
+        "zh-tw": "雷轟電轉"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Habilidade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "114.4%",
+            "123%",
+            "131.6%",
+            "143%",
+            "151.6%",
+            "160.2%",
+            "171.6%",
+            "183%",
+            "194.5%",
+            "205.9%",
+            "217.4%",
+            "228.8%",
+            "243.1%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do Relâmpago Poderoso",
+            "en-us": "Falling Thunder DMG",
+            "ja-jp": "威光の落雷ダメージ",
+            "zh-cn": "威光落雷伤害",
+            "ko-kr": "위광의 낙뢰 피해",
+            "ru-ru": "Урон Нисходящего грома",
+            "de-de": "SCH greller Blitzschläge",
+            "fr-fr": "DGT Foudre majestueuse",
+            "es-es": "Daño de rayo temible",
+            "id-id": "DMG Falling Thunder",
+            "th-th": "ความเสียหายของ Falling Thunder",
+            "vi-vn": "Sát thương Sấm Sét Uy Vũ",
+            "zh-tw": "威光落雷傷害"
+          },
+          "values": [
+            "32.8%",
+            "35.3%",
+            "37.7%",
+            "41%",
+            "43.5%",
+            "45.9%",
+            "49.2%",
+            "52.5%",
+            "55.8%",
+            "59%",
+            "62.3%",
+            "65.6%",
+            "69.7%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Regeneração de Energia Elemental",
+            "en-us": "Energy Regeneration",
+            "ja-jp": "元素エネルギー回復",
+            "zh-cn": "元素能量恢复",
+            "ko-kr": "원소 에너지 회복",
+            "ru-ru": "Восстановление энергии",
+            "de-de": "Elementarenergie-Wiederherstellung",
+            "fr-fr": "Restauration énergie élémentaire",
+            "es-es": "Energía Elemental regenerada",
+            "id-id": "Pemulihan Energy",
+            "th-th": "ฟื้นฟูพลังงานธาตุ",
+            "vi-vn": "Hồi Phục Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量恢復"
+          },
+          "values": [
+            "0.8",
+            "0.8",
+            "0.8",
+            "0.9",
+            "0.9",
+            "0.9",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração",
+            "en-us": "Duration",
+            "ja-jp": "継続時間",
+            "zh-cn": "持续时间",
+            "ko-kr": "지속 시간",
+            "ru-ru": "Длительность",
+            "de-de": "Dauer",
+            "fr-fr": "Durée",
+            "es-es": "Duración",
+            "id-id": "Durasi",
+            "th-th": "ระยะเวลาต่อเนื่อง",
+            "vi-vn": "Thời Gian Kéo Dài",
+            "zh-tw": "持續時間"
+          },
+          "values": [
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "12s",
+            "15s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s",
+            "20s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Energia Elemental",
+            "en-us": "Energy Cost",
+            "ja-jp": "元素エネルギー",
+            "zh-cn": "元素能量",
+            "ko-kr": "원소 에너지",
+            "ru-ru": "Потребление энергии",
+            "de-de": "Elementarenergie",
+            "fr-fr": "Énergie élémentaire",
+            "es-es": "Energía Elemental",
+            "id-id": "Konsumsi Energy",
+            "th-th": "พลังงานธาตุ",
+            "vi-vn": "Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量"
+          },
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "talentMaterials": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Choque do Trovão Estrangeiro",
+        "en-us": "Foreign Thundershock",
+        "ja-jp": "通常攻撃・異邦の驚雷",
+        "zh-cn": "普通攻击·异邦惊雷",
+        "ko-kr": "일반 공격·이방의 번개",
+        "ru-ru": "Иноземный гром",
+        "de-de": "Standardangriff: Gewitter aus der Fremde",
+        "fr-fr": "Attaque normale : Tonnerre venu d'ailleurs",
+        "es-es": "Ataque Normal: Relámpago extranjero",
+        "id-id": "Normal Attack: Foreign Thundershock",
+        "th-th": "โจมตีปกติ - Foreign Thundershock",
+        "vi-vn": "Tấn Công Thường - Tiếng Sấm Dị Bang",
+        "zh-tw": "普通攻擊·異邦驚雷"
+      },
+      "materials": [
+        {
+          "level": 2,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 12500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "124",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Ensinamentos do Mundo Mortal",
+                "en-us": "Teachings of Transience",
+                "ja-jp": "浮世の教え",
+                "zh-cn": "浮世的教导",
+                "ko-kr": "부세의 가르침",
+                "ru-ru": "Учения о Бренности",
+                "de-de": "Lehren der Vergänglichkeit",
+                "fr-fr": "Enseignement de l'Éphémère",
+                "es-es": "Enseñanzas de la transitoriedad",
+                "id-id": "Teachings of Transience",
+                "th-th": "Teachings of Transience",
+                "vi-vn": "Bài Giảng Của Phù Thế",
+                "zh-tw": "浮世的教導"
+              }
+            },
+            {
+              "id": "1248",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Protetor de Mão Velho",
+                "en-us": "Old Handguard",
+                "ja-jp": "古びた鍔",
+                "zh-cn": "破旧的刀镡",
+                "ko-kr": "오래된 코등이",
+                "ru-ru": "Старая гарда",
+                "de-de": "Alter Handschutz",
+                "fr-fr": "Garde-main ancien",
+                "es-es": "Guardamano viejo",
+                "id-id": "Old Handguard",
+                "th-th": "Old Handguard",
+                "vi-vn": "Kiếm Cách Cũ Nát",
+                "zh-tw": "破舊的刀鐔"
+              }
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 17500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "194",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Guia da Cultura",
+                "en-us": "Guide to Elegance",
+                "ja-jp": "風雅の導き",
+                "zh-cn": "风雅的指引",
+                "ko-kr": "풍아의 인도",
+                "ru-ru": "Указания об Изяществе",
+                "de-de": "Anleitung zur Eleganz",
+                "fr-fr": "Guide de l'Élégance",
+                "es-es": "Guía de la elegancia",
+                "id-id": "Guide to Elegance",
+                "th-th": "Guide to Elegance",
+                "vi-vn": "Hướng Dẫn Của Nhã Nhặn",
+                "zh-tw": "風雅的指引"
+              }
+            },
+            {
+              "id": "711",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Protetor de Mão Kageuchi",
+                "en-us": "Kageuchi Handguard",
+                "ja-jp": "影打の鍔",
+                "zh-cn": "影打刀镡",
+                "ko-kr": "카게우치 코등이",
+                "ru-ru": "Гарда кагэути",
+                "de-de": "Kageuchi-Handschutz",
+                "fr-fr": "Garde-main kageuchi",
+                "es-es": "Guardamano gemelo",
+                "id-id": "Kageuchi Handguard",
+                "th-th": "Kageuchi Handguard",
+                "vi-vn": "Kiếm Cách Bản Sao",
+                "zh-tw": "影打刀鐔"
+              }
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 25000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "91",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Guia da Luz Celeste",
+                "en-us": "Guide to Light",
+                "ja-jp": "天光の導き",
+                "zh-cn": "天光的指引",
+                "ko-kr": "천광의 인도",
+                "ru-ru": "Указания о Свете",
+                "de-de": "Anleitung zum Licht",
+                "fr-fr": "Guide de la Lumière",
+                "es-es": "Guía de la luz",
+                "id-id": "Guide to Light",
+                "th-th": "Guide to Light",
+                "vi-vn": "Hướng Dẫn Của Ánh Sáng",
+                "zh-tw": "天光的指引"
+              }
+            },
+            {
+              "id": "711",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Protetor de Mão Kageuchi",
+                "en-us": "Kageuchi Handguard",
+                "ja-jp": "影打の鍔",
+                "zh-cn": "影打刀镡",
+                "ko-kr": "카게우치 코등이",
+                "ru-ru": "Гарда кагэути",
+                "de-de": "Kageuchi-Handschutz",
+                "fr-fr": "Garde-main kageuchi",
+                "es-es": "Guardamano gemelo",
+                "id-id": "Kageuchi Handguard",
+                "th-th": "Kageuchi Handguard",
+                "vi-vn": "Kiếm Cách Bản Sao",
+                "zh-tw": "影打刀鐔"
+              }
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 30000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "123",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Guia do Mundo Mortal",
+                "en-us": "Guide to Transience",
+                "ja-jp": "浮世の導き",
+                "zh-cn": "浮世的指引",
+                "ko-kr": "부세의 인도",
+                "ru-ru": "Указания о Бренности",
+                "de-de": "Anleitung zur Vergänglichkeit",
+                "fr-fr": "Guide de l'Éphémère",
+                "es-es": "Guía de la transitoriedad",
+                "id-id": "Guide to Transience",
+                "th-th": "Guide to Transience",
+                "vi-vn": "Hướng Dẫn Của Phù Thế",
+                "zh-tw": "浮世的指引"
+              }
+            },
+            {
+              "id": "711",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Protetor de Mão Kageuchi",
+                "en-us": "Kageuchi Handguard",
+                "ja-jp": "影打の鍔",
+                "zh-cn": "影打刀镡",
+                "ko-kr": "카게우치 코등이",
+                "ru-ru": "Гарда кагэути",
+                "de-de": "Kageuchi-Handschutz",
+                "fr-fr": "Garde-main kageuchi",
+                "es-es": "Guardamano gemelo",
+                "id-id": "Kageuchi Handguard",
+                "th-th": "Kageuchi Handguard",
+                "vi-vn": "Kiếm Cách Bản Sao",
+                "zh-tw": "影打刀鐔"
+              }
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 30000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "194",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Guia da Cultura",
+                "en-us": "Guide to Elegance",
+                "ja-jp": "風雅の導き",
+                "zh-cn": "风雅的指引",
+                "ko-kr": "풍아의 인도",
+                "ru-ru": "Указания об Изяществе",
+                "de-de": "Anleitung zur Eleganz",
+                "fr-fr": "Guide de l'Élégance",
+                "es-es": "Guía de la elegancia",
+                "id-id": "Guide to Elegance",
+                "th-th": "Guide to Elegance",
+                "vi-vn": "Hướng Dẫn Của Nhã Nhặn",
+                "zh-tw": "風雅的指引"
+              }
+            },
+            {
+              "id": "711",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Protetor de Mão Kageuchi",
+                "en-us": "Kageuchi Handguard",
+                "ja-jp": "影打の鍔",
+                "zh-cn": "影打刀镡",
+                "ko-kr": "카게우치 코등이",
+                "ru-ru": "Гарда кагэути",
+                "de-de": "Kageuchi-Handschutz",
+                "fr-fr": "Garde-main kageuchi",
+                "es-es": "Guardamano gemelo",
+                "id-id": "Kageuchi Handguard",
+                "th-th": "Kageuchi Handguard",
+                "vi-vn": "Kiếm Cách Bản Sao",
+                "zh-tw": "影打刀鐔"
+              }
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 37500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "90",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Filosofia da Luz Celeste",
+                "en-us": "Philosophies of Light",
+                "ja-jp": "天光の哲学",
+                "zh-cn": "天光的哲学",
+                "ko-kr": "천광의 철학",
+                "ru-ru": "Философия о Свете",
+                "de-de": "Philosophie des Lichts",
+                "fr-fr": "Philosophie de la Lumière",
+                "es-es": "Filosofía de la luz",
+                "id-id": "Philosophies of Light",
+                "th-th": "Philosophies of Light",
+                "vi-vn": "Triết Học Của Ánh Sáng",
+                "zh-tw": "天光的哲學"
+              }
+            },
+            {
+              "id": "400",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Protetor de Mão Famoso",
+                "en-us": "Famed Handguard",
+                "ja-jp": "名刀の鍔",
+                "zh-cn": "名刀镡",
+                "ko-kr": "명검 코등이",
+                "ru-ru": "Прославленная гарда",
+                "de-de": "Berühmter Handschutz",
+                "fr-fr": "Garde-main célèbre",
+                "es-es": "Guardamano célebre",
+                "id-id": "Famed Handguard",
+                "th-th": "Famed Handguard",
+                "vi-vn": "Kiếm Cách Trứ Danh",
+                "zh-tw": "名刀鐔"
+              }
+            },
+            {
+              "id": "1927",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa do Senhor dos Dragões",
+                "en-us": "Dragon Lord's Crown",
+                "ja-jp": "龍王の冠",
+                "zh-cn": "龙王之冕",
+                "ko-kr": "용왕의 면류관",
+                "ru-ru": "Корона лорда драконов",
+                "de-de": "Horn des Drachenkönigs",
+                "fr-fr": "Couronne du roi dragon",
+                "es-es": "Corona del rey dragón",
+                "id-id": "Dragon Lord's Crown",
+                "th-th": "Dragon Lord's Crown",
+                "vi-vn": "Vương Miện Vua Rồng",
+                "zh-tw": "龍王之冕"
+              }
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 120000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "122",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Filosofia do Mundo Mortal",
+                "en-us": "Philosophies of Transience",
+                "ja-jp": "浮世の哲学",
+                "zh-cn": "浮世的哲学",
+                "ko-kr": "부세의 철학",
+                "ru-ru": "Философия о Бренности",
+                "de-de": "Philosophie der Vergänglichkeit",
+                "fr-fr": "Philosophie de l'Éphémère",
+                "es-es": "Filosofía de la transitoriedad",
+                "id-id": "Philosophies of Transience",
+                "th-th": "Philosophies of Transience",
+                "vi-vn": "Triết Học Của Phù Thế",
+                "zh-tw": "浮世的哲學"
+              }
+            },
+            {
+              "id": "400",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Protetor de Mão Famoso",
+                "en-us": "Famed Handguard",
+                "ja-jp": "名刀の鍔",
+                "zh-cn": "名刀镡",
+                "ko-kr": "명검 코등이",
+                "ru-ru": "Прославленная гарда",
+                "de-de": "Berühmter Handschutz",
+                "fr-fr": "Garde-main célèbre",
+                "es-es": "Guardamano célebre",
+                "id-id": "Famed Handguard",
+                "th-th": "Famed Handguard",
+                "vi-vn": "Kiếm Cách Trứ Danh",
+                "zh-tw": "名刀鐔"
+              }
+            },
+            {
+              "id": "1927",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa do Senhor dos Dragões",
+                "en-us": "Dragon Lord's Crown",
+                "ja-jp": "龍王の冠",
+                "zh-cn": "龙王之冕",
+                "ko-kr": "용왕의 면류관",
+                "ru-ru": "Корона лорда драконов",
+                "de-de": "Horn des Drachenkönigs",
+                "fr-fr": "Couronne du roi dragon",
+                "es-es": "Corona del rey dragón",
+                "id-id": "Dragon Lord's Crown",
+                "th-th": "Dragon Lord's Crown",
+                "vi-vn": "Vương Miện Vua Rồng",
+                "zh-tw": "龍王之冕"
+              }
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 260000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "193",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Filosofia da Cultura",
+                "en-us": "Philosophies of Elegance",
+                "ja-jp": "風雅の哲学",
+                "zh-cn": "风雅的哲学",
+                "ko-kr": "풍아의 철학",
+                "ru-ru": "Философия об Изяществе",
+                "de-de": "Philosophie der Eleganz",
+                "fr-fr": "Philosophie de l'Élégance",
+                "es-es": "Filosofía de la elegancia",
+                "id-id": "Philosophies of Elegance",
+                "th-th": "Philosophies of Elegance",
+                "vi-vn": "Triết Học Của Nhã Nhặn",
+                "zh-tw": "風雅的哲學"
+              }
+            },
+            {
+              "id": "400",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Protetor de Mão Famoso",
+                "en-us": "Famed Handguard",
+                "ja-jp": "名刀の鍔",
+                "zh-cn": "名刀镡",
+                "ko-kr": "명검 코등이",
+                "ru-ru": "Прославленная гарда",
+                "de-de": "Berühmter Handschutz",
+                "fr-fr": "Garde-main célèbre",
+                "es-es": "Guardamano célebre",
+                "id-id": "Famed Handguard",
+                "th-th": "Famed Handguard",
+                "vi-vn": "Kiếm Cách Trứ Danh",
+                "zh-tw": "名刀鐔"
+              }
+            },
+            {
+              "id": "1927",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Coroa do Senhor dos Dragões",
+                "en-us": "Dragon Lord's Crown",
+                "ja-jp": "龍王の冠",
+                "zh-cn": "龙王之冕",
+                "ko-kr": "용왕의 면류관",
+                "ru-ru": "Корона лорда драконов",
+                "de-de": "Horn des Drachenkönigs",
+                "fr-fr": "Couronne du roi dragon",
+                "es-es": "Corona del rey dragón",
+                "id-id": "Dragon Lord's Crown",
+                "th-th": "Dragon Lord's Crown",
+                "vi-vn": "Vương Miện Vua Rồng",
+                "zh-tw": "龍王之冕"
+              }
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 700000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "90",
+              "iconUrl": null,
+              "amount": 16,
+              "name": {
+                "pt-pt": "Filosofia da Luz Celeste",
+                "en-us": "Philosophies of Light",
+                "ja-jp": "天光の哲学",
+                "zh-cn": "天光的哲学",
+                "ko-kr": "천광의 철학",
+                "ru-ru": "Философия о Свете",
+                "de-de": "Philosophie des Lichts",
+                "fr-fr": "Philosophie de la Lumière",
+                "es-es": "Filosofía de la luz",
+                "id-id": "Philosophies of Light",
+                "th-th": "Philosophies of Light",
+                "vi-vn": "Triết Học Của Ánh Sáng",
+                "zh-tw": "天光的哲學"
+              }
+            },
+            {
+              "id": "400",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Protetor de Mão Famoso",
+                "en-us": "Famed Handguard",
+                "ja-jp": "名刀の鍔",
+                "zh-cn": "名刀镡",
+                "ko-kr": "명검 코등이",
+                "ru-ru": "Прославленная гарда",
+                "de-de": "Berühmter Handschutz",
+                "fr-fr": "Garde-main célèbre",
+                "es-es": "Guardamano célebre",
+                "id-id": "Famed Handguard",
+                "th-th": "Famed Handguard",
+                "vi-vn": "Kiếm Cách Trứ Danh",
+                "zh-tw": "名刀鐔"
+              }
+            },
+            {
+              "id": "1927",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Coroa do Senhor dos Dragões",
+                "en-us": "Dragon Lord's Crown",
+                "ja-jp": "龍王の冠",
+                "zh-cn": "龙王之冕",
+                "ko-kr": "용왕의 면류관",
+                "ru-ru": "Корона лорда драконов",
+                "de-de": "Horn des Drachenkönigs",
+                "fr-fr": "Couronne du roi dragon",
+                "es-es": "Corona del rey dragón",
+                "id-id": "Dragon Lord's Crown",
+                "th-th": "Dragon Lord's Crown",
+                "vi-vn": "Vương Miện Vua Rồng",
+                "zh-tw": "龍王之冕"
+              }
+            },
+            {
+              "id": "900",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa da Sabedoria",
+                "en-us": "Crown of Insight",
+                "ja-jp": "知恵の冠",
+                "zh-cn": "智识之冕",
+                "ko-kr": "지식의 왕관",
+                "ru-ru": "Корона прозрения",
+                "de-de": "Krone der Weisheit",
+                "fr-fr": "Couronne de la sagesse",
+                "es-es": "Corona de la sabiduría",
+                "id-id": "Crown of Insight",
+                "th-th": "Crown of Insight",
+                "vi-vn": "Vương Miện Trí Thức",
+                "zh-tw": "智識之冕"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "affiliation": {
+    "pt-pt": "——",
+    "en-us": "-",
+    "ja-jp": "——",
+    "zh-cn": "——",
+    "ko-kr": "——",
+    "ru-ru": "-",
+    "de-de": "-",
+    "fr-fr": "——",
+    "es-es": "—",
+    "id-id": "—",
+    "th-th": "—",
+    "vi-vn": "-",
+    "zh-tw": "——"
+  },
+  "birthday": {
+    "en-us": "-",
+    "de-de": "-",
+    "vi-vn": "-",
+    "pt-pt": "N/A",
+    "ja-jp": "N/A",
+    "zh-cn": "N/A",
+    "ko-kr": "N/A",
+    "ru-ru": "N/A",
+    "fr-fr": "N/A",
+    "es-es": "N/A",
+    "id-id": "N/A",
+    "th-th": "N/A",
+    "zh-tw": "N/A"
+  },
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1189",
+          "iconUrl": null,
+          "amount": 1,
+          "name": {
+            "pt-pt": "Lasca de Diamante Brilhante",
+            "en-us": "Brilliant Diamond Sliver",
+            "ja-jp": "輝くダイヤ・砕屑",
+            "zh-cn": "璀璨原钻碎屑",
+            "ko-kr": "휘황찬란한 다이아몬드 파편",
+            "ru-ru": "Осколок бриллианта",
+            "de-de": "Brillantsplitter",
+            "fr-fr": "Éclat de diamant scintillant",
+            "es-es": "Pedacito de diamante brillante",
+            "id-id": "Brilliant Diamond Sliver",
+            "th-th": "Brilliant Diamond Sliver",
+            "vi-vn": "Vụn Kim Cương Bạc",
+            "zh-tw": "璀璨原鑽碎屑"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "1247",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Máscara Danificada",
+            "en-us": "Damaged Mask",
+            "ja-jp": "破損した仮面",
+            "zh-cn": "破损的面具",
+            "ko-kr": "부서진 가면",
+            "ru-ru": "Разбитая маска",
+            "de-de": "Zerbrochene Maske",
+            "fr-fr": "Masque endommagé",
+            "es-es": "Máscara dañada",
+            "id-id": "Damaged Mask",
+            "th-th": "Damaged Mask",
+            "vi-vn": "Mặt Nạ Vỡ",
+            "zh-tw": "破損的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 40000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1188",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Diamante Brilhante",
+            "en-us": "Brilliant Diamond Fragment",
+            "ja-jp": "輝くダイヤ・欠片",
+            "zh-cn": "璀璨原钻断片",
+            "ko-kr": "휘황찬란한 다이아몬드 단편",
+            "ru-ru": "Фрагмент бриллианта",
+            "de-de": "Brillantbruchstück",
+            "fr-fr": "Fragment de diamant scintillant",
+            "es-es": "Trozo de diamante brillante",
+            "id-id": "Brilliant Diamond Fragment",
+            "th-th": "Brilliant Diamond Fragment",
+            "vi-vn": "Mảnh Kim Cương Bạc",
+            "zh-tw": "璀璨原鑽斷片"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 10,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "1247",
+          "iconUrl": null,
+          "amount": 15,
+          "name": {
+            "pt-pt": "Máscara Danificada",
+            "en-us": "Damaged Mask",
+            "ja-jp": "破損した仮面",
+            "zh-cn": "破损的面具",
+            "ko-kr": "부서진 가면",
+            "ru-ru": "Разбитая маска",
+            "de-de": "Zerbrochene Maske",
+            "fr-fr": "Masque endommagé",
+            "es-es": "Máscara dañada",
+            "id-id": "Damaged Mask",
+            "th-th": "Damaged Mask",
+            "vi-vn": "Mặt Nạ Vỡ",
+            "zh-tw": "破損的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 60000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1188",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Diamante Brilhante",
+            "en-us": "Brilliant Diamond Fragment",
+            "ja-jp": "輝くダイヤ・欠片",
+            "zh-cn": "璀璨原钻断片",
+            "ko-kr": "휘황찬란한 다이아몬드 단편",
+            "ru-ru": "Фрагмент бриллианта",
+            "de-de": "Brillantbruchstück",
+            "fr-fr": "Fragment de diamant scintillant",
+            "es-es": "Trozo de diamante brillante",
+            "id-id": "Brilliant Diamond Fragment",
+            "th-th": "Brilliant Diamond Fragment",
+            "vi-vn": "Mảnh Kim Cương Bạc",
+            "zh-tw": "璀璨原鑽斷片"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "983",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Máscara Suja",
+            "en-us": "Stained Mask",
+            "ja-jp": "汚れた仮面",
+            "zh-cn": "污秽的面具",
+            "ko-kr": "오염된 가면",
+            "ru-ru": "Грязная маска",
+            "de-de": "Verdreckte Maske",
+            "fr-fr": "Masque sale",
+            "es-es": "Máscara sucia",
+            "id-id": "Stained Mask",
+            "th-th": "Stained Mask",
+            "vi-vn": "Mặt Nạ Bẩn",
+            "zh-tw": "汙穢的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 80000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1187",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Diamante Brilhante",
+            "en-us": "Brilliant Diamond Chunk",
+            "ja-jp": "輝くダイヤ・塊",
+            "zh-cn": "璀璨原钻块",
+            "ko-kr": "휘황찬란한 다이아몬드 덩어리",
+            "ru-ru": "Кусок бриллианта",
+            "de-de": "Brillantbrocken",
+            "fr-fr": "Morceau de diamant scintillant",
+            "es-es": "Fragmento de diamante brillante",
+            "id-id": "Brilliant Diamond Chunk",
+            "th-th": "Brilliant Diamond Chunk",
+            "vi-vn": "Miếng Kim Cương Bạc",
+            "zh-tw": "璀璨原鑽塊"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 30,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "983",
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Máscara Suja",
+            "en-us": "Stained Mask",
+            "ja-jp": "汚れた仮面",
+            "zh-cn": "污秽的面具",
+            "ko-kr": "오염된 가면",
+            "ru-ru": "Грязная маска",
+            "de-de": "Verdreckte Maske",
+            "fr-fr": "Masque sale",
+            "es-es": "Máscara sucia",
+            "id-id": "Stained Mask",
+            "th-th": "Stained Mask",
+            "vi-vn": "Mặt Nạ Bẩn",
+            "zh-tw": "汙穢的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 100000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1187",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Diamante Brilhante",
+            "en-us": "Brilliant Diamond Chunk",
+            "ja-jp": "輝くダイヤ・塊",
+            "zh-cn": "璀璨原钻块",
+            "ko-kr": "휘황찬란한 다이아몬드 덩어리",
+            "ru-ru": "Кусок бриллианта",
+            "de-de": "Brillantbrocken",
+            "fr-fr": "Morceau de diamant scintillant",
+            "es-es": "Fragmento de diamante brillante",
+            "id-id": "Brilliant Diamond Chunk",
+            "th-th": "Brilliant Diamond Chunk",
+            "vi-vn": "Miếng Kim Cương Bạc",
+            "zh-tw": "璀璨原鑽塊"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 45,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "220",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Máscara Ominosa",
+            "en-us": "Ominous Mask",
+            "ja-jp": "不吉な仮面",
+            "zh-cn": "不祥的面具",
+            "ko-kr": "불길한 가면",
+            "ru-ru": "Зловещая маска",
+            "de-de": "Unheilvolle Maske",
+            "fr-fr": "Masque sinistre",
+            "es-es": "Máscara amenazante",
+            "id-id": "Ominous Mask",
+            "th-th": "Ominous Mask",
+            "vi-vn": "Mặt Nạ Xui Xẻo",
+            "zh-tw": "不祥的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 120000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1186",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Gema de Diamante Brilhante",
+            "en-us": "Brilliant Diamond Gemstone",
+            "ja-jp": "輝くダイヤ",
+            "zh-cn": "璀璨原钻",
+            "ko-kr": "휘황찬란한 다이아몬드",
+            "ru-ru": "Драгоценный бриллиант",
+            "de-de": "Brillant",
+            "fr-fr": "Diamant scintillant",
+            "es-es": "Diamante brillante",
+            "id-id": "Brilliant Diamond Gemstone",
+            "th-th": "Brilliant Diamond Gemstone",
+            "vi-vn": "Kim Cương Bạc",
+            "zh-tw": "璀璨原鑽"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": null,
+          "amount": 60,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "220",
+          "iconUrl": null,
+          "amount": 24,
+          "name": {
+            "pt-pt": "Máscara Ominosa",
+            "en-us": "Ominous Mask",
+            "ja-jp": "不吉な仮面",
+            "zh-cn": "不祥的面具",
+            "ko-kr": "불길한 가면",
+            "ru-ru": "Зловещая маска",
+            "de-de": "Unheilvolle Maske",
+            "fr-fr": "Masque sinistre",
+            "es-es": "Máscara amenazante",
+            "id-id": "Ominous Mask",
+            "th-th": "Ominous Mask",
+            "vi-vn": "Mặt Nạ Xui Xẻo",
+            "zh-tw": "不祥的面具"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур.1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "912"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "18"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "57"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "攻击力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตี",
+            "vi-vn": "Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "2342",
+          "postAscensionValue": "3024"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "46",
+          "postAscensionValue": "59"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "147",
+          "postAscensionValue": "190"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "攻击力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตี",
+            "vi-vn": "Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "preAscensionValue": "0%",
+          "postAscensionValue": "0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "4529",
+          "postAscensionValue": "5013"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "88",
+          "postAscensionValue": "98"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "284",
+          "postAscensionValue": "315"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "攻击力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตี",
+            "vi-vn": "Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "preAscensionValue": "0%",
+          "postAscensionValue": "6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "5766",
+          "postAscensionValue": "6411"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "113",
+          "postAscensionValue": "125"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "362",
+          "postAscensionValue": "402"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "攻击力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตี",
+            "vi-vn": "Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "preAscensionValue": "6%",
+          "postAscensionValue": "12%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "7164",
+          "postAscensionValue": "7648"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "140",
+          "postAscensionValue": "149"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "450",
+          "postAscensionValue": "480"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "攻击力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตี",
+            "vi-vn": "Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "preAscensionValue": "12%",
+          "postAscensionValue": "12%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "8401",
+          "postAscensionValue": "8885"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "164",
+          "postAscensionValue": "174"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "527",
+          "postAscensionValue": "558"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "攻击力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตี",
+            "vi-vn": "Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "preAscensionValue": "12%",
+          "postAscensionValue": "18%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "9638",
+          "postAscensionValue": "10122"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "188",
+          "postAscensionValue": "198"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "605",
+          "postAscensionValue": "635"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "攻击力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตี",
+            "vi-vn": "Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "preAscensionValue": "18%",
+          "postAscensionValue": "24%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур.90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "10875",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "212",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "683",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "攻击力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตี",
+            "vi-vn": "Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "preAscensionValue": "24%",
+          "postAscensionValue": ""
+        }
+      ]
+    }
+  ]
+}

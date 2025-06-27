@@ -1,0 +1,3560 @@
+{
+  "id": "ganyu",
+  "wiki_id": "28",
+  "name": {
+    "pt-pt": "Ganyu",
+    "en-us": "Ganyu",
+    "ja-jp": "甘雨",
+    "zh-cn": "甘雨",
+    "ko-kr": "감우",
+    "ru-ru": "Гань Юй",
+    "de-de": "Ganyu",
+    "fr-fr": "Ganyu",
+    "es-es": "Ganyu",
+    "id-id": "Ganyu",
+    "th-th": "Ganyu",
+    "vi-vn": "Ganyu",
+    "zh-tw": "甘雨"
+  },
+  "title": {
+    "pt-pt": "Defensora Devota",
+    "en-us": "Plenilune Gaze",
+    "ja-jp": "循々守月",
+    "zh-cn": "循循守月",
+    "ko-kr": "리월의 수호자",
+    "ru-ru": "Взгляд полнолуния",
+    "de-de": "Mondhüter",
+    "fr-fr": "Défense fervente",
+    "es-es": "La Vigía del Plenilunio",
+    "id-id": "Plenilune Gaze",
+    "th-th": "ผู้พิทักษ์แห่งจันทรา",
+    "vi-vn": "Người Bảo Vệ Tận Tâm",
+    "zh-tw": "循循守月"
+  },
+  "description": {
+    "pt-pt": "Secretária do Pavilhão Yuehai. O sangue da besta iluminada Qilin flui nas suas veias.",
+    "en-us": "The secretary at Yuehai Pavilion. The blood of the qilin, an illuminated beast, flows within her veins.",
+    "ja-jp": "月海亭の秘書。その身には仙獣「麒麟」の血が流れている。",
+    "zh-cn": "月海亭的秘书，体内流淌着仙兽「麒麟」的血脉。",
+    "ko-kr": "월해정의 비서. 몸 안에 신수 「기린」의 피가 흐르고 있다.「기린이 태평성세의 길조를 상징한다고 하지만 수많은 사람 속 인자한 신수의 외로움은 또 누가 알까?」——리월 칠성 「천추」",
+    "ru-ru": "Главный секретарь павильона Лунного моря. В её жилах течёт кровь мифического зверя цилиня.",
+    "de-de": "Eine Sekretärin im Yuehai-Pavillon, in deren Adern das Blut eines Qilins, einer göttlichen Bestie, fließt.",
+    "fr-fr": "Secrétaire du Pavillon Yuehai ; du sang de Qilin, la créature mythique, coule dans ses veines.",
+    "es-es": "La secretaria del Pabellón Yuehai. La sangre de bestia iluminada Chilin fluye por sus venas.",
+    "id-id": "Seorang sekretaris di Yuehai Pavilion. Darah hewan pusaka Qilin mengalir di dalam tubuhnya.",
+    "th-th": "เลขาของ Yuehai Pavilion มีเลือดของสัตว์เวท &#34;กิเลน&#34; ไหลเวียนอยู่ในร่างกาย",
+    "vi-vn": "Thư ký tại Nguyệt Hải Đình, trong người chứa huyết mạch của tiên thú Kỳ Lân",
+    "zh-tw": "月海亭的秘書，體內流淌著仙獸「麒麟」的血脈。"
+  },
+  "rarity": 5,
+  "vision": {
+    "label": {
+      "pt-pt": "Tipo Elemental",
+      "en-us": "Elemental Type",
+      "ja-jp": "元素タイプ",
+      "zh-cn": "元素属性",
+      "ko-kr": "원소 속성",
+      "ru-ru": "Элемент",
+      "de-de": "Elementartyp",
+      "fr-fr": "Élément",
+      "es-es": "Tipo elemental",
+      "id-id": "Tipe Elemen",
+      "th-th": "ประเภทธาตุ",
+      "vi-vn": "Thuộc Tính Nguyên Tố",
+      "zh-tw": "元素屬性"
+    },
+    "value": {
+      "pt-pt": "Cryo",
+      "en-us": "Cryo",
+      "ja-jp": "氷元素",
+      "zh-cn": "冰元素",
+      "ko-kr": "얼음 원소",
+      "ru-ru": "Крио",
+      "de-de": "Kryo",
+      "fr-fr": "Cryo",
+      "es-es": "Cryo",
+      "id-id": "Cryo",
+      "th-th": "น้ำแข็ง",
+      "vi-vn": "Băng",
+      "zh-tw": "冰元素"
+    }
+  },
+  "weapon": {
+    "label": {
+      "pt-pt": "Arma",
+      "en-us": "Weapons",
+      "ja-jp": "武器種",
+      "zh-cn": "武器",
+      "ko-kr": "무기",
+      "ru-ru": "Тип",
+      "de-de": "Waffe",
+      "fr-fr": "Type d'arme",
+      "es-es": "Arma",
+      "id-id": "Senjata",
+      "th-th": "อาวุธ",
+      "vi-vn": "Vũ Khí",
+      "zh-tw": "武器"
+    },
+    "value": {
+      "pt-pt": "Arco",
+      "en-us": "Bow",
+      "ja-jp": "弓",
+      "zh-cn": "弓",
+      "ko-kr": "활",
+      "ru-ru": "Стрелковое",
+      "de-de": "Bogen",
+      "fr-fr": "Arc",
+      "es-es": "Arco",
+      "id-id": "Bow",
+      "th-th": "ธนู",
+      "vi-vn": "Cung",
+      "zh-tw": "弓"
+    }
+  },
+  "characterIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/Ganyu_icon.png",
+  "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
+  "constellationNameOfficial": {
+    "pt-pt": "Sinae Unicornis",
+    "en-us": "Sinae Unicornis",
+    "ja-jp": "仙麟座",
+    "zh-cn": "仙麟座",
+    "ru-ru": "Священная Лань",
+    "de-de": "Sinae Unicornis",
+    "fr-fr": "Sinae Unicornis",
+    "es-es": "Sinae Unicornis",
+    "id-id": "Sinae Unicornis",
+    "th-th": "Sinae Unicornis",
+    "zh-tw": "仙麟座",
+    "ko-kr": "N/A",
+    "vi-vn": "N/A"
+  },
+  "specialDish": {
+    "id": 1233,
+    "name": {
+      "pt-pt": "Paz Próspera",
+      "en-us": "Prosperous Peace",
+      "ja-jp": "盛世太平",
+      "zh-cn": "盛世太平",
+      "ko-kr": "태평성대",
+      "ru-ru": "Мир и процветание",
+      "de-de": "Florierender Frieden",
+      "fr-fr": "Paix prospère",
+      "es-es": "Paz y prosperidad",
+      "id-id": "Prosperous Peace",
+      "th-th": "Prosperous Peace",
+      "vi-vn": "Thái Bình Thịnh Thế",
+      "zh-tw": "盛世太平"
+    },
+    "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Prosperous%20Peace_icon.png"
+  },
+  "namecard": {
+    "id": 6119,
+    "name": {
+      "pt-pt": "Ganyu - Qilin",
+      "en-us": "Ganyu: Qilin",
+      "ja-jp": "甘雨・麒麟の跡",
+      "zh-cn": "甘雨·麟迹",
+      "ko-kr": "감우·기린 흔적",
+      "ru-ru": "Цилинь",
+      "de-de": "Ganyu – Qilin",
+      "fr-fr": "Ganyu - Qilin",
+      "es-es": "Ganyu - Chilin",
+      "id-id": "Ganyu: Qilin",
+      "th-th": "Ganyu - กิเลน",
+      "vi-vn": "Ganyu - Lân Tích",
+      "zh-tw": "甘雨·麟跡"
+    },
+    "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/15/8194d9e5cba384304ca626c3b12df278_7327826381255103906.png"
+  },
+  "constellations": [
+    {
+      "id": "summaryList66968",
+      "constellationNumber": 1,
+      "name": {
+        "pt-pt": "Bebedor de Orvalho",
+        "en-us": "Dew-Drinker",
+        "ja-jp": "飲露",
+        "zh-cn": "饮露",
+        "ko-kr": "이슬 먹는 신수",
+        "ru-ru": "Жажда росы",
+        "de-de": "Geschmack des Taus",
+        "fr-fr": "Buveur de rosée",
+        "es-es": "Bebedora de rocío",
+        "id-id": "Dew-Drinker",
+        "th-th": "Dew-Drinker",
+        "vi-vn": "Ẩm Lộ",
+        "zh-tw": "飲露"
+      },
+      "description": {
+        "pt-pt": "Receber Dano de uma Carga Nível 2 da Flecha Congelante ou da Explosão da Flecha Congelante diminui a RES Cryo dos inimigos em 15% por 6s.Um golpe restaura 2 de Energia para Ganyu. Este efeito pode ocorrer apenas uma vez por Carga Nível 2 da Flecha Congelante, independentemente se a Flecha Congelante em si ou sua explosão acertar o alvo.",
+        "en-us": "Charge Level 2 Frostflake Arrows or Frostflake Arrow Blooms decrease opponents' Cryo RES by 15% for 6s upon hit.A hit also regenerates 2 Energy for Ganyu. This effect can only occur once per Charge Level 2 Frostflake Arrow, regardless if Frostflake Arrow itself or its Bloom hits the target.",
+        "ja-jp": "二段チャージ重撃の霜華の矢または霜華満開が命中した時、敵の氷元素耐性-15%、継続時間6秒。命中時に甘雨の元素エネルギーを2回復。二段チャージの重撃による元素エネルギーの回復効果は、1回の重撃で1度のみ発動可能。",
+        "zh-cn": "二段蓄力重击的霜华矢或霜华绽发命中敌人时，会使敌人的冰元素抗性降低15%，持续6秒；此外，命中时会为甘雨恢复2点元素能量。每次二段蓄力重击只能触发一次元素能量恢复效果，无论霜华矢或霜华绽发是否都命中目标。",
+        "ko-kr": "2단 차지 강공격의 서리꽃 화살 혹은 피어난 서리꽃에 명중된 적은 얼음 원소 내성이 15% 감소한다. 지속 시간: 6초또한 명중 시 감우의 원소 에너지를 2pt 회복한다. 서리꽃 화살과 피어나는 서리꽃의 명중 여부와 상관없이, 2단 차지 강공격은 매번 원소 에너지 회복 효과를 1회만 발동한다",
+        "ru-ru": "Попадание стрелой-снежинкой с уровнем заряда 2 или её цветением понижает Крио сопротивление противников на 15% в течение 6 сек.;Также попадание восстанавливает 2 ед. энергии Гань Юй. Каждое попадание заряженной атакой с уровнем заряда 2 может восстановить энергию только один раз, вне зависимости от того, было ли это попадание стрелой-снежинкой или её цветением.",
+        "de-de": "Verringert den Kryo-WDS von mit Frostblütenpfeilen von heftigen Schlägen beim Aufladen Phase 2 oder durch das Erblühen von Frostblüten getroffenen Gegnern 6 s lang um 15 %.Stellt Ganyu bei Treffern außerdem 2 Punkte Elementarenergie wieder her. Stellt für jeden heftigen Schlag mit Aufladen Phase 2 nur einmal Elementarenergie wieder her, egal ob die Frostblütenpfeile oder das Erblühen der Frostblüten Ziele treffen oder nicht.",
+        "fr-fr": "La RÉS Cryo des ennemis touchés par une flèche de givre (attaque chargée) ou par la zone de givre qui en résulte est réduite de 15 % pendant 6 s.Ganyu récupère de plus 2 pts d'énergie élémentaire lorsqu'elle touche. Ce dernier effet ne peut être déclenché qu'une fois par flèche de givre, même si la zone de givre et la flèche de givre touchent toutes les deux.",
+        "es-es": "Reduce en un 15% la RES Cryo de los enemigos golpeados por una flecha helada de Carga 2 o una explosión de escarcha durante 6 s.Además, al golpear a un enemigo, Ganyu recupera 2 pts. de Energía Elemental. Este efecto solo puede activarse una vez por cada flecha helada de Carga 2, independientemente de que tanto dicha flecha helada como la explosión de escarcha golpeen al enemigo.",
+        "id-id": "Mengurangi 15% Cryo RES musuh yang terkena Frostflake Arrow Charge Tahap 2 atau Frostflake Arrow Bloom selama 6 detik.Serangan ini juga akan memulihkan 2 Energy Ganyu. Efek pemulihan Energy terpicu maksimum 1 kali dalam 1 serangan, tak peduli musuh terkena Frostflake Arrow Charge Tahap 2 atau ledakan Frostflake Arrow Bloom.",
+        "th-th": "เมื่อการชาร์จเลเวล 2 ของ Frostflake Arrow หรือ Frostflake Arrow Bloom โจมตีถูกศัตรู จะทำให้ความต้านทานน้ำแข็ง ของศัตรูลดลง 15% เป็นเวลา 6 วินาที;นอกจากนี้เมื่อโจมตีถูกเป้าหมาย จะฟื้นฟูพลังงานธาตุให้แก่ Ganyu 2 หน่วย ซึ่งการชาร์จเลเวล 2 ของ Frostflake Arrow ในแต่ละครั้ง จะทำให้เกิดเอฟเฟกต์ฟื้นฟูพลังธาตุได้เพียงครั้งเดียวเท่านั้น ไม่ว่าจะเป็น Frostflake Arrow หรือ Frostflake Arrow Bloom ที่โจมตีถูกเป้าหมาย",
+        "vi-vn": "Khi Cung Sương Hoa hoặc Sương Giá Tung Bay tụ lực trọng kích lần 2 trúng kẻ địch sẽ khiến địch bị giảm 15% Kháng Nguyên Tố Băng, kéo dài 6s;Ngoài ra, khi trúng sẽ hồi 2 điểm Năng Lượng Nguyên Tố cho Ganyu. Mỗi lần tụ lực trọng kích lần 2 chỉ có thể kích hoạt hiệu quả hồi Năng Lượng Nguyên Tố 1 lần, bất kể Cung Sương Hoa hoặc Sương Giá Tung Bay có trúng địch hay không.",
+        "zh-tw": "二段蓄力重擊的霜華矢或霜華綻放命中敵人時，會使敵人的冰元素抗性降低15%，持續6秒。此外，命中時會為甘雨恢復2點元素能量。每次二段蓄力重擊只能觸發一次元素能量恢復效果，無論霜華矢與霜華綻放是否都命中目標。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/甘雨/constellation_1.png"
+    },
+    {
+      "id": "summaryList87366",
+      "constellationNumber": 2,
+      "name": {
+        "pt-pt": "O Auspicioso",
+        "en-us": "The Auspicious",
+        "ja-jp": "獲麟",
+        "zh-cn": "获麟",
+        "ko-kr": "획린(獲麟)",
+        "ru-ru": "Благополучие",
+        "de-de": "Qilin-Jagd",
+        "fr-fr": "Auspices",
+        "es-es": "La auspiciosa",
+        "id-id": "The Auspicious",
+        "th-th": "The Auspicious",
+        "vi-vn": "Hoạch Lân",
+        "zh-tw": "獲麟"
+      },
+      "description": {
+        "pt-pt": "Os Rastros de Qilin aumentam 1 Carga Adicional.",
+        "en-us": "Trail of the Qilin gains 1 additional charge.",
+        "ja-jp": "山沢麟跡の使用可能回数+1。",
+        "zh-cn": "山泽麟迹的可使用次数增加1次。",
+        "ko-kr": "산과 강의 기린 흔적의 사용 가능 횟수가 1회 증가한다",
+        "ru-ru": "Увеличивает количество зарядов навыка След цилиня на 1.",
+        "de-de": "Ermöglicht 1 weitere Anwendung von Spuren des Qilins.",
+        "fr-fr": "Confère une charge supplémentaire à Trace de Qilin.",
+        "es-es": "Aumenta en 1 las cargas de Senda de Chilin.",
+        "id-id": "Meningkatkan 1 charge Trail of the Qilin.",
+        "th-th": "จำนวนครั้งที่สามารถใช้ Trail of the Qilin ได้ เพิ่มขึ้น 1 ครั้ง",
+        "vi-vn": "Số lần sử dụng Sơn Trạch Lân Tích tăng thêm 1.",
+        "zh-tw": "山澤麟跡的可使用次數增加一次。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/甘雨/constellation_2.png"
+    },
+    {
+      "id": "summaryList60765",
+      "constellationNumber": 3,
+      "name": {
+        "pt-pt": "Itinerante das Nuvens",
+        "en-us": "Cloud-Strider",
+        "ja-jp": "雲行",
+        "zh-cn": "云行",
+        "ko-kr": "구름 여행",
+        "ru-ru": "Облачные странствия",
+        "de-de": "Ziehende Wolken",
+        "fr-fr": "Mouvement des nuages",
+        "es-es": "Jinete de las nubes",
+        "id-id": "Cloud-Strider",
+        "th-th": "Cloud-Strider",
+        "vi-vn": "Vân Hành",
+        "zh-tw": "雲行"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível da Chuva Celestial em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Celestial Shower by 3.Maximum upgrade level is 15.",
+        "ja-jp": "降衆天華のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "降众天华的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "쏟아지는 천화의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Небесный дождь на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Bändigender Niederschlag um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Baptême céleste +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Diluvio celestial +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Celestial Shower.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Celestial Shower ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Thiên Hoa Hạ Phàm +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "降眾天華的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/甘雨/constellation_3.png"
+    },
+    {
+      "id": "summaryList98483",
+      "constellationNumber": 4,
+      "name": {
+        "pt-pt": "Estadia no Oeste",
+        "en-us": "Westward Sojourn",
+        "ja-jp": "西狩",
+        "zh-cn": "西狩",
+        "ko-kr": "서수(西狩)",
+        "ru-ru": "Поход на Запад",
+        "de-de": "Aufbruch gen Westen",
+        "fr-fr": "Chasse vers l'ouest",
+        "es-es": "Viaje al Oeste",
+        "id-id": "Westward Sojourn",
+        "th-th": "Westward Sojourn",
+        "vi-vn": "Tây Thú",
+        "zh-tw": "西狩"
+      },
+      "description": {
+        "pt-pt": "Os inimigos dentro da AdE da Chuva Celestial recebem Dano aumentado. Este efeito fica mais forte com o tempo.O Dano aumentado recebido começa em 5% e aumenta 5% a cada 3s, chegando no máximo a 25%.Este efeito permanece por 3s após o inimigo sair da AdE.",
+        "en-us": "Opponents standing within the AoE of Celestial Shower take increased DMG. This effect strengthens over time.Increased DMG taken begins at 5% and increases by 5% every 3s, up to a maximum of 25%.The effect lingers for 3s after the opponent leaves the AoE.",
+        "ja-jp": "降衆天華エリア内、敵の受けるダメージがアップする。受けるダメージのアップ量は初期が5%、3秒毎に5%アップし、最大25%までアップできる。敵がエリアを出た後、エリアによる効果は3秒続く。",
+        "zh-cn": "在降众天华的领域内，敌人受到的伤害会增加，这个效果会随时间逐步加强。受伤害加成初始为5%，每3秒提升5%，至多提升至25%。离开领域后，效果至多持续3秒。",
+        "ko-kr": "쏟아지는 천화 영역 내 적이 받는 피해가 증가한다. 해당 효과는 시간이 지날수록 점점 강해진다.초기 받는 피해 보너스: 5%, 이후 3초마다 5%씩 증가하며 최대 25%까지 상승한다.영역을 벗어나면 효과는 최대 3초 동안 유지된다",
+        "ru-ru": "Увеличивает урон, получаемый врагами, находящимися в области навыка Небесный дождь. Этот эффект усиливается со временем.Увеличение урона начинается с 5% и увеличивается на 5% каждые 3 сек., до макс. 25%.Эффект продолжается ещё 3 сек. после того, как враг покидает зону действия навыка.",
+        "de-de": "Erhöht den Gegnern im Wirkungsbereich von Bändigender Niederschlag zugefügten Schaden fortlaufend.Der anfängliche SCH-Bonus beträgt 5 %, erhöht den Schaden alle 3 s um weitere 5 % auf bis zu 25 % SCH-Bonus.Der Effekt hält nach dem Verlassen des Wirkungsbereichs bis zu 3 s.",
+        "fr-fr": "Les DGT subis par les ennemis se trouvant dans la zone de Baptême céleste augmentent ; cet effet se cumule avec le temps.Bonus de DGT initial : 5 %. Ce bonus augmente de 5 % toutes les 3 s (cumul max : 25 %).L'effet perdure pendant 3 s après avoir quitté la zone.",
+        "es-es": "Los enemigos que estén en el AdE de Diluvio celestial reciben daño adicional. Este efecto se fortalece con el tiempo.El daño comienza con un 5% adicional, y aumenta en un 5% cada 3 s hasta un máximo de un 25%.Este efecto persiste durante 3 s después de que el enemigo se aleje del AdE de la habilidad.",
+        "id-id": "Meningkatkan DMG yang diterima musuh saat mereka berada di dalam area Celestial Shower. Semakin lama musuh berada di dalam area, semakin besar efek peningkatan DMG.Peningkatan DMG mula-mula 5%, dan meningkat 5% setiap 3 detik, peningkatan DMG maksimum: 25%.Efek ini bertahan selama 3 detik setelah musuh meninggalkan area.",
+        "th-th": "ในพื้นที่ของ Celestial Shower ความเสียหายที่ศัตรูได้รับจะ เพิ่มขึ้น โดยเอฟเฟกต์นี้ จะเพิ่มความแรงขึ้นเรื่อย ๆความเสียหายที่ได้รับจะเพิ่มขึ้น 5% ในตอนแรก จากนั้นจะ เพิ่มขึ้น 5% ในทุก 3 วินาที และเพิ่มมากสุดถึง 25%หลังออกจากพื้นที่ เอฟเฟกต์จะยังคงอยู่นานสุด ถึง 3 วินาที",
+        "vi-vn": "Trong khu vực của Thiên Hoa Hạ Phàm, tăng sát thương kẻ địch phải chịu, hiệu quả này sẽ dần mạnh hơn theo thời gian.Ban đầu lượng tăng sát thương phải chịu là 5%, mỗi 3s tăng 5%, tăng nhiều nhất đến 25%.Sau khi rời khỏi khu vực, hiệu quả kéo dài nhiều nhất 3s.",
+        "zh-tw": "在降眾天華的領域內，敵人受到的傷害會增加，這個效果會隨時間逐步加強。受傷害加成初始為5%，每3秒提升5%，至多提升至25%。離開領域後，效果至多持續3秒。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/甘雨/constellation_4.png"
+    },
+    {
+      "id": "summaryList13247",
+      "constellationNumber": 5,
+      "name": {
+        "pt-pt": "O Misericordioso",
+        "en-us": "The Merciful",
+        "ja-jp": "折草",
+        "zh-cn": "折草",
+        "ko-kr": "잡초 근절",
+        "ru-ru": "Милосердие",
+        "de-de": "Rasenstutzer",
+        "fr-fr": "Miséricorde",
+        "es-es": "La misericordiosa",
+        "id-id": "The Merciful",
+        "th-th": "The Merciful",
+        "vi-vn": "Trảm Thảo",
+        "zh-tw": "折草"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível dos Rastros de Qilin em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Trail of the Qilin by 3.Maximum upgrade level is 15.",
+        "ja-jp": "山沢麟跡のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "山泽麟迹的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "산과 강의 기린 흔적의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка След цилиня на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Spuren des Qilins um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Trace de Qilin +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Senda de Chilin +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Trail of the Qilin.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Trail of the Qilin ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Sơn Trạch Lân Tích +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "山澤麟跡的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/甘雨/constellation_5.png"
+    },
+    {
+      "id": "summaryList6636",
+      "constellationNumber": 6,
+      "name": {
+        "pt-pt": "O Clemente",
+        "en-us": "The Clement",
+        "ja-jp": "履虫",
+        "zh-cn": "履虫",
+        "ko-kr": "살생의 발걸음",
+        "ru-ru": "Сострадание",
+        "de-de": "Nachsicht",
+        "fr-fr": "Clémence",
+        "es-es": "La clemente",
+        "id-id": "The Clement",
+        "th-th": "The Clement",
+        "vi-vn": "Lữ Trùng",
+        "zh-tw": "履蟲"
+      },
+      "description": {
+        "pt-pt": "Usando o Rastros de Qilin faz com que durante 30s seguintes a primeira Flecha Congelante não precise ser carregada.",
+        "en-us": "Using Trail of the Qilin causes the next Frostflake Arrow shot within 30s to not require charging.",
+        "ja-jp": "山沢麟跡を発動すると、30秒以内に放つ最初の霜華の矢が、チャージせずに発動可能になる。",
+        "zh-cn": "施放山泽麟迹后30秒内的第一次霜华矢，无需蓄力即可施放。",
+        "ko-kr": "산과 강의 기린 흔적 발동 후 30초 안에 발동되는 첫 번째 서리꽃 화살은 차지 없이 발동할 수 있다",
+        "ru-ru": "Следующая стрела-снежинка в течение 30 сек. после активации навыка След цилиня не нуждается в зарядке.",
+        "de-de": "Nach Anwendung von Spuren des Qilins wird 30 s lang keine Aufladung für den nächsten Frostblütenpfeil benötigt.",
+        "fr-fr": "La première flèche de givre libérée dans les 30 s suivant l'activation de Trace de Qilin ne requiert pas de charge.",
+        "es-es": "Utilizar Senda de Chilin hace que durante 30 s no se requiera cargar la siguiente flecha helada.",
+        "id-id": "Menggunakan Trail of the Qilin akan menyebabkan Frostflake Arrow yang ditembakkan dalam waktu 30 detik ke depan tidak memerlukan Charge.",
+        "th-th": "ภายใน 30 วินาที หลังจากการใช้ Trail of the Qilin จะสามารถใช้ Frostflake Arrow ครั้งแรกได้เลย โดยไม่จำเป็นต้องชาร์จ",
+        "vi-vn": "Trong vòng 30s sau khi thi triển Sơn Trạch Lân Tích, không cần tụ lực cũng có thể thi triển Cung Sương Hoa lần đầu.",
+        "zh-tw": "施放山澤麟跡後30秒內的第一次霜華矢，無需蓄力即可施放。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/甘雨/constellation_6.png"
+    }
+  ],
+  "talents": [
+    {
+      "type": "normal_attack",
+      "name": {
+        "pt-pt": "Ataque Normal: Disparo Liutian",
+        "en-us": "Liutian Archery",
+        "ja-jp": "流天射術",
+        "zh-cn": "普通攻击·流天射术",
+        "ko-kr": "일반 공격·유천 사격술",
+        "ru-ru": "Небесная стрела",
+        "de-de": "Standardangriff: Himmlische Schießkunst",
+        "fr-fr": "Attaque normale : Archerie Liutian",
+        "es-es": "Ataque Normal: Técnica de tiro Liutian",
+        "id-id": "Normal Attack: Liutian Archery",
+        "th-th": "โจมตีปกติ - Liutian Archery",
+        "vi-vn": "Tấn Công Thường - Lưu Thiên Xạ Thuật",
+        "zh-tw": "普通攻擊·流天射術"
+      },
+      "description": {
+        "pt-pt": "Ataque NormalRealiza até 6 disparos consecutivos com um arco.Ataque CarregadoRealiza um Disparo com Mira mais preciso com Dano aumentado.Ao mirar, uma aura congelante acumulará na ponta da flecha antes de ser disparada. Tem diferentes efeitos baseados em quanto tempo a energia foi carregada:Carga Nível 1: Dispara uma Flecha Congelante que causa Dano CryoCarga Nível 2: Dispara uma Flecha Congelante que causa Dano Cryo. A Flecha Congelante floresce após acertar seu alvo, causando Dano Cryo em uma AdE.Ataque ImersivoDispara uma chuva de flechas durante o ar antes de cair e atingir o chão, causando Dano em uma AdE no impacto.",
+        "en-us": "Normal AttackPerform up to 6 consecutive shots with a bow.Charged AttackPerform a more precise Aimed Shot with increased DMG.While aiming, an icy aura will accumulate on the arrowhead before the arrow is fired. Has different effects based on how long the energy has been charged:· Charge Level 1: Fires off an icy arrow that deals Cryo DMG.· Charge Level 2: Fires off a Frostflake Arrow that deals Cryo DMG. The Frostflake Arrow blooms after hitting its target, dealing AoE Cryo DMG.Plunging AttackFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+        "ja-jp": "通常攻撃最大6段の連続射撃を行う。重撃ダメージがより高く、より精確な狙い撃ちを発動する。照準時、氷寒の気が矢先に集まり、攻撃と共に発射される。チャージの時間により、異なる効果を発動する。・1段チャージ：氷寒の気が集まった矢を放ち、氷元素ダメージを与える。・2段チャージ：霜華の矢を放ち、氷元素ダメージを与える。命中後、霜華満開が発生し、さらに氷元素範囲ダメージを与える。落下攻撃空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
+        "zh-cn": "普通攻击进行至多六段的连续弓箭射击。重击进行伤害更高、更为精准的瞄准射击。瞄准时，冰寒之气会在箭矢上持续积聚，并随攻击发射出去。根据蓄力时间长短，能造成不同的效果：·一段蓄力：射出附有寒气的箭矢，造成冰元素伤害；·二段蓄力：发射霜华矢，造成冰元素伤害；命中后霜华绽发，再次造成冰元素范围伤害。下落攻击从空中射出箭雨，并迅速下坠冲击地面，在落地时造成范围伤害。",
+        "ko-kr": "일반 공격활로 최대 6번 공격한다.강공격피해가 더 크고 정확한 조준 사격을 한다.조준 시 서리의 힘이 화살 촉에 계속해서 모여 공격과 동시에 발사된다. 차지의 시간에 따라 다른 효과가 발동된다:·1단 차지: 한기가 서린 화살을 발사해 얼음 원소 피해를 준다.·2단 차지: 서리꽃 화살을 발사해 얼음 원소 피해를 준다. 명중 후 서리꽃이 피어나 얼음 원소 범위 피해를 다시 한번 준다.낙하 공격공중에서 화살비를 쏜 후 빠른 속도로 땅에 착지한다. 땅에 닿으면 범위 피해를 준다",
+        "ru-ru": "Обычная атака:До шести выстрелов из лука.Заряженная атака:Более меткий прицельный выстрел с увеличенным уроном.Во время прицеливания наконечник стрелы заряжается ледяной аурой. Эффект зависит от длительности заряда стрелы:· Уровень заряда 1: Выпускает ледяную стрелу, наносящую Крио урон;· Уровень заряда 2: Выпускает стрелу-снежинку, наносящую Крио урон. При попадании стрела-снежинка расцветает и наносит Крио урон по площади.Атака в падении:Выпускает град стрел в воздухе, которые при приземлении персонажа наносят урон по площади.",
+        "de-de": "StandardangriffFührt bis zu 6 Pfeilschüsse hintereinander aus.Heftiger SchlagFührt einen gezielten Schuss mit höherem Schaden und höherer Genauigkeit aus.Konzentriert die Kälte während des Zielens an der Pfeilspitze und verursacht je nach Länge des Aufladens unterschiedliche Effekte:· Phase 1: Schießt einen Pfeil mit dem Zustand Kalt und verursacht Kryo-Schaden.· Phase 2: Schießt einen Frostblütenpfeil und verursacht Kryo-Schaden. Erblüht nach einem Treffer und verursacht erneut Kryo-Flächenschaden.Angriff aus dem FallSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
+        "fr-fr": "Attaque normaleEnchaîne jusqu'à 6 tirs consécutifs.Attaque chargéeEffectue un tir visé plus précis et infligeant davantage de DGT.Lors du tir visé, la puissance du froid vient se concentrer sur la pointe de la flèche. Les effets varient selon le nombre de charges :· 1 charge : Tire une flèche glaciale qui inflige des DGT Cryo.· 2 charges : Tire une flèche de givre qui inflige des DGT Cryo. Le givre se répand lorsqu'il touche un ennemi, infligeant des DGT Cryo de zone.Attaque plongeanteTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.",
+        "es-es": "Ataque NormalRealiza hasta 6 disparos consecutivos con arco.Ataque CargadoRealiza un Disparo Preciso que inflige mayor daño y tiene mayor precisión.Mientras se apunta, un aura helada se acumulará en la punta de la flecha antes de que esta sea disparada. Sus efectos serán distintos dependiendo de durante cuánto tiempo se ha cargado:Carga 1: Dispara una flecha congelada que inflige Daño Cryo.Carga 2: Dispara una flecha helada que inflige Daño Cryo. Al golpear a su objetivo, la flecha estallará, creando una explosión de escarcha e infligiendo Daño Cryo en el AdE.Ataque DescendenteDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
+        "id-id": "Normal AttackMelancarkan hingga 6 serangan berturut-turut dengan busur.Charged AttackMelancarkan sebuah Serangan Membidik yang lebih akurat untuk mengakibatkan DMG lebih besar.Saat membidik, es akan berkumpul di ujung anak panah. Memiliki efek yang berbeda tergantung dari lama serangannya ditahan:·Charge Tahap 1: Menembakkan panah es yang mengakibatkan Cryo DMG.·Charge Tahap 2: Menembakkan Frostflake Arrow yang mengakibatkan Cryo DMG. Frostflake Arrow akan mengembang setelah mengenai target untuk mengakibatkan Cryo DMG area.Plunging AttackMelancarkan hujan panah dari udara dan menerjang tanah dengan kecepatan tinggi, mengakibatkan DMG area saat mendarat.",
+        "th-th": "โจมตีปกติยิงธนูโจมตีต่อเนื่องมากสุดถึงหกครั้งชาร์จโจมตีการเล็งโจมตีจะสร้างความเสียหายเพิ่มขึ้น และแม่นยำยิ่งขึ้นเมื่อเล็งโจมตี ไอแห่งความเย็นจะถูกรวบรวม บนหัวของลูกศรและยิงออกไป โดยเอฟเฟกต์ที่เกิดจะแตกต่างกันไป ตามช่วงเวลาที่เล็งชาร์จดังนี้:· ชาร์จระดับ 1: ยิงธนูที่มีไอเย็น สร้างความเสียหายน้ำแข็ง；· ชาร์จระดับ 2: ยิงธนู Frostflake Arrow สร้างความเสียหายน้ำแข็ง หลังยิงถูกเป้าหมายจะบานออกเป็น Frostflake Arrow Bloom และสร้าง ความเสียหายน้ำแข็งวงกว้างอีกครั้งโจมตีพุ่งลงจากอากาศปล่อยฝนธนูจากกลางอากาศและพุ่ง ลงมายังพื้นดินเพื่อโจมตีอย่างรวดเร็ว โดยจะสร้างความเสียหายวงกว้างเมื่อลง ถึงพื้น",
+        "vi-vn": "Tấn Công ThườngLiên tục bắn tên, tối đa 6 lần.Trọng kíchCó thể ngắm bắn chính xác hơn, sát thương cao hơn.Khi ngắm bắn, dòng không khí lạnh sẽ ngưng tụ liên tục trên mũi tên và bắn ra cùng lúc tấn công. Căn cứ thời gian tụ lực dài hay ngắn sẽ gây ra hiệu quả khác nhau:·Tụ lực lần 1: Bắn mũi tên có khí lạnh gây sát thương Nguyên Tố Băng;·Tụ lực lần 2: Bắn Cung Sương Hoa gây sát thương Nguyên Tố Băng; sau khi bắn trúng, sương giá tung bay, gây thêm Sát Thương Phạm Vi Nguyên Tố Băng.Tấn Công Khi ĐápBắn mưa tên từ trên không, đồng thời lao nhanh xuống mặt đất, gây sát thương phạm vi khi chạm đất.",
+        "zh-tw": "普通攻擊進行至多六段的連續弓箭射擊。重擊進行傷害更高、更為精準的瞄準射擊。瞄準時，冰寒之氣會在箭矢上持續匯聚，並隨攻擊發射出去。根據蓄力時間長短，能造成不同的效果：·一段蓄力：射出附有寒氣的箭矢，造成冰元素傷害；·二段蓄力：發射霜華矢，造成冰元素傷害；命中後霜華綻發，再次造成冰元素範圍傷害。下落攻擊從空中射出箭雨，並迅速下墜衝擊地面，在落地時造成範圍傷害。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/甘雨/battle_talent_0/battle_talent_0.png"
+    },
+    {
+      "type": "elemental_skill",
+      "name": {
+        "pt-pt": "Rastros de Qilin",
+        "en-us": "Trail of the Qilin",
+        "ja-jp": "山沢麟跡",
+        "zh-cn": "山泽麟迹",
+        "ko-kr": "산과 강의 기린 흔적",
+        "ru-ru": "След цилиня",
+        "de-de": "Spuren des Qilins",
+        "fr-fr": "Trace de Qilin",
+        "es-es": "Senda de Chilin",
+        "id-id": "Trail of the Qilin",
+        "th-th": "Trail of the Qilin",
+        "vi-vn": "Sơn Trạch Lân Tích",
+        "zh-tw": "山澤麟跡"
+      },
+      "description": {
+        "pt-pt": "Lançando uma Lótus de Gelo, Ganyu salta para trás, causando Dano em uma AdE Cryo.Lótus de Gelo·Provoca inimigos ao seu redor, atraindo-os para a atacar.·Sua resistência aumenta de acordo a Vida Máxima de Ganyu.·Floresce quando destruída ou quando sua duração acaba, causando Dano Cryo em uma AdE.\"Você disse que me viu? Acho que você está enganada/o. Eu estava trabalhando horas extras\".",
+        "en-us": "Leaving a single Ice Lotus behind, Ganyu dashes backward, shunning all impurity and dealing AoE Cryo DMG.Ice Lotus· Continuously taunts surrounding opponents, attracting them to attack it.· Endurance scales based on Ganyu's Max HP.· Blooms profusely when destroyed or once its duration ends, dealing AoE Cryo DMG.\"You saw me, you say? You must be mistaken. I was working overtime then.\"",
+        "ja-jp": "一輪の氷蓮を残して後退し、全ての魑魅魍魎から離れ、氷元素範囲ダメージを与える。氷蓮・持続的に周囲の敵を挑発し、攻撃を引き付ける。・耐久度は甘雨のHP上限によって決まる。・破壊された時または継続時間終了後に激しく開花し、氷元素範囲ダメージを与える。「私を見かけたと？それは気のせいでしょう。その時間はまだ残業中です。」",
+        "zh-cn": "甘雨留下一朵冰莲并迅速后退，远离一切魑魅魍魉，造成冰元素范围伤害。冰莲·持续嘲讽周围的敌人，吸引敌人攻击；·耐久度按比例继承甘雨的生命值上限；·被摧毁或持续时间结束时，会剧烈地绽放，造成冰元素范围伤害。「你说你看到我了？那应该是错觉吧。那个时间我应该在加班才对。」",
+        "ko-kr": "감우가 얼음 연꽃을 남긴 후 빠른 속도로 후퇴하고 모든 이매망량을 멀리하며 얼음 원소 범위 피해를 준다.얼음 연꽃·주변의 적을 계속 도발하며 적의 공격을 유인한다.·내구도는 감우의 HP 최대치를 일정 비율 계승한다.·얼음 연꽃은 파괴당하거나 지속 시간이 끝나면 격렬히 피어나 얼음 원소 범위 피해를 준다.「절 봤다고요? 잘못 본 거 아닌가요? 전 그때 야근 중이었을 텐데요」",
+        "ru-ru": "Гань Юй отпрыгивает назад, оставив перед собой Ледяной лотос, который наносит Крио урон по площади.Ледяной лотос:· Привлекает атаки врагов на себя;· Макс. HP Ледяного лотоса зависит от макс. HP Гань Юй;· Если Ледяной лотос уничтожен, либо его время заканчивается, он распускается, нанося Крио урон по площади.«Говоришь, ты видел меня? Должно быть, ты ошибся. В тот вечер я решила задержаться на работе».",
+        "de-de": "Ganyu hinterlässt einen Eislotos und geht in Deckung, um den bösen Geistern und Dämonen Kryo-Flächenschaden zuzufügen.Eislotos· Verspottet Gegner in der Umgebung fortlaufend und zieht ihre Angriffe auf sich.· Beständigkeit hängt von Ganyus max. LP ab.· Erblüht bei Zerstörung oder Ablauf der Dauer und verursacht Kryo-Flächenschaden.„Du willst mich gesehen haben? Das musst du dir eingebildet haben. Ich war zu der Zeit noch auf Arbeit.“",
+        "fr-fr": "Ganyu dépose un lotus de glace qui inflige des DGT Cryo de zone puis part vite en retraite.Lotus de glace· Le lotus nargue les ennemis et concentre leurs attaques.· Ses PV sont proportionnels aux PV max de Ganyu.· Le lotus explose à la fin ou s'il est détruit entre temps, et inflige des DGT Cryo de zone.« Vous m'avez aperçue ? Ça doit être une erreur, je suis restée tard au travail. »",
+        "es-es": "Ganyu da un salto atrás para dejar un loto de hielo, evitando toda impureza e infligiendo Daño Cryo en el AdE.Loto de hielo·Provoca continuamente a los enemigos que lo rodean, atrayéndolos para que lo ataquen.·La resistencia del loto es proporcional a la Vida Máx. de Ganyu.·Explota cuando es destruido o una vez terminada su duración, infligiendo Daño Cryo en el AdE.“¿Dices que me viste? Debe haber sido un error. A esas horas estaba trabajando horas extras”.",
+        "id-id": "Dengan meninggalkan sebuah Ice Lotus, Ganyu meloncat mundur dengan cepat, membuang semua ketidakmurnian dan mengakibatkan Cryo DMG area.Ice Lotus·Terus menarik perhatian musuh di sekitar untuk menyerangnya.·HP Ice Lotus mewarisi Max HP Ganyu berdasarkan persentase tertentu.·Saat dihancurkan atau durasinya berakhir, Ice Lotus akan mengembang dengan hebat dan mengakibatkan Cryo DMG area.\"Kamu melihatku? Pasti salah, aku sedang lembur saat itu.\"",
+        "th-th": "Ganyu ทิ้ง Ice Lotus ไว้ดอกหนึ่ง แล้วพุ่งตัวถอยหลังอย่างรวดเร็ว เพื่อออกห่างจากสิ่งชั่วร้ายทั้งปวง และสร้างความเสียหายน้ำแข็งวงกว้างIce Lotus· จะยั่วยุศัตรูที่อยู่โดยรอบ และดึงดูดการโจมตีของศัตรู;· ระดับความทนทาน จะขึ้นกับอัตราส่วนพลังชีวิตสูงสุดที่ได้รับสืบทอดมาจาก Ganyu· เมื่อถูกทำลาย หรือสิ้นสุดช่วงเวลาต่อเนื่อง จะบานออกอย่างเต็มที่ และทำให้เกิดความเสียหายน้ำแข็งวงกว้าง.\"คุณบอกว่าเห็นฉันงั้นเหรอ? คิดไปเองรึเปล่า ตอนนั้นฉันทำงานล่วงเวลาอยู่นะ\"",
+        "vi-vn": "Ganyu để lại một đóa sen băng rồi lùi nhanh về phía sau, tránh xa tất cả yêu ma, gây Sát Thương Phạm Vi Nguyên Tố Băng.Băng Liên·Liên tục khiêu khích kẻ địch xung quanh, thu hút địch tấn công;·Độ bền sẽ kế thừa căn cứ theo tỷ lệ giới hạn HP của Ganyu;·Khi bị phá hủy hoặc hết thời gian sẽ nở rộ, gây Sát Thương Phạm Vi Nguyên Tố Băng.\"Bạn nhìn thấy tôi à? Chắc chỉ là ảo giác thôi, lúc đó tôi đang tăng ca mà.\"",
+        "zh-tw": "甘雨留下一朵冰蓮並迅速後退，遠離一切魑魅魍魎，造成冰元素範圍傷害。冰蓮·持續嘲諷周圍的敵人，吸引敵人攻擊；·耐久度按比例繼承甘雨的生命值上限；·被摧毀或持續時間結束時，會劇烈地綻放，造成冰元素範圍傷害。「妳/你說妳/你看到我了？那應該是錯覺吧。那個時間我應該在加班才對。」"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/甘雨/battle_talent_1/battle_talent_1.png"
+    },
+    {
+      "type": "elemental_burst",
+      "name": {
+        "pt-pt": "Chuva Celestial",
+        "en-us": "Celestial Shower",
+        "ja-jp": "降衆天華",
+        "zh-cn": "降众天华",
+        "ko-kr": "쏟아지는 천화",
+        "ru-ru": "Небесный дождь",
+        "de-de": "Bändigender Niederschlag",
+        "fr-fr": "Baptême céleste",
+        "es-es": "Diluvio celestial",
+        "id-id": "Celestial Shower",
+        "th-th": "Celestial Shower",
+        "vi-vn": "Thiên Hoa Hạ Phàm",
+        "zh-tw": "降眾天華"
+      },
+      "description": {
+        "pt-pt": "Funde a geada e a neve atmosférica, evocando uma Gema Cryo Sagrada que exorciza o mal.Ao longo da duração desta habilidade, a Gema Cryo Sagrada irá chover continuamente lascas de gelo, golpeando inimigos em uma AdE e infligindo Dano Cryo.Ganyu pode trazer uma chuva agradável de forma natural. Mas contra demônios e hereges, elas viram uma desagradável neve congelante.",
+        "en-us": "Coalesces atmospheric frost and snow to summon a Sacred Cryo Pearl that exorcises evil.During its ability duration, the Sacred Cryo Pearl will continuously rain down shards of ice, striking opponents within an AoE and dealing Cryo DMG.Ganyu can bring down sweet rains as a matter of course. But against demons and heretics, they become bitter, freezing snow.",
+        "ja-jp": "大気中の霜雪を集め、退魔の氷霊珠を召喚する。氷霊珠が存在している間、持続的に氷柱を降らし、範囲内の敵に氷元素ダメージを与える。甘雨は甘い雨を降らすことができる。だが、邪魔者や外道にとってその甘い雨は、寒苦の雨でもある。",
+        "zh-cn": "凝聚大气中的霜雪，召唤退魔的冰灵珠。存在期间内，冰灵珠会持续降下冰棱，攻击范围内的敌人，造成冰元素伤害。甘雨当然可以降下清甜之雨。但是对于邪魔外道，这些都会变成寒苦之雪。",
+        "ko-kr": "대기 중의 서리눈을 모아 퇴마의 빙령주를 소환한다.빙령주가 존재하는 동안 계속해서 고드름을 내려 공격 범위 내의 적에게 얼음 원소 피해를 준다.감우는 달콤한 비를 내릴 수도 있지만 사마외도엔 고한의 눈보라가 될 뿐이다",
+        "ru-ru": "Собирает из воздуха иней для того, чтобы призвать Священную Крио жемчужину, изгоняющую зло.Пока навык активен, Священная Крио жемчужина непрерывно обрушивает на врагов в области осколки льда, нанося Крио урон.Гань Юй может создать для вас сладкий дождь, но для демонов и еретиков он превращается в горький морозящий снег.",
+        "de-de": "Konzentriert den Schnee und Frost in der Luft und beschwört eine Eisseelenperle, die das Böse vertreibt.Die Eisseelenperle lässt während der Wirkungsdauer fortlaufend Eiszapfen fallen, die den Gegnern im Wirkungsbereich Kryo-Schaden zufügen.Ohne Frage kann Ganyu einen erfrischenden Sommerregen fallen lassen. Für böse Kräfte jedoch zieht ein rauer Schneesturm auf.",
+        "fr-fr": "Condensant les particules présentes dans l'air, Ganyu invoque une perle de glace magique qui exorcise les démons.Tant qu'elle est active, la perle libère des éclats de glace de façon continue qui infligent des DGT Cryo aux ennemis dans la zone.Ganyu sait bien sûr comment invoquer une bruine rafraîchissante ; mais quand il s'agit de combattre, la bruine se change en tempête de neige.",
+        "es-es": "Fusiona nieve y escarcha en la atmósfera para invocar una perla de hielo sagrada que exorciza el mal.Mientras dure la habilidad, la perla hará llover continuamente fragmentos de hielo que golpean a los enemigos dentro de un AdE e infligen Daño Cryo.Ganyu puede provocar una lluvia sin problemas. Pero contra los demonios y los herejes, esa lluvia se convierte en una helada y amarga nieve.",
+        "id-id": "Mengumpulkan es dan salju di udara untuk memanggil Sacred Cryo Pearl yang membasmi iblis.Selama durasi skill, Sacred Cryo Pearl akan terus menjatuhkan bongkahan es yang mengenai musuh dalam area dan mengakibatkan Cryo DMG.Ganyu tentunya dapat membuat hujan manis, tapi terhadap iblis dan monster, hujannya menjadi salju yang dingin dan pahit.",
+        "th-th": "ควบแน่นน้ำแข็งขึ้นในอากาศ เพื่อเรียก Sacred Cryo Pearl ที่ขับไล่สิ่งชั่วร้ายออกมาภายในช่วงเวลาคงอยู่ Sacred Cryo Pearl จะปล่อยสะเก็ดน้ำแข็งลงมาอย่างต่อเนื่อง เพื่อโจมตีศัตรูที่อยู่ในพื้นที่ และสร้างความเสียหายน้ำแข็ง.Ganyu สามารถสร้างหยาดฝนแสนหวาน ได้ตามใจชอบ แต่สำหรับเหล่าปีศาจร้าย ฝนเหล่านี้จะกลายเป็นหิมะที่ขม และหนาวเหน็บ",
+        "vi-vn": "Ngưng tụ sương tuyết trong không khí, triệu hồi Linh Châu Băng diệt ma.Trong thời gian tồn tại, Linh Châu Băng sẽ không ngừng giáng Nhũ Băng xuống, tấn công kẻ địch trong phạm vi, gây Sát Thương Nguyên Tố Băng.Đương nhiên Ganyu có thể giáng cơn mưa mát lành xuống, nhưng đối với tà ma ngoại đạo, những thứ này đều sẽ hóa thành bông tuyết khổ đau.",
+        "zh-tw": "凝聚大氣中的霜雪，召喚退魔的冰靈珠。存在期間內，冰靈珠會持續降下冰稜，攻擊範圍內的敵人，造成冰元素傷害。甘雨當然可以降下清甜之雨。但是對於邪魔外道，這些都會變成寒苦之雪。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/甘雨/battle_talent_2/battle_talent_2.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Com Todo Coração",
+        "en-us": "Undivided Heart",
+        "ja-jp": "唯一の心",
+        "zh-cn": "唯此一心",
+        "ko-kr": "단 하나의 마음",
+        "ru-ru": "Неразделённое сердце",
+        "de-de": "Eintracht",
+        "fr-fr": "Cœur indivisible",
+        "es-es": "Corazón indiviso",
+        "id-id": "Undivided Heart",
+        "th-th": "Undivided Heart",
+        "vi-vn": "Duy Thử Nhất Tâm",
+        "zh-tw": "唯此一心"
+      },
+      "description": {
+        "pt-pt": "Após disparar uma Flecha Congelante, a Taxa CRIT das Flechas Congelantes subsequentes e seus efeitos de florescimento resultantes é aumentada em 20% por 5s.",
+        "en-us": "After firing a Frostflake Arrow, the CRIT Rate of subsequent Frostflake Arrows and their resulting bloom effects is increased by 20% for 5s.",
+        "ja-jp": "霜華の矢を放った後の5秒以内に放たれた霜華の矢と霜華満開の会心率+20%。",
+        "zh-cn": "霜华矢发射后的5秒内，会使接下来的发射的霜华矢与这些霜华矢引发的霜华绽发的暴击率提高20%。",
+        "ko-kr": "서리꽃 화살 발사 후 5초 동안 다음으로 발사되는 서리꽃 화살과 이로 인해 피어나는 서리꽃의 치명타 확률이 20% 증가한다",
+        "ru-ru": "В течение 5 сек. после выстрела стрелы-снежинки увеличивает шанс крит. попадания стрел-снежинок и вызванного ими цветения на 20%.",
+        "de-de": "Erhöht nach dem Abschießen von Frostblütenpfeilen die KT folgender Frostblütenpfeile sowie der im Anschluss erblühenden Frostblüten 5 s lang um 20 %.",
+        "fr-fr": "Tirer une flèche de givre confère pendant 5 s aux flèches de givre suivantes ainsi qu'aux zones de givre ainsi créées un bonus de 20 % de taux CRIT.",
+        "es-es": "Tras lanzar una flecha helada, aumenta en un 20% la Prob. CRIT de la siguiente flecha helada y de la explosión de escarcha causada por ella durante 5 s.",
+        "id-id": "Setelah menembakkan sebuah Frostflake Arrow, meningkatkan 20% CRIT Rate dari Frostflake Arrow berikutnya serta efek ledakan yang disebabkan olehnya selama 5 detik.",
+        "th-th": "ภายใน 5 วินาที หลังจากยิง Frostflake Arrow จะทำให้ Frostflake Arrow ที่ยิงในครั้งต่อไป และการเบ่งบานที่เกิดขึ้นจาก Frostflake Arrow เหล่านั้นมีอัตราคริเพิ่มขึ้น 20%",
+        "vi-vn": "Trong vòng 5s sau khi Cung Sương Hoa bắn ra, sẽ khiến cho Cung Sương Hoa được bắn ra tiếp theo và Sương Giá Tung Bay được tạo ra từ những Cung Sương Hoa này tăng 20% tỷ lệ bạo kích.",
+        "zh-tw": "發射霜華矢後的5秒內，會使接下來發射的霜華矢及這些霜華矢引發的霜華綻放暴擊率提高20%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/甘雨/const_talent_0.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Harmonia entre o Céu e a Terra",
+        "en-us": "Harmony between Heaven and Earth",
+        "ja-jp": "天地安泰",
+        "zh-cn": "天地交泰",
+        "ko-kr": "천지교태",
+        "ru-ru": "Гармония Земли и Небес",
+        "de-de": "Frieden zwischen Himmel und Erde",
+        "fr-fr": "Harmonie du ciel et de la terre",
+        "es-es": "Armonía entre el Cielo y la Tierra",
+        "id-id": "Harmony between Heaven and Earth",
+        "th-th": "Harmony between Heaven and Earth",
+        "vi-vn": "Thiên Địa Giao Hòa",
+        "zh-tw": "天地交泰"
+      },
+      "description": {
+        "pt-pt": "Chuva Celestial concede 20% de Bônus de Dano Cryo aos membros ativos no grupo em uma AdE.",
+        "en-us": "Celestial Shower grants a 20% Cryo DMG Bonus to active party members in the AoE.",
+        "ja-jp": "降衆天華エリア内のキャラクターの氷元素ダメージ+20%。",
+        "zh-cn": "降众天华领域内的队伍中当前场上角色获得20%冰元素伤害加成。",
+        "ko-kr": "쏟아지는 천화 영역 내에서 현재 필드 위 캐릭터는 얼음 원소 피해 보너스를 20% 획득한다",
+        "ru-ru": "Активные члены отряда, находящиеся в области навыка Небесный дождь, получают 20% бонус Крио урона.",
+        "de-de": "Erhöht den Kryo-Schaden der aktuellen Figuren in der Truppe im Wirkungsbereich von Bändigender Niederschlag um 20 %.",
+        "fr-fr": "Les personnages déployés se trouvant dans la zone de Baptême céleste obtiennent un bonus de DGT Cryo de 20 % supplémentaires.",
+        "es-es": "Los personajes en uso que se encuentren dentro del área de Diluvio celestial obtienen un 20% de Bono de Daño Cryo.",
+        "id-id": "Celestial Shower memberikan 20% Cryo DMG Bonus kepada anggota party yang berada di dalam lingkup areanya.",
+        "th-th": "ตัวละครในทีมที่เข้าร่วมการต่อสู้ในขณะนั้น และอยู่ในพื้นที่ของ Celestial Shower จะได้รับโบนัสความเสียหายน้ำแข็ง 20%",
+        "vi-vn": "Nhân vật trong đội đang trong trận ở khu vực Thiên Hoa Hạ Phàm sẽ nhận 20% tăng sát thương Nguyên Tố Băng.",
+        "zh-tw": "降眾天華領域內的隊伍中當前場上角色獲得20%冰元素傷害加成。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/甘雨/const_talent_1.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Preservado para a Caça",
+        "en-us": "Preserved for the Hunt",
+        "ja-jp": "弓蔵待命",
+        "zh-cn": "藏弓待用",
+        "ko-kr": "감춰둔 활",
+        "ru-ru": "Отложено на охоту",
+        "de-de": "Versteckter Bogen",
+        "fr-fr": "Arc de réserve",
+        "es-es": "Arco de repuesto",
+        "id-id": "Perserved for the Hunt",
+        "th-th": "Perserved for the Hunt",
+        "vi-vn": "Cất Cung Đợi Dùng",
+        "zh-tw": "藏弓待用"
+      },
+      "description": {
+        "pt-pt": "Retorna 15% dos minérios usados ao criar armas do tipo Arco.",
+        "en-us": "Refunds 15% of the ore used when crafting Bow-type weapons.",
+        "ja-jp": "弓を鍛造する時、消費した鉱石の15%が返還される。",
+        "zh-cn": "锻造弓类武器时，返还15%消耗的矿石。",
+        "ko-kr": "활 무기 단조 시 소모한 광석을 15% 반환한다",
+        "ru-ru": "При ковке стрелкового оружия возвращает 15% затраченной руды.",
+        "de-de": "Gibt beim Schmieden von Bögen 15 % des verbrauchten Erzes zurück.",
+        "fr-fr": "Lorsque vous forgez un arc, 15 % du minerai utilisé vous sera rendu.",
+        "es-es": "Recupera el 15% de los minerales utilizados en la fabricación de arcos.",
+        "id-id": "Mengembalikan 15% jumlah Ore yang digunakan saat membuat senjata tipe Bow.",
+        "th-th": "เมื่อสร้างอาวุธประเภทธนู จะได้รับแร่ที่ใช้ในการหลอมคืน 15%",
+        "vi-vn": "Khi rèn vũ khí loại cung, hoàn trả 15% Khoáng Thạch tiêu hao.",
+        "zh-tw": "鍛造弓類武器時，歸還15%消耗的礦石。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/甘雨/const_talent_2.png"
+    }
+  ],
+  "talentAttributes": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Disparo Liutian",
+        "en-us": "Liutian Archery",
+        "ja-jp": "流天射術",
+        "zh-cn": "普通攻击·流天射术",
+        "ko-kr": "일반 공격·유천 사격술",
+        "ru-ru": "Небесная стрела",
+        "de-de": "Standardangriff: Himmlische Schießkunst",
+        "fr-fr": "Attaque normale : Archerie Liutian",
+        "es-es": "Ataque Normal: Técnica de tiro Liutian",
+        "id-id": "Normal Attack: Liutian Archery",
+        "th-th": "โจมตีปกติ - Liutian Archery",
+        "vi-vn": "Tấn Công Thường - Lưu Thiên Xạ Thuật",
+        "zh-tw": "普通攻擊·流天射術"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 1° Golpe",
+            "en-us": "1-Hit DMG",
+            "ja-jp": "1段ダメージ",
+            "zh-cn": "一段伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон атаки 1",
+            "de-de": "SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tahap 1",
+            "th-th": "ความเสียหายขั้น 1",
+            "vi-vn": "Sát Thương Lần 1",
+            "zh-tw": "一段傷害"
+          },
+          "values": [
+            "31.7%",
+            "34.3%",
+            "36.9%",
+            "40.6%",
+            "43.2%",
+            "46.1%",
+            "50.2%",
+            "54.2%",
+            "58.3%",
+            "62.7%",
+            "67.8%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 2° Golpe",
+            "en-us": "2-Hit DMG",
+            "ja-jp": "2段ダメージ",
+            "zh-cn": "二段伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон атаки 2",
+            "de-de": "SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2.º golpe",
+            "id-id": "DMG Tahap 2",
+            "th-th": "ความเสียหายขั้น 2",
+            "vi-vn": "Sát Thương Lần 2",
+            "zh-tw": "二段傷害"
+          },
+          "values": [
+            "35.6%",
+            "38.5%",
+            "41.4%",
+            "45.5%",
+            "48.4%",
+            "51.8%",
+            "56.3%",
+            "60.9%",
+            "65.4%",
+            "70.4%",
+            "76.1%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 3° Golpe",
+            "en-us": "3-Hit DMG",
+            "ja-jp": "3段ダメージ",
+            "zh-cn": "三段伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон атаки 3",
+            "de-de": "SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tahap 3",
+            "th-th": "ความเสียหายขั้น 3",
+            "vi-vn": "Sát Thương Lần 3",
+            "zh-tw": "三段傷害"
+          },
+          "values": [
+            "45.5%",
+            "49.2%",
+            "52.9%",
+            "58.2%",
+            "61.9%",
+            "66.1%",
+            "71.9%",
+            "77.8%",
+            "83.6%",
+            "89.9%",
+            "97.2%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 4° Golpe",
+            "en-us": "4-Hit DMG",
+            "ja-jp": "4段ダメージ",
+            "zh-cn": "四段伤害",
+            "ko-kr": "4단 공격 피해",
+            "ru-ru": "Урон атаки 4",
+            "de-de": "SCH Phase 4",
+            "fr-fr": "DGT 4e coup",
+            "es-es": "Daño de 4.º golpe",
+            "id-id": "DMG Tahap 4",
+            "th-th": "ความเสียหายขั้น 4",
+            "vi-vn": "Sát Thương Lần 4",
+            "zh-tw": "四段傷害"
+          },
+          "values": [
+            "45.5%",
+            "49.2%",
+            "52.9%",
+            "58.2%",
+            "61.9%",
+            "66.1%",
+            "71.9%",
+            "77.8%",
+            "83.6%",
+            "89.9%",
+            "97.2%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 5° Golpe",
+            "en-us": "5-Hit DMG",
+            "ja-jp": "5段ダメージ",
+            "zh-cn": "五段伤害",
+            "ko-kr": "5단 공격 피해",
+            "ru-ru": "Урон атаки 5",
+            "de-de": "SCH Phase 5",
+            "fr-fr": "DGT 5e coup",
+            "es-es": "Daño de 5.º golpe",
+            "id-id": "DMG Tahap 5",
+            "th-th": "ความเสียหายขั้น 5",
+            "vi-vn": "Sát Thương Lần 5",
+            "zh-tw": "五段傷害"
+          },
+          "values": [
+            "48.3%",
+            "52.2%",
+            "56.1%",
+            "61.7%",
+            "65.6%",
+            "70.1%",
+            "76.3%",
+            "82.5%",
+            "88.6%",
+            "95.4%",
+            "103.1%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 6° Golpe",
+            "en-us": "6-Hit DMG",
+            "ja-jp": "6段ダメージ",
+            "zh-cn": "六段伤害",
+            "ko-kr": "6단 공격 피해",
+            "ru-ru": "Урон атаки 6",
+            "de-de": "SCH Phase 6",
+            "fr-fr": "DGT 6e coup",
+            "es-es": "Daño de 6.º golpe",
+            "id-id": "DMG Tahap 6",
+            "th-th": "ความเสียหายขั้น 6",
+            "vi-vn": "Sát Thương Lần 6",
+            "zh-tw": "六段傷害"
+          },
+          "values": [
+            "57.6%",
+            "62.3%",
+            "67%",
+            "73.7%",
+            "78.4%",
+            "83.8%",
+            "91.1%",
+            "98.5%",
+            "105.9%",
+            "113.9%",
+            "123.1%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Disparo com Mira",
+            "en-us": "Aimed Shot",
+            "ja-jp": "狙い撃ち",
+            "zh-cn": "瞄准射击",
+            "ko-kr": "조준 사격",
+            "ru-ru": "Прицельный выстрел",
+            "de-de": "Gezielte Schüsse",
+            "fr-fr": "DGT tir visé",
+            "es-es": "Disparo Preciso",
+            "id-id": "DMG Membidik",
+            "th-th": "เล็งโจมตี",
+            "vi-vn": "Ngắm Bắn",
+            "zh-tw": "瞄準射擊"
+          },
+          "values": [
+            "43.9%",
+            "47.4%",
+            "51%",
+            "56.1%",
+            "59.7%",
+            "63.8%",
+            "69.4%",
+            "75%",
+            "80.6%",
+            "86.7%",
+            "92.8%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Disparo Carregado com Mira Nv.1",
+            "en-us": "Aimed Shot Charge Level 1",
+            "ja-jp": "1段チャージ狙い撃ち",
+            "zh-cn": "一段蓄力瞄准射击",
+            "ko-kr": "1단 차지 조준 사격",
+            "ru-ru": "Ур. заряда 1",
+            "de-de": "Gezielte Schüsse Aufladephase 1",
+            "fr-fr": "DGT 1e charge",
+            "es-es": "1er Disparo Preciso cargado",
+            "id-id": "Serangan Membidik Tahap 1",
+            "th-th": "เล็งโจมตีและชาร์จระดับ 1",
+            "vi-vn": "Tụ lực Ngắm Bắn Lần 1",
+            "zh-tw": "一段蓄力瞄準射擊"
+          },
+          "values": [
+            "124%",
+            "133%",
+            "143%",
+            "155%",
+            "164%",
+            "174%",
+            "186%",
+            "198%",
+            "211%",
+            "223%",
+            "236%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano da Flecha Congelante",
+            "en-us": "Frostflake Arrow DMG",
+            "ja-jp": "霜華の矢の命中ダメージ",
+            "zh-cn": "霜华矢命中伤害",
+            "ko-kr": "서리꽃 화살 명중 피해",
+            "ru-ru": "Урон стрелы-снежинки",
+            "de-de": "SCH bei Treffern mit Frostblütenpfeilen",
+            "fr-fr": "DGT flèche de givre",
+            "es-es": "Daño de flecha helada",
+            "id-id": "DMG Frostflake Arrow",
+            "th-th": "ความเสียหาย Frostflake Arrow",
+            "vi-vn": "Sát thương bắn trúng của Cung Sương Hoa",
+            "zh-tw": "霜華矢命中傷害"
+          },
+          "values": [
+            "128%",
+            "138%",
+            "147%",
+            "160%",
+            "170%",
+            "179%",
+            "192%",
+            "205%",
+            "218%",
+            "230%",
+            "243%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Explosão da Flecha Congelante",
+            "en-us": "Frostflake Arrow Bloom DMG",
+            "ja-jp": "霜華の矢·霜華満開ダメージ",
+            "zh-cn": "霜华矢·霜华绽发伤害",
+            "ko-kr": "서리꽃 화살·피어나는 서리꽃 피해",
+            "ru-ru": "Урон цветения стрелы",
+            "de-de": "SCH beim Erblühen von Frostblütenpfeilen",
+            "fr-fr": "DGT zone de givre",
+            "es-es": "Daño de explosión de escarcha de flecha helada",
+            "id-id": "DMG Frostflake Arrow Bloom",
+            "th-th": "ความเสียหาย Frostflake Arrow Bloom",
+            "vi-vn": "ST Cung Sương Hoa: Sương Giá Tung Bay",
+            "zh-tw": "霜華矢·霜華綻發傷害"
+          },
+          "values": [
+            "218%",
+            "234%",
+            "250%",
+            "272%",
+            "288%",
+            "305%",
+            "326%",
+            "348%",
+            "370%",
+            "392%",
+            "413%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Durante a Queda",
+            "en-us": "Plunge DMG",
+            "ja-jp": "落下期間のダメージ",
+            "zh-cn": "下坠期间伤害",
+            "ko-kr": "낙하 기간 피해",
+            "ru-ru": "Урон в падении",
+            "de-de": "SCH beim Fallen",
+            "fr-fr": "DGT durant la chute",
+            "es-es": "Daño de Caída",
+            "id-id": "DMG Selama Plunging",
+            "th-th": "ความเสียหายพุ่งลง",
+            "vi-vn": "Sát Thương Khi Rơi",
+            "zh-tw": "下墜期間傷害"
+          },
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Queda de Baixa/Alta Altitude",
+            "en-us": "Low/High Plunge DMG",
+            "ja-jp": "低空/高空落下攻撃ダメージ",
+            "zh-cn": "低空/高空坠地冲击伤害",
+            "ko-kr": "저공/고공 추락 충격 피해",
+            "ru-ru": "Урон низкого/высокого удара",
+            "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
+            "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Daño de impacto de caída baja/alta",
+            "id-id": "DMG Plunging Attack Min./Maks.",
+            "th-th": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+            "vi-vn": "Sát Thương Khi Rơi Từ Độ Cao Thấp/Cao",
+            "zh-tw": "低空/高空墜地衝擊傷害"
+          },
+          "values": [
+            "114%/142%",
+            "123%/154%",
+            "132%/165%",
+            "145%/182%",
+            "155%/193%",
+            "165%/206%",
+            "180%/225%",
+            "194%/243%",
+            "209%/261%",
+            "225%/281%",
+            "241%/300%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_skill",
+      "talentName": {
+        "pt-pt": "Rastros de Qilin",
+        "en-us": "Trail of the Qilin",
+        "ja-jp": "山沢麟跡",
+        "zh-cn": "山泽麟迹",
+        "ko-kr": "산과 강의 기린 흔적",
+        "ru-ru": "След цилиня",
+        "de-de": "Spuren des Qilins",
+        "fr-fr": "Trace de Qilin",
+        "es-es": "Senda de Chilin",
+        "id-id": "Trail of the Qilin",
+        "th-th": "Trail of the Qilin",
+        "vi-vn": "Sơn Trạch Lân Tích",
+        "zh-tw": "山澤麟跡"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Vida Recebida",
+            "en-us": "Inherited HP",
+            "ja-jp": "HP継承",
+            "zh-cn": "继承生命",
+            "ko-kr": "HP 계승",
+            "ru-ru": "HP лотоса",
+            "de-de": "Erhaltene LP",
+            "fr-fr": "PV hérités",
+            "es-es": "Vida del loto",
+            "id-id": "HP Terwariskan",
+            "th-th": "สืบทอดพลังชีวิต",
+            "vi-vn": "HP Thừa Kế",
+            "zh-tw": "繼承生命"
+          },
+          "values": [
+            "120%",
+            "129%",
+            "138%",
+            "150%",
+            "159%",
+            "168%",
+            "180%",
+            "192%",
+            "204%",
+            "216%",
+            "228%",
+            "240%",
+            "255%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Habilidade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "132%",
+            "142%",
+            "152%",
+            "165%",
+            "175%",
+            "185%",
+            "198%",
+            "211%",
+            "224%",
+            "238%",
+            "251%",
+            "264%",
+            "281%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração",
+            "en-us": "Duration",
+            "ja-jp": "継続時間",
+            "zh-cn": "持续时间",
+            "ko-kr": "지속 시간",
+            "ru-ru": "Длительность",
+            "de-de": "Dauer",
+            "fr-fr": "Durée",
+            "es-es": "Duración",
+            "id-id": "Durasi",
+            "th-th": "ระยะเวลาต่อเนื่อง",
+            "vi-vn": "Thời Gian Kéo Dài",
+            "zh-tw": "持續時間"
+          },
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s",
+            "10s"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_burst",
+      "talentName": {
+        "pt-pt": "Chuva Celestial",
+        "en-us": "Celestial Shower",
+        "ja-jp": "降衆天華",
+        "zh-cn": "降众天华",
+        "ko-kr": "쏟아지는 천화",
+        "ru-ru": "Небесный дождь",
+        "de-de": "Bändigender Niederschlag",
+        "fr-fr": "Baptême céleste",
+        "es-es": "Diluvio celestial",
+        "id-id": "Celestial Shower",
+        "th-th": "Celestial Shower",
+        "vi-vn": "Thiên Hoa Hạ Phàm",
+        "zh-tw": "降眾天華"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Fragmento de Gelo",
+            "en-us": "Ice Shard DMG",
+            "ja-jp": "氷柱ダメージ",
+            "zh-cn": "冰棱伤害",
+            "ko-kr": "고드름 피해",
+            "ru-ru": "Урон ледяных осколков",
+            "de-de": "Eiszapfen-SCH",
+            "fr-fr": "DGT éclats de glace",
+            "es-es": "Daño de carámbano",
+            "id-id": "DMG Ice Shard",
+            "th-th": "ความเสียหาย Ice Shard",
+            "vi-vn": "Sát thương Nhũ Băng",
+            "zh-tw": "冰稜傷害"
+          },
+          "values": [
+            "70%",
+            "76%",
+            "81%",
+            "88%",
+            "93%",
+            "98%",
+            "105%",
+            "112%",
+            "119%",
+            "126%",
+            "134%",
+            "141%",
+            "149%",
+            "158%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração",
+            "en-us": "Duration",
+            "ja-jp": "継続時間",
+            "zh-cn": "持续时间",
+            "ko-kr": "지속 시간",
+            "ru-ru": "Длительность",
+            "de-de": "Dauer",
+            "fr-fr": "Durée",
+            "es-es": "Duración",
+            "id-id": "Durasi",
+            "th-th": "ระยะเวลาต่อเนื่อง",
+            "vi-vn": "Thời Gian Kéo Dài",
+            "zh-tw": "持續時間"
+          },
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Energia Elemental",
+            "en-us": "Energy Cost",
+            "ja-jp": "元素エネルギー",
+            "zh-cn": "元素能量",
+            "ko-kr": "원소 에너지",
+            "ru-ru": "Потребление энергии",
+            "de-de": "Elementarenergie",
+            "fr-fr": "Énergie élémentaire",
+            "es-es": "Energía Elemental",
+            "id-id": "Konsumsi Energy",
+            "th-th": "พลังงานธาตุ",
+            "vi-vn": "Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量"
+          },
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "talentMaterials": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Disparo Liutian",
+        "en-us": "Liutian Archery",
+        "ja-jp": "流天射術",
+        "zh-cn": "普通攻击·流天射术",
+        "ko-kr": "일반 공격·유천 사격술",
+        "ru-ru": "Небесная стрела",
+        "de-de": "Standardangriff: Himmlische Schießkunst",
+        "fr-fr": "Attaque normale : Archerie Liutian",
+        "es-es": "Ataque Normal: Técnica de tiro Liutian",
+        "id-id": "Normal Attack: Liutian Archery",
+        "th-th": "โจมตีปกติ - Liutian Archery",
+        "vi-vn": "Tấn Công Thường - Lưu Thiên Xạ Thuật",
+        "zh-tw": "普通攻擊·流天射術"
+      },
+      "materials": [
+        {
+          "level": 2,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 12500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "76",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Ensinamentos de Esforço",
+                "en-us": "Teachings of Diligence",
+                "ja-jp": "勤労の教え",
+                "zh-cn": "勤劳的教导",
+                "ko-kr": "근면의 가르침",
+                "ru-ru": "Учения об Усердии",
+                "de-de": "Lehren des Fleißes",
+                "fr-fr": "Enseignement de la Diligence",
+                "es-es": "Enseñanzas del esfuerzo",
+                "id-id": "Teachings of Diligence",
+                "th-th": "Teachings of Diligence",
+                "vi-vn": "Bài Giảng Của Chăm Chỉ",
+                "zh-tw": "勤勞的教導"
+              }
+            },
+            {
+              "id": "1876",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Néctar da Flor Gigante",
+                "en-us": "Whopperflower Nectar",
+                "ja-jp": "トリックフラワーの蜜",
+                "zh-cn": "骗骗花蜜",
+                "ko-kr": "구라구라 꽃꿀",
+                "ru-ru": "Нектар попрыгуньи",
+                "de-de": "Vaniloqua-Nektar",
+                "fr-fr": "Nectar de Fleur mensongère",
+                "es-es": "Néctar de Megaflora",
+                "id-id": "Whopperflower Nectar",
+                "th-th": "Whopperflower Nectar",
+                "vi-vn": "Mật Hoa Lừa Dối",
+                "zh-tw": "騙騙花蜜"
+              }
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 17500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "75",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Guia de Esforço",
+                "en-us": "Guide to Diligence",
+                "ja-jp": "勤労の導き",
+                "zh-cn": "勤劳的指引",
+                "ko-kr": "근면의 인도",
+                "ru-ru": "Указания об Усердии",
+                "de-de": "Anleitung zum Fleiß",
+                "fr-fr": "Guide de la Diligence",
+                "es-es": "Guía del esfuerzo",
+                "id-id": "Guide to Diligence",
+                "th-th": "Guide to Diligence",
+                "vi-vn": "Hướng Dẫn Của Chăm Chỉ",
+                "zh-tw": "勤勞的指引"
+              }
+            },
+            {
+              "id": "722",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Néctar Brilhante",
+                "en-us": "Shimmering Nectar",
+                "ja-jp": "微光花の蜜",
+                "zh-cn": "微光花蜜",
+                "ko-kr": "반짝반짝 꽃꿀",
+                "ru-ru": "Мерцающий нектар",
+                "de-de": "Leuchtender Nektar",
+                "fr-fr": "Nectar miroitant",
+                "es-es": "Néctar brillante",
+                "id-id": "Shimmering Nectar",
+                "th-th": "Shimmering Nectar",
+                "vi-vn": "Mật Hoa Lấp Lánh",
+                "zh-tw": "微光花蜜"
+              }
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 25000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "75",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Guia de Esforço",
+                "en-us": "Guide to Diligence",
+                "ja-jp": "勤労の導き",
+                "zh-cn": "勤劳的指引",
+                "ko-kr": "근면의 인도",
+                "ru-ru": "Указания об Усердии",
+                "de-de": "Anleitung zum Fleiß",
+                "fr-fr": "Guide de la Diligence",
+                "es-es": "Guía del esfuerzo",
+                "id-id": "Guide to Diligence",
+                "th-th": "Guide to Diligence",
+                "vi-vn": "Hướng Dẫn Của Chăm Chỉ",
+                "zh-tw": "勤勞的指引"
+              }
+            },
+            {
+              "id": "722",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Néctar Brilhante",
+                "en-us": "Shimmering Nectar",
+                "ja-jp": "微光花の蜜",
+                "zh-cn": "微光花蜜",
+                "ko-kr": "반짝반짝 꽃꿀",
+                "ru-ru": "Мерцающий нектар",
+                "de-de": "Leuchtender Nektar",
+                "fr-fr": "Nectar miroitant",
+                "es-es": "Néctar brillante",
+                "id-id": "Shimmering Nectar",
+                "th-th": "Shimmering Nectar",
+                "vi-vn": "Mật Hoa Lấp Lánh",
+                "zh-tw": "微光花蜜"
+              }
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 30000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "75",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Guia de Esforço",
+                "en-us": "Guide to Diligence",
+                "ja-jp": "勤労の導き",
+                "zh-cn": "勤劳的指引",
+                "ko-kr": "근면의 인도",
+                "ru-ru": "Указания об Усердии",
+                "de-de": "Anleitung zum Fleiß",
+                "fr-fr": "Guide de la Diligence",
+                "es-es": "Guía del esfuerzo",
+                "id-id": "Guide to Diligence",
+                "th-th": "Guide to Diligence",
+                "vi-vn": "Hướng Dẫn Của Chăm Chỉ",
+                "zh-tw": "勤勞的指引"
+              }
+            },
+            {
+              "id": "722",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Néctar Brilhante",
+                "en-us": "Shimmering Nectar",
+                "ja-jp": "微光花の蜜",
+                "zh-cn": "微光花蜜",
+                "ko-kr": "반짝반짝 꽃꿀",
+                "ru-ru": "Мерцающий нектар",
+                "de-de": "Leuchtender Nektar",
+                "fr-fr": "Nectar miroitant",
+                "es-es": "Néctar brillante",
+                "id-id": "Shimmering Nectar",
+                "th-th": "Shimmering Nectar",
+                "vi-vn": "Mật Hoa Lấp Lánh",
+                "zh-tw": "微光花蜜"
+              }
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 37500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "75",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Guia de Esforço",
+                "en-us": "Guide to Diligence",
+                "ja-jp": "勤労の導き",
+                "zh-cn": "勤劳的指引",
+                "ko-kr": "근면의 인도",
+                "ru-ru": "Указания об Усердии",
+                "de-de": "Anleitung zum Fleiß",
+                "fr-fr": "Guide de la Diligence",
+                "es-es": "Guía del esfuerzo",
+                "id-id": "Guide to Diligence",
+                "th-th": "Guide to Diligence",
+                "vi-vn": "Hướng Dẫn Của Chăm Chỉ",
+                "zh-tw": "勤勞的指引"
+              }
+            },
+            {
+              "id": "722",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Néctar Brilhante",
+                "en-us": "Shimmering Nectar",
+                "ja-jp": "微光花の蜜",
+                "zh-cn": "微光花蜜",
+                "ko-kr": "반짝반짝 꽃꿀",
+                "ru-ru": "Мерцающий нектар",
+                "de-de": "Leuchtender Nektar",
+                "fr-fr": "Nectar miroitant",
+                "es-es": "Néctar brillante",
+                "id-id": "Shimmering Nectar",
+                "th-th": "Shimmering Nectar",
+                "vi-vn": "Mật Hoa Lấp Lánh",
+                "zh-tw": "微光花蜜"
+              }
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 120000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "74",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Filosofia de Esforço",
+                "en-us": "Philosophies of Diligence",
+                "ja-jp": "勤労の哲学",
+                "zh-cn": "勤劳的哲学",
+                "ko-kr": "근면의 철학",
+                "ru-ru": "Философия об Усердии",
+                "de-de": "Philosophie des Fleißes",
+                "fr-fr": "Philosophie de la Diligence",
+                "es-es": "Filosofía del esfuerzo",
+                "id-id": "Philosophies of Diligence",
+                "th-th": "Philosophies of Diligence",
+                "vi-vn": "Triết Học Của Chăm Chỉ",
+                "zh-tw": "勤勞的哲學"
+              }
+            },
+            {
+              "id": "372",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Néctar Elemental",
+                "en-us": "Energy Nectar",
+                "ja-jp": "原素花の蜜",
+                "zh-cn": "原素花蜜",
+                "ko-kr": "원소 꽃꿀",
+                "ru-ru": "Элементальный нектар",
+                "de-de": "Elementarnektar",
+                "fr-fr": "Nectar élémentaire",
+                "es-es": "Néctar energético",
+                "id-id": "Energy Nectar",
+                "th-th": "Elemental Nectar",
+                "vi-vn": "Mật Hoa Nguyên Tố",
+                "zh-tw": "原素花蜜"
+              }
+            },
+            {
+              "id": "969",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Sombra do Guerreiro",
+                "en-us": "Shadow of the Warrior",
+                "ja-jp": "武煉の魂・孤影",
+                "zh-cn": "武炼之魂·孤影",
+                "ko-kr": "무예의 혼·고영",
+                "ru-ru": "Тень воина",
+                "de-de": "Seele des Kriegers – Schatten",
+                "fr-fr": "Ombre du guerrier",
+                "es-es": "Sombra del guerrero",
+                "id-id": "Shadow of the Warrior",
+                "th-th": "Shadow of the Warrior",
+                "vi-vn": "Linh Hồn Võ Luyện - Cô Độc",
+                "zh-tw": "武煉之魂·孤影"
+              }
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 260000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "74",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Filosofia de Esforço",
+                "en-us": "Philosophies of Diligence",
+                "ja-jp": "勤労の哲学",
+                "zh-cn": "勤劳的哲学",
+                "ko-kr": "근면의 철학",
+                "ru-ru": "Философия об Усердии",
+                "de-de": "Philosophie des Fleißes",
+                "fr-fr": "Philosophie de la Diligence",
+                "es-es": "Filosofía del esfuerzo",
+                "id-id": "Philosophies of Diligence",
+                "th-th": "Philosophies of Diligence",
+                "vi-vn": "Triết Học Của Chăm Chỉ",
+                "zh-tw": "勤勞的哲學"
+              }
+            },
+            {
+              "id": "372",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Néctar Elemental",
+                "en-us": "Energy Nectar",
+                "ja-jp": "原素花の蜜",
+                "zh-cn": "原素花蜜",
+                "ko-kr": "원소 꽃꿀",
+                "ru-ru": "Элементальный нектар",
+                "de-de": "Elementarnektar",
+                "fr-fr": "Nectar élémentaire",
+                "es-es": "Néctar energético",
+                "id-id": "Energy Nectar",
+                "th-th": "Elemental Nectar",
+                "vi-vn": "Mật Hoa Nguyên Tố",
+                "zh-tw": "原素花蜜"
+              }
+            },
+            {
+              "id": "969",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Sombra do Guerreiro",
+                "en-us": "Shadow of the Warrior",
+                "ja-jp": "武煉の魂・孤影",
+                "zh-cn": "武炼之魂·孤影",
+                "ko-kr": "무예의 혼·고영",
+                "ru-ru": "Тень воина",
+                "de-de": "Seele des Kriegers – Schatten",
+                "fr-fr": "Ombre du guerrier",
+                "es-es": "Sombra del guerrero",
+                "id-id": "Shadow of the Warrior",
+                "th-th": "Shadow of the Warrior",
+                "vi-vn": "Linh Hồn Võ Luyện - Cô Độc",
+                "zh-tw": "武煉之魂·孤影"
+              }
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 450000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "74",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Filosofia de Esforço",
+                "en-us": "Philosophies of Diligence",
+                "ja-jp": "勤労の哲学",
+                "zh-cn": "勤劳的哲学",
+                "ko-kr": "근면의 철학",
+                "ru-ru": "Философия об Усердии",
+                "de-de": "Philosophie des Fleißes",
+                "fr-fr": "Philosophie de la Diligence",
+                "es-es": "Filosofía del esfuerzo",
+                "id-id": "Philosophies of Diligence",
+                "th-th": "Philosophies of Diligence",
+                "vi-vn": "Triết Học Của Chăm Chỉ",
+                "zh-tw": "勤勞的哲學"
+              }
+            },
+            {
+              "id": "372",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Néctar Elemental",
+                "en-us": "Energy Nectar",
+                "ja-jp": "原素花の蜜",
+                "zh-cn": "原素花蜜",
+                "ko-kr": "원소 꽃꿀",
+                "ru-ru": "Элементальный нектар",
+                "de-de": "Elementarnektar",
+                "fr-fr": "Nectar élémentaire",
+                "es-es": "Néctar energético",
+                "id-id": "Energy Nectar",
+                "th-th": "Elemental Nectar",
+                "vi-vn": "Mật Hoa Nguyên Tố",
+                "zh-tw": "原素花蜜"
+              }
+            },
+            {
+              "id": "969",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Sombra do Guerreiro",
+                "en-us": "Shadow of the Warrior",
+                "ja-jp": "武煉の魂・孤影",
+                "zh-cn": "武炼之魂·孤影",
+                "ko-kr": "무예의 혼·고영",
+                "ru-ru": "Тень воина",
+                "de-de": "Seele des Kriegers – Schatten",
+                "fr-fr": "Ombre du guerrier",
+                "es-es": "Sombra del guerrero",
+                "id-id": "Shadow of the Warrior",
+                "th-th": "Shadow of the Warrior",
+                "vi-vn": "Linh Hồn Võ Luyện - Cô Độc",
+                "zh-tw": "武煉之魂·孤影"
+              }
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 700000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "74",
+              "iconUrl": null,
+              "amount": 16,
+              "name": {
+                "pt-pt": "Filosofia de Esforço",
+                "en-us": "Philosophies of Diligence",
+                "ja-jp": "勤労の哲学",
+                "zh-cn": "勤劳的哲学",
+                "ko-kr": "근면의 철학",
+                "ru-ru": "Философия об Усердии",
+                "de-de": "Philosophie des Fleißes",
+                "fr-fr": "Philosophie de la Diligence",
+                "es-es": "Filosofía del esfuerzo",
+                "id-id": "Philosophies of Diligence",
+                "th-th": "Philosophies of Diligence",
+                "vi-vn": "Triết Học Của Chăm Chỉ",
+                "zh-tw": "勤勞的哲學"
+              }
+            },
+            {
+              "id": "372",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Néctar Elemental",
+                "en-us": "Energy Nectar",
+                "ja-jp": "原素花の蜜",
+                "zh-cn": "原素花蜜",
+                "ko-kr": "원소 꽃꿀",
+                "ru-ru": "Элементальный нектар",
+                "de-de": "Elementarnektar",
+                "fr-fr": "Nectar élémentaire",
+                "es-es": "Néctar energético",
+                "id-id": "Energy Nectar",
+                "th-th": "Elemental Nectar",
+                "vi-vn": "Mật Hoa Nguyên Tố",
+                "zh-tw": "原素花蜜"
+              }
+            },
+            {
+              "id": "969",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Sombra do Guerreiro",
+                "en-us": "Shadow of the Warrior",
+                "ja-jp": "武煉の魂・孤影",
+                "zh-cn": "武炼之魂·孤影",
+                "ko-kr": "무예의 혼·고영",
+                "ru-ru": "Тень воина",
+                "de-de": "Seele des Kriegers – Schatten",
+                "fr-fr": "Ombre du guerrier",
+                "es-es": "Sombra del guerrero",
+                "id-id": "Shadow of the Warrior",
+                "th-th": "Shadow of the Warrior",
+                "vi-vn": "Linh Hồn Võ Luyện - Cô Độc",
+                "zh-tw": "武煉之魂·孤影"
+              }
+            },
+            {
+              "id": "900",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa da Sabedoria",
+                "en-us": "Crown of Insight",
+                "ja-jp": "知恵の冠",
+                "zh-cn": "智识之冕",
+                "ko-kr": "지식의 왕관",
+                "ru-ru": "Корона прозрения",
+                "de-de": "Krone der Weisheit",
+                "fr-fr": "Couronne de la sagesse",
+                "es-es": "Corona de la sabiduría",
+                "id-id": "Crown of Insight",
+                "th-th": "Crown of Insight",
+                "vi-vn": "Vương Miện Trí Thức",
+                "zh-tw": "智識之冕"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "affiliation": {
+    "pt-pt": "Pavilhão Yuehai",
+    "en-us": "Yuehai Pavilion",
+    "ja-jp": "月海亭",
+    "zh-cn": "月海亭",
+    "ko-kr": "월해정",
+    "ru-ru": "Павильон Лунного моря",
+    "de-de": "Yuehai-Pavillon",
+    "fr-fr": "Pavillon Yuehai",
+    "es-es": "Pabellón Yuehai",
+    "id-id": "Yuehai Pavilion",
+    "th-th": "Yuehai Pavilion",
+    "vi-vn": "Nguyệt Hải Đình",
+    "zh-tw": "月海亭"
+  },
+  "birthday": {
+    "pt-pt": "2/12",
+    "en-us": "12/2",
+    "ja-jp": "12月2日",
+    "zh-cn": "12月2日",
+    "ko-kr": "12월 2일",
+    "ru-ru": "2 декабря",
+    "de-de": "2. Dezember",
+    "fr-fr": "2/12",
+    "es-es": "2/12",
+    "id-id": "2 Desember",
+    "th-th": "2/12",
+    "vi-vn": "Ngày 2 tháng 12",
+    "zh-tw": "12月2日"
+  },
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "411",
+          "iconUrl": null,
+          "amount": 1,
+          "name": {
+            "pt-pt": "Lasca de Jade Shivada",
+            "en-us": "Shivada Jade Sliver",
+            "ja-jp": "哀切なアイスクリスタル・砕屑",
+            "zh-cn": "哀叙冰玉碎屑",
+            "ko-kr": "서늘한 빙옥 가루",
+            "ru-ru": "Осколок нефрита Шивада",
+            "de-de": "Shivada-Jade-Splitter",
+            "fr-fr": "Éclat de jade shivada",
+            "es-es": "Pedacito de jade shivada",
+            "id-id": "Shivada Jade Sliver",
+            "th-th": "Shivada Jade Sliver",
+            "vi-vn": "Mảnh Ngọc Băng Vụn",
+            "zh-tw": "哀敘冰玉碎屑"
+          }
+        },
+        {
+          "id": "1048",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Qingxin",
+            "en-us": "Qingxin",
+            "ja-jp": "清心",
+            "zh-cn": "清心",
+            "ko-kr": "청심",
+            "ru-ru": "Цветок цинсинь",
+            "de-de": "Qingxin",
+            "fr-fr": "Fleur de Qingxin",
+            "es-es": "Flor chingxin",
+            "id-id": "Qingxin",
+            "th-th": "Qingxin",
+            "vi-vn": "Thanh Tâm",
+            "zh-tw": "清心"
+          }
+        },
+        {
+          "id": "1876",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Néctar da Flor Gigante",
+            "en-us": "Whopperflower Nectar",
+            "ja-jp": "トリックフラワーの蜜",
+            "zh-cn": "骗骗花蜜",
+            "ko-kr": "구라구라 꽃꿀",
+            "ru-ru": "Нектар попрыгуньи",
+            "de-de": "Vaniloqua-Nektar",
+            "fr-fr": "Nectar de Fleur mensongère",
+            "es-es": "Néctar de Megaflora",
+            "id-id": "Whopperflower Nectar",
+            "th-th": "Whopperflower Nectar",
+            "vi-vn": "Mật Hoa Lừa Dối",
+            "zh-tw": "騙騙花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 40000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "410",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Jade Shivada",
+            "en-us": "Shivada Jade Fragment",
+            "ja-jp": "哀切なアイスクリスタル・欠片",
+            "zh-cn": "哀叙冰玉断片",
+            "ko-kr": "서늘한 빙옥 조각",
+            "ru-ru": "Фрагмент нефрита Шивада",
+            "de-de": "Shivada-Jade-Bruchstück",
+            "fr-fr": "Fragment de jade shivada",
+            "es-es": "Fragmento de jade shivada",
+            "id-id": "Shivada Jade Fragment",
+            "th-th": "Shivada Jade Fragment",
+            "vi-vn": "Mảnh Ngọc Băng Vỡ",
+            "zh-tw": "哀敘冰玉斷片"
+          }
+        },
+        {
+          "id": "938",
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Núcleo de Geada",
+            "en-us": "Hoarfrost Core",
+            "ja-jp": "極寒のコア",
+            "zh-cn": "极寒之核",
+            "ko-kr": "서리의 핵",
+            "ru-ru": "Инеевое ядро",
+            "de-de": "Fluxeiskern",
+            "fr-fr": "Duramen de glace",
+            "es-es": "Núcleo de escarcha",
+            "id-id": "Hoarfrost Core",
+            "th-th": "Hoarfrost Core",
+            "vi-vn": "Hạt Nhân Cực Hàn",
+            "zh-tw": "極寒之核"
+          }
+        },
+        {
+          "id": "1048",
+          "iconUrl": null,
+          "amount": 10,
+          "name": {
+            "pt-pt": "Qingxin",
+            "en-us": "Qingxin",
+            "ja-jp": "清心",
+            "zh-cn": "清心",
+            "ko-kr": "청심",
+            "ru-ru": "Цветок цинсинь",
+            "de-de": "Qingxin",
+            "fr-fr": "Fleur de Qingxin",
+            "es-es": "Flor chingxin",
+            "id-id": "Qingxin",
+            "th-th": "Qingxin",
+            "vi-vn": "Thanh Tâm",
+            "zh-tw": "清心"
+          }
+        },
+        {
+          "id": "1876",
+          "iconUrl": null,
+          "amount": 15,
+          "name": {
+            "pt-pt": "Néctar da Flor Gigante",
+            "en-us": "Whopperflower Nectar",
+            "ja-jp": "トリックフラワーの蜜",
+            "zh-cn": "骗骗花蜜",
+            "ko-kr": "구라구라 꽃꿀",
+            "ru-ru": "Нектар попрыгуньи",
+            "de-de": "Vaniloqua-Nektar",
+            "fr-fr": "Nectar de Fleur mensongère",
+            "es-es": "Néctar de Megaflora",
+            "id-id": "Whopperflower Nectar",
+            "th-th": "Whopperflower Nectar",
+            "vi-vn": "Mật Hoa Lừa Dối",
+            "zh-tw": "騙騙花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 60000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "410",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Jade Shivada",
+            "en-us": "Shivada Jade Fragment",
+            "ja-jp": "哀切なアイスクリスタル・欠片",
+            "zh-cn": "哀叙冰玉断片",
+            "ko-kr": "서늘한 빙옥 조각",
+            "ru-ru": "Фрагмент нефрита Шивада",
+            "de-de": "Shivada-Jade-Bruchstück",
+            "fr-fr": "Fragment de jade shivada",
+            "es-es": "Fragmento de jade shivada",
+            "id-id": "Shivada Jade Fragment",
+            "th-th": "Shivada Jade Fragment",
+            "vi-vn": "Mảnh Ngọc Băng Vỡ",
+            "zh-tw": "哀敘冰玉斷片"
+          }
+        },
+        {
+          "id": "938",
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Núcleo de Geada",
+            "en-us": "Hoarfrost Core",
+            "ja-jp": "極寒のコア",
+            "zh-cn": "极寒之核",
+            "ko-kr": "서리의 핵",
+            "ru-ru": "Инеевое ядро",
+            "de-de": "Fluxeiskern",
+            "fr-fr": "Duramen de glace",
+            "es-es": "Núcleo de escarcha",
+            "id-id": "Hoarfrost Core",
+            "th-th": "Hoarfrost Core",
+            "vi-vn": "Hạt Nhân Cực Hàn",
+            "zh-tw": "極寒之核"
+          }
+        },
+        {
+          "id": "1048",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Qingxin",
+            "en-us": "Qingxin",
+            "ja-jp": "清心",
+            "zh-cn": "清心",
+            "ko-kr": "청심",
+            "ru-ru": "Цветок цинсинь",
+            "de-de": "Qingxin",
+            "fr-fr": "Fleur de Qingxin",
+            "es-es": "Flor chingxin",
+            "id-id": "Qingxin",
+            "th-th": "Qingxin",
+            "vi-vn": "Thanh Tâm",
+            "zh-tw": "清心"
+          }
+        },
+        {
+          "id": "722",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Néctar Brilhante",
+            "en-us": "Shimmering Nectar",
+            "ja-jp": "微光花の蜜",
+            "zh-cn": "微光花蜜",
+            "ko-kr": "반짝반짝 꽃꿀",
+            "ru-ru": "Мерцающий нектар",
+            "de-de": "Leuchtender Nektar",
+            "fr-fr": "Nectar miroitant",
+            "es-es": "Néctar brillante",
+            "id-id": "Shimmering Nectar",
+            "th-th": "Shimmering Nectar",
+            "vi-vn": "Mật Hoa Lấp Lánh",
+            "zh-tw": "微光花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 80000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "409",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Jade Shivada",
+            "en-us": "Shivada Jade Chunk",
+            "ja-jp": "哀切なアイスクリスタル・塊",
+            "zh-cn": "哀叙冰玉块",
+            "ko-kr": "서늘한 빙옥 덩이",
+            "ru-ru": "Кусок нефрита Шивада",
+            "de-de": "Shivada-Jade-Brocken",
+            "fr-fr": "Morceau de jade shivada",
+            "es-es": "Trozo de jade shivada",
+            "id-id": "Shivada Jade Chunk",
+            "th-th": "Shivada Jade Chunk",
+            "vi-vn": "Miếng Ngọc Băng",
+            "zh-tw": "哀敘冰玉塊"
+          }
+        },
+        {
+          "id": "938",
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Núcleo de Geada",
+            "en-us": "Hoarfrost Core",
+            "ja-jp": "極寒のコア",
+            "zh-cn": "极寒之核",
+            "ko-kr": "서리의 핵",
+            "ru-ru": "Инеевое ядро",
+            "de-de": "Fluxeiskern",
+            "fr-fr": "Duramen de glace",
+            "es-es": "Núcleo de escarcha",
+            "id-id": "Hoarfrost Core",
+            "th-th": "Hoarfrost Core",
+            "vi-vn": "Hạt Nhân Cực Hàn",
+            "zh-tw": "極寒之核"
+          }
+        },
+        {
+          "id": "1048",
+          "iconUrl": null,
+          "amount": 30,
+          "name": {
+            "pt-pt": "Qingxin",
+            "en-us": "Qingxin",
+            "ja-jp": "清心",
+            "zh-cn": "清心",
+            "ko-kr": "청심",
+            "ru-ru": "Цветок цинсинь",
+            "de-de": "Qingxin",
+            "fr-fr": "Fleur de Qingxin",
+            "es-es": "Flor chingxin",
+            "id-id": "Qingxin",
+            "th-th": "Qingxin",
+            "vi-vn": "Thanh Tâm",
+            "zh-tw": "清心"
+          }
+        },
+        {
+          "id": "722",
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Néctar Brilhante",
+            "en-us": "Shimmering Nectar",
+            "ja-jp": "微光花の蜜",
+            "zh-cn": "微光花蜜",
+            "ko-kr": "반짝반짝 꽃꿀",
+            "ru-ru": "Мерцающий нектар",
+            "de-de": "Leuchtender Nektar",
+            "fr-fr": "Nectar miroitant",
+            "es-es": "Néctar brillante",
+            "id-id": "Shimmering Nectar",
+            "th-th": "Shimmering Nectar",
+            "vi-vn": "Mật Hoa Lấp Lánh",
+            "zh-tw": "微光花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 100000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "409",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Jade Shivada",
+            "en-us": "Shivada Jade Chunk",
+            "ja-jp": "哀切なアイスクリスタル・塊",
+            "zh-cn": "哀叙冰玉块",
+            "ko-kr": "서늘한 빙옥 덩이",
+            "ru-ru": "Кусок нефрита Шивада",
+            "de-de": "Shivada-Jade-Brocken",
+            "fr-fr": "Morceau de jade shivada",
+            "es-es": "Trozo de jade shivada",
+            "id-id": "Shivada Jade Chunk",
+            "th-th": "Shivada Jade Chunk",
+            "vi-vn": "Miếng Ngọc Băng",
+            "zh-tw": "哀敘冰玉塊"
+          }
+        },
+        {
+          "id": "938",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Núcleo de Geada",
+            "en-us": "Hoarfrost Core",
+            "ja-jp": "極寒のコア",
+            "zh-cn": "极寒之核",
+            "ko-kr": "서리의 핵",
+            "ru-ru": "Инеевое ядро",
+            "de-de": "Fluxeiskern",
+            "fr-fr": "Duramen de glace",
+            "es-es": "Núcleo de escarcha",
+            "id-id": "Hoarfrost Core",
+            "th-th": "Hoarfrost Core",
+            "vi-vn": "Hạt Nhân Cực Hàn",
+            "zh-tw": "極寒之核"
+          }
+        },
+        {
+          "id": "1048",
+          "iconUrl": null,
+          "amount": 45,
+          "name": {
+            "pt-pt": "Qingxin",
+            "en-us": "Qingxin",
+            "ja-jp": "清心",
+            "zh-cn": "清心",
+            "ko-kr": "청심",
+            "ru-ru": "Цветок цинсинь",
+            "de-de": "Qingxin",
+            "fr-fr": "Fleur de Qingxin",
+            "es-es": "Flor chingxin",
+            "id-id": "Qingxin",
+            "th-th": "Qingxin",
+            "vi-vn": "Thanh Tâm",
+            "zh-tw": "清心"
+          }
+        },
+        {
+          "id": "372",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Néctar Elemental",
+            "en-us": "Energy Nectar",
+            "ja-jp": "原素花の蜜",
+            "zh-cn": "原素花蜜",
+            "ko-kr": "원소 꽃꿀",
+            "ru-ru": "Элементальный нектар",
+            "de-de": "Elementarnektar",
+            "fr-fr": "Nectar élémentaire",
+            "es-es": "Néctar energético",
+            "id-id": "Energy Nectar",
+            "th-th": "Elemental Nectar",
+            "vi-vn": "Mật Hoa Nguyên Tố",
+            "zh-tw": "原素花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 120000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "408",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Gema de Jade Shivada",
+            "en-us": "Shivada Jade Gemstone",
+            "ja-jp": "哀切なアイスクリスタル",
+            "zh-cn": "哀叙冰玉",
+            "ko-kr": "서늘한 빙옥",
+            "ru-ru": "Драгоценный нефрит Шивада",
+            "de-de": "Shivada-Jade",
+            "fr-fr": "Pierre de jade shivada",
+            "es-es": "Jade shivada",
+            "id-id": "Shivada Jade Gemstone",
+            "th-th": "Shivada Jade Gemstone",
+            "vi-vn": "Ngọc Băng",
+            "zh-tw": "哀敘冰玉"
+          }
+        },
+        {
+          "id": "938",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Núcleo de Geada",
+            "en-us": "Hoarfrost Core",
+            "ja-jp": "極寒のコア",
+            "zh-cn": "极寒之核",
+            "ko-kr": "서리의 핵",
+            "ru-ru": "Инеевое ядро",
+            "de-de": "Fluxeiskern",
+            "fr-fr": "Duramen de glace",
+            "es-es": "Núcleo de escarcha",
+            "id-id": "Hoarfrost Core",
+            "th-th": "Hoarfrost Core",
+            "vi-vn": "Hạt Nhân Cực Hàn",
+            "zh-tw": "極寒之核"
+          }
+        },
+        {
+          "id": "1048",
+          "iconUrl": null,
+          "amount": 60,
+          "name": {
+            "pt-pt": "Qingxin",
+            "en-us": "Qingxin",
+            "ja-jp": "清心",
+            "zh-cn": "清心",
+            "ko-kr": "청심",
+            "ru-ru": "Цветок цинсинь",
+            "de-de": "Qingxin",
+            "fr-fr": "Fleur de Qingxin",
+            "es-es": "Flor chingxin",
+            "id-id": "Qingxin",
+            "th-th": "Qingxin",
+            "vi-vn": "Thanh Tâm",
+            "zh-tw": "清心"
+          }
+        },
+        {
+          "id": "372",
+          "iconUrl": null,
+          "amount": 24,
+          "name": {
+            "pt-pt": "Néctar Elemental",
+            "en-us": "Energy Nectar",
+            "ja-jp": "原素花の蜜",
+            "zh-cn": "原素花蜜",
+            "ko-kr": "원소 꽃꿀",
+            "ru-ru": "Элементальный нектар",
+            "de-de": "Elementarnektar",
+            "fr-fr": "Nectar élémentaire",
+            "es-es": "Néctar energético",
+            "id-id": "Energy Nectar",
+            "th-th": "Elemental Nectar",
+            "vi-vn": "Mật Hoa Nguyên Tố",
+            "zh-tw": "原素花蜜"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "763"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "26"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "49"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "0"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "1978",
+          "postAscensionValue": "2632"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "68",
+          "postAscensionValue": "90"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "127",
+          "postAscensionValue": "169"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "0",
+          "postAscensionValue": "0"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "3939",
+          "postAscensionValue": "4403"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "135",
+          "postAscensionValue": "151"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "253",
+          "postAscensionValue": "283"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "0",
+          "postAscensionValue": "9.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "5066",
+          "postAscensionValue": "5686"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "173",
+          "postAscensionValue": "194"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "326",
+          "postAscensionValue": "366"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "9.6%",
+          "postAscensionValue": "19.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "6355",
+          "postAscensionValue": "6820"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "217",
+          "postAscensionValue": "233"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "409",
+          "postAscensionValue": "439"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "19.2%",
+          "postAscensionValue": "19.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "7495",
+          "postAscensionValue": "7960"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "256",
+          "postAscensionValue": "272"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "482",
+          "postAscensionValue": "512"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "19.2%",
+          "postAscensionValue": "28.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "8643",
+          "postAscensionValue": "9108"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "295",
+          "postAscensionValue": "311"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "556",
+          "postAscensionValue": "586"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "28.8%",
+          "postAscensionValue": "38.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "9797",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "335",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "630",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "38.4%",
+          "postAscensionValue": ""
+        }
+      ]
+    }
+  ]
+}

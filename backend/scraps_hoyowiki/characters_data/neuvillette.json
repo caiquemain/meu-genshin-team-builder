@@ -1,0 +1,3271 @@
+{
+  "id": "neuvillette",
+  "wiki_id": "4023",
+  "name": {
+    "pt-pt": "Neuvillette",
+    "en-us": "Neuvillette",
+    "ja-jp": "ヌヴィレット",
+    "zh-cn": "那维莱特",
+    "ko-kr": "느비예트",
+    "ru-ru": "Нёвиллет",
+    "de-de": "Neuvillette",
+    "fr-fr": "Neuvillette",
+    "es-es": "Neuvillette",
+    "id-id": "Neuvillette",
+    "th-th": "Neuvillette",
+    "vi-vn": "Neuvillette",
+    "zh-tw": "那維萊特"
+  },
+  "title": {
+    "pt-pt": "Ordenador das Marés",
+    "en-us": "Ordainer of Inexorable Judgment",
+    "ja-jp": "告諭の潮騒",
+    "zh-cn": "谕告的潮音",
+    "ko-kr": "훈시의 파도 소리",
+    "ru-ru": "Распорядитель неумолимого суда",
+    "de-de": "Fäller des unerbittlichen Urteils",
+    "fr-fr": "Ordonnateur du jugement inexorable",
+    "es-es": "El Sentenciador de lo Inexorable",
+    "id-id": "Ordainer of Inexorable Judgment",
+    "th-th": "คลื่นประกาศิตพ้องชะตา",
+    "vi-vn": "Tiếng Sóng Phán Quyết",
+    "zh-tw": "諭告的潮音"
+  },
+  "description": {
+    "pt-pt": "O Juiz Supremo de Fontaine, conhecido com Iudex, é renomado por sua imparcialidade inabalável.",
+    "en-us": "The Chief Justice of Fontaine, known as the Iudex, is renowned for his unassailable impartiality.",
+    "ja-jp": "フォンテーヌの最高審判官。一分の隙もない「公正無私」な振る舞いで名高い。",
+    "zh-cn": "枫丹的最高审判官，因其无懈可击的「秉公无私」而闻名。",
+    "ko-kr": "언젠가 그들이 다시 돌아오는 날, 진정한 시련이 시작되리라.——불의 근원과 함께 묻힌 자, 스발란케",
+    "ru-ru": "Верховный судья Фонтейна, или же юдекс, прославившийся своей безукоризненной беспристрастностью.«Однажды они вернутся, и начнётся настоящее испытание», -  Шбаланке, Погребённый первозданным огнём.",
+    "de-de": "Oberster Richter Fontaines, bekannt für seine unanfechtbare „Unparteilichkeit“.",
+    "fr-fr": "Le juge suprême de Fontaine, également connu comme l'iudex, est réputé pour son impartialité sans faille.",
+    "es-es": "El juez supremo de Fontaine. Es conocido por su impecable imparcialidad y abnegación.",
+    "id-id": "Hakim Agung Fontaine yang bergelar Iudex. Terkenal karena selalu adil dan tidak berpihak.",
+    "th-th": "ผู้พิพากษาสูงสุดแห่ง Fontaine มีชื่อเสียงในด้าน \"ความเป็นกลาง\" อย่างสมบูรณ์",
+    "vi-vn": "Thẩm phán tối cao của Fontaine, nổi tiếng với sự công chính liêm minh của mình.",
+    "zh-tw": "楓丹的最高審判官，因其無懈可擊的「秉公無私」而聞名。"
+  },
+  "rarity": 5,
+  "vision": {
+    "label": {
+      "pt-pt": "Tipo Elemental",
+      "en-us": "Elemental Type",
+      "ja-jp": "元素タイプ",
+      "zh-cn": "元素属性",
+      "ko-kr": "원소 속성",
+      "ru-ru": "Элемент",
+      "de-de": "Elementartyp",
+      "fr-fr": "Élément",
+      "es-es": "Tipo elemental",
+      "id-id": "Tipe Elemen",
+      "th-th": "ประเภทธาตุ",
+      "vi-vn": "Thuộc Tính Nguyên Tố",
+      "zh-tw": "元素屬性"
+    },
+    "value": {
+      "pt-pt": "Hydro",
+      "en-us": "Hydro",
+      "ja-jp": "水元素",
+      "zh-cn": "水元素",
+      "ko-kr": "물 원소",
+      "ru-ru": "Гидро",
+      "de-de": "Hydro",
+      "fr-fr": "Hydro",
+      "es-es": "Hydro",
+      "id-id": "Hydro",
+      "th-th": "น้ำ",
+      "vi-vn": "Thủy",
+      "zh-tw": "水元素"
+    }
+  },
+  "weapon": {
+    "label": {
+      "pt-pt": "Arma",
+      "en-us": "Weapons",
+      "ja-jp": "武器種",
+      "zh-cn": "武器",
+      "ko-kr": "무기",
+      "ru-ru": "Тип",
+      "de-de": "Waffe",
+      "fr-fr": "Type d'arme",
+      "es-es": "Arma",
+      "id-id": "Senjata",
+      "th-th": "อาวุธ",
+      "vi-vn": "Vũ Khí",
+      "zh-tw": "武器"
+    },
+    "value": {
+      "pt-pt": "Catalisador",
+      "en-us": "Catalyst",
+      "ja-jp": "法器",
+      "zh-cn": "法器",
+      "ko-kr": "법구",
+      "ru-ru": "Катализатор",
+      "de-de": "Katalysator",
+      "fr-fr": "Catalyseur",
+      "es-es": "Catalizador",
+      "id-id": "Catalyst",
+      "th-th": "สื่อเวท",
+      "vi-vn": "Pháp Khí",
+      "zh-tw": "法器"
+    }
+  },
+  "characterIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/27/101132274/0513aa7f482dbb4778545d02f94956fe_916827246523274276.png",
+  "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/f54c8f0dae23fced358c28126f220a11_8997562060019157249.png",
+  "constellationNameOfficial": {
+    "pt-pt": "Leviathan Judicator",
+    "en-us": "Leviathan Judicator",
+    "ja-jp": "原海リヴァイアサン座",
+    "zh-cn": "原海巨灵座",
+    "ru-ru": "Левиафан-вершитель",
+    "de-de": "Leviathan Judicator",
+    "fr-fr": "Leviathan Judicator",
+    "es-es": "Leviathan Iudicator",
+    "id-id": "Leviathan Judicator",
+    "th-th": "Leviathan Judicator",
+    "zh-tw": "原海巨靈座",
+    "ko-kr": "N/A",
+    "vi-vn": "N/A"
+  },
+  "specialDish": {
+    "id": 4396,
+    "name": {
+      "pt-pt": "Consomme Purete",
+      "en-us": "Consomme Purete",
+      "ja-jp": "無欠のピュルテ",
+      "zh-cn": "缥雨一滴",
+      "ko-kr": "순수한 빗방울",
+      "ru-ru": "Пелена дождя",
+      "de-de": "Ein Tropfen trüben Niesels",
+      "fr-fr": "Pureté de consommé",
+      "es-es": "Gota de bruma",
+      "id-id": "Consomme Purete",
+      "th-th": "Consomme Purete",
+      "vi-vn": "Một Giọt Mưa Bay",
+      "zh-tw": "縹雨一滴"
+    },
+    "iconUrl": null
+  },
+  "namecard": {
+    "id": 6240,
+    "name": {
+      "pt-pt": "Neuvillette: Tsunami",
+      "en-us": "Neuvillette: Surge",
+      "ja-jp": "ヌヴィレット·浸透",
+      "zh-cn": "那维莱特·流澜",
+      "ko-kr": "느비예트·파란",
+      "ru-ru": "Наплыв",
+      "de-de": "Neuvillette – Welle",
+      "fr-fr": "Neuvillette - Afflux",
+      "es-es": "Neuvillette - Oleaje",
+      "id-id": "Neuvillette: Surge",
+      "th-th": "Neuvillette - กระแสวารี",
+      "vi-vn": "Neuvillette - Sóng Trào",
+      "zh-tw": "那維萊特·流瀾"
+    },
+    "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/15/ae3b927ee6ea1a8fc3161d0dc973d131_6798802567494600964.png"
+  },
+  "constellations": [
+    {
+      "id": "summaryList27385",
+      "constellationNumber": 1,
+      "name": {
+        "pt-pt": "Instituição Venerável",
+        "en-us": "Venerable Institution",
+        "ja-jp": "尊栄の創定",
+        "zh-cn": "尊荣的创定",
+        "ko-kr": "위대한 제정",
+        "ru-ru": "Основа почёта",
+        "de-de": "Erschaffung von Amt und Würde",
+        "fr-fr": "Création de l'honneur",
+        "es-es": "Eminente ordenanza",
+        "id-id": "Venerable Institution",
+        "th-th": "Venerable Institution",
+        "vi-vn": "Khởi Đầu Của Tôn Quý",
+        "zh-tw": "尊榮的創定"
+      },
+      "description": {
+        "pt-pt": "Quando Neuvillette entra no campo de batalha, ele obtém um acúmulo de \"Glória do Dragão\" do Talento Passivo \"Herdeiro do Antigo Legado do Mar\". É necessário ter desbloqueado o Talento Passivo \"Herdeiro do Antigo Legado do Mar\".Além disso, ao lançar seu Fortalecimento de Ataque Carregado: Reprimenda Judicial e Ataque Carregado: Justiça Igual, sua Resistência contra Interrupção aumenta.",
+        "en-us": "When Neuvillette takes the field, he will obtain 1 stack of Past Draconic Glories from the Passive Talent \"Heir to the Ancient Sea's Authority.\" You must first unlock the Passive Talent \"Heir to the Ancient Sea's Authority.\"Additionally, his interruption resistance will be increased while using the Charged Attack Empowerment: Legal Evaluation and the Charged Attack: Equitable Judgment.",
+        "ja-jp": "ヌヴィレット登場時、固有天賦「古海継嗣の権威」による「遺龍の栄光」を1層獲得する。固有天賦「古海継嗣の権威」を解放する必要がある。さらに、集力・心証開示と重撃・衡平な裁量を発動時、ヌヴィレットの中断耐性がアップする。",
+        "zh-cn": "那维莱特登场时，获得一层固有天赋「古海孑遗的权柄」的「遗龙之荣」。需要解锁固有天赋「古海孑遗的权柄」。此外，进行重击蓄力·诉论心证与重击·衡平推裁时，提高那维莱特的抗打断能力。",
+        "ko-kr": "느비예트 등장 시, 고유 특성 「생존한 고대바다의 계승자」의 「생존한 용의 영광」을 1스택 획득한다. 고유 특성 「생존한 고대바다의 계승자」를 해금해야 한다.또한, 차지 강공격·심증 형성과 강공격·공정한 판결 진행 시 느비예트의 경직 저항력이 증가한다",
+        "ru-ru": "Когда Нёвиллет на поле боя, он получает 1 уровень Былой славы драконов пассивного таланта Наследник древнего моря. Требуется разблокировать пассивный талант «Наследник древнего моря».Кроме того, во время применения заряженной атаки Облечение: Судебная оценка и заряженной атаки: Взвешенный вердикт его сопротивление прерыванию увеличивается.",
+        "de-de": "Neuvillette erhält beim Einwechseln einen Stapel „Glorie längst vergangener Drachen“ des passiven Talents „Erbe des Relikts der uralten See“. Das passive Talent „Erbe des Relikts der uralten See“ muss zuerst freigeschaltet werden.Außerdem erhöht sich beim Auslösen von Aufgeladener heftiger Schlag – Richterliche Prüfung und heftiger Schlag – Gerechter Vorstoß Neuvillettes Unterbrechungs-WDS.",
+        "fr-fr": "Neuvillette obtient un cumul de gloire draconique passée de l'aptitude passive « Héritier de l'autorité de l'ancienne mer » lorsqu'il est déployé au combat. L'aptitude passive « Héritier de l'autorité de l'ancienne mer » doit être déjà débloquée.De plus, sa RÉS à l'interruption augmente lors de la charge de l'attaque chargée « Avertissement procédural » et de l'utilisation de l'attaque chargée « Jugement équitable ».",
+        "es-es": "Cuando Neuvillette entra en el campo de batalla, obtiene 1 carga del efecto “gloria del legado dacroniano” del talento pasivo “Legatario de toda agua” (es necesario desbloquear el talento pasivo Legatario de toda agua).Además, al ejecutar el Ataque Potenciado: Apercibimiento procesal y el Ataque Cargado: Sentencia ecuánime, su Res a interrupción aumenta.",
+        "id-id": "Saat Neuvillette memasuki medan pertempuran, mendapatkan satu lapis Past Draconic Glories dari Talenta Pasif \"Heir to the Ancient Sea's Authority\" Harus membuka Talenta Pasif \"Heir to the Ancient Sea's Authority\" terlebih dahulu. Selain itu, saat melancarkan Charged Attack Empowerment: Legal Evaluation Judgment, ketahanan Neuvillette terhadap interupsi akan meningkat.",
+        "th-th": "เมื่อ Neuvillette เข้าสู่การต่อสู้ จะได้รับ \"Past Draconic Glories\" ของพรสวรรค์ติดตัว \"Heir to the Ancient Sea's Authority\" 1 ชั้น โดยต้องปลดล็อกพรสวรรค์ติดตัว \"Heir to the Ancient Sea's Authority\" ก่อนนอกจากนี้ เมื่อใช้การชาร์จโจมตี: Legal Evaluation หรือชาร์จโจมตี: Equitable Judgment จะเพิ่มความสามารถในการต้านทานการหยุดชะงักของ Neuvillette",
+        "vi-vn": "Khi Neuvillette ra trận sẽ nhận được một tầng \"Vinh Dự Của Rồng\" từ thiên phú cố định \"Di Sản Hậu Duệ Biển Xưa\". Cần mở khóa thiên phú \"Di Sản Hậu Duệ Biển Xưa\" trước.Ngoài ra, khi thi triển Tụ Lực Trọng Kích - Đánh Giá Hợp Pháp và Trọng Kích - Phán Quyết Công Bằng sẽ tăng khả năng kháng gián đoạn của Neuvillette.",
+        "zh-tw": "那維萊特登場時，獲得一層固有天賦「古海孑遺的權柄」的「遺龍之榮」。需要解鎖固有天賦「古海孑遺的權柄」。此外，進行重擊蓄力·訴論心證與重擊·衡平推裁時，提高那維萊特的抗打斷能力。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/27/327628065/d29a2245cb64f7161c8654e2fb9e0313_9177840396307635660.png"
+    },
+    {
+      "id": "summaryList61293",
+      "constellationNumber": 2,
+      "name": {
+        "pt-pt": "A Lei Ordena",
+        "en-us": "Juridical Exhortation",
+        "ja-jp": "律法の懲罰",
+        "zh-cn": "律法的命诫",
+        "ko-kr": "법의 계율",
+        "ru-ru": "Приказание закона",
+        "de-de": "Das Gesetz gebietet",
+        "fr-fr": "Exhortation de la loi",
+        "es-es": "Mandato legal",
+        "id-id": "Juridical Exhortation",
+        "th-th": "Juridical Exhortation",
+        "vi-vn": "Mệnh Lệnh Của Pháp Luật",
+        "zh-tw": "律法的命誡"
+      },
+      "description": {
+        "pt-pt": "O Talento Passivo \"Herdeiro do Antigo Legado do Mar\" é fortalecido: para cada acúmulo de \"Glória do Dragão\", aumenta o Dano CRIT de Ataque Carregado: Justiça Igual em 14%, com um máximo de aumento de 42%.É necessário ter desbloqueado o Talento Passivo \"Herdeiro do Antigo Legado do Mar\".",
+        "en-us": "The Passive Talent \"Heir to the Ancient Sea's Authority\" will be enhanced: Each stack of Past Draconic Glories will increase the CRIT DMG of Charged Attack: Equitable Judgment by 14%. The maximum increase that can be achieved this way is 42%.You must first unlock the Passive Talent \"Heir to the Ancient Sea's Authority.\"",
+        "ja-jp": "固有天賦「古海継嗣の権威」は以下のように強化される。「遺龍の栄光」1層につき、重撃・衡平な栽量の会心ダメージ+14％。この方法でアップできる会心ダメージは最大42％まで。固有天賦「古海継嗣の権威」を解放する必要がある。",
+        "zh-cn": "固有天赋「古海孑遗的权柄」获得强化：每存在一层「遗龙之荣」，就使重击·衡平推裁的暴击伤害提高14%，至多通过这种方式提升42%。需要解锁固有天赋「古海孑遗的权柄」。",
+        "ko-kr": "고유 특성 「생존한 고대바다의 계승자」가 강화된다: 「생존한 용의 영광」 1스택마다 강공격·공정한 판결의 치명타 피해가 14% 증가한다. 해당 방식으로 최대 42%까지 증가한다. 고유 특성 「생존한 고대바다의 계승자」를 해금해야 한다",
+        "ru-ru": "Усиливает пассивный талант Наследник древнего моря: каждый уровень Былой славы драконов повышает крит. урон заряженной атаки: Взвешенный вердикт на 14%. Увеличение, полученное таким образом, не может превышать 42%.Требуется разблокировать пассивный талант «Наследник древнего моря».",
+        "de-de": "Verstärkt das passive Talent „Erbe des Relikts der uralten See“: Erhöht für jeden Stapel „Glorie längst vergangener Drachen“ den Kritischen Schaden von heftigem Schlag – Gerechter Vorstoß um 14%. Bis zu 42% Bonus auf diese Weise möglich.Das passive Talent „Erbe des Relikts der uralten See“ muss zuerst freigeschaltet werden.",
+        "fr-fr": "L'aptitude passive « Héritier de l'autorité de l'ancienne mer » est renforcée : chaque cumul de gloire draconique passée augmente les DGT CRIT de l'attaque chargée « Jugement équitable » de 14 %, les DGT CRIT pouvant être augmentés d'un maximum de 42 % de cette manière.L'aptitude passive « Héritier de l'autorité de l'ancienne mer » doit être déjà débloquée.",
+        "es-es": "Fortalece el talento pasivo “Legatario de toda agua”, de modo que por cada carga de gloria del legado dacroniano, el Daño CRIT del Ataque Cargado: Sentencia ecuánime aumenta en un 14%, hasta un máximo del 42%.Es necesario desbloquear el talento pasivo “Legatario de toda agua”.",
+        "id-id": "Talentta Pasif \"Heir to the Ancient Sea's Authority\" mendapatkan penguatan: Untuk setiap lapis Past Draconic Glories yang dimiliki, CRIT DMG Charged Attack: Equitable Judgment meningkat 14%, peningkatan maksimum yang bisa diperoleh dengan cara ini adalah 42%. Harus membuka Talenta Pasif \"Heir to the Ancient Sea's Authority\" terlebih dahulu.",
+        "th-th": "พรสวรรค์ติดตัว \"Heir to the Ancient Sea's Authority\" ได้รับการเสริมพลัง: แต่ละชั้นของ \"Past Draconic Glories\" จะทำให้ความแรงคริของการชาร์จโจมตี: Equitable Judgment เพิ่มขึ้น 14% โดยสามารถเพิ่มด้วยวิธีนี้ได้มากสุด 42%ต้องปลดล็อกพรสวรรค์ติดตัว \"Heir to the Ancient Sea's Authority\" ก่อน",
+        "vi-vn": "Cường hóa thiên phú cố định \"Di Sản Hậu Duệ Biển Xưa\": Mỗi tồn tại một tầng \"Vinh Dự Của Rồng\" sẽ khiến sát thương bạo kích của Trọng Kích - Phán Quyết Công Bằng tăng 14%. Tối đa tăng 42% thông qua phương thức này.Cần mở khóa thiên phú \"Di Sản Hậu Duệ Biển Xưa\" trước.",
+        "zh-tw": "固有天賦「古海孑遺的權柄」獲得強化：每存在一層「遺龍之榮」，就使重擊·衡平推裁的暴擊傷害提升14%，至多依此方式提升42%。需要解鎖固有天賦「古海孑遺的權柄」。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/27/327628065/04de14c2657f1089af6ce03a37c8e207_7379073015042610499.png"
+    },
+    {
+      "id": "summaryList64113",
+      "constellationNumber": 3,
+      "name": {
+        "pt-pt": "Ficção Antiga",
+        "en-us": "Ancient Postulation",
+        "ja-jp": "旧時の擬制",
+        "zh-cn": "溯古的拟制",
+        "ko-kr": "고대의 의제",
+        "ru-ru": "Древний вымысел",
+        "de-de": "Uralte Gebote",
+        "fr-fr": "Postulat de l'antan",
+        "es-es": "Ficción pretérita",
+        "id-id": "Ancient Postulation",
+        "th-th": "Ancient Postulation",
+        "vi-vn": "Mô Phỏng Của Cổ Xưa",
+        "zh-tw": "溯古的擬制"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível do Ataque Normal: Como Águas Paradas em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Normal Attack: As Water Seeks Equilibrium by 3.Maximum upgrade level is 15.",
+        "ja-jp": "通常攻撃・清きこと水の如しのスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "普通攻击·如水从平的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "일반 공격·공평한 물처럼이 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Подобно водной глади на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Standardangriff: Wie stille Wasser um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Attaque normale : Stabilité de l'eau +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Ataque Normal: Remanso acuático+3.Puede ser aumentado hasta Niv.15.",
+        "id-id": "Meningkatkan 3 Level Normal Attack: As Water Seeks Equilibrium.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของโจมตีปกติ: As Water Seeks Equilibrium ขึ้น 3 ระดับเพิ่มได้สูงสุดถึงระดับ 15",
+        "vi-vn": "Cấp kỹ năng Tấn Công Thường - Tĩnh Lặng Như Nước +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "普通攻擊·如水從平的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/27/327628065/464df75643b85d808ea7457d333c2520_6661656074849831935.png"
+    },
+    {
+      "id": "summaryList96492",
+      "constellationNumber": 4,
+      "name": {
+        "pt-pt": "Coroado em Compaixão",
+        "en-us": "Crown of Commiseration",
+        "ja-jp": "憐憫の玉冠",
+        "zh-cn": "悲悯的冠冕",
+        "ko-kr": "연민의 왕관",
+        "ru-ru": "Венец сострадания",
+        "de-de": "Gekrönt in Gnade",
+        "fr-fr": "Couronne de la commisération",
+        "es-es": "Clemencia culminante",
+        "id-id": "Crowned in Compassion",
+        "th-th": "Crown of Commiseration",
+        "vi-vn": "Vinh Quang Của Xót Thương",
+        "zh-tw": "悲憫的冠冕"
+      },
+      "description": {
+        "pt-pt": "Quando Neuvillette está ativo no campo de batalha e é curado, gerará 1 Gota d'Água Primordial. Esse efeito pode ser desencadeado uma vez a cada 4s.",
+        "en-us": "When Neuvillette is on the field and is healed, 1 Sourcewater Droplet will be generated. This effect can occur once every 4s.",
+        "ja-jp": "ヌヴィレットがフィールド上にいる、かつ治療効果を受けた時、源水の雫を1個生成する。この効果は4秒毎に最大1回のみ発動可能。",
+        "zh-cn": "那维莱特处于当前场上并受到治疗时，将产生一枚源水之滴。此效果每4秒至多触发一次。",
+        "ko-kr": "느비예트가 현재 필드에서 치유를 받을 시 원천의 방울 1개를 생성한다. 해당 효과는 4초마다 최대 1회 발동된다",
+        "ru-ru": "Когда Нёвиллет находится на поле боя и получает лечение, создаётся 1 Капля источника. Эффект может возникнуть раз в 4 сек.",
+        "de-de": "Erschafft einen Quellwassertropfen, wenn Neuvillette als aktuelle Figur geheilt wird. 4s Abklingzeit.",
+        "fr-fr": "Lorsque Neuvillette est déployé et reçoit des soins, 1 goutte d'eau de source est générée. Cet effet peut être déclenché une fois toutes les 4 s.",
+        "es-es": "Cuando Neuvillette recibe curación mientras está en uso, genera 1 gota primigenia. Esto puede ocurrir una vez cada 4s.",
+        "id-id": "Saat Neuvillette menerima pemulihan di medan pertempuran 1 Sourcewater Droplet akan terbentuk. Efek ini dapat terpicu sekali setiap 4 detik.",
+        "th-th": "เมื่อ Neuvillette เข้าร่วมการต่อสู้และได้รับการรักษา จะทำให้เกิด Sourcewater Droplet 1 อัน เอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้งในทุก 4 วินาที",
+        "vi-vn": "Khi Neuvillette đang trong trận và nhận được trị liệu, sẽ sản sinh 1 Nguồn Nước Trong. Hiệu quả này mỗi 4s tối đa kích hoạt một lần.",
+        "zh-tw": "那維萊特處於目前場上並受到治療時，將產生1枚源水之滴。此效果每4秒至多觸發一次。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/27/327628065/f576117ed2f490fb54b666763ee5f0b9_3242716770172376608.png"
+    },
+    {
+      "id": "summaryList39562",
+      "constellationNumber": 5,
+      "name": {
+        "pt-pt": "Julgamento Axiomático",
+        "en-us": "Axiomatic Judgment",
+        "ja-jp": "公義の裁定",
+        "zh-cn": "公理的决裁",
+        "ko-kr": "정의의 판결",
+        "ru-ru": "Общепризнанный приговор",
+        "de-de": "Axiomatisches Urteil",
+        "fr-fr": "Verdict de l'axiome",
+        "es-es": "Fallo axiomático",
+        "id-id": "Axiomatic Judgment",
+        "th-th": "Axiomatic Judgment",
+        "vi-vn": "Phán Quyết Của Công Lý",
+        "zh-tw": "公理的決裁"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível de Marés, Eu Retornei em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of O Tides, I Have Returned by 3.Maximum upgrade level is 15.",
+        "ja-jp": "海よ、私は帰ってきたのスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "潮水啊，我已归来的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "밀물이여, 내가 돌아왔노라의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка О волны, я возвратился на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit O Gezeiten, ich bin zurückgekehrt um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Ô marées, je reviens +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Retorno mareal+3.Puede ser aumentado hasta Niv.15.",
+        "id-id": "Meningkatkan 3 Level O Tides, I Have Returned.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ O Tides, I Have Returned ขึ้น 3 ระดับเพิ่มได้สูงสุดถึงระดับ 15",
+        "vi-vn": "Cấp kỹ năng Về Với Thủy Triều +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "潮水啊！我已歸來的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/27/327628065/83afd6c7a216ef571b8f3868ecdf5b92_2058264081936237071.png"
+    },
+    {
+      "id": "summaryList75585",
+      "constellationNumber": 6,
+      "name": {
+        "pt-pt": "Recompensa Furiosa",
+        "en-us": "Wrathful Recompense",
+        "ja-jp": "憤怒の報償",
+        "zh-cn": "忿怒的报偿",
+        "ko-kr": "분노의 보상",
+        "ru-ru": "Гневное воздаяние",
+        "de-de": "Wütende Vergeltung",
+        "fr-fr": "Récompense du courroux",
+        "es-es": "Retribución atrabiliaria",
+        "id-id": "Wrathful Recompense",
+        "th-th": "Wrathful Recompense",
+        "vi-vn": "Đền Bù Của Phẫn Nộ",
+        "zh-tw": "忿怒的報償"
+      },
+      "description": {
+        "pt-pt": "Ao lançar Ataque Carregado: Justiça Igual, Neuvillette pode absorver as Gotas d'Água Primordial em uma certa AdE próxima. Cada Gota d'Água Primordial absorvida prolongará a duração de Ataque Carregado: Justiça Igual em 1s.Além disso, quando Ataque Carregado: Justiça Igual atingir um inimigo, lançará 2 correntes adicionais a cada 2s. Cada corrente causa Dano Hydro equivalente a 10% da Vida Máxima de Neuvillette. O Dano causado dessa forma é considerado Dano de Ataque Carregado: Justiça Igual.",
+        "en-us": "When using Charged Attack: Equitable Judgment, Neuvillette can absorb nearby Sourcewater Droplets in an AoE. Each absorbed Droplet will increase the duration of Charged Attack: Equitable Judgment by 1s.Additionally, when Equitable Judgment hits opponents, it will fire off 2 additional currents every 2s, each of which will deal 10% of Neuvillette's Max HP as Hydro DMG. DMG dealt this way will count as DMG dealt by Equitable Judgment.",
+        "ja-jp": "重撃・衡平な裁量を発動時、ヌヴィレットは一定範囲内の源水の雫を吸収できる。源水の雫を1個吸収するごとに、重撃・衡平な裁量の継続時間+1 秒。さらに、重撃・衡平な裁量が敵に命中すると、2秒毎に追加で洪水を2つ放つ。洪水は1つにつき、ヌヴィレットのHP上限10%分の水元素ダメージを与える。この方法によるダメージは、重撃・衡平な裁量のダメージと見なされる。",
+        "zh-cn": "施放重击重击·衡平推裁时，那维莱特可以吸收附近一定范围内的源水之滴，每吸收一枚源水之滴，都将使重击·衡平推裁的持续时间延长1秒。此外，重击·衡平推裁命中敌人时，每2秒，将额外释放两道洪流，每到洪流造成相当于那维莱特生命值上限10%的水元素伤害。通过这种方式造成的伤害视为重击·衡平推裁造成的伤害。",
+        "ko-kr": "강공격·공정한 판결 발동 시 느비예트가 주변 일정 범위 내의 원천의 방울을 흡수한다. 흡수한 원천의 방울마다 강공격·공정한 판결의 지속 시간이 1초 연장된다.또한, 강공격·공정한 판결이 적에게 명중 시 2초마다 추가로 두 개의 격류를 내뿜는다. 각 격류는 느비예트의 HP 최대치 10%에 해당하는 물 원소 피해를 준다. 해당 방식으로 주는 피해는 강공격·공정한 판결이 주는 피해로 간주한다",
+        "ru-ru": "Во время применения заряженной атаки: Взвешенный вердикт Нёвиллет может поглощать Капли источника в определённом радиусе. Каждая поглощённая Капля увеличивает длительность заряженной атаки: Взвешенный вердикт на 1 сек.Кроме того, при попадании заряженной атаки: Взвешенный вердикт каждые 2 сек. будут дополнительно выпускаться 2 течения, каждое из которых наносит Гидро урон, равный 10% от макс. HP Нёвиллета. Этот урон считается уроном заряженной атаки: Взвешенный вердикт.",
+        "de-de": "Neuvillette absorbiert beim Auslösen von heftigem Schlag – Gerechter Vorstoß Quellwassertropfen innerhalb eines bestimmten Bereichs. Jeder absorbierte Quellwassertropfen verlängert die Dauer von heftigem Schlag – Gerechter Vorstoß um 1s.Außerdem werden alle 2s zusätzlich zwei Ströme ausgelöst, wenn Neuvillettes heftiger Schlag – Gerechter Vorstoß Gegner trifft, von denen jeder Hydro-Schaden in Höhe von 10% von Neuvillettes max. LP verursacht. Der auf diese Weise verursachte Schaden wird als Schaden vom heftigen Schlags – Gerechter Vorstoß betrachtet.",
+        "fr-fr": "En utilisant l'attaque chargée « Jugement équitable », Neuvillette peut aspirer les gouttes d'eau de source à portée. Chaque goutte absorbée permet de prolonger la durée de l'attaque chargée « Jugement équitable » de 1 s.De plus, lorsque l'attaque chargée « Jugement équitable » touche un ennemi, 2 torrents supplémentaires sont libérés toutes les 2 s, chacun infligeant des DGT Hydro pour une valeur équivalant à 10 % des PV max de Neuvillette. Les DGT infligés de cette manière sont considérés comme des DGT de l'attaque chargée « Jugement équitable ».",
+        "es-es": "Al ejecutar el Ataque Cargado: Sentencia ecuánime, Neuvillette absorbe las gotas primigenias que haya en cierta área. Por cada gota que absorba, la duración del Ataque Cargado: Sentencia ecuánime aumentará en 1s.Además, al golpear a un enemigo con el Ataque Cargado: Sentencia ecuánime, se liberan 2 torrentes adicionales, y cada uno inflige Daño Hydro equivalente al 10% de la Vida Máx. de Neuvillette. El daño infligido de esta manera se considera daño de Ataque Cargado: Sentencia ecuánime.",
+        "id-id": "Saat melancarkan Charged Attack: Equitable Judgment, Neuvillete dapat menyerap Sourcewater Droplet yang berada di sekitarnya dalam radius tertentu. Untuk setiap Sourcewater Droplet yang diserap, akan meningkatkan durasi Charged Attack: Equitable Judgment selama 1 detik. Selain itu, saat Charged Attack: Equitable Judgment mengenai musuh, akan melancarkan dua serangan gelombang air setiap 2 detik. Setiap gelombang airnya akan mengakibatkan Hydro DMG sebesar 10% Max HP Neuvillette. DMG yang diakibatkan dengan cara ini akan dianggap sebagai DMG Charged Attack: Equitable Judgment.",
+        "th-th": "เมื่อใช้การชาร์จโจมตี: Equitable Judgment แล้ว Neuvillette จะสามารถดูดซับ Sourcewater Droplet ในระยะที่กำหนด ซึ่ง Sourcewater Droplet แต่ละอันที่ดูดซับ จะทำให้ระยะเวลาคงอยู่ของการชาร์จโจมตี: Equitable Judgment เพิ่มขึ้น 1 วินาทีนอกจากนี้ เมื่อชาร์จโจมตี: Equitable Judgment โดนศัตรู จะปล่อยกระแสน้ำสองสายทุก 2 วินาที กระแสน้ำแต่ละสายจะสร้างความเสียหายน้ำเท่ากับ 10% ของพลังชีวิตสูงสุดของ Neuvillette ความเสียหายที่สร้างด้วยวิธีนี้ จะถือว่าเป็นความเสียหายที่เกิดจากชาร์จโจมตี: Equitable Judgment",
+        "vi-vn": "Khi thi triển Trọng Kích - Phán Quyết Công Bằng, Neuvillette có thể hấp thu Nguồn Nước Trong trong một phạm vi nhất định gần đó. Mỗi một Nguồn Nước Trong sẽ khiến thời gian duy trì của Trọng Kích - Phán Quyết Công Bằng kéo dài thêm 1s.Ngoài ra, Trọng Kích - Phán Quyết Công Bằng khi trúng kẻ địch, mỗi 2s sẽ thi triển thêm 2 dòng thủy lưu, mỗi dòng thủy lưu gây Sát Thương Nguyên Tố Thủy tương đương 10% giới hạn HP của Neuvillette. Sát thương gây ra bằng phương thức này sẽ được tính là sát thương của Trọng Kích - Phán Quyết Công Bằng.",
+        "zh-tw": "施放重擊·衡平推裁時，那維萊特可以吸收附近一定範圍內的源水之滴，每吸收一枚源水之滴，都將使重擊·衡平推裁的持續時間延長1秒。此外，重擊·衡平推裁命中敵人時，每2秒，將額外釋放兩道洪流，每道洪流造成相當於那維萊特生命值上限10%的水元素傷害。依此方式造成的傷害視為重擊·衡平推裁造成的傷害。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/27/327628065/85ff97bafae016314eb2177968b40188_4144583885524432296.png"
+    }
+  ],
+  "talents": [
+    {
+      "type": "normal_attack",
+      "name": {
+        "pt-pt": "Ataque Normal: Como Águas Paradas",
+        "en-us": "As Water Seeks Equilibrium",
+        "ja-jp": "清きこと水の如し",
+        "zh-cn": "普通攻击·如水从平",
+        "ko-kr": "일반 공격·공평한 물처럼",
+        "ru-ru": "Подобно водной глади",
+        "de-de": "Standardangriff: Wie stille Wasser",
+        "fr-fr": "Attaque normale : Stabilité de l'eau",
+        "es-es": "Ataque Normal: Remanso acuático",
+        "id-id": "Normal Attack: As Water Seeks Equilibrium",
+        "th-th": "โจมตีปกติ: As Water Seeks Equilibrium",
+        "vi-vn": "Tấn Công Thường - Tĩnh Lặng Như Nước",
+        "zh-tw": "普通攻擊·如水從平"
+      },
+      "description": {
+        "pt-pt": "Ataque NormalBrande seu bastão, movendo as ondas dos mares para desferir até 3 golpes que causam Dano Hydro.Fortalecimento de Ataque Carregado: Reprimenda JudicialAo carregar, Neuvillette reúne o poder do Mar Primordial e gradualmente forma a Insígnia da Arbitração. Nesse estado, Neuvillette pode se moder e mudar de direção, atraindo Gotas d'Água Primordial em uma certa AdE.Cada Gota d'Água Primordial absorvida aumentará a velocidade de formação da Insígnia, e curará Neuvillette.Quando parar de carregar, se a Insígnia ainda não tiver sido formada, lançará um Ataque Carregado. Se já tiver se formado, lançará Ataque Carregado: justiça Igual.Ataque CarregadoConsome uma certa quantidade de Stamina para atacar oponentes com um anel de água, causando Dano Hydro em AdE.Ataque Carregado: Justiça igualLança correntes que causam Dano Hydro em AdE continuamente contra todos os oponentes numa linha reta na sua frente.Ataque Carregado: Justiça Igual não consumirá Stamina e dura 3s.Se a Vida de Neuvillette estiver acima de 50%, perderá Vida continuamente enquanto estiver usando esse ataque.Ataque ImersivoReunido o poder do Hydro, Neuvillette mergulha em direção ao chão em pleno ar, infligindo dano a todos os inimigos em seu caminho. Causa Dano Hydro em AdE durante o impacto com o chão.",
+        "en-us": "Normal AttackWith light flourishes, Neuvillette commands the tides to unleash a maximum of 3 attacks, dealing Hydro DMG.Charged Attack Empowerment: Legal EvaluationWhile charging up, Neuvillette will gather the power of water, forming it into a Seal of Arbitration. In this state, Neuvillette can move and change facing, and also absorb any Sourcewater Droplets in a certain AoE.Every Droplet he absorbs will increase the formation speed of the Seal, and will heal Neuvillette.When the charging is stopped, if the Symbol has yet to be formed, then a Charged Attack will be unleashed. If it has been formed, then a Charged Attack: Equitable Judgment will be unleashed.Charged AttackConsumes a fixed amount of Stamina to attack opponents with a rupturing blast of water, dealing AoE Hydro DMG.Charged Attack: Equitable JudgmentUnleashes surging torrents, dealing continuous AoE Hydro DMG to all opponents in a straight-line area in front of him.Equitable Judgment will not consume any Stamina and lasts 3s.If Neuvillette's HP is above 50%, he will continuously lose HP while using this attack.Plunging AttackGathering the might of Hydro, Neuvillette plunges towards the ground from mid-air, damaging all opponents in his path. Deals AoE Hydro DMG upon impact with the ground.",
+        "ja-jp": "通常攻撃杖を軽く振り、波を駆使して最大3段の攻撃を行い、水元素ダメージを与える。集力・心証開示重撃では集力を行い、その間ヌヴィレットは水の力を集め、徐々に審理のエンブレムを構成する。この状態の時、ヌヴィレットは移動と向きの調整ができ、一定範囲内の源水の雫を吸収する。源水の雫を1個吸収するたびに、エンブレム構成の速度を早め、ヌヴィレットのHPを回復させる。集力を中断した時、エンブレムが未完成の場合、重撃を行う。エンブレムが完成している場合、代わりに重撃・衡平な裁量を行う。重撃一定のスタミナを消費し、迸る水環で敵に猛烈な攻撃を仕掛け、水元素範囲ダメージを与える。重撃・衡平な裁量荒れ狂う洪水を放ち、前方直線範囲内にいる敵に継続的な水元素範囲ダメージを与える。重撃・衡平な裁量はスタミナを消費しない。継続時間3秒。HPが50%を超えている場合、衡平な裁量を発動中、ヌヴィレットは持続的にHPを消費する。落下攻撃空中から水元素の力を凝集しながら落下し、地面に衝撃を与える。経路上の敵を攻撃し、落下時に水元素範囲ダメージを与える。",
+        "zh-cn": "普通攻击轻挥权杖，驱动浪涛进行至多三段的攻击，造成水元素伤害。重击蓄力·诉论心证蓄力时，那维莱特汇聚源水之力，逐渐构成仲裁的徽记。在这种状态下，那维莱特能够进行移动与改变朝向，并吸收一定范围内的源水之滴。每吸收一枚源水之滴，都会加快徽记形成的速度，并为那维莱特恢复生命值。 停止蓄力时，若徽记尚不完满，将进行重击；若已经完满，则将转为进行重击·衡平推裁。重击消耗一定体力，以进发的水环猛击敌人，造成水元素范围伤害。重击·衡平推裁释放汹涌的洪流，对前方直线区域内的敌人持续造成水元素范围伤害。重击·衡平推裁不消耗体力，持续3秒。 若生命值高于50％，那维莱特在施放时将持续消耗生命值。下落攻击 凝聚水元素的力量，从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成水元素范围伤害。",
+        "ko-kr": "일반 공격가볍게 지팡이를 휘둘러 일으킨 파도로 최대 세 번 공격해 물 원소 피해를 준다.강공격일정 스태미나를 소모해 물의 고리로 적을 맹렬하게 공격하여 물 원소 범위 피해를 준다.차지 강공격·심증 형성차지 시 느비예트는 원천의 힘을 모아 중재의 문양을 만들어 낸다. 이 상태에서 느비예트는 이동 및 방향 전환이 가능하고, 일정 범위 내의 원천의 방울을 흡수한다.원천의 방울을 흡수할 때마다 문양이 더 빨리 완성되고, 느비예트의 HP를 회복시킨다.차지를 멈췄을 때 문양이 미완성이라면 강공격을 발동하고, 문양이 완성됐다면 강공격·공정한 판결을 발동한다.강공격·공정한 판결격류로 전방 직선 구역 내의 적에게 지속적인 물 원소 범위 피해를 준다.강공격·공정한 판결은 스태미나를 소모하지 않는다. 지속 시간: 3초.느비예트의 HP가 50% 초과인 상태에서 발동 시 지속적으로 자신의 HP를 소모한다.낙하 공격물 원소의 힘을 응축해 공중에서 땅을 내려찍으며 경로 상의 적을 공격하고 착지 시 물 원소 범위 피해를 준다",
+        "ru-ru": "Обычная атакаЛегко помахивает тростью, приказывая волнам выполнить до 3 атак, которые наносят Гидро урон.Заряженная атака Облечение: Судебная оценкаЗаряжаясь, Нёвиллет собирает силу вод и создаёт Печать арбитража. В этом состоянии Нёвиллет может передвигаться и менять направление перемещения, а также поглощать Капли источника в определённом радиусе.С каждой поглощённой Каплей скорость создания Печати будет увеличиваться и восстанавливать HP Нёвиллета.Когда заряжание остановлено, а создание Печати арбитража ещё не завершено, он проведёт заряженную атаку. Если создание завершено, он выполнит заряженную атаку: Взвешенный вердикт.Заряженная атакаТратит определённое количество выносливости и атакует врагов яростным кольцом воды, нанося Гидро урон по площади.Заряженная атака: Взвешенный вердиктВыпускает клокочущие потоки, которые наносят Гидро урон по площади по прямой линии врагам впереди.Заряженная атака: Взвешенный вердикт не расходует выносливость и длится 3 сек.Если HP выше 50%, во время применения этой атаки Нёвиллет будет постоянно терять HP.Атака в паденииСобрав мощь гидро, Нёвиллет Стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит Гидро урон по площади.",
+        "de-de": "StandardangriffNeuvillette schwingt sein Zepter und treibt die Wellen dazu an, bis zu dreimal anzugreifen und Hydro-Schaden zu verursachen.Aufgeladener heftiger Schlag – Richterliche PrüfungWährend des Aufladens sammelt Neuvillette die Kraft des Quellwassers und bildet allmählich ein Siegel des Urteils. In diesem Zustand kann er sich weiterhin bewegen, die Richtung ändern und innerhalb eines bestimmten Bereichs Quellwassertropfen absorbieren.Jeder absorbierte Quellwassertropfen beschleunigt die Bildung des Siegels und stellt Neuvillette LP wieder her.Wird das Aufladen unterbrochen, während das Siegel noch nicht vollständig gebildet wurde, führt Neuvillette seinen heftigen Schlag aus; ist das Siegel hingegen vollständig, wird heftiger Schlag – Gerechter Vorstoß entfesselt.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und greift Gegner mit voller Wucht mit einem Wasserring an, der Hydro-Flächenschaden verursacht.Heftiger Schlag – Gerechter VorstoßEntfesselt einen tosenden Strom, der fortlaufend Gegnern in einem geradlinigen Bereich vor sich Hydro-Flächenschaden zufügt.Heftiger Schlag – Gerechter Vorstoß verbraucht keine Ausdauer. Hält 3s.Neuvillette verbraucht fortlaufend LP, wenn diese beim Auslösen über 50% liegen.Angriff aus dem FallKonzentriert die Kraft des Wassers, schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Hydro-Flächenschaden.",
+        "fr-fr": "Attaque normaleAgite légèrement sa canne, ordonnant aux marées de déclencher jusqu'à 3 attaques qui infligent des DGT Hydro.Charge d'attaque chargée : Avertissement procéduralPendant la charge, Neuvillette concentre progressivement la puissance de l'eau en un sceau d'arbitrage. Dans cet état, Neuvillette peut se déplacer, changer d'orientation et absorber les gouttes d'eau de source à portée.Chaque goutte absorbée permet d'augmenter la vitesse de formation du sceau d'arbitrage et soigne les PV de Neuvillette.À la fin de la charge, Neuvillette déclenche une attaque chargée si le sceau d'arbitrage est incomplet. Si ce dernier est complet, il déclenche une attaque chargée « Jugement équitable ».Attaque chargéeConsomme de l'endurance pour attaquer les ennemis avec un cercle d'eau qui inflige des DGT Hydro de zone.Attaque chargée : Jugement équitableNeuvillette libère un torrent déferlant qui inflige des DGT Hydro de zone de façon continue aux ennemis en ligne droite devant lui.Le jugement équitable ne consomme pas l'endurance et dure 3 s.Lorsque ses PV sont supérieurs à 50 %, Neuvillette perd des PV de façon continue en utilisant cette attaque.Attaque plongeanteConcentre la puissance de l'élément Hydro avant de plonger depuis les airs pour frapper le sol, infligeant des DGT aux ennemis sur la route et des DGT Hydro de zone à l'impact.",
+        "es-es": "Ataque NormalBlande ligeramente su bastón para hacer que las olas del mar ejecuten hasta un máximo de 3 ataques que infligen Daño Hydro.Ataque Potenciado: Apercibimiento procesalNeuvillette canaliza el poder de las aguas primigenias para formar un blasón del arbitraje. En este momento, podrá moverse y cambiar de orientación para absorber las gotas primigenias que haya dentro de cierta área.Con cada gota primigenia que absorba, se acelerará la velocidad a la que se forma el blasón del arbitraje y Neuvillette recuperará Vida.Cuando la canalización se detiene, si el blasón no está completamente formado, en su lugar ejecuta un Ataque Cargado. Si está completamente formado, ejecuta un Ataque Cargado: Sentencia ecuánime.Ataque CargadoConsume cierta cantidad de Aguante para atacar a los enemigos con un hidroaro que inflige Daño Hydro en el AdE.Ataque Cargado: Sentencia ecuánimeLibera unos torrentes que infligen Daño Hydro en el AdE a todos los enemigos que haya en una línea recta frente a Neuvillette.El Ataque Cargado: Sentencia ecuánime no consume Aguante y tiene una duración de 3s.Cuando su Vida es superior al 50%, Neuvillette perderá Vida constantemente mientras ejecuta este ataque.Ataque DescendenteConcentra el poder del agua, se lanza desde el aire para golpear el suelo y daña a los enemigos a su paso, infligiendo Daño Hydro en el AdE en el momento del impacto.",
+        "id-id": "Normal Attack Mengayunkan tongkat dengan ringan dan memerintahkan ombak untuk melancarkan maksimum 3 serangan berturut-turut dan mengakibatkan Hydro DMG.Charged Attack Empowerment: Legal EvaluationSaat melakukan charge, Neuvillette akan mengumpulkan kekuatan air, dan membentuknya menjadi Seal of Arbritration secara perlahan. Saat berada dalam statu ini, Neuvillette dapat bergerak dan mengubah arah pergerakannya, juga dapat menyerap Sourcewater Droplet dalam radius area tertentu. Untuk setiap Sourcewater Droplet yang diserap, pembentukan Seal of Arbritration akan dipercepat dan akan memulihkan HP Neuvillette. Setelah Charge dihentikan, jika Seal of Arbritration masih belum terbentuk secara sempurna, maka Neuvillette akan melancarkan Charged Attack; Jika sudah terbentuk sempurna, maka serangannya akan dikonversi menjadi Charged Attack: Equitable Judgment.Charged AttackMengonsumsi sejumlah Stamina, menyerang musuh dengan cincin air ganas dan mengakibatkan Hydro DMG Area.Charged Attack: Equitable JudgmentMelancarkan ombak ganas dan terus-menerus mengakibatkan Hydro DMG Area terhadap musuh yang berada di dalam area garis lurus di depan.Charged Attack Equitable Judgment tidak akan mengonsumsi Stamina dan berlangsung selama 3 detik. Jika HP berada di atas 50%, maka akan terus menerus mengonsumsi HP Neuvillette saat dilancarkan.Plunging AttackMengumpulkan kekuatan Hydro dan menerjang dari udara untuk menghantam tanah di bawahnya, menyerang musuh di jalur terjangan dan mengakibatkan Hydro DMG Area saat mendarat.",
+        "th-th": "โจมตีปกติโบกไม้เท้าแผ่วเบา และปล่อยคลื่นโจมตีต่อเนื่องมากสุด 3 ครั้ง เพื่อสร้างความเสียหายน้ำชาร์จโจมตี: Legal Evaluationในขณะที่ชาร์จพลัง Neuvillette จะรวบรวมพลังแห่งน้ำบรรพกาล ซึ่งจะค่อย ๆ ก่อตัวเป็น Seal of Abitration ภายใต้สภาวะนี้ Neuvillette จะสามารถเคลื่อนที่และเปลี่ยนทิศทางได้ พร้อมทั้งดูดซับ Sourcewater Droplet ที่อยู่ในระยะที่กำหนดSourcewater Droplet แต่ละอันที่ดูดซับ จะเร่งความเร็วในการก่อตัวของ Seal of Abitration และฟื้นฟูพลังชีวิตให้กับ Neuvilletteเมื่อหยุดการรวบรวมพลัง หาก Seal of Abitration ยังไม่สมบูรณ์จะทำการชาร์จโจมตี หากสมบูรณ์แล้วจะเปลี่ยนเป็นการชาร์จโจมตี: Equitable Judgmentชาร์จโจมตีใช้งานพลังกายจำนวนหนึ่ง เพื่อปล่อยวงแหวนน้ำโจมตีศัตรูอย่างดุดัน และสร้างความเสียหายน้ำวงกว้างชาร์จโจมตี: Equitable Judgmentปล่อยกระแสน้ำอันเชี่ยวกรากไปยังศัตรูที่อยู่ในเส้นทางตรงหน้า พร้อมสร้างความเสียหายน้ำวงกว้างอย่างต่อเนื่องการชาร์จโจมตี: Equitable Judgment จะไม่ใช้พลังกายเป็นเวลา 3 วินาทีหาก Neuvillette มีค่าพลังชีวิตสูงกว่า 50% เมื่อปล่อยสกิลจะสูญเสียพลังชีวิตอย่างต่อเนื่องโจมตีพุ่งลงจากอากาศรวบรวมพลังแห่งธาตุน้ำ กระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายน้ำวงกว้างเมื่อลงถึงพื้น",
+        "vi-vn": "Tấn Công ThườngVung quyền trượng, triệu hồi sóng nước tấn công tối đa 3 lần, gây Sát Thương Nguyên Tố Thủy.Tụ Lực Trọng Kích - Đánh Giá Hợp PhápKhi tụ lực, Neuvillette sẽ tích tụ sức mạnh của nước, dần dần tạo thành Biểu Tượng Xét Xử. Trong trạng thái này, Neuvillette có thể di chuyển và thay đổi phương hướng, đồng thời hấp thụ Nguồn Nước Trong trong một phạm vi nhất định.Mỗi hấp thụ một Nguồn Nước Trong đều sẽ gia tăng tốc độ hình thành Biểu Tượng, đồng thời hồi phục HP cho Neuvillette.Khi kết thúc tụ lực, nếu Biểu Tượng chưa hoàn chỉnh sẽ tiến hành Trọng Kích; Nếu Biểu Tượng đã hoàn chỉnh thì sẽ chuyển thành thi triển Trọng Kích - Phán Quyết Công Bằng.Trọng KíchTiêu hao một lượng thể lực nhất định để tung ra vòng nước tấn công kẻ địch, gây Sát Thương Phạm Vi Nguyên Tố Thủy.Trọng Kích - Phán Quyết Công BằngTriệu hồi thủy triều cuồn cuộn, liên tục gây Sát Thương Phạm Vi Nguyên Tố Thủy cho kẻ địch trong khu vực đường thẳng phía trước.Trọng Kích - Phán Quyết Công Bằng sẽ không tiêu hao thể lực, duy trì 3s.Nếu HP cao hơn 50%, Neuvillette khi thi triển sẽ liên tục tiêu hao HP.Tấn Công Khi ĐápNgưng tụ sức mạnh nguyên tố Thủy, từ trên trời tấn công xuống mặt đất, tấn công kẻ địch trên đường đi, gây Sát Thương Phạm Vi Nguyên Tố Thủy khi chạm đất.",
+        "zh-tw": "普通攻擊輕揮權杖，驅動浪濤進行至多三段的攻擊，造成水元素傷害重擊蓄力·訴論心證蓄力時，那維萊特匯聚源水之力，逐漸構成仲裁的徽記。在這種狀態下，那維萊特能夠移動與改變朝向，並吸收一定範圍內的源水之滴。每吸收一枚源水之滴，都會加快徽記形成的速度，並為那維萊特恢復生命值。停止蓄力時，若徽記尚不完滿，將進行重擊；若已經完滿，則將轉為進行重擊·衡平推裁。重擊消耗一定體力，以迸發的水環猛擊敵人，造成水元素範圍傷害。重擊·衡平推裁釋放洶湧的洪流，對前方直線區域內的敵人持續造成水元素範圍傷害。重擊·衡平推裁不消耗體力，持續3秒。若生命值高於50%，那維萊特在施放時將持續消耗生命值。下落攻擊凝聚水元素的力量，從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成水元素範圍傷害。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/27/101132274/464df75643b85d808ea7457d333c2520_7242106770426579717.png"
+    },
+    {
+      "type": "elemental_skill",
+      "name": {
+        "pt-pt": "Lágrimas, Eu Retribuirei",
+        "en-us": "O Tears, I Shall Repay",
+        "ja-jp": "涙よ、私は必ずや償おう",
+        "zh-cn": "泪水啊，我必偿还",
+        "ko-kr": "눈물이여, 반드시 갚으리라",
+        "ru-ru": "О слёзы, я воздам",
+        "de-de": "O Tränen, ich werd’s vergelten",
+        "fr-fr": "Ô larmes, je rembourse",
+        "es-es": "Plañido del resarcimiento",
+        "id-id": "O Tears, I Shall Repay",
+        "th-th": "O Tears, I Shall Repay",
+        "vi-vn": "Hoàn Trả Nước Mắt",
+        "zh-tw": "淚水啊！我必償還"
+      },
+      "description": {
+        "pt-pt": "Invoca uma Cachoeira Furiosa que causa Dano Hydro em AdE com base na Vida Máxima de Neuvillette contra os inimigos em sua frente. Ao atingir um inimigo, gera 3 Gotas d'Água Primordial.Arkhe: PneumaPeriodicamente, quando a Cachoeira Furiosa cair, um Espinho Espiritual cairá, perfurando inimigos e causando Dano Hydro com Pneuma.\"A lei restringe todos os crimes, mas não extingue o mal.\"",
+        "en-us": "Summons a Raging Waterfall that will deal AoE Hydro DMG to opponents in front of Neuvillette based on his Max HP. After hitting an opponent, this skill will generate 3 Sourcewater Droplets near that opponent.Arkhe: PneumaAt certain intervals, when the Raging Waterfall descends, a Spiritbreath Thorn will descend that will pierce opponents, dealing Pneuma-aligned Hydro DMG.\"The law can restrict all manner of crimes, but it cannot extirpate evil itself.",
+        "ja-jp": "立ち騒ぐ瀑を降らせ、ヌヴィレットのHP上限を基に、前方の敵へ水元素範囲ダメージを与える。敵に命中後、近くに源水の雫を3個生成する。アルケー：プネウマ立ち騒ぐ瀑を降らせた後、敵を貫く霊息の棘が生成され、プネウマを帯びた水元素ダメージを与える、一定間隔ごとに発動が可能。「法律は諸々の悪行を抑えられるが、罪そのものを消すことはできない。」",
+        "zh-cn": "降下汹涌的水瀑，基于那维莱特的生命值上限，对前方的敌人造成水元素范围伤害，命中敌人后，将在敌人附近产生3枚源水之滴。 始基力：芒性 每隔一段时间，在降下汹涌的水瀑后，将降下穿透敌人的灵息之刺，造成具有芒性的水元素伤害。 「法律可以遏制诸般罪行，但它并不能消除罪恶本身。」",
+        "ko-kr": "거센 폭포를 내려 전방의 적에게 느비예트 HP 최대치에 기반한 물 원소 범위 피해를 주고, 적에게 명중 후 적 주변에 원천의 방울 3개를 생성한다.아르케의 힘: 프뉴마일정 시간마다 거센 폭포를 내린 후, 적을 꿰뚫는 영혼의 쐐기를 내려 프뉴마 성질의 물 원소 피해를 준다.「법률이 다양한 죄행을 억제할 수 있다고는 하지만, 죄악 자체를 제거하지는 못합니다」",
+        "ru-ru": "Призывает Бушующий ливень, который наносит Гидро урон по площади врагам впереди, зависящий от макс. HP Нёвиллета. После попадания по врагу будет создано 3 Капли источника поблизости.Архэ: ПневмаС некоторым интервалом, после Бушующего ливня нисходит пронзающая врагов Игла дыхания душ, которая наносит Гидро урон пневмы.«Закон может пресечь всевозможные преступления, но искоренить само зло он неспособен».",
+        "de-de": "Beschwört einen tosenden Wasserfall, der herabstürzt und den Gegnern vor sich Hydro-Flächenschaden basierend auf Neuvillettes max. LP zufügt und drei Quellwassertropfen in der Nähe eines der getroffenen Gegner erzeugt.Arkhe: PneumaErzeugt nach Herabstürzen des tosenden Wasserfalls in gewissen Zeitabständen einen Geisterstachel, der auf Gegner herabfällt, diese durchbohrt und mit Pneuma versehenen Hydro-Schaden verursacht.„Das Gesetz kann jede Art der Ungerechtigkeit eindämmen, aber das Übel selbst vermag es nicht zu beseitigen.“",
+        "fr-fr": "Neuvillette invoque une cascade déchaînée qui inflige des DGT Hydro de zone aux ennemis en face de lui selon ses PV max. Après avoir touché un ennemi, 3 gouttes d'eau de source sont générées à proximité de ce dernier.Arkhe : PneumaRégulièrement, après avoir invoqué une cascade déchaînée, une épine d'inhalation qui transperce les ennemis est libérée pour infliger des DGT Hydro chargés d'énergie pneuma.« La loi peut restreindre toutes sortes de crimes, mais elle ne peut extirper le mal lui-même. »",
+        "es-es": "Invoca una cascada tumultuosa que inflige Daño Hydro en el AdE en función de la Vida Máx. de Neuvillette a los enemigos que haya frente a él. Tras golpear a un enemigo con este ataque, generará 3 gotas primigenias cerca de la ubicación de dicho enemigo.Arjé: pneumaCada cierto tiempo tras lanzar la cascada tumultuosa, caerá una espina halitoespiritual que inflige Daño Hydro cargado de energía pneuma.“La ley puede contener el crimen, mas no es capaz de erradicar la maldad en sí misma”.",
+        "id-id": "Memanggil Raging Waterfall yang mengakibatkan Hydro DMG Area berdasarkan Max HP Neuvillate terhadap musuh yang berada di depan. Setelah mengenai musuh, akan menciptakan 3 Sourcewater Droplet di sekitar musuh.Arkhe: PneumaSetiap satu kurun waktu tertentu, setelah Raging Waterfall diturunkan, Spiritbreath Thorn yang dapat menembus musuh dan mengakibatkan Pheuma-aligned Hydro DMG akan diturunkan.\"Hukum dapat mengekang seluruh tindakan jahat, tetapi tidak dapat menghapus kejahatan itu sendiri.\"",
+        "th-th": "เรียก Raging Waterfall (น้ำตกอันทรงพลัง) ออกมา เพื่อสร้างความเสียหายน้ำวงกว้างแก่ศัตรูที่อยู่ข้างหน้า ตามค่าพลังชีวิตสูงสุดของ Neuvillette เมื่อโจมตีถูกศัตรู จะเกิด Sourcewater Droplet 3 อัน แถวบริเวณศัตรูพลังปฐมภูมิ: พลังวิญญาณทุกช่วงระยะเวลาหนึ่ง เมื่อ Raging Waterfall ตกลงมา จะเกิด Spiritbreath Thorn ที่สามารถแทงทะลุศัตรูได้ และสร้างความเสียหายน้ำที่มีพลังวิญญาณอยู่\"กฎหมายสามารถยับยั้งอาชญากรรมทั้งมวล แต่ไม่สามารถกำจัดอาชญากรรมได้ด้วยตัวมันเอง\"",
+        "vi-vn": "Triệu hồi Thác Nước Tuôn Trào, dựa vào giới hạn HP của Neuvillette để gây cho kẻ địch phía trước Sát Thương Phạm Vi Nguyên Tố Thủy, sau khi trúng địch sẽ sản sinh 3 Nguồn Nước Trong ở xung quanh kẻ địch.Sức Mạnh Nền Tảng: PneumaCứ cách một khoảng thời gian, sau khi triệu hồi Thác Nước Tuôn Trào sẽ giáng xuống Gai Linh Hồn xuyên thấu kẻ địch, gây Sát Thương Nguyên Tố Thủy thuộc tính Pneuma.\"Pháp luật có thể khống chế hành vi tội ác, nhưng không thể tiêu diệt bản chất tội ác.\"",
+        "zh-tw": "降下洶湧的水瀑，基於那維萊特的生命值上限，對前方的敵人造成水元素範圍傷害，命中敵人後，將在敵人附近產生3枚源水之滴。始基力：芒性每隔一段時間，在降下洶湧的水瀑後，將降下穿透敵人的靈息之刺，造成具有芒性的水元素傷害。「法律可以遏制諸般罪行，但它並不能消除罪惡本身。」"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/27/101132274/1b23c5ffce1624b3fd3458b534a7f012_4659132525679403409.png"
+    },
+    {
+      "type": "elemental_burst",
+      "name": {
+        "pt-pt": "Marés, Eu Retornarei",
+        "en-us": "O Tides, I Have Returned",
+        "ja-jp": "海よ、私は帰ってきた",
+        "zh-cn": "潮水啊，我已归来",
+        "ko-kr": "밀물이여, 내가 돌아왔노라",
+        "ru-ru": "О волны, я возвратился",
+        "de-de": "O Gezeiten, ich bin zurückgekehrt",
+        "fr-fr": "Ô marées, je reviens",
+        "es-es": "Retorno mareal",
+        "id-id": "O Tides, I Have Returned",
+        "th-th": "O Tides, I Have Returned",
+        "vi-vn": "Về Với Thủy Triều",
+        "zh-tw": "潮水啊！我已歸來"
+      },
+      "description": {
+        "pt-pt": "Lança uma onda poderosa que causa Dano Hydro em AdE com base na Vida Máxima de Neuvillette. Depois de um curto intervalo, 2 cachoeiras cairão e causarão Dano Hydro, gerando 6 Gotas d'Água Primordial numa certa AdE em frente.\"A lei só é estabelecida após ser publicada, e acima disso, as leis da natureza governam todas as espécies e eras desde a antiguidade.\"",
+        "en-us": "Unleashes waves that will deal AoE Hydro DMG based on Neuvillette's Max HP. After a short interval, 2 waterfalls will descend and deal Hydro DMG in a somewhat smaller AoE, and will generate 6 Sourcewater Droplets within an area in front.\"The law is only established after its publication, and above that, the laws of nature have governed all species and eras since ancient times.",
+        "ja-jp": "迸る怒涛を放ち、ヌヴィレットのHP上限を基に、水元素範囲ダメージを与える。その後、近くに瀑を2つ降らし、小範囲に水元素ダメージを与える。前方の一定範囲内に源水の雫を6個生成する。「法律は、公布されてようやく成り立つ。だがその上に、自然の法則は太古からあらゆる種族と世代を律してきたのだ。」",
+        "zh-cn": "释放迸发的骇浪，基于那维莱特的生命值上限，造成水元素范围伤害，短暂间隔后，在附近降下2道水瀑，造成范围较小的水元素伤害，并在前方一定范围内产生6枚源水之滴。 「法律在颁布后方才成立，而在此之上，自然的法则从亘古以来便约束着全部的种类与世代。」",
+        "ko-kr": "거친 파도를 분출해 느비예트의 HP 최대치에 기반한 물 원소 범위 피해를 준다. 짧은 시간 후, 주변에 두 개의 폭포가 내려치며 작은 범위의 물 원소 피해를 주고 전방의 일정 범위 내에 원천의 방울 6개를 생성한다.「법률은 공포된 후에야 성립합니다. 하나, 자고이래로 자연의 법칙이 그보다 먼저 모든 종과 시대를 제약해 왔죠」",
+        "ru-ru": "Выпускает сокрушающую волну, которая наносит Гидро урон по площади пропорционально макс. HP Нёвиллета. Вскоре поблизости нисходит 2 ливня, наносящие Гидро урон по несколько меньшей площади, а в определённом радиусе впереди создаётся 6 Капель источника.«Законы принимаются только после их оглашения. Более того, законы природы управляли жизнью всех созданий с незапамятных времён».",
+        "de-de": "Entfesselt eine berstende Welle, die basierend auf Neuvillettes max. LP Hydro-Flächenschaden verursacht. Nach einem kurzen Intervall werden in der Nähe zwei Wasserfälle herabstürzen, die in einem kleineren Bereich Hydro-Schaden verursachen und in einem bestimmten Bereich vor sich sechs Quellwassertropfen erzeugen.„Die Gesetze entstehen erst, wenn sie erlassen werden. Darüber hinaus haben die Naturgesetze von jeher über alle Arten und Generationen entschieden.“",
+        "fr-fr": "Neuvillette déchaîne une vague de rupture qui inflige des DGT Hydro de zone selon ses PV max. Après un court délai, 2 cascades sont invoquées pour infliger des DGT Hydro sur une petite zone et générer 6 gouttes d'eau de source en avant.« Une loi n'est établie qu'après sa publication, et surtout, les lois de la nature régissent toutes les espèces et les époques depuis les temps anciens. »",
+        "es-es": "Libera una poderosa marejada que inflige Daño Hydro en el AdE en función de la Vida Máx. de Neuvillette. Tras un breve intervalo de tiempo, caerán 2 cascadas que infligen Daño Hydro en una AdE relativamente pequeña y que generan 6 gotas primigenias en cierta área frente a Neuvillette.“La ley solo es válida cuando se promulga. Sin embargo, todos los seres vivos y toda la historia han estado sujetos a las leyes de la naturaleza desde tiempos inmemoriales”.",
+        "id-id": "Melancarkan gelombang ganas yang mengakibatkan Hydro DMG Area berdasarkan Max HP Neuvillette. Setelah jeda singkat, 2 Waterfall akan turun di sekitar dan mengakibatkan Hydro DMG dengan radius area yang relatif kecil dan menciptakan 6 Sourcewater Droplet di dalam area di hadapan Neuvillette.\"Hukum hanya berlaku setelah dipublikasikan. Dan di atas itu, hukum alam sudah memerintah seluruh spesies dan seluruh masa sejak zaman dulu.\"",
+        "th-th": "ปลดปล่อยคลื่นรุนแรง และสร้างความเสียหายน้ำวงกว้าง ที่มีความเสียหายขึ้นกับพลังชีวิตสูงสุดของ Neuvillette หลังจากช่วงเวลาสั้น ๆ จะปล่อยน้ำตก 2 สายในบริเวณใกล้เคียง เพื่อสร้างความเสียหายน้ำวงแคบ และสร้าง Sourcewater Droplet ขึ้น 6 อัน ในพื้นที่ด้านหน้าที่กำหนด\"กฎหมายถูกตราขึ้นหลังจากมีการออกคำสั่ง และนอกเหนือจากนั้น กฎแห่งธรรมชาติได้พันธนาการทุกเผ่าพันธุ์และทุกยุคสมัยมาตั้งแต่โบราณกาล\"",
+        "vi-vn": "Thi triển đợt sóng cuồn cuộn, gây Sát Thương Phạm Vi Nguyên Tố Thủy dựa trên giới hạn HP của Neuvillette. Trong một thời gian ngắn sau, sẽ giáng xuống hai thác nước ở gần đó, gây Sát Thương Nguyên Tố Thủy trong phạm vi tương đối nhỏ, đồng thời sản sinh 6 Nguồn Nước Trong ở một phạm vi nhất định phía trước.\"Quy luật chỉ được thiết lập sau khi nó được công bố. Còn quy luật tự nhiên thì đã trói buộc muôn loài và mọi thời đại từ thời xa xưa.\"",
+        "zh-tw": "釋放迸發的駭浪，基於那維萊特的生命值上限，造成水元素範圍傷害，短暫間隔後，在附近降下2道水瀑，造成範圍較小的水元素傷害，並在前方一定範圍內產生6枚源水之滴。「法律在頒布後方可成立，而在此之上，自然的法則從亙古以來便約束著全部的種類與世代。」"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/27/101132274/83afd6c7a216ef571b8f3868ecdf5b92_1773518096251395540.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Herdeiro do Antigo Legado do Mar",
+        "en-us": "Heir to the Ancient Sea's Authority",
+        "ja-jp": "古海継嗣の権威",
+        "zh-cn": "古海孑遗的权柄",
+        "ko-kr": "생존한 고대바다의 계승자",
+        "ru-ru": "Наследник древнего моря",
+        "de-de": "Erbe des Relikts der uralten See",
+        "fr-fr": "Héritier de l'autorité de l'ancienne mer",
+        "es-es": "Legatario de toda agua",
+        "id-id": "Heir to the Ancient Sea's Authority",
+        "th-th": "Heir to the Ancient Sea's Authority",
+        "vi-vn": "Di Sản Hậu Duệ Biển Xưa",
+        "zh-tw": "古海孑遺的權柄"
+      },
+      "description": {
+        "pt-pt": "Quando um personagem da equipe desencadeia as Reações de Vaporização, Congelamento, Eletricamente Carregado, Florescimento, Redemoinho Hydro ou Reação de Cristalização Hydro, gerará 1 acúmulo do efeito \"Glória do Dragão\" para Neuvillette por 30s. É possível gerar até 3 acúmulos dessa forma. Assim, o Dano do Ataque Carregado: Justiça Igual aumenta em 110%/125%/160%. Os acúmulos de \"Glória do Dragão\" gerados por cada tipo de reação são contados de forma independente.",
+        "en-us": "When a party member triggers a Vaporize, Frozen, Electro-Charged, Bloom, Hydro Swirl, or a Hydro Crystallize reaction on opponents, 1 stack of Past Draconic Glories will be granted to Neuvillette for 30s. Max 3 stacks. Past Draconic Glories causes Charged Attack: Equitable Judgment to deal 110%/125%/160% of its original DMG.The stacks of Past Draconic Glories created by each kind of Elemental Reaction exist independently.",
+        "ja-jp": "チームにいるキャラクターが敵に蒸発、凍結、感電、開花、水元素拡散、水元素結晶反応を起こすと、ヌヴィレットに「遺龍の栄光」効果を付与する。継続時間30秒、最大3層まで重ね掛け可能。層数に応じて、重撃・衡平な裁量は通常の110%/125%/160%分のダメージを与えられるようになる。生成された「遺龍の栄光」効果は元素反応毎にカウントされる。",
+        "zh-cn": "队伍中的角色对敌人触发蒸发、冻结、感电、绽放、水元素扩散或水元素结晶反应时，将为那维莱特产生持续30秒，至多叠加3层的「遗龙之荣」效果，使重击·衡平推裁造成原本110％／125％／160％的伤害。 每种元素反应产生的「遗龙之荣」分别独立存在。",
+        "ko-kr": "파티 내 캐릭터가 적에게 증발, 빙결, 감전, 개화, 물 원소 확산 또는 물 원소 결정 반응을 발동할 시 느비예트에게 「생존한 용의 영광」 효과가 생성된다. 이 효과를 얻은 느비예트의 강공격·공정한 판결은 기존의 110%/125%/160%에 해당하는 피해를 준다. 지속 시간: 30초, 최대 중첩수: 3스택. 생성된 「생존한 용의 영광」 효과는 각 원소 반응마다 독립적으로 존재한다",
+        "ru-ru": "Когда персонаж в отряде активирует на противнике реакции Пар, Заморозка, Заряжен, Бутонизация, Гидро Рассеивание или Гидро Кристалл, Нёвиллет получает 1 уровень Былой славы драконов. Эффект длится 30 сек. и складывается до 3 раз. Эффект повышает урон заряженной атаки: Взвешенный вердикт на 110%/125%/160% соответственно от её первоначального урона.Уровни Былой славы драконов каждого типа реакции существуют независимо друг от друга.",
+        "de-de": "Neuvillette erhält für 30s den Effekt „Glorie längst vergangener Drachen“, wenn Truppenmitglieder beim Gegner die Reaktionen Verdampfen, Gefroren, Unter Strom, Sprießen, Hydro-Verwirbelung oder Hydro-Kristallisation auslösen. 3-fach stapelbar. Dieser Effekt erhöht den Schaden von heftigem Schlag – Gerechter Vorstoß bei 1/2/3 Stapelungen auf 110/125/160% des ursprünglichen Schadens.Jede „Glorie längst vergangener Drachen“, die durch jede Art von Elementarreaktionen erzeugt wird, existiert unabhängig voneinander.",
+        "fr-fr": "Lorsqu'un personnage de l'équipe déclenche une réaction d'Évaporation, de Gel, d'Électrocution, de Fleurissement, de Dispersion Hydro ou de Cristallisation Hydro sur un ennemi, Neuvillette obtient un cumul de gloire draconique passée pendant 30 s : peut être cumulé 3 fois maximum, ce qui augmente les DGT de l'attaque chargée « Jugement équitable » à une valeur équivalant à 110 %, 125 % ou 160 % des DGT d'origine, selon le nombre de cumuls.Les cumuls de gloire draconique passée de chaque réaction élémentaire existent indépendamment les uns des autres.",
+        "es-es": "Cuando un personaje del equipo causa una reacción de Vaporización, Congelado, Electrocargado, Florecimiento, Torbellino Hydro o Cristalización Hydro, Neuvillette obtiene una carga de “gloria del legado dacroniano” durante 30s. Este efecto puede acumularse hasta 3 veces y hace que el Ataque Cargado: Sentencia ecuánime inflija, respectivamente, un 110/125/160% de su daño original.Los efectos de gloria del legado dacroniano obtenidos con cada Reacción Elemental son independientes unos de otros.",
+        "id-id": "Saat Karakter di dalam party memicu reaksi Vaporize, Frozen, Electro-Charged, Bloom, Hydro Swirl, atau Hydro Crystallize terhadap musuh, Neuvillette akan mendapat satu lapis efek \"Past Draconic Glories\" selama 30 detik, efek ini dapat ditumpuk sampai 3 lapis. Efek ini meningkatkan DMG Charged Attack: Equitable Judgment sebesar 110%/130%/160%. Efek \"Past Draconic Glories\" yang dihasilkan dari setiap reaksi elemen dihitung secara terpisah.",
+        "th-th": "เมื่อตัวละครในทีมทำให้เกิดปฏิกิริยาระเหย, แช่แข็ง, ชาร์จไฟฟ้า, งอกเงย, กระจายธาตุน้ำ หรือตกผลึกธาตุน้ำแก่ศัตรู Neuvillette จะได้รับเอฟเฟกต์ \"Past Draconic Glories\" เป็นเวลา 30 วินาที โดยซ้อนทับกันได้มากสุด 3 ชั้น ทำให้การชาร์จโจมตี: Equitable Judgment สร้างความเสียหาย 110%/125%/160% ของความเสียหายเดิม\"Past Draconic Glories\" ที่เกิดจากปฏิกิริยาธาตุแต่ละชนิดจะคงอยู่แยกกัน",
+        "vi-vn": "Nhân vật trong đội khi kích hoạt phản ứng Bốc Hơi, Đóng Băng, Điện Cảm, Sum Suê, Khuếch Tán Nguyên Tố Thủy hoặc Kết Tinh Nguyên Tố Thủy lên kẻ địch, sẽ khiến Neuvillette sản sinh hiệu quả \"Vinh Dự Của Rồng\" trong 30s, tối đa cộng dồn 3 tầng. Khiến sát thương Trọng Kích - Phán Quyết Công Bằng gây ra tăng 110%/125%/160% so với mức ban đầu.\"Vinh Dự Của Rồng\" sinh ra từ mỗi loại phản ứng nguyên tố sẽ tồn tại độc lập nhau.",
+        "zh-tw": "隊伍中的角色對敵人觸發蒸發、凍結、感電、綻放、水元素擴散或水元素結晶反應時，將為那維萊特產生持續30秒，至多疊加3層的「遺龍之榮」效果，使重擊·衡平推裁造成原本110%/125%/160%的傷害。每種元素反應產生的「遺龍之榮」分別獨立存在。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/30/101132274/214300483f0e7ae90ebc4b31372a806d_1528186968621681981.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Disciplina do Grande Juiz",
+        "en-us": "Discipline of the Supreme Arbitration",
+        "ja-jp": "至高なる審理の紀律",
+        "zh-cn": "至高仲裁的纪律",
+        "ko-kr": "드높은 중재의 규율",
+        "ru-ru": "Дисциплина высшего арбитра",
+        "de-de": "Disziplin oberster Gerichtsbarkeit",
+        "fr-fr": "Discipline de l'arbitrage suprême",
+        "es-es": "Arbitrador supremo",
+        "id-id": "Discipline of the Supreme Arbitration",
+        "th-th": "Discipline of the Supreme Arbitration",
+        "vi-vn": "Khuôn Phép Thẩm Phán Tối Cao",
+        "zh-tw": "至高仲裁的紀律"
+      },
+      "description": {
+        "pt-pt": "Para cada 1% da Vida Máxima de Neuvillette acima de 30% da Vida Máxima, obtém 0.6% de Bônus de Dano Hydro. É possível aumentar o Dano Hydro em até 30% dessa forma.",
+        "en-us": "For each 1% of Neuvillette's current HP greater than 30% of Max HP, he will gain 0.6% Hydro DMG Bonus. A maximum bonus of 30% can be obtained this way.",
+        "ja-jp": "現在のHPが上限の30%を超えている場合、超えた分1%につき、ヌヴィレットの水元素ダメージ+0.6%。この効果によってアップできる水元素ダメージは最大30%までとなる。",
+        "zh-cn": "基于当前生命值超出生命值上限30％的部分，每1％使那维莱特获得0.6%水元素伤害加成，通过这种方式，至多提升30%。",
+        "ko-kr": "현재 HP 중 HP 최대치의 30%를 초과하는 부분을 기반으로 느비예트가 1%당 0.6%의 물 원소 피해 보너스를 획득한다. 해당 방식으로 최대 30%까지 증가한다",
+        "ru-ru": "За каждый 1% собственного HP свыше 30% макс. HP Нёвиллет получает 0,6% бонус Гидро урона. Полученный таким образом бонус может составлять до 30%.",
+        "de-de": "Neuvillette erhält für je 1%, die seine aktuellen LP über 30% seiner max. LP liegen, einen Hydro-SCH-Bonus von 0,6%. Auf diese Weise kann der Hydro-SCH um bis zu 30% erhöht werden.",
+        "fr-fr": "Pour chaque tranche de 1 % de PV actuels au-dessus de 30 % de ses PV max, Neuvillette obtient un bonus de DGT Hydro de 0,6 %. Le bonus peut être augmenté d'un maximum de 30 % de cette manière.",
+        "es-es": "Por cada 1% de Vida por encima del 30% de su Vida Máx., Neuvillette obtiene un 0.6% de Bono de Daño Hydro. Este bono solo puede aumentar hasta un 30% de esta forma.",
+        "id-id": "Untuk setiap 1% HP Neuvillette di atas 30% Max HP-nya saat ini, Neuvillette akan mendapatkan 0,6% Hydro DMG Bonus, maksimum 30% peningkatan yang bisa diperoleh dengan cara ini.",
+        "th-th": "ทุก 1% ของค่าพลังชีวิตปัจจุบันที่สูงกว่า 30% ของพลังชีวิตสูงสุดของ Neuvillette จะได้รับโบนัสความเสียหายน้ำ 0.6% โดยสามารถเพิ่มด้วยวิธีนี้ได้มากสุด 30%",
+        "vi-vn": "Căn cứ vào 30% HP hiện tại vượt quá lượng HP tối đa, mỗi 1% khiến Neuvillette nhận được 0.6% buff sát thương nguyên tố Thủy. Tối đa tăng 30% bằng phương thức này.",
+        "zh-tw": "基於目前生命值超出生命值上限30%的部分，每1%使那維萊特獲得0.6%水元素傷害加成，依此方式，至多提升30%。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/30/101132274/e07a442bab71a9438fef4715419073ba_4995891000519223522.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Reunindo-se como a Maré",
+        "en-us": "Gather Like the Tide",
+        "ja-jp": "潮波のように集いて",
+        "zh-cn": "汇聚如浪潮一般",
+        "ko-kr": "모이는 파도처럼",
+        "ru-ru": "Собирайтесь подобно волнам",
+        "de-de": "Den Wellen gleich zusammenkommen",
+        "fr-fr": "Rassemblement de la marée",
+        "es-es": "Impetuosidad marítima",
+        "id-id": "Gather Like the Tide",
+        "th-th": "Gather Like the Tide",
+        "vi-vn": "Dung Hòa Như Thủy Triều",
+        "zh-tw": "匯聚如浪潮一般"
+      },
+      "description": {
+        "pt-pt": "Aumenta a Veloc. Mov. ao correr embaixo da água para os membros da equipe em 15%.Não é acumulável com Talentos Passivos que fornecem o mesmo efeito.",
+        "en-us": "Increases underwater Sprint SPD for your own party members by 15%.Not stackable with Passive Talents that provide the exact same effects.",
+        "ja-jp": "チーム内の自身のキャラクター全員が水中を素早く泳ぐ時、移動速度+15%。同じ効果を持つ固有天賦との重ね掛け不可。",
+        "zh-cn": "队伍中自己的角色进行水下冲刺时，移动速度提升15％。 无法与效果完全相同的固有天赋叠加。",
+        "ko-kr": "파티 내 자신의 캐릭터의 수중 대시 이동 속도가 15% 증가한다.같은 효과의 고유 특성과 중첩되지 않는다",
+        "ru-ru": "Увеличивает скорость спринта всех членов отряда под водой на 15%.Не суммируется с пассивными талантами, дающими точно такие же эффекты.",
+        "de-de": "Erhöht die Bewegungsgeschwindigkeit aller eigenen Truppenmitglieder beim schnellen Schwimmen unter Wasser (mithilfe der Rennen-Fähigkeit) um 15%.Nicht mit passiven Talenten mit völlig gleichen Effekten stapelbar.",
+        "fr-fr": "Augmente la VIT de sprint sous l'eau de vos personnages dans l'équipe de 15 %.Ne peut pas être cumulé avec d'autres aptitudes passives aux effets identiques.",
+        "es-es": "Cuando uno de los personajes de tu equipo esprinta debajo del agua, la Vel. Movimiento aumenta en un 15%.No se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
+        "id-id": "Meningkatkan 15% Movement SPD Karakter dalam party sendiri saat berenang cepat di bawah air. Efek ini tidak dapat ditumpuk dengan Talenta Pasif lain dengan efek yang sama persis.",
+        "th-th": "เมื่อตัวละครในทีมของตนเองทำการพุ่งตัวในน้ำ ความเร็วในการเคลื่อนที่จะเพิ่มขึ้น 15%ไม่สามารถซ้อนทับพรสวรรค์ติดตัวที่เอฟเฟกต์เหมือนกันทุกประการได้",
+        "vi-vn": "Nhân vật trong đội khi xung kích dưới nước, tốc độ di chuyển tăng 15%.Không thể cộng dồn với buff Thiên Phú có cùng hiệu quả.",
+        "zh-tw": "隊伍中自己的角色進行水下衝刺時，移動速度提升15%。無法與效果完全相同的固有天賦疊加。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/30/101132274/c6319f5fb19b323f43dae90a3c78180d_7376885296417572872.png"
+    }
+  ],
+  "talentAttributes": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Como Águas Paradas",
+        "en-us": "As Water Seeks Equilibrium",
+        "ja-jp": "清きこと水の如し",
+        "zh-cn": "普通攻击·如水从平",
+        "ko-kr": "일반 공격·공평한 물처럼",
+        "ru-ru": "Подобно водной глади",
+        "de-de": "Standardangriff: Wie stille Wasser",
+        "fr-fr": "Attaque normale : Stabilité de l'eau",
+        "es-es": "Ataque Normal: Remanso acuático",
+        "id-id": "Normal Attack: As Water Seeks Equilibrium",
+        "th-th": "โจมตีปกติ: As Water Seeks Equilibrium",
+        "vi-vn": "Tấn Công Thường - Tĩnh Lặng Như Nước",
+        "zh-tw": "普通攻擊·如水從平"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 1° Golpe",
+            "en-us": "1-Hit DMG",
+            "ja-jp": "1段ダメージ",
+            "zh-cn": "一段伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон атаки 1",
+            "de-de": "SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tahap 1",
+            "th-th": "ความเสียหายขั้น 1",
+            "vi-vn": "Sát Thương Lần 1",
+            "zh-tw": "一段傷害"
+          },
+          "values": [
+            "54.6%",
+            "58.7%",
+            "62.8%",
+            "68.2%",
+            "72.3%",
+            "76.4%",
+            "81.9%",
+            "87.3%",
+            "92.8%",
+            "98.2%",
+            "103.7%",
+            "109.2%",
+            "116.0%",
+            "122.8%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 2° Golpe",
+            "en-us": "2-Hit DMG",
+            "ja-jp": "2段ダメージ",
+            "zh-cn": "二段伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон атаки 2",
+            "de-de": "SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2.º golpe",
+            "id-id": "DMG Tahap 2",
+            "th-th": "ความเสียหายขั้น 2",
+            "vi-vn": "Sát Thương Lần 2",
+            "zh-tw": "二段傷害"
+          },
+          "values": [
+            "46.2%",
+            "49.7%",
+            "53.2%",
+            "57.8%",
+            "61.3%",
+            "64.7%",
+            "69.4%",
+            "74.0%",
+            "78.6%",
+            "83.2%",
+            "87.9%",
+            "92.5%",
+            "98.3%",
+            "104.1%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 3° Golpe",
+            "en-us": "3-Hit DMG",
+            "ja-jp": "3段ダメージ",
+            "zh-cn": "三段伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон атаки 3",
+            "de-de": "SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tahap 3",
+            "th-th": "ความเสียหายขั้น 3",
+            "vi-vn": "Sát Thương Lần 3",
+            "zh-tw": "三段傷害"
+          },
+          "values": [
+            "72.3%",
+            "77.8%",
+            "83.2%",
+            "90.4%",
+            "95.8%",
+            "101.3%",
+            "108.5%",
+            "115.7%",
+            "123.0%",
+            "130.2%",
+            "137.4%",
+            "144.7%",
+            "153.7%",
+            "162.8%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Ataque Carregado",
+            "en-us": "Charged Attack DMG",
+            "ja-jp": "重撃ダメージ",
+            "zh-cn": "重击伤害",
+            "ko-kr": "강공격 피해",
+            "ru-ru": "Урон заряженной атаки",
+            "de-de": "SCH heftiger Schläge",
+            "fr-fr": "DGT attaque chargée",
+            "es-es": "Daño de ATQ Cargado",
+            "id-id": "DMG Charged Attack",
+            "th-th": "ความเสียหายชาร์จโจมตี",
+            "vi-vn": "Sát Thương Trọng Kích",
+            "zh-tw": "重擊傷害"
+          },
+          "values": [
+            "136.8%",
+            "147.1%",
+            "157.3%",
+            "171.0%",
+            "181.3%",
+            "191.5%",
+            "205.2%",
+            "218.9%",
+            "232.6%",
+            "246.2%",
+            "259.9%",
+            "273.6%",
+            "290.7%",
+            "307.8%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Consumo de Stamina do Ataque Carregado",
+            "en-us": "Charged Attack Stamina Cost",
+            "ja-jp": "重撃スタミナ消費",
+            "zh-cn": "重击体力消耗",
+            "ko-kr": "강공격 스태미나 소모",
+            "ru-ru": "Потребление выносливости",
+            "de-de": "Ausdauerverbrauch heftiger Schläge",
+            "fr-fr": "Coût d'endurance attaque chargée",
+            "es-es": "Coste de Aguante de ATQ Cargado",
+            "id-id": "Konsumsi Stamina Charged Attack",
+            "th-th": "ชาร์จโจมตีใช้พลังกาย",
+            "vi-vn": "Thể Lực Trọng Kích Tiêu Hao",
+            "zh-tw": "重擊體力消耗"
+          },
+          "values": [
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0",
+            "50.0"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Contínuo de Ataque Carregado: Justiça Igual",
+            "en-us": "Charged Attack: Equitable Judgment",
+            "ja-jp": "重撃・衡平な裁量の継続ダメージ",
+            "zh-cn": "重击·衡平推裁持续伤害",
+            "ko-kr": "강공격·공정한 판결 지속 피해",
+            "ru-ru": "Периодический урон заряженной атаки: Взвешенный вердикт",
+            "de-de": "Fortlaufender SCH von heftiger Schlag – Gerechter Vorstoß",
+            "fr-fr": "DGT continus attaque chargée « Jugement équitable »",
+            "es-es": "Daño continuo de Ataque Cargado: Sentencia ecuánime",
+            "id-id": "DMG Charged Attack: Equitable Judgment",
+            "th-th": "ความเสียหายชาร์จโจมตี: Equitable Judgment",
+            "vi-vn": "Sát Thương Trọng Kích - Phán Quyết Công Bằng",
+            "zh-tw": "重擊·衡平推裁持續傷害"
+          },
+          "values": [
+            "7.32% de Vida Máxima",
+            "7.91% de Vida Máxima",
+            "8.51% de Vida Máxima",
+            "9.36% de Vida Máxima",
+            "9.96% de Vida Máxima",
+            "10.64% de Vida Máxima",
+            "11.57% de Vida Máxima",
+            "12.51% de Vida Máxima",
+            "13.45% de Vida Máxima",
+            "14.47% de Vida Máxima",
+            "15.49% de Vida Máxima",
+            "16.51% de Vida Máxima",
+            "17.53% de Vida Máxima",
+            "18.55% de Vida Máxima"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Regeneração de Vida",
+            "en-us": "HP Restored",
+            "ja-jp": "HP回復",
+            "zh-cn": "恢复生命值",
+            "ko-kr": "HP 회복",
+            "ru-ru": "Восстановление HP",
+            "de-de": "LP-Wiederherstellung",
+            "fr-fr": "Restauration PV",
+            "es-es": "Recuperación de Vida",
+            "id-id": "HP Dipulihkan",
+            "th-th": "ฟื้นฟูพลังชีวิต",
+            "vi-vn": "HP Hồi Phục",
+            "zh-tw": "恢復生命值"
+          },
+          "values": [
+            "16.0 de Vida Máxima/Gota",
+            "16.0 de Vida Máxima/Gota",
+            "16.0 de Vida Máxima/Gota",
+            "16.0 de Vida Máxima/Gota",
+            "16.0 de Vida Máxima/Gota",
+            "16.0 de Vida Máxima/Gota",
+            "16.0 de Vida Máxima/Gota",
+            "16.0 de Vida Máxima/Gota",
+            "16.0 de Vida Máxima/Gota",
+            "16.0 de Vida Máxima/Gota",
+            "16.0 de Vida Máxima/Gota",
+            "16.0 de Vida Máxima/Gota",
+            "16.0 de Vida Máxima/Gota",
+            "16.0 de Vida Máxima/Gota"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Vida perdida",
+            "en-us": "HP Loss",
+            "ja-jp": "HP消費",
+            "zh-cn": "损失生命值",
+            "ko-kr": "손실 HP",
+            "ru-ru": "Потеря HP",
+            "de-de": "LP-Verlust",
+            "fr-fr": "Perte de PV",
+            "es-es": "Vida perdida",
+            "id-id": "Pengurangan HP",
+            "th-th": "เสียพลังชีวิต",
+            "vi-vn": "HP Tổn Thất",
+            "zh-tw": "損失生命值"
+          },
+          "values": [
+            "8% de Vida Máxima/0.5s",
+            "8% de Vida Máxima/0.5s",
+            "8% de Vida Máxima/0.5s",
+            "8% de Vida Máxima/0.5s",
+            "8% de Vida Máxima/0.5s",
+            "8% de Vida Máxima/0.5s",
+            "8% de Vida Máxima/0.5s",
+            "8% de Vida Máxima/0.5s",
+            "8% de Vida Máxima/0.5s",
+            "8% de Vida Máxima/0.5s",
+            "8% de Vida Máxima/0.5s",
+            "8% de Vida Máxima/0.5s",
+            "8% de Vida Máxima/0.5s",
+            "8% de Vida Máxima/0.5s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Limite de consumo de Vida",
+            "en-us": "Plunge DMG",
+            "ja-jp": "落下期間のダメージ",
+            "zh-cn": "下坠期间伤害",
+            "ko-kr": "낙하 기간 피해",
+            "ru-ru": "Урон в падении",
+            "de-de": "SCH beim Fallen",
+            "fr-fr": "DGT durant la chute",
+            "es-es": "Daño de Caída",
+            "id-id": "DMG Selama Plunging",
+            "th-th": "ความเสียหายพุ่งลง",
+            "vi-vn": "Sát Thương Khi Rơi",
+            "zh-tw": "損失生命值上限"
+          },
+          "values": [
+            "50% da Vida Máxima",
+            "50% da Vida Máxima",
+            "50% da Vida Máxima",
+            "50% da Vida Máxima",
+            "50% da Vida Máxima",
+            "50% da Vida Máxima",
+            "50% da Vida Máxima",
+            "50% da Vida Máxima",
+            "50% da Vida Máxima",
+            "50% da Vida Máxima",
+            "50% da Vida Máxima",
+            "50% da Vida Máxima",
+            "50% da Vida Máxima",
+            "50% da Vida Máxima"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Durante a Queda",
+            "en-us": "Low/High Plunge DMG",
+            "ja-jp": "低空/高空落下攻撃ダメージ",
+            "zh-cn": "低空/高空坠地冲击伤害",
+            "ko-kr": "저공/고공 추락 충격 피해",
+            "ru-ru": "Урон низкого/высокого удара",
+            "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
+            "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Daño de impacto de caída baja/alta",
+            "id-id": "DMG Plunging Attack Min./Maks.",
+            "th-th": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+            "vi-vn": "Sát Thương Khi Rơi Từ Độ Cao Thấp/Cao",
+            "zh-tw": "下墜期間傷害"
+          },
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%",
+            "128.2%",
+            "136.1%",
+            "144.1%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Queda de Baixa/Alta Altitude",
+            "fr-fr": "DGT chute basse/élevée",
+            "zh-tw": "低空/高空墜地衝擊傷害"
+          },
+          "values": [
+            "114%/142%",
+            "123%/153%",
+            "132%/165%",
+            "145%/182%",
+            "155%/193%",
+            "165%/206%",
+            "180%/224%",
+            "194%/243%",
+            "209%/261%",
+            "225%/281%",
+            "240%/300%",
+            "256%/320%",
+            "272%/340%",
+            "288%/360%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_skill",
+      "talentName": {
+        "pt-pt": "Lágrimas, Eu Retribuirei",
+        "en-us": "O Tears, I Shall Repay",
+        "ja-jp": "涙よ、私は必ずや償おう",
+        "zh-cn": "泪水啊，我必偿还",
+        "ko-kr": "눈물이여, 반드시 갚으리라",
+        "ru-ru": "О слёзы, я воздам",
+        "de-de": "O Tränen, ich werd’s vergelten",
+        "fr-fr": "Ô larmes, je rembourse",
+        "es-es": "Plañido del resarcimiento",
+        "id-id": "O Tears, I Shall Repay",
+        "th-th": "O Tears, I Shall Repay",
+        "vi-vn": "Hoàn Trả Nước Mắt",
+        "zh-tw": "淚水啊！我必償還"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Dano de Habilidade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "12.86% de Vida Máxima",
+            "13.83% de Vida Máxima",
+            "14.79% de Vida Máxima",
+            "16.08% de Vida Máxima",
+            "17.04% de Vida Máxima",
+            "18.01% de Vida Máxima",
+            "19.30% de Vida Máxima",
+            "20.58% de Vida Máxima",
+            "21.87% de Vida Máxima",
+            "23.16% de Vida Máxima"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Espinho Espiritual",
+            "en-us": "Spiritbreath Thorn DMG",
+            "ja-jp": "霊息の棘のダメージ",
+            "zh-cn": "灵息之刺伤害",
+            "ko-kr": "영혼의 쐐기 피해",
+            "ru-ru": "Урон Иглы дыхания душ",
+            "de-de": "Geisterstachel-SCH",
+            "fr-fr": "DGT épine d'inhalation",
+            "es-es": "Daño de espina halitoespiritual",
+            "id-id": "DMG Spiritbreath Thorn",
+            "th-th": "ความเสียหาย Spiritbreath Thorn",
+            "vi-vn": "Sát Thương Gai Linh Hồn",
+            "zh-tw": "靈息之刺傷害"
+          },
+          "values": [
+            "20.8%",
+            "22.4%",
+            "23.9%",
+            "26.0%",
+            "27.6%",
+            "29.1%",
+            "31.2%",
+            "33.33%",
+            "35.4%",
+            "37.4%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Intervalo de Espinho Espiritual",
+            "en-us": "Spiritbreath Thorn Interval",
+            "ja-jp": "霊息の棘の間隔",
+            "zh-cn": "灵息之刺间隔",
+            "ko-kr": "영혼의 쐐기 간격",
+            "ru-ru": "Интервал Иглы дыхания душ",
+            "de-de": "Geisterstachel-Intervall",
+            "fr-fr": "Intervalle d'épine d'inhalation",
+            "es-es": "Intervalo de espina halitoespiritual",
+            "id-id": "Jeda Spiritbbreath Thorn",
+            "th-th": "ช่วงเวลาเกิด Spiritbreath Thorn",
+            "vi-vn": "Giãn Cách Gai Linh Hồn",
+            "zh-tw": "靈息之刺間隔"
+          },
+          "values": [
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração da Gota d'Água Primordial",
+            "en-us": "Sourcewater Droplet Duration",
+            "ja-jp": "源水の雫の継続時間",
+            "zh-cn": "源水之滴持续时间",
+            "ko-kr": "지속 시간",
+            "ru-ru": "Длительность Капли источника",
+            "de-de": "Quellwassertropfen-Dauer",
+            "fr-fr": "Durée de goutte d'eau de source",
+            "es-es": "Duración de gota primigenia",
+            "id-id": "Durasi Sourcewater Droplet",
+            "th-th": "ระยะเวลาต่อเนื่อง Sourcewater Droplet",
+            "vi-vn": "Nguồn Nước Trong Duy Trì",
+            "zh-tw": "源水之滴持續時間"
+          },
+          "values": [
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s",
+            "15.0s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s",
+            "12.0s"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_burst",
+      "talentName": {
+        "pt-pt": "Marés, Eu Retornarei",
+        "en-us": "O Tides, I Have Returned",
+        "ja-jp": "海よ、私は帰ってきた",
+        "zh-cn": "潮水啊，我已归来",
+        "ko-kr": "밀물이여, 내가 돌아왔노라",
+        "ru-ru": "О волны, я возвратился",
+        "de-de": "O Gezeiten, ich bin zurückgekehrt",
+        "fr-fr": "Ô marées, je reviens",
+        "es-es": "Retorno mareal",
+        "id-id": "O Tides, I Have Returned",
+        "th-th": "O Tides, I Have Returned",
+        "vi-vn": "Về Với Thủy Triều",
+        "zh-tw": "潮水啊！我已歸來"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Dano de Habilidade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "22.25% de Vida Máxima",
+            "23.93% de Vida Máxima",
+            "25.60% de Vida Máxima",
+            "27.82% de Vida Máxima",
+            "29.49% de Vida Máxima",
+            "31.16% de Vida Máxima",
+            "33.39% de Vida Máxima",
+            "35.61% de Vida Máxima",
+            "37.84% de Vida Máxima",
+            "40.06% de Vida Máxima"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Cachoeira",
+            "en-us": "Waterfall DMG",
+            "ja-jp": "瀑のダメージ",
+            "zh-cn": "水瀑伤害",
+            "ko-kr": "폭포 피해",
+            "ru-ru": "Урон ливня",
+            "de-de": "Wasserfall-SCH",
+            "fr-fr": "DGT cascade",
+            "es-es": "Daño de cascada tumultuosa",
+            "id-id": "DMG Waterfall",
+            "th-th": "ความเสียหาย Spiritbreath Thorn",
+            "vi-vn": "Sát Thương Thác Nước",
+            "zh-tw": "水瀑傷害"
+          },
+          "values": [
+            "9.11% de Vida Máxima",
+            "9.79% de Vida Máxima",
+            "10.47% de Vida Máxima",
+            "11.38% de Vida Máxima",
+            "12.06% de Vida Máxima",
+            "12.75% de Vida Máxima",
+            "13.66% de Vida Máxima",
+            "14.57% de Vida Máxima",
+            "15.48% de Vida Máxima",
+            "16.39% de Vida Máxima"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "ช่วงเวลาเกิด Spiritbreath Thorn",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "18.0s",
+            "18.0s",
+            "18.0s",
+            "18.0s",
+            "18.0s",
+            "18.0s",
+            "18.0s",
+            "18.0s",
+            "18.0s",
+            "18.0s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Energia Elemental",
+            "en-us": "Energy Cost",
+            "ja-jp": "元素エネルギー",
+            "zh-cn": "元素能量",
+            "ko-kr": "원소 에너지",
+            "ru-ru": "Потребление энергии",
+            "de-de": "Elementarenergie",
+            "fr-fr": "Énergie élémentaire",
+            "es-es": "Energía Elemental",
+            "id-id": "Konsumsi Energy",
+            "th-th": "ระยะเวลาต่อเนื่อง Sourcewater Droplet",
+            "vi-vn": "Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量"
+          },
+          "values": [
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70",
+            "70"
+          ]
+        }
+      ]
+    }
+  ],
+  "talentMaterials": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Como Águas Paradas",
+        "en-us": "As Water Seeks Equilibrium",
+        "ja-jp": "清きこと水の如し",
+        "zh-cn": "普通攻击·如水从平",
+        "ko-kr": "일반 공격·공평한 물처럼",
+        "ru-ru": "Подобно водной глади",
+        "de-de": "Standardangriff: Wie stille Wasser",
+        "fr-fr": "Attaque normale : Stabilité de l'eau",
+        "es-es": "Ataque Normal: Remanso acuático",
+        "id-id": "Normal Attack: As Water Seeks Equilibrium",
+        "th-th": "โจมตีปกติ: As Water Seeks Equilibrium",
+        "vi-vn": "Tấn Công Thường - Tĩnh Lặng Như Nước",
+        "zh-tw": "普通攻擊·如水從平"
+      },
+      "materials": [
+        {
+          "level": 2,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 12000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4078",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/9756eebf6ce0192b9e27fc067db611aa_8044121978484211942.png",
+              "amount": 3,
+              "name": {
+                "pt-pt": "Ensinamentos da Igualdade",
+                "en-us": "Teachings of Equity",
+                "ja-jp": "公平の教え",
+                "zh-cn": "公平的教导",
+                "ko-kr": "공평의 가르침",
+                "ru-ru": "Учения о Беспристрастии",
+                "de-de": "Lehren der Fairness",
+                "fr-fr": "Enseignement de l'Équité",
+                "es-es": "Enseñanzas de la ecuanimidad",
+                "id-id": "Teachings of Equity",
+                "th-th": "Teachings of Equity",
+                "vi-vn": "Bài Giảng Của Công Bằng",
+                "zh-tw": "公平的教導"
+              }
+            },
+            {
+              "id": "4069",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/59559639/0e951d06ab200a1578724fed95d842ca_8366337659899801404.png",
+              "amount": 6,
+              "name": {
+                "pt-pt": "Pérola Transoceânica",
+                "en-us": "Transoceanic Pearl",
+                "ja-jp": "異海の露",
+                "zh-cn": "异海凝珠",
+                "ko-kr": "기이한 바다의 방울",
+                "ru-ru": "Жемчужина иноморья",
+                "de-de": "Transozeanische Perle",
+                "fr-fr": "Perle transocéanique",
+                "es-es": "Condensado extramarino",
+                "id-id": "Transoceanic Pearl",
+                "th-th": "Transoceanic Pearl",
+                "vi-vn": "Ngọc Vụn Đại Dương",
+                "zh-tw": "異海凝珠"
+              }
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 17500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4079",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/fe870b6dda9cd98804b49f49f992d8af_5693939665514204917.png",
+              "amount": 2,
+              "name": {
+                "pt-pt": "Guia da Igualdade",
+                "en-us": "Guide to Equity",
+                "ja-jp": "公平の導き",
+                "zh-cn": "公平的指引",
+                "ko-kr": "공평의 인도",
+                "ru-ru": "Указания о Беспристрастии",
+                "de-de": "Anleitung zur Fairness",
+                "fr-fr": "Guide de l'Équité",
+                "es-es": "Guía de la ecuanimidad",
+                "id-id": "Guide to Equity",
+                "th-th": "Guide of Equity",
+                "vi-vn": "Hướng Dẫn Của Công Bằng",
+                "zh-tw": "公平的指引"
+              }
+            },
+            {
+              "id": "4068",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/35ab3651275afb059f079c578c4cbfbd_8419390384498436239.png",
+              "amount": 3,
+              "name": {
+                "pt-pt": "Pedaço Transoceânico",
+                "en-us": "Transoceanic Chunk",
+                "ja-jp": "異海の塊",
+                "zh-cn": "异海之块",
+                "ko-kr": "기이한 바다의 결정",
+                "ru-ru": "Обломок из иноморья",
+                "de-de": "Transozeanischer Brocken",
+                "fr-fr": "Morceau transocéanique",
+                "es-es": "Fragmento extramarino",
+                "id-id": "Transoceanic Chunk",
+                "th-th": "Transoceanic Chunk",
+                "vi-vn": "Kết Tinh Đại Dương",
+                "zh-tw": "異海之塊"
+              }
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 25000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4079",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/fe870b6dda9cd98804b49f49f992d8af_5693939665514204917.png",
+              "amount": 4,
+              "name": {
+                "pt-pt": "Guia da Igualdade",
+                "en-us": "Guide to Equity",
+                "ja-jp": "公平の導き",
+                "zh-cn": "公平的指引",
+                "ko-kr": "공평의 인도",
+                "ru-ru": "Указания о Беспристрастии",
+                "de-de": "Anleitung zur Fairness",
+                "fr-fr": "Guide de l'Équité",
+                "es-es": "Guía de la ecuanimidad",
+                "id-id": "Guide to Equity",
+                "th-th": "Guide of Equity",
+                "vi-vn": "Hướng Dẫn Của Công Bằng",
+                "zh-tw": "公平的指引"
+              }
+            },
+            {
+              "id": "4068",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/35ab3651275afb059f079c578c4cbfbd_8419390384498436239.png",
+              "amount": 4,
+              "name": {
+                "pt-pt": "Pedaço Transoceânico",
+                "en-us": "Transoceanic Chunk",
+                "ja-jp": "異海の塊",
+                "zh-cn": "异海之块",
+                "ko-kr": "기이한 바다의 결정",
+                "ru-ru": "Обломок из иноморья",
+                "de-de": "Transozeanischer Brocken",
+                "fr-fr": "Morceau transocéanique",
+                "es-es": "Fragmento extramarino",
+                "id-id": "Transoceanic Chunk",
+                "th-th": "Transoceanic Chunk",
+                "vi-vn": "Kết Tinh Đại Dương",
+                "zh-tw": "異海之塊"
+              }
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 30000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4079",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/fe870b6dda9cd98804b49f49f992d8af_5693939665514204917.png",
+              "amount": 6,
+              "name": {
+                "pt-pt": "Guia da Igualdade",
+                "en-us": "Guide to Equity",
+                "ja-jp": "公平の導き",
+                "zh-cn": "公平的指引",
+                "ko-kr": "공평의 인도",
+                "ru-ru": "Указания о Беспристрастии",
+                "de-de": "Anleitung zur Fairness",
+                "fr-fr": "Guide de l'Équité",
+                "es-es": "Guía de la ecuanimidad",
+                "id-id": "Guide to Equity",
+                "th-th": "Guide of Equity",
+                "vi-vn": "Hướng Dẫn Của Công Bằng",
+                "zh-tw": "公平的指引"
+              }
+            },
+            {
+              "id": "4068",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/35ab3651275afb059f079c578c4cbfbd_8419390384498436239.png",
+              "amount": 6,
+              "name": {
+                "pt-pt": "Pedaço Transoceânico",
+                "en-us": "Transoceanic Chunk",
+                "ja-jp": "異海の塊",
+                "zh-cn": "异海之块",
+                "ko-kr": "기이한 바다의 결정",
+                "ru-ru": "Обломок из иноморья",
+                "de-de": "Transozeanischer Brocken",
+                "fr-fr": "Morceau transocéanique",
+                "es-es": "Fragmento extramarino",
+                "id-id": "Transoceanic Chunk",
+                "th-th": "Transoceanic Chunk",
+                "vi-vn": "Kết Tinh Đại Dương",
+                "zh-tw": "異海之塊"
+              }
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 37500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4079",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/fe870b6dda9cd98804b49f49f992d8af_5693939665514204917.png",
+              "amount": 9,
+              "name": {
+                "pt-pt": "Guia da Igualdade",
+                "en-us": "Guide to Equity",
+                "ja-jp": "公平の導き",
+                "zh-cn": "公平的指引",
+                "ko-kr": "공평의 인도",
+                "ru-ru": "Указания о Беспристрастии",
+                "de-de": "Anleitung zur Fairness",
+                "fr-fr": "Guide de l'Équité",
+                "es-es": "Guía de la ecuanimidad",
+                "id-id": "Guide to Equity",
+                "th-th": "Guide of Equity",
+                "vi-vn": "Hướng Dẫn Của Công Bằng",
+                "zh-tw": "公平的指引"
+              }
+            },
+            {
+              "id": "4068",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/35ab3651275afb059f079c578c4cbfbd_8419390384498436239.png",
+              "amount": 9,
+              "name": {
+                "pt-pt": "Pedaço Transoceânico",
+                "en-us": "Transoceanic Chunk",
+                "ja-jp": "異海の塊",
+                "zh-cn": "异海之块",
+                "ko-kr": "기이한 바다의 결정",
+                "ru-ru": "Обломок из иноморья",
+                "de-de": "Transozeanischer Brocken",
+                "fr-fr": "Morceau transocéanique",
+                "es-es": "Fragmento extramarino",
+                "id-id": "Transoceanic Chunk",
+                "th-th": "Transoceanic Chunk",
+                "vi-vn": "Kết Tinh Đại Dương",
+                "zh-tw": "異海之塊"
+              }
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 120000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4080",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/9f61cc5605d47c5c20447bd9cf02a832_4190619380845579253.png",
+              "amount": 4,
+              "name": {
+                "pt-pt": "Filosofia da Igualdade",
+                "en-us": "Philosophies of Equity",
+                "ja-jp": "公平の哲学",
+                "zh-cn": "公平的哲学",
+                "ko-kr": "공평의 철학",
+                "ru-ru": "Философия о Беспристрастии",
+                "de-de": "Philosophie der Fairness",
+                "fr-fr": "Philosophie de l'Équité",
+                "es-es": "Filosofía de la ecuanimidad",
+                "id-id": "Philosophies of Equity",
+                "th-th": "Philosophies of Equity",
+                "vi-vn": "Triết Học Của Công Bằng",
+                "zh-tw": "公平的哲學"
+              }
+            },
+            {
+              "id": "4067",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/4bc36681d1975fcd36ed2965771c995d_184811178946478761.png",
+              "amount": 4,
+              "name": {
+                "pt-pt": "Cristal Caleidoscópico",
+                "en-us": "Xenochromatic Crystal",
+                "ja-jp": "色変わりの結晶",
+                "zh-cn": "异色结晶石",
+                "ko-kr": "이색 결정석",
+                "ru-ru": "Ксенохромный кристалл",
+                "de-de": "Xenochromatischer Kristall",
+                "fr-fr": "Cristal xénochromatique",
+                "es-es": "Cristalización cromática",
+                "id-id": "Xenochromatic Crystal",
+                "th-th": "Xenochromatic Crystal",
+                "vi-vn": "Tinh Thạch Dị Sắc",
+                "zh-tw": "異色結晶石"
+              }
+            },
+            {
+              "id": "3723",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/17/89220822/9ec22507ee5350db6294086a58a1d6b0_1609575112761934701.png",
+              "amount": 1,
+              "name": {
+                "pt-pt": "Âmbar Eterno",
+                "en-us": "Everamber",
+                "ja-jp": "太古の樹海の一瞬",
+                "zh-cn": "亘古树海之一瞬",
+                "ko-kr": "고대 숲의 응고된 찰나",
+                "ru-ru": "Вечный янтарь",
+                "de-de": "Permabernstein",
+                "fr-fr": "Constambre",
+                "es-es": "Instante del mar arbóreo",
+                "id-id": "Everamber",
+                "th-th": "Everamber",
+                "vi-vn": "Hổ Phách Vĩnh Hằng",
+                "zh-tw": "亙古樹海之一瞬"
+              }
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 260000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4080",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/9f61cc5605d47c5c20447bd9cf02a832_4190619380845579253.png",
+              "amount": 6,
+              "name": {
+                "pt-pt": "Filosofia da Igualdade",
+                "en-us": "Philosophies of Equity",
+                "ja-jp": "公平の哲学",
+                "zh-cn": "公平的哲学",
+                "ko-kr": "공평의 철학",
+                "ru-ru": "Философия о Беспристрастии",
+                "de-de": "Philosophie der Fairness",
+                "fr-fr": "Philosophie de l'Équité",
+                "es-es": "Filosofía de la ecuanimidad",
+                "id-id": "Philosophies of Equity",
+                "th-th": "Philosophies of Equity",
+                "vi-vn": "Triết Học Của Công Bằng",
+                "zh-tw": "公平的哲學"
+              }
+            },
+            {
+              "id": "4067",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/4bc36681d1975fcd36ed2965771c995d_184811178946478761.png",
+              "amount": 6,
+              "name": {
+                "pt-pt": "Cristal Caleidoscópico",
+                "en-us": "Xenochromatic Crystal",
+                "ja-jp": "色変わりの結晶",
+                "zh-cn": "异色结晶石",
+                "ko-kr": "이색 결정석",
+                "ru-ru": "Ксенохромный кристалл",
+                "de-de": "Xenochromatischer Kristall",
+                "fr-fr": "Cristal xénochromatique",
+                "es-es": "Cristalización cromática",
+                "id-id": "Xenochromatic Crystal",
+                "th-th": "Xenochromatic Crystal",
+                "vi-vn": "Tinh Thạch Dị Sắc",
+                "zh-tw": "異色結晶石"
+              }
+            },
+            {
+              "id": "3723",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/17/89220822/9ec22507ee5350db6294086a58a1d6b0_1609575112761934701.png",
+              "amount": 1,
+              "name": {
+                "pt-pt": "Âmbar Eterno",
+                "en-us": "Everamber",
+                "ja-jp": "太古の樹海の一瞬",
+                "zh-cn": "亘古树海之一瞬",
+                "ko-kr": "고대 숲의 응고된 찰나",
+                "ru-ru": "Вечный янтарь",
+                "de-de": "Permabernstein",
+                "fr-fr": "Constambre",
+                "es-es": "Instante del mar arbóreo",
+                "id-id": "Everamber",
+                "th-th": "Everamber",
+                "vi-vn": "Hổ Phách Vĩnh Hằng",
+                "zh-tw": "亙古樹海之一瞬"
+              }
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 450000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4080",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/9f61cc5605d47c5c20447bd9cf02a832_4190619380845579253.png",
+              "amount": 11,
+              "name": {
+                "pt-pt": "Filosofia da Igualdade",
+                "en-us": "Philosophies of Equity",
+                "ja-jp": "公平の哲学",
+                "zh-cn": "公平的哲学",
+                "ko-kr": "공평의 철학",
+                "ru-ru": "Философия о Беспристрастии",
+                "de-de": "Philosophie der Fairness",
+                "fr-fr": "Philosophie de l'Équité",
+                "es-es": "Filosofía de la ecuanimidad",
+                "id-id": "Philosophies of Equity",
+                "th-th": "Philosophies of Equity",
+                "vi-vn": "Triết Học Của Công Bằng",
+                "zh-tw": "公平的哲學"
+              }
+            },
+            {
+              "id": "4067",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/4bc36681d1975fcd36ed2965771c995d_184811178946478761.png",
+              "amount": 9,
+              "name": {
+                "pt-pt": "Cristal Caleidoscópico",
+                "en-us": "Xenochromatic Crystal",
+                "ja-jp": "色変わりの結晶",
+                "zh-cn": "异色结晶石",
+                "ko-kr": "이색 결정석",
+                "ru-ru": "Ксенохромный кристалл",
+                "de-de": "Xenochromatischer Kristall",
+                "fr-fr": "Cristal xénochromatique",
+                "es-es": "Cristalización cromática",
+                "id-id": "Xenochromatic Crystal",
+                "th-th": "Xenochromatic Crystal",
+                "vi-vn": "Tinh Thạch Dị Sắc",
+                "zh-tw": "異色結晶石"
+              }
+            },
+            {
+              "id": "3723",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/17/89220822/9ec22507ee5350db6294086a58a1d6b0_1609575112761934701.png",
+              "amount": 2,
+              "name": {
+                "pt-pt": "Âmbar Eterno",
+                "en-us": "Everamber",
+                "ja-jp": "太古の樹海の一瞬",
+                "zh-cn": "亘古树海之一瞬",
+                "ko-kr": "고대 숲의 응고된 찰나",
+                "ru-ru": "Вечный янтарь",
+                "de-de": "Permabernstein",
+                "fr-fr": "Constambre",
+                "es-es": "Instante del mar arbóreo",
+                "id-id": "Everamber",
+                "th-th": "Everamber",
+                "vi-vn": "Hổ Phách Vĩnh Hằng",
+                "zh-tw": "亙古樹海之一瞬"
+              }
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+              "amount": 700000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "4080",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/9f61cc5605d47c5c20447bd9cf02a832_4190619380845579253.png",
+              "amount": 16,
+              "name": {
+                "pt-pt": "Filosofia da Igualdade",
+                "en-us": "Philosophies of Equity",
+                "ja-jp": "公平の哲学",
+                "zh-cn": "公平的哲学",
+                "ko-kr": "공평의 철학",
+                "ru-ru": "Философия о Беспристрастии",
+                "de-de": "Philosophie der Fairness",
+                "fr-fr": "Philosophie de l'Équité",
+                "es-es": "Filosofía de la ecuanimidad",
+                "id-id": "Philosophies of Equity",
+                "th-th": "Philosophies of Equity",
+                "vi-vn": "Triết Học Của Công Bằng",
+                "zh-tw": "公平的哲學"
+              }
+            },
+            {
+              "id": "4067",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/4bc36681d1975fcd36ed2965771c995d_184811178946478761.png",
+              "amount": 12,
+              "name": {
+                "pt-pt": "Cristal Caleidoscópico",
+                "en-us": "Xenochromatic Crystal",
+                "ja-jp": "色変わりの結晶",
+                "zh-cn": "异色结晶石",
+                "ko-kr": "이색 결정석",
+                "ru-ru": "Ксенохромный кристалл",
+                "de-de": "Xenochromatischer Kristall",
+                "fr-fr": "Cristal xénochromatique",
+                "es-es": "Cristalización cromática",
+                "id-id": "Xenochromatic Crystal",
+                "th-th": "Xenochromatic Crystal",
+                "vi-vn": "Tinh Thạch Dị Sắc",
+                "zh-tw": "異色結晶石"
+              }
+            },
+            {
+              "id": "3723",
+              "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/17/89220822/9ec22507ee5350db6294086a58a1d6b0_1609575112761934701.png",
+              "amount": 2,
+              "name": {
+                "pt-pt": "Âmbar Eterno",
+                "en-us": "Everamber",
+                "ja-jp": "太古の樹海の一瞬",
+                "zh-cn": "亘古树海之一瞬",
+                "ko-kr": "고대 숲의 응고된 찰나",
+                "ru-ru": "Вечный янтарь",
+                "de-de": "Permabernstein",
+                "fr-fr": "Constambre",
+                "es-es": "Instante del mar arbóreo",
+                "id-id": "Everamber",
+                "th-th": "Everamber",
+                "vi-vn": "Hổ Phách Vĩnh Hằng",
+                "zh-tw": "亙古樹海之一瞬"
+              }
+            },
+            {
+              "id": "900",
+              "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Crown%20of%20Insight_icon.png",
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa da Sabedoria",
+                "en-us": "Crown of Insight",
+                "ja-jp": "知恵の冠",
+                "zh-cn": "智识之冕",
+                "ko-kr": "지식의 왕관",
+                "ru-ru": "Корона прозрения",
+                "de-de": "Krone der Weisheit",
+                "fr-fr": "Couronne de la sagesse",
+                "es-es": "Corona de la sabiduría",
+                "id-id": "Crown of Insight",
+                "th-th": "Crown of Insight",
+                "vi-vn": "Vương Miện Trí Thức",
+                "zh-tw": "智識之冕"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "affiliation": {
+    "pt-pt": "Corte de Fontaine",
+    "en-us": "Court of Fontaine",
+    "ja-jp": "フォンテーヌ廷",
+    "zh-cn": "枫丹廷",
+    "ko-kr": "폰타인성",
+    "ru-ru": "Кур-де-Фонтейн",
+    "de-de": "Hof von Fontaine",
+    "fr-fr": "Iudex de Fontaine",
+    "es-es": "Corte de Fontaine",
+    "id-id": "Court of Fontaine",
+    "th-th": "นครว่าการ Fontaine",
+    "vi-vn": "Đại Sảnh Fontaine",
+    "zh-tw": "楓丹廷"
+  },
+  "birthday": {
+    "pt-pt": "18/12",
+    "en-us": "12/18",
+    "ja-jp": "12月18日",
+    "zh-cn": "12月18日",
+    "ko-kr": "12월 18일",
+    "ru-ru": "18 декабря",
+    "de-de": "18. Dezember",
+    "fr-fr": "18/12",
+    "es-es": "12/18",
+    "id-id": "18 Desember",
+    "th-th": "12/18",
+    "vi-vn": "18/12",
+    "zh-tw": "12月18日"
+  },
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv. 20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv. 20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1037",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Varunada%20Lazurite%20Sliver_icon.png",
+          "amount": 1,
+          "name": {
+            "pt-pt": "Lasca de Lazurita Varunada",
+            "en-us": "Varunada Lazurite Sliver",
+            "ja-jp": "澄明なラピスラズリ・砕屑",
+            "zh-cn": "涤净青金碎屑",
+            "ko-kr": "순수한 청금석 가루",
+            "ru-ru": "Осколок лазурита Варунада",
+            "de-de": "Varunada-Lasurit-Splitter",
+            "fr-fr": "Éclat de lazurite varunada",
+            "es-es": "Pedacito de lazurita varunada",
+            "id-id": "Varunada Lazurite Sliver",
+            "th-th": "Varunada Lazurite Sliver",
+            "vi-vn": "Vụn Thanh Kim Sạch",
+            "zh-tw": "滌淨青金碎屑"
+          }
+        },
+        {
+          "id": "4069",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/59559639/0e951d06ab200a1578724fed95d842ca_8366337659899801404.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pérola Transoceânica",
+            "en-us": "Transoceanic Pearl",
+            "ja-jp": "異海の露",
+            "zh-cn": "异海凝珠",
+            "ko-kr": "기이한 바다의 방울",
+            "ru-ru": "Жемчужина иноморья",
+            "de-de": "Transozeanische Perle",
+            "fr-fr": "Perle transocéanique",
+            "es-es": "Condensado extramarino",
+            "id-id": "Transoceanic Pearl",
+            "th-th": "Transoceanic Pearl",
+            "vi-vn": "Ngọc Vụn Đại Dương",
+            "zh-tw": "異海凝珠"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv. 40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv. 40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 40000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1036",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Varunada%20Lazurite%20Fragment_icon.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Lazurita Varunada",
+            "en-us": "Varunada Lazurite Fragment",
+            "ja-jp": "澄明なラピスラズリ・欠片",
+            "zh-cn": "涤净青金断片",
+            "ko-kr": "순수한 청금석 조각",
+            "ru-ru": "Фрагмент лазурита Варунада",
+            "de-de": "Varunada-Lasurit-Bruchstück",
+            "fr-fr": "Fragment de lazurite varunada",
+            "es-es": "Fragmento de lazurita varunada",
+            "id-id": "Varunada Lazurite Fragment",
+            "th-th": "Varunada Lazurite Fragment",
+            "vi-vn": "Mảnh Thanh Kim Sạch",
+            "zh-tw": "滌淨青金斷片"
+          }
+        },
+        {
+          "id": "4069",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/59559639/0e951d06ab200a1578724fed95d842ca_8366337659899801404.png",
+          "amount": 15,
+          "name": {
+            "pt-pt": "Pérola Transoceânica",
+            "en-us": "Transoceanic Pearl",
+            "ja-jp": "異海の露",
+            "zh-cn": "异海凝珠",
+            "ko-kr": "기이한 바다의 방울",
+            "ru-ru": "Жемчужина иноморья",
+            "de-de": "Transozeanische Perle",
+            "fr-fr": "Perle transocéanique",
+            "es-es": "Condensado extramarino",
+            "id-id": "Transoceanic Pearl",
+            "th-th": "Transoceanic Pearl",
+            "vi-vn": "Ngọc Vụn Đại Dương",
+            "zh-tw": "異海凝珠"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv. 50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv. 50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 60000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1036",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Varunada%20Lazurite%20Fragment_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Lazurita Varunada",
+            "en-us": "Varunada Lazurite Fragment",
+            "ja-jp": "澄明なラピスラズリ・欠片",
+            "zh-cn": "涤净青金断片",
+            "ko-kr": "순수한 청금석 조각",
+            "ru-ru": "Фрагмент лазурита Варунада",
+            "de-de": "Varunada-Lasurit-Bruchstück",
+            "fr-fr": "Fragment de lazurite varunada",
+            "es-es": "Fragmento de lazurita varunada",
+            "id-id": "Varunada Lazurite Fragment",
+            "th-th": "Varunada Lazurite Fragment",
+            "vi-vn": "Mảnh Thanh Kim Sạch",
+            "zh-tw": "滌淨青金斷片"
+          }
+        },
+        {
+          "id": "4068",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/35ab3651275afb059f079c578c4cbfbd_8419390384498436239.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Pedaço Transoceânico",
+            "en-us": "Transoceanic Chunk",
+            "ja-jp": "異海の塊",
+            "zh-cn": "异海之块",
+            "ko-kr": "기이한 바다의 결정",
+            "ru-ru": "Обломок из иноморья",
+            "de-de": "Transozeanischer Brocken",
+            "fr-fr": "Morceau transocéanique",
+            "es-es": "Fragmento extramarino",
+            "id-id": "Transoceanic Chunk",
+            "th-th": "Transoceanic Chunk",
+            "vi-vn": "Kết Tinh Đại Dương",
+            "zh-tw": "異海之塊"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv. 60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv. 60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 80000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1035",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Varunada%20Lazurite%20Chunk_icon.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Lazurita Varunada",
+            "en-us": "Varunada Lazurite Chunk",
+            "ja-jp": "澄明なラピスラズリ・塊",
+            "zh-cn": "涤净青金块",
+            "ko-kr": "순수한 청금석 덩이",
+            "ru-ru": "Кусок лазурита Варунада",
+            "de-de": "Varunada-Lasurit-Brocken",
+            "fr-fr": "Morceau de lazurite varunada",
+            "es-es": "Trozo de lazurita varunada",
+            "id-id": "Varunada Lazurite Chunk",
+            "th-th": "Varunada Lazurite Chunk",
+            "vi-vn": "Miếng Thanh Kim Sạch",
+            "zh-tw": "滌淨青金塊"
+          }
+        },
+        {
+          "id": "4068",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/35ab3651275afb059f079c578c4cbfbd_8419390384498436239.png",
+          "amount": 18,
+          "name": {
+            "pt-pt": "Pedaço Transoceânico",
+            "en-us": "Transoceanic Chunk",
+            "ja-jp": "異海の塊",
+            "zh-cn": "异海之块",
+            "ko-kr": "기이한 바다의 결정",
+            "ru-ru": "Обломок из иноморья",
+            "de-de": "Transozeanischer Brocken",
+            "fr-fr": "Morceau transocéanique",
+            "es-es": "Fragmento extramarino",
+            "id-id": "Transoceanic Chunk",
+            "th-th": "Transoceanic Chunk",
+            "vi-vn": "Kết Tinh Đại Dương",
+            "zh-tw": "異海之塊"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv. 70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv. 70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 100000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1035",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Varunada%20Lazurite%20Chunk_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Lazurita Varunada",
+            "en-us": "Varunada Lazurite Chunk",
+            "ja-jp": "澄明なラピスラズリ・塊",
+            "zh-cn": "涤净青金块",
+            "ko-kr": "순수한 청금석 덩이",
+            "ru-ru": "Кусок лазурита Варунада",
+            "de-de": "Varunada-Lasurit-Brocken",
+            "fr-fr": "Morceau de lazurite varunada",
+            "es-es": "Trozo de lazurita varunada",
+            "id-id": "Varunada Lazurite Chunk",
+            "th-th": "Varunada Lazurite Chunk",
+            "vi-vn": "Miếng Thanh Kim Sạch",
+            "zh-tw": "滌淨青金塊"
+          }
+        },
+        {
+          "id": "4067",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/4bc36681d1975fcd36ed2965771c995d_184811178946478761.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Cristal Caleidoscópico",
+            "en-us": "Xenochromatic Crystal",
+            "ja-jp": "色変わりの結晶",
+            "zh-cn": "异色结晶石",
+            "ko-kr": "이색 결정석",
+            "ru-ru": "Ксенохромный кристалл",
+            "de-de": "Xenochromatischer Kristall",
+            "fr-fr": "Cristal xénochromatique",
+            "es-es": "Cristalización cromática",
+            "id-id": "Xenochromatic Crystal",
+            "th-th": "Xenochromatic Crystal",
+            "vi-vn": "Tinh Thạch Dị Sắc",
+            "zh-tw": "異色結晶石"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv. 80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv. 80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 120000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1034",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Varunada%20Lazurite%20Gemstone_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Gema de Lazurita Varunada",
+            "en-us": "Varunada Lazurite Gemstone",
+            "ja-jp": "澄明なラピスラズリ",
+            "zh-cn": "涤净青金",
+            "ko-kr": "순수한 청금석",
+            "ru-ru": "Драгоценный лазурит Варунада",
+            "de-de": "Varunada-Lasurit",
+            "fr-fr": "Pierre de lazurite varunada",
+            "es-es": "Lazurita varunada",
+            "id-id": "Varunada Lazurite Gemstone",
+            "th-th": "Varunada Lazurite Gemstone",
+            "vi-vn": "Thanh Kim Sạch",
+            "zh-tw": "滌淨青金"
+          }
+        },
+        {
+          "id": "4067",
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/4bc36681d1975fcd36ed2965771c995d_184811178946478761.png",
+          "amount": 24,
+          "name": {
+            "pt-pt": "Cristal Caleidoscópico",
+            "en-us": "Xenochromatic Crystal",
+            "ja-jp": "色変わりの結晶",
+            "zh-cn": "异色结晶石",
+            "ko-kr": "이색 결정석",
+            "ru-ru": "Ксенохромный кристалл",
+            "de-de": "Xenochromatischer Kristall",
+            "fr-fr": "Cristal xénochromatique",
+            "es-es": "Cristalización cromática",
+            "id-id": "Xenochromatic Crystal",
+            "th-th": "Xenochromatic Crystal",
+            "vi-vn": "Tinh Thạch Dị Sắc",
+            "zh-tw": "異色結晶石"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.0",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур.1",
+        "de-de": "St. 1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv. 1",
+        "id-id": "Lv. 1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv. 1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "1144"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "16"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "45"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "0.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv. 20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv. 20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "2967",
+          "postAscensionValue": "3948"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "42",
+          "postAscensionValue": "56"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "116",
+          "postAscensionValue": "155"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "0.0%",
+          "postAscensionValue": "0.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv. 40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv. 40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "5908",
+          "postAscensionValue": "6605"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "84",
+          "postAscensionValue": "94"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "232",
+          "postAscensionValue": "259"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "0.0%",
+          "postAscensionValue": "9.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv. 50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv. 50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "7599",
+          "postAscensionValue": "8528"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "108",
+          "postAscensionValue": "121"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "298",
+          "postAscensionValue": "335"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "9.6%",
+          "postAscensionValue": "19.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv. 60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv. 60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "9533",
+          "postAscensionValue": "10230"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "135",
+          "postAscensionValue": "145"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "374",
+          "postAscensionValue": "401"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "19.2%",
+          "postAscensionValue": "19.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv. 70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv. 70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "11243",
+          "postAscensionValue": "11940"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "159",
+          "postAscensionValue": "169"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "441",
+          "postAscensionValue": "468"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "19.2%",
+          "postAscensionValue": "28.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv. 80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv. 80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "12965",
+          "postAscensionValue": "13662"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "184",
+          "postAscensionValue": "194"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "509",
+          "postAscensionValue": "538"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "28.8%",
+          "postAscensionValue": "38.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур.90",
+        "de-de": "St. 90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv. 90",
+        "id-id": "Lv. 90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv. 90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "14695",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "209",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "576",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "Dano",
+            "en-us": "CRIT DMG Bonus",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "preAscensionValue": "38.4%",
+          "postAscensionValue": ""
+        }
+      ]
+    }
+  ]
+}

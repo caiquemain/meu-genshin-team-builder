@@ -1,0 +1,2747 @@
+{
+  "id": "traveler_hydro",
+  "wiki_id": "3997",
+  "name": {
+    "pt-pt": "Viajante (Hydro)",
+    "en-us": "Traveler (Hydro)",
+    "ja-jp": "旅人(水)",
+    "zh-cn": "旅行者（水）",
+    "ko-kr": "여행자(물)",
+    "ru-ru": "Путешественник (Гидро)",
+    "de-de": "Reisender (Hydro)",
+    "fr-fr": "Voyageur (Hydro)",
+    "es-es": "Viajero (Hydro)",
+    "id-id": "Pengembara (Hydro)",
+    "th-th": "นักเดินทาง (น้ำ)",
+    "vi-vn": "Nhà Lữ Hành (Thủy)",
+    "zh-tw": "旅行者（水）"
+  },
+  "title": {
+    "pt-pt": "-",
+    "en-us": "-",
+    "ja-jp": "運命を超える星",
+    "ru-ru": "-",
+    "de-de": "-",
+    "fr-fr": "-",
+    "es-es": "-",
+    "id-id": "-",
+    "th-th": "-",
+    "vi-vn": "-",
+    "zh-cn": "N/A",
+    "ko-kr": "N/A",
+    "zh-tw": "N/A"
+  },
+  "description": {
+    "pt-pt": "Uma/Um Viajante de outro mundo que teve seu ente querido levado e foi forçada/o a embarcar em uma jornada em busca dos Sete.",
+    "en-us": "A traveler from another world who had their only kin taken away, forcing them to embark on a journey to find The Seven.",
+    "ja-jp": "世界の外から漂流してきた旅人。肉親が見知らぬ神に連れ去られたため、七神を探す旅に出た。",
+    "zh-cn": "从世界之外漂流而来的旅行者，被神带走血亲，自此踏上寻找七神之路。",
+    "ko-kr": "다른 세계에서 건너온 여행자, 신에 의해 가족을 빼앗긴 뒤 일곱 신을 찾는 여정에 오른다.「…네가 가진 고결함과 선량함이 변하지 않는다면 새로운 세계에서도 가장 좋은 친구가 너와 함께할 거야. 이곳의 전방, 그리고 미래 모두 너의 세상이야」「세계에 온걸 환영해」——K·K",
+    "ru-ru": "Путешественник/ца из другого мира, разлучённый/ая со своей сестрой/своим братом. Он/а отправляется в долгое путешествие, чтобы найти всех семерых Архонтов и вернуть родного человека.",
+    "de-de": "Ein Reisender weit entfernt von der Heimat auf der Suche nach den Sieben, um seine Schwester wiederzufinden.",
+    "fr-fr": "Un voyageur/Une voyageuse venant d'un autre monde qui a été séparé/séparée de sa sœur/son frère. Il/Elle débute son périple à la recherche des Sept Archons de Teyvat dans l'espoir de la/le retrouver.",
+    "es-es": "Una viajera/Un viajero de otro mundo a la/al que arrebataron su única familia, y que se vio obligada/o a embarcarse en un viaje en busca de Los Siete.",
+    "id-id": "Seorang pengembara yang berasal dari dunia lain, saudara satu-satunya yang ia miliki dirampas dari hadapannya oleh sesosok dewa, dan kini ia mengembara untuk mencari The Seven.",
+    "th-th": "นักเดินทางจากต่างโลกผู้ถูกเทพปริศนาพรากพี่น้องร่วมสายเลือดเพียงหนึ่งเดียวไปจึงจำใจต้องออกเดินทางเพื่อตามหาเทพทั้ง 7",
+    "vi-vn": "Nhà Lữ Hành lưu lạc đến đây từ thế giới khác, bị Thần cướp mất người thân, từ đó bước vào con đường đi tìm 7 vị Thần.",
+    "zh-tw": "從世界之外漂流而來的旅行者，被神帶走血親，自此踏上尋找七神之路。"
+  },
+  "rarity": 5,
+  "vision": {
+    "label": {
+      "pt-pt": "Tipo Elemental",
+      "en-us": "Elemental Type",
+      "ja-jp": "元素タイプ",
+      "zh-cn": "元素属性",
+      "ko-kr": "원소 속성",
+      "ru-ru": "Элемент",
+      "de-de": "Elementartyp",
+      "fr-fr": "Élément",
+      "es-es": "Tipo elemental",
+      "id-id": "Tipe Elemen",
+      "th-th": "ประเภทธาตุ",
+      "vi-vn": "Thuộc Tính Nguyên Tố",
+      "zh-tw": "元素屬性"
+    },
+    "value": {
+      "pt-pt": "Hydro",
+      "en-us": "Hydro",
+      "ja-jp": "水元素",
+      "zh-cn": "水元素",
+      "ko-kr": "물 원소",
+      "ru-ru": "Гидро",
+      "de-de": "Hydro",
+      "fr-fr": "Hydro",
+      "es-es": "Hydro",
+      "id-id": "Hydro",
+      "th-th": "น้ำ",
+      "vi-vn": "Thủy",
+      "zh-tw": "水元素"
+    }
+  },
+  "weapon": {
+    "label": {
+      "pt-pt": "Arma",
+      "en-us": "Weapons",
+      "ja-jp": "武器種",
+      "zh-cn": "武器",
+      "ko-kr": "무기",
+      "ru-ru": "Тип",
+      "de-de": "Waffe",
+      "fr-fr": "Type d'arme",
+      "es-es": "Arma",
+      "id-id": "Senjata",
+      "th-th": "อาวุธ",
+      "vi-vn": "Vũ Khí",
+      "zh-tw": "武器"
+    },
+    "value": {
+      "pt-pt": "Espada",
+      "en-us": "Sword",
+      "ja-jp": "片手剣",
+      "zh-cn": "单手剑",
+      "ko-kr": "한손검",
+      "ru-ru": "Одноручное",
+      "de-de": "Einhänder",
+      "fr-fr": "Épée à une main",
+      "es-es": "Espada ligera",
+      "id-id": "Sword",
+      "th-th": "ดาบ",
+      "vi-vn": "Kiếm Đơn",
+      "zh-tw": "單手劍"
+    }
+  },
+  "characterIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/59559639/75bb898fe1c3b4ed29a2931829ddb845_4421635139643683132.png",
+  "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/f54c8f0dae23fced358c28126f220a11_8997562060019157249.png",
+  "constellationNameOfficial": {
+    "pt-pt": "Viator &amp; Viatrix",
+    "en-us": "Viator &amp; Viatrix",
+    "ja-jp": "旅人座",
+    "zh-cn": "旅人座",
+    "ru-ru": "Звёздный Путник",
+    "de-de": "Viator &amp; Viatrix",
+    "fr-fr": "Viator et Viatrix",
+    "es-es": "Viator",
+    "id-id": "Viator &amp; Viatrix",
+    "th-th": "Viator &amp; Viatrix",
+    "zh-tw": "旅人座",
+    "ko-kr": "N/A",
+    "vi-vn": "N/A"
+  },
+  "specialDish": {
+    "id": null,
+    "name": {},
+    "iconUrl": null
+  },
+  "namecard": {
+    "id": null,
+    "name": {},
+    "iconUrl": null
+  },
+  "constellations": [
+    {
+      "id": "summaryList2313",
+      "constellationNumber": 1,
+      "name": {
+        "pt-pt": "Lago Emergente",
+        "en-us": "Swelling Lake",
+        "ja-jp": "細波の湖水",
+        "zh-cn": "微澜的湖水",
+        "ko-kr": "잔잔한 호숫물",
+        "ru-ru": "Вздымающееся озеро",
+        "de-de": "Plätscherndes Seewasser",
+        "fr-fr": "Eau ondulante de lac",
+        "es-es": "Lagos undosos",
+        "id-id": "Swelling Lake",
+        "th-th": "Swelling Lake",
+        "vi-vn": "Nước Hồ Lăn Tăn",
+        "zh-tw": "微瀾的湖水"
+      },
+      "description": {
+        "pt-pt": "Depois de pegar uma gota d'Água Primordial, a Viajante recuperará 2 de Energia Elemental.É necessário ter desbloqueado o talento passivo \"Águas Puras\".",
+        "en-us": "Picking up a Sourcewater Droplet will restore 2 Energy to the Traveler.Requires the Passive Talent \"Spotless Waters.\"",
+        "ja-jp": "源水の雫を拾うと、旅人は元素エネルギーを2ポイント回復する。固有天賦「無染の清水」を解放する必要がある。",
+        "zh-cn": "拾取源水之滴后，旅行者将恢复2点元素能量。需要解锁故固有天赋「无染的澈水」。",
+        "ko-kr": "원천의 방울 습득 후, 여행자는 원소 에너지를 2pt 회복한다.고유 특성 「티 없이 맑은 물」을 해금해야 한다",
+        "ru-ru": "При подборе Капли источника Путешественник/ца восстанавливает 2 ед. энергии.Требуется разблокировать пассивный талант «Чистые воды».",
+        "de-de": "Stellt dem Reisenden nach Einsammeln von Quellwassertropfen 2 Punkte Elementarenergie wieder her.Das passive Talent „Ungetrübtes Wasser“ muss zuerst freigeschaltet werden.",
+        "fr-fr": "Ramasser une goutte d'eau de source restaure 2 pts d'énergie élémentaire au voyageur(à la voyageuse).L'aptitude passive « Eau pure » doit être déjà débloquée.",
+        "es-es": "Al recoger una gota primigenia, el Viajero recupera 2pts. de Energía Elemental.Es necesario desbloquear el talento pasivo “Aguas prístinas”.",
+        "id-id": "Setelah mengambil Sourcewater Droplet, akan memulihkan 2 poin Energy. Harus membuka Talenta Pasif \"Spotless Waters\" terlebih dahulu.",
+        "th-th": "หลังจากนักเดินทางเก็บ Sourcewater Droplet แล้ว จะฟื้นฟูพลังงานธาตุ 2 หน่วย ต้องปลดล็อกพรสวรรค์ติดตัว \"Spotless Waters\" ก่อน",
+        "vi-vn": "Sau khi nhặt Nguồn Nước Trong, Nhà Lữ Hành sẽ hồi phục 2 điểm Năng Lượng Nguyên Tố.Cần mở khóa thiên phú \"Dòng Chảy Trong Veo\".",
+        "zh-tw": "拾取源水之滴後，旅行者將恢復2點元素能量。需要解鎖固有天賦「無染的澈水」。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/12/04/101132274/02409dc448be1c89f76b3f30d9739059_6941467737983491396.png"
+    },
+    {
+      "id": "summaryList65126",
+      "constellationNumber": 2,
+      "name": {
+        "pt-pt": "Pureza Fluente",
+        "en-us": "Trickling Purity",
+        "ja-jp": "滔々の碧水",
+        "zh-cn": "潺涓的碧水",
+        "ko-kr": "흐르는 푸른물",
+        "ru-ru": "Струящаяся непорочность",
+        "de-de": "Rieselndes Wasser",
+        "fr-fr": "Eau ruisselante de pureté",
+        "es-es": "Arroyos borboteantes",
+        "id-id": "Trickling Purity",
+        "th-th": "Trickling Purity",
+        "vi-vn": "Nước Biếc Rì Rào",
+        "zh-tw": "潺涓的碧水"
+      },
+      "description": {
+        "pt-pt": "Reduz a velocidade da Bolha Aquática de Maré Ascendente em 30% e prolonga sua duração por 3s.",
+        "en-us": "The Movement SPD of Rising Waters' bubble will be decreased by 30%, and its duration increased by 3s.",
+        "ja-jp": "昇流統水の浮遊水沫の移動速度-30%、継続時間+3秒。",
+        "zh-cn": "扬水制流的浮水泡沫移动的速度降低30%，持续时间延长3秒。",
+        "ko-kr": "흐름 제어의 부유 물거품의 이동 속도가 30% 감소하고 지속 시간이 3초 증가한다",
+        "ru-ru": "Скорость пузыря навыка Прибывающая вода снижена на 30%, а длительность увеличена на 3 сек.",
+        "de-de": "Die Geschwindigkeit, mit der sich die Gezeitenblase bewegt, reduziert sich um 30%, während sich ihre Dauer um 3s erhöht.",
+        "fr-fr": "Diminue la VIT de déplacement des bulles flottantes de Montée des eaux de 30 % et augmente leur durée de 3 s.",
+        "es-es": "Reduce en un 30% la velocidad a la que se mueve la burbuja flotante de Correntada ascendente y aumenta en 3s su duración.",
+        "id-id": "Movement SPD gelembung Rising Waters berkurang 30%, durasi meningkat 3 detik.",
+        "th-th": "ความเร็วในการเคลื่อนที่ของฟองน้ำจาก Rising Waters จะลดลง 30% โดยที่ระยะเวลาต่อเนื่องจะเพิ่มขึ้นอีก 3 วินาที",
+        "vi-vn": "Tốc độ di chuyển của Bong Bóng Bay Bổng từ kỹ năng Dòng Chảy Cuồn Cuộn giảm 30%, thời gian duy trì kéo dài 3s.",
+        "zh-tw": "揚水制流的浮水泡沫移動的速度降低30%，持續時間延長3秒。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/12/04/101132274/0221216be990b2c2bbbff8b7fa6a5986_8689932219254654052.png"
+    },
+    {
+      "id": "summaryList37791",
+      "constellationNumber": 3,
+      "name": {
+        "pt-pt": "Ondas Furiosas",
+        "en-us": "Turbulent Ripples",
+        "ja-jp": "荒天の波水",
+        "zh-cn": "激荡的波水",
+        "ko-kr": "격동하는 파도",
+        "ru-ru": "Беспокойная рябь",
+        "de-de": "Wogende Wellen",
+        "fr-fr": "Eau turbulente d'ondulation",
+        "es-es": "Olas furibundas",
+        "id-id": "Turbulent Ripples",
+        "th-th": "Turbulent Ripples",
+        "vi-vn": "Sóng Nước Huyên Náo",
+        "zh-tw": "激蕩的波水"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível de Sabre da Insígnia Aquática em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Aquacrest Saber by 3.Maximum upgrade level is 15.",
+        "ja-jp": "水紋の剣のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "水纹剑的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "물결검의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Клинок водной эмблемы на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Wasserschütze um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Sabre d'ondulation +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Espada ondulante +3.Puede ser aumentado hasta Niv.15.",
+        "id-id": "Meningkatkan 3 level Aquacrest Saber.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Aquacrest Saber ขึ้น 3 ระดับ เพิ่มได้สูงสุดถึงระดับ 15",
+        "vi-vn": "Cấp kỹ năng Thủy Văn Kiếm +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "水紋劍的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/12/04/101132274/f09bc200c351c376280d514cd93b982d_2920429123267694449.png"
+    },
+    {
+      "id": "summaryList95369",
+      "constellationNumber": 4,
+      "name": {
+        "pt-pt": "Descida Jorrante",
+        "en-us": "Pouring Descent",
+        "ja-jp": "傾落の流水",
+        "zh-cn": "倾落的迸水",
+        "ko-kr": "쏟아지는 폭포",
+        "ru-ru": "Падающие потоки",
+        "de-de": "Strömender Wasserfall",
+        "fr-fr": "Eau tombante d'averse",
+        "es-es": "Aluviones precipitantes",
+        "id-id": "Pouring Descent",
+        "th-th": "Pouring Descent",
+        "vi-vn": "Dòng Chảy Xối Xả",
+        "zh-tw": "傾落的迸水"
+      },
+      "description": {
+        "pt-pt": "Ao lançar Sabre da insígnia Aquática, gerará um Escudo da Insígnia Aquática que absorverá o equivalente a 10% da Vida Máxima, e possui eficácia de 250% contra Dano Hydro, ele persistirá até terminar de lançar a habilidade. A cada 2s, depois que a Gota de Orvalho atingir um inimigo, se a Viajante estiver sobre a proteção de um Escudo da insígnia Aquática, recuperará o poder de absorção de Dano do escudo em até 10% da Vida Máxima da Viajante. Se não estiver sob a proteção do Escudo da insígnia Aquática, gerará um novo escudo.",
+        "en-us": "When using Aquacrest Saber, an Aquacrest Aegis that can absorb 10% of the Traveler's Max HP in DMG will be created and will absorb Hydro DMG with 250% effectiveness. It will persist until the Traveler finishes using the skill.Once every 2s, after a Dewdrop hits an opponent, if the Traveler is being protected by Aquacrest Aegis, the DMG Absorption of the Aegis will be restored to 10% of the Traveler's Max HP. If the Traveler is not presently being protected by an Aegis, one will be redeployed.",
+        "ja-jp": "水紋の剣を発動する時、ダメージ吸収量がHP上限の10%に値する水紋シールドを生成する。このシールドは水元素ダメージに対して250%の吸収効果があり、発動完了まで持続する。2秒毎に1回、露雫が敵に命中した後、旅人が水紋シールド状態にある場合、水紋シールドのダメージ吸収量を旅人のHP上限の10%まで補充する。旅人が水紋シールド状態でない場合、水紋シールドを再生成する。",
+        "zh-cn": "施放水纹剑时，将生成一个伤害吸收量等于生命值上限10%的水纹护盾，对水元素伤害有250%的吸收效果，持续直到释放完成。每2秒一次，露滴命中敌人后，如果旅行者处于水纹护盾的庇护下，则将水纹护盾的伤害吸收量补充至旅行者生命值上限的10%；如果不处于水纹护盾的庇护下，则重新产生水纹护盾。",
+        "ko-kr": "물결검 발동 시, HP 최대치의 10%만큼 피해를 흡수하고 물 원소 피해에 대해 250%의 흡수 효과가 있는 물결 보호막을 생성한다. 보호막은 물결검 발동이 완료될 때까지 지속된다. 이슬방울이 적에게 명중 후, 만약 여행자가 물결 보호막의 보호를 받고 있으면, 물결 보호막의 피해 흡수량이 여행자 HP 최대치의 10%까지 보충된다. 만약 물결 보호막의 보호를 받고 있지 않으면 다시 물결 보호막을 생성한다. 해당 효과는 2초마다 1회 발동된다",
+        "ru-ru": "При использовании навыка Клинок водной эмблемы создаёт Щит водной эмблемы, поглощающий урон, равный 10% от макс. HP Путешественника/цы. Гидро урон поглощается на 250% эффективнее. Щит существует до конца использования навыка.Каждые 2 сек. при попадании Капель росы по противникам, когда Путешественник/ца находится под защитой Щита водной эмблемы, поглощаемый щитом урон будет восстанавливаться до 10% от макс. HP Путешественника/цы. В противном случае будет создан новый щит.",
+        "de-de": "Erzeugt beim Auslösen vom Wasserschützen einen Hydro-Schild. Dieser hält Schaden in Höhe von 10% der max. LP und bei Hydro-Schaden 250% ab. Hält bis zum Ende vom Wasserschützen.Sollte sich der Reisende im Schutz des Hydro-Schilds befinden, wird einmal alle 2s, nachdem Gegner von Tautropfen getroffen wurden, die Schildstärke wieder auf 10% der max. LP des Reisenden ergänzt. Sollte kein Hydro-Schild vorhanden sein, so wird dieser in diesem Fall neu erzeugt.",
+        "fr-fr": "Lors de l'utilisation de Sabre d'ondulation, le voyageur(la voyageuse) obtient un bouclier d'ondulations qui absorbe une quantité de DGT équivalant à 10 % de ses PV max. Le bouclier est efficace à 250 % contre les DGT Hydro et dure jusqu'à la fin de la capacité.Une fois toutes les 2 s, lorsqu'une goutte de rosée a touché un ennemi, si le voyageur est protégé(la voyageuse est protégée) par un bouclier d'ondulations, l'absorption du bouclier est restaurée à 10 % des PV max du voyageur(de la voyageuse) ; si le voyageur n'est pas protégé(la voyageuse n'est pas protégée) par un bouclier d'ondulations, un tel bouclier est généré.",
+        "es-es": "Al utilizar Espada ondulante, se crea un escudo ondulante con una capacidad de absorción equivalente al 10% de la Vida Máx. y con un 250% de efectividad de absorción de Daño Hydro. El escudo dura hasta que se termine de liberar la habilidad.Una vez cada 2s, tras golpear a un enemigo con las gotas de rocío, si el Viajero está protegido por un escudo ondulante, su capacidad de absorción se repondrá a un 10% de su Vida Máx.; si no está protegido por él, se crea un nuevo escudo.",
+        "id-id": "Saat melancarkan Aquacrest Saber, akan menghasilkan perisai Aquacrest Aegis yang dapat menahan DMG setara dengan 10% Max HP dan memiliki 250% pertahanan terhadap Hydro DMG. Perisai akan bertahan sampai Pengembara selesai melancarkan skill.Sekali setiap 2 detik, setelah Dewdrop mengenai musuh, dan jika Pengembara berada dalam status perlindungan Aquacrest Aegis, maka DMG yang ditahan oleh Aquacrest Aegis akan dikembalikan menjadi 10% Max HP Pengembara. Jika Pengembara tidak berada dalam status perlindungan Aquacrest Aegis, maka akan menghasilkan satu Aquacrest Aegis yang baru.",
+        "th-th": "เมื่อปล่อย Aquacrest Saber จะเกิดโล่ Aquacrest Aegis ที่สามารถดูดซับความเสียหายปริมาณเท่ากับ 10% ของพลังชีวิตสูงสุดของนักเดินทาง และมีเอฟเฟกต์ดูดซับความเสียหายน้ำ 250% เป็นระยะเวลาต่อเนื่อง จนกว่าสกิลจะจบ ในทุก 2 วินาที หลังจาก Dewdrop โจมตีทุกศัตรู หากนักเดินทางอยู่ภายใต้การป้องกันของโล่ Aquacrest Aegis การดูดซับความเสียหายของโล่ Aquacrest Aegis จะถูกเพิ่มกลับเป็น 10% ของพลังชีวิตสูงสุดของนักเดินทาง; หากไม่ได้อยู่ภายใต้การป้องกันของโล่ Aquacrest Aegis จะทำให้เกิดโล่ Aquacrest Aegis อันใหม่ขึ้น",
+        "vi-vn": "Khi thi triển Thủy Văn Kiếm, tạo ra Khiên Thủy Văn hấp thụ sát thương tương ứng 10% Giới Hạn HP của Nhà Lữ Hành, có 250% hiệu quả hấp thụ đối với Sát Thương Nguyên Tố Thủy, duy trì đến khi kết thúc thi triển kỹ năng.Mỗi 2s một lần, khi Sương Mai đánh trúng kẻ địch, nếu Nhà Lữ Hành được Khiên Thủy Văn bảo vệ, mức độ hấp thụ sát thương của Khiên Thủy Văn được nạp lại bằng 10% giới hạn HP của Nhà Lữ Hành; Nếu không được Khiên Thủy Văn bảo vệ sẽ sản sinh Khiên Thủy Văn.",
+        "zh-tw": "放水紋劍時，將生成一個傷害吸收量等於生命值上限10%的水紋護盾，對水元素傷害有250%的吸收效果，持續直到施放完成。每2秒一次，露滴命中敵人後，如果旅行者處於水紋護盾的庇護下，則將水紋護盾的傷害吸收量補充至旅行者生命值上限的10%；如果不處於水紋護盾的庇護下，則重新產生水紋護盾。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/12/04/101132274/dbe57b0e6b7dcbeccc477a6dca650c78_2937026018749718192.png"
+    },
+    {
+      "id": "summaryList10412",
+      "constellationNumber": 5,
+      "name": {
+        "pt-pt": "Redemoinho Aquático",
+        "en-us": "Churning Whirlpool",
+        "ja-jp": "回旋の曲水",
+        "zh-cn": "洄旋的曲水",
+        "ko-kr": "거센 소용돌이",
+        "ru-ru": "Вихрящийся водоворот",
+        "de-de": "Wirbelnder Strudel",
+        "fr-fr": "Eau tournoyante de vortex",
+        "es-es": "Meandros serpenteantes",
+        "id-id": "Churning Whirlpool",
+        "th-th": "Churning Whirlpool",
+        "vi-vn": "Xoáy Nước Luân Chuyển",
+        "zh-tw": "洄旋的曲水"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível de Maré Ascendente em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Rising Waters by 3.Maximum upgrade level is 15.",
+        "ja-jp": "昇流統水のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "扬水制流的技能等级提高3级。至多提升至15级",
+        "ko-kr": "흐름 제어의 스킬 레벨 +3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Прибывающая вода на 3.Макс. уровень: 15.",
+        "de-de": "Erhöht die Stufe der Fähigkeit Gezeitenblase um 3.Höchststufe 15.",
+        "fr-fr": "Niveau de compétence Montée des eaux +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Correntada ascendente +3.Puede ser aumentado hasta Niv.15.",
+        "id-id": "Meningkatkan 3 level Rising Waters.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Rising Waters ขึ้น 3 ระดับ เพิ่มได้สูงสุดถึงระดับ 15",
+        "vi-vn": "Cấp kỹ năng Dòng Chảy Cuồn Cuộn +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "揚水制流的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/12/04/101132274/1e1ef908756f3c2d7ff49d70a7df9dd4_2755886288244669564.png"
+    },
+    {
+      "id": "summaryList22393",
+      "constellationNumber": 6,
+      "name": {
+        "pt-pt": "Água da justiça",
+        "en-us": "Tides of Justice",
+        "ja-jp": "正義の潮水",
+        "zh-cn": "公义的潮水",
+        "ko-kr": "공평과 정의의 물결",
+        "ru-ru": "Прибой правосудия",
+        "de-de": "Gezeiten der Gerechtigkeit",
+        "fr-fr": "Eau montante de justice",
+        "es-es": "Mareas de la justicia",
+        "id-id": "Tides of Justice",
+        "th-th": "Tides of Justice",
+        "vi-vn": "Thủy Triều Công Lý",
+        "zh-tw": "公義的潮水"
+      },
+      "description": {
+        "pt-pt": "Quando a Viajante pega uma Gota d'Água Primordial, regenerará 6% da Vida Máxima para o personagem da equipe próximo com menor porcentagem da Vida restante.",
+        "en-us": "When the Traveler picks up a Sourcewater Droplet, they will restore HP to the nearest party member with the lowest HP percentage remaining based on 6% of their Max HP.",
+        "ja-jp": "旅人が源水の雫を拾う時、追加で周囲にいるHP割合の最も低いチーム内のキャラクターのHPを回復する。回復量はそのキャラクターのHP上限の6%に相当する。",
+        "zh-cn": "旅行者拾取源水之滴时，还将在队伍中附近的生命值百分比最低的角色，基于其生命值上限的6%，恢复生命值。",
+        "ko-kr": "여행자가 원천의 방울을 습득 시, 근처에 있는 파티 내 캐릭터 중 HP 백분율이 가장 낮은 캐릭터의 HP를 해당 캐릭터 HP 최대치의 6%만큼 회복시킨다",
+        "ru-ru": "Подобранная Путешественником/цей Капля источника восстанавливает члену отряда поблизости с наименьшим количеством HP 6% от его макс. HP.",
+        "de-de": "Stellt bei dem Truppenmitglied mit den niedrigsten LP in der Nähe 6 % von dessen max. LP wieder her, wenn der Reisende einen Quellwassertropfen einsammelt.",
+        "fr-fr": "Lorsque le voyageur(la voyageuse) récupère une goutte d'eau de source, il(elle) restaure 6 % de PV max au personnage de l'équipe à proximité ayant le pourcentage de PV le plus bas.",
+        "es-es": "Cuando el Viajero recoge una gota primigenia, regenera Vida para el personaje cercano con el menor porcentaje de Vida del equipo en una cantidad equivalente al 6% de la Vida Máx. de dicho personaje.",
+        "id-id": "Saat Pengembara mengambil Sourcewater Droplet, akan memulihkan HP anggota party terdekat dengan persentase HP terendah sebesar 6% Max HP anggota party tersebut.",
+        "th-th": "เมื่อนักเดินทางเก็บ Sourcewater Droplet จะทำการฟื้นฟูพลังชีวิตเป็นปริมาณ 6% ของพลังชีวิตสูงสุดให้กับตัวละครในทีมที่เหลือสัดส่วนค่าพลังชีวิตต่ำสุด",
+        "vi-vn": "Nhà Lữ Hành khi nhặt Nguồn Nước Trong sẽ hồi phục 6% HP cho nhân vật có phần trăm HP thấp nhất trong đội gần đó.",
+        "zh-tw": "旅行者拾取源水之滴時，還將為隊伍中附近的生命值百分比最低的角色，基於其生命值上限的6%，恢復生命值。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/12/04/101132274/af20c71d40856e8cbb3a503a68716a0a_4249003575596098497.png"
+    }
+  ],
+  "talents": [
+    {
+      "type": "normal_attack",
+      "name": {
+        "pt-pt": "Ataque Normal: Corrente Estrangeira",
+        "en-us": "Foreign Stream",
+        "ja-jp": "通常攻撃・異邦の激流",
+        "zh-cn": "普通攻击·异邦激流",
+        "ko-kr": "일반 공격·이방의 격류",
+        "ru-ru": "Чужеземный поток",
+        "de-de": "Standardangriff: Stromschnellen aus der Fremde",
+        "fr-fr": "Attaque normale : Débordement étranger",
+        "es-es": "Ataque Normal: Desbordamiento extranjero",
+        "id-id": "Normal Attack: Foreign Stream",
+        "th-th": "โจมตีปกติ: Foreign Fieldcleaver",
+        "vi-vn": "Tấn Công Thường - Dòng Nước Dị Bang",
+        "zh-tw": "普通攻擊·異邦激流"
+      },
+      "description": {
+        "pt-pt": "Ataque NormalRealiza até 5 golpes consecutivos.Ataque CarregadoConsome uma certa quantidade de Stamina para desferir 2 golpes rápidos com a espada.Ataque ImersivoMergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE no impacto.",
+        "en-us": "Normal AttackPerforms up to 5 rapid strikes.Charged AttackConsumes a certain amount of Stamina to unleash 2 rapid sword strikes.Plunging AttackPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+        "ja-jp": "通常攻撃剣による最大5段の連続攻撃を行う。重撃一定のスタミナを消費し、前方に斬撃を2回放つ。落下攻撃空中から落下し地面に衝撃を与える。経路上の敵を攻撃し、落下時に範囲ダメージを与える。",
+        "zh-cn": "普通攻击进行至多五段的连续剑击。重击消耗一定体力，瞬间向前方挥出两剑。下落攻击从空中下坠冲击地面，攻击下落路径上的敌人，并在落地时造成范围伤害。",
+        "ko-kr": "일반 공격검으로 최대 5번 공격한다.강공격일정 스태미나를 소모해 순간적으로 전방을 향해 검을 2번 휘두른다.낙하 공격공중에서 땅을 내려찍어 경로상의 적을 공격하고 착지 시 범위 피해를 준다",
+        "ru-ru": "Обычная атака:До пяти быстрых ударов мечом.Заряженная атака:Два быстрых взмаха мечом, для которых тратится определённое количество выносливости.Атака в падении:Стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
+        "de-de": "StandardangriffFührt bis zu 5 Schwerthiebe hintereinander aus.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und schwingt das Schwert zweimal schnell nach vorn.Angriff aus dem FallSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
+        "fr-fr": "Attaque normaleEnchaîne jusqu'à 5 coups d'épée.Attaque chargéeConsomme de l'endurance pour déclencher deux coups d'épée rapides.Attaque plongeantePlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "es-es": "Ataque NormalRealiza hasta 5 ataques consecutivos con espada.Ataque CargadoConsume cierta cantidad de Aguante para desatar un doble golpe de espada.Ataque DescendenteSe lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+        "id-id": "Normal AttackMelancarkan hingga 5 serangan pedang berturut-turut.Charged AttackMengonsumsi sejumlah Stamina untuk melancarkan dua tebasan pedang.Plunging AttackMenerjang dari udara untuk menghantam tanah di bawahnya, menyerang musuh di jalurnya dan mengakibatkan DMG Area saat mendarat.",
+        "th-th": "โจมตีปกติโจมตีด้วยดาบต่อเนื่องมากสุด 5 ครั้งชาร์จโจมตีใช้พลังกายส่วนหนึ่งเพื่อปลดปล่อยดาบออกไปข้างหน้าสองเล่มในช่วงเวลาสั้น ๆโจมตีพุ่งลงจากอากาศกระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+        "vi-vn": "Tấn Công ThườngThực hiện tối đa 5 lần đánh kiếm liên tiếp.Trọng KíchTiêu hao thể lực nhất định, vung ra hai nhát kiếm về phía trước trong chớp mắt.Tấn Công Khi ĐápĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.",
+        "zh-tw": "普通攻擊進行至多五段的連續劍擊。重擊消耗一定體力，瞬間向前方揮出兩劍。下落攻擊從空中下墜衝擊地面，攻擊下落路徑上的敵人，並在落地時造成範圍傷害。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/12/04/101132274/94aa30ae75b8c7c6a9c64ab05bd5dda7_4375597906551827051.png"
+    },
+    {
+      "type": "elemental_skill",
+      "name": {
+        "pt-pt": "Sabre da Insígnia Aquática",
+        "en-us": "Aquacrest Saber",
+        "ja-jp": "水紋の剣",
+        "zh-cn": "水纹剑",
+        "ko-kr": "물결검",
+        "ru-ru": "Клинок водной эмблемы",
+        "de-de": "Wasserschütze",
+        "fr-fr": "Sabre d'ondulation",
+        "es-es": "Espada ondulante",
+        "id-id": "Aquacrest Saber",
+        "th-th": "Aquacrest Saber",
+        "vi-vn": "Thủy Văn Kiếm",
+        "zh-tw": "水紋劍"
+      },
+      "description": {
+        "pt-pt": "Lança uma corrente torrencial que varre a terra.PressionarLança uma Erupção Torrencial para frente que cauda Dano Hydro contra os Inimigos que atingir.Manter PressionadoEntra no modo de mira e lança continuamente Gotas de Orvalho na direção que se está mirando, causando  Dano Hydro contra os inimigos que atingir.Ao terminar, lança uma Erupção Torrencial para frente que causa  Dano Hydro contra os inimigos que atingir.Abundaância: ao lançar o Manter Pressionado, se a vida do Viajante for maior que 50%, aumentará o Dano causado por Gota de Orvalho baseado na Vida Máxima do Viajante, e consumirá uma certa quantidade de Vida a cada segundo.Arkhe: PneumaPeriodicamente, depois de lançar uma Erupção Torrencial, lançará um Espinho Espiritual que perfurará os inimigos e que causará  Dano Hydro aplicado com Pneuma.Você e Paimon observaram as ondas criadas na superfície das águas.",
+        "en-us": "Unleashes a torrent that can cleanse the world.Tap/PressSends a Torrent Surge forward that will deal Hydro DMG to opponents it comes into contact with.HoldEnter Aiming Mode and constantly fire off Dewdrops in the direction in which you are aiming, dealing Hydro DMG to opponents they hit.When the skill ends, it will send a Torrent Surge forward that will deal Hydro DMG to opponents it comes into contact with.Suffusion: When using the Hold configuration of this skill, if the Traveler's HP is higher than 50%, the DMG dealt by Dewdrops will increase based on the Traveler's Max HP, and the Traveler will lose a fixed amount of HP every second.Arkhe: PneumaAt certain intervals, after using Torrent Surge, this skill will unleash a Spiritbreath Thorn that pierces opponents, dealing Pneuma-aligned Hydro DMG.You studied the ripples in the water with Paimon.",
+        "ja-jp": "大地を浄化できる激流を放つ。一回押し前方に向かって飛散する激流を放ち、命中した敵に水元素ダメージを与える。長押し照準モードに入り、狙った方向に向かって露雫を放ち続け、命中した敵に水元素ダメージを与える。終了時、前方に向かって飛散する激流を放ち、命中した敵に水元素ダメージを与える。充満：長押しによって発動した時、旅人のHPが50%を超えている場合、露雫によるダメージは旅人のHP上限を基にアップする。同時に、旅人は1秒毎に一定のHPを失う。アルケー：プネウマ飛散する激流を放った後、敵を貫く霊息の棘が現れ、プネウマを帯びた水元素ダメージを与える、一定時間ごとに発動が可能。パイモンと一緒に水面のさざ波を観察した。",
+        "zh-cn": "释放能够荡涤大地的激流。点按向前释放喷发激流，对触及的敌人造成水元素伤害。长按进行瞄准，并不断向瞄准的方向释放露滴，对触及的敌人造成水元素伤害。结束时，将向前释放喷发激流，对触及的敌人造成水元素伤害。充盈：长按施放时，若旅行者的生命值高于50%，露滴造成的伤害将基于旅行者的生命值上限提高，并且每秒损失一定的生命值。始基力：芒性每隔一段时间，在释放喷发激流后，将出现穿透敌人的灵息之剑，造成具有芒性的水元素伤害。和派蒙一起观察过水面漾起的涟漪。",
+        "ko-kr": "대지를 씻어내는 격류를 발동한다.짧은 터치전방을 향해 격류 분사를 발동해 닿은 적에게 물 원소 피해를 준다.홀드조준 모드로 진입한 다음 해당 방향으로 끊임없이 이슬방울을 발동해 이슬방울과 닿은 적에게 물 원소 피해를 준다.종료 시, 전방을 향해 격류 분사를 발동하고 닿은 적에게 물 원소 피해를 준다.충만: 홀드 발동 시 여행자의 HP가 50%를 초과한 경우, 이슬방울이 주는 피해가 여행자의 HP 최대치에 기반해 증가하고 1초마다 일정량의 HP를 잃는다.아르케의 힘: 프뉴마일정 시간마다 격류 분사 발동 후, 적을 꿰뚫는 영혼의 쐐기가 나타나 프뉴마 성질의 물 원소 피해를 준다페이몬과 함께 수면 위의 잔잔한 물결을 관찰한 적이 있다",
+        "ru-ru": "Выпускает стремительный поток, который очищает мир.Быстрое нажатиеВыпускает вперёд Бурные воды, которые при при соприкосновении с врагами наносят Гидро урон.Долгое нажатиеПереходит в режим прицеливания и непрерывно выпускает в направлении прицеливания Капли росы, которые при попадании наносят Гидро урон.Навык завершается Бурными водами, выпускаемыми вперёд и при соприкосновении наносящими врагам Гидро урон.Затопление: при долгом нажатии, если HP Путешественника/цы выше 50%, урон Капель росы повысится пропорционально его/ё макс. HP, причём он/а начнёт терять определённое количество HP каждую секунду.Архэ: ПневмаПосле использования Бурных вод периодически выпускает пронзающую врагов Иглу дыхания душ, которая наносит Гидро урон пневмы.Вы с Паймон наблюдали за рябью, пробегающей по водной глади.",
+        "de-de": "Ruft eine Stromschnelle hervor, die die Erde selbst hinfortzuspülen vermag.DrückenLöst eine nach vorn gerichtete eruptive Stromschnelle aus, die getroffenen Gegnern Hydro-Schaden zufügt.Gedrückt haltenAktiviert den Zielmodus und feuert ununterbrochen Tautropfen in Zielrichtung ab, die getroffenen Gegnern Hydro-Schaden zufügen.Löst am Ende eine nach vorn gerichtete eruptive Stromschnelle aus, die getroffenen Gegnern Hydro-Schaden zufügt.Suffosion: Verfügt der Reisende beim Gedrückthalten über mehr als 50% LP, so erhöht sich der durch die Tautropfen verursachte Schaden entsprechend der max. LP des Reisenden. Allerdings werden sekündlich die LP des Reisenden verbraucht.Arkhe: PneumaIn bestimmten Abständen, nachdem eine eruptive Stromschnelle ausgelöst wurde, erscheint ein Geisterstachel, der Gegner durchbohrt und mit Pneuma versehenen Hydro-Schaden verursacht.Du hast mit Paimon die Wellen beobachtet.",
+        "fr-fr": "Libère un torrent qui peut purifier le monde.Appui simpleEnvoie un courant torrentiel vers l'avant, infligeant des DGT Hydro aux ennemis touchés.Appui longBascule en mode visée pour lancer de façon continue des gouttes de rosée dans la direction ciblée, infligeant des DGT Hydro aux ennemis touchés.Lorsque le mode visée se termine, un courant torrentiel est envoyé vers l'avant, infligeant des DGT Hydro aux ennemis touchés.Profusion : lors de l'appui long, si les PV du voyageur(de la voyageuse) sont supérieurs à 50 %, les DGT de ses gouttes de rosée augmentent en fonction de ses PV max et il(elle) perd une quantité fixe de PV à chaque seconde.Arkhe : PneumaRégulièrement, après avoir envoyé un courant torrentiel, une épine d'inhalation qui transperce les ennemis est libérée pour infliger des DGT Hydro chargés d'énergie pneuma.Paimon et vous avez étudié les ondulations qui parcourent l'eau.",
+        "es-es": "Libera un aluvión que purifica la tierra.Pulsar una vezLanza una erupción torrencial hacia delante que inflige Daño Hydro al enemigo con el que impacta.Mantener pulsadoApunta para liberar continuamente gotas de rocío, las cuales infligen Daño Hydro al enemigo con el que impactan.Al terminar, lanza hacia delante una erupción torrencial que inflige Daño Hydro al enemigo golpeado.Profusión: al mantener pulsado para liberar la habilidad, si el Viajero tiene más del 50% de Vida, el daño de las gotas de rocío aumenta en función de su propia Vida Máx. y, además, pierde cierta cantidad de Vida por segundo.Arjé: pneumaCada cierto tiempo tras lanzar la erupción torrencial, aparecerá una espina halitoespiritual que inflige Daño Hydro cargado de energía pneuma.Observaste con Paimon las ondas que se producen en la superficie del agua.",
+        "id-id": "Melancarkan arus ganas yang dapat membersihkan dunia.Mode TekanMelancarkan Torrent Surge ke arah depan dan mengakibatkan Hydro DMG terhadap musuh yang terkena serangannya.Mode TahanMemasuki Mode Membidik dan terus-menerus menembakkan Dewdrop ke arah bidikan, mengakibatkan Hydro DMG terhadap musuh yang terkena serangan. Saat skill ini berakhir, akan melancarkan Torrent Surge yang mengakibatkan Hydro DMG pada musuh yang terkena serangan. Suffusion: Saat menggunakan Mode Tahan skill ini, jika HP Pengembara lebih dari 50%, HP akan terus berkurang dalam jumlah tetap setiap detiknya dan DMG yang diakibatkan oleh Dewdrop akan meningkat berdasarkan Max HP Pengembara.Arkhe: PneumaSetiap kurun waktu tertentu setelah melancarkan Torrent Surge, skill ini akan melancarkan Spiritbreath Thorn yang menembus musuh dan mengakibatkan Pneuma-aligned Hydro DMG.Kamu dan Paimon pernah mengamati kerikil yang mengalir di permukaan air.",
+        "th-th": "ปลดปล่อยคลื่นน้ำที่สามารถชะล้างผืนแผ่นดินกดปลดปล่อยคลื่นน้ำไปด้านหน้า เพื่อสร้างความเสียหายน้ำแก่ศัตรูกดค้างเข้าสู่โหมดการเล็ง และยิง Dewdrop ไปทางทิศที่เล็งอย่างต่อเนื่อง เมื่อสัมผัสถูกศัตรูจะสร้างความเสียหายน้ำ ตอนจบสกิล จะปลดปล่อยคลื่นน้ำไปด้านหน้า และเมื่อถูกศัตรูจะก่อให้เกิดความเสียหายน้ำ Suffusion: เมื่อแล้ว ค่าพลังชีวิตของนักเดินทางสูงกว่า 50% ความเสียหายของ Dewdrop จะสูงขึ้น โดยปริมาณที่เพิ่มจะขึ้นอยู่กับค่าพลังชีวิตของนักเดินทาง และจะเสียค่าพลังชีวิตระดับหนึ่งในแต่ละวินาทีพลังปฐมภูมิ: วิญญาณทุกช่วงระยะเวลาหนึ่ง หลังจากปลดปล่อยคลื่นน้ำ จะปรากฏ Spiritbreath Thorn ที่สามารถแทงทะลุศัตรูได้ และสร้างความเสียหายน้ำที่มีพลังวิญญาณอยู่ คุณกับ Paimon เคยนั่งสังเกตระลอกน้ำด้วยกันมาก่อน",
+        "vi-vn": "Triệu hồi dòng chảy chấn động mặt đất.NhấnThi triển Dòng Nước Dâng Trào về phía trước, gây Sát Thương Nguyên Tố Thủy cho kẻ địch trúng phải.Nhấn GiữVào trạng thái ngắm chuẩn, liên tục bắn Sương Mai về hướng chỉ định, gây Sát Thương Nguyên Tố Thủy cho kẻ địch trúng phải.Khi kết thúc sẽ thi triển Dòng Nước Dâng Trào về phía trước, gây Sát Thương Nguyên Tố Thủy cho kẻ địch trúng phải.Dồi Dào: Khi nhấn giữ, nếu HP của Nhà Lữ Hành cao hơn 50%, sát thương do Sương Mai gây ra sẽ tăng dựa vào giới hạn HP của Nhà Lữ Hành, đồng thời mỗi giây sẽ tổn thất một lượng HP nhất định.Sức Mạnh Nền Tảng: PneumaCứ cách một khoảng thời gian, sau khi thi triển Dòng Nước Dâng Trào sẽ tung ra Gai Linh Hồn xuyên thấu kẻ địch, gây Sát Thương Nguyên Tố Thủy thuộc tính Pneuma.Cùng Paimon quan sát làn sóng trên mặt nước.",
+        "zh-tw": "釋放能夠蕩滌大地的激流。點按向前釋放噴發激流，對觸及的敵人造成水元素傷害。長按進行瞄準，並不斷向瞄準的方向釋放露滴，對觸及的敵人造成水元素傷害。結束時，將向前釋放噴發激流，對觸及的敵人造成水元素傷害。充盈：長按施放時，若旅行者的生命值高於50%，露滴造成的傷害將基於旅行者的生命值上限提高，並且每秒損失一定的生命值。始基力：芒性每隔一段時間，在釋放噴發激流後，將出現穿透敵人的靈息之刺，造成具有芒性的水元素傷害。和派蒙一起觀察過水面漾起的漣漪。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/12/04/101132274/1e1ef908756f3c2d7ff49d70a7df9dd4_5469627538764878908.png"
+    },
+    {
+      "type": "elemental_burst",
+      "name": {
+        "pt-pt": "Maré Ascendente",
+        "en-us": "Rising Waters",
+        "ja-jp": "昇流統水",
+        "zh-cn": "扬水制流",
+        "ko-kr": "흐름 제어",
+        "ru-ru": "Прибывающая вода",
+        "de-de": "Gezeitenblase",
+        "fr-fr": "Montée des eaux",
+        "es-es": "Correntada ascendente",
+        "id-id": "Rising Waters",
+        "th-th": "Rising Waters",
+        "vi-vn": "Dòng Chảy Cuồn Cuộn",
+        "zh-tw": "揚水制流"
+      },
+      "description": {
+        "pt-pt": "Lança uma Bolha Aquática que se move lentamente, causando Dano Hydro continuamente contra inimigos próximos.Você e Paimon estudaram a subida e descida da maré.",
+        "en-us": "Unleashes a slow-moving floating bubble that deals continuous Hydro DMG to nearby opponents.You studied the ebb and flow of the tides with Paimon.",
+        "ja-jp": "ゆっくりと移動する浮遊水沫を放ち、近くの敵に水元素ダメージを持続的に与える。パイモンと一緒に潮の満ち引きを研究した。",
+        "zh-cn": "释放缓慢移动的浮水泡沫，对附近的敌人持续造成水元素伤害。和派蒙一起研究过湖水的涨落。",
+        "ko-kr": "천천히 이동하는 부유 물거품을 발동해 주변 적에게 지속적으로 물 원소 피해를 준다.페이몬과 함께 밀물과 썰물을 연구한 적이 있다",
+        "ru-ru": "Выпускает медленно парящий пузырь, периодически наносящий Гидро урон врагам поблизости.Вы с Паймон изучили приливы и отливы.",
+        "de-de": "Löst eine sich langsam bewegende Blase aus, die Gegnern in der Nähe fortlaufend Hydro-Schaden zufügt.Du hast mit Paimon die Ebbe und Flut studiert.",
+        "fr-fr": "Libère une bulle flottante lente qui inflige de façon continue des DGT Hydro aux ennemis proches.Paimon et vous avez étudié les fluctuations qui rythment les marées...",
+        "es-es": "Libera una burbuja flotante que se mueve lentamente e inflige continuamente Daño Hydro a los enemigos cercanos.Investigaste con Paimon la subida y bajada de las mareas.",
+        "id-id": "Melancarkan Gelembung Air yang bergerak pelan dan mengakibatkan Hydro DMG berkejalnjutan pada musuh di sekitar.Kamu dan Paimon pernah mempelajari peningkatan air pasang.",
+        "th-th": "ปลดปล่อยฟองน้ำลอยตัวที่เคลื่อนไหวอย่างเชื่องช้า และสร้างความเสียหายน้ำแก่ศัตรูที่อยู่ใกล้เคียงอย่างต่อเนื่อง คุณกับ Paimon เคยนั่งวิเคราะห์น้ำขึ้นน้ำลงด้วยกันมาก่อน",
+        "vi-vn": "Thi triển Bong Bóng Bay Bổng di chuyển từ từ, liên tục gây Sát Thương Nguyên Tố Thủy cho kẻ địch gần đó.Cùng Paimon nghiên cứu về mực độ lên xuống của ngọn sóng.",
+        "zh-tw": "釋放緩慢移動的浮水泡沫，對附近的敵人持續造成水元素傷害。和派蒙一起研究過潮水的漲落。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/12/05/101132274/1e1ef908756f3c2d7ff49d70a7df9dd4_5709081318043236552.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Águas Puras",
+        "en-us": "Spotless Waters",
+        "ja-jp": "無染の清水",
+        "zh-cn": "无染的澈水",
+        "ko-kr": "티 없이 맑은 물",
+        "ru-ru": "Чистые воды",
+        "de-de": "Ungetrübtes Wasser",
+        "fr-fr": "Eau pure",
+        "es-es": "Aguas prístinas",
+        "id-id": "Clear Waters",
+        "th-th": "Spotless Waters",
+        "vi-vn": "Dòng Chảy Trong Veo",
+        "zh-tw": "無染的澈水"
+      },
+      "description": {
+        "pt-pt": "Quando a Gota de Orvalho disparada com o Manter Pressionado de Sabre da Insígnia Aquática atingir um inimigo, gerará uma Gota d'Água Primordial perto da Viajante. Quando a Viajante coletar uma Gota d'Água Primordial, regenerará 7% da sua Vida.É possível gerar até uma Gota d'Água Primordial dessa forma. E cada vez que Sabre da insígnia Aquática for lançado, é possível criar até 4 Gotas d'Água Primordial.",
+        "en-us": "After the Dewdrop fired by the Hold Mode of the Aquacrest Saber hits an opponent, a Sourcewater Droplet will be generated near to the Traveler. If the Traveler picks it up, they will restore 7% HP.1 Droplet can be created this way every second, and each use of Aquacrest Saber can create 4 Droplets at most.",
+        "ja-jp": "長押しで発動した水紋の剣による露雫が敵に命中した後、旅人の近くに源水の雫を生成する。旅人が源水の雫を拾うと、HPが7%回復する。この方式で生成できる源水の雫は1秒毎に1個のみ。水紋の剣1回につき、生成できる源水の雫は4個まで。",
+        "zh-cn": "长按施放水纹剑发射的露滴命中敌人后，将在旅行者附近产生源水之滴。旅行者拾取源水之滴后将恢复7%生命值。每秒至多通过这种方式产生1枚源水之滴，每次施放水纹剑至多产生4枚源水之滴。",
+        "ko-kr": "홀드로 발동한 물결검이 발사한 이슬방울은 적에게 명중 후 여행자 근처에 원천의 방울을 생성한다. 원천의 방울을 습득한 여행자는 HP를 7% 회복한다.해당 방식으로 1초마다 원천의 방울을 최대 1개 생성할 수 있으며 물결검은 발동할 때마다 원천의 방울을 최대 4개까지 생성할 수 있다",
+        "ru-ru": "Когда выпущенная долгим нажатием Клинка водной эмблемы Капля росы попадёт по противнику, рядом с вами будет создана Капля источника. Если подобрать её, она восстановит 7% вашего HP.Таким способом можно создавать не более 1 Капли источника в секунду. При каждой активации Клинка водной эмблемы можно создать до 4 Капель источника.",
+        "de-de": "Nachdem Gegner durch Tautropfen getroffen wurden, die durch Gedrückthalten des Wasserschützen erzeugt werden, entsteht in der Nähe des Reisenden ein Quellwassertropfen, der beim Einsammeln 7% von dessen LP wiederherstellt.Auf diese Weise kann jede Sekunde bis zu ein Quellwassertropfen erzeugt werden, wobei Wasserschütze bei jedem Auslösen bis zu 4 Tropfen erzeugen kann.",
+        "fr-fr": "Lorsqu'une goutte de rosée lancée en maintenant Sabre d'ondulation a touché un ennemi, une goutte d'eau de source apparaît à proximité du voyageur(de la voyageuse). En la ramassant, ce dernier(cette dernière) récupère 7 % de PV.Une goutte d'eau de source peut être créée de cette manière une fois toutes les secondes, et chaque utilisation de Sabre d'ondulation permet de créer un maximum de 4 gouttes d'eau de source.",
+        "es-es": "Cuando las gotas de rocío lanzadas al mantener pulsado Espada ondulante golpean a un enemigo, cerca del Viajero se crea una gota primigenia. Al recogerla, el Viajero recupera un 7% de Vida.Solo se puede crear una gota primigenia por segundo de esta manera, y se podrán liberar hasta un máximo de 4 cada vez que se utilice Espada ondulante.",
+        "id-id": "Jika ada HP yang terkonsumsi dikarenakan Suffusion saat melancarkan Aquacrest Saber Mode Tahan, maka DMG yang diakibatkan Torrent Surge setelah skill berakhir akan meningkat. Peningkatan DMG ini setara dengan 45% Total HP yang terkonsumsi oleh Suffusion saat melancarkan skill ini. Peningkatan DMG yang didapat dengan cara ini adalah maksimum 5000 poin.",
+        "th-th": "หลังจาก Dewdrop ที่เกิดจากการกดค้างเพื่อปล่อย Aquacrest Saber โจมตีถูกศัตรู จะทำให้เกิด Sourcewater Droplet ในบริเวณที่นักเดินทางอยู่ เมื่อนักเดินทางทำการเก็บ Sourcewater Droplet จะช่วยฟื้นฟูค่าพลังชีวิต 7% โดยที่ทุกวินาที จะเกิด Sourcewater Droplet ได้ด้วยวิธีนี้ 1 อัน และทุกครั้งที่ใช้ Aquacrest Saber จะเกิด Sourcewater Droplet ได้มากสุด 4 อัน เท่านั้น",
+        "vi-vn": "Sau khi nhấn giữ để bắn Sương Mai từ kỹ năng Thủy Văn Kiếm trúng kẻ địch, sẽ sản sinh Nguồn Nước Trong gần Nhà Lữ Hành. Nhà Lữ Hành khi nhặt Nguồn Nước Trong sẽ hồi phục 7% HP.Mỗi giây tối đa sản sinh 1 Nguồn Nước Trong bằng cách này, mỗi lần thi triển Thủy Văn Kiếm tối đa sản sinh 4 Nguồn Nước Trong.",
+        "zh-tw": "長按施放水紋劍發射的露滴命中敵人後，將在旅行者附近產生源水之滴。旅行者拾取源水之滴後將恢復7%生命值。每秒至多依此方式產生1枚源水之滴，每次施放水紋劍至多產生4枚源水之滴。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/12/05/101132274/416a665254b83e5db0fbe19a60bac0f1_6306303877044677835.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Água Cristalina",
+        "en-us": "Clear Waters",
+        "ja-jp": "澄明の浄水",
+        "zh-cn": "澄明的净水",
+        "ko-kr": "투명한 청정수",
+        "ru-ru": "Прозрачные воды",
+        "de-de": "Klares Wasser",
+        "fr-fr": "Eau claire",
+        "es-es": "Aguas cristalinas",
+        "id-id": "Spotless Waters",
+        "th-th": "Clear Waters",
+        "vi-vn": "Nguồn Nước Tinh Khiết",
+        "zh-tw": "澄明的淨水"
+      },
+      "description": {
+        "pt-pt": "Se lançar com o Manter Pressionado de Sabre da Insígnia Aquática consumir Vida através de Abundância, aumentará o Dano causado de Erupção Torrencial no final do lançamento, o valor do aumento é igual a 45% do valor da Abundância consumido pela Viajante neste lançamento.É possível aumentar o Dano em até 5.000 desta forma.",
+        "en-us": "If HP has been consumed via Suffusion while using the Hold Mode Aquacrest Saber, the Torrent Surge at the skill's end will deal Bonus DMG equal to 45% of the total HP the Traveler has consumed in this skill use via Suffusion.The maximum DMG Bonus that can be gained this way is 5,000.",
+        "ja-jp": "長押しで水紋の剣を発動する時、充満によってHPを消費した場合、発動終了時に飛散する激流のダメージがアップする。ダメージアップ量は旅人がこの発動期間中に充満で消費したHPの合計の45%に相当する。この方式でアップできる上記攻撃によるダメージは5000までとなる。",
+        "zh-cn": "长按施放水纹剑时如果通过充盈消耗了生命值，则在施放结束时的喷发激流造成的伤害提高，提高值为旅行者在此次施放期间通过充盈消耗的生命值总和的45%。通过这种方式，至多使伤害提高5000点。",
+        "ko-kr": "홀드로 물결검 발동 시, 만약 충만을 통해 HP를 소모했으면, 발동 종료 시의 격류 분사가 주는 피해가 이번 발동 기간에 여행자가 충만을 통해 소모한 HP 총합의 45%만큼 증가한다. 해당 방식으로 최대 5000pt까지 피해가 증가한다",
+        "ru-ru": "Если Затопление, вызванное долгим нажатием Клинка водной эмблемы, потребило HP, Бурные воды, выпускаемые при завершении навыка, нанесёт бонусный урон, равный 45% от общего количества вашего HP, которое было израсходовано Затоплением во время действия данного навыка.Полученный таким образом бонус урона не может превышать 5000 ед.",
+        "de-de": "Wurden während des Gedrückthaltens vom Wasserschützen durch Suffosion LP verbraucht, so erhöht sich am Ende der Fähigkeit der Schaden der eruptiven Stromschnelle des Reisenden um 45% der durch Suffosion verbrauchten LP.Der Schaden kann auf diese Weise höchstens um 5.000 Punkte erhöht werden.",
+        "fr-fr": "Si des PV ont été consommés lors d'une profusion en maintenant Sabre d'ondulation, les DGT du courant torrentiel à la fin augmentent d'une valeur équivalant à 45 % de PV consommés par le voyageur(la voyageuse) lors de la profusion en question.Les DGT peuvent être augmentés d'un maximum de 5 000 pts de cette manière.",
+        "es-es": "Si se consume Vida con el efecto de profusión al mantener pulsado Espada ondulante, el daño de la erupción torrencial creada tras terminar de liberar dicha habilidad aumenta en un 45% de la Vida total consumida por el Viajero con el efecto de profusión mientras se liberaba la habilidad.Como máximo, el daño puede aumentar en 5000pts. de esta manera.",
+        "id-id": "Setelah Dewdrop yang ditembakkan dari Mode Tahan Aquacrest Saber mengenai musuh, akan menciptakan Sourcewater Droplet di sekitar posisi Pengembara. Mengambil Sourcewater Droplet akan memulihkan 7% HP. Hanya 1 Sourcewater Droplet yang dapat diciptakan dengan cara ini setiap detiknya. Setiap penggunaan Aquacrest Saber dapat menciptakan maksimum 4 Sourcewater Droplet.",
+        "th-th": "หากเสียพลังชีวิตผ่าน Suffusion ในขณะที่กดค้างเพื่อปล่อย Aquacrest Saber จะทำให้คลื่นน้ำหลังจบสกิลสร้างความเสียหายเพิ่มขึ้น โดยความเสียหายที่เพิ่มขึ้นจะคิดเป็น 45% ของค่าพลังชีวิตทั้งหมดที่นักเดินทางเสียให้กับ Suffusion ในระหว่างการใช้สกิลครั้งนี้ สามารถเพิ่มความเสียหายผ่านวิธีนี้ได้สูงสุด 5,000 หน่วย",
+        "vi-vn": "Nhấn giữ Thủy Văn Kiếm nếu tiêu hao HP từ hiệu ứng Dồi Dào, sẽ tăng sát thương Dòng Nước Dâng Trào gây ra sau đó, mức tăng thêm dựa vào 45% lượng HP tiêu hao từ hiệu ứng Dồi Dào của lần này.Sát thương tăng thêm tối đa 5000 thông qua cách này.",
+        "zh-tw": "長按施放水紋劍時如果透過充盈消耗了生命值，則在施放結束時的噴發激流造成的傷害提高，提高值為旅行者在此次施放期間透過充盈消耗的生命值總和的45%。依此方式，至多使傷害提高5000點。"
+      },
+      "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/12/05/101132274/2274fe5c6daf39abbfe55663d35bae95_3151861137141207458.png"
+    }
+  ],
+  "talentAttributes": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Ataque Normal: Corrente Estrangeira",
+        "en-us": "Foreign Stream",
+        "ja-jp": "通常攻撃・異邦の激流",
+        "zh-cn": "普通攻击·异邦激流",
+        "ko-kr": "일반 공격·이방의 격류",
+        "ru-ru": "Чужеземный поток",
+        "de-de": "Standardangriff: Stromschnellen aus der Fremde",
+        "fr-fr": "Attaque normale : Débordement étranger",
+        "es-es": "Ataque Normal: Desbordamiento extranjero",
+        "id-id": "Normal Attack: Foreign Stream",
+        "th-th": "โจมตีปกติ: Foreign Fieldcleaver",
+        "vi-vn": "Tấn Công Thường - Dòng Nước Dị Bang",
+        "zh-tw": "普通攻擊·異邦激流"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Level",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Lv.1",
+            "Lv.2",
+            "Lv.3",
+            "Lv.4",
+            "Lv.5",
+            "Lv.6",
+            "Lv.7",
+            "Lv.8",
+            "Lv.9",
+            "Lv.10",
+            "Lv.11"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 1º Golpe",
+            "en-us": "1-Hit DMG",
+            "ja-jp": "1段ダメージ",
+            "zh-cn": "一段伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон атаки 1",
+            "de-de": "SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tahap 1",
+            "th-th": "ความเสียหายขั้น 1",
+            "vi-vn": "Sát Thương Lần 1",
+            "zh-tw": "一段傷害"
+          },
+          "values": [
+            "44.5%",
+            "48.1%",
+            "51.7%",
+            "56.9%",
+            "60.5%",
+            "64.6%",
+            "70.3%",
+            "76.0%",
+            "81.7%",
+            "87.9%",
+            "94.1%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 2º Golpe",
+            "en-us": "2-Hit DMG",
+            "ja-jp": "2段ダメージ",
+            "zh-cn": "二段伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон атаки 2",
+            "de-de": "SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2.º golpe",
+            "id-id": "DMG Tahap 2",
+            "th-th": "ความเสียหายขั้น 2",
+            "vi-vn": "Sát Thương Lần 2",
+            "zh-tw": "二段傷害"
+          },
+          "values": [
+            "43.4%",
+            "47.0%",
+            "50.5%",
+            "55.6%",
+            "59.1%",
+            "63.1%",
+            "68.7%",
+            "74.2%",
+            "79.8%",
+            "85.9%",
+            "91.9%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 3º Golpe",
+            "en-us": "3-Hit DMG",
+            "ja-jp": "3段ダメージ",
+            "zh-cn": "三段伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон атаки 3",
+            "de-de": "SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tahap 3",
+            "th-th": "ความเสียหายขั้น 3",
+            "vi-vn": "Sát Thương Lần 3",
+            "zh-tw": "三段傷害"
+          },
+          "values": [
+            "53.0%",
+            "57.3%",
+            "61.6%",
+            "67.8%",
+            "72.1%",
+            "77.0%",
+            "83.8%",
+            "90.6%",
+            "97.3%",
+            "105%",
+            "112%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 4º Golpe",
+            "en-us": "4-Hit DMG",
+            "ja-jp": "4段ダメージ",
+            "zh-cn": "四段伤害",
+            "ko-kr": "4단 공격 피해",
+            "ru-ru": "Урон атаки 4",
+            "de-de": "SCH Phase 4",
+            "fr-fr": "DGT 4e coup",
+            "es-es": "Daño de 4.º golpe",
+            "id-id": "DMG Tahap 4",
+            "th-th": "ความเสียหายขั้น 4",
+            "vi-vn": "Sát Thương Lần 4",
+            "zh-tw": "四段傷害"
+          },
+          "values": [
+            "58.3%",
+            "63.1%",
+            "67.8%",
+            "74.6%",
+            "79.3%",
+            "84.8%",
+            "92.2%",
+            "99.7%",
+            "107%",
+            "115%",
+            "123%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 5º Golpe",
+            "en-us": "5-Hit DMG",
+            "ja-jp": "5段ダメージ",
+            "zh-cn": "五段伤害",
+            "ko-kr": "5단 공격 피해",
+            "ru-ru": "Урон атаки 5",
+            "de-de": "SCH Phase 5",
+            "fr-fr": "DGT 5e coup",
+            "es-es": "Daño de 5.º golpe",
+            "id-id": "DMG Tahap 5",
+            "th-th": "ความเสียหายขั้น 5",
+            "vi-vn": "Sát Thương Lần 5",
+            "zh-tw": "五段傷害"
+          },
+          "values": [
+            "70.8%",
+            "76.5%",
+            "82.3%",
+            "90.5%",
+            "96.3%",
+            "103%",
+            "112%",
+            "121%",
+            "130%",
+            "140%",
+            "150%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Ataque Carregado",
+            "en-us": "Charged Attack DMG",
+            "ja-jp": "重撃ダメージ",
+            "zh-cn": "重击伤害",
+            "ko-kr": "강공격 피해",
+            "ru-ru": "Урон заряженной атаки",
+            "de-de": "SCH heftiger Schläge",
+            "fr-fr": "DGT attaque chargée",
+            "es-es": "Daño de ATQ Cargado",
+            "id-id": "DMG Charged Attack",
+            "th-th": "ความเสียหายชาร์จโจมตี",
+            "vi-vn": "Sát Thương Trọng Kích",
+            "zh-tw": "重擊傷害"
+          },
+          "values": [
+            "♀: 55.9%+72.2%",
+            "♀: 60.5%+78.1%",
+            "♀: 65.0%+84.0%",
+            "♀: 71.5%+92.4%",
+            "♀: 76.1%+98.3%",
+            "♀: 81.3%+105%",
+            "♀: 88.4%+114%",
+            "♀: 95.6%+123%",
+            "♀: 103%+133%",
+            "♀: 111%+143%",
+            "♀: 118%+153%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Ataque Carregado",
+            "en-us": "",
+            "ja-jp": "重撃スタミナ消費",
+            "zh-cn": "",
+            "ko-kr": "강공격 피해",
+            "ru-ru": "Потребление выносливости",
+            "de-de": "",
+            "fr-fr": "Coût d'endurance attaque chargée",
+            "es-es": "Coste de Aguante de ATQ Cargado",
+            "id-id": "",
+            "th-th": "ชาร์จโจมตีใช้พลังกาย",
+            "vi-vn": "Thể lực Trọng Kích tiêu hao",
+            "zh-tw": "重擊體力消耗"
+          },
+          "values": [
+            "♂: 55.9%+60.7%",
+            "♂: 60.5%+65.7%",
+            "♂: 65.0%+70.6%",
+            "♂: 71.5%+77.7%",
+            "♂: 76.1%+82.6%",
+            "♂: 81.3%+88.3%",
+            "♂: 88.4%+96.0%",
+            "♂: 95.6%+104%",
+            "♂: 103%+112%",
+            "♂: 111%+120%",
+            "♂: 118%+128%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Consumo de Stamina de Ataque Carregado",
+            "en-us": "Charged Attack Stamina Cost",
+            "ja-jp": "落下期間のダメージ",
+            "zh-cn": "重击体力消耗",
+            "ko-kr": "강공격 스태미나 소모",
+            "ru-ru": "Урон в падении",
+            "de-de": "Ausdauerverbrauch heftiger Schläge",
+            "fr-fr": "DGT durant la chute",
+            "es-es": "Daño de Caída",
+            "id-id": "Konsumsi Stamina Charged Attack",
+            "th-th": "ความเสียหายพุ่งลง",
+            "vi-vn": "Sát Thương Khi Đáp",
+            "zh-tw": "下墜期間傷害"
+          },
+          "values": [
+            "20.0",
+            "20.0",
+            "20.0",
+            "20.0",
+            "20.0",
+            "20.0",
+            "20.0",
+            "20.0",
+            "20.0",
+            "20.0",
+            "20.0"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Durante a Queda",
+            "en-us": "Plunge DMG",
+            "ja-jp": "低空/高空落下攻撃ダメージ",
+            "zh-cn": "下坠期间伤害",
+            "ko-kr": "낙하 기간 피해",
+            "ru-ru": "Урон низкого/высокого удара",
+            "de-de": "SCH beim Fallen",
+            "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Daño de impacto de caída baja/alta",
+            "id-id": "DMG Selama Plunging",
+            "th-th": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+            "vi-vn": "ST Khi Rơi Từ Độ Cao Thấp/Cao",
+            "zh-tw": "低空/高空墜地衝擊傷害"
+          },
+          "values": [
+            "63.9%",
+            "69.1%",
+            "74.3%",
+            "81.8%",
+            "87.0%",
+            "92.9%",
+            "101.1%",
+            "109.3%",
+            "117.5%",
+            "126.4%",
+            "135.3%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Queda de Baixa/Alta Altitude",
+            "en-us": "Low/High Plunge DMG",
+            "zh-cn": "低空/高空坠地期间伤害",
+            "ko-kr": "저공/고공 추락 충격 피해",
+            "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
+            "id-id": "DMG Plunging Attack Min./Maks."
+          },
+          "values": [
+            "128%/160%",
+            "138%/173%",
+            "149%/186%",
+            "164%/204%",
+            "174%/217%",
+            "186%/232%",
+            "202%/253%",
+            "219%/273%",
+            "235%/293%",
+            "253%/316%",
+            "271%/338%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_skill",
+      "talentName": {
+        "pt-pt": "Sabre da Insígnia Aquática",
+        "en-us": "Aquacrest Saber",
+        "ja-jp": "水紋の剣",
+        "zh-cn": "水纹剑",
+        "ko-kr": "물결검",
+        "ru-ru": "Клинок водной эмблемы",
+        "de-de": "Wasserschütze",
+        "fr-fr": "Sabre d'ondulation",
+        "es-es": "Espada ondulante",
+        "id-id": "Aquacrest Saber",
+        "th-th": "Aquacrest Saber",
+        "vi-vn": "Thủy Văn Kiếm",
+        "zh-tw": "水紋劍"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Level",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Lv. 1",
+            "Lv. 2",
+            "Lv. 3",
+            "Lv. 4",
+            "Lv. 5",
+            "Lv. 6",
+            "Lv. 7",
+            "Lv. 8",
+            "Lv. 9",
+            "Lv. 10",
+            "Lv. 11",
+            "Lv. 12",
+            "Lv. 13"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Erupção Torrencial",
+            "en-us": "Torrent Surge DMG",
+            "ja-jp": "飛散する激流のダメージ",
+            "zh-cn": "喷发激流伤害",
+            "ko-kr": "격류 분사 피해",
+            "ru-ru": "Урон Бурных вод",
+            "de-de": "SCH eruptiver Stromschnelle",
+            "fr-fr": "DGT courant torrentiel",
+            "es-es": "Daño de erupción torrencial",
+            "id-id": "DMG Torrent Surge",
+            "th-th": "ความเสียหายคลื่นน้ำ",
+            "vi-vn": "Sát Thương Dòng Nước Dâng Trào",
+            "zh-tw": "噴發激流傷害"
+          },
+          "values": [
+            "189.3%",
+            "203.5%",
+            "217.7%",
+            "236.6%",
+            "250.8%",
+            "265.0%",
+            "283.9%",
+            "302.8%",
+            "321.8%",
+            "340.7%",
+            "359.6%",
+            "378.6%",
+            "402.2%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano da Gota de Orvalho",
+            "en-us": "Dewdrop DMG",
+            "ja-jp": "露雫のダメージ",
+            "zh-cn": "露滴伤害",
+            "ko-kr": "이슬방울 피해",
+            "ru-ru": "Урон Капли росы",
+            "de-de": "SCH von Tautropfen",
+            "fr-fr": "DGT goutte de rosée",
+            "es-es": "Daño de gotas de rocío",
+            "id-id": "DMG Dewdrop",
+            "th-th": "ความเสียหาย Dewdrop",
+            "vi-vn": "Sát Thương Sương Mai",
+            "zh-tw": "露滴傷害"
+          },
+          "values": [
+            "32.8%",
+            "35.3%",
+            "37.7%",
+            "41.0%",
+            "43.5%",
+            "45.9%",
+            "49.2%",
+            "52.5%",
+            "55.8%",
+            "59.0%",
+            "62.3%",
+            "65.6%",
+            "69.7%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do Espinho Espiritual",
+            "en-us": "Spiritbreath Thorn DMG",
+            "ja-jp": "霊息の棘のダメージ",
+            "zh-cn": "灵息之剑伤害",
+            "ko-kr": "영혼의 쐐기 피해",
+            "ru-ru": "Урон Иглы дыхания душ",
+            "de-de": "Geisterstachel-SCH",
+            "fr-fr": "DGT épine d'inhalation",
+            "es-es": "Daño de espina halitoespiritual",
+            "id-id": "DMG Spirintbreath Thorn",
+            "th-th": "ความเสียหาย Spiritbreath Thorn",
+            "vi-vn": "Sát Thương Gai Linh Hồn",
+            "zh-tw": "靈息之刺傷害"
+          },
+          "values": [
+            "32.8%",
+            "35.3%",
+            "37.7%",
+            "41.0%",
+            "43.5%",
+            "45.9%",
+            "49.2%",
+            "52.5%",
+            "55.8%",
+            "59.0%",
+            "62.3%",
+            "65.6%",
+            "69.7%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Intervalo de Espinho Espiritual",
+            "en-us": "Spiritbreath Thorn Interval",
+            "ja-jp": "霊息の棘の間隔",
+            "zh-cn": "灵息之剑间隔",
+            "ko-kr": "영혼의 쐐기 간격",
+            "ru-ru": "Интервал Иглы дыхания душ",
+            "de-de": "Geisterstachel-Intervall",
+            "fr-fr": "Intervalle d'épine d'inhalation",
+            "es-es": "Intervalo de espina halitoespiritual",
+            "id-id": "Jeda Spirintbreath Thorn",
+            "th-th": "ช่วงเวลาเกิด Spiritbreath Thorn",
+            "vi-vn": "Giãn Cách Gai Linh Hồn",
+            "zh-tw": "靈息之刺間隔"
+          },
+          "values": [
+            "9.0s",
+            "9.0s",
+            "9.0s",
+            "9.0s",
+            "9.0s",
+            "9.0s",
+            "9.0s",
+            "9.0s",
+            "9.0s",
+            "9.0s",
+            "9.0s",
+            "9.0s",
+            "9.0s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Consumo de Vida de Abundância",
+            "en-us": "Suffusion HP Cost",
+            "ja-jp": "充満のHP消費",
+            "zh-cn": "充盈生命值消耗",
+            "ko-kr": "충만 HP 소모",
+            "ru-ru": "Потребление HP Затоплением",
+            "de-de": "LP-Verbrauch von Suffosion",
+            "fr-fr": "Coût de PV de profusion",
+            "es-es": "Consumo de Vida de profusión",
+            "id-id": "Konsumsi HP suffusion",
+            "th-th": "ค่าพลังชีวิตที่เสียจาก Suffusion",
+            "vi-vn": "Dồi Dào Tiêu Hao HP",
+            "zh-tw": "充盈生命值消耗"
+          },
+          "values": [
+            "4.00% Max HP",
+            "4.00% Max HP",
+            "4.00% Max HP",
+            "4.00% Max HP",
+            "4.00% Max HP",
+            "4.00% Max HP",
+            "4.00% Max HP",
+            "4.00% Max HP",
+            "4.00% Max HP",
+            "4.00% Max HP",
+            "4.00% Max HP",
+            "4.00% Max HP",
+            "4.00% Max HP"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Aumento de Dano de Abundância",
+            "en-us": "Suffusion DMG Bonus",
+            "ja-jp": "充満のダメージアップ",
+            "zh-cn": "充盈伤害增加",
+            "ko-kr": "충만 피해 증가",
+            "ru-ru": "Бонус урона Затопления",
+            "de-de": "SCH-Bonus von Suffosion",
+            "fr-fr": "Bonus de DGT de profusion",
+            "es-es": "Aumento de daño de profusión",
+            "id-id": "Bonus DMG Suffusion",
+            "th-th": "ความเสียหายเพิ่มเติมของ Suffusion",
+            "vi-vn": "Dồi Dào Tăng Sát Thương",
+            "zh-tw": "充盈傷害增加"
+          },
+          "values": [
+            "0.64% Max HP",
+            "0.69% Max HP",
+            "0.74% Max HP",
+            "0.80% Max HP",
+            "0.85% Max HP",
+            "0.90% Max HP",
+            "0.96% Max HP",
+            "1.02% Max HP",
+            "1.09% Max HP",
+            "1.15% Max HP",
+            "1.22% Max HP",
+            "1.28% Max HP",
+            "1.36% Max HP"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração de Manter Pressionado",
+            "en-us": "Hold Duration",
+            "ja-jp": "長押しの継続時間",
+            "zh-cn": "长按持续时间",
+            "ko-kr": "홀드 지속 시간",
+            "ru-ru": "Длительность долгого нажатия",
+            "de-de": "Dauer bei Gedrückthalten",
+            "fr-fr": "Durée d'appui long",
+            "es-es": "Duración de mantener pulsado",
+            "id-id": "Durasi Mode Tahan",
+            "th-th": "ระยะเวลาต่อเนื่องเมื่อกดค้าง",
+            "vi-vn": "Thời Gian Duy Trì Nhấn Giữ",
+            "zh-tw": "長按持續時間"
+          },
+          "values": [
+            "Max 6.0s",
+            "Max 6.0s",
+            "Max 6.0s",
+            "Max 6.0s",
+            "Max 6.0s",
+            "Max 6.0s",
+            "Max 6.0s",
+            "Max 6.0s",
+            "Max 6.0s",
+            "Max 6.0s",
+            "Max 6.0s",
+            "Max 6.0s",
+            "Max 6.0s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s",
+            "10.0s"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_burst",
+      "talentName": {
+        "pt-pt": "Maré Ascendente",
+        "en-us": "Rising Waters",
+        "ja-jp": "昇流統水",
+        "zh-cn": "扬水制流",
+        "ko-kr": "흐름 제어",
+        "ru-ru": "Прибывающая вода",
+        "de-de": "Gezeitenblase",
+        "fr-fr": "Montée des eaux",
+        "es-es": "Correntada ascendente",
+        "id-id": "Rising Waters",
+        "th-th": "Rising Waters",
+        "vi-vn": "Dòng Chảy Cuồn Cuộn",
+        "zh-tw": "揚水制流"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Level",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Lv. 1",
+            "Lv. 2",
+            "Lv. 3",
+            "Lv. 4",
+            "Lv. 5",
+            "Lv. 6",
+            "Lv. 7",
+            "Lv. 8",
+            "Lv. 9",
+            "Lv. 10",
+            "Lv. 11",
+            "Lv. 12",
+            "Lv. 13"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Habiliade",
+            "en-us": "Skill DMG",
+            "ja-jp": "スキルダメージ",
+            "zh-cn": "技能伤害",
+            "ko-kr": "스킬 피해",
+            "ru-ru": "Урон навыка",
+            "de-de": "Fähigkeits-SCH",
+            "fr-fr": "DGT compétence",
+            "es-es": "Daño de habilidad",
+            "id-id": "DMG Skill",
+            "th-th": "ความเสียหายสกิล",
+            "vi-vn": "Sát Thương Kỹ Năng",
+            "zh-tw": "技能傷害"
+          },
+          "values": [
+            "101.9%",
+            "109.5%",
+            "117.1%",
+            "127.3%",
+            "135.0%",
+            "142.6%",
+            "152.8%",
+            "163.0%",
+            "173.2%",
+            "183.4%",
+            "193.5%",
+            "203.7%",
+            "216.5%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração",
+            "en-us": "Duration",
+            "ja-jp": "継続時間",
+            "zh-cn": "持续时间",
+            "ko-kr": "지속 시간",
+            "ru-ru": "Длительность",
+            "de-de": "Dauer",
+            "fr-fr": "Durée",
+            "es-es": "Duración",
+            "id-id": "Durasi",
+            "th-th": "ระยะเวลาต่าเนื่อง",
+            "vi-vn": "Thời Gian Kéo Dài",
+            "zh-tw": "持續時間"
+          },
+          "values": [
+            "4.0s",
+            "4.0s",
+            "4.0s",
+            "4.0s",
+            "4.0s",
+            "4.0s",
+            "4.0s",
+            "4.0s",
+            "4.0s",
+            "4.0s",
+            "4.0s",
+            "4.0s",
+            "4.0s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "20.0s",
+            "20.0s",
+            "20.0s",
+            "20.0s",
+            "20.0s",
+            "20.0s",
+            "20.0s",
+            "20.0s",
+            "20.0s",
+            "20.0s",
+            "20.0s",
+            "20.0s",
+            "20.0s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Energia Elemental",
+            "en-us": "Energy Cost",
+            "ja-jp": "元素エネルギー",
+            "zh-cn": "元素能量",
+            "ko-kr": "원소 에너지",
+            "ru-ru": "Потребление энергии",
+            "de-de": "Elementarenergie",
+            "fr-fr": "Énergie élémentaire",
+            "es-es": "Energía Elemental",
+            "id-id": "Konsumsi Energy",
+            "th-th": "พลังงานธาตุ",
+            "vi-vn": "Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量"
+          },
+          "values": [
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80",
+            "80"
+          ]
+        }
+      ]
+    }
+  ],
+  "talentMaterials": [],
+  "affiliation": {
+    "pt-pt": "-",
+    "en-us": "-",
+    "ja-jp": "ーー",
+    "zh-cn": "——",
+    "ko-kr": "——",
+    "ru-ru": "-",
+    "de-de": "-",
+    "fr-fr": "-",
+    "es-es": "-",
+    "th-th": "-",
+    "vi-vn": "-",
+    "zh-tw": "——",
+    "id-id": "N/A"
+  },
+  "birthday": {
+    "pt-pt": "-",
+    "en-us": "-",
+    "de-de": "-",
+    "fr-fr": "-",
+    "es-es": "-",
+    "th-th": "-",
+    "vi-vn": "-",
+    "ja-jp": "N/A",
+    "zh-cn": "N/A",
+    "ko-kr": "N/A",
+    "ru-ru": "N/A",
+    "id-id": "N/A",
+    "zh-tw": "N/A"
+  },
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv. 20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv. 20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv. 20"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1189",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Brilliant%20Diamond%20Sliver_icon.png",
+          "amount": 1,
+          "name": {
+            "pt-pt": "Lasca de Diamante Brilhante",
+            "en-us": "Brilliant Diamond Sliver",
+            "ja-jp": "輝くダイヤ・砕屑",
+            "zh-cn": "璀璨原钻碎屑",
+            "ko-kr": "휘황찬란한 다이아몬드 파편",
+            "ru-ru": "Осколок бриллианта",
+            "de-de": "Brillantsplitter",
+            "fr-fr": "Éclat de diamant scintillant",
+            "es-es": "Pedacito de diamante brillante",
+            "id-id": "Brilliant Diamond Sliver",
+            "th-th": "Brilliant Diamond Sliver",
+            "vi-vn": "Vụn Kim Cương Bạc",
+            "zh-tw": "璀璨原鑽碎屑"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Windwheel%20Aster_icon.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "1247",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Damaged%20Mask_icon.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Máscara Danificada",
+            "en-us": "Damaged Mask",
+            "ja-jp": "破損した仮面",
+            "zh-cn": "破损的面具",
+            "ko-kr": "부서진 가면",
+            "ru-ru": "Разбитая маска",
+            "de-de": "Zerbrochene Maske",
+            "fr-fr": "Masque endommagé",
+            "es-es": "Máscara dañada",
+            "id-id": "Damaged Mask",
+            "th-th": "Damaged Mask",
+            "vi-vn": "Mặt Nạ Vỡ",
+            "zh-tw": "破損的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv. 40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv. 40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv. 40"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 40000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1189",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Brilliant%20Diamond%20Sliver_icon.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Lasca de Diamante Brilhante",
+            "en-us": "Brilliant Diamond Sliver",
+            "ja-jp": "輝くダイヤ・砕屑",
+            "zh-cn": "璀璨原钻碎屑",
+            "ko-kr": "휘황찬란한 다이아몬드 파편",
+            "ru-ru": "Осколок бриллианта",
+            "de-de": "Brillantsplitter",
+            "fr-fr": "Éclat de diamant scintillant",
+            "es-es": "Pedacito de diamante brillante",
+            "id-id": "Brilliant Diamond Sliver",
+            "th-th": "Brilliant Diamond Sliver",
+            "vi-vn": "Vụn Kim Cương Bạc",
+            "zh-tw": "璀璨原鑽碎屑"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Windwheel%20Aster_icon.png",
+          "amount": 10,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "1247",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Damaged%20Mask_icon.png",
+          "amount": 15,
+          "name": {
+            "pt-pt": "Máscara Danificada",
+            "en-us": "Damaged Mask",
+            "ja-jp": "破損した仮面",
+            "zh-cn": "破损的面具",
+            "ko-kr": "부서진 가면",
+            "ru-ru": "Разбитая маска",
+            "de-de": "Zerbrochene Maske",
+            "fr-fr": "Masque endommagé",
+            "es-es": "Máscara dañada",
+            "id-id": "Damaged Mask",
+            "th-th": "Damaged Mask",
+            "vi-vn": "Mặt Nạ Vỡ",
+            "zh-tw": "破損的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv. 50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv. 50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv. 50"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 60000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1188",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Brilliant%20Diamond%20Fragment_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Diamante Brilhante",
+            "en-us": "Brilliant Diamond Fragment",
+            "ja-jp": "輝くダイヤ・欠片",
+            "zh-cn": "璀璨原钻断片",
+            "ko-kr": "휘황찬란한 다이아몬드 단편",
+            "ru-ru": "Фрагмент бриллианта",
+            "de-de": "Brillantbruchstück",
+            "fr-fr": "Fragment de diamant scintillant",
+            "es-es": "Trozo de diamante brillante",
+            "id-id": "Brilliant Diamond Fragment",
+            "th-th": "Brilliant Diamond Fragment",
+            "vi-vn": "Mảnh Kim Cương Bạc",
+            "zh-tw": "璀璨原鑽斷片"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Windwheel%20Aster_icon.png",
+          "amount": 20,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "983",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Stained%20Mask_icon.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Máscara Suja",
+            "en-us": "Stained Mask",
+            "ja-jp": "汚れた仮面",
+            "zh-cn": "污秽的面具",
+            "ko-kr": "오염된 가면",
+            "ru-ru": "Грязная маска",
+            "de-de": "Verdreckte Maske",
+            "fr-fr": "Masque sale",
+            "es-es": "Máscara sucia",
+            "id-id": "Stained Mask",
+            "th-th": "Stained Mask",
+            "vi-vn": "Mặt Nạ Bẩn",
+            "zh-tw": "汙穢的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv. 60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv. 60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv. 60"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 80000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1187",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Brilliant%20Diamond%20Chunk_icon.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Diamante Brilhante",
+            "en-us": "Brilliant Diamond Chunk",
+            "ja-jp": "輝くダイヤ・塊",
+            "zh-cn": "璀璨原钻块",
+            "ko-kr": "휘황찬란한 다이아몬드 덩어리",
+            "ru-ru": "Кусок бриллианта",
+            "de-de": "Brillantbrocken",
+            "fr-fr": "Morceau de diamant scintillant",
+            "es-es": "Fragmento de diamante brillante",
+            "id-id": "Brilliant Diamond Chunk",
+            "th-th": "Brilliant Diamond Chunk",
+            "vi-vn": "Miếng Kim Cương Bạc",
+            "zh-tw": "璀璨原鑽塊"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Windwheel%20Aster_icon.png",
+          "amount": 30,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "983",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Stained%20Mask_icon.png",
+          "amount": 18,
+          "name": {
+            "pt-pt": "Máscara Suja",
+            "en-us": "Stained Mask",
+            "ja-jp": "汚れた仮面",
+            "zh-cn": "污秽的面具",
+            "ko-kr": "오염된 가면",
+            "ru-ru": "Грязная маска",
+            "de-de": "Verdreckte Maske",
+            "fr-fr": "Masque sale",
+            "es-es": "Máscara sucia",
+            "id-id": "Stained Mask",
+            "th-th": "Stained Mask",
+            "vi-vn": "Mặt Nạ Bẩn",
+            "zh-tw": "汙穢的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv. 70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv. 70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv. 70"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 100000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1187",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Brilliant%20Diamond%20Chunk_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Diamante Brilhante",
+            "en-us": "Brilliant Diamond Chunk",
+            "ja-jp": "輝くダイヤ・塊",
+            "zh-cn": "璀璨原钻块",
+            "ko-kr": "휘황찬란한 다이아몬드 덩어리",
+            "ru-ru": "Кусок бриллианта",
+            "de-de": "Brillantbrocken",
+            "fr-fr": "Morceau de diamant scintillant",
+            "es-es": "Fragmento de diamante brillante",
+            "id-id": "Brilliant Diamond Chunk",
+            "th-th": "Brilliant Diamond Chunk",
+            "vi-vn": "Miếng Kim Cương Bạc",
+            "zh-tw": "璀璨原鑽塊"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Windwheel%20Aster_icon.png",
+          "amount": 45,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "220",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Ominous%20Mask_icon.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Máscara Ominosa",
+            "en-us": "Ominous Mask",
+            "ja-jp": "不吉な仮面",
+            "zh-cn": "不祥的面具",
+            "ko-kr": "불길한 가면",
+            "ru-ru": "Зловещая маска",
+            "de-de": "Unheilvolle Maske",
+            "fr-fr": "Masque sinistre",
+            "es-es": "Máscara amenazante",
+            "id-id": "Ominous Mask",
+            "th-th": "Ominous Mask",
+            "vi-vn": "Mặt Nạ Xui Xẻo",
+            "zh-tw": "不祥的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv. 80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv. 80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv. 80"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 120000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1186",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Brilliant%20Diamond%20Gemstone_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Gema de Diamante Brilhante",
+            "en-us": "Brilliant Diamond Gemstone",
+            "ja-jp": "輝くダイヤ",
+            "zh-cn": "璀璨原钻",
+            "ko-kr": "휘황찬란한 다이아몬드",
+            "ru-ru": "Драгоценный бриллиант",
+            "de-de": "Brillant",
+            "fr-fr": "Diamant scintillant",
+            "es-es": "Diamante brillante",
+            "id-id": "Brilliant Diamond Gemstone",
+            "th-th": "Brilliant Diamond Gemstone",
+            "vi-vn": "Kim Cương Bạc",
+            "zh-tw": "璀璨原鑽"
+          }
+        },
+        {
+          "id": "1750",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Windwheel%20Aster_icon.png",
+          "amount": 60,
+          "name": {
+            "pt-pt": "Margaridas Voadoras",
+            "en-us": "Windwheel Aster",
+            "ja-jp": "風車アスター",
+            "zh-cn": "风车菊",
+            "ko-kr": "풍차 국화",
+            "ru-ru": "Ветряная астра",
+            "de-de": "Windmühlenaster",
+            "fr-fr": "Chrysanthème à aubes",
+            "es-es": "Margarita voladora",
+            "id-id": "Windwheel Aster",
+            "th-th": "Windwheel Aster",
+            "vi-vn": "Cúc Cánh Quạt",
+            "zh-tw": "風車菊"
+          }
+        },
+        {
+          "id": "220",
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Ominous%20Mask_icon.png",
+          "amount": 24,
+          "name": {
+            "pt-pt": "Máscara Ominosa",
+            "en-us": "Ominous Mask",
+            "ja-jp": "不吉な仮面",
+            "zh-cn": "不祥的面具",
+            "ko-kr": "불길한 가면",
+            "ru-ru": "Зловещая маска",
+            "de-de": "Unheilvolle Maske",
+            "fr-fr": "Masque sinistre",
+            "es-es": "Máscara amenazante",
+            "id-id": "Ominous Mask",
+            "th-th": "Ominous Mask",
+            "vi-vn": "Mặt Nạ Xui Xẻo",
+            "zh-tw": "不祥的面具"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv. 1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур.1",
+        "de-de": "St. 1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv. 1",
+        "id-id": "Lv. 1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv. 1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "912"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "18"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "57"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตีเปอร์เซ็น",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "0.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv. 20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv. 20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv. 20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "2342",
+          "postAscensionValue": "3024"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "46",
+          "postAscensionValue": "59"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "147",
+          "postAscensionValue": "190"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "攻击力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตีเปอร์เซ็น",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "preAscensionValue": "0.0%",
+          "postAscensionValue": "0.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv. 40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv. 40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv. 40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "4529",
+          "postAscensionValue": "5013"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "88",
+          "postAscensionValue": "98"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "284",
+          "postAscensionValue": "315"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "攻击力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตีเปอร์เซ็น",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "preAscensionValue": "0.0%",
+          "postAscensionValue": "6.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv. 50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv. 50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv. 50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "5766",
+          "postAscensionValue": "6411"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "113",
+          "postAscensionValue": "125"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "362",
+          "postAscensionValue": "402"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "攻击力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตีเปอร์เซ็น",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "preAscensionValue": "6.0%",
+          "postAscensionValue": "12.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv. 60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv. 60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv. 60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "7164",
+          "postAscensionValue": "7648"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "140",
+          "postAscensionValue": "149"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "450",
+          "postAscensionValue": "480"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "攻击力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตีเปอร์เซ็น",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "preAscensionValue": "12.0%",
+          "postAscensionValue": "12.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv. 70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv. 70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv. 70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "7164",
+          "postAscensionValue": "7648"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "140",
+          "postAscensionValue": "149"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "450",
+          "postAscensionValue": "480"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "攻击力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตีเปอร์เซ็น",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "12.0%",
+          "postAscensionValue": "18.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv. 80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv. 80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv. 80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "9638",
+          "postAscensionValue": "10122"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "188",
+          "postAscensionValue": "198"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "605",
+          "postAscensionValue": "635"
+        },
+        {
+          "label": {
+            "pt-pt": "635",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "攻击力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตีเปอร์เซ็น",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "preAscensionValue": "18.0%",
+          "postAscensionValue": "24.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv. 90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур.90",
+        "de-de": "St. 90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv. 90",
+        "id-id": "Lv. 90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv. 90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "10875",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "212",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "683",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK",
+            "ja-jp": "攻撃力",
+            "zh-cn": "攻击力",
+            "ko-kr": "공격력",
+            "ru-ru": "Сила атаки",
+            "de-de": "ANG",
+            "fr-fr": "ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK",
+            "th-th": "พลังโจมตีเปอร์เซ็น",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "preAscensionValue": "24.0%",
+          "postAscensionValue": ""
+        }
+      ]
+    }
+  ]
+}

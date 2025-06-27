@@ -1,0 +1,3533 @@
+{
+  "id": "venti",
+  "wiki_id": "23",
+  "name": {
+    "pt-pt": "Venti",
+    "en-us": "Venti",
+    "ja-jp": "ウェンティ",
+    "zh-cn": "温迪",
+    "ko-kr": "벤티",
+    "ru-ru": "Венти",
+    "de-de": "Venti",
+    "fr-fr": "Venti",
+    "es-es": "Venti",
+    "id-id": "Venti",
+    "th-th": "Venti",
+    "vi-vn": "Venti",
+    "zh-tw": "溫迪"
+  },
+  "title": {
+    "pt-pt": "Bardo Itinerante",
+    "en-us": "Windborne Bard",
+    "ja-jp": "風色の詩人",
+    "zh-cn": "风色诗人",
+    "ko-kr": "바람의 시인",
+    "ru-ru": "Поэт ветров",
+    "de-de": "Wandernder Barde",
+    "fr-fr": "Barde itinérant",
+    "es-es": "El Bardo Itinerante",
+    "id-id": "Windborne Bard",
+    "th-th": "นักกวีแห่งสายลม",
+    "vi-vn": "Nhà Thơ Có Màu Của Gió",
+    "zh-tw": "風色詩人"
+  },
+  "description": {
+    "pt-pt": "Um dos muitos bardos de Mondstadt que vagueia livremente pelas ruas e becos da cidade.",
+    "en-us": "One of the many bards of Mondstadt, who freely wanders the city's streets and alleys.",
+    "ja-jp": "モンドの街にいる、数多くの自由な吟遊詩人の一人。",
+    "zh-cn": "蒙德城诸多吟游诗人中的一位，自由自在地穿行在街头巷尾。",
+    "ko-kr": "몬드성의 수많은 음유시인 중 한 명. 자유롭게 몬드의 구석구석을 드나든다.",
+    "ru-ru": "Обычный бард, слоняющийся по улочкам Мондштадта.",
+    "de-de": "Einer der vielen Barden in Mondstadt, der frei und wohlgemut durch die Gassen schlendert.",
+    "fr-fr": "Un des nombreux bardes de Mondstadt, qui aime à se promener dans tous les recoins de la cité.",
+    "es-es": "Uno de los muchos bardos de Mondstadt que deambula libremente por las calles y callejones de la ciudad.",
+    "id-id": "Salah satu dari banyaknya penyair di Mondstadt yang bisa dengan bebasnya ke sana kemari di antara lorong-lorong dan gang-gang Mondstadt.",
+    "th-th": "หนึ่งในนักกวีพเนจร ที่มีอยู่มากมายใน Mondstadt ผู้เดินเตร่ไปตามถนนซอกซอย อย่างอิสรเสรี",
+    "vi-vn": "Một trong các nhà thơ thành Mondstadt, tự do tự tại đi khắp hang cùng ngõ hẻm.",
+    "zh-tw": "蒙德城諸多吟遊詩人中的一位，自由自在地穿行在街頭巷尾。"
+  },
+  "rarity": 5,
+  "vision": {
+    "label": {
+      "pt-pt": "Tipo Elemental",
+      "en-us": "Elemental Type",
+      "ja-jp": "元素タイプ",
+      "zh-cn": "元素属性",
+      "ko-kr": "원소 속성",
+      "ru-ru": "Элемент",
+      "de-de": "Elementartyp",
+      "fr-fr": "Élément",
+      "es-es": "Tipo elemental",
+      "id-id": "Tipe Elemen",
+      "th-th": "ประเภทธาตุ",
+      "vi-vn": "Thuộc Tính Nguyên Tố",
+      "zh-tw": "元素屬性"
+    },
+    "value": {
+      "pt-pt": "Anemo",
+      "en-us": "Anemo",
+      "ja-jp": "風元素",
+      "zh-cn": "风元素",
+      "ko-kr": "바람 원소",
+      "ru-ru": "Анемо",
+      "de-de": "Anemo",
+      "fr-fr": "Anémo",
+      "es-es": "Anemo",
+      "id-id": "Anemo",
+      "th-th": "ลม",
+      "vi-vn": "Phong",
+      "zh-tw": "風元素"
+    }
+  },
+  "weapon": {
+    "label": {
+      "pt-pt": "Arma",
+      "en-us": "Weapons",
+      "ja-jp": "武器種",
+      "zh-cn": "武器",
+      "ko-kr": "무기",
+      "ru-ru": "Тип",
+      "de-de": "Waffe",
+      "fr-fr": "Type d'arme",
+      "es-es": "Arma",
+      "id-id": "Senjata",
+      "th-th": "อาวุธ",
+      "vi-vn": "Vũ Khí",
+      "zh-tw": "武器"
+    },
+    "value": {
+      "pt-pt": "Arco",
+      "en-us": "Bow",
+      "ja-jp": "弓",
+      "zh-cn": "弓",
+      "ko-kr": "활",
+      "ru-ru": "Стрелковое",
+      "de-de": "Bogen",
+      "fr-fr": "Arc",
+      "es-es": "Arco",
+      "id-id": "Bow",
+      "th-th": "ธนู",
+      "vi-vn": "Cung",
+      "zh-tw": "弓"
+    }
+  },
+  "characterIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/Venti_icon.png",
+  "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/6b5c0d861fd1b4791bd602d3e7296598_8700657350379813969.png",
+  "constellationNameOfficial": {
+    "pt-pt": "Carmen Dei",
+    "en-us": "Carmen Dei",
+    "ja-jp": "歌仙座",
+    "zh-cn": "歌仙座",
+    "ru-ru": "Бог Песен",
+    "de-de": "Carmen Dei",
+    "fr-fr": "Carmen Dei",
+    "es-es": "Carmen Dei",
+    "id-id": "Carmen Dei",
+    "th-th": "Carmen Dei",
+    "zh-tw": "歌仙座",
+    "ko-kr": "N/A",
+    "vi-vn": "N/A"
+  },
+  "specialDish": {
+    "id": 1236,
+    "name": {
+      "pt-pt": "Ensopado Verdadeiro do Arconte Anemo",
+      "en-us": "A Buoyant Breeze",
+      "ja-jp": "真・風神ヒュッツポット",
+      "zh-cn": "真·风神杂烩菜",
+      "ko-kr": "찐·바람신의 잡채",
+      "ru-ru": "Анемо солянка",
+      "de-de": "Wahrhaftiges Windgott-Ragout",
+      "fr-fr": "Ragoût de l'Archon Anémo (véritable)",
+      "es-es": "Puchero de Barbatos verdadero",
+      "id-id": "True Barbatos Ratatouille",
+      "th-th": "A Buoyant Breeze",
+      "vi-vn": "Chân - Thập Cẩm Phong Thần",
+      "zh-tw": "真·風神雜燴菜"
+    },
+    "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/A%20Buoyant%20Breeze_icon.png"
+  },
+  "namecard": {
+    "id": 6077,
+    "name": {
+      "pt-pt": "Venti - Azul Celeste",
+      "en-us": "Venti: Azure Sky",
+      "ja-jp": "ウェンティ・青空",
+      "zh-cn": "温迪·天青",
+      "ko-kr": "벤티·맑은 하늘",
+      "ru-ru": "Небесная лира",
+      "de-de": "Venti – Blauer Himmel",
+      "fr-fr": "Venti - Ciel d'azur",
+      "es-es": "Venti - Cielo azul",
+      "id-id": "Venti: Azure Sky",
+      "th-th": "Venti - Azure Sky",
+      "vi-vn": "Venti - Bầu Trời Xanh",
+      "zh-tw": "溫迪·天青"
+    },
+    "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/15/c7d3869d4e79e4264431913fb0695caf_1595245064803448347.png"
+  },
+  "constellations": [
+    {
+      "id": "summaryList11777",
+      "constellationNumber": 1,
+      "name": {
+        "pt-pt": "Vento Dividido",
+        "en-us": "Splitting Gales",
+        "ja-jp": "矢先の蒼風",
+        "zh-cn": "弦发的苍风",
+        "ko-kr": "쏘아 올린 창풍",
+        "ru-ru": "Дробящий шторм",
+        "de-de": "Gespaltener Hagel",
+        "fr-fr": "Vent violent fractionné",
+        "es-es": "Vendaval feroz",
+        "id-id": "Splitting Gales",
+        "th-th": "Splitting Gales",
+        "vi-vn": "Mũi Tên Gió",
+        "zh-tw": "弦發的蒼風"
+      },
+      "description": {
+        "pt-pt": "Dispara 2 flechas adicionais por cada Disparo com Mira, cada flecha causa 33% do Dano original da flecha.",
+        "en-us": "Fires 2 additional arrows per Aimed Shot, each dealing 33% of the original arrow's DMG.",
+        "ja-jp": "狙い撃ちする時、分裂した矢を追加で2本放つ。それぞれ元の矢の33%のダメージを与える。",
+        "zh-cn": "瞄准射击会额外发射两枚分裂箭，分别造成原本33%的伤害。",
+        "ko-kr": "조준 사격 시 추가로 두 발의 분열된 화살을 발사한다. 각각 기존 화살의 33% 피해를 준다.",
+        "ru-ru": "Каждый прицельный выстрел пускает две дополнительные стрелы. Каждая дополнительная стрела наносит 33% от урона первой стрелы.",
+        "de-de": "Schießt mit einem gezielten Schuss zwei zusätzliche Pfeile ab, die jeweils 33 % des ursprünglichen Schadens verursachen.",
+        "fr-fr": "Le tir visé tire 2 flèches supplémentaires, chacune infligeant 33 % des DGT de la flèche d'origine.",
+        "es-es": "Dispara 2 flechas adicionales por cada Disparo Preciso. Cada una inflige un 33% del daño de la flecha original.",
+        "id-id": "Menembakkan 2 anak panah tambahan setiap Serangan Membidik, yang masing-masing mengakibatkan 33% DMG dari panah utama.",
+        "th-th": "เมื่อเล็งโจมตี จะทำการยิงลูกศรแยกเพิ่มเติมอีกสองลูก โดยที่แต่ละลูก จะทำให้เกิดความเสียหาย 33% ของความเสียหายเดิม",
+        "vi-vn": "Ngắm bắn sẽ phóng thêm 2 mũi tên, lần lượt gây sát thương bằng 33% sát thương gốc.",
+        "zh-tw": "瞄準射擊會額外發射兩枚分裂箭，分別造成原本33%的傷害。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/温迪/constellation_1.png"
+    },
+    {
+      "id": "summaryList42740",
+      "constellationNumber": 2,
+      "name": {
+        "pt-pt": "Brisa da Reminiscência",
+        "en-us": "Breeze of Reminiscence",
+        "ja-jp": "恋い焦がれるそよ風",
+        "zh-cn": "眷恋的泠风",
+        "ko-kr": "그리운 찬 바람",
+        "ru-ru": "Бриз воспоминаний",
+        "de-de": "Brise der Sehnsucht",
+        "fr-fr": "Bise de réminiscence",
+        "es-es": "Brisa de reminiscencia",
+        "id-id": "Breeze of Reminiscence",
+        "th-th": "Breeze of Reminiscence",
+        "vi-vn": "Tình Yêu Gió Lạnh",
+        "zh-tw": "眷戀的泠風"
+      },
+      "description": {
+        "pt-pt": "Sonata Celestial diminui a RES Anemo e RES Física do inimigo em 12% por 10s.Os inimigos lançados pela Sonata Celestial sofrem uma penalidade adicional de RES Anemo de 12% e RES física quando estiverem no ar.",
+        "en-us": "Skyward Sonnet decreases opponents' Anemo RES and Physical RES by 12% for 10s.Opponents launched by Skyward Sonnet suffer an additional 12% Anemo RES and Physical RES decrease while airborne.",
+        "ja-jp": "高天の歌発動後、敵の風元素耐性と物理耐性-12%、継続時間10秒。高天の歌によってノックバックされた敵が着地するまで、風元素耐性と物理耐性が更に-12%。",
+        "zh-cn": "高天之歌会使敌人的风元素抗性与物理抗性降低12%，持续10秒。被高天之歌击飞的敌人在落地前，风元素抗性与物理抗性额外降低12%。",
+        "ko-kr": "높은 하늘의 노래는 적의 바람 원소 내성과 물리 내성을 12% 감소시킨다. 지속 시간: 10초.높은 하늘의 노래에 의해 공중에 띄워진 적은 땅에 닿기 전에 바람 원소 내성과 물리 내성이 추가로 12% 감소한다.",
+        "ru-ru": "Использование навыка Небесная поэзия уменьшает Анемо и физ. сопротивление противников на 12% в течение 10 сек.Также временно понижает Анемо и физ. сопротивление противников, подкинутых в воздух этим навыком, на 12%.",
+        "de-de": "Sonett vom Himmel verringert den Anemo-WDS sowie den physischen Widerstand von Gegnern 10 s lang um 12 %.Verringert den Anemo-WDS sowie den physischen Widerstand von Sonett vom Himmel weggeschleuderter Gegner vor dem Aufprall auf dem Boden zusätzlich um 12 %.",
+        "fr-fr": "Sonnet des Vents célestes réduit la RÉS Anémo et la RÉS physique des ennemis de 12 % pendant 10 s.La RÉS Anémo et la RÉS physique des ennemis projetés en l'air par Sonnet des Vents célestes sont réduites de 12 % tant qu'ils sont en l'air.",
+        "es-es": "Sonata celestial reduce la RES Anemo y la RES Física del enemigo en un 12% durante 10 s.Los enemigos lanzados al aire por Sonata celestial sufren una reducción adicional del 12% de RES Anemo y de RES física.",
+        "id-id": "Skyward Sonnet mengurangi 12% Anemo RES dan Physical RES musuh selama 10 detik.Anemo RES dan Physical RES musuh yang terhempas oleh Skyward Sonnet berkurang lagi 12% saat di udara.",
+        "th-th": "Skyward Sonnet จะทำให้ความต้านทานลมและ ความต้านทานทางกายภาพ ของศัตรูลดลง 12% เป็นเวลา 10 วินาทีช่วงเวลาก่อนที่ศัตรูซึ่งถูก Skyward Sonnet พัดให้ลอยร่วงลงสู่พื้น ความต้านทานลมและความต้านทานกายภาพจะลดเพิ่มอีก 12%",
+        "vi-vn": "Bài Ca Trời Cao sẽ khiến kháng Nguyên Tố Phong và kháng vật lý của địch giảm 12%, kéo dài 10s.Địch bị Bài Ca Trời Cao đánh bay trước khi rơi xuống đất, kháng Nguyên Tố Phong và kháng vật lý giảm thêm 12%.",
+        "zh-tw": "高天之歌會使敵人的風元素抗性與物理抗性降低12%，持續10秒。被高天之歌擊飛的敵人在落地前，風元素抗性與物理抗性額外降低12%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/温迪/constellation_2.png"
+    },
+    {
+      "id": "summaryList13590",
+      "constellationNumber": 3,
+      "name": {
+        "pt-pt": "Ode aos Ventos Milenares",
+        "en-us": "Ode to Thousand Winds",
+        "ja-jp": "千の風の詩",
+        "zh-cn": "千风的诗篇",
+        "ko-kr": "천풍의 시",
+        "ru-ru": "Ода тысяче ветров",
+        "de-de": "Ode an die Tausend Winde",
+        "fr-fr": "L'Ode aux mille vents",
+        "es-es": "Oda a los Mil Vientos",
+        "id-id": "Ode to Thousand Winds",
+        "th-th": "Ode to Thousand Winds",
+        "vi-vn": "Tập Thơ Thiên Phong",
+        "zh-tw": "千風的詩篇"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível do Grande Ode do Vento em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Wind's Grand Ode by 3.Maximum upgrade level is 15.",
+        "ja-jp": "風神の詩のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "风神之诗的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "바람신의 시의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Великая ода ветру на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Ode vom Anemo-Archon um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Ode au Vent +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Gran Oda del Viento +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Wind's Grand Ode.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Wind's Grand Ode ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Bài Thơ Thần Gió +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "風神之詩的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/温迪/constellation_3.png"
+    },
+    {
+      "id": "summaryList43867",
+      "constellationNumber": 4,
+      "name": {
+        "pt-pt": "Furacão da Liberdade",
+        "en-us": "Hurricane of Freedom",
+        "ja-jp": "自由の凛風",
+        "zh-cn": "自由的凛风",
+        "ko-kr": "자유의 찬 바람",
+        "ru-ru": "Ветер свободы",
+        "de-de": "Gewitter der Freiheit",
+        "fr-fr": "Vent glacial de liberté",
+        "es-es": "Huracán de la libertad",
+        "id-id": "Hurricane of Freedom",
+        "th-th": "Hurricane of Freedom",
+        "vi-vn": "Cơn Gió Tự Do",
+        "zh-tw": "自由的凜風"
+      },
+      "description": {
+        "pt-pt": "Quando Venti obtém um Orbe ou uma Partícula Elemental, ele recebe 25% de Dano Anemo Bônus por 10s.",
+        "en-us": "When Venti picks up an Elemental Orb or Particle, he receives a 25% Anemo DMG Bonus for 10s.",
+        "ja-jp": "ウェンティが元素オーブまたは元素粒子を獲得した時、風元素ダメージ+25%、継続時間10秒。",
+        "zh-cn": "温迪获取元素晶球或元素微粒后，获得25%风元素伤害加成，持续10秒。",
+        "ko-kr": "벤티가 원소 구슬 혹은 원소 입자를 획득 후 바람 원소 피해 보너스를 25% 획득한다. 지속 시간: 10초",
+        "ru-ru": "Подобранные Венти элементальные сферы и частицы дают ему 25% бонус Анемо урона в течение 10 сек.",
+        "de-de": "Erhöht den Anemo-Schaden, wenn Venti Elementarkristalle oder Elementarteilchen erhält, 10 s lang um 25 %.",
+        "fr-fr": "Venti inflige 25 % de DGT Anémo supplémentaires pendant 10 s lorsqu'il obtient un orbe ou une particule élémentaire.",
+        "es-es": "Venti obtiene un 25% de Bono de Daño Anemo durante 10 s tras recoger un orbe o una partícula elemental.",
+        "id-id": "Saat Venti mengambil sebuah Elemental Orb atau Particle, dia akan menerima 25% Anemo DMG Bonus selama 10 detik.",
+        "th-th": "เมื่อ Venti ได้รับลูกแก้วธาตุ หรืออณูธาตุแล้ว จะได้รับ โบนัสความเสียหายลม 25% เป็นเวลา 10 วินาที",
+        "vi-vn": "Sau khi Venti nhận Nguyên Tố Tinh Cầu hoặc Nguyên Tố Hạt Nhân, sẽ nhận được 25% Buff Sát Thương Nguyên Tố Phong, kéo dài 10s.",
+        "zh-tw": "溫迪獲得元素晶球或元素微粒後，獲得25%風元素傷害加成，持續10秒。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/温迪/constellation_4.png"
+    },
+    {
+      "id": "summaryList33380",
+      "constellationNumber": 5,
+      "name": {
+        "pt-pt": "Concerto Celestial",
+        "en-us": "Concerto dal Cielo",
+        "ja-jp": "高天の協奏",
+        "zh-cn": "高天的协奏",
+        "ko-kr": "높은 하늘의 협주",
+        "ru-ru": "Небесная гармония",
+        "de-de": "Concerto dal Cielo",
+        "fr-fr": "Concerto céleste",
+        "es-es": "Concierto celestial",
+        "id-id": "Concerto dal Cielo",
+        "th-th": "Concerto dal Cielo",
+        "vi-vn": "Hợp Tấu Trời Cao",
+        "zh-tw": "高天的協奏"
+      },
+      "description": {
+        "pt-pt": "Aumenta o nível da Sonata Celestial em 3.O nível máximo de elevação é 15.",
+        "en-us": "Increases the Level of Skyward Sonnet by 3.Maximum upgrade level is 15.",
+        "ja-jp": "高天の歌のスキルLv.+3。最大Lv.15まで。",
+        "zh-cn": "高天之歌的技能等级提高3级。至多提升至15级。",
+        "ko-kr": "높은 하늘의 노래의 스킬 레벨+3최대 Lv.15까지 상승",
+        "ru-ru": "Увеличивает уровень навыка Небесная поэзия на 3.Макс. уровень: 15",
+        "de-de": "Erhöht die Stufe der Fähigkeit Sonett vom Himmel um 3.Höchststufe 15.",
+        "fr-fr": "Niveau d'aptitude Sonnet des Vents célestes +3.Niveau max : 15",
+        "es-es": "Aumenta el nivel de habilidad de Sonata celestial +3.Puede ser aumentado hasta Niv. 15.",
+        "id-id": "Meningkatkan 3 level Skyward Sonnet.Maksimum: Lv. 15.",
+        "th-th": "เพิ่มเลเวลสกิลของ Skyward Sonnet ขึ้น 3 ระดับเพิ่มได้มากสุด 15 ระดับ",
+        "vi-vn": "Cấp kỹ năng Bài Ca Trời Cao +3.Tăng tối đa đến cấp 15.",
+        "zh-tw": "高天之歌的技能等級提高3級。至多提升至15級。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/温迪/constellation_5.png"
+    },
+    {
+      "id": "summaryList91075",
+      "constellationNumber": 6,
+      "name": {
+        "pt-pt": "Tempestade do Desafio",
+        "en-us": "Storm of Defiance",
+        "ja-jp": "抗争の暴風",
+        "zh-cn": "抗争的暴风",
+        "ko-kr": "투쟁의 폭풍",
+        "ru-ru": "Шторм непокорности",
+        "de-de": "Sturm des Widerstands",
+        "fr-fr": "Tempête de résistance",
+        "es-es": "Tormenta de la rebelión",
+        "id-id": "Storm of Defiance",
+        "th-th": "Storm of Defiance",
+        "vi-vn": "Bão Chiến Tranh",
+        "zh-tw": "抗爭的暴風"
+      },
+      "description": {
+        "pt-pt": "Alvos que levarem Dano da Grande Ode do Vento terão sua RES Anemo reduzida em 20%.Se uma Absorção Elemental ocorrer, então sua RES ao Elemento correspondente também é reduzida em 20%.",
+        "en-us": "Targets who take DMG from Wind's Grand Ode have their Anemo RES decreased by 20%.If an Elemental Absorption occurred, then their RES towards the corresponding Element is also decreased by 20%.",
+        "ja-jp": "風神の詩のダメージを受けた敵の風元素耐性-20%。元素変化があった場合、変化した元素の耐性も-20%。",
+        "zh-cn": "受风神之诗伤害的敌人，风元素抗性降低20%；若产生了元素转化，则使转换的元素抗性也降低20%。",
+        "ko-kr": "바람신의 시에 피격된 적은 바람 원소 내성이 20% 감소한다.원소 전환이 발생할 경우 해당 원소 내성도 20% 감소한다.",
+        "ru-ru": "Понижает Анемо сопротивление противников, получивших урон от навыка Великая ода ветру, на 20%.Если произошло Поглощение стихии, то также понижает сопротивление к поглощённому элементу на 20%.",
+        "de-de": "Verringert den Anemo-WDS von Zielen, denen mit Ode vom Anemo-Archon Schaden zugefügt wird, um 20 %.Verringert bei Elementarumwandlung den entsprechenden Elementar-WDS auch um 20 %.",
+        "fr-fr": "La RÉS Anémo des ennemis touchés par Ode au Vent est réduite de 20 %.En cas d'absorption élémentaire, leur RÉS à l'élément correspondant est également réduite de 20 %.",
+        "es-es": "La RES Anemo de los enemigos se reduce en un 20% cuando reciben daño de Gran Oda del Viento.Si ocurre un cambio elemental durante Gran Oda del Viento, su RES Elemental al nuevo elemento se reducirá en un 20%.",
+        "id-id": "Musuh yang menerima DMG dari Wind's Grand Ode akan mendapat pengurangan Anemo RES sebanyak 20%.Jika Elemental Absorption muncul, maka RES terhadap elemen yang bersangkutan juga berkurang 20%.",
+        "th-th": "ศัตรูที่ได้รับความเสียหายจาก Wind's Grand Ode จะถูกลด ความต้านทานลม ลง 20%;หากเกิดการเปลี่ยนแปลงธาตุ ความต้านทานธาตุที่เปลี่ยน จะลดลงด้วย 20%",
+        "vi-vn": "Kẻ địch bị Bài Thơ Thần Gió sát thương, kháng Nguyên Tố Phong giảm 20%.Nếu chuyển hoá nguyên tố xảy ra, sẽ giảm 20% kháng nguyên tố đã chuyển.",
+        "zh-tw": "受風神之詩傷害的敵人，風元素抗性降低20%；若產生了元素轉化，則使轉換的元素抗性也降低20%。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/温迪/constellation_6.png"
+    }
+  ],
+  "talents": [
+    {
+      "type": "normal_attack",
+      "name": {
+        "pt-pt": "Tiro com Arco Divino",
+        "en-us": "Divine Marksmanship",
+        "ja-jp": "神代の射術",
+        "zh-cn": "普通攻击·神代射术",
+        "ko-kr": "일반 공격·신성한 사격술",
+        "ru-ru": "Божественная точность",
+        "de-de": "Standardangriff: Göttliche Schießkunst",
+        "fr-fr": "Attaque normale : Archerie divine",
+        "es-es": "Ataque Normal: Puntería divina",
+        "id-id": "Divine Marksmanship",
+        "th-th": "โจมตีปกติ - Divine Marksmanship",
+        "vi-vn": "Tấn Công Thường: Xạ Thuật Của Thần",
+        "zh-tw": "普通攻擊·神代射術"
+      },
+      "description": {
+        "pt-pt": "Ataque NormalRealiza até 6 tiros consecutivos com o arco.Ataque CarregadoRealiza um Tiro com Mira mais preciso com Dano aumentado.Enquanto estiver mirando, ventos favoráveis irão se acumular na ponta da flecha. Uma flecha completamente carregada com o vento irá infligir Dano Anemo.Ataque ImersivoDispara uma chuva de flechas em pleno ar antes de atingir o chão, infligindo Dano em uma AdE durante o impacto.",
+        "en-us": "Normal AttackPerform up to 6 consecutive shots with a bow.Charged AttackPerform a more precise Aimed Shot with increased DMG.While aiming, favorable winds will accumulate on the arrowhead. A fully charged wind arrow will deal Anemo DMG.Plunging AttackFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+        "ja-jp": "通常攻撃最大6段の連続射撃を行う。重撃ダメージがより高く、より精確な狙い撃ちを発動する。照準時、天地の風を矢先に凝集させ、風の力に満ちた矢で敵に風元素ダメージを与える。落下攻撃空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
+        "zh-cn": "普通攻击进行至多六段的连续弓箭射击。重击进行伤害更高、更为精准的瞄准射击。瞄准时，眷顾天地的风会在箭矢上持续积聚。聚满了风之力的箭矢会造成风元素伤害。下落攻击从空中射出箭雨，并迅速下坠冲击地面，在落地时造成范围伤害。",
+        "ko-kr": "일반 공격활로 최대 6번 공격한다.강공격피해가 더 크고 정확한 조준 사격을 한다.조준 시 천지를 보살피는 바람이 화살 촉에 계속해서 모인다. 바람의 힘이 가득 찬 화살은 바람 원소 피해를 준다.낙하 공격공중에서 화살비를 쏜 후 빠른 속도로 땅에 착지한다. 땅에 닿으면 범위 피해를 준다.",
+        "ru-ru": "Обычная атака:До шести выстрелов из лука.Заряженная атака:Более меткий прицельный выстрел с увеличенным уроном.Во время прицеливания наконечник стрелы заряжается божественным ветром. Полностью заряженная ветром стрела наносит Анемо урон.Атака в падении:Выпускает град стрел в воздухе, которые при приземлении персонажа наносят урон по площади.",
+        "de-de": "StandardangriffFührt bis zu 6 Pfeilschüsse hintereinander aus.Heftiger SchlagFührt einen gezielten Schuss mit höherem Schaden und höherer Genauigkeit aus.Konzentriert den die Welt schützenden Wind während des Zielens an der Pfeilspitze, die voll aufgeladen Anemo-Schaden verursacht.Angriff aus dem FallSchießt in der Luft einen Pfeilregen ab, trifft schnell auf dem Boden auf und verursacht dort Flächenschaden.",
+        "fr-fr": "Attaque normaleEnchaîne jusqu'à 6 tirs consécutifs.Attaque chargéeEffectue un tir visé plus précis infligeant davantage de DGT.Lors de la visée, la flèche se charge en élément Anémo, infligeant de considérables DGT Anémo quand elle est complètement chargée.Attaque plongeanteTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.",
+        "es-es": "Ataque NormalRealiza hasta 6 disparos consecutivos con arco.Ataque CargadoRealiza un Disparo Preciso que inflige mayor daño y tiene mayor precisión.Al apuntar, se acumularán vientos favorables en la punta de la flecha. Una flecha totalmente cargada con la fuerza del viento infligirá Daño Anemo.Ataque DescendenteDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.",
+        "id-id": "Normal AttackMelancarkan hingga 6 tembakan panah berturut-turut menggunakan busur.Charged AttackMelancarkan sebuah Serangan Membidik yang lebih akurat untuk mengakibatkan DMG yang lebih besar.Saat membidik, angin akan berkumpul di ujung anak panah. Panah dengan angin yang terkumpul penuh akan mengakibatkan Anemo DMG.Plunging AttackMelancarkan hujan panah dari udara dan menerjang tanah dengan kecepatan tinggi, mengakibatkan DMG Area saat mendarat.",
+        "th-th": "โจมตีปกติยิงธนูโจมตีอย่างต่อเนื่องมากสุดหกครั้งชาร์จโจมตีการเล็งโจมตีแม่นยำยิ่งขึ้น และสร้างความเสียหายเพิ่มขึ้นเมื่อเล็งโจมตี สายลมแห่งความโปรดปรานจะถูกรวบรวมอยู่ตรงหัวของลูกศร ซึ่งลูกศรที่รวบรวมลมเต็มที่แล้ว จะทำให้เกิดความเสียหายลมโจมตีพุ่งลงจากอากาศปล่อยฝนธนูจากกลางอากาศ และพุ่งลงมายังพื้นดินอย่างรวดเร็ว โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+        "vi-vn": "Tấn Công ThườngThực hiện tối đa 6 lần bắn tên liên tiếp.Trọng KíchTiến hành ngắm bắn chuẩn hơn, có sát thương cao hơn.Khi ngắm bắn, gió sẽ tích tụ trên mũi tên. Mũi tên đầy gió sẽ gây Sát Thương Nguyên Tố Phong.Tấn Công Khi ĐápBắn mưa tên liên tiếp xuống mặt đất, gây sát thương phạm vi khi chạm đất.",
+        "zh-tw": "普通攻擊進行至多六段的連續弓箭射擊。重擊進行傷害更高、更為精準的瞄準射擊。瞄準時，眷顧天地的風會在箭矢上持續匯聚。聚滿了風之力的箭矢會造成風元素傷害。下落攻擊從空中射出箭雨，並迅速下墜衝擊地面，在落地時造成範圍傷害。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/温迪/battle_talent_0/battle_talent_0.png"
+    },
+    {
+      "type": "elemental_skill",
+      "name": {
+        "pt-pt": "Sonata Celestial",
+        "en-us": "Skyward Sonnet",
+        "ja-jp": "高天の歌",
+        "zh-cn": "高天之歌",
+        "ko-kr": "높은 하늘의 노래",
+        "ru-ru": "Небесная поэзия",
+        "de-de": "Sonett vom Himmel",
+        "fr-fr": "Sonnet des Vents célestes",
+        "es-es": "Sonata celestial",
+        "id-id": "Skyward Sonnet",
+        "th-th": "Skyward Sonnet",
+        "vi-vn": "Bài Ca Trời Cao",
+        "zh-tw": "高天之歌"
+      },
+      "description": {
+        "pt-pt": "Ó vento no qual voam todos os hinos e canções pelo ar, leve estes peregrinos terrestres aos céus!PressionarEvoca um Domínio dos Ventos na localização do inimigo, causando Dano Anemo em uma AdE e lançando inimigos pelo ar.Manter pressionadoEvoca um Domínio dos Ventos ainda maior com um Venti em seu centro, causando Dano Anemo em AdE e lançando inimigos afetados pelo ar.Após liberar a versão de Manter Pressionado dessa habilidade, Venti monta o vento pelo ar.Inimigos atingidos pelo Soneto dos Céus cairão lentamente ao chão.Nos dias em que deuses e homens andaram na terra juntos, os céus eram cheios de infinitas canções. Essa melodia foi esquecida há muito tempo.",
+        "en-us": "O wind upon which all hymns and songs fly, bear these earth-walkers up into the sky!Tap/PressSummons a Wind Domain at the opponent's location, dealing AoE Anemo DMG and launching opponents into the air.HoldSummons an even larger Wind Domain with Venti as the epicenter, dealing AoE Anemo DMG and launching affected opponents into the air.After unleashing the Hold version of this ability, Venti rides the wind into the air.Opponents hit by Skyward Sonnet will fall to the ground slowly.In the days when gods and men walked the earth together, the heavens were filled with countless songs. This melody has long since been forgotten.",
+        "ja-jp": "詩を奏でる風を呼び、塵泥の中を歩くものを高空まで届ける。一回押し目標の足もとに風域を召喚し、風元素範囲ダメージを与え、敵をノックバックする。長押し自身を中心に更に大きい風域を召喚し、風元素範囲ダメージを与え、敵をノックバックする。長押しで発動した後、ウェンティは風に乗り空中へ飛ぶ。高天の歌にノックバックされた敵はゆっくりと落下する。人と神がまだ共に大地にいた時代、無数の歌が四方の空に伝わっていた。それらはすでに忘れ去られた曲である。",
+        "zh-cn": "呼唤与诗和乐协鸣的风，将在尘泥中行走的事物送上高空吧。点按在敌人所在的位置唤出风域，造成风元素范围伤害，并击飞其中的敌人。长按以自身为中心，唤出更大的风域，造成风元素范围伤害，并击飞其中的敌人。长按施放后，温迪会乘风飞到空中。被高天之歌击飞的敌人，在短时间内会缓慢坠落。在人与神还同行于大地的时代，无数的歌曲传遍四方的天空。这是早已被遗忘的曲调。",
+        "ko-kr": "시와 노래와 함께 울려 퍼지는 바람을 소환해 흙먼지 위를 걷는 사물을 높은 하늘로 띄워보자.짧은 터치적이 있는 위치에 바람의 영역을 소환해 바람 원소 범위 피해를 주고 적을 공중에 띄운다.홀드자신을 중심으로 더 큰 바람의 영역을 만들어내 바람 원소 범위 피해를 주고 적을 공중에 띄운다.홀드하여 발동한 뒤 벤티는 바람을 타고 공중에 떠오른다.공중에 띄워진 적은 짧은 시간 내에 천천히 추락한다.사람과 신이 함께했던 시대에 수많은 노래가 사방으로 울려 퍼졌다. 이건 이미 오래전에 잊혀진 멜로디이다.",
+        "ru-ru": "О, ветер, о котором поют гимны и слагают песни, неси этих странников к небесам!Быстрое нажатие:Создаёт зону ветра, которая наносит Анемо урон по площади и подкидывает врагов в воздух.Долгое нажатие:Вызывает ещё большую силу ветра с Венти в её центре. Она наносит Анемо урон по площади и подкидывает попавших в её зону действия врагов.Эта версия навыка поднимает Венти в воздух.Враги, подкинутые навыком Небесная поэзия, медленно опускаются на землю.Некогда люди и боги существовали вместе во времени и пространстве, и по небу доносилось бесчисленное количество песен, воспевающих это. Те мелодии были забыты тысячелетия назад.",
+        "de-de": "Beschwört einen Wind, der den Klängen und Liedern folgt und Dinge, die sonst fest auf dem Boden verankert sind, in die Luft reißt.DrückenErschafft dort, wo sich Gegner befinden, einen Sturm, der Anemo-Flächenschaden verursacht und die betroffenen Gegner wegschleudert.Gedrückt haltenErschafft einen größeren Sturm um Venti, der Anemo-Flächenschaden verursacht und betroffene Gegner wegschleudert.Nach dem Auslösen steigt Venti in die Luft.Vom Sonett vom Himmel weggeschleuderte Gegner fallen langsam zu Boden.Als die Archonten noch unter den Menschen weilten, hörte man unzählige Lieder durch die Luft hallen. Dies ist eine der lange vergessenen Melodien.",
+        "fr-fr": "Le vent porteur de chants et de mélodies vient faire voler les êtres foulant cette terre.Appui simpleVenti invoque une bourrasque sur la position de l'ennemi, infligeant des DGT Anémo de zone et projette les ennemis en l'air.Appui longVenti invoque une bourrasque plus puissante sur sa position, infligeant des DGT Anémo de zone et projette les ennemis proches en l'air.L'appui long permet à Venti de voler dans les airs.Les ennemis projetés en l'air retombent lentement au sol.Aux temps anciens où dieux et hommes se partageaient la terre, nombreux furent les chants qui atteignirent les cieux. Ce sonnet possède une mélodie oubliée depuis longtemps.",
+        "es-es": "Oh, viento que lleva consigo la música y la poesía, ¡llévate a estos caminantes de la tierra a los cielos!Un toque/Pulsar una vezInvoca un campo de viento en la ubicación del enemigo, infligiendo Daño Anemo en el AdE y lanzando a los enemigos por los aires.Mantener pulsadoInvoca un campo de viento aún más grande con Venti como epicentro, infligiendo Daño Anemo en el AdE y lanzando por los aires a los enemigos afectados.Al mantener pulsada esta habilidad, Venti también alzará el vuelo.Los enemigos golpeados por Sonata celestial caerán al suelo lentamente.En los días en que dioses y hombres caminaban juntos por la tierra, los cielos estaban llenos de innumerables canciones. Sin embargo, esta melodía fue olvidada hace mucho tiempo.",
+        "id-id": "Wahai angin tempat semua nyanyian dan pujian dilantunkan, mampukan pejalan kaki bumi ini naik ke langit.TekanMemanggil sebuah Wind Domain di lokasi musuh yang mengakibatkan Anemo DMG Area serta menghempaskan musuh ke udara.TahanMemanggil Wind Domain yang lebih besar lagi dengan Venti berada di tengahnya. Mengakibatkan Anemo DMG Area dan menghempaskan musuh ke udara.Setelah mengerahkan Wind Domain yang lebih besar, Venti mengendarai angin ke udara.Musuh yang terhempas oleh Skyward Sonnet akan jatuh ke tanah perlahan-lahan dalam waktu singkat.Di masa ketika para dewa dan manusia berjalan bersama-sama di bumi, surga dipenuhi dengan lagu-lagu yang tak terhitung jumlahnya. Melodi ini sudah lama dilupakan.",
+        "th-th": "เรียกสายลมร่วมร้องประสานไปกับบทกวีและเสียงดนตรี แล้วส่งสิ่งที่อยู่ท่ามกลางฝุ่นธุลีดินขึ้นสู่ท้องฟ้าแตะ/กดเรียกสนามลมออกมายังตำแหน่งที่ศัตรูอยู่ เพื่อสร้างความเสียหายลมเป็นวงกว้าง และพัดโจมตีให้ศัตรูเหล่านั้นลอยไปแตะค้าง/กดค้างเรียกสายลมที่รุนแรงยิ่งขึ้น โดยใช้ตัวเองเป็นศูนย์กลาง เพื่อสร้างความเสียหายลมเป็นวงกว้าง และพัดโจมตีศัตรูที่อยู่ในพื้นที่ให้ลอยเมื่อแตะค้าง/กดค้าง Venti จะลอยขึ้นไปในอากาศศัตรูที่ถูก Skyward Sonnet พัดให้ลอย จะค่อย ๆ ร่วงลงมายังพื้นดินเมื่อเวลาผ่านไปครู่หนึ่ง.ในยุคสมัยที่เทพยังอาศัยอยู่ร่วมกันกับมนุษย์ บทเพลงนับไม่ถ้วนได้แพร่กระจายไปทั่วทุกหนแห่ง นี่คือท่วงทำนองที่ถูกลืมเลือนไปตั้งนานมาแล้ว",
+        "vi-vn": "Triệu hồi ngọn gió kết hợp thơ và nhạc, cuốn mọi thứ trong bụi mù lên không trung.NhấnTại vị trí của mục tiêu gọi ra ngọn gió, gây Sát Thương Phạm Vi Nguyên Tố Phong, và đánh bay địch.Nhấn GiữLấy bản thân làm trung tâm gọi ra ngọn gió, gây Sát Thương Phạm Vi Nguyên Tố Phong, và đánh bay địch.Sau khi nhấn giữ, Venti cưỡi gió bay lên không trung.Địch bị Bài Ca Trời Cao đánh bay, trong thời gian ngắn sẽ rơi chậm.Trong thời đại mà thần cùng con người cùng sống trên trái đất, có vô số bài hát truyền khắp bốn phương. Đây là giai điệu đã sớm bị lãng quên.",
+        "zh-tw": "呼喚與詩和樂協鳴的風，將在塵泥中行走的事物送上高空吧。點按在敵人所在的位置喚出風域，造成風元素範圍傷害，並擊飛其中的敵人。長按以自身為中心，喚出更大的風域，造成風元素範圍傷害，並擊飛其中的敵人。長按施放後，溫迪會乘風飛到空中。被高天之歌擊飛的敵人，在短時間內會緩慢墜落。在人與神還同行於大地的時代，無數的歌曲傳遍四方的天空。這是早已被遺忘的曲調。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/温迪/battle_talent_1/battle_talent_1.png"
+    },
+    {
+      "type": "elemental_burst",
+      "name": {
+        "pt-pt": "Grande Ode do Vento",
+        "en-us": "Wind's Grand Ode",
+        "ja-jp": "風神の詩",
+        "zh-cn": "风神之诗",
+        "ko-kr": "바람신의 시",
+        "ru-ru": "Великая ода ветру",
+        "de-de": "Ode vom Anemo-Archon",
+        "fr-fr": "Ode au Vent",
+        "es-es": "Gran Oda del Viento",
+        "id-id": "Wind's Grand Ode",
+        "th-th": "Wind's Grand Ode",
+        "vi-vn": "Bài Thơ Thần Gió",
+        "zh-tw": "風神之詩"
+      },
+      "description": {
+        "pt-pt": "Dispara uma flecha energizada com vento, criando um grande Olho da Tempestade que suga inimigos, causando Dano Anemo contínuo.Absorção ElementalSe o Olho da Tempestade entrar em contato com os elementos Hydro/Pyro/Cryo/Electro, causará Dano elemental adicional daquele tipo.A Absorção Elemental pode ocorrer uma vez a cada uso.Muitos hinos escritos para elogiar o Arconte Anemo não existem mais. Essa é a sua compreensão do vento.",
+        "en-us": "Fires off an arrow made of countless coalesced winds, creating a huge Stormeye that sucks in opponents and deals continuous Anemo DMG.Elemental AbsorptionIf the Stormeye comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type.Elemental Absorption may only occur once per use.Many hymns written in praise of the Anemo Archon have been lost to time. This one sings of his mastery over the wind.",
+        "ja-jp": "千の風を集めた矢を放ち、前方に巨大な暴風の目を作る。爆風は敵を巻き込み、風元素ダメージを持続的に与える。元素変化暴風の目がスキル継続中に水元素/炎元素/氷元素/雷元素に接触すると、接触した元素の属性を獲得し、該当元素の付加ダメージを追加で与える。元素変化はスキル継続中に1回のみ発生する。風の神を讃頌する詩の多くはすでに散逸した。その中でこの詩は、彼と風の力を物語っている。",
+        "zh-cn": "射出千风汇聚而成的箭矢，在前方造出巨大的暴风之眼，将敌人卷入，持续造成风元素伤害。元素转化若暴风之眼在技能持续期间接触了水元素/火元素/冰元素/雷元素，则会获得对应元素属性，额外造成该元素的附加伤害。元素转化在技能持续期间仅会发生一次。称颂风之神的诗篇有许多已经佚失。其中这一首描述的是他与风的力量。",
+        "ko-kr": "천풍이 모여 만들어진 화살을 쏴 전방에 거대한 폭풍의 눈을 만들어내 적을 감아올려 바람 원소 피해를 계속 준다.원소 전환폭풍의 눈은 스킬을 시전하는 동안 물 원소/불 원소/얼음 원소/번개 원소에 닿으면 상응하는 원소 속성을 획득하고 추가로 해당 속성 피해를 준다.원소 전환은 스킬을 시전하는 동안 1회만 발생한다.바람의 신을 칭송하는 수많은 잃어버린 시편 중 하나인 이 시는 그와 바람의 힘을 묘사했다.",
+        "ru-ru": "Выпустив стрелу из тысячи ветров, призывает огромный глаз бури, который притягивает к себе врагов, нанося им постоянный Анемо урон.Поглощение стихии:При контакте с элементами Гидро, Пиро, Крио или Электро глаз бури наносит дополнительный урон этим элементом.За каждое использование навык может поглотить только один элемент.Многие оды Анемо Архонту канули в лету. Эта ода воспевает господство Архонта над ветром.",
+        "de-de": "Schießt Pfeile mit der Macht der Tausend Winde und erschafft einen riesigen Sturm vor Venti, der Gegner mitreißt und fortlaufend Anemo-Schaden verursacht.ElementarumwandlungVerleiht dem Zentrum des Sturms beim Treffen auf Hydro-, Pyro-, Kryo- oder Elektro-Effekte während der Wirkungsdauer das jeweilige Element und verursacht dementsprechend zusätzlichen Schaden.Elementarumwandlung nur einmal während der Wirkungsdauer möglich.Viele der Gedichte, die vom Archon des Windes erzählen, sind im Laufe der Zeit verlorengegangen. Dieses berichtet von seiner und der Kraft des Windes.",
+        "fr-fr": "Venti tire une flèche porteuse de la puissance de mille vents et de l'Œil de la tempête. Ce dernier attire les ennemis en son centre, et inflige des DGT Anémo continus.Absorption élémentaireL'Œil de la tempête absorbe les éléments Hydro, Pyro, Cryo et Électro avec lesquels il entre en contact ; ceux-ci lui confèrent leurs attributs, et infligent un bonus de DGT de l'élément correspondant.Nombre de poèmes chantant la gloire de l'Archon Anémo ont été perdus. Celui-ci raconte sa puissance, et la puissance des vents.",
+        "es-es": "Dispara una flecha imbuida de viento, creando un enorme ciclón que atrae a los enemigos e inflige Daño Anemo.Cambio elementalSi el ciclón entra en contacto con Hydro/Pyro /Cryo/Electro, inflige Daño Elemental adicional de ese tipo.El cambio elemental solo puede ocurrir una vez por uso.Muchos himnos escritos en alabanza al Arconte Anemo se han perdido en el tiempo. Este canta sobre su dominio del viento.",
+        "id-id": "Menembakkan panah yang terbuat dari angin gabungan yang tak terhitung jumlahnya. Membuat Stormeye raksasa yang menarik musuh; mengakibatkan Anemo DMG berkelanjutan.Elemental AbsorptionJika Stormeye bersentuhan dengan elemen Hydro/Pyro/Cryo/Electro, ia akan mengakibatkan tambahan Elemental DMG dengan tipe tersebut.Elemental Absorption hanya dapat terjadi sekali untuk setiap penggunaan skill.Sebagian besar nyanyian pujian Archon Anemo telah hilang ditelan waktu. Nyanyian yang satu ini melantunkan keahliannya dalam menguasai angin.",
+        "th-th": "ยิงธนูที่อัดแน่นไปด้วยพลังของสายลมออกไป เพื่อสร้าง Stormeye (ตาพายุ) ขนาดใหญ่ขึ้นตรงหน้า โดยจะดูดศัตรูเข้าไป เพื่อสร้างความเสียหายลมอย่างต่อเนื่องการเปลี่ยนแปลงธาตุหาก Stormeye สัมผัสถูก ธาตุน้ำ/ธาตุไฟ/ธาตุน้ำแข็ง/ธาตุไฟฟ้า ในระหว่างช่วงเวลาคงอยู่ของสกิล จะทำให้ได้รับคุณลักษณะของธาตุนั้น ๆ และสร้างความเสียหายของธาตุดังกล่าวเพิ่มเติมไปด้วยการเปลี่ยนแปลงธาตุในระหว่างช่วงเวลาต่อเนื่องของสกิลนั้น จะเกิดขึ้นได้เพียงครั้งเดียว.บทกวีสรรเสริญเทพแห่งสายลมนั้น ได้สูญหายไปมากมาย ซึ่งบทกวีหนึ่งท่ามกลางบทกวีเหล่านั้น ได้อธิบายถึงพลังของเขากับสายลมเอาไว้",
+        "vi-vn": "Bắn ra mũi tên được tạo thành từ hàng nghìn ngọn gió, tạo thành bão lớn, cuốn địch vào, duy trì gây Sát Thương Nguyên Tố Phong.Chuyển hóa nguyên tốNếu cơn bão trong thời gian duy trì kỹ năng có tiếp xúc Nguyên Tố Thủy/Nguyên Tố Hỏa/Nguyên Tố Băng/Nguyên Tố Lôi, sẽ nhận được thuộc tính nguyên tố tương ứng, tạo thêm sát thương thuộc tính.Chuyển hóa nguyên tố chỉ phát sinh 1 lần.Có rất nhiều bài thơ ca ngợi Phong Thần đã biến mất. Trong đó bài thơ này miêu tả sức mạnh của ngài ấy cùng với gió.",
+        "zh-tw": "射出千風彙聚而成的箭矢，在前方造出巨大的暴風之眼，將敵人捲入，持續造成風元素傷害。元素轉化若暴風之眼在技能持續期間接觸了水元素/火元素/冰元素/雷元素，則會獲得對應元素屬性，額外造成該元素的附加傷害。元素轉化在技能持續期間僅會發生一次。稱頌風之神的詩篇有許多已經佚失。其中這一首描述的是他與風的力量。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/温迪/battle_talent_2/battle_talent_2.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Abrace os Ventos",
+        "en-us": "Embrace of Winds",
+        "ja-jp": "余風の抱擁",
+        "zh-cn": "绪风之拥",
+        "ko-kr": "여풍의 포옹",
+        "ru-ru": "Объятья ветра",
+        "de-de": "Umarmung des Windes",
+        "fr-fr": "Embrasse des vents",
+        "es-es": "Abraza los vientos",
+        "id-id": "Embrace of Winds",
+        "th-th": "Embrace of Winds",
+        "vi-vn": "Cái Ôm Của Gió",
+        "zh-tw": "緒風之擁"
+      },
+      "description": {
+        "pt-pt": "Ao manter pressionado a Sonata Celestial cria uma corrente de vento que dura por 20s.",
+        "en-us": "Holding Skyward Sonnet creates an upcurrent that lasts for 20s.",
+        "ja-jp": "高天の歌を長押しした後、上昇気流が発生する、継続時間20秒。",
+        "zh-cn": "长按高天之歌后，会产生上升气流，持续20秒。",
+        "ko-kr": "높은 하늘의 노래를 홀드하면 상승 기류가 생성된다. 지속 시간: 20초",
+        "ru-ru": "Долгое нажатие навыка Небесная поэзия создаёт поток ветра, который длится 20 сек.",
+        "de-de": "Erstellt beim Gedrückthalten von Sonett vom Himmel eine nach oben gerichtete Luftströmung, hält 20 s.",
+        "fr-fr": "L'appui long de Sonnet des Vents célestes génère une bourrasque ascendante qui dure 20 s.",
+        "es-es": "Mantener pulsado Sonata celestial genera corrientes de viento ascendentes con una duración de 20 s.",
+        "id-id": "Menahan tombol skill Skyward Sonnet akan menciptakan arus angin yang berlangsung selama 20 detik.",
+        "th-th": "หลัง{LAYOUT_MOBILE#แตะค้าง}{LAYOUT_PC#กดค้าง}{LAYOUT_PS#กดค้าง} Skyward Sonnet จะเกิดกระแสลมพัดขึ้นที่สูงอย่างต่อเนื่อง เป็นเวลา 20 วินาที",
+        "vi-vn": "Nhấn giữ Bài Ca Trời Cao, sẽ tạo ra luồng gió lên cao, kéo dài 20s.",
+        "zh-tw": "長按高天之歌後，會產生上升氣流，持續20秒。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/温迪/const_talent_0.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Olho da Tempestade",
+        "en-us": "Stormeye",
+        "ja-jp": "暴風の目",
+        "zh-cn": "暴风之眼",
+        "ko-kr": "폭풍의 눈",
+        "ru-ru": "Глаз бури",
+        "de-de": "Zentrum des Sturms",
+        "fr-fr": "Œil de la tempête",
+        "es-es": "Ojo del huracán",
+        "id-id": "Stormeye",
+        "th-th": "Stormeye",
+        "vi-vn": "Mắt Bão",
+        "zh-tw": "暴風之眼"
+      },
+      "description": {
+        "pt-pt": "Regenera 15 de Energia para Venti após o efeito do Grande Ode do Vento terminar.Se ocorrer uma Absorção Elemental, também irá restaurar 15 de Energia a todos os personagens da equipe do elemento correspondente.",
+        "en-us": "Regenerates 15 Energy for Venti after the effects of Wind's Grand Ode end.If an Elemental Absorption occurred, this also restores 15 Energy to all characters of that corresponding element in the party.",
+        "ja-jp": "風神の詩効果終了後、ウェンティの元素エネルギーを15回復する。元素変化があった場合、該当元素のチームメンバーの元素エネルギーを15回復する。",
+        "zh-cn": "风神之诗效果结束后，会为温迪恢复15点元素能量；若产生了元素转化，则同样为队伍中所有对应元素的角色恢复15点元素能量。",
+        "ko-kr": "바람 신의 시 효과 종료 후 벤티의 원소 에너지를 15pt 회복한다.만약 원소 전환이 발생하면 같은 원소에 해당하는 파티 내 모든 캐릭터의 원소 에너지를 15pt 회복한다.",
+        "ru-ru": "После окончания навыка Великая ода ветру восстанавливает 15 ед. энергии Венти.Если произошло Поглощение стихии, то также восстанавливает 15 ед. энергии всем членам отряда, чей элемент соответствует поглощённому элементу.",
+        "de-de": "Stellt Venti nach Ende des Effekts von Ode vom Anemo-Archon 15 Punkte Elementarenergie wieder her.Stellt allen entsprechenden Figuren in der Truppe bei Elementarumwandlung 15 Punkte Elementarenergie wieder her.",
+        "fr-fr": "Venti récupère 15 pts d'énergie élémentaire à la fin d'Ode au Vent.En cas d'absorption élémentaire, les personnages de l'élément correspondant récupèrent également 15 pts d'énergie élémentaire.",
+        "es-es": "Al terminar el efecto de Gran Oda del Viento, Venti regenera 15 pts. de Energía Elemental.Si ocurre un cambio elemental, también restaurará 15 pts. de Energía Elemental a todos los personajes con el elemento al que cambió el ciclón.",
+        "id-id": "Memulihkan 15 Energy Venti setelah Wind's Grand Ode berakhir.Jika terjadi Elemental Absorption, juga akan memulihkan 15 Energy kepada seluruh anggota party dengan elemen yang sesuai.",
+        "th-th": "เมื่อเอฟเฟกต์ของ Wind's Grand Ode สิ้นสุดลง จะฟื้นฟูพลังงานธาตุให้ Venti 15 หน่วยหากเกิดการเปลี่ยนแปลงของธาตุ จะทำการฟื้นฟูพลังงานธาตุ 15 หน่วย ให้แก่ตัวละครทั้งหมดในทีมที่มีธาตุสอดคล้อง",
+        "vi-vn": "Sau khi kết thúc hiệu quả Bài Thơ Thần Gió, hồi phục 15 điểm năng lượng Nguyên Tố cho Venti; Nếu xảy ra chuyển hoá nguyên tố, hồi phục 15 điểm năng lượng Nguyên Tố cho tất cả nhân vật trong đội có nguyên tố tương ứng.",
+        "zh-tw": "風神之詩效果結束後，會為溫迪恢復15點元素能量；若產生了元素轉化，則同樣為隊伍中所有對應元素的角色恢復15點元素能量。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/温迪/const_talent_1.png"
+    },
+    {
+      "type": "passive",
+      "name": {
+        "pt-pt": "Viajante do Vento",
+        "en-us": "Windrider",
+        "ja-jp": "恒風と共に",
+        "zh-cn": "恒风随行",
+        "ko-kr": "항풍과 함께",
+        "ru-ru": "Ветряной наездник",
+        "de-de": "Windreiter",
+        "fr-fr": "Chevaucheur du vent",
+        "es-es": "Jinete del viento",
+        "id-id": "Windrider",
+        "th-th": "Windrider",
+        "vi-vn": "Đi Theo Cơn Gió",
+        "zh-tw": "恆風隨行"
+      },
+      "description": {
+        "pt-pt": "Diminui o consumo de Stamina ao Planar de todos os seus personagens em 20%.Não acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos.",
+        "en-us": "Decreases gliding Stamina consumption for your own party members by 20%.Not stackable with Passive Talents that provide the exact same effects.",
+        "ja-jp": "チーム内の自身のキャラクター全員が滑翔に消費するスタミナ-20%。同じ効果を持つ固有天賦との重ね掛け不可。",
+        "zh-cn": "队伍中自己的角色滑翔消耗的体力降低20%。无法与效果完全相同的固有天赋叠加。",
+        "ko-kr": "파티 내 자신의 캐릭터의 활강 시 소모하는 스태미나가 20% 감소한다.같은 효과의 고유 특성과 중첩되지 않는다.",
+        "ru-ru": "Уменьшает потребление выносливости активного персонажа во время полёта на 20%.Не суммируется с пассивными талантами, дающими точно такие же эффекты.",
+        "de-de": "Verringert die beim Gleiten verbrauchte Ausdauer aller eigenen Truppenmitglieder um 20 %.Nicht mit passiven Talenten mit völlig gleichen Effekten stapelbar.",
+        "fr-fr": "Réduit la consommation d'endurance de vos personnages dans l'équipe de 20 % lors du planage.Ne peut pas être cumulé avec d'autres aptitudes passives aux effets identiques.",
+        "es-es": "Disminuye en un 20% el Coste de Aguante al planear de todos los miembros de tu equipo.No se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
+        "id-id": "Mengurangi 20% konsumsi Stamina anggota party sendiri saat meluncur.Efek tidak dapat ditumpuk dengan Talenta Pasif lain yang memiliki efek yang sama persis.",
+        "th-th": "ลดอัตราการเสียพลังกายจากการร่อนเวหา ให้ตัวละครของตนเองที่อยู่ในทีมลง 20%ไม่สามารถซ้อนทับพรสวรรค์ติดตัวที่เอฟเฟกต์เหมือนกันทุกประการได้",
+        "vi-vn": "Giảm 20% tiêu hao thể lực nhân vật của bản thân trong đội khi bay lượn.Đối với buff Thiên Phú cố định có hiệu quả hoàn toàn giống sẽ không thể cộng dồn.",
+        "zh-tw": "隊伍中自己的角色滑翔消耗的體力降低20%。無法與效果完全相同的固有天賦疊加。"
+      },
+      "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/character/温迪/const_talent_2.png"
+    }
+  ],
+  "talentAttributes": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Tiro com Arco Divino",
+        "en-us": "Divine Marksmanship",
+        "ja-jp": "神代の射術",
+        "zh-cn": "普通攻击·神代射术",
+        "ko-kr": "일반 공격·신성한 사격술",
+        "ru-ru": "Божественная точность",
+        "de-de": "Standardangriff: Göttliche Schießkunst",
+        "fr-fr": "Attaque normale : Archerie divine",
+        "es-es": "Ataque Normal: Puntería divina",
+        "id-id": "Divine Marksmanship",
+        "th-th": "โจมตีปกติ - Divine Marksmanship",
+        "vi-vn": "Tấn Công Thường: Xạ Thuật Của Thần",
+        "zh-tw": "普通攻擊·神代射術"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 1° Golpe",
+            "en-us": "1-Hit DMG",
+            "ja-jp": "1段ダメージ",
+            "zh-cn": "一段伤害",
+            "ko-kr": "1단 공격 피해",
+            "ru-ru": "Урон атаки 1",
+            "de-de": "SCH Phase 1",
+            "fr-fr": "DGT 1er coup",
+            "es-es": "Daño de 1er golpe",
+            "id-id": "DMG Tahap 1",
+            "th-th": "ความเสียหายขั้น 1",
+            "vi-vn": "Sát Thương Lần 1",
+            "zh-tw": "一段傷害"
+          },
+          "values": [
+            "20.4%+20.4%",
+            "22.0%+22.0%",
+            "23.7%+23.7%",
+            "26.1%+26.1%",
+            "27.7%+27.7%",
+            "29.6%+29.6%",
+            "32.2%+32.2%",
+            "34.8%+34.8%",
+            "37.5%+37.5%",
+            "40.3%+40.3%",
+            "43.5%+43.5%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 2° Golpe",
+            "en-us": "2-Hit DMG",
+            "ja-jp": "2段ダメージ",
+            "zh-cn": "二段伤害",
+            "ko-kr": "2단 공격 피해",
+            "ru-ru": "Урон атаки 2",
+            "de-de": "SCH Phase 2",
+            "fr-fr": "DGT 2e coup",
+            "es-es": "Daño de 2.º golpe",
+            "id-id": "DMG Tahap 2",
+            "th-th": "ความเสียหายขั้น 2",
+            "vi-vn": "Sát Thương Lần 2",
+            "zh-tw": "二段傷害"
+          },
+          "values": [
+            "44.4%",
+            "48%",
+            "51.6%",
+            "56.8%",
+            "60.4%",
+            "64.5%",
+            "70.2%",
+            "75.9%",
+            "81.5%",
+            "87.7%",
+            "94.8%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 3° Golpe",
+            "en-us": "3-Hit DMG",
+            "ja-jp": "3段ダメージ",
+            "zh-cn": "三段伤害",
+            "ko-kr": "3단 공격 피해",
+            "ru-ru": "Урон атаки 3",
+            "de-de": "SCH Phase 3",
+            "fr-fr": "DGT 3e coup",
+            "es-es": "Daño de 3er golpe",
+            "id-id": "DMG Tahap 3",
+            "th-th": "ความเสียหายขั้น 3",
+            "vi-vn": "Sát Thương Lần 3",
+            "zh-tw": "三段傷害"
+          },
+          "values": [
+            "52.4%",
+            "56.6%",
+            "60.9%",
+            "67%",
+            "71.3%",
+            "76.1%",
+            "82.8%",
+            "89.5%",
+            "96.2%",
+            "103.5%",
+            "112%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 4° Golpe",
+            "en-us": "4-Hit DMG",
+            "ja-jp": "4段ダメージ",
+            "zh-cn": "四段伤害",
+            "ko-kr": "4단 공격 피해",
+            "ru-ru": "Урон атаки 4",
+            "de-de": "SCH Phase 4",
+            "fr-fr": "DGT 4e coup",
+            "es-es": "Daño de 4.º golpe",
+            "id-id": "DMG Tahap 4",
+            "th-th": "ความเสียหายขั้น 4",
+            "vi-vn": "Sát Thương Lần 4",
+            "zh-tw": "四段傷害"
+          },
+          "values": [
+            "26.1%+26.1%",
+            "28.2%+28.2%",
+            "30.3%+30.3%",
+            "33.3%+33.3%",
+            "35.5%+35.5%",
+            "37.9%+37.9%",
+            "41.2%+41.2%",
+            "44.5%+44.5%",
+            "47.9%+47.9%",
+            "51.5%+51.5%",
+            "55.7%+55.7%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 5° Golpe",
+            "en-us": "5-Hit DMG",
+            "ja-jp": "5段ダメージ",
+            "zh-cn": "五段伤害",
+            "ko-kr": "5단 공격 피해",
+            "ru-ru": "Урон атаки 5",
+            "de-de": "SCH Phase 5",
+            "fr-fr": "DGT 5e coup",
+            "es-es": "Daño de 5.º golpe",
+            "id-id": "DMG Tahap 5",
+            "th-th": "ความเสียหายขั้น 5",
+            "vi-vn": "Sát Thương Lần 5",
+            "zh-tw": "五段傷害"
+          },
+          "values": [
+            "50.7%",
+            "54.8%",
+            "58.9%",
+            "64.8%",
+            "68.9%",
+            "73.6%",
+            "80.1%",
+            "86.6%",
+            "93.1%",
+            "100.1%",
+            "108.2%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano do 6° Golpe",
+            "en-us": "6-Hit DMG",
+            "ja-jp": "6段ダメージ",
+            "zh-cn": "六段伤害",
+            "ko-kr": "6단 공격 피해",
+            "ru-ru": "Урон атаки 6",
+            "de-de": "SCH Phase 6",
+            "fr-fr": "DGT 6e coup",
+            "es-es": "Daño de 6.º golpe",
+            "id-id": "DMG Tahap 6",
+            "th-th": "ความเสียหายขั้น 6",
+            "vi-vn": "Sát Thương Lần 6",
+            "zh-tw": "六段傷害"
+          },
+          "values": [
+            "71%",
+            "76.7%",
+            "82.5%",
+            "90.8%",
+            "96.5%",
+            "103.1%",
+            "112.2%",
+            "121.3%",
+            "130.4%",
+            "140.3%",
+            "151.6%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Disparo com Mira",
+            "en-us": "Aimed Shot",
+            "ja-jp": "狙い撃ち",
+            "zh-cn": "瞄准射击",
+            "ko-kr": "조준 사격",
+            "ru-ru": "Прицельный выстрел",
+            "de-de": "Gezielte Schüsse",
+            "fr-fr": "DGT tir visé",
+            "es-es": "Disparo Preciso",
+            "id-id": "DMG Membidik",
+            "th-th": "เล็งโจมตี",
+            "vi-vn": "Ngắm Bắn",
+            "zh-tw": "瞄準射擊"
+          },
+          "values": [
+            "43.9%",
+            "47.4%",
+            "51%",
+            "56.1%",
+            "59.7%",
+            "63.8%",
+            "69.4%",
+            "75%",
+            "80.6%",
+            "86.7%",
+            "93.7%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Disparo com Mira com Energização Completa",
+            "en-us": "Fully-Charged Aimed Shot",
+            "ja-jp": "フルチャージ狙い撃ち",
+            "zh-cn": "满蓄力瞄准射击",
+            "ko-kr": "풀차지 조준 사격",
+            "ru-ru": "Заряженный выстрел",
+            "de-de": "Voll aufgeladene gezielte Schüsse",
+            "fr-fr": "DGT tir visé (pleine charge)",
+            "es-es": "Disparo Preciso (carga completa)",
+            "id-id": "DMG Membidik Penuh",
+            "th-th": "เล็งโจมตีและชาร์จเต็ม",
+            "vi-vn": "Tụ Lực Ngắm Bắn",
+            "zh-tw": "滿蓄力瞄準射擊"
+          },
+          "values": [
+            "124%",
+            "133%",
+            "143%",
+            "155%",
+            "164%",
+            "174%",
+            "186%",
+            "198%",
+            "211%",
+            "223%",
+            "236%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Durante a Queda",
+            "en-us": "Plunge DMG",
+            "ja-jp": "落下期間のダメージ",
+            "zh-cn": "下坠期间伤害",
+            "ko-kr": "낙하 기간 피해",
+            "ru-ru": "Урон в падении",
+            "de-de": "SCH beim Fallen",
+            "fr-fr": "DGT durant la chute",
+            "es-es": "Daño de Caída",
+            "id-id": "DMG Selama Plunging",
+            "th-th": "ความเสียหายพุ่งลง",
+            "vi-vn": "Sát Thương Khi Đáp",
+            "zh-tw": "下墜期間傷害"
+          },
+          "values": [
+            "56.8%",
+            "61.5%",
+            "66.1%",
+            "72.7%",
+            "77.3%",
+            "82.6%",
+            "89.9%",
+            "97.1%",
+            "104.4%",
+            "112.3%",
+            "120.3%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Queda de Baixa/Alta Altitude",
+            "en-us": "Low/High Plunge DMG",
+            "ja-jp": "低空/高空落下攻撃ダメージ",
+            "zh-cn": "低空/高空坠地冲击伤害",
+            "ko-kr": "저공/고공 추락 충격 피해",
+            "ru-ru": "Урон низкого/высокого удара",
+            "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
+            "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Daño de impacto de caída baja/alta",
+            "id-id": "DMG Plunging Attack Min./Maks.",
+            "th-th": "ความเสียหายพุ่งถึงพื้นจากที่ต่ำ/สูง",
+            "vi-vn": "ST Khi Rơi Từ Độ Cao Thấp/Cao",
+            "zh-tw": "低空/高空墜地衝擊傷害"
+          },
+          "values": [
+            "114%/142%",
+            "123%/153%",
+            "132%/165%",
+            "145%/182%",
+            "155%/193%",
+            "165%/206%",
+            "180%/224%",
+            "194%/243%",
+            "209%/261%",
+            "225%/281%",
+            "241%/300%"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_skill",
+      "talentName": {
+        "pt-pt": "Sonata Celestial",
+        "en-us": "Skyward Sonnet",
+        "ja-jp": "高天の歌",
+        "zh-cn": "高天之歌",
+        "ko-kr": "높은 하늘의 노래",
+        "ru-ru": "Небесная поэзия",
+        "de-de": "Sonett vom Himmel",
+        "fr-fr": "Sonnet des Vents célestes",
+        "es-es": "Sonata celestial",
+        "id-id": "Skyward Sonnet",
+        "th-th": "Skyward Sonnet",
+        "vi-vn": "Bài Ca Trời Cao",
+        "zh-tw": "高天之歌"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Toque",
+            "en-us": "Tapping/Press DMG",
+            "ja-jp": "一回押しダメージ",
+            "zh-cn": "点按伤害",
+            "ko-kr": "짧은 터치 피해",
+            "ru-ru": "Урон быстрого нажатия",
+            "de-de": "SCH bei Drücken",
+            "fr-fr": "DGT appui simple",
+            "es-es": "Daño por toque/al pulsar una vez",
+            "id-id": "DMG Tekan",
+            "th-th": "ความเสียหายเมื่อแตะ/กด",
+            "vi-vn": "Sát Thương Nhấn",
+            "zh-tw": "點按傷害"
+          },
+          "values": [
+            "276%",
+            "297%",
+            "317%",
+            "345%",
+            "366%",
+            "386%",
+            "414%",
+            "442%",
+            "469%",
+            "497%",
+            "524%",
+            "552%",
+            "587%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Toque",
+            "en-us": "Tapping/Press CD",
+            "ja-jp": "一回押しクールタイム",
+            "zh-cn": "点按冷却时间",
+            "ko-kr": "짧은 터치 재사용 대기시간",
+            "ru-ru": "Откат быстрого нажатия",
+            "de-de": "Abklingzeit für Drücken",
+            "fr-fr": "TdR appui simple",
+            "es-es": "TdE por toque/al pulsar una vez",
+            "id-id": "Cooldown (Mode Tekan)",
+            "th-th": "เวลาคูลดาวน์เมื่อแตะ/กด",
+            "vi-vn": "CD Nhấn",
+            "zh-tw": "點按冷卻時間"
+          },
+          "values": [
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s",
+            "6s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano ao Manter Pressionado",
+            "en-us": "Hold DMG",
+            "ja-jp": "長押しダメージ",
+            "zh-cn": "长按伤害",
+            "ko-kr": "홀드 피해",
+            "ru-ru": "Урон долгого нажатия",
+            "de-de": "SCH bei Gedrückthalten",
+            "fr-fr": "DGT appui long",
+            "es-es": "Daño de mantener pulsado",
+            "id-id": "DMG Tahan",
+            "th-th": "ความเสียหายเมื่อแตะค้าง/กดค้าง",
+            "vi-vn": "Sát Thương Nhấn Giữ",
+            "zh-tw": "長按傷害"
+          },
+          "values": [
+            "380%",
+            "409%",
+            "437%",
+            "475%",
+            "504%",
+            "532%",
+            "570%",
+            "608%",
+            "646%",
+            "684%",
+            "722%",
+            "760%",
+            "808%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga ao Manter Pressionado",
+            "en-us": "CD (hold)",
+            "ja-jp": "長押しクールタイム",
+            "zh-cn": "长按冷却时间",
+            "ko-kr": "홀드 재사용 대기시간",
+            "ru-ru": "Откат долгого нажатия",
+            "de-de": "Abklingzeit für Gedrückthalten",
+            "fr-fr": "TdR appui long",
+            "es-es": "TdE de mantener pulsado",
+            "id-id": "Cooldown (Mode Tahan)",
+            "th-th": "เวลาคูลดาวน์เมื่อแตะค้าง/กดค้าง",
+            "vi-vn": "CD Nhấn Giữ",
+            "zh-tw": "長按冷卻時間"
+          },
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "elemental_burst",
+      "talentName": {
+        "pt-pt": "Grande Ode do Vento",
+        "en-us": "Wind's Grand Ode",
+        "ja-jp": "風神の詩",
+        "zh-cn": "风神之诗",
+        "ko-kr": "바람신의 시",
+        "ru-ru": "Великая ода ветру",
+        "de-de": "Ode vom Anemo-Archon",
+        "fr-fr": "Ode au Vent",
+        "es-es": "Gran Oda del Viento",
+        "id-id": "Wind's Grand Ode",
+        "th-th": "Wind's Grand Ode",
+        "vi-vn": "Bài Thơ Thần Gió",
+        "zh-tw": "風神之詩"
+      },
+      "attributes": [
+        {
+          "label": {
+            "pt-pt": "Nível",
+            "en-us": "Level",
+            "ja-jp": "Level",
+            "zh-cn": "Level",
+            "ko-kr": "Level",
+            "ru-ru": "Уровень",
+            "de-de": "St.",
+            "fr-fr": "Niv.",
+            "es-es": "Niv.",
+            "id-id": "Level",
+            "th-th": "Level",
+            "vi-vn": "Level",
+            "zh-tw": "Level"
+          },
+          "values": [
+            "Nv.1",
+            "Nv.2",
+            "Nv.3",
+            "Nv.4",
+            "Nv.5",
+            "Nv.6",
+            "Nv.7",
+            "Nv.8",
+            "Nv.9",
+            "Nv.10",
+            "Nv.11",
+            "Nv.12",
+            "Nv.13",
+            "Nv.14"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Dano de Contínuo",
+            "en-us": "DoT",
+            "ja-jp": "継続ダメージ",
+            "zh-cn": "持续伤害",
+            "ko-kr": "지속 피해",
+            "ru-ru": "Периодический урон",
+            "de-de": "Fortlaufender SCH",
+            "fr-fr": "DGT continus",
+            "es-es": "Daño continuo",
+            "id-id": "DMG Berkelanjutan",
+            "th-th": "ความเสียหายต่อเนื่อง",
+            "vi-vn": "Sát Thương Kéo Dài",
+            "zh-tw": "持續傷害"
+          },
+          "values": [
+            "37.6%",
+            "40.4%",
+            "43.2%",
+            "47%",
+            "49.8%",
+            "52.6%",
+            "56.4%",
+            "60.2%",
+            "63.9%",
+            "67.7%",
+            "71.4%",
+            "75.2%",
+            "79.9%",
+            "84.6%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Adição de Dano Elemental",
+            "en-us": "Additional Elemental DMG",
+            "ja-jp": "付加元素ダメージ",
+            "zh-cn": "附加元素伤害",
+            "ko-kr": "부가 원소 피해",
+            "ru-ru": "Доп. элементальный урон",
+            "de-de": "Zusätzlicher Elementar-SCH",
+            "fr-fr": "Bonus DGT élémentaires",
+            "es-es": "Daño Elemental adicional",
+            "id-id": "Tambahan Elemental DMG",
+            "th-th": "ความเสียหายธาตุเพิ่มเติม",
+            "vi-vn": "Sát Thương Nguyên Tố Kèm Theo",
+            "zh-tw": "附加元素傷害"
+          },
+          "values": [
+            "18.8%",
+            "20.2%",
+            "21.6%",
+            "23.5%",
+            "24.9%",
+            "26.3%",
+            "28.2%",
+            "30.1%",
+            "32%",
+            "33.8%",
+            "35.7%",
+            "37.6%",
+            "40%",
+            "42.3%"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Duração",
+            "en-us": "Duration",
+            "ja-jp": "継続時間",
+            "zh-cn": "持续时间",
+            "ko-kr": "지속 시간",
+            "ru-ru": "Длительность",
+            "de-de": "Dauer",
+            "fr-fr": "Durée",
+            "es-es": "Duración",
+            "id-id": "Durasi",
+            "th-th": "ระยะเวลาต่อเนื่อง",
+            "vi-vn": "Thời Gian Kéo Dài",
+            "zh-tw": "持續時間"
+          },
+          "values": [
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8",
+            "8"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Tempo de Recarga",
+            "en-us": "CD",
+            "ja-jp": "クールタイム",
+            "zh-cn": "冷却时间",
+            "ko-kr": "재사용 대기시간",
+            "ru-ru": "Время отката",
+            "de-de": "Abklingzeit",
+            "fr-fr": "Temps de recharge",
+            "es-es": "TdE",
+            "id-id": "Cooldown",
+            "th-th": "คูลดาวน์",
+            "vi-vn": "CD",
+            "zh-tw": "冷卻時間"
+          },
+          "values": [
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s",
+            "15s"
+          ]
+        },
+        {
+          "label": {
+            "pt-pt": "Energia Elemental",
+            "en-us": "Energy Cost",
+            "ja-jp": "元素エネルギー",
+            "zh-cn": "元素能量",
+            "ko-kr": "원소 에너지",
+            "ru-ru": "Потребление энергии",
+            "de-de": "Elementarenergie",
+            "fr-fr": "Énergie élémentaire",
+            "es-es": "Energía Elemental",
+            "id-id": "Konsumsi Energy",
+            "th-th": "พลังงานธาตุ",
+            "vi-vn": "Năng Lượng Nguyên Tố",
+            "zh-tw": "元素能量"
+          },
+          "values": [
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60",
+            "60"
+          ]
+        }
+      ]
+    }
+  ],
+  "talentMaterials": [
+    {
+      "type": "normal_attack",
+      "talentName": {
+        "pt-pt": "Tiro com Arco Divino",
+        "en-us": "Divine Marksmanship",
+        "ja-jp": "神代の射術",
+        "zh-cn": "普通攻击·神代射术",
+        "ko-kr": "일반 공격·신성한 사격술",
+        "ru-ru": "Божественная точность",
+        "de-de": "Standardangriff: Göttliche Schießkunst",
+        "fr-fr": "Attaque normale : Archerie divine",
+        "es-es": "Ataque Normal: Puntería divina",
+        "id-id": "Divine Marksmanship",
+        "th-th": "โจมตีปกติ - Divine Marksmanship",
+        "vi-vn": "Tấn Công Thường: Xạ Thuật Của Thần",
+        "zh-tw": "普通攻擊·神代射術"
+      },
+      "materials": [
+        {
+          "level": 2,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 12500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "179",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Ensinamentos de Poemas",
+                "en-us": "Teachings of Ballad",
+                "ja-jp": "詩文の教え",
+                "zh-cn": "诗文的教导",
+                "ko-kr": "시문의 가르침",
+                "ru-ru": "Учения о Поэзии",
+                "de-de": "Lehren der Poesie",
+                "fr-fr": "Enseignement de la Poésie",
+                "es-es": "Enseñanzas de la poesía",
+                "id-id": "Teachings of Ballad",
+                "th-th": "Teachings of Ballad",
+                "vi-vn": "Bài Giảng Của Thơ Văn",
+                "zh-tw": "詩文的教導"
+              }
+            },
+            {
+              "id": "396",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Condensado de Slime",
+                "en-us": "Slime Condensate",
+                "ja-jp": "スライムの液体",
+                "zh-cn": "史莱姆凝液",
+                "ko-kr": "슬라임 응축액",
+                "ru-ru": "Слизь слайма",
+                "de-de": "Schleimabsonderung",
+                "fr-fr": "Bave de Blob",
+                "es-es": "Condensado de Slime",
+                "id-id": "Slime Condensate",
+                "th-th": "Slime Condensate",
+                "vi-vn": "Dịch Slime",
+                "zh-tw": "史萊姆凝液"
+              }
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 17500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "178",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Guia de Poemas",
+                "en-us": "Guide to Ballad",
+                "ja-jp": "詩文の導き",
+                "zh-cn": "诗文的指引",
+                "ko-kr": "시문의 인도",
+                "ru-ru": "Указания о Поэзии",
+                "de-de": "Anleitung zur Poesie",
+                "fr-fr": "Guide de la Poésie",
+                "es-es": "Guía de la poesía",
+                "id-id": "Guide to Ballad",
+                "th-th": "Guide to Ballad",
+                "vi-vn": "Hướng Dẫn Của Thơ Văn",
+                "zh-tw": "詩文的指引"
+              }
+            },
+            {
+              "id": "398",
+              "iconUrl": null,
+              "amount": 3,
+              "name": {
+                "pt-pt": "Secreção de Slime",
+                "en-us": "Slime Secretions",
+                "ja-jp": "スライムの分泌物",
+                "zh-cn": "史莱姆清",
+                "ko-kr": "슬라임청",
+                "ru-ru": "Выделения слайма",
+                "de-de": "Schleimkondensat",
+                "fr-fr": "Mucus de Blob",
+                "es-es": "Babas de Slime",
+                "id-id": "Slime Secretions",
+                "th-th": "Slime Secretions",
+                "vi-vn": "Tinh Slime",
+                "zh-tw": "史萊姆清"
+              }
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 25000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "178",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Guia de Poemas",
+                "en-us": "Guide to Ballad",
+                "ja-jp": "詩文の導き",
+                "zh-cn": "诗文的指引",
+                "ko-kr": "시문의 인도",
+                "ru-ru": "Указания о Поэзии",
+                "de-de": "Anleitung zur Poesie",
+                "fr-fr": "Guide de la Poésie",
+                "es-es": "Guía de la poesía",
+                "id-id": "Guide to Ballad",
+                "th-th": "Guide to Ballad",
+                "vi-vn": "Hướng Dẫn Của Thơ Văn",
+                "zh-tw": "詩文的指引"
+              }
+            },
+            {
+              "id": "398",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Secreção de Slime",
+                "en-us": "Slime Secretions",
+                "ja-jp": "スライムの分泌物",
+                "zh-cn": "史莱姆清",
+                "ko-kr": "슬라임청",
+                "ru-ru": "Выделения слайма",
+                "de-de": "Schleimkondensat",
+                "fr-fr": "Mucus de Blob",
+                "es-es": "Babas de Slime",
+                "id-id": "Slime Secretions",
+                "th-th": "Slime Secretions",
+                "vi-vn": "Tinh Slime",
+                "zh-tw": "史萊姆清"
+              }
+            }
+          ]
+        },
+        {
+          "level": 5,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 30000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "178",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Guia de Poemas",
+                "en-us": "Guide to Ballad",
+                "ja-jp": "詩文の導き",
+                "zh-cn": "诗文的指引",
+                "ko-kr": "시문의 인도",
+                "ru-ru": "Указания о Поэзии",
+                "de-de": "Anleitung zur Poesie",
+                "fr-fr": "Guide de la Poésie",
+                "es-es": "Guía de la poesía",
+                "id-id": "Guide to Ballad",
+                "th-th": "Guide to Ballad",
+                "vi-vn": "Hướng Dẫn Của Thơ Văn",
+                "zh-tw": "詩文的指引"
+              }
+            },
+            {
+              "id": "398",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Secreção de Slime",
+                "en-us": "Slime Secretions",
+                "ja-jp": "スライムの分泌物",
+                "zh-cn": "史莱姆清",
+                "ko-kr": "슬라임청",
+                "ru-ru": "Выделения слайма",
+                "de-de": "Schleimkondensat",
+                "fr-fr": "Mucus de Blob",
+                "es-es": "Babas de Slime",
+                "id-id": "Slime Secretions",
+                "th-th": "Slime Secretions",
+                "vi-vn": "Tinh Slime",
+                "zh-tw": "史萊姆清"
+              }
+            }
+          ]
+        },
+        {
+          "level": 6,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 37500,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "178",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Guia de Poemas",
+                "en-us": "Guide to Ballad",
+                "ja-jp": "詩文の導き",
+                "zh-cn": "诗文的指引",
+                "ko-kr": "시문의 인도",
+                "ru-ru": "Указания о Поэзии",
+                "de-de": "Anleitung zur Poesie",
+                "fr-fr": "Guide de la Poésie",
+                "es-es": "Guía de la poesía",
+                "id-id": "Guide to Ballad",
+                "th-th": "Guide to Ballad",
+                "vi-vn": "Hướng Dẫn Của Thơ Văn",
+                "zh-tw": "詩文的指引"
+              }
+            },
+            {
+              "id": "398",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Secreção de Slime",
+                "en-us": "Slime Secretions",
+                "ja-jp": "スライムの分泌物",
+                "zh-cn": "史莱姆清",
+                "ko-kr": "슬라임청",
+                "ru-ru": "Выделения слайма",
+                "de-de": "Schleimkondensat",
+                "fr-fr": "Mucus de Blob",
+                "es-es": "Babas de Slime",
+                "id-id": "Slime Secretions",
+                "th-th": "Slime Secretions",
+                "vi-vn": "Tinh Slime",
+                "zh-tw": "史萊姆清"
+              }
+            }
+          ]
+        },
+        {
+          "level": 7,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 120000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "177",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Filosofia de Poemas",
+                "en-us": "Philosophies of Ballad",
+                "ja-jp": "詩文の哲学",
+                "zh-cn": "诗文的哲学",
+                "ko-kr": "시문의 철학",
+                "ru-ru": "Философия о Поэзии",
+                "de-de": "Philosophie der Poesie",
+                "fr-fr": "Philosophie de la Poésie",
+                "es-es": "Filosofía de la poesía",
+                "id-id": "Philosophies of Ballad",
+                "th-th": "Philosophies of Ballad",
+                "vi-vn": "Triết Học Của Thơ Văn",
+                "zh-tw": "詩文的哲學"
+              }
+            },
+            {
+              "id": "397",
+              "iconUrl": null,
+              "amount": 4,
+              "name": {
+                "pt-pt": "Essência de Slime",
+                "en-us": "Slime Concentrate",
+                "ja-jp": "スライムのピュレ",
+                "zh-cn": "史莱姆原浆",
+                "ko-kr": "슬라임 원액",
+                "ru-ru": "Концентрат слайма",
+                "de-de": "Schleimkonzentrat",
+                "fr-fr": "Essence de Blob",
+                "es-es": "Esencia de Slime",
+                "id-id": "Slime Concentrate",
+                "th-th": "Slime Concentrate",
+                "vi-vn": "Bột Slime",
+                "zh-tw": "史萊姆原漿"
+              }
+            },
+            {
+              "id": "355",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Cauda do Vento do Norte",
+                "en-us": "Tail of Boreas",
+                "ja-jp": "北風のしっぽ",
+                "zh-cn": "北风之尾",
+                "ko-kr": "북풍의 꼬리",
+                "ru-ru": "Хвост Борея",
+                "de-de": "Schwanz des Nordwinds",
+                "fr-fr": "Queue de Borée",
+                "es-es": "Cola de Boreas",
+                "id-id": "Tail of Boreas",
+                "th-th": "Tail of Boreas",
+                "vi-vn": "Lông Vũ Bắc Phong",
+                "zh-tw": "北風之尾"
+              }
+            }
+          ]
+        },
+        {
+          "level": 8,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 260000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "177",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Filosofia de Poemas",
+                "en-us": "Philosophies of Ballad",
+                "ja-jp": "詩文の哲学",
+                "zh-cn": "诗文的哲学",
+                "ko-kr": "시문의 철학",
+                "ru-ru": "Философия о Поэзии",
+                "de-de": "Philosophie der Poesie",
+                "fr-fr": "Philosophie de la Poésie",
+                "es-es": "Filosofía de la poesía",
+                "id-id": "Philosophies of Ballad",
+                "th-th": "Philosophies of Ballad",
+                "vi-vn": "Triết Học Của Thơ Văn",
+                "zh-tw": "詩文的哲學"
+              }
+            },
+            {
+              "id": "397",
+              "iconUrl": null,
+              "amount": 6,
+              "name": {
+                "pt-pt": "Essência de Slime",
+                "en-us": "Slime Concentrate",
+                "ja-jp": "スライムのピュレ",
+                "zh-cn": "史莱姆原浆",
+                "ko-kr": "슬라임 원액",
+                "ru-ru": "Концентрат слайма",
+                "de-de": "Schleimkonzentrat",
+                "fr-fr": "Essence de Blob",
+                "es-es": "Esencia de Slime",
+                "id-id": "Slime Concentrate",
+                "th-th": "Slime Concentrate",
+                "vi-vn": "Bột Slime",
+                "zh-tw": "史萊姆原漿"
+              }
+            },
+            {
+              "id": "355",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Cauda do Vento do Norte",
+                "en-us": "Tail of Boreas",
+                "ja-jp": "北風のしっぽ",
+                "zh-cn": "北风之尾",
+                "ko-kr": "북풍의 꼬리",
+                "ru-ru": "Хвост Борея",
+                "de-de": "Schwanz des Nordwinds",
+                "fr-fr": "Queue de Borée",
+                "es-es": "Cola de Boreas",
+                "id-id": "Tail of Boreas",
+                "th-th": "Tail of Boreas",
+                "vi-vn": "Lông Vũ Bắc Phong",
+                "zh-tw": "北風之尾"
+              }
+            }
+          ]
+        },
+        {
+          "level": 9,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 450000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "177",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Filosofia de Poemas",
+                "en-us": "Philosophies of Ballad",
+                "ja-jp": "詩文の哲学",
+                "zh-cn": "诗文的哲学",
+                "ko-kr": "시문의 철학",
+                "ru-ru": "Философия о Поэзии",
+                "de-de": "Philosophie der Poesie",
+                "fr-fr": "Philosophie de la Poésie",
+                "es-es": "Filosofía de la poesía",
+                "id-id": "Philosophies of Ballad",
+                "th-th": "Philosophies of Ballad",
+                "vi-vn": "Triết Học Của Thơ Văn",
+                "zh-tw": "詩文的哲學"
+              }
+            },
+            {
+              "id": "397",
+              "iconUrl": null,
+              "amount": 9,
+              "name": {
+                "pt-pt": "Essência de Slime",
+                "en-us": "Slime Concentrate",
+                "ja-jp": "スライムのピュレ",
+                "zh-cn": "史莱姆原浆",
+                "ko-kr": "슬라임 원액",
+                "ru-ru": "Концентрат слайма",
+                "de-de": "Schleimkonzentrat",
+                "fr-fr": "Essence de Blob",
+                "es-es": "Esencia de Slime",
+                "id-id": "Slime Concentrate",
+                "th-th": "Slime Concentrate",
+                "vi-vn": "Bột Slime",
+                "zh-tw": "史萊姆原漿"
+              }
+            },
+            {
+              "id": "355",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Cauda do Vento do Norte",
+                "en-us": "Tail of Boreas",
+                "ja-jp": "北風のしっぽ",
+                "zh-cn": "北风之尾",
+                "ko-kr": "북풍의 꼬리",
+                "ru-ru": "Хвост Борея",
+                "de-de": "Schwanz des Nordwinds",
+                "fr-fr": "Queue de Borée",
+                "es-es": "Cola de Boreas",
+                "id-id": "Tail of Boreas",
+                "th-th": "Tail of Boreas",
+                "vi-vn": "Lông Vũ Bắc Phong",
+                "zh-tw": "北風之尾"
+              }
+            }
+          ]
+        },
+        {
+          "level": 10,
+          "items": [
+            {
+              "id": "757",
+              "iconUrl": null,
+              "amount": 700000,
+              "name": {
+                "pt-pt": "Mora",
+                "en-us": "Mora",
+                "ja-jp": "モラ",
+                "zh-cn": "摩拉",
+                "ko-kr": "모라",
+                "ru-ru": "Мора",
+                "de-de": "Mora",
+                "fr-fr": "Mora",
+                "es-es": "Mora",
+                "id-id": "Mora",
+                "th-th": "Mora",
+                "vi-vn": "Mora",
+                "zh-tw": "摩拉"
+              }
+            },
+            {
+              "id": "177",
+              "iconUrl": null,
+              "amount": 16,
+              "name": {
+                "pt-pt": "Filosofia de Poemas",
+                "en-us": "Philosophies of Ballad",
+                "ja-jp": "詩文の哲学",
+                "zh-cn": "诗文的哲学",
+                "ko-kr": "시문의 철학",
+                "ru-ru": "Философия о Поэзии",
+                "de-de": "Philosophie der Poesie",
+                "fr-fr": "Philosophie de la Poésie",
+                "es-es": "Filosofía de la poesía",
+                "id-id": "Philosophies of Ballad",
+                "th-th": "Philosophies of Ballad",
+                "vi-vn": "Triết Học Của Thơ Văn",
+                "zh-tw": "詩文的哲學"
+              }
+            },
+            {
+              "id": "397",
+              "iconUrl": null,
+              "amount": 12,
+              "name": {
+                "pt-pt": "Essência de Slime",
+                "en-us": "Slime Concentrate",
+                "ja-jp": "スライムのピュレ",
+                "zh-cn": "史莱姆原浆",
+                "ko-kr": "슬라임 원액",
+                "ru-ru": "Концентрат слайма",
+                "de-de": "Schleimkonzentrat",
+                "fr-fr": "Essence de Blob",
+                "es-es": "Esencia de Slime",
+                "id-id": "Slime Concentrate",
+                "th-th": "Slime Concentrate",
+                "vi-vn": "Bột Slime",
+                "zh-tw": "史萊姆原漿"
+              }
+            },
+            {
+              "id": "355",
+              "iconUrl": null,
+              "amount": 2,
+              "name": {
+                "pt-pt": "Cauda do Vento do Norte",
+                "en-us": "Tail of Boreas",
+                "ja-jp": "北風のしっぽ",
+                "zh-cn": "北风之尾",
+                "ko-kr": "북풍의 꼬리",
+                "ru-ru": "Хвост Борея",
+                "de-de": "Schwanz des Nordwinds",
+                "fr-fr": "Queue de Borée",
+                "es-es": "Cola de Boreas",
+                "id-id": "Tail of Boreas",
+                "th-th": "Tail of Boreas",
+                "vi-vn": "Lông Vũ Bắc Phong",
+                "zh-tw": "北風之尾"
+              }
+            },
+            {
+              "id": "900",
+              "iconUrl": null,
+              "amount": 1,
+              "name": {
+                "pt-pt": "Coroa da Sabedoria",
+                "en-us": "Crown of Insight",
+                "ja-jp": "知恵の冠",
+                "zh-cn": "智识之冕",
+                "ko-kr": "지식의 왕관",
+                "ru-ru": "Корона прозрения",
+                "de-de": "Krone der Weisheit",
+                "fr-fr": "Couronne de la sagesse",
+                "es-es": "Corona de la sabiduría",
+                "id-id": "Crown of Insight",
+                "th-th": "Crown of Insight",
+                "vi-vn": "Vương Miện Trí Thức",
+                "zh-tw": "智識之冕"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "affiliation": {
+    "pt-pt": "Mondstadt",
+    "en-us": "Mondstadt",
+    "ja-jp": "モンド城",
+    "zh-cn": "蒙德城",
+    "ko-kr": "몬드성",
+    "ru-ru": "Мондштадт",
+    "de-de": "Mondstadt",
+    "fr-fr": "Cité de Mondstadt",
+    "es-es": "Mondstadt",
+    "id-id": "Mondstadt",
+    "th-th": "Mondstadt",
+    "vi-vn": "Thành Mondstadt",
+    "zh-tw": "蒙德城"
+  },
+  "birthday": {
+    "pt-pt": "16/6",
+    "en-us": "6/16",
+    "ja-jp": "6月16日",
+    "zh-cn": "6月16日",
+    "ko-kr": "6월 16일",
+    "ru-ru": "16 июня",
+    "de-de": "16. Juni",
+    "fr-fr": "16/6",
+    "es-es": "16/6",
+    "id-id": "16 Juni",
+    "th-th": "16/6",
+    "vi-vn": "Ngày 16 tháng 6",
+    "zh-tw": "6月16日"
+  },
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1496",
+          "iconUrl": null,
+          "amount": 1,
+          "name": {
+            "pt-pt": "Lasca de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Sliver",
+            "ja-jp": "自由のターコイズ・砕屑",
+            "zh-cn": "自在松石碎屑",
+            "ko-kr": "자유로운 터키석 가루",
+            "ru-ru": "Осколок бирюзы Вайюда",
+            "de-de": "Vayuda-Türkis-Splitter",
+            "fr-fr": "Éclat de turquoise vayuda",
+            "es-es": "Pedacito de turquesa vayuda",
+            "id-id": "Vayuda Turquoise Sliver",
+            "th-th": "Vayuda Turquoise Sliver",
+            "vi-vn": "Vụn Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石碎屑"
+          }
+        },
+        {
+          "id": "464",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Cecília",
+            "en-us": "Cecilia",
+            "ja-jp": "セシリアの花",
+            "zh-cn": "塞西莉亚花",
+            "ko-kr": "세실리아꽃",
+            "ru-ru": "Сесилия",
+            "de-de": "Cecilia",
+            "fr-fr": "Cécilia",
+            "es-es": "Cecilia",
+            "id-id": "Cecilia",
+            "th-th": "Cecilia",
+            "vi-vn": "Hoa Cecilia",
+            "zh-tw": "塞西莉亞花"
+          }
+        },
+        {
+          "id": "396",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Condensado de Slime",
+            "en-us": "Slime Condensate",
+            "ja-jp": "スライムの液体",
+            "zh-cn": "史莱姆凝液",
+            "ko-kr": "슬라임 응축액",
+            "ru-ru": "Слизь слайма",
+            "de-de": "Schleimabsonderung",
+            "fr-fr": "Bave de Blob",
+            "es-es": "Condensado de Slime",
+            "id-id": "Slime Condensate",
+            "th-th": "Slime Condensate",
+            "vi-vn": "Dịch Slime",
+            "zh-tw": "史萊姆凝液"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 40000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1495",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Fragment",
+            "ja-jp": "自由のターコイズ・欠片",
+            "zh-cn": "自在松石断片",
+            "ko-kr": "자유로운 터키석 조각",
+            "ru-ru": "Фрагмент бирюзы Вайюда",
+            "de-de": "Vayuda-Türkis-Bruchstück",
+            "fr-fr": "Fragment de turquoise vayuda",
+            "es-es": "Fragmento de turquesa vayuda",
+            "id-id": "Vayuda Turquoise Fragment",
+            "th-th": "Vayuda Turquoise Fragment",
+            "vi-vn": "Mảnh Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石斷片"
+          }
+        },
+        {
+          "id": "1751",
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Semente de Furacão",
+            "en-us": "Hurricane Seed",
+            "ja-jp": "暴風の種",
+            "zh-cn": "飓风之种",
+            "ko-kr": "폭풍의 씨앗",
+            "ru-ru": "Семя урагана",
+            "de-de": "Orkansamen",
+            "fr-fr": "Graine d'ouragan",
+            "es-es": "Semilla de huracán",
+            "id-id": "Hurricane Seed",
+            "th-th": "Hurricane Seed",
+            "vi-vn": "Hạt Giống Bão",
+            "zh-tw": "颶風之種"
+          }
+        },
+        {
+          "id": "464",
+          "iconUrl": null,
+          "amount": 10,
+          "name": {
+            "pt-pt": "Cecília",
+            "en-us": "Cecilia",
+            "ja-jp": "セシリアの花",
+            "zh-cn": "塞西莉亚花",
+            "ko-kr": "세실리아꽃",
+            "ru-ru": "Сесилия",
+            "de-de": "Cecilia",
+            "fr-fr": "Cécilia",
+            "es-es": "Cecilia",
+            "id-id": "Cecilia",
+            "th-th": "Cecilia",
+            "vi-vn": "Hoa Cecilia",
+            "zh-tw": "塞西莉亞花"
+          }
+        },
+        {
+          "id": "396",
+          "iconUrl": null,
+          "amount": 15,
+          "name": {
+            "pt-pt": "Condensado de Slime",
+            "en-us": "Slime Condensate",
+            "ja-jp": "スライムの液体",
+            "zh-cn": "史莱姆凝液",
+            "ko-kr": "슬라임 응축액",
+            "ru-ru": "Слизь слайма",
+            "de-de": "Schleimabsonderung",
+            "fr-fr": "Bave de Blob",
+            "es-es": "Condensado de Slime",
+            "id-id": "Slime Condensate",
+            "th-th": "Slime Condensate",
+            "vi-vn": "Dịch Slime",
+            "zh-tw": "史萊姆凝液"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 60000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1495",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Fragment",
+            "ja-jp": "自由のターコイズ・欠片",
+            "zh-cn": "自在松石断片",
+            "ko-kr": "자유로운 터키석 조각",
+            "ru-ru": "Фрагмент бирюзы Вайюда",
+            "de-de": "Vayuda-Türkis-Bruchstück",
+            "fr-fr": "Fragment de turquoise vayuda",
+            "es-es": "Fragmento de turquesa vayuda",
+            "id-id": "Vayuda Turquoise Fragment",
+            "th-th": "Vayuda Turquoise Fragment",
+            "vi-vn": "Mảnh Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石斷片"
+          }
+        },
+        {
+          "id": "1751",
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Semente de Furacão",
+            "en-us": "Hurricane Seed",
+            "ja-jp": "暴風の種",
+            "zh-cn": "飓风之种",
+            "ko-kr": "폭풍의 씨앗",
+            "ru-ru": "Семя урагана",
+            "de-de": "Orkansamen",
+            "fr-fr": "Graine d'ouragan",
+            "es-es": "Semilla de huracán",
+            "id-id": "Hurricane Seed",
+            "th-th": "Hurricane Seed",
+            "vi-vn": "Hạt Giống Bão",
+            "zh-tw": "颶風之種"
+          }
+        },
+        {
+          "id": "464",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Cecília",
+            "en-us": "Cecilia",
+            "ja-jp": "セシリアの花",
+            "zh-cn": "塞西莉亚花",
+            "ko-kr": "세실리아꽃",
+            "ru-ru": "Сесилия",
+            "de-de": "Cecilia",
+            "fr-fr": "Cécilia",
+            "es-es": "Cecilia",
+            "id-id": "Cecilia",
+            "th-th": "Cecilia",
+            "vi-vn": "Hoa Cecilia",
+            "zh-tw": "塞西莉亞花"
+          }
+        },
+        {
+          "id": "398",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Secreção de Slime",
+            "en-us": "Slime Secretions",
+            "ja-jp": "スライムの分泌物",
+            "zh-cn": "史莱姆清",
+            "ko-kr": "슬라임청",
+            "ru-ru": "Выделения слайма",
+            "de-de": "Schleimkondensat",
+            "fr-fr": "Mucus de Blob",
+            "es-es": "Babas de Slime",
+            "id-id": "Slime Secretions",
+            "th-th": "Slime Secretions",
+            "vi-vn": "Tinh Slime",
+            "zh-tw": "史萊姆清"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 80000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1494",
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Chunk",
+            "ja-jp": "自由のターコイズ・塊",
+            "zh-cn": "自在松石块",
+            "ko-kr": "자유로운 터키석 덩이",
+            "ru-ru": "Кусок бирюзы Вайюда",
+            "de-de": "Vayuda-Türkis-Brocken",
+            "fr-fr": "Morceau de turquoise vayuda",
+            "es-es": "Trozo de turquesa vayuda",
+            "id-id": "Vayuda Turquoise Chunk",
+            "th-th": "Vayuda Turquoise Chunk",
+            "vi-vn": "Miếng Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石塊"
+          }
+        },
+        {
+          "id": "1751",
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Semente de Furacão",
+            "en-us": "Hurricane Seed",
+            "ja-jp": "暴風の種",
+            "zh-cn": "飓风之种",
+            "ko-kr": "폭풍의 씨앗",
+            "ru-ru": "Семя урагана",
+            "de-de": "Orkansamen",
+            "fr-fr": "Graine d'ouragan",
+            "es-es": "Semilla de huracán",
+            "id-id": "Hurricane Seed",
+            "th-th": "Hurricane Seed",
+            "vi-vn": "Hạt Giống Bão",
+            "zh-tw": "颶風之種"
+          }
+        },
+        {
+          "id": "464",
+          "iconUrl": null,
+          "amount": 30,
+          "name": {
+            "pt-pt": "Cecília",
+            "en-us": "Cecilia",
+            "ja-jp": "セシリアの花",
+            "zh-cn": "塞西莉亚花",
+            "ko-kr": "세실리아꽃",
+            "ru-ru": "Сесилия",
+            "de-de": "Cecilia",
+            "fr-fr": "Cécilia",
+            "es-es": "Cecilia",
+            "id-id": "Cecilia",
+            "th-th": "Cecilia",
+            "vi-vn": "Hoa Cecilia",
+            "zh-tw": "塞西莉亞花"
+          }
+        },
+        {
+          "id": "398",
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Secreção de Slime",
+            "en-us": "Slime Secretions",
+            "ja-jp": "スライムの分泌物",
+            "zh-cn": "史莱姆清",
+            "ko-kr": "슬라임청",
+            "ru-ru": "Выделения слайма",
+            "de-de": "Schleimkondensat",
+            "fr-fr": "Mucus de Blob",
+            "es-es": "Babas de Slime",
+            "id-id": "Slime Secretions",
+            "th-th": "Slime Secretions",
+            "vi-vn": "Tinh Slime",
+            "zh-tw": "史萊姆清"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 100000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1494",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Chunk",
+            "ja-jp": "自由のターコイズ・塊",
+            "zh-cn": "自在松石块",
+            "ko-kr": "자유로운 터키석 덩이",
+            "ru-ru": "Кусок бирюзы Вайюда",
+            "de-de": "Vayuda-Türkis-Brocken",
+            "fr-fr": "Morceau de turquoise vayuda",
+            "es-es": "Trozo de turquesa vayuda",
+            "id-id": "Vayuda Turquoise Chunk",
+            "th-th": "Vayuda Turquoise Chunk",
+            "vi-vn": "Miếng Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石塊"
+          }
+        },
+        {
+          "id": "1751",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Semente de Furacão",
+            "en-us": "Hurricane Seed",
+            "ja-jp": "暴風の種",
+            "zh-cn": "飓风之种",
+            "ko-kr": "폭풍의 씨앗",
+            "ru-ru": "Семя урагана",
+            "de-de": "Orkansamen",
+            "fr-fr": "Graine d'ouragan",
+            "es-es": "Semilla de huracán",
+            "id-id": "Hurricane Seed",
+            "th-th": "Hurricane Seed",
+            "vi-vn": "Hạt Giống Bão",
+            "zh-tw": "颶風之種"
+          }
+        },
+        {
+          "id": "464",
+          "iconUrl": null,
+          "amount": 45,
+          "name": {
+            "pt-pt": "Cecília",
+            "en-us": "Cecilia",
+            "ja-jp": "セシリアの花",
+            "zh-cn": "塞西莉亚花",
+            "ko-kr": "세실리아꽃",
+            "ru-ru": "Сесилия",
+            "de-de": "Cecilia",
+            "fr-fr": "Cécilia",
+            "es-es": "Cecilia",
+            "id-id": "Cecilia",
+            "th-th": "Cecilia",
+            "vi-vn": "Hoa Cecilia",
+            "zh-tw": "塞西莉亞花"
+          }
+        },
+        {
+          "id": "397",
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Essência de Slime",
+            "en-us": "Slime Concentrate",
+            "ja-jp": "スライムのピュレ",
+            "zh-cn": "史莱姆原浆",
+            "ko-kr": "슬라임 원액",
+            "ru-ru": "Концентрат слайма",
+            "de-de": "Schleimkonzentrat",
+            "fr-fr": "Essence de Blob",
+            "es-es": "Esencia de Slime",
+            "id-id": "Slime Concentrate",
+            "th-th": "Slime Concentrate",
+            "vi-vn": "Bột Slime",
+            "zh-tw": "史萊姆原漿"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": "757",
+          "iconUrl": null,
+          "amount": 120000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": "1493",
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Gema de Turquesa Vayuda",
+            "en-us": "Vayuda Turquoise Gemstone",
+            "ja-jp": "自由のターコイズ",
+            "zh-cn": "自在松石",
+            "ko-kr": "자유로운 터키석",
+            "ru-ru": "Драгоценная бирюза Вайюда",
+            "de-de": "Vayuda-Türkis",
+            "fr-fr": "Pierre de turquoise vayuda",
+            "es-es": "Turquesa vayuda",
+            "id-id": "Vayuda Turquoise Gemstone",
+            "th-th": "Vayuda Turquoise Gemstone",
+            "vi-vn": "Tùng Thạch Tự Tại",
+            "zh-tw": "自在松石"
+          }
+        },
+        {
+          "id": "1751",
+          "iconUrl": null,
+          "amount": 20,
+          "name": {
+            "pt-pt": "Semente de Furacão",
+            "en-us": "Hurricane Seed",
+            "ja-jp": "暴風の種",
+            "zh-cn": "飓风之种",
+            "ko-kr": "폭풍의 씨앗",
+            "ru-ru": "Семя урагана",
+            "de-de": "Orkansamen",
+            "fr-fr": "Graine d'ouragan",
+            "es-es": "Semilla de huracán",
+            "id-id": "Hurricane Seed",
+            "th-th": "Hurricane Seed",
+            "vi-vn": "Hạt Giống Bão",
+            "zh-tw": "颶風之種"
+          }
+        },
+        {
+          "id": "464",
+          "iconUrl": null,
+          "amount": 60,
+          "name": {
+            "pt-pt": "Cecília",
+            "en-us": "Cecilia",
+            "ja-jp": "セシリアの花",
+            "zh-cn": "塞西莉亚花",
+            "ko-kr": "세실리아꽃",
+            "ru-ru": "Сесилия",
+            "de-de": "Cecilia",
+            "fr-fr": "Cécilia",
+            "es-es": "Cecilia",
+            "id-id": "Cecilia",
+            "th-th": "Cecilia",
+            "vi-vn": "Hoa Cecilia",
+            "zh-tw": "塞西莉亞花"
+          }
+        },
+        {
+          "id": "397",
+          "iconUrl": null,
+          "amount": 24,
+          "name": {
+            "pt-pt": "Essência de Slime",
+            "en-us": "Slime Concentrate",
+            "ja-jp": "スライムのピュレ",
+            "zh-cn": "史莱姆原浆",
+            "ko-kr": "슬라임 원액",
+            "ru-ru": "Концентрат слайма",
+            "de-de": "Schleimkonzentrat",
+            "fr-fr": "Essence de Blob",
+            "es-es": "Esencia de Slime",
+            "id-id": "Slime Concentrate",
+            "th-th": "Slime Concentrate",
+            "vi-vn": "Bột Slime",
+            "zh-tw": "史萊姆原漿"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур.1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "820"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "20"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "52"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "",
+          "postAscensionValue": "0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур.20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "2127",
+          "postAscensionValue": "2830"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "53",
+          "postAscensionValue": "71"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "135",
+          "postAscensionValue": "180"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "0%",
+          "postAscensionValue": "0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур.40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "4234",
+          "postAscensionValue": "4734"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "106",
+          "postAscensionValue": "118"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "269",
+          "postAscensionValue": "301"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "0%",
+          "postAscensionValue": "8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур.50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "5446",
+          "postAscensionValue": "6112"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "136",
+          "postAscensionValue": "153"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "346",
+          "postAscensionValue": "388"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "8%",
+          "postAscensionValue": "16%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур.60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "6832",
+          "postAscensionValue": "7331"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "171",
+          "postAscensionValue": "183"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "434",
+          "postAscensionValue": "465"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "16%",
+          "postAscensionValue": "16%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур.70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "8058",
+          "postAscensionValue": "8557"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "201",
+          "postAscensionValue": "214"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "512",
+          "postAscensionValue": "543"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "16%",
+          "postAscensionValue": "24%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур.80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "9292",
+          "postAscensionValue": "9791"
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "232",
+          "postAscensionValue": "245"
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "590",
+          "postAscensionValue": "622"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "24%",
+          "postAscensionValue": "32%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур.90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "Vida Básica",
+            "en-us": "Base HP",
+            "ja-jp": "基礎HP",
+            "zh-cn": "基础生命值",
+            "ko-kr": "기초 HP",
+            "ru-ru": "Базовое HP",
+            "de-de": "Basis-LP",
+            "fr-fr": "PV de base",
+            "es-es": "Vida Base",
+            "id-id": "Base HP",
+            "th-th": "พลังชีวิตพื้นฐาน",
+            "vi-vn": "HP Căn Bản",
+            "zh-tw": "基礎生命值"
+          },
+          "preAscensionValue": "10531",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "ATQ Básico",
+            "en-us": "Base ATK",
+            "ja-jp": "基礎攻撃力",
+            "zh-cn": "基础攻击力",
+            "ko-kr": "기초 공격력",
+            "ru-ru": "Базовая атака",
+            "de-de": "Basis-ANG",
+            "fr-fr": "ATQ de base",
+            "es-es": "ATQ Básico",
+            "id-id": "Base ATK",
+            "th-th": "พลังโจมตีพื้นฐาน",
+            "vi-vn": "Tấn Công Căn Bản",
+            "zh-tw": "基礎攻擊力"
+          },
+          "preAscensionValue": "263",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "DEF Básica",
+            "en-us": "Base DEF",
+            "ja-jp": "基礎防御力",
+            "zh-cn": "基础防御力",
+            "ko-kr": "기초 방어력",
+            "ru-ru": "Базовая защита",
+            "de-de": "Basis-VTD",
+            "fr-fr": "DÉF de base",
+            "es-es": "DEF Base",
+            "id-id": "Base DEF",
+            "th-th": "ป้องกันพื้นฐาน",
+            "vi-vn": "P.Ngự Căn Bản",
+            "zh-tw": "基礎防禦力"
+          },
+          "preAscensionValue": "669",
+          "postAscensionValue": ""
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "preAscensionValue": "32%",
+          "postAscensionValue": ""
+        }
+      ]
+    }
+  ]
+}
