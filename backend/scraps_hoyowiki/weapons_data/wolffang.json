@@ -1,0 +1,1142 @@
+{
+  "id": "wolffang",
+  "wiki_id": 3999,
+  "name": {
+    "pt-pt": "Farpa",
+    "en-us": "Wolf-Fang",
+    "ja-jp": "狼牙",
+    "zh-cn": "狼牙",
+    "ko-kr": "늑대 송곳니",
+    "ru-ru": "Волчий клык",
+    "de-de": "Wolfszahn",
+    "fr-fr": "Croc de loup",
+    "es-es": "Colmillo Lupino",
+    "id-id": "Wolf-Fang",
+    "th-th": "Wolf-Fang",
+    "vi-vn": "Nanh Sói",
+    "zh-tw": "狼牙"
+  },
+  "description": {
+    "pt-pt": "Lendas dizem que essa lâmina foi usada por um cavaleiro andarilho num passado distante.",
+    "en-us": "Legend has it that this longsword was once used by a wandering knight in the distant past.",
+    "ja-jp": "伝説によると、遥か昔の流浪騎士が使っていた長剣。",
+    "zh-cn": "传说中，遥远过去的流浪骑士所使用的长剑。",
+    "ko-kr": "전설에 따르면, 먼 옛날 한 방랑 기사가 이 장검을 사용했다고 한다.",
+    "ru-ru": "Легендарный длинный меч странствующих рыцарей далёкого прошлого.",
+    "de-de": "Ein legendäres Langschwert, das von einem wandernden Ritter einer längst vergessenen Zeit geführt wurde.",
+    "fr-fr": "La légende raconte que cette longue épée était autrefois utilisée par un chevalier nomade d'un passé lointain.",
+    "es-es": "Cuenta la leyenda que esta era la espada que utilizaba el legendario caballero errante de un pasado muy remoto.",
+    "id-id": "Konon menurut legenda, pedang panjang ini pernah digunakan oleh seorang kesatria pengembara di masa lalu.",
+    "th-th": "ตำนานเล่าว่าในอดีตอันยาวนาน นี่เคยเป็นดาบของอัศวินพเนจรท่านหนึ่ง",
+    "vi-vn": "Trong truyền thuyết, đây là thanh kiếm dài mà kỵ sĩ lang thang thời xa xưa đã sử dụng.",
+    "zh-tw": "傳說中，遙遠過去的流浪騎士所使用的長劍。"
+  },
+  "rarity": 4,
+  "type": {
+    "pt-pt": "Espada",
+    "en-us": "Sword",
+    "ja-jp": "片手剣",
+    "zh-cn": "单手剑",
+    "ko-kr": "한손검",
+    "ru-ru": "Одноручное",
+    "de-de": "Einhänder",
+    "fr-fr": "Épée à une main",
+    "es-es": "Espada ligera",
+    "id-id": "Sword",
+    "th-th": "ดาบ",
+    "vi-vn": "Kiếm Đơn",
+    "zh-tw": "單手劍"
+  },
+  "subStat": {
+    "pt-pt": "Taxa CRIT%",
+    "en-us": "CRIT Rate",
+    "ja-jp": "会心率",
+    "zh-cn": "暴击率",
+    "ko-kr": "치명타 확률",
+    "ru-ru": "Шанс крит. попад.",
+    "de-de": "KT",
+    "fr-fr": "Taux CRIT",
+    "es-es": "Prob. CRIT",
+    "id-id": "CRIT Rate",
+    "th-th": "อัตราคริ",
+    "vi-vn": "Tỷ Lệ Bạo Kích",
+    "zh-tw": "暴擊率"
+  },
+  "passiveName": {
+    "pt-pt": "Vento Setentrional do Lobo Azul",
+    "en-us": "Northwind Wolf",
+    "ja-jp": "蒼き狼の北風",
+    "zh-cn": "苍狼北风",
+    "ko-kr": "북풍의 푸른 늑대",
+    "ru-ru": "Волк северного ветра:",
+    "de-de": "Wolf des Nordwinds",
+    "fr-fr": "Loup boréal",
+    "es-es": "Viento boreazulado",
+    "id-id": "Notrhwind Wolf",
+    "th-th": "Northwind Wolf",
+    "vi-vn": "Nguồn Gốc",
+    "zh-tw": "蒼狼北風"
+  },
+  "passiveDescription": {
+    "pt-pt": "Aumenta o Dano causado pela Habilidade Elemental e Supremo em 16/20/24/28/32%. Quando a Habilidade Elemental atingir um inimigo, aumenta a Taxa CRIT dela em 2/2.5/3/3.5/4%. Quando o Supremo atingir um inimigo, aumenta a Taxa CRIT dele em 2/2.5/3/3.5/4%. Esses dois efeitos duram 10s cada e podem ser acumulados até 4 vezes, podendo serem desencadeados uma vez a cada 0.1s.",
+    "en-us": "DMG dealt by Elemental Skill and Elemental Burst is increased by 16%/20%/24%/28%/32%. When an Elemental Skill hits an opponent, its CRIT Rate will be increased by 2%/2.%5/3%/3.5%/4%. When an Elemental Burst hits an opponent, its CRIT Rate will be increased by 2%/2.5%/3%/3.5%/4%. Both of these effects last 10s separately, have 4 max stacks, and can be triggered once every 0.1s.",
+    "ja-jp": "元素スキルと元素爆発のダメージ+16/20/24/28/32%。元素スキルが敵に命中した時、元素スキルの会心率+2/2.5/3/3.5/4%。元素爆発が敵に命中した時、元素爆発の会心率+2/2.5/3/3.5/4%。上記二つの効果はそれぞれ、継続時間10秒、最大4層まで重ね掛け可能、0.1秒毎に1回のみ発動できる。",
+    "zh-cn": "元素战技与元素爆发造成的伤害提升16/20/24/28/32%。元素战技命中敌人时，元素战技的暴击率提升2/2.5/3/3.5/4%；元素爆发命中敌人时，元素爆发的暴击率提升2/2.5/3/3.5/4%。上述两种效果各自持续10秒，至多叠加4次，每0.1秒至多触发一次。",
+    "ko-kr": "원소전투 스킬과 원소폭발로 주는 피해가 16/20/24/28/32% 증가한다. 원소전투 스킬이 적에게 명중 시, 원소전투 스킬의 치명타 확률이 2/2.5/3/3.5/4% 증가한다. 원소폭발이 적에게 명중 시, 원소폭발의 치명타 확률이 2/2.5/3/3.5/4% 증가한다. 상술한 두 가지 효과는 각각 10초 동안 지속되며 0.1초마다 최대 1회 발동한다. 최대 중첩수: 4회",
+    "ru-ru": "Увеличивает урон элементального навыка и взрыва стихии на 16%/20%/24%/28%/32%. Когда элементальный навык попадает по врагу, его шанс крит. попадания увеличивается на 2%/2,5%/3%/3,5%/4%. Когда взрыв стихии попадает по врагу, его шанс крит. попадания увеличивается на 2%/2,5%/3%/3,5%/4%. Эти эффекты действуют независимо друг от друга. Каждый из эффектов длится 10 сек., складывается до 4 раз и может возникнуть один раз в 0,1 сек.",
+    "de-de": "Erhöht den mit Elementarfähigkeiten und Spezialfähigkeiten verursachten Schaden um 16% ~ 20% ~ 24% ~ 28% ~ 32%. Erhöht beim Treffen von Gegnern mit Elementarfähigkeiten die KT von Elementarfähigkeiten um 2% ~ 2,5% ~ 3%~ 3,5% ~ 4%. Erhöht beim Treffen von Gegnern mit Spezialfähigkeiten die KT von Spezialfähigkeiten um 2% ~ 2,5% ~ 3%~ 3,5% ~ 4%. Diese beiden Effekte halten jeweils 10s. 4-fach stapelbar, 0,1s Abklingzeit.",
+    "fr-fr": "Les DGT infligés par les compétences et déchaînements élémentaires augmentent de 16 %/20 %/24 %/28 %/32 %. Lorsqu'une compétence élémentaire touche un ennemi, son taux CRIT augmente de 2 %. Lorsqu'un déchaînement élémentaire touche un ennemi, son taux CRIT augmente de 2 %/2,5 %/3 %/3,5 %/4 %. Chacun de ces deux effets dure 10 s, et peut être cumulé 4 fois maximum et déclenché une fois toutes les 0,1 s.",
+    "es-es": "Aumenta en un 16/20/24/28/32% el daño de la Habilidad Elemental y la Habilidad Definitiva. Tras golpear a un enemigo con la Habilidad Elemental, su Prob. CRIT aumenta en un 2/2.5/3/3.5/4%, y tras golpearlo con la Habilidad Definitiva, la Prob. CRIT de esta habilidad aumenta en un 2%. Cada uno de estos efectos dura 10 s, se puede acumular hasta 4 veces y se puede activar una vez cada 0.1 s.",
+    "id-id": "Meningkatkan DMG yang diakibatkan Elemental Skill dan Elemental Burst sebesar 16%/20%/24%/28%/32%. Saat Elemental Skill mengenai musuh, CRIT Rate Elemental Skill meningkat 2%/2,5%/3%/3,5%/4%. Saat Elemental Burst mengenai musuh, CRIT Rate Elemental Burst meningkat 2%/2,5%/3%/3,5%/4%. Kedua efek tersebut masing-masing dapat berlangsung selama 10 detik dan dapat ditumpuk sampai 4 kali. Efek tersebut dapat terpicu sekali setiap 0,1 detik.",
+    "th-th": "สกิลธาตุและท่าไม้ตาย สร้างความเสียหายเพิ่มขึ้น 16% เมื่อสกิลธาตุโจมตีถูกศัตรู อัตราคริของสกิลธาตุจะเพิ่มขึ้น 2%; เมื่อท่าไม้ตายโจมตีถูกศัตรู อัตราคริของท่าไม้ตายจะเพิ่มขึ้น 2% โดยทั้งสองเอฟเฟกต์ข้างต้นจะมีระยะเวลาต่อเนื่อง 10 วินาที และถูกคิดแยกกัน ซ้อนทับได้สูงสุด 4 ชั้น และจะเกิดขึ้นมากสุดหนึ่งครั้งในทุก 0.1 วินาที",
+    "vi-vn": "Rương Báu Nhật Ký Hành Trình",
+    "zh-tw": "元素戰技與元素爆發造成的傷害提升16%/20%/24%/28%/32%。元素戰技命中敵人時，元素戰技的暴擊率提升2%/2.5%/3%/3.5%/4%；元素爆發命中敵人時，元素爆發的暴擊率提升2%/2.5%/3%/3.5%/4%。上述兩種效果各自持續10秒，至多疊加4次，每0.1秒至多觸發一次。"
+  },
+  "weaponIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/20/59559639/e1d10d55b8b96e0695000018664e17ef_3188034551112307769.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv. 20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv. 20"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 5000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 1879,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Tile%20of%20Decarabian's%20Tower_icon.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Azulejo de Decarabian",
+            "en-us": "Tile of Decarabian's Tower",
+            "ja-jp": "高塔の王の瓦",
+            "zh-cn": "高塔孤王的破瓦",
+            "ko-kr": "고탑 왕의 잔해",
+            "ru-ru": "Плитка башни Декарабиана",
+            "de-de": "Decabarians zerbrochener Ziegel",
+            "fr-fr": "Tuile cassée de Décarabian",
+            "es-es": "Fragmento de azulejo de Decarabian",
+            "id-id": "Tile of Decarabian's Tower",
+            "th-th": "Tile of Decarabian's Tower",
+            "vi-vn": "Ngói Vỡ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的破瓦"
+          }
+        },
+        {
+          "id": 1047,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Chaos%20Device_icon.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Dispositivo do Caos",
+            "en-us": "Chaos Device",
+            "ja-jp": "混沌の装置",
+            "zh-cn": "混沌装置",
+            "ko-kr": "혼돈의 장치",
+            "ru-ru": "Устройство хаоса",
+            "de-de": "Chaos-Apparat",
+            "fr-fr": "Dispositif du chaos",
+            "es-es": "Dispositivo del caos",
+            "id-id": "Chaos Device",
+            "th-th": "Chaos Device",
+            "vi-vn": "Cấu Trúc Hỗn Độn",
+            "zh-tw": "混沌裝置"
+          }
+        },
+        {
+          "id": 1247,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Damaged%20Mask_icon.png",
+          "amount": 2,
+          "name": {
+            "pt-pt": "Máscara Danificada",
+            "en-us": "Damaged Mask",
+            "ja-jp": "破損した仮面",
+            "zh-cn": "破损的面具",
+            "ko-kr": "부서진 가면",
+            "ru-ru": "Разбитая маска",
+            "de-de": "Zerbrochene Maske",
+            "fr-fr": "Masque endommagé",
+            "es-es": "Máscara dañada",
+            "id-id": "Damaged Mask",
+            "th-th": "Damaged Mask",
+            "vi-vn": "Mặt Nạ Vỡ",
+            "zh-tw": "破損的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv. 40"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 15000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 1878,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Debris%20of%20Decarabian's%20City_icon.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Detritos da Cidade de Decarabian",
+            "en-us": "Debris of Decarabian's City",
+            "ja-jp": "高塔の王の残壁",
+            "zh-cn": "高塔孤王的残垣",
+            "ko-kr": "고탑 왕의 절망",
+            "ru-ru": "Обломок стены Декарабиана",
+            "de-de": "Decabarians zerbröckelter Wall",
+            "fr-fr": "Mur abattu de Décarabian",
+            "es-es": "Escombro de la ciudad de Decarabian",
+            "id-id": "Debris of Decarabian's City",
+            "th-th": "Debris of Decarabian's City",
+            "vi-vn": "Xác Tàu Tháp Cô Vương",
+            "zh-tw": "高塔孤王的殘垣"
+          }
+        },
+        {
+          "id": 1047,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Chaos%20Device_icon.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Dispositivo do Caos",
+            "en-us": "Chaos Device",
+            "ja-jp": "混沌の装置",
+            "zh-cn": "混沌装置",
+            "ko-kr": "혼돈의 장치",
+            "ru-ru": "Устройство хаоса",
+            "de-de": "Chaos-Apparat",
+            "fr-fr": "Dispositif du chaos",
+            "es-es": "Dispositivo del caos",
+            "id-id": "Chaos Device",
+            "th-th": "Chaos Device",
+            "vi-vn": "Cấu Trúc Hỗn Độn",
+            "zh-tw": "混沌裝置"
+          }
+        },
+        {
+          "id": 1247,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Damaged%20Mask_icon.png",
+          "amount": 8,
+          "name": {
+            "pt-pt": "Máscara Danificada",
+            "en-us": "Damaged Mask",
+            "ja-jp": "破損した仮面",
+            "zh-cn": "破损的面具",
+            "ko-kr": "부서진 가면",
+            "ru-ru": "Разбитая маска",
+            "de-de": "Zerbrochene Maske",
+            "fr-fr": "Masque endommagé",
+            "es-es": "Máscara dañada",
+            "id-id": "Damaged Mask",
+            "th-th": "Damaged Mask",
+            "vi-vn": "Mặt Nạ Vỡ",
+            "zh-tw": "破損的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv. 50"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 1878,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Debris%20of%20Decarabian's%20City_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Detritos da Cidade de Decarabian",
+            "en-us": "Debris of Decarabian's City",
+            "ja-jp": "高塔の王の残壁",
+            "zh-cn": "高塔孤王的残垣",
+            "ko-kr": "고탑 왕의 절망",
+            "ru-ru": "Обломок стены Декарабиана",
+            "de-de": "Decabarians zerbröckelter Wall",
+            "fr-fr": "Mur abattu de Décarabian",
+            "es-es": "Escombro de la ciudad de Decarabian",
+            "id-id": "Debris of Decarabian's City",
+            "th-th": "Debris of Decarabian's City",
+            "vi-vn": "Xác Tàu Tháp Cô Vương",
+            "zh-tw": "高塔孤王的殘垣"
+          }
+        },
+        {
+          "id": 1042,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Chaos%20Circuit_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Circuito do Caos",
+            "en-us": "Chaos Circuit",
+            "ja-jp": "混沌の回路",
+            "zh-cn": "混沌回路",
+            "ko-kr": "혼돈의 회로",
+            "ru-ru": "Цепь хаоса",
+            "de-de": "Chaos-Schaltkreis",
+            "fr-fr": "Circuit du chaos",
+            "es-es": "Circuito del caos",
+            "id-id": "Chaos Circuit",
+            "th-th": "Chaos Circuit",
+            "vi-vn": "Bộ Não Hỗn Độn",
+            "zh-tw": "混沌迴路"
+          }
+        },
+        {
+          "id": 983,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Stained%20Mask_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Máscara Suja",
+            "en-us": "Stained Mask",
+            "ja-jp": "汚れた仮面",
+            "zh-cn": "污秽的面具",
+            "ko-kr": "오염된 가면",
+            "ru-ru": "Грязная маска",
+            "de-de": "Verdreckte Maske",
+            "fr-fr": "Masque sale",
+            "es-es": "Máscara sucia",
+            "id-id": "Stained Mask",
+            "th-th": "Stained Mask",
+            "vi-vn": "Mặt Nạ Bẩn",
+            "zh-tw": "汙穢的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv. 60"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 30000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 1877,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Fragment%20of%20Decarabian's%20Epic_icon.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmentos Épicos da Decarabian",
+            "en-us": "Fragment of Decarabian's Epic",
+            "ja-jp": "高塔の王の断片",
+            "zh-cn": "高塔孤王的断片",
+            "ko-kr": "고탑 왕의 조각",
+            "ru-ru": "Фрагмент эпоса Декарабиана",
+            "de-de": "Decabarians Palastfragment",
+            "fr-fr": "Fragment dispersé de Décarabian",
+            "es-es": "Fragmento de epopeya de Decarabian",
+            "id-id": "Fragment of Decarabian's Epic",
+            "th-th": "Fragment of Decarabian's Epic",
+            "vi-vn": "Mảnh Vỡ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的斷片"
+          }
+        },
+        {
+          "id": 1042,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Chaos%20Circuit_icon.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Circuito do Caos",
+            "en-us": "Chaos Circuit",
+            "ja-jp": "混沌の回路",
+            "zh-cn": "混沌回路",
+            "ko-kr": "혼돈의 회로",
+            "ru-ru": "Цепь хаоса",
+            "de-de": "Chaos-Schaltkreis",
+            "fr-fr": "Circuit du chaos",
+            "es-es": "Circuito del caos",
+            "id-id": "Chaos Circuit",
+            "th-th": "Chaos Circuit",
+            "vi-vn": "Bộ Não Hỗn Độn",
+            "zh-tw": "混沌迴路"
+          }
+        },
+        {
+          "id": 983,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Stained%20Mask_icon.png",
+          "amount": 9,
+          "name": {
+            "pt-pt": "Máscara Suja",
+            "en-us": "Stained Mask",
+            "ja-jp": "汚れた仮面",
+            "zh-cn": "污秽的面具",
+            "ko-kr": "오염된 가면",
+            "ru-ru": "Грязная маска",
+            "de-de": "Verdreckte Maske",
+            "fr-fr": "Masque sale",
+            "es-es": "Máscara sucia",
+            "id-id": "Stained Mask",
+            "th-th": "Stained Mask",
+            "vi-vn": "Mặt Nạ Bẩn",
+            "zh-tw": "汙穢的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv. 70"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 35000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 1877,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Fragment%20of%20Decarabian's%20Epic_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmentos Épicos da Decarabian",
+            "en-us": "Fragment of Decarabian's Epic",
+            "ja-jp": "高塔の王の断片",
+            "zh-cn": "高塔孤王的断片",
+            "ko-kr": "고탑 왕의 조각",
+            "ru-ru": "Фрагмент эпоса Декарабиана",
+            "de-de": "Decabarians Palastfragment",
+            "fr-fr": "Fragment dispersé de Décarabian",
+            "es-es": "Fragmento de epopeya de Decarabian",
+            "id-id": "Fragment of Decarabian's Epic",
+            "th-th": "Fragment of Decarabian's Epic",
+            "vi-vn": "Mảnh Vỡ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的斷片"
+          }
+        },
+        {
+          "id": 1045,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Chaos%20Core_icon.png",
+          "amount": 9,
+          "name": {
+            "pt-pt": "Fornalha do Caos",
+            "en-us": "Chaos Core",
+            "ja-jp": "混沌の炉心",
+            "zh-cn": "混沌炉心",
+            "ko-kr": "혼돈의 노심",
+            "ru-ru": "Ядро хаоса",
+            "de-de": "Chaos-Getriebe",
+            "fr-fr": "Noyau du chaos",
+            "es-es": "Caldera del caos",
+            "id-id": "Chaos Core",
+            "th-th": "Chaos Core",
+            "vi-vn": "Trái Tim Hỗn Độn",
+            "zh-tw": "混沌爐心"
+          }
+        },
+        {
+          "id": 220,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Ominous%20Mask_icon.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Máscara Ominosa",
+            "en-us": "Ominous Mask",
+            "ja-jp": "不吉な仮面",
+            "zh-cn": "不祥的面具",
+            "ko-kr": "불길한 가면",
+            "ru-ru": "Зловещая маска",
+            "de-de": "Unheilvolle Maske",
+            "fr-fr": "Masque sinistre",
+            "es-es": "Máscara amenazante",
+            "id-id": "Ominous Mask",
+            "th-th": "Ominous Mask",
+            "vi-vn": "Mặt Nạ Xui Xẻo",
+            "zh-tw": "不祥的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv. 80"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 45000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 1880,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Scattered%20Piece%20of%20Decarabian's%20Dream_icon.png",
+          "amount": 4,
+          "name": {
+            "pt-pt": "Pedaços de Sonho da Decarabian",
+            "en-us": "Scattered Piece of Decarabian's Dream",
+            "ja-jp": "高塔の王の砕けた夢",
+            "zh-cn": "高塔孤王的碎梦",
+            "ko-kr": "고탑 왕의 깨진 꿈",
+            "ru-ru": "Осколок мечты Декарабиана",
+            "de-de": "Decabarians zerstörter Traum",
+            "fr-fr": "Rêve brisé de Décarabian",
+            "es-es": "Fragmento de sueño de Decarabian",
+            "id-id": "Scattered Piece of Decarabian's Dream",
+            "th-th": "Scattered Piece of Decarabian's Dream",
+            "vi-vn": "Mảnh Giấc Mơ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的碎夢"
+          }
+        },
+        {
+          "id": 1045,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Chaos%20Core_icon.png",
+          "amount": 18,
+          "name": {
+            "pt-pt": "Fornalha do Caos",
+            "en-us": "Chaos Core",
+            "ja-jp": "混沌の炉心",
+            "zh-cn": "混沌炉心",
+            "ko-kr": "혼돈의 노심",
+            "ru-ru": "Ядро хаоса",
+            "de-de": "Chaos-Getriebe",
+            "fr-fr": "Noyau du chaos",
+            "es-es": "Caldera del caos",
+            "id-id": "Chaos Core",
+            "th-th": "Chaos Core",
+            "vi-vn": "Trái Tim Hỗn Độn",
+            "zh-tw": "混沌爐心"
+          }
+        },
+        {
+          "id": 220,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Ominous%20Mask_icon.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Máscara Ominosa",
+            "en-us": "Ominous Mask",
+            "ja-jp": "不吉な仮面",
+            "zh-cn": "不祥的面具",
+            "ko-kr": "불길한 가면",
+            "ru-ru": "Зловещая маска",
+            "de-de": "Unheilvolle Maske",
+            "fr-fr": "Masque sinistre",
+            "es-es": "Máscara amenazante",
+            "id-id": "Ominous Mask",
+            "th-th": "Ominous Mask",
+            "vi-vn": "Mặt Nạ Xui Xẻo",
+            "zh-tw": "不祥的面具"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv. 1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St. 1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv. 1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv. 1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "42"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa CRIT",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "6.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv. 20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "109",
+          "postAscensionValue": "135"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa CRIT",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "10.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv. 40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "205",
+          "postAscensionValue": "231"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa CRIT",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "15.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv. 50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "266",
+          "postAscensionValue": "292"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa CRIT",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "17.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv. 60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "327",
+          "postAscensionValue": "353"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa CRIT",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "20.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv. 70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "388",
+          "postAscensionValue": "414"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa CRIT",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "22.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv. 80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "449",
+          "postAscensionValue": "475"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa CRIT",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "25.1%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St. 90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv. 90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv. 90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "510",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa CRIT",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "27.6%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1022 @@
+{
+  "id": "frostbearer",
+  "wiki_id": 1969,
+  "name": {
+    "pt-pt": "Fruto do Sabugueiro",
+    "en-us": "Frostbearer",
+    "ja-jp": "冬忍びの実",
+    "zh-cn": "忍冬之果",
+    "ko-kr": "인동의 열매",
+    "ru-ru": "Плод вечной мерзлоты",
+    "de-de": "Permafrostfrucht",
+    "fr-fr": "Fruit du permafrost",
+    "es-es": "Frío Eterno",
+    "id-id": "Frostbearer",
+    "th-th": "Frostbearer",
+    "vi-vn": "Trái Chịu Lạnh",
+    "zh-tw": "忍冬之果"
+  },
+  "description": {
+    "pt-pt": "Uma fruta que possui uma aura estranha e gélida. Uma leve sensação de agonia emana dela.",
+    "en-us": "A fruit that possesses a strange, frosty will. A faint sense of agony emanates from it.",
+    "ja-jp": "冷徹な意志がこもった奇妙な果実。微かな苦渋を醸し出している。",
+    "zh-cn": "具有某种冰冷意志的奇特果实，散发着微弱的苦涩气息。",
+    "ko-kr": "차가운 의지가 담긴 특이한 열매가 미약하고 씁쓸한 기운을 발산하고 있다",
+    "ru-ru": "Загадочный плод, обладающий холодным сознанием. Он источает слабый аромат горечи.",
+    "de-de": "Eine Frucht, die einen seltsamen, frostigen Willen besitzt. Sie riecht entfernt nach Verbitterung.",
+    "fr-fr": "Un fruit dont s'échappe une volonté aussi étrange que gelée. Une vague impression d'agonie en émane.",
+    "es-es": "Un fruto cristalizado que posee una extraña voluntad helada. Una tenue sensación de agonía emana de él.",
+    "id-id": "Buah unik yang seakan memiliki sebuah keinginan sendiri. Senjata ini memancarkan sebuah aura kepedihan yang samar.",
+    "th-th": "ผลไม้ประหลาดที่มีกลิ่นอายของความเย็นและความรู้สึกที่เจ็บปวด",
+    "vi-vn": "Loại trái cây kỳ lạ toát ra sự lạnh lẽo, phảng phất nhẹ mùi vị đắng chát.",
+    "zh-tw": "具有某種冰冷意志的奇特果實，散發著微弱的苦澀氣息。"
+  },
+  "rarity": 4,
+  "type": {
+    "pt-pt": "Catalisador",
+    "en-us": "Catalyst",
+    "ja-jp": "法器",
+    "zh-cn": "法器",
+    "ko-kr": "법구",
+    "ru-ru": "Катализатор",
+    "de-de": "Katalysator",
+    "fr-fr": "Catalyseur",
+    "es-es": "Catalizador",
+    "id-id": "Catalyst",
+    "th-th": "สื่อเวท",
+    "vi-vn": "Pháp Khí",
+    "zh-tw": "法器"
+  },
+  "subStat": {
+    "pt-pt": "ATQ%",
+    "en-us": "ATK",
+    "ja-jp": "攻撃力",
+    "zh-cn": "攻击力",
+    "ko-kr": "공격력",
+    "ru-ru": "Сила атаки",
+    "de-de": "ANG",
+    "fr-fr": "ATQ",
+    "es-es": "ATQ",
+    "id-id": "ATK",
+    "th-th": "พลังโจมตี",
+    "vi-vn": "Tấn Công",
+    "zh-tw": "攻擊力"
+  },
+  "passiveName": {
+    "pt-pt": "Enterro Congelante",
+    "en-us": "Frost Burial",
+    "ja-jp": "霜の埋葬",
+    "zh-cn": "霜葬",
+    "ko-kr": "서리의 매장",
+    "ru-ru": "Морозное погребение:",
+    "de-de": "Frostgrab",
+    "fr-fr": "Deuil givré",
+    "es-es": "Entierro helado",
+    "id-id": "Frost Burial",
+    "th-th": "Frost Burial",
+    "vi-vn": "Sương Táng",
+    "zh-tw": "霜葬"
+  },
+  "passiveDescription": {
+    "pt-pt": "Atingir um inimigo com um Ataque Normal e Ataque Carregado possui uma chance de 60%/70%/80%/90%/100% de formar e dropar um Núcleo de Cristal Eterno sobre eles, causando 80%/95%/110%/125%/140% de Dano de ATQ em uma AdE. Inimigos afetados por Cryo recebem 200%/240%/280%/320%/360% de Dano de ATQ. Pode ocorrer apenas uma vez a cada 10s.",
+    "en-us": "Hitting an opponent with Normal and Charged Attacks has a 60%/70%/80%/90%/100% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 80%/95%/110%/125%/140% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 200%/240%/280%/320%/360% of ATK. Can only occur once every 10s.",
+    "ja-jp": "通常攻撃と重撃が敵に命中した時、60/70/80/90/100%の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の80/95/110/125/140%の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の200/240/280/320/360%のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+    "zh-cn": "普通攻击与重击命中敌人时，有60%/70%/80%/90%/100%概率在敌人上方生成恒冰晶核并坠落，造成80%/95%/110%/125%/140%攻击力的范围伤害。若敌人处于冰元素影响下，则造成200%/240%/280%/320%/360%攻击力的伤害。该效果每10秒至多触发一次。",
+    "ko-kr": "일반 공격과 강공격이 적에게 명중 시 60%/70%/80%/90%/100%의 확률로 적의 위쪽에 영원의 얼음 결정을 생성한 후 떨궈서 공격력 80%/95%/110%/125%/140%의 범위 피해를 준다. 적이 만약 얼음 원소의 영향을 받으면 공격력 200%/240%/280%/320%/360%의 피해를 준다. 해당 효과는 10초마다 1회 발동한다",
+    "ru-ru": "Попадания обычной или заряженной атакой имеют 60%/70%/80%/90%/100% шанс создать над противником ледяной кристалл и уронить его, нанося 80%/95%/110%/125%/140% урона силы атаки по площади. Если противник имеет эффект Крио, то наносит ему 200%/240%/280%/320%/360% урона силы атаки. Может возникнуть раз в 10 сек.",
+    "de-de": "Erstellt beim Treffen von Gegnern mit Standardangriffen und heftigen Schlägen mit einer Wahrscheinlichkeit von 60% ~ 70% ~ 80% ~ 90% ~ 100% über den Gegnern einen Kristallkern ewigen Eises, der herunterfällt und Flächenschaden in Höhe von 80% ~ 95% ~ 110% ~ 125% ~ 140% ANG verursacht. Verursacht Schaden in Höhe von 200% ~ 240% ~ 280% ~ 320% ~ 360% ANG, wenn die Gegner von Kryo-Effekten betroffen sind. 10s Abklingzeit.",
+    "fr-fr": "Les attaques normales et chargées ont 60 %/70 %/80 %/90 %/100 % de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à 80 %/95 %/110 %/125 %/140 % de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors 200 %/240 %/280 %/320 %/360 % de l'ATQ. Cet effet se déclenche une fois toutes les 10 s.",
+    "es-es": "Al golpear a los enemigos con Ataques Normales y Cargados, hay un 60%/70%/80%/90%/100% de probabilidad de crear un carámbano sobre ellos. Al caer, el carámbano inflige un 80%/95%/110%/125%/140% de daño de ATQ en el AdE. Si los enemigos están afectados por Cryo, el daño de ATQ infligido será del 200%/240%/280%/320%/360%. Este efecto solo puede ocurrir una vez cada 10 s.",
+    "id-id": "Saat Normal atau Charged Attack mengenai musuh, memiliki 60%/70%/80%/90%/100% persentase untuk menciptakan Everfrost Icicle di atas musuh, mengakibatkan DMG area sebesar 80%/95%/110%/125%/140% ATK. Jika musuh berada dalam efek Cryo, maka Everfrost Icicle akan mengakibatkan DMG sebesar 200%/240%/280%/320%/360% ATK. Efek ini dapat terpicu setiap 10 detik.",
+    "th-th": "เมื่อโจมตีปกติหรือชาร์จโจมตีถูกศัตรู จะมีโอกาส 60%/70%/80%/90%/100% ที่จะเกิด Everfrost Icicle ขึ้นบนตัวของศัตรูและร่วงลงมาใส่ เพื่อสร้างความเสียหายวงกว้างเป็น 80%/95%/110%/125%/140% ของพลังโจมตี หากศัตรูตกอยู่ภายใต้ผลกระทบของธาตุน้ำแข็ง จะสร้างความเสียหาย 200%/240%/280%/320%/360% ของพลังโจมตี โดยที่เอฟเฟกต์ดังกล่าวนี้จะเกิดได้ครั้งเดียวในทุก 10 วินาที",
+    "vi-vn": "Khi tấn công thường và trọng kích đánh trúng kẻ địch có tỷ lệ 60%/70%/80%/90%/100% tạo ra Đá Vĩnh Hằng phía trên kẻ địch và rơi xuống, gây sát thương phạm vi bằng 80%/95%/110%/125%/140% tấn công. Nếu địch bị ảnh hưởng bởi nguyên tố Băng, sẽ gây sát thương bằng 200%/240%/280%/320%/360% tấn công. Hiệu quả này mỗi 10s kích hoạt 1 lần.",
+    "zh-tw": "普通攻擊與重擊命中敵人時，有60%/70%/80%/90%/100%機率在敵人上方生成恆冰晶核並墜落，造成80%/95%/110%/125%/140%攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成200%/240%/280%/320%/360%攻擊力的傷害。該效果每10秒至多觸發一次。"
+  },
+  "weaponIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/weapon/忍冬之果.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 1071,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Grão de Aerosiderite",
+            "en-us": "Grain of Aerosiderite",
+            "ja-jp": "漆黒の隕鉄の一粒",
+            "zh-cn": "漆黑陨铁的一粒",
+            "ko-kr": "흑운철 한 알",
+            "ru-ru": "Зерно чёрного сидерита",
+            "de-de": "Körnchen pechschwarzer Aerosiderit",
+            "fr-fr": "Grain d'aérosidérite noire",
+            "es-es": "Grano de siderita oscura",
+            "id-id": "Grain of Aerosiderite",
+            "th-th": "Grain of Aerosiderite",
+            "vi-vn": "Hạt Thiên Thạch Đen",
+            "zh-tw": "漆黑隕鐵的一粒"
+          }
+        },
+        {
+          "id": 1490,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de osso frágil",
+            "en-us": "Fragile Bone Shard",
+            "ja-jp": "脆い骨片",
+            "zh-cn": "脆弱的骨片",
+            "ko-kr": "약한 뼛조각",
+            "ru-ru": "Хрупкие останки",
+            "de-de": "Zerbrechliches Knochenstück",
+            "fr-fr": "Fragment d'os fragile",
+            "es-es": "Fragmento de hueso frágil",
+            "id-id": "Fragile Bone Shard",
+            "th-th": "Fragile Bone Remains",
+            "vi-vn": "Mảnh Xương Giòn Yếu",
+            "zh-tw": "脆弱的骨片"
+          }
+        },
+        {
+          "id": 1105,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Ponta de Flecha Robusta",
+            "en-us": "Firm Arrowhead",
+            "ja-jp": "牢固な矢先",
+            "zh-cn": "牢固的箭簇",
+            "ko-kr": "견고한 화살촉",
+            "ru-ru": "Прочный наконечник стрелы",
+            "de-de": "Stabile Bolzenspitze",
+            "fr-fr": "Pointe de flèche robuste",
+            "es-es": "Flecha robusta",
+            "id-id": "Firm Arrowhead",
+            "th-th": "Firm Arrowhead",
+            "vi-vn": "Mũi Tên Chắc Chắn",
+            "zh-tw": "牢固的箭鏃"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 1070,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Aerosiderite",
+            "en-us": "Piece of Aerosiderite",
+            "ja-jp": "漆黒の隕鉄の一片",
+            "zh-cn": "漆黑陨铁的一片",
+            "ko-kr": "흑운철 조각",
+            "ru-ru": "Кусочек чёрного сидерита",
+            "de-de": "Stückchen pechschwarzer Aerosiderit",
+            "fr-fr": "Éclat d'aérosidérite noire",
+            "es-es": "Lámina de siderita oscura",
+            "id-id": "Piece of Aerosiderite",
+            "th-th": "Piece of Aerosiderite",
+            "vi-vn": "Mảnh Thiên Thạch Đen",
+            "zh-tw": "漆黑隕鐵的一片"
+          }
+        },
+        {
+          "id": 1490,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Fragmento de osso frágil",
+            "en-us": "Fragile Bone Shard",
+            "ja-jp": "脆い骨片",
+            "zh-cn": "脆弱的骨片",
+            "ko-kr": "약한 뼛조각",
+            "ru-ru": "Хрупкие останки",
+            "de-de": "Zerbrechliches Knochenstück",
+            "fr-fr": "Fragment d'os fragile",
+            "es-es": "Fragmento de hueso frágil",
+            "id-id": "Fragile Bone Shard",
+            "th-th": "Fragile Bone Remains",
+            "vi-vn": "Mảnh Xương Giòn Yếu",
+            "zh-tw": "脆弱的骨片"
+          }
+        },
+        {
+          "id": 1105,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Ponta de Flecha Robusta",
+            "en-us": "Firm Arrowhead",
+            "ja-jp": "牢固な矢先",
+            "zh-cn": "牢固的箭簇",
+            "ko-kr": "견고한 화살촉",
+            "ru-ru": "Прочный наконечник стрелы",
+            "de-de": "Stabile Bolzenspitze",
+            "fr-fr": "Pointe de flèche robuste",
+            "es-es": "Flecha robusta",
+            "id-id": "Firm Arrowhead",
+            "th-th": "Firm Arrowhead",
+            "vi-vn": "Mũi Tên Chắc Chắn",
+            "zh-tw": "牢固的箭鏃"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 1070,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Aerosiderite",
+            "en-us": "Piece of Aerosiderite",
+            "ja-jp": "漆黒の隕鉄の一片",
+            "zh-cn": "漆黑陨铁的一片",
+            "ko-kr": "흑운철 조각",
+            "ru-ru": "Кусочек чёрного сидерита",
+            "de-de": "Stückchen pechschwarzer Aerosiderit",
+            "fr-fr": "Éclat d'aérosidérite noire",
+            "es-es": "Lámina de siderita oscura",
+            "id-id": "Piece of Aerosiderite",
+            "th-th": "Piece of Aerosiderite",
+            "vi-vn": "Mảnh Thiên Thạch Đen",
+            "zh-tw": "漆黑隕鐵的一片"
+          }
+        },
+        {
+          "id": 1342,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de osso sólido",
+            "en-us": "Sturdy Bone Shard",
+            "ja-jp": "丈夫な骨片",
+            "zh-cn": "结实的骨片",
+            "ko-kr": "단단한 뼛조각",
+            "ru-ru": "Крепкие останки",
+            "de-de": "Stabiles Knochenstück",
+            "fr-fr": "Fragment d'os solide",
+            "es-es": "Fragmento de hueso sólido",
+            "id-id": "Sturdy Bone Shard",
+            "th-th": "Sturdy Bone Remains",
+            "vi-vn": "Mảnh Xương Chắc Chắn",
+            "zh-tw": "結實的骨片"
+          }
+        },
+        {
+          "id": 1683,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Ponta de Flecha Afiada",
+            "en-us": "Sharp Arrowhead",
+            "ja-jp": "鋭利な矢先",
+            "zh-cn": "锐利的箭簇",
+            "ko-kr": "날카로운 화살촉",
+            "ru-ru": "Острый наконечник стрелы",
+            "de-de": "Scharfe Bolzenspitze",
+            "fr-fr": "Pointe de flèche aiguisée",
+            "es-es": "Flecha afilada",
+            "id-id": "Sharp Arrowhead",
+            "th-th": "Sharp Arrowhead",
+            "vi-vn": "Mũi Tên Sắc Bén",
+            "zh-tw": "銳利的箭鏃"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 1072,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Aerosiderite",
+            "en-us": "Bit of Aerosiderite",
+            "ja-jp": "漆黒の隕鉄の一角",
+            "zh-cn": "漆黑陨铁的一角",
+            "ko-kr": "흑운철 일각",
+            "ru-ru": "Осколок чёрного сидерита",
+            "de-de": "Klumpen pechschwarzer Aerosiderit",
+            "fr-fr": "Fragment d'aérosidérite noire",
+            "es-es": "Fragmento de siderita oscura",
+            "id-id": "Bit of Aerosiderite",
+            "th-th": "Bit of Aerosiderite",
+            "vi-vn": "Một Góc Thiên Thạch Đen",
+            "zh-tw": "漆黑隕鐵的一角"
+          }
+        },
+        {
+          "id": 1342,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Fragmento de osso sólido",
+            "en-us": "Sturdy Bone Shard",
+            "ja-jp": "丈夫な骨片",
+            "zh-cn": "结实的骨片",
+            "ko-kr": "단단한 뼛조각",
+            "ru-ru": "Крепкие останки",
+            "de-de": "Stabiles Knochenstück",
+            "fr-fr": "Fragment d'os solide",
+            "es-es": "Fragmento de hueso sólido",
+            "id-id": "Sturdy Bone Shard",
+            "th-th": "Sturdy Bone Remains",
+            "vi-vn": "Mảnh Xương Chắc Chắn",
+            "zh-tw": "結實的骨片"
+          }
+        },
+        {
+          "id": 1683,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Ponta de Flecha Afiada",
+            "en-us": "Sharp Arrowhead",
+            "ja-jp": "鋭利な矢先",
+            "zh-cn": "锐利的箭簇",
+            "ko-kr": "날카로운 화살촉",
+            "ru-ru": "Острый наконечник стрелы",
+            "de-de": "Scharfe Bolzenspitze",
+            "fr-fr": "Pointe de flèche aiguisée",
+            "es-es": "Flecha afilada",
+            "id-id": "Sharp Arrowhead",
+            "th-th": "Sharp Arrowhead",
+            "vi-vn": "Mũi Tên Sắc Bén",
+            "zh-tw": "銳利的箭鏃"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 1072,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Aerosiderite",
+            "en-us": "Bit of Aerosiderite",
+            "ja-jp": "漆黒の隕鉄の一角",
+            "zh-cn": "漆黑陨铁的一角",
+            "ko-kr": "흑운철 일각",
+            "ru-ru": "Осколок чёрного сидерита",
+            "de-de": "Klumpen pechschwarzer Aerosiderit",
+            "fr-fr": "Fragment d'aérosidérite noire",
+            "es-es": "Fragmento de siderita oscura",
+            "id-id": "Bit of Aerosiderite",
+            "th-th": "Bit of Aerosiderite",
+            "vi-vn": "Một Góc Thiên Thạch Đen",
+            "zh-tw": "漆黑隕鐵的一角"
+          }
+        },
+        {
+          "id": 1240,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Fragmento de osso fossilizado",
+            "en-us": "Fossilized Bone Shard",
+            "ja-jp": "石化した骨片",
+            "zh-cn": "石化的骨片",
+            "ko-kr": "석화한 뼛조각",
+            "ru-ru": "Окаменевшие останки",
+            "de-de": "Versteinertes Knochenstück",
+            "fr-fr": "Fragment d'os fossilisé",
+            "es-es": "Fragmento de hueso fosilizado",
+            "id-id": "Fossilized Bone Shard",
+            "th-th": "Fossilized Bone Remains",
+            "vi-vn": "Mảnh Xương Hóa Thạch",
+            "zh-tw": "石化的骨片"
+          }
+        },
+        {
+          "id": 367,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Ponta de Flecha Usada",
+            "en-us": "Weathered Arrowhead",
+            "ja-jp": "歴戦の矢先",
+            "zh-cn": "历战的箭簇",
+            "ko-kr": "역전의 화살촉",
+            "ru-ru": "Старый наконечник стрелы",
+            "de-de": "Abgenutzte Bolzenspitze",
+            "fr-fr": "Pointe de flèche usée",
+            "es-es": "Flecha veterana",
+            "id-id": "Weathered Arrowhead",
+            "th-th": "Historic Arrowhead",
+            "vi-vn": "Mũi Tên Thiện Chiến",
+            "zh-tw": "歷戰的箭鏃"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 1069,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Bloco de Aerosiderite",
+            "en-us": "Chunk of Aerosiderite",
+            "ja-jp": "漆黒の隕鉄の塊",
+            "zh-cn": "漆黑陨铁的一块",
+            "ko-kr": "흑운철 덩이",
+            "ru-ru": "Обломок чёрного сидерита",
+            "de-de": "Brocken pechschwarzer Aerosiderit",
+            "fr-fr": "Morceau d'aérosidérite noire",
+            "es-es": "Trozo de siderita oscura",
+            "id-id": "Chunk of Aerosiderite",
+            "th-th": "Chunk of Aerosiderite",
+            "vi-vn": "Miếng Thiên Thạch Đen",
+            "zh-tw": "漆黑隕鐵的一塊"
+          }
+        },
+        {
+          "id": 1240,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Fragmento de osso fossilizado",
+            "en-us": "Fossilized Bone Shard",
+            "ja-jp": "石化した骨片",
+            "zh-cn": "石化的骨片",
+            "ko-kr": "석화한 뼛조각",
+            "ru-ru": "Окаменевшие останки",
+            "de-de": "Versteinertes Knochenstück",
+            "fr-fr": "Fragment d'os fossilisé",
+            "es-es": "Fragmento de hueso fosilizado",
+            "id-id": "Fossilized Bone Shard",
+            "th-th": "Fossilized Bone Remains",
+            "vi-vn": "Mảnh Xương Hóa Thạch",
+            "zh-tw": "石化的骨片"
+          }
+        },
+        {
+          "id": 367,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Ponta de Flecha Usada",
+            "en-us": "Weathered Arrowhead",
+            "ja-jp": "歴戦の矢先",
+            "zh-cn": "历战的箭簇",
+            "ko-kr": "역전의 화살촉",
+            "ru-ru": "Старый наконечник стрелы",
+            "de-de": "Abgenutzte Bolzenspitze",
+            "fr-fr": "Pointe de flèche usée",
+            "es-es": "Flecha veterana",
+            "id-id": "Weathered Arrowhead",
+            "th-th": "Historic Arrowhead",
+            "vi-vn": "Mũi Tên Thiện Chiến",
+            "zh-tw": "歷戰的箭鏃"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "42"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "9.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "109",
+          "postAscensionValue": "135"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "15.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "205",
+          "postAscensionValue": "231"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "23.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "266",
+          "postAscensionValue": "292"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "26.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "327",
+          "postAscensionValue": "353"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "30.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "388",
+          "postAscensionValue": "414"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "34.1%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "449",
+          "postAscensionValue": "475"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "37.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "510",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "41.3%"
+        }
+      ]
+    }
+  ]
+}

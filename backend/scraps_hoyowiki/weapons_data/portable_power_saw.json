@@ -1,0 +1,1142 @@
+{
+  "id": "portable_power_saw",
+  "wiki_id": 4335,
+  "name": {
+    "pt-pt": "Serra Elétrica Portátil",
+    "en-us": "Portable Power Saw",
+    "ja-jp": "携帯型チェーンソー",
+    "zh-cn": "便携动力锯",
+    "ko-kr": "휴대용 체인톱",
+    "ru-ru": "Переносная мотопила",
+    "de-de": "Tragbare motorisierte Säge",
+    "fr-fr": "Scie électrique portative",
+    "es-es": "Motosierra Transportable",
+    "id-id": "Portable Power Saw",
+    "th-th": "Portable Power Saw",
+    "vi-vn": "Máy Cưa Cầm Tay",
+    "zh-tw": "便攜動力鋸"
+  },
+  "description": {
+    "pt-pt": "Uma serra elétrica vintage rara de se ver hoje em dia. Era uma ferramenta usada por trabalhadores em todos os cantos.",
+    "en-us": "An old-school power saw that you can rarely find nowadays. It was once a cutting tool trusted by workers all around.",
+    "ja-jp": "今では、ほとんど見かけなくなった旧式のチェーンソー。かつては職人たちから深く信頼された切断ツールだった。",
+    "zh-cn": "如今几乎绝迹的旧式动力锯，曾是深受工人信赖的切割工具。",
+    "ko-kr": "지금은 거의 사라진 구식 체인톱. 일꾼들이 신뢰하는 절단 도구였다",
+    "ru-ru": "Мотопила старого образца, которую в наше время нигде не найти. Когда-то на этот инструмент полагались все рабочие.",
+    "de-de": "Diese alte Motorsäge sieht man heute fast nirgends mehr, aber einst diente sie Arbeitern als zuverlässiges Werkzeug.",
+    "fr-fr": "Une scie électrique à l'ancienne que l'on trouve rarement de nos jours. C'était autrefois un outil pour découper auquel les travailleurs du monde entier faisaient confiance.",
+    "es-es": "Una motosierra de estilo antiguo que ya no se puede encontrar en prácticamente ningún sitio. En el pasado, era una de las herramientas de cortar en la que más confiaban quienes la usaban para su trabajo.",
+    "id-id": "Gergaji listrik zaman dulu yang sudah hampir punah saat ini. Dulu pernah menjadi alat pemotong yang dipercaya oleh para pekerja.",
+    "th-th": "เลื่อยไฟฟ้าแบบเก่าที่หาได้ยากในปัจจุบัน ครั้งหนึ่งเคยเป็นเครื่องมือตัดที่ได้รับความไว้วางใจจากคนงาน",
+    "vi-vn": "Máy cưa kiểu cũ, ngày nay gần như tuyệt tích. Nó từng là công cụ cắt rất được các công nhân ưa dùng.",
+    "zh-tw": "如今幾乎絕跡的舊式動力鋸，曾是深受工人信賴的切割工具。"
+  },
+  "rarity": 4,
+  "type": {
+    "pt-pt": "Espadão",
+    "en-us": "Claymore",
+    "ja-jp": "両手剣",
+    "zh-cn": "双手剑",
+    "ko-kr": "양손검",
+    "ru-ru": "Двуручное",
+    "de-de": "Zweihänder",
+    "fr-fr": "Épée à deux mains",
+    "es-es": "Mandoble",
+    "id-id": "Claymore",
+    "th-th": "ดาบใหญ่",
+    "vi-vn": "Trọng Kiếm",
+    "zh-tw": "雙手劍"
+  },
+  "subStat": {
+    "pt-pt": "Vida%",
+    "en-us": "HP",
+    "ja-jp": "HP",
+    "zh-cn": "生命值",
+    "ko-kr": "HP",
+    "ru-ru": "HP",
+    "de-de": "LP",
+    "fr-fr": "PV",
+    "es-es": "Vida",
+    "id-id": "HP",
+    "th-th": "พลังชีวิต",
+    "vi-vn": "HP",
+    "zh-tw": "生命值"
+  },
+  "passiveName": {
+    "pt-pt": "Canção de Marinheiro",
+    "en-us": "Sea Shanty",
+    "ja-jp": "船工の唄",
+    "zh-cn": "船工号子",
+    "ko-kr": "뱃노래",
+    "ru-ru": "﻿Матросская песня:",
+    "de-de": "Seemannslied",
+    "fr-fr": "Chant de marins",
+    "es-es": "Saloma de los barqueros",
+    "id-id": "Sea Shanty",
+    "th-th": "Sea Shanty",
+    "vi-vn": "Khúc Hát Thuyền Viên",
+    "zh-tw": "船工號子"
+  },
+  "passiveDescription": {
+    "pt-pt": "Quando o personagem é curado ou cura, concede o Sinal da Tenacidade por 30s. É possível acumular até 3 Sinais da Tenacidade. Ao lançar a Habilidade Elemental ou o Supremo, consome todos os Sinais da Tenacidade e gera por 10s o efeito \"Ascendendo\": para cada Sinal da Tenacidade consumido, aumenta a Proficiência Elemental em 40/50/60/70/80 pontos, e 2s após gerar esse efeito, cada Sinal da Tenacidade Consumido regenerará 2/2.5/3/3.5/4 de Energia Elemental para o personagem que está com essa arma equipada. É possível desencadear o efeito \"Ascendendo\" uma vez a cada 15s. Também é possível obter o Sinal da Tenacidade quando o personagem não está ativo no campo de batalha.",
+    "en-us": "When the wielder is healed or heals others, they will gain a Stoic's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Roused effect will be granted for 10s. For each Symbol consumed, gain 40/50/60/70/80 Elemental Mastery, and 2s after the effect occurs, 2/2.5/3/3.5/4 Energy per Symbol consumed will be restored for said character. The Roused effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+    "ja-jp": "治療効果を受ける、または治療効果を与える時、強靭マークが1枚付与される。継続時間30秒、最大3枚まで。元素スキル、または元素爆発を発動する時、すべての強靭マークを消費し、継続時間10秒の「奮起」効果を獲得する。消費した強靭マーク1枚につき、元素熟知+40/50/60/70/80、さらに「奮起」効果を獲得した2秒後、消費した強靭マーク1枚につき、装備者の元素エネルギーを2/2.5/3/3.5/4ポイント回復する。「奮起」効果は15秒に1回のみ発動可能。キャラクターが待機中でも強靭マークを獲得できる。",
+    "zh-cn": "受到治疗或进行治疗时，将赋予一枚坚忍标记，持续30秒，至多拥有三枚坚忍标记。施放元素战技或元素爆发时，将消耗所有的坚忍标记，产生持续10秒的「奋起」效果：每枚消耗的坚忍标记提高40/50/60/70/80点元素精通，并在效果产生2秒后，每枚消耗的坚忍标记为装备者恢复2/2.5/3/3.5/4点元素能量。每15秒至多触发一次奋起效果；角色处于队伍后台时也能获得坚忍标记。",
+    "ko-kr": "치유를 받거나 치유를 진행할 경우, 인내 표식이 1개 부여된다. 지속 시간: 30초. 최대 3개의 인내 표식을 보유할 수 있다. 원소전투 스킬 또는 원소폭발 발동 시, 모든 인내 표식을 소모해 10초 동안 지속되는 「궐기」 효과를 생성한다: 소모한 인내 표식마다 원소 마스터리가 40/50/60/70/80pt 증가한다. 또한 효과 생성 2초 후, 소모한 인내 표식마다 장착 캐릭터의 원소 에너지를 2/2.5/3/3.5/4pt 회복한다. 궐기 효과는 15초마다 최대 1회 발동된다. 캐릭터가 대기 상태일 때도 인내 표식을 획득할 수 있다.",
+    "ru-ru": "Когда экипированный персонаж лечит или получает лечение, он на 30 сек. наделяется Символом стойкости. Всего можно получить до 3 Символов. При активации элементального навыка или взрыва стихии все Символы расходуются и на 10 сек. создаётся эффект Воодушевления: за каждый израсходованный Символ мастерство стихий повышается на 40/50/60/70/80 ед., а через 2 сек. после активации эффекта каждый израсходованный Символ восстанавливает 2/2,5/3/3,5/4 ед. энергии. Эффект Воодушевления может возникнуть один раз в 15 сек. Персонаж получает Символы стойкости, даже если он не на поле боя.",
+    "de-de": "Verleiht der Figur bei erhaltener Heilung, oder wenn sie jemanden heilt, ein Zeichen der Beharrlichkeit, hält 30s. Es können max. bis zu 3 Zeichen der Beharrlichkeit vorhanden sein. Verbraucht beim Auslösen der Elementarfähigkeit oder der Spezialfähigkeit alle Zeichen der Beharrlichkeit und löst den Effekt „Erhabenheit“ aus, der 10s hält: Jedes verbrauchte Zeichen der Beharrlichkeit erhöht die Elementarkunde um 40 ~ 50 ~ 60 ~ 70 ~ 80 Punkte. Außerdem stellt jedes verbrauchte Zeichen dem Träger 2s nach Auslösen des Effekts 2 ~ 2.5 ~ 3 ~ 3.5 ~ 4 Punkte Elementarenergie wieder her. 15s Abklingzeit für den Effekt „Erhabenheit“. Zeichen der Beharrlichkeit können auch erhalten werden, wenn die Figur inaktiv in der Truppe ist.",
+    "fr-fr": "Lorsque le personnage reçoit ou effectue des soins, il obtient une marque stoïque pendant 30 s, un maximum de 3 marques stoïques pouvant être obtenu. Utiliser une compétence ou un déchaînement élémentaires consomme toutes les marques stoïques et accorde un effet de surrection pendant 10 s : chaque marque stoïque consommée augmente la maîtrise élémentaire de 40/50/60/70/80 pts puis, 2 s après le début de l'effet, restaure l'énergie élémentaire du personnage équipé de l'arme de 2/2,5/3/3,5/4 pts. Un effet de surrection peut être déclenché une fois toutes les 15 s, et des marques stoïques peuvent être obtenues même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+    "es-es": "Al recibir o realizar curación, otorga una marca de tenacidad durante 30 s, acumulable hasta 3 marcas. Al usar la Habilidad Elemental o Definitiva, se consumen todas las marcas de tenacidad y se obtiene el efecto de “vigorización” durante 10 s. Por cada marca de tenacidad consumida, aumenta en 40/50/60/70/80 pts. la Maestría Elemental y regenera 2/2.5/3/3.5/4 pts. de Energía Elemental al portador de esta arma durante los 2 s después de obtener este efecto. El efecto de vigorización solo se puede activar una vez cada 15 s, y el personaje puede obtener marcas de tenacidad incluso cuando esté en tu equipo pero no en uso.",
+    "id-id": "Saat penggunanya menerima pemulihan atau memberikan pemulihan, akan memberikan satu Stoic's Symbol yang berlangsung selama 30 detik dan dapat ditumpuk sampai 3 lapis. Saat melancarkan Elemental Skill atau Elemental Burst, akan mengonsumsi seluruh Stoic's Symbol yang dimiliki untuk menghasilkan efek Roused yang berlangsung selama 10 detik. Setiap Stoic's Symbol yang dikonsumsi, akan meningkatkan 40/50/60/70/80 poin Elemental Mastery dan memulihkan 2/2.5/3/3.5/4 poin Energy Karakter yang mengenakan 2 detik setelah efek Roused dihasilkan. Efek Roused dapat terpicu sekali setiap 15 detik. Stoic's Symbol tetap dapat diperoleh saat Karakter di dalam party namun sedang tidak berada di medan pertempuran.",
+    "th-th": "เมื่อได้รับการรักษาหรือทำการรักษา จะได้รับสัญลักษณ์ Stoic หนึ่งอัน เป็นเวลา 30 วินาที โดยสามารถมีสัญลักษณ์ Stoic ได้สูงสุด 3 อัน เมื่อปล่อยสกิลธาตุหรือท่าไม้ตาย จะใช้สัญลักษณ์ Stoic ทั้งหมด เพื่อสร้างเอฟเฟกต์ \"Roused\" เป็นเวลา 10 วินาที: สัญลักษณ์ Stoic แต่ละอันที่ใช้ไปจะเพิ่มความชำนาญธาตุขึ้น 40 หน่วย และหลังจากที่เกิดเอฟเฟกต์ 2 วินาที สัญลักษณ์ Stoic แต่ละอันที่ใช้ไปจะฟื้นฟูพลังงานธาตุ 2 หน่วย ให้กับผู้สวมใส่ เอฟเฟกต์ Roused สามารถเกิดขึ้นได้มากสุดหนึ่งครั้ง ในทุก 15 วินาที เมื่อตัวละครอยู่ในทีมแต่ไม่ได้เข้าร่วมการต่อสู้ จะยังสามารถรับสัญลักษณ์ Stoic ได้",
+    "vi-vn": "Khi trị liệu hoặc nhận trị liệu sẽ nhận một Ký Hiệu Kiên Nhẫn, duy trì 30s, tối đa có được 3 Ký Hiệu. Khi thi triển Kỹ Năng Nguyên Tố hoặc Kỹ Năng Nộ sẽ tiêu hao tất cả Ký Hiệu để sản sinh hiệu quả Phấn Khởi trong 10s: Mỗi Ký Hiệu tiêu hao sẽ tăng 40||50||60||70||80 điểm Tinh Thông Nguyên Tố, đồng thời sau 2s khi hiệu quả được sản sinh, mỗi Ký Hiệu tiêu hao sẽ hồi phục 2||2.5||3||3.5||4 điểm Năng Lượng Nguyên Tố cho người trang bị. Mỗi 15s tối đa kích hoạt một lần hiệu quả Phấn Khởi; Nhân vật không ra trận cũng có thể nhận được Ký Hiệu Kiên Nhẫn.",
+    "zh-tw": "受到治療或進行治療時，將賦予一枚堅忍標記，持續30秒，至多擁有三枚堅忍標記。施放元素戰技或元素爆發時，將消耗所有的堅忍標記，產生持續10秒的「奮起」效果：每枚消耗的堅忍標記提高40/50/60/70/80點元素精通，並在效果產生2秒後，每枚消耗的堅忍標記為裝備者恢復2/2.5/3/3.5/4點元素能量。每15秒至多觸發一次奮起效果；角色處於隊伍後臺時也能獲得堅忍標記。"
+  },
+  "weaponIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/04/59559639/ac81c1e26d35d3742320975fffe21ee8_3738249330268198070.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv. 20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 5000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4028,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/91ea8723306e98e3d1bcb55d7fdf7c81_3145886108480206487.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Cálice Quebrado do Mar Pristino",
+            "en-us": "Broken Goblet of the Pristine Sea",
+            "ja-jp": "無垢な海の苦杯",
+            "zh-cn": "无垢之海的苦盏",
+            "ko-kr": "순결한 바다의 쓴잔",
+            "ru-ru": "Разбитая чаша непорочного моря",
+            "de-de": "Zerbrochener Kelch des unberührten Meers",
+            "fr-fr": "Gobelet brisé de la mer immaculée",
+            "es-es": "Copa rota del mar impoluto",
+            "id-id": "Broken Goblet of the Pristine Sea",
+            "th-th": "Broken Goblet of the Pristine Sea",
+            "vi-vn": "Ly Vỡ Của Biển Nguyên Sơ",
+            "zh-tw": "無垢之海的苦盞"
+          }
+        },
+        {
+          "id": 4077,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/8e6151606a99c8aa39e8dfc6780b1144_7317183500997459390.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Núcleo da Fenda",
+            "en-us": "Rift Core",
+            "ja-jp": "隙間のコア",
+            "zh-cn": "隙间之核",
+            "ko-kr": "균열의 코어",
+            "ru-ru": "Ядро расщелины",
+            "de-de": "Risskern",
+            "fr-fr": "Noyau de faille",
+            "es-es": "Núcleo de la fisura",
+            "id-id": "Rift Core",
+            "th-th": "Rift Core",
+            "vi-vn": "Hạt Nhân Khe Nứt",
+            "zh-tw": "隙間之核"
+          }
+        },
+        {
+          "id": 4072,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/0d15f8ce2c281306fbc8e0c3a6315437_4299511963351466807.png",
+          "amount": 2,
+          "name": {
+            "pt-pt": "Engrenagem Transmissora",
+            "en-us": "Meshing Gear",
+            "ja-jp": "整合の歯車",
+            "zh-cn": "啮合齿轮",
+            "ko-kr": "맞물림 톱니바퀴",
+            "ru-ru": "Сцепляющаяся шестерня",
+            "de-de": "Greifendes Zahnrad",
+            "fr-fr": "Engrenage de maillage",
+            "es-es": "Engranaje de malla",
+            "id-id": "Meshing Gear",
+            "th-th": "Meshing Gear",
+            "vi-vn": "Bánh Răng Liên Kết",
+            "zh-tw": "齧合齒輪"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 15000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4027,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/53003e0178136f962ed95ee9c8cb7bff_4332075276078065606.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Cálice de Vinho do Mar Pristino",
+            "en-us": "Wine Goblet of the Pristine Sea",
+            "ja-jp": "無垢な海の酒盃",
+            "zh-cn": "无垢之海的酒盏",
+            "ko-kr": "순결한 바다의 술잔",
+            "ru-ru": "Чаша непорочного моря",
+            "de-de": "Weinkelch des unberührten Meers",
+            "fr-fr": "Gobelet à vin de la mer immaculée",
+            "es-es": "Copa de vino del mar impoluto",
+            "id-id": "Wine Goblet of the Pristine Sea",
+            "th-th": "Wine Goblet of the Pristine Sea",
+            "vi-vn": "Ly Rượu Của Biển Nguyên Sơ",
+            "zh-tw": "無垢之海的酒盞"
+          }
+        },
+        {
+          "id": 4077,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/8e6151606a99c8aa39e8dfc6780b1144_7317183500997459390.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Núcleo da Fenda",
+            "en-us": "Rift Core",
+            "ja-jp": "隙間のコア",
+            "zh-cn": "隙间之核",
+            "ko-kr": "균열의 코어",
+            "ru-ru": "Ядро расщелины",
+            "de-de": "Risskern",
+            "fr-fr": "Noyau de faille",
+            "es-es": "Núcleo de la fisura",
+            "id-id": "Rift Core",
+            "th-th": "Rift Core",
+            "vi-vn": "Hạt Nhân Khe Nứt",
+            "zh-tw": "隙間之核"
+          }
+        },
+        {
+          "id": 4072,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/0d15f8ce2c281306fbc8e0c3a6315437_4299511963351466807.png",
+          "amount": 8,
+          "name": {
+            "pt-pt": "Engrenagem Transmissora",
+            "en-us": "Meshing Gear",
+            "ja-jp": "整合の歯車",
+            "zh-cn": "啮合齿轮",
+            "ko-kr": "맞물림 톱니바퀴",
+            "ru-ru": "Сцепляющаяся шестерня",
+            "de-de": "Greifendes Zahnrad",
+            "fr-fr": "Engrenage de maillage",
+            "es-es": "Engranaje de malla",
+            "id-id": "Meshing Gear",
+            "th-th": "Meshing Gear",
+            "vi-vn": "Bánh Răng Liên Kết",
+            "zh-tw": "齧合齒輪"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4027,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/53003e0178136f962ed95ee9c8cb7bff_4332075276078065606.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Cálice de Vinho do Mar Pristino",
+            "en-us": "Wine Goblet of the Pristine Sea",
+            "ja-jp": "無垢な海の酒盃",
+            "zh-cn": "无垢之海的酒盏",
+            "ko-kr": "순결한 바다의 술잔",
+            "ru-ru": "Чаша непорочного моря",
+            "de-de": "Weinkelch des unberührten Meers",
+            "fr-fr": "Gobelet à vin de la mer immaculée",
+            "es-es": "Copa de vino del mar impoluto",
+            "id-id": "Wine Goblet of the Pristine Sea",
+            "th-th": "Wine Goblet of the Pristine Sea",
+            "vi-vn": "Ly Rượu Của Biển Nguyên Sơ",
+            "zh-tw": "無垢之海的酒盞"
+          }
+        },
+        {
+          "id": 4081,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/f0861aa6f20b53679f7b90b3361cb198_1835383882035089539.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Sinapse Alienigena",
+            "en-us": "Foreign Synapse",
+            "ja-jp": "外界のシナプス",
+            "zh-cn": "外世突触",
+            "ko-kr": "이세계의 시냅스",
+            "ru-ru": "Иноземный обломок",
+            "de-de": "Außerweltliche Synapse",
+            "fr-fr": "Synapse étrangère",
+            "es-es": "Sinapsis extrínseca",
+            "id-id": "Foreign Synapse",
+            "th-th": "Foreign Synapse",
+            "vi-vn": "Liên Kết Dị Giới",
+            "zh-tw": "外世突觸"
+          }
+        },
+        {
+          "id": 4071,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/8023d5d16d579656f82fd4378358a11b_7184624168607597305.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Engrenagem Reta",
+            "en-us": "Mechanical Spur Gear",
+            "ja-jp": "機構の平歯車",
+            "zh-cn": "机关正齿轮",
+            "ko-kr": "평톱니바퀴",
+            "ru-ru": "Шестерня механизма",
+            "de-de": "Mechanisches Stirnrad",
+            "fr-fr": "Engrenage à coupe droite",
+            "es-es": "Mecaengranaje recto",
+            "id-id": "Mechanical Spur Gear",
+            "th-th": "Mechanical Spur Gear",
+            "vi-vn": "Bánh Răng Chính",
+            "zh-tw": "機關正齒輪"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 30000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4025,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/c70230640d8706fd2e3aa837a391166c_8598728081115916050.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Cálice de Prata do Mar Pristino",
+            "en-us": "Silver Goblet of the Pristine Sea",
+            "ja-jp": "無垢な海の銀盃",
+            "zh-cn": "无垢之海的银杯",
+            "ko-kr": "순결한 바다의 은잔",
+            "ru-ru": "Серебряный кубок непорочного моря",
+            "de-de": "Silberkelch des unberührten Meers",
+            "fr-fr": "Gobelet d'argent de la mer immaculée",
+            "es-es": "Copa de plata del mar impoluto",
+            "id-id": "Silver Goblet of the Pristine Sea",
+            "th-th": "Silver Goblet of the Pristine Sea",
+            "vi-vn": "Ly Bạc Của Biển Nguyên Sơ",
+            "zh-tw": "無垢之海的銀杯"
+          }
+        },
+        {
+          "id": 4081,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/f0861aa6f20b53679f7b90b3361cb198_1835383882035089539.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Sinapse Alienigena",
+            "en-us": "Foreign Synapse",
+            "ja-jp": "外界のシナプス",
+            "zh-cn": "外世突触",
+            "ko-kr": "이세계의 시냅스",
+            "ru-ru": "Иноземный обломок",
+            "de-de": "Außerweltliche Synapse",
+            "fr-fr": "Synapse étrangère",
+            "es-es": "Sinapsis extrínseca",
+            "id-id": "Foreign Synapse",
+            "th-th": "Foreign Synapse",
+            "vi-vn": "Liên Kết Dị Giới",
+            "zh-tw": "外世突觸"
+          }
+        },
+        {
+          "id": 4071,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/8023d5d16d579656f82fd4378358a11b_7184624168607597305.png",
+          "amount": 9,
+          "name": {
+            "pt-pt": "Engrenagem Reta",
+            "en-us": "Mechanical Spur Gear",
+            "ja-jp": "機構の平歯車",
+            "zh-cn": "机关正齿轮",
+            "ko-kr": "평톱니바퀴",
+            "ru-ru": "Шестерня механизма",
+            "de-de": "Mechanisches Stirnrad",
+            "fr-fr": "Engrenage à coupe droite",
+            "es-es": "Mecaengranaje recto",
+            "id-id": "Mechanical Spur Gear",
+            "th-th": "Mechanical Spur Gear",
+            "vi-vn": "Bánh Răng Chính",
+            "zh-tw": "機關正齒輪"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 35000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4025,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/c70230640d8706fd2e3aa837a391166c_8598728081115916050.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Cálice de Prata do Mar Pristino",
+            "en-us": "Silver Goblet of the Pristine Sea",
+            "ja-jp": "無垢な海の銀盃",
+            "zh-cn": "无垢之海的银杯",
+            "ko-kr": "순결한 바다의 은잔",
+            "ru-ru": "Серебряный кубок непорочного моря",
+            "de-de": "Silberkelch des unberührten Meers",
+            "fr-fr": "Gobelet d'argent de la mer immaculée",
+            "es-es": "Copa de plata del mar impoluto",
+            "id-id": "Silver Goblet of the Pristine Sea",
+            "th-th": "Silver Goblet of the Pristine Sea",
+            "vi-vn": "Ly Bạc Của Biển Nguyên Sơ",
+            "zh-tw": "無垢之海的銀杯"
+          }
+        },
+        {
+          "id": 4082,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/35051d1279a66943917c45e4f3721f3e_3577566892365398798.png",
+          "amount": 9,
+          "name": {
+            "pt-pt": "Núcleo Alienígena",
+            "en-us": "Alien Life Core",
+            "ja-jp": "異界生命体のコア",
+            "zh-cn": "异界生命核",
+            "ko-kr": "이세계 생명체의 코어",
+            "ru-ru": "Чужеродное ядро",
+            "de-de": "Außerweltlicher Lebenskern",
+            "fr-fr": "Noyau d'organisme d'extramonde",
+            "es-es": "Núcleo vital de otro mundo",
+            "id-id": "Alien Life Core",
+            "th-th": "Alien Life Core",
+            "vi-vn": "Hạt Nhân Sinh Mệnh Dị Giới",
+            "zh-tw": "異界生命核"
+          }
+        },
+        {
+          "id": 4070,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/4b604ff986feeaf150418ca94355a65a_7723312305957730574.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Engrenagem Dinâmica",
+            "en-us": "Artificed Dynamic Gear",
+            "ja-jp": "奇械のコア歯車",
+            "zh-cn": "奇械机芯齿轮",
+            "ko-kr": "오토마톤 코어 톱니바퀴",
+            "ru-ru": "Изощрённая динамическая шестерня",
+            "de-de": "Neuartiges Uhrwerk-Zahnrad",
+            "fr-fr": "Engrenage dynamique artificié",
+            "es-es": "Engranaje mecadinámico",
+            "id-id": "Artificed Dynamic Gear",
+            "th-th": "Artificed Dynamic Gear",
+            "vi-vn": "Bánh Răng Lõi Trung Tâm",
+            "zh-tw": "奇械機芯齒輪"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 45000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4024,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/a8147d7dfc78a2dc5d47dd50bd6292ed_4576799528764518153.png",
+          "amount": 4,
+          "name": {
+            "pt-pt": "Cálice de Ouro do Mar Pristino",
+            "en-us": "Golden Goblet of the Pristine Sea",
+            "ja-jp": "無垢な海の金盃",
+            "zh-cn": "无垢之海的金杯",
+            "ko-kr": "순결한 바다의 금잔",
+            "ru-ru": "Золотой кубок непорочного моря",
+            "de-de": "Goldkelch des unberührten Meers",
+            "fr-fr": "Gobelet d'or de la mer immaculée",
+            "es-es": "Copa de oro del mar impoluto",
+            "id-id": "Golden Goblet of the Pristine Sea",
+            "th-th": "Golden Goblet of the Pristine Sea",
+            "vi-vn": "Ly Vàng Của Biển Nguyên Sơ",
+            "zh-tw": "無垢之海的金杯"
+          }
+        },
+        {
+          "id": 4082,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/35051d1279a66943917c45e4f3721f3e_3577566892365398798.png",
+          "amount": 18,
+          "name": {
+            "pt-pt": "Núcleo Alienígena",
+            "en-us": "Alien Life Core",
+            "ja-jp": "異界生命体のコア",
+            "zh-cn": "异界生命核",
+            "ko-kr": "이세계 생명체의 코어",
+            "ru-ru": "Чужеродное ядро",
+            "de-de": "Außerweltlicher Lebenskern",
+            "fr-fr": "Noyau d'organisme d'extramonde",
+            "es-es": "Núcleo vital de otro mundo",
+            "id-id": "Alien Life Core",
+            "th-th": "Alien Life Core",
+            "vi-vn": "Hạt Nhân Sinh Mệnh Dị Giới",
+            "zh-tw": "異界生命核"
+          }
+        },
+        {
+          "id": 4070,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/4b604ff986feeaf150418ca94355a65a_7723312305957730574.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Engrenagem Dinâmica",
+            "en-us": "Artificed Dynamic Gear",
+            "ja-jp": "奇械のコア歯車",
+            "zh-cn": "奇械机芯齿轮",
+            "ko-kr": "오토마톤 코어 톱니바퀴",
+            "ru-ru": "Изощрённая динамическая шестерня",
+            "de-de": "Neuartiges Uhrwerk-Zahnrad",
+            "fr-fr": "Engrenage dynamique artificié",
+            "es-es": "Engranaje mecadinámico",
+            "id-id": "Artificed Dynamic Gear",
+            "th-th": "Artificed Dynamic Gear",
+            "vi-vn": "Bánh Răng Lõi Trung Tâm",
+            "zh-tw": "奇械機芯齒輪"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv. 1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St. 1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv. 1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "41"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Vida%",
+            "id-id": "HP",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值"
+          },
+          "value": "12.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "99",
+          "postAscensionValue": "125"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Vida%",
+            "id-id": "HP",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值"
+          },
+          "value": "21.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "184",
+          "postAscensionValue": "210"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Vida%",
+            "id-id": "HP",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值"
+          },
+          "value": "30.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "238",
+          "postAscensionValue": "264"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Vida%",
+            "id-id": "HP",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值"
+          },
+          "value": "35.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "293",
+          "postAscensionValue": "319"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Vida%",
+            "id-id": "HP",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值"
+          },
+          "value": "40.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "347",
+          "postAscensionValue": "373"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Vida%",
+            "id-id": "HP",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值"
+          },
+          "value": "45.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "401",
+          "postAscensionValue": "427"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Vida%",
+            "id-id": "HP",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值"
+          },
+          "value": "50.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St. 90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv. 90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "454",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Vida%",
+            "id-id": "HP",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值"
+          },
+          "value": "55.1%"
+        }
+      ]
+    }
+  ]
+}

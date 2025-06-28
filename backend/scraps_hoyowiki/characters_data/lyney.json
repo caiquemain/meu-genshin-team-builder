@@ -48,68 +48,34 @@
   },
   "rarity": 5,
   "vision": {
-    "label": {
-      "pt-pt": "Tipo Elemental",
-      "en-us": "Elemental Type",
-      "ja-jp": "元素タイプ",
-      "zh-cn": "元素属性",
-      "ko-kr": "원소 속성",
-      "ru-ru": "Элемент",
-      "de-de": "Elementartyp",
-      "fr-fr": "Élément",
-      "es-es": "Tipo elemental",
-      "id-id": "Tipe Elemen",
-      "th-th": "ประเภทธาตุ",
-      "vi-vn": "Thuộc Tính Nguyên Tố",
-      "zh-tw": "元素屬性"
-    },
-    "value": {
-      "pt-pt": "Pyro",
-      "en-us": "Pyro",
-      "ja-jp": "炎元素",
-      "zh-cn": "火元素",
-      "ko-kr": "불 원소",
-      "ru-ru": "Пиро",
-      "de-de": "Pyro",
-      "fr-fr": "Pyro",
-      "es-es": "Pyro",
-      "id-id": "Pyro",
-      "th-th": "ไฟ",
-      "vi-vn": "Hỏa",
-      "zh-tw": "火元素"
-    }
+    "pt-pt": "Pyro",
+    "en-us": "Pyro",
+    "ja-jp": "炎元素",
+    "zh-cn": "火元素",
+    "ko-kr": "불 원소",
+    "ru-ru": "Пиро",
+    "de-de": "Pyro",
+    "fr-fr": "Pyro",
+    "es-es": "Pyro",
+    "id-id": "Pyro",
+    "th-th": "ไฟ",
+    "vi-vn": "Hỏa",
+    "zh-tw": "火元素"
   },
   "weapon": {
-    "label": {
-      "pt-pt": "Arma",
-      "en-us": "Weapons",
-      "ja-jp": "武器種",
-      "zh-cn": "武器",
-      "ko-kr": "무기",
-      "ru-ru": "Тип",
-      "de-de": "Waffe",
-      "fr-fr": "Type d'arme",
-      "es-es": "Arma",
-      "id-id": "Senjata",
-      "th-th": "อาวุธ",
-      "vi-vn": "Vũ Khí",
-      "zh-tw": "武器"
-    },
-    "value": {
-      "pt-pt": "Arco",
-      "en-us": "Bow",
-      "ja-jp": "弓",
-      "zh-cn": "弓",
-      "ko-kr": "활",
-      "ru-ru": "Стрелковое",
-      "de-de": "Bogen",
-      "fr-fr": "Arc",
-      "es-es": "Arco",
-      "id-id": "Bow",
-      "th-th": "ธนู",
-      "vi-vn": "Cung",
-      "zh-tw": "弓"
-    }
+    "pt-pt": "Arco",
+    "en-us": "Bow",
+    "ja-jp": "弓",
+    "zh-cn": "弓",
+    "ko-kr": "활",
+    "ru-ru": "Стрелковое",
+    "de-de": "Bogen",
+    "fr-fr": "Arc",
+    "es-es": "Arco",
+    "id-id": "Bow",
+    "th-th": "ธนู",
+    "vi-vn": "Cung",
+    "zh-tw": "弓"
   },
   "characterIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/03/59559639/e343d4442cc3b8e243f0d528bb715f75_4313588781914638849.png",
   "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
@@ -118,15 +84,15 @@
     "en-us": "Felis Fuscus",
     "ja-jp": "黒斑猫座",
     "zh-cn": "黑斑猫座",
+    "ko-kr": "N/A",
     "ru-ru": "Пятнистый Кот",
     "de-de": "Felis Fuscus",
     "fr-fr": "Felis Fuscus",
     "es-es": "Felis Fuscus",
     "id-id": "Felis Fuscus",
     "th-th": "Felis Fuscus",
-    "zh-tw": "黑斑貓座",
-    "ko-kr": "N/A",
-    "vi-vn": "N/A"
+    "vi-vn": "N/A",
+    "zh-tw": "黑斑貓座"
   },
   "specialDish": {
     "id": 4125,
@@ -407,7 +373,7 @@
         "fr-fr": "Attaque normaleEnchaîne jusqu'à 4 tirs consécutifs.Attaque plongeanteTire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.Attaque chargéeEffectue un tir visé plus précis infligeant davantage de DGT.Lors de la visée, la puissance du feu vient se concentrer sur la pointe de la flèche. Les effets varient selon le nombre de charges :· 1 charge : Tire une flèche enflammée qui inflige des DGT Pyro.· 2 charges : Tire une flèche postiche qui inflige des DGT Pyro et invoque un chapeau félinois après avoir touché.Si Lyney tire une flèche postiche en ayant plus de 60 % de PV, il consomme une partie de ses PV pour obtenir un cumul de fantasmagorie. Cet effet peut être cumulé 5 fois maximum, et sera annulé après 30 s si Lyney quitte le combat.Les PV de Lyney peuvent être diminués jusqu'à 60 % de cette manière.Chapeau félinois· Permet de narguer les ennemis proches pour attirer leurs attaques, chaque ennemi pouvant être nargué par le chapeau une fois toutes les 5 s.· La durabilité du chapeau est proportionnelle aux PV max de Lyney.· Lorsque le chapeau est éliminé ou expire, il tire une balle d'artifice sur un ennemi proche, infligeant des DGT Pyro.Il ne peut exister qu'un seul chapeau félinois à la fois.Arkhe : PneumaRégulièrement, une épine d'inhalation descend à l'emplacement touché par une flèche postiche pour infliger des DGT Pyro chargés d'énergie pneuma.",
         "es-es": "Ataque NormalRealiza hasta 4 disparos consecutivos con arco.Ataque DescendenteDispara una lluvia de flechas desde el aire mientras desciende rápidamente, infligiendo Daño en el AdE al impactar contra el suelo.Ataque CargadoRealiza un Disparo Preciso que inflige mayor daño y tiene mayor precisión.Al apuntar, se acumulará una llama en la punta de la flecha. Sus efectos serán distintos dependiendo de durante cuánto tiempo se haya cargado:· Carga 1: dispara una flecha cargada del elemento Pyro que inflige Daño Pyro.· Carga 2: dispara una flecha magiaoculta que inflige Daño Pyro y que crea un sombrero gatorrisueño tras impactar contra el objetivo.Si Lyney tiene más del 60% de Vida al disparar la flecha magiaoculta, consumirá una parte de su Vida y obtendrá una carga de “cálculo oculto”, la cual puede acumularse hasta 5 veces. Este efecto se anula 30s después de que Lyney no esté en combate.La Vida de Lyney solo podrá reducirse hasta el 60% de esta manera.Sombrero gatorrisueño· Provoca a los enemigos cercanos para atraer sus ataques. Cada enemigo solo puede ser provocado una vez cada 5s.· Su resistencia depende de la Vida Máx. de Lyney.· Al ser destruido o cuando termina su duración, dispara un proyectil pirotecnimágico que inflige Daño Pyro.Solo puede haber un sombrero gatorrisueño al mismo tiempo.Arjé: pneumaCada cierto tiempo, cuando la flecha magiaoculta colisione con un objetivo, en la ubicación de dicho objetivo cae una espina halitoespiritual que inflige un Daño Pyro cargado de energía pneuma.",
         "id-id": "Normal AttackMelancarkan hingga 4 serangan berturut-turut menggunakan busur.Plunging AttackMelancarkan hujan panah dari udara dan menerjang tanah dengan kecepatan tinggi, mengakibatkan DMG Area saat mendarat.Charged AttackMengerahkan sebuah Serangan Membidik yang lebih akurat untuk mengakibatkan DMG lebih besar. Saat membidik, kekuatan api akan berkumpul di ujung anak panah sebelum ditembakkan. Memiliki efek yang berbeda tergantung dari lama serangannya ditahan:· Charge Tahap 1: Menembakkan anak panah dengan efek Pyro dan mengakibatkan Pyro DMG;· Charge Tahap 2: Menembakkan sebuah Prop Arrow yang mengakibatkan Pyro DMG dan memanggil Grin-Malkin Hat saat mengenai target.Ketika Lyney memilik 60% HP atau lebih saat menembakkan Prop Arrow, Lyney akan mengonsumsi sebagian HP-nya untuk mendapatkan satu lapis Prop Surplus. Efek ini dapat ditumpuk sampai 5 lapis dan akan dihapus setelah meninggalkan medan pertempuran selama 30 detik. Angka terendah yang bisa dicapai oleh HP Lyney dengan cara ini adalah 60% HP.Grin-Malkin Hat· Dapat memprovokasi musuh di sekitar dan memancing serangan mereka. Setiap musuh dapat diprovokasi oleh Grin-Malkin Hat satu kali setiap 5 detik;· HP Grin-Malkin Hat akan ditentukan berdasarkan persentasi dari nilai Max HP Lyney;· Saat dihancurkan atau durasinya berakhir, akan melancarkan Pyrotechnic Strike terhadap salah satu musuh di sekitar dan mengakibatkan Pyro DMG.Hanya 1 Grin-Malkin Hat yang dapat muncul di medan pertempuran dalam waktu yang bersamaan.Arkhe: PneumaSetiap beberapa saat, Prop Arrow akan mendatangkan Spiritbreath Thorn di posisi targer dan mengakibatkan Pneuma-aligned Pyro DMG.",
-        "th-th": "โจมตีปกติยิงธนูโจมตีอย่างต่อเนื่องมากสุด 4 ครั้ง&nbsp;โจมตีพุ่งลงจากอากาศปล่อยฝนธนูจากกลางอากาศ และพุ่งลงมายังพื้นดินอย่างรวดเร็ว โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น&nbsp;ชาร์จโจมตีการเล็งโจมตีสร้างความเสียหายเพิ่มขึ้น และแม่นยำยิ่งขึ้นเมื่อเล็งโจมตี พลังจากเพลิงไฟจะถูกรวบรวมบนหัวของลูกศรและยิงออกไป โดยเอฟเฟกต์ที่เกิดจะแตกต่างกันไป ตามช่วงเวลาที่เล็งชาร์จดังนี้:· ชาร์จระดับ 1: ยิงธนูที่มีธาตุไฟออกไป เพื่อสร้างความเสียหายไฟ· ชาร์จระดับ 2: ยิง Prop Arrow ออกไป เพื่อสร้างความเสียหายไฟ โดยหลังจากถูกเป้าหมาย จะเรียก \"Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม)\" ออกมา 1 ใบหาก Lyney มีค่าพลังชีวิตมากกว่า 60% ในขณะที่ยิง Prop Arrow เขาจะเสียค่าพลังชีวิตไปส่วนหนึ่ง และได้รับ \"Prop Surplus\" 1 ชั้น โดยที่เอฟเฟกต์นี้จะซ้อนทับได้มากสุด 5 ชั้น และจะถูกลบล้างหลังออกจากการต่อสู้ 30 วินาทีวิธีนี้จะทำให้ค่าพลังชีวิตของ Lyney ลดต่ำสุดถึง 60% เท่านั้น&nbsp;Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม)· สามารถยั่วยุศัตรูที่อยู่โดยรอบ เพื่อหลอกล่อศัตรูให้โจมตีใส่มัน ศัตรูจะถูก Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม) ยั่วยุหนึ่งครั้งในทุก 5 วินาที· ระดับความทนทานจะขึ้นอยู่กับสัดส่วนพลังชีวิตสูงสุดที่ได้รับสืบทอดมาจาก Lyney· เมื่อถูกทำลายหรือหมดช่วงเวลาต่อเนื่อง จะยิง Pyrotechnic Strike และสร้างความเสียหายไฟแก่ศัตรูที่อยู่ใกล้หนึ่งตัวในเวลาเดียวกันจะมี Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม) ได้มากสุด 1 ใบ&nbsp;พลังปฐมภูมิ: วิญญาณทุกช่วงระยะเวลาหนึ่ง Prop Arrow จะสร้าง Spiritbreath Thorn ที่ตำแหน่งของศัตรู เพื่อสร้างความเสียหายไฟที่มีพลังวิญญาณ",
+        "th-th": "โจมตีปกติยิงธนูโจมตีอย่างต่อเนื่องมากสุด 4 ครั้ง โจมตีพุ่งลงจากอากาศปล่อยฝนธนูจากกลางอากาศ และพุ่งลงมายังพื้นดินอย่างรวดเร็ว โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น ชาร์จโจมตีการเล็งโจมตีสร้างความเสียหายเพิ่มขึ้น และแม่นยำยิ่งขึ้นเมื่อเล็งโจมตี พลังจากเพลิงไฟจะถูกรวบรวมบนหัวของลูกศรและยิงออกไป โดยเอฟเฟกต์ที่เกิดจะแตกต่างกันไป ตามช่วงเวลาที่เล็งชาร์จดังนี้:· ชาร์จระดับ 1: ยิงธนูที่มีธาตุไฟออกไป เพื่อสร้างความเสียหายไฟ· ชาร์จระดับ 2: ยิง Prop Arrow ออกไป เพื่อสร้างความเสียหายไฟ โดยหลังจากถูกเป้าหมาย จะเรียก \"Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม)\" ออกมา 1 ใบหาก Lyney มีค่าพลังชีวิตมากกว่า 60% ในขณะที่ยิง Prop Arrow เขาจะเสียค่าพลังชีวิตไปส่วนหนึ่ง และได้รับ \"Prop Surplus\" 1 ชั้น โดยที่เอฟเฟกต์นี้จะซ้อนทับได้มากสุด 5 ชั้น และจะถูกลบล้างหลังออกจากการต่อสู้ 30 วินาทีวิธีนี้จะทำให้ค่าพลังชีวิตของ Lyney ลดต่ำสุดถึง 60% เท่านั้น Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม)· สามารถยั่วยุศัตรูที่อยู่โดยรอบ เพื่อหลอกล่อศัตรูให้โจมตีใส่มัน ศัตรูจะถูก Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม) ยั่วยุหนึ่งครั้งในทุก 5 วินาที· ระดับความทนทานจะขึ้นอยู่กับสัดส่วนพลังชีวิตสูงสุดที่ได้รับสืบทอดมาจาก Lyney· เมื่อถูกทำลายหรือหมดช่วงเวลาต่อเนื่อง จะยิง Pyrotechnic Strike และสร้างความเสียหายไฟแก่ศัตรูที่อยู่ใกล้หนึ่งตัวในเวลาเดียวกันจะมี Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม) ได้มากสุด 1 ใบ พลังปฐมภูมิ: วิญญาณทุกช่วงระยะเวลาหนึ่ง Prop Arrow จะสร้าง Spiritbreath Thorn ที่ตำแหน่งของศัตรู เพื่อสร้างความเสียหายไฟที่มีพลังวิญญาณ",
         "vi-vn": "Tấn Công ThườngThực hiện tối đa 4 lần bắn tên liên tiếp.Tấn Công Khi ĐápBắn mưa tên liên tiếp xuống mặt đất, đồng thời lao nhanh xuống đất và gây sát thương phạm vi khi chạm đất.Trọng KíchNgắm bắn gây sát thương cao hơn và chính xác hơn.Khi ngắm bắn, liên tục tích tụ sức mạnh nguyên tố Hỏa để bắn ra. Dựa vào thời gian tụ lực để có các hiệu quả khác nhau:·Tụ Lực Lần 1: Bắn ra mũi tên gây Sát Thương Nguyên Tố Hỏa;·Tụ Lực Lần 2：Bắn Mũi Tên Ảo Thuật, gây Sát Thương Nguyên Tố Hỏa, khi trúng sẽ triệu hồi một \"Mũ Mèo Ma Quái\".Khi bắn Mũi Tên Ảo Thuật, nếu HP của Lyney cao hơn 60%, Lyney sẽ tiêu hao một phần HP để nhận được một tầng \"Đạo Cụ Dự Phòng\", tối đa cộng dồn 5 tầng, sẽ xóa sau khi rời chiến đấu 30s.HP của Lyney tối đa giảm đến 60% thông qua cách nàyMũ Mèo Ma Quái·Khiêu khích kẻ địch xung quanh tấn công, mỗi kẻ địch mỗi 5s chỉ bị Mũ Mèo Ma Quái khiêu khích một lần;·Độ bền kế thừa một phần HP tối đa của Lyney;·Khi bị phá hủy hoặc kết thúc thời gian, sẽ bắn ra Pháo Hoa Ảo Thuật cho một kẻ địch xung quanh, gây Sát Thương Nguyên Tố Hỏa.Cùng lúc chỉ tồn tại 1 chiếc Mũ Mèo Ma Quái.Sức Mạnh Nền Tảng: PneumaCứ cách một khoảng thời gian, Mũi Tên Ảo Thuật sẽ giáng Gai Linh Hồn xuống vị trí bắn trúng, gây Sát Thương Nguyên Tố Hỏa thuộc tính Pneuma.",
         "zh-tw": "普通攻擊進行至多四段的連續弓箭射擊。下落攻擊從空中射出箭雨，並迅速下墜衝擊地面，在落地時造成範圍傷害。重擊進行傷害更高、更為精準的瞄準射擊。瞄準時，火焰的力量會在箭矢上持續積聚，並隨攻擊發射出去。根據蓄力時間長短，能造成不同的效果：·一段蓄力：射出附有火元素的箭矢，造成火元素傷害。·二段蓄力：發射隱具魔術箭，造成火元素傷害，並在命中後，召喚一頂「怪笑貓貓帽」。發射隱具魔術箭時，當林尼的生命值高於60%時，林尼將消耗一部分生命值，並獲得一層「隱具餘數」，該效果至多疊加5層，會在脫離戰鬥30秒後清除。依此方式，至多使林尼的生命值降低至60%。怪笑貓貓帽·能夠嘲諷周圍的敵人，吸引敵人攻擊。每名敵人每5秒只能被怪笑貓貓帽嘲諷一次。·耐久度按比例繼承林尼的生命值上限。·被摧毀或持續時間結束時，會對周圍的一名敵人發射禮花術彈，造成火元素傷害。至多同時存在1頂怪笑貓貓帽。始基力：芒性每隔一段時間，隱具魔術箭將在命中的位置降下靈息之刺，造成具有芒性的火元素傷害。"
       },
@@ -441,7 +407,7 @@
         "fr-fr": "Lyney agite son chapeau pour déclencher un feu d'artifice surprise.L'utilisation de cette capacité consomme tous les cumuls de fantasmagorie possédés et inflige des DGT Pyro de zone aux ennemis en face. Les DGT augmentent selon la quantité de cumuls consommés, et les PV de Lyney sont aussi restaurés selon ses PV max.Lorsqu'un chapeau félinois créé par Lyney est présent sur le champ de bataille, le feu d'artifice le fait exploser pour infliger des DGT Pyro de zone d'une valeur équivalant aux DGT d'une balle d'artifice.Les DGT infligés par un chapeau félinois de cette manière sont considérés comme des DGT d'attaque chargée.« Tout le monde sait que les magiciens détournent intentionnellement le public... Eh oui, pendant que vous me regardiez, mon chapeau et mon assistant là-bas ont tous deux disparu... Fascinant, n'est-ce pas ? »",
         "es-es": "Lyney crea una explosión pirotécnica sorpresa con su sombrero de copa.Al liberar la habilidad, se elimina el efecto de cálculo oculto para infligir Daño Pyro en el AdE a los enemigos que haya enfrente. Dicho daño será mayor cuantas más cargas de cálculo oculto se hayan consumido, y además, Lyney recuperará Vida en función de su propia Vida Máx. y de las cargas de cálculo oculto consumidas.Si en el campo de batalla hay un sombrero gatorrisueño creado por Lyney, la explosión lo hará estallar e infligirá un Daño Pyro en el AdE equivalente al daño del proyectil pirotecnimágico.El daño de la explosión del sombrero gatorrisueño infligido de esta manera se considera daño de Ataque Cargado.“Como es bien sabido, uno de los trucos que más usan los magos es desviar la atención del público hacia algo en concreto. Por ejemplo, mientras mirabas hacia aquí, mi sombrero y mi ayudante ya han desaparecido. Divertido, ¿eh?”.",
         "id-id": "Lyney menggerakkan topinya dan meledakkan kembang api kejutan. Saat dilancarkan, akan menghapus seluruh lapisan Prop Surplus yang sudah dimiliki dan mengakibatkan Pyro DMG Area terhadap musuh yang bedada di depan. DMG akan meningkat berdasarkan jumlah lapisan Prop Surplus yang dihapus. Juga akan memulihkan HP Lyney berdasarkan Max HP-nya.Saat ada Grin-Malkin Hat yang diciptakan oleh Lyne di medan perang, kembang api akan membuat Grin-Malkin Hast meledak dengan kuat dann mengakibatkan Pyro DMG Area yang setara dengan DMG Pyrotechnic Strike. DMG yang dihasilkan oleh Grin-Malkin Hat dengan cara ini akan dianggap sebagai DMG Charged Attack.\"Semua orang tahu kalau pesulap pasti akan mengalihkan perhatian para penonton ... Ah, ya, waktu kamu sedang memperhatikanku, topi dan asisten di sana sudah hilang dua-duanya ... Menarik, bukan?\"",
-        "th-th": "Lyney โบกหมวกทรงสูง ก่อนจะสร้างดอกไม้ไฟสุดแสนตระการตาให้ดูชมเมื่อใช้สกิล จะล้างการสะสมชั้น \"Prop Surplus\" ที่มี เพื่อสร้างความเสียหายไฟวงกว้างแก่ศัตรูตรงหน้า โดยที่ความเสียหายจะเพิ่มขึ้นตามจำนวนชั้นสะสมที่ถูกล้างไป พร้อมกับฟื้นฟูพลังชีวิตให้กับ Lyney โดยขึ้นกับค่าพลังชีวิตสูงสุดของ Lyney&nbsp;เมื่อมี Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม) ที่ Lyney เรียกอยู่ในพื้นที่การต่อสู้ ดอกไม้ไฟจะทำให้มันระเบิด และสร้างความเสียหายไฟวงกว้างเท่ากับความเสียหายจาก Pyrotechnic Strikeด้วยวิธีนี้ ความเสียหายจาก Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม) จะนับเป็นความเสียหายชาร์จโจมตี.\"อย่างที่ทุกคนรู้กันดี ทริกที่นักมายากลใช้บ่อยสุดคือ การเบี่ยงเบนความสนใจของผู้ชม... ใช่แล้ว ขณะที่กำลังมองมาทางนี้ หมวกกับผู้ช่วยฝั่งนั้นก็หายไปแล้วล่ะ เป็นไง น่าสนใจใช่มั้ยล่ะ\"",
+        "th-th": "Lyney โบกหมวกทรงสูง ก่อนจะสร้างดอกไม้ไฟสุดแสนตระการตาให้ดูชมเมื่อใช้สกิล จะล้างการสะสมชั้น \"Prop Surplus\" ที่มี เพื่อสร้างความเสียหายไฟวงกว้างแก่ศัตรูตรงหน้า โดยที่ความเสียหายจะเพิ่มขึ้นตามจำนวนชั้นสะสมที่ถูกล้างไป พร้อมกับฟื้นฟูพลังชีวิตให้กับ Lyney โดยขึ้นกับค่าพลังชีวิตสูงสุดของ Lyney เมื่อมี Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม) ที่ Lyney เรียกอยู่ในพื้นที่การต่อสู้ ดอกไม้ไฟจะทำให้มันระเบิด และสร้างความเสียหายไฟวงกว้างเท่ากับความเสียหายจาก Pyrotechnic Strikeด้วยวิธีนี้ ความเสียหายจาก Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม) จะนับเป็นความเสียหายชาร์จโจมตี.\"อย่างที่ทุกคนรู้กันดี ทริกที่นักมายากลใช้บ่อยสุดคือ การเบี่ยงเบนความสนใจของผู้ชม... ใช่แล้ว ขณะที่กำลังมองมาทางนี้ หมวกกับผู้ช่วยฝั่งนั้นก็หายไปแล้วล่ะ เป็นไง น่าสนใจใช่มั้ยล่ะ\"",
         "vi-vn": "Lyney dùng chiếc mũ của mình để trình diễn màn ảo thuật pháo hoa.Khi thi triển sẽ xóa \"Đạo Cụ Dự Phòng\" đã có, gây Sát Thương Phạm Vi Nguyên Tố Hỏa cho kẻ địch phía trước. Căn cứ vào số tầng đã xóa để tăng sát thương gây ra, đồng thời hồi phục HP cho Lyney dựa vào giới hạn HP.Khi trong trận có Mũ Mèo Ma Quái do bản thân Lyney tạo ra, thì pháo hoa sẽ khiến nó phát nổ, gây Sát Thương Phạm Vi Nguyên Tố Hỏa tương đồng với Pháo Hoa Ảo Thuật.Sát thương gây ra khi làm nổ Mũ Mèo Ma Quái sẽ được xem là sát thương trọng kích.\"Như người ta nói, ảo thuật gia thường dùng tay mình để đánh lạc hướng khán giả... Đúng đấy, khi cậu nhìn phía này thì chiếc mũ và trợ thủ ở phía kia đã biến mất rồi. Thế nào, thú vị chứ.\"",
         "zh-tw": "林尼揮動禮帽，引爆驚喜的禮花。施放時，將清除已有的「隱具餘數」，對前方的敵人造成火元素範圍傷害。根據清除的層數，提升造成的傷害，並基於林尼的生命值上限為林尼恢復生命值。場上存在林尼自己創造的怪笑貓貓帽時，禮花將使其猛烈爆炸，造成等同於禮花術彈傷害的火元素範圍傷害。依此方式引爆怪笑貓貓帽造成的傷害視為重擊傷害。可以在瞄準狀態下施放。「眾所周知，魔術師經常用的手法就是故意引導觀眾的注意力…對，在妳/你看向這邊的同時，那邊的帽子和助手就都不見了，怎麼樣，很有趣吧。」"
       },
@@ -475,7 +441,7 @@
         "fr-fr": "Libérant sa magie, Lyney se transforme en un félin chaponois qui peut se déplacer rapidement. (À ne pas confondre avec son chapeau félinois. Ce sont deux accessoires bien différents !)Lorsque le félin chaponois s'approche des ennemis, il fait pleuvoir des flammes sur ces derniers, infligeant une fois des DGT Pyro à chaque ennemi. Une fois la durée terminée, le félin chaponois se dissipe en faisant exploser un magnifique feu d'artifice, ce qui inflige des DGT Pyro de zone, invoque un chapeau félinois et lui accorde un cumul de fantasmagorie.Un félin chaponois peut être dissipé manuellement.« Regardez attentivement. C'est le moment du miracle, et il n'appartient qu'à nous ! »",
         "es-es": "En un alarde de sus habilidades mágicas, Lyney se transforma en un “sombregato risueño” (atención: ¡el sombrero gatorrisueño y el sombregato risueño son dos herramientas mágicas muy distintas!).Cuando el sombregato risueño se acerca a los enemigos, descenderán unos fuegos artificiales que infligen Daño Pyro una vez como máximo contra cada uno de ellos. Cuando termina la duración de esta habilidad, Lyney sale de su forma de sombregato risueño para provocar una hermosa explosión pirotécnica que inflige Daño Pyro en el AdE, crea un sombrero gatorrisueño y obtiene una carga de cálculo oculto.Lyney puede salir manualmente de su forma de sombregato risueño.“Damas y caballeros, presten atención. ¡Este es nuestro único e inigualable momento mágico!”.",
         "id-id": "Lyney melancarkan sulap dan berubah menjadi Grin-Malkin Cat yang dapat bergerak dengan cepat.(Bukan Grin-Malkin Hat ya. Ini dua alat sulap yang berbeda loh!)Saat Grin-Malkin Cat mendekati musuh, akan menurunkan bara api terhadap musuh di sekitar, dan mengakibatkan maksimum satu kali Pyro DMG terhadap setiap musuh. Setelah durasinya berakhir, Lyney akan membatalkan bentuk Grin-Malkin Cat, dan menyalakan kembang api yang mengakibatkan Pyro DMG Area, serta memanggil satu Grin-Malkin Hat dan mendapatkan satu lapis Prop Surplus.Grin-Malkin Cat bisa dibatalkan secara aktif.\"Lihat baik-baik ya. Waktunya untuk keajaiban, dan ini cuma milik kita berdua saja!\"",
-        "th-th": "Lyney แสดงมายากล แปลงกายเป็น \"Grin-Malkin Cat (แมวยิ้มกริ่มในหมวก)\" ซึ่งสามารถเคลื่อนที่ได้อย่างรวดเร็ว (ไม่ใช่ \"Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม)\" แต่อย่างใด สองอย่างนี้เป็นอุปกรณ์การแสดงคนละอย่างกัน!)เมื่อ Grin-Malkin Cat (แมวยิ้มกริ่มในหมวก) เข้าใกล้ศัตรู จะเรียกเพลิงไฟสู่ศัตรูรอบด้าน และสร้างความเสียหายไฟมากสุด 1 ครั้ง แก่ศัตรู เมื่อระยะเวลาต่อเนื่องจบลง Lyney จะออกจากสถานะ Grin-Malkin Cat (แมวยิ้มกริ่มในหมวก) และจุดดอกไม้ไฟอันตระการตา เพื่อสร้างความเสียหายไฟวงกว้าง พร้อมกับเรียก Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม) 1 ใบ และได้รับ Prop Surplus 1 ชั้น&nbsp;สามารถทำการยกเลิกสถานะ Grin-Malkin Cat (แมวยิ้มกริ่มในหมวก) ได้ด้วยตัวเอง.\"งั้นจะโชว์ให้ดูหน่อยละกัน ดูให้ดี ๆ นะ นี่เป็นช่วงเวลาแห่งปาฏิหาริย์ของเราสองคนเท่านั้น!\"",
+        "th-th": "Lyney แสดงมายากล แปลงกายเป็น \"Grin-Malkin Cat (แมวยิ้มกริ่มในหมวก)\" ซึ่งสามารถเคลื่อนที่ได้อย่างรวดเร็ว (ไม่ใช่ \"Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม)\" แต่อย่างใด สองอย่างนี้เป็นอุปกรณ์การแสดงคนละอย่างกัน!)เมื่อ Grin-Malkin Cat (แมวยิ้มกริ่มในหมวก) เข้าใกล้ศัตรู จะเรียกเพลิงไฟสู่ศัตรูรอบด้าน และสร้างความเสียหายไฟมากสุด 1 ครั้ง แก่ศัตรู เมื่อระยะเวลาต่อเนื่องจบลง Lyney จะออกจากสถานะ Grin-Malkin Cat (แมวยิ้มกริ่มในหมวก) และจุดดอกไม้ไฟอันตระการตา เพื่อสร้างความเสียหายไฟวงกว้าง พร้อมกับเรียก Grin-Malkin Hat (หมวกเหมียวยิ้มกริ่ม) 1 ใบ และได้รับ Prop Surplus 1 ชั้น สามารถทำการยกเลิกสถานะ Grin-Malkin Cat (แมวยิ้มกริ่มในหมวก) ได้ด้วยตัวเอง.\"งั้นจะโชว์ให้ดูหน่อยละกัน ดูให้ดี ๆ นะ นี่เป็นช่วงเวลาแห่งปาฏิหาริย์ของเราสองคนเท่านั้น!\"",
         "vi-vn": "Lyney dùng ảo thuật để biến thành Mèo Mũ Ma Quái di chuyển nhanh. (Đừng nhầm với đạo cụ biểu diễn là Mũ Mèo Ma Quái nhé!)Mèo Mũ Ma Quái khi tiếp cận kẻ địch, sẽ khiến ngọn lửa giáng xuống, gây tối đa một lần Sát Thương Nguyên Tố Hỏa cho mỗi kẻ địch. Khi thời gian kết thúc, Lyney sẽ thoát trạng thái Mèo Mũ Ma Quái và tung pháo hoa, gây Sát Thương Phạm Vi Nguyên Tố Hỏa, đồng thời triệu hồi một chiếc Mũ Mèo Ma Quái, và nhận một tầng \"Đạo Cụ Dự Phòng\".Có thể chủ động thoát trạng thái Mèo Mũ Ma Quái\"Giờ thì để cho cậu thưởng thức thủ thuật độc nhất vô nhị của tôi đây. Xem kỹ nhé!\"",
         "zh-tw": "林尼施展魔術，化形為能夠快速移動的「怪笑帽帽貓」。（並不是「怪笑貓貓帽」。這是兩個不同的演出道具！）怪笑帽帽貓接近敵人時，會對身邊的敵人降下焰火，對每個敵人造成至多一次火元素傷害。持續時間結束時林尼將解除怪笑帽帽貓，引爆華麗的禮花，造成火元素範圍傷害，召喚一頂怪笑貓貓帽，並獲得一層「隱具餘數」。可以主動解除怪笑帽帽貓。「那就讓妳/你們稍微見識一下吧，要看仔細囉，這是僅屬於我們的，獨一無二的，奇蹟時刻！」"
       },
@@ -607,7 +573,7 @@
           "label": {
             "pt-pt": "Nível",
             "en-us": "Level",
-            "ja-jp": "",
+            "ja-jp": "Level",
             "zh-cn": "Level",
             "ko-kr": "Level",
             "ru-ru": "Уровень",
@@ -1155,7 +1121,7 @@
           "label": {
             "pt-pt": "Nível",
             "en-us": "Level",
-            "ja-jp": "",
+            "ja-jp": "Level",
             "zh-cn": "Level",
             "ko-kr": "Level",
             "ru-ru": "Уровень",
@@ -1164,7 +1130,7 @@
             "es-es": "Niv.",
             "id-id": "Level",
             "th-th": "Level",
-            "vi-vn": "",
+            "vi-vn": "Level",
             "zh-tw": "Level"
           },
           "values": [
@@ -1320,7 +1286,7 @@
           "label": {
             "pt-pt": "Nível",
             "en-us": "Level",
-            "ja-jp": "",
+            "ja-jp": "Level",
             "zh-cn": "Level",
             "ko-kr": "Level",
             "ru-ru": "Уровень",
@@ -1329,7 +1295,7 @@
             "es-es": "Niv.",
             "id-id": "Level",
             "th-th": "Level",
-            "vi-vn": "",
+            "vi-vn": "Level",
             "zh-tw": "Level"
           },
           "values": [
@@ -1534,7 +1500,7 @@
           "level": 2,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 12500,
               "name": {
@@ -1554,7 +1520,7 @@
               }
             },
             {
-              "id": "4078",
+              "id": 4078,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/9756eebf6ce0192b9e27fc067db611aa_8044121978484211942.png",
               "amount": 3,
               "name": {
@@ -1574,7 +1540,7 @@
               }
             },
             {
-              "id": "778",
+              "id": 778,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Recruit's%20Insignia_icon.png",
               "amount": 6,
               "name": {
@@ -1599,7 +1565,7 @@
           "level": 3,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 17500,
               "name": {
@@ -1619,7 +1585,7 @@
               }
             },
             {
-              "id": "4079",
+              "id": 4079,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/fe870b6dda9cd98804b49f49f992d8af_5693939665514204917.png",
               "amount": 2,
               "name": {
@@ -1639,7 +1605,7 @@
               }
             },
             {
-              "id": "466",
+              "id": 466,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sergeant's%20Insignia_icon.png",
               "amount": 3,
               "name": {
@@ -1664,7 +1630,7 @@
           "level": 4,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 25000,
               "name": {
@@ -1684,7 +1650,7 @@
               }
             },
             {
-              "id": "4079",
+              "id": 4079,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/fe870b6dda9cd98804b49f49f992d8af_5693939665514204917.png",
               "amount": 4,
               "name": {
@@ -1704,7 +1670,7 @@
               }
             },
             {
-              "id": "466",
+              "id": 466,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sergeant's%20Insignia_icon.png",
               "amount": 4,
               "name": {
@@ -1729,7 +1695,7 @@
           "level": 5,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 30000,
               "name": {
@@ -1749,7 +1715,7 @@
               }
             },
             {
-              "id": "4079",
+              "id": 4079,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/fe870b6dda9cd98804b49f49f992d8af_5693939665514204917.png",
               "amount": 6,
               "name": {
@@ -1769,7 +1735,7 @@
               }
             },
             {
-              "id": "466",
+              "id": 466,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sergeant's%20Insignia_icon.png",
               "amount": 6,
               "name": {
@@ -1794,7 +1760,7 @@
           "level": 6,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 37500,
               "name": {
@@ -1814,7 +1780,7 @@
               }
             },
             {
-              "id": "4079",
+              "id": 4079,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/fe870b6dda9cd98804b49f49f992d8af_5693939665514204917.png",
               "amount": 9,
               "name": {
@@ -1834,7 +1800,7 @@
               }
             },
             {
-              "id": "466",
+              "id": 466,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sergeant's%20Insignia_icon.png",
               "amount": 9,
               "name": {
@@ -1859,7 +1825,7 @@
           "level": 7,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 120000,
               "name": {
@@ -1879,7 +1845,7 @@
               }
             },
             {
-              "id": "4080",
+              "id": 4080,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/9f61cc5605d47c5c20447bd9cf02a832_4190619380845579253.png",
               "amount": 4,
               "name": {
@@ -1899,7 +1865,7 @@
               }
             },
             {
-              "id": "636",
+              "id": 636,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Lieutenant's%20Insignia_icon.png",
               "amount": 4,
               "name": {
@@ -1919,7 +1885,7 @@
               }
             },
             {
-              "id": "3722",
+              "id": 3722,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/17/89220822/6a5efc1f62c02dc8649e970846ea28aa_3295847396716155075.png",
               "amount": 1,
               "name": {
@@ -1944,7 +1910,7 @@
           "level": 8,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 260000,
               "name": {
@@ -1964,7 +1930,7 @@
               }
             },
             {
-              "id": "4080",
+              "id": 4080,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/9f61cc5605d47c5c20447bd9cf02a832_4190619380845579253.png",
               "amount": 6,
               "name": {
@@ -1984,7 +1950,7 @@
               }
             },
             {
-              "id": "636",
+              "id": 636,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Lieutenant's%20Insignia_icon.png",
               "amount": 6,
               "name": {
@@ -2004,7 +1970,7 @@
               }
             },
             {
-              "id": "3722",
+              "id": 3722,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/17/89220822/6a5efc1f62c02dc8649e970846ea28aa_3295847396716155075.png",
               "amount": 1,
               "name": {
@@ -2029,7 +1995,7 @@
           "level": 9,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 450000,
               "name": {
@@ -2049,7 +2015,7 @@
               }
             },
             {
-              "id": "4080",
+              "id": 4080,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/9f61cc5605d47c5c20447bd9cf02a832_4190619380845579253.png",
               "amount": 12,
               "name": {
@@ -2069,7 +2035,7 @@
               }
             },
             {
-              "id": "636",
+              "id": 636,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Lieutenant's%20Insignia_icon.png",
               "amount": 9,
               "name": {
@@ -2089,7 +2055,7 @@
               }
             },
             {
-              "id": "3722",
+              "id": 3722,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/17/89220822/6a5efc1f62c02dc8649e970846ea28aa_3295847396716155075.png",
               "amount": 2,
               "name": {
@@ -2114,7 +2080,7 @@
           "level": 10,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 700000,
               "name": {
@@ -2134,7 +2100,7 @@
               }
             },
             {
-              "id": "4080",
+              "id": 4080,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/59559639/9f61cc5605d47c5c20447bd9cf02a832_4190619380845579253.png",
               "amount": 16,
               "name": {
@@ -2154,7 +2120,7 @@
               }
             },
             {
-              "id": "636",
+              "id": 636,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Lieutenant's%20Insignia_icon.png",
               "amount": 12,
               "name": {
@@ -2174,7 +2140,7 @@
               }
             },
             {
-              "id": "3722",
+              "id": 3722,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/17/89220822/6a5efc1f62c02dc8649e970846ea28aa_3295847396716155075.png",
               "amount": 2,
               "name": {
@@ -2194,7 +2160,7 @@
               }
             },
             {
-              "id": "900",
+              "id": 900,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Crown%20of%20Insight_icon.png",
               "amount": 1,
               "name": {
@@ -2267,7 +2233,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 20000,
           "name": {
@@ -2287,7 +2253,7 @@
           }
         },
         {
-          "id": "1100",
+          "id": 1100,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Sliver_icon.png",
           "amount": 1,
           "name": {
@@ -2307,7 +2273,7 @@
           }
         },
         {
-          "id": "4007",
+          "id": 4007,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/670b8958c90014a1bdacba5123c2c9da_1191091128352468028.png",
           "amount": 3,
           "name": {
@@ -2327,7 +2293,7 @@
           }
         },
         {
-          "id": "778",
+          "id": 778,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Recruit's%20Insignia_icon.png",
           "amount": 3,
           "name": {
@@ -2366,7 +2332,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 40000,
           "name": {
@@ -2386,7 +2352,7 @@
           }
         },
         {
-          "id": "1099",
+          "id": 1099,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Fragment_icon.png",
           "amount": 3,
           "name": {
@@ -2406,7 +2372,7 @@
           }
         },
         {
-          "id": "4026",
+          "id": 4026,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/4192b765e880bef0a49753fc0b634c13_5204670034740133267.png",
           "amount": 2,
           "name": {
@@ -2426,7 +2392,7 @@
           }
         },
         {
-          "id": "4007",
+          "id": 4007,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/670b8958c90014a1bdacba5123c2c9da_1191091128352468028.png",
           "amount": 10,
           "name": {
@@ -2446,7 +2412,7 @@
           }
         },
         {
-          "id": "778",
+          "id": 778,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Recruit's%20Insignia_icon.png",
           "amount": 15,
           "name": {
@@ -2485,7 +2451,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 60000,
           "name": {
@@ -2505,7 +2471,7 @@
           }
         },
         {
-          "id": "1099",
+          "id": 1099,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Fragment_icon.png",
           "amount": 6,
           "name": {
@@ -2525,7 +2491,7 @@
           }
         },
         {
-          "id": "4026",
+          "id": 4026,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/4192b765e880bef0a49753fc0b634c13_5204670034740133267.png",
           "amount": 4,
           "name": {
@@ -2545,7 +2511,7 @@
           }
         },
         {
-          "id": "4007",
+          "id": 4007,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/670b8958c90014a1bdacba5123c2c9da_1191091128352468028.png",
           "amount": 20,
           "name": {
@@ -2565,7 +2531,7 @@
           }
         },
         {
-          "id": "466",
+          "id": 466,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sergeant's%20Insignia_icon.png",
           "amount": 12,
           "name": {
@@ -2604,7 +2570,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 80000,
           "name": {
@@ -2624,7 +2590,7 @@
           }
         },
         {
-          "id": "1098",
+          "id": 1098,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Chunk_icon.png",
           "amount": 3,
           "name": {
@@ -2644,7 +2610,7 @@
           }
         },
         {
-          "id": "4026",
+          "id": 4026,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/4192b765e880bef0a49753fc0b634c13_5204670034740133267.png",
           "amount": 8,
           "name": {
@@ -2664,7 +2630,7 @@
           }
         },
         {
-          "id": "4007",
+          "id": 4007,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/670b8958c90014a1bdacba5123c2c9da_1191091128352468028.png",
           "amount": 30,
           "name": {
@@ -2684,7 +2650,7 @@
           }
         },
         {
-          "id": "466",
+          "id": 466,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sergeant's%20Insignia_icon.png",
           "amount": 18,
           "name": {
@@ -2723,7 +2689,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 100000,
           "name": {
@@ -2743,7 +2709,7 @@
           }
         },
         {
-          "id": "1098",
+          "id": 1098,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Chunk_icon.png",
           "amount": 6,
           "name": {
@@ -2763,7 +2729,7 @@
           }
         },
         {
-          "id": "4026",
+          "id": 4026,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/4192b765e880bef0a49753fc0b634c13_5204670034740133267.png",
           "amount": 12,
           "name": {
@@ -2783,7 +2749,7 @@
           }
         },
         {
-          "id": "4007",
+          "id": 4007,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/670b8958c90014a1bdacba5123c2c9da_1191091128352468028.png",
           "amount": 45,
           "name": {
@@ -2803,7 +2769,7 @@
           }
         },
         {
-          "id": "636",
+          "id": 636,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Lieutenant's%20Insignia_icon.png",
           "amount": 12,
           "name": {
@@ -2842,7 +2808,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 120000,
           "name": {
@@ -2862,7 +2828,7 @@
           }
         },
         {
-          "id": "1097",
+          "id": 1097,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Gemstone_icon.png",
           "amount": 6,
           "name": {
@@ -2882,7 +2848,7 @@
           }
         },
         {
-          "id": "4026",
+          "id": 4026,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/4192b765e880bef0a49753fc0b634c13_5204670034740133267.png",
           "amount": 20,
           "name": {
@@ -2902,7 +2868,7 @@
           }
         },
         {
-          "id": "4007",
+          "id": 4007,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/101132274/670b8958c90014a1bdacba5123c2c9da_1191091128352468028.png",
           "amount": 60,
           "name": {
@@ -2922,7 +2888,7 @@
           }
         },
         {
-          "id": "636",
+          "id": 636,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Lieutenant's%20Insignia_icon.png",
           "amount": 24,
           "name": {

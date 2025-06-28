@@ -1,0 +1,1022 @@
+{
+  "id": "snowtombed_starsilver",
+  "wiki_id": 2043,
+  "name": {
+    "pt-pt": "Estrela de Prata Enterrada na Neve",
+    "en-us": "Snow-Tombed Starsilver",
+    "ja-jp": "雪葬の星銀",
+    "zh-cn": "雪葬的星银",
+    "ko-kr": "설장의 성은",
+    "ru-ru": "Заснеженное звёздное серебро",
+    "de-de": "Unter Schnee begrabenes Sternsilber",
+    "fr-fr": "Tombe-neige en argétoile",
+    "es-es": "Argento Estelar de las Nieves",
+    "id-id": "Snow-Tombed Starsilver",
+    "th-th": "Snow-Tombed Starsilver",
+    "vi-vn": "Tuyết Vùi Tinh Ngân",
+    "zh-tw": "雪葬的星銀"
+  },
+  "description": {
+    "pt-pt": "Um Espadão antigo escondido dentro de uma pintura. Forjado de Prata Estrelada, possui o poder de cortar o gelo.",
+    "en-us": "An ancient greatsword that was stored between frescoes. Forged from Starsilver, it has the power to cleave through ice and snow.",
+    "ja-jp": "壁画の間に保存されていた太古の大剣。星銀で鍛錬された刀身は、氷雪をも切り裂く力がある。",
+    "zh-cn": "储存在壁画之间的古老大剑。由星银铸成，似乎拥有斩开冰雪的力量。",
+    "ko-kr": "벽화 사이에 보존되어 있는 태고의 대검. 성은으로 주조된 이 검은 빙설도 가를 수 있는 힘을 보유하고 있다",
+    "ru-ru": "Древний меч, сохранившийся среди настенных фресок. Он сделан из звёздного серебра и обладает силой, способной расколоть самый твёрдый лёд.",
+    "de-de": "Ein antikes Großschwert, welches zwischen alten Wandgemälden verstaut war. Aus Sternsilber geschmiedet besitzt es die Macht, Eis und Schnee auseinanderzutreiben.",
+    "fr-fr": "Un espadon antique autrefois dissimulé entre des fresques. Forgée en argétoile, cette arme a le pouvoir de fendre la neige et la glace.",
+    "es-es": "Un mandoble antiguo oculto detrás de un fresco. Fue forjado con argento estelar, y tiene el poder de cortar a través del hielo y la nieve.",
+    "id-id": "Pedang besar kuno yang tersimpan di antara mural. Ditempa dari Starsilver, mempunyai kekuatan untuk membelah es dan salju.",
+    "th-th": "ดาบใหญ่โบราณที่ซ่อนอยู่ในภาพฝาผนังนี้ หลอมขึ้นมาจากดวงดาว ดูเหมือนจะมีพลังที่สามารถฟันน้ำแข็งและหิมะได้",
+    "vi-vn": "Thanh kiếm cổ xưa được cất giấu giữa bức bích họa. Được đúc từ Tinh Ngân, dường như có sở hữu sức mạnh có thể cắt vỡ băng tuyết.",
+    "zh-tw": "儲存在壁畫之間的古老大劍。由星銀鑄成，似乎擁有斬開冰雪的力量。"
+  },
+  "rarity": 4,
+  "type": {
+    "pt-pt": "Espadão",
+    "en-us": "Claymore",
+    "ja-jp": "両手剣",
+    "zh-cn": "双手剑",
+    "ko-kr": "양손검",
+    "ru-ru": "Двуручное",
+    "de-de": "Zweihänder",
+    "fr-fr": "Épée à deux mains",
+    "es-es": "Mandoble",
+    "id-id": "Claymore",
+    "th-th": "ดาบใหญ่",
+    "vi-vn": "Trọng Kiếm",
+    "zh-tw": "雙手劍"
+  },
+  "subStat": {
+    "pt-pt": "Bônus de Dano Físico%",
+    "en-us": "Physical DMG Bonus",
+    "ja-jp": "物理ダメージ",
+    "zh-cn": "物理伤害加成",
+    "ko-kr": "물리 피해 보너스",
+    "ru-ru": "Бонус физ. урона",
+    "de-de": "Physischer SCH-Bonus",
+    "fr-fr": "Bonus de DGT physiques",
+    "es-es": "Bono de Daño Físico",
+    "id-id": "Physical DMG Bonus",
+    "th-th": "โบนัสความเสียหายกายภาพ",
+    "vi-vn": "Tăng Sát Thương Vật Lý",
+    "zh-tw": "物理傷害加成"
+  },
+  "passiveName": {
+    "pt-pt": "Enterro Congelante",
+    "en-us": "Frost Burial",
+    "ja-jp": "霜の埋葬",
+    "zh-cn": "霜葬",
+    "ko-kr": "서리의 매장",
+    "ru-ru": "Морозное погребение:",
+    "de-de": "Frostgrab",
+    "fr-fr": "Deuil givré",
+    "es-es": "Entierro helado",
+    "id-id": "Frost Burial",
+    "th-th": "Frost Burial",
+    "vi-vn": "Sương Táng",
+    "zh-tw": "霜葬"
+  },
+  "passiveDescription": {
+    "pt-pt": "Atingir um inimigo com um Ataque Normal e Ataque Carregado possui uma chance de 60%/70%/80%/90%/100% de formar e dropar um Núcleo de Cristal Eterno sobre eles, causando 80%/95%/110%/125%/140% de Dano de ATQ em uma AdE. Inimigos afetados por Cryo recebem 200%/240%/280%/320%/360% de Dano de ATQ. Pode ocorrer apenas uma vez a cada 10s.",
+    "en-us": "Hitting an opponent with Normal and Charged Attacks has a 60%/70%/80%/90%/100% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 80%/95%/110%/125%/140% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 200%/240%/280%/320%/360% of ATK. Can only occur once every 10s.",
+    "ja-jp": "通常攻撃と重撃が敵に命中した時、60/70/80/90/100%の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の80/95/110/125/140%の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の200/240/280/320/360%のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+    "zh-cn": "普通攻击与重击命中敌人时，有60%/70%/80%/90%/100%概率在敌人上方生成恒冰晶核并坠落，造成80%/95%/110%/125%/140%攻击力的范围伤害。若敌人处于冰元素影响下，则造成200%/240%/280%/320%/360%攻击力的伤害。该效果每10秒至多触发一次。",
+    "ko-kr": "일반 공격과 강공격이 적에게 명중 시 60%/70%/80%/90%/100%의 확률로 적의 위쪽에 영원의 얼음 결정을 생성한 후 떨궈서 공격력 80%/95%/110%/125%/140%의 범위 피해를 준다. 적이 만약 얼음 원소의 영향을 받으면 공격력 200%/240%/280%/320%/360%의 피해를 준다. 해당 효과는 10초마다 1회 발동한다",
+    "ru-ru": "Попадания обычной или заряженной атакой имеют 60%/70%/80%/90%/100% шанс создать над противником ледяной кристалл и уронить его, нанося 80%/95%/110%/125%/140% урона силы атаки по площади. Если противник имеет эффект Крио, то наносит ему 200%/240%/280%/320%/360% урона силы атаки. Может возникнуть раз в 10 сек.",
+    "de-de": "Erstellt beim Treffen von Gegnern mit Standardangriffen und heftigen Schlägen mit einer Wahrscheinlichkeit von 60% ~ 70% ~ 80% ~ 90% ~ 100% über den Gegnern einen Kristallkern ewigen Eises, der herunterfällt und Flächenschaden in Höhe von 80% ~ 95% ~ 110% ~ 125% ~ 140% ANG verursacht. Verursacht Schaden in Höhe von 200% ~ 240% ~ 280% ~ 320% ~ 360% ANG, wenn die Gegner von Kryo-Effekten betroffen sind. 10s Abklingzeit.",
+    "fr-fr": "Les attaques normales et chargées ont 60 %/70 %/80 %/90 %/100 % de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à 80 %/95 %/110 %/125 %/140 % de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors 200 %/240 %/280 %/320 %/360 % de l'ATQ. Cet effet se déclenche une fois toutes les 10 s.",
+    "es-es": "Al golpear a los enemigos con Ataques Normales y Cargados, hay un 60%/70%/80%/90%/100% de probabilidad de crear un carámbano sobre ellos. Al caer, el carámbano inflige un 80%/95%/110%/125%/140% de daño de ATQ en el AdE. Si los enemigos están afectados por Cryo, el daño de ATQ infligido será del 200%/240%/280%/320%/360%. Este efecto solo puede ocurrir una vez cada 10 s.",
+    "id-id": "Saat Normal atau Charged Attack mengenai musuh, memiliki 60%/70%/80%/90%/100% persentase untuk menciptakan Everfrost Icicle di atas musuh, mengakibatkan DMG area sebesar 80%/95%/110%/125%/140% ATK. Jika musuh berada dalam efek Cryo, maka Everfrost Icicle akan mengakibatkan DMG sebesar 200%/240%/280%/320%/360% ATK. Efek ini dapat terpicu setiap 10 detik.",
+    "th-th": "เมื่อโจมตีปกติหรือชาร์จโจมตีถูกศัตรู จะมีโอกาส 60% ที่จะเกิด Everfrost Icicle ขึ้นบนตัวของศัตรูและร่วงลงมาใส่ เพื่อสร้างความเสียหายวงกว้างเป็น 80% ของพลังโจมตี หากศัตรูตกอยู่ภายใต้ผลกระทบของธาตุน้ำแข็ง จะสร้างความเสียหาย 200% ของพลังโจมตี โดยที่เอฟเฟกต์ดังกล่าวนี้จะเกิดได้ครั้งเดียวในทุก 10 วินาที",
+    "vi-vn": "Khi tấn công thường và trọng kích đánh trúng kẻ địch có tỷ lệ 60%/70%/80%/90%/100% tạo ra Đá Vĩnh Hằng phía trên kẻ địch và rơi xuống, gây sát thương phạm vi bằng 80%/95%/110%/125%/140% tấn công. Nếu địch bị ảnh hưởng bởi nguyên tố Băng, sẽ gây sát thương bằng 200%/240%/280%/320%/360% tấn công. Hiệu quả này mỗi 10s kích hoạt 1 lần.",
+    "zh-tw": "普通攻擊與重擊命中敵人時，有60%/70%/80%/90%/100%機率在敵人上方生成恆冰晶核並墜落，造成80%/95%/110%/125%/140%攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成200%/240%/280%/320%/360%攻擊力的傷害。該效果每10秒至多觸發一次。"
+  },
+  "weaponIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/weapon/雪葬的星银.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 1879,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Azulejo de Decarabian",
+            "en-us": "Tile of Decarabian's Tower",
+            "ja-jp": "高塔の王の瓦",
+            "zh-cn": "高塔孤王的破瓦",
+            "ko-kr": "고탑 왕의 잔해",
+            "ru-ru": "Плитка башни Декарабиана",
+            "de-de": "Decabarians zerbrochener Ziegel",
+            "fr-fr": "Tuile cassée de Décarabian",
+            "es-es": "Fragmento de azulejo de Decarabian",
+            "id-id": "Tile of Decarabian's Tower",
+            "th-th": "Tile of Decarabian's Tower",
+            "vi-vn": "Ngói Vỡ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的破瓦"
+          }
+        },
+        {
+          "id": 993,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Chifre Pesado",
+            "en-us": "Heavy Horn",
+            "ja-jp": "重い角笛",
+            "zh-cn": "沉重号角",
+            "ko-kr": "무거운 나팔",
+            "ru-ru": "Тяжёлый рог",
+            "de-de": "Schweres Horn",
+            "fr-fr": "Corne lourde",
+            "es-es": "Cuerno pesado",
+            "id-id": "Heavy Horn",
+            "th-th": "Heavy Horn",
+            "vi-vn": "Sừng Nặng",
+            "zh-tw": "沉重號角"
+          }
+        },
+        {
+          "id": 396,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Condensado de Slime",
+            "en-us": "Slime Condensate",
+            "ja-jp": "スライムの液体",
+            "zh-cn": "史莱姆凝液",
+            "ko-kr": "슬라임 응축액",
+            "ru-ru": "Слизь слайма",
+            "de-de": "Schleimabsonderung",
+            "fr-fr": "Bave de Blob",
+            "es-es": "Condensado de Slime",
+            "id-id": "Slime Condensate",
+            "th-th": "Slime Condensate",
+            "vi-vn": "Dịch Slime",
+            "zh-tw": "史萊姆凝液"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 1878,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Detritos da Cidade de Decarabian",
+            "en-us": "Debris of Decarabian's City",
+            "ja-jp": "高塔の王の残壁",
+            "zh-cn": "高塔孤王的残垣",
+            "ko-kr": "고탑 왕의 절망",
+            "ru-ru": "Обломок стены Декарабиана",
+            "de-de": "Decabarians zerbröckelter Wall",
+            "fr-fr": "Mur abattu de Décarabian",
+            "es-es": "Escombro de la ciudad de Decarabian",
+            "id-id": "Debris of Decarabian's City",
+            "th-th": "Debris of Decarabian's City",
+            "vi-vn": "Xác Tàu Tháp Cô Vương",
+            "zh-tw": "高塔孤王的殘垣"
+          }
+        },
+        {
+          "id": 993,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Chifre Pesado",
+            "en-us": "Heavy Horn",
+            "ja-jp": "重い角笛",
+            "zh-cn": "沉重号角",
+            "ko-kr": "무거운 나팔",
+            "ru-ru": "Тяжёлый рог",
+            "de-de": "Schweres Horn",
+            "fr-fr": "Corne lourde",
+            "es-es": "Cuerno pesado",
+            "id-id": "Heavy Horn",
+            "th-th": "Heavy Horn",
+            "vi-vn": "Sừng Nặng",
+            "zh-tw": "沉重號角"
+          }
+        },
+        {
+          "id": 396,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Condensado de Slime",
+            "en-us": "Slime Condensate",
+            "ja-jp": "スライムの液体",
+            "zh-cn": "史莱姆凝液",
+            "ko-kr": "슬라임 응축액",
+            "ru-ru": "Слизь слайма",
+            "de-de": "Schleimabsonderung",
+            "fr-fr": "Bave de Blob",
+            "es-es": "Condensado de Slime",
+            "id-id": "Slime Condensate",
+            "th-th": "Slime Condensate",
+            "vi-vn": "Dịch Slime",
+            "zh-tw": "史萊姆凝液"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 1878,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Detritos da Cidade de Decarabian",
+            "en-us": "Debris of Decarabian's City",
+            "ja-jp": "高塔の王の残壁",
+            "zh-cn": "高塔孤王的残垣",
+            "ko-kr": "고탑 왕의 절망",
+            "ru-ru": "Обломок стены Декарабиана",
+            "de-de": "Decabarians zerbröckelter Wall",
+            "fr-fr": "Mur abattu de Décarabian",
+            "es-es": "Escombro de la ciudad de Decarabian",
+            "id-id": "Debris of Decarabian's City",
+            "th-th": "Debris of Decarabian's City",
+            "vi-vn": "Xác Tàu Tháp Cô Vương",
+            "zh-tw": "高塔孤王的殘垣"
+          }
+        },
+        {
+          "id": 1924,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Chifre de Bronze Negro",
+            "en-us": "Black Bronze Horn",
+            "ja-jp": "黒銅の角笛",
+            "zh-cn": "黑铜号角",
+            "ko-kr": "흑동 나팔",
+            "ru-ru": "Чёрный бронзовый рог",
+            "de-de": "Kupferhorn",
+            "fr-fr": "Corne en bronze noir",
+            "es-es": "Cuerno de bronce negro",
+            "id-id": "Black Bronze Horn",
+            "th-th": "Black Bronze Horn",
+            "vi-vn": "Sừng Đồng Đen",
+            "zh-tw": "黑銅號角"
+          }
+        },
+        {
+          "id": 398,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Secreção de Slime",
+            "en-us": "Slime Secretions",
+            "ja-jp": "スライムの分泌物",
+            "zh-cn": "史莱姆清",
+            "ko-kr": "슬라임청",
+            "ru-ru": "Выделения слайма",
+            "de-de": "Schleimkondensat",
+            "fr-fr": "Mucus de Blob",
+            "es-es": "Babas de Slime",
+            "id-id": "Slime Secretions",
+            "th-th": "Slime Secretions",
+            "vi-vn": "Tinh Slime",
+            "zh-tw": "史萊姆清"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 1877,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmentos Épicos da Decarabian",
+            "en-us": "Fragment of Decarabian's Epic",
+            "ja-jp": "高塔の王の断片",
+            "zh-cn": "高塔孤王的断片",
+            "ko-kr": "고탑 왕의 조각",
+            "ru-ru": "Фрагмент эпоса Декарабиана",
+            "de-de": "Decabarians Palastfragment",
+            "fr-fr": "Fragment dispersé de Décarabian",
+            "es-es": "Fragmento de epopeya de Decarabian",
+            "id-id": "Fragment of Decarabian's Epic",
+            "th-th": "Fragment of Decarabian's Epic",
+            "vi-vn": "Mảnh Vỡ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的斷片"
+          }
+        },
+        {
+          "id": 1924,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Chifre de Bronze Negro",
+            "en-us": "Black Bronze Horn",
+            "ja-jp": "黒銅の角笛",
+            "zh-cn": "黑铜号角",
+            "ko-kr": "흑동 나팔",
+            "ru-ru": "Чёрный бронзовый рог",
+            "de-de": "Kupferhorn",
+            "fr-fr": "Corne en bronze noir",
+            "es-es": "Cuerno de bronce negro",
+            "id-id": "Black Bronze Horn",
+            "th-th": "Black Bronze Horn",
+            "vi-vn": "Sừng Đồng Đen",
+            "zh-tw": "黑銅號角"
+          }
+        },
+        {
+          "id": 398,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Secreção de Slime",
+            "en-us": "Slime Secretions",
+            "ja-jp": "スライムの分泌物",
+            "zh-cn": "史莱姆清",
+            "ko-kr": "슬라임청",
+            "ru-ru": "Выделения слайма",
+            "de-de": "Schleimkondensat",
+            "fr-fr": "Mucus de Blob",
+            "es-es": "Babas de Slime",
+            "id-id": "Slime Secretions",
+            "th-th": "Slime Secretions",
+            "vi-vn": "Tinh Slime",
+            "zh-tw": "史萊姆清"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 1877,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmentos Épicos da Decarabian",
+            "en-us": "Fragment of Decarabian's Epic",
+            "ja-jp": "高塔の王の断片",
+            "zh-cn": "高塔孤王的断片",
+            "ko-kr": "고탑 왕의 조각",
+            "ru-ru": "Фрагмент эпоса Декарабиана",
+            "de-de": "Decabarians Palastfragment",
+            "fr-fr": "Fragment dispersé de Décarabian",
+            "es-es": "Fragmento de epopeya de Decarabian",
+            "id-id": "Fragment of Decarabian's Epic",
+            "th-th": "Fragment of Decarabian's Epic",
+            "vi-vn": "Mảnh Vỡ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的斷片"
+          }
+        },
+        {
+          "id": 1922,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Chifre de Cristal Preto",
+            "en-us": "Black Crystal Horn",
+            "ja-jp": "黒晶の角笛",
+            "zh-cn": "黑晶号角",
+            "ko-kr": "흑수정 나팔",
+            "ru-ru": "Чёрный кристаллический рог",
+            "de-de": "Schwarzes Kristallhorn",
+            "fr-fr": "Corne à cristal noir",
+            "es-es": "Cuerno con cristal negro",
+            "id-id": "Black Crystal Horn",
+            "th-th": "Black Crystal Horn",
+            "vi-vn": "Sừng Hắc Tinh",
+            "zh-tw": "黑晶號角"
+          }
+        },
+        {
+          "id": 397,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Essência de Slime",
+            "en-us": "Slime Concentrate",
+            "ja-jp": "スライムのピュレ",
+            "zh-cn": "史莱姆原浆",
+            "ko-kr": "슬라임 원액",
+            "ru-ru": "Концентрат слайма",
+            "de-de": "Schleimkonzentrat",
+            "fr-fr": "Essence de Blob",
+            "es-es": "Esencia de Slime",
+            "id-id": "Slime Concentrate",
+            "th-th": "Slime Concentrate",
+            "vi-vn": "Bột Slime",
+            "zh-tw": "史萊姆原漿"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 1880,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Pedaços de Sonho da Decarabian",
+            "en-us": "Scattered Piece of Decarabian's Dream",
+            "ja-jp": "高塔の王の砕けた夢",
+            "zh-cn": "高塔孤王的碎梦",
+            "ko-kr": "고탑 왕의 깨진 꿈",
+            "ru-ru": "Осколок мечты Декарабиана",
+            "de-de": "Decabarians zerstörter Traum",
+            "fr-fr": "Rêve brisé de Décarabian",
+            "es-es": "Fragmento de sueño de Decarabian",
+            "id-id": "Scattered Piece of Decarabian's Dream",
+            "th-th": "Scattered Piece of Decarabian's Dream",
+            "vi-vn": "Mảnh Giấc Mơ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的碎夢"
+          }
+        },
+        {
+          "id": 1922,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Chifre de Cristal Preto",
+            "en-us": "Black Crystal Horn",
+            "ja-jp": "黒晶の角笛",
+            "zh-cn": "黑晶号角",
+            "ko-kr": "흑수정 나팔",
+            "ru-ru": "Чёрный кристаллический рог",
+            "de-de": "Schwarzes Kristallhorn",
+            "fr-fr": "Corne à cristal noir",
+            "es-es": "Cuerno con cristal negro",
+            "id-id": "Black Crystal Horn",
+            "th-th": "Black Crystal Horn",
+            "vi-vn": "Sừng Hắc Tinh",
+            "zh-tw": "黑晶號角"
+          }
+        },
+        {
+          "id": 397,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Essência de Slime",
+            "en-us": "Slime Concentrate",
+            "ja-jp": "スライムのピュレ",
+            "zh-cn": "史莱姆原浆",
+            "ko-kr": "슬라임 원액",
+            "ru-ru": "Концентрат слайма",
+            "de-de": "Schleimkonzentrat",
+            "fr-fr": "Essence de Blob",
+            "es-es": "Esencia de Slime",
+            "id-id": "Slime Concentrate",
+            "th-th": "Slime Concentrate",
+            "vi-vn": "Bột Slime",
+            "zh-tw": "史萊姆原漿"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "44"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "7.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "119",
+          "postAscensionValue": "144"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "13.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "226",
+          "postAscensionValue": "252"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "19.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "293",
+          "postAscensionValue": "319"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "22.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "361",
+          "postAscensionValue": "387"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "25.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "429",
+          "postAscensionValue": "455"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "28.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "497",
+          "postAscensionValue": "523"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "31.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "565",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "34.5%"
+        }
+      ]
+    }
+  ]
+}

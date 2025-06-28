@@ -44,6 +44,21 @@
     "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/16/255dedc5048565aec2c5af510c6f74a5_7726536808309970424.png",
     "display_field": {},
     "filter_values": {
+      "character_region": {
+        "values": [
+          "Mondstadt"
+        ],
+        "value_types": [
+          {
+            "id": "32",
+            "value": "Mondstadt",
+            "mi18n_key": "filter_32",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_vision": {
         "values": [
           "Hydro"
@@ -103,21 +118,6 @@
           }
         ],
         "key": null
-      },
-      "character_region": {
-        "values": [
-          "Mondstadt"
-        ],
-        "value_types": [
-          {
-            "id": "32",
-            "value": "Mondstadt",
-            "mi18n_key": "filter_32",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -128,6 +128,36 @@
     "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/06/16/48dba0c10560a3ef573f17d97408b5a0_2527001828446746987.png",
     "display_field": {},
     "filter_values": {
+      "character_region": {
+        "values": [
+          "Other"
+        ],
+        "value_types": [
+          {
+            "id": "2437",
+            "value": "Other",
+            "mi18n_key": "filter_2437",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Cryo"
+        ],
+        "value_types": [
+          {
+            "id": "802",
+            "value": "Cryo",
+            "mi18n_key": "filter_802",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
+            "enum_string": "cryo"
+          }
+        ],
+        "key": null
+      },
       "character_weapon": {
         "values": [
           "Sword"
@@ -172,36 +202,6 @@
           }
         ],
         "key": null
-      },
-      "character_region": {
-        "values": [
-          "Other"
-        ],
-        "value_types": [
-          {
-            "id": "2437",
-            "value": "Other",
-            "mi18n_key": "filter_2437",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Cryo"
-        ],
-        "value_types": [
-          {
-            "id": "802",
-            "value": "Cryo",
-            "mi18n_key": "filter_802",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
-            "enum_string": "cryo"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -212,6 +212,36 @@
     "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/ce693d1e36aef5936b2d2db006605fc4_9036718103340803450.png",
     "display_field": {},
     "filter_values": {
+      "character_weapon": {
+        "values": [
+          "Catalyst"
+        ],
+        "value_types": [
+          {
+            "id": "110",
+            "value": "Catalyst",
+            "mi18n_key": "filter_110",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Anemo"
+        ],
+        "value_types": [
+          {
+            "id": "782",
+            "value": "Anemo",
+            "mi18n_key": "filter_782",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/6b5c0d861fd1b4791bd602d3e7296598_8700657350379813969.png",
+            "enum_string": "anemo"
+          }
+        ],
+        "key": null
+      },
       "character_region": {
         "values": [
           "Natlan"
@@ -256,36 +286,6 @@
           }
         ],
         "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Catalyst"
-        ],
-        "value_types": [
-          {
-            "id": "110",
-            "value": "Catalyst",
-            "mi18n_key": "filter_110",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Anemo"
-        ],
-        "value_types": [
-          {
-            "id": "782",
-            "value": "Anemo",
-            "mi18n_key": "filter_782",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/6b5c0d861fd1b4791bd602d3e7296598_8700657350379813969.png",
-            "enum_string": "anemo"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -296,6 +296,36 @@
     "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/04/30/ddbc128157d69479f61747f0918f9e72_2470321636402108639.png",
     "display_field": {},
     "filter_values": {
+      "character_region": {
+        "values": [
+          "Fontaine"
+        ],
+        "value_types": [
+          {
+            "id": "1432",
+            "value": "Fontaine",
+            "mi18n_key": "filter_1432",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Cryo"
+        ],
+        "value_types": [
+          {
+            "id": "802",
+            "value": "Cryo",
+            "mi18n_key": "filter_802",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
+            "enum_string": "cryo"
+          }
+        ],
+        "key": null
+      },
       "character_weapon": {
         "values": [
           "Polearm"
@@ -340,36 +370,6 @@
           }
         ],
         "key": null
-      },
-      "character_region": {
-        "values": [
-          "Fontaine"
-        ],
-        "value_types": [
-          {
-            "id": "1432",
-            "value": "Fontaine",
-            "mi18n_key": "filter_1432",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Cryo"
-        ],
-        "value_types": [
-          {
-            "id": "802",
-            "value": "Cryo",
-            "mi18n_key": "filter_802",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
-            "enum_string": "cryo"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -380,6 +380,36 @@
     "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/03/25/dd9a200a86b792fb1b73ef1ee7de0911_2097378734184941134.png",
     "display_field": {},
     "filter_values": {
+      "character_vision": {
+        "values": [
+          "Electro"
+        ],
+        "value_types": [
+          {
+            "id": "773",
+            "value": "Electro",
+            "mi18n_key": "filter_773",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/16d344b6abbc369a2db9d46d6f31305b_7144738962629629573.png",
+            "enum_string": "electro"
+          }
+        ],
+        "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Polearm"
+        ],
+        "value_types": [
+          {
+            "id": "124",
+            "value": "Polearm",
+            "mi18n_key": "filter_124",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c0f0c167f2753035b78c0aed9f01b9f_3170160339356492715.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_property": {
         "values": [
           "ATK"
@@ -424,7 +454,16 @@
           }
         ],
         "key": null
-      },
+      }
+    },
+    "desc": ""
+  },
+  {
+    "entry_page_id": "7488",
+    "name": "Varesa",
+    "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/03/25/a54efe1bb7e82a589b9af44683a696ca_8635138146175164187.png",
+    "display_field": {},
+    "filter_values": {
       "character_vision": {
         "values": [
           "Electro"
@@ -440,30 +479,21 @@
         ],
         "key": null
       },
-      "character_weapon": {
+      "character_region": {
         "values": [
-          "Polearm"
+          "Natlan"
         ],
         "value_types": [
           {
-            "id": "124",
-            "value": "Polearm",
-            "mi18n_key": "filter_124",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c0f0c167f2753035b78c0aed9f01b9f_3170160339356492715.png",
+            "id": "1456",
+            "value": "Natlan",
+            "mi18n_key": "filter_1456",
+            "icon": "",
             "enum_string": ""
           }
         ],
         "key": null
-      }
-    },
-    "desc": ""
-  },
-  {
-    "entry_page_id": "7488",
-    "name": "Varesa",
-    "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/03/25/a54efe1bb7e82a589b9af44683a696ca_8635138146175164187.png",
-    "display_field": {},
-    "filter_values": {
+      },
       "character_property": {
         "values": [
           "CRIT Rate"
@@ -508,36 +538,6 @@
           }
         ],
         "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Electro"
-        ],
-        "value_types": [
-          {
-            "id": "773",
-            "value": "Electro",
-            "mi18n_key": "filter_773",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/16d344b6abbc369a2db9d46d6f31305b_7144738962629629573.png",
-            "enum_string": "electro"
-          }
-        ],
-        "key": null
-      },
-      "character_region": {
-        "values": [
-          "Natlan"
-        ],
-        "value_types": [
-          {
-            "id": "1456",
-            "value": "Natlan",
-            "mi18n_key": "filter_1456",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -548,6 +548,21 @@
     "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/02/08/11662c12fb353d88bd2b20a2726c9f1c_8013472600677983943.png",
     "display_field": {},
     "filter_values": {
+      "character_vision": {
+        "values": [
+          "Anemo"
+        ],
+        "value_types": [
+          {
+            "id": "782",
+            "value": "Anemo",
+            "mi18n_key": "filter_782",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/6b5c0d861fd1b4791bd602d3e7296598_8700657350379813969.png",
+            "enum_string": "anemo"
+          }
+        ],
+        "key": null
+      },
       "character_weapon": {
         "values": [
           "Catalyst"
@@ -607,21 +622,6 @@
           }
         ],
         "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Anemo"
-        ],
-        "value_types": [
-          {
-            "id": "782",
-            "value": "Anemo",
-            "mi18n_key": "filter_782",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/6b5c0d861fd1b4791bd602d3e7296598_8700657350379813969.png",
-            "enum_string": "anemo"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -632,6 +632,21 @@
     "icon_url": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/12/30/151578876/75bb898fe1c3b4ed29a2931829ddb845_1306153511401609506.png",
     "display_field": {},
     "filter_values": {
+      "character_vision": {
+        "values": [
+          "Pyro"
+        ],
+        "value_types": [
+          {
+            "id": "729",
+            "value": "Pyro",
+            "mi18n_key": "filter_729",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
+            "enum_string": "pyro"
+          }
+        ],
+        "key": null
+      },
       "character_rarity": {
         "values": [
           "5-Star"
@@ -676,21 +691,6 @@
           }
         ],
         "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Pyro"
-        ],
-        "value_types": [
-          {
-            "id": "729",
-            "value": "Pyro",
-            "mi18n_key": "filter_729",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
-            "enum_string": "pyro"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -701,36 +701,6 @@
     "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2025/01/17/02a299cec38b4ef4f21952c37a624258_5744396397316809821.png",
     "display_field": {},
     "filter_values": {
-      "character_vision": {
-        "values": [
-          "Anemo"
-        ],
-        "value_types": [
-          {
-            "id": "782",
-            "value": "Anemo",
-            "mi18n_key": "filter_782",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/6b5c0d861fd1b4791bd602d3e7296598_8700657350379813969.png",
-            "enum_string": "anemo"
-          }
-        ],
-        "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Catalyst"
-        ],
-        "value_types": [
-          {
-            "id": "110",
-            "value": "Catalyst",
-            "mi18n_key": "filter_110",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_property": {
         "values": [
           "ATK"
@@ -775,6 +745,36 @@
           }
         ],
         "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Anemo"
+        ],
+        "value_types": [
+          {
+            "id": "782",
+            "value": "Anemo",
+            "mi18n_key": "filter_782",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/6b5c0d861fd1b4791bd602d3e7296598_8700657350379813969.png",
+            "enum_string": "anemo"
+          }
+        ],
+        "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Catalyst"
+        ],
+        "value_types": [
+          {
+            "id": "110",
+            "value": "Catalyst",
+            "mi18n_key": "filter_110",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -785,6 +785,36 @@
     "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/12/27/c4ab2530bb8bbe3c0e811684f97ec124_6688582217610741079.png",
     "display_field": {},
     "filter_values": {
+      "character_weapon": {
+        "values": [
+          "Catalyst"
+        ],
+        "value_types": [
+          {
+            "id": "110",
+            "value": "Catalyst",
+            "mi18n_key": "filter_110",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_property": {
+        "values": [
+          "Elemental Mastery"
+        ],
+        "value_types": [
+          {
+            "id": "473",
+            "value": "Elemental Mastery",
+            "mi18n_key": "filter_473",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_rarity": {
         "values": [
           "5-Star"
@@ -829,36 +859,6 @@
           }
         ],
         "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Catalyst"
-        ],
-        "value_types": [
-          {
-            "id": "110",
-            "value": "Catalyst",
-            "mi18n_key": "filter_110",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_property": {
-        "values": [
-          "Elemental Mastery"
-        ],
-        "value_types": [
-          {
-            "id": "473",
-            "value": "Elemental Mastery",
-            "mi18n_key": "filter_473",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -869,36 +869,6 @@
     "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/12/30/2f098b1f15854fd9dafc54998795a59e_864981592196815761.png",
     "display_field": {},
     "filter_values": {
-      "character_weapon": {
-        "values": [
-          "Claymore"
-        ],
-        "value_types": [
-          {
-            "id": "79",
-            "value": "Claymore",
-            "mi18n_key": "filter_79",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/4b65ed8d8fd30705265fa10ee65c8b61_7363045695641018717.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_property": {
-        "values": [
-          "CRIT DMG"
-        ],
-        "value_types": [
-          {
-            "id": "463",
-            "value": "CRIT DMG",
-            "mi18n_key": "filter_463",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_rarity": {
         "values": [
           "5-Star"
@@ -940,6 +910,36 @@
             "mi18n_key": "filter_729",
             "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
             "enum_string": "pyro"
+          }
+        ],
+        "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Claymore"
+        ],
+        "value_types": [
+          {
+            "id": "79",
+            "value": "Claymore",
+            "mi18n_key": "filter_79",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/4b65ed8d8fd30705265fa10ee65c8b61_7363045695641018717.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_property": {
+        "values": [
+          "CRIT DMG"
+        ],
+        "value_types": [
+          {
+            "id": "463",
+            "value": "CRIT DMG",
+            "mi18n_key": "filter_463",
+            "icon": "",
+            "enum_string": ""
           }
         ],
         "key": null
@@ -1037,36 +1037,6 @@
     "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/11/18/e4830690f8b6a1ebb02cfbc8ce955671_8091252479018770784.png",
     "display_field": {},
     "filter_values": {
-      "character_weapon": {
-        "values": [
-          "Bow"
-        ],
-        "value_types": [
-          {
-            "id": "95",
-            "value": "Bow",
-            "mi18n_key": "filter_95",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/e38debacfd0147020895322333ea9d2a_4867338674175003782.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_property": {
-        "values": [
-          "ATK"
-        ],
-        "value_types": [
-          {
-            "id": "550",
-            "value": "ATK",
-            "mi18n_key": "filter_550",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_rarity": {
         "values": [
           "4-Star"
@@ -1111,6 +1081,36 @@
           }
         ],
         "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Bow"
+        ],
+        "value_types": [
+          {
+            "id": "95",
+            "value": "Bow",
+            "mi18n_key": "filter_95",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/e38debacfd0147020895322333ea9d2a_4867338674175003782.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_property": {
+        "values": [
+          "ATK"
+        ],
+        "value_types": [
+          {
+            "id": "550",
+            "value": "ATK",
+            "mi18n_key": "filter_550",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -1121,6 +1121,36 @@
     "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/09/25/b07074c2b9040516fd240b6b8d65c011_2487211347344319683.png",
     "display_field": {},
     "filter_values": {
+      "character_property": {
+        "values": [
+          "DEF"
+        ],
+        "value_types": [
+          {
+            "id": "565",
+            "value": "DEF",
+            "mi18n_key": "filter_565",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "5-Star"
+        ],
+        "value_types": [
+          {
+            "id": "2",
+            "value": "5-Star",
+            "mi18n_key": "filter_2",
+            "icon": "",
+            "enum_string": "5"
+          }
+        ],
+        "key": null
+      },
       "character_region": {
         "values": [
           "Natlan"
@@ -1165,36 +1195,6 @@
           }
         ],
         "key": null
-      },
-      "character_property": {
-        "values": [
-          "DEF"
-        ],
-        "value_types": [
-          {
-            "id": "565",
-            "value": "DEF",
-            "mi18n_key": "filter_565",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "5-Star"
-        ],
-        "value_types": [
-          {
-            "id": "2",
-            "value": "5-Star",
-            "mi18n_key": "filter_2",
-            "icon": "",
-            "enum_string": "5"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -1205,36 +1205,6 @@
     "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/08/26/f4c75caad42923eb91ee760aa2eb473a_7439123622315070718.png",
     "display_field": {},
     "filter_values": {
-      "character_rarity": {
-        "values": [
-          "5-Star"
-        ],
-        "value_types": [
-          {
-            "id": "2",
-            "value": "5-Star",
-            "mi18n_key": "filter_2",
-            "icon": "",
-            "enum_string": "5"
-          }
-        ],
-        "key": null
-      },
-      "character_region": {
-        "values": [
-          "Natlan"
-        ],
-        "value_types": [
-          {
-            "id": "1456",
-            "value": "Natlan",
-            "mi18n_key": "filter_1456",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_vision": {
         "values": [
           "Hydro"
@@ -1279,16 +1249,22 @@
           }
         ],
         "key": null
-      }
-    },
-    "desc": ""
-  },
-  {
-    "entry_page_id": "6318",
-    "name": "Kachina",
-    "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/08/23/26925adb1092d29c8afdf46d92fad8bd_343637410022641529.png",
-    "display_field": {},
-    "filter_values": {
+      },
+      "character_rarity": {
+        "values": [
+          "5-Star"
+        ],
+        "value_types": [
+          {
+            "id": "2",
+            "value": "5-Star",
+            "mi18n_key": "filter_2",
+            "icon": "",
+            "enum_string": "5"
+          }
+        ],
+        "key": null
+      },
       "character_region": {
         "values": [
           "Natlan"
@@ -1303,7 +1279,16 @@
           }
         ],
         "key": null
-      },
+      }
+    },
+    "desc": ""
+  },
+  {
+    "entry_page_id": "6318",
+    "name": "Kachina",
+    "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/08/23/26925adb1092d29c8afdf46d92fad8bd_343637410022641529.png",
+    "display_field": {},
+    "filter_values": {
       "character_rarity": {
         "values": [
           "4-Star"
@@ -1363,6 +1348,21 @@
           }
         ],
         "key": null
+      },
+      "character_region": {
+        "values": [
+          "Natlan"
+        ],
+        "value_types": [
+          {
+            "id": "1456",
+            "value": "Natlan",
+            "mi18n_key": "filter_1456",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -1373,6 +1373,36 @@
     "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/09/12/0099e74b4d0c919f6feab4bade3ab748_5795733017114624391.png",
     "display_field": {},
     "filter_values": {
+      "character_vision": {
+        "values": [
+          "Dendro"
+        ],
+        "value_types": [
+          {
+            "id": "761",
+            "value": "Dendro",
+            "mi18n_key": "filter_761",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/bda7c6cf71ea059c6abc086405a7cdd5_1717146848708050949.png",
+            "enum_string": "dendro"
+          }
+        ],
+        "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Claymore"
+        ],
+        "value_types": [
+          {
+            "id": "79",
+            "value": "Claymore",
+            "mi18n_key": "filter_79",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/4b65ed8d8fd30705265fa10ee65c8b61_7363045695641018717.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_property": {
         "values": [
           "CRIT DMG"
@@ -1417,36 +1447,6 @@
           }
         ],
         "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Dendro"
-        ],
-        "value_types": [
-          {
-            "id": "761",
-            "value": "Dendro",
-            "mi18n_key": "filter_761",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/bda7c6cf71ea059c6abc086405a7cdd5_1717146848708050949.png",
-            "enum_string": "dendro"
-          }
-        ],
-        "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Claymore"
-        ],
-        "value_types": [
-          {
-            "id": "79",
-            "value": "Claymore",
-            "mi18n_key": "filter_79",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/4b65ed8d8fd30705265fa10ee65c8b61_7363045695641018717.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -1457,21 +1457,6 @@
     "icon_url": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/07/31/87ad30965e0c1b45364fdccc51b3429d_6108610286145583716.png",
     "display_field": {},
     "filter_values": {
-      "character_region": {
-        "values": [
-          "Fontaine"
-        ],
-        "value_types": [
-          {
-            "id": "1432",
-            "value": "Fontaine",
-            "mi18n_key": "filter_1432",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_vision": {
         "values": [
           "Dendro"
@@ -1531,6 +1516,21 @@
           }
         ],
         "key": null
+      },
+      "character_region": {
+        "values": [
+          "Fontaine"
+        ],
+        "value_types": [
+          {
+            "id": "1432",
+            "value": "Fontaine",
+            "mi18n_key": "filter_1432",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -1541,6 +1541,21 @@
     "icon_url": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/06/04/35428890/cdb7abfcb86138e5b618946a5466d442_6414132746291261116.png",
     "display_field": {},
     "filter_values": {
+      "character_rarity": {
+        "values": [
+          "4-Star"
+        ],
+        "value_types": [
+          {
+            "id": "14",
+            "value": "4-Star",
+            "mi18n_key": "filter_14",
+            "icon": "",
+            "enum_string": "4"
+          }
+        ],
+        "key": null
+      },
       "character_region": {
         "values": [
           "Sumeru"
@@ -1600,21 +1615,6 @@
           }
         ],
         "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "4-Star"
-        ],
-        "value_types": [
-          {
-            "id": "14",
-            "value": "4-Star",
-            "mi18n_key": "filter_14",
-            "icon": "",
-            "enum_string": "4"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -1625,6 +1625,36 @@
     "icon_url": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/06/26/35428890/2d607aa4d729030ea04f79919257e311_1172370997840232141.png",
     "display_field": {},
     "filter_values": {
+      "character_rarity": {
+        "values": [
+          "5-Star"
+        ],
+        "value_types": [
+          {
+            "id": "2",
+            "value": "5-Star",
+            "mi18n_key": "filter_2",
+            "icon": "",
+            "enum_string": "5"
+          }
+        ],
+        "key": null
+      },
+      "character_region": {
+        "values": [
+          "Fontaine"
+        ],
+        "value_types": [
+          {
+            "id": "1432",
+            "value": "Fontaine",
+            "mi18n_key": "filter_1432",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_vision": {
         "values": [
           "Hydro"
@@ -1664,36 +1694,6 @@
             "id": "514",
             "value": "HP",
             "mi18n_key": "filter_514",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "5-Star"
-        ],
-        "value_types": [
-          {
-            "id": "2",
-            "value": "5-Star",
-            "mi18n_key": "filter_2",
-            "icon": "",
-            "enum_string": "5"
-          }
-        ],
-        "key": null
-      },
-      "character_region": {
-        "values": [
-          "Fontaine"
-        ],
-        "value_types": [
-          {
-            "id": "1432",
-            "value": "Fontaine",
-            "mi18n_key": "filter_1432",
             "icon": "",
             "enum_string": ""
           }
@@ -1877,6 +1877,36 @@
     "icon_url": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/11/35428890/5470f90694af13476e49be7b8346e2b1_5366587928381003654.png",
     "display_field": {},
     "filter_values": {
+      "character_property": {
+        "values": [
+          "CRIT Rate"
+        ],
+        "value_types": [
+          {
+            "id": "507",
+            "value": "CRIT Rate",
+            "mi18n_key": "filter_507",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "5-Star"
+        ],
+        "value_types": [
+          {
+            "id": "2",
+            "value": "5-Star",
+            "mi18n_key": "filter_2",
+            "icon": "",
+            "enum_string": "5"
+          }
+        ],
+        "key": null
+      },
       "character_region": {
         "values": [
           "Inazuma City"
@@ -1921,36 +1951,6 @@
           }
         ],
         "key": null
-      },
-      "character_property": {
-        "values": [
-          "CRIT Rate"
-        ],
-        "value_types": [
-          {
-            "id": "507",
-            "value": "CRIT Rate",
-            "mi18n_key": "filter_507",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "5-Star"
-        ],
-        "value_types": [
-          {
-            "id": "2",
-            "value": "5-Star",
-            "mi18n_key": "filter_2",
-            "icon": "",
-            "enum_string": "5"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -1961,6 +1961,36 @@
     "icon_url": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/35428890/b041ad23a9d6245efac952a9379c5114_8939761424130236195.png",
     "display_field": {},
     "filter_values": {
+      "character_property": {
+        "values": [
+          "ATK"
+        ],
+        "value_types": [
+          {
+            "id": "550",
+            "value": "ATK",
+            "mi18n_key": "filter_550",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "4-Star"
+        ],
+        "value_types": [
+          {
+            "id": "14",
+            "value": "4-Star",
+            "mi18n_key": "filter_14",
+            "icon": "",
+            "enum_string": "4"
+          }
+        ],
+        "key": null
+      },
       "character_region": {
         "values": [
           "Liyue Harbor"
@@ -2002,36 +2032,6 @@
             "mi18n_key": "filter_79",
             "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/4b65ed8d8fd30705265fa10ee65c8b61_7363045695641018717.png",
             "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_property": {
-        "values": [
-          "ATK"
-        ],
-        "value_types": [
-          {
-            "id": "550",
-            "value": "ATK",
-            "mi18n_key": "filter_550",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "4-Star"
-        ],
-        "value_types": [
-          {
-            "id": "14",
-            "value": "4-Star",
-            "mi18n_key": "filter_14",
-            "icon": "",
-            "enum_string": "4"
           }
         ],
         "key": null
@@ -2129,36 +2129,6 @@
     "icon_url": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/09/35428890/a846729f31f16a987a8696466ebabcc0_6857330048220230431.png",
     "display_field": {},
     "filter_values": {
-      "character_weapon": {
-        "values": [
-          "Polearm"
-        ],
-        "value_types": [
-          {
-            "id": "124",
-            "value": "Polearm",
-            "mi18n_key": "filter_124",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c0f0c167f2753035b78c0aed9f01b9f_3170160339356492715.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_property": {
-        "values": [
-          "HP"
-        ],
-        "value_types": [
-          {
-            "id": "514",
-            "value": "HP",
-            "mi18n_key": "filter_514",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_rarity": {
         "values": [
           "4-Star"
@@ -2203,6 +2173,36 @@
           }
         ],
         "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Polearm"
+        ],
+        "value_types": [
+          {
+            "id": "124",
+            "value": "Polearm",
+            "mi18n_key": "filter_124",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c0f0c167f2753035b78c0aed9f01b9f_3170160339356492715.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_property": {
+        "values": [
+          "HP"
+        ],
+        "value_types": [
+          {
+            "id": "514",
+            "value": "HP",
+            "mi18n_key": "filter_514",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -2213,6 +2213,36 @@
     "icon_url": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/18/35428890/3fc7580c01a9e622692402889706c4db_8301615651200775487.png",
     "display_field": {},
     "filter_values": {
+      "character_vision": {
+        "values": [
+          "Geo"
+        ],
+        "value_types": [
+          {
+            "id": "813",
+            "value": "Geo",
+            "mi18n_key": "filter_813",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c4cd6e14b87fc262cca36e6d0e9bdb0_1526899214861833594.png",
+            "enum_string": "geo"
+          }
+        ],
+        "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Claymore"
+        ],
+        "value_types": [
+          {
+            "id": "79",
+            "value": "Claymore",
+            "mi18n_key": "filter_79",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/4b65ed8d8fd30705265fa10ee65c8b61_7363045695641018717.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_property": {
         "values": [
           "CRIT DMG"
@@ -2257,36 +2287,6 @@
           }
         ],
         "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Geo"
-        ],
-        "value_types": [
-          {
-            "id": "813",
-            "value": "Geo",
-            "mi18n_key": "filter_813",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c4cd6e14b87fc262cca36e6d0e9bdb0_1526899214861833594.png",
-            "enum_string": "geo"
-          }
-        ],
-        "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Claymore"
-        ],
-        "value_types": [
-          {
-            "id": "79",
-            "value": "Claymore",
-            "mi18n_key": "filter_79",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/4b65ed8d8fd30705265fa10ee65c8b61_7363045695641018717.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -2297,36 +2297,6 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/06/35428890/7bbbff3f35661a93b5091b1f17fae6c0_6927814687713967999.png",
     "display_field": {},
     "filter_values": {
-      "character_region": {
-        "values": [
-          "Fontaine"
-        ],
-        "value_types": [
-          {
-            "id": "1432",
-            "value": "Fontaine",
-            "mi18n_key": "filter_1432",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Cryo"
-        ],
-        "value_types": [
-          {
-            "id": "802",
-            "value": "Cryo",
-            "mi18n_key": "filter_802",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
-            "enum_string": "cryo"
-          }
-        ],
-        "key": null
-      },
       "character_weapon": {
         "values": [
           "Catalyst"
@@ -2371,6 +2341,36 @@
           }
         ],
         "key": null
+      },
+      "character_region": {
+        "values": [
+          "Fontaine"
+        ],
+        "value_types": [
+          {
+            "id": "1432",
+            "value": "Fontaine",
+            "mi18n_key": "filter_1432",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Cryo"
+        ],
+        "value_types": [
+          {
+            "id": "802",
+            "value": "Cryo",
+            "mi18n_key": "filter_802",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
+            "enum_string": "cryo"
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -2381,6 +2381,36 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/06/35428890/263e5ea0784d182b393f67a7e24146a5_2961704185113948066.png",
     "display_field": {},
     "filter_values": {
+      "character_vision": {
+        "values": [
+          "Hydro"
+        ],
+        "value_types": [
+          {
+            "id": "751",
+            "value": "Hydro",
+            "mi18n_key": "filter_751",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/f54c8f0dae23fced358c28126f220a11_8997562060019157249.png",
+            "enum_string": "hydro"
+          }
+        ],
+        "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Sword"
+        ],
+        "value_types": [
+          {
+            "id": "71",
+            "value": "Sword",
+            "mi18n_key": "filter_71",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_property": {
         "values": [
           "CRIT Rate"
@@ -2425,36 +2455,6 @@
           }
         ],
         "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Hydro"
-        ],
-        "value_types": [
-          {
-            "id": "751",
-            "value": "Hydro",
-            "mi18n_key": "filter_751",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/f54c8f0dae23fced358c28126f220a11_8997562060019157249.png",
-            "enum_string": "hydro"
-          }
-        ],
-        "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Sword"
-        ],
-        "value_types": [
-          {
-            "id": "71",
-            "value": "Sword",
-            "mi18n_key": "filter_71",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -2465,21 +2465,6 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/26/35428890/0513aa7f482dbb4778545d02f94956fe_7540616405773975535.png",
     "display_field": {},
     "filter_values": {
-      "character_rarity": {
-        "values": [
-          "5-Star"
-        ],
-        "value_types": [
-          {
-            "id": "2",
-            "value": "5-Star",
-            "mi18n_key": "filter_2",
-            "icon": "",
-            "enum_string": "5"
-          }
-        ],
-        "key": null
-      },
       "character_region": {
         "values": [
           "Fontaine"
@@ -2539,6 +2524,21 @@
           }
         ],
         "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "5-Star"
+        ],
+        "value_types": [
+          {
+            "id": "2",
+            "value": "5-Star",
+            "mi18n_key": "filter_2",
+            "icon": "",
+            "enum_string": "5"
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -2549,6 +2549,51 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/15/35428890/31a0eb2dec5d69ca8dd7616572136b8b_8886987124386670150.png",
     "display_field": {},
     "filter_values": {
+      "character_weapon": {
+        "values": [
+          "Catalyst"
+        ],
+        "value_types": [
+          {
+            "id": "110",
+            "value": "Catalyst",
+            "mi18n_key": "filter_110",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_region": {
+        "values": [
+          "Fontaine"
+        ],
+        "value_types": [
+          {
+            "id": "1432",
+            "value": "Fontaine",
+            "mi18n_key": "filter_1432",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "5-Star"
+        ],
+        "value_types": [
+          {
+            "id": "2",
+            "value": "5-Star",
+            "mi18n_key": "filter_2",
+            "icon": "",
+            "enum_string": "5"
+          }
+        ],
+        "key": null
+      },
       "character_property": {
         "values": [
           "CRIT DMG"
@@ -2578,51 +2623,6 @@
           }
         ],
         "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Catalyst"
-        ],
-        "value_types": [
-          {
-            "id": "110",
-            "value": "Catalyst",
-            "mi18n_key": "filter_110",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_region": {
-        "values": [
-          "Fontaine"
-        ],
-        "value_types": [
-          {
-            "id": "1432",
-            "value": "Fontaine",
-            "mi18n_key": "filter_1432",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "5-Star"
-        ],
-        "value_types": [
-          {
-            "id": "2",
-            "value": "5-Star",
-            "mi18n_key": "filter_2",
-            "icon": "",
-            "enum_string": "5"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -2633,21 +2633,6 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/11/35428890/75bb898fe1c3b4ed29a2931829ddb845_5786491127494274034.png",
     "display_field": {},
     "filter_values": {
-      "character_weapon": {
-        "values": [
-          "Sword"
-        ],
-        "value_types": [
-          {
-            "id": "71",
-            "value": "Sword",
-            "mi18n_key": "filter_71",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_rarity": {
         "values": [
           "5-Star"
@@ -2692,6 +2677,21 @@
           }
         ],
         "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Sword"
+        ],
+        "value_types": [
+          {
+            "id": "71",
+            "value": "Sword",
+            "mi18n_key": "filter_71",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -2702,36 +2702,6 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/03/35428890/8e44111a378f4e5379b8e7444e8c2daa_4713775899437074849.png",
     "display_field": {},
     "filter_values": {
-      "character_rarity": {
-        "values": [
-          "4-Star"
-        ],
-        "value_types": [
-          {
-            "id": "14",
-            "value": "4-Star",
-            "mi18n_key": "filter_14",
-            "icon": "",
-            "enum_string": "4"
-          }
-        ],
-        "key": null
-      },
-      "character_region": {
-        "values": [
-          "Fontaine"
-        ],
-        "value_types": [
-          {
-            "id": "1432",
-            "value": "Fontaine",
-            "mi18n_key": "filter_1432",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_vision": {
         "values": [
           "Cryo"
@@ -2776,6 +2746,36 @@
           }
         ],
         "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "4-Star"
+        ],
+        "value_types": [
+          {
+            "id": "14",
+            "value": "4-Star",
+            "mi18n_key": "filter_14",
+            "icon": "",
+            "enum_string": "4"
+          }
+        ],
+        "key": null
+      },
+      "character_region": {
+        "values": [
+          "Fontaine"
+        ],
+        "value_types": [
+          {
+            "id": "1432",
+            "value": "Fontaine",
+            "mi18n_key": "filter_1432",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -2786,6 +2786,36 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/11/35428890/e343d4442cc3b8e243f0d528bb715f75_1232011243947476013.png",
     "display_field": {},
     "filter_values": {
+      "character_property": {
+        "values": [
+          "CRIT Rate"
+        ],
+        "value_types": [
+          {
+            "id": "507",
+            "value": "CRIT Rate",
+            "mi18n_key": "filter_507",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "5-Star"
+        ],
+        "value_types": [
+          {
+            "id": "2",
+            "value": "5-Star",
+            "mi18n_key": "filter_2",
+            "icon": "",
+            "enum_string": "5"
+          }
+        ],
+        "key": null
+      },
       "character_region": {
         "values": [
           "Fontaine"
@@ -2830,36 +2860,6 @@
           }
         ],
         "key": null
-      },
-      "character_property": {
-        "values": [
-          "CRIT Rate"
-        ],
-        "value_types": [
-          {
-            "id": "507",
-            "value": "CRIT Rate",
-            "mi18n_key": "filter_507",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "5-Star"
-        ],
-        "value_types": [
-          {
-            "id": "2",
-            "value": "5-Star",
-            "mi18n_key": "filter_2",
-            "icon": "",
-            "enum_string": "5"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -2870,6 +2870,21 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/14/35428890/436e6f2b9b9006bfe511a98093259daf_7192025380861185061.png",
     "display_field": {},
     "filter_values": {
+      "character_weapon": {
+        "values": [
+          "Sword"
+        ],
+        "value_types": [
+          {
+            "id": "71",
+            "value": "Sword",
+            "mi18n_key": "filter_71",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_property": {
         "values": [
           "Anemo DMG Bonus"
@@ -2929,7 +2944,16 @@
           }
         ],
         "key": null
-      },
+      }
+    },
+    "desc": ""
+  },
+  {
+    "entry_page_id": "3719",
+    "name": "Kirara",
+    "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/23/35428890/d1699810632f8c3bc8c1e8c8beb8250f_3141235252861584883.png",
+    "display_field": {},
+    "filter_values": {
       "character_weapon": {
         "values": [
           "Sword"
@@ -2944,16 +2968,7 @@
           }
         ],
         "key": null
-      }
-    },
-    "desc": ""
-  },
-  {
-    "entry_page_id": "3719",
-    "name": "Kirara",
-    "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/23/35428890/d1699810632f8c3bc8c1e8c8beb8250f_3141235252861584883.png",
-    "display_field": {},
-    "filter_values": {
+      },
       "character_property": {
         "values": [
           "HP"
@@ -3013,21 +3028,6 @@
           }
         ],
         "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Sword"
-        ],
-        "value_types": [
-          {
-            "id": "71",
-            "value": "Sword",
-            "mi18n_key": "filter_71",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -3038,6 +3038,36 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/02/35428890/05599650d7f42e1c4adde373de6b297d_8001303176243726128.png",
     "display_field": {},
     "filter_values": {
+      "character_rarity": {
+        "values": [
+          "5-Star"
+        ],
+        "value_types": [
+          {
+            "id": "2",
+            "value": "5-Star",
+            "mi18n_key": "filter_2",
+            "icon": "",
+            "enum_string": "5"
+          }
+        ],
+        "key": null
+      },
+      "character_region": {
+        "values": [
+          "Liyue Harbor"
+        ],
+        "value_types": [
+          {
+            "id": "42",
+            "value": "Liyue Harbor",
+            "mi18n_key": "filter_42",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_vision": {
         "values": [
           "Dendro"
@@ -3082,36 +3112,6 @@
           }
         ],
         "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "5-Star"
-        ],
-        "value_types": [
-          {
-            "id": "2",
-            "value": "5-Star",
-            "mi18n_key": "filter_2",
-            "icon": "",
-            "enum_string": "5"
-          }
-        ],
-        "key": null
-      },
-      "character_region": {
-        "values": [
-          "Liyue Harbor"
-        ],
-        "value_types": [
-          {
-            "id": "42",
-            "value": "Liyue Harbor",
-            "mi18n_key": "filter_42",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -3122,36 +3122,6 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/02/35428890/2270aba02b92034d7d76b4426be8f53b_7062168821433378650.png",
     "display_field": {},
     "filter_values": {
-      "character_property": {
-        "values": [
-          "Elemental Mastery"
-        ],
-        "value_types": [
-          {
-            "id": "473",
-            "value": "Elemental Mastery",
-            "mi18n_key": "filter_473",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Dendro"
-        ],
-        "value_types": [
-          {
-            "id": "761",
-            "value": "Dendro",
-            "mi18n_key": "filter_761",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/bda7c6cf71ea059c6abc086405a7cdd5_1717146848708050949.png",
-            "enum_string": "dendro"
-          }
-        ],
-        "key": null
-      },
       "character_weapon": {
         "values": [
           "Claymore"
@@ -3193,6 +3163,36 @@
             "mi18n_key": "filter_14",
             "icon": "",
             "enum_string": "4"
+          }
+        ],
+        "key": null
+      },
+      "character_property": {
+        "values": [
+          "Elemental Mastery"
+        ],
+        "value_types": [
+          {
+            "id": "473",
+            "value": "Elemental Mastery",
+            "mi18n_key": "filter_473",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Dendro"
+        ],
+        "value_types": [
+          {
+            "id": "761",
+            "value": "Dendro",
+            "mi18n_key": "filter_761",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/bda7c6cf71ea059c6abc086405a7cdd5_1717146848708050949.png",
+            "enum_string": "dendro"
           }
         ],
         "key": null
@@ -3374,6 +3374,21 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/15/35428890/25249dd20b86c775fb35bdbbd805d9ec_8879881358376735994.png",
     "display_field": {},
     "filter_values": {
+      "character_weapon": {
+        "values": [
+          "Sword"
+        ],
+        "value_types": [
+          {
+            "id": "71",
+            "value": "Sword",
+            "mi18n_key": "filter_71",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_property": {
         "values": [
           "Dendro DMG Bonus"
@@ -3433,21 +3448,6 @@
           }
         ],
         "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Sword"
-        ],
-        "value_types": [
-          {
-            "id": "71",
-            "value": "Sword",
-            "mi18n_key": "filter_71",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -3458,36 +3458,6 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/15/35428890/5bc9df1fb67391e4c8080da3d855de53_8974356791001371659.png",
     "display_field": {},
     "filter_values": {
-      "character_region": {
-        "values": [
-          "Liyue Harbor"
-        ],
-        "value_types": [
-          {
-            "id": "42",
-            "value": "Liyue Harbor",
-            "mi18n_key": "filter_42",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "4-Star"
-        ],
-        "value_types": [
-          {
-            "id": "14",
-            "value": "4-Star",
-            "mi18n_key": "filter_14",
-            "icon": "",
-            "enum_string": "4"
-          }
-        ],
-        "key": null
-      },
       "character_property": {
         "values": [
           "HP"
@@ -3532,6 +3502,36 @@
           }
         ],
         "key": null
+      },
+      "character_region": {
+        "values": [
+          "Liyue Harbor"
+        ],
+        "value_types": [
+          {
+            "id": "42",
+            "value": "Liyue Harbor",
+            "mi18n_key": "filter_42",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "4-Star"
+        ],
+        "value_types": [
+          {
+            "id": "14",
+            "value": "4-Star",
+            "mi18n_key": "filter_14",
+            "icon": "",
+            "enum_string": "4"
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -3542,36 +3542,6 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/05/35428890/24d97a22be742fb732ea96f625d1faac_2495743636540582085.png",
     "display_field": {},
     "filter_values": {
-      "character_property": {
-        "values": [
-          "CRIT Rate"
-        ],
-        "value_types": [
-          {
-            "id": "507",
-            "value": "CRIT Rate",
-            "mi18n_key": "filter_507",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Catalyst"
-        ],
-        "value_types": [
-          {
-            "id": "110",
-            "value": "Catalyst",
-            "mi18n_key": "filter_110",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_vision": {
         "values": [
           "Anemo"
@@ -3601,6 +3571,36 @@
           }
         ],
         "key": null
+      },
+      "character_property": {
+        "values": [
+          "CRIT Rate"
+        ],
+        "value_types": [
+          {
+            "id": "507",
+            "value": "CRIT Rate",
+            "mi18n_key": "filter_507",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Catalyst"
+        ],
+        "value_types": [
+          {
+            "id": "110",
+            "value": "Catalyst",
+            "mi18n_key": "filter_110",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -3611,21 +3611,6 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/05/35428890/38c12ab46678a4008f83a0e46c900ef5_528211919348170763.png",
     "display_field": {},
     "filter_values": {
-      "character_rarity": {
-        "values": [
-          "4-Star"
-        ],
-        "value_types": [
-          {
-            "id": "14",
-            "value": "4-Star",
-            "mi18n_key": "filter_14",
-            "icon": "",
-            "enum_string": "4"
-          }
-        ],
-        "key": null
-      },
       "character_property": {
         "values": [
           "ATK"
@@ -3685,6 +3670,21 @@
           }
         ],
         "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "4-Star"
+        ],
+        "value_types": [
+          {
+            "id": "14",
+            "value": "4-Star",
+            "mi18n_key": "filter_14",
+            "icon": "",
+            "enum_string": "4"
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -3695,21 +3695,6 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/15/35428890/48a495acadaf37f12d0a7f653d85bd83_7085430198590697354.png",
     "display_field": {},
     "filter_values": {
-      "character_property": {
-        "values": [
-          "HP"
-        ],
-        "value_types": [
-          {
-            "id": "514",
-            "value": "HP",
-            "mi18n_key": "filter_514",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_vision": {
         "values": [
           "Cryo"
@@ -3769,6 +3754,21 @@
           }
         ],
         "key": null
+      },
+      "character_property": {
+        "values": [
+          "HP"
+        ],
+        "value_types": [
+          {
+            "id": "514",
+            "value": "HP",
+            "mi18n_key": "filter_514",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -3779,6 +3779,36 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/29/35428890/f29490bddc56b4a6773b6c5003bbb853_9091170755650648414.png",
     "display_field": {},
     "filter_values": {
+      "character_vision": {
+        "values": [
+          "Dendro"
+        ],
+        "value_types": [
+          {
+            "id": "761",
+            "value": "Dendro",
+            "mi18n_key": "filter_761",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/bda7c6cf71ea059c6abc086405a7cdd5_1717146848708050949.png",
+            "enum_string": "dendro"
+          }
+        ],
+        "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Catalyst"
+        ],
+        "value_types": [
+          {
+            "id": "110",
+            "value": "Catalyst",
+            "mi18n_key": "filter_110",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_property": {
         "values": [
           "Elemental Mastery"
@@ -3823,36 +3853,6 @@
           }
         ],
         "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Dendro"
-        ],
-        "value_types": [
-          {
-            "id": "761",
-            "value": "Dendro",
-            "mi18n_key": "filter_761",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/bda7c6cf71ea059c6abc086405a7cdd5_1717146848708050949.png",
-            "enum_string": "dendro"
-          }
-        ],
-        "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Catalyst"
-        ],
-        "value_types": [
-          {
-            "id": "110",
-            "value": "Catalyst",
-            "mi18n_key": "filter_110",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -3863,21 +3863,6 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/28/77454259/2f43da4ece9eabfbde6ec2fcc81b3bff_6412967003441390014.png",
     "display_field": {},
     "filter_values": {
-      "character_region": {
-        "values": [
-          "Sumeru"
-        ],
-        "value_types": [
-          {
-            "id": "1422",
-            "value": "Sumeru",
-            "mi18n_key": "filter_1422",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_vision": {
         "values": [
           "Hydro"
@@ -3937,6 +3922,21 @@
           }
         ],
         "key": null
+      },
+      "character_region": {
+        "values": [
+          "Sumeru"
+        ],
+        "value_types": [
+          {
+            "id": "1422",
+            "value": "Sumeru",
+            "mi18n_key": "filter_1422",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -3947,6 +3947,36 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/28/77454259/e09e2bda5e022611fad0dea1bb6518bb_6757667565719577204.png",
     "display_field": {},
     "filter_values": {
+      "character_weapon": {
+        "values": [
+          "Polearm"
+        ],
+        "value_types": [
+          {
+            "id": "124",
+            "value": "Polearm",
+            "mi18n_key": "filter_124",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c0f0c167f2753035b78c0aed9f01b9f_3170160339356492715.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_property": {
+        "values": [
+          "CRIT DMG"
+        ],
+        "value_types": [
+          {
+            "id": "463",
+            "value": "CRIT DMG",
+            "mi18n_key": "filter_463",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_rarity": {
         "values": [
           "5-Star"
@@ -3988,36 +4018,6 @@
             "mi18n_key": "filter_773",
             "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/16d344b6abbc369a2db9d46d6f31305b_7144738962629629573.png",
             "enum_string": "electro"
-          }
-        ],
-        "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Polearm"
-        ],
-        "value_types": [
-          {
-            "id": "124",
-            "value": "Polearm",
-            "mi18n_key": "filter_124",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c0f0c167f2753035b78c0aed9f01b9f_3170160339356492715.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_property": {
-        "values": [
-          "CRIT DMG"
-        ],
-        "value_types": [
-          {
-            "id": "463",
-            "value": "CRIT DMG",
-            "mi18n_key": "filter_463",
-            "icon": "",
-            "enum_string": ""
           }
         ],
         "key": null
@@ -4184,21 +4184,6 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/35428890/6539bea71efd0f839db897cfc4094362_3469125131800075941.png",
     "display_field": {},
     "filter_values": {
-      "character_weapon": {
-        "values": [
-          "Claymore"
-        ],
-        "value_types": [
-          {
-            "id": "79",
-            "value": "Claymore",
-            "mi18n_key": "filter_79",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/4b65ed8d8fd30705265fa10ee65c8b61_7363045695641018717.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_region": {
         "values": [
           "Sumeru"
@@ -4255,6 +4240,21 @@
             "mi18n_key": "filter_773",
             "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/16d344b6abbc369a2db9d46d6f31305b_7144738962629629573.png",
             "enum_string": "electro"
+          }
+        ],
+        "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Claymore"
+        ],
+        "value_types": [
+          {
+            "id": "79",
+            "value": "Claymore",
+            "mi18n_key": "filter_79",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/4b65ed8d8fd30705265fa10ee65c8b61_7363045695641018717.png",
+            "enum_string": ""
           }
         ],
         "key": null
@@ -4436,21 +4436,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Shikanoin Heizou_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_rarity": {
-        "values": [
-          "4-Star"
-        ],
-        "value_types": [
-          {
-            "id": "14",
-            "value": "4-Star",
-            "mi18n_key": "filter_14",
-            "icon": "",
-            "enum_string": "4"
-          }
-        ],
-        "key": null
-      },
       "character_region": {
         "values": [
           "Inazuma City"
@@ -4510,30 +4495,6 @@
           }
         ],
         "key": null
-      }
-    },
-    "desc": ""
-  },
-  {
-    "entry_page_id": "2256",
-    "name": "Kuki Shinobu",
-    "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kuki Shinobu_icon.png",
-    "display_field": {},
-    "filter_values": {
-      "character_property": {
-        "values": [
-          "HP"
-        ],
-        "value_types": [
-          {
-            "id": "514",
-            "value": "HP",
-            "mi18n_key": "filter_514",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       },
       "character_rarity": {
         "values": [
@@ -4549,7 +4510,16 @@
           }
         ],
         "key": null
-      },
+      }
+    },
+    "desc": ""
+  },
+  {
+    "entry_page_id": "2256",
+    "name": "Kuki Shinobu",
+    "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kuki Shinobu_icon.png",
+    "display_field": {},
+    "filter_values": {
       "character_region": {
         "values": [
           "Inazuma City"
@@ -4594,6 +4564,36 @@
           }
         ],
         "key": null
+      },
+      "character_property": {
+        "values": [
+          "HP"
+        ],
+        "value_types": [
+          {
+            "id": "514",
+            "value": "HP",
+            "mi18n_key": "filter_514",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "4-Star"
+        ],
+        "value_types": [
+          {
+            "id": "14",
+            "value": "4-Star",
+            "mi18n_key": "filter_14",
+            "icon": "",
+            "enum_string": "4"
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -4604,21 +4604,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yelan_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_vision": {
-        "values": [
-          "Hydro"
-        ],
-        "value_types": [
-          {
-            "id": "751",
-            "value": "Hydro",
-            "mi18n_key": "filter_751",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/f54c8f0dae23fced358c28126f220a11_8997562060019157249.png",
-            "enum_string": "hydro"
-          }
-        ],
-        "key": null
-      },
       "character_weapon": {
         "values": [
           "Bow"
@@ -4678,6 +4663,21 @@
           }
         ],
         "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Hydro"
+        ],
+        "value_types": [
+          {
+            "id": "751",
+            "value": "Hydro",
+            "mi18n_key": "filter_751",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/f54c8f0dae23fced358c28126f220a11_8997562060019157249.png",
+            "enum_string": "hydro"
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -4688,36 +4688,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xiao_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_vision": {
-        "values": [
-          "Anemo"
-        ],
-        "value_types": [
-          {
-            "id": "782",
-            "value": "Anemo",
-            "mi18n_key": "filter_782",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/6b5c0d861fd1b4791bd602d3e7296598_8700657350379813969.png",
-            "enum_string": "anemo"
-          }
-        ],
-        "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Polearm"
-        ],
-        "value_types": [
-          {
-            "id": "124",
-            "value": "Polearm",
-            "mi18n_key": "filter_124",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c0f0c167f2753035b78c0aed9f01b9f_3170160339356492715.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_property": {
         "values": [
           "CRIT Rate"
@@ -4762,16 +4732,22 @@
           }
         ],
         "key": null
-      }
-    },
-    "desc": ""
-  },
-  {
-    "entry_page_id": "50",
-    "name": "Xiangling",
-    "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xiangling_icon.png",
-    "display_field": {},
-    "filter_values": {
+      },
+      "character_vision": {
+        "values": [
+          "Anemo"
+        ],
+        "value_types": [
+          {
+            "id": "782",
+            "value": "Anemo",
+            "mi18n_key": "filter_782",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/6b5c0d861fd1b4791bd602d3e7296598_8700657350379813969.png",
+            "enum_string": "anemo"
+          }
+        ],
+        "key": null
+      },
       "character_weapon": {
         "values": [
           "Polearm"
@@ -4786,22 +4762,16 @@
           }
         ],
         "key": null
-      },
-      "character_region": {
-        "values": [
-          "Liyue Harbor"
-        ],
-        "value_types": [
-          {
-            "id": "42",
-            "value": "Liyue Harbor",
-            "mi18n_key": "filter_42",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
+      }
+    },
+    "desc": ""
+  },
+  {
+    "entry_page_id": "50",
+    "name": "Xiangling",
+    "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xiangling_icon.png",
+    "display_field": {},
+    "filter_values": {
       "character_rarity": {
         "values": [
           "4-Star"
@@ -4846,6 +4816,36 @@
           }
         ],
         "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Polearm"
+        ],
+        "value_types": [
+          {
+            "id": "124",
+            "value": "Polearm",
+            "mi18n_key": "filter_124",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c0f0c167f2753035b78c0aed9f01b9f_3170160339356492715.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_region": {
+        "values": [
+          "Liyue Harbor"
+        ],
+        "value_types": [
+          {
+            "id": "42",
+            "value": "Liyue Harbor",
+            "mi18n_key": "filter_42",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -4856,6 +4856,36 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Raiden Shogun_icon.png",
     "display_field": {},
     "filter_values": {
+      "character_rarity": {
+        "values": [
+          "5-Star"
+        ],
+        "value_types": [
+          {
+            "id": "2",
+            "value": "5-Star",
+            "mi18n_key": "filter_2",
+            "icon": "",
+            "enum_string": "5"
+          }
+        ],
+        "key": null
+      },
+      "character_region": {
+        "values": [
+          "Inazuma City"
+        ],
+        "value_types": [
+          {
+            "id": "53",
+            "value": "Inazuma City",
+            "mi18n_key": "filter_53",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_vision": {
         "values": [
           "Electro"
@@ -4900,36 +4930,6 @@
           }
         ],
         "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "5-Star"
-        ],
-        "value_types": [
-          {
-            "id": "2",
-            "value": "5-Star",
-            "mi18n_key": "filter_2",
-            "icon": "",
-            "enum_string": "5"
-          }
-        ],
-        "key": null
-      },
-      "character_region": {
-        "values": [
-          "Inazuma City"
-        ],
-        "value_types": [
-          {
-            "id": "53",
-            "value": "Inazuma City",
-            "mi18n_key": "filter_53",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -4940,6 +4940,36 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Razor_icon.png",
     "display_field": {},
     "filter_values": {
+      "character_region": {
+        "values": [
+          "Mondstadt"
+        ],
+        "value_types": [
+          {
+            "id": "32",
+            "value": "Mondstadt",
+            "mi18n_key": "filter_32",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "4-Star"
+        ],
+        "value_types": [
+          {
+            "id": "14",
+            "value": "4-Star",
+            "mi18n_key": "filter_14",
+            "icon": "",
+            "enum_string": "4"
+          }
+        ],
+        "key": null
+      },
       "character_property": {
         "values": [
           "Physical DMG Bonus"
@@ -4984,36 +5014,6 @@
           }
         ],
         "key": null
-      },
-      "character_region": {
-        "values": [
-          "Mondstadt"
-        ],
-        "value_types": [
-          {
-            "id": "32",
-            "value": "Mondstadt",
-            "mi18n_key": "filter_32",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "4-Star"
-        ],
-        "value_types": [
-          {
-            "id": "14",
-            "value": "4-Star",
-            "mi18n_key": "filter_14",
-            "icon": "",
-            "enum_string": "4"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -5024,21 +5024,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Albedo_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_weapon": {
-        "values": [
-          "Sword"
-        ],
-        "value_types": [
-          {
-            "id": "71",
-            "value": "Sword",
-            "mi18n_key": "filter_71",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_property": {
         "values": [
           "Geo DMG Bonus"
@@ -5095,6 +5080,21 @@
             "mi18n_key": "filter_813",
             "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c4cd6e14b87fc262cca36e6d0e9bdb0_1526899214861833594.png",
             "enum_string": "geo"
+          }
+        ],
+        "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Sword"
+        ],
+        "value_types": [
+          {
+            "id": "71",
+            "value": "Sword",
+            "mi18n_key": "filter_71",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
+            "enum_string": ""
           }
         ],
         "key": null
@@ -5192,6 +5192,36 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Chongyun_icon.png",
     "display_field": {},
     "filter_values": {
+      "character_property": {
+        "values": [
+          "ATK"
+        ],
+        "value_types": [
+          {
+            "id": "550",
+            "value": "ATK",
+            "mi18n_key": "filter_550",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "4-Star"
+        ],
+        "value_types": [
+          {
+            "id": "14",
+            "value": "4-Star",
+            "mi18n_key": "filter_14",
+            "icon": "",
+            "enum_string": "4"
+          }
+        ],
+        "key": null
+      },
       "character_region": {
         "values": [
           "Liyue Harbor"
@@ -5233,36 +5263,6 @@
             "mi18n_key": "filter_79",
             "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/4b65ed8d8fd30705265fa10ee65c8b61_7363045695641018717.png",
             "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_property": {
-        "values": [
-          "ATK"
-        ],
-        "value_types": [
-          {
-            "id": "550",
-            "value": "ATK",
-            "mi18n_key": "filter_550",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "4-Star"
-        ],
-        "value_types": [
-          {
-            "id": "14",
-            "value": "4-Star",
-            "mi18n_key": "filter_14",
-            "icon": "",
-            "enum_string": "4"
           }
         ],
         "key": null
@@ -5360,36 +5360,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Diluc_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_region": {
-        "values": [
-          "Mondstadt"
-        ],
-        "value_types": [
-          {
-            "id": "32",
-            "value": "Mondstadt",
-            "mi18n_key": "filter_32",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Pyro"
-        ],
-        "value_types": [
-          {
-            "id": "729",
-            "value": "Pyro",
-            "mi18n_key": "filter_729",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
-            "enum_string": "pyro"
-          }
-        ],
-        "key": null
-      },
       "character_weapon": {
         "values": [
           "Claymore"
@@ -5431,6 +5401,36 @@
             "mi18n_key": "filter_2",
             "icon": "",
             "enum_string": "5"
+          }
+        ],
+        "key": null
+      },
+      "character_region": {
+        "values": [
+          "Mondstadt"
+        ],
+        "value_types": [
+          {
+            "id": "32",
+            "value": "Mondstadt",
+            "mi18n_key": "filter_32",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Pyro"
+        ],
+        "value_types": [
+          {
+            "id": "729",
+            "value": "Pyro",
+            "mi18n_key": "filter_729",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
+            "enum_string": "pyro"
           }
         ],
         "key": null
@@ -5528,6 +5528,21 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xinyan_icon.png",
     "display_field": {},
     "filter_values": {
+      "character_property": {
+        "values": [
+          "ATK"
+        ],
+        "value_types": [
+          {
+            "id": "550",
+            "value": "ATK",
+            "mi18n_key": "filter_550",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_rarity": {
         "values": [
           "4-Star"
@@ -5587,21 +5602,6 @@
           }
         ],
         "key": null
-      },
-      "character_property": {
-        "values": [
-          "ATK"
-        ],
-        "value_types": [
-          {
-            "id": "550",
-            "value": "ATK",
-            "mi18n_key": "filter_550",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -5612,6 +5612,21 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Noelle_icon.png",
     "display_field": {},
     "filter_values": {
+      "character_region": {
+        "values": [
+          "Mondstadt"
+        ],
+        "value_types": [
+          {
+            "id": "32",
+            "value": "Mondstadt",
+            "mi18n_key": "filter_32",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_rarity": {
         "values": [
           "4-Star"
@@ -5671,21 +5686,6 @@
           }
         ],
         "key": null
-      },
-      "character_region": {
-        "values": [
-          "Mondstadt"
-        ],
-        "value_types": [
-          {
-            "id": "32",
-            "value": "Mondstadt",
-            "mi18n_key": "filter_32",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -5696,21 +5696,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Xingqiu_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_vision": {
-        "values": [
-          "Hydro"
-        ],
-        "value_types": [
-          {
-            "id": "751",
-            "value": "Hydro",
-            "mi18n_key": "filter_751",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/f54c8f0dae23fced358c28126f220a11_8997562060019157249.png",
-            "enum_string": "hydro"
-          }
-        ],
-        "key": null
-      },
       "character_weapon": {
         "values": [
           "Sword"
@@ -5770,6 +5755,21 @@
           }
         ],
         "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Hydro"
+        ],
+        "value_types": [
+          {
+            "id": "751",
+            "value": "Hydro",
+            "mi18n_key": "filter_751",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/f54c8f0dae23fced358c28126f220a11_8997562060019157249.png",
+            "enum_string": "hydro"
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -5780,6 +5780,36 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Fischl_icon.png",
     "display_field": {},
     "filter_values": {
+      "character_property": {
+        "values": [
+          "ATK"
+        ],
+        "value_types": [
+          {
+            "id": "550",
+            "value": "ATK",
+            "mi18n_key": "filter_550",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "4-Star"
+        ],
+        "value_types": [
+          {
+            "id": "14",
+            "value": "4-Star",
+            "mi18n_key": "filter_14",
+            "icon": "",
+            "enum_string": "4"
+          }
+        ],
+        "key": null
+      },
       "character_region": {
         "values": [
           "Mondstadt"
@@ -5824,36 +5854,6 @@
           }
         ],
         "key": null
-      },
-      "character_property": {
-        "values": [
-          "ATK"
-        ],
-        "value_types": [
-          {
-            "id": "550",
-            "value": "ATK",
-            "mi18n_key": "filter_550",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "4-Star"
-        ],
-        "value_types": [
-          {
-            "id": "14",
-            "value": "4-Star",
-            "mi18n_key": "filter_14",
-            "icon": "",
-            "enum_string": "4"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -5864,6 +5864,36 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Mona_icon.png",
     "display_field": {},
     "filter_values": {
+      "character_vision": {
+        "values": [
+          "Hydro"
+        ],
+        "value_types": [
+          {
+            "id": "751",
+            "value": "Hydro",
+            "mi18n_key": "filter_751",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/f54c8f0dae23fced358c28126f220a11_8997562060019157249.png",
+            "enum_string": "hydro"
+          }
+        ],
+        "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Catalyst"
+        ],
+        "value_types": [
+          {
+            "id": "110",
+            "value": "Catalyst",
+            "mi18n_key": "filter_110",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_property": {
         "values": [
           "Energy Recharge"
@@ -5904,36 +5934,6 @@
             "value": "Mondstadt",
             "mi18n_key": "filter_32",
             "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Hydro"
-        ],
-        "value_types": [
-          {
-            "id": "751",
-            "value": "Hydro",
-            "mi18n_key": "filter_751",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/f54c8f0dae23fced358c28126f220a11_8997562060019157249.png",
-            "enum_string": "hydro"
-          }
-        ],
-        "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Catalyst"
-        ],
-        "value_types": [
-          {
-            "id": "110",
-            "value": "Catalyst",
-            "mi18n_key": "filter_110",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
             "enum_string": ""
           }
         ],
@@ -6032,21 +6032,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Barbara_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_vision": {
-        "values": [
-          "Hydro"
-        ],
-        "value_types": [
-          {
-            "id": "751",
-            "value": "Hydro",
-            "mi18n_key": "filter_751",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/f54c8f0dae23fced358c28126f220a11_8997562060019157249.png",
-            "enum_string": "hydro"
-          }
-        ],
-        "key": null
-      },
       "character_weapon": {
         "values": [
           "Catalyst"
@@ -6106,6 +6091,21 @@
           }
         ],
         "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Hydro"
+        ],
+        "value_types": [
+          {
+            "id": "751",
+            "value": "Hydro",
+            "mi18n_key": "filter_751",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/f54c8f0dae23fced358c28126f220a11_8997562060019157249.png",
+            "enum_string": "hydro"
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -6116,36 +6116,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Hu Tao_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_region": {
-        "values": [
-          "Liyue Harbor"
-        ],
-        "value_types": [
-          {
-            "id": "42",
-            "value": "Liyue Harbor",
-            "mi18n_key": "filter_42",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Pyro"
-        ],
-        "value_types": [
-          {
-            "id": "729",
-            "value": "Pyro",
-            "mi18n_key": "filter_729",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
-            "enum_string": "pyro"
-          }
-        ],
-        "key": null
-      },
       "character_weapon": {
         "values": [
           "Polearm"
@@ -6190,6 +6160,36 @@
           }
         ],
         "key": null
+      },
+      "character_region": {
+        "values": [
+          "Liyue Harbor"
+        ],
+        "value_types": [
+          {
+            "id": "42",
+            "value": "Liyue Harbor",
+            "mi18n_key": "filter_42",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Pyro"
+        ],
+        "value_types": [
+          {
+            "id": "729",
+            "value": "Pyro",
+            "mi18n_key": "filter_729",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
+            "enum_string": "pyro"
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -6200,6 +6200,21 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Rosaria_icon.png",
     "display_field": {},
     "filter_values": {
+      "character_vision": {
+        "values": [
+          "Cryo"
+        ],
+        "value_types": [
+          {
+            "id": "802",
+            "value": "Cryo",
+            "mi18n_key": "filter_802",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
+            "enum_string": "cryo"
+          }
+        ],
+        "key": null
+      },
       "character_weapon": {
         "values": [
           "Polearm"
@@ -6259,21 +6274,6 @@
           }
         ],
         "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Cryo"
-        ],
-        "value_types": [
-          {
-            "id": "802",
-            "value": "Cryo",
-            "mi18n_key": "filter_802",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
-            "enum_string": "cryo"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -6284,21 +6284,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kamisato Ayaka_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_rarity": {
-        "values": [
-          "5-Star"
-        ],
-        "value_types": [
-          {
-            "id": "2",
-            "value": "5-Star",
-            "mi18n_key": "filter_2",
-            "icon": "",
-            "enum_string": "5"
-          }
-        ],
-        "key": null
-      },
       "character_region": {
         "values": [
           "Inazuma City"
@@ -6358,6 +6343,21 @@
           }
         ],
         "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "5-Star"
+        ],
+        "value_types": [
+          {
+            "id": "2",
+            "value": "5-Star",
+            "mi18n_key": "filter_2",
+            "icon": "",
+            "enum_string": "5"
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -6368,36 +6368,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kamisato Ayato_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_weapon": {
-        "values": [
-          "Sword"
-        ],
-        "value_types": [
-          {
-            "id": "71",
-            "value": "Sword",
-            "mi18n_key": "filter_71",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_region": {
-        "values": [
-          "Inazuma City"
-        ],
-        "value_types": [
-          {
-            "id": "53",
-            "value": "Inazuma City",
-            "mi18n_key": "filter_53",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_rarity": {
         "values": [
           "5-Star"
@@ -6442,6 +6412,36 @@
           }
         ],
         "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Sword"
+        ],
+        "value_types": [
+          {
+            "id": "71",
+            "value": "Sword",
+            "mi18n_key": "filter_71",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_region": {
+        "values": [
+          "Inazuma City"
+        ],
+        "value_types": [
+          {
+            "id": "53",
+            "value": "Inazuma City",
+            "mi18n_key": "filter_53",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -6452,6 +6452,36 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Sucrose_icon.png",
     "display_field": {},
     "filter_values": {
+      "character_rarity": {
+        "values": [
+          "4-Star"
+        ],
+        "value_types": [
+          {
+            "id": "14",
+            "value": "4-Star",
+            "mi18n_key": "filter_14",
+            "icon": "",
+            "enum_string": "4"
+          }
+        ],
+        "key": null
+      },
+      "character_region": {
+        "values": [
+          "Mondstadt"
+        ],
+        "value_types": [
+          {
+            "id": "32",
+            "value": "Mondstadt",
+            "mi18n_key": "filter_32",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_vision": {
         "values": [
           "Anemo"
@@ -6496,36 +6526,6 @@
           }
         ],
         "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "4-Star"
-        ],
-        "value_types": [
-          {
-            "id": "14",
-            "value": "4-Star",
-            "mi18n_key": "filter_14",
-            "icon": "",
-            "enum_string": "4"
-          }
-        ],
-        "key": null
-      },
-      "character_region": {
-        "values": [
-          "Mondstadt"
-        ],
-        "value_types": [
-          {
-            "id": "32",
-            "value": "Mondstadt",
-            "mi18n_key": "filter_32",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -6536,6 +6536,21 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Shenhe_icon.png",
     "display_field": {},
     "filter_values": {
+      "character_region": {
+        "values": [
+          "Liyue Harbor"
+        ],
+        "value_types": [
+          {
+            "id": "42",
+            "value": "Liyue Harbor",
+            "mi18n_key": "filter_42",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_vision": {
         "values": [
           "Cryo"
@@ -6595,21 +6610,6 @@
           }
         ],
         "key": null
-      },
-      "character_region": {
-        "values": [
-          "Liyue Harbor"
-        ],
-        "value_types": [
-          {
-            "id": "42",
-            "value": "Liyue Harbor",
-            "mi18n_key": "filter_42",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -6620,6 +6620,21 @@
     "icon_url": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/12/35428890/797ded201635d241d358c307e9e7417f_464481961971717418.png",
     "display_field": {},
     "filter_values": {
+      "character_rarity": {
+        "values": [
+          "5-Star"
+        ],
+        "value_types": [
+          {
+            "id": "2",
+            "value": "5-Star",
+            "mi18n_key": "filter_2",
+            "icon": "",
+            "enum_string": "5"
+          }
+        ],
+        "key": null
+      },
       "character_region": {
         "values": [
           "Liyue Harbor"
@@ -6679,7 +6694,16 @@
           }
         ],
         "key": null
-      },
+      }
+    },
+    "desc": ""
+  },
+  {
+    "entry_page_id": "27",
+    "name": "Jean",
+    "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Jean_icon.png",
+    "display_field": {},
+    "filter_values": {
       "character_rarity": {
         "values": [
           "5-Star"
@@ -6694,16 +6718,22 @@
           }
         ],
         "key": null
-      }
-    },
-    "desc": ""
-  },
-  {
-    "entry_page_id": "27",
-    "name": "Jean",
-    "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Jean_icon.png",
-    "display_field": {},
-    "filter_values": {
+      },
+      "character_region": {
+        "values": [
+          "Mondstadt"
+        ],
+        "value_types": [
+          {
+            "id": "32",
+            "value": "Mondstadt",
+            "mi18n_key": "filter_32",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_vision": {
         "values": [
           "Anemo"
@@ -6748,36 +6778,6 @@
           }
         ],
         "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "5-Star"
-        ],
-        "value_types": [
-          {
-            "id": "2",
-            "value": "5-Star",
-            "mi18n_key": "filter_2",
-            "icon": "",
-            "enum_string": "5"
-          }
-        ],
-        "key": null
-      },
-      "character_region": {
-        "values": [
-          "Mondstadt"
-        ],
-        "value_types": [
-          {
-            "id": "32",
-            "value": "Mondstadt",
-            "mi18n_key": "filter_32",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -6788,21 +6788,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Bennett_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_property": {
-        "values": [
-          "Energy Recharge"
-        ],
-        "value_types": [
-          {
-            "id": "486",
-            "value": "Energy Recharge",
-            "mi18n_key": "filter_486",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_rarity": {
         "values": [
           "4-Star"
@@ -6858,6 +6843,21 @@
             "value": "Sword",
             "mi18n_key": "filter_71",
             "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_property": {
+        "values": [
+          "Energy Recharge"
+        ],
+        "value_types": [
+          {
+            "id": "486",
+            "value": "Energy Recharge",
+            "mi18n_key": "filter_486",
+            "icon": "",
             "enum_string": ""
           }
         ],
@@ -6956,36 +6956,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yanfei_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_rarity": {
-        "values": [
-          "4-Star"
-        ],
-        "value_types": [
-          {
-            "id": "14",
-            "value": "4-Star",
-            "mi18n_key": "filter_14",
-            "icon": "",
-            "enum_string": "4"
-          }
-        ],
-        "key": null
-      },
-      "character_region": {
-        "values": [
-          "Liyue Harbor"
-        ],
-        "value_types": [
-          {
-            "id": "42",
-            "value": "Liyue Harbor",
-            "mi18n_key": "filter_42",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_vision": {
         "values": [
           "Pyro"
@@ -7030,6 +7000,36 @@
           }
         ],
         "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "4-Star"
+        ],
+        "value_types": [
+          {
+            "id": "14",
+            "value": "4-Star",
+            "mi18n_key": "filter_14",
+            "icon": "",
+            "enum_string": "4"
+          }
+        ],
+        "key": null
+      },
+      "character_region": {
+        "values": [
+          "Liyue Harbor"
+        ],
+        "value_types": [
+          {
+            "id": "42",
+            "value": "Liyue Harbor",
+            "mi18n_key": "filter_42",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -7040,21 +7040,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Venti_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_vision": {
-        "values": [
-          "Anemo"
-        ],
-        "value_types": [
-          {
-            "id": "782",
-            "value": "Anemo",
-            "mi18n_key": "filter_782",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/6b5c0d861fd1b4791bd602d3e7296598_8700657350379813969.png",
-            "enum_string": "anemo"
-          }
-        ],
-        "key": null
-      },
       "character_weapon": {
         "values": [
           "Bow"
@@ -7114,6 +7099,21 @@
           }
         ],
         "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Anemo"
+        ],
+        "value_types": [
+          {
+            "id": "782",
+            "value": "Anemo",
+            "mi18n_key": "filter_782",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/6b5c0d861fd1b4791bd602d3e7296598_8700657350379813969.png",
+            "enum_string": "anemo"
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -7124,36 +7124,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kaedehara Kazuha_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_region": {
-        "values": [
-          "Inazuma City"
-        ],
-        "value_types": [
-          {
-            "id": "53",
-            "value": "Inazuma City",
-            "mi18n_key": "filter_53",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "5-Star"
-        ],
-        "value_types": [
-          {
-            "id": "2",
-            "value": "5-Star",
-            "mi18n_key": "filter_2",
-            "icon": "",
-            "enum_string": "5"
-          }
-        ],
-        "key": null
-      },
       "character_property": {
         "values": [
           "Elemental Mastery"
@@ -7198,6 +7168,36 @@
           }
         ],
         "key": null
+      },
+      "character_region": {
+        "values": [
+          "Inazuma City"
+        ],
+        "value_types": [
+          {
+            "id": "53",
+            "value": "Inazuma City",
+            "mi18n_key": "filter_53",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "5-Star"
+        ],
+        "value_types": [
+          {
+            "id": "2",
+            "value": "5-Star",
+            "mi18n_key": "filter_2",
+            "icon": "",
+            "enum_string": "5"
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -7208,6 +7208,36 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Sayu_icon.png",
     "display_field": {},
     "filter_values": {
+      "character_region": {
+        "values": [
+          "Inazuma City"
+        ],
+        "value_types": [
+          {
+            "id": "53",
+            "value": "Inazuma City",
+            "mi18n_key": "filter_53",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "4-Star"
+        ],
+        "value_types": [
+          {
+            "id": "14",
+            "value": "4-Star",
+            "mi18n_key": "filter_14",
+            "icon": "",
+            "enum_string": "4"
+          }
+        ],
+        "key": null
+      },
       "character_property": {
         "values": [
           "Elemental Mastery"
@@ -7252,36 +7282,6 @@
           }
         ],
         "key": null
-      },
-      "character_region": {
-        "values": [
-          "Inazuma City"
-        ],
-        "value_types": [
-          {
-            "id": "53",
-            "value": "Inazuma City",
-            "mi18n_key": "filter_53",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "4-Star"
-        ],
-        "value_types": [
-          {
-            "id": "14",
-            "value": "4-Star",
-            "mi18n_key": "filter_14",
-            "icon": "",
-            "enum_string": "4"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -7292,21 +7292,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Traveler_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_rarity": {
-        "values": [
-          "5-Star"
-        ],
-        "value_types": [
-          {
-            "id": "2",
-            "value": "5-Star",
-            "mi18n_key": "filter_2",
-            "icon": "",
-            "enum_string": "5"
-          }
-        ],
-        "key": null
-      },
       "character_property": {
         "values": [
           "ATK"
@@ -7333,6 +7318,21 @@
             "mi18n_key": "filter_71",
             "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
             "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "5-Star"
+        ],
+        "value_types": [
+          {
+            "id": "2",
+            "value": "5-Star",
+            "mi18n_key": "filter_2",
+            "icon": "",
+            "enum_string": "5"
           }
         ],
         "key": null
@@ -7484,36 +7484,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Traveler_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_vision": {
-        "values": [
-          "Geo"
-        ],
-        "value_types": [
-          {
-            "id": "813",
-            "value": "Geo",
-            "mi18n_key": "filter_813",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c4cd6e14b87fc262cca36e6d0e9bdb0_1526899214861833594.png",
-            "enum_string": "geo"
-          }
-        ],
-        "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Sword"
-        ],
-        "value_types": [
-          {
-            "id": "71",
-            "value": "Sword",
-            "mi18n_key": "filter_71",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_rarity": {
         "values": [
           "5-Star"
@@ -7543,6 +7513,36 @@
           }
         ],
         "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Geo"
+        ],
+        "value_types": [
+          {
+            "id": "813",
+            "value": "Geo",
+            "mi18n_key": "filter_813",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c4cd6e14b87fc262cca36e6d0e9bdb0_1526899214861833594.png",
+            "enum_string": "geo"
+          }
+        ],
+        "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Sword"
+        ],
+        "value_types": [
+          {
+            "id": "71",
+            "value": "Sword",
+            "mi18n_key": "filter_71",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -7553,36 +7553,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Thoma_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_property": {
-        "values": [
-          "ATK"
-        ],
-        "value_types": [
-          {
-            "id": "550",
-            "value": "ATK",
-            "mi18n_key": "filter_550",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Pyro"
-        ],
-        "value_types": [
-          {
-            "id": "729",
-            "value": "Pyro",
-            "mi18n_key": "filter_729",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
-            "enum_string": "pyro"
-          }
-        ],
-        "key": null
-      },
       "character_weapon": {
         "values": [
           "Polearm"
@@ -7627,6 +7597,36 @@
           }
         ],
         "key": null
+      },
+      "character_property": {
+        "values": [
+          "ATK"
+        ],
+        "value_types": [
+          {
+            "id": "550",
+            "value": "ATK",
+            "mi18n_key": "filter_550",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Pyro"
+        ],
+        "value_types": [
+          {
+            "id": "729",
+            "value": "Pyro",
+            "mi18n_key": "filter_729",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
+            "enum_string": "pyro"
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -7637,21 +7637,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yoimiya_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_region": {
-        "values": [
-          "Inazuma City"
-        ],
-        "value_types": [
-          {
-            "id": "53",
-            "value": "Inazuma City",
-            "mi18n_key": "filter_53",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_rarity": {
         "values": [
           "5-Star"
@@ -7711,6 +7696,21 @@
           }
         ],
         "key": null
+      },
+      "character_region": {
+        "values": [
+          "Inazuma City"
+        ],
+        "value_types": [
+          {
+            "id": "53",
+            "value": "Inazuma City",
+            "mi18n_key": "filter_53",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -7721,6 +7721,36 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Amber_icon.png",
     "display_field": {},
     "filter_values": {
+      "character_region": {
+        "values": [
+          "Mondstadt"
+        ],
+        "value_types": [
+          {
+            "id": "32",
+            "value": "Mondstadt",
+            "mi18n_key": "filter_32",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "4-Star"
+        ],
+        "value_types": [
+          {
+            "id": "14",
+            "value": "4-Star",
+            "mi18n_key": "filter_14",
+            "icon": "",
+            "enum_string": "4"
+          }
+        ],
+        "key": null
+      },
       "character_property": {
         "values": [
           "ATK"
@@ -7765,36 +7795,6 @@
           }
         ],
         "key": null
-      },
-      "character_region": {
-        "values": [
-          "Mondstadt"
-        ],
-        "value_types": [
-          {
-            "id": "32",
-            "value": "Mondstadt",
-            "mi18n_key": "filter_32",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_rarity": {
-        "values": [
-          "4-Star"
-        ],
-        "value_types": [
-          {
-            "id": "14",
-            "value": "4-Star",
-            "mi18n_key": "filter_14",
-            "icon": "",
-            "enum_string": "4"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -7805,6 +7805,21 @@
     "icon_url": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/19/80830045/1fb2086af3c7933af37eda1ff9084317_163049704110308134.png",
     "display_field": {},
     "filter_values": {
+      "character_vision": {
+        "values": [
+          "Cryo"
+        ],
+        "value_types": [
+          {
+            "id": "802",
+            "value": "Cryo",
+            "mi18n_key": "filter_802",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
+            "enum_string": "cryo"
+          }
+        ],
+        "key": null
+      },
       "character_weapon": {
         "values": [
           "Bow"
@@ -7849,21 +7864,6 @@
           }
         ],
         "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Cryo"
-        ],
-        "value_types": [
-          {
-            "id": "802",
-            "value": "Cryo",
-            "mi18n_key": "filter_802",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
-            "enum_string": "cryo"
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -7874,21 +7874,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Klee_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_rarity": {
-        "values": [
-          "5-Star"
-        ],
-        "value_types": [
-          {
-            "id": "2",
-            "value": "5-Star",
-            "mi18n_key": "filter_2",
-            "icon": "",
-            "enum_string": "5"
-          }
-        ],
-        "key": null
-      },
       "character_property": {
         "values": [
           "Pyro DMG Bonus"
@@ -7948,6 +7933,21 @@
           }
         ],
         "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "5-Star"
+        ],
+        "value_types": [
+          {
+            "id": "2",
+            "value": "5-Star",
+            "mi18n_key": "filter_2",
+            "icon": "",
+            "enum_string": "5"
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -7958,36 +7958,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Beidou_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_rarity": {
-        "values": [
-          "4-Star"
-        ],
-        "value_types": [
-          {
-            "id": "14",
-            "value": "4-Star",
-            "mi18n_key": "filter_14",
-            "icon": "",
-            "enum_string": "4"
-          }
-        ],
-        "key": null
-      },
-      "character_property": {
-        "values": [
-          "Electro DMG Bonus"
-        ],
-        "value_types": [
-          {
-            "id": "614",
-            "value": "Electro DMG Bonus",
-            "mi18n_key": "filter_614",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_vision": {
         "values": [
           "Electro"
@@ -8032,6 +8002,36 @@
           }
         ],
         "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "4-Star"
+        ],
+        "value_types": [
+          {
+            "id": "14",
+            "value": "4-Star",
+            "mi18n_key": "filter_14",
+            "icon": "",
+            "enum_string": "4"
+          }
+        ],
+        "key": null
+      },
+      "character_property": {
+        "values": [
+          "Electro DMG Bonus"
+        ],
+        "value_types": [
+          {
+            "id": "614",
+            "value": "Electro DMG Bonus",
+            "mi18n_key": "filter_614",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -8042,6 +8042,21 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Keqing_icon.png",
     "display_field": {},
     "filter_values": {
+      "character_weapon": {
+        "values": [
+          "Sword"
+        ],
+        "value_types": [
+          {
+            "id": "71",
+            "value": "Sword",
+            "mi18n_key": "filter_71",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_property": {
         "values": [
           "CRIT DMG"
@@ -8101,21 +8116,6 @@
           }
         ],
         "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Sword"
-        ],
-        "value_types": [
-          {
-            "id": "71",
-            "value": "Sword",
-            "mi18n_key": "filter_71",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
       }
     },
     "desc": ""
@@ -8126,36 +8126,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Kaeya_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_vision": {
-        "values": [
-          "Cryo"
-        ],
-        "value_types": [
-          {
-            "id": "802",
-            "value": "Cryo",
-            "mi18n_key": "filter_802",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
-            "enum_string": "cryo"
-          }
-        ],
-        "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Sword"
-        ],
-        "value_types": [
-          {
-            "id": "71",
-            "value": "Sword",
-            "mi18n_key": "filter_71",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_region": {
         "values": [
           "Mondstadt"
@@ -8200,6 +8170,36 @@
           }
         ],
         "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Cryo"
+        ],
+        "value_types": [
+          {
+            "id": "802",
+            "value": "Cryo",
+            "mi18n_key": "filter_802",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/157c22f5fd473d3c1684c6ee981540b6_1601711336893201442.png",
+            "enum_string": "cryo"
+          }
+        ],
+        "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Sword"
+        ],
+        "value_types": [
+          {
+            "id": "71",
+            "value": "Sword",
+            "mi18n_key": "filter_71",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/eb8602badf0ade7c03650a440d188ce1_4346782947893420142.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -8210,6 +8210,36 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Ningguang_icon.png",
     "display_field": {},
     "filter_values": {
+      "character_vision": {
+        "values": [
+          "Geo"
+        ],
+        "value_types": [
+          {
+            "id": "813",
+            "value": "Geo",
+            "mi18n_key": "filter_813",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c4cd6e14b87fc262cca36e6d0e9bdb0_1526899214861833594.png",
+            "enum_string": "geo"
+          }
+        ],
+        "key": null
+      },
+      "character_weapon": {
+        "values": [
+          "Catalyst"
+        ],
+        "value_types": [
+          {
+            "id": "110",
+            "value": "Catalyst",
+            "mi18n_key": "filter_110",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_region": {
         "values": [
           "Liyue Harbor"
@@ -8250,36 +8280,6 @@
             "value": "Geo DMG Bonus",
             "mi18n_key": "filter_659",
             "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Geo"
-        ],
-        "value_types": [
-          {
-            "id": "813",
-            "value": "Geo",
-            "mi18n_key": "filter_813",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c4cd6e14b87fc262cca36e6d0e9bdb0_1526899214861833594.png",
-            "enum_string": "geo"
-          }
-        ],
-        "key": null
-      },
-      "character_weapon": {
-        "values": [
-          "Catalyst"
-        ],
-        "value_types": [
-          {
-            "id": "110",
-            "value": "Catalyst",
-            "mi18n_key": "filter_110",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
             "enum_string": ""
           }
         ],
@@ -8378,36 +8378,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Eula_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_rarity": {
-        "values": [
-          "5-Star"
-        ],
-        "value_types": [
-          {
-            "id": "2",
-            "value": "5-Star",
-            "mi18n_key": "filter_2",
-            "icon": "",
-            "enum_string": "5"
-          }
-        ],
-        "key": null
-      },
-      "character_property": {
-        "values": [
-          "CRIT DMG"
-        ],
-        "value_types": [
-          {
-            "id": "463",
-            "value": "CRIT DMG",
-            "mi18n_key": "filter_463",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
       "character_vision": {
         "values": [
           "Cryo"
@@ -8452,6 +8422,36 @@
           }
         ],
         "key": null
+      },
+      "character_rarity": {
+        "values": [
+          "5-Star"
+        ],
+        "value_types": [
+          {
+            "id": "2",
+            "value": "5-Star",
+            "mi18n_key": "filter_2",
+            "icon": "",
+            "enum_string": "5"
+          }
+        ],
+        "key": null
+      },
+      "character_property": {
+        "values": [
+          "CRIT DMG"
+        ],
+        "value_types": [
+          {
+            "id": "463",
+            "value": "CRIT DMG",
+            "mi18n_key": "filter_463",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
       }
     },
     "desc": ""
@@ -8462,36 +8462,6 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Gorou_icon.png",
     "display_field": {},
     "filter_values": {
-      "character_property": {
-        "values": [
-          "Geo DMG Bonus"
-        ],
-        "value_types": [
-          {
-            "id": "659",
-            "value": "Geo DMG Bonus",
-            "mi18n_key": "filter_659",
-            "icon": "",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_vision": {
-        "values": [
-          "Geo"
-        ],
-        "value_types": [
-          {
-            "id": "813",
-            "value": "Geo",
-            "mi18n_key": "filter_813",
-            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c4cd6e14b87fc262cca36e6d0e9bdb0_1526899214861833594.png",
-            "enum_string": "geo"
-          }
-        ],
-        "key": null
-      },
       "character_weapon": {
         "values": [
           "Bow"
@@ -8536,25 +8506,16 @@
           }
         ],
         "key": null
-      }
-    },
-    "desc": ""
-  },
-  {
-    "entry_page_id": "4",
-    "name": "Yun Jin",
-    "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yun Jin_icon.png",
-    "display_field": {},
-    "filter_values": {
+      },
       "character_property": {
         "values": [
-          "Energy Recharge"
+          "Geo DMG Bonus"
         ],
         "value_types": [
           {
-            "id": "486",
-            "value": "Energy Recharge",
-            "mi18n_key": "filter_486",
+            "id": "659",
+            "value": "Geo DMG Bonus",
+            "mi18n_key": "filter_659",
             "icon": "",
             "enum_string": ""
           }
@@ -8575,7 +8536,16 @@
           }
         ],
         "key": null
-      },
+      }
+    },
+    "desc": ""
+  },
+  {
+    "entry_page_id": "4",
+    "name": "Yun Jin",
+    "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Yun Jin_icon.png",
+    "display_field": {},
+    "filter_values": {
       "character_weapon": {
         "values": [
           "Polearm"
@@ -8617,6 +8587,36 @@
             "mi18n_key": "filter_14",
             "icon": "",
             "enum_string": "4"
+          }
+        ],
+        "key": null
+      },
+      "character_property": {
+        "values": [
+          "Energy Recharge"
+        ],
+        "value_types": [
+          {
+            "id": "486",
+            "value": "Energy Recharge",
+            "mi18n_key": "filter_486",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
+      "character_vision": {
+        "values": [
+          "Geo"
+        ],
+        "value_types": [
+          {
+            "id": "813",
+            "value": "Geo",
+            "mi18n_key": "filter_813",
+            "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c4cd6e14b87fc262cca36e6d0e9bdb0_1526899214861833594.png",
+            "enum_string": "geo"
           }
         ],
         "key": null
@@ -8714,6 +8714,21 @@
     "icon_url": "https://bbs.hoyolab.com/hoyowiki/picture/character/Lisa_icon.png",
     "display_field": {},
     "filter_values": {
+      "character_region": {
+        "values": [
+          "Mondstadt"
+        ],
+        "value_types": [
+          {
+            "id": "32",
+            "value": "Mondstadt",
+            "mi18n_key": "filter_32",
+            "icon": "",
+            "enum_string": ""
+          }
+        ],
+        "key": null
+      },
       "character_rarity": {
         "values": [
           "4-Star"
@@ -8769,21 +8784,6 @@
             "value": "Catalyst",
             "mi18n_key": "filter_110",
             "icon": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/91c80bbf63e574fc6d6b1cb8563cf8e3_5665224225336557820.png",
-            "enum_string": ""
-          }
-        ],
-        "key": null
-      },
-      "character_region": {
-        "values": [
-          "Mondstadt"
-        ],
-        "value_types": [
-          {
-            "id": "32",
-            "value": "Mondstadt",
-            "mi18n_key": "filter_32",
-            "icon": "",
             "enum_string": ""
           }
         ],

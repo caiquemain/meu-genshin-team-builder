@@ -36,7 +36,7 @@
     "en-us": "A researcher from \"one hundred years ago.\" She enjoys self-identifying as everyone's senior, and has significant knowledge of ancient scripts and machines of all kinds.",
     "ja-jp": "「百年前」から訪れた学者。自ら好んで先輩と名乗り、各種古代文字や古典ギミックに精通している。",
     "zh-cn": "来自「一百年前」的学者，喜欢以前辈自居，对各类古老文字与古典机关都颇有研究。",
-    "ko-kr": "「백 년 전」에서 온 학자. 선배를 자처하며, 각종 고대 문자와 장치에 상당한 지식을 가지고 있다.「이 책의 모든 내용은 파루잔 선배의 이론과 원고를 참고했음을 밝힙니다. 선배가 아카데미아로 돌아왔을 때, 부디 후대 학생들이 파루잔이라는 이름을 기억하기 바랍니다.」——백여 년 전에 출간되어 오늘날까지 크샤흐레와르 학부 필독서인 &lt;고대 장치학 개론&gt;에서 발췌",
+    "ko-kr": "「백 년 전」에서 온 학자. 선배를 자처하며, 각종 고대 문자와 장치에 상당한 지식을 가지고 있다.「이 책의 모든 내용은 파루잔 선배의 이론과 원고를 참고했음을 밝힙니다. 선배가 아카데미아로 돌아왔을 때, 부디 후대 학생들이 파루잔이라는 이름을 기억하기 바랍니다.」——백여 년 전에 출간되어 오늘날까지 크샤흐레와르 학부 필독서인 <고대 장치학 개론>에서 발췌",
     "ru-ru": "Исследовательница из «прошлого века». Ей нравится считать себя старше всех. Она обладает обширными познаниями о старинных письменах и древних механизмах.«Значительная часть материалов, представленных в этой книге, взята из теорий и рукописей мадам Фарузан. Мы надеемся, что будущие поколения учёных вспомнят её имя, когда она вернётся в Академию», - цитата из книги «Введение в древние машины». Этот текст был издан почти сто лет назад и по сей день входит в список обязательного чтения в даршане Кшахревар.",
     "de-de": "Eine Gelehrte von „vor hundert Jahren“, die sich gern als angesehene Gelehrte ausgibt und über umfangreiche Kenntnisse über alte Schriften und Vorrichtungen aller Arten verfügt.",
     "fr-fr": "Une chercheuse qui vient « du siècle dernier ». Elle aime être l’aînée de tous et possède de vastes connaissances sur les textes anciens et la mécanique classique.",
@@ -48,68 +48,34 @@
   },
   "rarity": 4,
   "vision": {
-    "label": {
-      "pt-pt": "Tipo Elemental",
-      "en-us": "Elemental Type",
-      "ja-jp": "元素タイプ",
-      "zh-cn": "元素属性",
-      "ko-kr": "원소 속성",
-      "ru-ru": "Элемент",
-      "de-de": "Elementartyp",
-      "fr-fr": "Élément",
-      "es-es": "Tipo elemental",
-      "id-id": "Tipe Elemen",
-      "th-th": "ประเภทธาตุ",
-      "vi-vn": "Thuộc Tính Nguyên Tố",
-      "zh-tw": "元素屬性"
-    },
-    "value": {
-      "pt-pt": "Anemo",
-      "en-us": "Anemo",
-      "ja-jp": "風元素",
-      "zh-cn": "风元素",
-      "ko-kr": "바람 원소",
-      "ru-ru": "Анемо",
-      "de-de": "Anemo",
-      "fr-fr": "Anémo",
-      "es-es": "Anemo",
-      "id-id": "Anemo",
-      "th-th": "ลม",
-      "vi-vn": "Phong",
-      "zh-tw": "風元素"
-    }
+    "pt-pt": "Anemo",
+    "en-us": "Anemo",
+    "ja-jp": "風元素",
+    "zh-cn": "风元素",
+    "ko-kr": "바람 원소",
+    "ru-ru": "Анемо",
+    "de-de": "Anemo",
+    "fr-fr": "Anémo",
+    "es-es": "Anemo",
+    "id-id": "Anemo",
+    "th-th": "ลม",
+    "vi-vn": "Phong",
+    "zh-tw": "風元素"
   },
   "weapon": {
-    "label": {
-      "pt-pt": "Arma",
-      "en-us": "Weapons",
-      "ja-jp": "武器種",
-      "zh-cn": "武器",
-      "ko-kr": "무기",
-      "ru-ru": "Тип",
-      "de-de": "Waffe",
-      "fr-fr": "Type d'arme",
-      "es-es": "Arma",
-      "id-id": "Senjata",
-      "th-th": "อาวุธ",
-      "vi-vn": "Vũ Khí",
-      "zh-tw": "武器"
-    },
-    "value": {
-      "pt-pt": "Arco",
-      "en-us": "Bow",
-      "ja-jp": "弓",
-      "zh-cn": "弓",
-      "ko-kr": "활",
-      "ru-ru": "Стрелковое",
-      "de-de": "Bogen",
-      "fr-fr": "Arc",
-      "es-es": "Arco",
-      "id-id": "Bow",
-      "th-th": "ธนู",
-      "vi-vn": "Cung",
-      "zh-tw": "弓"
-    }
+    "pt-pt": "Arco",
+    "en-us": "Bow",
+    "ja-jp": "弓",
+    "zh-cn": "弓",
+    "ko-kr": "활",
+    "ru-ru": "Стрелковое",
+    "de-de": "Bogen",
+    "fr-fr": "Arc",
+    "es-es": "Arco",
+    "id-id": "Bow",
+    "th-th": "ธนู",
+    "vi-vn": "Cung",
+    "zh-tw": "弓"
   },
   "characterIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/12/05/16791688/38c12ab46678a4008f83a0e46c900ef5_2542346274933708256.png",
   "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/6b5c0d861fd1b4791bd602d3e7296598_8700657350379813969.png",
@@ -118,15 +84,15 @@
     "en-us": "Flosculi Implexi",
     "ja-jp": "藤蔓の花飾座",
     "zh-cn": "蔓藤花饰座",
+    "ko-kr": "N/A",
     "ru-ru": "Переплетённые Цветы",
     "de-de": "Flosculi Implexi",
     "fr-fr": "Flosculi Implexi",
     "es-es": "Flosculi Implexi",
     "id-id": "Flosculi Implexi",
     "th-th": "Flosculi Implexi",
-    "zh-tw": "蔓藤花飾座",
-    "ko-kr": "N/A",
-    "vi-vn": "N/A"
+    "vi-vn": "N/A",
+    "zh-tw": "蔓藤花飾座"
   },
   "specialDish": {
     "id": 3327,
@@ -1034,7 +1000,18 @@
         {
           "label": {
             "pt-pt": "Tempo de Recarga",
-            "vi-vn": "CD"
+            "en-us": "Tempo de Recarga",
+            "ja-jp": "Tempo de Recarga",
+            "zh-cn": "Tempo de Recarga",
+            "ko-kr": "Tempo de Recarga",
+            "ru-ru": "Tempo de Recarga",
+            "de-de": "Tempo de Recarga",
+            "fr-fr": "Tempo de Recarga",
+            "es-es": "Tempo de Recarga",
+            "id-id": "Tempo de Recarga",
+            "th-th": "Tempo de Recarga",
+            "vi-vn": "CD",
+            "zh-tw": "Tempo de Recarga"
           },
           "values": [
             "600%",
@@ -1076,7 +1053,7 @@
       "attributes": [
         {
           "label": {
-            "pt-pt": "",
+            "pt-pt": "Level",
             "en-us": "Level",
             "ja-jp": "Level",
             "zh-cn": "Level",
@@ -1087,7 +1064,7 @@
             "es-es": "Niv.",
             "id-id": "Level",
             "th-th": "Level",
-            "vi-vn": "",
+            "vi-vn": "Level",
             "zh-tw": "Level"
           },
           "values": [
@@ -1406,7 +1383,7 @@
           "level": 2,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 12500,
               "name": {
@@ -1426,7 +1403,7 @@
               }
             },
             {
-              "id": "2683",
+              "id": 2683,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/6926027/d29716257e68620f6873753908122b96_2091747234142043896.png",
               "amount": 3,
               "name": {
@@ -1446,7 +1423,7 @@
               }
             },
             {
-              "id": "2706",
+              "id": 2706,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/dfa4ba937ada162659c0264137d43a18_1307371292970051747.png",
               "amount": 6,
               "name": {
@@ -1471,7 +1448,7 @@
           "level": 3,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 17500,
               "name": {
@@ -1491,7 +1468,7 @@
               }
             },
             {
-              "id": "2684",
+              "id": 2684,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/6926027/5c84590b6aeb1cfc52396cc287f9e5bf_393553542099172020.png",
               "amount": 2,
               "name": {
@@ -1511,7 +1488,7 @@
               }
             },
             {
-              "id": "2705",
+              "id": 2705,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/06b87a9dcd21cb420ae76a5db4cb4521_6504234534821447130.png",
               "amount": 3,
               "name": {
@@ -1536,7 +1513,7 @@
           "level": 4,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 25000,
               "name": {
@@ -1556,7 +1533,7 @@
               }
             },
             {
-              "id": "2684",
+              "id": 2684,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/6926027/5c84590b6aeb1cfc52396cc287f9e5bf_393553542099172020.png",
               "amount": 4,
               "name": {
@@ -1576,7 +1553,7 @@
               }
             },
             {
-              "id": "2705",
+              "id": 2705,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/06b87a9dcd21cb420ae76a5db4cb4521_6504234534821447130.png",
               "amount": 4,
               "name": {
@@ -1601,7 +1578,7 @@
           "level": 5,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 30000,
               "name": {
@@ -1621,7 +1598,7 @@
               }
             },
             {
-              "id": "2684",
+              "id": 2684,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/6926027/5c84590b6aeb1cfc52396cc287f9e5bf_393553542099172020.png",
               "amount": 6,
               "name": {
@@ -1641,7 +1618,7 @@
               }
             },
             {
-              "id": "2705",
+              "id": 2705,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/06b87a9dcd21cb420ae76a5db4cb4521_6504234534821447130.png",
               "amount": 6,
               "name": {
@@ -1666,7 +1643,7 @@
           "level": 6,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 37500,
               "name": {
@@ -1686,7 +1663,7 @@
               }
             },
             {
-              "id": "2684",
+              "id": 2684,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/6926027/5c84590b6aeb1cfc52396cc287f9e5bf_393553542099172020.png",
               "amount": 9,
               "name": {
@@ -1706,7 +1683,7 @@
               }
             },
             {
-              "id": "2705",
+              "id": 2705,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/06b87a9dcd21cb420ae76a5db4cb4521_6504234534821447130.png",
               "amount": 9,
               "name": {
@@ -1731,7 +1708,7 @@
           "level": 7,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 120000,
               "name": {
@@ -1751,7 +1728,7 @@
               }
             },
             {
-              "id": "2685",
+              "id": 2685,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/6926027/b65c76a131d877f2a5112377dcafb7c7_7313458878440489968.png",
               "amount": 4,
               "name": {
@@ -1771,7 +1748,7 @@
               }
             },
             {
-              "id": "2704",
+              "id": 2704,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/5f415e2b9f3f486a29b613d8d8c029c9_3185542679710830069.png",
               "amount": 4,
               "name": {
@@ -1791,7 +1768,7 @@
               }
             },
             {
-              "id": "2973",
+              "id": 2973,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/08/8078404/a9caaa876b0b610118a56d648464e6d4_6238737642777827302.png",
               "amount": 1,
               "name": {
@@ -1816,7 +1793,7 @@
           "level": 8,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 260000,
               "name": {
@@ -1836,7 +1813,7 @@
               }
             },
             {
-              "id": "2685",
+              "id": 2685,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/6926027/b65c76a131d877f2a5112377dcafb7c7_7313458878440489968.png",
               "amount": 6,
               "name": {
@@ -1856,7 +1833,7 @@
               }
             },
             {
-              "id": "2704",
+              "id": 2704,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/5f415e2b9f3f486a29b613d8d8c029c9_3185542679710830069.png",
               "amount": 6,
               "name": {
@@ -1876,7 +1853,7 @@
               }
             },
             {
-              "id": "2973",
+              "id": 2973,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/08/8078404/a9caaa876b0b610118a56d648464e6d4_6238737642777827302.png",
               "amount": 1,
               "name": {
@@ -1901,7 +1878,7 @@
           "level": 9,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 450000,
               "name": {
@@ -1921,7 +1898,7 @@
               }
             },
             {
-              "id": "2685",
+              "id": 2685,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/6926027/b65c76a131d877f2a5112377dcafb7c7_7313458878440489968.png",
               "amount": 12,
               "name": {
@@ -1941,7 +1918,7 @@
               }
             },
             {
-              "id": "2704",
+              "id": 2704,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/5f415e2b9f3f486a29b613d8d8c029c9_3185542679710830069.png",
               "amount": 9,
               "name": {
@@ -1961,7 +1938,7 @@
               }
             },
             {
-              "id": "2973",
+              "id": 2973,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/08/8078404/a9caaa876b0b610118a56d648464e6d4_6238737642777827302.png",
               "amount": 2,
               "name": {
@@ -1986,7 +1963,7 @@
           "level": 10,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 700000,
               "name": {
@@ -2006,7 +1983,7 @@
               }
             },
             {
-              "id": "2685",
+              "id": 2685,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/6926027/b65c76a131d877f2a5112377dcafb7c7_7313458878440489968.png",
               "amount": 16,
               "name": {
@@ -2026,7 +2003,7 @@
               }
             },
             {
-              "id": "2704",
+              "id": 2704,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/5f415e2b9f3f486a29b613d8d8c029c9_3185542679710830069.png",
               "amount": 12,
               "name": {
@@ -2046,7 +2023,7 @@
               }
             },
             {
-              "id": "2973",
+              "id": 2973,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/08/8078404/a9caaa876b0b610118a56d648464e6d4_6238737642777827302.png",
               "amount": 2,
               "name": {
@@ -2066,7 +2043,7 @@
               }
             },
             {
-              "id": "900",
+              "id": 900,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Crown%20of%20Insight_icon.png",
               "amount": 1,
               "name": {
@@ -2139,7 +2116,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 20000,
           "name": {
@@ -2159,7 +2136,7 @@
           }
         },
         {
-          "id": "1496",
+          "id": 1496,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vayuda%20Turquoise%20Sliver_icon.png",
           "amount": 1,
           "name": {
@@ -2179,7 +2156,7 @@
           }
         },
         {
-          "id": "2853",
+          "id": 2853,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/29/6926027/b1349d8b231a7b65fbffd5dd33b1bb9b_4952181507962220256.png",
           "amount": 3,
           "name": {
@@ -2199,7 +2176,7 @@
           }
         },
         {
-          "id": "2706",
+          "id": 2706,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/dfa4ba937ada162659c0264137d43a18_1307371292970051747.png",
           "amount": 3,
           "name": {
@@ -2238,7 +2215,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 40000,
           "name": {
@@ -2258,7 +2235,7 @@
           }
         },
         {
-          "id": "1495",
+          "id": 1495,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vayuda%20Turquoise%20Fragment_icon.png",
           "amount": 3,
           "name": {
@@ -2278,7 +2255,7 @@
           }
         },
         {
-          "id": "2854",
+          "id": 2854,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/16791688/e79a35f63aaa0fb3c25105332cd58527_4208952783545673868.png",
           "amount": 2,
           "name": {
@@ -2298,7 +2275,7 @@
           }
         },
         {
-          "id": "2853",
+          "id": 2853,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/29/6926027/b1349d8b231a7b65fbffd5dd33b1bb9b_4952181507962220256.png",
           "amount": 10,
           "name": {
@@ -2318,7 +2295,7 @@
           }
         },
         {
-          "id": "2706",
+          "id": 2706,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/dfa4ba937ada162659c0264137d43a18_1307371292970051747.png",
           "amount": 15,
           "name": {
@@ -2357,7 +2334,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 60000,
           "name": {
@@ -2377,7 +2354,7 @@
           }
         },
         {
-          "id": "1495",
+          "id": 1495,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vayuda%20Turquoise%20Fragment_icon.png",
           "amount": 6,
           "name": {
@@ -2397,7 +2374,7 @@
           }
         },
         {
-          "id": "2854",
+          "id": 2854,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/16791688/e79a35f63aaa0fb3c25105332cd58527_4208952783545673868.png",
           "amount": 4,
           "name": {
@@ -2417,7 +2394,7 @@
           }
         },
         {
-          "id": "2853",
+          "id": 2853,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/29/6926027/b1349d8b231a7b65fbffd5dd33b1bb9b_4952181507962220256.png",
           "amount": 20,
           "name": {
@@ -2437,7 +2414,7 @@
           }
         },
         {
-          "id": "2705",
+          "id": 2705,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/06b87a9dcd21cb420ae76a5db4cb4521_6504234534821447130.png",
           "amount": 12,
           "name": {
@@ -2476,7 +2453,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 80000,
           "name": {
@@ -2496,7 +2473,7 @@
           }
         },
         {
-          "id": "1494",
+          "id": 1494,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vayuda%20Turquoise%20Chunk_icon.png",
           "amount": 3,
           "name": {
@@ -2516,7 +2493,7 @@
           }
         },
         {
-          "id": "2854",
+          "id": 2854,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/16791688/e79a35f63aaa0fb3c25105332cd58527_4208952783545673868.png",
           "amount": 8,
           "name": {
@@ -2536,7 +2513,7 @@
           }
         },
         {
-          "id": "2853",
+          "id": 2853,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/29/6926027/b1349d8b231a7b65fbffd5dd33b1bb9b_4952181507962220256.png",
           "amount": 30,
           "name": {
@@ -2556,7 +2533,7 @@
           }
         },
         {
-          "id": "2705",
+          "id": 2705,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/06b87a9dcd21cb420ae76a5db4cb4521_6504234534821447130.png",
           "amount": 18,
           "name": {
@@ -2595,7 +2572,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 100000,
           "name": {
@@ -2615,7 +2592,7 @@
           }
         },
         {
-          "id": "1494",
+          "id": 1494,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vayuda%20Turquoise%20Chunk_icon.png",
           "amount": 6,
           "name": {
@@ -2635,7 +2612,7 @@
           }
         },
         {
-          "id": "2854",
+          "id": 2854,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/16791688/e79a35f63aaa0fb3c25105332cd58527_4208952783545673868.png",
           "amount": 12,
           "name": {
@@ -2655,7 +2632,7 @@
           }
         },
         {
-          "id": "2853",
+          "id": 2853,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/29/6926027/b1349d8b231a7b65fbffd5dd33b1bb9b_4952181507962220256.png",
           "amount": 45,
           "name": {
@@ -2675,7 +2652,7 @@
           }
         },
         {
-          "id": "2704",
+          "id": 2704,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/5f415e2b9f3f486a29b613d8d8c029c9_3185542679710830069.png",
           "amount": 12,
           "name": {
@@ -2714,7 +2691,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 120000,
           "name": {
@@ -2734,7 +2711,7 @@
           }
         },
         {
-          "id": "1493",
+          "id": 1493,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vayuda%20Turquoise%20Gemstone_icon.png",
           "amount": 6,
           "name": {
@@ -2754,7 +2731,7 @@
           }
         },
         {
-          "id": "2854",
+          "id": 2854,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/16791688/e79a35f63aaa0fb3c25105332cd58527_4208952783545673868.png",
           "amount": 20,
           "name": {
@@ -2774,7 +2751,7 @@
           }
         },
         {
-          "id": "2853",
+          "id": 2853,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/29/6926027/b1349d8b231a7b65fbffd5dd33b1bb9b_4952181507962220256.png",
           "amount": 60,
           "name": {
@@ -2794,7 +2771,7 @@
           }
         },
         {
-          "id": "2704",
+          "id": 2704,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/5f415e2b9f3f486a29b613d8d8c029c9_3185542679710830069.png",
           "amount": 24,
           "name": {

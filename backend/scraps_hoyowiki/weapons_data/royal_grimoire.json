@@ -1,0 +1,1022 @@
+{
+  "id": "royal_grimoire",
+  "wiki_id": 1961,
+  "name": {
+    "pt-pt": "Grimório Real",
+    "en-us": "Royal Grimoire",
+    "ja-jp": "旧貴族秘法録",
+    "zh-cn": "宗室秘法录",
+    "ko-kr": "왕실의 비전록",
+    "ru-ru": "Королевский гримуар",
+    "de-de": "Königliches Zauberbuch",
+    "fr-fr": "Grimoire royal",
+    "es-es": "Grimorio Real",
+    "id-id": "Royal Grimoire",
+    "th-th": "Royal Grimoire",
+    "vi-vn": "Mật Pháp Tông Thất",
+    "zh-tw": "宗室秘法錄"
+  },
+  "description": {
+    "pt-pt": "Um livro que pertenceu a um feiticeiro da realeza de Mondstadt. Guarda feitiços e relatos históricos verdadeiros e extensos.",
+    "en-us": "A book that once belonged to a court mage of Mondstadt who served the nobility. It contains faithful and comprehensive historical accounts as well as magic spells.",
+    "ja-jp": "かつてモンドを支配していた旧貴族配下の魔導師が持っていたもの。中には法術書と同等に詳しい史話が記録されている。",
+    "zh-cn": "属于曾支配蒙德的贵族麾下的宫廷魔导师，其中记载的史话与法术同样翔实。",
+    "ko-kr": "몬드를 지배했던 귀족의 휘하에 있던 궁정 마도사의 마법서이다. 안에 기재된 역사는 마법과 마찬가지로 매우 상세하다",
+    "ru-ru": "Книга, когда-то принадлежавшая королевскому магу Мондштадта. Содержит подробные исторические данные и заклинания.",
+    "de-de": "Es gehörte einst dem königlichen Hofmagier von Mondstadt und enthält Aufzeichnungen über wahre Begebenheiten und die Zauberkunst.",
+    "fr-fr": "Ce grimoire appartenait autrefois à un mage de la cour royale de Mondstadt. Il contient des témoignages historiques authentiques ainsi que des sorts.",
+    "es-es": "Un libro que una vez perteneció a un mago aristócrata de Mondstadt. En él, hay registrados relatos históricos y hechizos reales y muy largos.",
+    "id-id": "Buku yang sebelumnya dimiliki oleh penyihir istana di Mondstadt. Di dalamnya tercatat kebenaran sejarah dan berbagai sihir.",
+    "th-th": "หนังสือที่ครั้งหนึ่งเคยเป็นของนักเวทมนตร์หลวงแห่ง Mondstadt มันได้เก็บเอาความจริงของบัญชีย้อนหลังและมนตราต่าง ๆ ไว้ภายใน",
+    "vi-vn": "Thuộc về Ma Đạo Sư cung đình dưới thời quý tộc Mondstadt, trên đó có ghi chép pháp thuật và lịch sử.",
+    "zh-tw": "屬於曾支配蒙德的貴族麾下的宮廷魔導師，其中記載的史話與法術同樣詳實。"
+  },
+  "rarity": 4,
+  "type": {
+    "pt-pt": "Catalisador",
+    "en-us": "Catalyst",
+    "ja-jp": "法器",
+    "zh-cn": "法器",
+    "ko-kr": "법구",
+    "ru-ru": "Катализатор",
+    "de-de": "Katalysator",
+    "fr-fr": "Catalyseur",
+    "es-es": "Catalizador",
+    "id-id": "Catalyst",
+    "th-th": "สื่อเวท",
+    "vi-vn": "Pháp Khí",
+    "zh-tw": "法器"
+  },
+  "subStat": {
+    "pt-pt": "ATQ%",
+    "en-us": "ATK",
+    "ja-jp": "攻撃力",
+    "zh-cn": "攻击力",
+    "ko-kr": "공격력",
+    "ru-ru": "Сила атаки",
+    "de-de": "ANG",
+    "fr-fr": "ATQ",
+    "es-es": "ATQ",
+    "id-id": "ATK",
+    "th-th": "พลังโจมตี",
+    "vi-vn": "Tấn Công",
+    "zh-tw": "攻擊力"
+  },
+  "passiveName": {
+    "pt-pt": "Foco",
+    "en-us": "Focus",
+    "ja-jp": "集中",
+    "zh-cn": "专注",
+    "ko-kr": "집중",
+    "ru-ru": "Сосредоточенный:",
+    "de-de": "Konzentration",
+    "fr-fr": "Focus",
+    "es-es": "Concentración",
+    "id-id": "Focus",
+    "th-th": "Focus",
+    "vi-vn": "Chuyên Chú",
+    "zh-tw": "專注"
+  },
+  "passiveDescription": {
+    "pt-pt": "Ao atingir um oponente, aumenta a Taxa Crítica em 8%/10%/12%/14%/16%, acumulando no máximo 5 vezes. Causar Dano Crítico remove todos os acúmulos.",
+    "en-us": "Upon damaging an opponent, increases CRIT Rate by 8%/10%/12%/14%/16%. Max 5 stacks. A CRIT Hit removes all stacks.",
+    "ja-jp": "攻撃が敵にダメージを与えた時、会心率+8/10/12/14/16%、最大5重まで。攻撃会心発生時、効果がクリアされる。",
+    "zh-cn": "攻击造成伤害时，暴击率提升8%/10%/12%/14%/16%，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
+    "ko-kr": "공격으로 피해를 줄 때마다 치명타 확률이 8%/10%/12%/14%/16% 증가한다. 최대 중첩수: 5회. 공격 시 치명타가 발생하면 모든 집중 효과가 사라진다",
+    "ru-ru": "При нанесении урона противнику повышает шанс крит. попадания на 8%/10%/12%/14%/16%. Эффект может складываться до 5 раз. Добавочный шанс крит. попадания исчезает с первым крит. попаданием.",
+    "de-de": "Erhöht die KT beim Verursachen von Schaden um 8% ~ 10% ~ 12% ~ 14% ~ 16%, 5-fach stapelbar. Effekt erlischt beim Verursachen eines KT.",
+    "fr-fr": "Augmente le taux CRIT de 8 %/10 %/12 %/14 %/16 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
+    "es-es": "Al dañar a un enemigo, aumenta la Prob. CRIT en un 8%/10%/12%/14%/16%. Puede acumularse hasta 5 veces. Una vez asestado un golpe CRIT, las acumulaciones de Concentración se reiniciarán.",
+    "id-id": "Saat mengakibatkan DMG pada musuh, meningkatkan 8%/10%/12%/14%/16% CRIT Rate. Maksimum 5 lapis, dan saat serangan CRIT terpicu, seluruh lapisan efek akan hilang.",
+    "th-th": "เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น 8%/10%/12%/14%/16% ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด",
+    "vi-vn": "Khi tấn công tạo thành sát thương, tăng tỷ lệ bạo kích 8%/10%/12%/14%/16%, nhiều nhất cộng dồn 5 lần. Sau khi tấn công tạo thành bạo kích, xóa hiệu quả Chuyên Chú đã có.",
+    "zh-tw": "攻擊造成傷害時，暴擊率提升8%/10%/12%/14%/16%，效果最多疊加五層。攻擊造成暴擊後，移除已有的專注效果。"
+  },
+  "weaponIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/weapon/宗室秘法录.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 1879,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Azulejo de Decarabian",
+            "en-us": "Tile of Decarabian's Tower",
+            "ja-jp": "高塔の王の瓦",
+            "zh-cn": "高塔孤王的破瓦",
+            "ko-kr": "고탑 왕의 잔해",
+            "ru-ru": "Плитка башни Декарабиана",
+            "de-de": "Decabarians zerbrochener Ziegel",
+            "fr-fr": "Tuile cassée de Décarabian",
+            "es-es": "Fragmento de azulejo de Decarabian",
+            "id-id": "Tile of Decarabian's Tower",
+            "th-th": "Tile of Decarabian's Tower",
+            "vi-vn": "Ngói Vỡ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的破瓦"
+          }
+        },
+        {
+          "id": 993,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Chifre Pesado",
+            "en-us": "Heavy Horn",
+            "ja-jp": "重い角笛",
+            "zh-cn": "沉重号角",
+            "ko-kr": "무거운 나팔",
+            "ru-ru": "Тяжёлый рог",
+            "de-de": "Schweres Horn",
+            "fr-fr": "Corne lourde",
+            "es-es": "Cuerno pesado",
+            "id-id": "Heavy Horn",
+            "th-th": "Heavy Horn",
+            "vi-vn": "Sừng Nặng",
+            "zh-tw": "沉重號角"
+          }
+        },
+        {
+          "id": 778,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Insígnia de Recruta",
+            "en-us": "Recruit's Insignia",
+            "ja-jp": "新兵の記章",
+            "zh-cn": "新兵的徽记",
+            "ko-kr": "신병의 휘장",
+            "ru-ru": "Шеврон рядового",
+            "de-de": "Abzeichen für neue Rekruten",
+            "fr-fr": "Insigne de nouvelle recrue",
+            "es-es": "Insignia del recluta",
+            "id-id": "Recruit's Insignia",
+            "th-th": "Recruit's Insignia",
+            "vi-vn": "Phù Hiệu Tân Binh",
+            "zh-tw": "新兵的徽記"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 1878,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Detritos da Cidade de Decarabian",
+            "en-us": "Debris of Decarabian's City",
+            "ja-jp": "高塔の王の残壁",
+            "zh-cn": "高塔孤王的残垣",
+            "ko-kr": "고탑 왕의 절망",
+            "ru-ru": "Обломок стены Декарабиана",
+            "de-de": "Decabarians zerbröckelter Wall",
+            "fr-fr": "Mur abattu de Décarabian",
+            "es-es": "Escombro de la ciudad de Decarabian",
+            "id-id": "Debris of Decarabian's City",
+            "th-th": "Debris of Decarabian's City",
+            "vi-vn": "Xác Tàu Tháp Cô Vương",
+            "zh-tw": "高塔孤王的殘垣"
+          }
+        },
+        {
+          "id": 993,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Chifre Pesado",
+            "en-us": "Heavy Horn",
+            "ja-jp": "重い角笛",
+            "zh-cn": "沉重号角",
+            "ko-kr": "무거운 나팔",
+            "ru-ru": "Тяжёлый рог",
+            "de-de": "Schweres Horn",
+            "fr-fr": "Corne lourde",
+            "es-es": "Cuerno pesado",
+            "id-id": "Heavy Horn",
+            "th-th": "Heavy Horn",
+            "vi-vn": "Sừng Nặng",
+            "zh-tw": "沉重號角"
+          }
+        },
+        {
+          "id": 778,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Insígnia de Recruta",
+            "en-us": "Recruit's Insignia",
+            "ja-jp": "新兵の記章",
+            "zh-cn": "新兵的徽记",
+            "ko-kr": "신병의 휘장",
+            "ru-ru": "Шеврон рядового",
+            "de-de": "Abzeichen für neue Rekruten",
+            "fr-fr": "Insigne de nouvelle recrue",
+            "es-es": "Insignia del recluta",
+            "id-id": "Recruit's Insignia",
+            "th-th": "Recruit's Insignia",
+            "vi-vn": "Phù Hiệu Tân Binh",
+            "zh-tw": "新兵的徽記"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 1878,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Detritos da Cidade de Decarabian",
+            "en-us": "Debris of Decarabian's City",
+            "ja-jp": "高塔の王の残壁",
+            "zh-cn": "高塔孤王的残垣",
+            "ko-kr": "고탑 왕의 절망",
+            "ru-ru": "Обломок стены Декарабиана",
+            "de-de": "Decabarians zerbröckelter Wall",
+            "fr-fr": "Mur abattu de Décarabian",
+            "es-es": "Escombro de la ciudad de Decarabian",
+            "id-id": "Debris of Decarabian's City",
+            "th-th": "Debris of Decarabian's City",
+            "vi-vn": "Xác Tàu Tháp Cô Vương",
+            "zh-tw": "高塔孤王的殘垣"
+          }
+        },
+        {
+          "id": 1924,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Chifre de Bronze Negro",
+            "en-us": "Black Bronze Horn",
+            "ja-jp": "黒銅の角笛",
+            "zh-cn": "黑铜号角",
+            "ko-kr": "흑동 나팔",
+            "ru-ru": "Чёрный бронзовый рог",
+            "de-de": "Kupferhorn",
+            "fr-fr": "Corne en bronze noir",
+            "es-es": "Cuerno de bronce negro",
+            "id-id": "Black Bronze Horn",
+            "th-th": "Black Bronze Horn",
+            "vi-vn": "Sừng Đồng Đen",
+            "zh-tw": "黑銅號角"
+          }
+        },
+        {
+          "id": 466,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Insígnia de Sargento",
+            "en-us": "Sergeant's Insignia",
+            "ja-jp": "士官の記章",
+            "zh-cn": "士官的徽记",
+            "ko-kr": "사관의 휘장",
+            "ru-ru": "Шеврон сержанта",
+            "de-de": "Abzeichen für Unteroffiziere",
+            "fr-fr": "Insigne de sergent",
+            "es-es": "Insignia del sargento",
+            "id-id": "Sergeant's Insignia",
+            "th-th": "Sergeant's Insignia",
+            "vi-vn": "Phù Hiệu Sĩ Quan",
+            "zh-tw": "士官的徽記"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 1877,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmentos Épicos da Decarabian",
+            "en-us": "Fragment of Decarabian's Epic",
+            "ja-jp": "高塔の王の断片",
+            "zh-cn": "高塔孤王的断片",
+            "ko-kr": "고탑 왕의 조각",
+            "ru-ru": "Фрагмент эпоса Декарабиана",
+            "de-de": "Decabarians Palastfragment",
+            "fr-fr": "Fragment dispersé de Décarabian",
+            "es-es": "Fragmento de epopeya de Decarabian",
+            "id-id": "Fragment of Decarabian's Epic",
+            "th-th": "Fragment of Decarabian's Epic",
+            "vi-vn": "Mảnh Vỡ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的斷片"
+          }
+        },
+        {
+          "id": 1924,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Chifre de Bronze Negro",
+            "en-us": "Black Bronze Horn",
+            "ja-jp": "黒銅の角笛",
+            "zh-cn": "黑铜号角",
+            "ko-kr": "흑동 나팔",
+            "ru-ru": "Чёрный бронзовый рог",
+            "de-de": "Kupferhorn",
+            "fr-fr": "Corne en bronze noir",
+            "es-es": "Cuerno de bronce negro",
+            "id-id": "Black Bronze Horn",
+            "th-th": "Black Bronze Horn",
+            "vi-vn": "Sừng Đồng Đen",
+            "zh-tw": "黑銅號角"
+          }
+        },
+        {
+          "id": 466,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Insígnia de Sargento",
+            "en-us": "Sergeant's Insignia",
+            "ja-jp": "士官の記章",
+            "zh-cn": "士官的徽记",
+            "ko-kr": "사관의 휘장",
+            "ru-ru": "Шеврон сержанта",
+            "de-de": "Abzeichen für Unteroffiziere",
+            "fr-fr": "Insigne de sergent",
+            "es-es": "Insignia del sargento",
+            "id-id": "Sergeant's Insignia",
+            "th-th": "Sergeant's Insignia",
+            "vi-vn": "Phù Hiệu Sĩ Quan",
+            "zh-tw": "士官的徽記"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 1877,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmentos Épicos da Decarabian",
+            "en-us": "Fragment of Decarabian's Epic",
+            "ja-jp": "高塔の王の断片",
+            "zh-cn": "高塔孤王的断片",
+            "ko-kr": "고탑 왕의 조각",
+            "ru-ru": "Фрагмент эпоса Декарабиана",
+            "de-de": "Decabarians Palastfragment",
+            "fr-fr": "Fragment dispersé de Décarabian",
+            "es-es": "Fragmento de epopeya de Decarabian",
+            "id-id": "Fragment of Decarabian's Epic",
+            "th-th": "Fragment of Decarabian's Epic",
+            "vi-vn": "Mảnh Vỡ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的斷片"
+          }
+        },
+        {
+          "id": 1922,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Chifre de Cristal Preto",
+            "en-us": "Black Crystal Horn",
+            "ja-jp": "黒晶の角笛",
+            "zh-cn": "黑晶号角",
+            "ko-kr": "흑수정 나팔",
+            "ru-ru": "Чёрный кристаллический рог",
+            "de-de": "Schwarzes Kristallhorn",
+            "fr-fr": "Corne à cristal noir",
+            "es-es": "Cuerno con cristal negro",
+            "id-id": "Black Crystal Horn",
+            "th-th": "Black Crystal Horn",
+            "vi-vn": "Sừng Hắc Tinh",
+            "zh-tw": "黑晶號角"
+          }
+        },
+        {
+          "id": 636,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Insígnia de Oficial",
+            "en-us": "Lieutenant's Insignia",
+            "ja-jp": "尉官の記章",
+            "zh-cn": "尉官的徽记",
+            "ko-kr": "위관의 휘장",
+            "ru-ru": "Шеврон офицера",
+            "de-de": "Abzeichen für Offiziere",
+            "fr-fr": "Insigne d'officier",
+            "es-es": "Insignia del oficial",
+            "id-id": "Lieutenant's Insignia",
+            "th-th": "Officer's Insignia",
+            "vi-vn": "Phù Hiệu Hiệu Úy",
+            "zh-tw": "尉官的徽記"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 1880,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Pedaços de Sonho da Decarabian",
+            "en-us": "Scattered Piece of Decarabian's Dream",
+            "ja-jp": "高塔の王の砕けた夢",
+            "zh-cn": "高塔孤王的碎梦",
+            "ko-kr": "고탑 왕의 깨진 꿈",
+            "ru-ru": "Осколок мечты Декарабиана",
+            "de-de": "Decabarians zerstörter Traum",
+            "fr-fr": "Rêve brisé de Décarabian",
+            "es-es": "Fragmento de sueño de Decarabian",
+            "id-id": "Scattered Piece of Decarabian's Dream",
+            "th-th": "Scattered Piece of Decarabian's Dream",
+            "vi-vn": "Mảnh Giấc Mơ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的碎夢"
+          }
+        },
+        {
+          "id": 1922,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Chifre de Cristal Preto",
+            "en-us": "Black Crystal Horn",
+            "ja-jp": "黒晶の角笛",
+            "zh-cn": "黑晶号角",
+            "ko-kr": "흑수정 나팔",
+            "ru-ru": "Чёрный кристаллический рог",
+            "de-de": "Schwarzes Kristallhorn",
+            "fr-fr": "Corne à cristal noir",
+            "es-es": "Cuerno con cristal negro",
+            "id-id": "Black Crystal Horn",
+            "th-th": "Black Crystal Horn",
+            "vi-vn": "Sừng Hắc Tinh",
+            "zh-tw": "黑晶號角"
+          }
+        },
+        {
+          "id": 636,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Insígnia de Oficial",
+            "en-us": "Lieutenant's Insignia",
+            "ja-jp": "尉官の記章",
+            "zh-cn": "尉官的徽记",
+            "ko-kr": "위관의 휘장",
+            "ru-ru": "Шеврон офицера",
+            "de-de": "Abzeichen für Offiziere",
+            "fr-fr": "Insigne d'officier",
+            "es-es": "Insignia del oficial",
+            "id-id": "Lieutenant's Insignia",
+            "th-th": "Officer's Insignia",
+            "vi-vn": "Phù Hiệu Hiệu Úy",
+            "zh-tw": "尉官的徽記"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "44"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "119",
+          "postAscensionValue": "144"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "10.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "226",
+          "postAscensionValue": "252"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "15.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "293",
+          "postAscensionValue": "319"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "17.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "361",
+          "postAscensionValue": "387"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "20.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "429",
+          "postAscensionValue": "455"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "22.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "497",
+          "postAscensionValue": "523"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "25.1%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "565",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "27.6%"
+        }
+      ]
+    }
+  ]
+}

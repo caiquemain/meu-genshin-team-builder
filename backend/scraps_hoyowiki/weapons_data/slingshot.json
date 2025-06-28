@@ -1,0 +1,1022 @@
+{
+  "id": "slingshot",
+  "wiki_id": 1968,
+  "name": {
+    "pt-pt": "Estilingue",
+    "en-us": "Slingshot",
+    "ja-jp": "弾弓",
+    "zh-cn": "弹弓",
+    "ko-kr": "탄궁",
+    "ru-ru": "Рогатка",
+    "de-de": "Steinschleuder",
+    "fr-fr": "Lance-pierres",
+    "es-es": "Tirachinas",
+    "id-id": "Slingshot",
+    "th-th": "Slingshot",
+    "vi-vn": "Nỏ Kéo",
+    "zh-tw": "彈弓"
+  },
+  "description": {
+    "pt-pt": "Na verdade, é um arco. Depois de incontáveis experimentos e melhorias, o mestre criador de estilingues acabou criando um arco.",
+    "en-us": "A bow, despite the name. After countless experiments and improvements to the design, the creator of the ultimate slingshot found himself to have made what was actually a bow.",
+    "ja-jp": "弾弓ではなく弓である。無数の改良と実験を経て、最後にできたのは弓であることに製作者自身も気付いた。",
+    "zh-cn": "其实就是一把弓。在无数的改进和实验中，发明出究极弹弓的人发现自己做了一把弓。",
+    "ko-kr": "일반적인 활. 궁극적인 활을 만들려고 오랜 실험과 개선을 통해 제작됐으나 만들어진 건 그냥 일반적인 활이다",
+    "ru-ru": "На самом деле это лук. Его создатель хотел сделать рогатку, но после кучи доработок и поправок у него получился лук.",
+    "de-de": "Eigentlich ein Bogen. Nach unzähligen Verbesserungen und Experimenten, um die ultimative Steinschleuder zu schaffen, stand der Erfinder am Ende mit einem Bogen in der Hand da.",
+    "fr-fr": "C'est bien un arc ! Après de nombreuses modifications et améliorations, l'inventeur du lance-pierres ultime s'est finalement retrouvé avec un arc.",
+    "es-es": "Después de muchas modificaciones y mejoras, su inventor acabó cambiando su aspecto por completo. Ahora, en realidad, es un arco.",
+    "id-id": "Selepas namanya, ini adalah sebuah busur. Setelah percobaan dan peningkatan yang tak terhitung jumlahnya, orang yang membuat Slingshot baru menyadari bahwa yang terbentuk adalah sebuah busur.",
+    "th-th": "แม้มีชื่อแบบนี้ แต่แท้จริงแล้วเป็นคันธนู หลังจากพัฒนาและทดลองมานับครั้งไม่ถ้วนโดยผู้สร้างสุดยอดหนังสติ๊ก ก็พบว่าตัวเองได้สร้างธนูขึ้นมาซะแล้ว",
+    "vi-vn": "Thực chất là một cây cung. Trải qua vô số lần cải tiến và thực nghiệm, người làm ra nó phát hiện mình đã làm một cây nỏ.",
+    "zh-tw": "其實就是一把弓。在無數的改進和實驗中，發明出究極彈弓的人發現自己做了一把弓。"
+  },
+  "rarity": 3,
+  "type": {
+    "pt-pt": "Arco",
+    "en-us": "Bow",
+    "ja-jp": "弓",
+    "zh-cn": "弓",
+    "ko-kr": "활",
+    "ru-ru": "Стрелковое",
+    "de-de": "Bogen",
+    "fr-fr": "Arc",
+    "es-es": "Arco",
+    "id-id": "Bow",
+    "th-th": "ธนู",
+    "vi-vn": "Cung",
+    "zh-tw": "弓"
+  },
+  "subStat": {
+    "pt-pt": "Taxa CRIT%",
+    "en-us": "CRIT Rate",
+    "ja-jp": "会心率",
+    "zh-cn": "暴击率",
+    "ko-kr": "치명타 확률",
+    "ru-ru": "Шанс крит. попад.",
+    "de-de": "KT",
+    "fr-fr": "Taux CRIT",
+    "es-es": "Prob. CRIT",
+    "id-id": "CRIT Rate",
+    "th-th": "อัตราคริ",
+    "vi-vn": "Tỷ Lệ Bạo Kích",
+    "zh-tw": "暴擊率"
+  },
+  "passiveName": {
+    "pt-pt": "Estilingue",
+    "en-us": "Slingshot",
+    "ja-jp": "弾弓",
+    "zh-cn": "弹弓",
+    "ko-kr": "탄궁",
+    "ru-ru": "Рогатка:",
+    "de-de": "Steinschleuder",
+    "fr-fr": "Lance-pierres",
+    "es-es": "Tirachinas",
+    "id-id": "Slingshot",
+    "th-th": "Slingshot",
+    "vi-vn": "Nỏ Kéo",
+    "zh-tw": "彈弓"
+  },
+  "passiveDescription": {
+    "pt-pt": "Se a flecha do Ataque Normal e do Ataque Carregado atingir um alvo dentro de 0.3s após o disparo, o Dano é aumentado em 36%/42%/48%/54%/60%. Caso contrário, o Dano é diminuído em 10%.",
+    "en-us": "If a Normal or Charged Attack hits a target within 0.3s of being fired, increases DMG by 36%/42%/48%/54%/60%. Otherwise, decreases DMG by 10%.",
+    "ja-jp": "通常攻撃または重撃の矢が発射した後、0.3秒以内に敵に命中した場合、与えるダメージ+36/42/48/54/60%。0.3秒以上の場合、与えるダメージ-10%。",
+    "zh-cn": "普通攻击与重击的箭矢若在发射后的0.3秒内击中敌人，则造成的伤害增加36%/42%/48%/54%/60%；否则，造成的伤害下降10%。",
+    "ko-kr": "일반 공격과 강공격 화살은 발사 후 0.3초 내에 적을 명중하면 가하는 피해가 36%/42%/48%/54%/60% 증가한다. 반대일 경우 가하는 피해가 10% 감소한다",
+    "ru-ru": "Если обычная или заряженная стрела поразила цель в течение 0,3 сек. после выстрела, то её урон увеличивается на 36%/42%/48%/54%/60%. В противном случае урон уменьшается на 10%.",
+    "de-de": "Erhöht den Schaden beim Treffen von Gegnern mit Pfeilen von Standardangriffen und heftigen Schlägen innerhalb von 0,3s nach dem Abschießen eines Pfeils um 36% ~ 42% ~ 48% ~ 54% ~ 60%, verringert den verursachten Schaden ansonsten jedoch um 10%.",
+    "fr-fr": "Les DGT infligés par les flèches des attaques normales et chargées infligent 36 %/42 %/48 %/54 %/60 % de DGT supplémentaires lorsqu'elles touchent dans les 0,3 s après le tir. Dans le cas contraire, elles infligent 10 % de DGT en moins.",
+    "es-es": "Si un Ataque Normal o Cargado golpea al enemigo en menos de 0.3 s de ser lanzado, el daño infligido aumentará en un 36%/42%/48%/54%/60%. Si se excede este tiempo, el daño disminuirá en un 10%.",
+    "id-id": "Jika Normal atau Charged Attack mengenai target dalam waktu 0,3 detik setelah dilancarkan, DMG meningkat sebesar 36%/42%/48%/54%/60%. Sebaliknya jika tidak, maka DMG menurun sebesar 10%.",
+    "th-th": "หากลูกธนูของการโจมตีปกติหรือชาร์จโจมตีถูกศัตรูภายใน 0.3 วินาที หลังจากที่ปล่อยออกไป จะสร้างโบนัสความเสียหาย 36%/42%/48%/54%/60%; มิฉะนั้นความเสียหายที่สร้างจะลดลง 10%",
+    "vi-vn": "Khi đánh thường hoặc trọng kích, nếu mũi tên bắn trúng kẻ địch trong 0.3s sau khi phóng, sát thương tạo thành sẽ tăng 36%/42%/48%/54%/60%; Nếu không, sát thương tạo thành giảm 10%.",
+    "zh-tw": "普通攻擊與重擊的箭矢若在發射後的0.3秒內擊中敵人，則造成的傷害增加36%/42%/48%/54%/60%；否則，造成的傷害下降10%。"
+  },
+  "weaponIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/weapon/弹弓.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 614,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Areia Brilhante de Guyun",
+            "en-us": "Luminous Sands from Guyun",
+            "ja-jp": "孤雲寒林の光砂",
+            "zh-cn": "孤云寒林的光砂",
+            "ko-kr": "고운한림의 매끄러운 모래",
+            "ru-ru": "Светящийся песок Гуюнь",
+            "de-de": "Leuchtender Sand von Guyun",
+            "fr-fr": "Sable lumineux de Guyun",
+            "es-es": "Arena brillante de Guyun",
+            "id-id": "Luminous Sands from Guyun",
+            "th-th": "Luminous Sands from Guyun",
+            "vi-vn": "Ánh Sáng Rừng Băng Giá",
+            "zh-tw": "孤雲寒林的光砂"
+          }
+        },
+        {
+          "id": 1164,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Faca de Caça",
+            "en-us": "Hunter's Sacrificial Knife",
+            "ja-jp": "猟兵の刀",
+            "zh-cn": "猎兵祭刀",
+            "ko-kr": "사냥꾼의 제도",
+            "ru-ru": "Церемониальный нож охотника",
+            "de-de": "Zeremonielles Jagdschwert",
+            "fr-fr": "Dague de chasse rituelle",
+            "es-es": "Daga de cacería",
+            "id-id": "Hunter's Sacrificial Knife",
+            "th-th": "Hunter's Sacrificial Knife",
+            "vi-vn": "Dao Săn Bắt",
+            "zh-tw": "獵兵祭刀"
+          }
+        },
+        {
+          "id": 1247,
+          "iconUrl": null,
+          "amount": 1,
+          "name": {
+            "pt-pt": "Máscara Danificada",
+            "en-us": "Damaged Mask",
+            "ja-jp": "破損した仮面",
+            "zh-cn": "破损的面具",
+            "ko-kr": "부서진 가면",
+            "ru-ru": "Разбитая маска",
+            "de-de": "Zerbrochene Maske",
+            "fr-fr": "Masque endommagé",
+            "es-es": "Máscara dañada",
+            "id-id": "Damaged Mask",
+            "th-th": "Damaged Mask",
+            "vi-vn": "Mặt Nạ Vỡ",
+            "zh-tw": "破損的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 617,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Pedra Lustrosa de Guyun",
+            "en-us": "Lustrous Stone from Guyun",
+            "ja-jp": "孤雲寒林の輝岩",
+            "zh-cn": "孤云寒林的辉岩",
+            "ko-kr": "고운한림의 휘암",
+            "ru-ru": "Блестящий камень Гуюнь",
+            "de-de": "Glänzender Stein von Guyun",
+            "fr-fr": "Roche lustrée de Guyun",
+            "es-es": "Piedra reluciente de Guyun",
+            "id-id": "Lustrous Stone from Guyun",
+            "th-th": "Lustrous Stone from Guyun",
+            "vi-vn": "Nham Thạch Rừng Băng Giá",
+            "zh-tw": "孤雲寒林的輝岩"
+          }
+        },
+        {
+          "id": 1164,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Faca de Caça",
+            "en-us": "Hunter's Sacrificial Knife",
+            "ja-jp": "猟兵の刀",
+            "zh-cn": "猎兵祭刀",
+            "ko-kr": "사냥꾼의 제도",
+            "ru-ru": "Церемониальный нож охотника",
+            "de-de": "Zeremonielles Jagdschwert",
+            "fr-fr": "Dague de chasse rituelle",
+            "es-es": "Daga de cacería",
+            "id-id": "Hunter's Sacrificial Knife",
+            "th-th": "Hunter's Sacrificial Knife",
+            "vi-vn": "Dao Săn Bắt",
+            "zh-tw": "獵兵祭刀"
+          }
+        },
+        {
+          "id": 1247,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "Máscara Danificada",
+            "en-us": "Damaged Mask",
+            "ja-jp": "破損した仮面",
+            "zh-cn": "破损的面具",
+            "ko-kr": "부서진 가면",
+            "ru-ru": "Разбитая маска",
+            "de-de": "Zerbrochene Maske",
+            "fr-fr": "Masque endommagé",
+            "es-es": "Máscara dañada",
+            "id-id": "Damaged Mask",
+            "th-th": "Damaged Mask",
+            "vi-vn": "Mặt Nạ Vỡ",
+            "zh-tw": "破損的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 617,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Pedra Lustrosa de Guyun",
+            "en-us": "Lustrous Stone from Guyun",
+            "ja-jp": "孤雲寒林の輝岩",
+            "zh-cn": "孤云寒林的辉岩",
+            "ko-kr": "고운한림의 휘암",
+            "ru-ru": "Блестящий камень Гуюнь",
+            "de-de": "Glänzender Stein von Guyun",
+            "fr-fr": "Roche lustrée de Guyun",
+            "es-es": "Piedra reluciente de Guyun",
+            "id-id": "Lustrous Stone from Guyun",
+            "th-th": "Lustrous Stone from Guyun",
+            "vi-vn": "Nham Thạch Rừng Băng Giá",
+            "zh-tw": "孤雲寒林的輝岩"
+          }
+        },
+        {
+          "id": 1138,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Faca Especial",
+            "en-us": "Agent's Sacrificial Knife",
+            "ja-jp": "エージェントの刀",
+            "zh-cn": "特工祭刀",
+            "ko-kr": "특수 요원의 제도",
+            "ru-ru": "Церемониальный нож агента",
+            "de-de": "Zeremonielles Agentenschwert",
+            "fr-fr": "Dague rituelle de l'Usurier",
+            "es-es": "Daga del agente",
+            "id-id": "Agent's Sacrificial Knife",
+            "th-th": "Sacrificial Agent Knife",
+            "vi-vn": "Dao Đặc Công",
+            "zh-tw": "特工祭刀"
+          }
+        },
+        {
+          "id": 983,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Máscara Suja",
+            "en-us": "Stained Mask",
+            "ja-jp": "汚れた仮面",
+            "zh-cn": "污秽的面具",
+            "ko-kr": "오염된 가면",
+            "ru-ru": "Грязная маска",
+            "de-de": "Verdreckte Maske",
+            "fr-fr": "Masque sale",
+            "es-es": "Máscara sucia",
+            "id-id": "Stained Mask",
+            "th-th": "Stained Mask",
+            "vi-vn": "Mặt Nạ Bẩn",
+            "zh-tw": "汙穢的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 615,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Relíquia de Guyun",
+            "en-us": "Relic from Guyun",
+            "ja-jp": "孤雲寒林の聖骸",
+            "zh-cn": "孤云寒林的圣骸",
+            "ko-kr": "고운한림의 해골",
+            "ru-ru": "Реликвия Гуюнь",
+            "de-de": "Reliquie von Guyun",
+            "fr-fr": "Squelette sacré de Guyun",
+            "es-es": "Reliquia de Guyun",
+            "id-id": "Relic from Guyun",
+            "th-th": "Relic from Guyun",
+            "vi-vn": "Thánh Cốt Rừng Băng Giá",
+            "zh-tw": "孤雲寒林的聖骸"
+          }
+        },
+        {
+          "id": 1138,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Faca Especial",
+            "en-us": "Agent's Sacrificial Knife",
+            "ja-jp": "エージェントの刀",
+            "zh-cn": "特工祭刀",
+            "ko-kr": "특수 요원의 제도",
+            "ru-ru": "Церемониальный нож агента",
+            "de-de": "Zeremonielles Agentenschwert",
+            "fr-fr": "Dague rituelle de l'Usurier",
+            "es-es": "Daga del agente",
+            "id-id": "Agent's Sacrificial Knife",
+            "th-th": "Sacrificial Agent Knife",
+            "vi-vn": "Dao Đặc Công",
+            "zh-tw": "特工祭刀"
+          }
+        },
+        {
+          "id": 983,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Máscara Suja",
+            "en-us": "Stained Mask",
+            "ja-jp": "汚れた仮面",
+            "zh-cn": "污秽的面具",
+            "ko-kr": "오염된 가면",
+            "ru-ru": "Грязная маска",
+            "de-de": "Verdreckte Maske",
+            "fr-fr": "Masque sale",
+            "es-es": "Máscara sucia",
+            "id-id": "Stained Mask",
+            "th-th": "Stained Mask",
+            "vi-vn": "Mặt Nạ Bẩn",
+            "zh-tw": "汙穢的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 615,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Relíquia de Guyun",
+            "en-us": "Relic from Guyun",
+            "ja-jp": "孤雲寒林の聖骸",
+            "zh-cn": "孤云寒林的圣骸",
+            "ko-kr": "고운한림의 해골",
+            "ru-ru": "Реликвия Гуюнь",
+            "de-de": "Reliquie von Guyun",
+            "fr-fr": "Squelette sacré de Guyun",
+            "es-es": "Reliquia de Guyun",
+            "id-id": "Relic from Guyun",
+            "th-th": "Relic from Guyun",
+            "vi-vn": "Thánh Cốt Rừng Băng Giá",
+            "zh-tw": "孤雲寒林的聖骸"
+          }
+        },
+        {
+          "id": 1237,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Faca Longa de Inspetor",
+            "en-us": "Inspector's Sacrificial Knife",
+            "ja-jp": "検査官の刀",
+            "zh-cn": "督察长祭刀",
+            "ko-kr": "검사관의 제도",
+            "ru-ru": "Церемониальный нож инспектора",
+            "de-de": "Zeremonielles Kundschafterlangschwert",
+            "fr-fr": "Grande dague de l'Inspecteur",
+            "es-es": "Daga larga del inspector",
+            "id-id": "Inspector's Sacrificial Knife",
+            "th-th": "Inspector's Sacrificial Knife",
+            "vi-vn": "Dao Đô Thám Trưởng",
+            "zh-tw": "督察長祭刀"
+          }
+        },
+        {
+          "id": 220,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Máscara Ominosa",
+            "en-us": "Ominous Mask",
+            "ja-jp": "不吉な仮面",
+            "zh-cn": "不祥的面具",
+            "ko-kr": "불길한 가면",
+            "ru-ru": "Зловещая маска",
+            "de-de": "Unheilvolle Maske",
+            "fr-fr": "Masque sinistre",
+            "es-es": "Máscara amenazante",
+            "id-id": "Ominous Mask",
+            "th-th": "Ominous Mask",
+            "vi-vn": "Mặt Nạ Xui Xẻo",
+            "zh-tw": "不祥的面具"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 616,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Corpo Divino de Guyun",
+            "en-us": "Divine Body from Guyun",
+            "ja-jp": "孤雲寒林の神体",
+            "zh-cn": "孤云寒林的神体",
+            "ko-kr": "고운한림의 신체",
+            "ru-ru": "Останки богов Гуюнь",
+            "de-de": "Heiligtum von Guyun",
+            "fr-fr": "Corps divin de Guyun",
+            "es-es": "Cuerpo divino de Guyun",
+            "id-id": "Divine Body from Guyun",
+            "th-th": "Divine Body from Guyun",
+            "vi-vn": "Thần Thể Rừng Băng Giá",
+            "zh-tw": "孤雲寒林的神體"
+          }
+        },
+        {
+          "id": 1237,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Faca Longa de Inspetor",
+            "en-us": "Inspector's Sacrificial Knife",
+            "ja-jp": "検査官の刀",
+            "zh-cn": "督察长祭刀",
+            "ko-kr": "검사관의 제도",
+            "ru-ru": "Церемониальный нож инспектора",
+            "de-de": "Zeremonielles Kundschafterlangschwert",
+            "fr-fr": "Grande dague de l'Inspecteur",
+            "es-es": "Daga larga del inspector",
+            "id-id": "Inspector's Sacrificial Knife",
+            "th-th": "Inspector's Sacrificial Knife",
+            "vi-vn": "Dao Đô Thám Trưởng",
+            "zh-tw": "督察長祭刀"
+          }
+        },
+        {
+          "id": 220,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Máscara Ominosa",
+            "en-us": "Ominous Mask",
+            "ja-jp": "不吉な仮面",
+            "zh-cn": "不祥的面具",
+            "ko-kr": "불길한 가면",
+            "ru-ru": "Зловещая маска",
+            "de-de": "Unheilvolle Maske",
+            "fr-fr": "Masque sinistre",
+            "es-es": "Máscara amenazante",
+            "id-id": "Ominous Mask",
+            "th-th": "Ominous Mask",
+            "vi-vn": "Mặt Nạ Xui Xẻo",
+            "zh-tw": "不祥的面具"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "38"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "6.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "86",
+          "postAscensionValue": "105"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "12.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "151",
+          "postAscensionValue": "171"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "17.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "193",
+          "postAscensionValue": "212"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "20.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "234",
+          "postAscensionValue": "253"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "23.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "274",
+          "postAscensionValue": "294"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "25.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "314",
+          "postAscensionValue": "334"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "28.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "354",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "31.2%"
+        }
+      ]
+    }
+  ]
+}

@@ -48,68 +48,34 @@
   },
   "rarity": 5,
   "vision": {
-    "label": {
-      "pt-pt": "Tipo Elemental",
-      "en-us": "Elemental Type",
-      "ja-jp": "元素タイプ",
-      "zh-cn": "元素属性",
-      "ko-kr": "원소 속성",
-      "ru-ru": "Элемент",
-      "de-de": "Elementartyp",
-      "fr-fr": "Élément",
-      "es-es": "Tipo elemental",
-      "id-id": "Tipe Elemen",
-      "th-th": "ประเภทธาตุ",
-      "vi-vn": "Thuộc Tính Nguyên Tố",
-      "zh-tw": "元素屬性"
-    },
-    "value": {
-      "pt-pt": "Electro",
-      "en-us": "Electro",
-      "ja-jp": "雷元素",
-      "zh-cn": "雷元素",
-      "ko-kr": "번개 원소",
-      "ru-ru": "Электро",
-      "de-de": "Elektro",
-      "fr-fr": "Électro",
-      "es-es": "Electro",
-      "id-id": "Electro",
-      "th-th": "ไฟฟ้า",
-      "vi-vn": "Lôi",
-      "zh-tw": "雷元素"
-    }
+    "pt-pt": "Electro",
+    "en-us": "Electro",
+    "ja-jp": "雷元素",
+    "zh-cn": "雷元素",
+    "ko-kr": "번개 원소",
+    "ru-ru": "Электро",
+    "de-de": "Elektro",
+    "fr-fr": "Électro",
+    "es-es": "Electro",
+    "id-id": "Electro",
+    "th-th": "ไฟฟ้า",
+    "vi-vn": "Lôi",
+    "zh-tw": "雷元素"
   },
   "weapon": {
-    "label": {
-      "pt-pt": "Arma",
-      "en-us": "Weapons",
-      "ja-jp": "武器種",
-      "zh-cn": "武器",
-      "ko-kr": "무기",
-      "ru-ru": "Тип",
-      "de-de": "Waffe",
-      "fr-fr": "Type d'arme",
-      "es-es": "Arma",
-      "id-id": "Senjata",
-      "th-th": "อาวุธ",
-      "vi-vn": "Vũ Khí",
-      "zh-tw": "武器"
-    },
-    "value": {
-      "pt-pt": "Espada",
-      "en-us": "Sword",
-      "ja-jp": "片手剣",
-      "zh-cn": "单手剑",
-      "ko-kr": "한손검",
-      "ru-ru": "Одноручное",
-      "de-de": "Einhänder",
-      "fr-fr": "Épée à une main",
-      "es-es": "Espada ligera",
-      "id-id": "Sword",
-      "th-th": "ดาบ",
-      "vi-vn": "Kiếm Đơn",
-      "zh-tw": "單手劍"
-    }
+    "pt-pt": "Espada",
+    "en-us": "Sword",
+    "ja-jp": "片手剣",
+    "zh-cn": "单手剑",
+    "ko-kr": "한손검",
+    "ru-ru": "Одноручное",
+    "de-de": "Einhänder",
+    "fr-fr": "Épée à une main",
+    "es-es": "Espada ligera",
+    "id-id": "Sword",
+    "th-th": "ดาบ",
+    "vi-vn": "Kiếm Đơn",
+    "zh-tw": "單手劍"
   },
   "characterIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/05/29/770a66030815971c697ab81bc5436329_8660717987969952036.png",
   "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/16d344b6abbc369a2db9d46d6f31305b_7144738962629629573.png",
@@ -118,15 +84,15 @@
     "en-us": "Rapperia",
     "ja-jp": "レイピア座",
     "zh-cn": "迅捷剑座",
+    "ko-kr": "N/A",
     "ru-ru": "Рапира",
     "de-de": "Rapperia",
     "fr-fr": "Rapperia",
     "es-es": "Raperia",
     "id-id": "Rapperia",
     "th-th": "Rapperia",
-    "zh-tw": "迅捷劍座",
-    "ko-kr": "N/A",
-    "vi-vn": "N/A"
+    "vi-vn": "N/A",
+    "zh-tw": "迅捷劍座"
   },
   "specialDish": {
     "id": 5719,
@@ -433,7 +399,7 @@
       "description": {
         "pt-pt": "Preparando sua pistola, entra no estado \"Patrulha Noturna\", usando uma combinação de aço e disparo. Nesse estado, o Ataque Normal de Clorinde é convertido em ataques de pistola \"Caçada Selvagem\", e o Dano causado é convertido em Dano Electro que não pode ser substituído e não pode utilizar Ataque Carregado. Ao lançar, sua Habilidade Elemental é transformada em \"Perfura-Noite\": faz um ataque de investida, causando Dano Electro. O Dano causado dessa forma é considerado Dano de Ataque Normal.Caçada Selvagem· Quando seu Contrato de Vida é igual ou maior que 100% de sua Vida Máxima: dispara sua pistola.Quando seu Contrato de Vida é menor que 100% de sua Vida Máxima, disparar a pistola a concederá um Contrato de Vida, com a quantidade concedida sendo baseada na sua Vida Máxima. Os disparos que ela realizar podem perfurar os oponentes, e o Dano causado contra os oponentes em seu caminho é aumentado.Perfura-NoiteBaseado numa certa porcentagem do Contrato de Vida atual, determina o efeito do Perfura-Noite atual:· Quando o Contrato de Vida é 0% para ser eliminado, faz um ataque de investida.· Quando o valor do Contrato de Vida é menor que 100% de sua Vida Máxima, cura Clorinde. A quantidade curada é baseada no valor do Contrato de Vida. Aumenta a AdE e o Dano desse Perfura-Noite· Quando o valor do Contrato de Vida é igual ou maior que 100% de sua Vida Máxima, faz o ataque Perfura-Noite: Ordem, regenerando uma maior proporção de Vida para Clorinde, e aumentando o Dano e AdE desse Perfura-Noite.Além disso, quando Clorinde está no estado Patrulha Noturna, efeitos de cura que não sejam Perfura-Noite não surtirão efeito, e ao invés disso, serão convertidos em um Contrato de Vida que é uma porcentagem da cura que teria sido recebida.O estado Patrulha Noturna será removido quando Clorinde sair do campo.Arkhe: OusiaPeriodicamente, quando os disparos de Caçada Selvagem de Clorinde atingem oponentes, uma Lâmina da Fluidez cairá na posição deles, causando Dano Electro com Ousia.Apesar do mal que se escondia nas sombras da noite ter sido expurgado ao longo de milênios, a sombra que a luz não podia alcançar escurecia os corações humanos.Ainda agora, o aviso deixado pela Caçadora Dourada estava em sua memória: aqueles da Patrulha Noturna, segurando velas contra a escuridão têm uma necessidade ainda maior de se manterem vigilantes. Não sejam cooptados pela escuridão fria.",
         "en-us": "Preparing her pistolet, she enters the \"Night Vigil\" state, using steel and shot together. In this state, Clorinde's Normal Attacks will be transformed into \"Swift Hunt\" pistolet attacks, and the DMG dealt is converted into Electro DMG that cannot be overridden by infusions, and she will be unable to use Charged Attacks. Using her Elemental Skill will transform it into \"Impale the Night\": Perform a lunging attack, dealing Electro DMG. The DMG done through the aforementioned method is considered Normal Attack DMG.Swift Hunt· When her Bond of Life is equal to or greater than 100% of her max HP: Performs a pistolet shot.· When her Bond of Life is less than 100%, firing her pistolet will grant her Bond of Life, with the amount gained based on her max HP. The shots she fires can pierce opponents, and DMG dealt to opponents in their path is increased.Impale the NightThe current percentage value of Clorinde's Bond of Life determines its effect:· When the Bond of Life value is 0%, perform a normal lunging strike;· When the Bond of Life value is less than 100% of her max HP, Clorinde is healed based on the Bond of Life value, and the AoE of the lunging attack and the DMG dealt is increased;· When the value of the Bond of Life is equal to or greater than 100% of her max HP, use Impale the Night: Pact. The healing multiplier is increased, and the AoE and DMG dealt by the lunge is increased even further.In addition, when Clorinde is in the Night Vigil state, healing effects other than Impale the Night will not take effect and will instead be converted into a Bond of Life that is a percentage of the healing that would have been received.Clorinde will exit the \"Night Vigil\" state when she leaves the field.Arkhe: OusiaPeriodically, when Clorinde's Swift Hunt shots strike opponents, she will summon a Surging Blade at the position hit that deals Ousia-aligned Electro DMG.Though the evil that lurked in the shadows of the night had been purged across thousands of years, a shadow that the light could not reach clouded human hearts.Even now, the warning left by the Golden Hunter is etched into her memory: Those of the Night Vigil, carrying aloft lit candles against the blackness, have greater need still to remain vigilant. Be not corrupted by the cold dark.",
-        "ja-jp": "装填を完了させ、剣と銃を組み合わせて戦う「夜巡り」状態に入る。この状態のクロリンデの通常攻撃は銃射撃「駆猟」となり、与えるダメージが元素付与によって他の元素に変化しない雷元素ダメージへと変わる。ただし、重撃はできなくなる。また、「夜巡り」状態で元素スキルボタンを押すと、「穿夜」を行うようになり、突進剣撃を仕掛けて雷元素ダメージを与える。これらの方法によるダメージは通常攻撃ダメージと見なされる。駆猟・命の契約がHP上限の100%以上の場合、銃射撃を行う。・命の契約がHP上限の100%未満の場合、銃を撃つ時、クロリンデのHP上限を基に自身に一定の命の契約を付与する。さらに、貫通弾を発射して経路上の敵により高いダメージを与える。穿夜発動時のクロリンデの命の契約のパーセンテージを基に、穿夜の効果が決まる。・命の契約が0%の場合、突進剣撃を行う。・命の契約がHP上限の100%未満の場合、クロリンデのHPを彼女自身の命の契約の数値を基に回復する。さらに、穿夜の攻撃範囲と与えるダメージをアップする。・命の契約がHP上限の100%以上の場合、穿夜・契約を行い、クロリンデのHPをより多く回復する。さらに、攻撃範囲と与えるダメージもより大きくなる。また、クロリンデが夜巡り状態にある時、穿夜以外の治療効果は無効になり、代わりに自身に回復量の一定割合の命の契約を付与する。「夜巡り」状態はクロリンデが退場すると解除される。アルケー：ウーシアクロリンデの駆猟が命中した時、命中した位置に迸発の刃を召喚し、ウーシアを帯びた雷元素ダメージを与える。一定時間ごとに発動可能。闇に潜む邪悪なものは千年の間に狩り尽くされたが、人の心には依然として光の届かない場所が残されている。今日に至っても、彼女は「黄金の狩人」の警告を心に刻んでいる——燭火を灯した夜巡りが極寒の闇に染まらぬように、常に警戒を怠るべからず、と。",
+        "ja-jp": "装填を完了させ、剣と銃を組み合わせて戦う「夜巡り」状態に入る。この状態のクロリンデの通常攻撃は銃射撃「駆猟」となり、与えるダメージが元素付与によって他の元素に変化しない雷元素ダメージへと変わる。ただし、重撃はできなくなる。また、「夜巡り」状態で元素スキルボタンを押すと、「穿夜」を行うようになり、突進剣撃を仕掛けて雷元素ダメージを与える。これらの方法によるダメージは通常攻撃ダメージと見なされる。駆猟・命の契約がHP上限の100%以上の場合、銃射撃を行う。・命の契約がHP上限の100%未満の場合、銃を撃つ時、クロリンデのHP上限を基に自身に一定の命の契約を付与する。さらに、貫通弾を発射して経路上の敵により高いダメージを与える。穿夜発動時のクロリンデの命の契約のパーセンテージを基に、穿夜の効果が決まる。・命の契約が0%の場合、突進剣撃を行う。・命の契約がHP上限の100%未満の場合、クロリンデのHPを彼女自身の命の契約の数値を基に回復する。さらに、穿夜の攻撃範囲と与えるダメージをアップする。・命の契約がHP上限の100%以上の場合、「穿夜・契約」を行い、クロリンデのHPをより多く回復する。さらに、攻撃範囲と与えるダメージもより大きくなる。また、クロリンデが夜巡り状態にある時、穿夜以外の治療効果は無効になり、代わりに自身に回復量の一定割合の命の契約を付与する。「夜巡り」状態はクロリンデが退場すると解除される。アルケー：ウーシアクロリンデの駆猟が命中した時、命中した位置に迸発の刃を召喚し、ウーシアを帯びた雷元素ダメージを与える。一定時間ごとに発動可能。闇に潜む邪悪なものは千年の間に狩り尽くされたが、人の心には依然として光の届かない場所が残されている。今日に至っても、彼女は「黄金の狩人」の警告を心に刻んでいる——燭火を灯した夜巡りが極寒の闇に染まらぬように、常に警戒を怠るべからず、と。",
         "zh-cn": "预装铳枪，进入剑枪结合作战的「夜巡」状态。在此状态下，克洛琳德的普通攻击将转为进行铳枪射击「驰猎」，造成的伤害将转为无法被附魔覆盖的雷元素伤害，并且无法进行重击；施放元素战技将转为进行「贯夜」：进行突进剑击，造成雷元素伤害。上述方式造成的伤害视为普通攻击造成的伤害。驰猎·生命之契大于或等于生命值上限的100%时：进行铳枪射击；·生命之契小于生命值上限的100%时：发射铳枪时基于克洛琳德的生命值上限赋予她一定的生命之契，打出能穿透敌人的弹药，对路径上的敌人造成更高的伤害。贯夜根据克洛琳德当前生命之契的百分比，决定此次贯夜的效果：·生命之契为0%时，将进行突进剑击；·生命之契小于生命值上限的100%时，将为克洛琳德恢复生命值，回复量基于她的生命之契数值，并提升此次贯夜的范围与造成的伤害；·生命之契大于或等于生命值上限的100%时，将进行贯夜·契令，为克洛琳德恢复更高比例的生命值，并进一步提升此次贯夜的攻击范围与造成的伤害。此外，克洛琳德处于夜巡状态下时，贯夜以外的治疗效果将不会生效，并转为为她赋予相当于生命值回复量一定比例的生命之契。「夜巡」状态将在克洛琳德退场时解除。始基力：荒性每隔一段时间，克洛琳德的驰猎命中时，将在命中的位置降下流涌之刃，造成具有荒性的雷元素伤害。夜影中潜伏的邪祟之物早已在千年间被诛讨殆尽，然而人心中亦有光明难及的阴影。时至今日，她依然铭记着「黄金猎人」留下的告诫：点燃烛火的巡夜之人更应时刻保持警惕，莫要被冰冷的黑暗浸染。",
         "ko-kr": "화승총을 미리 장전하고 검술과 총술을 결합한 「밤 순찰」 상태에 진입한다. 해당 상태에서 클로린드의 일반 공격은 화승총 사격 「수렵」으로 전환되어, 주는 피해가 다른 원소 부여 효과로 대체될 수 없는 번개 원소 피해로 전환되고 강공격을 진행할 수 없다. 원소전투 스킬 발동은 「밤 꿰뚫기」로 전환된다: 돌진해 검으로 번개 원소 피해를 준다. 상술한 방식으로 주는 피해는 일반 공격 피해로 간주한다.수렵· 생명의 계약이 HP 최대치의 100% 이상: 화승총 사격을 한다.· 생명의 계약이 HP 최대치의 100% 미만: 화승총 사격 시, 클로린드의 HP 최대치에 기반해 자신에게 일정량의 생명의 계약을 부여하고, 적을 관통하는 탄환을 발사해 경로상의 적에게 더 큰 피해를 준다.밤 꿰뚫기클로린드의 현재 생명의 계약의 백분율에 따라 이번 밤 꿰뚫기의 효과가 결정된다:· 생명의 계약이 0% 시, 돌진해 검으로 공격한다.· 생명의 계약이 HP 최대치의 100% 미만 시, 이번 밤 꿰뚫기의 범위와 주는 피해가 증가하고 클로린드 생명의 계약의 수치에 기반해 자신의 HP를 회복한다.· 생명의 계약이 HP 최대치의 100% 이상 시, 밤 꿰뚫기 · 계약을 진행해 클로린드가 더 높은 비율의 HP를 회복하고 이번 밤 꿰뚫기의 범위와 주는 피해가 더 증가한다.또한 클로린드가 밤 순찰 상태일 경우, 밤 꿰뚫기를 제외한 치유 효과가 적용되지 않으며, 대신 치유 효과가 자신에게 HP 회복량의 일정 비율에생명의 계약을 부여하는 것으로 전환된다.「밤 순찰」 상태는 클로린드가 퇴장 시 사라진다.아르케의 힘: 우시아클로린드의 수렵이 적에게 명중 시, 일정 시간마다 명중한 위치에 솟구치는 칼날을 내려 우시아 성질의 번개 원소 피해를 준다.밤 그림자 속에 숨은 사악한 존재는 천년의 토벌 끝에 일찍이 사라졌지만, 빛이 닿지 않는 인간의 마음속 그림자는 여전히 남아있다.오늘날에도 클로린드는 「황금 사냥꾼」이 남긴 가르침을 명심한다: 촛불을 붙인 야간 순찰자는 차가운 어둠에 잠식당하지 않도록 더욱 조심해야 한다",
         "ru-ru": "Подготавливает пистолет и входит в состояние Ночного дозора, одновременно используя клинок и стрельбу. В этом состоянии обычные атаки Клоринды превращаются в пистолетные атаки Неистовой охоты, а их урон конвертируется в урон Электро, который не может быть отменён другими инфузиями, также нельзя выполнять заряженные атаки. Её элементальный навык превращается в Пронзание ночи: Клоринда выполняет рывок и наносит Электро урон. Урон, наносимый таким способом, считается уроном обычной атаки.Неистовая охота· Когда Долг жизни Клоринды равен или превышает 100% от её макс. HP, она стреляет из пистолета.· Когда Долг жизни Клоринды составляет менее 100% от её макс. HP, пистолетный выстрел наделяет её Долгом жизни пропорционально её макс. HP. Выстреливаемые ею пули способны пронзать врагов, а урон по врагам на их пути увеличивается.Пронзание ночиЭффект Пронзания ночи определяется процентным значением текущего Долга жизни Клоринды:· Если Долг жизни равен 0%, Клоринда выполняет рывок.· Если значение Долга жизни меньше 100% от её макс. HP, Клоринда восстанавливает HP пропорционально значению Долга жизни, а область и урон этого Пронзания ночи увеличивается.· Если значение сброшенного Долга жизни равно или превышает 100% от её макс. HP, она применит Пронзание ночи: Пакт, ещё больше увеличивая область и урон этого Пронзания ночи, а также повышая значение восстановления HP Клоринды.Кроме того, когда Клоринда пребывает в состоянии Ночного дозора, эффекты лечения помимо Пронзания ночи не срабатывают и преобразовываются в Долг жизни, равный определённому значению получаемого лечения.Состояние Ночного дозора исчезает, когда Клоринда покидает поле боя.Архэ: УсияКогда выстрелы Неистовой охоты Клоринды поражают противников, периодически на их позиции будет нисходить Клинок бурных вод и наносить Электро урон усии.Зло, скрывавшееся во тьме ночи, за тысячелетия было истреблено, но в сердцах людей живут тени, не видевшие света дня.Она до сих пор отчётливо помнит предостережение Золотого охотника: ночным дозорным, несущим зажжённые свечи, следует быть особенно бдительными и не поддаваться хладной тьме.",
@@ -607,7 +573,7 @@
           "label": {
             "pt-pt": "Nível",
             "en-us": "Level",
-            "ja-jp": "",
+            "ja-jp": "Level",
             "zh-cn": "Level",
             "ko-kr": "Level",
             "ru-ru": "Уровень",
@@ -927,7 +893,7 @@
           "label": {
             "pt-pt": "Nível",
             "en-us": "Level",
-            "ja-jp": "",
+            "ja-jp": "Level",
             "zh-cn": "Level",
             "ko-kr": "레벨",
             "ru-ru": "Уровень",
@@ -1267,7 +1233,7 @@
           "label": {
             "pt-pt": "Nível",
             "en-us": "Level",
-            "ja-jp": "",
+            "ja-jp": "Level",
             "zh-cn": "Level",
             "ko-kr": "특성 레벨",
             "ru-ru": "Уровень",
@@ -1449,7 +1415,7 @@
           "level": 2,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 12500,
               "name": {
@@ -1469,7 +1435,7 @@
               }
             },
             {
-              "id": "4074",
+              "id": 4074,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/dcd88f197d368ca7fcfca5d7158dbaa3_5592112297556367808.png",
               "amount": 3,
               "name": {
@@ -1489,7 +1455,7 @@
               }
             },
             {
-              "id": "4069",
+              "id": 4069,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/02/151578876/0e951d06ab200a1578724fed95d842ca_1606585050860578318.png",
               "amount": 6,
               "name": {
@@ -1514,7 +1480,7 @@
           "level": 3,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 17500,
               "name": {
@@ -1534,7 +1500,7 @@
               }
             },
             {
-              "id": "4075",
+              "id": 4075,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/e81485e99d5fe440a2562737bef84e1e_3400191904921144996.png",
               "amount": 2,
               "name": {
@@ -1554,7 +1520,7 @@
               }
             },
             {
-              "id": "4068",
+              "id": 4068,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/02/151578876/35ab3651275afb059f079c578c4cbfbd_8761620195624707684.png",
               "amount": 3,
               "name": {
@@ -1579,7 +1545,7 @@
           "level": 4,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 25000,
               "name": {
@@ -1599,7 +1565,7 @@
               }
             },
             {
-              "id": "4075",
+              "id": 4075,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/e81485e99d5fe440a2562737bef84e1e_3400191904921144996.png",
               "amount": 4,
               "name": {
@@ -1619,7 +1585,7 @@
               }
             },
             {
-              "id": "4068",
+              "id": 4068,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/02/151578876/35ab3651275afb059f079c578c4cbfbd_8761620195624707684.png",
               "amount": 4,
               "name": {
@@ -1644,7 +1610,7 @@
           "level": 5,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 30000,
               "name": {
@@ -1664,7 +1630,7 @@
               }
             },
             {
-              "id": "4075",
+              "id": 4075,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/e81485e99d5fe440a2562737bef84e1e_3400191904921144996.png",
               "amount": 6,
               "name": {
@@ -1684,7 +1650,7 @@
               }
             },
             {
-              "id": "4068",
+              "id": 4068,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/02/151578876/35ab3651275afb059f079c578c4cbfbd_8761620195624707684.png",
               "amount": 6,
               "name": {
@@ -1709,7 +1675,7 @@
           "level": 6,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 37500,
               "name": {
@@ -1729,7 +1695,7 @@
               }
             },
             {
-              "id": "4075",
+              "id": 4075,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/e81485e99d5fe440a2562737bef84e1e_3400191904921144996.png",
               "amount": 9,
               "name": {
@@ -1749,7 +1715,7 @@
               }
             },
             {
-              "id": "4068",
+              "id": 4068,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/02/151578876/35ab3651275afb059f079c578c4cbfbd_8761620195624707684.png",
               "amount": 9,
               "name": {
@@ -1774,7 +1740,7 @@
           "level": 7,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 120000,
               "name": {
@@ -1794,7 +1760,7 @@
               }
             },
             {
-              "id": "4076",
+              "id": 4076,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/2664aae254a17116a4123904f0f8fec4_3241042342279540830.png",
               "amount": 4,
               "name": {
@@ -1814,7 +1780,7 @@
               }
             },
             {
-              "id": "4067",
+              "id": 4067,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/02/151578876/4bc36681d1975fcd36ed2965771c995d_8999049758835622415.png",
               "amount": 4,
               "name": {
@@ -1834,7 +1800,7 @@
               }
             },
             {
-              "id": "3723",
+              "id": 3723,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/14/35428890/2de64f78c82d1c8d9d10a5c41506dedc_1118888587032610316.png",
               "amount": 1,
               "name": {
@@ -1859,7 +1825,7 @@
           "level": 8,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 260000,
               "name": {
@@ -1879,7 +1845,7 @@
               }
             },
             {
-              "id": "4076",
+              "id": 4076,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/2664aae254a17116a4123904f0f8fec4_3241042342279540830.png",
               "amount": 6,
               "name": {
@@ -1899,7 +1865,7 @@
               }
             },
             {
-              "id": "4067",
+              "id": 4067,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/02/151578876/4bc36681d1975fcd36ed2965771c995d_8999049758835622415.png",
               "amount": 6,
               "name": {
@@ -1919,7 +1885,7 @@
               }
             },
             {
-              "id": "3723",
+              "id": 3723,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/14/35428890/2de64f78c82d1c8d9d10a5c41506dedc_1118888587032610316.png",
               "amount": 1,
               "name": {
@@ -1944,7 +1910,7 @@
           "level": 9,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 450000,
               "name": {
@@ -1964,7 +1930,7 @@
               }
             },
             {
-              "id": "4076",
+              "id": 4076,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/2664aae254a17116a4123904f0f8fec4_3241042342279540830.png",
               "amount": 12,
               "name": {
@@ -1984,7 +1950,7 @@
               }
             },
             {
-              "id": "4067",
+              "id": 4067,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/02/151578876/4bc36681d1975fcd36ed2965771c995d_8999049758835622415.png",
               "amount": 9,
               "name": {
@@ -2004,7 +1970,7 @@
               }
             },
             {
-              "id": "3723",
+              "id": 3723,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/14/35428890/2de64f78c82d1c8d9d10a5c41506dedc_1118888587032610316.png",
               "amount": 2,
               "name": {
@@ -2029,7 +1995,7 @@
           "level": 10,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 700000,
               "name": {
@@ -2049,7 +2015,7 @@
               }
             },
             {
-              "id": "4076",
+              "id": 4076,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/2664aae254a17116a4123904f0f8fec4_3241042342279540830.png",
               "amount": 16,
               "name": {
@@ -2069,7 +2035,7 @@
               }
             },
             {
-              "id": "4067",
+              "id": 4067,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/02/151578876/4bc36681d1975fcd36ed2965771c995d_8999049758835622415.png",
               "amount": 12,
               "name": {
@@ -2089,7 +2055,7 @@
               }
             },
             {
-              "id": "3723",
+              "id": 3723,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/14/35428890/2de64f78c82d1c8d9d10a5c41506dedc_1118888587032610316.png",
               "amount": 2,
               "name": {
@@ -2109,7 +2075,7 @@
               }
             },
             {
-              "id": "900",
+              "id": 900,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Crown%20of%20Insight_icon.png",
               "amount": 1,
               "name": {
@@ -2182,7 +2148,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 20000,
           "name": {
@@ -2202,7 +2168,7 @@
           }
         },
         {
-          "id": "905",
+          "id": 905,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vajrada%20Amethyst%20Sliver_icon.png",
           "amount": 1,
           "name": {
@@ -2222,7 +2188,7 @@
           }
         },
         {
-          "id": "4342",
+          "id": 4342,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/151578876/98c8fc26791c68b16b468bf458af838e_7610333496650048705.png",
           "amount": 3,
           "name": {
@@ -2242,7 +2208,7 @@
           }
         },
         {
-          "id": "4069",
+          "id": 4069,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/02/151578876/0e951d06ab200a1578724fed95d842ca_1606585050860578318.png",
           "amount": 3,
           "name": {
@@ -2281,7 +2247,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 40000,
           "name": {
@@ -2301,7 +2267,7 @@
           }
         },
         {
-          "id": "904",
+          "id": 904,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vajrada%20Amethyst%20Fragment_icon.png",
           "amount": 3,
           "name": {
@@ -2321,7 +2287,7 @@
           }
         },
         {
-          "id": "4380",
+          "id": 4380,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/35428890/7be427946bd4dde5c5fa47f52bd7a051_5168502945088741674.png",
           "amount": 2,
           "name": {
@@ -2341,7 +2307,7 @@
           }
         },
         {
-          "id": "4342",
+          "id": 4342,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/151578876/98c8fc26791c68b16b468bf458af838e_7610333496650048705.png",
           "amount": 10,
           "name": {
@@ -2361,7 +2327,7 @@
           }
         },
         {
-          "id": "4069",
+          "id": 4069,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/02/151578876/0e951d06ab200a1578724fed95d842ca_1606585050860578318.png",
           "amount": 15,
           "name": {
@@ -2400,7 +2366,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 60000,
           "name": {
@@ -2420,7 +2386,7 @@
           }
         },
         {
-          "id": "904",
+          "id": 904,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vajrada%20Amethyst%20Fragment_icon.png",
           "amount": 6,
           "name": {
@@ -2440,7 +2406,7 @@
           }
         },
         {
-          "id": "4380",
+          "id": 4380,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/35428890/7be427946bd4dde5c5fa47f52bd7a051_5168502945088741674.png",
           "amount": 4,
           "name": {
@@ -2460,7 +2426,7 @@
           }
         },
         {
-          "id": "4342",
+          "id": 4342,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/151578876/98c8fc26791c68b16b468bf458af838e_7610333496650048705.png",
           "amount": 20,
           "name": {
@@ -2480,7 +2446,7 @@
           }
         },
         {
-          "id": "4068",
+          "id": 4068,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/02/151578876/35ab3651275afb059f079c578c4cbfbd_8761620195624707684.png",
           "amount": 12,
           "name": {
@@ -2519,7 +2485,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 80000,
           "name": {
@@ -2539,7 +2505,7 @@
           }
         },
         {
-          "id": "903",
+          "id": 903,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vajrada%20Amethyst%20Chunk_icon.png",
           "amount": 3,
           "name": {
@@ -2559,7 +2525,7 @@
           }
         },
         {
-          "id": "4380",
+          "id": 4380,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/35428890/7be427946bd4dde5c5fa47f52bd7a051_5168502945088741674.png",
           "amount": 8,
           "name": {
@@ -2579,7 +2545,7 @@
           }
         },
         {
-          "id": "4342",
+          "id": 4342,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/151578876/98c8fc26791c68b16b468bf458af838e_7610333496650048705.png",
           "amount": 30,
           "name": {
@@ -2599,7 +2565,7 @@
           }
         },
         {
-          "id": "4068",
+          "id": 4068,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/02/151578876/35ab3651275afb059f079c578c4cbfbd_8761620195624707684.png",
           "amount": 18,
           "name": {
@@ -2638,7 +2604,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 100000,
           "name": {
@@ -2658,7 +2624,7 @@
           }
         },
         {
-          "id": "903",
+          "id": 903,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vajrada%20Amethyst%20Chunk_icon.png",
           "amount": 6,
           "name": {
@@ -2678,7 +2644,7 @@
           }
         },
         {
-          "id": "4380",
+          "id": 4380,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/35428890/7be427946bd4dde5c5fa47f52bd7a051_5168502945088741674.png",
           "amount": 12,
           "name": {
@@ -2698,7 +2664,7 @@
           }
         },
         {
-          "id": "4342",
+          "id": 4342,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/151578876/98c8fc26791c68b16b468bf458af838e_7610333496650048705.png",
           "amount": 45,
           "name": {
@@ -2718,7 +2684,7 @@
           }
         },
         {
-          "id": "4067",
+          "id": 4067,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/02/151578876/4bc36681d1975fcd36ed2965771c995d_8999049758835622415.png",
           "amount": 12,
           "name": {
@@ -2757,7 +2723,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 120000,
           "name": {
@@ -2777,7 +2743,7 @@
           }
         },
         {
-          "id": "902",
+          "id": 902,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Vajrada%20Amethyst%20Gemstone_icon.png",
           "amount": 6,
           "name": {
@@ -2797,7 +2763,7 @@
           }
         },
         {
-          "id": "4380",
+          "id": 4380,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/35428890/7be427946bd4dde5c5fa47f52bd7a051_5168502945088741674.png",
           "amount": 20,
           "name": {
@@ -2817,7 +2783,7 @@
           }
         },
         {
-          "id": "4342",
+          "id": 4342,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/151578876/98c8fc26791c68b16b468bf458af838e_7610333496650048705.png",
           "amount": 60,
           "name": {
@@ -2837,7 +2803,7 @@
           }
         },
         {
-          "id": "4067",
+          "id": 4067,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/02/151578876/4bc36681d1975fcd36ed2965771c995d_8999049758835622415.png",
           "amount": 24,
           "name": {

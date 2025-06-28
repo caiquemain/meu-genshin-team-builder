@@ -1,0 +1,1142 @@
+{
+  "id": "earth_shaker",
+  "wiki_id": 6548,
+  "name": {
+    "pt-pt": "Estremecedor da Terra",
+    "en-us": "Earth Shaker",
+    "ja-jp": "アースシェイカー",
+    "zh-cn": "撼地者",
+    "ko-kr": "대지를 울리는 자",
+    "ru-ru": "Сотрясающий землю",
+    "de-de": "Bebenmacher",
+    "fr-fr": "Trembleur de terre",
+    "es-es": "Terragitador",
+    "id-id": "Earth Shaker",
+    "th-th": "Earth Shaker",
+    "vi-vn": "Đao Chấn Động",
+    "zh-tw": "撼地者"
+  },
+  "description": {
+    "pt-pt": "A espada preferida do Ladrão das Chamas. Dizem que nem mesmo as chamas do Rei da Cidade das Cinzas foram capazes de quebrá-la.",
+    "en-us": "A heavy blade that people claim was beloved by the hero known as the Firethief. They say that even the Lord of Cinder Keep's flames could not burn it away.",
+    "ja-jp": "「盗炎者」と呼ばれる英傑が愛用していた重い剣。灰燼の都の王の烈火でさえ、それを焼き尽くすことはできなかったという。",
+    "zh-cn": "人称「窃火者」的英杰爱用的重剑，据说就连烬城之王的烈火也未能将其焚断。",
+    "ko-kr": "「불 탈취자」로 불리는 영웅이 애용하던 대검. 잿더미성 왕의 맹렬한 불길도 이 검을 태우지 못했다고 한다",
+    "ru-ru": "Говорят, это любимый тяжёлый меч героя, известного как Похититель огня. Говорят, что даже огонь правителя сожжённого города не смог испепелить его.",
+    "de-de": "Das große Schwert, das von dem als „Flammendieb“ bekannten Helden bevorzugt wurde. Es heißt, dass selbst das brennende Feuer des Königs der aschenen Stadt es nicht zum Schmelzen bringen konnte.",
+    "fr-fr": "Une lame lourde qui, selon certains, était appréciée par le héros connu sous le surnom de « voleur de feu ». On dit que même les flammes du seigneur de la Cité de braise n'ont pas pu la brûler.",
+    "es-es": "La espada pesada que le gustaba utilizar al héroe conocido como “Robafuegos”. Dicen que ni siquiera las llamas del rey de la Ciudad de las Cenizas pudieron quemarla.",
+    "id-id": "Pedang besar yang disukai oleh tokoh pahlawan si Pembawa Api. Konon katanya, bahkan bara api milik Penguasa Bara Api pun tidak bisa menghanguskannya.",
+    "th-th": "ดาบใหญ่ที่ผู้กล้าซึ่งผู้คนรู้จักกันในชื่อ \"จอมโจรขโมยไฟ\" โปรดปราน ว่ากันว่าแม้แต่เปลวไฟที่ลุกโชนของผู้ปกครองแห่งเมือง Cinder ก็ไม่อาจเผาไหม้มันได้",
+    "vi-vn": "Trọng kiếm được vị anh kiệt với biệt danh \"Trộm Lửa\" yêu thích. Nghe nói ngay cả ngọn lửa của Vua Thành Tro Tàn cũng không thể thiêu rụi nó.",
+    "zh-tw": "人稱「竊火者」的英傑愛用的重劍，據說就連燼城之王的烈火也未能將其焚斷。"
+  },
+  "rarity": 4,
+  "type": {
+    "pt-pt": "Espadão",
+    "en-us": "Claymore",
+    "ja-jp": "両手剣",
+    "zh-cn": "双手剑",
+    "ko-kr": "양손검",
+    "ru-ru": "Двуручное",
+    "de-de": "Zweihänder",
+    "fr-fr": "Épée à deux mains",
+    "es-es": "Mandoble",
+    "id-id": "Claymore",
+    "th-th": "ดาบใหญ่",
+    "vi-vn": "Trọng Kiếm",
+    "zh-tw": "雙手劍"
+  },
+  "subStat": {
+    "pt-pt": "ATQ%",
+    "en-us": "ATK",
+    "ja-jp": "攻撃力",
+    "zh-cn": "攻击力",
+    "ko-kr": "공격력",
+    "ru-ru": "Сила атаки",
+    "de-de": "ANG",
+    "fr-fr": "ATQ",
+    "es-es": "ATQ",
+    "id-id": "ATK",
+    "th-th": "พลังโจมตี",
+    "vi-vn": "Tấn Công",
+    "zh-tw": "攻擊力"
+  },
+  "passiveName": {
+    "pt-pt": "Juramento de Qhapaq Nan",
+    "en-us": "Oath of Qhapaq Nan",
+    "ja-jp": "蒼翠の道の誓い",
+    "zh-cn": "苍翠之路的誓言",
+    "ko-kr": "푸른 길의 맹세",
+    "ru-ru": "Клятва Капах-Ньан:",
+    "de-de": "Schmiedematerial",
+    "fr-fr": "Promesse de Qhapaq Nan",
+    "es-es": "Juramento de la senda esmeralda",
+    "id-id": "Oath of Qhapaq Nan",
+    "th-th": "Oath of Qhapaq Nan",
+    "vi-vn": "Lời Thề Qhapaq Nan",
+    "zh-tw": "蒼翠之路的誓言"
+  },
+  "passiveDescription": {
+    "pt-pt": "Após um membro da equipe desencadear uma reação relacionada ao Pyro, o Dano da Habilidade Elemental do personagem que está com essa arma equipada é aumentado em 16%/20%/24%/28%/32% por 8s. Esse efeito também pode ser desencadeado quando o personagem que causou a reação não está em campo.",
+    "en-us": "After a party member triggers a Pyro-related reaction, the equipping character's Elemental Skill DMG is increased by 16%/20%/24%/28%/32% for 8s. This effect can be triggered even when the triggering party member is not on the field.",
+    "ja-jp": "チームにいるキャラクターが炎元素関連反応を起こした後、装備者の元素スキルによるダメージ+16/20/24/28/32%、継続期間8秒。この効果は、チーム内キャラクターが待機中でも発動できる。",
+    "zh-cn": "队伍中的角色触发火元素相关反应后，装备者元素战技造成的伤害提升16%/20%/24%/28%/32%，持续8秒。该效果队伍中的角色处于队伍后台时也能触发。",
+    "ko-kr": "파티 내 캐릭터가 불 원소 관련 반응 발동 후, 장착 캐릭터의 원소전투 스킬로 주는 피해가 16%/20%/24%/28%/32% 증가한다. 지속 시간: 8초. 해당 효과는 파티 내 캐릭터가 대기 상태일 때도 발동한다",
+    "ru-ru": "После того как член отряда активирует реакцию, связанную с Пиро, урон элементального навыка экипированного персонажа повышается на 16%/20%/24%/28%/32% на 8 сек. Этот эффект срабатывает, даже когда персонаж не на поле боя.",
+    "de-de": "$[{\"ep_id\":6675,\"icon\":\"\",\"amount\":1,\"name\":\"Unbearbeiteter Zweihänder des Grenzlands\",\"menuId\":\"\",\"_menuId\":\"\"}]$",
+    "fr-fr": "Lorsqu'un personnage de l'équipe a déclenché une réaction liée à l'élément Pyro, les DGT infligés par la compétence élémentaire du personnage équipé de l'arme augmentent de 16 %/20 %/24 %/28 %/32 % pendant 8 s. Cet effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+    "es-es": "Cuando un personaje del equipo causa una Reacción Elemental Pyro, el daño que inflige el portador de esta arma con su Habilidad Elemental aumenta en un 16%/20%/24%/28%/32% durante 8s. Este efecto se puede activar incluso cuando el personaje está en tu equipo pero no en uso.",
+    "id-id": "Setelah Karakter dalam party memicu reaksi terkait Pyro, DMG Elemental Skill Karakter yang mengenakan senjata ini akan meningkat 16%/20%/24%/28%/32% selama 8 detik. Efek ini tetap dapat terpicu meskipun Karakter yang mengenakan ada di dalam party namun sedang tidak berada di medan pertempuran.",
+    "th-th": "หลังจากตัวละครในทีมทำให้เกิดปฏิกิริยาที่เกี่ยวกับธาตุไฟ ความเสียหายที่เกิดจากสกิลธาตุของผู้สวมใส่จะเพิ่มขึ้น 16%/20%/24%/28%/32% เป็นเวลา 8 วินาที และเอฟเฟกต์นี้สามารถเกิดขึ้นได้ แม้ตัวละครอยู่ในทีม แต่ไม่ได้เข้าร่วมการต่อสู้",
+    "vi-vn": "Sau khi nhân vật trong đội kích hoạt phản ứng liên quan đến nguyên tố Hỏa, sát thương Kỹ Năng Nguyên Tố của người trang bị gây ra tăng 16% trong 8s. Hiệu quả này cũng có thể kích hoạt khi nhân vật trong đội không ra trận.",
+    "zh-tw": "隊伍中的角色觸發火元素相關反應後，裝備者元素戰技造成的傷害提升16%/20%/24%/28%/32%，持續8秒。該效果隊伍中的角色處於隊伍後臺時也能觸發。"
+  },
+  "weaponIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/08/23/dc6bf4c87afe67014579743618e97371_6360663376854922140.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv. 20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv. 20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 5000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 6656,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Terror do Sacrifício do Coração Flamejante",
+            "en-us": "Blazing Sacrificial Heart's Terror",
+            "ja-jp": "灼心を捧げる恐怖",
+            "zh-cn": "贡祭炽心的惶恐",
+            "ko-kr": "뜨거운 심장 공양의 공포",
+            "ru-ru": "Ужас пылающего жертвенного сердца",
+            "de-de": "Furcht der inbrünstigen Opfergabe",
+            "fr-fr": "Terreur du cœur sacrificiel flamboyant",
+            "es-es": "Terror del corazón sacrificial ardiente",
+            "id-id": "Blazing Sacrificial Heart's Terror",
+            "th-th": "Blazing Sacrificial Heart's Terror",
+            "vi-vn": "Sự Sợ Hãi Của Trái Tim Hiến Tế",
+            "zh-tw": "貢祭熾心的惶恐"
+          }
+        },
+        {
+          "id": 6650,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedra em Chamas",
+            "en-us": "Ignited Stone",
+            "ja-jp": "燃え盛る石",
+            "zh-cn": "聚燃的石块",
+            "ko-kr": "불뭉치의 돌",
+            "ru-ru": "Пламенный камень",
+            "de-de": "Lodernder Steinbrocken",
+            "fr-fr": "Pierre enflammée",
+            "es-es": "Roca ignífera",
+            "id-id": "Ignited Stone",
+            "th-th": "Ignited Stone",
+            "vi-vn": "Hòn Đá Rực Cháy",
+            "zh-tw": "聚燃的石塊"
+          }
+        },
+        {
+          "id": 6644,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Apito de Madeira do Sentinela",
+            "en-us": "Sentry's Wooden Whistle",
+            "ja-jp": "従戦士の木笛",
+            "zh-cn": "卫从的木哨",
+            "ko-kr": "수습 전사의 나무 호루라기",
+            "ru-ru": "Деревянный свисток дозорного",
+            "de-de": "Holzpfeife des Wächters",
+            "fr-fr": "Sifflet en bois de sentinelle",
+            "es-es": "Silbato de madera del guardián",
+            "id-id": "Sentry's Wooden Whistle",
+            "th-th": "Sentry's Wooden Whistle",
+            "vi-vn": "Còi Gỗ Hộ Vệ",
+            "zh-tw": "衛從的木哨"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv. 40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 15000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 6657,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Hesitação do Sacrifício do Coração Flamejante",
+            "en-us": "Blazing Sacrificial Heart's Hesitance",
+            "ja-jp": "灼心を捧げる躊躇",
+            "zh-cn": "贡祭炽心的踌躇",
+            "ko-kr": "뜨거운 심장 공양의 주춤",
+            "ru-ru": "Сомнение пылающего жертвенного сердца",
+            "de-de": "Zögern der inbrünstigen Opfergabe",
+            "fr-fr": "Hésitation du cœur sacrificiel flamboyant",
+            "es-es": "Indecisión del corazón sacrificial ardiente",
+            "id-id": "Blazing Sacrificial Heart's Hesitance",
+            "th-th": "Blazing Sacrificial Heart's Hesitance",
+            "vi-vn": "Sự Do Dự Của Trái Tim Hiến Tế",
+            "zh-tw": "貢祭熾心的躊躇"
+          }
+        },
+        {
+          "id": 6650,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Pedra em Chamas",
+            "en-us": "Ignited Stone",
+            "ja-jp": "燃え盛る石",
+            "zh-cn": "聚燃的石块",
+            "ko-kr": "불뭉치의 돌",
+            "ru-ru": "Пламенный камень",
+            "de-de": "Lodernder Steinbrocken",
+            "fr-fr": "Pierre enflammée",
+            "es-es": "Roca ignífera",
+            "id-id": "Ignited Stone",
+            "th-th": "Ignited Stone",
+            "vi-vn": "Hòn Đá Rực Cháy",
+            "zh-tw": "聚燃的石塊"
+          }
+        },
+        {
+          "id": 6644,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Apito de Madeira do Sentinela",
+            "en-us": "Sentry's Wooden Whistle",
+            "ja-jp": "従戦士の木笛",
+            "zh-cn": "卫从的木哨",
+            "ko-kr": "수습 전사의 나무 호루라기",
+            "ru-ru": "Деревянный свисток дозорного",
+            "de-de": "Holzpfeife des Wächters",
+            "fr-fr": "Sifflet en bois de sentinelle",
+            "es-es": "Silbato de madera del guardián",
+            "id-id": "Sentry's Wooden Whistle",
+            "th-th": "Sentry's Wooden Whistle",
+            "vi-vn": "Còi Gỗ Hộ Vệ",
+            "zh-tw": "衛從的木哨"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv. 50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 6657,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Hesitação do Sacrifício do Coração Flamejante",
+            "en-us": "Blazing Sacrificial Heart's Hesitance",
+            "ja-jp": "灼心を捧げる躊躇",
+            "zh-cn": "贡祭炽心的踌躇",
+            "ko-kr": "뜨거운 심장 공양의 주춤",
+            "ru-ru": "Сомнение пылающего жертвенного сердца",
+            "de-de": "Zögern der inbrünstigen Opfergabe",
+            "fr-fr": "Hésitation du cœur sacrificiel flamboyant",
+            "es-es": "Indecisión del corazón sacrificial ardiente",
+            "id-id": "Blazing Sacrificial Heart's Hesitance",
+            "th-th": "Blazing Sacrificial Heart's Hesitance",
+            "vi-vn": "Sự Do Dự Của Trái Tim Hiến Tế",
+            "zh-tw": "貢祭熾心的躊躇"
+          }
+        },
+        {
+          "id": 6651,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Semente da Vida em Chamas",
+            "en-us": "Ignited Seed of Life",
+            "ja-jp": "燃え盛る命の種",
+            "zh-cn": "聚燃的命种",
+            "ko-kr": "불뭉치의 씨앗",
+            "ru-ru": "Пламенное семя жизни",
+            "de-de": "Entzündete Saat des Lebens",
+            "fr-fr": "Graine enflammée",
+            "es-es": "Semilla vital ignífera",
+            "id-id": "Ignited Seed of Life",
+            "th-th": "Ignited Seed of Life",
+            "vi-vn": "Hạt Giống Sinh Mệnh Rực Cháy",
+            "zh-tw": "聚燃的命種"
+          }
+        },
+        {
+          "id": 6645,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Apito de Metal do Guerreiro",
+            "en-us": "Warrior's Metal Whistle",
+            "ja-jp": "戦士の鉄笛",
+            "zh-cn": "战士的铁哨",
+            "ko-kr": "전사의 금속 호루라기",
+            "ru-ru": "Металлический свисток воина",
+            "de-de": "Eisenpfeife des Kriegers",
+            "fr-fr": "Sifflet en métal de guerrier",
+            "es-es": "Silbato de hierro del guerrero",
+            "id-id": "Warrior's Metal Whistle",
+            "th-th": "Warrior's Metal Whistle",
+            "vi-vn": "Còi Sắt Chiến Binh",
+            "zh-tw": "戰士的鐵哨"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv. 60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 130000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 6658,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Determinação do Sacrifício do Coração Flamejante",
+            "en-us": "Blazing Sacrificial Heart's Resolve",
+            "ja-jp": "灼心を捧げる決意",
+            "zh-cn": "贡祭炽心的决绝",
+            "ko-kr": "뜨거운 심장 공양의 결단",
+            "ru-ru": "Решимость пылающего жертвенного сердца",
+            "de-de": "Entschlossenheit der inbrünstigen Opfergabe",
+            "fr-fr": "Résolution du cœur sacrificiel flamboyant",
+            "es-es": "Determinación del corazón sacrificial ardiente",
+            "id-id": "Blazing Sacrificial Heart's Resolve",
+            "th-th": "Blazing Sacrificial Heart's Resolve",
+            "vi-vn": "Sự Quyết Đoán Của Trái Tim Hiến Tế",
+            "zh-tw": "貢祭熾心的決絕"
+          }
+        },
+        {
+          "id": 6651,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Semente da Vida em Chamas",
+            "en-us": "Ignited Seed of Life",
+            "ja-jp": "燃え盛る命の種",
+            "zh-cn": "聚燃的命种",
+            "ko-kr": "불뭉치의 씨앗",
+            "ru-ru": "Пламенное семя жизни",
+            "de-de": "Entzündete Saat des Lebens",
+            "fr-fr": "Graine enflammée",
+            "es-es": "Semilla vital ignífera",
+            "id-id": "Ignited Seed of Life",
+            "th-th": "Ignited Seed of Life",
+            "vi-vn": "Hạt Giống Sinh Mệnh Rực Cháy",
+            "zh-tw": "聚燃的命種"
+          }
+        },
+        {
+          "id": 6645,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Apito de Metal do Guerreiro",
+            "en-us": "Warrior's Metal Whistle",
+            "ja-jp": "戦士の鉄笛",
+            "zh-cn": "战士的铁哨",
+            "ko-kr": "전사의 금속 호루라기",
+            "ru-ru": "Металлический свисток воина",
+            "de-de": "Eisenpfeife des Kriegers",
+            "fr-fr": "Sifflet en métal de guerrier",
+            "es-es": "Silbato de hierro del guerrero",
+            "id-id": "Warrior's Metal Whistle",
+            "th-th": "Warrior's Metal Whistle",
+            "vi-vn": "Còi Sắt Chiến Binh",
+            "zh-tw": "戰士的鐵哨"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv. 70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 35000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 6658,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Determinação do Sacrifício do Coração Flamejante",
+            "en-us": "Blazing Sacrificial Heart's Resolve",
+            "ja-jp": "灼心を捧げる決意",
+            "zh-cn": "贡祭炽心的决绝",
+            "ko-kr": "뜨거운 심장 공양의 결단",
+            "ru-ru": "Решимость пылающего жертвенного сердца",
+            "de-de": "Entschlossenheit der inbrünstigen Opfergabe",
+            "fr-fr": "Résolution du cœur sacrificiel flamboyant",
+            "es-es": "Determinación del corazón sacrificial ardiente",
+            "id-id": "Blazing Sacrificial Heart's Resolve",
+            "th-th": "Blazing Sacrificial Heart's Resolve",
+            "vi-vn": "Sự Quyết Đoán Của Trái Tim Hiến Tế",
+            "zh-tw": "貢祭熾心的決絕"
+          }
+        },
+        {
+          "id": 6652,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Olho Que Tudo Vê em Chamas",
+            "en-us": "Ignited Seeing Eye",
+            "ja-jp": "燃え盛る遊像の眼",
+            "zh-cn": "聚燃的游像眼",
+            "ko-kr": "불뭉치의 눈",
+            "ru-ru": "Пламенное око",
+            "de-de": "Loderndes Gestaltauge",
+            "fr-fr": "Œil enflammé",
+            "es-es": "Ojo vigía ignífero",
+            "id-id": "Ignited Seeing Eye",
+            "th-th": "Ignited Seeing Eye",
+            "vi-vn": "Con Mắt Rực Cháy",
+            "zh-tw": "聚燃的遊像眼"
+          }
+        },
+        {
+          "id": 6646,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Apito Dourado do Guerreiro de Coroa Sauriana",
+            "en-us": "Saurian-Crowned Warrior's Golden Whistle",
+            "ja-jp": "竜冠戦士の金笛",
+            "zh-cn": "龙冠武士的金哨",
+            "ko-kr": "용투구 무사의 황금 호루라기",
+            "ru-ru": "Золотой свисток коронованного заврианами воина",
+            "de-de": "Goldpfeife des Saurierkriegers",
+            "fr-fr": "Sifflet en or de guerrier couronné par les sauriens",
+            "es-es": "Silbato de oro del soldado sauriocoronado",
+            "id-id": "Saurian-Crowned Warrior's Golden Whistle",
+            "th-th": "Saurian-Crowned Warrior's Golden Whistle",
+            "vi-vn": "Còi Vàng Võ Sĩ Saurian",
+            "zh-tw": "龍冠武士的金哨"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv. 80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 45000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 6659,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Esplendor do Sacrifício do Coração Flamejante",
+            "en-us": "Blazing Sacrificial Heart's Splendor",
+            "ja-jp": "灼心を捧げる栄光",
+            "zh-cn": "贡祭炽心的荣膺",
+            "ko-kr": "뜨거운 심장 공양의 영광",
+            "ru-ru": "Великолепие пылающего жертвенного сердца",
+            "de-de": "Ruhm der inbrünstigen Opfergabe",
+            "fr-fr": "Splendeur du cœur sacrificiel flamboyant",
+            "es-es": "Honor del corazón sacrificial ardiente",
+            "id-id": "Blazing Sacrificial Heart's Splendor",
+            "th-th": "Blazing Sacrificial Heart's Splendor",
+            "vi-vn": "Sự Vinh Dự Của Trái Tim Hiến Tế",
+            "zh-tw": "貢祭熾心的榮膺"
+          }
+        },
+        {
+          "id": 6652,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Olho Que Tudo Vê em Chamas",
+            "en-us": "Ignited Seeing Eye",
+            "ja-jp": "燃え盛る遊像の眼",
+            "zh-cn": "聚燃的游像眼",
+            "ko-kr": "불뭉치의 눈",
+            "ru-ru": "Пламенное око",
+            "de-de": "Loderndes Gestaltauge",
+            "fr-fr": "Œil enflammé",
+            "es-es": "Ojo vigía ignífero",
+            "id-id": "Ignited Seeing Eye",
+            "th-th": "Ignited Seeing Eye",
+            "vi-vn": "Con Mắt Rực Cháy",
+            "zh-tw": "聚燃的遊像眼"
+          }
+        },
+        {
+          "id": 6646,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Apito Dourado do Guerreiro de Coroa Sauriana",
+            "en-us": "Saurian-Crowned Warrior's Golden Whistle",
+            "ja-jp": "竜冠戦士の金笛",
+            "zh-cn": "龙冠武士的金哨",
+            "ko-kr": "용투구 무사의 황금 호루라기",
+            "ru-ru": "Золотой свисток коронованного заврианами воина",
+            "de-de": "Goldpfeife des Saurierkriegers",
+            "fr-fr": "Sifflet en or de guerrier couronné par les sauriens",
+            "es-es": "Silbato de oro del soldado sauriocoronado",
+            "id-id": "Saurian-Crowned Warrior's Golden Whistle",
+            "th-th": "Saurian-Crowned Warrior's Golden Whistle",
+            "vi-vn": "Còi Vàng Võ Sĩ Saurian",
+            "zh-tw": "龍冠武士的金哨"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv. 1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St. 1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv. 1",
+        "th-th": "Lv. 1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATK before Ascension",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "44"
+        },
+        {
+          "label": {
+            "pt-pt": "ATK Percentage",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "6.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv. 20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "119",
+          "postAscensionValue": "144"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "10.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv. 40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "226",
+          "postAscensionValue": "252"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "15.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv. 50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "293",
+          "postAscensionValue": "319"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "17.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv. 60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "361",
+          "postAscensionValue": "387"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "20.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv. 70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "429",
+          "postAscensionValue": "455"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "22.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv. 80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "497",
+          "postAscensionValue": "523"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "25.1%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St. 90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv. 90",
+        "th-th": "Lv. 90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "565",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "27.6%"
+        }
+      ]
+    }
+  ]
+}

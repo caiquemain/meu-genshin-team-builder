@@ -1,0 +1,1022 @@
+{
+  "id": "the_bell",
+  "wiki_id": 2033,
+  "name": {
+    "pt-pt": "O Sino",
+    "en-us": "The Bell",
+    "ja-jp": "鐘の剣",
+    "zh-cn": "钟剑",
+    "ko-kr": "시간의 검",
+    "ru-ru": "Меч-колокол",
+    "de-de": "Glocke",
+    "fr-fr": "Épée-horloge",
+    "es-es": "Espada del Tiempo",
+    "id-id": "The Bell",
+    "th-th": "The Bell",
+    "vi-vn": "Kiếm Chuông",
+    "zh-tw": "鐘劍"
+  },
+  "description": {
+    "pt-pt": "Um espadão pesado com um relógio, mas seus mecanismos internos foram danificados.",
+    "en-us": "A heavy greatsword. A clock is embedded within it, though its internal mechanisms have long been damaged.",
+    "ja-jp": "時計が飾られた大剣、その中の時計はすでに壊れている。",
+    "zh-cn": "装有时钟的厚重大剑，其中的计时机关早已被破坏。",
+    "ko-kr": "시계가 달린 대검. 사실 검 내부의 시계 장치는 오래전에 파괴되었다",
+    "ru-ru": "Тяжёлый двуручный меч со встроенными часами, механизмы которых уже давно изношены.",
+    "de-de": "Ein schweres Großschwert mit einer eingebauten Uhr, die jedoch längst nicht mehr geht.",
+    "fr-fr": "Une grande épée lourde équipée d'une cloche, mais dont le mécanisme de chronométrage a été détruit il y a bien longtemps.",
+    "es-es": "Una espada pesada con un reloj cuyos mecanismos internos fueron dañados hace mucho tiempo.",
+    "id-id": "Greatsword yang besar dengan sebuah jam tertanam di tengahnya, tetapi mesin di dalamnya telah rusak sejak lama.",
+    "th-th": "ดาบขนาดใหญ่ที่หนักและมีนาฬิกาติดตั้งมาด้วย แต่กลไกภายในของมันนั้นพังไปนานแล้ว",
+    "vi-vn": "Kiếm lớn và nặng có gắn thêm đồng hồ, nhưng cơ quan tính giờ của nó đã bị phá hoại.",
+    "zh-tw": "裝有時鐘的厚重大劍，其中的計時機關早已被破壞。"
+  },
+  "rarity": 4,
+  "type": {
+    "pt-pt": "Espadão",
+    "en-us": "Claymore",
+    "ja-jp": "両手剣",
+    "zh-cn": "双手剑",
+    "ko-kr": "양손검",
+    "ru-ru": "Двуручное",
+    "de-de": "Zweihänder",
+    "fr-fr": "Épée à deux mains",
+    "es-es": "Mandoble",
+    "id-id": "Claymore",
+    "th-th": "ดาบใหญ่",
+    "vi-vn": "Trọng Kiếm",
+    "zh-tw": "雙手劍"
+  },
+  "subStat": {
+    "pt-pt": "Vida%",
+    "en-us": "HP",
+    "ja-jp": "HP",
+    "zh-cn": "生命值",
+    "ko-kr": "HP",
+    "ru-ru": "HP",
+    "de-de": "LP",
+    "fr-fr": "PV",
+    "es-es": "Vida",
+    "id-id": "HP",
+    "th-th": "พลังชีวิต",
+    "vi-vn": "HP",
+    "zh-tw": "生命值"
+  },
+  "passiveName": {
+    "pt-pt": "Guarda da Rebelião",
+    "en-us": "Rebellious Guardian",
+    "ja-jp": "反逆の守護者",
+    "zh-cn": "叛逆的守护者",
+    "ko-kr": "반역의 수호자",
+    "ru-ru": "Бунтарский защитник:",
+    "de-de": "Beschützer der Rebellen",
+    "fr-fr": "Protecteur rebelle",
+    "es-es": "Protector de la rebelión",
+    "id-id": "Guardian of the Rebellion",
+    "th-th": "Rebellious Guardian",
+    "vi-vn": "Kẻ Bảo Vệ Phản Nghịch",
+    "zh-tw": "叛逆的守護者"
+  },
+  "passiveDescription": {
+    "pt-pt": "Ao receber dano, cria um escudo que absorve o equivalente a 20%/23%/26%/29%/32% da Vida Máxima por 10s ou até o escudo desparecer. Pode ser ativado uma vez a cada 45/45/45/45/45s. Quando o personagem estiver com o escudo, o Dano causado aumenta 12%/15%/18%/21%/24%.",
+    "en-us": "Taking DMG generates a shield which absorbs DMG up to 20%/23%/26%/29%/32% of Max HP. This shield lasts for 10s or until broken, and can only be triggered once every 45s. While protected by a shield, the character gains 12%/15%/18%/21%/24% increased DMG.",
+    "ja-jp": "ダメージを受けた時、HP上限の20/23/26/29/32%に相当するダメージを吸収できるシールドを生成する。継続時間は最大10秒まで。45/45/45/45/45秒毎に1回のみ発動可能。シールドが存在する時、キャラクターの与えるダメージ+12/15/18/21/24%。",
+    "zh-cn": "受到伤害时，生成一个伤害吸收量等同于生命值上限20%/23%/26%/29%/32%的护盾，持续10秒或直到护盾失效,每45/45/45/45/45秒只能触发一次。角色处于护盾庇护下时，造成的伤害提升12%/15%/18%/21%/24%。",
+    "ko-kr": "피격 시 HP 최대치의 20%/23%/26%/29%/32% 피해를 흡수하는 보호막이 생성된다. 보호막은 10초간 지속하거나 보호막이 파괴될 때까지 유지된다. 45초마다 1회 발동한다. 보호막이 존재 시 캐릭터가 가하는 피해가 12%/15%/18%/21%/24% 증가한다",
+    "ru-ru": "При получении урона генерируется щит, который в течение 10 сек. поглощает урон, равный 20%/23%/26%/29%/32% от макс. HP. Может возникнуть раз в 45/45/45/45/45 сек. Под защитой щита увеличивает урон персонажа на 12%/15%/18%/21%/24%.",
+    "de-de": "Erstellt beim Erleiden von Schaden einen Schutzschild mit einer Stärke von 20% ~ 23% ~ 26% ~ 29% ~ 32% der max. LP. Hält solange, bis die Schadensmenge erreicht ist, aber max. 10s. 45s Abklingzeit. Erhöht den verursachten Schaden der Figur während der Wirkungsdauer um 12% ~ 15% ~ 18% ~ 21% ~ 24%.",
+    "fr-fr": "Subir des DGT génère un bouclier qui absorbe jusqu'à 20 %/23 %/26 %/29 %/32 % des PV max pendant 10 s. Peut être déclenché une fois toutes les 45 s. Lorsque le personnage est sous la protection du bouclier, les DGT infligés augmentent de 12 %/15 %/18 %/21 %/24 %.",
+    "es-es": "Al recibir daño, genera un escudo que absorbe daño equivalente al 20%/23%/26%/29%/32% de la Vida Máx. Este escudo dura 10 s o hasta que se rompe, y solo puede ser activado una vez cada 45/45/45/45/45 s. Mientras un personaje esté protegido por el escudo, el daño que inflige aumenta en un 12%/15%/18%/21%/24%.",
+    "id-id": "Saat menerima DMG, menciptakan sebuah perisai yang dapat menahan DMG sebesar 20%/23%/26%/29%/32% dari Max HP. Perisai ini bertahan selama 10 detik, atau sampai terhancurkan. Perisai dapat terpicu setiap 45 detik. Saat terlindungi oleh perisai, karakter memperoleh peningkatan 12%/15%/18%/21%/24% DMG.",
+    "th-th": "เมื่อได้รับความเสียหายจะสร้างโล่ที่สามารถดูดซับความเสียหายได้ถึง 20% ของพลังชีวิตสูงสุดเป็นเวลา 10 วินาที หรือจนกว่าโล่จะเสื่อมสภาพ โดยจะเกิดขึ้นได้หนึ่งครั้งในทุก 45 วินาที ในขณะที่ตัวละครได้รับการป้องกันจากโล่จะสร้างความเสียหายเพิ่มขึ้น 12%",
+    "vi-vn": "Khi nhận sát thương sẽ tạo ra khiên có lượng hấp thụ sát thương bằng 20%/23%/26%/29%/32% giới hạn HP, kéo dài 10s hoặc đến khi khiên mất hiệu lực, mỗi 45/45/45/45/45s chỉ thi triển 1 lần. Khi nhân vật được khiên bảo vệ, sát thương tạo thành tăng 12%/15%/18%/21%/24%.",
+    "zh-tw": "受到傷害時，產生一個傷害吸收量等同於生命值上限20%/23%/26%/29%/32%的護盾，持續10秒或直到護盾失效,每45/45/45/45/45秒只能觸發一次。角色處於護盾庇護下時，造成的傷害提升12%/15%/18%/21%/24%。"
+  },
+  "weaponIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/weapon/钟剑.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 1879,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Azulejo de Decarabian",
+            "en-us": "Tile of Decarabian's Tower",
+            "ja-jp": "高塔の王の瓦",
+            "zh-cn": "高塔孤王的破瓦",
+            "ko-kr": "고탑 왕의 잔해",
+            "ru-ru": "Плитка башни Декарабиана",
+            "de-de": "Decabarians zerbrochener Ziegel",
+            "fr-fr": "Tuile cassée de Décarabian",
+            "es-es": "Fragmento de azulejo de Decarabian",
+            "id-id": "Tile of Decarabian's Tower",
+            "th-th": "Tile of Decarabian's Tower",
+            "vi-vn": "Ngói Vỡ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的破瓦"
+          }
+        },
+        {
+          "id": 993,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Chifre Pesado",
+            "en-us": "Heavy Horn",
+            "ja-jp": "重い角笛",
+            "zh-cn": "沉重号角",
+            "ko-kr": "무거운 나팔",
+            "ru-ru": "Тяжёлый рог",
+            "de-de": "Schweres Horn",
+            "fr-fr": "Corne lourde",
+            "es-es": "Cuerno pesado",
+            "id-id": "Heavy Horn",
+            "th-th": "Heavy Horn",
+            "vi-vn": "Sừng Nặng",
+            "zh-tw": "沉重號角"
+          }
+        },
+        {
+          "id": 1876,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Néctar da Flor Gigante",
+            "en-us": "Whopperflower Nectar",
+            "ja-jp": "トリックフラワーの蜜",
+            "zh-cn": "骗骗花蜜",
+            "ko-kr": "구라구라 꽃꿀",
+            "ru-ru": "Нектар попрыгуньи",
+            "de-de": "Vaniloqua-Nektar",
+            "fr-fr": "Nectar de Fleur mensongère",
+            "es-es": "Néctar de Megaflora",
+            "id-id": "Whopperflower Nectar",
+            "th-th": "Whopperflower Nectar",
+            "vi-vn": "Mật Hoa Lừa Dối",
+            "zh-tw": "騙騙花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 1878,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Detritos da Cidade de Decarabian",
+            "en-us": "Debris of Decarabian's City",
+            "ja-jp": "高塔の王の残壁",
+            "zh-cn": "高塔孤王的残垣",
+            "ko-kr": "고탑 왕의 절망",
+            "ru-ru": "Обломок стены Декарабиана",
+            "de-de": "Decabarians zerbröckelter Wall",
+            "fr-fr": "Mur abattu de Décarabian",
+            "es-es": "Escombro de la ciudad de Decarabian",
+            "id-id": "Debris of Decarabian's City",
+            "th-th": "Debris of Decarabian's City",
+            "vi-vn": "Xác Tàu Tháp Cô Vương",
+            "zh-tw": "高塔孤王的殘垣"
+          }
+        },
+        {
+          "id": 993,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Chifre Pesado",
+            "en-us": "Heavy Horn",
+            "ja-jp": "重い角笛",
+            "zh-cn": "沉重号角",
+            "ko-kr": "무거운 나팔",
+            "ru-ru": "Тяжёлый рог",
+            "de-de": "Schweres Horn",
+            "fr-fr": "Corne lourde",
+            "es-es": "Cuerno pesado",
+            "id-id": "Heavy Horn",
+            "th-th": "Heavy Horn",
+            "vi-vn": "Sừng Nặng",
+            "zh-tw": "沉重號角"
+          }
+        },
+        {
+          "id": 1876,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Néctar da Flor Gigante",
+            "en-us": "Whopperflower Nectar",
+            "ja-jp": "トリックフラワーの蜜",
+            "zh-cn": "骗骗花蜜",
+            "ko-kr": "구라구라 꽃꿀",
+            "ru-ru": "Нектар попрыгуньи",
+            "de-de": "Vaniloqua-Nektar",
+            "fr-fr": "Nectar de Fleur mensongère",
+            "es-es": "Néctar de Megaflora",
+            "id-id": "Whopperflower Nectar",
+            "th-th": "Whopperflower Nectar",
+            "vi-vn": "Mật Hoa Lừa Dối",
+            "zh-tw": "騙騙花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 1878,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Detritos da Cidade de Decarabian",
+            "en-us": "Debris of Decarabian's City",
+            "ja-jp": "高塔の王の残壁",
+            "zh-cn": "高塔孤王的残垣",
+            "ko-kr": "고탑 왕의 절망",
+            "ru-ru": "Обломок стены Декарабиана",
+            "de-de": "Decabarians zerbröckelter Wall",
+            "fr-fr": "Mur abattu de Décarabian",
+            "es-es": "Escombro de la ciudad de Decarabian",
+            "id-id": "Debris of Decarabian's City",
+            "th-th": "Debris of Decarabian's City",
+            "vi-vn": "Xác Tàu Tháp Cô Vương",
+            "zh-tw": "高塔孤王的殘垣"
+          }
+        },
+        {
+          "id": 1924,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Chifre de Bronze Negro",
+            "en-us": "Black Bronze Horn",
+            "ja-jp": "黒銅の角笛",
+            "zh-cn": "黑铜号角",
+            "ko-kr": "흑동 나팔",
+            "ru-ru": "Чёрный бронзовый рог",
+            "de-de": "Kupferhorn",
+            "fr-fr": "Corne en bronze noir",
+            "es-es": "Cuerno de bronce negro",
+            "id-id": "Black Bronze Horn",
+            "th-th": "Black Bronze Horn",
+            "vi-vn": "Sừng Đồng Đen",
+            "zh-tw": "黑銅號角"
+          }
+        },
+        {
+          "id": 722,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Néctar Brilhante",
+            "en-us": "Shimmering Nectar",
+            "ja-jp": "微光花の蜜",
+            "zh-cn": "微光花蜜",
+            "ko-kr": "반짝반짝 꽃꿀",
+            "ru-ru": "Мерцающий нектар",
+            "de-de": "Leuchtender Nektar",
+            "fr-fr": "Nectar miroitant",
+            "es-es": "Néctar brillante",
+            "id-id": "Shimmering Nectar",
+            "th-th": "Shimmering Nectar",
+            "vi-vn": "Mật Hoa Lấp Lánh",
+            "zh-tw": "微光花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 1877,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmentos Épicos da Decarabian",
+            "en-us": "Fragment of Decarabian's Epic",
+            "ja-jp": "高塔の王の断片",
+            "zh-cn": "高塔孤王的断片",
+            "ko-kr": "고탑 왕의 조각",
+            "ru-ru": "Фрагмент эпоса Декарабиана",
+            "de-de": "Decabarians Palastfragment",
+            "fr-fr": "Fragment dispersé de Décarabian",
+            "es-es": "Fragmento de epopeya de Decarabian",
+            "id-id": "Fragment of Decarabian's Epic",
+            "th-th": "Fragment of Decarabian's Epic",
+            "vi-vn": "Mảnh Vỡ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的斷片"
+          }
+        },
+        {
+          "id": 1924,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Chifre de Bronze Negro",
+            "en-us": "Black Bronze Horn",
+            "ja-jp": "黒銅の角笛",
+            "zh-cn": "黑铜号角",
+            "ko-kr": "흑동 나팔",
+            "ru-ru": "Чёрный бронзовый рог",
+            "de-de": "Kupferhorn",
+            "fr-fr": "Corne en bronze noir",
+            "es-es": "Cuerno de bronce negro",
+            "id-id": "Black Bronze Horn",
+            "th-th": "Black Bronze Horn",
+            "vi-vn": "Sừng Đồng Đen",
+            "zh-tw": "黑銅號角"
+          }
+        },
+        {
+          "id": 722,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Néctar Brilhante",
+            "en-us": "Shimmering Nectar",
+            "ja-jp": "微光花の蜜",
+            "zh-cn": "微光花蜜",
+            "ko-kr": "반짝반짝 꽃꿀",
+            "ru-ru": "Мерцающий нектар",
+            "de-de": "Leuchtender Nektar",
+            "fr-fr": "Nectar miroitant",
+            "es-es": "Néctar brillante",
+            "id-id": "Shimmering Nectar",
+            "th-th": "Shimmering Nectar",
+            "vi-vn": "Mật Hoa Lấp Lánh",
+            "zh-tw": "微光花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 1877,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmentos Épicos da Decarabian",
+            "en-us": "Fragment of Decarabian's Epic",
+            "ja-jp": "高塔の王の断片",
+            "zh-cn": "高塔孤王的断片",
+            "ko-kr": "고탑 왕의 조각",
+            "ru-ru": "Фрагмент эпоса Декарабиана",
+            "de-de": "Decabarians Palastfragment",
+            "fr-fr": "Fragment dispersé de Décarabian",
+            "es-es": "Fragmento de epopeya de Decarabian",
+            "id-id": "Fragment of Decarabian's Epic",
+            "th-th": "Fragment of Decarabian's Epic",
+            "vi-vn": "Mảnh Vỡ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的斷片"
+          }
+        },
+        {
+          "id": 1922,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Chifre de Cristal Preto",
+            "en-us": "Black Crystal Horn",
+            "ja-jp": "黒晶の角笛",
+            "zh-cn": "黑晶号角",
+            "ko-kr": "흑수정 나팔",
+            "ru-ru": "Чёрный кристаллический рог",
+            "de-de": "Schwarzes Kristallhorn",
+            "fr-fr": "Corne à cristal noir",
+            "es-es": "Cuerno con cristal negro",
+            "id-id": "Black Crystal Horn",
+            "th-th": "Black Crystal Horn",
+            "vi-vn": "Sừng Hắc Tinh",
+            "zh-tw": "黑晶號角"
+          }
+        },
+        {
+          "id": 372,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Néctar Elemental",
+            "en-us": "Energy Nectar",
+            "ja-jp": "原素花の蜜",
+            "zh-cn": "原素花蜜",
+            "ko-kr": "원소 꽃꿀",
+            "ru-ru": "Элементальный нектар",
+            "de-de": "Elementarnektar",
+            "fr-fr": "Nectar élémentaire",
+            "es-es": "Néctar energético",
+            "id-id": "Energy Nectar",
+            "th-th": "Elemental Nectar",
+            "vi-vn": "Mật Hoa Nguyên Tố",
+            "zh-tw": "原素花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 1880,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Pedaços de Sonho da Decarabian",
+            "en-us": "Scattered Piece of Decarabian's Dream",
+            "ja-jp": "高塔の王の砕けた夢",
+            "zh-cn": "高塔孤王的碎梦",
+            "ko-kr": "고탑 왕의 깨진 꿈",
+            "ru-ru": "Осколок мечты Декарабиана",
+            "de-de": "Decabarians zerstörter Traum",
+            "fr-fr": "Rêve brisé de Décarabian",
+            "es-es": "Fragmento de sueño de Decarabian",
+            "id-id": "Scattered Piece of Decarabian's Dream",
+            "th-th": "Scattered Piece of Decarabian's Dream",
+            "vi-vn": "Mảnh Giấc Mơ Tháp Cô Vương",
+            "zh-tw": "高塔孤王的碎夢"
+          }
+        },
+        {
+          "id": 1922,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Chifre de Cristal Preto",
+            "en-us": "Black Crystal Horn",
+            "ja-jp": "黒晶の角笛",
+            "zh-cn": "黑晶号角",
+            "ko-kr": "흑수정 나팔",
+            "ru-ru": "Чёрный кристаллический рог",
+            "de-de": "Schwarzes Kristallhorn",
+            "fr-fr": "Corne à cristal noir",
+            "es-es": "Cuerno con cristal negro",
+            "id-id": "Black Crystal Horn",
+            "th-th": "Black Crystal Horn",
+            "vi-vn": "Sừng Hắc Tinh",
+            "zh-tw": "黑晶號角"
+          }
+        },
+        {
+          "id": 372,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Néctar Elemental",
+            "en-us": "Energy Nectar",
+            "ja-jp": "原素花の蜜",
+            "zh-cn": "原素花蜜",
+            "ko-kr": "원소 꽃꿀",
+            "ru-ru": "Элементальный нектар",
+            "de-de": "Elementarnektar",
+            "fr-fr": "Nectar élémentaire",
+            "es-es": "Néctar energético",
+            "id-id": "Energy Nectar",
+            "th-th": "Elemental Nectar",
+            "vi-vn": "Mật Hoa Nguyên Tố",
+            "zh-tw": "原素花蜜"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "42"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Porcentaje de Vida",
+            "id-id": "HP%",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值百分比"
+          },
+          "value": "9.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "109",
+          "postAscensionValue": "135"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Porcentaje de Vida",
+            "id-id": "HP%",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值百分比"
+          },
+          "value": "15.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "205",
+          "postAscensionValue": "231"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Porcentaje de Vida",
+            "id-id": "HP%",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值百分比"
+          },
+          "value": "23.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "266",
+          "postAscensionValue": "292"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Porcentaje de Vida",
+            "id-id": "HP%",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值百分比"
+          },
+          "value": "26.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "327",
+          "postAscensionValue": "353"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Porcentaje de Vida",
+            "id-id": "HP%",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值百分比"
+          },
+          "value": "30.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "388",
+          "postAscensionValue": "414"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Porcentaje de Vida",
+            "id-id": "HP%",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值百分比"
+          },
+          "value": "34.1%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "449",
+          "postAscensionValue": "475"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Porcentaje de Vida",
+            "id-id": "HP%",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值百分比"
+          },
+          "value": "37.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "510",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Vida",
+            "en-us": "HP Percentage",
+            "ja-jp": "HPパーセンテージ",
+            "zh-cn": "生命值百分比",
+            "ko-kr": "HP 백분율",
+            "ru-ru": "Процент от HP",
+            "de-de": "LP-Rate",
+            "fr-fr": "Pourcentage PV",
+            "es-es": "Porcentaje de Vida",
+            "id-id": "HP%",
+            "th-th": "เปอร์เซ็นต์พลังชีวิต",
+            "vi-vn": "Tỷ Lệ HP",
+            "zh-tw": "生命值百分比"
+          },
+          "value": "41.3%"
+        }
+      ]
+    }
+  ]
+}

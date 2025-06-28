@@ -1,0 +1,1022 @@
+{
+  "id": "skyward_atlas",
+  "wiki_id": 1955,
+  "name": {
+    "pt-pt": "Atlas Celestial",
+    "en-us": "Skyward Atlas",
+    "ja-jp": "天空の巻",
+    "zh-cn": "天空之卷",
+    "ko-kr": "천공의 두루마리",
+    "ru-ru": "Небесный атлас",
+    "de-de": "Himmelsatlas",
+    "fr-fr": "Atlas de la Voûte d'Azur",
+    "es-es": "Pergamino Celestial",
+    "id-id": "Skyward Atlas",
+    "th-th": "Skyward Atlas",
+    "vi-vn": "Quyển Thiên Không",
+    "zh-tw": "天空之卷"
+  },
+  "description": {
+    "pt-pt": "Um atlas das nuvens que simboliza Dvalin e o Arconte Anemo, seu antigo mestre. Detalha os ventos e as nuvens das regiões do norte e contém o poder dos céus e dos ventos.",
+    "en-us": "A cloud atlas symbolizing Dvalin and his former master, the Anemo Archon. It details the winds and clouds of the northern regions and contains the powers of the sky and wind.",
+    "ja-jp": "風龍とその主である風の神を象徴した図表集。北の風と雲が詳しく記載されており、蒼空と長風の力が秘められている。",
+    "zh-cn": "象征风龙与其主风之神的云图集。细致记载了北地天空的风与云，蕴含苍空与长风的力量。",
+    "ko-kr": "풍룡과 그의 주인 바람의 신을 상징하는 두루마리. 북쪽 하늘의 바람과 구름이 상세히 기재되어 있으며, 푸른 하늘과 바람의 힘을 지니고 있다",
+    "ru-ru": "Облачный атлас, символ Двалина и его повелителя, Анемо Архонта. Детально описывает облака и воздушные потоки северного региона, питающие его силой небес и ветров.",
+    "de-de": "Ein Atlas von der Wolkenlandschaft, geschaffen von Dvalin und seinem Herrn, dem Archon des Windes. Er beschreibt den Wind und die Wolken des Himmels im Norden detailliert und enthält die Kraft von Himmel und Wind.",
+    "fr-fr": "Un atlas représentant Dvalin et son ancien maître, l'Archon Anémo. Il décrit en détail les vents et les nuages au nord de Teyvat et renferme la puissance des cieux et des vents.",
+    "es-es": "Un atlas de nubes que simboliza a Stormterror y al Arconte Anemo, su antiguo maestro. Registra detalladamente y contiene el poder de los vientos y las nubes de los cielos del norte.",
+    "id-id": "Atlas awan yang melambangkan Dvalin dan tuannya, Archon Anemo. Menunjukkan secara rinci awan dan angin di daerah Utara, mengandung kekuatan angin dan angkasa.",
+    "th-th": "บันทึกมวลเมฆที่เป็นเหมือนตัวแทนของ Dvalin และเทพแห่งลมผู้เป็นเจ้าของเดิม ภายในระบุรายละเอียดของสายลมและหมู่เมฆในแดนเหนือ และมีพลังของท้องฟ้าและสายลมอยู่ด้วย",
+    "vi-vn": "Tập sách tượng trưng cho Phong Long và chủ nhân Phong Thần của nó. Ghi chép tỷ mỉ về gió và mây của bầu trời phương bắc, ẩn giấu sức mạnh của thiên không và gió.",
+    "zh-tw": "象徵風龍與其主風之神的雲圖集。細緻記載了北地天空的風與雲，蘊含蒼空與長風的力量。"
+  },
+  "rarity": 5,
+  "type": {
+    "pt-pt": "Catalisador",
+    "en-us": "Catalyst",
+    "ja-jp": "法器",
+    "zh-cn": "法器",
+    "ko-kr": "법구",
+    "ru-ru": "Катализатор",
+    "de-de": "Katalysator",
+    "fr-fr": "Catalyseur",
+    "es-es": "Catalizador",
+    "id-id": "Catalyst",
+    "th-th": "สื่อเวท",
+    "vi-vn": "Pháp Khí",
+    "zh-tw": "法器"
+  },
+  "subStat": {
+    "pt-pt": "ATQ%",
+    "en-us": "ATK",
+    "ja-jp": "攻撃力",
+    "zh-cn": "攻击力",
+    "ko-kr": "공격력",
+    "ru-ru": "Сила атаки",
+    "de-de": "ANG",
+    "fr-fr": "ATQ",
+    "es-es": "ATQ",
+    "id-id": "ATK",
+    "th-th": "พลังโจมตี",
+    "vi-vn": "Tấn Công",
+    "zh-tw": "攻擊力"
+  },
+  "passiveName": {
+    "pt-pt": "Nuvens Vagantes",
+    "en-us": "Wandering Clouds",
+    "ja-jp": "四方浮遊する霊雲",
+    "zh-cn": "浮游四方的灵云",
+    "ko-kr": "사방을 떠다니는 뭉게구름",
+    "ru-ru": "Благословение облаков:",
+    "de-de": "Wandernde Wolken",
+    "fr-fr": "Nuages vagabonds",
+    "es-es": "Nubes pasajeras",
+    "id-id": "Wandering Clouds",
+    "th-th": "Wandering Clouds",
+    "vi-vn": "Linh Vân Phiêu Du Bốn Phương",
+    "zh-tw": "浮游四方的靈雲"
+  },
+  "passiveDescription": {
+    "pt-pt": "Aumenta o Bônus do Dano Elemental em 12%/15%/18%/21%/24%. O Ataque normal possui 50% de chance de ganhar a graça das nuvens, que buscam ativamente por inimigos ao redor para atacar por 15s, causando 160%/200%/240%/280%/320% de Dano de ATQ. Este efeito pode ser ativado uma vez a cada 30s.",
+    "en-us": "Increases Elemental DMG Bonus by 12%/15%/18%/21%/24%. Normal Attack hits have a 50% chance to earn the favor of the clouds, which actively seek out nearby opponents to attack for 15s, dealing 160%/200%/240%/280%/320% ATK DMG. Can only occur once every 30s.",
+    "ja-jp": "元素ダメージ+12/15/18/21/24%。通常攻撃が命中した時、50%の確率で高天流雲の好意を獲得し、15秒以内に自分から周囲の敵を攻撃すると、攻撃力の160/200/240/280/320%相当のダメージを与える。30秒毎に1回のみ発動可能。",
+    "zh-cn": "元素伤害加成提升12%/15%/18%/21%/24%；普通攻击命中时，有50%的概率获得高天流云的青睐，在15秒内主动攻击附近的敌人，造成等同于160%/200%/240%/280%/320%攻击力的伤害。该效果每30秒只能触发一次。",
+    "ko-kr": "원소 피해 보너스+12%/15%/18%/21%/24%. 일반 공격 명중 시 50%의 확률로 구름의 총애를 받는다. 15초 내에 주변의 적을 직접 공격하면 공격력 160%/200%/240%/280%/320%의 피해를 준다. 해당 효과는 30초마다 1번 발동한다",
+    "ru-ru": "Увеличивает бонус элементального урона на 12%/15%/18%/21%/24%. При попадании обычной атакой есть 50% шанс получить благословение облаков, которые в течение 15 сек. атакуют ближайших врагов и наносят им 160%/200%/240%/280%/320% урона. Может возникнуть раз в 30 сек.",
+    "de-de": "Erhöht den Elementarschaden um 12% ~ 15% ~ 18% ~ 21% ~ 24% und erhält bei Treffern mit Standardangriffen mit einer Wahrscheinlichkeit von 50% die Gunst der Wolken, die Gegner in der Umgebung aktiv angreifen und Schaden in Höhe von 160% ~ 200% ~ 240% ~ 280% ~ 320% ANG verursachen. 30s Abklingzeit.",
+    "fr-fr": "Augmente le bonus de DGT élémentaires de 12 %/15 %/18 %/21 %/24 %. Les attaques normales ont 50 % de chances lorsqu'elles touchent d'obtenir pendant 15 s la faveur des cieux, qui attaque automatiquement les ennemis proches, et leur inflige 160 %/200 %/240 %/280 %/320 % des DGT d'ATQ. Cet effet peut être déclenché une fois toutes les 30 s.",
+    "es-es": "Aumenta en un 12%/15%/18%/21%/24% el bono de Daño Elemental. Al atacar con un Ataque Normal, hay un 50% de probabilidad de conseguir la gracia de las nubes. Estas buscarán durante 15 s enemigos a los que atacar, infligiendo un 160%/200%/240%/280%/320% de daño de ATQ. Este efecto solo puede ocurrir una vez cada 30 s.",
+    "id-id": "Meningkatkan 12%/15%/18%/21%/24% Elemental DMG Bonus. Saat Normal Attack mengenai musuh, memiliki 50% persentase untuk mendapatkan bantuan dari awan yang mengincar musuh terdekat selama 15 detik, dan mengakibatkan DMG sebesar 160%/200%/240%/280%/320% ATK. Dapat terpicu setiap 30 detik.",
+    "th-th": "โบนัสความเสียหายธาตุเพิ่มขึ้น 12%/15%/18%/21%/24%; เมื่อการโจมตีปกติถูกเป้าหมายจะมีโอกาส 50% ที่จะได้รับการสนับสนุนจากเบื้องบน โดยภายในเวลา 15 วินาที จะทำการโจมตีศัตรูที่อยู่ใกล้เคียงเองและสร้างความเสียหายเท่ากับ 160%/200%/240%/280%/320% ของพลังโจมตี ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นหนึ่งครั้งในทุก 30 วินาที",
+    "vi-vn": "Tăng sát thương Nguyên Tố 12%; khi tấn công thường đánh trúng địch, có tỷ lệ 50% nhận được sự ưu ái của mây trời, trong 15s chủ động tấn công kẻ địch ở gần, tạo thành sát thương bằng 160% lực tấn công. Mỗi 30s mới thi triển 1 lần.",
+    "zh-tw": "元素傷害加成提升12%/15%/18%/21%/24%；普通攻擊命中時，有50%的機率獲得高天流雲的青睞，在15秒內主動攻擊附近的敵人，造成等同於160%/200%/240%/280%/320%攻擊力的傷害。該效果每30秒只能觸發一次。"
+  },
+  "weaponIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/weapon/天空之卷.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 324,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "Dente de Leite do Lobo Boreal",
+            "en-us": "Boreal Wolf's Milk Tooth",
+            "ja-jp": "凛風奔狼の乳歯",
+            "zh-cn": "凛风奔狼的始龀",
+            "ko-kr": "칼바람 울프의 젖니",
+            "ru-ru": "Молочный зуб арктического волка",
+            "de-de": "Milchzahn des borealischen Wolfs",
+            "fr-fr": "Dent de lait du Loup boréal",
+            "es-es": "Diente de leche de lobo boreal",
+            "id-id": "Boreal Wolf's Milk Tooth",
+            "th-th": "Boreal Wolf's Milk Tooth",
+            "vi-vn": "Răng Sữa Sói Bão",
+            "zh-tw": "凜風奔狼的始齔"
+          }
+        },
+        {
+          "id": 440,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "Ramo Seco de Linha Ley",
+            "en-us": "Dead Ley Line Branch",
+            "ja-jp": "地脈の旧枝",
+            "zh-cn": "地脉的旧枝",
+            "ko-kr": "지맥의 낡은 가지",
+            "ru-ru": "Ветви артерий земли",
+            "de-de": "Alte Rute des Flusses der Elemente",
+            "fr-fr": "Branche morte des lignes énergétiques",
+            "es-es": "Rama seca de líneas ley",
+            "id-id": "Dead Ley Line Branches",
+            "th-th": "Dead Ley Line Branches",
+            "vi-vn": "Cành Cây Địa Mạch",
+            "zh-tw": "地脈的舊枝"
+          }
+        },
+        {
+          "id": 1105,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Ponta de Flecha Robusta",
+            "en-us": "Firm Arrowhead",
+            "ja-jp": "牢固な矢先",
+            "zh-cn": "牢固的箭簇",
+            "ko-kr": "견고한 화살촉",
+            "ru-ru": "Прочный наконечник стрелы",
+            "de-de": "Stabile Bolzenspitze",
+            "fr-fr": "Pointe de flèche robuste",
+            "es-es": "Flecha robusta",
+            "id-id": "Firm Arrowhead",
+            "th-th": "Firm Arrowhead",
+            "vi-vn": "Mũi Tên Chắc Chắn",
+            "zh-tw": "牢固的箭鏃"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 327,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "Dente Rachado do Lobo Boreal",
+            "en-us": "Boreal Wolf's Cracked Tooth",
+            "ja-jp": "凛風奔狼の砕牙",
+            "zh-cn": "凛风奔狼的裂齿",
+            "ko-kr": "칼바람 울프의 이빨",
+            "ru-ru": "Треснувший зуб арктического волка",
+            "de-de": "Zersplitterter Zahn des borealischen Wolfs",
+            "fr-fr": "Croc brisé du Loup boréal",
+            "es-es": "Diente roto de lobo boreal",
+            "id-id": "Boreal Wolf's Cracked Tooth",
+            "th-th": "Boreal Wolf's Cracked Tooth",
+            "vi-vn": "Răng Vỡ Sói Bão",
+            "zh-tw": "凜風奔狼的裂齒"
+          }
+        },
+        {
+          "id": 440,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Ramo Seco de Linha Ley",
+            "en-us": "Dead Ley Line Branch",
+            "ja-jp": "地脈の旧枝",
+            "zh-cn": "地脉的旧枝",
+            "ko-kr": "지맥의 낡은 가지",
+            "ru-ru": "Ветви артерий земли",
+            "de-de": "Alte Rute des Flusses der Elemente",
+            "fr-fr": "Branche morte des lignes énergétiques",
+            "es-es": "Rama seca de líneas ley",
+            "id-id": "Dead Ley Line Branches",
+            "th-th": "Dead Ley Line Branches",
+            "vi-vn": "Cành Cây Địa Mạch",
+            "zh-tw": "地脈的舊枝"
+          }
+        },
+        {
+          "id": 1105,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Ponta de Flecha Robusta",
+            "en-us": "Firm Arrowhead",
+            "ja-jp": "牢固な矢先",
+            "zh-cn": "牢固的箭簇",
+            "ko-kr": "견고한 화살촉",
+            "ru-ru": "Прочный наконечник стрелы",
+            "de-de": "Stabile Bolzenspitze",
+            "fr-fr": "Pointe de flèche robuste",
+            "es-es": "Flecha robusta",
+            "id-id": "Firm Arrowhead",
+            "th-th": "Firm Arrowhead",
+            "vi-vn": "Mũi Tên Chắc Chắn",
+            "zh-tw": "牢固的箭鏃"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 327,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Dente Rachado do Lobo Boreal",
+            "en-us": "Boreal Wolf's Cracked Tooth",
+            "ja-jp": "凛風奔狼の砕牙",
+            "zh-cn": "凛风奔狼的裂齿",
+            "ko-kr": "칼바람 울프의 이빨",
+            "ru-ru": "Треснувший зуб арктического волка",
+            "de-de": "Zersplitterter Zahn des borealischen Wolfs",
+            "fr-fr": "Croc brisé du Loup boréal",
+            "es-es": "Diente roto de lobo boreal",
+            "id-id": "Boreal Wolf's Cracked Tooth",
+            "th-th": "Boreal Wolf's Cracked Tooth",
+            "vi-vn": "Răng Vỡ Sói Bão",
+            "zh-tw": "凜風奔狼的裂齒"
+          }
+        },
+        {
+          "id": 441,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Folha Morta de Linha Ley",
+            "en-us": "Dead Ley Line Leaves",
+            "ja-jp": "地脈の枯れ葉",
+            "zh-cn": "地脉的枯叶",
+            "ko-kr": "지맥의 마른 잎",
+            "ru-ru": "Листья артерий земли",
+            "de-de": "Verdorrte Blätter des Flusses der Elemente",
+            "fr-fr": "Feuilles mortes des lignes énergétiques",
+            "es-es": "Hojas secas de líneas ley",
+            "id-id": "Dead Ley Line Leaves",
+            "th-th": "Dead Ley Line Leaves",
+            "vi-vn": "Lá Khô Địa Mạch",
+            "zh-tw": "地脈的枯葉"
+          }
+        },
+        {
+          "id": 1683,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Ponta de Flecha Afiada",
+            "en-us": "Sharp Arrowhead",
+            "ja-jp": "鋭利な矢先",
+            "zh-cn": "锐利的箭簇",
+            "ko-kr": "날카로운 화살촉",
+            "ru-ru": "Острый наконечник стрелы",
+            "de-de": "Scharfe Bolzenspitze",
+            "fr-fr": "Pointe de flèche aiguisée",
+            "es-es": "Flecha afilada",
+            "id-id": "Sharp Arrowhead",
+            "th-th": "Sharp Arrowhead",
+            "vi-vn": "Mũi Tên Sắc Bén",
+            "zh-tw": "銳利的箭鏃"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 326,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "Presa Quebrada do Lobo Boreal",
+            "en-us": "Boreal Wolf's Broken Fang",
+            "ja-jp": "凛風奔狼の断牙",
+            "zh-cn": "凛风奔狼的断牙",
+            "ko-kr": "칼바람 울프의 부서진 이빨",
+            "ru-ru": "Сломанный клык арктического волка",
+            "de-de": "Abgebrochener Zahn des borealischen Wolfs",
+            "fr-fr": "Croc fendu du Loup boréal",
+            "es-es": "Colmillo roto de lobo boreal",
+            "id-id": "Boreal Wolf's Broken Fang",
+            "th-th": "Boreal Wolf's Broken Fang",
+            "vi-vn": "Mảnh Răng Sói Bão",
+            "zh-tw": "凜風奔狼的斷牙"
+          }
+        },
+        {
+          "id": 441,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Folha Morta de Linha Ley",
+            "en-us": "Dead Ley Line Leaves",
+            "ja-jp": "地脈の枯れ葉",
+            "zh-cn": "地脉的枯叶",
+            "ko-kr": "지맥의 마른 잎",
+            "ru-ru": "Листья артерий земли",
+            "de-de": "Verdorrte Blätter des Flusses der Elemente",
+            "fr-fr": "Feuilles mortes des lignes énergétiques",
+            "es-es": "Hojas secas de líneas ley",
+            "id-id": "Dead Ley Line Leaves",
+            "th-th": "Dead Ley Line Leaves",
+            "vi-vn": "Lá Khô Địa Mạch",
+            "zh-tw": "地脈的枯葉"
+          }
+        },
+        {
+          "id": 1683,
+          "iconUrl": null,
+          "amount": 14,
+          "name": {
+            "pt-pt": "Ponta de Flecha Afiada",
+            "en-us": "Sharp Arrowhead",
+            "ja-jp": "鋭利な矢先",
+            "zh-cn": "锐利的箭簇",
+            "ko-kr": "날카로운 화살촉",
+            "ru-ru": "Острый наконечник стрелы",
+            "de-de": "Scharfe Bolzenspitze",
+            "fr-fr": "Pointe de flèche aiguisée",
+            "es-es": "Flecha afilada",
+            "id-id": "Sharp Arrowhead",
+            "th-th": "Sharp Arrowhead",
+            "vi-vn": "Mũi Tên Sắc Bén",
+            "zh-tw": "銳利的箭鏃"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 326,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Presa Quebrada do Lobo Boreal",
+            "en-us": "Boreal Wolf's Broken Fang",
+            "ja-jp": "凛風奔狼の断牙",
+            "zh-cn": "凛风奔狼的断牙",
+            "ko-kr": "칼바람 울프의 부서진 이빨",
+            "ru-ru": "Сломанный клык арктического волка",
+            "de-de": "Abgebrochener Zahn des borealischen Wolfs",
+            "fr-fr": "Croc fendu du Loup boréal",
+            "es-es": "Colmillo roto de lobo boreal",
+            "id-id": "Boreal Wolf's Broken Fang",
+            "th-th": "Boreal Wolf's Broken Fang",
+            "vi-vn": "Mảnh Răng Sói Bão",
+            "zh-tw": "凜風奔狼的斷牙"
+          }
+        },
+        {
+          "id": 439,
+          "iconUrl": null,
+          "amount": 14,
+          "name": {
+            "pt-pt": "Broto de Linha Ley",
+            "en-us": "Ley Line Sprout",
+            "ja-jp": "地脈の新芽",
+            "zh-cn": "地脉的新芽",
+            "ko-kr": "지맥의 새싹",
+            "ru-ru": "Ростки артерий земли",
+            "de-de": "Frische Triebe des Flusses der Elemente",
+            "fr-fr": "Pousse des lignes énergétiques",
+            "es-es": "Brotes de líneas ley",
+            "id-id": "Ley Lines Sprouts",
+            "th-th": "Ley Lines Sprouts",
+            "vi-vn": "Chồi Non Địa Mạch",
+            "zh-tw": "地脈的新芽"
+          }
+        },
+        {
+          "id": 367,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Ponta de Flecha Usada",
+            "en-us": "Weathered Arrowhead",
+            "ja-jp": "歴戦の矢先",
+            "zh-cn": "历战的箭簇",
+            "ko-kr": "역전의 화살촉",
+            "ru-ru": "Старый наконечник стрелы",
+            "de-de": "Abgenutzte Bolzenspitze",
+            "fr-fr": "Pointe de flèche usée",
+            "es-es": "Flecha veterana",
+            "id-id": "Weathered Arrowhead",
+            "th-th": "Historic Arrowhead",
+            "vi-vn": "Mũi Tên Thiện Chiến",
+            "zh-tw": "歷戰的箭鏃"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 325,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Nostalgia do Lobo Boreal",
+            "en-us": "Boreal Wolf's Nostalgia",
+            "ja-jp": "凛風奔狼の郷愁",
+            "zh-cn": "凛风奔狼的怀乡",
+            "ko-kr": "칼바람 울프의 그리운 고향",
+            "ru-ru": "Ностальгия арктического волка",
+            "de-de": "Heimweh des borealischen Wolfs",
+            "fr-fr": "Nostalgie du Loup boréal",
+            "es-es": "Nostalgia del lobo boreal",
+            "id-id": "Boreal Wolf's Nostalgia",
+            "th-th": "Boreal Wolf's Nostalgia",
+            "vi-vn": "Nỗi Nhớ Của Sói Bão",
+            "zh-tw": "凜風奔狼的懷鄉"
+          }
+        },
+        {
+          "id": 439,
+          "iconUrl": null,
+          "amount": 27,
+          "name": {
+            "pt-pt": "Broto de Linha Ley",
+            "en-us": "Ley Line Sprout",
+            "ja-jp": "地脈の新芽",
+            "zh-cn": "地脉的新芽",
+            "ko-kr": "지맥의 새싹",
+            "ru-ru": "Ростки артерий земли",
+            "de-de": "Frische Triebe des Flusses der Elemente",
+            "fr-fr": "Pousse des lignes énergétiques",
+            "es-es": "Brotes de líneas ley",
+            "id-id": "Ley Lines Sprouts",
+            "th-th": "Ley Lines Sprouts",
+            "vi-vn": "Chồi Non Địa Mạch",
+            "zh-tw": "地脈的新芽"
+          }
+        },
+        {
+          "id": 367,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Ponta de Flecha Usada",
+            "en-us": "Weathered Arrowhead",
+            "ja-jp": "歴戦の矢先",
+            "zh-cn": "历战的箭簇",
+            "ko-kr": "역전의 화살촉",
+            "ru-ru": "Старый наконечник стрелы",
+            "de-de": "Abgenutzte Bolzenspitze",
+            "fr-fr": "Pointe de flèche usée",
+            "es-es": "Flecha veterana",
+            "id-id": "Weathered Arrowhead",
+            "th-th": "Historic Arrowhead",
+            "vi-vn": "Mũi Tên Thiện Chiến",
+            "zh-tw": "歷戰的箭鏃"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "48"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "7.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "133",
+          "postAscensionValue": "164"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "12.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "261",
+          "postAscensionValue": "292"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "18.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "341",
+          "postAscensionValue": "373"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "21.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "423",
+          "postAscensionValue": "455"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "24.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "506",
+          "postAscensionValue": "537"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "27.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "590",
+          "postAscensionValue": "621"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "30.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "674",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "33.1%"
+        }
+      ]
+    }
+  ]
+}

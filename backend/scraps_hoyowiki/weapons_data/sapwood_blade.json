@@ -1,0 +1,547 @@
+{
+  "id": "sapwood_blade",
+  "wiki_id": 2667,
+  "name": {
+    "pt-pt": "Espada de Madeira",
+    "en-us": "Sapwood Blade",
+    "ja-jp": "原木刀",
+    "zh-cn": "原木刀",
+    "ko-kr": "원목 검",
+    "ru-ru": "Деревянный клинок",
+    "de-de": "Stammklinge",
+    "fr-fr": "Lame d'aubier",
+    "es-es": "Espada de Madera",
+    "id-id": "Sapwood Blade",
+    "th-th": "Sapwood Blade",
+    "vi-vn": "Kiếm Gỗ",
+    "zh-tw": "原木刀"
+  },
+  "description": {
+    "pt-pt": "Uma arma obtida através de uma das histórias dos Aranara. Ela tomou a forma de uma espada que é capaz de cortar os inimigos da floresta.",
+    "en-us": "It has taken on the shape of a blade that can cut down the foes of the forest.",
+    "ja-jp": "アランナラの物語で手に入る武器。刀のような形をしており、森に出没する敵を切り伏せられる。",
+    "zh-cn": "从兰那罗的故事中得到的武器。具有刀的形制，能够贯穿森林的敌人。",
+    "ko-kr": "아란나라의 이야기에서 획득한 무기. 검의 형태를 지니고 있으며 숲속의 적을 관통할 수 있다",
+    "ru-ru": "Оружие, полученное из истории аранар. Оно приняло форму меча, который способен пронзать врагов леса.",
+    "de-de": "Eine Waffe, die du aus einer Geschichte über die Aranara erhalten hast. Sie hat die Form eines Schwerts angenommen, mit dem man die Gegner des Waldes niederstrecken kann.",
+    "fr-fr": "Une arme que vous avez obtenue dans un conte d'aranara.Elle a pris la forme d'une lame qui peut terrasser les ennemis de la forêt.",
+    "es-es": "Un arma obtenida a través de una de las historias de los aranara. Tiene forma de espada y es capaz de atravesar a cualquier enemigo del bosque.",
+    "id-id": "Senjata dengan bentuk pisau ini bisa menembus musuh hutan.",
+    "th-th": "อาวุธที่ได้รับมาจากเรื่องเล่าของ Aranara ซึ่งมีรูปร่างเหมือนดาบ สามารถตัดสะบั้นศัตรูของป่าได้",
+    "vi-vn": "Vũ khí nhận được từ câu chuyện của Aranara. Có tạo hình của lưỡi đao, có thể tiêu diệt kẻ địch trong rừng.",
+    "zh-tw": "從蘭那羅的故事中得到的武器。具有刀的形制，能夠貫穿森林的敵人。"
+  },
+  "rarity": 4,
+  "type": {
+    "pt-pt": "Espada",
+    "en-us": "Sword",
+    "ja-jp": "片手剣",
+    "zh-cn": "单手剑",
+    "ko-kr": "한손검",
+    "ru-ru": "Одноручное",
+    "de-de": "Einhänder",
+    "fr-fr": "Épée à une main",
+    "es-es": "Espada ligera",
+    "id-id": "Sword",
+    "th-th": "ดาบ",
+    "vi-vn": "Kiếm Đơn",
+    "zh-tw": "單手劍"
+  },
+  "subStat": {
+    "pt-pt": "Recarga de Energia%",
+    "en-us": "Energy Recharge",
+    "ja-jp": "元素チャージ効率",
+    "zh-cn": "元素充能效率",
+    "ko-kr": "원소 충전 효율",
+    "ru-ru": "Восст. энергии",
+    "de-de": "Aufladerate",
+    "fr-fr": "Recharge d'énergie",
+    "es-es": "Recarga de Energía",
+    "id-id": "Energy Recharge",
+    "th-th": "การฟื้นฟูพลังงาน",
+    "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+    "zh-tw": "元素充能效率"
+  },
+  "passiveName": {
+    "pt-pt": "Bênção da Floresta",
+    "en-us": "Forest Sanctuary",
+    "ja-jp": "フォレストサンクチュアリ",
+    "zh-cn": "森林的瑞佑",
+    "ko-kr": "숲의 비호",
+    "ru-ru": "Благословение чащи:",
+    "de-de": "Segen des Waldes",
+    "fr-fr": "Effet passif",
+    "es-es": "Gracia del bosque",
+    "id-id": "Forest Sanctuary",
+    "th-th": "Forest Sanctuary",
+    "vi-vn": "Chúc Phúc Của Rừng",
+    "zh-tw": "森林的瑞佑"
+  },
+  "passiveDescription": {
+    "pt-pt": "Após desencadear Queimaduras, Aceleração, Intensificação, Propagação, Florescimento, Superflorescimento ou Germinação, uma Folha da Consciência será criada em volta do personagem por no máximo 10s. Quando coletada, a Folha da Consciência aumentará a Proficiência Elemental do personagem em 60/75/90/105/120 por 12s. Apenas 1 Folha pode ser criada dessa forma a cada 20s. Esse efeito ainda pode ser desencadeado mesmo se o personagem não estiver em campo. O efeito da Folha da Consciência não pode ser acumulado.",
+    "en-us": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60/75/90/105/120 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack.",
+    "ja-jp": "燃焼、原激化、超激化、草激化、開花、超開花、または烈開花反応を起こすと、キャラクターの周囲に最大10秒間継続する「唯識の葉」を生成する。「唯識の葉」を拾ったキャラクターは、元素熟知+60/75/90/105/120、継続時間12秒。この方式で生成できる「唯識の葉」は20秒毎に1つのみ。待機中のキャラクターも発動できる。「唯識の葉」効果は重ね掛けできない。",
+    "zh-cn": "触发燃烧、原激化、超激化、蔓激化、绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「种识之叶」。拾取种识之叶的角色元素精通提升60/75/90/105/120点，持续12秒。每20秒至多通过这种方式产生一枚种识之叶。角色处于队伍后台时也能触发。种识之叶的效果无法叠加。",
+    "ko-kr": "연소, 활성, 촉진, 발산, 개화, 만개 또는 발화 발동 후, 캐릭터 주변에 최대 10초 동안 존재하는 「유식의 잎사귀」가 생성된다. 유식의 잎사귀를 습득한 캐릭터는 원소 마스터리가 60/75/90/105/120pt 증가한다. 지속 시간: 12초. 해당 방식으로 20초마다 유식의 잎사귀를 최대 1개 생성한다. 캐릭터가 대기 상태일 때도 발동된다. 유식의 잎사귀 효과는 중첩되지 않는다",
+    "ru-ru": "Активация статусов Горение, Стимуляция, Обострение, Разрастание, Бутонизация, Вегетация и Цветение создают рядом с персонажем Семя сознания, которое существует 10 сек. Мастерство стихий подобравшего его персонажа повышается на 60/75/90/105/120 ед. на 12 сек. Семя сознания может возникнуть раз в 20 сек. Этот эффект срабатывает, даже если экипированный персонаж не на поле боя. Эффект Семени сознания не суммируется.",
+    "de-de": "Erzeugt nach dem Auslösen der Reaktionen wie „In Flammen“, „Urwuchs“, „Suprawuchs“, „Rankenwuchs“, „Sprießen“, „Supraspross“ oder „Flammenspross“ in der Umgebung der Figur ein Vijnana-Blatt, das höchstens 10s lang bestehen bleibt. Erhöht 12s lang die Elementarkunde der Figur, die das Blatt sammelt, um 60 ~ 75 ~ 90 ~ 105 ~ 120 Punkte. Auf diese Weise kann alle 20s nur ein Vijnana-Blatt erzeugt werden. Dieser Effekt tritt auch in Kraft, wenn sich die Figur inaktiv in der Truppe befindet. Der Effekt von Vijnana-Blatt ist nicht stapelbar.",
+    "fr-fr": "Après avoir déclenché une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, d'Exubérance ou de Bourgeonnement, une feuille de conscience est générée autour du personnage pendant un maximum de 10 s. Une fois collectée, la feuille augmente la maîtrise élémentaire du personnage de 60/75/90/105/120 pts pendant 12 s. Une feuille de conscience peut être créée de cette manière une fois toutes les 20 s. L'effet peut être déclenché même lorsque le personnage fait partie de l'équipe mais n'est pas déployé. L'effet de la feuille de conscience ne se cumule pas.",
+    "es-es": "Al causar una reacción de Quemadura, Aceleración, Intensificación, Propagación, Florecimiento, Sobreflorecimiento o Crepitar, se crea cerca del personaje una hoja alayavijñana que existirá durante 10 s. La Maestría Elemental del personaje que la recoja aumentará en 60/75/90/105/120 pts. durante 12 s. Solo se puede crear una hoja alayavijñana cada 20 s de esta manera. Este efecto también se puede activar cuando el personaje está en tu equipo pero no en combate, y no se puede acumular.",
+    "id-id": "Setelah memicu Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, atau Burgeon, \"Leaf of Consciousness\" akan muncul di sekitar Karakter dan bertahan hingga 10 detik. Elemental Mastery dari Karakter yang mengambil \"Leaf of Consciousness\" ini akan meningkat sebesar 60/75/90/105/120 poin selama 12 detik. Maksimal satu \"Leaf of Consciousness\" yang bisa dihasilkan setiap 20 detik dengan cara ini. Juga bisa terpicu saat Karakter party yang mengenakannya ada dalam party namun sedang tidak berada di medan pertempuran. Efek Leaf of Consciousness tidak dapat ditumpuk.",
+    "th-th": "หลังจากเกิดปฏิกิริยาติดไฟ, ปลุกเร้า, บีบอัด, แพร่ขยาย, งอกเงย, ไฮเปอร์บลูม หรือเบ่งบาน จะสร้าง Leaf of Consciousness ที่จะคงอยู่ได้นานสุดถึง 10 วินาที ขึ้นมาตรงบริเวณที่ตัวละครอยู่ ซึ่งความชำนาญธาตุของตัวละครที่เก็บ Leaf of Consciousness จะเพิ่มขึ้น 60 หน่วย เป็นเวลา 12 วินาที โดยที่ทุก 20 วินาที จะเกิด Leaf of Consciousness ด้วยวิธีนี้ได้มากสุดหนึ่งอัน และเอฟเฟกต์นี้สามารถเกิดขึ้นได้แม้ตัวละครอยู่ในทีม แต่ไม่ได้เข้าร่วมการต่อสู้ เอฟเฟกต์ของ Leaf of Consciousness ไม่สามารถซ้อนทับกันได้",
+    "vi-vn": "Sau khi kích hoạt phản ứng Thiêu Đốt, Sinh Trưởng, Tăng Cường, Lan Tràn, Sum Suê, Nở Rộ hoặc Bung Tỏa sẽ sản sinh “Lá Tri Thức” tồn tại tối đa 10s ở xung quanh nhân vật. Nhân vật khi nhặt “Lá Tri Thức” sẽ tăng 60 điểm Tinh Thông Nguyên Tố, duy trì 12s. Mỗi 20s tối đa sản sinh một “Lá Tri Thức” bằng cách này. Nhân vật khi không ra trận cũng sẽ kích hoạt. Hiệu ứng Lá Tri Thức không thể cộng dồn.",
+    "zh-tw": "觸發燃燒、原激化、超激化、蔓激化、綻放、超綻放或烈綻放後，將在角色周圍產生至多存在10秒的「種識之葉」。拾取種識之葉的角色元素精通提升60/75/90/105/120點，持續12秒。每20秒至多依此方式產生一枚種識之葉。角色處於隊伍後臺時也能觸發。種識之葉的效果無法疊加。"
+  },
+  "weaponIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/27/16791688/b7dc579e8ad60147a049d14fc277629c_2259062922771922267.png",
+  "ascensionMaterials": [],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv. 1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St. 1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv. 1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv. 1",
+        "zh-tw": "Lv. 1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "44"
+        },
+        {
+          "label": {
+            "pt-pt": "Material de Ascensão",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "6.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv. 20",
+        "zh-tw": "Lv. 20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "119",
+          "postAscensionValue": "144"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "11.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv. 40",
+        "zh-tw": "Lv. 40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "226",
+          "postAscensionValue": "252"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "17.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv. 50",
+        "zh-tw": "Lv. 50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "293",
+          "postAscensionValue": "319"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "19.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv. 60",
+        "zh-tw": "Lv. 60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "361",
+          "postAscensionValue": "387"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "22.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv. 70",
+        "zh-tw": "Lv. 70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "429",
+          "postAscensionValue": "455"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "25.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv. 80",
+        "zh-tw": "Lv. 80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "497",
+          "postAscensionValue": "523"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "27.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St. 90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv. 90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv. 90",
+        "zh-tw": "Lv. 90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "565",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Energy Recharge",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "30.6%"
+        }
+      ]
+    }
+  ]
+}

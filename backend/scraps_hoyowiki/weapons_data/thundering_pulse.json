@@ -1,0 +1,1022 @@
+{
+  "id": "thundering_pulse",
+  "wiki_id": 2049,
+  "name": {
+    "pt-pt": "Agitação Trovejante",
+    "en-us": "Thundering Pulse",
+    "ja-jp": "飛雷の鳴弦",
+    "zh-cn": "飞雷之弦振",
+    "ko-kr": "비뢰의 고동",
+    "ru-ru": "Громовой пульс",
+    "de-de": "Donnerpuls",
+    "fr-fr": "Pulsation du tonnerre",
+    "es-es": "Agitador del Relámpago",
+    "id-id": "Thundering Pulse",
+    "th-th": "Thundering Pulse",
+    "vi-vn": "Sấm Sét Rung Động",
+    "zh-tw": "飛雷之弦振"
+  },
+  "description": {
+    "pt-pt": "Um Arco Longo que foi dado a alguém pela Shogun. Ele emite raios que nunca se apagam.",
+    "en-us": "A longbow that was a gift from the Shogun. Eternal lightning crackles all around it.",
+    "ja-jp": "将軍から賜わった長弓。消えぬ雷光が輝いている。",
+    "zh-cn": "曾由将军御赐的长弓，闪烁着永不熄灭的雷光。",
+    "ko-kr": "쇼군이 하사한 장궁, 영원히 꺼지지 않는 뇌광이 반짝인다.",
+    "ru-ru": "Лук, дарованный сёгуном. Его окружают непрестанно потрескивающие молнии.",
+    "de-de": "Ein Langbogen, der ein Geschenk des Shouguns war. Ewige Blitze knistern rundherum.",
+    "fr-fr": "Un arc long qui était un cadeau de la Shogun. Il crépite d'éclairs qui ne tariront jamais.",
+    "es-es": "Un arco que la Shogun le otorgó a alguien. Emite unos destellos eléctricos que nunca se apagarán.",
+    "id-id": "Busur panjang yang dihadiahkan oleh Shogun, memancarkan kilatan cahaya yang tidak pernah padam.",
+    "th-th": "ธนูยาวที่เคยถูกมอบให้เป็นของขวัญโดยโชกุน ส่องประกายแสงของสายฟ้าชั่วนิรันดร์",
+    "vi-vn": "Chiếc cung được Shogun ban tặng, ánh lên sắc màu của lôi điện bất diệt.",
+    "zh-tw": "曾由將軍御賜的長弓，閃爍著永不熄滅的雷光。"
+  },
+  "rarity": 5,
+  "type": {
+    "pt-pt": "Arco",
+    "en-us": "Bow",
+    "ja-jp": "弓",
+    "zh-cn": "弓",
+    "ko-kr": "활",
+    "ru-ru": "Стрелковое",
+    "de-de": "Bogen",
+    "fr-fr": "Arc",
+    "es-es": "Arco",
+    "id-id": "Bow",
+    "th-th": "ธนู",
+    "vi-vn": "Cung",
+    "zh-tw": "弓"
+  },
+  "subStat": {
+    "pt-pt": "Dano CRIT%",
+    "en-us": "CRIT DMG",
+    "ja-jp": "会心ダメージ",
+    "zh-cn": "暴击伤害",
+    "ko-kr": "치명타 피해",
+    "ru-ru": "Крит. урон",
+    "de-de": "KSCH",
+    "fr-fr": "DGT CRIT",
+    "es-es": "Daño CRIT",
+    "id-id": "CRIT DMG",
+    "th-th": "ความแรงคริ",
+    "vi-vn": "Sát Thương Bạo Kích",
+    "zh-tw": "暴擊傷害"
+  },
+  "passiveName": {
+    "pt-pt": "Governo do Trovão",
+    "en-us": "Rule by Thunder",
+    "ja-jp": "飛雷の御執",
+    "zh-cn": "飞雷御执",
+    "ko-kr": "비뢰 어궁",
+    "ru-ru": "Правило грома:",
+    "de-de": "Blitzherrschaft",
+    "fr-fr": "Règne du tonnerre",
+    "es-es": "Imperio del trueno",
+    "id-id": "Rule by Thunder",
+    "th-th": "Rule by Thunder",
+    "vi-vn": "Đế Chế Sấm Sét",
+    "zh-tw": "飛雷御執"
+  },
+  "passiveDescription": {
+    "pt-pt": "Aumenta o Ataque em 20%/25%/30%/35%/40%, e concede a grandeza do Selo da Trovoada. Nas cargas 1/2/3, o Selo de Trovoada aumenta o Dano do Ataque Normal em 12/24/40%/15/30/50%/18/36/60%/21/42/70%/24/48/80%. O personagem obterá uma carga de Selo da Trovoada nos seguintes cenários: Ataque Normal que causa Dano (a carga dura 5s), lançar uma Habilidade Elemental (carga dura 10s); Energia Elemental menor que 100% (carga desaparece quando a energia está completa). A duração de cada carga é calculada independentemente uma da outra.",
+    "en-us": "Increases ATK by 20%/25%/30%/35%/40% and grants the might of the Thunder Emblem. At stack levels 1/2/3, the Thunder Emblem increases Normal Attack DMG by 12%/24%/40% | 15%/30%/50% | 18%/36%/60% | 21%/42%/70% | 24%48%/80%. The character will obtain 1 stack of Thunder Emblem in each of the following scenarios: Normal Attack deals DMG (stack lasts 5s), casting Elemental Skill (stack lasts 10s); Energy is less than 100% (stack disappears when Energy is full). Each stack's duration is calculated independently.",
+    "ja-jp": "攻撃力+20/25/30/35/40%、「飛雷の巴紋」の効果を獲得できる。飛雷の巴紋を1/2/3層有する時、通常攻撃のダメージ+12/24/40% | 15/30/50% | 18/36/60% | 21/42/70% | 24/48/80%。飛雷の巴紋は次の各状況において獲得できる。通常攻撃でダメージを与えた時、継続時間5秒の飛雷の巴紋を1層獲得する。元素スキルを発動した時、継続時間10秒の飛雷の巴紋を1層獲得する。また、キャラクターの元素エネルギーが100%未満の場合、飛雷の巴紋を1層獲得する、この飛雷の巴紋は元素エネルギーが満タンになると消失する。飛雷の巴紋の継続時間は層ごとに独立している。",
+    "zh-cn": "攻击力提高20%/25%/30%/35%/40%，并能获得「飞雷之巴印」的威势。飞雷之巴印：持有1/2/3层飞雷之巴印时，普通攻击造成的伤害提高12/24/40%/15/30/50%/18/36/60%/21/42/70%/24/48/80%。在下列情况下，角色将各获得1层飞雷之巴印：普通攻击造成伤害时，持续5秒；施放元素战技时，持续10秒；此外，角色元素能量低于100%时，将获得1层飞雷之巴印，此飞雷之巴印会在角色的元素能量充满时消失。每层飞雷之巴印的持续时间独立计算。",
+    "ko-kr": "공격력이 20%/25%/30%/35%/40% 증가하고, 「비뢰의 문장」의 위세를 획득한다. 비뢰의 문장: 1/2/3스택의 비뢰의 문장 보유 시, 일반 공격으로 가하는 피해가 각각 12%/24%/40% | 15%/30%/50% | 18%/36%/60% | 21%/42%/70% | 24%/48%/80% 증가한다. 캐릭터가 비뢰의 문장 1스택을 획득할 수 있는 상황: 일반 공격으로 피해를 가하면 5초간 지속. 원소전투 스킬을 발동하면 10초간 지속. 이 외에 캐릭터의 원소 에너지가 100% 미만이면 비뢰의 문장을 1스택 획득한다. 해당 비뢰의 문장은 캐릭터의 원소 에너지가 가득 차면 사라지며, 비뢰의 문장의 각 스택 지속 시간은 따로 계산된다.",
+    "ru-ru": "Увеличивает силу атаки на 20%/25%/30%/35%/40% и дарует мощь Громовой эмблемы. На 1 уровне эмблемы урон обычной атаки увеличивается на 12%/15%/18%/21%/24%, на 2 уровне эмблемы на 24%/30%/36%/42%/48%, на 3 уровне эмблемы на 40%/50%/60%/70%/80%. Персонаж получает 1 уровень Громовой эмблемы в каждом из следующих случаев: при нанесении урона обычной атакой (эмблема действует 5 сек.); при применении элементального навыка (эмблема действует 10 сек.); когда элементальная энергия персонажа ниже 100% (эмблема исчезнет, когда элементальная энергия полностью восстановится). Продолжительность действия каждого уровня эмблемы рассчитывается индивидуально.",
+    "de-de": "Erhöht den ANG um 20% ~ 25% ~ 30% ~ 35% ~40% und verleiht die Kraft des „Blitzflugsiegels“: Erhöht den mit Standardangriffen verursachten Schaden bei 1/2/3 Stapelungen um jeweils 12/24/40% ~ 15/30/50% ~ 18/36/60% ~ 21/42/70% ~ 24/48/80%. Verleiht der Figur in folgenden Situationen je 1 Blitzflugsiegel: Verursachen von Schaden mit Standardangriffen, hält 5s; Anwendung von Elementarfähigkeiten, hält 10s; Elementarenergie der Figur unter 100%, verschwindet bei voller Elementarenergie. Wirkungsdauer jeder Stapelung Blitzflugsiegel ist unabhängig.",
+    "fr-fr": "Augmente l'ATQ de 20 %/25 %/30 %/35 %/40 %, et confère la puissance du sceau du tonnerre. 1/2/3 charges de sceau du tonnerre augmentent respectivement les DGT des attaques normales de 12/24/40 %/15/30/50 %/18/36/60 %/21/42/70 %/24/48/80 %. Le personnage peut obtenir 1 charge de sceau du tonnerre dans chacune des situations suivantes : si son attaque normale inflige des DGT, il obtient une charge de 5 s ; s'il utilise sa compétence élémentaire, il obtient une charge de 10 s ; si son énergie élémentaire est inférieure à 100 %, il obtient une charge qui disparaît lorsque l'énergie redevient pleine. La durée de chaque charge est calculée indépendamment.",
+    "es-es": "Aumenta el ATQ en un 20%/25%/30%/35%/40% y otorga el poder de los emblemas del trueno. Dependiendo de si se tienen 1, 2 o 3 emblemas del trueno, el daño infligido con los Ataques Normales aumenta en un 12/24/40%/15/30/50%/18/36/60%/21/42/70%/24/48/80%. En las siguientes situaciones, el personaje obtiene un emblema: al infligir daño con Ataques Normales. El emblema dura 5 s; al realizar una Habilidad Elemental. El emblema dura 10 s; cuando la Energía Elemental del personaje está por debajo del 100%. El emblema del trueno obtenido de esta manera dura hasta que el personaje regenere toda su Energía Elemental. La duración de cada emblema del trueno se calcula de manera independiente.",
+    "id-id": "Meningkatkan 20%/25%/30%/35%/40% ATK dan memberikan kekuatan Thunder Emblem. dan memberikan kekuatan Thunder Emblem. Pada lapisan level 1/2/3, Thunder Emblem meningkatkan Normal Attack DMG sebesar 12%/24%/40% | 15%/30%/50% | 18%/36%/60% | 21%/42%/70% | 24%48%/80%. Karakter akan mendapatkan 1 lapis Thunder Emblem untuk setiap skenario berikut: Saat Normal Attack mengakibatkan DMG (lapisan bertahan selama 5 detik), saat melancarkan Elemental Skill (lapisan bertahan selama 10 detik). Selain itu, Karakter juga akan mendapatkan 1 lapis saat Energy kurang dari 100% (lapisan ini akan menghilang saat Energy penuh). Durasi setiap lapis dihitung secara terpisah.",
+    "th-th": "พลังโจมตีเพิ่มขึ้น 20% และจะสามารถได้รับพลังของ \"Thunder Emblem\" โดยเมื่อครอบครอง Thunder Emblem 1/2/3 ชั้น ความเสียหายของการโจมตีปกติจะเพิ่มขึ้น 12/24/40% โดยที่ตัวละครจะได้รับ Thunder Emblem 1 ชั้น ในแต่ละสถานการณ์ต่อไปนี้: เมื่อการโจมตีปกติทำให้เกิดความเสียหาย (คงอยู่ 5 วินาที); เมื่อใช้สกิลธาตุ (คงอยู่ 10 วินาที); เมื่อพลังงานธาตุของตัวละครต่ำกว่า 100% (จะหายไปเมื่อพลังงานธาตุของตัวละครเต็ม) โดยช่วงเวลาคงอยู่ของ Thunder Emblem แต่ละชั้นจะถูกคิดแยกกัน",
+    "vi-vn": "Tấn công tăng 20%, đồng thời nhận lấy sức mạnh \"Vết Cắt Sấm Sét\". Khi Vết Cắt Sấm Sét ở tầng 1/2/3 sẽ tăng sát thương tấn công thường tương ứng 12/24/40%. Nhân vật sẽ được nhận 1 tầng Vết Cắt Sấm Sét khi: Gây sát thương tấn công thường trong 5 giây; thi triển Kỹ Năng Nguyên Tố tồn tại trong 10 giây; ngoài ra Năng Lượng Nguyên Tố thấp hơn 100%, sẽ tạo một tầng Vết Cắt Sấm Sét, Vết Cắt Sấm Sét của lần này sẽ biến mất sau khi Năng Lượng Nguyên Tố của nhân vật được nạp đầy. Thời gian tồn tại của mỗi tầng Vết Cắt Sấm Sét được tính độc lập với nhau.",
+    "zh-tw": "攻擊力提高20%/25%/30%/35%/40%，並能獲得「飛雷之巴印」的威勢。飛雷之巴印：持有1/2/3層飛雷之巴印時，普通攻擊造成的傷害提高12/24/40% | 15/30/50% | 18/36/60% | 21/42/70% | 24/48/80%。在下列情況下，角色將各獲得一層飛雷之巴印：普通攻擊造成傷害時，持續5秒；施放元素戰技時，持續10秒；此外，角色元素能量低於100%時，將獲得一層飛雷之巴印，此飛雷之巴印會在角色的元素能量充滿時消失。每層飛雷之巴印的持續時間獨立計算。"
+  },
+  "weaponIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/weapon/飞雷之弦振.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 1906,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "A Sabedoria de Narukami",
+            "en-us": "Narukami's Wisdom",
+            "ja-jp": "鳴神御霊の恩恵",
+            "zh-cn": "鸣神御灵的明惠",
+            "ko-kr": "나루카미 어령의 은혜",
+            "ru-ru": "Мудрость Наруками",
+            "de-de": "Narukamis Weisheit",
+            "fr-fr": "Sagesse de Narukami",
+            "es-es": "Sabiduría de Narukami",
+            "id-id": "Narukami's Wisdom",
+            "th-th": "Narukami's Wisdom",
+            "vi-vn": "Trí Tuệ Của Narukami",
+            "zh-tw": "鳴神御靈的明惠"
+          }
+        },
+        {
+          "id": 1925,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "Prisma Sombrio",
+            "en-us": "Dismal Prism",
+            "ja-jp": "暗色プリズム",
+            "zh-cn": "黯淡棱镜",
+            "ko-kr": "어두운 프리즘",
+            "ru-ru": "Тёмная призма",
+            "de-de": "Düsteres Prisma",
+            "fr-fr": "Prisme sombre",
+            "es-es": "Prisma oscuro",
+            "id-id": "Dismal Prism",
+            "th-th": "Dismal Prism",
+            "vi-vn": "Lăng Kính Ảm Đạm",
+            "zh-tw": "黯淡稜鏡"
+          }
+        },
+        {
+          "id": 1105,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Ponta de Flecha Robusta",
+            "en-us": "Firm Arrowhead",
+            "ja-jp": "牢固な矢先",
+            "zh-cn": "牢固的箭簇",
+            "ko-kr": "견고한 화살촉",
+            "ru-ru": "Прочный наконечник стрелы",
+            "de-de": "Stabile Bolzenspitze",
+            "fr-fr": "Pointe de flèche robuste",
+            "es-es": "Flecha robusta",
+            "id-id": "Firm Arrowhead",
+            "th-th": "Firm Arrowhead",
+            "vi-vn": "Mũi Tên Chắc Chắn",
+            "zh-tw": "牢固的箭鏃"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 1907,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "A Alegria de Narukami",
+            "en-us": "Narukami's Joy",
+            "ja-jp": "鳴神御霊の歓喜",
+            "zh-cn": "鸣神御灵的欢喜",
+            "ko-kr": "나루카미 어령의 환희",
+            "ru-ru": "Радость Наруками",
+            "de-de": "Narukamis Freude",
+            "fr-fr": "Joie de Narukami",
+            "es-es": "Júbilo de Narukami",
+            "id-id": "Narukami's Joy",
+            "th-th": "Narukami's Joy",
+            "vi-vn": "Sở Thích Của Narukami",
+            "zh-tw": "鳴神御靈的歡喜"
+          }
+        },
+        {
+          "id": 1925,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Prisma Sombrio",
+            "en-us": "Dismal Prism",
+            "ja-jp": "暗色プリズム",
+            "zh-cn": "黯淡棱镜",
+            "ko-kr": "어두운 프리즘",
+            "ru-ru": "Тёмная призма",
+            "de-de": "Düsteres Prisma",
+            "fr-fr": "Prisme sombre",
+            "es-es": "Prisma oscuro",
+            "id-id": "Dismal Prism",
+            "th-th": "Dismal Prism",
+            "vi-vn": "Lăng Kính Ảm Đạm",
+            "zh-tw": "黯淡稜鏡"
+          }
+        },
+        {
+          "id": 1105,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Ponta de Flecha Robusta",
+            "en-us": "Firm Arrowhead",
+            "ja-jp": "牢固な矢先",
+            "zh-cn": "牢固的箭簇",
+            "ko-kr": "견고한 화살촉",
+            "ru-ru": "Прочный наконечник стрелы",
+            "de-de": "Stabile Bolzenspitze",
+            "fr-fr": "Pointe de flèche robuste",
+            "es-es": "Flecha robusta",
+            "id-id": "Firm Arrowhead",
+            "th-th": "Firm Arrowhead",
+            "vi-vn": "Mũi Tên Chắc Chắn",
+            "zh-tw": "牢固的箭鏃"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 1907,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "A Alegria de Narukami",
+            "en-us": "Narukami's Joy",
+            "ja-jp": "鳴神御霊の歓喜",
+            "zh-cn": "鸣神御灵的欢喜",
+            "ko-kr": "나루카미 어령의 환희",
+            "ru-ru": "Радость Наруками",
+            "de-de": "Narukamis Freude",
+            "fr-fr": "Joie de Narukami",
+            "es-es": "Júbilo de Narukami",
+            "id-id": "Narukami's Joy",
+            "th-th": "Narukami's Joy",
+            "vi-vn": "Sở Thích Của Narukami",
+            "zh-tw": "鳴神御靈的歡喜"
+          }
+        },
+        {
+          "id": 977,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Prisma Cristalino",
+            "en-us": "Crystal Prism",
+            "ja-jp": "水晶プリズム",
+            "zh-cn": "水晶棱镜",
+            "ko-kr": "수정 프리즘",
+            "ru-ru": "Кристальная призма",
+            "de-de": "Kristallprisma",
+            "fr-fr": "Prisme de cristal",
+            "es-es": "Prisma de cristal",
+            "id-id": "Crystal Prism",
+            "th-th": "Crystal Prism",
+            "vi-vn": "Lăng Kính Pha Lê",
+            "zh-tw": "水晶稜鏡"
+          }
+        },
+        {
+          "id": 1683,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Ponta de Flecha Afiada",
+            "en-us": "Sharp Arrowhead",
+            "ja-jp": "鋭利な矢先",
+            "zh-cn": "锐利的箭簇",
+            "ko-kr": "날카로운 화살촉",
+            "ru-ru": "Острый наконечник стрелы",
+            "de-de": "Scharfe Bolzenspitze",
+            "fr-fr": "Pointe de flèche aiguisée",
+            "es-es": "Flecha afilada",
+            "id-id": "Sharp Arrowhead",
+            "th-th": "Sharp Arrowhead",
+            "vi-vn": "Mũi Tên Sắc Bén",
+            "zh-tw": "銳利的箭鏃"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 1904,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "O Afeto de Narukami",
+            "en-us": "Narukami's Affection",
+            "ja-jp": "鳴神御霊の親愛",
+            "zh-cn": "鸣神御灵的亲爱",
+            "ko-kr": "나루카미 어령의 친애",
+            "ru-ru": "Милость Наруками",
+            "de-de": "Narukamis Zuneigung",
+            "fr-fr": "Affection de Narukami",
+            "es-es": "Afecto de Narukami",
+            "id-id": "Narukami's Affection",
+            "th-th": "Narukami's Affection",
+            "vi-vn": "Tình Yêu Của Narukami",
+            "zh-tw": "鳴神御靈的親愛"
+          }
+        },
+        {
+          "id": 977,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Prisma Cristalino",
+            "en-us": "Crystal Prism",
+            "ja-jp": "水晶プリズム",
+            "zh-cn": "水晶棱镜",
+            "ko-kr": "수정 프리즘",
+            "ru-ru": "Кристальная призма",
+            "de-de": "Kristallprisma",
+            "fr-fr": "Prisme de cristal",
+            "es-es": "Prisma de cristal",
+            "id-id": "Crystal Prism",
+            "th-th": "Crystal Prism",
+            "vi-vn": "Lăng Kính Pha Lê",
+            "zh-tw": "水晶稜鏡"
+          }
+        },
+        {
+          "id": 1683,
+          "iconUrl": null,
+          "amount": 14,
+          "name": {
+            "pt-pt": "Ponta de Flecha Afiada",
+            "en-us": "Sharp Arrowhead",
+            "ja-jp": "鋭利な矢先",
+            "zh-cn": "锐利的箭簇",
+            "ko-kr": "날카로운 화살촉",
+            "ru-ru": "Острый наконечник стрелы",
+            "de-de": "Scharfe Bolzenspitze",
+            "fr-fr": "Pointe de flèche aiguisée",
+            "es-es": "Flecha afilada",
+            "id-id": "Sharp Arrowhead",
+            "th-th": "Sharp Arrowhead",
+            "vi-vn": "Mũi Tên Sắc Bén",
+            "zh-tw": "銳利的箭鏃"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 1904,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "O Afeto de Narukami",
+            "en-us": "Narukami's Affection",
+            "ja-jp": "鳴神御霊の親愛",
+            "zh-cn": "鸣神御灵的亲爱",
+            "ko-kr": "나루카미 어령의 친애",
+            "ru-ru": "Милость Наруками",
+            "de-de": "Narukamis Zuneigung",
+            "fr-fr": "Affection de Narukami",
+            "es-es": "Afecto de Narukami",
+            "id-id": "Narukami's Affection",
+            "th-th": "Narukami's Affection",
+            "vi-vn": "Tình Yêu Của Narukami",
+            "zh-tw": "鳴神御靈的親愛"
+          }
+        },
+        {
+          "id": 290,
+          "iconUrl": null,
+          "amount": 14,
+          "name": {
+            "pt-pt": "Prisma Polarizado",
+            "en-us": "Polarizing Prism",
+            "ja-jp": "偏光プリズム",
+            "zh-cn": "偏光棱镜",
+            "ko-kr": "편광 프리즘",
+            "ru-ru": "Поляризационная призма",
+            "de-de": "Polarisationsprisma",
+            "fr-fr": "Prisme polarisant",
+            "es-es": "Prisma polarizador",
+            "id-id": "Polarizing Prism",
+            "th-th": "Polarizing Prism",
+            "vi-vn": "Lăng Kính Phân Cực",
+            "zh-tw": "偏光稜鏡"
+          }
+        },
+        {
+          "id": 367,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Ponta de Flecha Usada",
+            "en-us": "Weathered Arrowhead",
+            "ja-jp": "歴戦の矢先",
+            "zh-cn": "历战的箭簇",
+            "ko-kr": "역전의 화살촉",
+            "ru-ru": "Старый наконечник стрелы",
+            "de-de": "Abgenutzte Bolzenspitze",
+            "fr-fr": "Pointe de flèche usée",
+            "es-es": "Flecha veterana",
+            "id-id": "Weathered Arrowhead",
+            "th-th": "Historic Arrowhead",
+            "vi-vn": "Mũi Tên Thiện Chiến",
+            "zh-tw": "歷戰的箭鏃"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 1905,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "A Coragem de Narukami",
+            "en-us": "Narukami's Valor",
+            "ja-jp": "鳴神御霊の勇武",
+            "zh-cn": "鸣神御灵的勇武",
+            "ko-kr": "나루카미 어령의 용맹",
+            "ru-ru": "Доблесть Наруками",
+            "de-de": "Narukamis Tapferkeit",
+            "fr-fr": "Vaillance de Narukami",
+            "es-es": "Valentía de Narukami",
+            "id-id": "Narukami's Valor",
+            "th-th": "Narukami's Valor",
+            "vi-vn": "Uy Dũng Của Narukami",
+            "zh-tw": "鳴神御靈的勇武"
+          }
+        },
+        {
+          "id": 290,
+          "iconUrl": null,
+          "amount": 27,
+          "name": {
+            "pt-pt": "Prisma Polarizado",
+            "en-us": "Polarizing Prism",
+            "ja-jp": "偏光プリズム",
+            "zh-cn": "偏光棱镜",
+            "ko-kr": "편광 프리즘",
+            "ru-ru": "Поляризационная призма",
+            "de-de": "Polarisationsprisma",
+            "fr-fr": "Prisme polarisant",
+            "es-es": "Prisma polarizador",
+            "id-id": "Polarizing Prism",
+            "th-th": "Polarizing Prism",
+            "vi-vn": "Lăng Kính Phân Cực",
+            "zh-tw": "偏光稜鏡"
+          }
+        },
+        {
+          "id": 367,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Ponta de Flecha Usada",
+            "en-us": "Weathered Arrowhead",
+            "ja-jp": "歴戦の矢先",
+            "zh-cn": "历战的箭簇",
+            "ko-kr": "역전의 화살촉",
+            "ru-ru": "Старый наконечник стрелы",
+            "de-de": "Abgenutzte Bolzenspitze",
+            "fr-fr": "Pointe de flèche usée",
+            "es-es": "Flecha veterana",
+            "id-id": "Weathered Arrowhead",
+            "th-th": "Historic Arrowhead",
+            "vi-vn": "Mũi Tên Thiện Chiến",
+            "zh-tw": "歷戰的箭鏃"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "46"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "14.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "122",
+          "postAscensionValue": "153"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "25.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "235",
+          "postAscensionValue": "266"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "37.1%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "308",
+          "postAscensionValue": "340"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "42.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "382",
+          "postAscensionValue": "414"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "48.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "457",
+          "postAscensionValue": "488"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "54.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "532",
+          "postAscensionValue": "563"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "60.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "608",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "66.2%"
+        }
+      ]
+    }
+  ]
+}

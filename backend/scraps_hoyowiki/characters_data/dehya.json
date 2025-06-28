@@ -48,68 +48,34 @@
   },
   "rarity": 5,
   "vision": {
-    "label": {
-      "pt-pt": "Tipo Elemental",
-      "en-us": "Elemental Type",
-      "ja-jp": "元素タイプ",
-      "zh-cn": "元素属性",
-      "ko-kr": "원소 속성",
-      "ru-ru": "Элемент",
-      "de-de": "Elementartyp",
-      "fr-fr": "Élément",
-      "es-es": "Tipo elemental",
-      "id-id": "Tipe Elemen",
-      "th-th": "ประเภทธาตุ",
-      "vi-vn": "Thuộc Tính Nguyên Tố",
-      "zh-tw": "元素屬性"
-    },
-    "value": {
-      "pt-pt": "Pyro",
-      "en-us": "Pyro",
-      "ja-jp": "炎元素",
-      "zh-cn": "火元素",
-      "ko-kr": "불 원소",
-      "ru-ru": "Пиро",
-      "de-de": "Pyro",
-      "fr-fr": "Pyro",
-      "es-es": "Pyro",
-      "id-id": "Pyro",
-      "th-th": "ไฟ",
-      "vi-vn": "Hỏa",
-      "zh-tw": "火元素"
-    }
+    "pt-pt": "Pyro",
+    "en-us": "Pyro",
+    "ja-jp": "炎元素",
+    "zh-cn": "火元素",
+    "ko-kr": "불 원소",
+    "ru-ru": "Пиро",
+    "de-de": "Pyro",
+    "fr-fr": "Pyro",
+    "es-es": "Pyro",
+    "id-id": "Pyro",
+    "th-th": "ไฟ",
+    "vi-vn": "Hỏa",
+    "zh-tw": "火元素"
   },
   "weapon": {
-    "label": {
-      "pt-pt": "Arma",
-      "en-us": "Weapons",
-      "ja-jp": "武器種",
-      "zh-cn": "武器",
-      "ko-kr": "무기",
-      "ru-ru": "Тип",
-      "de-de": "Waffe",
-      "fr-fr": "Type d'arme",
-      "es-es": "Arma",
-      "id-id": "Senjata",
-      "th-th": "อาวุธ",
-      "vi-vn": "Vũ Khí",
-      "zh-tw": "武器"
-    },
-    "value": {
-      "pt-pt": "Espadão",
-      "en-us": "Claymore",
-      "ja-jp": "両手剣",
-      "zh-cn": "双手剑",
-      "ko-kr": "양손검",
-      "ru-ru": "Двуручное",
-      "de-de": "Zweihänder",
-      "fr-fr": "Épée à deux mains",
-      "es-es": "Mandoble",
-      "id-id": "Claymore",
-      "th-th": "ดาบใหญ่",
-      "vi-vn": "Trọng Kiếm",
-      "zh-tw": "雙手劍"
-    }
+    "pt-pt": "Espadão",
+    "en-us": "Claymore",
+    "ja-jp": "両手剣",
+    "zh-cn": "双手剑",
+    "ko-kr": "양손검",
+    "ru-ru": "Двуручное",
+    "de-de": "Zweihänder",
+    "fr-fr": "Épée à deux mains",
+    "es-es": "Mandoble",
+    "id-id": "Claymore",
+    "th-th": "ดาบใหญ่",
+    "vi-vn": "Trọng Kiếm",
+    "zh-tw": "雙手劍"
   },
   "characterIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/06/89220822/65b22311e1e38ffa45a4928d4005ecee_1005661713083117376.png",
   "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
@@ -118,15 +84,15 @@
     "en-us": "Mantichora",
     "ja-jp": "マンティコア座",
     "zh-cn": "蝎尾鬃狮座",
+    "ko-kr": "N/A",
     "ru-ru": "Мантикора",
     "de-de": "Mantichora",
     "fr-fr": "Mantichora",
     "es-es": "Mantichora",
     "id-id": "Mantichora",
     "th-th": "Mantichora",
-    "zh-tw": "蠍尾鬃獅座",
-    "ko-kr": "N/A",
-    "vi-vn": "N/A"
+    "vi-vn": "N/A",
+    "zh-tw": "蠍尾鬃獅座"
   },
   "specialDish": {
     "id": 3621,
@@ -442,7 +408,7 @@
         "es-es": "Dehya hace uso de distintas técnicas de combate de creación propia según las circunstancias de la batalla.Llama indómitaSe libera cuando no hay ningún cerco ígneo de Dehya presente en el campo de batalla.Inflige Daño Pyro en el AdE y crea un área llamada “cerco ígneo”.Acometida ardienteSe libera cuando hay algún cerco ígneo de Dehya presente en el campo de batalla.Realiza un ataque en salto que inflige Daño Pyro en el AdE y crea en el lugar de impacto un nuevo cerco ígneo.El nuevo cerco creado de esta manera hereda la duración del original.Solo se puede liberar una acometida ardiente durante el tiempo en que un cerco ígneo está activo.Cerco ígneoCuando los enemigos situados en el área del cerco ígneo reciben daño, este realizará un ataque coordinado que inflige Daño Pyro en el AdE en función del ATQ y la Vida Máx. de Dehya. Este efecto solo puede ocurrir una vez cada 2.5s.Además, aumenta la RES a interrupción de los personajes en uso dentro del área y, cuando reciben daño, parte de este es mitigado y transferido a “sangre de la Leona escarlata”, de modo que Dehya soportará dicho daño durante 10s. Cuando el daño acumulado por sangre de la Leona escarlata alcance o supere cierto porcentaje de la Vida Máx. de Dehya, dejará de mitigarse daño de esta forma.Solo puede existir 1 cerco ígneo creado por Dehya al mismo tiempo.Atraviesa conmigo las llamas de esta ordalía y quema todo lo impuro, igual que una bestia fulgurante que se inmola mientras desciende.",
         "id-id": "Dehya melancarkan teknik bertempur ciptaannya sendiri sesuai dengan situasi pertempuran.Indomitable FlameAkan dilancarkan saat tidak ada medan Fiery Sanctum yang diciptakan oleh Dehya di medan pertempuran.Mengakibatkan Pyro DMG Area dan menghasilkan sebuah medan yang disebut Fiery Sanctum.Ranging FlameAkan dilancarkan saat sudah ada medan Fiery Sanctum yang diciptakan oleh Dehya di medan pertempuran.Melancarkan serangan melompat dan mengakibatkan Pyro DMG Area, kemudian menciptakan kembali medan Fiery Sanctum di posisi Dehya yang baru.Medan Fiery Sanctum yang diciptakan dengan cara ini akan mewarisi durasi awal dari medan Fiery Sanctum sebelumnya.Dehya hanya bisa melancarkan Ranging Flame 1 kali dalam 1 durasi medan Fiery Sanctum.Fiery SanctumSaat musuh di dalam medan Fiery Sanctum menerima DMG, Fiery Sanctum akan melancarkan serangan terkoordinasi dan mengakibatkan Pyro DMG Area yang didasarkan pada ATK dan Max HP Dehya terhadap musuh-musuh ini. Efek ini dapat terpicu sekali setiap 2,5 detik.Saat berada di medan ini, ketahanan Karakter aktif terhadap interupsi akan meningkat. Saat Karakter aktif ini menerima DMG, sebagian DMG-nya akan tertahan dan dialirkan ke dalam Redmane's Blood. Kemudian Dehya akan menanggung DMG ini dalam rentang waktu 10 detik.Redmane's Blood tidak akan bisa menahan DMG lagi setelah nilai DMG yang tertahan telah mencapai atau melebihi persentase tertentu dari Max HP Dehya.Hanya 1 medan Fiery Sanctum yang bisa diciptakan oleh Dehya pada saat bersamaan.Jalani siksaan yang berapi-api ini denganku, bersihkan semua kekotoran, sama seperti hewan api yang harus turun dalam bara.",
         "th-th": "ตามสถานการณ์ของการต่อสู้ Dehya จะแสดงทักษะการต่อสู้ที่สร้างขึ้นเองอย่างแตกต่างกันออกไปIndomitable Flameเมื่อใช้สกิลในระหว่างการต่อสู้ซึ่งไม่มี \"Fiery Sanctum\" ที่ Dehya สร้างขึ้นจะสร้างความเสียหายไฟวงกว้าง และทำให้เกิดพื้นที่ Fiery SanctumRanging Flameเมื่อใช้สกิลในระหว่างการต่อสู้ซึ่งมี \"Fiery Sanctum\" ที่ Dehya สร้างขึ้นDehya จะทำการกระโจนโจมตี เพื่อสร้างความเสียหายไฟวงกว้าง และทำให้เกิดพื้นที่ Fiery Sanctum ขึ้นใหม่อีกครั้งที่ตรงตำแหน่งใหม่พื้นที่ Fiery Sanctum ที่สร้างขึ้นใหม่ด้วยวิธีนี้ จะสืบทอดช่วงเวลาคงอยู่ต่อจากของเดิมภายในช่วงเวลาต่อเนื่องของพื้นที่ Fiery Sanctum 1 ครั้ง จะสามารถใช้ Ranging Flame ได้เพียง 1 ครั้ง เท่านั้นFiery Sanctumเมื่อศัตรูที่อยู่ในพื้นที่ได้รับความเสียหาย Fiery Sanctum จะทำการร่วมโจมตี ซึ่งจะทำให้เกิดความเสียหายไฟวงกว้างแก่พวกมัน โดยขึ้นกับพลังโจมตี และพลังชีวิตสูงสุดของ Dehya เอฟเฟกต์นี้ในทุก 2.5 วินาที จะสามารถเกิดขึ้นได้มากสุดหนึ่งครั้งเพิ่มความสามารถในการต้านทานการหยุดชะงัก ของตัวละครที่อยู่ในพื้นที่ขณะนั้น และในตอนที่ตัวละครเหล่านี้ได้รับความเสียหาย จะลบล้างความเสียหายส่วนหนึ่ง และเปลี่ยนเป็น \"Redmane's Blood\" ซึ่งจะถูกแบกรับไว้โดย Dehya เป็นเวลา 10 วินาที และเมื่อค่าความเสียหายที่เก็บไว้โดย Redmane's Blood ถึงสัดส่วนค่าพลังชีวิตสูงสุดประมาณหนึ่งของ Dehya หรือเกินจากนั้น ความเสียหายจะไม่ถูกลบล้างอีกต่อไปภายในช่วงเวลาเดียวกัน จะสามารถมี Fiery Sanctum ที่ Dehya สร้างขึ้นเองได้เพียง 1 แห่ง เท่านั้นร่วมฝ่าฟันบททดสอบเพลิงสีแดงฉานนี้ไปด้วยกัน จงแผดเผาแต่จงอย่าได้มอดไหม้ เฉกเช่นอสูรแห่งอัคนีที่จะลุกโชนไปด้วยเปลวไฟ",
-        "vi-vn": "Dehya dựa vào tình hình chiến trận để thi triển các loại kỹ thuật chiến đấu khác nhau.Lửa Thiêng Bất KhuấtThi triển khi trong trận không có \"Thánh Địa Sôi Trào\" của bản thân Dehya.Gây&nbsp;Sát Thương Phạm Vi Nguyên Tố Hỏa, đồng thời sản sinh khu vực Thánh Địa Sôi Trào.Lửa Thiêng Bùng CháyThi triển khi trong trận có \"Thánh Địa Sôi Trào\" của bản thân Dehya.Dehya nhảy đánh, gây&nbsp;Sát Thương Phạm Vi Nguyên Tố Hỏa, đồng thời sản sinh lại Thánh Địa Sôi Trào ở vị trí mới.Thánh Địa Sôi Trào sản sinh lại qua cách thức này sẽ kế thừa thời gian duy trì vốn có.Trong một lần thời gian duy trì Thánh Địa Sôi Trào, chỉ có thể thi triển một lần Lửa Thiêng Bùng Cháy.Thánh Địa Sôi TràoKẻ địch trong khu vực khi chịu phải sát thương, Thánh Địa Sôi Trào sẽ hỗ trợ tấn công, gây&nbsp;Sát Thương Phạm Vi Nguyên Tố Hỏa căn cứ vào giới hạn HP và tấn công của Dehya. Hiệu quả này mỗi 2.5s tối đa kích hoạt một lần.Tăng khả năng kháng gián đoạn của nhân vật trong trận khi đứng trên khu vực đó, đồng thời khi những nhân vật này chịu phải sát thương, sẽ tiêu giảm một phần rồi chuyển vào \"Huyết Mạch Lửa Đỏ\", sẽ do Dehya gánh chịu trong 10s. Lượng sát thương mà Huyết Mạch Lửa Đỏ thu nhận khi đạt hoặc vượt quá một tỉ lệ nhất định so với giới hạn HP của Dehya thì sẽ không tiêu giảm sát thương nữa.Cùng lúc chỉ tồn tại 1 Thánh Địa Sôi Trào do bản thân Dehya tạo ra.Hãy cùng tôi vượt qua thử thách rực lửa này, tẩy sạch mọi ô uế, giống như một con thú lửa phải bùng cháy.",
+        "vi-vn": "Dehya dựa vào tình hình chiến trận để thi triển các loại kỹ thuật chiến đấu khác nhau.Lửa Thiêng Bất KhuấtThi triển khi trong trận không có \"Thánh Địa Sôi Trào\" của bản thân Dehya.Gây Sát Thương Phạm Vi Nguyên Tố Hỏa, đồng thời sản sinh khu vực Thánh Địa Sôi Trào.Lửa Thiêng Bùng CháyThi triển khi trong trận có \"Thánh Địa Sôi Trào\" của bản thân Dehya.Dehya nhảy đánh, gây Sát Thương Phạm Vi Nguyên Tố Hỏa, đồng thời sản sinh lại Thánh Địa Sôi Trào ở vị trí mới.Thánh Địa Sôi Trào sản sinh lại qua cách thức này sẽ kế thừa thời gian duy trì vốn có.Trong một lần thời gian duy trì Thánh Địa Sôi Trào, chỉ có thể thi triển một lần Lửa Thiêng Bùng Cháy.Thánh Địa Sôi TràoKẻ địch trong khu vực khi chịu phải sát thương, Thánh Địa Sôi Trào sẽ hỗ trợ tấn công, gây Sát Thương Phạm Vi Nguyên Tố Hỏa căn cứ vào giới hạn HP và tấn công của Dehya. Hiệu quả này mỗi 2.5s tối đa kích hoạt một lần.Tăng khả năng kháng gián đoạn của nhân vật trong trận khi đứng trên khu vực đó, đồng thời khi những nhân vật này chịu phải sát thương, sẽ tiêu giảm một phần rồi chuyển vào \"Huyết Mạch Lửa Đỏ\", sẽ do Dehya gánh chịu trong 10s. Lượng sát thương mà Huyết Mạch Lửa Đỏ thu nhận khi đạt hoặc vượt quá một tỉ lệ nhất định so với giới hạn HP của Dehya thì sẽ không tiêu giảm sát thương nữa.Cùng lúc chỉ tồn tại 1 Thánh Địa Sôi Trào do bản thân Dehya tạo ra.Hãy cùng tôi vượt qua thử thách rực lửa này, tẩy sạch mọi ô uế, giống như một con thú lửa phải bùng cháy.",
         "zh-tw": "迪希雅依據戰局狀況，施展不同的自創戰鬥技藝。淨焰昂藏目前場上不存在迪希雅自己的「淨焰劍獄」時施展。造成火元素範圍傷害，並產生淨焰劍獄領域。劍域熾焰目前場上存在迪希雅自己的淨焰劍獄時施展。進行騰躍攻擊，造成火元素範圍傷害，並在新的位置重新產生淨焰劍獄領域。依此方式重新產生的淨焰劍獄領域將繼承原本的持續時間。在1次淨焰劍獄領域的持續時間內，只能施展1次劍域熾焰。淨焰劍獄領域中的敵人受到傷害時，淨焰劍獄將進行協同攻擊，基於迪希雅的攻擊力與生命值上限，對其造成火元素範圍傷害。該效果每2.5秒至多觸發一次。提升領域中目前場上角色的抗打斷能力，並在這些角色受到傷害時，消解部分傷害，將其轉入「赤鬃之血」，由迪希雅在10秒內承擔。赤鬃之血儲存的傷害值達到或超過迪希雅生命值上限的一定比例時，將不再消解傷害。同時只能存在1個由迪希雅自己創造的淨焰劍獄。一同度過這赤焰之試，燒卻不潔吧，就如熾光之獸必自焚灼中降臨那樣。"
       },
       "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/06/89220822/862a5d3d2d4443f7f5068402b95c43c7_4625725441642854403.png"
@@ -612,7 +578,7 @@
             "ko-kr": "Level",
             "ru-ru": "Уровень",
             "de-de": "St.",
-            "fr-fr": "",
+            "fr-fr": "Level",
             "es-es": "Niv.",
             "id-id": "Level",
             "th-th": "Level",
@@ -962,11 +928,11 @@
             "ko-kr": "Level",
             "ru-ru": "Уровень",
             "de-de": "St.",
-            "fr-fr": "",
+            "fr-fr": "Level",
             "es-es": "Niv.",
             "id-id": "Level",
             "th-th": "Level",
-            "vi-vn": "",
+            "vi-vn": "Level",
             "zh-tw": "Level"
           },
           "values": [
@@ -1238,7 +1204,7 @@
             "ko-kr": "Level",
             "ru-ru": "Уровень",
             "de-de": "St.",
-            "fr-fr": "",
+            "fr-fr": "Level",
             "es-es": "Niv.",
             "id-id": "Level",
             "th-th": "Level",
@@ -1447,7 +1413,7 @@
           "level": 2,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 12500,
               "name": {
@@ -1467,7 +1433,7 @@
               }
             },
             {
-              "id": "2689",
+              "id": 2689,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/440a7f5e5373800912aa0b3c77c59dbc_8134620576781785423.png",
               "amount": 3,
               "name": {
@@ -1487,7 +1453,7 @@
               }
             },
             {
-              "id": "2706",
+              "id": 2706,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/dfa4ba937ada162659c0264137d43a18_1307371292970051747.png",
               "amount": 6,
               "name": {
@@ -1512,7 +1478,7 @@
           "level": 3,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 17500,
               "name": {
@@ -1532,7 +1498,7 @@
               }
             },
             {
-              "id": "2690",
+              "id": 2690,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/d6fcbf4c3300ba70aa974510a93518c4_2665149939312087059.png",
               "amount": 2,
               "name": {
@@ -1552,7 +1518,7 @@
               }
             },
             {
-              "id": "2705",
+              "id": 2705,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/06b87a9dcd21cb420ae76a5db4cb4521_6504234534821447130.png",
               "amount": 3,
               "name": {
@@ -1577,7 +1543,7 @@
           "level": 4,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 25000,
               "name": {
@@ -1597,7 +1563,7 @@
               }
             },
             {
-              "id": "2690",
+              "id": 2690,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/d6fcbf4c3300ba70aa974510a93518c4_2665149939312087059.png",
               "amount": 4,
               "name": {
@@ -1617,7 +1583,7 @@
               }
             },
             {
-              "id": "2705",
+              "id": 2705,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/06b87a9dcd21cb420ae76a5db4cb4521_6504234534821447130.png",
               "amount": 4,
               "name": {
@@ -1642,7 +1608,7 @@
           "level": 5,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 30000,
               "name": {
@@ -1662,7 +1628,7 @@
               }
             },
             {
-              "id": "2690",
+              "id": 2690,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/d6fcbf4c3300ba70aa974510a93518c4_2665149939312087059.png",
               "amount": 6,
               "name": {
@@ -1682,7 +1648,7 @@
               }
             },
             {
-              "id": "2705",
+              "id": 2705,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/06b87a9dcd21cb420ae76a5db4cb4521_6504234534821447130.png",
               "amount": 6,
               "name": {
@@ -1707,7 +1673,7 @@
           "level": 6,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 37500,
               "name": {
@@ -1727,7 +1693,7 @@
               }
             },
             {
-              "id": "2690",
+              "id": 2690,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/d6fcbf4c3300ba70aa974510a93518c4_2665149939312087059.png",
               "amount": 9,
               "name": {
@@ -1747,7 +1713,7 @@
               }
             },
             {
-              "id": "2705",
+              "id": 2705,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/06b87a9dcd21cb420ae76a5db4cb4521_6504234534821447130.png",
               "amount": 9,
               "name": {
@@ -1772,7 +1738,7 @@
           "level": 7,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 120000,
               "name": {
@@ -1792,7 +1758,7 @@
               }
             },
             {
-              "id": "2691",
+              "id": 2691,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/86e35c3c41261373e2231fd1e8facb34_4246349666250259295.png",
               "amount": 4,
               "name": {
@@ -1812,7 +1778,7 @@
               }
             },
             {
-              "id": "2704",
+              "id": 2704,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/5f415e2b9f3f486a29b613d8d8c029c9_3185542679710830069.png",
               "amount": 4,
               "name": {
@@ -1832,7 +1798,7 @@
               }
             },
             {
-              "id": "2973",
+              "id": 2973,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/08/8078404/a9caaa876b0b610118a56d648464e6d4_6238737642777827302.png",
               "amount": 1,
               "name": {
@@ -1857,7 +1823,7 @@
           "level": 8,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 260000,
               "name": {
@@ -1877,7 +1843,7 @@
               }
             },
             {
-              "id": "2691",
+              "id": 2691,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/86e35c3c41261373e2231fd1e8facb34_4246349666250259295.png",
               "amount": 6,
               "name": {
@@ -1897,7 +1863,7 @@
               }
             },
             {
-              "id": "2704",
+              "id": 2704,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/5f415e2b9f3f486a29b613d8d8c029c9_3185542679710830069.png",
               "amount": 6,
               "name": {
@@ -1917,7 +1883,7 @@
               }
             },
             {
-              "id": "2973",
+              "id": 2973,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/08/8078404/a9caaa876b0b610118a56d648464e6d4_6238737642777827302.png",
               "amount": 1,
               "name": {
@@ -1942,7 +1908,7 @@
           "level": 9,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 450000,
               "name": {
@@ -1962,7 +1928,7 @@
               }
             },
             {
-              "id": "2691",
+              "id": 2691,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/86e35c3c41261373e2231fd1e8facb34_4246349666250259295.png",
               "amount": 12,
               "name": {
@@ -1982,7 +1948,7 @@
               }
             },
             {
-              "id": "2704",
+              "id": 2704,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/5f415e2b9f3f486a29b613d8d8c029c9_3185542679710830069.png",
               "amount": 9,
               "name": {
@@ -2002,7 +1968,7 @@
               }
             },
             {
-              "id": "2973",
+              "id": 2973,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/08/8078404/a9caaa876b0b610118a56d648464e6d4_6238737642777827302.png",
               "amount": 2,
               "name": {
@@ -2027,7 +1993,7 @@
           "level": 10,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 700000,
               "name": {
@@ -2047,7 +2013,7 @@
               }
             },
             {
-              "id": "2691",
+              "id": 2691,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/86e35c3c41261373e2231fd1e8facb34_4246349666250259295.png",
               "amount": 16,
               "name": {
@@ -2067,7 +2033,7 @@
               }
             },
             {
-              "id": "2704",
+              "id": 2704,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/5f415e2b9f3f486a29b613d8d8c029c9_3185542679710830069.png",
               "amount": 12,
               "name": {
@@ -2087,7 +2053,7 @@
               }
             },
             {
-              "id": "2973",
+              "id": 2973,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/08/8078404/a9caaa876b0b610118a56d648464e6d4_6238737642777827302.png",
               "amount": 2,
               "name": {
@@ -2107,7 +2073,7 @@
               }
             },
             {
-              "id": "900",
+              "id": 900,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Crown%20of%20Insight_icon.png",
               "amount": 1,
               "name": {
@@ -2180,7 +2146,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 20000,
           "name": {
@@ -2200,7 +2166,7 @@
           }
         },
         {
-          "id": "1100",
+          "id": 1100,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Sliver_icon.png",
           "amount": 1,
           "name": {
@@ -2220,7 +2186,7 @@
           }
         },
         {
-          "id": "3453",
+          "id": 3453,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/18/8078404/68a5eb3d0efa30c8749611ef1ce80d6c_8287917736974583973.png",
           "amount": 3,
           "name": {
@@ -2240,7 +2206,7 @@
           }
         },
         {
-          "id": "2706",
+          "id": 2706,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/dfa4ba937ada162659c0264137d43a18_1307371292970051747.png",
           "amount": 3,
           "name": {
@@ -2279,7 +2245,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 40000,
           "name": {
@@ -2299,7 +2265,7 @@
           }
         },
         {
-          "id": "1099",
+          "id": 1099,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Fragment_icon.png",
           "amount": 3,
           "name": {
@@ -2319,7 +2285,7 @@
           }
         },
         {
-          "id": "2854",
+          "id": 2854,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/16791688/e79a35f63aaa0fb3c25105332cd58527_4208952783545673868.png",
           "amount": 2,
           "name": {
@@ -2339,7 +2305,7 @@
           }
         },
         {
-          "id": "3453",
+          "id": 3453,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/18/8078404/68a5eb3d0efa30c8749611ef1ce80d6c_8287917736974583973.png",
           "amount": 10,
           "name": {
@@ -2359,7 +2325,7 @@
           }
         },
         {
-          "id": "2706",
+          "id": 2706,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/dfa4ba937ada162659c0264137d43a18_1307371292970051747.png",
           "amount": 15,
           "name": {
@@ -2398,7 +2364,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 60000,
           "name": {
@@ -2418,7 +2384,7 @@
           }
         },
         {
-          "id": "1099",
+          "id": 1099,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Fragment_icon.png",
           "amount": 6,
           "name": {
@@ -2438,7 +2404,7 @@
           }
         },
         {
-          "id": "2854",
+          "id": 2854,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/16791688/e79a35f63aaa0fb3c25105332cd58527_4208952783545673868.png",
           "amount": 4,
           "name": {
@@ -2458,7 +2424,7 @@
           }
         },
         {
-          "id": "3453",
+          "id": 3453,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/18/8078404/68a5eb3d0efa30c8749611ef1ce80d6c_8287917736974583973.png",
           "amount": 20,
           "name": {
@@ -2478,7 +2444,7 @@
           }
         },
         {
-          "id": "2705",
+          "id": 2705,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/06b87a9dcd21cb420ae76a5db4cb4521_6504234534821447130.png",
           "amount": 12,
           "name": {
@@ -2517,7 +2483,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 80000,
           "name": {
@@ -2537,7 +2503,7 @@
           }
         },
         {
-          "id": "1098",
+          "id": 1098,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Chunk_icon.png",
           "amount": 3,
           "name": {
@@ -2557,7 +2523,7 @@
           }
         },
         {
-          "id": "2854",
+          "id": 2854,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/16791688/e79a35f63aaa0fb3c25105332cd58527_4208952783545673868.png",
           "amount": 8,
           "name": {
@@ -2577,7 +2543,7 @@
           }
         },
         {
-          "id": "3453",
+          "id": 3453,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/18/8078404/68a5eb3d0efa30c8749611ef1ce80d6c_8287917736974583973.png",
           "amount": 30,
           "name": {
@@ -2597,7 +2563,7 @@
           }
         },
         {
-          "id": "2705",
+          "id": 2705,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/06b87a9dcd21cb420ae76a5db4cb4521_6504234534821447130.png",
           "amount": 18,
           "name": {
@@ -2636,7 +2602,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 100000,
           "name": {
@@ -2656,7 +2622,7 @@
           }
         },
         {
-          "id": "1098",
+          "id": 1098,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Chunk_icon.png",
           "amount": 6,
           "name": {
@@ -2676,7 +2642,7 @@
           }
         },
         {
-          "id": "2854",
+          "id": 2854,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/16791688/e79a35f63aaa0fb3c25105332cd58527_4208952783545673868.png",
           "amount": 12,
           "name": {
@@ -2696,7 +2662,7 @@
           }
         },
         {
-          "id": "3453",
+          "id": 3453,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/18/8078404/68a5eb3d0efa30c8749611ef1ce80d6c_8287917736974583973.png",
           "amount": 45,
           "name": {
@@ -2716,7 +2682,7 @@
           }
         },
         {
-          "id": "2704",
+          "id": 2704,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/5f415e2b9f3f486a29b613d8d8c029c9_3185542679710830069.png",
           "amount": 12,
           "name": {
@@ -2755,7 +2721,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 120000,
           "name": {
@@ -2775,7 +2741,7 @@
           }
         },
         {
-          "id": "1097",
+          "id": 1097,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Gemstone_icon.png",
           "amount": 6,
           "name": {
@@ -2795,7 +2761,7 @@
           }
         },
         {
-          "id": "2854",
+          "id": 2854,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/07/16791688/e79a35f63aaa0fb3c25105332cd58527_4208952783545673868.png",
           "amount": 20,
           "name": {
@@ -2815,7 +2781,7 @@
           }
         },
         {
-          "id": "3453",
+          "id": 3453,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/18/8078404/68a5eb3d0efa30c8749611ef1ce80d6c_8287917736974583973.png",
           "amount": 60,
           "name": {
@@ -2835,7 +2801,7 @@
           }
         },
         {
-          "id": "2704",
+          "id": 2704,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/08/8078404/5f415e2b9f3f486a29b613d8d8c029c9_3185542679710830069.png",
           "amount": 24,
           "name": {

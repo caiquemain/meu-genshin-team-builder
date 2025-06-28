@@ -20,16 +20,16 @@
     "pt-pt": "-",
     "en-us": "-",
     "ja-jp": "運命を超える星",
+    "zh-cn": "N/A",
+    "ko-kr": "N/A",
     "ru-ru": "-",
     "de-de": "-",
     "fr-fr": "-",
+    "es-es": "N/A",
     "id-id": "-",
     "th-th": "-",
     "vi-vn": "-",
-    "zh-tw": "",
-    "zh-cn": "N/A",
-    "ko-kr": "N/A",
-    "es-es": "N/A"
+    "zh-tw": "N/A"
   },
   "description": {
     "pt-pt": "Uma/Um Viajante de outro mundo que teve seu ente querido levado e foi forçada/o a embarcar em uma jornada em busca dos Sete.",
@@ -40,7 +40,7 @@
     "ru-ru": "Путешественник/ца из другого мира, разлучённый/ая со своей сестрой/своим братом. Он/а отправляется в долгое путешествие, чтобы найти всех семерых Архонтов и вернуть родного человека.",
     "de-de": "Ein Reisender weit entfernt von der Heimat auf der Suche nach den Sieben, um seine Schwester wiederzufinden.",
     "fr-fr": "Un voyageur/Une voyageuse venant d'un autre monde qui a été séparé/séparée de sa sœur/son frère. Il/Elle débute son périple à la recherche des Sept Archons de Teyvat dans l'espoir de la/le retrouver.",
-    "es-es": "",
+    "es-es": "N/A",
     "id-id": "Seorang pengembara yang berasal dari dunia lain, saudara satu-satunya yang ia miliki dirampas dari hadapannya oleh sesosok dewa, dan kini ia mengembara untuk mencari The Seven.",
     "th-th": "นักเดินทางจากต่างโลกผู้ถูกเทพปริศนาพรากพี่น้องร่วมสายเลือดเพียงหนึ่งเดียวไป จึงจำใจต้องออกเดินทางเพื่อตามหาเทพทั้ง 7",
     "vi-vn": "Nhà Lữ Hành lưu lạc đến đây từ thế giới khác, bị Thần cướp mất người thân, từ đó bước vào con đường đi tìm 7 vị Thần.",
@@ -48,85 +48,51 @@
   },
   "rarity": 5,
   "vision": {
-    "label": {
-      "pt-pt": "Tipo Elemental",
-      "en-us": "Elemental Type",
-      "ja-jp": "元素タイプ",
-      "zh-cn": "元素属性",
-      "ko-kr": "원소 속성",
-      "ru-ru": "Элемент",
-      "de-de": "Elementartyp",
-      "fr-fr": "Élément",
-      "es-es": "N/A",
-      "id-id": "Tipe Elemen",
-      "th-th": "ประเภทธาตุ",
-      "vi-vn": "Thuộc Tính Nguyên Tố",
-      "zh-tw": "元素屬性"
-    },
-    "value": {
-      "pt-pt": "Pyro",
-      "en-us": "Pyro",
-      "ja-jp": "炎元素",
-      "zh-cn": "火元素",
-      "ko-kr": "불 원소",
-      "ru-ru": "Пиро",
-      "de-de": "Pyro",
-      "fr-fr": "Pyro",
-      "es-es": "N/A",
-      "id-id": "Pyro",
-      "th-th": "ไฟ",
-      "vi-vn": "Hỏa",
-      "zh-tw": "火元素"
-    }
+    "pt-pt": "Pyro",
+    "en-us": "Pyro",
+    "ja-jp": "炎元素",
+    "zh-cn": "火元素",
+    "ko-kr": "불 원소",
+    "ru-ru": "Пиро",
+    "de-de": "Pyro",
+    "fr-fr": "Pyro",
+    "es-es": "N/A",
+    "id-id": "Pyro",
+    "th-th": "ไฟ",
+    "vi-vn": "Hỏa",
+    "zh-tw": "火元素"
   },
   "weapon": {
-    "label": {
-      "pt-pt": "Arma",
-      "en-us": "Weapons",
-      "ja-jp": "武器種",
-      "zh-cn": "武器",
-      "ko-kr": "무기",
-      "ru-ru": "Тип",
-      "de-de": "Waffe",
-      "fr-fr": "Type d'arme",
-      "es-es": "N/A",
-      "id-id": "Senjata",
-      "th-th": "อาวุธ",
-      "vi-vn": "Vũ Khí",
-      "zh-tw": "武器"
-    },
-    "value": {
-      "pt-pt": "Espada",
-      "en-us": "Sword",
-      "ja-jp": "片手剣",
-      "zh-cn": "单手剑",
-      "ko-kr": "한손검",
-      "ru-ru": "Одноручное",
-      "de-de": "Einhänder",
-      "fr-fr": "Épée à une main",
-      "es-es": "N/A",
-      "id-id": "Sword",
-      "th-th": "ดาบ",
-      "vi-vn": "Kiếm Đơn",
-      "zh-tw": "單手劍"
-    }
+    "pt-pt": "Espada",
+    "en-us": "Sword",
+    "ja-jp": "片手剣",
+    "zh-cn": "单手剑",
+    "ko-kr": "한손검",
+    "ru-ru": "Одноручное",
+    "de-de": "Einhänder",
+    "fr-fr": "Épée à une main",
+    "es-es": "N/A",
+    "id-id": "Sword",
+    "th-th": "ดาบ",
+    "vi-vn": "Kiếm Đơn",
+    "zh-tw": "單手劍"
   },
   "characterIconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2025/01/08/11094433/843a294b6c132d6fdb70b75aeb201386_3545833703730208389.png",
   "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
   "constellationNameOfficial": {
-    "pt-pt": "Viator &amp; Viatrix",
-    "en-us": "Viator &amp; Viatrix",
+    "pt-pt": "Viator & Viatrix",
+    "en-us": "Viator & Viatrix",
     "ja-jp": "旅人座",
     "zh-cn": "旅人座",
-    "ru-ru": "Звёздный Путник",
-    "de-de": "Viator &amp; Viatrix",
-    "fr-fr": "Viator et Viatrix",
-    "id-id": "Viator &amp; Viatrix",
-    "th-th": "Viator &amp; Viatrix",
-    "zh-tw": "旅人座",
     "ko-kr": "N/A",
+    "ru-ru": "Звёздный Путник",
+    "de-de": "Viator & Viatrix",
+    "fr-fr": "Viator et Viatrix",
     "es-es": "N/A",
-    "vi-vn": "N/A"
+    "id-id": "Viator & Viatrix",
+    "th-th": "Viator & Viatrix",
+    "vi-vn": "N/A",
+    "zh-tw": "旅人座"
   },
   "specialDish": {
     "id": null,
@@ -151,6 +117,7 @@
         "ru-ru": "Искрящийся огонь звёзд",
         "de-de": "Fließendes Licht des Sternenfeuers",
         "fr-fr": "Feu de flux stellaire",
+        "es-es": "N/A",
         "id-id": "Starfire's Flowing Light",
         "th-th": "Starfire's Flowing Light",
         "vi-vn": "Lửa Sao Sáng Rực",
@@ -165,6 +132,7 @@
         "ru-ru": "Во время противостояния Владыке истлевшего первобытного пламени в форме Госойтота, когда Пылающий порог или Испепеляющий порог активны, сила атаки путешественника/цы повышается на 40%, получаемый урон снижается на 40%, а сопротивление прерыванию усиливается.После подношения Пылающей кремниевой руды к Престолу Первозданного огня дополнительно открывается:Когда Пылающий порог или Испепеляющий порог активен, урон активного персонажа повышается на 6%. Если данный персонаж пребывает в состоянии Благословения Ночного духа, его урон дополнительно повышается на 9%.",
         "de-de": "Erhöht während der Wirkungsdauer von „Flammende Schwelle“ oder „Versengende Schwelle“ den von der aktuellen Figur verursachten Schaden um 6% und weiter um 9%, wenn die aktuelle Figur sich im Nachtseelensegen-Zustand befindet.",
         "fr-fr": "Lorsqu'un seuil enflammé ou un seuil brûlant est actif, les DGT infligés par le personnage déployé augmentent de 6 %, et de 9 % supplémentaires s'il bénéficie d'une bénédiction noctâme.",
+        "es-es": "N/A",
         "id-id": "Selama Blazing Threshold atau Scorching Threshold aktif, meningkatkan 6% DMG yang diakibatkan oleh Karakter aktif. Jika Karakter aktif sedang dalam status Nightsoul's Blessing, DMG yang diakibatkan meningkat 9% lagi.",
         "th-th": "ในช่วงเวลากงล้อเพลิงโหมหรือกงล้อแผดเผา ตัวละครที่เข้าร่วมการต่อสู้ในขณะนั้นจะสร้างความเสียหายเพิ่มขึ้น 6%; หากตัวละครที่เข้าร่วมการต่อสู้ในขณะนั้น อยู่ในสถานะพรวิญญาณราตรี จะสร้างความเสียหายเพิ่มขึ้นอีก 9%",
         "vi-vn": "Trong thời gian Vòng Rực Cháy hoặc Vòng Thiêu Đốt tồn tại, sát thương gây ra từ nhân vật trong trận hiện tại tăng 6%. Nếu nhân vật trong trận hiện tại ở trong trạng thái Dạ Hồn Chúc Phúc, sát thương gây ra sẽ còn tăng thêm 9%.",
@@ -184,6 +152,7 @@
         "ru-ru": "Негаснущая свеча",
         "de-de": "Ewig leuchtender Kerzenschein",
         "fr-fr": "Feu de chandelle pérenne",
+        "es-es": "N/A",
         "id-id": "Ever-Lit Candle",
         "th-th": "Ever-Lit Candle",
         "vi-vn": "Lửa Nến Lấp Lánh",
@@ -198,6 +167,7 @@
         "ru-ru": "Во время противостояния Владыке истлевшего первобытного пламени в форме Госойтота, когда путешественник/ца пребывает в состоянии Ночного духа, а её Пиро атаки поражают противника, Пиро сопротивление данного противника снижается на 20% на 6 сек. Этот эффект складывается до 2 раз. Длительность каждого уровня рассчитывается отдельно.После подношения Пылающей кремниевой руды к Престолу Первозданного огня дополнительно открывается:В течение 12 сек. после использования элементального навыка Клинок текущего пламени, после того как член отряда поблизости активирует на противнике Пиро реакции, путешественник/ца восстанавливает 14 очков Ночного духа. За каждое использование Клинка текучего пламени таким способом можно восстановить до 28 очков Ночного духа.",
         "de-de": "Stellt der / dem Reisenden innerhalb von 12s nach dem Einsetzen der Elementarfähigkeit Flussfeuer-Klinge beim Auslösen von Pyro-Reaktionen an Gegnern durch in der Nähe befindliche Truppenmitglieder 14 Nachtseelenpunkte wieder her. Auf diese Weise können pro Einsetzen der Elementarfähigkeit Flussfeuer-Klinge max. 28 Nachtseelenpunkte wiederhergestellt werden.",
         "fr-fr": "Pendant 12 s après avoir utilisé la compétence élémentaire Fléau des flammes, le voyageur/la voyageuse récupère 14 pts de noctâme lorsqu'un membre de l'équipe à proximité a déclenché une réaction liée à l'élément Pyro sur un ennemi. Chaque utilisation de Fléau des flammes peut restaurer un maximum 28 pts de noctâme de cette manière.",
+        "es-es": "N/A",
         "id-id": "Dalam 12 detik setelah melancarkan Elemental Skill Flowfire Blade, setelah anggota party di sekitar memicu reaksi terkait Pyro, akan memulihkan 14 poin Nightsoul Traveler. Setiap kali menggunakan Elemental Skill Flowfire Blade, poin Nightsoul yang bisa dipulihkan dengan cara ini adalah maksimum 28 poin Nightsoul.",
         "th-th": "ภายใน 12 วินาที หลังจากปล่อยสกิลธาตุ Flowfire Blade เมื่อตัวละครในทีมที่อยู่ใกล้เคียง ทำให้เกิดปฏิกิริยาเกี่ยวกับธาตุไฟ จะฟื้นฟูพลังงานธาตุให้กับนักเดินทาง 14 หน่วย และทุกครั้งที่ปล่อยสกิลธาตุ Flowfire Blade จะสามารถฟื้นฟูค่าวิญญาณราตรีด้วยวิธีนี้ได้มากสุด 28 หน่วย",
         "vi-vn": "Trong 12s sau khi thi triển Kỹ Năng Nguyên Tố Lưu Hỏa Kiếm, khi nhân vật trong đội gần đó kích hoạt phản ứng liên quan đến Nguyên Tố Hỏa lên kẻ địch, sẽ hồi phục 14 điểm Dạ Hồn cho Nhà Lữ Hành. Mỗi lần thi triển Kỹ Năng Nguyên Tố Lưu Hỏa Kiếm tối đa hồi phục 28 điểm Dạ Hồn thông qua cách thức này.",
@@ -217,6 +187,7 @@
         "ru-ru": "Передающийся сигнальный огонь",
         "de-de": "Weitergegebenes Signalfeuer",
         "fr-fr": "Feu de balise relayée",
+        "es-es": "N/A",
         "id-id": "Relayed Beacon",
         "th-th": "Relayed Beacon",
         "vi-vn": "Lửa Chiến Truyền Thừa",
@@ -231,6 +202,7 @@
         "ru-ru": "Во время противостояния Владыке истлевшего первобытного пламени в форме Госойтота, путешественник/ца получает 40% бонус Пиро урона.После подношения Пылающей кремниевой руды к Престолу Первозданного огня дополнительно открывается:Увеличивает уровень навыка Клинок текущего пламени на 3.Макс. уровень: 15",
         "de-de": "Erhöht die Stufe der Elementarfähigkeit Flussfeuer-Klinge um 3.Höchststufe 15.",
         "fr-fr": "Niveau d'aptitude Fléau des flammes +3.Niveau max : 15",
+        "es-es": "N/A",
         "id-id": "Meningkatkan 3 level Elemental Skill Flowfire Blade.Maksimum: Lv. 15.",
         "th-th": "เพิ่มเลเวลสกิลของสกิลธาตุ Flowfire Blade ขึ้น 3 ระดับเพิ่มได้สูงสุดถึงระดับ 15",
         "vi-vn": "Cấp kỹ năng Lưu Hỏa Kiếm +3.Tăng tối đa đến cấp 15.",
@@ -250,6 +222,7 @@
         "ru-ru": "Неистовый пожар",
         "de-de": "Tobende Flamme",
         "fr-fr": "Feu de ravage flamboyant",
+        "es-es": "N/A",
         "id-id": "Ravaging Flame",
         "th-th": "Ravaging Flame",
         "vi-vn": "Lửa Đỏ Bỏng Cháy",
@@ -264,6 +237,7 @@
         "ru-ru": "Во время противостояния Владыке истлевшего первобытного пламени в форме Госойтота после применения взрыва стихии Испепеляющий равнины все члены отряда поблизости восстанавливают 40% от их макс. HP. В течение следующих 10 сек. путешественник/ца восстанавливает 4 ед. энергии каждую секунду.После подношения Пылающей кремниевой руды к Престолу Первозданного огня дополнительно открывается:После применения взрыва стихии Испепеляющий равнины путешественник/ца на 9 сек. получает 20% бонус Пиро урона.",
         "de-de": "Verleiht der / dem Reisenden nach dem Einsetzen der Spezialfähigkeit Prärienbrenner einen Pyro-SCH-Bonus von 20%, hält 9s.",
         "fr-fr": "Après avoir utilisé le déchaînement élémentaire Prairie d'embrasement, le voyageur/la voyageuse bénéficie d'un bonus de DGT Pyro de 20 % pendant 9 s.",
+        "es-es": "N/A",
         "id-id": "Setelah menggunakan Elemental Burst Plains Scorcher, Traveler mendapatkan 20% Pyro DMG Bonus selama 9 detik.",
         "th-th": "หลังจากปล่อยท่าไม้ตาย Plains Scorcher นักเดินทางจะได้รับโบนัสความเสียหายไฟ 20% เป็นเวลา 9 วินาที",
         "vi-vn": "Sau khi thi triển Kỹ Năng Nộ Chước Hỏa Liêu Nguyên, Nhà Lữ Hành nhận được 20% Buff Sát Thương Nguyên Tố Hỏa trong 9s.",
@@ -283,6 +257,7 @@
         "ru-ru": "Бессмертный огонь",
         "de-de": "Unauslöschliche Feuer",
         "fr-fr": "Feu d'inextinguibilité nouvelle",
+        "es-es": "N/A",
         "id-id": "The Fire Inextinguishable",
         "th-th": "The Fire Inextinguishable",
         "vi-vn": "Lửa Cháy Bất Diệt",
@@ -297,6 +272,7 @@
         "ru-ru": "Во время противостояния Владыке истлевшего первобытного пламени в форме Госойтота шанс крит. попадания путешественника/цы увеличивается на 20%, а крит. урон - на 40%.После подношения Пылающей кремниевой руды к Престолу Первозданного огня дополнительно открывается:Увеличивает уровень навыка Испепеляющий равнины на 3.Макс. уровень: 15",
         "de-de": "Erhöht die Stufe der Spezialfähigkeit Prärienbrenner um 3.Höchststufe 15.",
         "fr-fr": "Niveau d'aptitude Prairie d'embrasement +3.Niveau max : 15",
+        "es-es": "N/A",
         "id-id": "Meningkatkan 3 level Elemental Burst Plains Scorcher.Maksimum: Lv. 15.",
         "th-th": "เพิ่มเลเวลสกิลของท่าไม้ตาย Plains Scorcher ขึ้น 3 ระดับเพิ่มได้สูงสุดถึงระดับ 15",
         "vi-vn": "Cấp kỹ năng Chước Hỏa Liêu Nguyên +3.Tăng tối đa đến cấp 15.",
@@ -316,6 +292,7 @@
         "ru-ru": "Вечное Священное пламя",
         "de-de": "Unvergängliches heiliges Feuer",
         "fr-fr": "Feu d'impérissabilité sacrée",
+        "es-es": "N/A",
         "id-id": "The Sacred Flame Imperishable",
         "th-th": "The Sacred Flame Imperishable",
         "vi-vn": "Lửa Thánh Trường Tồn",
@@ -330,6 +307,7 @@
         "ru-ru": "Во время противостояния Владыке истлевшего первобытного пламени в форме Госойтота, когда путешественник/ца пребывает в состоянии Ночного духа, её скорость передвижения увеличивается на 20%, а потребление выносливости снижается на 30%. Кроме того, при использовании обычных и заряженных атак вперёд будут выпускаться огненные волны, которые наносят врагам на своём пути Пиро урон с характеристикой Ночного духа, равный 96% силы атаки путешественника/цы.После подношения Пылающей кремниевой руды к Престолу Первозданного огня дополнительно открывается:Обычные атаки, заряженные атаки и атаки в падении путешественника/цы, когда он/она находится в состоянии Благословения Ночного духа, наносят Пиро урон с характеристикой Ночного духа, который не может быть отменён другими инфузиями. Кроме того, крит. урон таких атак повышается на 40%.",
         "de-de": "Wandelt im Nachtseelensegen-Zustand den Schaden der Standardangriffe, heftigen Schläge und Angriffe aus dem Fall der / des Reisenden in mit Nachtseelen versehenen Pyro-Schaden um, der nicht von anderen Elementen überdeckt werden kann, und erhöht deren KSCH um 40%.",
         "fr-fr": "Lorsque le voyageur/la voyageuse bénéficie d'une bénédiction noctâme, ses attaques normales, chargées et plongeantes sont converties pour infliger des DGT Pyro infusés de noctâme ne pouvant pas être enchantés et les DGT CRIT de ces attaques augmentent de 40 %.",
+        "es-es": "N/A",
         "id-id": "Saat berada dalam status Nightsoul's Blessing, Normal Attack,Charged Attack, dan Plunging Attack Traveler dikonversi menjadi Nightsoul-aligned Pyro DMG yang tidak bisa ditimpa Elemental Infusion lainnya, CRIT DMG serangan-serangan ini juga meningkat 40%.",
         "th-th": "เมื่อต่อสู้กับ Lord of Erodded Primal Fire ที่เป็นร่างแปลงของ \"Gosoythoth\" และอยู่ในสถานะพรวิญญาณราตรี ความเร็วในการเคลื่อนที่ของนักเดินทางจะเพิ่มขึ้น 20%การใช้พลังกายลดลง 30% และเมื่อทำการโจมตีปกติหรือชาร์จโจมตั จะเหวี่ยงกระแสเพลิงไปข้างหน้า สร้างความเสียหายไฟที่มีคุณสมบัติวิญญาณราตรีแก่ศัตรูที่อยู่ในเส้นทางเท่ากับ 96% ของพลังโจมตีของนักเดินทาง",
         "vi-vn": "Khi trong trạng thái Dạ Hồn Chúc Phúc, Tấn Công Thường, Trọng Kích và Tấn Công Khi Đáp của Nhà Lữ Hành sẽ chuyển hóa thành Sát Thương Nguyên Tố Hỏa không thể bị thay thế và mang thuộc tính Dạ Hồn, đồng thời Sát Thương Bạo Kích của những đòn tấn công này tăng 40%.",
@@ -350,6 +328,7 @@
         "ru-ru": "Чужеземное пламя",
         "de-de": "Standardangriff: Glut aus der Fremde",
         "fr-fr": "Attaque normale : Flammes d'ailleurs",
+        "es-es": "N/A",
         "id-id": "Normal Attack: Foreign Blaze",
         "th-th": "โจมตีปกติ: Foreign Blaze",
         "vi-vn": "Tấn Công Thường - Ngọn Lửa Dị Bang",
@@ -364,6 +343,7 @@
         "ru-ru": "Обычная атака:До пяти быстрых ударов.Заряженная атака:Тратит определённое количество выносливости на два быстрых взмаха мечом.Атака в падении:Стремительно падает на землю, атакуя всех врагов на пути. Приземлившись, наносит урон по площади.",
         "de-de": "StandardangriffFührt bis zu 5 Schwerthiebe hintereinander aus.Heftiger SchlagVerbraucht eine gewisse Menge Ausdauer und schwingt das Schwert zweimal schnell nach vorn.Angriff aus dem FallSchlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
         "fr-fr": "Attaque normaleEnchaîne jusqu'à 5 coups d'épée.Attaque chargéeConsomme de l'endurance pour déclencher deux coups d'épée rapides.Attaque plongeantePlonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+        "es-es": "N/A",
         "id-id": "Normal AttackMelancarkan hingga 5 serangan berturut-turut.Charged AttackMengonsumsi sejumlah Stamina untuk melancarkan dua tebasan pedang.Plunging AttackMenerjang dari udara untuk menghantam tanah, menyerang musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
         "th-th": "โจมตีปกติโจมตีด้วยดาบต่อเนื่องมากสุด 5 ครั้งชาร์จโจมตีใช้พลังกายส่วนหนึ่ง เพื่อปลดปล่อยดาบออกไปข้างหน้าสองครั้งในช่วงเวลาสั้น ๆโจมตีพุ่งลงจากอากาศกระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
         "vi-vn": "Tấn Công ThườngThực hiện tối đa 5 lần đánh kiếm liên tiếp.Trọng KíchTiêu hao thể lực nhất định, vung ra hai nhát kiếm về phía trước trong chớp mắt.Tấn Công Khi ĐápĐáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.",
@@ -382,6 +362,7 @@
         "ru-ru": "Клинок текущего пламени",
         "de-de": "Flussfeuer-Klinge",
         "fr-fr": "Fléau des flammes",
+        "es-es": "N/A",
         "id-id": "Flowfire Blade",
         "th-th": "Flowfire Blade",
         "vi-vn": "Lưu Hỏa Kiếm",
@@ -396,6 +377,7 @@
         "ru-ru": "Управляет бушующим пламенем, способным испепелить саму землю. При долгом нажатии способ активации навыка меняется.Быстрое нажатиеВ яростном порыве направляет могущество пламени. После применения путешественник/ца получает 42 очка Ночного духа, входит в состояние Благословения Ночного духа и призывает Пылающий порог, который следует за активным персонажем.Приблизившись к врагам, Пылающий порог периодически наносит им Пиро урон с характеристикой Ночного духа.Долгое нажатиеХладнокровно управляет силой огня, нанося Пиро урон по площади с характеристикой Ночного духа врагам поблизости. После использования путешественник/ца получает 42 очка Ночного духа, входит в состояние Благословения Ночного духа и призывает Испепеляющий порог, который следует за активным персонажем.Когда активный персонаж, находящийся внутри Испепеляющего порога, наносит противникам урон, Испепеляющий порог совершает совместную атаку, которая наносит Пиро урон с характеристикой Ночного духа, пропорциональный силе атаки путешественника/цы. Этот эффект может возникнуть один раз в 3 сек.Благословение Ночного духа: Путешественник/цаНепрерывно расходует очки Ночного духа. Состояние Благословения Ночного духа путешественника/цы длится до 12 сек. Когда очки Ночного духа исчерпаются, состояние Благословения Ночного духа путешественника/цы завершается. Если во время действия активировать элементальный навык повторно, показатель очков Ночного духа путешественника/цы будет сброшен до 42.Пылающий порог и Испепеляющий порог исчезают, когда завершается его/её состояние Благословения Ночного духа. Одновременно может существовать только один Пылающий порог или Испепеляющий порог, призванный самим/ой путешественником/цей.Вы с Паймон наблюдали, как изменяется цвет текущего пламени.",
         "de-de": "Beschwört ein Feuer, das die Erde verschlingen kann. Je nachdem, ob gedrückt oder gedrückt gehalten wird, wird ein anderer Effekt erzeugt.DrückenKanalisiert die Pyro-Kraft auf eine brennende Weise. Die / Der Reisende erhält nach dem Auslösen 42 Nachtseelenpunkte, tritt in den Zustand des „Nachtseelensegens“ ein und ruft eine der aktuellen Figur folgende „Flammende Schwelle“ hervor.Wenn sich die „Flammende Schwelle“ einem Gegner nähert, fügt sie in regelmäßigen Abständen Gegnern in der Nähe mit Nachtseelen versehenen Pyro-Schaden zu.Gedrückt haltenKanalisiert die Pyro-Kraft auf eine stabile Weise und fügt Gegnern in der Nähe mit Nachtseelen versehenen Pyro-Flächenschaden zu. Die / Der Reisende erhält nach dem Auslösen 42 Nachtseelenpunkte, tritt in den Zustand des „Nachtseelensegens“ ein und ruft eine der aktuellen Figur folgende „Versengende Schwelle“ hervor.Wenn die aktuelle Figur in der „Versengenden Schwelle“ Gegnern Schaden zufügt, führt die „Versengende Schwelle“ einen abgestimmten Angriff aus, der auf Basis des ANG der / des Reisenden Gegnern mit Nachtseelen versehenen Pyro-Schaden zufügt. 3s Abklingzeit.Nachtseelensegen – ReisenderVerbraucht fortlaufend Nachtseelenpunkte. Der Nachtseelensegen-Zustand der / des Reisenden hält bis zu 12{NON_BREAK_SPACE}s. Wenn ihre / seine Nachtseelenpunkte aufgebraucht sind, endet der Nachtseelensegen-Zustand der / des Reisenden. Aktualisiert die Nachtseelenpunkte beim erneuten Auslösen der Elementarfähigkeit während der Wirkungsdauer auf 42 Punkte.Die „Flammende Schwelle“ und „Versengende Schwelle“ verschwinden, wenn der Nachtseelensegen-Zustand der / des Reisenden endet. Es kann gleichzeitig nur eine von der / dem Reisenden selbst erschaffene „Flammende Schwelle“ oder „Versengende Schwelle“ auf dem Feld existieren.Du hast mit Paimon gemeinsam die wechselnden Farben der fließenden Flammen beobachtet.",
         "fr-fr": "Manipule une flamme brûlante qui peut incinérer la terre entière. Différents effets se produisent selon la méthode de déclenchement :Appui simpleAppelle la puissance des flammes de manière déchaînée. Après utilisation, le voyageur/la voyageuse obtient 42 pts de noctâme, entre dans l'état Bénédiction noctâme et invoque un seuil enflammé qui suit le personnage déployé.En s'approchant d'ennemis, le seuil enflammé inflige des DGT Pyro infusés de noctâmes aux ennemis proches de façon intermittente.Appui longAppelle la puissance des flammes de manière posée pour infliger des DGT Pyro de zone infusés de noctâme aux ennemis proches. Après utilisation, le voyageur/la voyageuse obtient 42 pts de noctâme, entre dans l'état Bénédiction noctâme et invoque un seuil brûlant qui suit le personnage déployé.Lorsqu'un personnage déployé en son sein inflige des DGT à un ennemi, le seuil brûlant déclenche une attaque coordonnée infligeant des DGT Pyro infusés de noctâme selon l'ATQ du voyageur/de la voyageuse. Cet effet peut être déclenché une fois toutes les 3 s.Bénédiction noctâme : Voyageur/VoyageuseLa bénédiction noctâme du voyageur/de la voyageuse consomme de façon continue ses points de noctâme, dure un maximum de 12 s et prend fin une fois les points épuisés. Utiliser à nouveau la compétence élémentaire pendant cette durée réinitialise le noctâme du voyageur/de la voyageuse à 42 pts.Les seuils enflammés et brûlants disparaissent lorsque la bénédiction noctâme du voyageur/de la voyageuse prend fin et il ne peut exister qu'un seul seuil enflammé ou brûlant invoqué par le voyageur/la voyageuse à la fois.Paimon et vous avez étudié les couleurs changeantes des flammes.",
+        "es-es": "N/A",
         "id-id": "Mengayunkan bara api yang bisa membakar bumi, menghasilkan efek yang berbeda berdasarkan cara skill dilancarkan: Mode Tekan atau Mode Tahan.Mode TekanMenggunakan kekuatan api dengan cara membara. Setelah dilancarkan, Traveler akan mendapatkan 42 poin Nightsoul dan memasuki status Nightsoul's Blessing, serta memanggil Blazing Threshold yang mengikuti Karakter aktif.Saat Blazing Threshold mendekati musuh, akan melancarkan Nightsoul-aligned Pyro DMG terhadap musuh di sekitar secara berkala.Mode TahanMenggunakan kekuatan api dengan stabil dan mengakibatkan Nightsoul-aligned Pyro DMG Area terhadap musuh di sekitar. Setelah dilancarkan, Traveler akan mendapatkan 42 poin Nightsoul dan memasuki status Nightsoul's Blessing, serta memanggil Scorching Threshold yang bisa mengikuti Karakter aktif saat ini.Saat Karakter yang sedang diikuti oleh Scorching Threshold mengakibatkan DMG terhadap musuh, Scorching Threshold akan melancarkan serangan terkoordinasi, mengakibatkan Nightsoul-aligned Pyro DMG berdasarkan ATK Traveler terhadap musuh. Efek ini dapat terpicu sekali setiap 3 detik.Nightsoul Blessing: TravelerTerus mengonsumsi poin Nightsoul. Kondisi Nightsoul's Blessing Traveler sendiri bertahan hingga 12 detik dan saat poin Nightsoul habis dikonsumsi, Nightsoul Blessing Traveler akan berakhir. Jika Elemental Skill ini digunakan lagi saat aktif, poin Nightsoul Traveler akan diperbarui menjadi 42 poin.Blazing Threshold dan Scorching Threshold akan hilang setelah Nightsoul's Blessing Traveler berakhir. Hanya ada satu Blazing Threshold atau Scorching Threshold yang dipanggil oleh Traveler sendiri yang bisa ada di medan pertempuran di saat yang sama.Kamu dan Paimon bersama-sama menyaksikan perubahan warna bara api yang mengalir.",
         "th-th": "เรียกเปลวไฟที่สามารถเผาผลาญผืนดิน และทำให้เกิดเอฟเฟกต์ที่แตกต่างกันไปตามการกดและกดค้างเรียกพลังแห่งไฟด้วยวิธีการอันร้อนแรง หลังจากปล่อย นักเดินทางจะได้รับค่าวิญญาณราตรี 42 หน่วย และเข้าสู่สถานะพรวิญญาณราตรี พร้อมทั้งเรียก \"กงล้อเพลิงโหม\" ที่ติดตามตัวละครที่เข้าร่วมการต่อสู้ในขณะนั้นเมื่อกงล้อเพลิงโหมเข้าใกล้ศัตรู จะสร้างความเสียหายไฟที่มีคุณสมบัติวิญญาณราตรี ให้กับศัตรูที่อยู่ใกล้เคียงเป็นระยะเรียกพลังแห่งไฟด้วยวิธีการอันมั่นคง และสร้างความเสียหายไฟวงกว้างที่มีคุณสมบัติวิญญาณราตรี ให้กับศัตรูที่อยู่ใกล้เคียง หลังจากปล่อย นักเดินทางจะได้รับค่าวิญญาณราตรี 42 หน่วย และเข้าสู่สถานะพรวิญญาณราตรี พร้อมทั้งเรียก \"กงล้อแผดเผา\" ที่ติดตามตัวละครที่เข้าร่วมการต่อสู้ในขณะนั้นเมื่อตัวละครในสนามที่อยู่ในกงล้อแผดเผา สร้างความเสียหายให้กับศัตรู กงล้อแผดเผาจะทำการประสานการโจมตี และสร้างความเสียหายไฟที่มีคุณสมบัติวิญญาณราตรี ตามพลังโจมตีของนักเดินทาง โดยเอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้ง ในทุก 3 วินาทีพรวิญญาณราตรี - นักเดินทางใช้ค่าวิญญาณราตรีอย่างต่อเนื่อง ซึ่งพรวิญญาณราตรีของนักเดินทางจะคงอยู่ได้นานสุด 12 วินาที และพรวิญญาณราตรีของนักเดินทางจะสิ้นสุด เมื่อค่าวิญญาณราตรีหมดลง เมื่อปล่อยสกิลธาตุอีกครั้งในช่วงเวลานี้ ค่าวิญญาณราตรีของนักเดินทางจะรีเฟรชเป็น 42 หน่วยกงล้อเพลิงโหมและกงล้อแผดเผาจะหายไปเมื่อพรวิญญาณราตรีของนักเดินทางสิ้นสุดลง และกงล้อเพลิงโหมและกงล้อแผดเผาที่นักเดินทางเรียกออกมา จะสามารถคงอยู่ในเวลาเดียวกันเพียงหนึ่งอันเท่านั้นคุณกับ Paimon เฝ้าสังเกตการเปลี่ยนสี ของเปลวไฟที่แผดเผา",
         "vi-vn": "Điều khiển ngọn lửa có thể thiêu rụi mặt đất, căn cứ vào Nhấn hoặc Nhấn Giữ để sản sinh hiệu quả khác nhau.NhấnĐiều khiển ngọn lửa bùng cháy. Sau khi thi triển, Nhà Lữ Hành nhận được 42 điểm Dạ Hồn và vào trạng thái Dạ Hồn Chúc Phúc, đồng thời triệu hồi Vòng Rực Cháy đi theo nhân vật trong trận.Vòng Rực Cháy khi tiếp cận kẻ địch sẽ gây Sát Thương Nguyên Tố Hỏa theo chu kỳ mang thuộc tính Dạ Hồn cho kẻ địch gần đó.Nhấn GiữĐiều khiển ngọn lửa âm ỉ, gây Sát Thương Phạm Vi Nguyên Tố Hỏa mang thuộc tính Dạ Hồn cho kẻ địch xung quanh. Sau khi thi triển, Nhà Lữ Hành nhận được 42 điểm Dạ Hồn và vào trạng thái Dạ Hồn Chúc Phúc, đồng thời triệu hồi Vòng Thiêu Đốt đi theo nhân vật trong trận.Khi nhân vật trong trận có Vòng Thiêu Đốt và gây sát thương cho kẻ địch thì Vòng Thiêu Đốt sẽ hỗ trợ tấn công, gây Sát Thương Nguyên Tố Hỏa mang thuộc tính Dạ Hồn dựa vào Tấn Công của Nhà Lữ Hành. Hiệu quả này mỗi 3s tối đa kích hoạt một lần.Dạ Hồn Chúc Phúc - Nhà Lữ HànhLiên tục tiêu hao điểm Dạ Hồn. Dạ Hồn Chúc Phúc của Nhà Lữ Hành tối đa duy trì 12s. Khi tiêu hao hết điểm Dạ Hồn, trạng thái Dạ Hồn Chúc Phúc của Nhà Lữ Hành sẽ kết thúc. Nếu thi triển lại Kỹ Năng Nguyên Tố trong thời gian này, điểm Dạ Hồn của Nhà Lữ Hành sẽ được làm mới thành 42 điểm.Vòng Rực Cháy và Vòng Thiêu Đốt sẽ biến mất khi Dạ Hồn Chúc Phúc của Nhà Lữ Hành kết thúc, cùng lúc chỉ tồn tại một Vòng Rực Cháy hoặc Vòng Thiêu Đốt do bản thân Nhà Lữ Hành triệu hồi.Cùng Paimon quan sát màu sắc của ngọn lửa rực cháy.",
@@ -414,6 +396,7 @@
         "ru-ru": "Испепеляющий равнины",
         "de-de": "Prärienbrenner",
         "fr-fr": "Prairie d'embrasement",
+        "es-es": "N/A",
         "id-id": "Plains Scorcher",
         "th-th": "Plains Scorcher",
         "vi-vn": "Chước Hỏa Liêu Nguyên",
@@ -428,6 +411,7 @@
         "ru-ru": "Концентрирует пламя в метке, нанося врагам впереди Пиро урон по площади с характеристикой Ночного духа. В течение следующих 4 сек. путешественник/ца восстанавливает 7 ед. очков Ночного духа в секунду.Вы с Паймон изучили принципы неугасающего огня.",
         "de-de": "Verdichtet die Flammen zu einem Zeichen, fügt den Gegnern vor sich mit Nachtseelen versehenen Pyro-Flächenschaden zu und stellt der / dem Reisenden in den nächsten 4s pro s 7 Nachtseelenpunkte wieder her.Du hast mit Paimon gemeinsam die Prinzipien hinter einer unsterblichen Flamme studiert.",
         "fr-fr": "Condense les flammes en une marque, infligeant des DGT Pyro de zone infusés de noctâme aux ennemis en face, et accorde 7 pts de noctâme au voyageur/à la voyageuse toutes les secondes pendant 4 s.Paimon et vous avez étudié les principes derrières les flammes éternelles.",
+        "es-es": "N/A",
         "id-id": "Memadatkan api menjadi tanda, mengakibatkan Nightsoul-aligned Pyro DMG Area terhadap musuh di arah depan. Dalam 4 detik selanjutnya, 7 poin Nightsoul Traveler akan dipulihkan setiap detiknya.Kamu dan Paimon mempelajari prinsip-prinsip di balik api yang tak pernah padam.",
         "th-th": "รวบรวมเปลวไฟ ให้กลายเป็นตราสัญลักษณ์ เพื่อสร้างความเสียหายไฟวงกว้างที่มีคุณสมบัติวิญญาณราตรีให้กับศัตรูตรงหน้า และภายใน 4 วินาทีต่อมา จะฟื้นฟูค่าวิญญาณราตรีให้กับนักเดินทาง 7 หน่วย ในทุกวินาทีคุณกับ Paimon ศึกษาเงื่อนไขในการทำให้ไฟ ลุกไหม้อย่างไม่มีที่สิ้นสุด",
         "vi-vn": "Ngưng tụ ngọn lửa thành dấu ấn, gây Sát Thương Phạm Vi Nguyên Tố Hỏa mang thuộc tính Dạ Hồn cho kẻ địch phía trước. Đồng thời Nhà Lữ Hành sẽ hồi phục 7 điểm Dạ Hồn mỗi giây trong 4s tiếp theo.Cùng Paimon nghiên cứu điều kiện khiến ngọn lửa cháy mãi không tắt.",
@@ -446,6 +430,7 @@
         "ru-ru": "Истинное пламя сожжения",
         "de-de": "Wahre Flamme der Verbrennung",
         "fr-fr": "Feu d'incinération véritable",
+        "es-es": "N/A",
         "id-id": "True Flame of Incineration",
         "th-th": "True Flame of Incineration",
         "vi-vn": "Chiến Hỏa Lan Tràn",
@@ -460,6 +445,7 @@
         "ru-ru": "Когда у путешественника/цы более 20 очков Ночного духа, область поражения Пылающего порога и Испепеляющего порога элементального навыка Клинок текущего пламени после попадания по врагу увеличивается.",
         "de-de": "Vergrößert, sobald ein Gegner durch die Angriffe der „Flammenden Schwelle“ und „Versengenden Schwelle“ der Elementarfähigkeit Flussfeuer-Klinge getroffen wird, während die / der Reisende mehr als 20 Nachtseelenpunkte hat, den Wirkungsbereich derer.",
         "fr-fr": "Si le voyageur/la voyageuse possède plus de 20 pts de noctâme, la zone d'effet des attaques des seuils enflammés et brûlants de la compétence élémentaire Fléau des flammes augmente après qu'un ennemi a été touché.",
+        "es-es": "N/A",
         "id-id": "Saat Traveler memiliki lebih dari 20 poin Nightsoul, area efek serangan Blazing Threshold dan Scorching Threshold dari Elemental Skill Flowfire Blade setelah mengenai musuh meningkat.",
         "th-th": "เมื่อนักเดินทางมีค่าวิญญาณราตรีมากกว่า 20 หน่วย พื้นที่ผลกระทบของกงล้อเพลิงโหมและกงล้อแผดเผาจากสกิลธาตุ Flowfire Blade หลังจากโจมตีโดนศัตรูจะเพิ่มขึ้น",
         "vi-vn": "Khi Nhà Lữ Hành có hơn 20 điểm Dạ Hồn, phạm vi tấn công của Vòng Rực Cháy và Vòng Thiêu Đốt từ Kỹ Năng Nguyên Tố Lưu Hỏa Kiếm sau khi chúng đánh trúng kẻ địch sẽ gia tăng.",
@@ -478,6 +464,7 @@
         "ru-ru": "Недогоревшие угли",
         "de-de": "Unverbrannte Glut",
         "fr-fr": "Feu de braise imbrûlée",
+        "es-es": "N/A",
         "id-id": "Embers Unspent",
         "th-th": "Embers Unspent",
         "vi-vn": "Dư Hỏa Âm Ỉ",
@@ -492,6 +479,7 @@
         "ru-ru": "После того как активный персонаж, находящийся внутри Пылающего порога или Испепеляющего порога, активирует на противнике Пиро реакции, путешественник/ца восстанавливает 5 ед. энергии. Такой эффект может возникнуть один раз в 12 сек. Кроме того, когда члены отряда поблизости активируют Вспышку Ночного духа, путешественник/ца восстанавливает 4 ед. энергии.",
         "de-de": "Stellt der / dem Reisenden beim Auslösen von Pyro-Reaktionen an Gegnern durch die aktuelle Figur im Zustand „Flammende Schwelle“ oder „Versengende Schwelle“ 5 Punkte Elementarenergie wieder her, 12s Abklingzeit. Stellt der / dem Reisenden außerdem beim Auslösen des „Nachtseelenaufbruchs“ durch ein Truppenmitglied in der Nähe 4 Punkte Elementarenergie wieder her.",
         "fr-fr": "Lorsqu'un personnage déployé à l'intérieur d'un seuil enflammé ou d'un seuil brûlant a déclenché une réaction liée à l'élément Pyro sur un ennemi, le voyageur/la voyageuse récupère 5 pts d'énergie élémentaire, cet effet pouvant être déclenché une fois toutes les 12 s. De plus, le voyageur/la voyageuse récupère également 4 pts d'énergie élémentaire lorsqu'un membre de l'équipe à proximité déclenche une éruption noctâme.",
+        "es-es": "N/A",
         "id-id": "Setelah Karakter aktif berada dalam status Blazing Threshold atau Scorching Threshold memicu reaksi terkait Pyro, Traveler akan memulihkan 5 Energy. Efek ini dapat terpicu sekali setiap 12 detik. Selain itu, saat anggota party di sekitar memicu Nightsoul Burst, akan memulihkan 4 Energy Traveler.",
         "th-th": "หลังจากตัวละครในสนามที่อยู่ในกงล้อเพลิงโหมหรือกงล้อแผดเผา ทำให้เกิดปฏิกิริยาเกี่ยวกับธาตุไฟ จะฟื้นฟูพลังงานธาตุให้กับนักเดินทาง 5 หน่วย โดยเอฟเฟกต์นี้จะเกิดขึ้นได้มากสุดหนึ่งครั้ง ในทุก 12 วินาที นอกจากนี้ เมื่อตัวละครในทีมที่อยู่ในบริเวณใกล้เคียงทำให้เกิด \"วิญญาณราตรีปะทุ\" จะฟื้นฟูพลังงานธาตุให้กับนักเดินทาง 4 หน่วย",
         "vi-vn": "Nhân vật trong trận khi có Vòng Rực Cháy hoặc Vòng Thiêu Đốt, sau khi kích hoạt phản ứng liên quan đến Nguyên Tố Hỏa lên kẻ địch, sẽ hồi phục 5 điểm Năng Lượng Nguyên Tố cho Nhà Lữ Hành. Hiệu quả này mỗi 12s tối đa kích hoạt một lần. Ngoài ra, nhân vật trong đội gần đó khi kích hoạt Dạ Hồn Bùng Nổ, sẽ hồi phục cho Nhà Lữ Hành 4 điểm Năng Lượng Nguyên Tố.",
@@ -512,6 +500,7 @@
         "ru-ru": "Чужеземное пламя",
         "de-de": "Standardangriff: Glut aus der Fremde",
         "fr-fr": "Attaque normale : Flammes d'ailleurs",
+        "es-es": "N/A",
         "id-id": "Normal Attack: Foreign Blaze",
         "th-th": "โจมตีปกติ: Foreign Blaze",
         "vi-vn": "Tấn Công Thường - Ngọn Lửa Dị Bang",
@@ -522,12 +511,13 @@
           "label": {
             "pt-pt": "Nível",
             "en-us": "Level",
-            "ja-jp": "",
+            "ja-jp": "Level",
             "zh-cn": "Level",
             "ko-kr": "Level",
             "ru-ru": "Уровень",
             "de-de": "Stufe",
             "fr-fr": "Niv.",
+            "es-es": "Level",
             "id-id": "Level",
             "th-th": "Level",
             "vi-vn": "Level",
@@ -557,6 +547,7 @@
             "ru-ru": "Урон атаки 1",
             "de-de": "SCH Phase 1",
             "fr-fr": "DGT 1er coup",
+            "es-es": "1-Hit DMG",
             "id-id": "DMG Tahap 1",
             "th-th": "ความเสียหายขั้น 1",
             "vi-vn": "Sát Thương Lần 1",
@@ -586,6 +577,7 @@
             "ru-ru": "Урон атаки 2",
             "de-de": "SCH Phase 2",
             "fr-fr": "DGT 2e coup",
+            "es-es": "2-Hit DMG",
             "id-id": "DMG Tahap 2",
             "th-th": "ความเสียหายขั้น 2",
             "vi-vn": "Sát Thương Lần 2",
@@ -615,6 +607,7 @@
             "ru-ru": "Урон атаки 3",
             "de-de": "SCH Phase 3",
             "fr-fr": "DGT 3e coup",
+            "es-es": "3-Hit DMG",
             "id-id": "DMG Tahap 3",
             "th-th": "ความเสียหายขั้น 3",
             "vi-vn": "Sát Thương Lần 3",
@@ -644,6 +637,7 @@
             "ru-ru": "Урон атаки 4",
             "de-de": "SCH Phase 4",
             "fr-fr": "DGT 4e coup",
+            "es-es": "4-Hit DMG",
             "id-id": "DMG Tahap 4",
             "th-th": "ความเสียหายขั้น 4",
             "vi-vn": "Sát Thương Lần 4",
@@ -673,6 +667,7 @@
             "ru-ru": "Урон атаки 5",
             "de-de": "SCH Phase 5",
             "fr-fr": "DGT 5e coup",
+            "es-es": "5-Hit DMG",
             "id-id": "DMG Tahap 5",
             "th-th": "ความเสียหายขั้น 5",
             "vi-vn": "Sát Thương Lần 5",
@@ -702,6 +697,7 @@
             "ru-ru": "Урон заряженной атаки",
             "de-de": "SCH heftiger Schläge",
             "fr-fr": "DGT attaque chargée",
+            "es-es": "Charged Attack DMG",
             "id-id": "DMG Charged Attack",
             "th-th": "ความเสียหายชาร์จโจมตี",
             "vi-vn": "Sát Thương Trọng Kích",
@@ -724,17 +720,18 @@
         {
           "label": {
             "pt-pt": "Dano de Ataque Carregado",
-            "en-us": "",
+            "en-us": "Dano de Ataque Carregado",
             "ja-jp": "重撃スタミナ消費",
-            "zh-cn": "",
+            "zh-cn": "Dano de Ataque Carregado",
             "ko-kr": "강공격 피해",
             "ru-ru": "Потребление выносливости",
-            "de-de": "",
-            "fr-fr": "",
-            "id-id": "",
+            "de-de": "Dano de Ataque Carregado",
+            "fr-fr": "Dano de Ataque Carregado",
+            "es-es": "Dano de Ataque Carregado",
+            "id-id": "Dano de Ataque Carregado",
             "th-th": "ชาร์จโจมตีใช้พลังกาย",
-            "vi-vn": "",
-            "zh-tw": ""
+            "vi-vn": "Dano de Ataque Carregado",
+            "zh-tw": "Dano de Ataque Carregado"
           },
           "values": [
             "♂: 55.9%+60.7%",
@@ -760,6 +757,7 @@
             "ru-ru": "Урон в падении",
             "de-de": "Ausdauerverbrauch heftiger Schläge",
             "fr-fr": "Coût d'endurance attaque chargée",
+            "es-es": "Charged Attack Stamina Cost",
             "id-id": "Konsumsi Stamina Charged Attack",
             "th-th": "ความเสียหายพุ่งลง",
             "vi-vn": "Thể lực Trọng Kích tiêu hao",
@@ -789,6 +787,7 @@
             "ru-ru": "Урон низкого/высокого удара",
             "de-de": "SCH beim Fallen",
             "fr-fr": "DGT durant la chute",
+            "es-es": "Plunge DMG",
             "id-id": "DMG Selama Plunging",
             "th-th": "ความเสียหายพุ่งลงพื้นจากที่ต่ำ/สูง",
             "vi-vn": "Sát Thương Khi Đáp",
@@ -812,11 +811,15 @@
           "label": {
             "pt-pt": "Dano de Queda de Baixa/Alta Altitude",
             "en-us": "Low/High Plunge DMG",
+            "ja-jp": "Low/High Plunge DMG",
             "zh-cn": "低空/高空坠地冲击伤害",
             "ko-kr": "저공/고공 추락 충격 피해",
+            "ru-ru": "Low/High Plunge DMG",
             "de-de": "SCH beim Fallen aus niedriger/großer Höhe",
             "fr-fr": "DGT chute basse/élevée",
+            "es-es": "Low/High Plunge DMG",
             "id-id": "DMG Plunging Attack Min./Maks.",
+            "th-th": "Low/High Plunge DMG",
             "vi-vn": "Sát Thương Khi Đáp Từ Độ Cao Thấp/Cao",
             "zh-tw": "低空/高空墜地衝擊傷害"
           },
@@ -847,6 +850,7 @@
         "ru-ru": "Клинок текущего пламени",
         "de-de": "Flussfeuer-Klinge",
         "fr-fr": "Fléau des flammes",
+        "es-es": "N/A",
         "id-id": "Flowfire Blade",
         "th-th": "Flowfire Blade",
         "vi-vn": "Lưu Hỏa Kiếm",
@@ -857,12 +861,13 @@
           "label": {
             "pt-pt": "Nível",
             "en-us": "Level",
-            "ja-jp": "",
+            "ja-jp": "Level",
             "zh-cn": "Level",
             "ko-kr": "Level",
             "ru-ru": "Уровень",
             "de-de": "Stufe",
             "fr-fr": "Niv.",
+            "es-es": "Level",
             "id-id": "Level",
             "th-th": "Level",
             "vi-vn": "Level",
@@ -894,6 +899,7 @@
             "ru-ru": "Урон Пылающего порога",
             "de-de": "SCH Flammende Schwelle",
             "fr-fr": "DGT seuil enflammé",
+            "es-es": "Blazing Threshold",
             "id-id": "DMG Blazing Threshold",
             "th-th": "ความเสียหายกงล้อเพลิงโหม",
             "vi-vn": "Sát Thương Vòng Rực Cháy",
@@ -925,6 +931,7 @@
             "ru-ru": "Урон долгого нажатия",
             "de-de": "SCH bei Gedrückthalten",
             "fr-fr": "DGT appui long",
+            "es-es": "Hold DMG",
             "id-id": "DMG Tahan",
             "th-th": "ความเสียหายเมื่อกดค้าง",
             "vi-vn": "Sát Thương Nhấn Giữ",
@@ -956,6 +963,7 @@
             "ru-ru": "Урон Испепеляющего порога",
             "de-de": "SCH Versengende Schwelle",
             "fr-fr": "DGT seuil brûlant",
+            "es-es": "Scorching Threshold",
             "id-id": "DMG Scorching Threshold",
             "th-th": "ความเสียหายกงล้อแผดเผา",
             "vi-vn": "Sát Thương Vòng Thiêu Đốt",
@@ -987,6 +995,7 @@
             "ru-ru": "Максимум очков Ночного духа",
             "de-de": "Max. Nachtseelenpunkte",
             "fr-fr": "Limite de noctâme",
+            "es-es": "Nightsoul Point Limit",
             "id-id": "Batas Poin Nightsoul",
             "th-th": "ขีดจำกัดค่าวิญญาณราตรี",
             "vi-vn": "Giới Hạn Điểm Dạ Hồn",
@@ -1018,6 +1027,7 @@
             "ru-ru": "Время отката",
             "de-de": "Abklingzeit",
             "fr-fr": "Temps de recharge",
+            "es-es": "CD",
             "id-id": "Cooldown",
             "th-th": "คูลดาวน์",
             "vi-vn": "CD",
@@ -1052,6 +1062,7 @@
         "ru-ru": "Испепеляющий равнины",
         "de-de": "Prärienbrenner",
         "fr-fr": "Prairie d'embrasement",
+        "es-es": "N/A",
         "id-id": "Plains Scorcher",
         "th-th": "Plains Scorcher",
         "vi-vn": "Chước Hỏa Liêu Nguyên",
@@ -1062,12 +1073,13 @@
           "label": {
             "pt-pt": "Nível",
             "en-us": "Level",
-            "ja-jp": "",
+            "ja-jp": "Level",
             "zh-cn": "Level",
             "ko-kr": "Level",
             "ru-ru": "Уровень",
             "de-de": "Stufe",
             "fr-fr": "Niv.",
+            "es-es": "Level",
             "id-id": "Level",
             "th-th": "Level",
             "vi-vn": "Level",
@@ -1099,6 +1111,7 @@
             "ru-ru": "Урон навыка",
             "de-de": "Fähigkeits-SCH",
             "fr-fr": "DGT compétence",
+            "es-es": "Skill DMG",
             "id-id": "DMG Skill",
             "th-th": "ความเสียหายสกิล",
             "vi-vn": "Sát Thương Kỹ Năng",
@@ -1130,6 +1143,7 @@
             "ru-ru": "Время отката",
             "de-de": "Anklingzeit",
             "fr-fr": "Temps de recharge",
+            "es-es": "CD",
             "id-id": "Cooldown",
             "th-th": "คูลดาวน์",
             "vi-vn": "CD",
@@ -1161,6 +1175,7 @@
             "ru-ru": "Потребление энергии",
             "de-de": "Elementarenergie",
             "fr-fr": "Énergie élémentaire",
+            "es-es": "Energy Cost",
             "id-id": "Konsumsi Energy",
             "th-th": "พลังงานธาตุ",
             "vi-vn": "Năng Lượng Nguyên Tố",
@@ -1197,6 +1212,7 @@
         "ru-ru": "Чужеземное пламя",
         "de-de": "Standardangriff: Glut aus der Fremde",
         "fr-fr": "Attaque normale : Flammes d'ailleurs",
+        "es-es": "N/A",
         "id-id": "Normal Attack: Foreign Blaze",
         "th-th": "โจมตีปกติ: Foreign Blaze",
         "vi-vn": "Tấn Công Thường - Ngọn Lửa Dị Bang",
@@ -1207,7 +1223,7 @@
           "level": 2,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 12500,
               "name": {
@@ -1227,7 +1243,7 @@
               }
             },
             {
-              "id": "6630",
+              "id": 6630,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/508cb37d6026ab3f4303857dad074fc2_5494778664821180344.png",
               "amount": 3,
               "name": {
@@ -1247,7 +1263,7 @@
               }
             },
             {
-              "id": "6644",
+              "id": 6644,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/e07c501cd10522b752f2c2f31ac8c642_4061071050000073771.png",
               "amount": 6,
               "name": {
@@ -1272,7 +1288,7 @@
           "level": 3,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 17500,
               "name": {
@@ -1292,7 +1308,7 @@
               }
             },
             {
-              "id": "6634",
+              "id": 6634,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/162ba8b049c0fd0359169fd55c2e180e_6634099661695760824.png",
               "amount": 2,
               "name": {
@@ -1312,7 +1328,7 @@
               }
             },
             {
-              "id": "6645",
+              "id": 6645,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/54375bf17fec5be6b0f4b9ca377cf847_124895529869157893.png",
               "amount": 3,
               "name": {
@@ -1337,7 +1353,7 @@
           "level": 4,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 25000,
               "name": {
@@ -1357,7 +1373,7 @@
               }
             },
             {
-              "id": "6637",
+              "id": 6637,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/588ba8fccf6bdf8c389944ab2f8a9a97_4178406770150882378.png",
               "amount": 4,
               "name": {
@@ -1377,7 +1393,7 @@
               }
             },
             {
-              "id": "6645",
+              "id": 6645,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/54375bf17fec5be6b0f4b9ca377cf847_124895529869157893.png",
               "amount": 4,
               "name": {
@@ -1402,7 +1418,7 @@
           "level": 5,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 30000,
               "name": {
@@ -1422,7 +1438,7 @@
               }
             },
             {
-              "id": "6631",
+              "id": 6631,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/3ee881d376a77821d602d63a9867ac37_6994447432427075587.png",
               "amount": 6,
               "name": {
@@ -1442,7 +1458,7 @@
               }
             },
             {
-              "id": "6645",
+              "id": 6645,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/54375bf17fec5be6b0f4b9ca377cf847_124895529869157893.png",
               "amount": 6,
               "name": {
@@ -1467,7 +1483,7 @@
           "level": 6,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 37500,
               "name": {
@@ -1487,7 +1503,7 @@
               }
             },
             {
-              "id": "6634",
+              "id": 6634,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/162ba8b049c0fd0359169fd55c2e180e_6634099661695760824.png",
               "amount": 9,
               "name": {
@@ -1507,7 +1523,7 @@
               }
             },
             {
-              "id": "6645",
+              "id": 6645,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/54375bf17fec5be6b0f4b9ca377cf847_124895529869157893.png",
               "amount": 9,
               "name": {
@@ -1532,7 +1548,7 @@
           "level": 7,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 120000,
               "name": {
@@ -1552,7 +1568,7 @@
               }
             },
             {
-              "id": "6638",
+              "id": 6638,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/e43683bca9072ec8eb5c79af1c36ae32_4685972103395859870.png",
               "amount": 4,
               "name": {
@@ -1572,7 +1588,7 @@
               }
             },
             {
-              "id": "6646",
+              "id": 6646,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/c8648efda2051a6f005647a78ac907fb_7957923439991642143.png",
               "amount": 4,
               "name": {
@@ -1592,7 +1608,7 @@
               }
             },
             {
-              "id": "6939",
+              "id": 6939,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/12/01/151578876/7c855cf91fe6cd746a99108400b5a9f2_757273437910791117.png",
               "amount": 1,
               "name": {
@@ -1617,7 +1633,7 @@
           "level": 8,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 260000,
               "name": {
@@ -1637,7 +1653,7 @@
               }
             },
             {
-              "id": "6632",
+              "id": 6632,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/55e2e17d922ff088779e8d18bc52a592_8679463696385863087.png",
               "amount": 6,
               "name": {
@@ -1657,7 +1673,7 @@
               }
             },
             {
-              "id": "6646",
+              "id": 6646,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/c8648efda2051a6f005647a78ac907fb_7957923439991642143.png",
               "amount": 6,
               "name": {
@@ -1677,7 +1693,7 @@
               }
             },
             {
-              "id": "6939",
+              "id": 6939,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/12/01/151578876/7c855cf91fe6cd746a99108400b5a9f2_757273437910791117.png",
               "amount": 1,
               "name": {
@@ -1702,7 +1718,7 @@
           "level": 9,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 450000,
               "name": {
@@ -1722,7 +1738,7 @@
               }
             },
             {
-              "id": "6635",
+              "id": 6635,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/9c4596dc24ddc391b3b4ca2439261cde_2405366525579624554.png",
               "amount": 12,
               "name": {
@@ -1742,7 +1758,7 @@
               }
             },
             {
-              "id": "6646",
+              "id": 6646,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/c8648efda2051a6f005647a78ac907fb_7957923439991642143.png",
               "amount": 9,
               "name": {
@@ -1762,7 +1778,7 @@
               }
             },
             {
-              "id": "6939",
+              "id": 6939,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/12/01/151578876/7c855cf91fe6cd746a99108400b5a9f2_757273437910791117.png",
               "amount": 1,
               "name": {
@@ -1787,7 +1803,7 @@
           "level": 10,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 700000,
               "name": {
@@ -1807,7 +1823,7 @@
               }
             },
             {
-              "id": "6638",
+              "id": 6638,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/e43683bca9072ec8eb5c79af1c36ae32_4685972103395859870.png",
               "amount": 16,
               "name": {
@@ -1827,7 +1843,7 @@
               }
             },
             {
-              "id": "6646",
+              "id": 6646,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/c8648efda2051a6f005647a78ac907fb_7957923439991642143.png",
               "amount": 12,
               "name": {
@@ -1847,7 +1863,7 @@
               }
             },
             {
-              "id": "6939",
+              "id": 6939,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/12/01/151578876/7c855cf91fe6cd746a99108400b5a9f2_757273437910791117.png",
               "amount": 1,
               "name": {
@@ -1867,7 +1883,7 @@
               }
             },
             {
-              "id": "900",
+              "id": 900,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Crown%20of%20Insight_icon.png",
               "amount": 1,
               "name": {
@@ -1900,25 +1916,25 @@
     "ru-ru": "-",
     "de-de": "-",
     "fr-fr": "-",
+    "es-es": "N/A",
     "id-id": "-",
     "th-th": "-",
     "vi-vn": "-",
-    "zh-tw": "——",
-    "es-es": "N/A"
+    "zh-tw": "——"
   },
   "birthday": {
     "pt-pt": "-",
     "en-us": "-",
+    "ja-jp": "N/A",
+    "zh-cn": "N/A",
     "ko-kr": "(플레이어의 생일)",
+    "ru-ru": "N/A",
     "de-de": "-",
     "fr-fr": "-",
+    "es-es": "N/A",
     "id-id": "-",
     "th-th": "-",
     "vi-vn": "-",
-    "ja-jp": "N/A",
-    "zh-cn": "N/A",
-    "ru-ru": "N/A",
-    "es-es": "N/A",
     "zh-tw": "N/A"
   },
   "ascensionMaterials": [
@@ -1932,6 +1948,7 @@
         "ru-ru": "Ур. 20",
         "de-de": "St. 20",
         "fr-fr": "Niv.20",
+        "es-es": "Lv.20",
         "id-id": "Lv. 20",
         "th-th": "Lv.20",
         "vi-vn": "Lv.20",
@@ -1939,7 +1956,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 20000,
           "name": {
@@ -1959,7 +1976,7 @@
           }
         },
         {
-          "id": "1189",
+          "id": 1189,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Brilliant%20Diamond%20Sliver_icon.png",
           "amount": 1,
           "name": {
@@ -1979,7 +1996,7 @@
           }
         },
         {
-          "id": "1750",
+          "id": 1750,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Windwheel%20Aster_icon.png",
           "amount": 3,
           "name": {
@@ -1999,7 +2016,7 @@
           }
         },
         {
-          "id": "1247",
+          "id": 1247,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Damaged%20Mask_icon.png",
           "amount": 3,
           "name": {
@@ -2030,6 +2047,7 @@
         "ru-ru": "Ур. 40",
         "de-de": "St. 40",
         "fr-fr": "Niv.40",
+        "es-es": "Lv.40",
         "id-id": "Lv. 40",
         "th-th": "Lv.40",
         "vi-vn": "Lv.40",
@@ -2037,7 +2055,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 40000,
           "name": {
@@ -2057,7 +2075,7 @@
           }
         },
         {
-          "id": "1188",
+          "id": 1188,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Brilliant%20Diamond%20Fragment_icon.png",
           "amount": 3,
           "name": {
@@ -2077,7 +2095,7 @@
           }
         },
         {
-          "id": "1750",
+          "id": 1750,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Windwheel%20Aster_icon.png",
           "amount": 10,
           "name": {
@@ -2097,7 +2115,7 @@
           }
         },
         {
-          "id": "1247",
+          "id": 1247,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Damaged%20Mask_icon.png",
           "amount": 15,
           "name": {
@@ -2128,6 +2146,7 @@
         "ru-ru": "Ур. 50",
         "de-de": "St. 50",
         "fr-fr": "Niv.50",
+        "es-es": "Lv.50",
         "id-id": "Lv. 50",
         "th-th": "Lv.50",
         "vi-vn": "Lv.50",
@@ -2135,7 +2154,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 60000,
           "name": {
@@ -2155,7 +2174,7 @@
           }
         },
         {
-          "id": "1188",
+          "id": 1188,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Brilliant%20Diamond%20Fragment_icon.png",
           "amount": 6,
           "name": {
@@ -2175,7 +2194,7 @@
           }
         },
         {
-          "id": "1750",
+          "id": 1750,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Windwheel%20Aster_icon.png",
           "amount": 20,
           "name": {
@@ -2195,7 +2214,7 @@
           }
         },
         {
-          "id": "983",
+          "id": 983,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Stained%20Mask_icon.png",
           "amount": 12,
           "name": {
@@ -2226,6 +2245,7 @@
         "ru-ru": "Ур. 60",
         "de-de": "St. 60",
         "fr-fr": "Niv.60",
+        "es-es": "Lv.60",
         "id-id": "Lv. 60",
         "th-th": "Lv.60",
         "vi-vn": "Lv.60",
@@ -2233,7 +2253,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 80000,
           "name": {
@@ -2253,7 +2273,7 @@
           }
         },
         {
-          "id": "1187",
+          "id": 1187,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Brilliant%20Diamond%20Chunk_icon.png",
           "amount": 3,
           "name": {
@@ -2273,7 +2293,7 @@
           }
         },
         {
-          "id": "1750",
+          "id": 1750,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Windwheel%20Aster_icon.png",
           "amount": 30,
           "name": {
@@ -2293,7 +2313,7 @@
           }
         },
         {
-          "id": "983",
+          "id": 983,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Stained%20Mask_icon.png",
           "amount": 18,
           "name": {
@@ -2324,6 +2344,7 @@
         "ru-ru": "Ур. 70",
         "de-de": "St. 70",
         "fr-fr": "Niv.70",
+        "es-es": "Lv.70",
         "id-id": "Lv. 70",
         "th-th": "Lv.70",
         "vi-vn": "Lv.70",
@@ -2331,7 +2352,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 100000,
           "name": {
@@ -2351,7 +2372,7 @@
           }
         },
         {
-          "id": "1187",
+          "id": 1187,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Brilliant%20Diamond%20Chunk_icon.png",
           "amount": 6,
           "name": {
@@ -2371,7 +2392,7 @@
           }
         },
         {
-          "id": "1750",
+          "id": 1750,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Windwheel%20Aster_icon.png",
           "amount": 45,
           "name": {
@@ -2391,7 +2412,7 @@
           }
         },
         {
-          "id": "220",
+          "id": 220,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Ominous%20Mask_icon.png",
           "amount": 12,
           "name": {
@@ -2422,6 +2443,7 @@
         "ru-ru": "Ур. 80",
         "de-de": "St. 80",
         "fr-fr": "Niv.80",
+        "es-es": "Lv.80",
         "id-id": "Lv. 80",
         "th-th": "Lv.80",
         "vi-vn": "Lv.80",
@@ -2429,7 +2451,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 120000,
           "name": {
@@ -2449,7 +2471,7 @@
           }
         },
         {
-          "id": "1186",
+          "id": 1186,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Brilliant%20Diamond%20Gemstone_icon.png",
           "amount": 6,
           "name": {
@@ -2469,7 +2491,7 @@
           }
         },
         {
-          "id": "1750",
+          "id": 1750,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Windwheel%20Aster_icon.png",
           "amount": 60,
           "name": {
@@ -2489,7 +2511,7 @@
           }
         },
         {
-          "id": "220",
+          "id": 220,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Ominous%20Mask_icon.png",
           "amount": 24,
           "name": {
@@ -2522,6 +2544,7 @@
         "ru-ru": "Ур. 1",
         "de-de": "St. 1",
         "fr-fr": "Niv.1",
+        "es-es": "Lv.1",
         "id-id": "Lv. 1",
         "th-th": "Lv.1",
         "vi-vn": "Lv.1",
@@ -2538,6 +2561,7 @@
             "ru-ru": "Базовое HP",
             "de-de": "Basis-LP",
             "fr-fr": "PV de base",
+            "es-es": "Base HP",
             "id-id": "Base HP",
             "th-th": "พลังชีวิตพื้นฐาน",
             "vi-vn": "HP Căn Bản",
@@ -2556,6 +2580,7 @@
             "ru-ru": "Базовая атака",
             "de-de": "Basis-ANG",
             "fr-fr": "ATQ de base",
+            "es-es": "Base ATK",
             "id-id": "Base ATK",
             "th-th": "พลังโจมตีพื้นฐาน",
             "vi-vn": "Tấn Công Căn Bản",
@@ -2574,6 +2599,7 @@
             "ru-ru": "Базовая защита",
             "de-de": "Basis-VTD",
             "fr-fr": "DÉF de base",
+            "es-es": "Base DEF",
             "id-id": "Base DEF",
             "th-th": "ป้องกันพื้นฐาน",
             "vi-vn": "P.Ngự Căn Bản",
@@ -2592,6 +2618,7 @@
             "ru-ru": "Сила атаки",
             "de-de": "ANG",
             "fr-fr": "ATQ",
+            "es-es": "ATK",
             "id-id": "ATK",
             "th-th": "พลังโจมตีเปอร์เซ็น",
             "vi-vn": "Tỷ Lệ Tấn Công",
@@ -2612,6 +2639,7 @@
         "ru-ru": "Ур. 20",
         "de-de": "St. 20",
         "fr-fr": "Niv.20",
+        "es-es": "Lv.20",
         "id-id": "Lv. 20",
         "th-th": "Lv.20",
         "vi-vn": "Lv.20",
@@ -2628,6 +2656,7 @@
             "ru-ru": "Базовое HP",
             "de-de": "Basis-LP",
             "fr-fr": "PV de base",
+            "es-es": "Base HP",
             "id-id": "Base HP",
             "th-th": "พลังชีวิตพิ้นฐาน",
             "vi-vn": "HP Căn Bản",
@@ -2646,6 +2675,7 @@
             "ru-ru": "Базовая атака",
             "de-de": "Basis-ANG",
             "fr-fr": "ATQ de base",
+            "es-es": "Base ATK",
             "id-id": "Base ATK",
             "th-th": "พลังโจมตีพื้นฐาน",
             "vi-vn": "Tấn Công Căn Bản",
@@ -2664,6 +2694,7 @@
             "ru-ru": "Базовая защита",
             "de-de": "Basis-VTD",
             "fr-fr": "DÉF de base",
+            "es-es": "Base DEF",
             "id-id": "Base DEF",
             "th-th": "ป้องกันพื้นฐาน",
             "vi-vn": "P.Ngự Căn Bản",
@@ -2682,6 +2713,7 @@
             "ru-ru": "Сила атаки",
             "de-de": "ANG",
             "fr-fr": "ATQ",
+            "es-es": "ATK",
             "id-id": "ATK",
             "th-th": "พลังโจมตีเปอร์เซ็น",
             "vi-vn": "Tỷ Lệ Tấn Công",
@@ -2702,6 +2734,7 @@
         "ru-ru": "Ур. 40",
         "de-de": "St. 40",
         "fr-fr": "Niv.40",
+        "es-es": "Lv.40",
         "id-id": "Lv. 40",
         "th-th": "Lv.40",
         "vi-vn": "Lv.40",
@@ -2718,6 +2751,7 @@
             "ru-ru": "Базовое HP",
             "de-de": "Basis-LP",
             "fr-fr": "PV de base",
+            "es-es": "Base HP",
             "id-id": "Base HP",
             "th-th": "พลังชีวิตพื้นฐาน",
             "vi-vn": "HP Căn Bản",
@@ -2736,6 +2770,7 @@
             "ru-ru": "Базовая атака",
             "de-de": "Basis-ANG",
             "fr-fr": "ATQ de base",
+            "es-es": "Base ATK",
             "id-id": "Base ATK",
             "th-th": "พลังโจมตีพื้นฐาน",
             "vi-vn": "Tấn Công Căn Bản",
@@ -2754,6 +2789,7 @@
             "ru-ru": "Базовая защита",
             "de-de": "Basis-VTD",
             "fr-fr": "DÉF de base",
+            "es-es": "Base DEF",
             "id-id": "Base DEF",
             "th-th": "ป้องกันพื้นฐาน",
             "vi-vn": "P.Ngự Căn Bản",
@@ -2772,6 +2808,7 @@
             "ru-ru": "Сила атаки",
             "de-de": "ANG",
             "fr-fr": "ATQ",
+            "es-es": "ATK",
             "id-id": "ATK",
             "th-th": "พลังโจมตีเปอร์เซ็น",
             "vi-vn": "Tỷ Lệ Tấn Công",
@@ -2792,6 +2829,7 @@
         "ru-ru": "Ур. 50",
         "de-de": "St. 50",
         "fr-fr": "Niv.50",
+        "es-es": "Lv.50",
         "id-id": "Lv. 50",
         "th-th": "Lv.50",
         "vi-vn": "Lv.50",
@@ -2808,6 +2846,7 @@
             "ru-ru": "Базовое HP",
             "de-de": "Basis-LP",
             "fr-fr": "PV de base",
+            "es-es": "Base HP",
             "id-id": "Base HP",
             "th-th": "พลังชีวิตพื้นฐาน",
             "vi-vn": "HP Căn Bản",
@@ -2826,6 +2865,7 @@
             "ru-ru": "Базовая атака",
             "de-de": "Basis-ANG",
             "fr-fr": "ATQ de base",
+            "es-es": "Base ATK",
             "id-id": "Base ATK",
             "th-th": "พลังโจมตีพื้นฐาน",
             "vi-vn": "Tấn Công Căn Bản",
@@ -2844,6 +2884,7 @@
             "ru-ru": "Базовая защита",
             "de-de": "Basis-VTD",
             "fr-fr": "DÉF de base",
+            "es-es": "Base DEF",
             "id-id": "Base DEF",
             "th-th": "ป้องกันพื้นฐาน",
             "vi-vn": "P.Ngự Căn Bản",
@@ -2862,6 +2903,7 @@
             "ru-ru": "Сила атаки",
             "de-de": "ANG",
             "fr-fr": "ATQ",
+            "es-es": "ATK",
             "id-id": "ATK",
             "th-th": "พลังโจมตีเปอร์เซ็น",
             "vi-vn": "Tỷ Lệ Tấn Công",
@@ -2882,6 +2924,7 @@
         "ru-ru": "Ур. 60",
         "de-de": "St. 60",
         "fr-fr": "Niv.60",
+        "es-es": "Lv.60",
         "id-id": "Lv. 60",
         "th-th": "Lv.60",
         "vi-vn": "Lv.60",
@@ -2898,6 +2941,7 @@
             "ru-ru": "Базовое HP",
             "de-de": "Basis-LP",
             "fr-fr": "PV de base",
+            "es-es": "Base HP",
             "id-id": "Base HP",
             "th-th": "พลังชีวิตพื้นฐาน",
             "vi-vn": "HP Căn Bản",
@@ -2916,6 +2960,7 @@
             "ru-ru": "Базовая атака",
             "de-de": "Basis-ANG",
             "fr-fr": "ATQ de base",
+            "es-es": "Base ATK",
             "id-id": "Base ATK",
             "th-th": "พลังโจมตีพื้นฐาน",
             "vi-vn": "Tấn Công Căn Bản",
@@ -2934,6 +2979,7 @@
             "ru-ru": "Базовая защита",
             "de-de": "Basis-VTD",
             "fr-fr": "DÉF de base",
+            "es-es": "Base DEF",
             "id-id": "Base DEF",
             "th-th": "ป้องกันพื้นฐาน",
             "vi-vn": "P.Ngự Căn Bản",
@@ -2952,6 +2998,7 @@
             "ru-ru": "Сила атаки",
             "de-de": "ANG",
             "fr-fr": "ATQ",
+            "es-es": "ATK",
             "id-id": "ATK",
             "th-th": "พลังโจมตีเปอร์เซ็น",
             "vi-vn": "Tỷ Lệ Tấn Công",
@@ -2972,6 +3019,7 @@
         "ru-ru": "Ур. 70",
         "de-de": "St. 70",
         "fr-fr": "Niv.70",
+        "es-es": "Lv.70",
         "id-id": "Lv. 70",
         "th-th": "Lv.70",
         "vi-vn": "Lv.70",
@@ -2988,6 +3036,7 @@
             "ru-ru": "Базовое HP",
             "de-de": "Basis-LP",
             "fr-fr": "PV de base",
+            "es-es": "Base HP",
             "id-id": "Base HP",
             "th-th": "พลังชีวิตพื้นฐาน",
             "vi-vn": "HP Căn Bản",
@@ -3006,6 +3055,7 @@
             "ru-ru": "Базовая атака",
             "de-de": "Basis-ANG",
             "fr-fr": "ATQ de base",
+            "es-es": "Base ATK",
             "id-id": "Base ATK",
             "th-th": "พลังโจมัตีพื้นฐาน",
             "vi-vn": "Tấn Công Căn Bản",
@@ -3024,6 +3074,7 @@
             "ru-ru": "Базовая защита",
             "de-de": "Basis-VTD",
             "fr-fr": "DÉF de base",
+            "es-es": "Base DEF",
             "id-id": "Base DEF",
             "th-th": "ป้องกันพื้นฐาน",
             "vi-vn": "P.Ngự Căn Bản",
@@ -3042,6 +3093,7 @@
             "ru-ru": "Сила атаки",
             "de-de": "ANG",
             "fr-fr": "ATQ",
+            "es-es": "ATK",
             "id-id": "ATK",
             "th-th": "พลังโจมตีเปอร์เซ็น",
             "vi-vn": "Tỷ Lệ Tấn Công",
@@ -3062,6 +3114,7 @@
         "ru-ru": "Ур. 80",
         "de-de": "St. 80",
         "fr-fr": "Niv.80",
+        "es-es": "Lv.80",
         "id-id": "Lv. 80",
         "th-th": "Lv.80",
         "vi-vn": "Lv.80",
@@ -3078,6 +3131,7 @@
             "ru-ru": "Базовое HP",
             "de-de": "Basis-LP",
             "fr-fr": "PV de base",
+            "es-es": "Base HP",
             "id-id": "Base HP",
             "th-th": "พลังชีวิตพื้นฐาน",
             "vi-vn": "HP Căn Bản",
@@ -3096,6 +3150,7 @@
             "ru-ru": "Базовая атака",
             "de-de": "Basis-ANG",
             "fr-fr": "ATQ de base",
+            "es-es": "Base ATK",
             "id-id": "Base ATK",
             "th-th": "พลังโจมตีพื้นฐาน",
             "vi-vn": "Tấn Công Căn Bản",
@@ -3114,6 +3169,7 @@
             "ru-ru": "Базовая защита",
             "de-de": "Basis-VTD",
             "fr-fr": "DÉF de base",
+            "es-es": "Base DEF",
             "id-id": "Base DEF",
             "th-th": "ป้องกันพื้นฐาน",
             "vi-vn": "P.Ngự Căn Bản",
@@ -3132,6 +3188,7 @@
             "ru-ru": "Сила атаки",
             "de-de": "ANG",
             "fr-fr": "ATQ",
+            "es-es": "ATK",
             "id-id": "ATK",
             "th-th": "พลังโจมตีเปอร์เซ็น",
             "vi-vn": "Tỷ Lệ Tấn Công",
@@ -3152,6 +3209,7 @@
         "ru-ru": "Ур. 90",
         "de-de": "St. 90",
         "fr-fr": "Niv.90",
+        "es-es": "Lv.90",
         "id-id": "Lv. 90",
         "th-th": "Lv.90",
         "vi-vn": "Lv.90",
@@ -3168,6 +3226,7 @@
             "ru-ru": "Базовое HP",
             "de-de": "Basis-LP",
             "fr-fr": "PV de base",
+            "es-es": "Base HP",
             "id-id": "Base HP",
             "th-th": "พลังชีวิตพื้นฐาน",
             "vi-vn": "HP Căn Bản",
@@ -3186,6 +3245,7 @@
             "ru-ru": "Базовая атака",
             "de-de": "Basis-ANG",
             "fr-fr": "ATQ de base",
+            "es-es": "Base ATK",
             "id-id": "Base ATK",
             "th-th": "พลังโจมตีพื้นฐาน",
             "vi-vn": "Tấn Công Căn Bản",
@@ -3204,6 +3264,7 @@
             "ru-ru": "Базовая защита",
             "de-de": "Basis-VTD",
             "fr-fr": "DÉF de base",
+            "es-es": "Base DEF",
             "id-id": "Base DEF",
             "th-th": "ป้องกันพื้นฐาน",
             "vi-vn": "P.Ngự Căn Bản",
@@ -3222,6 +3283,7 @@
             "ru-ru": "Сила атаки",
             "de-de": "ANG",
             "fr-fr": "ATQ",
+            "es-es": "ATK",
             "id-id": "ATK",
             "th-th": "พลังโจมตีเปอร์เซ็น",
             "vi-vn": "Tỷ Lệ Tấn Công",

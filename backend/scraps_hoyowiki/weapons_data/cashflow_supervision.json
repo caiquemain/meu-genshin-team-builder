@@ -1,0 +1,1142 @@
+{
+  "id": "cashflow_supervision",
+  "wiki_id": 4340,
+  "name": {
+    "pt-pt": "Supervisão de Caixa",
+    "en-us": "Cashflow Supervision",
+    "ja-jp": "凛流の監視者",
+    "zh-cn": "金流监督",
+    "ko-kr": "현금 흐름 감독",
+    "ru-ru": "Казначейский надзор",
+    "de-de": "Monetäre Aufsichtseinheit",
+    "fr-fr": "Supervision de trésorerie",
+    "es-es": "Supervisor Flujoáurico",
+    "id-id": "Cashflow Supervision",
+    "th-th": "Cashflow Supervision",
+    "vi-vn": "Quản Đốc Vàng Ròng",
+    "zh-tw": "金流監督"
+  },
+  "description": {
+    "pt-pt": "Um dispositivo flutuante que pode monitorar certos fenômenos. Foi pego e modificado para servir a outros usos depois de abandonado.",
+    "en-us": "A floating device that can monitor certain phenomena. It was picked up and modified to serve other purposes following its abandonment.",
+    "ja-jp": "特定の現象を監視できる浮遊装置。廃棄された後、拾った者が他の用途に改造した。",
+    "zh-cn": "能够监控特定现象的悬浮仪器，废弃后被拾获者重新改造为其它用途。",
+    "ko-kr": "특정 현상을 감시할 수 있는 부유 장치. 폐기되었다가 이를 주운 사람에 의해 다른 용도로 개조됐다",
+    "ru-ru": "Парящее устройство, способное отслеживать и контролировать некоторые явления. После списания его нашли и модифицировали для иных целей.",
+    "de-de": "Ein schwebendes Gerät zur Beobachtung bestimmter Phänomene. Nachdem es ausrangiert wurde, hat der Finder es für seine Zwecke umgestaltet.",
+    "fr-fr": "Un appareil flottant capable de surveiller certains phénomènes. Il a été récupéré et modifié pour servir à d'autres fins suite à son abandon.",
+    "es-es": "Un artilugio flotante que sirve para monitorear ciertos fenómenos. Tras ser abandonado, lo recogió otra persona para modificarlo y cambiar su uso.",
+    "id-id": "Alat melayang yang dapat mengawasi fenomena tertentu. Setelah diterlantarkan, pengguna yang memungutnya dan memodifikasinya untuk keperluan yang lain.",
+    "th-th": "อุปกรณ์ลอยตัวที่สามารถตรวจสอบปรากฏการณ์บางอย่างได้ หลังจากถูกทิ้งไป ผู้ค้นพบก็นำไปดัดแปลงใหม่เพื่อใช้ในจุดประสงค์อื่น",
+    "vi-vn": "Thiết bị lơ lửng, có thể giám sát hiện tượng nhất định. Sau khi bị bỏ đi đã được người nhặt cải tạo thành công dụng khác.",
+    "zh-tw": "能夠監控特定現象的懸浮儀器，廢棄後被拾獲者重新改造為其他用途。"
+  },
+  "rarity": 5,
+  "type": {
+    "pt-pt": "Catalisador",
+    "en-us": "Catalyst",
+    "ja-jp": "法器",
+    "zh-cn": "法器",
+    "ko-kr": "법구",
+    "ru-ru": "Катализатор",
+    "de-de": "Katalysator",
+    "fr-fr": "Catalyseur",
+    "es-es": "Catalizador",
+    "id-id": "Catalyst",
+    "th-th": "สื่อเวท",
+    "vi-vn": "Pháp Khí",
+    "zh-tw": "法器"
+  },
+  "subStat": {
+    "pt-pt": "Taxa CRIT%",
+    "en-us": "CRIT Rate",
+    "ja-jp": "会心率",
+    "zh-cn": "暴击率",
+    "ko-kr": "치명타 확률",
+    "ru-ru": "Шанс крит. попад.",
+    "de-de": "KT",
+    "fr-fr": "Taux CRIT",
+    "es-es": "Prob. CRIT",
+    "id-id": "CRIT Rate",
+    "th-th": "อัตราคริ",
+    "vi-vn": "Tỷ Lệ Bạo Kích",
+    "zh-tw": "暴擊率"
+  },
+  "passiveName": {
+    "pt-pt": "Maré de Sangue Dourado",
+    "en-us": "Golden Blood-Tide",
+    "ja-jp": "黄金の血潮",
+    "zh-cn": "黄金的血潮",
+    "ko-kr": "황금 혈조",
+    "ru-ru": "Золотая волна крови:",
+    "de-de": "Goldene Gezeiten des Blutes",
+    "fr-fr": "Marée de sang d'or",
+    "es-es": "Marea aureosangrienta",
+    "id-id": "Golden Blood-Tide",
+    "th-th": "Golden Blood-Tide",
+    "vi-vn": "Thủy Triều Máu Hoàng Kim",
+    "zh-tw": "黃金的血潮"
+  },
+  "passiveDescription": {
+    "pt-pt": "Aumenta o ATQ em 16%/20%/24%/28%/32%. Quando a Vida atual aumentar ou cair, o Dano causado pelo Ataque Normal aumenta em 16%/20%/24%/28%/32%, e o Dano causado pelo Ataque Carregado em 14%/17.5%/21%/24.5%/28%. Esse efeito dura 4s, pode ser acumulado até 3 vezes e desencadeado uma vez a cada 0.3s. Quando possuir 3 acúmulos, aumenta a Vel. de ATQ em 8%/10%/12%/14%/16%.",
+    "en-us": "ATK is increased by 16%/20%/24%/28%/32%. When current HP increases or decreases, Normal Attack DMG will be increased by 16%/20%/24%/28%/32% and Charged Attack DMG will be increased by 14%/17.5%/21%/24.5%/28% for 4s. Max 3 stacks. This effect can be triggered once every 0.3s. When the wielder has 3 stacks, ATK SPD will be increased by 8%/10%/12%/14%/16%.",
+    "ja-jp": "攻撃力+16/20/24/28/32％。現在のHPが増える、または減る時、通常攻撃ダメージ+16/20/24/28/32％、重撃ダメージ+14/17.5/21/24.5/28％。継続時間4秒、最大3層まで。この効果は0.3秒毎に1回のみ発動可能。3層まで重ねた時、攻撃速度+8/10/12/14/16％。",
+    "zh-cn": "攻击力提升16%/20%/24%/28%/32%。当前生命值提升或降低时，普通攻击造成的伤害提升16%/20%/24%/28%/32%，重击造成的伤害提升14%/17.5%/21%/24.5%/28%。该效果持续4秒，至多叠加3层，每0.3秒至多触发一次；处于叠加3层的状态下时，攻击速度提升8%/10%/12%/14%/16%。",
+    "ko-kr": "공격력이 16/20/24/28/32% 증가한다. 현재 HP가 증가 또는 감소 시 일반 공격이 주는 피해가 16/20/24/28/32%, 강공격이 주는 피해가 14/17.5/21/24.5/28% 증가한다. 지속 시간: 4초. 최대 중첩수: 3스택. 0.3초마다 최대 1회 발동한다. 3스택 상태인 경우, 공격 속도가 8/10/12/14/16% 증가한다",
+    "ru-ru": "Увеличивает силу атаки на 16%/20%/24%/28%/32%. Когда текущее HP персонажа повышается или понижается, на 4 сек. урон обычной атаки увеличивается на 16%/20%/24%/28%/32%, а заряженной атаки - на 14%/17,5%/21%/24,5%/28%. Эффект складывается до 3 раз и возникает не чаще, чем 1 раз в 0,3 сек. При получении экипированным персонажем 3 уровней скорость атаки увеличивается на 8%/10%/12%/14%/16%.",
+    "de-de": "Erhöht den ANG um 16% ~ 20% ~ 24% ~ 28% ~ 32%. Erhöht den mit Standardangriffen verursachten Schaden um 16% ~ 20% ~ 24% ~ 28% ~ 32% und den mit heftigen Schlägen verursachten Schaden um 14% ~ 17.5% ~ 21% ~ 24.5% ~ 28%, wenn sich die aktuellen LP erhöhen oder verringern. Hält 4s, 3-fach stapelbar, 0,3s Abklingzeit. Erhöht bei Erreichen von 3 Stapelungen die Angriffs-GSW um 8% ~ 10% ~ 12% ~ 14% ~ 18%.",
+    "fr-fr": "L'ATQ augmente de 16 %/20 %/24 %/28 %/32 %. Lorsque les PV actuels augmentent ou diminuent, les DGT infligés par les attaques normales augmentent de 16 %/20 %/24 %/28 %/32 % et ceux infligés par les attaques chargées augmentent de 14 %/17,5 %/21 %/24,5 %/28 %, pendant 4 s. Cet effet peut être cumulé 3 fois maximum et déclenché une fois toutes les 0,3 s. Avec 3 cumuls, la VIT d'attaque augmente de 8 %/10 %/12 %/14 %/16 %.",
+    "es-es": "El ATQ aumenta en un 16/20/24/28/32%. Cuando la Vida del personaje aumenta o disminuye, el daño de sus Ataques Normales aumenta en un 16/20/24/28/32% y el de sus Ataques Cargados, en un 14/17.5/21/24.5/28%. Este efecto dura 4 s, puede acumularse hasta 3 veces y solo se puede activar una vez cada 0.3 s. Al alcanzar 3 acumulaciones, la Vel. de Ataque aumenta en un 8%.",
+    "id-id": "ATK meningkat 16%/20%/24%/28%/32%. Saat HP bertambah atau berkurang, DMG Normal Attack meningkat 16%/20%/24%/28%/32%, dan DMG Charged Attack meningkat 14%/17,5%/21%/24,5%/28%. Efek ini berlangsung selama 4 detik, dapat ditumpuk sampai 3 lapis, dan dapat terpicu sekali setiap 0,3 detik. Saat ditumpuk sampai 3 lapis, ATK SPD meningkat 8%/10%/12%/14%/16%.",
+    "th-th": "พลังโจมตีเพิ่มขึ้น 16% เมื่อค่าพลังชีวิตปัจจุบันเพิ่มขึ้นหรือลดลง ความเสียหายที่เกิดจากการโจมตีปกติจะเพิ่มขึ้น 16% และความเสียหายที่เกิดจากการชาร์จโจมตีจะเพิ่มขึ้น 14% เป็นเวลา 4 วินาที ซ้อนทับได้มากสุด 3 ชั้น ซึ่งจะเกิดขึ้นได้มากสุดหนึ่งครั้งในทุก 0.3 วินาที เมื่อซ้อนทับกันถึง 3 ชั้น ความเร็วในการโจมตีจะเพิ่มขึ้น 8%",
+    "vi-vn": "Tấn công tăng 16%. Khi HP hiện tại tăng lên hoặc giảm xuống, sát thương tấn công thường tăng 16%, sát thương trọng kích tăng 14%. Hiệu quả này duy trì 4s, tối đa cộng dồn 3 tầng, mỗi 0.3s tối đa kích hoạt một lần. Khi cộng dồn đủ 3 tầng, tốc độ tấn công tăng 8%.",
+    "zh-tw": "攻擊力提升16%/20%/24%/28%/32%。目前生命值提升或降低時，普通攻擊造成的傷害提升16%/20%/24%/28%/32%，重擊造成的傷害提升14%/17.5%/21%/24.5%/28%。該效果持續4秒，至多疊加3層，每0.3秒至多觸發一次；處於疊加3層的狀態下時，攻擊速度提升8%/10%/12%/14%/16%。"
+  },
+  "weaponIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/04/59559639/6d8248633da24c16368b6570bf578874_2476567579504503372.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv. 20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv. 20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 10000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4028,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/91ea8723306e98e3d1bcb55d7fdf7c81_3145886108480206487.png",
+          "amount": 5,
+          "name": {
+            "pt-pt": "Cálice Quebrado do Mar Pristino",
+            "en-us": "Broken Goblet of the Pristine Sea",
+            "ja-jp": "無垢な海の苦杯",
+            "zh-cn": "无垢之海的苦盏",
+            "ko-kr": "순결한 바다의 쓴잔",
+            "ru-ru": "Разбитая чаша непорочного моря",
+            "de-de": "Zerbrochener Kelch des unberührten Meers",
+            "fr-fr": "Gobelet brisé de la mer immaculée",
+            "es-es": "Copa rota del mar impoluto",
+            "id-id": "Broken Goblet of the Pristine Sea",
+            "th-th": "Broken Goblet of the Pristine Sea",
+            "vi-vn": "Ly Vỡ Của Biển Nguyên Sơ",
+            "zh-tw": "無垢之海的苦盞"
+          }
+        },
+        {
+          "id": 4381,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "Relógio de Bolso do Velho Servo",
+            "en-us": "Old Operative's Pocket Watch",
+            "ja-jp": "古びた従者の懐中時計",
+            "zh-cn": "老旧的役人怀表",
+            "ko-kr": "심부름꾼의 낡은 회중시계",
+            "ru-ru": "Старые карманные часы сенешаля",
+            "de-de": "Alte Taschenuhr der Dienerin",
+            "fr-fr": "Vieille montre à gousset d'opérateur",
+            "es-es": "Reloj de bolsillo vetusto de Senescal",
+            "id-id": "Old Operative's Pocket Watch",
+            "th-th": "Old Operative's Pocket Watch",
+            "vi-vn": "Đồng Hồ Cũ Kỹ Của Đặc Vụ",
+            "zh-tw": "老舊的役人懷錶"
+          }
+        },
+        {
+          "id": 4069,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/59559639/0e951d06ab200a1578724fed95d842ca_8366337659899801404.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pérola Transoceânica",
+            "en-us": "Transoceanic Pearl",
+            "ja-jp": "異海の露",
+            "zh-cn": "异海凝珠",
+            "ko-kr": "기이한 바다의 방울",
+            "ru-ru": "Жемчужина иноморья",
+            "de-de": "Transozeanische Perle",
+            "fr-fr": "Perle transocéanique",
+            "es-es": "Condensado extramarino",
+            "id-id": "Transoceanic Pearl",
+            "th-th": "Transoceanic Pearl",
+            "vi-vn": "Ngọc Vụn Đại Dương",
+            "zh-tw": "異海凝珠"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv. 40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4027,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/53003e0178136f962ed95ee9c8cb7bff_4332075276078065606.png",
+          "amount": 5,
+          "name": {
+            "pt-pt": "Cálice de Vinho do Mar Pristino",
+            "en-us": "Wine Goblet of the Pristine Sea",
+            "ja-jp": "無垢な海の酒盃",
+            "zh-cn": "无垢之海的酒盏",
+            "ko-kr": "순결한 바다의 술잔",
+            "ru-ru": "Чаша непорочного моря",
+            "de-de": "Weinkelch des unberührten Meers",
+            "fr-fr": "Gobelet à vin de la mer immaculée",
+            "es-es": "Copa de vino del mar impoluto",
+            "id-id": "Wine Goblet of the Pristine Sea",
+            "th-th": "Wine Goblet of the Pristine Sea",
+            "vi-vn": "Ly Rượu Của Biển Nguyên Sơ",
+            "zh-tw": "無垢之海的酒盞"
+          }
+        },
+        {
+          "id": 4381,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Relógio de Bolso do Velho Servo",
+            "en-us": "Old Operative's Pocket Watch",
+            "ja-jp": "古びた従者の懐中時計",
+            "zh-cn": "老旧的役人怀表",
+            "ko-kr": "심부름꾼의 낡은 회중시계",
+            "ru-ru": "Старые карманные часы сенешаля",
+            "de-de": "Alte Taschenuhr der Dienerin",
+            "fr-fr": "Vieille montre à gousset d'opérateur",
+            "es-es": "Reloj de bolsillo vetusto de Senescal",
+            "id-id": "Old Operative's Pocket Watch",
+            "th-th": "Old Operative's Pocket Watch",
+            "vi-vn": "Đồng Hồ Cũ Kỹ Của Đặc Vụ",
+            "zh-tw": "老舊的役人懷錶"
+          }
+        },
+        {
+          "id": 4069,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/59559639/0e951d06ab200a1578724fed95d842ca_8366337659899801404.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Pérola Transoceânica",
+            "en-us": "Transoceanic Pearl",
+            "ja-jp": "異海の露",
+            "zh-cn": "异海凝珠",
+            "ko-kr": "기이한 바다의 방울",
+            "ru-ru": "Жемчужина иноморья",
+            "de-de": "Transozeanische Perle",
+            "fr-fr": "Perle transocéanique",
+            "es-es": "Condensado extramarino",
+            "id-id": "Transoceanic Pearl",
+            "th-th": "Transoceanic Pearl",
+            "vi-vn": "Ngọc Vụn Đại Dương",
+            "zh-tw": "異海凝珠"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv. 50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 30000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4027,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/53003e0178136f962ed95ee9c8cb7bff_4332075276078065606.png",
+          "amount": 9,
+          "name": {
+            "pt-pt": "Cálice de Vinho do Mar Pristino",
+            "en-us": "Wine Goblet of the Pristine Sea",
+            "ja-jp": "無垢な海の酒盃",
+            "zh-cn": "无垢之海的酒盏",
+            "ko-kr": "순결한 바다의 술잔",
+            "ru-ru": "Чаша непорочного моря",
+            "de-de": "Weinkelch des unberührten Meers",
+            "fr-fr": "Gobelet à vin de la mer immaculée",
+            "es-es": "Copa de vino del mar impoluto",
+            "id-id": "Wine Goblet of the Pristine Sea",
+            "th-th": "Wine Goblet of the Pristine Sea",
+            "vi-vn": "Ly Rượu Của Biển Nguyên Sơ",
+            "zh-tw": "無垢之海的酒盞"
+          }
+        },
+        {
+          "id": 4382,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Relógio de Bolso Padrão do Servo",
+            "en-us": "Operative's Standard Pocket Watch",
+            "ja-jp": "従者の制式懐中時計",
+            "zh-cn": "役人的制式怀表",
+            "ko-kr": "심부름꾼의 제식 회중시계",
+            "ru-ru": "Штатные карманные часы сенешаля",
+            "de-de": "Standardtaschenuhr der Dienerin",
+            "fr-fr": "Montre à gousset d'opérateur",
+            "es-es": "Reloj de bolsillo estándar de Senescal",
+            "id-id": "Operative's Standard Pocket Watch",
+            "th-th": "Operative's Standard Pocket Watch",
+            "vi-vn": "Đồng Hồ Tiêu Chuẩn Của Đặc Vụ",
+            "zh-tw": "役人的制式懷錶"
+          }
+        },
+        {
+          "id": 4068,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/35ab3651275afb059f079c578c4cbfbd_8419390384498436239.png",
+          "amount": 9,
+          "name": {
+            "pt-pt": "Pedaço Transoceânico",
+            "en-us": "Transoceanic Chunk",
+            "ja-jp": "異海の塊",
+            "zh-cn": "异海之块",
+            "ko-kr": "기이한 바다의 결정",
+            "ru-ru": "Обломок из иноморья",
+            "de-de": "Transozeanischer Brocken",
+            "fr-fr": "Morceau transocéanique",
+            "es-es": "Fragmento extramarino",
+            "id-id": "Transoceanic Chunk",
+            "th-th": "Transoceanic Chunk",
+            "vi-vn": "Kết Tinh Đại Dương",
+            "zh-tw": "異海之塊"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv. 60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 45000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4025,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/c70230640d8706fd2e3aa837a391166c_8598728081115916050.png",
+          "amount": 5,
+          "name": {
+            "pt-pt": "Cálice de Prata do Mar Pristino",
+            "en-us": "Silver Goblet of the Pristine Sea",
+            "ja-jp": "無垢な海の銀盃",
+            "zh-cn": "无垢之海的银杯",
+            "ko-kr": "순결한 바다의 은잔",
+            "ru-ru": "Серебряный кубок непорочного моря",
+            "de-de": "Silberkelch des unberührten Meers",
+            "fr-fr": "Gobelet d'argent de la mer immaculée",
+            "es-es": "Copa de plata del mar impoluto",
+            "id-id": "Silver Goblet of the Pristine Sea",
+            "th-th": "Silver Goblet of the Pristine Sea",
+            "vi-vn": "Ly Bạc Của Biển Nguyên Sơ",
+            "zh-tw": "無垢之海的銀杯"
+          }
+        },
+        {
+          "id": 4382,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Relógio de Bolso Padrão do Servo",
+            "en-us": "Operative's Standard Pocket Watch",
+            "ja-jp": "従者の制式懐中時計",
+            "zh-cn": "役人的制式怀表",
+            "ko-kr": "심부름꾼의 제식 회중시계",
+            "ru-ru": "Штатные карманные часы сенешаля",
+            "de-de": "Standardtaschenuhr der Dienerin",
+            "fr-fr": "Montre à gousset d'opérateur",
+            "es-es": "Reloj de bolsillo estándar de Senescal",
+            "id-id": "Operative's Standard Pocket Watch",
+            "th-th": "Operative's Standard Pocket Watch",
+            "vi-vn": "Đồng Hồ Tiêu Chuẩn Của Đặc Vụ",
+            "zh-tw": "役人的制式懷錶"
+          }
+        },
+        {
+          "id": 4068,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/35ab3651275afb059f079c578c4cbfbd_8419390384498436239.png",
+          "amount": 14,
+          "name": {
+            "pt-pt": "Pedaço Transoceânico",
+            "en-us": "Transoceanic Chunk",
+            "ja-jp": "異海の塊",
+            "zh-cn": "异海之块",
+            "ko-kr": "기이한 바다의 결정",
+            "ru-ru": "Обломок из иноморья",
+            "de-de": "Transozeanischer Brocken",
+            "fr-fr": "Morceau transocéanique",
+            "es-es": "Fragmento extramarino",
+            "id-id": "Transoceanic Chunk",
+            "th-th": "Transoceanic Chunk",
+            "vi-vn": "Kết Tinh Đại Dương",
+            "zh-tw": "異海之塊"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv. 70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 55000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4025,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/c70230640d8706fd2e3aa837a391166c_8598728081115916050.png",
+          "amount": 9,
+          "name": {
+            "pt-pt": "Cálice de Prata do Mar Pristino",
+            "en-us": "Silver Goblet of the Pristine Sea",
+            "ja-jp": "無垢な海の銀盃",
+            "zh-cn": "无垢之海的银杯",
+            "ko-kr": "순결한 바다의 은잔",
+            "ru-ru": "Серебряный кубок непорочного моря",
+            "de-de": "Silberkelch des unberührten Meers",
+            "fr-fr": "Gobelet d'argent de la mer immaculée",
+            "es-es": "Copa de plata del mar impoluto",
+            "id-id": "Silver Goblet of the Pristine Sea",
+            "th-th": "Silver Goblet of the Pristine Sea",
+            "vi-vn": "Ly Bạc Của Biển Nguyên Sơ",
+            "zh-tw": "無垢之海的銀杯"
+          }
+        },
+        {
+          "id": 4383,
+          "iconUrl": null,
+          "amount": 14,
+          "name": {
+            "pt-pt": "Constância do Servo",
+            "en-us": "Operative's Constancy",
+            "ja-jp": "従者の時々刻々",
+            "zh-cn": "役人的时时刻刻",
+            "ko-kr": "심부름꾼의 시시각각",
+            "ru-ru": "Постоянство сенешаля",
+            "de-de": "Beständigkeit der Dienerin",
+            "fr-fr": "Constance d'opérateur",
+            "es-es": "Asiduidad de Senescal",
+            "id-id": "Operative's Constancy",
+            "th-th": "Operative's Constancy",
+            "vi-vn": "Thời Khắc Của Đặc Vụ",
+            "zh-tw": "役人的時時刻刻"
+          }
+        },
+        {
+          "id": 4067,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/4bc36681d1975fcd36ed2965771c995d_184811178946478761.png",
+          "amount": 9,
+          "name": {
+            "pt-pt": "Cristal Caleidoscópico",
+            "en-us": "Xenochromatic Crystal",
+            "ja-jp": "色変わりの結晶",
+            "zh-cn": "异色结晶石",
+            "ko-kr": "이색 결정석",
+            "ru-ru": "Ксенохромный кристалл",
+            "de-de": "Xenochromatischer Kristall",
+            "fr-fr": "Cristal xénochromatique",
+            "es-es": "Cristalización cromática",
+            "id-id": "Xenochromatic Crystal",
+            "th-th": "Xenochromatic Crystal",
+            "vi-vn": "Tinh Thạch Dị Sắc",
+            "zh-tw": "異色結晶石"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv. 80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 65000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4024,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/a8147d7dfc78a2dc5d47dd50bd6292ed_4576799528764518153.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Cálice de Ouro do Mar Pristino",
+            "en-us": "Golden Goblet of the Pristine Sea",
+            "ja-jp": "無垢な海の金盃",
+            "zh-cn": "无垢之海的金杯",
+            "ko-kr": "순결한 바다의 금잔",
+            "ru-ru": "Золотой кубок непорочного моря",
+            "de-de": "Goldkelch des unberührten Meers",
+            "fr-fr": "Gobelet d'or de la mer immaculée",
+            "es-es": "Copa de oro del mar impoluto",
+            "id-id": "Golden Goblet of the Pristine Sea",
+            "th-th": "Golden Goblet of the Pristine Sea",
+            "vi-vn": "Ly Vàng Của Biển Nguyên Sơ",
+            "zh-tw": "無垢之海的金杯"
+          }
+        },
+        {
+          "id": 4383,
+          "iconUrl": null,
+          "amount": 27,
+          "name": {
+            "pt-pt": "Constância do Servo",
+            "en-us": "Operative's Constancy",
+            "ja-jp": "従者の時々刻々",
+            "zh-cn": "役人的时时刻刻",
+            "ko-kr": "심부름꾼의 시시각각",
+            "ru-ru": "Постоянство сенешаля",
+            "de-de": "Beständigkeit der Dienerin",
+            "fr-fr": "Constance d'opérateur",
+            "es-es": "Asiduidad de Senescal",
+            "id-id": "Operative's Constancy",
+            "th-th": "Operative's Constancy",
+            "vi-vn": "Thời Khắc Của Đặc Vụ",
+            "zh-tw": "役人的時時刻刻"
+          }
+        },
+        {
+          "id": 4067,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/4bc36681d1975fcd36ed2965771c995d_184811178946478761.png",
+          "amount": 18,
+          "name": {
+            "pt-pt": "Cristal Caleidoscópico",
+            "en-us": "Xenochromatic Crystal",
+            "ja-jp": "色変わりの結晶",
+            "zh-cn": "异色结晶石",
+            "ko-kr": "이색 결정석",
+            "ru-ru": "Ксенохромный кристалл",
+            "de-de": "Xenochromatischer Kristall",
+            "fr-fr": "Cristal xénochromatique",
+            "es-es": "Cristalización cromática",
+            "id-id": "Xenochromatic Crystal",
+            "th-th": "Xenochromatic Crystal",
+            "vi-vn": "Tinh Thạch Dị Sắc",
+            "zh-tw": "異色結晶石"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv. 1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St. 1",
+        "fr-fr": "Niv. 1",
+        "es-es": "Niv.1",
+        "id-id": "Lv. 1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "48"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "4.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv. 20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "133",
+          "postAscensionValue": "164"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "8.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv. 40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "261",
+          "postAscensionValue": "292"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "12.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv. 50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "341",
+          "postAscensionValue": "373"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "14.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv. 60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "423",
+          "postAscensionValue": "455"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "16.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv. 70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "506",
+          "postAscensionValue": "537"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "18.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv. 80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "590",
+          "postAscensionValue": "621"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "20.1%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St. 90",
+        "fr-fr": "Niv. 90",
+        "es-es": "Niv.90",
+        "id-id": "Lv. 90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "674",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob.CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "22.1%"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1022 @@
+{
+  "id": "royal_greatsword",
+  "wiki_id": 1959,
+  "name": {
+    "pt-pt": "Espadão Real",
+    "en-us": "Royal Greatsword",
+    "ja-jp": "旧貴族大剣",
+    "zh-cn": "宗室大剑",
+    "ko-kr": "왕실의 대검",
+    "ru-ru": "Королевский двуручный меч",
+    "de-de": "Königliches Großschwert",
+    "fr-fr": "Espadon royal",
+    "es-es": "Gran Espada Real",
+    "id-id": "Royal Greatsword",
+    "th-th": "Royal Greatsword",
+    "vi-vn": "Đại Kiếm Tông Thất",
+    "zh-tw": "宗室大劍"
+  },
+  "description": {
+    "pt-pt": "Uma velha espada grande que pertencia aos antigos governantes de Mondstadt. É fabricado com materiais da melhor qualidade e resistiu a prova do tempo. Uma arma para ser usada apenas pela realeza.",
+    "en-us": "An old greatsword that belonged to the erstwhile rulers of Mondstadt. It is made from the finest-quality materials and has stood the test of time. A weapon for use by the nobility only.",
+    "ja-jp": "かつてモンドを支配した旧貴族の大剣。高級素材が使われているため、長い年月が経っても新しいまま。貴族が戦闘時に使う武器である。",
+    "zh-cn": "曾支配蒙德的旧日贵族的大剑。用料极佳，历久犹弥新。是贵族的战斗兵器。",
+    "ko-kr": "몬드를 지배했던 옛 귀족의 대검. 재료가 아주 훌륭하고, 오랜 세월이 지나도 여전히 새롭다. 귀족의 전투 병기이다",
+    "ru-ru": "Старинный меч, который носили с собой древние правители Мондштадта. Выкован из материалов высочайшего качества, которые позволили ему выстоять испытание временем. Боевой меч знати, и никого больше.",
+    "de-de": "Dieses Großschwert wurde einst vom alten Adel Mondstadts geführt. Sein Material ist erlesen und hat all die Zeit gut überstanden. Diese Waffe ist für Aristokraten vorgesehen.",
+    "fr-fr": "Un espadon assez ancien qui appartenait jadis aux dirigeants de Mondstadt. Il a été fabriqué à partir d'un matériau de qualité qui a su résister à l'épreuve du temps. Cette arme a été conçue pour la noblesse.",
+    "es-es": "Una vieja gran espada que perteneció a la antigua aristocracia gobernante de Mondstadt. Está hecha con materiales de primera calidad que han resistido el paso del tiempo. Un arma de batalla exclusiva para la realeza.",
+    "id-id": "Pedang panjang tua milik bangsawan Mondstadt di masa lampau. Terbuat dari bahan dengan kualitas terbaik, dan telah melalui ujian waktu. Pedang yang digunakan oleh keluarga kerajaan.",
+    "th-th": "ดาบใหญ่สภาพเก่าแก่ของชนชั้นสูงผู้ที่ครั้งหนึ่งเคยปกครอง Mondstadt มาก่อน มันทำจากวัสดุระดับสูงที่ทนทานต่อความโหดร้ายของกาลเวลา เป็นอาวุธสำหรับต่อสู้ของชนชั้นสูง",
+    "vi-vn": "Kiếm quý tộc từng chi phối Mondstadt. Nguyên liệu cực phẩm, là binh khí chiến đấu của giới quý tộc.",
+    "zh-tw": "曾支配蒙德的舊日貴族的大劍。用料極佳，歷久猶彌新。是貴族的戰鬥兵器。"
+  },
+  "rarity": 4,
+  "type": {
+    "pt-pt": "Espadão",
+    "en-us": "Claymore",
+    "ja-jp": "両手剣",
+    "zh-cn": "双手剑",
+    "ko-kr": "양손검",
+    "ru-ru": "Двуручное",
+    "de-de": "Zweihänder",
+    "fr-fr": "Épée à deux mains",
+    "es-es": "Mandoble",
+    "id-id": "Claymore",
+    "th-th": "ดาบใหญ่",
+    "vi-vn": "Trọng Kiếm",
+    "zh-tw": "雙手劍"
+  },
+  "subStat": {
+    "pt-pt": "ATQ%",
+    "en-us": "ATK",
+    "ja-jp": "攻撃力",
+    "zh-cn": "攻击力",
+    "ko-kr": "공격력",
+    "ru-ru": "Сила атаки",
+    "de-de": "ANG",
+    "fr-fr": "ATQ",
+    "es-es": "ATQ",
+    "id-id": "ATK",
+    "th-th": "พลังโจมตี",
+    "vi-vn": "Tấn Công",
+    "zh-tw": "攻擊力"
+  },
+  "passiveName": {
+    "pt-pt": "Foco",
+    "en-us": "Focus",
+    "ja-jp": "集中",
+    "zh-cn": "专注",
+    "ko-kr": "집중",
+    "ru-ru": "Сосредоточенный:",
+    "de-de": "Konzentration",
+    "fr-fr": "Focus",
+    "es-es": "Concentración",
+    "id-id": "Focus",
+    "th-th": "Focus",
+    "vi-vn": "Chuyên Chú",
+    "zh-tw": "專注"
+  },
+  "passiveDescription": {
+    "pt-pt": "Ao atingir um oponente, aumenta a Taxa Crítica em 8%/10%/12%/14%/16%, acumulando no máximo 5 vezes. Causar Dano Crítico remove todos os acúmulos.",
+    "en-us": "Upon damaging an opponent, increases CRIT Rate by 8%/10%/12%/14%/16%. Max 5 stacks. A CRIT Hit removes all stacks.",
+    "ja-jp": "攻撃が敵にダメージを与えた時、会心率+8/10/12/14/16%、最大5重まで。攻撃会心発生時、効果がクリアされる。",
+    "zh-cn": "攻击造成伤害时，暴击率提升8%/10%/12%/14%/16%，最多堆叠5次。攻击造成暴击后，移除已有的专注效果。",
+    "ko-kr": "공격으로 피해를 줄 때마다 치명타 확률이 8%/10%/12%/14%/16% 증가한다. 최대 중첩수: 5회. 공격 시 치명타가 발생하면 모든 집중 효과가 사라진다",
+    "ru-ru": "При нанесении урона противнику повышает шанс крит. попадания на 8%/10%/12%/14%/16%. Эффект может складываться до 5 раз. Добавочный шанс крит. попадания исчезает с первым крит. попаданием.",
+    "de-de": "Erhöht die KT beim Verursachen von Schaden um 8% ~ 10% ~ 12% ~ 14% ~ 16%, 5-fach stapelbar. Effekt erlischt beim Verursachen eines KT.",
+    "fr-fr": "Augmente le taux CRIT de 8 %/10 %/12 %/14 %/16 % à chaque attaque qui cause des DGT à un ennemi. Cet effet peut être cumulé 5 fois maximum et est réinitialisé lors d'un coup CRIT.",
+    "es-es": "Al dañar a un enemigo, aumenta la Prob. CRIT en un 8%/10%/12%/14%/16%. Puede acumularse hasta 5 veces. Una vez asestado un golpe CRIT, las acumulaciones de Concentración se reiniciarán.",
+    "id-id": "Saat mengakibatkan DMG pada musuh, meningkatkan 8%/10%/12%/14%/16% CRIT Rate. Maksimum 5 lapis, dan saat serangan CRIT terpicu, seluruh lapisan efek akan hilang.",
+    "th-th": "เมื่อการโจมตีก่อให้เกิดความเสียหาย อัตราคริจะเพิ่มขึ้น 8%/10%/12%/14%/16% ซ้อนทับได้มากสุด 5 ครั้ง และเมื่อโจมตีติดคริติคอลจะล้างเอฟเฟกต์ที่โฟกัสออกทั้งหมด",
+    "vi-vn": "Khi tấn công tạo thành sát thương, tăng tỷ lệ bạo kích 8%/10%/12%/14%/16%, nhiều nhất cộng dồn 5 lần. Sau khi tấn công tạo thành bạo kích, xóa hiệu quả Chuyên Chú đã có.",
+    "zh-tw": "攻擊造成傷害時，暴擊率提升8%/10%/12%/14%/16%，效果最多疊加五層。攻擊造成暴擊後，移除已有的專注效果。"
+  },
+  "weaponIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/weapon/宗室大剑.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 1159,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Grilhões de Dandelion",
+            "en-us": "Fetters of the Dandelion Gladiator",
+            "ja-jp": "獅牙戦士の枷",
+            "zh-cn": "狮牙斗士的枷锁",
+            "ko-kr": "라이언 투사의 족쇄",
+            "ru-ru": "Кандалы львиного клыка",
+            "de-de": "Fesseln des Löwenzahnkämpfers",
+            "fr-fr": "Entraves du Chevalier du Croc de Lion",
+            "es-es": "Grilletes de Diente de León",
+            "id-id": "Fetters of the Dandelion Gladiator",
+            "th-th": "Fetters of the Dandelion Gladiator",
+            "vi-vn": "Xiềng Xích Đấu Sĩ Nanh Sư Tử",
+            "zh-tw": "獅牙鬥士的枷鎖"
+          }
+        },
+        {
+          "id": 1047,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Dispositivo do Caos",
+            "en-us": "Chaos Device",
+            "ja-jp": "混沌の装置",
+            "zh-cn": "混沌装置",
+            "ko-kr": "혼돈의 장치",
+            "ru-ru": "Устройство хаоса",
+            "de-de": "Chaos-Apparat",
+            "fr-fr": "Dispositif du chaos",
+            "es-es": "Dispositivo del caos",
+            "id-id": "Chaos Device",
+            "th-th": "Chaos Device",
+            "vi-vn": "Cấu Trúc Hỗn Độn",
+            "zh-tw": "混沌裝置"
+          }
+        },
+        {
+          "id": 396,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Condensado de Slime",
+            "en-us": "Slime Condensate",
+            "ja-jp": "スライムの液体",
+            "zh-cn": "史莱姆凝液",
+            "ko-kr": "슬라임 응축액",
+            "ru-ru": "Слизь слайма",
+            "de-de": "Schleimabsonderung",
+            "fr-fr": "Bave de Blob",
+            "es-es": "Condensado de Slime",
+            "id-id": "Slime Condensate",
+            "th-th": "Slime Condensate",
+            "vi-vn": "Dịch Slime",
+            "zh-tw": "史萊姆凝液"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 1161,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Correntes do Gladiador de Dandelion",
+            "en-us": "Chains of the Dandelion Gladiator",
+            "ja-jp": "獅牙戦士の鎖",
+            "zh-cn": "狮牙斗士的铁链",
+            "ko-kr": "라이언 투사의 쇠사슬",
+            "ru-ru": "Цепи львиного клыка",
+            "de-de": "Ketten des Löwenzahnkämpfers",
+            "fr-fr": "Chaînes du Chevalier du Croc de Lion",
+            "es-es": "Cadena de Diente de León",
+            "id-id": "Chains of Dandelion Gladiator",
+            "th-th": "Chains of the Dandelion Gladiator",
+            "vi-vn": "Dây Sắt Đấu Sĩ Nanh Sư Tử",
+            "zh-tw": "獅牙鬥士的鐵鍊"
+          }
+        },
+        {
+          "id": 1047,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Dispositivo do Caos",
+            "en-us": "Chaos Device",
+            "ja-jp": "混沌の装置",
+            "zh-cn": "混沌装置",
+            "ko-kr": "혼돈의 장치",
+            "ru-ru": "Устройство хаоса",
+            "de-de": "Chaos-Apparat",
+            "fr-fr": "Dispositif du chaos",
+            "es-es": "Dispositivo del caos",
+            "id-id": "Chaos Device",
+            "th-th": "Chaos Device",
+            "vi-vn": "Cấu Trúc Hỗn Độn",
+            "zh-tw": "混沌裝置"
+          }
+        },
+        {
+          "id": 396,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Condensado de Slime",
+            "en-us": "Slime Condensate",
+            "ja-jp": "スライムの液体",
+            "zh-cn": "史莱姆凝液",
+            "ko-kr": "슬라임 응축액",
+            "ru-ru": "Слизь слайма",
+            "de-de": "Schleimabsonderung",
+            "fr-fr": "Bave de Blob",
+            "es-es": "Condensado de Slime",
+            "id-id": "Slime Condensate",
+            "th-th": "Slime Condensate",
+            "vi-vn": "Dịch Slime",
+            "zh-tw": "史萊姆凝液"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 1161,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Correntes do Gladiador de Dandelion",
+            "en-us": "Chains of the Dandelion Gladiator",
+            "ja-jp": "獅牙戦士の鎖",
+            "zh-cn": "狮牙斗士的铁链",
+            "ko-kr": "라이언 투사의 쇠사슬",
+            "ru-ru": "Цепи львиного клыка",
+            "de-de": "Ketten des Löwenzahnkämpfers",
+            "fr-fr": "Chaînes du Chevalier du Croc de Lion",
+            "es-es": "Cadena de Diente de León",
+            "id-id": "Chains of Dandelion Gladiator",
+            "th-th": "Chains of the Dandelion Gladiator",
+            "vi-vn": "Dây Sắt Đấu Sĩ Nanh Sư Tử",
+            "zh-tw": "獅牙鬥士的鐵鍊"
+          }
+        },
+        {
+          "id": 1042,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Circuito do Caos",
+            "en-us": "Chaos Circuit",
+            "ja-jp": "混沌の回路",
+            "zh-cn": "混沌回路",
+            "ko-kr": "혼돈의 회로",
+            "ru-ru": "Цепь хаоса",
+            "de-de": "Chaos-Schaltkreis",
+            "fr-fr": "Circuit du chaos",
+            "es-es": "Circuito del caos",
+            "id-id": "Chaos Circuit",
+            "th-th": "Chaos Circuit",
+            "vi-vn": "Bộ Não Hỗn Độn",
+            "zh-tw": "混沌迴路"
+          }
+        },
+        {
+          "id": 398,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Secreção de Slime",
+            "en-us": "Slime Secretions",
+            "ja-jp": "スライムの分泌物",
+            "zh-cn": "史莱姆清",
+            "ko-kr": "슬라임청",
+            "ru-ru": "Выделения слайма",
+            "de-de": "Schleimkondensat",
+            "fr-fr": "Mucus de Blob",
+            "es-es": "Babas de Slime",
+            "id-id": "Slime Secretions",
+            "th-th": "Slime Secretions",
+            "vi-vn": "Tinh Slime",
+            "zh-tw": "史萊姆清"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 1162,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Manilhas do Gladiador de Dandelion",
+            "en-us": "Shackles of the Dandelion Gladiator",
+            "ja-jp": "獅牙戦士の手錠",
+            "zh-cn": "狮牙斗士的镣铐",
+            "ko-kr": "라이언 투사의 수갑",
+            "ru-ru": "Оковы львиного клыка",
+            "de-de": "Schellen des Löwenzahnkämpfers",
+            "fr-fr": "Menottes du Chevalier du Croc de Lion",
+            "es-es": "Esposas de Diente de León",
+            "id-id": "Shackles of Dandelion Gladiator",
+            "th-th": "Shackles of Dandelion Gladiator",
+            "vi-vn": "Gông Cùm Đấu Sĩ Nanh Sư Tử",
+            "zh-tw": "獅牙鬥士的鐐銬"
+          }
+        },
+        {
+          "id": 1042,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Circuito do Caos",
+            "en-us": "Chaos Circuit",
+            "ja-jp": "混沌の回路",
+            "zh-cn": "混沌回路",
+            "ko-kr": "혼돈의 회로",
+            "ru-ru": "Цепь хаоса",
+            "de-de": "Chaos-Schaltkreis",
+            "fr-fr": "Circuit du chaos",
+            "es-es": "Circuito del caos",
+            "id-id": "Chaos Circuit",
+            "th-th": "Chaos Circuit",
+            "vi-vn": "Bộ Não Hỗn Độn",
+            "zh-tw": "混沌迴路"
+          }
+        },
+        {
+          "id": 398,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Secreção de Slime",
+            "en-us": "Slime Secretions",
+            "ja-jp": "スライムの分泌物",
+            "zh-cn": "史莱姆清",
+            "ko-kr": "슬라임청",
+            "ru-ru": "Выделения слайма",
+            "de-de": "Schleimkondensat",
+            "fr-fr": "Mucus de Blob",
+            "es-es": "Babas de Slime",
+            "id-id": "Slime Secretions",
+            "th-th": "Slime Secretions",
+            "vi-vn": "Tinh Slime",
+            "zh-tw": "史萊姆清"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 1162,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Manilhas do Gladiador de Dandelion",
+            "en-us": "Shackles of the Dandelion Gladiator",
+            "ja-jp": "獅牙戦士の手錠",
+            "zh-cn": "狮牙斗士的镣铐",
+            "ko-kr": "라이언 투사의 수갑",
+            "ru-ru": "Оковы львиного клыка",
+            "de-de": "Schellen des Löwenzahnkämpfers",
+            "fr-fr": "Menottes du Chevalier du Croc de Lion",
+            "es-es": "Esposas de Diente de León",
+            "id-id": "Shackles of Dandelion Gladiator",
+            "th-th": "Shackles of Dandelion Gladiator",
+            "vi-vn": "Gông Cùm Đấu Sĩ Nanh Sư Tử",
+            "zh-tw": "獅牙鬥士的鐐銬"
+          }
+        },
+        {
+          "id": 1045,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Fornalha do Caos",
+            "en-us": "Chaos Core",
+            "ja-jp": "混沌の炉心",
+            "zh-cn": "混沌炉心",
+            "ko-kr": "혼돈의 노심",
+            "ru-ru": "Ядро хаоса",
+            "de-de": "Chaos-Getriebe",
+            "fr-fr": "Noyau du chaos",
+            "es-es": "Caldera del caos",
+            "id-id": "Chaos Core",
+            "th-th": "Chaos Core",
+            "vi-vn": "Trái Tim Hỗn Độn",
+            "zh-tw": "混沌爐心"
+          }
+        },
+        {
+          "id": 397,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Essência de Slime",
+            "en-us": "Slime Concentrate",
+            "ja-jp": "スライムのピュレ",
+            "zh-cn": "史莱姆原浆",
+            "ko-kr": "슬라임 원액",
+            "ru-ru": "Концентрат слайма",
+            "de-de": "Schleimkonzentrat",
+            "fr-fr": "Essence de Blob",
+            "es-es": "Esencia de Slime",
+            "id-id": "Slime Concentrate",
+            "th-th": "Slime Concentrate",
+            "vi-vn": "Bột Slime",
+            "zh-tw": "史萊姆原漿"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 1160,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Sonho do Gladiador de Dandelion",
+            "en-us": "Dream of the Dandelion Gladiator",
+            "ja-jp": "獅牙戦士の理想",
+            "zh-cn": "狮牙斗士的理想",
+            "ko-kr": "라이언 투사의 이념",
+            "ru-ru": "Мечты львиного клыка",
+            "de-de": "Ideal des Löwenzahnkriegers",
+            "fr-fr": "Idéaux du Chevalier du Croc de Lion",
+            "es-es": "Ideales de Diente de León",
+            "id-id": "Dream of the Dandelion Gladiator",
+            "th-th": "Dream of Dandelion Gladiator",
+            "vi-vn": "Lý Tưởng Của Đấu Sĩ Nanh Sư Tử",
+            "zh-tw": "獅牙鬥士的理想"
+          }
+        },
+        {
+          "id": 1045,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Fornalha do Caos",
+            "en-us": "Chaos Core",
+            "ja-jp": "混沌の炉心",
+            "zh-cn": "混沌炉心",
+            "ko-kr": "혼돈의 노심",
+            "ru-ru": "Ядро хаоса",
+            "de-de": "Chaos-Getriebe",
+            "fr-fr": "Noyau du chaos",
+            "es-es": "Caldera del caos",
+            "id-id": "Chaos Core",
+            "th-th": "Chaos Core",
+            "vi-vn": "Trái Tim Hỗn Độn",
+            "zh-tw": "混沌爐心"
+          }
+        },
+        {
+          "id": 397,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Essência de Slime",
+            "en-us": "Slime Concentrate",
+            "ja-jp": "スライムのピュレ",
+            "zh-cn": "史莱姆原浆",
+            "ko-kr": "슬라임 원액",
+            "ru-ru": "Концентрат слайма",
+            "de-de": "Schleimkonzentrat",
+            "fr-fr": "Essence de Blob",
+            "es-es": "Esencia de Slime",
+            "id-id": "Slime Concentrate",
+            "th-th": "Slime Concentrate",
+            "vi-vn": "Bột Slime",
+            "zh-tw": "史萊姆原漿"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "44"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "119",
+          "postAscensionValue": "144"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "10.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "226",
+          "postAscensionValue": "252"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "15.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "293",
+          "postAscensionValue": "319"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "17.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "361",
+          "postAscensionValue": "387"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "20.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "429",
+          "postAscensionValue": "455"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "22.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "497",
+          "postAscensionValue": "523"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "25.1%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "565",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "27.6%"
+        }
+      ]
+    }
+  ]
+}

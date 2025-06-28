@@ -1,0 +1,1142 @@
+{
+  "id": "chain_breaker",
+  "wiki_id": 6552,
+  "name": {
+    "pt-pt": "Quebrador de Correntes",
+    "en-us": "Chain Breaker",
+    "ja-jp": "チェーンブレイカー",
+    "zh-cn": "碎链",
+    "ko-kr": "사슬 파괴자",
+    "ru-ru": "Разбивающий цепи",
+    "de-de": "Zersprungene Ketten",
+    "fr-fr": "Brise-chaîne",
+    "es-es": "Rompecadenas",
+    "id-id": "Chain Breaker",
+    "th-th": "Chain Breaker",
+    "vi-vn": "Phá Xích",
+    "zh-tw": "碎鏈"
+  },
+  "description": {
+    "pt-pt": "Um arco longo adornado com jade, cujas cordas parecem estar sempre envoltas por uma brisa suave. Reza a lenda que foi forjado por artesãos Saurianos em tempos muito antigos.",
+    "en-us": "A jade-adorned longbow. The gentle winds always seem to swirl gently about its string. Legends claim that this weapon was made in a far more ancient era by a dragon artisan.",
+    "ja-jp": "玉石をあしらった長弓。弦にいつも柔らかな風を巻き付けているようだ。伝説によると、もっと古い時代に龍の職人によって鍛え上げられたという。",
+    "zh-cn": "装饰着玉石的长弓，弦上似乎总是缠卷着轻柔的风。传说是在更古老的时代中由龙的工匠所锻。",
+    "ko-kr": "옥으로 장식된 장궁. 현 주위로 부드러운 바람이 맴돌고 있는 것 같다. 전설에 따르면 더 머나먼 옛날, 어떤 용의 장인이 만들었다고 한다",
+    "ru-ru": "Длинный лук, украшенный нефритом. Его тетиву всегда будто обвивает лёгкий ветер. Легенда гласит, что он был выкован в куда более древние времена драконьим мастером.",
+    "de-de": "Ein langer Bogen, verziert mit Jade. Die sanfte Brise scheint auf seiner Bogensehne zu verweilen. Die Legende besagt, dass er in noch älteren Zeiten von einem Drachenhandwerker geschmiedet wurde.",
+    "fr-fr": "Un arc long orné de jade. Les vents doux semblent toujours tourbillonner doucement autour de sa corde. Les légendes prétendent que cette arme a été fabriquée à une époque bien plus ancienne par un artisan dragon.",
+    "es-es": "Un arco adornado con jade cuya cuerda parece estar siempre envuelta por un suave viento. Según una leyenda, fue forjado por un herrero dragón de una época muy antigua.",
+    "id-id": "Busur panjang yang dihiasi dengan batu giok. Senar busurnya sepertinya selalu diselimuti oleh angin lembut. Konon katanya ditempa oleh pengrajin naga pada zaman dulu.",
+    "th-th": "ธนูยาวที่ประดับด้วยหินหยก ดูเหมือนว่าสายธนูจะถูกโอบล้อมด้วยสายลมอันแผ่วเบาอยู่เสมอ ตำนานเล่าว่า มันถูกหลอมขึ้นโดยช่างฝีมือมังกรในยุคโบราณ",
+    "vi-vn": "Cung dài được trang trí bằng ngọc thạch, dây cung dường như luôn bị gió nhẹ bao bọc. Truyền thuyết kể rằng nó được rèn bởi thợ thủ công của rồng trong thời đại xa xưa.",
+    "zh-tw": "裝飾著玉石的長弓，弦上似乎總是纏捲著輕柔的風。傳說是在更古老的時代中由龍的工匠所鍛。"
+  },
+  "rarity": 4,
+  "type": {
+    "pt-pt": "Arco",
+    "en-us": "Bow",
+    "ja-jp": "弓",
+    "zh-cn": "弓",
+    "ko-kr": "활",
+    "ru-ru": "Стрелковое",
+    "de-de": "Bogen",
+    "fr-fr": "Arc",
+    "es-es": "Arco",
+    "id-id": "Bow",
+    "th-th": "ธนู",
+    "vi-vn": "Cung",
+    "zh-tw": "弓"
+  },
+  "subStat": {
+    "pt-pt": "ATQ%",
+    "en-us": "ATK",
+    "ja-jp": "攻撃力",
+    "zh-cn": "攻击力",
+    "ko-kr": "공격력",
+    "ru-ru": "Сила атаки",
+    "de-de": "ANG",
+    "fr-fr": "ATQ",
+    "es-es": "ATQ",
+    "id-id": "ATK",
+    "th-th": "พลังโจมตี",
+    "vi-vn": "Tấn Công",
+    "zh-tw": "攻擊力"
+  },
+  "passiveName": {
+    "pt-pt": "Canção da Flor de Penas",
+    "en-us": "Flower-Feather Song",
+    "ja-jp": "花と落羽の長歌",
+    "zh-cn": "花与落羽的长歌",
+    "ko-kr": "꽃과 떨어진 깃털의 노래",
+    "ru-ru": "Песнь цветов и перьев:",
+    "de-de": "Schmiedematerial",
+    "fr-fr": "Chant de plumes et fleurs",
+    "es-es": "Balada plumafloral",
+    "id-id": "Flower-Feather Song",
+    "th-th": "Flower-Feather Song",
+    "vi-vn": "Khúc Ca Hoa Và Lông Vũ",
+    "zh-tw": "花與落羽的長歌"
+  },
+  "passiveDescription": {
+    "pt-pt": "Para cada personagem da equipe que é de Natlan ou que tenha um Tipo Elemental diferente do personagem que está com essa arma equipada, o personagem que está com essa arma equipada ganha 4.8%/6%/7.2%/8.4%/9.6% de aumento de ATQ. Quando não houver menos que 3 dos personagens mencionados, o personagem que está com essa arma equipada ganha 24/30/36/42/48 de Proficiência Elemental.",
+    "en-us": "For every party member from Natlan or who has a different Elemental Type from the equipping character, the equipping character gains 4.8%/6%/7.2%/8.4%/9.6% increased ATK. When there are no less than 3 of the aforementioned characters, the equipping character gains 24/30/36/42/48 Elemental Mastery.",
+    "ja-jp": "チームにナタ出身のキャラクター、または 装備者と元素タイプが異なるキャラクタ 一が1名いるごとに、装備者の攻撃力+4.8/6/7.2/8.4/9.6%。そのようなキャラクターが3名以上いる場合、装備者の元素熟知+24/30/36/42/48。",
+    "zh-cn": "队伍中每有一名纳塔角色或与装备者元素类型不同的角色，装备者获得4.8%/6%/7.2%/8.4%/9.6%攻击力提升；上述角色不少于3名时，装备者的元素精通提升24/30/36/42/48点。",
+    "ko-kr": "파티 내 나타 캐릭터 또는 장착 캐릭터와 원소 타입이 다른 캐릭터가 1명 있을 때마다, 장착 캐릭터의 공격력이 4.8%/6%/7.2%/8.4%/9.6% 증가한다. 상술한 캐릭터가 3명 이상 시, 장착 캐릭터의 원소 마스터리가 24/30/36/42/48pt 증가한다",
+    "ru-ru": "За каждого члена отряда из Натлана или с элементом, отличным от элемента экипированного персонажа, сила атаки экипированного персонажа повышается на 4,8%/6%/7,2%/8,4%/9,6%. Когда таких персонажей не менее 3, экипированный персонаж получает 24/30/36/42/48 ед. мастерства стихий.",
+    "de-de": "$[{\"ep_id\":6674,\"icon\":\"\",\"amount\":1,\"name\":\"Unbearbeiteter Bogen des Grenzlands\",\"menuId\":\"\",\"_menuId\":\"\"}]$",
+    "fr-fr": "Chaque personnage dans l'équipe de Natlan ou ayant un type élémentaire différent de celui du personnage équipé de l'arme augmente l'ATQ de ce dernier de 4,8 %/6 %/7,2 %/8,4 %/9,6 %. Lorsque le nombre de ces personnages est supérieur ou égal à 3, la maîtrise élémentaire du personnage équipé de l'arme augmente de 24/30/36/42/48 pts.",
+    "es-es": "Por cada personaje de Natlan o de tipo elemental distinto al del portador de esta arma que haya en el equipo, el ATQ de dicho portador aumenta en un 4.8%/6%/7.2%/8.4%/9.6%. Cuando haya 3 o más personajes con estas características, la Maestría Elemental del portador de esta arma aumenta en 24/30/36/42/48pts.",
+    "id-id": "Untuk setiap anggota party yang berasal dari Natlan atau memiliki Tipe Elemen yang berbeda dari Karakter yang mengenakan senjata ini, maka ATK Karakter yang mengenakan senjata ini akan meningkat 4,8%/6%/7,2%/8,4%/9,6%. Jika terdapat setidaknya 3 dari Karakter yang disebutkan di atas, maka Elemental Mastery Karakter yang mengenakan senjata ini meningkat 24/30/36/42/48.",
+    "th-th": "ทุกครั้งที่ทีมมีตัวละครจาก Natlan หรือตัวละครที่มีชนิดธาตุต่างจากผู้สวมใส่ ผู้สวมใส่จะได้รับพลังโจมตีเพิ่มขึ้น 4.8%/6%/7.2%/8.4%/9.6%; เมื่อมีตัวละครข้างต้นไม่ต่ำกว่า 3 ตัว ความชำนาญธาตุของผู้สวมใส่จะเพิ่มขึ้น 24/30/36/42/48 หน่วย",
+    "vi-vn": "Trong đội mỗi có một nhân vật Natlan hoặc khác loại nguyên tố với người trang bị, thì người trang bị sẽ tăng 4.8% Tấn Công; Khi số nhân vật nêu trên không ít hơn 3 người thì người trang bị sẽ tăng 24 Tinh Thông Nguyên Tố.",
+    "zh-tw": "隊伍中每有一名納塔角色或與裝備者元素類型不同的角色，裝備者獲得4.8%/6%/7.2%/8.4%/9.6%攻擊力提升；上述角色不少於3名時，裝備者的元素精通提升24/30/36/42/48點。"
+  },
+  "weaponIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/08/23/8a6b418598f555deba7da922385254a2_8112788546506820868.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv. 20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv. 20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv. 20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 5000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 6664,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Consideração Mística do Vento Noturno",
+            "en-us": "Night-Wind's Mystic Consideration",
+            "ja-jp": "神秘なる煙の思考",
+            "zh-cn": "神合秘烟的思绪",
+            "ko-kr": "신이 깃든 연기의 사색",
+            "ru-ru": "Загадочные размышления ночного ветра",
+            "de-de": "Gedanken der Vergänglichkeit",
+            "fr-fr": "Considération mystique du vent nocturne",
+            "es-es": "Reflexión espiritista vientonocturna",
+            "id-id": "Night-Wind's Mystic Consideration",
+            "th-th": "Night-Wind's Mystic Consideration",
+            "vi-vn": "Suy Tư Của Làn Khói Thần Bí",
+            "zh-tw": "神合秘煙的思緒"
+          }
+        },
+        {
+          "id": 4948,
+          "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/31/35428890/b90eff5f4a23dd4f658f8a12d3318830_7759362244327050155.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Nadadeira Emplumada",
+            "en-us": "Feathery Fin",
+            "ja-jp": "翼状の羽鰭",
+            "zh-cn": "羽状鳍翅",
+            "ko-kr": "깃털 지느러미",
+            "ru-ru": "Перьевой плавник",
+            "de-de": "Federflosse",
+            "fr-fr": "Aileron plumeux",
+            "es-es": "Aleta emplumada",
+            "id-id": "Feathery Fin",
+            "th-th": "Feathery Fin",
+            "vi-vn": "Vây Thú Dạng Lông",
+            "zh-tw": "羽狀鰭翅"
+          }
+        },
+        {
+          "id": 6641,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Presa Juvenil",
+            "en-us": "Juvenile Fang",
+            "ja-jp": "未熟な牙",
+            "zh-cn": "稚嫩的尖齿",
+            "ko-kr": "미숙한 송곳니",
+            "ru-ru": "Молодой клык",
+            "de-de": "Unreifer spitzer Zahn",
+            "fr-fr": "Croc juvénile",
+            "es-es": "Colmillo joven",
+            "id-id": "Juvenile Fang",
+            "th-th": "Juvenile Fang",
+            "vi-vn": "Răng Nanh Non Nớt",
+            "zh-tw": "稚嫩的尖齒"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv. 40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv. 40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 15000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 6665,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Premonição Mística do Vento Noturno",
+            "en-us": "Night-Wind's Mystic Premonition",
+            "ja-jp": "神秘なる煙の予感",
+            "zh-cn": "神合秘烟的预感",
+            "ko-kr": "신이 깃든 연기의 예감",
+            "ru-ru": "Загадочные предчувствия ночного ветра",
+            "de-de": "Vorahnung der Vergänglichkeit",
+            "fr-fr": "Prémonition mystique du vent nocturne",
+            "es-es": "Presentimiento espiritista vientonocturno",
+            "id-id": "Night-Wind's Mystic Premonition",
+            "th-th": "Night-Wind's Mystic Premonition",
+            "vi-vn": "Dự Cảm Của Làn Khói Thần Bí",
+            "zh-tw": "神合秘煙的預感"
+          }
+        },
+        {
+          "id": 4948,
+          "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/31/35428890/b90eff5f4a23dd4f658f8a12d3318830_7759362244327050155.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Nadadeira Emplumada",
+            "en-us": "Feathery Fin",
+            "ja-jp": "翼状の羽鰭",
+            "zh-cn": "羽状鳍翅",
+            "ko-kr": "깃털 지느러미",
+            "ru-ru": "Перьевой плавник",
+            "de-de": "Federflosse",
+            "fr-fr": "Aileron plumeux",
+            "es-es": "Aleta emplumada",
+            "id-id": "Feathery Fin",
+            "th-th": "Feathery Fin",
+            "vi-vn": "Vây Thú Dạng Lông",
+            "zh-tw": "羽狀鰭翅"
+          }
+        },
+        {
+          "id": 6641,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Presa Juvenil",
+            "en-us": "Juvenile Fang",
+            "ja-jp": "未熟な牙",
+            "zh-cn": "稚嫩的尖齿",
+            "ko-kr": "미숙한 송곳니",
+            "ru-ru": "Молодой клык",
+            "de-de": "Unreifer spitzer Zahn",
+            "fr-fr": "Croc juvénile",
+            "es-es": "Colmillo joven",
+            "id-id": "Juvenile Fang",
+            "th-th": "Juvenile Fang",
+            "vi-vn": "Răng Nanh Non Nớt",
+            "zh-tw": "稚嫩的尖齒"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv. 50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv. 50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 6665,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Premonição Mística do Vento Noturno",
+            "en-us": "Night-Wind's Mystic Premonition",
+            "ja-jp": "神秘なる煙の予感",
+            "zh-cn": "神合秘烟的预感",
+            "ko-kr": "신이 깃든 연기의 예감",
+            "ru-ru": "Загадочные предчувствия ночного ветра",
+            "de-de": "Vorahnung der Vergänglichkeit",
+            "fr-fr": "Prémonition mystique du vent nocturne",
+            "es-es": "Presentimiento espiritista vientonocturno",
+            "id-id": "Night-Wind's Mystic Premonition",
+            "th-th": "Night-Wind's Mystic Premonition",
+            "vi-vn": "Dự Cảm Của Làn Khói Thần Bí",
+            "zh-tw": "神合秘煙的預感"
+          }
+        },
+        {
+          "id": 4949,
+          "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/31/35428890/1befb7abf0914b79d5adee0768bfa938_4408883845205624951.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Nadadeira Lunar",
+            "en-us": "Lunar Fin",
+            "ja-jp": "月光の羽鰭",
+            "zh-cn": "月色鳍翅",
+            "ko-kr": "달빛 지느러미",
+            "ru-ru": "Лунный плавник",
+            "de-de": "Mondlichtflosse",
+            "fr-fr": "Aileron lunaire",
+            "es-es": "Aleta lunar",
+            "id-id": "Lunar Fin",
+            "th-th": "Lunar Fin",
+            "vi-vn": "Vây Thú Ánh Trăng",
+            "zh-tw": "月色鰭翅"
+          }
+        },
+        {
+          "id": 6642,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Presa Veterana",
+            "en-us": "Seasoned Fang",
+            "ja-jp": "熟練の牙",
+            "zh-cn": "老练的坚齿",
+            "ko-kr": "성숙한 송곳니",
+            "ru-ru": "Клык взрослого",
+            "de-de": "Ausgereifter kräftiger Zahn",
+            "fr-fr": "Croc mature",
+            "es-es": "Colmillo veterano",
+            "id-id": "Seasoned Fang",
+            "th-th": "Seasoned Fang",
+            "vi-vn": "Răng Nanh Chắc Khỏe",
+            "zh-tw": "老練的堅齒"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv. 60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv. 60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 30000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 6666,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Sofrimento Místico do Vento Noturno",
+            "en-us": "Night-Wind's Mystic Augury",
+            "ja-jp": "神秘なる煙の予兆",
+            "zh-cn": "神合秘烟的征兆",
+            "ko-kr": "신이 깃든 연기의 징조",
+            "ru-ru": "Загадочные предзнаменования ночного ветра",
+            "de-de": "Omen der Vergänglichkeit",
+            "fr-fr": "Augure mystique du vent nocturne",
+            "es-es": "Presagio espiritista vientonocturno",
+            "id-id": "Night-Wind's Mystic Augury",
+            "th-th": "Night-Wind's Mystic Augury",
+            "vi-vn": "Điềm Báo Của Làn Khói Thần Bí",
+            "zh-tw": "神合秘煙的徵兆"
+          }
+        },
+        {
+          "id": 4949,
+          "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/31/35428890/1befb7abf0914b79d5adee0768bfa938_4408883845205624951.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Nadadeira Lunar",
+            "en-us": "Lunar Fin",
+            "ja-jp": "月光の羽鰭",
+            "zh-cn": "月色鳍翅",
+            "ko-kr": "달빛 지느러미",
+            "ru-ru": "Лунный плавник",
+            "de-de": "Mondlichtflosse",
+            "fr-fr": "Aileron lunaire",
+            "es-es": "Aleta lunar",
+            "id-id": "Lunar Fin",
+            "th-th": "Lunar Fin",
+            "vi-vn": "Vây Thú Ánh Trăng",
+            "zh-tw": "月色鰭翅"
+          }
+        },
+        {
+          "id": 6642,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Presa Veterana",
+            "en-us": "Seasoned Fang",
+            "ja-jp": "熟練の牙",
+            "zh-cn": "老练的坚齿",
+            "ko-kr": "성숙한 송곳니",
+            "ru-ru": "Клык взрослого",
+            "de-de": "Ausgereifter kräftiger Zahn",
+            "fr-fr": "Croc mature",
+            "es-es": "Colmillo veterano",
+            "id-id": "Seasoned Fang",
+            "th-th": "Seasoned Fang",
+            "vi-vn": "Răng Nanh Chắc Khỏe",
+            "zh-tw": "老練的堅齒"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv. 70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv. 70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 35000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 6666,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Sofrimento Místico do Vento Noturno",
+            "en-us": "Night-Wind's Mystic Augury",
+            "ja-jp": "神秘なる煙の予兆",
+            "zh-cn": "神合秘烟的征兆",
+            "ko-kr": "신이 깃든 연기의 징조",
+            "ru-ru": "Загадочные предзнаменования ночного ветра",
+            "de-de": "Omen der Vergänglichkeit",
+            "fr-fr": "Augure mystique du vent nocturne",
+            "es-es": "Presagio espiritista vientonocturno",
+            "id-id": "Night-Wind's Mystic Augury",
+            "th-th": "Night-Wind's Mystic Augury",
+            "vi-vn": "Điềm Báo Của Làn Khói Thần Bí",
+            "zh-tw": "神合秘煙的徵兆"
+          }
+        },
+        {
+          "id": 4950,
+          "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/31/35428890/efc014de96ddca62c32f10d63e6e8e97_7833154060113506156.png",
+          "amount": 9,
+          "name": {
+            "pt-pt": "Nadadeira Luz do Abismo",
+            "en-us": "Chasmlight Fin",
+            "ja-jp": "淵光の羽鰭",
+            "zh-cn": "渊光鳍翅",
+            "ko-kr": "그윽한 지느러미",
+            "ru-ru": "Глубинный плавник",
+            "de-de": "Abgrundlichtflosse",
+            "fr-fr": "Aileron ténébreux",
+            "es-es": "Aleta luzabisal",
+            "id-id": "Chasmlight Fin",
+            "th-th": "Chasmlight Fin",
+            "vi-vn": "Vây Thú Ánh Sáng Vực Thẳm",
+            "zh-tw": "淵光鰭翅"
+          }
+        },
+        {
+          "id": 6643,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Presa Tirana",
+            "en-us": "Tyrant's Fang",
+            "ja-jp": "覇道の牙",
+            "zh-cn": "横行霸者的利齿",
+            "ko-kr": "난폭한 송곳니",
+            "ru-ru": "Клык тирана",
+            "de-de": "Schneidezahn des Eroberers",
+            "fr-fr": "Croc de tyran",
+            "es-es": "Colmillo de tirano",
+            "id-id": "Tyrant's Fang",
+            "th-th": "Tyrant's Fang",
+            "vi-vn": "Răng Nanh Bạo Chúa",
+            "zh-tw": "橫行霸者的利齒"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv. 80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv. 80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 45000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 6667,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Revelação Mística do Vento Noturno",
+            "en-us": "Night-Wind's Mystic Revelation",
+            "ja-jp": "神秘なる煙の啓示",
+            "zh-cn": "神合秘烟的启示",
+            "ko-kr": "신이 깃든 연기의 계시",
+            "ru-ru": "Загадочные откровения ночного ветра",
+            "de-de": "Offenbarung der Vergänglichkeit",
+            "fr-fr": "Révélation mystique du vent nocturne",
+            "es-es": "Revelación espiritista vientonocturna",
+            "id-id": "Night-Wind's Mystic Revelation",
+            "th-th": "Night-Wind's Mystic Revelation",
+            "vi-vn": "Giác Ngộ Của Làn Khói Thần Bí",
+            "zh-tw": "神合秘煙的啟示"
+          }
+        },
+        {
+          "id": 4950,
+          "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/31/35428890/efc014de96ddca62c32f10d63e6e8e97_7833154060113506156.png",
+          "amount": 18,
+          "name": {
+            "pt-pt": "Nadadeira Luz do Abismo",
+            "en-us": "Chasmlight Fin",
+            "ja-jp": "淵光の羽鰭",
+            "zh-cn": "渊光鳍翅",
+            "ko-kr": "그윽한 지느러미",
+            "ru-ru": "Глубинный плавник",
+            "de-de": "Abgrundlichtflosse",
+            "fr-fr": "Aileron ténébreux",
+            "es-es": "Aleta luzabisal",
+            "id-id": "Chasmlight Fin",
+            "th-th": "Chasmlight Fin",
+            "vi-vn": "Vây Thú Ánh Sáng Vực Thẳm",
+            "zh-tw": "淵光鰭翅"
+          }
+        },
+        {
+          "id": 6643,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Presa Tirana",
+            "en-us": "Tyrant's Fang",
+            "ja-jp": "覇道の牙",
+            "zh-cn": "横行霸者的利齿",
+            "ko-kr": "난폭한 송곳니",
+            "ru-ru": "Клык тирана",
+            "de-de": "Schneidezahn des Eroberers",
+            "fr-fr": "Croc de tyran",
+            "es-es": "Colmillo de tirano",
+            "id-id": "Tyrant's Fang",
+            "th-th": "Tyrant's Fang",
+            "vi-vn": "Răng Nanh Bạo Chúa",
+            "zh-tw": "橫行霸者的利齒"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv. 1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St. 1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv. 1",
+        "id-id": "Lv. 1",
+        "th-th": "Lv.",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "44"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Ataque",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "6.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv. 20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv. 20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "119",
+          "postAscensionValue": "144"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Ataque",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "10.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv. 40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv. 40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "226",
+          "postAscensionValue": "252"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Ataque",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "15.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv. 50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv. 50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "293",
+          "postAscensionValue": "319"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Ataque",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "17.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv. 60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv. 60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "361",
+          "postAscensionValue": "387"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Ataque",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "20.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv. 70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv. 70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "429",
+          "postAscensionValue": "455"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Ataque",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "22.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv. 80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv. 80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "497",
+          "postAscensionValue": "523"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Ataque",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "25.1%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St. 90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv. 90",
+        "id-id": "Lv. 90",
+        "th-th": "Lv. 90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "565",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de Ataque",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "Porcentaje de ATQ",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์พลังโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力百分比"
+          },
+          "value": "27.6%"
+        }
+      ]
+    }
+  ]
+}

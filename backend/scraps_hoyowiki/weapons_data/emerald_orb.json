@@ -1,0 +1,1022 @@
+{
+  "id": "emerald_orb",
+  "wiki_id": 2010,
+  "name": {
+    "pt-pt": "Orbe de Esmeralda",
+    "en-us": "Emerald Orb",
+    "ja-jp": "翡玉法珠",
+    "zh-cn": "翡玉法球",
+    "ko-kr": "비취 오브",
+    "ru-ru": "Изумрудный шар",
+    "de-de": "Jadekugel",
+    "fr-fr": "Orbe jadien",
+    "es-es": "Orbe Esmeralda",
+    "id-id": "Emerald Orb",
+    "th-th": "Emerald Orb",
+    "vi-vn": "Quả Cầu Ngọc",
+    "zh-tw": "翡玉法球"
+  },
+  "description": {
+    "pt-pt": "Um catalisador esculpido com uma jade rígida de Relevo de Jueyun, norte de Liyue. É pequena, leve e durável.",
+    "en-us": "A catalyst carved out of the hard jade from Jueyun Karst north of Liyue. Small, light, and durable, it is known more colloquially as the \"jade ball.\"",
+    "ja-jp": "璃月北部にある絶雲の間の硬玉で出来た法器。小さくて軽い上、かなり長持ちする。",
+    "zh-cn": "由璃月北郊绝云间出产的硬玉雕琢而成的法器。小巧轻盈，经久耐用，江湖人称「翡玉丸」。",
+    "ko-kr": "리월 북쪽 교외에 위치한 절운간에서 채굴된 옥으로 조각한 법구. 아주 가볍고 내구도가 뛰어나다. 강호의 사람들은 이걸 '비옥환'이라고 부른다",
+    "ru-ru": "Катализатор, вырезанный из твёрдого нефрита, добываемого в Заоблачном пределе на севере Ли Юэ. Он маленький, лёгкий и прочный.",
+    "de-de": "Ein magischer Katalysator geschnitzt aus der harten Jade aus dem Jueyun-Karst im Norden Liyues. Handlich, leicht und haltbar. Er wird weithin auch als „Jadeperle“ bezeichnet.",
+    "fr-fr": "Un catalyseur sculpté dans la jadéite, produit au Karst Jueyun, au nord de Liyue. Petit et léger, résistant et durable, les gens l'appellent souvent « Boulette de jade ».",
+    "es-es": "Un catalizador tallado en jade extraído del Desfiladero Jueyun, al norte de Liyue. Es pequeño, ligero y duradero. Popularmente se conoce como “Orbe de Jade”.",
+    "id-id": "Sebuah Catalyst yang dibentuk dari giok keras yang berasal dari Jueyun Karst di Utara Liyue. Bentuknya kecil, ringan, dan memiliki ketahanan yang kuat.",
+    "th-th": "สื่อเวทสร้างจากหยกแข็งที่ สกัดจากเทือกเขาทางเหนือ ของ Liyue มันมีน้ำหนักที่เบา ขนาดเล็ก และทนทาน",
+    "vi-vn": "Pháp khí được điêu khắc từ bảo ngọc Tuyệt Vân Gián phía bắc Liyue. Nhỏ nhắn xinh xắn, được mệnh danh là Phỉ Ngọc Hoàn.",
+    "zh-tw": "由璃月北郊絕雲間出產的硬玉雕琢而成的法器。小巧輕盈，經久耐用，江湖人稱「翡玉丸」。"
+  },
+  "rarity": 3,
+  "type": {
+    "pt-pt": "Catalisador",
+    "en-us": "Catalyst",
+    "ja-jp": "法器",
+    "zh-cn": "法器",
+    "ko-kr": "법구",
+    "ru-ru": "Катализатор",
+    "de-de": "Katalysator",
+    "fr-fr": "Catalyseur",
+    "es-es": "Catalizador",
+    "id-id": "Catalyst",
+    "th-th": "สื่อเวท",
+    "vi-vn": "Pháp Khí",
+    "zh-tw": "法器"
+  },
+  "subStat": {
+    "pt-pt": "Proficiência Elemental",
+    "en-us": "Elemental Mastery",
+    "ja-jp": "元素熟知",
+    "zh-cn": "元素精通",
+    "ko-kr": "원소 마스터리",
+    "ru-ru": "Мастерство стихий",
+    "de-de": "Elementarkunde",
+    "fr-fr": "Maîtrise élémentaire",
+    "es-es": "Maestría Elemental",
+    "id-id": "Elemental Mastery",
+    "th-th": "ชำนาญธาตุ",
+    "vi-vn": "Tinh Thông Nguyên Tố",
+    "zh-tw": "元素精通"
+  },
+  "passiveName": {
+    "pt-pt": "Corrente Torrencial",
+    "en-us": "Rapids",
+    "ja-jp": "激流",
+    "zh-cn": "激流",
+    "ko-kr": "급류",
+    "ru-ru": "Воронка:",
+    "de-de": "Stromschnelle",
+    "fr-fr": "Torrent",
+    "es-es": "Rápidos",
+    "id-id": "Rapids",
+    "th-th": "Rapids",
+    "vi-vn": "Kích Lưu",
+    "zh-tw": "激流"
+  },
+  "passiveDescription": {
+    "pt-pt": "Depois de 12s após a ativação da reação de Vaporização, Eletricamente Carregado, Congelamento ou Redemoinho Hydro, aumenta o ATQ em 20%/25%/30%/35%/40%.",
+    "en-us": "Upon causing a Vaporize, Electro-Charged, Frozen, Bloom or a Hydro-infused Swirl reaction, increases ATK by 20%/25%/30%/35%/40% for 12s.",
+    "ja-jp": "蒸発、感電、凍結、開花、または水元素拡散反応を起こした後12秒間、攻撃力+20/25/30/35/40%。",
+    "zh-cn": "触发蒸发、感电、冰冻、绽放或水元素扩散反应后的12秒内，攻击力提高20%/25%/30%/35%/40%。",
+    "ko-kr": "증발, 감전, 빙결, 개화 혹은 물 원소 확산 반응 후 12초 동안 공격력이 20%/25%/30%/35%/40% 증가한다",
+    "ru-ru": "Увеличивает силу атаки на 20%/25%/30%/35%/40% в течение 12 сек при активации реакций Пар, Заряжен, Заморозка, Бутонизация или Гидро рассеивание.",
+    "de-de": "Erhöht den ANG nach Auslösen der Reaktionen „Verdampfen\", „Unter Strom\", „Gefroren\", „Sprießen\" und „Hydro-Verwirbelung\" 12s lang um 20% ~ 25% ~ 30% ~ 35% ~ 40%.",
+    "fr-fr": "Augmente l'ATQ de 20 %/25 %/30 %/35 %/40 % pendant 12 s après avoir déclenché Évaporation, Électrocution, Gel ou Dispersion Hydro.",
+    "es-es": "Tras causar una reacción de Vaporización, Electrocargado, Congelación, o Torbellino Hydro, el ATQ aumenta en un 20%/25%/30%/35%/40% durante 12 s.",
+    "id-id": "Saat memicu Vaporize, Electro-Charged, Frozen, atau reaksi Swirl berbasis Pyro, meningkatkan 20%/25%/30%/35%/40% ATK selama 12 detik.",
+    "th-th": "การทำให้เกิดปฏิกิริยาระเหย, ชาร์จไฟฟ้า, แช่แข็ง, งอกเงย หรือกระจายธาตุน้ำ จะเพิ่มพลังโจมตีขึ้น 20%/25%/30%/35%/40% เป็นเวลา 12 วินาที",
+    "vi-vn": "Trong 12s sau khi kích hoạt Bốc Hơi, Điện Cảm, Đóng Băng, Sum Suê hoặc Khuếch Tán nguyên tố Thủy, tấn công tăng 20%.",
+    "zh-tw": "觸發蒸發、感電、冰凍、綻放或水元素擴散反應後的12秒內，攻擊力提高20%/25%/30%/35%/40%。"
+  },
+  "weaponIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/weapon/翡玉法球.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 614,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Areia Brilhante de Guyun",
+            "en-us": "Luminous Sands from Guyun",
+            "ja-jp": "孤雲寒林の光砂",
+            "zh-cn": "孤云寒林的光砂",
+            "ko-kr": "고운한림의 매끄러운 모래",
+            "ru-ru": "Светящийся песок Гуюнь",
+            "de-de": "Leuchtender Sand von Guyun",
+            "fr-fr": "Sable lumineux de Guyun",
+            "es-es": "Arena brillante de Guyun",
+            "id-id": "Luminous Sands from Guyun",
+            "th-th": "Luminous Sands from Guyun",
+            "vi-vn": "Ánh Sáng Rừng Băng Giá",
+            "zh-tw": "孤雲寒林的光砂"
+          }
+        },
+        {
+          "id": 1164,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Faca de Caça",
+            "en-us": "Hunter's Sacrificial Knife",
+            "ja-jp": "猟兵の刀",
+            "zh-cn": "猎兵祭刀",
+            "ko-kr": "사냥꾼의 제도",
+            "ru-ru": "Церемониальный нож охотника",
+            "de-de": "Zeremonielles Jagdschwert",
+            "fr-fr": "Dague de chasse rituelle",
+            "es-es": "Daga de cacería",
+            "id-id": "Hunter's Sacrificial Knife",
+            "th-th": "Hunter's Sacrificial Knife",
+            "vi-vn": "Dao Săn Bắt",
+            "zh-tw": "獵兵祭刀"
+          }
+        },
+        {
+          "id": 629,
+          "iconUrl": null,
+          "amount": 1,
+          "name": {
+            "pt-pt": "Insígnia dos Ladrões de Tesouro",
+            "en-us": "Treasure Hoarder Insignia",
+            "ja-jp": "宝探しの鴉マーク",
+            "zh-cn": "寻宝鸦印",
+            "ko-kr": "보물찾기 까마귀 휘장",
+            "ru-ru": "Печать Похитителей сокровищ",
+            "de-de": "Krähenwappen der Schatzsuche",
+            "fr-fr": "Insigne des Pilleurs",
+            "es-es": "Insignia de cuervo de bronce",
+            "id-id": "Treasure Hoarder Insignia",
+            "th-th": "Treasure Hoarders Insignia",
+            "vi-vn": "Ấn Quạ Tầm Bảo",
+            "zh-tw": "尋寶鴉印"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 617,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Pedra Lustrosa de Guyun",
+            "en-us": "Lustrous Stone from Guyun",
+            "ja-jp": "孤雲寒林の輝岩",
+            "zh-cn": "孤云寒林的辉岩",
+            "ko-kr": "고운한림의 휘암",
+            "ru-ru": "Блестящий камень Гуюнь",
+            "de-de": "Glänzender Stein von Guyun",
+            "fr-fr": "Roche lustrée de Guyun",
+            "es-es": "Piedra reluciente de Guyun",
+            "id-id": "Lustrous Stone from Guyun",
+            "th-th": "Lustrous Stone from Guyun",
+            "vi-vn": "Nham Thạch Rừng Băng Giá",
+            "zh-tw": "孤雲寒林的輝岩"
+          }
+        },
+        {
+          "id": 1164,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Faca de Caça",
+            "en-us": "Hunter's Sacrificial Knife",
+            "ja-jp": "猟兵の刀",
+            "zh-cn": "猎兵祭刀",
+            "ko-kr": "사냥꾼의 제도",
+            "ru-ru": "Церемониальный нож охотника",
+            "de-de": "Zeremonielles Jagdschwert",
+            "fr-fr": "Dague de chasse rituelle",
+            "es-es": "Daga de cacería",
+            "id-id": "Hunter's Sacrificial Knife",
+            "th-th": "Hunter's Sacrificial Knife",
+            "vi-vn": "Dao Săn Bắt",
+            "zh-tw": "獵兵祭刀"
+          }
+        },
+        {
+          "id": 629,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "Insígnia dos Ladrões de Tesouro",
+            "en-us": "Treasure Hoarder Insignia",
+            "ja-jp": "宝探しの鴉マーク",
+            "zh-cn": "寻宝鸦印",
+            "ko-kr": "보물찾기 까마귀 휘장",
+            "ru-ru": "Печать Похитителей сокровищ",
+            "de-de": "Krähenwappen der Schatzsuche",
+            "fr-fr": "Insigne des Pilleurs",
+            "es-es": "Insignia de cuervo de bronce",
+            "id-id": "Treasure Hoarder Insignia",
+            "th-th": "Treasure Hoarders Insignia",
+            "vi-vn": "Ấn Quạ Tầm Bảo",
+            "zh-tw": "尋寶鴉印"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 617,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Pedra Lustrosa de Guyun",
+            "en-us": "Lustrous Stone from Guyun",
+            "ja-jp": "孤雲寒林の輝岩",
+            "zh-cn": "孤云寒林的辉岩",
+            "ko-kr": "고운한림의 휘암",
+            "ru-ru": "Блестящий камень Гуюнь",
+            "de-de": "Glänzender Stein von Guyun",
+            "fr-fr": "Roche lustrée de Guyun",
+            "es-es": "Piedra reluciente de Guyun",
+            "id-id": "Lustrous Stone from Guyun",
+            "th-th": "Lustrous Stone from Guyun",
+            "vi-vn": "Nham Thạch Rừng Băng Giá",
+            "zh-tw": "孤雲寒林的輝岩"
+          }
+        },
+        {
+          "id": 1138,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Faca Especial",
+            "en-us": "Agent's Sacrificial Knife",
+            "ja-jp": "エージェントの刀",
+            "zh-cn": "特工祭刀",
+            "ko-kr": "특수 요원의 제도",
+            "ru-ru": "Церемониальный нож агента",
+            "de-de": "Zeremonielles Agentenschwert",
+            "fr-fr": "Dague rituelle de l'Usurier",
+            "es-es": "Daga del agente",
+            "id-id": "Agent's Sacrificial Knife",
+            "th-th": "Sacrificial Agent Knife",
+            "vi-vn": "Dao Đặc Công",
+            "zh-tw": "特工祭刀"
+          }
+        },
+        {
+          "id": 1553,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Insígnia do Corvo Prateado",
+            "en-us": "Silver Raven Insignia",
+            "ja-jp": "シルバーの鴉マーク",
+            "zh-cn": "藏银鸦印",
+            "ko-kr": "실버 까마귀 휘장",
+            "ru-ru": "Печать серебряного ворона",
+            "de-de": "Krähenwappen der Silberschätze",
+            "fr-fr": "Insigne de corbeau en argent",
+            "es-es": "Insignia de cuervo plateada",
+            "id-id": "Silver Raven Insignia",
+            "th-th": "Silver Raven Insignia",
+            "vi-vn": "Ấn Quạ Bạc Ẩn",
+            "zh-tw": "藏銀鴉印"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 615,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Relíquia de Guyun",
+            "en-us": "Relic from Guyun",
+            "ja-jp": "孤雲寒林の聖骸",
+            "zh-cn": "孤云寒林的圣骸",
+            "ko-kr": "고운한림의 해골",
+            "ru-ru": "Реликвия Гуюнь",
+            "de-de": "Reliquie von Guyun",
+            "fr-fr": "Squelette sacré de Guyun",
+            "es-es": "Reliquia de Guyun",
+            "id-id": "Relic from Guyun",
+            "th-th": "Relic from Guyun",
+            "vi-vn": "Thánh Cốt Rừng Băng Giá",
+            "zh-tw": "孤雲寒林的聖骸"
+          }
+        },
+        {
+          "id": 1138,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Faca Especial",
+            "en-us": "Agent's Sacrificial Knife",
+            "ja-jp": "エージェントの刀",
+            "zh-cn": "特工祭刀",
+            "ko-kr": "특수 요원의 제도",
+            "ru-ru": "Церемониальный нож агента",
+            "de-de": "Zeremonielles Agentenschwert",
+            "fr-fr": "Dague rituelle de l'Usurier",
+            "es-es": "Daga del agente",
+            "id-id": "Agent's Sacrificial Knife",
+            "th-th": "Sacrificial Agent Knife",
+            "vi-vn": "Dao Đặc Công",
+            "zh-tw": "特工祭刀"
+          }
+        },
+        {
+          "id": 1553,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Insígnia do Corvo Prateado",
+            "en-us": "Silver Raven Insignia",
+            "ja-jp": "シルバーの鴉マーク",
+            "zh-cn": "藏银鸦印",
+            "ko-kr": "실버 까마귀 휘장",
+            "ru-ru": "Печать серебряного ворона",
+            "de-de": "Krähenwappen der Silberschätze",
+            "fr-fr": "Insigne de corbeau en argent",
+            "es-es": "Insignia de cuervo plateada",
+            "id-id": "Silver Raven Insignia",
+            "th-th": "Silver Raven Insignia",
+            "vi-vn": "Ấn Quạ Bạc Ẩn",
+            "zh-tw": "藏銀鴉印"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 615,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Relíquia de Guyun",
+            "en-us": "Relic from Guyun",
+            "ja-jp": "孤雲寒林の聖骸",
+            "zh-cn": "孤云寒林的圣骸",
+            "ko-kr": "고운한림의 해골",
+            "ru-ru": "Реликвия Гуюнь",
+            "de-de": "Reliquie von Guyun",
+            "fr-fr": "Squelette sacré de Guyun",
+            "es-es": "Reliquia de Guyun",
+            "id-id": "Relic from Guyun",
+            "th-th": "Relic from Guyun",
+            "vi-vn": "Thánh Cốt Rừng Băng Giá",
+            "zh-tw": "孤雲寒林的聖骸"
+          }
+        },
+        {
+          "id": 1237,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Faca Longa de Inspetor",
+            "en-us": "Inspector's Sacrificial Knife",
+            "ja-jp": "検査官の刀",
+            "zh-cn": "督察长祭刀",
+            "ko-kr": "검사관의 제도",
+            "ru-ru": "Церемониальный нож инспектора",
+            "de-de": "Zeremonielles Kundschafterlangschwert",
+            "fr-fr": "Grande dague de l'Inspecteur",
+            "es-es": "Daga larga del inspector",
+            "id-id": "Inspector's Sacrificial Knife",
+            "th-th": "Inspector's Sacrificial Knife",
+            "vi-vn": "Dao Đô Thám Trưởng",
+            "zh-tw": "督察長祭刀"
+          }
+        },
+        {
+          "id": 760,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Insígnia de Corvo Dourado",
+            "en-us": "Golden Raven Insignia",
+            "ja-jp": "ゴールドの鴉マーク",
+            "zh-cn": "攫金鸦印",
+            "ko-kr": "골드 까마귀 휘장",
+            "ru-ru": "Печать золотого ворона",
+            "de-de": "Krähenwappen der Goldschätze",
+            "fr-fr": "Insigne de corbeau en or",
+            "es-es": "Insignia de cuervo dorada",
+            "id-id": "Golden Raven Insignia",
+            "th-th": "Golden Raven Insignia",
+            "vi-vn": "Ấn Quạ Trộm Vàng",
+            "zh-tw": "攫金鴉印"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 616,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Corpo Divino de Guyun",
+            "en-us": "Divine Body from Guyun",
+            "ja-jp": "孤雲寒林の神体",
+            "zh-cn": "孤云寒林的神体",
+            "ko-kr": "고운한림의 신체",
+            "ru-ru": "Останки богов Гуюнь",
+            "de-de": "Heiligtum von Guyun",
+            "fr-fr": "Corps divin de Guyun",
+            "es-es": "Cuerpo divino de Guyun",
+            "id-id": "Divine Body from Guyun",
+            "th-th": "Divine Body from Guyun",
+            "vi-vn": "Thần Thể Rừng Băng Giá",
+            "zh-tw": "孤雲寒林的神體"
+          }
+        },
+        {
+          "id": 1237,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Faca Longa de Inspetor",
+            "en-us": "Inspector's Sacrificial Knife",
+            "ja-jp": "検査官の刀",
+            "zh-cn": "督察长祭刀",
+            "ko-kr": "검사관의 제도",
+            "ru-ru": "Церемониальный нож инспектора",
+            "de-de": "Zeremonielles Kundschafterlangschwert",
+            "fr-fr": "Grande dague de l'Inspecteur",
+            "es-es": "Daga larga del inspector",
+            "id-id": "Inspector's Sacrificial Knife",
+            "th-th": "Inspector's Sacrificial Knife",
+            "vi-vn": "Dao Đô Thám Trưởng",
+            "zh-tw": "督察長祭刀"
+          }
+        },
+        {
+          "id": 760,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Insígnia de Corvo Dourado",
+            "en-us": "Golden Raven Insignia",
+            "ja-jp": "ゴールドの鴉マーク",
+            "zh-cn": "攫金鸦印",
+            "ko-kr": "골드 까마귀 휘장",
+            "ru-ru": "Печать золотого ворона",
+            "de-de": "Krähenwappen der Goldschätze",
+            "fr-fr": "Insigne de corbeau en or",
+            "es-es": "Insignia de cuervo dorada",
+            "id-id": "Golden Raven Insignia",
+            "th-th": "Golden Raven Insignia",
+            "vi-vn": "Ấn Quạ Trộm Vàng",
+            "zh-tw": "攫金鴉印"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "40"
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "102",
+          "postAscensionValue": "121"
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "value": "36"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "187",
+          "postAscensionValue": "207"
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "value": "53"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "239",
+          "postAscensionValue": "259"
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "value": "61"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "292",
+          "postAscensionValue": "311"
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "value": "69"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "344",
+          "postAscensionValue": "363"
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "value": "77"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "396",
+          "postAscensionValue": "415"
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "value": "85"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "448",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Proficiência Elemental",
+            "en-us": "Elemental Mastery",
+            "ja-jp": "元素熟知",
+            "zh-cn": "元素精通",
+            "ko-kr": "원소 마스터리",
+            "ru-ru": "Мастерство стихий",
+            "de-de": "Elementarkunde",
+            "fr-fr": "Maîtrise élémentaire",
+            "es-es": "Maestría Elemental",
+            "id-id": "Elemental Mastery",
+            "th-th": "ความชำนาญธาตุ",
+            "vi-vn": "Tinh Thông Nguyên Tố",
+            "zh-tw": "元素精通"
+          },
+          "value": "94"
+        }
+      ]
+    }
+  ]
+}

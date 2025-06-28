@@ -1,0 +1,1022 @@
+{
+  "id": "messenger",
+  "wiki_id": 1935,
+  "name": {
+    "pt-pt": "Mensageiro",
+    "en-us": "Messenger",
+    "ja-jp": "文使い",
+    "zh-cn": "信使",
+    "ko-kr": "전령",
+    "ru-ru": "Посыльный",
+    "de-de": "Überbringer",
+    "fr-fr": "Messager",
+    "es-es": "Mensajero",
+    "id-id": "Messenger",
+    "th-th": "Messenger",
+    "vi-vn": "Tín Sứ",
+    "zh-tw": "信使"
+  },
+  "description": {
+    "pt-pt": "Um arco básico de madeira. Dizem que ele foi usado para comunicações de longa distância.",
+    "en-us": "A basic wooden bow. It is said to have once been used as a tool for long-distance communication.",
+    "ja-jp": "デザインがシンプルな木弓。かつて遠隔通信の道具として使われていたらしい。",
+    "zh-cn": "造型简单的木制弓。传说它曾被人用作远程通讯的道具。",
+    "ko-kr": "간단한 모양의 나무활. 전설에 의하면 과거 장거리 통신 도구로 사용했었다고 한다",
+    "ru-ru": "Простой деревянный лук. Говорят, что когда-то такие луки использовали для дистанционного общения.",
+    "de-de": "Ein einfacher Holzbogen, mit dem man früher wohl einmal Nachrichten übermittelt hat.",
+    "fr-fr": "Un simple arc en bois. On raconte qu'il était autrefois utilisé pour communiquer à distance.",
+    "es-es": "Un arco de madera básico. Dicen que se usaba para comunicaciones de larga distancia.",
+    "id-id": "Busur kayu yang sederhana. Konon busur ini biasanya digunakan hanya untuk mengirimkan pesan surat.",
+    "th-th": "คันธนูแบนที่ทำขึ้นอย่างง่าย ๆ ที่ครั้งหนึ่งเคยใช้สำหรับการสื่อสารส่งข้อความ",
+    "vi-vn": "Cung làm từ gỗ có tạo hình đơn giản. Nghe nói nó từng được dùng làm công cụ truyền tin xa.",
+    "zh-tw": "造型簡單的木製弓。傳說它曾被人用做遠程通訊的道具。"
+  },
+  "rarity": 3,
+  "type": {
+    "pt-pt": "Arco",
+    "en-us": "Bow",
+    "ja-jp": "弓",
+    "zh-cn": "弓",
+    "ko-kr": "활",
+    "ru-ru": "Стрелковое",
+    "de-de": "Bogen",
+    "fr-fr": "Arc",
+    "es-es": "Arco",
+    "id-id": "Bow",
+    "th-th": "ธนู",
+    "vi-vn": "Cung",
+    "zh-tw": "弓"
+  },
+  "subStat": {
+    "pt-pt": "Dano CRIT%",
+    "en-us": "CRIT DMG",
+    "ja-jp": "会心ダメージ",
+    "zh-cn": "暴击伤害",
+    "ko-kr": "치명타 피해",
+    "ru-ru": "Крит. урон",
+    "de-de": "KSCH",
+    "fr-fr": "DGT CRIT",
+    "es-es": "Daño CRIT",
+    "id-id": "CRIT DMG",
+    "th-th": "ความแรงคริ",
+    "vi-vn": "Sát Thương Bạo Kích",
+    "zh-tw": "暴擊傷害"
+  },
+  "passiveName": {
+    "pt-pt": "Messagem da Flecha Voadora",
+    "en-us": "Archer's Message",
+    "ja-jp": "矢文",
+    "zh-cn": "飞矢传书",
+    "ko-kr": "명적 발사",
+    "ru-ru": "Шальная почта:",
+    "de-de": "Flugpost",
+    "fr-fr": "Message de l'archer",
+    "es-es": "Mensaje del arquero",
+    "id-id": "Message by Flying Arrow",
+    "th-th": "Archer's Message",
+    "vi-vn": "Mũi Tên Truyền Tin",
+    "zh-tw": "飛矢傳書"
+  },
+  "passiveDescription": {
+    "pt-pt": "Ao acertar um ponto fraco com Ataque Carregado, causa um adicional de 100%/125%/150%/175%/200% de Dano de ATQ como Dano Crítico. Este efeito pode ser ativado uma vez a cada 10s.",
+    "en-us": "Charged Attack hits on weak points deal an additional 100%/125%/150%/175%/200% ATK DMG as CRIT DMG. Can only occur once every 10s.",
+    "ja-jp": "重撃が弱点に命中した場合、追加で攻撃力100/125/150/175/200%のダメージを与え、必ず会心ダメージとなる。10秒毎に1回のみ発動可能。",
+    "zh-cn": "重击若命中要害，则额外造成100%/125%/150%/175%/200%攻击力的伤害，该伤害必定暴击。此效果每10秒只能触发一次。",
+    "ko-kr": "강공격이 약점에 명중하면 추가로 공격력 100%/125%/150%/175%/200%의 피해를 주고 반드시 치명타가 터진다. 해당 효과는 10초마다 1번 발동한다",
+    "ru-ru": "При попадании заряженной атакой по слабому месту дополнительно наносит 100%/125%/150%/175%/200% урона в качестве крит. урона. Может возникнуть раз в 10 сек.",
+    "de-de": "Verursacht beim Treffen von Schwachstellen mit heftigen Schlägen zusätzlichen Schaden in Höhe von 100% ~ 125% ~ 150% ~ 175% ~ 200% ANG sowie auf jeden Fall einen KT. 10s Abklingzeit.",
+    "fr-fr": "Les attaques chargées touchant les points faibles infligent un bonus de DGT CRIT équivalant à 100 %/125 %/150 %/175 %/200 % de l'ATQ. Cet effet peut être déclenché une fois toutes les 10 s.",
+    "es-es": "Al golpear un punto débil con un Ataque Cargado, inflige un 100%/125%/150%/175%/200% adicional de daño de ATQ como Daño CRIT. Este efecto puede activarse una vez cada 10 s.",
+    "id-id": "Saat Charged Attack mengenai titik kelemahan musuh, akan mengakibatkan tambahan DMG sebesar 100%/125%/150%/175%/200% ATK sebagai CRIT DMG. Dapat terpicu setiap 10 detik.",
+    "th-th": "หากชาร์จโจมตีโดนจุดอ่อนของเป้าหมาย จะสร้างความเสียหายเพิ่มเติมอีก 100%/125%/150%/175%/200% ของพลังโจมตี ซึ่งความเสียหายนี้นับเป็นความเสียหายคริติคอล โดยเอฟเฟกต์นี้จะเกิดขึ้นได้หนึ่งครั้งในทุก 10 วินาที",
+    "vi-vn": "Nếu trọng kích đánh trúng điểm yếu, sẽ tạo thành thêm sát thương bằng 100%/125%/150%/175%/200% tấn công, sát thương này chắc chắn bạo kích. Mỗi 10s chỉ có hiệu quả 1 lần.",
+    "zh-tw": "重擊若命中要害，則額外造成100%/125%/150%/175%/200%攻擊力的傷害，該傷害必定暴擊。此效果每10秒只能觸發一次。"
+  },
+  "weaponIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/weapon/信使.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 1725,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Elixir de Chumbo Velado por Névoa",
+            "en-us": "Mist Veiled Lead Elixir",
+            "ja-jp": "霧海雲間の鉛丹",
+            "zh-cn": "雾海云间的铅丹",
+            "ko-kr": "안개구름 속의 흑연단",
+            "ru-ru": "Свинцовая пилюля Заоблачного моря",
+            "de-de": "Bleikugeln des Nebelschleiers",
+            "fr-fr": "Plomb karstique",
+            "es-es": "Perdigones de plomo",
+            "id-id": "Mist Veiled Lead Elixir",
+            "th-th": "Mist Veiled Lead Elixir",
+            "vi-vn": "Diên Đơn Biển Sương Mù",
+            "zh-tw": "霧海雲間的鉛丹"
+          }
+        },
+        {
+          "id": 1727,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Pólen de Névoa",
+            "en-us": "Mist Grass Pollen",
+            "ja-jp": "霧虚ろの花粉",
+            "zh-cn": "雾虚花粉",
+            "ko-kr": "안개꽃 가루",
+            "ru-ru": "Пыльца туманной травы",
+            "de-de": "Nebelgraspollen",
+            "fr-fr": "Pollen d'herbe brumeuse",
+            "es-es": "Polen de neblina",
+            "id-id": "Mist Grass Pollen",
+            "th-th": "Mist Flower Pollen",
+            "vi-vn": "Phấn Hoa Hư Vô",
+            "zh-tw": "霧虛花粉"
+          }
+        },
+        {
+          "id": 629,
+          "iconUrl": null,
+          "amount": 1,
+          "name": {
+            "pt-pt": "Insígnia dos Ladrões de Tesouro",
+            "en-us": "Treasure Hoarder Insignia",
+            "ja-jp": "宝探しの鴉マーク",
+            "zh-cn": "寻宝鸦印",
+            "ko-kr": "보물찾기 까마귀 휘장",
+            "ru-ru": "Печать Похитителей сокровищ",
+            "de-de": "Krähenwappen der Schatzsuche",
+            "fr-fr": "Insigne des Pilleurs",
+            "es-es": "Insignia de cuervo de bronce",
+            "id-id": "Treasure Hoarder Insignia",
+            "th-th": "Treasure Hoarders Insignia",
+            "vi-vn": "Ấn Quạ Tầm Bảo",
+            "zh-tw": "尋寶鴉印"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 1722,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Elixir de Mercúrio com Véu de Névoa",
+            "en-us": "Mist Veiled Mercury Elixir",
+            "ja-jp": "霧海雲間の水銀",
+            "zh-cn": "雾海云间的汞丹",
+            "ko-kr": "안개구름 속의 수은단",
+            "ru-ru": "Ртутная пилюля Заоблачного моря",
+            "de-de": "Quecksilberkugeln des Nebelschleiers",
+            "fr-fr": "Mercure karstique",
+            "es-es": "Perdigones de mercurio",
+            "id-id": "Mist Veiled Mercury Elixir",
+            "th-th": "Mist Veiled Mercury Elixir",
+            "vi-vn": "Hống Đơn Biển Sương Mù",
+            "zh-tw": "霧海雲間的汞丹"
+          }
+        },
+        {
+          "id": 1727,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Pólen de Névoa",
+            "en-us": "Mist Grass Pollen",
+            "ja-jp": "霧虚ろの花粉",
+            "zh-cn": "雾虚花粉",
+            "ko-kr": "안개꽃 가루",
+            "ru-ru": "Пыльца туманной травы",
+            "de-de": "Nebelgraspollen",
+            "fr-fr": "Pollen d'herbe brumeuse",
+            "es-es": "Polen de neblina",
+            "id-id": "Mist Grass Pollen",
+            "th-th": "Mist Flower Pollen",
+            "vi-vn": "Phấn Hoa Hư Vô",
+            "zh-tw": "霧虛花粉"
+          }
+        },
+        {
+          "id": 629,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "Insígnia dos Ladrões de Tesouro",
+            "en-us": "Treasure Hoarder Insignia",
+            "ja-jp": "宝探しの鴉マーク",
+            "zh-cn": "寻宝鸦印",
+            "ko-kr": "보물찾기 까마귀 휘장",
+            "ru-ru": "Печать Похитителей сокровищ",
+            "de-de": "Krähenwappen der Schatzsuche",
+            "fr-fr": "Insigne des Pilleurs",
+            "es-es": "Insignia de cuervo de bronce",
+            "id-id": "Treasure Hoarder Insignia",
+            "th-th": "Treasure Hoarders Insignia",
+            "vi-vn": "Ấn Quạ Tầm Bảo",
+            "zh-tw": "尋寶鴉印"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 1722,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Elixir de Mercúrio com Véu de Névoa",
+            "en-us": "Mist Veiled Mercury Elixir",
+            "ja-jp": "霧海雲間の水銀",
+            "zh-cn": "雾海云间的汞丹",
+            "ko-kr": "안개구름 속의 수은단",
+            "ru-ru": "Ртутная пилюля Заоблачного моря",
+            "de-de": "Quecksilberkugeln des Nebelschleiers",
+            "fr-fr": "Mercure karstique",
+            "es-es": "Perdigones de mercurio",
+            "id-id": "Mist Veiled Mercury Elixir",
+            "th-th": "Mist Veiled Mercury Elixir",
+            "vi-vn": "Hống Đơn Biển Sương Mù",
+            "zh-tw": "霧海雲間的汞丹"
+          }
+        },
+        {
+          "id": 1728,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Grama do Nevoeiro",
+            "en-us": "Mist Grass",
+            "ja-jp": "霧虚ろの草嚢",
+            "zh-cn": "雾虚草囊",
+            "ko-kr": "안개풀 주머니",
+            "ru-ru": "Мешочек с туманной травой",
+            "de-de": "Nebelgrassäckchen",
+            "fr-fr": "Herbe brumeuse",
+            "es-es": "Hierba brumosa",
+            "id-id": "Mist Grass",
+            "th-th": "Mist Grass",
+            "vi-vn": "Túi Cỏ Hư Vô",
+            "zh-tw": "霧虛草囊"
+          }
+        },
+        {
+          "id": 1553,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Insígnia do Corvo Prateado",
+            "en-us": "Silver Raven Insignia",
+            "ja-jp": "シルバーの鴉マーク",
+            "zh-cn": "藏银鸦印",
+            "ko-kr": "실버 까마귀 휘장",
+            "ru-ru": "Печать серебряного ворона",
+            "de-de": "Krähenwappen der Silberschätze",
+            "fr-fr": "Insigne de corbeau en argent",
+            "es-es": "Insignia de cuervo plateada",
+            "id-id": "Silver Raven Insignia",
+            "th-th": "Silver Raven Insignia",
+            "vi-vn": "Ấn Quạ Bạc Ẩn",
+            "zh-tw": "藏銀鴉印"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 1724,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Elixir de Ouro com Véu de Névoa",
+            "en-us": "Mist Veiled Gold Elixir",
+            "ja-jp": "霧海雲間の金丹",
+            "zh-cn": "雾海云间的金丹",
+            "ko-kr": "안개구름 속의 금단",
+            "ru-ru": "Золотая пилюля Заоблачного моря",
+            "de-de": "Goldkugel des Nebelschleiers",
+            "fr-fr": "Argent karstique",
+            "es-es": "Perdigones de oro",
+            "id-id": "Mist Veiled Gold Elixir",
+            "th-th": "Mist Veiled Gold Elixir",
+            "vi-vn": "Kim Đơn Biển Sương Mù",
+            "zh-tw": "霧海雲間的金丹"
+          }
+        },
+        {
+          "id": 1728,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Grama do Nevoeiro",
+            "en-us": "Mist Grass",
+            "ja-jp": "霧虚ろの草嚢",
+            "zh-cn": "雾虚草囊",
+            "ko-kr": "안개풀 주머니",
+            "ru-ru": "Мешочек с туманной травой",
+            "de-de": "Nebelgrassäckchen",
+            "fr-fr": "Herbe brumeuse",
+            "es-es": "Hierba brumosa",
+            "id-id": "Mist Grass",
+            "th-th": "Mist Grass",
+            "vi-vn": "Túi Cỏ Hư Vô",
+            "zh-tw": "霧虛草囊"
+          }
+        },
+        {
+          "id": 1553,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Insígnia do Corvo Prateado",
+            "en-us": "Silver Raven Insignia",
+            "ja-jp": "シルバーの鴉マーク",
+            "zh-cn": "藏银鸦印",
+            "ko-kr": "실버 까마귀 휘장",
+            "ru-ru": "Печать серебряного ворона",
+            "de-de": "Krähenwappen der Silberschätze",
+            "fr-fr": "Insigne de corbeau en argent",
+            "es-es": "Insignia de cuervo plateada",
+            "id-id": "Silver Raven Insignia",
+            "th-th": "Silver Raven Insignia",
+            "vi-vn": "Ấn Quạ Bạc Ẩn",
+            "zh-tw": "藏銀鴉印"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 1724,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Elixir de Ouro com Véu de Névoa",
+            "en-us": "Mist Veiled Gold Elixir",
+            "ja-jp": "霧海雲間の金丹",
+            "zh-cn": "雾海云间的金丹",
+            "ko-kr": "안개구름 속의 금단",
+            "ru-ru": "Золотая пилюля Заоблачного моря",
+            "de-de": "Goldkugel des Nebelschleiers",
+            "fr-fr": "Argent karstique",
+            "es-es": "Perdigones de oro",
+            "id-id": "Mist Veiled Gold Elixir",
+            "th-th": "Mist Veiled Gold Elixir",
+            "vi-vn": "Kim Đơn Biển Sương Mù",
+            "zh-tw": "霧海雲間的金丹"
+          }
+        },
+        {
+          "id": 1726,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pavio do Nevoeiro",
+            "en-us": "Mist Grass Wick",
+            "ja-jp": "霧虚ろの灯芯",
+            "zh-cn": "雾虚灯芯",
+            "ko-kr": "안개 등심",
+            "ru-ru": "Пучок туманной травы",
+            "de-de": "Nebelgrasdocht",
+            "fr-fr": "Mèches d'herbe brumeuse",
+            "es-es": "Estambre de hierba brumosa",
+            "id-id": "Mist Grass Wick",
+            "th-th": "Mist Grass Lamp",
+            "vi-vn": "Đuốc Hư Vô",
+            "zh-tw": "霧虛燈芯"
+          }
+        },
+        {
+          "id": 760,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Insígnia de Corvo Dourado",
+            "en-us": "Golden Raven Insignia",
+            "ja-jp": "ゴールドの鴉マーク",
+            "zh-cn": "攫金鸦印",
+            "ko-kr": "골드 까마귀 휘장",
+            "ru-ru": "Печать золотого ворона",
+            "de-de": "Krähenwappen der Goldschätze",
+            "fr-fr": "Insigne de corbeau en or",
+            "es-es": "Insignia de cuervo dorada",
+            "id-id": "Golden Raven Insignia",
+            "th-th": "Golden Raven Insignia",
+            "vi-vn": "Ấn Quạ Trộm Vàng",
+            "zh-tw": "攫金鴉印"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 1723,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Alternação das Nuvens e o Mar",
+            "en-us": "Mist Veiled Primo Elixir",
+            "ja-jp": "霧海雲間の転還",
+            "zh-cn": "雾海云间的转还",
+            "ko-kr": "안개구름 속의 전환",
+            "ru-ru": "Примо эликсир Заоблачного моря",
+            "de-de": "Wunderkugel des Nebelschleiers",
+            "fr-fr": "Or karstique",
+            "es-es": "Perdigones primordiales",
+            "id-id": "Mist Veiled Primo Elixir",
+            "th-th": "Mist Veiled Primo Elixir",
+            "vi-vn": "Sự Chuyển Dời Của Biển Sương Mù",
+            "zh-tw": "霧海雲間的轉還"
+          }
+        },
+        {
+          "id": 1726,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Pavio do Nevoeiro",
+            "en-us": "Mist Grass Wick",
+            "ja-jp": "霧虚ろの灯芯",
+            "zh-cn": "雾虚灯芯",
+            "ko-kr": "안개 등심",
+            "ru-ru": "Пучок туманной травы",
+            "de-de": "Nebelgrasdocht",
+            "fr-fr": "Mèches d'herbe brumeuse",
+            "es-es": "Estambre de hierba brumosa",
+            "id-id": "Mist Grass Wick",
+            "th-th": "Mist Grass Lamp",
+            "vi-vn": "Đuốc Hư Vô",
+            "zh-tw": "霧虛燈芯"
+          }
+        },
+        {
+          "id": 760,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Insígnia de Corvo Dourado",
+            "en-us": "Golden Raven Insignia",
+            "ja-jp": "ゴールドの鴉マーク",
+            "zh-cn": "攫金鸦印",
+            "ko-kr": "골드 까마귀 휘장",
+            "ru-ru": "Печать золотого ворона",
+            "de-de": "Krähenwappen der Goldschätze",
+            "fr-fr": "Insigne de corbeau en or",
+            "es-es": "Insignia de cuervo dorada",
+            "id-id": "Golden Raven Insignia",
+            "th-th": "Golden Raven Insignia",
+            "vi-vn": "Ấn Quạ Trộm Vàng",
+            "zh-tw": "攫金鴉印"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "40"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "6.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "102",
+          "postAscensionValue": "121"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "12.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "187",
+          "postAscensionValue": "207"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "17.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "239",
+          "postAscensionValue": "259"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "20.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "292",
+          "postAscensionValue": "311"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "23.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "344",
+          "postAscensionValue": "363"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "25.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "396",
+          "postAscensionValue": "415"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "28.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "448",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "31.2%"
+        }
+      ]
+    }
+  ]
+}

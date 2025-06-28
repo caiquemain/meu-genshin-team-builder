@@ -1,0 +1,1022 @@
+{
+  "id": "dragonspine_spear",
+  "wiki_id": 2060,
+  "name": {
+    "pt-pt": "Lança da Espinha do Dragão",
+    "en-us": "Dragonspine Spear",
+    "ja-jp": "ドラゴンスピア",
+    "zh-cn": "龙脊长枪",
+    "ko-kr": "용의 척추",
+    "ru-ru": "Копьё Драконьего хребта",
+    "de-de": "Drachengratspeer",
+    "fr-fr": "Lance Dosdragon",
+    "es-es": "Lanza de Espinadragón",
+    "id-id": "Dragonspine Spear",
+    "th-th": "Dragonspine Spear",
+    "vi-vn": "Thương Long Tích",
+    "zh-tw": "龍脊長槍"
+  },
+  "description": {
+    "pt-pt": "Uma lança criada a partir da presa de um dragão. É estranhamente quente ao toque.",
+    "en-us": "A spear created from the fang of a dragon. It is oddly warm to the touch.",
+    "ja-jp": "龍の牙で作られた長槍。妙に暖かさを感じる。",
+    "zh-cn": "利用龙之牙制成的长枪。有着奇异的温暖触感。",
+    "ko-kr": "드래곤의 이빨로 만든 장창. 기이한 따뜻함이 느껴진다",
+    "ru-ru": "Копьё из драконьих клыков. От него исходит необычное тепло.",
+    "de-de": "Ein Speer, der aus dem Reißzahn eines Drachen hergestellt wurde. Er fühlt sich seltsam warm an.",
+    "fr-fr": "Une lance fabriquée à partir d'un croc de dragon. Une certaine chaleur en émane.",
+    "es-es": "Una lanza creada a partir del colmillo de un dragón. Sorprendentemente, es cálida al tacto.",
+    "id-id": "Sebuah tombak yang dibuat dari gigi naga. Anehnya, tombak ini terasa hangat saat disentuh.",
+    "th-th": "หอกที่สร้างจากเขี้ยวของมังกร เมื่อสัมผัสแล้วให้ความรู้สึกที่อบอุ่นอย่างน่าประหลาด",
+    "vi-vn": "Trường thương được chế tạo từ răng rồng. Có một cảm giác ấm áp kỳ lạ.",
+    "zh-tw": "利用龍之牙製成的長槍。有著奇異的溫暖觸感。"
+  },
+  "rarity": 4,
+  "type": {
+    "pt-pt": "Lança",
+    "en-us": "Polearm",
+    "ja-jp": "長柄武器",
+    "zh-cn": "长柄武器",
+    "ko-kr": "장병기",
+    "ru-ru": "Древковое",
+    "de-de": "Stangenwaffe",
+    "fr-fr": "Arme d'hast",
+    "es-es": "Lanza",
+    "id-id": "Polearm",
+    "th-th": "หอก",
+    "vi-vn": "Vũ Khí Cán Dài",
+    "zh-tw": "長柄武器"
+  },
+  "subStat": {
+    "pt-pt": "Bônus de Dano Físico%",
+    "en-us": "Physical DMG Bonus",
+    "ja-jp": "物理ダメージ",
+    "zh-cn": "物理伤害加成",
+    "ko-kr": "물리 피해 보너스",
+    "ru-ru": "Бонус физ. урона",
+    "de-de": "Physischer SCH-Bonus",
+    "fr-fr": "Bonus de DGT physiques",
+    "es-es": "Bono de Daño Físico",
+    "id-id": "Physical DMG Bonus",
+    "th-th": "โบนัสความเสียหายกายภาพ",
+    "vi-vn": "Tăng Sát Thương Vật Lý",
+    "zh-tw": "物理傷害加成"
+  },
+  "passiveName": {
+    "pt-pt": "Enterro Congelante",
+    "en-us": "Frost Burial",
+    "ja-jp": "霜の埋葬",
+    "zh-cn": "霜葬",
+    "ko-kr": "서리의 매장",
+    "ru-ru": "Морозное погребение:",
+    "de-de": "Frostgrab",
+    "fr-fr": "Deuil givré",
+    "es-es": "Entierro helado",
+    "id-id": "Frost Burial",
+    "th-th": "Frost Burial",
+    "vi-vn": "Sương Táng",
+    "zh-tw": "霜葬"
+  },
+  "passiveDescription": {
+    "pt-pt": "Atingir um inimigo com um Ataque Normal e Ataque Carregado possui uma chance de 60%/70%/80%/90%/100% de formar e dropar um Núcleo de Cristal Eterno sobre eles, causando 80%/95%/110%/125%/140% de Dano de ATQ em uma AdE. Inimigos afetados por Cryo recebem 200%/240%/280%/320%/360% de Dano de ATQ. Pode ocorrer apenas uma vez a cada 10s.",
+    "en-us": "Hitting an opponent with Normal and Charged Attacks has a 60%/70%/80%/90%/100% chance of forming and dropping an Everfrost Icicle above them, dealing AoE DMG equal to 80%/95%/110%/125%/140% of ATK. Opponents affected by Cryo are instead dealt DMG equal to 200%/240%/280%/320%/360% of ATK. Can only occur once every 10s.",
+    "ja-jp": "通常攻撃と重撃が敵に命中した時、60/70/80/90/100%の確率で敵の上に恒氷晶核が作られ落下し、攻撃力の80/95/110/125/140%の範囲ダメージを与える。敵が氷元素の影響を受けている場合、攻撃力の200/240/280/320/360%のダメージを与える。この効果は10秒毎に1回のみ発動可能。",
+    "zh-cn": "普通攻击与重击命中敌人时，有60%/70%/80%/90%/100%概率在敌人上方生成恒冰晶核并坠落，造成80%/95%/110%/125%/140%攻击力的范围伤害。若敌人处于冰元素影响下，则造成200%/240%/280%/320%/360%攻击力的伤害。该效果每10秒至多触发一次。",
+    "ko-kr": "일반 공격과 강공격이 적에게 명중 시 60%/70%/80%/90%/100%의 확률로 적의 위쪽에 영원의 얼음 결정을 생성한 후 떨궈서 공격력 80%/95%/110%/125%/140%의 범위 피해를 준다. 적이 만약 얼음 원소의 영향을 받으면 공격력 200%/240%/280%/320%/360%의 피해를 준다. 해당 효과는 10초마다 1회 발동한다",
+    "ru-ru": "Попадания обычной или заряженной атакой имеют 60%/70%/80%/90%/100% шанс создать над противником ледяной кристалл и уронить его, нанося 80%/95%/110%/125%/140% урона силы атаки по площади. Если противник имеет эффект Крио, то наносит ему 200%/240%/280%/320%/360% урона силы атаки. Может возникнуть раз в 10 сек.",
+    "de-de": "Erstellt beim Treffen von Gegnern mit Standardangriffen und heftigen Schlägen mit einer Wahrscheinlichkeit von 60% ~ 70% ~ 80% ~ 90% ~ 100% über den Gegnern einen Kristallkern ewigen Eises, der herunterfällt und Flächenschaden in Höhe von 80% ~ 95% ~ 110% ~ 125% ~ 140% ANG verursacht. Verursacht Schaden in Höhe von 200% ~ 240% ~ 280% ~ 320% ~ 360% ANG, wenn die Gegner von Kryo-Effekten betroffen sind. 10s Abklingzeit.",
+    "fr-fr": "Les attaques normales et chargées ont 60 %/70 %/80 %/90 %/100 % de chances lorsqu'elles touchent de générer une stalactite de glace qui inflige des DGT de zone équivalant à 80 %/95 %/110 %/125 %/140 % de l'ATQ. Si l'ennemi est affecté par l'élément Cryo, la stalactite inflige alors 200 %/240 %/280 %/320 %/360 % de l'ATQ. Cet effet se déclenche une fois toutes les 10 s.",
+    "es-es": "Al golpear a los enemigos con Ataques Normales y Cargados, hay un 60%/70%/80%/90%/100% de probabilidad de crear un carámbano sobre ellos. Al caer, el carámbano inflige un 80%/95%/110%/125%/140% de daño de ATQ en el AdE. Si los enemigos están afectados por Cryo, el daño de ATQ infligido será del 200%/240%/280%/320%/360%. Este efecto solo puede ocurrir una vez cada 10 s.",
+    "id-id": "Saat Normal atau Charged Attack mengenai musuh, memiliki 60%/70%/80%/90%/100% persentase untuk menciptakan Everfrost Icicle di atas musuh, mengakibatkan DMG area sebesar 80%/95%/110%/125%/140% ATK. Jika musuh berada dalam efek Cryo, maka Everfrost Icicle akan mengakibatkan DMG sebesar 200%/240%/280%/320%/360% ATK. Efek ini dapat terpicu setiap 10 detik.",
+    "th-th": "เมื่อโจมตีปกติหรือชาร์จโจมตีถูกศัตรู จะมีโอกาส 60% ที่จะเกิด Everfrost Icicle ขึ้นบนตัวของศัตรูและร่วงลงมาใส่ เพื่อสร้างความเสียหายวงกว้างเป็น 80% ของพลังโจมตี หากศัตรูตกอยู่ภายใต้ผลกระทบของธาตุน้ำแข็ง จะสร้างความเสียหาย 200% ของพลังโจมตี โดยที่เอฟเฟกต์ดังกล่าวนี้จะเกิดได้ครั้งเดียวในทุก 10 วินาที",
+    "vi-vn": "Khi tấn công thường và trọng kích đánh trúng kẻ địch có tỷ lệ 60%/70%/80%/90%/100% tạo ra Đá Vĩnh Hằng phía trên kẻ địch và rơi xuống, gây sát thương phạm vi bằng 80%/95%/110%/125%/140% tấn công. Nếu địch bị ảnh hưởng bởi nguyên tố Băng, sẽ gây sát thương bằng 200%/240%/280%/320%/360% tấn công. Hiệu quả này mỗi 10s kích hoạt 1 lần.",
+    "zh-tw": "普通攻擊與重擊命中敵人時，有60%/70%/80%/90%/100%機率在敵人上方生成恆冰晶核並墜落，造成80%/95%/110%/125%/140%攻擊力的範圍傷害。若敵人處於冰元素影響下，則造成200%/240%/280%/320%/360%攻擊力的傷害。該效果每10秒至多觸發一次。"
+  },
+  "weaponIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/weapon/龙脊长枪.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 324,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Dente de Leite do Lobo Boreal",
+            "en-us": "Boreal Wolf's Milk Tooth",
+            "ja-jp": "凛風奔狼の乳歯",
+            "zh-cn": "凛风奔狼的始龀",
+            "ko-kr": "칼바람 울프의 젖니",
+            "ru-ru": "Молочный зуб арктического волка",
+            "de-de": "Milchzahn des borealischen Wolfs",
+            "fr-fr": "Dent de lait du Loup boréal",
+            "es-es": "Diente de leche de lobo boreal",
+            "id-id": "Boreal Wolf's Milk Tooth",
+            "th-th": "Boreal Wolf's Milk Tooth",
+            "vi-vn": "Răng Sữa Sói Bão",
+            "zh-tw": "凜風奔狼的始齔"
+          }
+        },
+        {
+          "id": 1727,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pólen de Névoa",
+            "en-us": "Mist Grass Pollen",
+            "ja-jp": "霧虚ろの花粉",
+            "zh-cn": "雾虚花粉",
+            "ko-kr": "안개꽃 가루",
+            "ru-ru": "Пыльца туманной травы",
+            "de-de": "Nebelgraspollen",
+            "fr-fr": "Pollen d'herbe brumeuse",
+            "es-es": "Polen de neblina",
+            "id-id": "Mist Grass Pollen",
+            "th-th": "Mist Flower Pollen",
+            "vi-vn": "Phấn Hoa Hư Vô",
+            "zh-tw": "霧虛花粉"
+          }
+        },
+        {
+          "id": 778,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Insígnia de Recruta",
+            "en-us": "Recruit's Insignia",
+            "ja-jp": "新兵の記章",
+            "zh-cn": "新兵的徽记",
+            "ko-kr": "신병의 휘장",
+            "ru-ru": "Шеврон рядового",
+            "de-de": "Abzeichen für neue Rekruten",
+            "fr-fr": "Insigne de nouvelle recrue",
+            "es-es": "Insignia del recluta",
+            "id-id": "Recruit's Insignia",
+            "th-th": "Recruit's Insignia",
+            "vi-vn": "Phù Hiệu Tân Binh",
+            "zh-tw": "新兵的徽記"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 327,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Dente Rachado do Lobo Boreal",
+            "en-us": "Boreal Wolf's Cracked Tooth",
+            "ja-jp": "凛風奔狼の砕牙",
+            "zh-cn": "凛风奔狼的裂齿",
+            "ko-kr": "칼바람 울프의 이빨",
+            "ru-ru": "Треснувший зуб арктического волка",
+            "de-de": "Zersplitterter Zahn des borealischen Wolfs",
+            "fr-fr": "Croc brisé du Loup boréal",
+            "es-es": "Diente roto de lobo boreal",
+            "id-id": "Boreal Wolf's Cracked Tooth",
+            "th-th": "Boreal Wolf's Cracked Tooth",
+            "vi-vn": "Răng Vỡ Sói Bão",
+            "zh-tw": "凜風奔狼的裂齒"
+          }
+        },
+        {
+          "id": 1727,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Pólen de Névoa",
+            "en-us": "Mist Grass Pollen",
+            "ja-jp": "霧虚ろの花粉",
+            "zh-cn": "雾虚花粉",
+            "ko-kr": "안개꽃 가루",
+            "ru-ru": "Пыльца туманной травы",
+            "de-de": "Nebelgraspollen",
+            "fr-fr": "Pollen d'herbe brumeuse",
+            "es-es": "Polen de neblina",
+            "id-id": "Mist Grass Pollen",
+            "th-th": "Mist Flower Pollen",
+            "vi-vn": "Phấn Hoa Hư Vô",
+            "zh-tw": "霧虛花粉"
+          }
+        },
+        {
+          "id": 778,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Insígnia de Recruta",
+            "en-us": "Recruit's Insignia",
+            "ja-jp": "新兵の記章",
+            "zh-cn": "新兵的徽记",
+            "ko-kr": "신병의 휘장",
+            "ru-ru": "Шеврон рядового",
+            "de-de": "Abzeichen für neue Rekruten",
+            "fr-fr": "Insigne de nouvelle recrue",
+            "es-es": "Insignia del recluta",
+            "id-id": "Recruit's Insignia",
+            "th-th": "Recruit's Insignia",
+            "vi-vn": "Phù Hiệu Tân Binh",
+            "zh-tw": "新兵的徽記"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 327,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Dente Rachado do Lobo Boreal",
+            "en-us": "Boreal Wolf's Cracked Tooth",
+            "ja-jp": "凛風奔狼の砕牙",
+            "zh-cn": "凛风奔狼的裂齿",
+            "ko-kr": "칼바람 울프의 이빨",
+            "ru-ru": "Треснувший зуб арктического волка",
+            "de-de": "Zersplitterter Zahn des borealischen Wolfs",
+            "fr-fr": "Croc brisé du Loup boréal",
+            "es-es": "Diente roto de lobo boreal",
+            "id-id": "Boreal Wolf's Cracked Tooth",
+            "th-th": "Boreal Wolf's Cracked Tooth",
+            "vi-vn": "Răng Vỡ Sói Bão",
+            "zh-tw": "凜風奔狼的裂齒"
+          }
+        },
+        {
+          "id": 1728,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Grama do Nevoeiro",
+            "en-us": "Mist Grass",
+            "ja-jp": "霧虚ろの草嚢",
+            "zh-cn": "雾虚草囊",
+            "ko-kr": "안개풀 주머니",
+            "ru-ru": "Мешочек с туманной травой",
+            "de-de": "Nebelgrassäckchen",
+            "fr-fr": "Herbe brumeuse",
+            "es-es": "Hierba brumosa",
+            "id-id": "Mist Grass",
+            "th-th": "Mist Grass",
+            "vi-vn": "Túi Cỏ Hư Vô",
+            "zh-tw": "霧虛草囊"
+          }
+        },
+        {
+          "id": 466,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Insígnia de Sargento",
+            "en-us": "Sergeant's Insignia",
+            "ja-jp": "士官の記章",
+            "zh-cn": "士官的徽记",
+            "ko-kr": "사관의 휘장",
+            "ru-ru": "Шеврон сержанта",
+            "de-de": "Abzeichen für Unteroffiziere",
+            "fr-fr": "Insigne de sergent",
+            "es-es": "Insignia del sargento",
+            "id-id": "Sergeant's Insignia",
+            "th-th": "Sergeant's Insignia",
+            "vi-vn": "Phù Hiệu Sĩ Quan",
+            "zh-tw": "士官的徽記"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 326,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Presa Quebrada do Lobo Boreal",
+            "en-us": "Boreal Wolf's Broken Fang",
+            "ja-jp": "凛風奔狼の断牙",
+            "zh-cn": "凛风奔狼的断牙",
+            "ko-kr": "칼바람 울프의 부서진 이빨",
+            "ru-ru": "Сломанный клык арктического волка",
+            "de-de": "Abgebrochener Zahn des borealischen Wolfs",
+            "fr-fr": "Croc fendu du Loup boréal",
+            "es-es": "Colmillo roto de lobo boreal",
+            "id-id": "Boreal Wolf's Broken Fang",
+            "th-th": "Boreal Wolf's Broken Fang",
+            "vi-vn": "Mảnh Răng Sói Bão",
+            "zh-tw": "凜風奔狼的斷牙"
+          }
+        },
+        {
+          "id": 1728,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Grama do Nevoeiro",
+            "en-us": "Mist Grass",
+            "ja-jp": "霧虚ろの草嚢",
+            "zh-cn": "雾虚草囊",
+            "ko-kr": "안개풀 주머니",
+            "ru-ru": "Мешочек с туманной травой",
+            "de-de": "Nebelgrassäckchen",
+            "fr-fr": "Herbe brumeuse",
+            "es-es": "Hierba brumosa",
+            "id-id": "Mist Grass",
+            "th-th": "Mist Grass",
+            "vi-vn": "Túi Cỏ Hư Vô",
+            "zh-tw": "霧虛草囊"
+          }
+        },
+        {
+          "id": 466,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Insígnia de Sargento",
+            "en-us": "Sergeant's Insignia",
+            "ja-jp": "士官の記章",
+            "zh-cn": "士官的徽记",
+            "ko-kr": "사관의 휘장",
+            "ru-ru": "Шеврон сержанта",
+            "de-de": "Abzeichen für Unteroffiziere",
+            "fr-fr": "Insigne de sergent",
+            "es-es": "Insignia del sargento",
+            "id-id": "Sergeant's Insignia",
+            "th-th": "Sergeant's Insignia",
+            "vi-vn": "Phù Hiệu Sĩ Quan",
+            "zh-tw": "士官的徽記"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 326,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Presa Quebrada do Lobo Boreal",
+            "en-us": "Boreal Wolf's Broken Fang",
+            "ja-jp": "凛風奔狼の断牙",
+            "zh-cn": "凛风奔狼的断牙",
+            "ko-kr": "칼바람 울프의 부서진 이빨",
+            "ru-ru": "Сломанный клык арктического волка",
+            "de-de": "Abgebrochener Zahn des borealischen Wolfs",
+            "fr-fr": "Croc fendu du Loup boréal",
+            "es-es": "Colmillo roto de lobo boreal",
+            "id-id": "Boreal Wolf's Broken Fang",
+            "th-th": "Boreal Wolf's Broken Fang",
+            "vi-vn": "Mảnh Răng Sói Bão",
+            "zh-tw": "凜風奔狼的斷牙"
+          }
+        },
+        {
+          "id": 1726,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Pavio do Nevoeiro",
+            "en-us": "Mist Grass Wick",
+            "ja-jp": "霧虚ろの灯芯",
+            "zh-cn": "雾虚灯芯",
+            "ko-kr": "안개 등심",
+            "ru-ru": "Пучок туманной травы",
+            "de-de": "Nebelgrasdocht",
+            "fr-fr": "Mèches d'herbe brumeuse",
+            "es-es": "Estambre de hierba brumosa",
+            "id-id": "Mist Grass Wick",
+            "th-th": "Mist Grass Lamp",
+            "vi-vn": "Đuốc Hư Vô",
+            "zh-tw": "霧虛燈芯"
+          }
+        },
+        {
+          "id": 636,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Insígnia de Oficial",
+            "en-us": "Lieutenant's Insignia",
+            "ja-jp": "尉官の記章",
+            "zh-cn": "尉官的徽记",
+            "ko-kr": "위관의 휘장",
+            "ru-ru": "Шеврон офицера",
+            "de-de": "Abzeichen für Offiziere",
+            "fr-fr": "Insigne d'officier",
+            "es-es": "Insignia del oficial",
+            "id-id": "Lieutenant's Insignia",
+            "th-th": "Officer's Insignia",
+            "vi-vn": "Phù Hiệu Hiệu Úy",
+            "zh-tw": "尉官的徽記"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 325,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Nostalgia do Lobo Boreal",
+            "en-us": "Boreal Wolf's Nostalgia",
+            "ja-jp": "凛風奔狼の郷愁",
+            "zh-cn": "凛风奔狼的怀乡",
+            "ko-kr": "칼바람 울프의 그리운 고향",
+            "ru-ru": "Ностальгия арктического волка",
+            "de-de": "Heimweh des borealischen Wolfs",
+            "fr-fr": "Nostalgie du Loup boréal",
+            "es-es": "Nostalgia del lobo boreal",
+            "id-id": "Boreal Wolf's Nostalgia",
+            "th-th": "Boreal Wolf's Nostalgia",
+            "vi-vn": "Nỗi Nhớ Của Sói Bão",
+            "zh-tw": "凜風奔狼的懷鄉"
+          }
+        },
+        {
+          "id": 1726,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Pavio do Nevoeiro",
+            "en-us": "Mist Grass Wick",
+            "ja-jp": "霧虚ろの灯芯",
+            "zh-cn": "雾虚灯芯",
+            "ko-kr": "안개 등심",
+            "ru-ru": "Пучок туманной травы",
+            "de-de": "Nebelgrasdocht",
+            "fr-fr": "Mèches d'herbe brumeuse",
+            "es-es": "Estambre de hierba brumosa",
+            "id-id": "Mist Grass Wick",
+            "th-th": "Mist Grass Lamp",
+            "vi-vn": "Đuốc Hư Vô",
+            "zh-tw": "霧虛燈芯"
+          }
+        },
+        {
+          "id": 636,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Insígnia de Oficial",
+            "en-us": "Lieutenant's Insignia",
+            "ja-jp": "尉官の記章",
+            "zh-cn": "尉官的徽记",
+            "ko-kr": "위관의 휘장",
+            "ru-ru": "Шеврон офицера",
+            "de-de": "Abzeichen für Offiziere",
+            "fr-fr": "Insigne d'officier",
+            "es-es": "Insignia del oficial",
+            "id-id": "Lieutenant's Insignia",
+            "th-th": "Officer's Insignia",
+            "vi-vn": "Phù Hiệu Hiệu Úy",
+            "zh-tw": "尉官的徽記"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "41"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "15.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "99",
+          "postAscensionValue": "125"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "26.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "184",
+          "postAscensionValue": "210"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "38.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "238",
+          "postAscensionValue": "264"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "44.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "293",
+          "postAscensionValue": "319"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "50.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "347",
+          "postAscensionValue": "373"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "56.8%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "401",
+          "postAscensionValue": "427"
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "62.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "454",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Bônus de Dano Físico",
+            "en-us": "Physical DMG Bonus",
+            "ja-jp": "物理ダメージ",
+            "zh-cn": "物理伤害加成",
+            "ko-kr": "물리 피해 보너스",
+            "ru-ru": "Бонус физ. урона",
+            "de-de": "Physischer SCH-Bonus",
+            "fr-fr": "Bonus de DGT physiques",
+            "es-es": "Bono de Daño Físico",
+            "id-id": "Physical DMG Bonus",
+            "th-th": "โบนัสความเสียหายกายภาพ",
+            "vi-vn": "Tăng Sát Thương Vật Lý",
+            "zh-tw": "物理傷害加成"
+          },
+          "value": "69.0%"
+        }
+      ]
+    }
+  ]
+}

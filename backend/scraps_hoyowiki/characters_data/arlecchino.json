@@ -48,68 +48,34 @@
   },
   "rarity": 5,
   "vision": {
-    "label": {
-      "pt-pt": "Tipo Elemental",
-      "en-us": "Elemental Type",
-      "ja-jp": "元素タイプ",
-      "zh-cn": "元素属性",
-      "ko-kr": "원소 속성",
-      "ru-ru": "Элемент",
-      "de-de": "Elementartyp",
-      "fr-fr": "Élément",
-      "es-es": "Tipo elemental",
-      "id-id": "Tipe Elemen",
-      "th-th": "ประเภทธาตุ",
-      "vi-vn": "Thuộc Tính Nguyên Tố",
-      "zh-tw": "元素屬性"
-    },
-    "value": {
-      "pt-pt": "Pyro",
-      "en-us": "Pyro",
-      "ja-jp": "炎元素",
-      "zh-cn": "火元素",
-      "ko-kr": "불 원소",
-      "ru-ru": "Пиро",
-      "de-de": "Pyro",
-      "fr-fr": "Pyro",
-      "es-es": "Pyro",
-      "id-id": "Pyro",
-      "th-th": "ไฟ",
-      "vi-vn": "Hỏa",
-      "zh-tw": "火元素"
-    }
+    "pt-pt": "Pyro",
+    "en-us": "Pyro",
+    "ja-jp": "炎元素",
+    "zh-cn": "火元素",
+    "ko-kr": "불 원소",
+    "ru-ru": "Пиро",
+    "de-de": "Pyro",
+    "fr-fr": "Pyro",
+    "es-es": "Pyro",
+    "id-id": "Pyro",
+    "th-th": "ไฟ",
+    "vi-vn": "Hỏa",
+    "zh-tw": "火元素"
   },
   "weapon": {
-    "label": {
-      "pt-pt": "Arma",
-      "en-us": "Weapons",
-      "ja-jp": "武器種",
-      "zh-cn": "武器",
-      "ko-kr": "무기",
-      "ru-ru": "Тип",
-      "de-de": "Waffe",
-      "fr-fr": "Type d'arme",
-      "es-es": "Arma",
-      "id-id": "Senjata",
-      "th-th": "อาวุธ",
-      "vi-vn": "Vũ Khí",
-      "zh-tw": "武器"
-    },
-    "value": {
-      "pt-pt": "Lança",
-      "en-us": "Polearm",
-      "ja-jp": "長柄武器",
-      "zh-cn": "长柄武器",
-      "ko-kr": "장병기",
-      "ru-ru": "Древковое",
-      "de-de": "Stangenwaffe",
-      "fr-fr": "Arme d'hast",
-      "es-es": "Lanza",
-      "id-id": "Polearm",
-      "th-th": "หอก",
-      "vi-vn": "Vũ Khí Cán Dài",
-      "zh-tw": "長柄武器"
-    }
+    "pt-pt": "Lança",
+    "en-us": "Polearm",
+    "ja-jp": "長柄武器",
+    "zh-cn": "长柄武器",
+    "ko-kr": "장병기",
+    "ru-ru": "Древковое",
+    "de-de": "Stangenwaffe",
+    "fr-fr": "Arme d'hast",
+    "es-es": "Lanza",
+    "id-id": "Polearm",
+    "th-th": "หอก",
+    "vi-vn": "Vũ Khí Cán Dài",
+    "zh-tw": "長柄武器"
   },
   "characterIconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/04/24/11094433/69e63daf0dfdd87ef372481e981821c0_1866340374302052933.png",
   "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/ac3123b42bf631685287e76c8c834a6c_564491877314389852.png",
@@ -118,15 +84,15 @@
     "en-us": "Ignis Purgatorius",
     "ja-jp": "浄煉の炎座",
     "zh-cn": "净炼火座",
+    "ko-kr": "N/A",
     "ru-ru": "Очищающий Огонь",
     "de-de": "Ignis Purgatorius",
     "fr-fr": "Ignis Purgatorius",
     "es-es": "Ignis Purgatorius",
     "id-id": "Ignis Purgatorius",
     "th-th": "Ignis Purgatorius",
-    "zh-tw": "淨煉火座",
-    "ko-kr": "N/A",
-    "vi-vn": "N/A"
+    "vi-vn": "N/A",
+    "zh-tw": "淨煉火座"
   },
   "specialDish": {
     "id": 5615,
@@ -607,7 +573,7 @@
           "label": {
             "pt-pt": "Nível",
             "en-us": "Level",
-            "ja-jp": "",
+            "ja-jp": "Level",
             "zh-cn": "等级",
             "ko-kr": "Level",
             "ru-ru": "Уровень",
@@ -1319,6 +1285,7 @@
             "en-us": "CD",
             "ja-jp": "クールタイム",
             "zh-cn": "冷却时间",
+            "ko-kr": "CD",
             "ru-ru": "Время отката",
             "de-de": "Abklingzeit",
             "fr-fr": "Temps de recharge",
@@ -1350,6 +1317,7 @@
             "en-us": "Energy Cost",
             "ja-jp": "元素エネルギー",
             "zh-cn": "元素能量",
+            "ko-kr": "Energy Cost",
             "ru-ru": "Потребление энергии",
             "de-de": "Elementarenergie",
             "fr-fr": "Énergie élémentaire",
@@ -1401,7 +1369,7 @@
           "level": 2,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 12500,
               "name": {
@@ -1421,7 +1389,7 @@
               }
             },
             {
-              "id": "4088",
+              "id": 4088,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/548ba6cff0815c3226574092ddbd69d7_2763254692458446426.png",
               "amount": 3,
               "name": {
@@ -1441,7 +1409,7 @@
               }
             },
             {
-              "id": "778",
+              "id": 778,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Recruit's%20Insignia_icon.png",
               "amount": 6,
               "name": {
@@ -1466,7 +1434,7 @@
           "level": 3,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 17500,
               "name": {
@@ -1486,7 +1454,7 @@
               }
             },
             {
-              "id": "4086",
+              "id": 4086,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/03f646a9ac1384bf4e4cf14b5fda2800_3435915544517936380.png",
               "amount": 2,
               "name": {
@@ -1506,7 +1474,7 @@
               }
             },
             {
-              "id": "466",
+              "id": 466,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sergeant's%20Insignia_icon.png",
               "amount": 3,
               "name": {
@@ -1531,7 +1499,7 @@
           "level": 4,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 25000,
               "name": {
@@ -1551,7 +1519,7 @@
               }
             },
             {
-              "id": "4086",
+              "id": 4086,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/03f646a9ac1384bf4e4cf14b5fda2800_3435915544517936380.png",
               "amount": 4,
               "name": {
@@ -1571,7 +1539,7 @@
               }
             },
             {
-              "id": "466",
+              "id": 466,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sergeant's%20Insignia_icon.png",
               "amount": 4,
               "name": {
@@ -1596,7 +1564,7 @@
           "level": 5,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 30000,
               "name": {
@@ -1616,7 +1584,7 @@
               }
             },
             {
-              "id": "4086",
+              "id": 4086,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/03f646a9ac1384bf4e4cf14b5fda2800_3435915544517936380.png",
               "amount": 6,
               "name": {
@@ -1636,7 +1604,7 @@
               }
             },
             {
-              "id": "466",
+              "id": 466,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sergeant's%20Insignia_icon.png",
               "amount": 6,
               "name": {
@@ -1661,7 +1629,7 @@
           "level": 6,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 37500,
               "name": {
@@ -1681,7 +1649,7 @@
               }
             },
             {
-              "id": "4086",
+              "id": 4086,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/03f646a9ac1384bf4e4cf14b5fda2800_3435915544517936380.png",
               "amount": 9,
               "name": {
@@ -1701,7 +1669,7 @@
               }
             },
             {
-              "id": "466",
+              "id": 466,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sergeant's%20Insignia_icon.png",
               "amount": 9,
               "name": {
@@ -1726,7 +1694,7 @@
           "level": 7,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 120000,
               "name": {
@@ -1746,7 +1714,7 @@
               }
             },
             {
-              "id": "4085",
+              "id": 4085,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/4cf2189c44d090136af34ce1613ac1fc_4825901120041673014.png",
               "amount": 4,
               "name": {
@@ -1766,7 +1734,7 @@
               }
             },
             {
-              "id": "636",
+              "id": 636,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Lieutenant's%20Insignia_icon.png",
               "amount": 4,
               "name": {
@@ -1786,7 +1754,7 @@
               }
             },
             {
-              "id": "5607",
+              "id": 5607,
               "iconUrl": null,
               "amount": 1,
               "name": {
@@ -1811,7 +1779,7 @@
           "level": 8,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 260000,
               "name": {
@@ -1831,7 +1799,7 @@
               }
             },
             {
-              "id": "4085",
+              "id": 4085,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/4cf2189c44d090136af34ce1613ac1fc_4825901120041673014.png",
               "amount": 6,
               "name": {
@@ -1851,7 +1819,7 @@
               }
             },
             {
-              "id": "636",
+              "id": 636,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Lieutenant's%20Insignia_icon.png",
               "amount": 6,
               "name": {
@@ -1871,7 +1839,7 @@
               }
             },
             {
-              "id": "5607",
+              "id": 5607,
               "iconUrl": null,
               "amount": 1,
               "name": {
@@ -1896,7 +1864,7 @@
           "level": 9,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 450000,
               "name": {
@@ -1916,7 +1884,7 @@
               }
             },
             {
-              "id": "4085",
+              "id": 4085,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/4cf2189c44d090136af34ce1613ac1fc_4825901120041673014.png",
               "amount": 12,
               "name": {
@@ -1936,7 +1904,7 @@
               }
             },
             {
-              "id": "636",
+              "id": 636,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Lieutenant's%20Insignia_icon.png",
               "amount": 9,
               "name": {
@@ -1956,7 +1924,7 @@
               }
             },
             {
-              "id": "5607",
+              "id": 5607,
               "iconUrl": null,
               "amount": 2,
               "name": {
@@ -1981,7 +1949,7 @@
           "level": 10,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 700000,
               "name": {
@@ -2001,7 +1969,7 @@
               }
             },
             {
-              "id": "4085",
+              "id": 4085,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/35428890/4cf2189c44d090136af34ce1613ac1fc_4825901120041673014.png",
               "amount": 16,
               "name": {
@@ -2021,7 +1989,7 @@
               }
             },
             {
-              "id": "636",
+              "id": 636,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Lieutenant's%20Insignia_icon.png",
               "amount": 12,
               "name": {
@@ -2041,7 +2009,7 @@
               }
             },
             {
-              "id": "5607",
+              "id": 5607,
               "iconUrl": null,
               "amount": 2,
               "name": {
@@ -2061,7 +2029,7 @@
               }
             },
             {
-              "id": "900",
+              "id": 900,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Crown%20of%20Insight_icon.png",
               "amount": 1,
               "name": {
@@ -2134,7 +2102,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 20000,
           "name": {
@@ -2154,7 +2122,7 @@
           }
         },
         {
-          "id": "1100",
+          "id": 1100,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Sliver_icon.png",
           "amount": 1,
           "name": {
@@ -2174,7 +2142,7 @@
           }
         },
         {
-          "id": "4007",
+          "id": 4007,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/151578876/670b8958c90014a1bdacba5123c2c9da_5342482540916081858.png",
           "amount": 3,
           "name": {
@@ -2194,7 +2162,7 @@
           }
         },
         {
-          "id": "778",
+          "id": 778,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Recruit's%20Insignia_icon.png",
           "amount": 3,
           "name": {
@@ -2233,7 +2201,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 40000,
           "name": {
@@ -2253,7 +2221,7 @@
           }
         },
         {
-          "id": "1099",
+          "id": 1099,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Fragment_icon.png",
           "amount": 3,
           "name": {
@@ -2273,7 +2241,7 @@
           }
         },
         {
-          "id": "5608",
+          "id": 5608,
           "iconUrl": null,
           "amount": 2,
           "name": {
@@ -2293,7 +2261,7 @@
           }
         },
         {
-          "id": "4007",
+          "id": 4007,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/151578876/670b8958c90014a1bdacba5123c2c9da_5342482540916081858.png",
           "amount": 10,
           "name": {
@@ -2313,7 +2281,7 @@
           }
         },
         {
-          "id": "778",
+          "id": 778,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Recruit's%20Insignia_icon.png",
           "amount": 15,
           "name": {
@@ -2352,7 +2320,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 60000,
           "name": {
@@ -2372,7 +2340,7 @@
           }
         },
         {
-          "id": "1099",
+          "id": 1099,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Fragment_icon.png",
           "amount": 6,
           "name": {
@@ -2392,7 +2360,7 @@
           }
         },
         {
-          "id": "5608",
+          "id": 5608,
           "iconUrl": null,
           "amount": 4,
           "name": {
@@ -2412,7 +2380,7 @@
           }
         },
         {
-          "id": "4007",
+          "id": 4007,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/151578876/670b8958c90014a1bdacba5123c2c9da_5342482540916081858.png",
           "amount": 20,
           "name": {
@@ -2432,7 +2400,7 @@
           }
         },
         {
-          "id": "466",
+          "id": 466,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sergeant's%20Insignia_icon.png",
           "amount": 12,
           "name": {
@@ -2471,7 +2439,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 80000,
           "name": {
@@ -2491,7 +2459,7 @@
           }
         },
         {
-          "id": "1098",
+          "id": 1098,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Chunk_icon.png",
           "amount": 3,
           "name": {
@@ -2511,7 +2479,7 @@
           }
         },
         {
-          "id": "5608",
+          "id": 5608,
           "iconUrl": null,
           "amount": 8,
           "name": {
@@ -2531,7 +2499,7 @@
           }
         },
         {
-          "id": "4007",
+          "id": 4007,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/151578876/670b8958c90014a1bdacba5123c2c9da_5342482540916081858.png",
           "amount": 30,
           "name": {
@@ -2551,7 +2519,7 @@
           }
         },
         {
-          "id": "466",
+          "id": 466,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sergeant's%20Insignia_icon.png",
           "amount": 18,
           "name": {
@@ -2590,7 +2558,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 100000,
           "name": {
@@ -2610,7 +2578,7 @@
           }
         },
         {
-          "id": "1098",
+          "id": 1098,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Chunk_icon.png",
           "amount": 6,
           "name": {
@@ -2630,7 +2598,7 @@
           }
         },
         {
-          "id": "5608",
+          "id": 5608,
           "iconUrl": null,
           "amount": 12,
           "name": {
@@ -2650,7 +2618,7 @@
           }
         },
         {
-          "id": "4007",
+          "id": 4007,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/151578876/670b8958c90014a1bdacba5123c2c9da_5342482540916081858.png",
           "amount": 45,
           "name": {
@@ -2670,7 +2638,7 @@
           }
         },
         {
-          "id": "636",
+          "id": 636,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Lieutenant's%20Insignia_icon.png",
           "amount": 12,
           "name": {
@@ -2709,7 +2677,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 120000,
           "name": {
@@ -2729,7 +2697,7 @@
           }
         },
         {
-          "id": "1097",
+          "id": 1097,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Agnidus%20Agate%20Gemstone_icon.png",
           "amount": 6,
           "name": {
@@ -2749,7 +2717,7 @@
           }
         },
         {
-          "id": "5608",
+          "id": 5608,
           "iconUrl": null,
           "amount": 20,
           "name": {
@@ -2769,7 +2737,7 @@
           }
         },
         {
-          "id": "4007",
+          "id": 4007,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/16/151578876/670b8958c90014a1bdacba5123c2c9da_5342482540916081858.png",
           "amount": 60,
           "name": {
@@ -2789,7 +2757,7 @@
           }
         },
         {
-          "id": "636",
+          "id": 636,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Lieutenant's%20Insignia_icon.png",
           "amount": 24,
           "name": {

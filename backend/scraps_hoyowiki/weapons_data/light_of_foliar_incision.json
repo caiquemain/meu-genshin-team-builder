@@ -1,0 +1,547 @@
+{
+  "id": "light_of_foliar_incision",
+  "wiki_id": 3461,
+  "name": {
+    "pt-pt": "Luz das Folhas Cortadas",
+    "en-us": "Light of Foliar Incision",
+    "ja-jp": "萃光の裁葉",
+    "zh-cn": "裁叶萃光",
+    "ko-kr": "잎을 가르는 빛",
+    "ru-ru": "Свет лиственного разреза",
+    "de-de": "Licht der schneidenden Blätter",
+    "fr-fr": "Lumière dincision foliaire",
+    "es-es": "Clorofilo Refulgente",
+    "id-id": "Light of Foliar Incision",
+    "th-th": "Light of Foliar Incision",
+    "vi-vn": "Ánh Lá Phán Quyết",
+    "zh-tw": "裁葉萃光"
+  },
+  "description": {
+    "pt-pt": "Uma lâmina ornamentada feita de preciosos ramos brancos. No passado cortou incontáveis sujeiras que percorreram a floresta contaminada.",
+    "en-us": "The gilded blade was made using precious white branches. It was once used to destroy countless poisons that infested the forest.",
+    "ja-jp": "貴重な白き枝で作られた金メッキの刃。かつては、森を浸す無数の黒い毒を切り裂いていた。",
+    "zh-cn": "以珍贵的白枝制成的饰金之刃，曾经斩断无数浸染森林的黯毒。",
+    "ko-kr": "진귀한 하얀 나뭇가지로 만들어진 도금된 검. 한때 숲을 침식한 암흑의 독을 수도 없이 베어냈다.",
+    "ru-ru": "Этот позолоченный клинок, выполненный из драгоценных белых ветвей, когда-то рассекал бесчисленные ядовитые пары, которые отравляли лес.",
+    "de-de": "Eine aus edlen weißen Zweigen gefertigte und mit goldenen Motiven verzierte Klinge, die für zahllose den Waldboden befleckende Unheilsbringer das Ende bedeutete.",
+    "fr-fr": "Cette lame agrémentée de dorures a été réalisée à l'aide de branches blanches précieuses. Elle a été autrefois utilisée pour détruire les innombrables poisons qui infestaient la forêt.",
+    "es-es": "Una espada con ornamentación dorada fabricada a partir de unas valiosas ramas blancas. En el pasado su filo atravesó en innumerables ocasiones el veneno que emponzoñaba el bosque.",
+    "id-id": "Pedang berburu berwarna emas yang dibuat dari cabang putih yang berharga, telah menebas jatuh begitu banyak racun kegelapan yang hendak memasuki hutan.",
+    "th-th": "ดาบที่ทำขึ้นจากกิ่งสีขาวที่แสนล้ำค่า และถูกตกแต่งด้วยทองคำ ซึ่งได้ฟาดฟันพิษแห่งความมืด ที่แพร่ระบาดไปทั่วทั้งป่า จนขาดสะบั้นมาแล้วนับไม่ถ้วน",
+    "vi-vn": "Thanh kiếm được chế tạo từ cành trắng quý báu, từng chém gãy vô số độc dịch xâm chiếm khu rừng.",
+    "zh-tw": "以珍貴的白枝製成的飾金之刃，曾經斬斷無數浸染森林的黯毒。"
+  },
+  "rarity": 5,
+  "type": {
+    "pt-pt": "Espada",
+    "en-us": "Sword",
+    "ja-jp": "片手剣",
+    "zh-cn": "单手剑",
+    "ko-kr": "한손검",
+    "ru-ru": "Одноручное",
+    "de-de": "Einhänder",
+    "fr-fr": "Épée à une main",
+    "es-es": "Espada ligera",
+    "id-id": "Sword",
+    "th-th": "ดาบ",
+    "vi-vn": "Kiếm Đơn",
+    "zh-tw": "單手劍"
+  },
+  "subStat": {
+    "pt-pt": "Dano CRIT%",
+    "en-us": "CRIT DMG",
+    "ja-jp": "会心ダメージ",
+    "zh-cn": "暴击伤害",
+    "ko-kr": "치명타 피해",
+    "ru-ru": "Крит. урон",
+    "de-de": "KSCH",
+    "fr-fr": "DGT CRIT",
+    "es-es": "Daño CRIT",
+    "id-id": "CRIT DMG",
+    "th-th": "ความแรงคริ",
+    "vi-vn": "Sát Thương Bạo Kích",
+    "zh-tw": "暴擊傷害"
+  },
+  "passiveName": {
+    "pt-pt": "Ponta do Galho da Lua Branca",
+    "en-us": "Whitemoon Bristle",
+    "ja-jp": "白月に輝く枝",
+    "zh-cn": "白月枝芒",
+    "ko-kr": "하얀 달 가지",
+    "ru-ru": "Остриё белой луны:",
+    "de-de": "Zweig des weißen Mondes",
+    "fr-fr": "Soie de blanchelune",
+    "es-es": "Arista perlada",
+    "id-id": "Whitemoon Bristle",
+    "th-th": "Whitemoon Bristle",
+    "vi-vn": "Râu Rễ Trăng Bạc",
+    "zh-tw": "白月枝芒"
+  },
+  "passiveDescription": {
+    "pt-pt": "Aumenta a Taxa CRIT em 4%/5%/6%/7%8%. Quando o Ataque Normal causa Dano elemental, obtém o efeito \"Poda\": aumenta o Dano causado pelos Ataques Normais e pela Habilidade Elemental. O aumento de Dano é equivalente a 120%/150%/180%/210%/240% da Proficiência Elemental. Esse efeito desaparecerá depois de ser ativado 28 vezes ou após 12s. Só é possível desencadear o efeito \"Poda\" uma vez a cada 12s.",
+    "en-us": "CRIT Rate is increased by 4%/5%/6%/7%/8%. When Normal Attacks deal Elemental DMG, the Foliar Incision effect will be obtained, increasing DMG dealt by Normal Attacks and Elemental Skills by 120%/150%/180%/210%/240% of Elemental Mastery. This effect will disappear after 28 DMG instances or 12s. You can obtain Foliar Incision once every 12s.",
+    "ja-jp": "会心率+4/5/6/7/8%。通常攻撃で元素ダメージを与えた後、「裁葉」効果を獲得し、通常攻撃および元素スキルによるダメージが元素熟知の120/150/180/210/240%分アップする。「裁葉」効果は28回発動または12秒後にクリアされ、12秒毎に1回のみ獲得できる。",
+    "zh-cn": "暴击率提升4%/5%/6%/7%/8%；普通攻击造成元素伤害后，获得「裁叶」效果：普通攻击和元素战技造成的伤害提高，提高值相当于元素精通的120%/150%/180%/210%/240%。该效果在生效28次或12秒后消失，每12秒至多获得一次「裁叶」效果。",
+    "ko-kr": "치명타 확률이 4%/5%/6%/7%/8% 증가한다. 일반 공격으로 적에게 원소 피해를 준 후, 일반 공격과 원소전투 스킬의 가하는 피해가 원소 마스터리의 120%/150%/180%/210%/240%만큼 증가하는 「가지치기」 효과를 획득한다. 해당 효과는 28회 발동하거나 12초가 지나면 사라진다. 「가지치기」 효과는 12초마다 최대 1회 획득할 수 있다.",
+    "ru-ru": "Шанс крит. попадания увеличивается на 4%/5%/6%/7%/8%. Когда обычная атака наносит элементальный урон, она даёт эффект Лиственного выреза: урон обычных атак и элементальных навыков повышается на 120%/150%/180%/210%/240% от мастерства стихий. После 28 активаций или через 12 сек. эффект исчезнет. Лиственный вырез можно получить не чаще одного раза в 12 сек.",
+    "de-de": "Erhöht die KT um 4% ~ 5% ~ 6% ~ 7% ~ 8%; erhält, nachdem durch Standardangriffe Elementar-Schaden verursacht wurde, den Effekt „Blattschneider“: Erhöht den von Standardangriffen und Elementarfähigkeit verursachten Schaden um 120% ~ 150% ~ 180% ~ 210% ~ 240% der Elementarkunde. Dieser Effekt verschwindet nach 28 Angriffen oder nach 12s, 12s Abklingzeit auf das Erhalten des Effekts „Blattschneider“.",
+    "fr-fr": "Augmente le taux CRIT de 4 %/5 %/6 %/7 %/8%. Lorsqu'une attaque normale a infligé des DGT élémentaires, l'effet Sanction foliaire est obtenu, augmentant les DGT infligés par les attaques normales et les compétences élémentaires d'une valeur équivalant à 120 %/150 %/180 %/210 %/240 % de la maîtrise élémentaire. Cet effet disparaît après 12 s ou après avoir été déclenché 28 fois, et l'effet Sanction foliaire peut être obtenu une fois toutes les 12 s.",
+    "es-es": "La Prob. CRIT aumenta en un 4/5/6/7/8%. Tras infligir Daño Elemental con un Ataque Normal, el personaje obtiene el efecto de \"corte foliáceo\", el cual aumenta el daño del Ataque Normal y de la Habilidad Elemental en una cantidad equivalente al 120/150/180/210/240% de la Maestría Elemental. Este efecto desaparece tras activarse 28 veces o después de 12 s, y solo se puede obtener una vez cada 12 s.",
+    "id-id": "CRIT Rate meningkat 4%/5%/6%/7%/8%; Setelah Normal Attack mengakibatkan Elemental DMG, akan mendapatkan efek Foliar Incision: DMG yang diakibatkan Normal Attack dan Elemental Skill meningkat sebesar 120%/150%/180%/210%/240% Elemental Mastery. Efek ini akan hilang setelah terpicu 28 kali atau setelah 12 detik. Efek Foliar Incision maksimum didapatkan sekali setiap 12 detik.",
+    "th-th": "อัตราคริเพิ่มขึ้น 4%; หลังจากที่การโจมตีปกติ ทำให้เกิดความเสียหายธาตุ จะได้รับเอฟเฟกต์ \"Foliar Incision\": การโจมตีปกติ และสกิลธาตุสร้างความเสียหายเพิ่มขึ้น โดยค่าที่เพิ่มจะเท่ากับ 120% ของความชำนาญธาตุ ซึ่งเอฟเฟกต์นี้ จะหายไปหลังจากเกิดผลแล้ว 28 ครั้ง หรือหลังจากผ่านไป 12 วินาที และในทุก 12 วินาที จะได้รับเอฟเฟกต์ \"Foliar Incision\" มากสุดหนึ่งครั้ง",
+    "vi-vn": "Tỉ lệ bạo kích tăng 4%; Khi tấn công thường gây Sát Thương Nguyên Tố sẽ nhận được hiệu quả \"Tán Lá Phán Quyết\": Tăng sát thương gây ra từ tấn công thường và Kỹ Năng Nguyên Tố dựa vào 120% Tinh Thông Nguyên Tố. Hiệu quả này sẽ biến mất sau khi hiệu lực 28 lần hoặc sau 12s, mỗi 12s tối đa nhận được hiệu quả \"Tán Lá Phán Quyết\" một lần.",
+    "zh-tw": "暴擊率提升4%/5%/6%/7%/8%；普通攻擊造成元素傷害後，獲得「裁葉」效果：普通攻擊和元素戰技造成的傷害提高，提高值相當於元素精通的120%/150%/180%/210%/240%。該效果在生效28次或12秒後消失，每12秒至多獲得一次「裁葉」效果。"
+  },
+  "weaponIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/01/18/8078404/bf4ef5696afdf695a26fab9510228060_7729027148559715024.png",
+  "ascensionMaterials": [],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St. 1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv. 1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv. 1",
+        "zh-tw": "Lv. 1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "44"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "19.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv. 20",
+        "zh-tw": "Lv. 20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "110",
+          "postAscensionValue": "141"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "33.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv. 40",
+        "zh-tw": "Lv. 40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "1ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "210",
+          "postAscensionValue": "241"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "49.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv. 50",
+        "zh-tw": "Lv. 50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "275",
+          "postAscensionValue": "307"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "57.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv. 60",
+        "zh-tw": "Lv. 60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "341",
+          "postAscensionValue": "373"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "65.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv. 70",
+        "zh-tw": "Lv. 70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "408",
+          "postAscensionValue": "439"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "72.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv. 80",
+        "zh-tw": "Lv. 80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "475",
+          "postAscensionValue": "506"
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "80.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St. 90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv. 90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv. 90",
+        "zh-tw": "Lv. 90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "542",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Dano Crítico",
+            "en-us": "CRIT DMG",
+            "ja-jp": "会心ダメージ",
+            "zh-cn": "暴击伤害",
+            "ko-kr": "치명타 피해",
+            "ru-ru": "Крит. урон",
+            "de-de": "KSCH",
+            "fr-fr": "DGT CRIT",
+            "es-es": "Daño CRIT",
+            "id-id": "CRIT DMG",
+            "th-th": "ความแรงคริ",
+            "vi-vn": "ST Bạo Kích",
+            "zh-tw": "暴擊傷害"
+          },
+          "value": "88.2%"
+        }
+      ]
+    }
+  ]
+}

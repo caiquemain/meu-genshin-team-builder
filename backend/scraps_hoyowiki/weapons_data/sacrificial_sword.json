@@ -1,0 +1,1022 @@
+{
+  "id": "sacrificial_sword",
+  "wiki_id": 2003,
+  "name": {
+    "pt-pt": "Espada do Sacrifício",
+    "en-us": "Sacrificial Sword",
+    "ja-jp": "祭礼の剣",
+    "zh-cn": "祭礼剑",
+    "ko-kr": "제례검",
+    "ru-ru": "Церемониальный меч",
+    "de-de": "Opferschwert",
+    "fr-fr": "Épée rituelle",
+    "es-es": "Espada de Sacrificio",
+    "id-id": "Sacrificial Sword",
+    "th-th": "Sacrificial Sword",
+    "vi-vn": "Kiếm Tế Lễ",
+    "zh-tw": "祭禮劍"
+  },
+  "description": {
+    "pt-pt": "Uma espada decorativa que foi petrificada pelo tempo. Os acessórios inseridos ainda estão visíveis. Garante um grande poder ao seu portador.",
+    "en-us": "A ceremonial sword that has become petrified over time. The trinkets on it are still visible. It grants the wielder the power to withstand the winds of time.",
+    "ja-jp": "長い年月の中で石化した道具剣、表面の装飾はまだ綺麗に残っている。時の風の侵食に耐えうる祝福の力を持つ。",
+    "zh-cn": "在漫长岁月中石化的道具剑，上面的仪式性装饰依然清晰可见。拥有受时间之风冲刷的祝福力量。",
+    "ko-kr": "기나긴 세월을 거쳐 석화한 검은 의례적인 장식이 여전히 선명하게 보인다. 시간의 바람에 씻긴 축복의 힘을 보유하고 있다",
+    "ru-ru": "Декоративный церемониальный меч, со временем покрывшийся камнем, но украшения на нём всё ещё можно разобрать. Позволяет владельцу выстоять под суровостью песков времени.",
+    "de-de": "Ein über die Zeit verkrustetes Schwert mit noch gut zu erkennenden Ornamenten. Mit ihm kann man die Winde der Zeit gut überstehen.",
+    "fr-fr": "Une épée ornementale qui a été pétrifiée par le temps, dont on peut encore distinguer les décorations. Avec elle, son manieur sera capable d'affronter l'épreuve du temps.",
+    "es-es": "Una espada decorativa que ha sido petrificada por el tiempo. Las baratijas incrustadas en su superficie todavía son visibles. Concede al portador el poder de resistir los vientos del tiempo.",
+    "id-id": "Pedang dekoratif yang telah membatu karena usianya yang sangat tua, tetapi perhiasan yang tertanam di dalamnya masih dapat terlihat. Memberikan kekuatan berkat akan angin waktu kepada pemegangnya.",
+    "th-th": "ดาบที่ตกแต่งอย่างสวยงามและกลายเป็นหินไปตามกาลเวลา ของที่ตกแต่งดาบยังคงเห็นได้อยู่ และมันให้พลังกับผู้ใช้เพื่อรับมือกับสายลมแห่งเวลา",
+    "vi-vn": "Kiếm bị hóa đá theo năm tháng, nhưng độ tinh xảo của trang sức treo trên đó vẫn lấp lánh. Có sức mạnh chúc phúc của gió thời gian.",
+    "zh-tw": "在漫長歲月中石化的道具劍，上面的儀式性裝飾依然清晰可見。擁有受時間之風沖刷的祝福力量。"
+  },
+  "rarity": 4,
+  "type": {
+    "pt-pt": "Espada",
+    "en-us": "Sword",
+    "ja-jp": "片手剣",
+    "zh-cn": "单手剑",
+    "ko-kr": "한손검",
+    "ru-ru": "Одноручное",
+    "de-de": "Einhänder",
+    "fr-fr": "Épée à une main",
+    "es-es": "Espada ligera",
+    "id-id": "Sword",
+    "th-th": "ดาบ",
+    "vi-vn": "Kiếm Đơn",
+    "zh-tw": "單手劍"
+  },
+  "subStat": {
+    "pt-pt": "Recarga de Energia%",
+    "en-us": "Energy Recharge",
+    "ja-jp": "元素チャージ効率",
+    "zh-cn": "元素充能效率",
+    "ko-kr": "원소 충전 효율",
+    "ru-ru": "Восст. энергии",
+    "de-de": "Aufladerate",
+    "fr-fr": "Recharge d'énergie",
+    "es-es": "Recarga de Energía",
+    "id-id": "Energy Recharge",
+    "th-th": "การฟื้นฟูพลังงาน",
+    "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+    "zh-tw": "元素充能效率"
+  },
+  "passiveName": {
+    "pt-pt": "Composto",
+    "en-us": "Composed",
+    "ja-jp": "落ち着き",
+    "zh-cn": "气定神闲",
+    "ko-kr": "침착",
+    "ru-ru": "Безмятежный:",
+    "de-de": "Göttliche Fügung",
+    "fr-fr": "Sang-froid",
+    "es-es": "Serenidad",
+    "id-id": "Composed",
+    "th-th": "Composed",
+    "vi-vn": "Khí Định Thần",
+    "zh-tw": "氣定神閒"
+  },
+  "passiveDescription": {
+    "pt-pt": "Ao causar dano contra um oponente com Habilidade Elemental, a habilidade possui 40%/50%/60%/70%/80% de chance de redefinir o tempo de Recarga desta habilidade. Este efeito pode ser ativado apenas uma vez a cada 30/26/22/19/16 segundos.",
+    "en-us": "After damaging an opponent with an Elemental Skill, the skill has a 40%/50%/60%/70%/80% chance to end its own CD. Can only occur once every 30/26/22s/19/16s.",
+    "ja-jp": "元素スキルが敵にダメージを与えた時、40/50/60/70/80%の確率で該当スキルのクールタイムをリセットする。30/26/22/19/16秒毎に1回のみ発動可能。",
+    "zh-cn": "元素战技造成伤害时，有40%/50%/60%/70%/80%的概率重置该技能的冷却时间，该效果每30/26/22/19/16秒只能触发一次。",
+    "ko-kr": "원소전투 스킬로 피해를 줄 때 40%/50%/60%/70%/80%의 확률로 해당 스킬의 재발동 대기시간이 초기화된다. 해당 효과는 30/26/22/19/16초마다 1회만 발동한다",
+    "ru-ru": "Когда элементальный навык наносит урон, есть 40%/50%/60%/70%/80% вероятность, что его откат моментально восстановится. Может возникнуть раз в 30/26/22/19/16 сек.",
+    "de-de": "Überspringt die Abklingzeit einer Elementarfähigkeit beim Verursachen von Schaden mit dieser Fähigkeit mit einer Wahrscheinlichkeit von 40% ~ 50% ~ 60% ~ 70% ~ 80%, 30s ~ 26s ~ 22s ~ 19s ~ 16s Abklingzeit.",
+    "fr-fr": "Les compétences élémentaires ont 40 %/50 %/60 %/70 %/80 % de chances de réinitialiser leur propre TdR lorsqu'elles infligent des DGT. Cet effet peut être déclenché une fois toutes les 30/26/22/19/16 s.",
+    "es-es": "Al hacer daño por medio de una Habilidad Elemental, hay un 40%/50%/60%/70%/80% de probabilidad de restablecer el TdE de esta habilidad. Este efecto puede activarse una vez cada 30/26/22/19/16 s.",
+    "id-id": "Setelah Elemental Skill mengakibatkan DMG, terdapat 40%/50%/60%/70%/80% persentase CD Skill langsung selesai. Dapat terpicu setiap 30 detik/26 detik/22 detik/19 detik/16 detik.",
+    "th-th": "หลังจากสร้างความเสียหายด้วยสกิลธาตุแล้ว จะมีโอกาส 40%/50%/60%/70%/80% ที่จะรีเซ็ตเวลาคูลดาวน์ของสกิลนี้ ซึ่งเอฟเฟกต์นี้จะเกิดขึ้นได้หนึ่งครั้งในทุก 30/26/22/19/16 วินาที",
+    "vi-vn": "Khi kỹ năng Nguyên Tố tạo thành sát thương, có tỷ lệ 40%/50%/60%/70%/80% làm mới thời gian CD kỹ năng đó, mỗi 30/26/22/19/16s mới thi triển 1 lần.",
+    "zh-tw": "元素戰技造成傷害時，有40%/50%/60%/70%/80%的機率重置該技能的冷卻時間，該效果每30/26/22/19/16秒只能觸發一次。"
+  },
+  "weaponIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/weapon/祭礼剑.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 1159,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Grilhões de Dandelion",
+            "en-us": "Fetters of the Dandelion Gladiator",
+            "ja-jp": "獅牙戦士の枷",
+            "zh-cn": "狮牙斗士的枷锁",
+            "ko-kr": "라이언 투사의 족쇄",
+            "ru-ru": "Кандалы львиного клыка",
+            "de-de": "Fesseln des Löwenzahnkämpfers",
+            "fr-fr": "Entraves du Chevalier du Croc de Lion",
+            "es-es": "Grilletes de Diente de León",
+            "id-id": "Fetters of the Dandelion Gladiator",
+            "th-th": "Fetters of the Dandelion Gladiator",
+            "vi-vn": "Xiềng Xích Đấu Sĩ Nanh Sư Tử",
+            "zh-tw": "獅牙鬥士的枷鎖"
+          }
+        },
+        {
+          "id": 1047,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Dispositivo do Caos",
+            "en-us": "Chaos Device",
+            "ja-jp": "混沌の装置",
+            "zh-cn": "混沌装置",
+            "ko-kr": "혼돈의 장치",
+            "ru-ru": "Устройство хаоса",
+            "de-de": "Chaos-Apparat",
+            "fr-fr": "Dispositif du chaos",
+            "es-es": "Dispositivo del caos",
+            "id-id": "Chaos Device",
+            "th-th": "Chaos Device",
+            "vi-vn": "Cấu Trúc Hỗn Độn",
+            "zh-tw": "混沌裝置"
+          }
+        },
+        {
+          "id": 630,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Pergaminho Guia",
+            "en-us": "Divining Scroll",
+            "ja-jp": "占いの絵巻",
+            "zh-cn": "导能绘卷",
+            "ko-kr": "이능 두루마리",
+            "ru-ru": "Свиток божественной магии",
+            "de-de": "Leitende Schriftrolle",
+            "fr-fr": "Parchemin divinatoire",
+            "es-es": "Pergamino guía",
+            "id-id": "Divining Scroll",
+            "th-th": "Divining Scroll",
+            "vi-vn": "Bản Vẽ Hướng Dẫn",
+            "zh-tw": "導能繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 1161,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Correntes do Gladiador de Dandelion",
+            "en-us": "Chains of the Dandelion Gladiator",
+            "ja-jp": "獅牙戦士の鎖",
+            "zh-cn": "狮牙斗士的铁链",
+            "ko-kr": "라이언 투사의 쇠사슬",
+            "ru-ru": "Цепи львиного клыка",
+            "de-de": "Ketten des Löwenzahnkämpfers",
+            "fr-fr": "Chaînes du Chevalier du Croc de Lion",
+            "es-es": "Cadena de Diente de León",
+            "id-id": "Chains of Dandelion Gladiator",
+            "th-th": "Chains of the Dandelion Gladiator",
+            "vi-vn": "Dây Sắt Đấu Sĩ Nanh Sư Tử",
+            "zh-tw": "獅牙鬥士的鐵鍊"
+          }
+        },
+        {
+          "id": 1047,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Dispositivo do Caos",
+            "en-us": "Chaos Device",
+            "ja-jp": "混沌の装置",
+            "zh-cn": "混沌装置",
+            "ko-kr": "혼돈의 장치",
+            "ru-ru": "Устройство хаоса",
+            "de-de": "Chaos-Apparat",
+            "fr-fr": "Dispositif du chaos",
+            "es-es": "Dispositivo del caos",
+            "id-id": "Chaos Device",
+            "th-th": "Chaos Device",
+            "vi-vn": "Cấu Trúc Hỗn Độn",
+            "zh-tw": "混沌裝置"
+          }
+        },
+        {
+          "id": 630,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Pergaminho Guia",
+            "en-us": "Divining Scroll",
+            "ja-jp": "占いの絵巻",
+            "zh-cn": "导能绘卷",
+            "ko-kr": "이능 두루마리",
+            "ru-ru": "Свиток божественной магии",
+            "de-de": "Leitende Schriftrolle",
+            "fr-fr": "Parchemin divinatoire",
+            "es-es": "Pergamino guía",
+            "id-id": "Divining Scroll",
+            "th-th": "Divining Scroll",
+            "vi-vn": "Bản Vẽ Hướng Dẫn",
+            "zh-tw": "導能繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 1161,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Correntes do Gladiador de Dandelion",
+            "en-us": "Chains of the Dandelion Gladiator",
+            "ja-jp": "獅牙戦士の鎖",
+            "zh-cn": "狮牙斗士的铁链",
+            "ko-kr": "라이언 투사의 쇠사슬",
+            "ru-ru": "Цепи львиного клыка",
+            "de-de": "Ketten des Löwenzahnkämpfers",
+            "fr-fr": "Chaînes du Chevalier du Croc de Lion",
+            "es-es": "Cadena de Diente de León",
+            "id-id": "Chains of Dandelion Gladiator",
+            "th-th": "Chains of the Dandelion Gladiator",
+            "vi-vn": "Dây Sắt Đấu Sĩ Nanh Sư Tử",
+            "zh-tw": "獅牙鬥士的鐵鍊"
+          }
+        },
+        {
+          "id": 1042,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Circuito do Caos",
+            "en-us": "Chaos Circuit",
+            "ja-jp": "混沌の回路",
+            "zh-cn": "混沌回路",
+            "ko-kr": "혼돈의 회로",
+            "ru-ru": "Цепь хаоса",
+            "de-de": "Chaos-Schaltkreis",
+            "fr-fr": "Circuit du chaos",
+            "es-es": "Circuito del caos",
+            "id-id": "Chaos Circuit",
+            "th-th": "Chaos Circuit",
+            "vi-vn": "Bộ Não Hỗn Độn",
+            "zh-tw": "混沌迴路"
+          }
+        },
+        {
+          "id": 634,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pergaminho do Encantamento",
+            "en-us": "Sealed Scroll",
+            "ja-jp": "封魔の絵巻",
+            "zh-cn": "封魔绘卷",
+            "ko-kr": "봉마의 두루마리",
+            "ru-ru": "Свиток печати",
+            "de-de": "Zaubersiegel-Schriftrolle",
+            "fr-fr": "Parchemin sigillé",
+            "es-es": "Pergamino hechizado",
+            "id-id": "Sealed Scroll",
+            "th-th": "Seal Scroll",
+            "vi-vn": "Bản Vẽ Phong Ấn",
+            "zh-tw": "封魔繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 1162,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Manilhas do Gladiador de Dandelion",
+            "en-us": "Shackles of the Dandelion Gladiator",
+            "ja-jp": "獅牙戦士の手錠",
+            "zh-cn": "狮牙斗士的镣铐",
+            "ko-kr": "라이언 투사의 수갑",
+            "ru-ru": "Оковы львиного клыка",
+            "de-de": "Schellen des Löwenzahnkämpfers",
+            "fr-fr": "Menottes du Chevalier du Croc de Lion",
+            "es-es": "Esposas de Diente de León",
+            "id-id": "Shackles of Dandelion Gladiator",
+            "th-th": "Shackles of Dandelion Gladiator",
+            "vi-vn": "Gông Cùm Đấu Sĩ Nanh Sư Tử",
+            "zh-tw": "獅牙鬥士的鐐銬"
+          }
+        },
+        {
+          "id": 1042,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Circuito do Caos",
+            "en-us": "Chaos Circuit",
+            "ja-jp": "混沌の回路",
+            "zh-cn": "混沌回路",
+            "ko-kr": "혼돈의 회로",
+            "ru-ru": "Цепь хаоса",
+            "de-de": "Chaos-Schaltkreis",
+            "fr-fr": "Circuit du chaos",
+            "es-es": "Circuito del caos",
+            "id-id": "Chaos Circuit",
+            "th-th": "Chaos Circuit",
+            "vi-vn": "Bộ Não Hỗn Độn",
+            "zh-tw": "混沌迴路"
+          }
+        },
+        {
+          "id": 634,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Pergaminho do Encantamento",
+            "en-us": "Sealed Scroll",
+            "ja-jp": "封魔の絵巻",
+            "zh-cn": "封魔绘卷",
+            "ko-kr": "봉마의 두루마리",
+            "ru-ru": "Свиток печати",
+            "de-de": "Zaubersiegel-Schriftrolle",
+            "fr-fr": "Parchemin sigillé",
+            "es-es": "Pergamino hechizado",
+            "id-id": "Sealed Scroll",
+            "th-th": "Seal Scroll",
+            "vi-vn": "Bản Vẽ Phong Ấn",
+            "zh-tw": "封魔繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 1162,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Manilhas do Gladiador de Dandelion",
+            "en-us": "Shackles of the Dandelion Gladiator",
+            "ja-jp": "獅牙戦士の手錠",
+            "zh-cn": "狮牙斗士的镣铐",
+            "ko-kr": "라이언 투사의 수갑",
+            "ru-ru": "Оковы львиного клыка",
+            "de-de": "Schellen des Löwenzahnkämpfers",
+            "fr-fr": "Menottes du Chevalier du Croc de Lion",
+            "es-es": "Esposas de Diente de León",
+            "id-id": "Shackles of Dandelion Gladiator",
+            "th-th": "Shackles of Dandelion Gladiator",
+            "vi-vn": "Gông Cùm Đấu Sĩ Nanh Sư Tử",
+            "zh-tw": "獅牙鬥士的鐐銬"
+          }
+        },
+        {
+          "id": 1045,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Fornalha do Caos",
+            "en-us": "Chaos Core",
+            "ja-jp": "混沌の炉心",
+            "zh-cn": "混沌炉心",
+            "ko-kr": "혼돈의 노심",
+            "ru-ru": "Ядро хаоса",
+            "de-de": "Chaos-Getriebe",
+            "fr-fr": "Noyau du chaos",
+            "es-es": "Caldera del caos",
+            "id-id": "Chaos Core",
+            "th-th": "Chaos Core",
+            "vi-vn": "Trái Tim Hỗn Độn",
+            "zh-tw": "混沌爐心"
+          }
+        },
+        {
+          "id": 1282,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pergaminho da Maldição",
+            "en-us": "Forbidden Curse Scroll",
+            "ja-jp": "禁呪の絵巻",
+            "zh-cn": "禁咒绘卷",
+            "ko-kr": "금주의 두루마리",
+            "ru-ru": "Свиток запретного проклятья",
+            "de-de": "Fluchschriftrolle",
+            "fr-fr": "Parchemin maudit",
+            "es-es": "Pergamino maldito",
+            "id-id": "Forbidden Curse Scroll",
+            "th-th": "Forbidden Curse Scroll",
+            "vi-vn": "Bản Vẽ Cấm Chú",
+            "zh-tw": "禁咒繪卷"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 1160,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Sonho do Gladiador de Dandelion",
+            "en-us": "Dream of the Dandelion Gladiator",
+            "ja-jp": "獅牙戦士の理想",
+            "zh-cn": "狮牙斗士的理想",
+            "ko-kr": "라이언 투사의 이념",
+            "ru-ru": "Мечты львиного клыка",
+            "de-de": "Ideal des Löwenzahnkriegers",
+            "fr-fr": "Idéaux du Chevalier du Croc de Lion",
+            "es-es": "Ideales de Diente de León",
+            "id-id": "Dream of the Dandelion Gladiator",
+            "th-th": "Dream of Dandelion Gladiator",
+            "vi-vn": "Lý Tưởng Của Đấu Sĩ Nanh Sư Tử",
+            "zh-tw": "獅牙鬥士的理想"
+          }
+        },
+        {
+          "id": 1045,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Fornalha do Caos",
+            "en-us": "Chaos Core",
+            "ja-jp": "混沌の炉心",
+            "zh-cn": "混沌炉心",
+            "ko-kr": "혼돈의 노심",
+            "ru-ru": "Ядро хаоса",
+            "de-de": "Chaos-Getriebe",
+            "fr-fr": "Noyau du chaos",
+            "es-es": "Caldera del caos",
+            "id-id": "Chaos Core",
+            "th-th": "Chaos Core",
+            "vi-vn": "Trái Tim Hỗn Độn",
+            "zh-tw": "混沌爐心"
+          }
+        },
+        {
+          "id": 1282,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Pergaminho da Maldição",
+            "en-us": "Forbidden Curse Scroll",
+            "ja-jp": "禁呪の絵巻",
+            "zh-cn": "禁咒绘卷",
+            "ko-kr": "금주의 두루마리",
+            "ru-ru": "Свиток запретного проклятья",
+            "de-de": "Fluchschriftrolle",
+            "fr-fr": "Parchemin maudit",
+            "es-es": "Pergamino maldito",
+            "id-id": "Forbidden Curse Scroll",
+            "th-th": "Forbidden Curse Scroll",
+            "vi-vn": "Bản Vẽ Cấm Chú",
+            "zh-tw": "禁咒繪卷"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "41"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "13.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "99",
+          "postAscensionValue": "125"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "23.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "184",
+          "postAscensionValue": "210"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "34.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "238",
+          "postAscensionValue": "264"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "39.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "293",
+          "postAscensionValue": "319"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "45.1%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "347",
+          "postAscensionValue": "373"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "50.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "401",
+          "postAscensionValue": "427"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "55.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "454",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "61.3%"
+        }
+      ]
+    }
+  ]
+}

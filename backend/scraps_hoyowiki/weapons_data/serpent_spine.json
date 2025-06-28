@@ -1,0 +1,1022 @@
+{
+  "id": "serpent_spine",
+  "wiki_id": 2015,
+  "name": {
+    "pt-pt": "Espinha Dorsal da Serpente",
+    "en-us": "Serpent Spine",
+    "ja-jp": "螭龍の剣",
+    "zh-cn": "螭骨剑",
+    "ko-kr": "이무기 검",
+    "ru-ru": "Меч драконьей кости",
+    "de-de": "Knochenschwert",
+    "fr-fr": "Ossature du dragon",
+    "es-es": "Médula de la Serpiente Marina",
+    "id-id": "Serpent Spine",
+    "th-th": "Serpent Spine",
+    "vi-vn": "Kiếm Li Cốt",
+    "zh-tw": "螭骨劍"
+  },
+  "description": {
+    "pt-pt": "Uma arma rara cuja origem são os oceanos antigos. Ao brandi-la, é possível ouvir as ondas do mar.",
+    "en-us": "A rare weapon whose origin is the ancient ocean. One can hear the sound of the ageless waves as one swings it.",
+    "ja-jp": "古代の海から発見された希少な武器。剣を振るうと、太古の波音が響く。",
+    "zh-cn": "来自古代大海的稀有兵器，舞剑猎猎宛如太古的涛声。",
+    "ko-kr": "고대의 바다에서 만들어진 희귀 병기로 검을 휘두르면 마치 태고의 파도 소리가 나는 것 같다",
+    "ru-ru": "Редкое оружие, произошедшее из древнего океана. Взмахните им, чтобы услышать шум вечных волн.",
+    "de-de": "Eine seltene Waffe aus dem Ozean alter Zeiten. Schwingt man es durch die Luft, so hört man das Rauschen der Wellen.",
+    "fr-fr": "Une épée rare venue des mers anciennes. Celui qui la manie peut presque entendre les vagues déferler.",
+    "es-es": "Un arma muy poco común procedente del océano. Al blandirla, emite un silbido que recuerda al romper de las olas.",
+    "id-id": "Senjata kuno langka yang berasal dari laut, suaranya bagaikan suara ombak di masa lampau.",
+    "th-th": "อาวุธหายากจากทะเลโบราณ เสียงของระบำดาบนั้นเป็นเหมือนดั่งเสียงของคลื่นยักษ์ในอดีตกาล",
+    "vi-vn": "Binh khí hiếm đến từ biển cổ đại, múa kiếm vùn vụt như sóng dữ.",
+    "zh-tw": "來自古代大海的稀有兵器，舞劍獵獵宛如太古的濤聲。"
+  },
+  "rarity": 4,
+  "type": {
+    "pt-pt": "Espadão",
+    "en-us": "Claymore",
+    "ja-jp": "両手剣",
+    "zh-cn": "双手剑",
+    "ko-kr": "양손검",
+    "ru-ru": "Двуручное",
+    "de-de": "Zweihänder",
+    "fr-fr": "Épée à deux mains",
+    "es-es": "Mandoble",
+    "id-id": "Claymore",
+    "th-th": "ดาบใหญ่",
+    "vi-vn": "Trọng Kiếm",
+    "zh-tw": "雙手劍"
+  },
+  "subStat": {
+    "pt-pt": "Taxa CRIT%",
+    "en-us": "CRIT Rate",
+    "ja-jp": "会心率",
+    "zh-cn": "暴击率",
+    "ko-kr": "치명타 확률",
+    "ru-ru": "Шанс крит. попад.",
+    "de-de": "KT",
+    "fr-fr": "Taux CRIT",
+    "es-es": "Prob. CRIT",
+    "id-id": "CRIT Rate",
+    "th-th": "อัตราคริ",
+    "vi-vn": "Tỷ Lệ Bạo Kích",
+    "zh-tw": "暴擊率"
+  },
+  "passiveName": {
+    "pt-pt": "Divisor de Ondas",
+    "en-us": "Wavesplitter",
+    "ja-jp": "波乗り",
+    "zh-cn": "破浪",
+    "ko-kr": "파도 가르기",
+    "ru-ru": "Рассекающий волны:",
+    "de-de": "Wellenspalter",
+    "fr-fr": "Brise-vagues",
+    "es-es": "Rompeolas",
+    "id-id": "Wavesplitter",
+    "th-th": "Wavesplitter",
+    "vi-vn": "Phá Sóng",
+    "zh-tw": "破浪"
+  },
+  "passiveDescription": {
+    "pt-pt": "Quando o jogador está em combate, a cada 4s aumenta o dano causado em 6%/7%/8%/9%/10% e 3%/2.7%/2.4%/2.2%/2% do Dano recebido. Este efeito pode ser acumulado até 5 vezes, não sendo redefinido após o personagem sair de campo, mas reduzirá 1 camada do efeito quando o personagem receber Dano.",
+    "en-us": "Every 4s a character is on the field, they will deal 6%/7%/8%/9%/10% more DMG and take 3%/2.7%/2.4%/2.2%/2% more DMG. This effect has a maximum of 5 stacks and will not be reset if the character leaves the field, but will be reduced by 1 stack when the character takes DMG.",
+    "ja-jp": "フィールドにいる時、4秒毎に、与えるダメージ+6/7/8/9/10%、被ダメージ+3/2.7/2.4/2.2/2%。最大5重まで、退場後もリセットされず、攻撃を受けると効果数-1。",
+    "zh-cn": "角色在场上时，每4秒提升6%/7%/8%/9%/10%造成的伤害，3%/2.7%/2.4%/2.2%/2%受到的伤害。该效果最多叠加5层，不随角色退场重置，受到伤害后会减少1层效果。",
+    "ko-kr": "캐릭터가 필드에 있을 때 4초마다 가하는 피해가 6%/7%/8%/9%/10%, 받는 피해가 3%/2.7%/2.4%/2.2%/2% 증가한다. 최대 중첩수: 5회. 캐릭터를 대기 상태로 전환해도 효과는 초기화되지 않는다. 피해를 받으면 중첩수가 1개 사라진다",
+    "ru-ru": "Каждые 4 сек. увеличивает наносимый персонажем урон на 6%/7%/8%/9%/10% и получаемый им урон на 3%/2,7%/2,4%/2,2%/2%, пока тот активен. Может складываться до 5 раз, не сбрасывается при смене персонажа, при получении урона снижается на 1 уровень складывания.",
+    "de-de": "Erhöht den verursachten Schaden bei Anwesenheit der Figur alle 4s um 6% ~ 7% ~ 8% ~ 9% ~ 10% und den erlittenen Schaden um 3% ~ 2,7% ~ 2,4% ~ 2,2% ~ 2%, 5-fach stapelbar. Effekt wird nicht bei Auswechseln der Figur zurückgesetzt, 1 Stapelung des Effekts wird bei Erleiden von Schaden aber entfernt.",
+    "fr-fr": "Les DGT infligés augmentent de 6 %/7 %/8 %/9 %/10 % et les DGT reçus de 3 %/2,7 %/2,4 %/2,2 %/2 % toutes les 4 s tant que le personnage est en combat ; cet effet peut être cumulé 5 fois maximum. Il ne se réinitialise pas si le personnage quitte le combat, mais sera réduit d'un cumul si le personnage subit des DGT.",
+    "es-es": "Cuando el personaje esté en combate, aumenta el daño que inflige en un 6%/7%/8%/9%/10% y el daño que recibe en un 3%/2.7%/2.4%/2.2%/2% cada 4 s. Este efecto puede acumularse un máximo de 5 veces, y no se reiniciará si el personaje se retira de combate, sino que, cada vez que reciba daño, perderá una de las cargas acumuladas.",
+    "id-id": "Saat karakter bertarung, setiap 4 detik meningkatkan 6%/7%/8%/9%/10% DMG yang diakibatkan dan 3%/2,7%/2,4%/2,2%/2% DMG yang diterima. Efek ini dapat ditumpuk maksimum 5 lapis, dan akan berkurang 1 lapis saat menerima DMG. Efek tidak akan hilang saat karakter bertarung digantikan.",
+    "th-th": "เมื่อตัวละครเข้าสู่การต่อสู้ ในทุก 4 วินาที จะเพิ่มความเสียหายที่สร้าง 6%/7%/8%/9%/10% และเพิ่มความเสียหายที่ได้รับ 3%/2.7%/2.4%/2.2%/2% เอฟเฟกต์นี้จะซ้อนทับกันมากสุด 5 ชั้น โดยจะไม่รีเซ็ตหลังจากที่ตัวละครออกจากสนามและเอฟเฟกต์จะลดลง 1 ชั้นหลังจากที่ได้รับความเสียหาย",
+    "vi-vn": "Khi nhân vật ra trận, mỗi 4s tăng 6%/7%/8%/9%/10% sát thương gây ra, 3%/2.7%/2.4%/2.2%/2% sát thương phải chịu. Cộng dồn tối đa 5 tầng, không làm mới khi nhân vật rời khỏi trận, sau khi chịu sát thương sẽ giảm 1 tầng hiệu quả.",
+    "zh-tw": "角色在場上時，每4秒提升6%/7%/8%/9%/10%造成的傷害，同時增加3%/2.7%/2.4%/2.2%/2%所受到的傷害。該效果最多疊加五層，不隨角色退場重置，受到傷害後會失去一層效果。"
+  },
+  "weaponIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/weapon/螭骨剑.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 1071,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Grão de Aerosiderite",
+            "en-us": "Grain of Aerosiderite",
+            "ja-jp": "漆黒の隕鉄の一粒",
+            "zh-cn": "漆黑陨铁的一粒",
+            "ko-kr": "흑운철 한 알",
+            "ru-ru": "Зерно чёрного сидерита",
+            "de-de": "Körnchen pechschwarzer Aerosiderit",
+            "fr-fr": "Grain d'aérosidérite noire",
+            "es-es": "Grano de siderita oscura",
+            "id-id": "Grain of Aerosiderite",
+            "th-th": "Grain of Aerosiderite",
+            "vi-vn": "Hạt Thiên Thạch Đen",
+            "zh-tw": "漆黑隕鐵的一粒"
+          }
+        },
+        {
+          "id": 1490,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de osso frágil",
+            "en-us": "Fragile Bone Shard",
+            "ja-jp": "脆い骨片",
+            "zh-cn": "脆弱的骨片",
+            "ko-kr": "약한 뼛조각",
+            "ru-ru": "Хрупкие останки",
+            "de-de": "Zerbrechliches Knochenstück",
+            "fr-fr": "Fragment d'os fragile",
+            "es-es": "Fragmento de hueso frágil",
+            "id-id": "Fragile Bone Shard",
+            "th-th": "Fragile Bone Remains",
+            "vi-vn": "Mảnh Xương Giòn Yếu",
+            "zh-tw": "脆弱的骨片"
+          }
+        },
+        {
+          "id": 1876,
+          "iconUrl": null,
+          "amount": 2,
+          "name": {
+            "pt-pt": "Néctar da Flor Gigante",
+            "en-us": "Whopperflower Nectar",
+            "ja-jp": "トリックフラワーの蜜",
+            "zh-cn": "骗骗花蜜",
+            "ko-kr": "구라구라 꽃꿀",
+            "ru-ru": "Нектар попрыгуньи",
+            "de-de": "Vaniloqua-Nektar",
+            "fr-fr": "Nectar de Fleur mensongère",
+            "es-es": "Néctar de Megaflora",
+            "id-id": "Whopperflower Nectar",
+            "th-th": "Whopperflower Nectar",
+            "vi-vn": "Mật Hoa Lừa Dối",
+            "zh-tw": "騙騙花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 1070,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Pedaço de Aerosiderite",
+            "en-us": "Piece of Aerosiderite",
+            "ja-jp": "漆黒の隕鉄の一片",
+            "zh-cn": "漆黑陨铁的一片",
+            "ko-kr": "흑운철 조각",
+            "ru-ru": "Кусочек чёрного сидерита",
+            "de-de": "Stückchen pechschwarzer Aerosiderit",
+            "fr-fr": "Éclat d'aérosidérite noire",
+            "es-es": "Lámina de siderita oscura",
+            "id-id": "Piece of Aerosiderite",
+            "th-th": "Piece of Aerosiderite",
+            "vi-vn": "Mảnh Thiên Thạch Đen",
+            "zh-tw": "漆黑隕鐵的一片"
+          }
+        },
+        {
+          "id": 1490,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Fragmento de osso frágil",
+            "en-us": "Fragile Bone Shard",
+            "ja-jp": "脆い骨片",
+            "zh-cn": "脆弱的骨片",
+            "ko-kr": "약한 뼛조각",
+            "ru-ru": "Хрупкие останки",
+            "de-de": "Zerbrechliches Knochenstück",
+            "fr-fr": "Fragment d'os fragile",
+            "es-es": "Fragmento de hueso frágil",
+            "id-id": "Fragile Bone Shard",
+            "th-th": "Fragile Bone Remains",
+            "vi-vn": "Mảnh Xương Giòn Yếu",
+            "zh-tw": "脆弱的骨片"
+          }
+        },
+        {
+          "id": 1876,
+          "iconUrl": null,
+          "amount": 8,
+          "name": {
+            "pt-pt": "Néctar da Flor Gigante",
+            "en-us": "Whopperflower Nectar",
+            "ja-jp": "トリックフラワーの蜜",
+            "zh-cn": "骗骗花蜜",
+            "ko-kr": "구라구라 꽃꿀",
+            "ru-ru": "Нектар попрыгуньи",
+            "de-de": "Vaniloqua-Nektar",
+            "fr-fr": "Nectar de Fleur mensongère",
+            "es-es": "Néctar de Megaflora",
+            "id-id": "Whopperflower Nectar",
+            "th-th": "Whopperflower Nectar",
+            "vi-vn": "Mật Hoa Lừa Dối",
+            "zh-tw": "騙騙花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 1070,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço de Aerosiderite",
+            "en-us": "Piece of Aerosiderite",
+            "ja-jp": "漆黒の隕鉄の一片",
+            "zh-cn": "漆黑陨铁的一片",
+            "ko-kr": "흑운철 조각",
+            "ru-ru": "Кусочек чёрного сидерита",
+            "de-de": "Stückchen pechschwarzer Aerosiderit",
+            "fr-fr": "Éclat d'aérosidérite noire",
+            "es-es": "Lámina de siderita oscura",
+            "id-id": "Piece of Aerosiderite",
+            "th-th": "Piece of Aerosiderite",
+            "vi-vn": "Mảnh Thiên Thạch Đen",
+            "zh-tw": "漆黑隕鐵的一片"
+          }
+        },
+        {
+          "id": 1342,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de osso sólido",
+            "en-us": "Sturdy Bone Shard",
+            "ja-jp": "丈夫な骨片",
+            "zh-cn": "结实的骨片",
+            "ko-kr": "단단한 뼛조각",
+            "ru-ru": "Крепкие останки",
+            "de-de": "Stabiles Knochenstück",
+            "fr-fr": "Fragment d'os solide",
+            "es-es": "Fragmento de hueso sólido",
+            "id-id": "Sturdy Bone Shard",
+            "th-th": "Sturdy Bone Remains",
+            "vi-vn": "Mảnh Xương Chắc Chắn",
+            "zh-tw": "結實的骨片"
+          }
+        },
+        {
+          "id": 722,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Néctar Brilhante",
+            "en-us": "Shimmering Nectar",
+            "ja-jp": "微光花の蜜",
+            "zh-cn": "微光花蜜",
+            "ko-kr": "반짝반짝 꽃꿀",
+            "ru-ru": "Мерцающий нектар",
+            "de-de": "Leuchtender Nektar",
+            "fr-fr": "Nectar miroitant",
+            "es-es": "Néctar brillante",
+            "id-id": "Shimmering Nectar",
+            "th-th": "Shimmering Nectar",
+            "vi-vn": "Mật Hoa Lấp Lánh",
+            "zh-tw": "微光花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 1072,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de Aerosiderite",
+            "en-us": "Bit of Aerosiderite",
+            "ja-jp": "漆黒の隕鉄の一角",
+            "zh-cn": "漆黑陨铁的一角",
+            "ko-kr": "흑운철 일각",
+            "ru-ru": "Осколок чёрного сидерита",
+            "de-de": "Klumpen pechschwarzer Aerosiderit",
+            "fr-fr": "Fragment d'aérosidérite noire",
+            "es-es": "Fragmento de siderita oscura",
+            "id-id": "Bit of Aerosiderite",
+            "th-th": "Bit of Aerosiderite",
+            "vi-vn": "Một Góc Thiên Thạch Đen",
+            "zh-tw": "漆黑隕鐵的一角"
+          }
+        },
+        {
+          "id": 1342,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Fragmento de osso sólido",
+            "en-us": "Sturdy Bone Shard",
+            "ja-jp": "丈夫な骨片",
+            "zh-cn": "结实的骨片",
+            "ko-kr": "단단한 뼛조각",
+            "ru-ru": "Крепкие останки",
+            "de-de": "Stabiles Knochenstück",
+            "fr-fr": "Fragment d'os solide",
+            "es-es": "Fragmento de hueso sólido",
+            "id-id": "Sturdy Bone Shard",
+            "th-th": "Sturdy Bone Remains",
+            "vi-vn": "Mảnh Xương Chắc Chắn",
+            "zh-tw": "結實的骨片"
+          }
+        },
+        {
+          "id": 722,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Néctar Brilhante",
+            "en-us": "Shimmering Nectar",
+            "ja-jp": "微光花の蜜",
+            "zh-cn": "微光花蜜",
+            "ko-kr": "반짝반짝 꽃꿀",
+            "ru-ru": "Мерцающий нектар",
+            "de-de": "Leuchtender Nektar",
+            "fr-fr": "Nectar miroitant",
+            "es-es": "Néctar brillante",
+            "id-id": "Shimmering Nectar",
+            "th-th": "Shimmering Nectar",
+            "vi-vn": "Mật Hoa Lấp Lánh",
+            "zh-tw": "微光花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 1072,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Fragmento de Aerosiderite",
+            "en-us": "Bit of Aerosiderite",
+            "ja-jp": "漆黒の隕鉄の一角",
+            "zh-cn": "漆黑陨铁的一角",
+            "ko-kr": "흑운철 일각",
+            "ru-ru": "Осколок чёрного сидерита",
+            "de-de": "Klumpen pechschwarzer Aerosiderit",
+            "fr-fr": "Fragment d'aérosidérite noire",
+            "es-es": "Fragmento de siderita oscura",
+            "id-id": "Bit of Aerosiderite",
+            "th-th": "Bit of Aerosiderite",
+            "vi-vn": "Một Góc Thiên Thạch Đen",
+            "zh-tw": "漆黑隕鐵的一角"
+          }
+        },
+        {
+          "id": 1240,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Fragmento de osso fossilizado",
+            "en-us": "Fossilized Bone Shard",
+            "ja-jp": "石化した骨片",
+            "zh-cn": "石化的骨片",
+            "ko-kr": "석화한 뼛조각",
+            "ru-ru": "Окаменевшие останки",
+            "de-de": "Versteinertes Knochenstück",
+            "fr-fr": "Fragment d'os fossilisé",
+            "es-es": "Fragmento de hueso fosilizado",
+            "id-id": "Fossilized Bone Shard",
+            "th-th": "Fossilized Bone Remains",
+            "vi-vn": "Mảnh Xương Hóa Thạch",
+            "zh-tw": "石化的骨片"
+          }
+        },
+        {
+          "id": 372,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Néctar Elemental",
+            "en-us": "Energy Nectar",
+            "ja-jp": "原素花の蜜",
+            "zh-cn": "原素花蜜",
+            "ko-kr": "원소 꽃꿀",
+            "ru-ru": "Элементальный нектар",
+            "de-de": "Elementarnektar",
+            "fr-fr": "Nectar élémentaire",
+            "es-es": "Néctar energético",
+            "id-id": "Energy Nectar",
+            "th-th": "Elemental Nectar",
+            "vi-vn": "Mật Hoa Nguyên Tố",
+            "zh-tw": "原素花蜜"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 1069,
+          "iconUrl": null,
+          "amount": 4,
+          "name": {
+            "pt-pt": "Bloco de Aerosiderite",
+            "en-us": "Chunk of Aerosiderite",
+            "ja-jp": "漆黒の隕鉄の塊",
+            "zh-cn": "漆黑陨铁的一块",
+            "ko-kr": "흑운철 덩이",
+            "ru-ru": "Обломок чёрного сидерита",
+            "de-de": "Brocken pechschwarzer Aerosiderit",
+            "fr-fr": "Morceau d'aérosidérite noire",
+            "es-es": "Trozo de siderita oscura",
+            "id-id": "Chunk of Aerosiderite",
+            "th-th": "Chunk of Aerosiderite",
+            "vi-vn": "Miếng Thiên Thạch Đen",
+            "zh-tw": "漆黑隕鐵的一塊"
+          }
+        },
+        {
+          "id": 1240,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Fragmento de osso fossilizado",
+            "en-us": "Fossilized Bone Shard",
+            "ja-jp": "石化した骨片",
+            "zh-cn": "石化的骨片",
+            "ko-kr": "석화한 뼛조각",
+            "ru-ru": "Окаменевшие останки",
+            "de-de": "Versteinertes Knochenstück",
+            "fr-fr": "Fragment d'os fossilisé",
+            "es-es": "Fragmento de hueso fosilizado",
+            "id-id": "Fossilized Bone Shard",
+            "th-th": "Fossilized Bone Remains",
+            "vi-vn": "Mảnh Xương Hóa Thạch",
+            "zh-tw": "石化的骨片"
+          }
+        },
+        {
+          "id": 372,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Néctar Elemental",
+            "en-us": "Energy Nectar",
+            "ja-jp": "原素花の蜜",
+            "zh-cn": "原素花蜜",
+            "ko-kr": "원소 꽃꿀",
+            "ru-ru": "Элементальный нектар",
+            "de-de": "Elementarnektar",
+            "fr-fr": "Nectar élémentaire",
+            "es-es": "Néctar energético",
+            "id-id": "Energy Nectar",
+            "th-th": "Elemental Nectar",
+            "vi-vn": "Mật Hoa Nguyên Tố",
+            "zh-tw": "原素花蜜"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "42"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "6.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "109",
+          "postAscensionValue": "135"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "10.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "205",
+          "postAscensionValue": "231"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "15.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "266",
+          "postAscensionValue": "292"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "17.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "327",
+          "postAscensionValue": "353"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "20.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "388",
+          "postAscensionValue": "414"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "22.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "449",
+          "postAscensionValue": "475"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "25.1%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "510",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "27.6%"
+        }
+      ]
+    }
+  ]
+}

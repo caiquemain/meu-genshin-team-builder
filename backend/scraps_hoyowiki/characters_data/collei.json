@@ -39,7 +39,7 @@
     "ko-kr": "아비디야 숲에서 활약하는 숲의 견습 순찰자. 열정적인 겉모습 뒤에 조금은 내성적인 성격이 숨겨져 있다「뭐, 수메르에 간다고? 그럼 나 대신 콜레이에게 안부 좀 전해 줄래? 음… 못 본 지 꽤 됐는데 그동안 키와 머리는 많이 자랐을까?」——엠버",
     "ru-ru": "Стажёр Лесного дозора в лесу Авидья. За её энергичной речью и действиями скрывается довольно закрытая личность.«Ты направляешься в Сумеру? Передашь привет Коллеи? Прошло так много времени... Должно быть, она стала выше, а её волосы ещё длиннее...» - Эмбер.",
     "de-de": "Eine auszubildende Waldhüterin vom Avidya-Wald. Hinter ihren leidenschaftlichen Worten und Taten verbirgt sich eine eher introvertierte Persönlichkeit.",
-    "fr-fr": "Une garde forestière en formation active dans la Forêt d'Avidya. Derrière ses paroles et ses actions enthousiastes se cache une personnalité légèrement introvertie.\f«&nbsp;Oh, tu te rends à Sumeru&nbsp;? Peux-tu saluer Collei de ma part&nbsp;? Cela fait tellement longtemps... Je me demande si ses cheveux sont longs maintenant ou si elle a grandi&nbsp;?&nbsp;» — Amber",
+    "fr-fr": "Une garde forestière en formation active dans la Forêt d'Avidya. Derrière ses paroles et ses actions enthousiastes se cache une personnalité légèrement introvertie.\f« Oh, tu te rends à Sumeru ? Peux-tu saluer Collei de ma part ? Cela fait tellement longtemps... Je me demande si ses cheveux sont longs maintenant ou si elle a grandi ? » — Amber",
     "es-es": "Una guardabosques en prácticas que suele rondar por el Bosque Avidya. Detrás de su apasionado carácter se esconde una personalidad más bien introvertida.",
     "id-id": "Seorang Penjaga Hutan Pemula yang aktif di Hutan Avidya. Tutur kata dan perbuatannya sangat lembut, namun kepribadiannya sedikit tertutup.",
     "th-th": "เจ้าหน้าที่พิทักษ์ป่าฝึกหัดที่ทำงานอยู่ใน Avidya Forest เบื้องหลังคำพูดและการกระทำอันแสนใส่ใจ คือหัวใจที่ถูกเก็บงำซ่อนไว้",
@@ -48,68 +48,34 @@
   },
   "rarity": 4,
   "vision": {
-    "label": {
-      "pt-pt": "Tipo Elemental",
-      "en-us": "Elemental Type",
-      "ja-jp": "元素タイプ",
-      "zh-cn": "元素属性",
-      "ko-kr": "원소 속성",
-      "ru-ru": "Элемент",
-      "de-de": "Elementartyp",
-      "fr-fr": "Élément",
-      "es-es": "Tipo elemental",
-      "id-id": "Tipe Elemen",
-      "th-th": "ประเภทธาตุ",
-      "vi-vn": "Thuộc Tính Nguyên Tố",
-      "zh-tw": "元素屬性"
-    },
-    "value": {
-      "pt-pt": "Dendro",
-      "en-us": "Dendro",
-      "ja-jp": "草元素",
-      "zh-cn": "草元素",
-      "ko-kr": "풀 원소",
-      "ru-ru": "Дендро",
-      "de-de": "Dendro",
-      "fr-fr": "Dendro",
-      "es-es": "Dendro",
-      "id-id": "Dendro",
-      "th-th": "ไม้",
-      "vi-vn": "Thảo",
-      "zh-tw": "草元素"
-    }
+    "pt-pt": "Dendro",
+    "en-us": "Dendro",
+    "ja-jp": "草元素",
+    "zh-cn": "草元素",
+    "ko-kr": "풀 원소",
+    "ru-ru": "Дендро",
+    "de-de": "Dendro",
+    "fr-fr": "Dendro",
+    "es-es": "Dendro",
+    "id-id": "Dendro",
+    "th-th": "ไม้",
+    "vi-vn": "Thảo",
+    "zh-tw": "草元素"
   },
   "weapon": {
-    "label": {
-      "pt-pt": "Arma",
-      "en-us": "Weapons",
-      "ja-jp": "武器種",
-      "zh-cn": "武器",
-      "ko-kr": "무기",
-      "ru-ru": "Тип",
-      "de-de": "Waffe",
-      "fr-fr": "Type d'arme",
-      "es-es": "Arma",
-      "id-id": "Senjata",
-      "th-th": "อาวุธ",
-      "vi-vn": "Vũ Khí",
-      "zh-tw": "武器"
-    },
-    "value": {
-      "pt-pt": "Arco",
-      "en-us": "Bow",
-      "ja-jp": "弓",
-      "zh-cn": "弓",
-      "ko-kr": "활",
-      "ru-ru": "Стрелковое",
-      "de-de": "Bogen",
-      "fr-fr": "Arc",
-      "es-es": "Arco",
-      "id-id": "Bow",
-      "th-th": "ธนู",
-      "vi-vn": "Cung",
-      "zh-tw": "弓"
-    }
+    "pt-pt": "Arco",
+    "en-us": "Bow",
+    "ja-jp": "弓",
+    "zh-cn": "弓",
+    "ko-kr": "활",
+    "ru-ru": "Стрелковое",
+    "de-de": "Bogen",
+    "fr-fr": "Arc",
+    "es-es": "Arco",
+    "id-id": "Bow",
+    "th-th": "ธนู",
+    "vi-vn": "Cung",
+    "zh-tw": "弓"
   },
   "characterIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/23/16791688/37a18b6b6865c59063003a9380f08225_5278866400438209057.png",
   "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/bda7c6cf71ea059c6abc086405a7cdd5_1717146848708050949.png",
@@ -118,15 +84,15 @@
     "en-us": "Leptailurus Cervarius",
     "ja-jp": "サーバル座",
     "zh-cn": "薮猫座",
+    "ko-kr": "N/A",
     "ru-ru": "Сервал",
     "de-de": "Leptailurus Cervarius",
     "fr-fr": "Leptailurus Cervarius",
     "es-es": "Leptailurus Cervarius",
     "id-id": "Leptailurus Cervarius",
     "th-th": "Leptailurus Cervarius",
-    "zh-tw": "藪貓座",
-    "ko-kr": "N/A",
-    "vi-vn": "N/A"
+    "vi-vn": "N/A",
+    "zh-tw": "藪貓座"
   },
   "specialDish": {
     "id": 2753,
@@ -193,7 +159,7 @@
         "ko-kr": "콜레이가 대기 상태일 때, 원소 충전 효율이 20% 상승한다",
         "ru-ru": "Когда Коллеи в отряде, но не является активным персонажем, её энергия восстанавливается на 20% быстрее.",
         "de-de": "Erhöht Colleis Aufladerate um 20 %, wenn sie inaktiv in der Truppe ist.",
-        "fr-fr": "La recharge d'énergie de Collei augmente de 20&nbsp;% lorsqu'elle fait partie de l'équipe mais n'est pas déployée.",
+        "fr-fr": "La recharge d'énergie de Collei augmente de 20 % lorsqu'elle fait partie de l'équipe mais n'est pas déployée.",
         "es-es": "Cuando Collei está en tu equipo pero no en combate, su Recarga de Energía aumenta un 20%.",
         "id-id": "Ketika Collei berada di dalam party namun tidak sedang bertempur, Energy Recharge Collei meningkat 20%.",
         "th-th": "เมื่อ Collei อยู่ในทีม แต่ไม่ได้เข้าร่วมการต่อสู้ ประสิทธิภาพการฟื้นฟูพลังงานธาตุจะเพิ่มขึ้น 20%",
@@ -223,12 +189,12 @@
       "description": {
         "pt-pt": "Transforma o Talento Passivo Retorno Floral:Quando o Bumerangue Floral retorna, fornece ao personagem o efeito \"Brotar\" do Talento Passivo \"Retorno Floral\", infligindo continuamente 40% do ATQ de Collei como Dano Dendro contra os inimigos próximos por 3s.Quando Carícia das Flores é lançada até o fim do estado \"Brotar\", se qualquer um dos membros da equipe desencadear as reações de Queimaduras, Aceleração, Intensificação, Propagação, Florescimento, Superflorescimento ou Germinação antes que essa instância do efeito \"Brotar\" termine, a duração do efeito será estendida em 3s.O efeito \"Brotar\" só pode ser estendido dessa forma uma vez. Se outro efeito \"Brotar\" for desencadeado na duração do efeito“Brotar\" inicial, o efeito original será removido. O Dano infligido pelo efeito \"Brotar\" é considerado Dano de Habilidade Elemental.Requer que você tenha desbloqueado o Talento Passivo \"Retorno Floral\".",
         "en-us": "The Passive Talent Floral Sidewinder is changed to this:The Floral Ring will grant the character the Sprout effect from Floral Sidewinder upon return, dealing 40% of Collei's ATK as Dendro DMG to nearby opponents for 3s.From the moment of using Floral Brush to the moment when this instance of Sprout effect ends, if any of your party members triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions, the Sprout effect will be extended by 3s.The Sprout effect can only be extended this way once. If another Sprout effect is triggered during its initial duration, the initial effect will be removed.DMG dealt by Sprout is considered Elemental Skill DMG.Requires you to have unlocked the Floral Sidewinder Passive Talent.",
-        "ja-jp": "固有天賦「フライリーフワインダー」が下記のように変化する。リーフブーメランが戻ってきた時、キャラクターに固有天賦「フライリーフワインダー」の「芽生え」状態を付与し、持続的に周囲の敵にコレイの攻撃力40%分の草元素ダメージを与える。継続時間3秒。花触葉讃発動から今回の芽生え状態が消失するまでの間に、チーム内の自身キャラクターが燃焼、原激化、超激化、草激化、開花、超開花、または烈開花反応を起こすと、今回の芽生え状態の継続時間+3秒。この方式により芽生え状態を延長できるのは最大1回まで。芽生え状態中に再度獲得すると、既存の芽生え状態が先にクリアされる。芽生え状態によるダメージは元素スキルダメージと見なされる。固有天賦「フライリーフワインダー」を解放する必要がある。",
+        "ja-jp": "固有天賦「フライリーフワインダー」が下記のように変化する。リーフブーメランが戻ってきた時、キャラクターに固有天賦「フライリーフワインダー」の「芽生え」状態を付与し、持続的に周囲の敵にコレイの攻撃力40%分の草元素ダメージを与える、継続時間3秒。花触葉讃発動から今回の芽生え状態が消失するまでの間に、チーム内の自身キャラクターが燃焼、原激化、超激化、草激化、開花、超開花、または烈開花反応を起こすと、今回の芽生え状態の継続時間+3秒。この方法により芽生え状態を延長できるのは最大1回まで。芽生え状態中に再度獲得すると、既存の芽生え状態が先にクリアされる。芽生え状態によるダメージは元素スキルダメージと見なされる。固有天賦「フライリーフワインダー」を解放する必要がある。",
         "zh-cn": "固有天赋「飞叶迴斜」转变为：飞叶轮返回时，将为角色赋予固有天赋「飞叶迴斜」的「新叶」状态，持续对身边的敌人造成相当于柯莱攻击力40%的草元素伤害，持续3秒。从施放拂花偈叶开始，到此次新叶状态消失前，如果队伍中自己的角色触发了燃烧、原激化、超激化、蔓激化、绽放、超绽放或烈绽放反应，则使此次新叶效果的持续时间延长3秒。新叶效果至多通过这种方式延长一次持续时间；在持续期间再次产生新叶效果时，将移除原有的效果。新叶效果造成的伤害视为元素战技伤害。需要解锁固有天赋「飞叶迴斜」。",
         "ko-kr": "고유 특성 「비스듬한 잎새」 전환:부메랑이 되돌아 올 때, 캐릭터에게 고유 특성 「비스듬한 잎새」의 「신엽」 상태가 부여되고, 지속적으로 자신의 주변에 있는 적에게 콜레이 공격력의 40%에 해당하는 풀 원소 피해를 준다. 지속 시간: 3초.스쳐 지나가는 풀잎이 발동된 후 신엽 상태가 사라지기 전에, 파티 내 자신의 캐릭터가 연소, 활성, 촉진, 발산, 개화, 만개 혹은 발화 반응 발동을 발동할 경우 해당 신엽 효과의 지속 시간이 3초 증가한다.신엽 효과는 해당 방식으로 최대 1회까지 지속 시간이 연장된다. 신엽 효과의 지속 시간 동안 새로운 신엽 효과가 생성되면 원래 있던 효과는 사라진다. 신엽 효과로 가하는 피해는 원소전투 스킬 피해로 취급한다.고유 특성 「되돌아오는 잎새」를 해금해야 한다",
         "ru-ru": "Пассивный талант «Возвращение цветов» меняется следующим образом:Возвращаясь, цветочное кольцо наделяет персонажа эффектом Ростка, который наносит врагам поблизости продолжительный Дендро урон, равный 40% от силы атаки Коллеи. Эффект длится 3 сек.Если до завершения текущего Ростка свой персонаж отряда вызывает Горение, Стимуляцию, Обострение, Разрастание, Бутонизацию, Вегетацию или Цветение, действие Ростка продлится на 3 сек.Продлить действие Ростка таким способом можно только один раз. При повторной активации Ростка текущий эффект снимается.Требуется разблокировать пассивный талант «Возвращение цветов».",
         "de-de": "Ändert das passive Talent „Wiederkehr des fliegenden Laubs\" wie folgt:Das fliegende Laubrad verleiht bei seiner Rückkehr der Figur den Effekt „Jungtrieb\" des passiven Talents „Wiederkehr des fliegenden Laubs\", der 3 s lang fortlaufend den Gegnern in der Nähe Dendro-Schaden in Höhe von 40 % von Colleis ANG zufügt.Wenn eines der eigenen Truppenmitglieder nach Anwenden der Fähigkeit Der Kämpferin Laub und, bevor der aktuelle Effekt „Jungtrieb\" endet, Reaktionen wie „In Flammen\", „Urwuchs\", „Suprawuchs\", „Rankenwuchs\", „Sprießen\", „Supraspross\" oder „Flammenspross\" auslöst, wird dieser „Jungtrieb\" um 3 s verlängert.Die Dauer des Effekts „Jungtrieb\" kann nur einmal auf diese Weise verlängert werden. Wird während der Dauer ein weiterer „Jungtrieb\" erzeugt, ersetzt er den bestehenden. Der vom Jungtrieb-Effekt verursachte Schaden gilt als Elementarfähigkeitsschaden.Das passive Talent „Wiederkehr des fliegenden Laubs\" muss zuerst freigeschaltet werden.",
-        "fr-fr": "L'aptitude passive «&nbsp;Retour folié&nbsp;» est modifiée&nbsp;:Au retour de l'anneau floral, le personnage obtient l'effet Germe de l'aptitude passive «&nbsp;Retour folié&nbsp;», infligeant de façon continue aux ennemis proches des DGT Dendro d'une valeur équivalant à 40&nbsp;% de l'ATQ de Collei pendant 3&nbsp;s.Si un membre de votre équipe déclenche une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, d'Exubérance ou de Bourgeonnement entre l'utilisation de Brosse florale et l'arrêt de cet effet Germe, la durée de l'effet est prolongée de 3&nbsp;s.L'effet peut être prolongé 1 fois maximum de cette manière. Si un nouvel effet Germe est déclenché pendant la durée d'un effet Germe existant, l'effet d'origine est supprimé. Les DGT infligés par l’effet Germe sont considérés comme étant des DGT de compétence élémentaire.L'aptitude passive «&nbsp;Retour folié&nbsp;» doit être déjà débloquée.",
+        "fr-fr": "L'aptitude passive « Retour folié » est modifiée :Au retour de l'anneau floral, le personnage obtient l'effet Germe de l'aptitude passive « Retour folié », infligeant de façon continue aux ennemis proches des DGT Dendro d'une valeur équivalant à 40 % de l'ATQ de Collei pendant 3 s.Si un membre de votre équipe déclenche une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, d'Exubérance ou de Bourgeonnement entre l'utilisation de Brosse florale et l'arrêt de cet effet Germe, la durée de l'effet est prolongée de 3 s.L'effet peut être prolongé 1 fois maximum de cette manière. Si un nouvel effet Germe est déclenché pendant la durée d'un effet Germe existant, l'effet d'origine est supprimé. Les DGT infligés par l’effet Germe sont considérés comme étant des DGT de compétence élémentaire.L'aptitude passive « Retour folié » doit être déjà débloquée.",
         "es-es": "Transforma el talento pasivo \"Retorno foliáceo\":Cuando el bumerán foliáceo regresa, otorga al personaje el estado de \"germinación\" de dicho talento pasivo para que inflija continuamente Daño Dendro contra los enemigos cercanos en una cantidad equivalente al 40% del ATQ de Collei durante 3 s.Desde que Collei usa Caricia de las flores hasta que desaparece el estado de germinación, si algún personaje de tu equipo causa una reacción de Quemadura, Aceleración, Intensificación, Propagación, Florecimiento, Sobreflorecimiento o Crepitar, la duración de germinación aumenta en 3 s.La duración de este efecto solo se puede aumentar una vez de esta manera como máximo. Además, si germinación se activa otra vez mientras aún está activa, se eliminará el efecto anterior.Es necesario desbloquear el talento pasivo \"Retorno foliáceo\".",
         "id-id": "Talenta Pasif \"Floral Sidewinder\" akan berubah menjadi:Saat Floral Ring kembali, Talenta Pasif \"Floral Sidewinder\" akan memberikan status \"Sprout\" untuk Karakter, yang akan mengakibatkan Dendro DMG secara terus-menerus kepada musuh di sekitar sebesar 40% dari ATK Collei selama 3 detik.Sejak melancarkan Floral Brush dan sebelum status Sprout kali ini hilang, jika ada Karakter di dalam party yang memicu reaksi Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, atau Burgeon, maka durasi efek Sprout kali ini diperpanjang 3 detik.Perpanjangan durasi efek Sprout yang bisa didapatkan dengan cara ini adalah 1 kali. Jika efek Sprout terpicu lagi selama durasinya berlangsung, maka efek yang awal akan dihapus. DMG yang diakibatkan oleh efek Sprout dianggap sebagai DMG Elemental Skill. Harus sudah membuka Talenta Pasif Floral Sidewinder lebih dulu.",
         "th-th": "พรสวรรค์ติดตัว Floral Sidewinder เปลี่ยนเป็น:เมื่อ Floral Ring ย้อนกลับมา จะมอบเอฟเฟกต์ \"Sprout\" ของพรสวรรค์ติดตัว \"Floral Sidewinder\" ให้แก่ตัวละคร ซึ่งจะสร้างความเสียหายไม้เป็น 40% ของพลังโจมตีของ Collei แก่ศัตรูที่อยู่รอบตัวอย่างต่อเนื่อง เป็นเวลา 3 วินาทีช่วงเวลาตั้งแต่ตอนที่ใช้ Floral Brush ไปจนถึงก่อนตอนที่เอฟเฟกต์ Sprout ของครั้งนั้น ๆ หายไป หากตัวละครในทีมของตนเองทำให้เกิดปฏิกิริยาติดไฟ, ปลุกเร้า, บีบอัด, แพร่ขยาย, งอกเงย, ไฮเปอร์บลูม หรือเบ่งบาน จะทำให้ช่วงเวลาต่อเนื่องของเอฟเฟกต์ Sprout ในครั้งนี้ยาวนานขึ้น 3 วินาทีช่วงเวลาต่อเนื่องของเอฟเฟกต์ Sprout จะสามารถเพิ่มด้วยวิธีนี้ได้เพียงครั้งเดียวเท่านั้น; เมื่อเกิดเอฟเฟกต์ Sprout ขึ้นซ้ำอีกครั้งในระหว่างช่วงเวลาต่อเนื่อง จะเป็นการลบล้างเอฟเฟกต์เดิมที่มีอยู่ โดยความเสียหายที่เอฟเฟกต์ Sprout สร้าง จะถูกมองว่าเป็นความเสียหายสกิลธาตุต้องปลดล็อกพรสวรรค์ติดตัว \"Floral Sidewinder\" ก่อน",
@@ -263,7 +229,7 @@
         "ko-kr": "스쳐 지나가는 풀잎의 스킬 레벨+3최대 Lv.15까지 상승",
         "ru-ru": "Увеличивает уровень навыка Сметающие цветы на 3.Макс. уровень: 15",
         "de-de": "Erhöht die Stufe der Fähigkeit Der Kämpferin Laub um 3.Höchststufe 15.",
-        "fr-fr": "Niveau d'aptitude Brosse florale +3.Niveau max&nbsp;: 15",
+        "fr-fr": "Niveau d'aptitude Brosse florale +3.Niveau max : 15",
         "es-es": "Aumenta el nivel de habilidad de Caricia de las flores +3.Puede ser aumentado hasta Niv. 15.",
         "id-id": "Meningkatkan 3 level Floral Brush.Maksimum: Lv. 15.",
         "th-th": "เพิ่มเลเวลของสกิล Floral Brush ขึ้น 3 ระดับเพิ่มได้สูงสุดถึงระดับ 15",
@@ -298,7 +264,7 @@
         "ko-kr": "냥냥 비책 발동 시 근처에 있는 파티 내 모든 캐릭터(콜레이 제외)의 원소 마스터리가 60pt 증가한다. 지속 시간: 12초",
         "ru-ru": "Активация Кошачьего сокровища увеличивает мастерство стихий всех членов отряда поблизости (кроме самой Коллеи) на 60 ед. на 12 сек.",
         "de-de": "Erhöht bei Anwendung der Fähigkeit Geheimer Katzenschatz die Elementarkunde aller Truppenmitglieder in der Nähe (außer Collei) 12 s lang um 60 Punkte.",
-        "fr-fr": "L'utilisation d'Atout félin augmente la maîtrise élémentaire de tous les personnages (hormis Collei) de l'équipe à proximité de 60&nbsp;pts pendant 12&nbsp;s.",
+        "fr-fr": "L'utilisation d'Atout félin augmente la maîtrise élémentaire de tous les personnages (hormis Collei) de l'équipe à proximité de 60 pts pendant 12 s.",
         "es-es": "Al usar Secreto miauravilloso, la Maestría Elemental de todos los personajes del equipo cercanos (a excepción de Collei) aumenta en 60 pts. durante 12 s.",
         "id-id": "Saat melancarkan Trump-Card Kitty, akan meningkatkan 60 poin Elemental Mastery seluruh anggota party di sekitar (tidak termasuk Collei) selama 12 detik.",
         "th-th": "เมื่อใช้ Trump-Card Kitty จะทำให้ความชำนาญธาตุ ของตัวละครทั้งหมดในทีม (ไม่รวมตัวของ Collei เอง) ที่อยู่ในบริเวณใกล้เคียง เพิ่มขึ้น 60 หน่วย เป็นเวลา 12 วินาที",
@@ -333,7 +299,7 @@
         "ko-kr": "냥냥 비책의 스킬 레벨+3최대 Lv.15까지 상승",
         "ru-ru": "Увеличивает уровень навыка Кошачье сокровище на 3.Макс. уровень: 15",
         "de-de": "Erhöht die Stufe der Fähigkeit Geheimer Katzenschatz um 3.Höchststufe 15.",
-        "fr-fr": "Niveau d'aptitude Atout félin +3.Niveau max&nbsp;: 15",
+        "fr-fr": "Niveau d'aptitude Atout félin +3.Niveau max : 15",
         "es-es": "Aumenta el nivel de habilidad de Secreto miauravilloso +3.Puede ser aumentado hasta Niv. 15.",
         "id-id": "Meningkatkan 3 level Trump-Card Kitty.Maksimum: Lv. 15.",
         "th-th": "เพิ่มเลเวลของสกิล Trump-Card Kitty ขึ้น 3 ระดับเพิ่มได้สูงสุดถึงระดับ 15",
@@ -368,7 +334,7 @@
         "ko-kr": "부메랑이 명중 시, 1개의 미니 콜린엔바가 생성되고, 콜레이 공격력의 200%에 해당하는 풀 원소 피해를 준다.스쳐 지나가는 풀잎을 발동할 때마다 최대 1개의 미니 콜린엔바가 생성된다",
         "ru-ru": "Попадание Цветочного кольца по врагу создаёт миниатюрного Куйлейн-Анбара, который наносит Дендро урон, равный 200% от силы атаки Коллеи.При каждом использовании Сметающих цветов можно создать только одного миниатюрного Куйлейн-Анбара.",
         "de-de": "Bei Treffern mit dem fliegenden Laubrad erschafft es ein Mini-Cuilein-Anbar, das Dendro-Schaden in Höhe von 200 % von Colleis ANG verursacht.Jede Anwendung von Der Kämpferin Laub kann nur 1 Mini-Cuilein-Anbar erschaffen.",
-        "fr-fr": "Lorsque l'anneau floral touche un ennemi, il crée un Cuilein-Anbar miniature qui inflige des DGT Dendro d'une valeur équivalant à 200&nbsp;% de l'ATQ de Collei.Chaque utilisation de Brosse florale permet de créer 1 Cuilein-Anbar miniature maximum.",
+        "fr-fr": "Lorsque l'anneau floral touche un ennemi, il crée un Cuilein-Anbar miniature qui inflige des DGT Dendro d'une valeur équivalant à 200 % de l'ATQ de Collei.Chaque utilisation de Brosse florale permet de créer 1 Cuilein-Anbar miniature maximum.",
         "es-es": "Cuando el bumerán foliáceo golpea a un enemigo, se crea un mini-Colleámbar que inflige Daño Dendro en una cantidad equivalente al 200% del ATQ de Collei.Solo se puede crear 1 mini-Colleámbar cada vez que se use Caricia de las flores.",
         "id-id": "Saat Floral Ring mengenai target, akan menghasilkan 1 miniatur Cuilein-Anbar dan mengakibatkan Dendro DMG sebesar 200% dari ATK Collei.Hanya 1 miniatur Cuilein-Anbar yang bisa dihasilkan setiap kali melancarkan Floral Brush.",
         "th-th": "เมื่อ Floral Ring ถูกเป้าหมาย จะสร้าง Cuilein-Anbar จิ๋ว ขึ้นมาหนึ่งอัน ซึ่งจะทำให้เกิดความเสียหายไม้เป็น 200% ของพลังโจมตีของ Colleiในแต่ละครั้งที่ใช้ Floral Brush จะทำให้เกิด Cuilein-Anbar จิ๋ว ได้มากสุด 1 ครั้ง",
@@ -399,7 +365,7 @@
       "description": {
         "pt-pt": "Ataque NormalRealiza até 4 tiros consecutivos com um arco.Ataque CarregadoRealiza um Disparo com Mira mais preciso e com mais dano. Enquanto mira, o elemento Dendro irá acumular na ponta da flecha. Uma flecha completamente carregada irá causar Dano Dendro.Ataque ImersivoDispara uma chuva de flechas em pleno ar antes de atingir o chão, causando Dano em uma AdE no impacto.",
         "en-us": "Normal AttackPerform up to 4 consecutive shots with a bow.Charged AttackPerform a more precise Aimed Shot with increased DMG.While aiming, Dendro energy will accumulate on the arrowhead. A fully charged arrow will deal Dendro DMG.Plunging AttackFires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
-        "ja-jp": "通常攻撃最大4段の連射攻撃を行う。重撃ダメージがより高く、より精確な狙い撃ちを発動する。標準時、草元素が矢先に付着する。草元素に満ちた矢は敵に草元素ダメージを与える。落下攻撃空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
+        "ja-jp": "通常攻撃最大4段の連続射撃を行う。重撃ダメージがより高く、より精確な狙い撃ちを発動する。照準時、草元素が矢先に付着する。草元素に満ちた矢は敵に草元素ダメージを与える。落下攻撃空中から矢の雨を放ち、凄まじいスピードで落下し地面に衝撃を与え、落下時に範囲ダメージを与える。",
         "zh-cn": "普通攻击进行至多四段的连续弓箭射击。 重击进行伤害更高、更为精准的瞄准射击。瞄准时，草元素会凭附在箭矢上。聚满了草元素的箭矢会造成草元素伤害。 下落攻击从空中射出箭雨，并迅速下坠冲击地面，在落地时造成范围伤害。",
         "ko-kr": "일반 공격활로 최대 4번 공격한다.강공격피해가 더 크고 정확한 조준 사격을 한다.조준 시 풀 원소가 화살촉에 모이고, 풀 원소가 가득 찬 화살은 풀 원소 피해를 준다.낙하 공격공중에서 화살비를 쏜 후 빠른 속도로 땅에 착지한다. 착지 시 범위 피해를 준다",
         "ru-ru": "Обычная атака:Производит до четырёх последовательных выстрелов из лука. Заряженная атака:Более меткий прицельный выстрел с увеличенным уроном.Во время прицеливания наконечник стрелы заряжается стихией Дендро. Полностью заряженная стрела наносит Дендро урон. Атака в падении:Выпускает град стрел в воздухе, которые при приземлении персонажа наносят урон по площади.",
@@ -433,7 +399,7 @@
       "description": {
         "pt-pt": "Lança um Bumerangue Floral que causa 1 golpe de Dano Dendro contra os oponentes atingidos.O Bumerangue Floral retornará depois de um tempo, infligindo Dano Dendro novamente.Essa é a melhor ferramenta de escolha da Collei para lidar com bestas selvagens. Só alguns golpes com essa ferramenta normalmente melhoram o comportamento delas. Esse mesmo princípio funciona muito bem com aqueles mal-intencionados.",
         "en-us": "Throws out a Floral Ring that deals 1 instance of Dendro DMG to targets it comes into contact with.The Floral Ring will return after a set time, dealing Dendro DMG once again.",
-        "ja-jp": "リーフブーメランを投げ、命中したターゲットに1回ずつ草元素ダメージを与える。投げられたリーフブーメランは一定時間後に戻り、再び草元素ダメージを与える。興奮した野獣を相手にする時に使える信頼のおけるアイテム。これが当たると、大抵は大人しい状態に戻る。また、悪だくみする悪党相手にも効果は抜群。",
+        "ja-jp": "リーフブーメランを投げ、命中したターゲットに1回ずつ草元素ダメージを与える。投げられたリーフブーメランは一定時間後に戻り、再び草元素ダメージを与える。興奮した野獣を相手にする時に使える信頼の置けるアイテム。これが当たると、大抵は大人しい状態に戻る。また、悪巧みする悪党相手にも効果は抜群。",
         "zh-cn": "投掷飞叶轮，对触及的目标各造成一次草元素伤害。飞叶轮将在投掷一定时间后返回，再次造成草元素伤害。 柯莱对付那些狂躁不安的野兽用的可靠小道具。被这东西敲过几下后，一般都会再度变得温顺起来。对于那些不怀好意的恶徒也同样好使。",
         "ko-kr": "부메랑을 던져 부메랑에 맞은 목표에게 1회의 풀 원소 피해를 준다.일정 시간이 지난 후, 던졌던 부메랑이 되돌아오며 다시 한 번 풀 원소 피해를 준다.콜레이가 난폭한 야수를 처리할 때 믿고 사용하는 간편 아이템. 이걸로 몇 대 맞으면 대부분 온순하게 변한다. 악의를 품고 있는 악당들에게 사용해도 효과가 있다",
         "ru-ru": "Бросает Цветочное кольцо, которое наносит однократный Дендро урон врагам, с которыми оно соприкоснулось.Цветочное кольцо через некоторое время возвращается и наносит Дендро урон ещё раз. Надёжный инструмент, который помогает Коллеи утихомиривать яростных зверей. После парочки ударов даже самые неистовые из них приходят в полное спокойствие. Он так же хорошо работает и для недружелюбно настроенных людей.",
@@ -467,12 +433,12 @@
       "description": {
         "pt-pt": "A confiável Collambei chega para salvar o dia!Lança a boneca chamada Collambei, causando uma explosão que inflige Dano Dendro em uma AdE e criando uma Zona Collambei. Collambei irá saltar constantemente dentro desta zona, infligindo Dano Dendro em uma AdE.“Incrível, não é? …Huh? Você quer saber de onde tirei o nome Collambei? Uh, bem, eu…”",
         "en-us": "Trusty Cuilein-Anbar comes to save the day!Throws the doll named Cuilein-Anbar, causing an explosion that deals AoE Dendro DMG, creating a Cuilein-Anbar Zone. Cuilein-Anbar will bounce around within this zone, dealing AoE Dendro DMG.",
-        "ja-jp": "頼もしいコレアンバーの助けを呼ぶ。コレアンバー人形を投げ、爆発時に草元素範囲ダメージを与え、コレアンバー領域を生成する。コレアンバーは領域内でジャンプし続け、草元素範囲ダメージを与える。「どう、すごいだろ？…えっ？ コレアンバーの名前の由来が知りたい？ うーん、そ、それは…」",
+        "ja-jp": "頼もしいコレアンバーの助けを呼ぶ。コレアンバー人形を投げ、爆発時に草元素範囲ダメージを与え、コレアンバー領域を生成する。コレアンバーは領域内でジャンプし続け、草元素範囲ダメージを与える。「どう、すごいだろ？…えっ？コレアンバーの名前の由来が知りたい？うーん、そ、それは…」",
         "zh-cn": "请可靠的柯里安巴上阵帮忙。投掷柯里安巴玩偶，爆发时造成草元素范围伤害，并产生柯里安巴领域。柯里安巴会在领域中不断跃动，造成草元素范围伤害。 「怎么样，很厉害吧！…哎？你问柯里安巴的名字是怎么来的？呜，这、这个…」",
         "ko-kr": "믿음직한 콜린엔바가 전투를 도와준다.콜린엔바 인형을 던지면 폭발 시 풀 원소 범위 피해를 주고 콜린엔바 영역을 생성한다.콜린엔바는 영역 내에서 끊임없이 도약하며 풀 원소 범위 피해를 준다.「어때, 정말 대단하지? …엥? 콜린엔바 이름의 유래가 궁금하다고? 윽, 그, 그건…」",
         "ru-ru": "Надёжнейший Куйлейн-Анбар спешит на помощь!Бросает куклу по имени Куйлейн-Анбар, взрыв которой наносит Дендро урон по площади, и создаёт зону Куйлейн-Анбара. Куйлейн-Анбар беспрестанно прыгает внутри неё, нанося Дендро урон по площади. «Круто, да? …А? Как я придумала это имя, \"Куйлейн-Анбар\"? Эм, ну, я…»",
         "de-de": "Nimmt im Kampf die Hilfe des verlässlichen Cuilein-Anbar in Anspruch.Wirft eine Cuilein-Anbar-Puppe, die bei ihrer Explosion Dendro-Flächenschaden verursacht und ein Cuilein-Anbar-Feld erzeugt. Cuilein-Anbar springt immer wieder auf diesem Feld herum und verursacht Dendro-Flächenschaden.„Krass, oder? ... Oh, woher der Name Cuilein-Anbar kommt, fragst du dich? Hmm, das, äh ...\"",
-        "fr-fr": "Le fidèle Cuilein-Anbar arrive pour apporter son aide&nbsp;!Lance une poupée nommée Cuilein-Anbar, provoquant une explosion qui inflige des DGT Dendro de zone tout en créant un territoire de Cuilein-Anbar. Cuilein-Anbar bondira alors sans cesse dans son territoire, infligeant des DGT Dendro de zone. « Pas mal, hein ? ... Hein ? D'où est-ce que j'ai sorti le nom de Cuilein-Anbar ? Euh, eh bien, je... »",
+        "fr-fr": "Le fidèle Cuilein-Anbar arrive pour apporter son aide !Lance une poupée nommée Cuilein-Anbar, provoquant une explosion qui inflige des DGT Dendro de zone tout en créant un territoire de Cuilein-Anbar. Cuilein-Anbar bondira alors sans cesse dans son territoire, infligeant des DGT Dendro de zone. « Pas mal, hein ? ... Hein ? D'où est-ce que j'ai sorti le nom de Cuilein-Anbar ? Euh, eh bien, je... »",
         "es-es": "¡Colleámbar al rescate!Lanza al muñeco Colléambar, el cual explota para infligir Daño Dendro en el AdE y crea un área de Colleámbar.Dentro de esta área, Colleámbar saltará constantemente para infligir Daño Dendro en el AdE.¿Qué te parece Colleámbar? Es genial, ¿verdad? ¿Eh? ¿Que por qué se llama así? P-pues...",
         "id-id": "Mengundang Cuilein-Anbar yang bisa diandalkan untuk membantu di medan pertempuran.Melemparkan boneka Cuilein-Anbar yang saat meledak akan mengakibatkan Dendro DMG Area dan akan menghasilkan Zona Cuilein-Anbar. Cuilein-Anbar akan terus memantul-mantul di dalam areanya dan mengakibatkan Dendro DMG Area.\"Bagaimana? Hebat, kan! ... Apa? Dari mana asal nama Cuilein-Anbar? Anu, ini ... eh ....\"",
         "th-th": "Cuilein-Anbar ที่ไว้ใจได้ มาช่วยแล้ว!โยนตุ๊กตา Cuilein-Anbar ที่เมื่อระเปิดจะสร้างความเสียหายไม้วงกว้างออกไป และสร้าง Cuilein-Anbar Zone ขึ้นมา จากนั้น Cuilein-Anbar จะกระเด้งไปมาอยู่ในพื้นที่อย่างต่อเนื่อง เพื่อสร้างความเสียหายไม้วงกว้าง.\"เป็นไง เจ๋งไปเลยใช่มั้ย!... เอ๋ ถามว่าทำไมถึงชื่อ Cuilein-Anbar งั้นเหรอ? เอ่อ ระ...เรื่องนั้น...",
@@ -501,12 +467,12 @@
       "description": {
         "pt-pt": "Se antes do Bumerangue Floral retornar um dos membros da equipe desencadear a reação elemental de Queimaduras, Aceleração, Intensificação, Propagação, Florescimento, Superflorescimento ou Germinação, concederá ao personagem o estado“Brotar\", que infligirá Dano Dendro continuamente contra os inimigos próximos equivalente a 40% do ATQ de Collei por 3s. Desencadear um novo efeito \"Brotar\" na duração do efeito“Brotar”existente anulará o efeito original. O Dano infligido pelo efeito“Brotar”é considerado Dano de Habilidade Elemental.",
         "en-us": "If one of your party members has triggered Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions before the Floral Ring returns, it will grant the character the Sprout effect upon return, which will continuously deal Dendro DMG equivalent to 40% of Collei's ATK to nearby opponents for 3s.If another Sprout effect is triggered during its initial duration, the initial effect will be removed.",
-        "ja-jp": "リーフブーメランが戻ってくる前に、チーム内の自身キャラクラ―が燃焼、原激化、超激化、草激化、開花、超開花、または烈開花反応を起こすと、戻ってきた時に「芽生え」状態をキャラクターに付与し、持続的に周囲の敵にコレイの攻撃力40%分の草元素ダメージを与える。継続時間3秒。芽生え状態中に再度獲得すると、既存の芽生え状態が先にクリアされる。このダメージは元素スキルダメージと見なされる。",
+        "ja-jp": "リーフブーメランが戻ってくる前に、チーム内の自身キャラクターが燃焼、原激化、超激化、草激化、開花、超開花、または烈開花反応を起こすと、戻ってきた時に「芽生え」状態をキャラクターに付与し、持続的に周囲の敵にコレイの攻撃力40%分の草元素ダメージを与える、継続時間3秒。芽生え状態中に再度獲得すると、既存の芽生え状態が先にクリアされる。このダメージは元素スキルダメージと見なされる。",
         "zh-cn": "在飞叶轮返回前，如果队伍中自己的角色触发了燃烧、原激化、超激化、蔓激化、绽放、超绽放或烈绽放反应，则会在返回时为角色赋予「新叶」状态，持续对身边的敌人造成相当于柯莱攻击力40%的草元素伤害，持续3秒。新叶效果持续期间再次产生新叶效果时，将移除原有的效果。新叶效果造成的伤害视为元素战技伤害。",
         "ko-kr": "부메랑이 되돌아오기 전 파티 내 자신의 캐릭터가 연소, 활성, 촉진, 발산, 개화, 만개 혹은 발화 반응 발동 시, 부메랑이 되돌아오면서 캐릭터에게 「신엽」 상태를 부여하고 지속해서 자신의 주변에 있는 적에게 콜레이 공격력의 40%에 해당하는 풀 원소 피해를 준다. 지속 시간: 3초.신엽 효과의 지속 시간 동안 새로운 신엽 효과가 생성되면 원래 있던 효과는 사라진다.신엽 효과가 가하는 피해는 원소전투 스킬 피해로 취급한다",
         "ru-ru": "Свой персонаж, который до возвращения Цветочного кольца вызвал Горение, Стимуляцию, Обострение, Разрастание, Бутонизацию, Вегетацию или Цветение, по его возвращении получит Росток. Во время его действия враги поблизости будут получать продолжительный Дендро урон, равный 40% от силы атаки Коллеи. Эффект длится 3 сек.При повторной активации Ростка существующий эффект снимается.",
         "de-de": "Verleiht der Figur bei der Rückkehr des fliegenden Laubrads den Effekt „Jungtrieb\", der 3 s lang den Gegnern in der Nähe fortlaufend Dendro-Schaden in Höhe von 40 % von Colleis ANG zufügt, wenn eine eigene Figur in der Truppe vor der Rückkehr des fliegenden Laubrads Reaktionen wie „In Flammen\", „Urwuchs\", „Suprawuchs\", „Rankenwuchs\", „Sprießen\", „Supraspross\" oder „Flammenspross\" ausgelöst hat.Wenn während der Dauer des Effekts ein weiterer „Jungtrieb“ erzeugt wird, wird er den bestehenden ersetzen. Der vom Jungtrieb-Effekt verursachte Schaden gilt als Elementarfähigkeitsschaden.",
-        "fr-fr": "Si un membre de votre équipe déclenche une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, d'Exubérance ou de Bourgeonnement avant le retour de l'anneau floral, le personnage obtient l'effet Germe au retour de l'anneau, ce qui inflige de façon continue aux ennemis proches des DGT Dendro d'une valeur équivalant à 40&nbsp;% de l'ATQ de Collei pendant 3&nbsp;s.Si un nouvel effet Germe est déclenché pendant la durée d'un effet Germe existant, l'effet d'origine est supprimé. Les DGT infligés par l’effet Germe sont considérés comme étant des DGT de compétence élémentaire.",
+        "fr-fr": "Si un membre de votre équipe déclenche une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, d'Exubérance ou de Bourgeonnement avant le retour de l'anneau floral, le personnage obtient l'effet Germe au retour de l'anneau, ce qui inflige de façon continue aux ennemis proches des DGT Dendro d'une valeur équivalant à 40 % de l'ATQ de Collei pendant 3 s.Si un nouvel effet Germe est déclenché pendant la durée d'un effet Germe existant, l'effet d'origine est supprimé. Les DGT infligés par l’effet Germe sont considérés comme étant des DGT de compétence élémentaire.",
         "es-es": "Si algún personaje de tu equipo causa una reacción de Quemadura, Aceleración, Intensificación, Propagación, Florecimiento, Sobreflorecimiento o Crepitar antes de que el bumerán foliáceo regrese, al regresar otorga al personaje el estado de \"germinación\", el cual inflige continuamente Daño Dendro contra los enemigos cercanos en una cantidad equivalente al 40% del ATQ de Collei durante 3 s.Si otro efecto de germinación se activa antes de que concluya, se eliminará el efecto anterior. El Daño infligido por germinación se considera de Habilidad Elemental.",
         "id-id": "Sebelum Floral Ring kembali, jika ada Karakter di dalam party yang memicu reaksi Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, atau Burgeon, akan memberikan status \"Sprout\" untuk Karakter, yang akan mengakibatkan Dendro DMG secara terus-menerus kepada musuh di sekitar sebesar 40% dari ATK Collei selama 3 detik.Jika efek Sprout terpicu lagi selama durasinya masih berlangsung, maka efek yang awal akan dihapus.",
         "th-th": "ก่อนที่ Floral Ring จะย้อนกลับมาหากตัวละครในทีมของตัวเองทำให้เกิดปฏิกิริยาติดไฟ, ปลุกเร้า, บีบอัด, แพร่ขยาย, งอกเงย, ไฮเปอร์บลูม หรือเบ่งบาน จะมอบเอฟเฟกต์ Sprout ให้แก่ตัวละครในตอนที่กลับมาซึ่งจะสร้างความเสียหายไม้เป็น 40% ของพลังโจมตีของ Collei แก่ศัตรูที่อยู่รอบตัวอย่างต่อเนื่อง เป็นเวลา 3 วินาทีหากเกิดเอฟเฟกต์ Sprout ขึ้นซ้ำอีกครั้งในระหว่างช่วงเวลาต่อเนื่อง เอฟเฟกต์เดิมที่มีอยู่จะถูกลบไป และความเสียหายที่เอฟเฟกต์ Sprout สร้างจะถูกมองว่าเป็นความเสียหายของสกิลธาตุ",
@@ -535,12 +501,12 @@
       "description": {
         "pt-pt": "Quando um personagem dentro da Zona Collambei desencadeia uma reação elemental de Queimaduras, Aceleração, Intensificação, Propagação, Florescimento, Superflorescimento ou Germinação, a duração da área será prolongada em 1s.É possível prolongar a duração até 3 vezes desta maneira em um uso de Segredo Miauvilhoso.",
         "en-us": "When a character within the Cuilein-Anbar Zone triggers Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon reactions, the Zone's duration will be increased by 1s.A single Trump-Card Kitty can be extended by up to 3s.",
-        "ja-jp": "コレアンバー領域内のキャラクターが燃焼、原激化、超激化、草激化、開花、超開花、または烈開花反応を起こすと、領域の継続時間+1秒。この方式ではニャンコトレジャー1回につき、継続時間を最大3回まで延長できる。",
+        "ja-jp": "コレアンバー領域内のキャラクターが燃焼、原激化、超激化、草激化、開花、超開花、または烈開花反応を起こすと、領域の継続時間+1秒。この方法ではニャンコトレジャー1回につき、継続時間を最大3回まで延長できる。",
         "zh-cn": "柯里安巴领域中的角色触发燃烧、原激化、超激化、蔓激化、绽放、超绽放或烈绽放反应时，将使领域的持续时间延长1秒。一次猫猫秘宝中，至多通过这种方式延长3次持续时间。",
         "ko-kr": "콜린엔바 영역 내의 캐릭터가 연소, 활성, 촉진, 발산, 개화, 만개 혹은 발화 반응 발동 시 영역의 지속 시간이 1초 연장된다.냥냥 비책 1회 발동 중, 해당 방식으로 최대 3회까지 지속 시간이 연장된다",
         "ru-ru": "Когда персонаж в зоне Куйлейн-Анбара активирует реакцию Горение, Стимуляция, Обострение, Разрастание, Бутонизация, Вегетация и Цветение, длительность зоны увеличивается на 1 сек.Длительность одного и того же Кошачьего сокровища можно увеличить этим способом до 3 раз.",
         "de-de": "Verlängert die Dauer des Felds um 1 s, wenn eine Figur im Cuilein-Anbar-Feld Reaktionen wie „In Flammen\", „Urwuchs\", „Suprawuchs\", „Rankenwuchs\", „Sprießen\", „Supraspross\" oder „Flammenspross\" auslöst.Die Dauer pro Auslösung von Geheimer Katzenschatz kann auf diese Weise um bis zu 3 s verlängert werden.",
-        "fr-fr": "Si un personnage dans le territoire de Cuilein-Anbar déclenche une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, d'Exubérance ou de Bourgeonnement, la durée du territoire est prolongée de 1&nbsp;s.Lors d'une même utilisation d'Atout félin, cette durée peut être prolongée un maximum de 3 fois de cette manière.",
+        "fr-fr": "Si un personnage dans le territoire de Cuilein-Anbar déclenche une réaction de Brûlure, de Stimulation, de Suractivation, de Propagation, de Fleurissement, d'Exubérance ou de Bourgeonnement, la durée du territoire est prolongée de 1 s.Lors d'une même utilisation d'Atout félin, cette durée peut être prolongée un maximum de 3 fois de cette manière.",
         "es-es": "Cuando un personaje dentro del área de Colleámbar causa una reacción de Quemadura, Aceleración, Intensificación, Propagación, Florecimiento, Sobreflorecimiento o Crepitar, la duración de dicha área aumenta en 1 s.Esta duración solo puede aumentar un máximo de 3 veces de esta manera por cada vez que se use Secreto miauravilloso.",
         "id-id": "Saat Karakter yang berada di dalam Zona Cuilein-Anbar memicu efek Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, atau Burgeon, maka durasi area akan diperpanjang 1 detik.Dalam 1 kali Trump-Card Kitty, perpanjangan durasi yang bisa didapatkan dengan cara ini maksimum sebanyak 3 kali.",
         "th-th": "เมื่อตัวละครที่อยู่ใน Cuilein-Anbar Zone ทำให้เกิดปฏิกิริยาติดไฟ, ปลุกเร้า, บีบอัด, แพร่ขยาย, งอกเงย, ไฮเปอร์บลูม หรือเบ่งบานจะทำให้ช่วงเวลาต่อเนื่องของพื้นที่ยาวนานขึ้น 1 วินาที Trump-Card Kitty หนึ่งครั้ง จะสามารถเพิ่มช่วงเวลาต่อเนื่องด้วยวิธีนี้ได้มากสุด 3 ครั้ง",
@@ -569,12 +535,12 @@
       "description": {
         "pt-pt": "Diminui o consumo de Stamina ao Planar de todos os seus personagens em 20%.Não acumulável com Talentos Passivos que concedem exatamente os mesmos efeitos.",
         "en-us": "Decreases gliding Stamina consumption for your own party members by 20%.Not stackable with Passive Talents that provide the exact same effects.",
-        "ja-jp": "チーム内の自身のキャラクターが滑翔に消費するスタミナ-20%。同じ効果を持つ固有天賦との重ね掛け不可。",
+        "ja-jp": "チーム内の自身のキャラクター全員が滑翔に消費するスタミナ-20%。同じ効果を持つ固有天賦との重ね掛け不可。",
         "zh-cn": "队伍中自己的角色滑翔消耗的体力降低20%。无法与效果完全相同的固有天赋叠加。",
         "ko-kr": "파티 내 자신의 캐릭터의 활강 시 소모하는 스태미나가 20% 감소한다.같은 효과의 고유 특성과 중첩되지 않는다",
         "ru-ru": "Уменьшает потребление выносливости активного персонажа во время полёта на 20%.Не суммируется с пассивными талантами, дающими точно такие же эффекты.",
         "de-de": "Verringert die beim Gleiten verbrauchte Ausdauer aller eigenen Truppenmitglieder um 20 %.Nicht mit passiven Talenten mit völlig gleichen Effekten stapelbar.",
-        "fr-fr": "Réduit la consommation d'endurance de vos personnages dans l'équipe de 20&nbsp;% lors du planage.Ne peut pas être cumulé avec d'autres aptitudes passives aux effets identiques.",
+        "fr-fr": "Réduit la consommation d'endurance de vos personnages dans l'équipe de 20 % lors du planage.Ne peut pas être cumulé avec d'autres aptitudes passives aux effets identiques.",
         "es-es": "Disminuye en un 20% el Coste de Aguante al planear de todos los miembros del equipo.No se puede acumular con otros talentos pasivos que tengan los mismos efectos.",
         "id-id": "Mengurangi 20% konsumsi Stamina karakter sendiri saat meluncur.Efek tidak dapat ditumpuk dengan Talenta Pasif lain yang memiliki efek yang sama.",
         "th-th": "ลดอัตราการเสียพลังกายจากการร่อนเวหา ให้ตัวละครของตนเองที่อยู่ในทีมลง 20%ไม่สามารถซ้อนทับพรสวรรค์ติดตัวที่เอฟเฟกต์เหมือนกันทุกประการได้",
@@ -904,7 +870,7 @@
             "de-de": "St.",
             "fr-fr": "Niv.",
             "es-es": "Niv.",
-            "id-id": "",
+            "id-id": "Level",
             "th-th": "Level",
             "vi-vn": "Level",
             "zh-tw": "Level"
@@ -1014,7 +980,7 @@
             "de-de": "St.",
             "fr-fr": "Niv.",
             "es-es": "Niv.",
-            "id-id": "",
+            "id-id": "Level",
             "th-th": "Level",
             "vi-vn": "Level",
             "zh-tw": "Level"
@@ -1163,6 +1129,7 @@
             "ru-ru": "Потребление энергии",
             "de-de": "Elementarenergie",
             "fr-fr": "Énergie élémentaire",
+            "es-es": "Energy Cost",
             "id-id": "Konsumsi Energy",
             "th-th": "Energy Cost",
             "vi-vn": "Năng Lượng Nguyên Tố",
@@ -1208,7 +1175,7 @@
           "level": 2,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": "12500",
               "name": {
@@ -1228,7 +1195,7 @@
               }
             },
             {
-              "id": "2689",
+              "id": 2689,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/440a7f5e5373800912aa0b3c77c59dbc_8134620576781785423.png",
               "amount": "3",
               "name": {
@@ -1248,7 +1215,7 @@
               }
             },
             {
-              "id": "1105",
+              "id": 1105,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Firm%20Arrowhead_icon.png",
               "amount": "6",
               "name": {
@@ -1273,7 +1240,7 @@
           "level": 3,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": "17500",
               "name": {
@@ -1293,7 +1260,7 @@
               }
             },
             {
-              "id": "2690",
+              "id": 2690,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/d6fcbf4c3300ba70aa974510a93518c4_2665149939312087059.png",
               "amount": "2",
               "name": {
@@ -1313,7 +1280,7 @@
               }
             },
             {
-              "id": "1683",
+              "id": 1683,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sharp%20Arrowhead_icon.png",
               "amount": "3",
               "name": {
@@ -1338,7 +1305,7 @@
           "level": 4,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": "25000",
               "name": {
@@ -1358,7 +1325,7 @@
               }
             },
             {
-              "id": "2690",
+              "id": 2690,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/d6fcbf4c3300ba70aa974510a93518c4_2665149939312087059.png",
               "amount": "4",
               "name": {
@@ -1378,7 +1345,7 @@
               }
             },
             {
-              "id": "1683",
+              "id": 1683,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sharp%20Arrowhead_icon.png",
               "amount": "4",
               "name": {
@@ -1403,7 +1370,7 @@
           "level": 5,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": "30000",
               "name": {
@@ -1423,7 +1390,7 @@
               }
             },
             {
-              "id": "2690",
+              "id": 2690,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/d6fcbf4c3300ba70aa974510a93518c4_2665149939312087059.png",
               "amount": "6",
               "name": {
@@ -1443,7 +1410,7 @@
               }
             },
             {
-              "id": "1683",
+              "id": 1683,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sharp%20Arrowhead_icon.png",
               "amount": "6",
               "name": {
@@ -1468,7 +1435,7 @@
           "level": 6,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": "37500",
               "name": {
@@ -1488,7 +1455,7 @@
               }
             },
             {
-              "id": "2690",
+              "id": 2690,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/d6fcbf4c3300ba70aa974510a93518c4_2665149939312087059.png",
               "amount": "9",
               "name": {
@@ -1508,7 +1475,7 @@
               }
             },
             {
-              "id": "1683",
+              "id": 1683,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sharp%20Arrowhead_icon.png",
               "amount": "9",
               "name": {
@@ -1533,7 +1500,7 @@
           "level": 7,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": "120000",
               "name": {
@@ -1553,7 +1520,7 @@
               }
             },
             {
-              "id": "2691",
+              "id": 2691,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/86e35c3c41261373e2231fd1e8facb34_4246349666250259295.png",
               "amount": "4",
               "name": {
@@ -1573,7 +1540,7 @@
               }
             },
             {
-              "id": "367",
+              "id": 367,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Weathered%20Arrowhead_icon.png",
               "amount": "4",
               "name": {
@@ -1593,7 +1560,7 @@
               }
             },
             {
-              "id": "1281",
+              "id": 1281,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Tears%20of%20the%20Calamitous%20God_icon.png",
               "amount": 1,
               "name": {
@@ -1618,7 +1585,7 @@
           "level": 8,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": "260000",
               "name": {
@@ -1638,7 +1605,7 @@
               }
             },
             {
-              "id": "2691",
+              "id": 2691,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/86e35c3c41261373e2231fd1e8facb34_4246349666250259295.png",
               "amount": "6",
               "name": {
@@ -1658,7 +1625,7 @@
               }
             },
             {
-              "id": "367",
+              "id": 367,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Weathered%20Arrowhead_icon.png",
               "amount": "6",
               "name": {
@@ -1678,7 +1645,7 @@
               }
             },
             {
-              "id": "1281",
+              "id": 1281,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Tears%20of%20the%20Calamitous%20God_icon.png",
               "amount": 1,
               "name": {
@@ -1703,7 +1670,7 @@
           "level": 9,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": "450000",
               "name": {
@@ -1723,7 +1690,7 @@
               }
             },
             {
-              "id": "2691",
+              "id": 2691,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/86e35c3c41261373e2231fd1e8facb34_4246349666250259295.png",
               "amount": "12",
               "name": {
@@ -1743,7 +1710,7 @@
               }
             },
             {
-              "id": "367",
+              "id": 367,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Weathered%20Arrowhead_icon.png",
               "amount": "9",
               "name": {
@@ -1763,7 +1730,7 @@
               }
             },
             {
-              "id": "1281",
+              "id": 1281,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Tears%20of%20the%20Calamitous%20God_icon.png",
               "amount": "2",
               "name": {
@@ -1788,7 +1755,7 @@
           "level": 10,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": "700000",
               "name": {
@@ -1808,7 +1775,7 @@
               }
             },
             {
-              "id": "2691",
+              "id": 2691,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/06/8078404/86e35c3c41261373e2231fd1e8facb34_4246349666250259295.png",
               "amount": "16",
               "name": {
@@ -1828,7 +1795,7 @@
               }
             },
             {
-              "id": "367",
+              "id": 367,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Weathered%20Arrowhead_icon.png",
               "amount": "12",
               "name": {
@@ -1848,7 +1815,7 @@
               }
             },
             {
-              "id": "1281",
+              "id": 1281,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Tears%20of%20the%20Calamitous%20God_icon.png",
               "amount": "2",
               "name": {
@@ -1868,7 +1835,7 @@
               }
             },
             {
-              "id": "900",
+              "id": 900,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Crown%20of%20Insight_icon.png",
               "amount": 1,
               "name": {
@@ -1941,7 +1908,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 20000,
           "name": {
@@ -1961,7 +1928,7 @@
           }
         },
         {
-          "id": "2679",
+          "id": 2679,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/8a494dcde9769dd1e536512e1a689ba1_7791967134069060078.PNG",
           "amount": 1,
           "name": {
@@ -1981,7 +1948,7 @@
           }
         },
         {
-          "id": "2681",
+          "id": 2681,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/fbfb9632c9668ce46422fa5b2acb9f0d_2830746585118701992.png",
           "amount": 3,
           "name": {
@@ -2001,7 +1968,7 @@
           }
         },
         {
-          "id": "1105",
+          "id": 1105,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Firm%20Arrowhead_icon.png",
           "amount": 3,
           "name": {
@@ -2040,7 +2007,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 40000,
           "name": {
@@ -2060,7 +2027,7 @@
           }
         },
         {
-          "id": "2678",
+          "id": 2678,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/58cae6f57061984127a0a6e2970fa134_5485561682809334527.PNG",
           "amount": 3,
           "name": {
@@ -2080,7 +2047,7 @@
           }
         },
         {
-          "id": "2682",
+          "id": 2682,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/27/6926027/8e0cad56c6c27b86483ef1f46464c044_4108359960741045696.png",
           "amount": 2,
           "name": {
@@ -2100,7 +2067,7 @@
           }
         },
         {
-          "id": "2681",
+          "id": 2681,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/fbfb9632c9668ce46422fa5b2acb9f0d_2830746585118701992.png",
           "amount": 10,
           "name": {
@@ -2120,7 +2087,7 @@
           }
         },
         {
-          "id": "1105",
+          "id": 1105,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Firm%20Arrowhead_icon.png",
           "amount": 15,
           "name": {
@@ -2159,7 +2126,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 60000,
           "name": {
@@ -2179,7 +2146,7 @@
           }
         },
         {
-          "id": "2678",
+          "id": 2678,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/58cae6f57061984127a0a6e2970fa134_5485561682809334527.PNG",
           "amount": 6,
           "name": {
@@ -2199,7 +2166,7 @@
           }
         },
         {
-          "id": "2682",
+          "id": 2682,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/27/6926027/8e0cad56c6c27b86483ef1f46464c044_4108359960741045696.png",
           "amount": 4,
           "name": {
@@ -2219,7 +2186,7 @@
           }
         },
         {
-          "id": "2681",
+          "id": 2681,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/fbfb9632c9668ce46422fa5b2acb9f0d_2830746585118701992.png",
           "amount": 20,
           "name": {
@@ -2239,7 +2206,7 @@
           }
         },
         {
-          "id": "1683",
+          "id": 1683,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sharp%20Arrowhead_icon.png",
           "amount": 12,
           "name": {
@@ -2278,7 +2245,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 80000,
           "name": {
@@ -2298,7 +2265,7 @@
           }
         },
         {
-          "id": "2677",
+          "id": 2677,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/d45535e4a38da93077684ded74ff2ab7_3926296015177913205.PNG",
           "amount": 3,
           "name": {
@@ -2318,7 +2285,7 @@
           }
         },
         {
-          "id": "2682",
+          "id": 2682,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/27/6926027/8e0cad56c6c27b86483ef1f46464c044_4108359960741045696.png",
           "amount": 8,
           "name": {
@@ -2338,7 +2305,7 @@
           }
         },
         {
-          "id": "2681",
+          "id": 2681,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/fbfb9632c9668ce46422fa5b2acb9f0d_2830746585118701992.png",
           "amount": 30,
           "name": {
@@ -2358,7 +2325,7 @@
           }
         },
         {
-          "id": "1683",
+          "id": 1683,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Sharp%20Arrowhead_icon.png",
           "amount": 18,
           "name": {
@@ -2397,7 +2364,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 100000,
           "name": {
@@ -2417,7 +2384,7 @@
           }
         },
         {
-          "id": "2677",
+          "id": 2677,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/d45535e4a38da93077684ded74ff2ab7_3926296015177913205.PNG",
           "amount": 6,
           "name": {
@@ -2437,7 +2404,7 @@
           }
         },
         {
-          "id": "2682",
+          "id": 2682,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/27/6926027/8e0cad56c6c27b86483ef1f46464c044_4108359960741045696.png",
           "amount": 12,
           "name": {
@@ -2457,7 +2424,7 @@
           }
         },
         {
-          "id": "2681",
+          "id": 2681,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/fbfb9632c9668ce46422fa5b2acb9f0d_2830746585118701992.png",
           "amount": 45,
           "name": {
@@ -2477,7 +2444,7 @@
           }
         },
         {
-          "id": "367",
+          "id": 367,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Weathered%20Arrowhead_icon.png",
           "amount": 12,
           "name": {
@@ -2516,7 +2483,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 120000,
           "name": {
@@ -2536,7 +2503,7 @@
           }
         },
         {
-          "id": "2676",
+          "id": 2676,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/4e6fdd6c33dcd340000b8d8087573f23_1498446641273841111.PNG",
           "amount": 6,
           "name": {
@@ -2556,7 +2523,7 @@
           }
         },
         {
-          "id": "2682",
+          "id": 2682,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/27/6926027/8e0cad56c6c27b86483ef1f46464c044_4108359960741045696.png",
           "amount": 20,
           "name": {
@@ -2576,7 +2543,7 @@
           }
         },
         {
-          "id": "2681",
+          "id": 2681,
           "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/29/16791688/fbfb9632c9668ce46422fa5b2acb9f0d_2830746585118701992.png",
           "amount": 60,
           "name": {
@@ -2596,7 +2563,7 @@
           }
         },
         {
-          "id": "367",
+          "id": 367,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Weathered%20Arrowhead_icon.png",
           "amount": 24,
           "name": {

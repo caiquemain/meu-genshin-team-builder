@@ -1,0 +1,1022 @@
+{
+  "id": "haran_geppaku_futsu",
+  "wiki_id": 1989,
+  "name": {
+    "pt-pt": "Maremoto da Lua de Futsu",
+    "en-us": "Haran Geppaku Futsu",
+    "ja-jp": "波乱月白経津",
+    "zh-cn": "波乱月白经津",
+    "ko-kr": "하란 월백의 후츠",
+    "ru-ru": "Харан гэппаку фуцу",
+    "de-de": "Haran Geppaku Futsu",
+    "fr-fr": "Lune ondulante de Futsu",
+    "es-es": "Luna Ondulante de Futsu",
+    "id-id": "Haran Geppaku Futsu",
+    "th-th": "Haran Geppaku Futsu",
+    "vi-vn": "Haran Geppaku Futsu",
+    "zh-tw": "波亂月白經津"
+  },
+  "description": {
+    "pt-pt": "Uma obra da linhagem Futsu. Seu nome tem como origem devido à maneira que lembra uma onda violenta do mar.",
+    "en-us": "A famed work by the Futsu line of smiths. The name \"Haran\" comes from the manner in which it resembles the violent, roiling waves.",
+    "ja-jp": "経津伝が命を受けて鍛造した名刀。その波濤を彷彿させる佇まいから、「波乱」と名付けられた。",
+    "zh-cn": "经津传奉命锻造的名作。因其如汹涌海涛般的气度，而得「波乱」之名。",
+    "ko-kr": "후츠가 명을 받아 만든 명작. 파도처럼 밀려드는 기세를 보고 「하란(波乱)」이라는 이름을 얻었다",
+    "ru-ru": "Произведение искусства рода кузнецов Фуцу. «Харан» в названии связано со сходством клинка с неистовыми морскими валами.",
+    "de-de": "Ein berühmtes Werk der Futsu-Schmiedefamilie. Der Name „Haran“ kommt von der Art und Weise, in der es den heftigen, aufgewühlten Wellen ähnelt.",
+    "fr-fr": "Une œuvre célèbre des forgerons de la lignée des Futsu. Son nom renvoie aux vagues violentes de la mer qui se déchaînent sous une nuit de pleine lune.",
+    "es-es": "Una obra maestra de la escuela de espadas Futsu forjada por encargo. Su nombre se debe a su parecido con una violenta ola del mar.",
+    "id-id": "Sebuah karya terkenal dari keturunan pandai besi Futsu. Nama \"Haran\" berasal dari bentuknya yang menyerupai ombak yang ganas dan bergejolak.",
+    "th-th": "ผลงานชิ้นเอกที่ Futsu ได้รับคำสั่งให้ทำขึ้น เนื่องจากมีลักษณะเหมือนคลื่นทะเลอันแสนปั่นป่วน จึงได้รับนามว่า \"Haran (คลื่นคลั่ง)\"",
+    "vi-vn": "Tác phẩm nổi tiếng do Futsu phụng mệnh chế tạo. Do nó sở hữu khí thế tựa những cơn sóng cuộn trào, nên được đặt tên là \"Haran\".",
+    "zh-tw": "經津傳奉命鍛造的名作。因其如洶湧海濤般的氣度，而得「波亂」之名。"
+  },
+  "rarity": 5,
+  "type": {
+    "pt-pt": "Espada",
+    "en-us": "Sword",
+    "ja-jp": "片手剣",
+    "zh-cn": "单手剑",
+    "ko-kr": "한손검",
+    "ru-ru": "Одноручное",
+    "de-de": "Einhänder",
+    "fr-fr": "Épée à une main",
+    "es-es": "Espada ligera",
+    "id-id": "Sword",
+    "th-th": "ดาบ",
+    "vi-vn": "Kiếm Đơn",
+    "zh-tw": "單手劍"
+  },
+  "subStat": {
+    "pt-pt": "Taxa CRIT%",
+    "en-us": "CRIT Rate",
+    "ja-jp": "会心率",
+    "zh-cn": "暴击率",
+    "ko-kr": "치명타 확률",
+    "ru-ru": "Шанс крит. попад.",
+    "de-de": "KT",
+    "fr-fr": "Taux CRIT",
+    "es-es": "Prob. CRIT",
+    "id-id": "CRIT Rate",
+    "th-th": "อัตราคริ",
+    "vi-vn": "Tỷ Lệ Bạo Kích",
+    "zh-tw": "暴擊率"
+  },
+  "passiveName": {
+    "pt-pt": "Fluxo Aperfeiçoado",
+    "en-us": "Honed Flow",
+    "ja-jp": "白刃流転",
+    "zh-cn": "白刃流转",
+    "ko-kr": "흐르는 칼날",
+    "ru-ru": "Поток клинков:",
+    "de-de": "Fließendes Schwert",
+    "fr-fr": "Flux aiguisé",
+    "es-es": "Influjo afilado",
+    "id-id": "Honed Flow",
+    "th-th": "Honed Flow",
+    "vi-vn": "Bạch Nhẫn Lưu Chuyển",
+    "zh-tw": "白刃流轉"
+  },
+  "passiveDescription": {
+    "pt-pt": "Obtém 12%/15%/18%/21%/24% de bônus de Dano de todos os elementos. Quando os outros personagens da equipe usam Habilidades Elementais, gerarão um acúmulo do efeito \"Ondulação\" para o personagem que tem esta arma equipada. Esse efeito é acumulável no máximo 2 vezes e pode ser desencadeado uma vez a cada 0.3s. Quando o personagem que tiver esta arma equipada lançar sua Habilidade Elemental, se tiver acúmulos de \"Ondulação\", consumirá os acúmulos existentes e obterá \"Maremoto\", cada acúmulo consumido aumenta o Dano do Ataque Normal em 20%/25%/30%/35%/40% por 8s.",
+    "en-us": "Obtain 12%/15%/18%/21%/24% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by 20%/25%/30%/35%/40% for 8s.",
+    "ja-jp": "全元素ダメージ+12/15/18/21/24%。周囲にいるチーム内の他キャラクターが元素スキルを発動すると、装備キャラクターに「波穂」効果を1層与える。獲得できる「波穂」効果は最大2層まで、0.3秒毎に1回のみ獲得できる。装備キャラクターが元素スキルを発動すると、既存の「波穂」効果をすべて消費し、「波乱」効果を獲得する。「波乱」：消費した「波穂」1層につき、通常攻撃ダメージ+20/25/30/35/40%、継続時間8秒。",
+    "zh-cn": "获得12%/15%/18%/21%/24%所有元素伤害加成；队伍中附近的其他角色在施放元素战技时，会为装备该武器的角色产生1层「波穗」效果，至多叠加2层，每0.3秒最多触发1次。装备该武器的角色施放元素战技时，如果有积累的「波穗」效果，则将消耗已有的「波穗」，获得「波乱」：根据消耗的层数，每层提升20%/25%/30%/35%/40%普通攻击伤害，持续8秒。",
+    "ko-kr": "모든 원소 피해 보너스를 12%/15%/18%/21%/24% 획득한다. 근처 파티 내 다른 캐릭터가 원소전투 스킬 발동 시, 해당 무기를 장착한 캐릭터가 「하스이」 효과를 1스택 획득한다. 최대 중첩수: 2스택, 0.3초마다 최대 1회 발동한다. 해당 무기를 장착한 캐릭터가 원소전투 스킬 발동 시, 쌓여있는 「하스이」 스택이 있다면 스택을 소모하여 「하란」을 획득한다. 소모한 스택마다 일반 공격 피해가 20%/25%/30%/35%/40% 증가한다. 지속 시간: 8초",
+    "ru-ru": "Даёт 12%/15%/18%/21%/24% бонус урона всеми элементами. Когда другие члены отряда поблизости активируют элементальные навыки, экипированный этим оружием персонаж получает 1 уровень Волны-шипа. Эффект возникает не чаще, чем один раз в 0,3 сек. Всего можно получить не более 2 уровней. Когда персонаж с этим оружием применяет элементальный навык, все уровни Волны-шипа тратятся, и он получает Хаос волн, который повышает урон обычной атаки согласно количеству уровней. Каждый уровень этого эффекта повышает урон обычной атаки на 20%/25%/30%/35%/40% в течение 8 сек.",
+    "de-de": "Erhöht den Schaden aller Elemente um 12% ~ 15% ~ 18% ~ 21% ~ 24%. Verleiht der mit dieser Waffe ausgerüsteten Figur bei Anwendung von Elementarfähigkeiten anderer Truppenmitglieder in der Nähe 1 Stapelung des Effekts „Wellenähre“, 2-fach stapelbar, 0,3s Abklingzeit. Verbraucht bei der Anwendung der Elementarfähigkeit der mit dieser Waffe ausgerüsteten Figur den gesamten Effekt „Wellenähre“, sofern dieser Effekt vorhanden ist, und erhält den Effekt „Wogenprall“: Erhöht den mit Standardangriffen verursachten Schaden pro verbrauchte Stapelung 8s lang um 20% ~ 25% ~ 30% ~ 35% ~ 40%.",
+    "fr-fr": "Accorde un bonus de DGT élémentaires de 12 %/15 %/18 %/21 %/24 %. Lorsqu'un autre personnage de l'équipe à proximité utilise une compétence élémentaire, le personnage équipé de cette arme obtient 1 cumul de Pic de vague. Cet effet peut être cumulé 2 fois maximum et déclenché une fois toutes les 0,3 s. Lorsque le personnage équipé de l'arme utilise une compétence élémentaire, tous les cumuls de Pic de vague sont consommés pour accorder un effet de Tumulte, augmentant les DGT d'attaque normale de 20 %/25 %/30 %/35 %/40 % pour chaque cumul de Pic de vague consommé, pendant 8 s.",
+    "es-es": "Otorga un 12%/15%/18%/21%/24% a todos los Bonos de Daño Elemental. Cuando los demás personajes del equipo cercanos usan una Habilidad Elemental, otorgan 1 carga de “acuapúa” al portador de esta arma. Este efecto puede acumularse hasta 2 veces y activarse una vez cada 0.3 s. Cuando el personaje que lleva esta arma equipada usa su Habilidad Elemental, si tenía cargas de acuapúa, las consumirá todas y obtendrá el efecto de “ondulación”, el cual aumenta el daño de Ataque Normal en un 20%/25%/30%/35%/40% durante 8 s por cada carga consumida.",
+    "id-id": "Mendapatkan 12%/15%/18%/21%/24% Elemental DMG Bonus untuk semua elemen. Saat anggota party lain menggunakan Elemental Skill, Karakter yang mengenakan senjata ini akan mendapatkan satu lapis Wavespike. Maksimal 2 lapis. Efek ini terpicu setiap 0,3 detik. Jika ada efek Wavespike yang telah terakumulasi saat Karakter yang mengenakan senjata ini melancarkan Elemental Skill-nya, maka semua lapisan Wavespike akan terkonsumsi dan Karakter akan mendapatkan Ripping Upheaval. Berdasarkan jumlah lapisan yang dikonsumsinya, setiap lapis Wavespike akan meningkatkan 20%/25%/30%/35%/40% DMG Normal Attack selama 8 detik.",
+    "th-th": "ได้รับโบนัสความเสียหายของธาตุทั้งหมด 12%/15%/18%/21%/24%; เมื่อตัวละครอื่น ๆ ในทีมที่อยู่ในบริเวณใกล้เคียงปล่อยสกิลธาตุ จะทำให้ตัวละครที่ใช้อาวุธนี้ได้รับเอฟเฟกต์ Wavespike 1 ชั้น โดยจะสามารถซ้อนทับได้มากสุด 2 ชั้น และเกิดขึ้นได้มากสุด 1 ครั้ง ในทุก 0.3 วินาที เมื่อตัวละครที่ใช้อาวุธนี้ปล่อยสกิลธาตุ หากมีเอฟเฟกต์ Wavespike สะสมอยู่ จะใช้ Wavespike ที่มี เพื่อรับ Rippling Upheaval ซึ่งแต่ละชั้นของ Wavespike ที่ถูกใช้ไป จะเพิ่มความเสียหายของการโจมตีปกติขึ้น 20%/25%/30%/35%/40% เป็นเวลา 8 วินาที",
+    "vi-vn": "Nhận được 12% buff sát thương tất cả nguyên tố; nhân vật khác trong đội ở gần khi thi triển Kỹ Năng Nguyên Tố, sẽ tạo ra 1 tầng \"Mũi Sóng\" cho nhân vật trang bị vũ khí này, tối đa cộng dồn 2 tầng, mỗi 0.3s tối đa kích hoạt 1 lần. Khi nhân vật trang bị vũ khí này thi triển Kỹ Năng Nguyên Tố, nếu có hiệu ứng \"Mũi Sóng\" sẽ tiêu hao \"Mũi Sóng\" đã có, và nhận được \"Sóng Loạn\": Căn cứ số tầng tiêu hao, mỗi tầng tăng 20% sát thương tấn công thường, duy trì 8s.",
+    "zh-tw": "獲得12%/15%/18%/21%/24%所有元素傷害加成；隊伍中附近的其他角色在施放元素戰技時，會為裝備該武器的角色產生1層「波穗」效果，至多疊加2層，每0.3秒最多觸發1次。裝備該武器的角色施放元素戰技時，如果有累積的「波穗」效果，則將消耗已有的「波穗」，獲得「波亂」：根據消耗的層數，每層提升20%/25%/30%/35%/40%普通攻擊傷害，持續8秒。"
+  },
+  "weaponIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/weapon/波乱月白经津.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 1906,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "A Sabedoria de Narukami",
+            "en-us": "Narukami's Wisdom",
+            "ja-jp": "鳴神御霊の恩恵",
+            "zh-cn": "鸣神御灵的明惠",
+            "ko-kr": "나루카미 어령의 은혜",
+            "ru-ru": "Мудрость Наруками",
+            "de-de": "Narukamis Weisheit",
+            "fr-fr": "Sagesse de Narukami",
+            "es-es": "Sabiduría de Narukami",
+            "id-id": "Narukami's Wisdom",
+            "th-th": "Narukami's Wisdom",
+            "vi-vn": "Trí Tuệ Của Narukami",
+            "zh-tw": "鳴神御靈的明惠"
+          }
+        },
+        {
+          "id": 895,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "Escultura Sombria",
+            "en-us": "Gloomy Statuette",
+            "ja-jp": "暗晦の彫刻",
+            "zh-cn": "晦暗刻像",
+            "ko-kr": "어두운 조각상",
+            "ru-ru": "Мрачная статуэтка",
+            "de-de": "Figur der Dunkelheit",
+            "fr-fr": "Statuette sinistre",
+            "es-es": "Estatuilla oscura",
+            "id-id": "Gloomy Statuette",
+            "th-th": "Gloomy Statuette",
+            "vi-vn": "Tượng Hắc Ám",
+            "zh-tw": "晦暗刻像"
+          }
+        },
+        {
+          "id": 1248,
+          "iconUrl": null,
+          "amount": 3,
+          "name": {
+            "pt-pt": "Protetor de Mão Velho",
+            "en-us": "Old Handguard",
+            "ja-jp": "古びた鍔",
+            "zh-cn": "破旧的刀镡",
+            "ko-kr": "오래된 코등이",
+            "ru-ru": "Старая гарда",
+            "de-de": "Alter Handschutz",
+            "fr-fr": "Garde-main ancien",
+            "es-es": "Guardamano viejo",
+            "id-id": "Old Handguard",
+            "th-th": "Old Handguard",
+            "vi-vn": "Kiếm Cách Cũ Nát",
+            "zh-tw": "破舊的刀鐔"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 1907,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "A Alegria de Narukami",
+            "en-us": "Narukami's Joy",
+            "ja-jp": "鳴神御霊の歓喜",
+            "zh-cn": "鸣神御灵的欢喜",
+            "ko-kr": "나루카미 어령의 환희",
+            "ru-ru": "Радость Наруками",
+            "de-de": "Narukamis Freude",
+            "fr-fr": "Joie de Narukami",
+            "es-es": "Júbilo de Narukami",
+            "id-id": "Narukami's Joy",
+            "th-th": "Narukami's Joy",
+            "vi-vn": "Sở Thích Của Narukami",
+            "zh-tw": "鳴神御靈的歡喜"
+          }
+        },
+        {
+          "id": 895,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Escultura Sombria",
+            "en-us": "Gloomy Statuette",
+            "ja-jp": "暗晦の彫刻",
+            "zh-cn": "晦暗刻像",
+            "ko-kr": "어두운 조각상",
+            "ru-ru": "Мрачная статуэтка",
+            "de-de": "Figur der Dunkelheit",
+            "fr-fr": "Statuette sinistre",
+            "es-es": "Estatuilla oscura",
+            "id-id": "Gloomy Statuette",
+            "th-th": "Gloomy Statuette",
+            "vi-vn": "Tượng Hắc Ám",
+            "zh-tw": "晦暗刻像"
+          }
+        },
+        {
+          "id": 1248,
+          "iconUrl": null,
+          "amount": 12,
+          "name": {
+            "pt-pt": "Protetor de Mão Velho",
+            "en-us": "Old Handguard",
+            "ja-jp": "古びた鍔",
+            "zh-cn": "破旧的刀镡",
+            "ko-kr": "오래된 코등이",
+            "ru-ru": "Старая гарда",
+            "de-de": "Alter Handschutz",
+            "fr-fr": "Garde-main ancien",
+            "es-es": "Guardamano viejo",
+            "id-id": "Old Handguard",
+            "th-th": "Old Handguard",
+            "vi-vn": "Kiếm Cách Cũ Nát",
+            "zh-tw": "破舊的刀鐔"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 1907,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "A Alegria de Narukami",
+            "en-us": "Narukami's Joy",
+            "ja-jp": "鳴神御霊の歓喜",
+            "zh-cn": "鸣神御灵的欢喜",
+            "ko-kr": "나루카미 어령의 환희",
+            "ru-ru": "Радость Наруками",
+            "de-de": "Narukamis Freude",
+            "fr-fr": "Joie de Narukami",
+            "es-es": "Júbilo de Narukami",
+            "id-id": "Narukami's Joy",
+            "th-th": "Narukami's Joy",
+            "vi-vn": "Sở Thích Của Narukami",
+            "zh-tw": "鳴神御靈的歡喜"
+          }
+        },
+        {
+          "id": 473,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Escultura do Alvorecer",
+            "en-us": "Dark Statuette",
+            "ja-jp": "黒夜の彫刻",
+            "zh-cn": "夤夜刻像",
+            "ko-kr": "흑야의 조각상",
+            "ru-ru": "Тёмная статуэтка",
+            "de-de": "Figur der Nacht",
+            "fr-fr": "Statuette maudite",
+            "es-es": "Estatuilla del amanecer",
+            "id-id": "Dark Statuette",
+            "th-th": "Dark Statuette",
+            "vi-vn": "Tượng Bóng Đêm",
+            "zh-tw": "夤夜刻像"
+          }
+        },
+        {
+          "id": 711,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Protetor de Mão Kageuchi",
+            "en-us": "Kageuchi Handguard",
+            "ja-jp": "影打の鍔",
+            "zh-cn": "影打刀镡",
+            "ko-kr": "카게우치 코등이",
+            "ru-ru": "Гарда кагэути",
+            "de-de": "Kageuchi-Handschutz",
+            "fr-fr": "Garde-main kageuchi",
+            "es-es": "Guardamano gemelo",
+            "id-id": "Kageuchi Handguard",
+            "th-th": "Kageuchi Handguard",
+            "vi-vn": "Kiếm Cách Bản Sao",
+            "zh-tw": "影打刀鐔"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 1904,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "O Afeto de Narukami",
+            "en-us": "Narukami's Affection",
+            "ja-jp": "鳴神御霊の親愛",
+            "zh-cn": "鸣神御灵的亲爱",
+            "ko-kr": "나루카미 어령의 친애",
+            "ru-ru": "Милость Наруками",
+            "de-de": "Narukamis Zuneigung",
+            "fr-fr": "Affection de Narukami",
+            "es-es": "Afecto de Narukami",
+            "id-id": "Narukami's Affection",
+            "th-th": "Narukami's Affection",
+            "vi-vn": "Tình Yêu Của Narukami",
+            "zh-tw": "鳴神御靈的親愛"
+          }
+        },
+        {
+          "id": 473,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Escultura do Alvorecer",
+            "en-us": "Dark Statuette",
+            "ja-jp": "黒夜の彫刻",
+            "zh-cn": "夤夜刻像",
+            "ko-kr": "흑야의 조각상",
+            "ru-ru": "Тёмная статуэтка",
+            "de-de": "Figur der Nacht",
+            "fr-fr": "Statuette maudite",
+            "es-es": "Estatuilla del amanecer",
+            "id-id": "Dark Statuette",
+            "th-th": "Dark Statuette",
+            "vi-vn": "Tượng Bóng Đêm",
+            "zh-tw": "夤夜刻像"
+          }
+        },
+        {
+          "id": 711,
+          "iconUrl": null,
+          "amount": 14,
+          "name": {
+            "pt-pt": "Protetor de Mão Kageuchi",
+            "en-us": "Kageuchi Handguard",
+            "ja-jp": "影打の鍔",
+            "zh-cn": "影打刀镡",
+            "ko-kr": "카게우치 코등이",
+            "ru-ru": "Гарда кагэути",
+            "de-de": "Kageuchi-Handschutz",
+            "fr-fr": "Garde-main kageuchi",
+            "es-es": "Guardamano gemelo",
+            "id-id": "Kageuchi Handguard",
+            "th-th": "Kageuchi Handguard",
+            "vi-vn": "Kiếm Cách Bản Sao",
+            "zh-tw": "影打刀鐔"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 1904,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "O Afeto de Narukami",
+            "en-us": "Narukami's Affection",
+            "ja-jp": "鳴神御霊の親愛",
+            "zh-cn": "鸣神御灵的亲爱",
+            "ko-kr": "나루카미 어령의 친애",
+            "ru-ru": "Милость Наруками",
+            "de-de": "Narukamis Zuneigung",
+            "fr-fr": "Affection de Narukami",
+            "es-es": "Afecto de Narukami",
+            "id-id": "Narukami's Affection",
+            "th-th": "Narukami's Affection",
+            "vi-vn": "Tình Yêu Của Narukami",
+            "zh-tw": "鳴神御靈的親愛"
+          }
+        },
+        {
+          "id": 698,
+          "iconUrl": null,
+          "amount": 14,
+          "name": {
+            "pt-pt": "Escultura das Profundezas",
+            "en-us": "Deathly Statuette",
+            "ja-jp": "幽邃なる彫刻",
+            "zh-cn": "幽邃刻像",
+            "ko-kr": "그윽한 조각상",
+            "ru-ru": "Смертельная статуэтка",
+            "de-de": "Figur der Finsternis",
+            "fr-fr": "Statuette maléfique",
+            "es-es": "Estatuilla de las profundidades",
+            "id-id": "Deathly Statuette",
+            "th-th": "Deathly Statuette",
+            "vi-vn": "Tượng Tử Thần",
+            "zh-tw": "幽邃刻像"
+          }
+        },
+        {
+          "id": 400,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Protetor de Mão Famoso",
+            "en-us": "Famed Handguard",
+            "ja-jp": "名刀の鍔",
+            "zh-cn": "名刀镡",
+            "ko-kr": "명검 코등이",
+            "ru-ru": "Прославленная гарда",
+            "de-de": "Berühmter Handschutz",
+            "fr-fr": "Garde-main célèbre",
+            "es-es": "Guardamano célebre",
+            "id-id": "Famed Handguard",
+            "th-th": "Famed Handguard",
+            "vi-vn": "Kiếm Cách Trứ Danh",
+            "zh-tw": "名刀鐔"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 1905,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "A Coragem de Narukami",
+            "en-us": "Narukami's Valor",
+            "ja-jp": "鳴神御霊の勇武",
+            "zh-cn": "鸣神御灵的勇武",
+            "ko-kr": "나루카미 어령의 용맹",
+            "ru-ru": "Доблесть Наруками",
+            "de-de": "Narukamis Tapferkeit",
+            "fr-fr": "Vaillance de Narukami",
+            "es-es": "Valentía de Narukami",
+            "id-id": "Narukami's Valor",
+            "th-th": "Narukami's Valor",
+            "vi-vn": "Uy Dũng Của Narukami",
+            "zh-tw": "鳴神御靈的勇武"
+          }
+        },
+        {
+          "id": 698,
+          "iconUrl": null,
+          "amount": 27,
+          "name": {
+            "pt-pt": "Escultura das Profundezas",
+            "en-us": "Deathly Statuette",
+            "ja-jp": "幽邃なる彫刻",
+            "zh-cn": "幽邃刻像",
+            "ko-kr": "그윽한 조각상",
+            "ru-ru": "Смертельная статуэтка",
+            "de-de": "Figur der Finsternis",
+            "fr-fr": "Statuette maléfique",
+            "es-es": "Estatuilla de las profundidades",
+            "id-id": "Deathly Statuette",
+            "th-th": "Deathly Statuette",
+            "vi-vn": "Tượng Tử Thần",
+            "zh-tw": "幽邃刻像"
+          }
+        },
+        {
+          "id": 400,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Protetor de Mão Famoso",
+            "en-us": "Famed Handguard",
+            "ja-jp": "名刀の鍔",
+            "zh-cn": "名刀镡",
+            "ko-kr": "명검 코등이",
+            "ru-ru": "Прославленная гарда",
+            "de-de": "Berühmter Handschutz",
+            "fr-fr": "Garde-main célèbre",
+            "es-es": "Guardamano célebre",
+            "id-id": "Famed Handguard",
+            "th-th": "Famed Handguard",
+            "vi-vn": "Kiếm Cách Trứ Danh",
+            "zh-tw": "名刀鐔"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "46"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "7.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "122",
+          "postAscensionValue": "153"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "12.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "235",
+          "postAscensionValue": "266"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "18.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "308",
+          "postAscensionValue": "340"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "21.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "382",
+          "postAscensionValue": "414"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "24.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "457",
+          "postAscensionValue": "488"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "27.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "532",
+          "postAscensionValue": "563"
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "30.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "608",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Taxa Crítica",
+            "en-us": "CRIT Rate",
+            "ja-jp": "会心率",
+            "zh-cn": "暴击率",
+            "ko-kr": "치명타 확률",
+            "ru-ru": "Шанс крит. попадания",
+            "de-de": "KT",
+            "fr-fr": "Taux CRIT",
+            "es-es": "Prob. CRIT",
+            "id-id": "CRIT Rate",
+            "th-th": "อัตราคริ",
+            "vi-vn": "Tỷ Lệ Bạo Kích",
+            "zh-tw": "暴擊率"
+          },
+          "value": "33.1%"
+        }
+      ]
+    }
+  ]
+}

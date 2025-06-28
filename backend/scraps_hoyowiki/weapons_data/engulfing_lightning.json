@@ -1,0 +1,982 @@
+{
+  "id": "engulfing_lightning",
+  "wiki_id": 2014,
+  "name": {
+    "pt-pt": "Luz do Cortador de Grama",
+    "en-us": "Engulfing Lightning",
+    "ja-jp": "草薙の稲光",
+    "zh-cn": "薙草之稻光",
+    "ko-kr": "예초의 번개",
+    "ru-ru": "Сияющая жатва",
+    "de-de": "Grasschnittstrahl",
+    "fr-fr": "Lumière du faucheur",
+    "es-es": "Luz del Segador",
+    "id-id": "Engulfing Lightning",
+    "th-th": "Engulfing Lightning",
+    "vi-vn": "Đoạn Thảo Trường Đao",
+    "zh-tw": "薙草之稻光"
+  },
+  "description": {
+    "pt-pt": "Uma naginata usada para \"cortar grama\". Qualquer exército que esteja diante desta arma provavelmente será igualmente cortado...",
+    "en-us": "A naginata used to \"cut grass.\" Any army that stands before this weapon will probably be likewise cut down...",
+    "ja-jp": "「草斬り」に使われる薙刀。この武器の前に立ちはだかる軍隊は、草のように刈られるだろう…",
+    "zh-cn": "用于「斩草」的薙刀。对向此物之军势，也会如苇草般倒下吧…",
+    "ko-kr": "「절초」에 사용되는 치도. 이에 대항하려는 적군 역시 갈대처럼 쓰러질 것이다…",
+    "ru-ru": "Нагината для лёгкого «срезания травы». С такой же лёгкостью соберёт свою жатву с вражеской армии.",
+    "de-de": "Ein Naginata, das zum „Grasschneiden“ verwendet wird. Jede Armee, die vor dieser Waffe steht, wird wahrscheinlich ebenfalls niedergemäht ...",
+    "fr-fr": "Une naginata utilisée pour « faucher les mauvaises herbes ». Tout soldat se tenant devant sa lame sera probablement également taillé d'un peu trop près...",
+    "es-es": "Una naginata que se usa para cortar hierba. Cualquier ejército que se enfrente a esta arma también se verá arrancado del suelo.",
+    "id-id": "Naginata yang digunakan untuk \"memotong rumput\". Pasukan yang berani berdiri di hadapan senjata ini pasti akan tertebas seperti rumput liar...",
+    "th-th": "ง้าวนางินาตะที่ใช้ในการ \"ตัดหญ้า\" กองทัพที่เผชิญหน้ากับสิ่งนี้ ก็คงจะล้มลงราวกับต้นหญ้าเหล่านั้นล่ะนะ...",
+    "vi-vn": "Trảm thảo trường đao, kẻ đối mặt với thanh đao này cũng sẽ như ngọn cỏ ngã xuống.",
+    "zh-tw": "用於「斬草」的薙刀。對向此物之軍勢，也會如葦草般倒下吧…"
+  },
+  "rarity": 5,
+  "type": {
+    "pt-pt": "Lança",
+    "en-us": "Polearm",
+    "ja-jp": "長柄武器",
+    "zh-cn": "长柄武器",
+    "ko-kr": "장병기",
+    "ru-ru": "Древковое",
+    "de-de": "Stangenwaffe",
+    "fr-fr": "Arme d'hast",
+    "es-es": "Lanza",
+    "id-id": "Polearm",
+    "th-th": "หอก",
+    "vi-vn": "Vũ Khí Cán Dài",
+    "zh-tw": "長柄武器"
+  },
+  "subStat": {
+    "pt-pt": "Recarga de Energia%",
+    "en-us": "Energy Recharge",
+    "ja-jp": "元素チャージ効率",
+    "zh-cn": "元素充能效率",
+    "ko-kr": "원소 충전 효율",
+    "ru-ru": "Восст. энергии",
+    "de-de": "Aufladerate",
+    "fr-fr": "Recharge d'énergie",
+    "es-es": "Recarga de Energía",
+    "id-id": "Energy Recharge",
+    "th-th": "การฟื้นฟูพลังงาน",
+    "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+    "zh-tw": "元素充能效率"
+  },
+  "passiveName": {
+    "pt-pt": "Sonho Atemporal: Fogão Eterno",
+    "en-us": "Timeless Dream: Eternal Stove",
+    "ja-jp": "非時の夢・常世竈食",
+    "zh-cn": "非时之梦·常世灶食",
+    "ko-kr": "불시의 꿈·영원한 부뚜막",
+    "ru-ru": "Сон вне времени: Печь вечности:",
+    "de-de": "Zeitloser Traum – Ewiger Herd",
+    "fr-fr": "Rêve intemporel : Fournaise éternelle",
+    "es-es": "Sueño atemporal: Horno eterno",
+    "id-id": "Timeless Dream: Eternal Stove",
+    "th-th": "Timeless Dream: Eternal Stove",
+    "vi-vn": "Giấc Mơ Vĩnh Cửu - Nguyên Liệu Vĩnh Hằng",
+    "zh-tw": "非時之夢·常世灶食"
+  },
+  "passiveDescription": {
+    "pt-pt": "O ATQ é aumentado em 28%/35%/42%/49%/56% da Recarga de Energia acima da base de 100%. Você pode receber um Bônus máximo de 80%/90%/100%/110%/120% de ATQ. Ganha 30%/35%/40%/45%/50% de Recarga de Energia por 12s depois de usar um Supremo.",
+    "en-us": "ATK increased by 28%/35%/42%/49%/56% of Energy Recharge over the base 100%. You can gain a maximum bonus of 80%/90%/100%/110%/120% ATK. Gain 30%/35%/40%/45%/50% Energy Recharge for 12s after using an Elemental Burst.",
+    "ja-jp": "元素チャージ効率が100%を超えている場合、その超えた部分の28/35/42/49/56%分、攻撃力がアップする。この方式でアップできる攻撃力は最大80/90/100/110/120%まで。元素爆発を発動した後の12秒間、元素チャージ効率+30/35/40/45/50%。",
+    "zh-cn": "攻击力获得提升，提升程度相当于元素充能效率超出100%部分的28%/35%/42%/49%/56%，至多通过这种方式提升80%/90%/100%/110%/120%。施放元素爆发后的12秒内，元素充能效率提升30%/35%/40%/45%/50%。",
+    "ko-kr": "원소 충전 효율이 100%를 초과할 경우, 공격력이 초과된 부분의 28%/35%/42%/49%/56%만큼 증가하며, 해당 방식을 통해 최대 80%/90%/100%/110%/120% 증가할 수 있다. 원소폭발 발동 후 12초 동안 원소 충전 효율이 30%/35%/40%/45%/50% 증가한다",
+    "ru-ru": "Увеличивает силу атаки на 28%/35%/42%/49%/56% от показателя восстановления энергии свыше 100%. Вы можете получить бонус силы атаки до 80%/90%/100%/110%/120%. Также даёт 30%/35%/40%/45%/50% восстановления энергии на 12 сек. после активации взрыва стихии.",
+    "de-de": "Erhöht den Angriff um 28% ~ 35% ~ 42% ~ 49% ~ 56% der Prozentpunkte über 100% der Aufladerate. Bis zu 80% ~ 90% ~ 100% ~ 110% ~ 120% Bonus auf diese Weise möglich. Erhöht die Aufladerate nach Anwendung von Spezialfähigkeiten 12s lang um 30% ~ 35% ~ 40% ~ 45% ~ 50%.",
+    "fr-fr": "Augmente l'ATQ d'une valeur équivalant à 28 %/35 %/42 %/49 %/56 % de la part de recharge d'énergie supérieure à 100 %. L'ATQ peut être augmentée de 80 %/90 %/100 %/110 %/120 % max de cette manière. Après l'utilisation d'un déchaînement élémentaire, la recharge d'énergie augmente de 30 %/35 %/40 %/45 %/50 % pendant 12 s.",
+    "es-es": "Aumenta el ATQ en un 28%/35%/42%/49%/56% de la cantidad de Recarga de Energía que el personaje tenga por encima del 100%. El ATQ puede aumentar como máximo en un 80%/90%/100%/110%/120% de esta manera. Tras usar la Habilidad Definitiva, la Recarga de Energía aumenta en un 30%/35%/40%/45%/50% durante 12 s.",
+    "id-id": "Mendapatkan Bonus ATK sebesar 28%/35%/42%/49%/56% dari jumlah Energy Recharge di atas angka 100%. Maksimum bisa meningkatkan 80%/90%/100%/110%/120% ATK dengan cara ini. Melancarkan Elemental Burst akan meningkatkan Energy Recharge sebesar 30%/35%/40%/45%/50% selama 12 detik.",
+    "th-th": "พลังโจมตีเพิ่มขึ้น โดยที่ระดับการเพิ่มจะเท่ากับ 28%/35%/42%/49%/56% ของส่วนที่เกินมาจาก 100% ของประสิทธิภาพการฟื้นฟูพลังงาน โดยจะสามารถเพิ่มด้วยวิธีนี้ได้มากสุดถึง 80%/90%/100%/110%/120% และภายในเวลา 12 วินาที หลังจากปล่อยท่าไม้ตาย ประสิทธิภาพการฟื้นฟูพลังงานจะเพิ่มขึ้น 30%/35%/40%/45%/50%",
+    "vi-vn": "Tăng sức tấn công nhận được, mức tăng thêm tương đương 28% lượng dư ra trên 100% của Hiệu Quả Nạp Nguyên Tố, tối đa tăng 80% từ cách này. Trong 12s sau khi thi triển Kỹ Năng Nộ, tăng 30% Hiệu Quả Nạp Nguyên Tố.",
+    "zh-tw": "攻擊力獲得提升，提升程度相當於元素充能效率超出100%部分的28%/35%/42%/49%/56%，至多依此方式提升80%/90%/100%/110%/120%。施放元素爆發後的12秒內，元素充能效率提升30%/35%/40%/45%/50%。"
+  },
+  "weaponIconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/weapon/薙草之稻光.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 262,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "Máscara do Tenente Perverso",
+            "en-us": "Mask of the Wicked Lieutenant",
+            "ja-jp": "今昔劇画の悪尉",
+            "zh-cn": "今昔剧画之恶尉",
+            "ko-kr": "금석극화의 가면",
+            "ru-ru": "Маска злого военачальника",
+            "de-de": "Die Maske des bösen Leutnants",
+            "fr-fr": "Masque du lieutenant pernicieux",
+            "es-es": "Máscara del teniente maligno",
+            "id-id": "Mask of the Wicked Lieutenant",
+            "th-th": "Mask of the Wicked Lieutenant",
+            "vi-vn": "Tà Ác Của Gekiga",
+            "zh-tw": "今昔劇畫之惡尉"
+          }
+        },
+        {
+          "id": 1043,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "Mecanismo do Caos",
+            "en-us": "Chaos Gear",
+            "ja-jp": "混沌の機関",
+            "zh-cn": "混沌机关",
+            "ko-kr": "혼돈의 기관",
+            "ru-ru": "Механизм хаоса",
+            "de-de": "Chaos-Vorrichtung",
+            "fr-fr": "Engrenage du chaos",
+            "es-es": "Engranaje del caos",
+            "id-id": "Chaos Gear",
+            "th-th": "Chaos Gear",
+            "vi-vn": "Cơ Quan Hỗn Độn",
+            "zh-tw": "混沌機關"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 263,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "Máscara da Mordida do Tigre",
+            "en-us": "Mask of the Tiger's Bite",
+            "ja-jp": "今昔劇画の虎牙",
+            "zh-cn": "今昔剧画之虎啮",
+            "ko-kr": "금석극화의 호교(虎嚙)",
+            "ru-ru": "Маска тигриной пасти",
+            "de-de": "Die Maske des Tigerbisses",
+            "fr-fr": "Masque de la morsure du tigre",
+            "es-es": "Máscara del mordisco de tigre",
+            "id-id": "Mask of the Tiger's Bite",
+            "th-th": "Mask of the Tiger's Bite",
+            "vi-vn": "Nanh Cọp Của Gekiga",
+            "zh-tw": "今昔劇畫之虎齧"
+          }
+        },
+        {
+          "id": 1043,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Mecanismo do Caos",
+            "en-us": "Chaos Gear",
+            "ja-jp": "混沌の機関",
+            "zh-cn": "混沌机关",
+            "ko-kr": "혼돈의 기관",
+            "ru-ru": "Механизм хаоса",
+            "de-de": "Chaos-Vorrichtung",
+            "fr-fr": "Engrenage du chaos",
+            "es-es": "Engranaje del caos",
+            "id-id": "Chaos Gear",
+            "th-th": "Chaos Gear",
+            "vi-vn": "Cơ Quan Hỗn Độn",
+            "zh-tw": "混沌機關"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 263,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Máscara da Mordida do Tigre",
+            "en-us": "Mask of the Tiger's Bite",
+            "ja-jp": "今昔劇画の虎牙",
+            "zh-cn": "今昔剧画之虎啮",
+            "ko-kr": "금석극화의 호교(虎嚙)",
+            "ru-ru": "Маска тигриной пасти",
+            "de-de": "Die Maske des Tigerbisses",
+            "fr-fr": "Masque de la morsure du tigre",
+            "es-es": "Máscara del mordisco de tigre",
+            "id-id": "Mask of the Tiger's Bite",
+            "th-th": "Mask of the Tiger's Bite",
+            "vi-vn": "Nanh Cọp Của Gekiga",
+            "zh-tw": "今昔劇畫之虎齧"
+          }
+        },
+        {
+          "id": 1044,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Processador do Caos",
+            "en-us": "Chaos Axis",
+            "ja-jp": "混沌の中枢",
+            "zh-cn": "混沌枢纽",
+            "ko-kr": "혼돈의 중추",
+            "ru-ru": "Ось хаоса",
+            "de-de": "Chaos-Achse",
+            "fr-fr": "Axe du chaos",
+            "es-es": "Eje del caos",
+            "id-id": "Chaos Axis",
+            "th-th": "Chaos Axis",
+            "vi-vn": "Đầu Nối Hỗn Độn",
+            "zh-tw": "混沌樞紐"
+          }
+        },
+        {
+          "id": 711,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Protetor de Mão Kageuchi",
+            "en-us": "Kageuchi Handguard",
+            "ja-jp": "影打の鍔",
+            "zh-cn": "影打刀镡",
+            "ko-kr": "카게우치 코등이",
+            "ru-ru": "Гарда кагэути",
+            "de-de": "Kageuchi-Handschutz",
+            "fr-fr": "Garde-main kageuchi",
+            "es-es": "Guardamano gemelo",
+            "id-id": "Kageuchi Handguard",
+            "th-th": "Kageuchi Handguard",
+            "vi-vn": "Kiếm Cách Bản Sao",
+            "zh-tw": "影打刀鐔"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 261,
+          "iconUrl": null,
+          "amount": 5,
+          "name": {
+            "pt-pt": "Máscara Daquele com Um Chifre",
+            "en-us": "Mask of the One-Horned",
+            "ja-jp": "今昔劇画の隻角",
+            "zh-cn": "今昔剧画之一角",
+            "ko-kr": "금석극화의 일각",
+            "ru-ru": "Маска однорогого",
+            "de-de": "Maske des Einhörnigen",
+            "fr-fr": "Masque du cornu",
+            "es-es": "Máscara del cuerno",
+            "id-id": "Mask of the One-Horned",
+            "th-th": "Mask of the One-Horned",
+            "vi-vn": "Sừng Của Gekiga",
+            "zh-tw": "今昔劇畫之一角"
+          }
+        },
+        {
+          "id": 1044,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Processador do Caos",
+            "en-us": "Chaos Axis",
+            "ja-jp": "混沌の中枢",
+            "zh-cn": "混沌枢纽",
+            "ko-kr": "혼돈의 중추",
+            "ru-ru": "Ось хаоса",
+            "de-de": "Chaos-Achse",
+            "fr-fr": "Axe du chaos",
+            "es-es": "Eje del caos",
+            "id-id": "Chaos Axis",
+            "th-th": "Chaos Axis",
+            "vi-vn": "Đầu Nối Hỗn Độn",
+            "zh-tw": "混沌樞紐"
+          }
+        },
+        {
+          "id": 711,
+          "iconUrl": null,
+          "amount": 14,
+          "name": {
+            "pt-pt": "Protetor de Mão Kageuchi",
+            "en-us": "Kageuchi Handguard",
+            "ja-jp": "影打の鍔",
+            "zh-cn": "影打刀镡",
+            "ko-kr": "카게우치 코등이",
+            "ru-ru": "Гарда кагэути",
+            "de-de": "Kageuchi-Handschutz",
+            "fr-fr": "Garde-main kageuchi",
+            "es-es": "Guardamano gemelo",
+            "id-id": "Kageuchi Handguard",
+            "th-th": "Kageuchi Handguard",
+            "vi-vn": "Kiếm Cách Bản Sao",
+            "zh-tw": "影打刀鐔"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 261,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Máscara Daquele com Um Chifre",
+            "en-us": "Mask of the One-Horned",
+            "ja-jp": "今昔劇画の隻角",
+            "zh-cn": "今昔剧画之一角",
+            "ko-kr": "금석극화의 일각",
+            "ru-ru": "Маска однорогого",
+            "de-de": "Maske des Einhörnigen",
+            "fr-fr": "Masque du cornu",
+            "es-es": "Máscara del cuerno",
+            "id-id": "Mask of the One-Horned",
+            "th-th": "Mask of the One-Horned",
+            "vi-vn": "Sừng Của Gekiga",
+            "zh-tw": "今昔劇畫之一角"
+          }
+        },
+        {
+          "id": 1046,
+          "iconUrl": null,
+          "amount": 14,
+          "name": {
+            "pt-pt": "Olho do Caos",
+            "en-us": "Chaos Oculus",
+            "ja-jp": "混沌の真眼",
+            "zh-cn": "混沌真眼",
+            "ko-kr": "혼돈의 눈동자",
+            "ru-ru": "Око хаоса",
+            "de-de": "Chaos-Oculus",
+            "fr-fr": "Œil du chaos",
+            "es-es": "Ojo del caos",
+            "id-id": "Chaos Oculus",
+            "th-th": "Chaos Oculus",
+            "vi-vn": "Con Ngươi Hỗn Độn",
+            "zh-tw": "混沌真眼"
+          }
+        },
+        {
+          "id": 400,
+          "iconUrl": null,
+          "amount": 9,
+          "name": {
+            "pt-pt": "Protetor de Mão Famoso",
+            "en-us": "Famed Handguard",
+            "ja-jp": "名刀の鍔",
+            "zh-cn": "名刀镡",
+            "ko-kr": "명검 코등이",
+            "ru-ru": "Прославленная гарда",
+            "de-de": "Berühmter Handschutz",
+            "fr-fr": "Garde-main célèbre",
+            "es-es": "Guardamano célebre",
+            "id-id": "Famed Handguard",
+            "th-th": "Famed Handguard",
+            "vi-vn": "Kiếm Cách Trứ Danh",
+            "zh-tw": "名刀鐔"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 264,
+          "iconUrl": null,
+          "amount": 6,
+          "name": {
+            "pt-pt": "Máscara de Kijin",
+            "en-us": "Mask of the Kijin",
+            "ja-jp": "今昔劇画の鬼人",
+            "zh-cn": "今昔剧画之鬼人",
+            "ko-kr": "금석극화의 귀인(鬼人)",
+            "ru-ru": "Маска кидзин",
+            "de-de": "Maske der Kijin",
+            "fr-fr": "Masque du kijin",
+            "es-es": "Máscara fantasmagórica",
+            "id-id": "Mask of the Kijin",
+            "th-th": "Mask of the Kijin",
+            "vi-vn": "Con Quỷ Của Gekiga",
+            "zh-tw": "今昔劇畫之鬼人"
+          }
+        },
+        {
+          "id": 1046,
+          "iconUrl": null,
+          "amount": 27,
+          "name": {
+            "pt-pt": "Olho do Caos",
+            "en-us": "Chaos Oculus",
+            "ja-jp": "混沌の真眼",
+            "zh-cn": "混沌真眼",
+            "ko-kr": "혼돈의 눈동자",
+            "ru-ru": "Око хаоса",
+            "de-de": "Chaos-Oculus",
+            "fr-fr": "Œil du chaos",
+            "es-es": "Ojo del caos",
+            "id-id": "Chaos Oculus",
+            "th-th": "Chaos Oculus",
+            "vi-vn": "Con Ngươi Hỗn Độn",
+            "zh-tw": "混沌真眼"
+          }
+        },
+        {
+          "id": 400,
+          "iconUrl": null,
+          "amount": 18,
+          "name": {
+            "pt-pt": "Protetor de Mão Famoso",
+            "en-us": "Famed Handguard",
+            "ja-jp": "名刀の鍔",
+            "zh-cn": "名刀镡",
+            "ko-kr": "명검 코등이",
+            "ru-ru": "Прославленная гарда",
+            "de-de": "Berühmter Handschutz",
+            "fr-fr": "Garde-main célèbre",
+            "es-es": "Guardamano célebre",
+            "id-id": "Famed Handguard",
+            "th-th": "Famed Handguard",
+            "vi-vn": "Kiếm Cách Trứ Danh",
+            "zh-tw": "名刀鐔"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv.1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St.1",
+        "fr-fr": "Niv.1",
+        "es-es": "Niv.1",
+        "id-id": "Lv.1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "46"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "12.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St.20",
+        "fr-fr": "Niv.20",
+        "es-es": "Niv.20",
+        "id-id": "Lv.20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "122",
+          "postAscensionValue": "153"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "21.2%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St.40",
+        "fr-fr": "Niv.40",
+        "es-es": "Niv.40",
+        "id-id": "Lv.40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "235",
+          "postAscensionValue": "266"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "30.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St.50",
+        "fr-fr": "Niv.50",
+        "es-es": "Niv.50",
+        "id-id": "Lv.50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "308",
+          "postAscensionValue": "340"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "35.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St.60",
+        "fr-fr": "Niv.60",
+        "es-es": "Niv.60",
+        "id-id": "Lv.60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "382",
+          "postAscensionValue": "414"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "40.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St.70",
+        "fr-fr": "Niv.70",
+        "es-es": "Niv.70",
+        "id-id": "Lv.70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "457",
+          "postAscensionValue": "488"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "45.4%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St.80",
+        "fr-fr": "Niv.80",
+        "es-es": "Niv.80",
+        "id-id": "Lv.80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "532",
+          "postAscensionValue": "563"
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "50.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv.90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St.90",
+        "fr-fr": "Niv.90",
+        "es-es": "Niv.90",
+        "id-id": "Lv.90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "608",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Recarga de Energia",
+            "en-us": "Energy Recharge",
+            "ja-jp": "元素チャージ効率",
+            "zh-cn": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ru-ru": "Восст. энергии",
+            "de-de": "Aufladerate",
+            "fr-fr": "Recharge d'énergie",
+            "es-es": "Recarga de Energía",
+            "id-id": "Energy Recharge",
+            "th-th": "การฟื้นฟูพลังงาน",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-tw": "元素充能效率"
+          },
+          "value": "55.1%"
+        }
+      ]
+    }
+  ]
+}

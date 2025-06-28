@@ -48,68 +48,34 @@
   },
   "rarity": 5,
   "vision": {
-    "label": {
-      "pt-pt": "Tipo Elemental",
-      "en-us": "Elemental Type",
-      "ja-jp": "元素タイプ",
-      "zh-cn": "元素属性",
-      "ko-kr": "원소 속성",
-      "ru-ru": "Элемент",
-      "de-de": "Elementartyp",
-      "fr-fr": "Élément",
-      "es-es": "Tipo elemental",
-      "id-id": "Tipe Elemen",
-      "th-th": "ประเภทธาตุ",
-      "vi-vn": "Thuộc Tính Nguyên Tố",
-      "zh-tw": "元素屬性"
-    },
-    "value": {
-      "pt-pt": "Geo",
-      "en-us": "Geo",
-      "ja-jp": "岩元素",
-      "zh-cn": "岩元素",
-      "ko-kr": "바위 원소",
-      "ru-ru": "Гео",
-      "de-de": "Geo",
-      "fr-fr": "Géo",
-      "es-es": "Geo",
-      "id-id": "Geo",
-      "th-th": "หิน",
-      "vi-vn": "Nham",
-      "zh-tw": "岩元素"
-    }
+    "pt-pt": "Geo",
+    "en-us": "Geo",
+    "ja-jp": "岩元素",
+    "zh-cn": "岩元素",
+    "ko-kr": "바위 원소",
+    "ru-ru": "Гео",
+    "de-de": "Geo",
+    "fr-fr": "Géo",
+    "es-es": "Geo",
+    "id-id": "Geo",
+    "th-th": "หิน",
+    "vi-vn": "Nham",
+    "zh-tw": "岩元素"
   },
   "weapon": {
-    "label": {
-      "pt-pt": "Arma",
-      "en-us": "Weapons",
-      "ja-jp": "武器種",
-      "zh-cn": "武器",
-      "ko-kr": "무기",
-      "ru-ru": "Тип",
-      "de-de": "Waffe",
-      "fr-fr": "Type d'arme",
-      "es-es": "Arma",
-      "id-id": "Senjata",
-      "th-th": "อาวุธ",
-      "vi-vn": "Vũ Khí",
-      "zh-tw": "武器"
-    },
-    "value": {
-      "pt-pt": "Espada",
-      "en-us": "Sword",
-      "ja-jp": "片手剣",
-      "zh-cn": "单手剑",
-      "ko-kr": "한손검",
-      "ru-ru": "Одноручное",
-      "de-de": "Einhänder",
-      "fr-fr": "Épée à une main",
-      "es-es": "Espada ligera",
-      "id-id": "Sword",
-      "th-th": "ดาบ",
-      "vi-vn": "Kiếm Đơn",
-      "zh-tw": "單手劍"
-    }
+    "pt-pt": "Espada",
+    "en-us": "Sword",
+    "ja-jp": "片手剣",
+    "zh-cn": "单手剑",
+    "ko-kr": "한손검",
+    "ru-ru": "Одноручное",
+    "de-de": "Einhänder",
+    "fr-fr": "Épée à une main",
+    "es-es": "Espada ligera",
+    "id-id": "Sword",
+    "th-th": "ดาบ",
+    "vi-vn": "Kiếm Đơn",
+    "zh-tw": "單手劍"
   },
   "characterIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/09/25/b07074c2b9040516fd240b6b8d65c011_2487211347344319683.png",
   "elementIconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/27/9c4cd6e14b87fc262cca36e6d0e9bdb0_1526899214861833594.png",
@@ -118,15 +84,15 @@
     "en-us": "Panthera Ocelota",
     "ja-jp": "オセロット座",
     "zh-cn": "豹猫座",
+    "ko-kr": "N/A",
     "ru-ru": "Оцелот",
     "de-de": "Panthera Ocelota",
     "fr-fr": "Panthera Ocelota",
     "es-es": "Panthera Ocelota",
     "id-id": "Panthera Ocelota",
     "th-th": "Panthera Ocelota",
-    "zh-tw": "豹貓座",
-    "ko-kr": "N/A",
-    "vi-vn": "N/A"
+    "vi-vn": "N/A",
+    "zh-tw": "豹貓座"
   },
   "specialDish": {
     "id": 7044,
@@ -1027,6 +993,7 @@
             "ru-ru": "Уровень",
             "de-de": "St.",
             "fr-fr": "Niv.",
+            "es-es": "Level",
             "id-id": "Level",
             "th-th": "Level",
             "vi-vn": "Level",
@@ -1058,6 +1025,7 @@
             "ru-ru": "Урон выпада",
             "de-de": "Vorstoß-SCH",
             "fr-fr": "DGT ruée",
+            "es-es": "Rush DMG",
             "id-id": "DMG Terjangan",
             "th-th": "ความเสียหายพุ่งโจมตี",
             "vi-vn": "Sát Thương Xung Kích",
@@ -1089,6 +1057,7 @@
             "ru-ru": "Снижение сопротивления элементам",
             "de-de": "Verringerung des Elementar-WDS",
             "fr-fr": "Baisse RÉS élémentaire",
+            "es-es": "Elemental RES Decrease",
             "id-id": "Pengurangan Elemental RES",
             "th-th": "ลดความต้านทานธาตุ",
             "vi-vn": "Giám Kháng Nguyên Tố",
@@ -1120,6 +1089,7 @@
             "ru-ru": "Длительность активации Исходного сэмпла",
             "de-de": "Aktivierungsdauer des Samplers",
             "fr-fr": "Durée d'échantillon source",
+            "es-es": "Source Sample Activation Duration",
             "id-id": "Durasi Aktivasi Source Sample",
             "th-th": "เวลาเปิดใช้งานตัวอย่างเสียงต้นฉบับ",
             "vi-vn": "Thời Gian Kích Hoạt Âm Điệu Gốc",
@@ -1151,6 +1121,7 @@
             "ru-ru": "Лимит очков Ночного духа",
             "de-de": "Zeitlimit der Nachtseelenpunkte",
             "fr-fr": "Durée limite (pts de noctâme)",
+            "es-es": "Nightsoul Point Time Limit",
             "id-id": "Batas Waktu Poin Nightsoul",
             "th-th": "ขีดจำกัดเวลาค่าวิญญาณราตรี",
             "vi-vn": "Giới Hạn Thời Gian Điểm Dạ Hồn",
@@ -1182,6 +1153,7 @@
             "ru-ru": "Максимум очков Ночного духа",
             "de-de": "Max. Nachtseelenpunkte",
             "fr-fr": "Limite de noctâme",
+            "es-es": "Nightsoul Point Limit",
             "id-id": "Batas Poin Nightsoul",
             "th-th": "ขีดจำกัดค่าวิญญาณราตรี",
             "vi-vn": "Giới Hạn Điểm Dạ Hồn",
@@ -1213,6 +1185,7 @@
             "ru-ru": "Время отката",
             "de-de": "Abklingzeit",
             "fr-fr": "Temps de recharge",
+            "es-es": "CD",
             "id-id": "Cooldown",
             "th-th": "คูลดาวน์",
             "vi-vn": "CD",
@@ -1264,6 +1237,7 @@
             "ru-ru": "Уровень",
             "de-de": "St.",
             "fr-fr": "Niv.",
+            "es-es": "Level",
             "id-id": "Level",
             "th-th": "Level",
             "vi-vn": "Level",
@@ -1295,6 +1269,7 @@
             "ru-ru": "Урон навыка",
             "de-de": "Fähigkeits-SCH",
             "fr-fr": "Skill DMG",
+            "es-es": "Skill DMG",
             "id-id": "DMG Skill",
             "th-th": "ความเสียหายสกิล",
             "vi-vn": "Sát Thương Kỹ Năng",
@@ -1326,6 +1301,7 @@
             "ru-ru": "Периодическое лечение",
             "de-de": "Fortlaufende Heilung",
             "fr-fr": "Continuous Healing",
+            "es-es": "Continuous Healing",
             "id-id": "Pemulihan Berkelanjutan",
             "th-th": "ปริมาณการรักษาต่อเนื่อง",
             "vi-vn": "Lượng Trị Liệu Duy Trì",
@@ -1357,6 +1333,7 @@
             "ru-ru": "Длительность Бодрого ритма",
             "de-de": "Dauer des wogenden Rhythmus",
             "fr-fr": "Ebullient Rhythm Duration",
+            "es-es": "Ebullient Rhythm Duration",
             "id-id": "Durasi Ebullient Rhythm",
             "th-th": "ระยะเวลาต่อเนื่องจังหวะสุขสันต์",
             "vi-vn": "Thời Gian Duy Trì Nhịp Điệu Hân Hoan",
@@ -1388,6 +1365,7 @@
             "ru-ru": "Урон дополнительного бита",
             "de-de": "SCH zusätzlichen Takts",
             "fr-fr": "Follow-Up Beat DMG",
+            "es-es": "Follow-Up Beat DMG",
             "id-id": "DMG Ketukan Tambahan",
             "th-th": "ความเสียหายจังหวะเพิ่มเติม",
             "vi-vn": "Sát Thương Tiết Tấu Thêm",
@@ -1419,6 +1397,7 @@
             "ru-ru": "Время отката",
             "de-de": "Abklingzeit",
             "fr-fr": "CD",
+            "es-es": "CD",
             "id-id": "Cooldown",
             "th-th": "คูลดาวน์",
             "vi-vn": "CD",
@@ -1450,6 +1429,7 @@
             "ru-ru": "Потребление энергии",
             "de-de": "Elementarenergie",
             "fr-fr": "Energy Cost",
+            "es-es": "Energy Cost",
             "id-id": "Konsumsi Energy",
             "th-th": "พลังงานธาตุ",
             "vi-vn": "Năng Lượng Nguyên Tố",
@@ -1497,7 +1477,7 @@
           "level": 2,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 12500,
               "name": {
@@ -1517,7 +1497,7 @@
               }
             },
             {
-              "id": "6633",
+              "id": 6633,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/da7d45c793d53cd4a369d7c45afe9d81_3484506631950644156.png",
               "amount": 3,
               "name": {
@@ -1537,7 +1517,7 @@
               }
             },
             {
-              "id": "6644",
+              "id": 6644,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/e07c501cd10522b752f2c2f31ac8c642_4061071050000073771.png",
               "amount": 6,
               "name": {
@@ -1562,7 +1542,7 @@
           "level": 3,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 17500,
               "name": {
@@ -1582,7 +1562,7 @@
               }
             },
             {
-              "id": "6634",
+              "id": 6634,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/162ba8b049c0fd0359169fd55c2e180e_6634099661695760824.png",
               "amount": 2,
               "name": {
@@ -1602,7 +1582,7 @@
               }
             },
             {
-              "id": "6645",
+              "id": 6645,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/54375bf17fec5be6b0f4b9ca377cf847_124895529869157893.png",
               "amount": 3,
               "name": {
@@ -1627,7 +1607,7 @@
           "level": 4,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 25000,
               "name": {
@@ -1647,7 +1627,7 @@
               }
             },
             {
-              "id": "6634",
+              "id": 6634,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/162ba8b049c0fd0359169fd55c2e180e_6634099661695760824.png",
               "amount": 4,
               "name": {
@@ -1667,7 +1647,7 @@
               }
             },
             {
-              "id": "6645",
+              "id": 6645,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/54375bf17fec5be6b0f4b9ca377cf847_124895529869157893.png",
               "amount": 4,
               "name": {
@@ -1692,7 +1672,7 @@
           "level": 5,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 30000,
               "name": {
@@ -1712,7 +1692,7 @@
               }
             },
             {
-              "id": "6634",
+              "id": 6634,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/162ba8b049c0fd0359169fd55c2e180e_6634099661695760824.png",
               "amount": 6,
               "name": {
@@ -1732,7 +1712,7 @@
               }
             },
             {
-              "id": "6645",
+              "id": 6645,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/54375bf17fec5be6b0f4b9ca377cf847_124895529869157893.png",
               "amount": 6,
               "name": {
@@ -1757,7 +1737,7 @@
           "level": 6,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 37500,
               "name": {
@@ -1777,7 +1757,7 @@
               }
             },
             {
-              "id": "6634",
+              "id": 6634,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/162ba8b049c0fd0359169fd55c2e180e_6634099661695760824.png",
               "amount": 9,
               "name": {
@@ -1797,7 +1777,7 @@
               }
             },
             {
-              "id": "6645",
+              "id": 6645,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/54375bf17fec5be6b0f4b9ca377cf847_124895529869157893.png",
               "amount": 9,
               "name": {
@@ -1822,7 +1802,7 @@
           "level": 7,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 120000,
               "name": {
@@ -1842,7 +1822,7 @@
               }
             },
             {
-              "id": "6635",
+              "id": 6635,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/9c4596dc24ddc391b3b4ca2439261cde_2405366525579624554.png",
               "amount": 4,
               "name": {
@@ -1862,7 +1842,7 @@
               }
             },
             {
-              "id": "6646",
+              "id": 6646,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/c8648efda2051a6f005647a78ac907fb_7957923439991642143.png",
               "amount": 4,
               "name": {
@@ -1882,7 +1862,7 @@
               }
             },
             {
-              "id": "2972",
+              "id": 2972,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/03/1023623/1333a6528beb4e37468e543c79a7016e_1011083112611883674.png",
               "amount": 1,
               "name": {
@@ -1907,7 +1887,7 @@
           "level": 8,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 260000,
               "name": {
@@ -1927,7 +1907,7 @@
               }
             },
             {
-              "id": "6635",
+              "id": 6635,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/9c4596dc24ddc391b3b4ca2439261cde_2405366525579624554.png",
               "amount": 6,
               "name": {
@@ -1947,7 +1927,7 @@
               }
             },
             {
-              "id": "6646",
+              "id": 6646,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/c8648efda2051a6f005647a78ac907fb_7957923439991642143.png",
               "amount": 6,
               "name": {
@@ -1967,7 +1947,7 @@
               }
             },
             {
-              "id": "2972",
+              "id": 2972,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/03/1023623/1333a6528beb4e37468e543c79a7016e_1011083112611883674.png",
               "amount": 1,
               "name": {
@@ -1992,7 +1972,7 @@
           "level": 9,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 450000,
               "name": {
@@ -2012,7 +1992,7 @@
               }
             },
             {
-              "id": "6635",
+              "id": 6635,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/9c4596dc24ddc391b3b4ca2439261cde_2405366525579624554.png",
               "amount": 12,
               "name": {
@@ -2032,7 +2012,7 @@
               }
             },
             {
-              "id": "6646",
+              "id": 6646,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/c8648efda2051a6f005647a78ac907fb_7957923439991642143.png",
               "amount": 9,
               "name": {
@@ -2052,7 +2032,7 @@
               }
             },
             {
-              "id": "2972",
+              "id": 2972,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/03/1023623/1333a6528beb4e37468e543c79a7016e_1011083112611883674.png",
               "amount": 2,
               "name": {
@@ -2077,7 +2057,7 @@
           "level": 10,
           "items": [
             {
-              "id": "757",
+              "id": 757,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
               "amount": 700000,
               "name": {
@@ -2097,7 +2077,7 @@
               }
             },
             {
-              "id": "6635",
+              "id": 6635,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/9c4596dc24ddc391b3b4ca2439261cde_2405366525579624554.png",
               "amount": 16,
               "name": {
@@ -2117,7 +2097,7 @@
               }
             },
             {
-              "id": "6646",
+              "id": 6646,
               "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/c8648efda2051a6f005647a78ac907fb_7957923439991642143.png",
               "amount": 12,
               "name": {
@@ -2137,7 +2117,7 @@
               }
             },
             {
-              "id": "2972",
+              "id": 2972,
               "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/11/03/1023623/1333a6528beb4e37468e543c79a7016e_1011083112611883674.png",
               "amount": 2,
               "name": {
@@ -2157,7 +2137,7 @@
               }
             },
             {
-              "id": "900",
+              "id": 900,
               "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Crown%20of%20Insight_icon.png",
               "amount": 1,
               "name": {
@@ -2230,7 +2210,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 20000,
           "name": {
@@ -2250,7 +2230,7 @@
           }
         },
         {
-          "id": "447",
+          "id": 447,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Prithiva%20Topaz%20Sliver_icon.png",
           "amount": 1,
           "name": {
@@ -2270,7 +2250,7 @@
           }
         },
         {
-          "id": "6670",
+          "id": 6670,
           "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/09/15/94376896/ce9eba4228da700fb923e82335d19fdb_918682290112045151.png",
           "amount": 3,
           "name": {
@@ -2290,7 +2270,7 @@
           }
         },
         {
-          "id": "6644",
+          "id": 6644,
           "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/e07c501cd10522b752f2c2f31ac8c642_4061071050000073771.png",
           "amount": 3,
           "name": {
@@ -2329,7 +2309,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 40000,
           "name": {
@@ -2349,7 +2329,7 @@
           }
         },
         {
-          "id": "446",
+          "id": 446,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Prithiva%20Topaz%20Fragment_icon.png",
           "amount": 3,
           "name": {
@@ -2369,7 +2349,7 @@
           }
         },
         {
-          "id": "7040",
+          "id": 7040,
           "iconUrl": null,
           "amount": 2,
           "name": {
@@ -2389,7 +2369,7 @@
           }
         },
         {
-          "id": "6670",
+          "id": 6670,
           "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/09/15/94376896/ce9eba4228da700fb923e82335d19fdb_918682290112045151.png",
           "amount": 10,
           "name": {
@@ -2409,7 +2389,7 @@
           }
         },
         {
-          "id": "6644",
+          "id": 6644,
           "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/e07c501cd10522b752f2c2f31ac8c642_4061071050000073771.png",
           "amount": 15,
           "name": {
@@ -2448,7 +2428,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 60000,
           "name": {
@@ -2468,7 +2448,7 @@
           }
         },
         {
-          "id": "446",
+          "id": 446,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Prithiva%20Topaz%20Fragment_icon.png",
           "amount": 6,
           "name": {
@@ -2488,7 +2468,7 @@
           }
         },
         {
-          "id": "7040",
+          "id": 7040,
           "iconUrl": null,
           "amount": 4,
           "name": {
@@ -2508,7 +2488,7 @@
           }
         },
         {
-          "id": "6670",
+          "id": 6670,
           "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/09/15/94376896/ce9eba4228da700fb923e82335d19fdb_918682290112045151.png",
           "amount": 20,
           "name": {
@@ -2528,7 +2508,7 @@
           }
         },
         {
-          "id": "6645",
+          "id": 6645,
           "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/54375bf17fec5be6b0f4b9ca377cf847_124895529869157893.png",
           "amount": 12,
           "name": {
@@ -2567,7 +2547,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 80000,
           "name": {
@@ -2587,7 +2567,7 @@
           }
         },
         {
-          "id": "445",
+          "id": 445,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Prithiva%20Topaz%20Chunk_icon.png",
           "amount": 3,
           "name": {
@@ -2607,7 +2587,7 @@
           }
         },
         {
-          "id": "7040",
+          "id": 7040,
           "iconUrl": null,
           "amount": 8,
           "name": {
@@ -2627,7 +2607,7 @@
           }
         },
         {
-          "id": "6670",
+          "id": 6670,
           "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/09/15/94376896/ce9eba4228da700fb923e82335d19fdb_918682290112045151.png",
           "amount": 30,
           "name": {
@@ -2647,7 +2627,7 @@
           }
         },
         {
-          "id": "6645",
+          "id": 6645,
           "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/54375bf17fec5be6b0f4b9ca377cf847_124895529869157893.png",
           "amount": 18,
           "name": {
@@ -2686,7 +2666,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 100000,
           "name": {
@@ -2706,7 +2686,7 @@
           }
         },
         {
-          "id": "445",
+          "id": 445,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Prithiva%20Topaz%20Chunk_icon.png",
           "amount": 6,
           "name": {
@@ -2726,7 +2706,7 @@
           }
         },
         {
-          "id": "7040",
+          "id": 7040,
           "iconUrl": null,
           "amount": 12,
           "name": {
@@ -2746,7 +2726,7 @@
           }
         },
         {
-          "id": "6670",
+          "id": 6670,
           "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/09/15/94376896/ce9eba4228da700fb923e82335d19fdb_918682290112045151.png",
           "amount": 45,
           "name": {
@@ -2766,7 +2746,7 @@
           }
         },
         {
-          "id": "6646",
+          "id": 6646,
           "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/c8648efda2051a6f005647a78ac907fb_7957923439991642143.png",
           "amount": 12,
           "name": {
@@ -2805,7 +2785,7 @@
       },
       "materials": [
         {
-          "id": "757",
+          "id": 757,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
           "amount": 120000,
           "name": {
@@ -2825,7 +2805,7 @@
           }
         },
         {
-          "id": "444",
+          "id": 444,
           "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Prithiva%20Topaz%20Gemstone_icon.png",
           "amount": 6,
           "name": {
@@ -2845,7 +2825,7 @@
           }
         },
         {
-          "id": "7040",
+          "id": 7040,
           "iconUrl": null,
           "amount": 20,
           "name": {
@@ -2865,7 +2845,7 @@
           }
         },
         {
-          "id": "6670",
+          "id": 6670,
           "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/09/15/94376896/ce9eba4228da700fb923e82335d19fdb_918682290112045151.png",
           "amount": 60,
           "name": {
@@ -2885,7 +2865,7 @@
           }
         },
         {
-          "id": "6646",
+          "id": 6646,
           "iconUrl": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/08/25/35428890/c8648efda2051a6f005647a78ac907fb_7957923439991642143.png",
           "amount": 24,
           "name": {

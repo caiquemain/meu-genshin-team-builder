@@ -1,0 +1,1142 @@
+{
+  "id": "range_gauge",
+  "wiki_id": 4337,
+  "name": {
+    "pt-pt": "Medidor de Alcance",
+    "en-us": "Range Gauge",
+    "ja-jp": "レンジゲージ",
+    "zh-cn": "测距规",
+    "ko-kr": "거리 측정기",
+    "ru-ru": "Дальномер",
+    "de-de": "Entfernungsmesser",
+    "fr-fr": "Jauge de portée",
+    "es-es": "Medidor Telemétrico",
+    "id-id": "Range Gauge",
+    "th-th": "Range Gauge",
+    "vi-vn": "Máy Đo Cự Ly",
+    "zh-tw": "測距規"
+  },
+  "description": {
+    "pt-pt": "Um instrumento de medida que raramente é visto hoje em dia. É capaz de disparar flechas.",
+    "en-us": "A measuring instrument that you can rarely find nowadays. It is capable of firing arrows.",
+    "ja-jp": "今では、ほとんど見かけなくなった測量ツール。矢を放つ機能を持っている。",
+    "zh-cn": "如今几乎绝迹的测量工具，具有发射箭矢的能力。",
+    "ko-kr": "지금은 거의 사라져 버린 측량 도구. 활을 발사할 수 있다",
+    "ru-ru": "Измерительный инструмент, который в наше время нигде не найти. Способен выпускать стрелы.",
+    "de-de": "Das heute fast in Vergessenheit geratene Messgerät. Besitzt die Eigenschaft, Pfeile abzuschießen.",
+    "fr-fr": "Un instrument de mesure que l'on trouve rarement de nos jours. Il est capable de tirer des flèches.",
+    "es-es": "Una herramienta de medir que ya no se puede encontrar en prácticamente ningún sitio. Tiene la capacidad de disparar flechas.",
+    "id-id": "Alat pengukur yang hampir punah saat ini. Memiliki kemampuan untuk menembakkan anak panah.",
+    "th-th": "เครื่องมือวัดที่หาได้ยากในปัจจุบัน ซึ่งมีความสามารถในการยิงลูกธนู",
+    "vi-vn": "Công cụ đo lường, ngày nay gần như tuyệt tích, có khả năng bắn tên.",
+    "zh-tw": "如今幾乎絕跡的測量工具，具有發射箭矢的能力。"
+  },
+  "rarity": 4,
+  "type": {
+    "pt-pt": "Arco",
+    "en-us": "Bow",
+    "ja-jp": "弓",
+    "zh-cn": "弓",
+    "ko-kr": "활",
+    "ru-ru": "Стрелковое",
+    "de-de": "Bogen",
+    "fr-fr": "Arc",
+    "es-es": "Arco",
+    "id-id": "Bow",
+    "th-th": "ธนู",
+    "vi-vn": "Cung",
+    "zh-tw": "弓"
+  },
+  "subStat": {
+    "pt-pt": "ATQ%",
+    "en-us": "ATK",
+    "ja-jp": "攻撃力",
+    "zh-cn": "攻击力",
+    "ko-kr": "공격력",
+    "ru-ru": "Сила атаки",
+    "de-de": "ANG",
+    "fr-fr": "ATQ",
+    "es-es": "ATQ",
+    "id-id": "ATK",
+    "th-th": "พลังโจมตี",
+    "vi-vn": "Tấn Công",
+    "zh-tw": "攻擊力"
+  },
+  "passiveName": {
+    "pt-pt": "Canção do Pedreiro",
+    "en-us": "Masons' Ditty",
+    "ja-jp": "石工の唄",
+    "zh-cn": "石匠号子",
+    "ko-kr": "석공의 노래",
+    "ru-ru": "Запевка каменщиков:",
+    "de-de": "Steinmetzlied",
+    "fr-fr": "Chant-maçon",
+    "es-es": "Saloma de los canteros",
+    "id-id": "Masons' Ditty",
+    "th-th": "Masons' Ditty",
+    "vi-vn": "Khúc Ca Thợ Đẽo Đá",
+    "zh-tw": "石匠號子"
+  },
+  "passiveDescription": {
+    "pt-pt": "Quando é curado ou cura, concede o Sinal da União por 30s, é possível acumular 3 Sinais da União. Ao lançar uma Habilidade Elemental ou Supremo, consome todos os Sinais da União e gera por 10s o efeito \"Resistência\": para cada Sinal da União consumido, aumenta o ATQ em 3%/4%/5%/6%/7% e o Bônus de Dano Elemental em 7%/8.5%/10%/11.5%/13%. É possível desencadear o efeito \"Resistência\" uma vez a cada 15s. Também é possível obter o Sinal da União quando o personagem não está ativo no campo de batalha.",
+    "en-us": "When the wielder is healed or heals others, they will gain a Unity's Symbol that lasts 30s, up to a maximum of 3 Symbols. When using their Elemental Skill or Burst, all Symbols will be consumed and the Struggle effect will be granted for 10s. For each Symbol consumed, gain 3%/4%/5%/6%/7% ATK and 7%/8.5%/10%/11.5%/13% All Elemental DMG Bonus. The Struggle effect can be triggered once every 15s, and Symbols can be gained even when the character is not on the field.",
+    "ja-jp": "治療効果を受ける、または治療効果を与える時、団結マークが1枚付与される。継続時間30秒、最大3枚まで。元素スキル、または元素爆発を発動する時、すべての団結マークを消費し、継続時間10秒の「抗争」効果を獲得する。消費した団結マーク1枚につき、攻撃力+3/4/5/6/7％、全元素ダメージ+7/8.5/10/11.5/13％。「抗争」効果は15秒に1回のみ発動可能。キャラクターが待機中でも団結マークを獲得できる。",
+    "zh-cn": "受到治疗或进行治疗时，将赋予一枚团结标记，持续30秒，至多拥有三枚团结标记。施放元素战技或元素爆发时，将消耗所有的团结标记，产生持续10秒的「抗争」效果：每枚消耗的团结标记提高3%/4%/5%/6%/7%攻击力与7%/8.5%/10%/11.5%/13%所有元素伤害加成。每15秒至多触发一次抗争效果；角色处于队伍后台时也能获得团结标记。",
+    "ko-kr": "치유를 받거나 치유를 진행할 경우, 단결 표식이 1개 부여된다. 지속 시간: 30초. 최대 3개의 단결 표식을 보유할 수 있다. 원소전투 스킬 또는 원소폭발 발동 시, 모든 단결 표식을 소모해 10초 동안 지속되는 「항쟁」 효과를 생성한다: 소모한 단결 표식마다 공격력이 3/4/5/6/7% 증가하고, 모든 원소 피해 보너스가 7/8.5/10/11.5/13% 증가한다. 항쟁 효과는 15초마다 최대 1회 발동한다. 캐릭터가 대기 상태일 때도 단결 표식을 획득할 수 있다",
+    "ru-ru": "Когда экипированный персонаж лечит или получает лечение, он на 30 сек. наделяется Меткой единства. Всего можно получить до 3 Меток. При активации элементального навыка или взрыва стихии все Метки расходуются и на 10 сек. создаётся эффект Отпора: за каждую израсходованную Метку сила атаки повышается на 3%/4%/5%/6%/7%, а бонус урона всеми элементами - на 7%/8,5%/10%/11,5%/13%. Эффект Отпора может возникнуть один раз в 15 сек. Персонаж получает Метки единства, даже если он не на поле боя.",
+    "de-de": "Verleiht der Figur bei erhaltener Heilung, oder wenn sie jemanden heilt, ein Zeichen des Zusammenhalts, hält 30s. Es können max. bis zu 3 Zeichen des Zusammenhalts vorhanden sein. Verbraucht beim Auslösen der Elementarfähigkeit oder der Spezialfähigkeit alle Zeichen des Zusammenhalts und löst den Effekt „Auflehnung“ aus, der 10s hält: Jedes verbrauchte Zeichen des Zusammenhalts erhöht den ANG um 3% ~ 4% ~ 5% ~ 6% ~ 7% und den Elementar-SCH-Bonus aller Elemente um 7% ~ 8.5% ~ 10% ~ 11.5% ~ 13%. 15s Abklingzeit für den Effekt „Auflehnung“. Zeichen des Zusammenhalts können auch erhalten werden, wenn die Figur inaktiv in der Truppe ist.",
+    "fr-fr": "Lorsque le personnage reçoit ou effectue des soins, il obtient une marque solidaire pendant 30 s, un maximum de 3 marques solidaires pouvant être obtenu. Utiliser une compétence ou un déchaînement élémentaires consomme toutes les marques solidaires et accorde un effet de baroud pendant 10 s : chaque marque solidaire consommée augmente l'ATQ de 3 %/4 %/5 %/6 %/7 % et le bonus de DGT élémentaires de 7 %/8,5 %/10 %/11,5 %/13 %. Un effet de baroud peut être déclenché une fois toutes les 15 s, et des marques solidaires peuvent être obtenues même lorsque le personnage fait partie de l'équipe mais n'est pas déployé.",
+    "es-es": "Al recibir o realizar curación, otorga una marca de unidad durante 30 s, acumulable hasta 3 marcas. Al usar la Habilidad Elemental o Definitiva, se consumen todas las marcas de unidad y se obtiene el efecto de “renuencia” durante 10 s. Por cada marca de unidad consumida, el ATQ aumenta en un 3/4/5/6/7% y todos los Bonos de Daño Elemental aumentan en un 7/8.5/10/11.5/13%. El efecto de renuencia solo se puede activar una vez cada 15 s, y el personaje puede obtener marcas de unidad incluso cuando esté en tu equipo pero no en uso.",
+    "id-id": "Saat penggunanya menerima pemulihan atau memberikan pemulihan, akan memberikan satu Unity's Symbol yang berlangsung selama 30 detik dan dapat ditumpuk sampai 3 lapis. Saat melancarkan Elemental Skill atau Elemental Burst, akan mengonsumsi seluruh Unity's Symbol yang dimiliki untuk menghasilkan efek Struggle yang berlangsung selama 10 detik. Setiap Unity's Symbol yang dikonsumsi, akan meningkatkan 3%/4%/5%/6%/7% ATK dan 7%/8,5%/10%/11,5%/13,5% Elemental DMG Bonus seluruh elemen. Efek Struggle dapat terpicu sekali setiap 15 detik. Unity's Symbol tetap dapat diperoleh saat Karakter ada di dalam party namun sedang tidak berada di medan pertempuran.",
+    "th-th": "เมื่อได้รับการรักษาหรือทำการรักษา จะได้รับสัญลักษณ์ Unity หนึ่งอัน เป็นเวลา 30 วินาที โดยสามารถมีสัญลักษณ์ Unity ได้สูงสุดสามอัน เมื่อปล่อยสกิลธาตุหรือท่าไม้ตาย จะใช้สัญลักษณ์ Unity ทั้งหมด เพื่อสร้างเอฟเฟกต์ \"Struggle\" เป็นเวลา 10 วินาที: สัญลักษณ์ Unity แต่ละอันที่ใช้ไปจะทำให้พลังโจมตีเพิ่มขึ้น 3% และโบนัสความเสียหายธาตุทั้งหมดเพิ่มขึ้น 7% เอฟเฟกต์ Struggle สามารถเกิดขึ้นได้มากสุดหนึ่งครั้ง ในทุก 15 วินาที เมื่อตัวละครอยู่ในทีมแต่ไม่ได้เข้าร่วมการต่อสู้ จะยังสามารถรับสัญลักษณ์ Unity ได้",
+    "vi-vn": "Khi trị liệu hoặc nhận trị liệu sẽ nhận một Ký Hiệu Đoàn Kết, duy trì 30s, tối đa có được 3 Ký Hiệu. Khi thi triển Kỹ Năng Nguyên Tố hoặc Kỹ Năng Nộ sẽ tiêu hao tất cả Ký Hiệu để sản sinh hiệu quả Chống Đối trong 10s：Mỗi Ký Hiệu tiêu hao sẽ tăng 3||4||5||6||7% tấn công và 7||8.5||10||11.5||13% buff sát thương tất cả nguyên tố. Mỗi 15s tối đa kích hoạt một lần hiệu quả Chống Đối; Nhân vật không ra trận cũng có thể nhận được Ký Hiệu Đoàn Kết.",
+    "zh-tw": "受到治療或進行治療時，將賦予一枚團結標記，持續30秒，至多擁有三枚團結標記。施放元素戰技或元素爆發時，將消耗所有的團結標記，產生持續10秒的「抗爭」效果：每枚消耗的團結標記提高3%/4%/5%/6%/7%攻擊力與7%/8.5%/10%/11.5%/13%所有元素傷害加成。每15秒至多觸發一次抗爭效果；角色處於隊伍後臺時也能獲得團結標記。"
+  },
+  "weaponIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/04/59559639/4e67e6c313220ea1ca84a48d42d78806_5908721332823719674.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "pt-pt": "Nv. 20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv. 20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 5000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4033,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/18/59559639/32a4a26ded9a4fcb2b951bd24e360aed_3194698801205902028.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Fragmento de uma Corda Antiga",
+            "en-us": "Fragment of an Ancient Chord",
+            "ja-jp": "悠久の弦の残章",
+            "zh-cn": "悠古弦音的残章",
+            "ko-kr": "오래된 현악의 잔장",
+            "ru-ru": "Фрагмент отзвука древней струны",
+            "de-de": "Fragment einer archaischen Serenade",
+            "fr-fr": "Fragment d'un accord ancien",
+            "es-es": "Fragmento de serenata arcaica",
+            "id-id": "Fragment of an Ancient Chord",
+            "th-th": "Fragment of an Ancient Chord",
+            "vi-vn": "Mảnh Cung Đàn Cổ Xưa",
+            "zh-tw": "悠古弦音的殘章"
+          }
+        },
+        {
+          "id": 4083,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/59559639/54ef5dca280726e67aa3b352b9a6253f_3487253713114763887.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Gota de Água Impura",
+            "en-us": "Drop of Tainted Water",
+            "ja-jp": "濁水のひとしずく",
+            "zh-cn": "浊水的一滴",
+            "ko-kr": "탁한 물 한 방울",
+            "ru-ru": "Мутная капля",
+            "de-de": "Tropfen verunreinigten Wassers",
+            "fr-fr": "Goutte d'eau croupie",
+            "es-es": "Gota legamosa",
+            "id-id": "Drop of Tainted Water",
+            "th-th": "Drop of Tainted Water",
+            "vi-vn": "Giọt Nước Đục",
+            "zh-tw": "濁水的一滴"
+          }
+        },
+        {
+          "id": 4069,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/59559639/0e951d06ab200a1578724fed95d842ca_8366337659899801404.png",
+          "amount": 2,
+          "name": {
+            "pt-pt": "Pérola Transoceânica",
+            "en-us": "Transoceanic Pearl",
+            "ja-jp": "異海の露",
+            "zh-cn": "异海凝珠",
+            "ko-kr": "기이한 바다의 방울",
+            "ru-ru": "Жемчужина иноморья",
+            "de-de": "Transozeanische Perle",
+            "fr-fr": "Perle transocéanique",
+            "es-es": "Condensado extramarino",
+            "id-id": "Transoceanic Pearl",
+            "th-th": "Transoceanic Pearl",
+            "vi-vn": "Ngọc Vụn Đại Dương",
+            "zh-tw": "異海凝珠"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv. 40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 15000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4032,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/18/59559639/063d6858e36e4f71b635a5109737059c_6264367795187012875.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Capítulo de uma Corda Antiga",
+            "en-us": "Chapter of an Ancient Chord",
+            "ja-jp": "悠久の弦の断章",
+            "zh-cn": "悠古弦音的断章",
+            "ko-kr": "오래된 현악의 단장",
+            "ru-ru": "Незаконченный отзвук древней струны",
+            "de-de": "Bruchstück einer archaischen Serenade",
+            "fr-fr": "Chapitre d'un accord ancien",
+            "es-es": "Pieza de serenata arcaica",
+            "id-id": "Chapter of an Ancient Chord",
+            "th-th": "Chapter of an Ancient Chord",
+            "vi-vn": "Khúc Cung Đàn Cổ Xưa",
+            "zh-tw": "悠古弦音的斷章"
+          }
+        },
+        {
+          "id": 4083,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/59559639/54ef5dca280726e67aa3b352b9a6253f_3487253713114763887.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Gota de Água Impura",
+            "en-us": "Drop of Tainted Water",
+            "ja-jp": "濁水のひとしずく",
+            "zh-cn": "浊水的一滴",
+            "ko-kr": "탁한 물 한 방울",
+            "ru-ru": "Мутная капля",
+            "de-de": "Tropfen verunreinigten Wassers",
+            "fr-fr": "Goutte d'eau croupie",
+            "es-es": "Gota legamosa",
+            "id-id": "Drop of Tainted Water",
+            "th-th": "Drop of Tainted Water",
+            "vi-vn": "Giọt Nước Đục",
+            "zh-tw": "濁水的一滴"
+          }
+        },
+        {
+          "id": 4069,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/17/59559639/0e951d06ab200a1578724fed95d842ca_8366337659899801404.png",
+          "amount": 8,
+          "name": {
+            "pt-pt": "Pérola Transoceânica",
+            "en-us": "Transoceanic Pearl",
+            "ja-jp": "異海の露",
+            "zh-cn": "异海凝珠",
+            "ko-kr": "기이한 바다의 방울",
+            "ru-ru": "Жемчужина иноморья",
+            "de-de": "Transozeanische Perle",
+            "fr-fr": "Perle transocéanique",
+            "es-es": "Condensado extramarino",
+            "id-id": "Transoceanic Pearl",
+            "th-th": "Transoceanic Pearl",
+            "vi-vn": "Ngọc Vụn Đại Dương",
+            "zh-tw": "異海凝珠"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv. 50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 20000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4032,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/18/59559639/063d6858e36e4f71b635a5109737059c_6264367795187012875.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Capítulo de uma Corda Antiga",
+            "en-us": "Chapter of an Ancient Chord",
+            "ja-jp": "悠久の弦の断章",
+            "zh-cn": "悠古弦音的断章",
+            "ko-kr": "오래된 현악의 단장",
+            "ru-ru": "Незаконченный отзвук древней струны",
+            "de-de": "Bruchstück einer archaischen Serenade",
+            "fr-fr": "Chapitre d'un accord ancien",
+            "es-es": "Pieza de serenata arcaica",
+            "id-id": "Chapter of an Ancient Chord",
+            "th-th": "Chapter of an Ancient Chord",
+            "vi-vn": "Khúc Cung Đàn Cổ Xưa",
+            "zh-tw": "悠古弦音的斷章"
+          }
+        },
+        {
+          "id": 4084,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/10/59559639/e9e6040d0663abbece6eb17cd3b5085d_5621582839432569984.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Colherada de Água Impura",
+            "en-us": "Scoop of Tainted Water",
+            "ja-jp": "濁水のひとすくい",
+            "zh-cn": "浊水的一掬",
+            "ko-kr": "탁한 물 한 움큼",
+            "ru-ru": "Мутная лужица",
+            "de-de": "Portion verunreinigten Wassers",
+            "fr-fr": "Cuillère d'eau croupie",
+            "es-es": "Cúmulo de légamo",
+            "id-id": "Scoop of Tainted Water",
+            "th-th": "Scoop of Tainted Water",
+            "vi-vn": "Bình Nước Đục",
+            "zh-tw": "濁水的一掬"
+          }
+        },
+        {
+          "id": 4068,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/35ab3651275afb059f079c578c4cbfbd_8419390384498436239.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Pedaço Transoceânico",
+            "en-us": "Transoceanic Chunk",
+            "ja-jp": "異海の塊",
+            "zh-cn": "异海之块",
+            "ko-kr": "기이한 바다의 결정",
+            "ru-ru": "Обломок из иноморья",
+            "de-de": "Transozeanischer Brocken",
+            "fr-fr": "Morceau transocéanique",
+            "es-es": "Fragmento extramarino",
+            "id-id": "Transoceanic Chunk",
+            "th-th": "Transoceanic Chunk",
+            "vi-vn": "Kết Tinh Đại Dương",
+            "zh-tw": "異海之塊"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv. 60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 30000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4031,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/18/59559639/0ba8ef36e1ed59a70592ffe55c48f254_6520086902111099889.png",
+          "amount": 3,
+          "name": {
+            "pt-pt": "Movimento de uma Corda Antiga",
+            "en-us": "Movement of an Ancient Chord",
+            "ja-jp": "悠久の弦の楽章",
+            "zh-cn": "悠古弦音的乐章",
+            "ko-kr": "오래된 현악의 악장",
+            "ru-ru": "Песнь отзвука древней струны",
+            "de-de": "Satz einer archaischen Serenade",
+            "fr-fr": "Mouvement d'un accord ancien",
+            "es-es": "Movimiento de serenata arcaica",
+            "id-id": "Movement of an Ancient Chord",
+            "th-th": "Movement of an Ancient Chord",
+            "vi-vn": "Chương Cung Đàn Cổ Xưa",
+            "zh-tw": "悠古弦音的樂章"
+          }
+        },
+        {
+          "id": 4084,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/10/59559639/e9e6040d0663abbece6eb17cd3b5085d_5621582839432569984.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Colherada de Água Impura",
+            "en-us": "Scoop of Tainted Water",
+            "ja-jp": "濁水のひとすくい",
+            "zh-cn": "浊水的一掬",
+            "ko-kr": "탁한 물 한 움큼",
+            "ru-ru": "Мутная лужица",
+            "de-de": "Portion verunreinigten Wassers",
+            "fr-fr": "Cuillère d'eau croupie",
+            "es-es": "Cúmulo de légamo",
+            "id-id": "Scoop of Tainted Water",
+            "th-th": "Scoop of Tainted Water",
+            "vi-vn": "Bình Nước Đục",
+            "zh-tw": "濁水的一掬"
+          }
+        },
+        {
+          "id": 4068,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/09/59559639/35ab3651275afb059f079c578c4cbfbd_8419390384498436239.png",
+          "amount": 9,
+          "name": {
+            "pt-pt": "Pedaço Transoceânico",
+            "en-us": "Transoceanic Chunk",
+            "ja-jp": "異海の塊",
+            "zh-cn": "异海之块",
+            "ko-kr": "기이한 바다의 결정",
+            "ru-ru": "Обломок из иноморья",
+            "de-de": "Transozeanischer Brocken",
+            "fr-fr": "Morceau transocéanique",
+            "es-es": "Fragmento extramarino",
+            "id-id": "Transoceanic Chunk",
+            "th-th": "Transoceanic Chunk",
+            "vi-vn": "Kết Tinh Đại Dương",
+            "zh-tw": "異海之塊"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv. 70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 35000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4031,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/18/59559639/0ba8ef36e1ed59a70592ffe55c48f254_6520086902111099889.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Movimento de uma Corda Antiga",
+            "en-us": "Movement of an Ancient Chord",
+            "ja-jp": "悠久の弦の楽章",
+            "zh-cn": "悠古弦音的乐章",
+            "ko-kr": "오래된 현악의 악장",
+            "ru-ru": "Песнь отзвука древней струны",
+            "de-de": "Satz einer archaischen Serenade",
+            "fr-fr": "Mouvement d'un accord ancien",
+            "es-es": "Movimiento de serenata arcaica",
+            "id-id": "Movement of an Ancient Chord",
+            "th-th": "Movement of an Ancient Chord",
+            "vi-vn": "Chương Cung Đàn Cổ Xưa",
+            "zh-tw": "悠古弦音的樂章"
+          }
+        },
+        {
+          "id": 4073,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/10/59559639/7bc0feb711d368a49fed56e6d4520a46_6457665265959306499.png",
+          "amount": 9,
+          "name": {
+            "pt-pt": "Fantasma Hydro Corrompido Recém-nascido",
+            "en-us": "Newborn Tainted Hydro Phantasm",
+            "ja-jp": "生まれたての濁水幻霊",
+            "zh-cn": "初生的浊水幻灵",
+            "ko-kr": "갓 태어난 탁한 물의 환령",
+            "ru-ru": "Новорождённый фантазм мутных вод",
+            "de-de": "Neugeborener Okeanospuk",
+            "fr-fr": "Jeune Fantasme Hydro croupi",
+            "es-es": "Ánima Legamosa neonata",
+            "id-id": "Newborn Tainted Hydro Phantasm",
+            "th-th": "Newborn Tainted Hydro Phantasm",
+            "vi-vn": "Ảo Linh Nước Đục Mới Sinh",
+            "zh-tw": "初生的濁水幻靈"
+          }
+        },
+        {
+          "id": 4067,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/4bc36681d1975fcd36ed2965771c995d_184811178946478761.png",
+          "amount": 6,
+          "name": {
+            "pt-pt": "Cristal Caleidoscópico",
+            "en-us": "Xenochromatic Crystal",
+            "ja-jp": "色変わりの結晶",
+            "zh-cn": "异色结晶石",
+            "ko-kr": "이색 결정석",
+            "ru-ru": "Ксенохромный кристалл",
+            "de-de": "Xenochromatischer Kristall",
+            "fr-fr": "Cristal xénochromatique",
+            "es-es": "Cristalización cromática",
+            "id-id": "Xenochromatic Crystal",
+            "th-th": "Xenochromatic Crystal",
+            "vi-vn": "Tinh Thạch Dị Sắc",
+            "zh-tw": "異色結晶石"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv. 80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "materials": [
+        {
+          "id": 757,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "amount": 45000,
+          "name": {
+            "pt-pt": "Mora",
+            "en-us": "Mora",
+            "ja-jp": "モラ",
+            "zh-cn": "摩拉",
+            "ko-kr": "모라",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "fr-fr": "Mora",
+            "es-es": "Mora",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "vi-vn": "Mora",
+            "zh-tw": "摩拉"
+          }
+        },
+        {
+          "id": 4030,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/18/59559639/6eac9f6913db4d5c3b0d36af5776d5ab_8439951562624730152.png",
+          "amount": 4,
+          "name": {
+            "pt-pt": "Eco de uma Corda Antiga",
+            "en-us": "Echo of an Ancient Chord",
+            "ja-jp": "悠久の弦の響き",
+            "zh-cn": "悠古弦音的回响",
+            "ko-kr": "오래된 현악의 울림",
+            "ru-ru": "Эхо отзвука древней струны",
+            "de-de": "Echo einer archaischen Serenade",
+            "fr-fr": "Écho d'un accord ancien",
+            "es-es": "Reverberación de serenata arcaica",
+            "id-id": "Echo of Ancient Chord",
+            "th-th": "Echo of an Ancient Chord",
+            "vi-vn": "Tiếng Vọng Cung Đàn Cổ Xưa",
+            "zh-tw": "悠古弦音的迴響"
+          }
+        },
+        {
+          "id": 4073,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/10/59559639/7bc0feb711d368a49fed56e6d4520a46_6457665265959306499.png",
+          "amount": 18,
+          "name": {
+            "pt-pt": "Fantasma Hydro Corrompido Recém-nascido",
+            "en-us": "Newborn Tainted Hydro Phantasm",
+            "ja-jp": "生まれたての濁水幻霊",
+            "zh-cn": "初生的浊水幻灵",
+            "ko-kr": "갓 태어난 탁한 물의 환령",
+            "ru-ru": "Новорождённый фантазм мутных вод",
+            "de-de": "Neugeborener Okeanospuk",
+            "fr-fr": "Jeune Fantasme Hydro croupi",
+            "es-es": "Ánima Legamosa neonata",
+            "id-id": "Newborn Tainted Hydro Phantasm",
+            "th-th": "Newborn Tainted Hydro Phantasm",
+            "vi-vn": "Ảo Linh Nước Đục Mới Sinh",
+            "zh-tw": "初生的濁水幻靈"
+          }
+        },
+        {
+          "id": 4067,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/19/101132274/4bc36681d1975fcd36ed2965771c995d_184811178946478761.png",
+          "amount": 12,
+          "name": {
+            "pt-pt": "Cristal Caleidoscópico",
+            "en-us": "Xenochromatic Crystal",
+            "ja-jp": "色変わりの結晶",
+            "zh-cn": "异色结晶石",
+            "ko-kr": "이색 결정석",
+            "ru-ru": "Ксенохромный кристалл",
+            "de-de": "Xenochromatischer Kristall",
+            "fr-fr": "Cristal xénochromatique",
+            "es-es": "Cristalización cromática",
+            "id-id": "Xenochromatic Crystal",
+            "th-th": "Xenochromatic Crystal",
+            "vi-vn": "Tinh Thạch Dị Sắc",
+            "zh-tw": "異色結晶石"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "level": {
+        "pt-pt": "Nv. 1",
+        "en-us": "Lv.1",
+        "ja-jp": "Lv.1",
+        "zh-cn": "Lv.1",
+        "ko-kr": "Lv.1",
+        "ru-ru": "Ур. 1",
+        "de-de": "St. 1",
+        "fr-fr": "Niv. 1",
+        "es-es": "Niv.1",
+        "id-id": "Lv. 1",
+        "th-th": "Lv.1",
+        "vi-vn": "Lv.1",
+        "zh-tw": "Lv.1"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": null,
+          "postAscensionValue": "44"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์การโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "value": "6.0%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 20",
+        "en-us": "Lv.20",
+        "ja-jp": "Lv.20",
+        "zh-cn": "Lv.20",
+        "ko-kr": "Lv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "fr-fr": "Niv. 20",
+        "es-es": "Niv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "vi-vn": "Lv.20",
+        "zh-tw": "Lv.20"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "119",
+          "postAscensionValue": "144"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์การโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "value": "10.6%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 40",
+        "en-us": "Lv.40",
+        "ja-jp": "Lv.40",
+        "zh-cn": "Lv.40",
+        "ko-kr": "Lv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "fr-fr": "Niv. 40",
+        "es-es": "Niv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "vi-vn": "Lv.40",
+        "zh-tw": "Lv.40"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "226",
+          "postAscensionValue": "252"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์การโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "value": "15.5%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 50",
+        "en-us": "Lv.50",
+        "ja-jp": "Lv.50",
+        "zh-cn": "Lv.50",
+        "ko-kr": "Lv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "fr-fr": "Niv. 50",
+        "es-es": "Niv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "vi-vn": "Lv.50",
+        "zh-tw": "Lv.50"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "293",
+          "postAscensionValue": "319"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์การโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "value": "17.9%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 60",
+        "en-us": "Lv.60",
+        "ja-jp": "Lv.60",
+        "zh-cn": "Lv.60",
+        "ko-kr": "Lv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "fr-fr": "Niv. 60",
+        "es-es": "Niv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "vi-vn": "Lv.60",
+        "zh-tw": "Lv.60"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "361",
+          "postAscensionValue": "387"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์การโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "value": "20.3%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 70",
+        "en-us": "Lv.70",
+        "ja-jp": "Lv.70",
+        "zh-cn": "Lv.70",
+        "ko-kr": "Lv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "fr-fr": "Niv. 70",
+        "es-es": "Niv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "vi-vn": "Lv.70",
+        "zh-tw": "Lv.70"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "429",
+          "postAscensionValue": "455"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์การโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "value": "22.7%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 80",
+        "en-us": "Lv.80",
+        "ja-jp": "Lv.80",
+        "zh-cn": "Lv.80",
+        "ko-kr": "Lv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "fr-fr": "Niv. 80",
+        "es-es": "Niv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "vi-vn": "Lv.80",
+        "zh-tw": "Lv.80"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "497",
+          "postAscensionValue": "523"
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์การโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "value": "25.1%"
+        }
+      ]
+    },
+    {
+      "level": {
+        "pt-pt": "Nv. 90",
+        "en-us": "Lv.90",
+        "ja-jp": "Lv.90",
+        "zh-cn": "Lv.90",
+        "ko-kr": "Lv.90",
+        "ru-ru": "Ур. 90",
+        "de-de": "St. 90",
+        "fr-fr": "Niv. 90",
+        "es-es": "Niv.90",
+        "id-id": "Lv. 90",
+        "th-th": "Lv.90",
+        "vi-vn": "Lv.90",
+        "zh-tw": "Lv.90"
+      },
+      "stats": [
+        {
+          "label": {
+            "pt-pt": "ATQ antes do avanço",
+            "en-us": "ATK before Ascension",
+            "ja-jp": "突破前攻撃力",
+            "zh-cn": "突破前攻击力",
+            "ko-kr": "돌파 전 공격력",
+            "ru-ru": "Сила атаки до возвышения",
+            "de-de": "Angriff vor Aufstieg",
+            "fr-fr": "ATQ avant élévation",
+            "es-es": "ATQ antes de fortalecer",
+            "id-id": "ATK Sebelum Ascension",
+            "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-tw": "突破前攻擊力"
+          },
+          "preAscensionValue": "565",
+          "postAscensionValue": null
+        },
+        {
+          "label": {
+            "pt-pt": "Porcentagem de ATQ",
+            "en-us": "ATK Percentage",
+            "ja-jp": "攻撃力パーセンテージ",
+            "zh-cn": "攻击力百分比",
+            "ko-kr": "공격력 백분율",
+            "ru-ru": "Процент от силы атаки",
+            "de-de": "ANG-Rate",
+            "fr-fr": "Pourcentage ATQ",
+            "es-es": "ATQ%",
+            "id-id": "ATK%",
+            "th-th": "เปอร์เซ็นต์การโจมตี",
+            "vi-vn": "Tỷ Lệ Tấn Công",
+            "zh-tw": "攻擊力"
+          },
+          "value": "27.6%"
+        }
+      ]
+    }
+  ]
+}
