@@ -1,17 +1,51 @@
 # config.py
 
-BASE_API_URL = "https://sg-wiki-api-static.hoyolab.com/hoyowiki/genshin/wapi/entry_page"
+import os
 
+
+BASE_API_URL = "https://sg-wiki-api-static.hoyolab.com/hoyowiki/genshin/wapi/entry_page"
+IMAGE_DOWNLOAD_SCRIPT = "download_images.py"
+
+# --- CONFIGURAÇÃO GERAL ---
+CACHE_DIR = 'data'
 # Lista de idiomas para os quais queremos coletar dados e traduções
 # ESTA É A LISTA COMPLETA E SERÁ USADA PARA TODAS AS TRADUÇÕES NO JSON DE SAÍDA.
-SUPPORTED_LANGUAGES = [
+SUPPORTED_LANGUAGES = {
     "pt-pt", "en-us", "ja-jp", "zh-cn", "ko-kr", "ru-ru",
     "de-de", "fr-fr", "es-es", "id-id", "th-th", "vi-vn", "zh-tw"
-]
-
+}
+CHARACTERS_OUTPUT_DIR = 'characters_data'
+CHARACTERS_IMAGES_DIR = os.path.join(CHARACTERS_OUTPUT_DIR, 'images')
+WEAPONS_OUTPUT_DIR = 'weapons_data'
+WEAPONS_IMAGES_DIR = os.path.join(WEAPONS_OUTPUT_DIR, 'images')
+MATERIALS_OUTPUT_DIR = 'materials_data'
+MATERIALS_IMAGES_DIR = os.path.join(MATERIALS_OUTPUT_DIR, 'images')
 # Caminho para o arquivo JSON com a lista de todos os personagens
 ALL_CHARACTERS_FILE = "data/all_genshin_characters.json"
+# --- CONFIGS DE VALIDAÇÃO DE ARMAS ---
+WEAPONS_REQUIRED_KEYS = {
+    "id", "wiki_id", "name", "description", "rarity", "type",
+    "subStat", "passiveName", "passiveDescription", "weaponIconUrl",
+    "ascensionMaterials", "attributes"
+}
+WEAPONS_REQUIRED_KEYS = {
+    "id", "wiki_id", "name", "description", "rarity", "type",
+    "subStat", "passiveName", "passiveDescription", "weaponIconUrl",
+    "ascensionMaterials", "attributes"
+}
 
+# --- CONFIGS DE VALIDAÇÃO DE PERSONAGENS ---
+CHARACTERS_REQUIRED_KEYS = {
+    "id", "wiki_id", "name", "title", "description", "rarity", "vision", "weapon",
+    "characterIconUrl", "elementIconUrl", "constellationNameOfficial", "specialDish",
+    "namecard", "constellations", "talents", "talentAttributes", "talentMaterials",
+    "affiliation", "birthday", "ascensionMaterials", "attributes"
+}
+
+CHARACTERS_TRANSLATABLE_FIELDS = [
+    "name", "title", "description", "vision", "weapon",
+    "constellationNameOfficial", "affiliation", "birthday"
+]
 # Mapeamento de *nomes das categorias* de material para suas traduções.
 # Para idiomas que não possuem uma tradução explícita aqui, usaremos o valor em inglês (en).
 MATERIAL_CATEGORY_NAMES = {
@@ -125,4 +159,52 @@ DEFAULT_HEADERS = {
     'sec-fetch-site': 'same-site',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0',
     'x-rpc-wiki_app': 'genshin',
+}
+MANUAL_FALLBACKS = {
+    # Materiais de Natlan (API envia iconUrl vazio às vezes)
+    7192: {  # Refractive Bud
+        "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/11/14/bbe44a61ce2adce6d9d1323cc08e9674_8342561903811817672.png"
+    },
+    7193: {  # Bewildering Broadleaf
+        "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/11/14/727a1062a1563499c540576eb3818f1c_2561151788174653842.png"
+    },
+    7194: {  # Illusory Leafcoil
+        "iconUrl": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/11/14/a13458fee3f71742078a4ff97dfd6614_8544712959858549634.png"
+    }
+}
+# --- CONFIGS DE VALIDAÇÃO DE MATERIAIS ---
+MATERIALS_REQUIRED_KEYS = {
+    "id", "wiki_id", "name", "description",
+    "type", "sources", "iconUrl"
+}
+MATERIALS_TRANSLATABLE_FIELDS = [
+    "name", "description", "type", "sources"
+]
+
+MATERIAL_INFO_KEYS = {
+    'type': [
+        'type', 'tipo', '種類', 'typ', '유형', 'тип', 'ประเภท',
+        'loại', '类型', '類型'
+    ],
+    'source': [
+        'source', 'fonte', '入手方法', 'herkunft', '획득 경로', 'где найти',
+        'หาได้จาก', 'nguồn gốc', '来源', 'cómo se consigue', 'sumber', '來源',
+        # Adicionando todas as variações encontradas
+        'компонент', 'herstellung', '合成', 'ghép', '用途', '튜토리얼', 'origem'
+    ]
+}
+SYNTHESIS_KEYWORDS = {
+    "en-us": "Synthesis",
+    "pt-pt": "Síntese",
+    "es-es": "Síntesis",
+    "fr-fr": "Synthèse",
+    "de-de": "Herstellung",
+    "id-id": "Dibuat",
+    "ja-jp": "合成",
+    "ko-kr": "합성",
+    "ru-ru": "Алхимия",
+    "th-th": "ได้รับจากการสรรสร้าง",
+    "vi-vn": "Ghép",
+    "zh-cn": "合成获得",
+    "zh-tw": "合成獲得"
 }

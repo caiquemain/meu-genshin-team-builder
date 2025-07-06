@@ -2,150 +2,769 @@
   "id": "end_of_the_line",
   "wiki_id": 2666,
   "name": {
-    "pt-pt": "Águas Secas",
-    "en-us": "End of the Line",
-    "ja-jp": "竭沢",
-    "zh-cn": "竭泽",
-    "ko-kr": "메마른 연못",
+    "fr-fr": "Chalutier",
     "ru-ru": "Иссушитель",
     "de-de": "Schwertfischer",
-    "fr-fr": "Chalutier",
-    "es-es": "Fin de las Aguas",
+    "zh-tw": "竭澤",
+    "ko-kr": "메마른 연못",
+    "ja-jp": "竭沢",
+    "en-us": "End of the Line",
+    "pt-pt": "Águas Secas",
+    "vi-vn": "Sông Cạn",
+    "zh-cn": "竭泽",
     "id-id": "End of the Line",
     "th-th": "End of the Line",
-    "vi-vn": "Sông Cạn",
-    "zh-tw": "竭澤"
+    "es-es": "Fin de las Aguas"
   },
   "description": {
-    "pt-pt": "Parece ser um tipo de peixe extinto. Seu corpo é tão elástico, que uma corda pode ser presa a ele e fazer com que sirva como um arco.",
-    "en-us": "This seems to be a now-extinct fish. Its body is sufficiently elastic that a string may be attached to it to let it serve as a bow.",
-    "ja-jp": "すでに絶滅してしまった魚なのかもしれない。身には弾力があり、紐をつければ弓として使えそうだ。",
-    "zh-cn": "似乎是如今已经绝种的鱼。身躯富有弹性，系上绳索后能充当弓使用。",
-    "ko-kr": "지금은 멸종된 물고기인 듯하다. 몸에 탄력이 있어 활시위를 달아 활로 사용할 수 있다",
+    "fr-fr": "Cela semble être un poisson aujourd’hui disparu.Son corps est suffisamment élastique pour qu’une ficelle puisse y être attachée afin de s’en servir comme d’un arc.",
     "ru-ru": "Рыба, принадлежащая к вымершему виду. Если к её гибкому телу прикрепить тетиву, она может послужить в качестве лука.",
     "de-de": "Dies scheint ein inzwischen ausgestorbener Fisch zu sein. Sein Körper ist so elastisch, dass man eine Schnur daran befestigen kann, um ihn als Bogen zu benutzen.",
-    "fr-fr": "Cela semble être un poisson aujourd’hui disparu.Son corps est suffisamment élastique pour qu’une ficelle puisse y être attachée afin de s’en servir comme d’un arc.",
-    "es-es": "Parece una especie piscícola ya extinta. Gracias a su flexibilidad, puede servir como arco si le atas una cuerda.",
+    "zh-tw": "似乎是如今已經絕種的魚。身軀富有彈性，繫上繩索後能充當弓使用。",
+    "ko-kr": "지금은 멸종된 물고기인 듯하다. 몸에 탄력이 있어 활시위를 달아 활로 사용할 수 있다",
+    "ja-jp": "すでに絶滅してしまった魚なのかもしれない。身には弾力があり、紐をつければ弓として使えそうだ。",
+    "en-us": "This seems to be a now-extinct fish. Its body is sufficiently elastic that a string may be attached to it to let it serve as a bow.",
+    "pt-pt": "Parece ser um tipo de peixe extinto. Seu corpo é tão elástico, que uma corda pode ser presa a ele e fazer com que sirva como um arco.",
+    "vi-vn": "Loài cá dường như đã tuyệt chủng, thân của chúng có độ đàn hồi cao, gắn thêm dây vào sẽ có thể dùng như cung.",
+    "zh-cn": "似乎是如今已经绝种的鱼。身躯富有弹性，系上绳索后能充当弓使用。",
     "id-id": "Tampak seperti ikan yang kini sudah punah. Dengan elastisitas tubuhnya, ia dapat digunakan sebagai busur setelah diikatkan dengan tali.",
     "th-th": "ดูเหมือนกับปลาที่ทุกวันนี้สูญพันธุ์ไปแล้ว มีลำตัวที่ยืดหยุ่น เมื่อนำไปผูกกับเชือกแล้วสามารถนำไปใช้เป็นธนูได้",
-    "vi-vn": "Loài cá dường như đã tuyệt chủng, thân của chúng có độ đàn hồi cao, gắn thêm dây vào sẽ có thể dùng như cung.",
-    "zh-tw": "似乎是如今已經絕種的魚。身軀富有彈性，繫上繩索後能充當弓使用。"
+    "es-es": "Parece una especie piscícola ya extinta. Gracias a su flexibilidad, puede servir como arco si le atas una cuerda."
   },
   "rarity": 4,
   "type": {
-    "pt-pt": "Arco",
-    "en-us": "Bow",
-    "ja-jp": "弓",
-    "zh-cn": "弓",
-    "ko-kr": "활",
+    "fr-fr": "Arc",
     "ru-ru": "Стрелковое",
     "de-de": "Bogen",
-    "fr-fr": "Arc",
-    "es-es": "Arco",
+    "zh-tw": "弓",
+    "ko-kr": "활",
+    "ja-jp": "弓",
+    "en-us": "Bow",
+    "pt-pt": "Arco",
+    "vi-vn": "Cung",
+    "zh-cn": "弓",
     "id-id": "Bow",
     "th-th": "ธนู",
-    "vi-vn": "Cung",
-    "zh-tw": "弓"
+    "es-es": "Arco"
   },
   "subStat": {
-    "pt-pt": "Recarga de Energia%",
-    "en-us": "Energy Recharge",
-    "ja-jp": "元素チャージ効率",
-    "zh-cn": "元素充能效率",
-    "ko-kr": "원소 충전 효율",
+    "fr-fr": "Recharge d'énergie",
     "ru-ru": "Восст. энергии",
     "de-de": "Aufladerate",
-    "fr-fr": "Recharge d'énergie",
-    "es-es": "Recarga de Energía",
+    "zh-tw": "元素充能效率",
+    "ko-kr": "원소 충전 효율",
+    "ja-jp": "元素チャージ効率",
+    "en-us": "Energy Recharge",
+    "pt-pt": "Recarga de Energia%",
+    "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+    "zh-cn": "元素充能效率",
     "id-id": "Energy Recharge",
     "th-th": "การฟื้นฟูพลังงาน",
-    "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
-    "zh-tw": "元素充能效率"
+    "es-es": "Recarga de Energía"
   },
   "passiveName": {
-    "pt-pt": "Rompedor de Redes",
-    "en-us": "Net Snapper",
-    "ja-jp": "ネットブレーカー",
-    "zh-cn": "网破",
-    "ko-kr": "찢어진 그물",
+    "fr-fr": "Délaceur",
     "ru-ru": "Разрывающий сети:",
     "de-de": "Netzreißer",
-    "fr-fr": "Délaceur",
-    "es-es": "Romperredes",
+    "zh-tw": "網破",
+    "ko-kr": "찢어진 그물",
+    "ja-jp": "ネットブレーカー",
+    "en-us": "Net Snapper",
+    "pt-pt": "Rompedor de Redes",
+    "vi-vn": "Phá Lưới",
+    "zh-cn": "网破",
     "id-id": "Net Snapper",
     "th-th": "Net Snapper",
-    "vi-vn": "Phá Lưới",
-    "zh-tw": "網破"
+    "es-es": "Romperredes"
   },
   "passiveDescription": {
-    "pt-pt": "Desencadeia o efeito“Deriva”após usar uma Habilidade Elemental, causando 80%/100%/120%/140%/160% do ATQ como Dano em uma AdE após acertar um oponente com um ataque. O efeito de Deriva será removido após 15s ou após causar Dano em uma AdE 3 vezes. 1 Dano em uma AdE pode ser causado a cada 2s dessa forma. O efeito de Deriva pode ser desencadeado uma vez a cada 12s.",
-    "en-us": "Triggers the Flowrider effect after using an Elemental Skill, dealing 80%/100%/120%/140%/160% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
-    "ja-jp": "元素スキルを発動すると「廻流」効果が付与され、攻撃が敵に命中した時、攻撃力80/100/120/140/160%分の範囲ダメージを与える。この効果は15秒後、または3回範囲ダメージ発動後にクリアされる。範囲ダメージは2秒毎に1回のみ発動でき、「廻流」効果は12秒毎に1回のみ発動できる。",
-    "zh-cn": "施放元素战技后,将触发「沿洄」效果，在攻击命中敌人时造成80%/100%/120%/140%/160%攻击力的范围伤害，该效果将在15秒或触发3次范围伤害后移除。每2秒至多通过这种方式造成一次范围伤害,每12秒至多触发一次沿洄。",
-    "ko-kr": "원소전투 스킬 발동 후 「연회」 효과가 발동된다. 공격이 적에게 명중하면 공격력의 80%/100%/120%/140%/160%에 해당하는 범위 피해를 준다. 해당 효과는 15초 동안 지속되거나 3회의 범위 피해 발동 시 사라진다. 2초마다 해당 방식으로 최대 1회의 범위 피해를 주고 12초마다 연회를 최대 1회 발동할 수 있다",
+    "fr-fr": "Accorde l'effet Dérive après l'utilisation d'une compétence élémentaire, permettant d'infliger des DGT de zone équivalant à 80 %/100 %/120 %/140 %/160 % de l'ATQ en touchant un ennemi. Cet effet disparaît après 15 s ou après avoir infligé des DGT de zone 3 fois. Des DGT de zone peuvent être infligés toutes les 2 s maximum de cette manière, et l'effet Dérive peut être déclenché une fois toutes les 12 s.",
     "ru-ru": "Активация элементального навыка вызывает эффект Плывущего по течению: атаки при попадании наносят урон по площади, равный 80%/100%/120%/140%/160% от силы атаки. Через 15 сек. либо после 3 нанёсших урон атак эффект исчезнет. Эффект наносит урон не чаще одного раза в 2 сек. и может возникнуть раз в 12 сек.",
     "de-de": "Löst beim Anwenden der Elementarfähigkeit den Effekt „Drift“ aus, bei dem die Figur, wenn sie einen Gegner trifft, Flächenschaden in Höhe von 80% ~ 100% ~ 120% ~ 140% ~ 160% ANG verursacht. Dieser Effekt wird nach 15s oder 3-maligem Verursachen des Flächenschadens entfernt. 2s Abklingzeit für das Verursachen solch eines Flächenschadens, 12s Abklingzeit für den Effekt „Drift“.",
-    "fr-fr": "Accorde l'effet Dérive après l'utilisation d'une compétence élémentaire, permettant d'infliger des DGT de zone équivalant à 80 %/100 %/120 %/140 %/160 % de l'ATQ en touchant un ennemi. Cet effet disparaît après 15 s ou après avoir infligé des DGT de zone 3 fois. Des DGT de zone peuvent être infligés toutes les 2 s maximum de cette manière, et l'effet Dérive peut être déclenché une fois toutes les 12 s.",
-    "es-es": "Al usar una Habilidad Elemental, el personaje obtiene el efecto de “deriva”, con el cual, al golpear a un enemigo, inflige Daño en el AdE equivalente al 80%/100%/120%/140%/160% de su ATQ. Este efecto desaparecerá después de 15 s o tras haber infligido 3 veces Daño en el AdE. Solo se puede infligir Daño en el AdE una vez cada 2 s de esta manera, y el efecto de deriva solo se puede activar, como máximo, una vez cada 12 s.",
+    "zh-tw": "施放元素戰技後，將觸發「沿洄」效果，在攻擊命中敵人時造成80%/100%/120%/140%/160%攻擊力的範圍傷害，該效果將在15秒或觸發3次範圍傷害後移除。每2秒至多依此方式造成一次範圍傷害，每12秒至多觸發一次沿洄。",
+    "ko-kr": "원소전투 스킬 발동 후 「연회」 효과가 발동된다. 공격이 적에게 명중하면 공격력의 80%/100%/120%/140%/160%에 해당하는 범위 피해를 준다. 해당 효과는 15초 동안 지속되거나 3회의 범위 피해 발동 시 사라진다. 2초마다 해당 방식으로 최대 1회의 범위 피해를 주고 12초마다 연회를 최대 1회 발동할 수 있다",
+    "ja-jp": "元素スキルを発動すると「廻流」効果が付与され、攻撃が敵に命中した時、攻撃力80/100/120/140/160%分の範囲ダメージを与える。この効果は15秒後、または3回範囲ダメージ発動後にクリアされる。範囲ダメージは2秒毎に1回のみ発動でき、「廻流」効果は12秒毎に1回のみ発動できる。",
+    "en-us": "Triggers the Flowrider effect after using an Elemental Skill, dealing 80%/100%/120%/140%/160% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s.",
+    "pt-pt": "Desencadeia o efeito“Deriva”após usar uma Habilidade Elemental, causando 80%/100%/120%/140%/160% do ATQ como Dano em uma AdE após acertar um oponente com um ataque. O efeito de Deriva será removido após 15s ou após causar Dano em uma AdE 3 vezes. 1 Dano em uma AdE pode ser causado a cada 2s dessa forma. O efeito de Deriva pode ser desencadeado uma vez a cada 12s.",
+    "vi-vn": "Thi triển Kỹ Năng Nguyên Tố sẽ kích hoạt hiệu ứng \"Xuôi Dòng\", khi đánh trúng kẻ địch sẽ gây sát thương diện rộng bằng 80% tấn công, hiệu quả này sẽ bị xóa sau 15s hoặc kích hoạt 3 lần sát thương diện rộng. Mỗi 2s tối đa gây một lần sát thương diện rộng bằng cách này, mỗi 12s tối đa kích hoạt một lần \"Xuôi Dòng\".",
+    "zh-cn": "施放元素战技后,将触发「沿洄」效果，在攻击命中敌人时造成80%/100%/120%/140%/160%攻击力的范围伤害，该效果将在15秒或触发3次范围伤害后移除。每2秒至多通过这种方式造成一次范围伤害,每12秒至多触发一次沿洄。",
     "id-id": "Setelah melancarkan Elemental Skill dan saat serangannya mengenai musuh, akan mendapatkan efek “Flowrider” yang mengakibatkan DMG Area sebesar 80%/100%/120%/140%/160% ATK. Efek tersebut akan dihapus setelah 15 detik atau setelah memicu DMG Area sebanyak 3 kali. Dengan cara ini, DMG Area diakibatkan setiap 2 detik, sementara “Flowrider” terpicu setiap 12 detik.",
     "th-th": "หลังจากใช้สกิลธาตุจะเกิดเอฟเฟกต์ Flowrider ซึ่งเมื่อโจมตีถูกศัตรู จะทำให้เกิดความเสียหายวงกว้าง 80% ของพลังโจมตีโดยที่เอฟเฟกต์นี้จะหายไปหลังจากผ่านไป 15 วินาที หรือหลังทำให้เกิดความเสียหายวงกว้างครบ 3 ครั้ง ซึ่งทุก 2 วินาทีจะสามารถสร้างความเสียหายวงกว้างด้วยวิธีนี้ได้มากสุดหนึ่งครั้ง และทุก12 วินาที จะเกิด Flowrider ได้มากสุดหนึ่งครั้ง",
-    "vi-vn": "Thi triển Kỹ Năng Nguyên Tố sẽ kích hoạt hiệu ứng \"Xuôi Dòng\", khi đánh trúng kẻ địch sẽ gây sát thương diện rộng bằng 80% tấn công, hiệu quả này sẽ bị xóa sau 15s hoặc kích hoạt 3 lần sát thương diện rộng. Mỗi 2s tối đa gây một lần sát thương diện rộng bằng cách này, mỗi 12s tối đa kích hoạt một lần \"Xuôi Dòng\".",
-    "zh-tw": "施放元素戰技後，將觸發「沿洄」效果，在攻擊命中敵人時造成80%/100%/120%/140%/160%攻擊力的範圍傷害，該效果將在15秒或觸發3次範圍傷害後移除。每2秒至多依此方式造成一次範圍傷害，每12秒至多觸發一次沿洄。"
+    "es-es": "Al usar una Habilidad Elemental, el personaje obtiene el efecto de “deriva”, con el cual, al golpear a un enemigo, inflige Daño en el AdE equivalente al 80%/100%/120%/140%/160% de su ATQ. Este efecto desaparecerá después de 15 s o tras haber infligido 3 veces Daño en el AdE. Solo se puede infligir Daño en el AdE una vez cada 2 s de esta manera, y el efecto de deriva solo se puede activar, como máximo, una vez cada 12 s."
   },
-  "weaponIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/08/26/16791688/80d2c21b70f486d9d9cb90e491e5b9da_2380403589531016502.png",
-  "ascensionMaterials": [],
+  "weaponIconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/10/16/43281454/80d2c21b70f486d9d9cb90e491e5b9da_581976346058923629.png",
+  "ascensionMaterials": [
+    {
+      "level": {
+        "fr-fr": "Niv.20",
+        "ru-ru": "Ур. 20",
+        "de-de": "St. 20",
+        "zh-tw": "Lv. 20",
+        "ko-kr": "Lv.20",
+        "ja-jp": "Lv.20",
+        "en-us": "Lv.20",
+        "pt-pt": "Nv.20",
+        "vi-vn": "Lv. 20",
+        "zh-cn": "Lv.20",
+        "id-id": "Lv. 20",
+        "th-th": "Lv.20",
+        "es-es": "Niv. 20"
+      },
+      "materials": [
+        {
+          "id": "echo_of_scorching_might",
+          "wiki_id": 2692,
+          "amount": 3,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/03/158750877/6f5ab4eda811a110e78a3470425bac2e_5403879193160356952.png",
+          "name": {
+            "fr-fr": "Dernier écho du pouvoir brûlant",
+            "ru-ru": "Эхо пылающей мощи",
+            "de-de": "Echo der sengenden Macht",
+            "zh-tw": "烈日威權的殘響",
+            "ko-kr": "태양 같은 권위의 메아리",
+            "ja-jp": "烈日権威の残響",
+            "en-us": "Echo of Scorching Might",
+            "pt-pt": "Eco do Poder Escaldante",
+            "vi-vn": "Dư Âm Của Ánh Nắng Quyền Uy",
+            "zh-cn": "烈日威权的残响",
+            "id-id": "Echo of Scorching Might",
+            "th-th": "Echo of Scorching Might",
+            "es-es": "Eco del poder del sol"
+          }
+        },
+        {
+          "id": "inactivated_fungal_nucleus",
+          "wiki_id": 2710,
+          "amount": 3,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/19/43281454/4b658500fa8cc5ae2b1f252d3cd9f0d6_1663463942989101985.png",
+          "name": {
+            "fr-fr": "Noyau fongique inactivé",
+            "ru-ru": "Неактивное ядро плесенника",
+            "de-de": "Inaktives Sklerotium",
+            "zh-tw": "失活菌核",
+            "ko-kr": "활기를 잃은 버섯핵",
+            "ja-jp": "キノコンの衰菌核",
+            "en-us": "Inactivated Fungal Nucleus",
+            "pt-pt": "Núcleo Fúngico Inerte",
+            "vi-vn": "Nhân Bào Nấm Đã Chết",
+            "zh-cn": "失活菌核",
+            "id-id": "Inactivated Fungal Nucleus",
+            "th-th": "Inactivated Fungal Nucleus",
+            "es-es": "Núcleo fúngico inerte"
+          }
+        },
+        {
+          "id": "fungal_spores",
+          "wiki_id": 1546,
+          "amount": 2,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Fungal%20Spores_icon.png",
+          "name": {
+            "fr-fr": "Spores de Fongus",
+            "ru-ru": "Споры плесенника",
+            "de-de": "Sporen der Pilzbestie",
+            "zh-tw": "蕈獸孢子",
+            "ko-kr": "버섯몬 포자",
+            "ja-jp": "キノコンの胞子",
+            "en-us": "Fungal Spores",
+            "pt-pt": "Esporo de Cogumelo Flutuante",
+            "vi-vn": "Bào Tử Nấm Quỷ",
+            "zh-cn": "蕈兽孢子",
+            "id-id": "Fungal Spore",
+            "th-th": "Fungal Spore",
+            "es-es": "Espora fúngica"
+          }
+        },
+        {
+          "id": "mora",
+          "wiki_id": 757,
+          "amount": 5000,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "name": {
+            "fr-fr": "Mora",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "zh-tw": "摩拉",
+            "ko-kr": "모라",
+            "ja-jp": "モラ",
+            "en-us": "Mora",
+            "pt-pt": "Mora",
+            "vi-vn": "Mora",
+            "zh-cn": "摩拉",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "es-es": "Mora"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "fr-fr": "Niv.40",
+        "ru-ru": "Ур. 40",
+        "de-de": "St. 40",
+        "zh-tw": "Lv. 40",
+        "ko-kr": "Lv.40",
+        "ja-jp": "Lv.40",
+        "en-us": "Lv.40",
+        "pt-pt": "Nv.40",
+        "vi-vn": "Lv. 40",
+        "zh-cn": "Lv.40",
+        "id-id": "Lv. 40",
+        "th-th": "Lv.40",
+        "es-es": "Niv. 40"
+      },
+      "materials": [
+        {
+          "id": "remnant_glow_of_scorching_might",
+          "wiki_id": 2693,
+          "amount": 3,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/05/158750877/24e97dbe587608251c92a080e0698fc0_4413182325513602.png",
+          "name": {
+            "fr-fr": "Éclat subsistant du pouvoir brûlant",
+            "ru-ru": "Отсветы пылающей мощи",
+            "de-de": "Nachglimmen der sengenden Macht",
+            "zh-tw": "烈日威權的餘光",
+            "ko-kr": "태양 같은 권위의 여광",
+            "ja-jp": "烈日権威の残光",
+            "en-us": "Remnant Glow of Scorching Might",
+            "pt-pt": "Brilho Remanescente do Poder Escaldante",
+            "vi-vn": "Tia Sáng Của Ánh Nắng Quyền Uy",
+            "zh-cn": "烈日威权的余光",
+            "id-id": "Remnant Glow of Scorching Might",
+            "th-th": "Remnant Glow of Scorching Might",
+            "es-es": "Resplandor del poder del sol"
+          }
+        },
+        {
+          "id": "inactivated_fungal_nucleus",
+          "wiki_id": 2710,
+          "amount": 12,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/19/43281454/4b658500fa8cc5ae2b1f252d3cd9f0d6_1663463942989101985.png",
+          "name": {
+            "fr-fr": "Noyau fongique inactivé",
+            "ru-ru": "Неактивное ядро плесенника",
+            "de-de": "Inaktives Sklerotium",
+            "zh-tw": "失活菌核",
+            "ko-kr": "활기를 잃은 버섯핵",
+            "ja-jp": "キノコンの衰菌核",
+            "en-us": "Inactivated Fungal Nucleus",
+            "pt-pt": "Núcleo Fúngico Inerte",
+            "vi-vn": "Nhân Bào Nấm Đã Chết",
+            "zh-cn": "失活菌核",
+            "id-id": "Inactivated Fungal Nucleus",
+            "th-th": "Inactivated Fungal Nucleus",
+            "es-es": "Núcleo fúngico inerte"
+          }
+        },
+        {
+          "id": "fungal_spores",
+          "wiki_id": 1546,
+          "amount": 8,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Fungal%20Spores_icon.png",
+          "name": {
+            "fr-fr": "Spores de Fongus",
+            "ru-ru": "Споры плесенника",
+            "de-de": "Sporen der Pilzbestie",
+            "zh-tw": "蕈獸孢子",
+            "ko-kr": "버섯몬 포자",
+            "ja-jp": "キノコンの胞子",
+            "en-us": "Fungal Spores",
+            "pt-pt": "Esporo de Cogumelo Flutuante",
+            "vi-vn": "Bào Tử Nấm Quỷ",
+            "zh-cn": "蕈兽孢子",
+            "id-id": "Fungal Spore",
+            "th-th": "Fungal Spore",
+            "es-es": "Espora fúngica"
+          }
+        },
+        {
+          "id": "mora",
+          "wiki_id": 757,
+          "amount": 15000,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "name": {
+            "fr-fr": "Mora",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "zh-tw": "摩拉",
+            "ko-kr": "모라",
+            "ja-jp": "モラ",
+            "en-us": "Mora",
+            "pt-pt": "Mora",
+            "vi-vn": "Mora",
+            "zh-cn": "摩拉",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "es-es": "Mora"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "fr-fr": "Niv.50",
+        "ru-ru": "Ур. 50",
+        "de-de": "St. 50",
+        "zh-tw": "Lv. 50",
+        "ko-kr": "Lv.50",
+        "ja-jp": "Lv.50",
+        "en-us": "Lv.50",
+        "pt-pt": "Nv.50",
+        "vi-vn": "Lv. 50",
+        "zh-cn": "Lv.50",
+        "id-id": "Lv. 50",
+        "th-th": "Lv.50",
+        "es-es": "Niv. 50"
+      },
+      "materials": [
+        {
+          "id": "remnant_glow_of_scorching_might",
+          "wiki_id": 2693,
+          "amount": 6,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/05/158750877/24e97dbe587608251c92a080e0698fc0_4413182325513602.png",
+          "name": {
+            "fr-fr": "Éclat subsistant du pouvoir brûlant",
+            "ru-ru": "Отсветы пылающей мощи",
+            "de-de": "Nachglimmen der sengenden Macht",
+            "zh-tw": "烈日威權的餘光",
+            "ko-kr": "태양 같은 권위의 여광",
+            "ja-jp": "烈日権威の残光",
+            "en-us": "Remnant Glow of Scorching Might",
+            "pt-pt": "Brilho Remanescente do Poder Escaldante",
+            "vi-vn": "Tia Sáng Của Ánh Nắng Quyền Uy",
+            "zh-cn": "烈日威权的余光",
+            "id-id": "Remnant Glow of Scorching Might",
+            "th-th": "Remnant Glow of Scorching Might",
+            "es-es": "Resplandor del poder del sol"
+          }
+        },
+        {
+          "id": "dormant_fungal_nucleus",
+          "wiki_id": 2708,
+          "amount": 6,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/19/43281454/88f08ae70e49d226bd37fd54a97c65f3_4148277576586023935.png",
+          "name": {
+            "fr-fr": "Noyau fongique dormant",
+            "ru-ru": "Спящее ядро плесенника",
+            "de-de": "Schlafendes Sklerotium",
+            "zh-tw": "休眠菌核",
+            "ko-kr": "잠든 버섯핵",
+            "ja-jp": "キノコンの眠菌核",
+            "en-us": "Dormant Fungal Nucleus",
+            "pt-pt": "Núcleo Fúngico Adormecido",
+            "vi-vn": "Nhân Bào Nấm Bất Động",
+            "zh-cn": "休眠菌核",
+            "id-id": "Dormant Fungal Nucleus",
+            "th-th": "Dormant Fungal Nucleus",
+            "es-es": "Núcleo fúngico inactivo"
+          }
+        },
+        {
+          "id": "luminescent_pollen",
+          "wiki_id": 1510,
+          "amount": 6,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Luminescent%20Pollen_icon.png",
+          "name": {
+            "fr-fr": "Pollen fluorescent",
+            "ru-ru": "Светящаяся пыльца",
+            "de-de": "Leuchtendes Sporenpulver",
+            "zh-tw": "螢光孢粉",
+            "ko-kr": "형광 포자 분말",
+            "ja-jp": "キノコンの蛍胞子",
+            "en-us": "Luminescent Pollen",
+            "pt-pt": "Pólen fluorescente",
+            "vi-vn": "Bột Huỳnh Quang",
+            "zh-cn": "荧光孢粉",
+            "id-id": "Luminescent Pollen",
+            "th-th": "Luminescent Pollen",
+            "es-es": "Polen fluorescente"
+          }
+        },
+        {
+          "id": "mora",
+          "wiki_id": 757,
+          "amount": 20000,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "name": {
+            "fr-fr": "Mora",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "zh-tw": "摩拉",
+            "ko-kr": "모라",
+            "ja-jp": "モラ",
+            "en-us": "Mora",
+            "pt-pt": "Mora",
+            "vi-vn": "Mora",
+            "zh-cn": "摩拉",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "es-es": "Mora"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "fr-fr": "Niv.60",
+        "ru-ru": "Ур. 60",
+        "de-de": "St. 60",
+        "zh-tw": "Lv. 60",
+        "ko-kr": "Lv.60",
+        "ja-jp": "Lv.60",
+        "en-us": "Lv.60",
+        "pt-pt": "Nv.60",
+        "vi-vn": "Lv. 60",
+        "zh-cn": "Lv.60",
+        "id-id": "Lv. 60",
+        "th-th": "Lv.60",
+        "es-es": "Niv. 60"
+      },
+      "materials": [
+        {
+          "id": "dream_of_scorching_might",
+          "wiki_id": 2694,
+          "amount": 3,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/05/158750877/0f4da1fdc0aa6f58e698e290ec4e1302_1795122532968194654.png",
+          "name": {
+            "fr-fr": "Rêve dominant du pouvoir brûlant",
+            "ru-ru": "Грёзы пылающей мощи",
+            "de-de": "Traum der sengenden Macht",
+            "zh-tw": "烈日威權的夢想",
+            "ko-kr": "태양 같은 권위의 꿈",
+            "ja-jp": "烈日権威の夢想",
+            "en-us": "Dream of Scorching Might",
+            "pt-pt": "Sonho do Poder Escaldante",
+            "vi-vn": "Mơ Ước Của Ánh Nắng Quyền Uy",
+            "zh-cn": "烈日威权的梦想",
+            "id-id": "Dream of Scorching Might",
+            "th-th": "Dream of Scorching Might",
+            "es-es": "Sueño del poder del sol"
+          }
+        },
+        {
+          "id": "dormant_fungal_nucleus",
+          "wiki_id": 2708,
+          "amount": 12,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/19/43281454/88f08ae70e49d226bd37fd54a97c65f3_4148277576586023935.png",
+          "name": {
+            "fr-fr": "Noyau fongique dormant",
+            "ru-ru": "Спящее ядро плесенника",
+            "de-de": "Schlafendes Sklerotium",
+            "zh-tw": "休眠菌核",
+            "ko-kr": "잠든 버섯핵",
+            "ja-jp": "キノコンの眠菌核",
+            "en-us": "Dormant Fungal Nucleus",
+            "pt-pt": "Núcleo Fúngico Adormecido",
+            "vi-vn": "Nhân Bào Nấm Bất Động",
+            "zh-cn": "休眠菌核",
+            "id-id": "Dormant Fungal Nucleus",
+            "th-th": "Dormant Fungal Nucleus",
+            "es-es": "Núcleo fúngico inactivo"
+          }
+        },
+        {
+          "id": "luminescent_pollen",
+          "wiki_id": 1510,
+          "amount": 9,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Luminescent%20Pollen_icon.png",
+          "name": {
+            "fr-fr": "Pollen fluorescent",
+            "ru-ru": "Светящаяся пыльца",
+            "de-de": "Leuchtendes Sporenpulver",
+            "zh-tw": "螢光孢粉",
+            "ko-kr": "형광 포자 분말",
+            "ja-jp": "キノコンの蛍胞子",
+            "en-us": "Luminescent Pollen",
+            "pt-pt": "Pólen fluorescente",
+            "vi-vn": "Bột Huỳnh Quang",
+            "zh-cn": "荧光孢粉",
+            "id-id": "Luminescent Pollen",
+            "th-th": "Luminescent Pollen",
+            "es-es": "Polen fluorescente"
+          }
+        },
+        {
+          "id": "mora",
+          "wiki_id": 757,
+          "amount": 30000,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "name": {
+            "fr-fr": "Mora",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "zh-tw": "摩拉",
+            "ko-kr": "모라",
+            "ja-jp": "モラ",
+            "en-us": "Mora",
+            "pt-pt": "Mora",
+            "vi-vn": "Mora",
+            "zh-cn": "摩拉",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "es-es": "Mora"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "fr-fr": "Niv.70",
+        "ru-ru": "Ур. 70",
+        "de-de": "St. 70",
+        "zh-tw": "Lv. 70",
+        "ko-kr": "Lv.70",
+        "ja-jp": "Lv.70",
+        "en-us": "Lv.70",
+        "pt-pt": "Nv.70",
+        "vi-vn": "Lv. 70",
+        "zh-cn": "Lv.70",
+        "id-id": "Lv. 70",
+        "th-th": "Lv.70",
+        "es-es": "Niv. 70"
+      },
+      "materials": [
+        {
+          "id": "dream_of_scorching_might",
+          "wiki_id": 2694,
+          "amount": 6,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/05/158750877/0f4da1fdc0aa6f58e698e290ec4e1302_1795122532968194654.png",
+          "name": {
+            "fr-fr": "Rêve dominant du pouvoir brûlant",
+            "ru-ru": "Грёзы пылающей мощи",
+            "de-de": "Traum der sengenden Macht",
+            "zh-tw": "烈日威權的夢想",
+            "ko-kr": "태양 같은 권위의 꿈",
+            "ja-jp": "烈日権威の夢想",
+            "en-us": "Dream of Scorching Might",
+            "pt-pt": "Sonho do Poder Escaldante",
+            "vi-vn": "Mơ Ước Của Ánh Nắng Quyền Uy",
+            "zh-cn": "烈日威权的梦想",
+            "id-id": "Dream of Scorching Might",
+            "th-th": "Dream of Scorching Might",
+            "es-es": "Sueño del poder del sol"
+          }
+        },
+        {
+          "id": "robust_fungal_nucleus",
+          "wiki_id": 2707,
+          "amount": 9,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/19/43281454/62e02c42934faf3a95ea660956681a61_8059193742430069598.png",
+          "name": {
+            "fr-fr": "Noyau fongique robuste",
+            "ru-ru": "Здоровое ядро плесенника",
+            "de-de": "Robustes Sklerotium",
+            "zh-tw": "茁壯菌核",
+            "ko-kr": "튼튼한 버섯핵",
+            "ja-jp": "キノコンの壮菌核",
+            "en-us": "Robust Fungal Nucleus",
+            "pt-pt": "Núcleo Fúngico Robusto",
+            "vi-vn": "Nhân Bào Nấm Hồi Phục",
+            "zh-cn": "茁壮菌核",
+            "id-id": "Robust Fungal Nucleus",
+            "th-th": "Robust Fungal Nucleus",
+            "es-es": "Núcleo fúngico robusto"
+          }
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "wiki_id": 613,
+          "amount": 5,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Crystalline%20Cyst%20Dust_icon.png",
+          "name": {
+            "fr-fr": "Poussière cristalline de sporange",
+            "ru-ru": "Пыль кристаллоцистов",
+            "de-de": "Kristalliner Zystenstaub",
+            "zh-tw": "孢囊晶塵",
+            "ko-kr": "포낭 결정 가루",
+            "ja-jp": "キノコンの晶胞子",
+            "en-us": "Crystalline Cyst Dust",
+            "pt-pt": "Poeira Cristalina de Cisto",
+            "vi-vn": "Bụi Tinh Thể",
+            "zh-cn": "孢囊晶尘",
+            "id-id": "Crystalline Cyst Dust",
+            "th-th": "Crystalline Cyst Dust",
+            "es-es": "Polvo quistecristalino"
+          }
+        },
+        {
+          "id": "mora",
+          "wiki_id": 757,
+          "amount": 35000,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "name": {
+            "fr-fr": "Mora",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "zh-tw": "摩拉",
+            "ko-kr": "모라",
+            "ja-jp": "モラ",
+            "en-us": "Mora",
+            "pt-pt": "Mora",
+            "vi-vn": "Mora",
+            "zh-cn": "摩拉",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "es-es": "Mora"
+          }
+        }
+      ]
+    },
+    {
+      "level": {
+        "fr-fr": "Niv.80",
+        "ru-ru": "Ур. 80",
+        "de-de": "St. 80",
+        "zh-tw": "Lv. 80",
+        "ko-kr": "Lv.80",
+        "ja-jp": "Lv.80",
+        "en-us": "Lv.80",
+        "pt-pt": "Nv.80",
+        "vi-vn": "Lv. 80",
+        "zh-cn": "Lv.80",
+        "id-id": "Lv. 80",
+        "th-th": "Lv.80",
+        "es-es": "Niv. 80"
+      },
+      "materials": [
+        {
+          "id": "olden_days_of_scorching_might",
+          "wiki_id": 2695,
+          "amount": 4,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/05/158750877/926dfd8c47c13abca0158294efe5751e_2746966384426399712.png",
+          "name": {
+            "fr-fr": "Passé glorieux du pouvoir brûlant",
+            "ru-ru": "Прошлое пылающей мощи",
+            "de-de": "Vergangenheit der sengenden Macht",
+            "zh-tw": "烈日威權的舊日",
+            "ko-kr": "태양 같은 권위의 과거",
+            "ja-jp": "烈日権威の往日",
+            "en-us": "Olden Days of Scorching Might",
+            "pt-pt": "Glória Passada do Poder Escaldante",
+            "vi-vn": "Quá Khứ Của Ánh Nắng Quyền Uy",
+            "zh-cn": "烈日威权的旧日",
+            "id-id": "Olden Days of Scorching Might",
+            "th-th": "Olden Days of Scorching Might",
+            "es-es": "Pasado del poder del sol"
+          }
+        },
+        {
+          "id": "robust_fungal_nucleus",
+          "wiki_id": 2707,
+          "amount": 18,
+          "iconUrl": "https://upload-static.hoyoverse.com/hoyolab-wiki/2022/09/19/43281454/62e02c42934faf3a95ea660956681a61_8059193742430069598.png",
+          "name": {
+            "fr-fr": "Noyau fongique robuste",
+            "ru-ru": "Здоровое ядро плесенника",
+            "de-de": "Robustes Sklerotium",
+            "zh-tw": "茁壯菌核",
+            "ko-kr": "튼튼한 버섯핵",
+            "ja-jp": "キノコンの壮菌核",
+            "en-us": "Robust Fungal Nucleus",
+            "pt-pt": "Núcleo Fúngico Robusto",
+            "vi-vn": "Nhân Bào Nấm Hồi Phục",
+            "zh-cn": "茁壮菌核",
+            "id-id": "Robust Fungal Nucleus",
+            "th-th": "Robust Fungal Nucleus",
+            "es-es": "Núcleo fúngico robusto"
+          }
+        },
+        {
+          "id": "crystalline_cyst_dust",
+          "wiki_id": 613,
+          "amount": 12,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Crystalline%20Cyst%20Dust_icon.png",
+          "name": {
+            "fr-fr": "Poussière cristalline de sporange",
+            "ru-ru": "Пыль кристаллоцистов",
+            "de-de": "Kristalliner Zystenstaub",
+            "zh-tw": "孢囊晶塵",
+            "ko-kr": "포낭 결정 가루",
+            "ja-jp": "キノコンの晶胞子",
+            "en-us": "Crystalline Cyst Dust",
+            "pt-pt": "Poeira Cristalina de Cisto",
+            "vi-vn": "Bụi Tinh Thể",
+            "zh-cn": "孢囊晶尘",
+            "id-id": "Crystalline Cyst Dust",
+            "th-th": "Crystalline Cyst Dust",
+            "es-es": "Polvo quistecristalino"
+          }
+        },
+        {
+          "id": "mora",
+          "wiki_id": 757,
+          "amount": 45000,
+          "iconUrl": "https://bbs.hoyolab.com/hoyowiki/picture/object/Mora_icon.png",
+          "name": {
+            "fr-fr": "Mora",
+            "ru-ru": "Мора",
+            "de-de": "Mora",
+            "zh-tw": "摩拉",
+            "ko-kr": "모라",
+            "ja-jp": "モラ",
+            "en-us": "Mora",
+            "pt-pt": "Mora",
+            "vi-vn": "Mora",
+            "zh-cn": "摩拉",
+            "id-id": "Mora",
+            "th-th": "Mora",
+            "es-es": "Mora"
+          }
+        }
+      ]
+    }
+  ],
   "attributes": [
     {
       "level": {
-        "pt-pt": "Nv.1",
-        "en-us": "Lv.1",
-        "ja-jp": "Lv.1",
-        "zh-cn": "Lv. 1",
-        "ko-kr": "Lv.1",
+        "fr-fr": "Niv.1",
         "ru-ru": "Ур. 1",
         "de-de": "St. 1",
-        "fr-fr": "Niv.1",
-        "es-es": "Niv. 1",
+        "zh-tw": "Lv. 1",
+        "ko-kr": "Lv.1",
+        "ja-jp": "Lv.1",
+        "en-us": "Lv.1",
+        "pt-pt": "Nv.1",
+        "vi-vn": "Lv. 1",
+        "zh-cn": "Lv. 1",
         "id-id": "Lv.  1",
         "th-th": "Lv.1",
-        "vi-vn": "Lv. 1",
-        "zh-tw": "Lv. 1"
+        "es-es": "Niv. 1"
       },
       "stats": [
         {
           "label": {
-            "pt-pt": "ATQ antes do avanço",
-            "en-us": "ATK before Ascension",
-            "ja-jp": "突破前攻撃力",
-            "zh-cn": "突破前攻击力",
-            "ko-kr": "돌파 전 공격력",
+            "fr-fr": "ATQ avant élévation",
             "ru-ru": "Сила атаки до возвышения",
             "de-de": "Angriff vor Aufstieg",
-            "fr-fr": "ATQ avant élévation",
-            "es-es": "ATQ antes de fortalecer",
+            "zh-tw": "突破前攻擊力",
+            "ko-kr": "돌파 전 공격력",
+            "ja-jp": "突破前攻撃力",
+            "en-us": "ATK before Ascension",
+            "pt-pt": "ATQ antes do avanço",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-cn": "突破前攻击力",
             "id-id": "ATK Sebelum Ascension",
             "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
-            "vi-vn": "Sức tấn công trước Đột Phá",
-            "zh-tw": "突破前攻擊力"
+            "es-es": "ATQ antes de fortalecer"
           },
           "preAscensionValue": null,
           "postAscensionValue": "42"
         },
         {
           "label": {
-            "pt-pt": "Recarga de Energia",
-            "en-us": "Energy Recharge",
-            "ja-jp": "元素チャージ効率",
-            "zh-cn": "元素充能效率",
-            "ko-kr": "원소 충전 효율",
+            "fr-fr": "Recharge d'énergie",
             "ru-ru": "Восст. энергии",
             "de-de": "Aufladerate",
-            "fr-fr": "Recharge d'énergie",
-            "es-es": "Recarga de energía",
+            "zh-tw": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ja-jp": "元素チャージ効率",
+            "en-us": "Energy Recharge",
+            "pt-pt": "Recarga de Energia",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-cn": "元素充能效率",
             "id-id": "Energy Recharge",
             "th-th": "การฟื้นฟูพลังงาน",
-            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
-            "zh-tw": "元素充能效率"
+            "es-es": "Recarga de energía"
           },
           "value": "10.0%"
         }
@@ -153,55 +772,55 @@
     },
     {
       "level": {
-        "pt-pt": "Nv.20",
-        "en-us": "Lv.20",
-        "ja-jp": "Lv.20",
-        "zh-cn": "Lv.20",
-        "ko-kr": "Lv.20",
+        "fr-fr": "Niv.20",
         "ru-ru": "Ур. 20",
         "de-de": "St. 20",
-        "fr-fr": "Niv.20",
-        "es-es": "Niv. 20",
+        "zh-tw": "Lv. 20",
+        "ko-kr": "Lv.20",
+        "ja-jp": "Lv.20",
+        "en-us": "Lv.20",
+        "pt-pt": "Nv.20",
+        "vi-vn": "Lv. 20",
+        "zh-cn": "Lv.20",
         "id-id": "Lv. 20",
         "th-th": "Lv.20",
-        "vi-vn": "Lv. 20",
-        "zh-tw": "Lv. 20"
+        "es-es": "Niv. 20"
       },
       "stats": [
         {
           "label": {
-            "pt-pt": "ATQ antes do avanço",
-            "en-us": "ATK before Ascension",
-            "ja-jp": "突破前攻撃力",
-            "zh-cn": "突破前攻击力",
-            "ko-kr": "돌파 전 공격력",
+            "fr-fr": "ATQ avant élévation",
             "ru-ru": "Сила атаки до возвышения",
             "de-de": "Angriff vor Aufstieg",
-            "fr-fr": "ATQ avant élévation",
-            "es-es": "ATQ antes de fortalecer",
+            "zh-tw": "突破前攻擊力",
+            "ko-kr": "돌파 전 공격력",
+            "ja-jp": "突破前攻撃力",
+            "en-us": "ATK before Ascension",
+            "pt-pt": "ATQ antes do avanço",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-cn": "突破前攻击力",
             "id-id": "ATK Sebelum Ascension",
             "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
-            "vi-vn": "Sức tấn công trước Đột Phá",
-            "zh-tw": "突破前攻擊力"
+            "es-es": "ATQ antes de fortalecer"
           },
           "preAscensionValue": "109",
           "postAscensionValue": "135"
         },
         {
           "label": {
-            "pt-pt": "Recarga de Energia",
-            "en-us": "Energy Recharge",
-            "ja-jp": "元素チャージ効率",
-            "zh-cn": "元素充能效率",
-            "ko-kr": "원소 충전 효율",
+            "fr-fr": "Recharge d'énergie",
             "ru-ru": "Восст. энергии",
             "de-de": "Aufladerate",
-            "fr-fr": "Recharge d'énergie",
-            "es-es": "Recarga de energía",
+            "zh-tw": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ja-jp": "元素チャージ効率",
+            "en-us": "Energy Recharge",
+            "pt-pt": "Recarga de Energia",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-cn": "元素充能效率",
             "id-id": "Energy Recharge",
             "th-th": "การฟื้นฟูพลังงาน",
-            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
-            "zh-tw": "元素充能效率"
+            "es-es": "Recarga de energía"
           },
           "value": "17.7%"
         }
@@ -209,55 +828,55 @@
     },
     {
       "level": {
-        "pt-pt": "Nv.40",
-        "en-us": "Lv.40",
-        "ja-jp": "Lv.40",
-        "zh-cn": "Lv.40",
-        "ko-kr": "Lv.40",
+        "fr-fr": "Niv.40",
         "ru-ru": "Ур. 40",
         "de-de": "St. 40",
-        "fr-fr": "Niv.40",
-        "es-es": "Niv. 40",
+        "zh-tw": "Lv. 40",
+        "ko-kr": "Lv.40",
+        "ja-jp": "Lv.40",
+        "en-us": "Lv.40",
+        "pt-pt": "Nv.40",
+        "vi-vn": "Lv. 40",
+        "zh-cn": "Lv.40",
         "id-id": "Lv. 40",
         "th-th": "Lv.40",
-        "vi-vn": "Lv. 40",
-        "zh-tw": "Lv. 40"
+        "es-es": "Niv. 40"
       },
       "stats": [
         {
           "label": {
-            "pt-pt": "ATQ antes do avanço",
-            "en-us": "ATK before Ascension",
-            "ja-jp": "突破前攻撃力",
-            "zh-cn": "突破前攻击力",
-            "ko-kr": "돌파 전 공격력",
+            "fr-fr": "ATQ avant élévation",
             "ru-ru": "Сила атаки до возвышения",
             "de-de": "Angriff vor Aufstieg",
-            "fr-fr": "ATQ avant élévation",
-            "es-es": "ATQ antes de fortalecer",
+            "zh-tw": "突破前攻擊力",
+            "ko-kr": "돌파 전 공격력",
+            "ja-jp": "突破前攻撃力",
+            "en-us": "ATK before Ascension",
+            "pt-pt": "ATQ antes do avanço",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-cn": "突破前攻击力",
             "id-id": "ATK Sebelum Ascension",
             "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
-            "vi-vn": "Sức tấn công trước Đột Phá",
-            "zh-tw": "突破前攻擊力"
+            "es-es": "ATQ antes de fortalecer"
           },
           "preAscensionValue": "205",
           "postAscensionValue": "231"
         },
         {
           "label": {
-            "pt-pt": "Recarga de Energia",
-            "en-us": "Energy Recharge",
-            "ja-jp": "元素チャージ効率",
-            "zh-cn": "元素充能效率",
-            "ko-kr": "원소 충전 효율",
+            "fr-fr": "Recharge d'énergie",
             "ru-ru": "Восст. энергии",
             "de-de": "Aufladerate",
-            "fr-fr": "Recharge d'énergie",
-            "es-es": "Recarga de energía",
+            "zh-tw": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ja-jp": "元素チャージ効率",
+            "en-us": "Energy Recharge",
+            "pt-pt": "Recarga de Energia",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-cn": "元素充能效率",
             "id-id": "Energy Recharge",
             "th-th": "การฟื้นฟูพลังงาน",
-            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
-            "zh-tw": "元素充能效率"
+            "es-es": "Recarga de energía"
           },
           "value": "25.8%"
         }
@@ -265,55 +884,55 @@
     },
     {
       "level": {
-        "pt-pt": "Nv.50",
-        "en-us": "Lv.50",
-        "ja-jp": "Lv.50",
-        "zh-cn": "Lv.50",
-        "ko-kr": "Lv.50",
+        "fr-fr": "Niv.50",
         "ru-ru": "Ур. 50",
         "de-de": "St. 50",
-        "fr-fr": "Niv.50",
-        "es-es": "Niv. 50",
+        "zh-tw": "Lv. 50",
+        "ko-kr": "Lv.50",
+        "ja-jp": "Lv.50",
+        "en-us": "Lv.50",
+        "pt-pt": "Nv.50",
+        "vi-vn": "Lv. 50",
+        "zh-cn": "Lv.50",
         "id-id": "Lv. 50",
         "th-th": "Lv.50",
-        "vi-vn": "Lv. 50",
-        "zh-tw": "Lv. 50"
+        "es-es": "Niv. 50"
       },
       "stats": [
         {
           "label": {
-            "pt-pt": "ATQ antes do avanço",
-            "en-us": "ATK before Ascension",
-            "ja-jp": "突破前攻撃力",
-            "zh-cn": "突破前攻击力",
-            "ko-kr": "돌파 전 공격력",
+            "fr-fr": "ATQ avant élévation",
             "ru-ru": "Сила атаки до возвышения",
             "de-de": "Angriff vor Aufstieg",
-            "fr-fr": "ATQ avant élévation",
-            "es-es": "ATQ antes de fortalecer",
+            "zh-tw": "突破前攻擊力",
+            "ko-kr": "돌파 전 공격력",
+            "ja-jp": "突破前攻撃力",
+            "en-us": "ATK before Ascension",
+            "pt-pt": "ATQ antes do avanço",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-cn": "突破前攻击力",
             "id-id": "ATK Sebelum Ascension",
             "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
-            "vi-vn": "Sức tấn công trước Đột Phá",
-            "zh-tw": "突破前攻擊力"
+            "es-es": "ATQ antes de fortalecer"
           },
           "preAscensionValue": "266",
           "postAscensionValue": "292"
         },
         {
           "label": {
-            "pt-pt": "Recarga de Energia",
-            "en-us": "Energy Recharge",
-            "ja-jp": "元素チャージ効率",
-            "zh-cn": "元素充能效率",
-            "ko-kr": "원소 충전 효율",
+            "fr-fr": "Recharge d'énergie",
             "ru-ru": "Восст. энергии",
             "de-de": "Aufladerate",
-            "fr-fr": "Recharge d'énergie",
-            "es-es": "Recarga de energía",
+            "zh-tw": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ja-jp": "元素チャージ効率",
+            "en-us": "Energy Recharge",
+            "pt-pt": "Recarga de Energia",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-cn": "元素充能效率",
             "id-id": "Energy Recharge",
             "th-th": "การฟื้นฟูพลังงาน",
-            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
-            "zh-tw": "元素充能效率"
+            "es-es": "Recarga de energía"
           },
           "value": "29.8%"
         }
@@ -321,55 +940,55 @@
     },
     {
       "level": {
-        "pt-pt": "Nv.60",
-        "en-us": "Lv.60",
-        "ja-jp": "Lv.60",
-        "zh-cn": "Lv.60",
-        "ko-kr": "Lv.60",
+        "fr-fr": "Niv.60",
         "ru-ru": "Ур. 60",
         "de-de": "St. 60",
-        "fr-fr": "Niv.60",
-        "es-es": "Niv. 60",
+        "zh-tw": "Lv. 60",
+        "ko-kr": "Lv.60",
+        "ja-jp": "Lv.60",
+        "en-us": "Lv.60",
+        "pt-pt": "Nv.60",
+        "vi-vn": "Lv. 60",
+        "zh-cn": "Lv.60",
         "id-id": "Lv. 60",
         "th-th": "Lv.60",
-        "vi-vn": "Lv. 60",
-        "zh-tw": "Lv. 60"
+        "es-es": "Niv. 60"
       },
       "stats": [
         {
           "label": {
-            "pt-pt": "ATQ antes do avanço",
-            "en-us": "ATK before Ascension",
-            "ja-jp": "突破前攻撃力",
-            "zh-cn": "突破前攻击力",
-            "ko-kr": "돌파 전 공격력",
+            "fr-fr": "ATQ avant élévation",
             "ru-ru": "Сила атаки до возвышения",
             "de-de": "Angriff vor Aufstieg",
-            "fr-fr": "ATQ avant élévation",
-            "es-es": "ATQ antes de fortalecer",
+            "zh-tw": "突破前攻擊力",
+            "ko-kr": "돌파 전 공격력",
+            "ja-jp": "突破前攻撃力",
+            "en-us": "ATK before Ascension",
+            "pt-pt": "ATQ antes do avanço",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-cn": "突破前攻击力",
             "id-id": "ATK Sebelum Ascension",
             "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
-            "vi-vn": "Sức tấn công trước Đột Phá",
-            "zh-tw": "突破前攻擊力"
+            "es-es": "ATQ antes de fortalecer"
           },
           "preAscensionValue": "327",
           "postAscensionValue": "353"
         },
         {
           "label": {
-            "pt-pt": "Recarga de Energia",
-            "en-us": "Energy Recharge",
-            "ja-jp": "元素チャージ効率",
-            "zh-cn": "元素充能效率",
-            "ko-kr": "원소 충전 효율",
+            "fr-fr": "Recharge d'énergie",
             "ru-ru": "Восст. энергии",
             "de-de": "Aufladerate",
-            "fr-fr": "Recharge d'énergie",
-            "es-es": "Recarga de energía",
+            "zh-tw": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ja-jp": "元素チャージ効率",
+            "en-us": "Energy Recharge",
+            "pt-pt": "Recarga de Energia",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-cn": "元素充能效率",
             "id-id": "Energy Recharge",
             "th-th": "การฟื้นฟูพลังงาน",
-            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
-            "zh-tw": "元素充能效率"
+            "es-es": "Recarga de energía"
           },
           "value": "33.8%"
         }
@@ -377,55 +996,55 @@
     },
     {
       "level": {
-        "pt-pt": "Nv.70",
-        "en-us": "Lv.70",
-        "ja-jp": "Lv.70",
-        "zh-cn": "Lv.70",
-        "ko-kr": "Lv.70",
+        "fr-fr": "Niv.70",
         "ru-ru": "Ур. 70",
         "de-de": "St. 70",
-        "fr-fr": "Niv.70",
-        "es-es": "Niv. 70",
+        "zh-tw": "Lv. 70",
+        "ko-kr": "Lv.70",
+        "ja-jp": "Lv.70",
+        "en-us": "Lv.70",
+        "pt-pt": "Nv.70",
+        "vi-vn": "Lv. 70",
+        "zh-cn": "Lv.70",
         "id-id": "Lv. 70",
         "th-th": "Lv.70",
-        "vi-vn": "Lv. 70",
-        "zh-tw": "Lv. 70"
+        "es-es": "Niv. 70"
       },
       "stats": [
         {
           "label": {
-            "pt-pt": "ATQ antes do avanço",
-            "en-us": "ATK before Ascension",
-            "ja-jp": "突破前攻撃力",
-            "zh-cn": "突破前攻击力",
-            "ko-kr": "돌파 전 공격력",
+            "fr-fr": "ATQ avant élévation",
             "ru-ru": "Сила атаки до возвышения",
             "de-de": "Angriff vor Aufstieg",
-            "fr-fr": "ATQ avant élévation",
-            "es-es": "ATQ antes de fortalecer",
+            "zh-tw": "突破前攻擊力",
+            "ko-kr": "돌파 전 공격력",
+            "ja-jp": "突破前攻撃力",
+            "en-us": "ATK before Ascension",
+            "pt-pt": "ATQ antes do avanço",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-cn": "突破前攻击力",
             "id-id": "ATK Sebelum Ascension",
             "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
-            "vi-vn": "Sức tấn công trước Đột Phá",
-            "zh-tw": "突破前攻擊力"
+            "es-es": "ATQ antes de fortalecer"
           },
           "preAscensionValue": "388",
           "postAscensionValue": "414"
         },
         {
           "label": {
-            "pt-pt": "Recarga de Energia",
-            "en-us": "Energy Recharge",
-            "ja-jp": "元素チャージ効率",
-            "zh-cn": "元素充能效率",
-            "ko-kr": "원소 충전 효율",
+            "fr-fr": "Recharge d'énergie",
             "ru-ru": "Восст. энергии",
             "de-de": "Aufladerate",
-            "fr-fr": "Recharge d'énergie",
-            "es-es": "Recarga de energía",
+            "zh-tw": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ja-jp": "元素チャージ効率",
+            "en-us": "Energy Recharge",
+            "pt-pt": "Recarga de Energia",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-cn": "元素充能效率",
             "id-id": "Energy Recharge",
             "th-th": "การฟื้นฟูพลังงาน",
-            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
-            "zh-tw": "元素充能效率"
+            "es-es": "Recarga de energía"
           },
           "value": "37.9%"
         }
@@ -433,55 +1052,55 @@
     },
     {
       "level": {
-        "pt-pt": "Nv.80",
-        "en-us": "Lv.80",
-        "ja-jp": "Lv.80",
-        "zh-cn": "Lv.80",
-        "ko-kr": "Lv.80",
+        "fr-fr": "Niv.80",
         "ru-ru": "Ур. 80",
         "de-de": "St. 80",
-        "fr-fr": "Niv.80",
-        "es-es": "Niv. 80",
+        "zh-tw": "Lv. 80",
+        "ko-kr": "Lv.80",
+        "ja-jp": "Lv.80",
+        "en-us": "Lv.80",
+        "pt-pt": "Nv.80",
+        "vi-vn": "Lv. 80",
+        "zh-cn": "Lv.80",
         "id-id": "Lv. 80",
         "th-th": "Lv.80",
-        "vi-vn": "Lv. 80",
-        "zh-tw": "Lv. 80"
+        "es-es": "Niv. 80"
       },
       "stats": [
         {
           "label": {
-            "pt-pt": "ATQ antes do avanço",
-            "en-us": "ATK before Ascension",
-            "ja-jp": "突破前攻撃力",
-            "zh-cn": "突破前攻击力",
-            "ko-kr": "돌파 전 공격력",
+            "fr-fr": "ATQ avant élévation",
             "ru-ru": "Сила атаки до возвышения",
             "de-de": "Angriff vor Aufstieg",
-            "fr-fr": "ATQ avant élévation",
-            "es-es": "ATQ antes de fortalecer",
+            "zh-tw": "突破前攻擊力",
+            "ko-kr": "돌파 전 공격력",
+            "ja-jp": "突破前攻撃力",
+            "en-us": "ATK before Ascension",
+            "pt-pt": "ATQ antes do avanço",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-cn": "突破前攻击力",
             "id-id": "ATK Sebelum Ascension",
             "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
-            "vi-vn": "Sức tấn công trước Đột Phá",
-            "zh-tw": "突破前攻擊力"
+            "es-es": "ATQ antes de fortalecer"
           },
           "preAscensionValue": "449",
           "postAscensionValue": "475"
         },
         {
           "label": {
-            "pt-pt": "Recarga de Energia",
-            "en-us": "Energy Recharge",
-            "ja-jp": "元素チャージ効率",
-            "zh-cn": "元素充能效率",
-            "ko-kr": "원소 충전 효율",
+            "fr-fr": "Recharge d'énergie",
             "ru-ru": "Восст. энергии",
             "de-de": "Aufladerate",
-            "fr-fr": "Recharge d'énergie",
-            "es-es": "Recarga de energía",
+            "zh-tw": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ja-jp": "元素チャージ効率",
+            "en-us": "Energy Recharge",
+            "pt-pt": "Recarga de Energia",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-cn": "元素充能效率",
             "id-id": "Energy Recharge",
             "th-th": "การฟื้นฟูพลังงาน",
-            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
-            "zh-tw": "元素充能效率"
+            "es-es": "Recarga de energía"
           },
           "value": "41.9%"
         }
@@ -489,59 +1108,60 @@
     },
     {
       "level": {
-        "pt-pt": "Nv.90",
-        "en-us": "Lv.90",
-        "ja-jp": "Lv.90",
-        "zh-cn": "Lv.90",
-        "ko-kr": "Lv.90",
+        "fr-fr": "Niv.90",
         "ru-ru": "Ур. 90",
         "de-de": "St. 90",
-        "fr-fr": "Niv.90",
-        "es-es": "Niv. 90",
+        "zh-tw": "Lv. 90",
+        "ko-kr": "Lv.90",
+        "ja-jp": "Lv.90",
+        "en-us": "Lv.90",
+        "pt-pt": "Nv.90",
+        "vi-vn": "Lv. 90",
+        "zh-cn": "Lv.90",
         "id-id": "Lv. 90",
         "th-th": "Lv.90",
-        "vi-vn": "Lv. 90",
-        "zh-tw": "Lv. 90"
+        "es-es": "Niv. 90"
       },
       "stats": [
         {
           "label": {
-            "pt-pt": "ATQ antes do avanço",
-            "en-us": "ATK before Ascension",
-            "ja-jp": "突破前攻撃力",
-            "zh-cn": "突破前攻击力",
-            "ko-kr": "돌파 전 공격력",
+            "fr-fr": "ATQ avant élévation",
             "ru-ru": "Сила атаки до возвышения",
             "de-de": "Angriff vor Aufstieg",
-            "fr-fr": "ATQ avant élévation",
-            "es-es": "ATQ antes de fortalecer",
+            "zh-tw": "突破前攻擊力",
+            "ko-kr": "돌파 전 공격력",
+            "ja-jp": "突破前攻撃力",
+            "en-us": "ATK before Ascension",
+            "pt-pt": "ATQ antes do avanço",
+            "vi-vn": "Sức tấn công trước Đột Phá",
+            "zh-cn": "突破前攻击力",
             "id-id": "ATK Sebelum Ascension",
             "th-th": "พลังโจมตีก่อนเลื่อนขั้น",
-            "vi-vn": "Sức tấn công trước Đột Phá",
-            "zh-tw": "突破前攻擊力"
+            "es-es": "ATQ antes de fortalecer"
           },
           "preAscensionValue": "510",
           "postAscensionValue": null
         },
         {
           "label": {
-            "pt-pt": "Recarga de Energia",
-            "en-us": "Energy Recharge",
-            "ja-jp": "元素チャージ効率",
-            "zh-cn": "元素充能效率",
-            "ko-kr": "원소 충전 효율",
+            "fr-fr": "Recharge d'énergie",
             "ru-ru": "Восст. энергии",
             "de-de": "Aufladerate",
-            "fr-fr": "Recharge d'énergie",
-            "es-es": "Recarga de energía",
+            "zh-tw": "元素充能效率",
+            "ko-kr": "원소 충전 효율",
+            "ja-jp": "元素チャージ効率",
+            "en-us": "Energy Recharge",
+            "pt-pt": "Recarga de Energia",
+            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
+            "zh-cn": "元素充能效率",
             "id-id": "Energy Recharge",
             "th-th": "การฟื้นฟูพลังงาน",
-            "vi-vn": "Hiệu Quả Nạp Nguyên Tố",
-            "zh-tw": "元素充能效率"
+            "es-es": "Recarga de energía"
           },
           "value": "45.9%"
         }
       ]
     }
-  ]
+  ],
+  "localIconUrl": "images/end_of_the_line.png"
 }

@@ -92,6 +92,27 @@ def validate_file(filepath):
     if 'ascensionMaterials' in data and not isinstance(data['ascensionMaterials'], list):
         errors.append("'ascensionMaterials' deveria ser uma lista (list).")
 
+    # --- NOVAS VERIFICAÇÕES MESCLADAS ---
+
+    # Verificação 5: Lista de materiais de ascensão vazia (para armas de raridade > 2)
+    if not data.get('ascensionMaterials'):
+        # Só reporta como erro se a raridade for maior que 2, pois armas de 1 e 2 estrelas podem não ter ascensão.
+        if data.get('rarity', 0) > 2:
+            errors.append(
+                "A lista 'ascensionMaterials' está vazia, mas a arma parece ser de raridade alta.")
+
+    # Verificação 6: 'iconUrl' nulo dentro da lista de materiais
+    # O 'if ascension_materials :=' atribui e verifica se a lista não é nula/vazia de uma só vez
+    if ascension_materials := data.get('ascensionMaterials'):
+        for i, level_group in enumerate(ascension_materials):
+            for material in level_group.get('materials', []):
+                if not material.get('iconUrl'):
+                    # Pega o nome em inglês para o log, ou a ID se o nome não estiver disponível
+                    mat_name = material.get('name', {}).get(
+                        'en-us', f"ID {material.get('id')}")
+                    errors.append(
+                        f"Material de Ascensão '{mat_name}' está com iconUrl nulo ou ausente.")
+
     return errors
 
 # --- SCRIPT PRINCIPAL ---
@@ -101,7 +122,7 @@ def main():
     """
     Função principal que executa o processo de validação.
     """
-    print("Iniciando validação dos arquivos JSON...")
+    print("Iniciando validação dos arquivos JSON de ARMAS...")
     all_errors = {}
 
     if not os.path.isdir(TARGET_DIRECTORY):
@@ -117,7 +138,7 @@ def main():
 
     print("-" * 50)
     if not all_errors:
-        print("✅ Validação concluída! Nenhum erro encontrado. Todos os arquivos estão OK!")
+        print("✅ Validação de armas concluída! Nenhum erro encontrado.")
     else:
         print(
             f"🚨 Validação concluída! Foram encontrados problemas em {len(all_errors)} arquivo(s):")
